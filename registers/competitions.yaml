@@ -712,7 +712,7 @@
   official_solutions: true
   languages: [en]
   copyright: Copyright MAA.
-  sources: [maa-amc, aops-wiki, hf-aops-wiki, minif2f-v2]
+  sources: [maa-amc, aops-wiki, hf-aops-wiki, hf-amc12-full, minif2f-v2]
   description: A multiple choice contest of 25 problems for high school students, with papers A and B. About 10 to 15 problems of each paper are shared with the AMC 10.
 
 - code: aime

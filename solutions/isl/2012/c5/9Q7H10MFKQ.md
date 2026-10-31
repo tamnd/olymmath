@@ -1,0 +1,14 @@
+---
+tag: 9Q7H10MFKQ
+kind: solution
+problem: AY4E4CZ2BD
+origin: official
+author:
+  display: the IMO Problem Selection Committee
+source: imo-official
+url: https://www.imo-official.org/assets/documents/problems/2012/IMO2012SL.pdf#page=24
+capture: 22b018a851a4b17a628563964a02649db15052d523d5371e0dbe42b537ef119d
+zone: Z2
+lang: en
+complete: true
+---

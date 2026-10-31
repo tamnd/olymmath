@@ -1,0 +1,14 @@
+---
+tag: K7BEGK1DH8
+kind: solution
+problem: 5RWD3WX5YS
+origin: official
+author:
+  display: the IMO Problem Selection Committee
+source: imo-official
+url: https://www.imo-official.org/assets/documents/problems/2012/IMO2012SL.pdf#page=34
+capture: 22b018a851a4b17a628563964a02649db15052d523d5371e0dbe42b537ef119d
+zone: Z2
+lang: en
+complete: true
+---

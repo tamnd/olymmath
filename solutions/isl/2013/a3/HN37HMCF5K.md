@@ -1,0 +1,14 @@
+---
+tag: HN37HMCF5K
+kind: solution
+problem: 6MFK5KJ4WG
+origin: official
+author:
+  display: the IMO Problem Selection Committee
+source: imo-official
+url: https://www.imo-official.org/assets/documents/problems/2013/IMO2013SL.pdf#page=12
+capture: 4ea75d998c6d67962c59011b8f8c81da253b0090dfef2d003e80cf2fc0e5468b
+zone: Z2
+lang: en
+complete: true
+---

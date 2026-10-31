@@ -1536,8 +1536,10 @@
 - id: kalva
   name: Kalva (prase.cz mirror)
   kind: curated
-  origin: H2
+  origin: H3
   url: https://prase.cz/kalva/
+  crawl_delay: 3
+  reworded: true
   access: html
   zone:
     statement: Z2
@@ -1545,8 +1547,8 @@
   ai_train: unknown
   size: about 4,100 problems, 2,300 with solutions
   wave: 2
-  state: planned
-  notes: Second source for old IMO, USAMO, Putnam and APMO problems.
+  state: active
+  notes: Second source for old IMO, USAMO, APMO and Vietnam problems. John Scholes changed the wording of each problem on purpose, but not the substance, so the texts are H3 and not transcriptions. The mirror has only the IMO, the shortlist, the Putnam, the AIME, the APMO, the IMC, the USAMO, the All-Russian and the Vietnam pages.
 
 - id: komal
   name: KöMaL

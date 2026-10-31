@@ -29,6 +29,7 @@
   organizer: IMO Board
   url: https://www.imo-official.org/problems.aspx
   edition_form: year
+  topic_positions: true
   official_solutions: true
   languages: [en]
   copyright: Embargoed until the next IMO.
@@ -233,6 +234,7 @@
   level: high-school
   first_year: 2007
   edition_form: year
+  topic_positions: true
   official_solutions: true
   languages: [en]
   sources: [imogeometry-blog]
@@ -258,6 +260,7 @@
   level: junior
   first_year: 2000
   edition_form: year
+  topic_positions: true
   official_solutions: true
   languages: [en]
   sources: [hf-numina-olympiads, imogeometry-blog]

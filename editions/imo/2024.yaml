@@ -1,0 +1,15 @@
+year: 2024
+number: 65
+place: Bath
+country: United Kingdom
+url: https://www.imo-official.org/assets/documents/problems/2024/2024_eng.pdf
+language: English
+papers:
+  - name: Day 1
+    date: 2024-07-16
+    time: 4 hours and 30 minutes
+    problems: [p1, p2, p3]
+  - name: Day 2
+    date: 2024-07-17
+    time: 4 hours and 30 minutes
+    problems: [p4, p5, p6]

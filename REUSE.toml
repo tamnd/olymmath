@@ -18,3 +18,10 @@ path = [".github/**", "scripts/**", "wrangler.jsonc"]
 precedence = "override"
 SPDX-FileCopyrightText = "2026 the olymmath contributors"
 SPDX-License-Identifier = "Apache-2.0"
+
+# The statements of the problems are quoted from their sources. The front matter of each file names the source.
+[[annotations]]
+path = "problems/**"
+precedence = "override"
+SPDX-FileCopyrightText = "the holders named in the source of each file"
+SPDX-License-Identifier = "LicenseRef-Quoted"

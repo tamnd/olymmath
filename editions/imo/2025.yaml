@@ -1,0 +1,15 @@
+year: 2025
+number: 66
+place: Sunshine Coast
+country: Australia
+url: https://www.imo-official.org/assets/documents/problems/2025/2025_eng.pdf
+language: English
+papers:
+  - name: Day 1
+    date: 2025-07-15
+    time: 4 hours and 30 minutes
+    problems: [p1, p2, p3]
+  - name: Day 2
+    date: 2025-07-16
+    time: 4 hours and 30 minutes
+    problems: [p4, p5, p6]

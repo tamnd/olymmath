@@ -1,0 +1,20 @@
+version = 1
+
+# The default for paths that a more specific entry does not cover.
+[[annotations]]
+path = "**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 the olymmath contributors"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = ["solutions/**", "README.md", "CONTRIBUTING.md"]
+precedence = "override"
+SPDX-FileCopyrightText = "2026 the olymmath contributors"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = [".github/**", "scripts/**", "wrangler.jsonc"]
+precedence = "override"
+SPDX-FileCopyrightText = "2026 the olymmath contributors"
+SPDX-License-Identifier = "Apache-2.0"

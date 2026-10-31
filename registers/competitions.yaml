@@ -1159,6 +1159,9 @@
   url: https://www.irmo.ie/problems.html
   first_year: 1988
   edition_form: year
+  layout:
+    - {paper: paper1, name: Paper 1, positions: [p1, p2, p3, p4, p5]}
+    - {paper: paper2, name: Paper 2, positions: [p6, p7, p8, p9, p10]}
   per_year: 10
   languages: [en]
   copyright: None stated.

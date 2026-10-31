@@ -1,0 +1,14 @@
+---
+tag: GTBHFK74ZW
+kind: solution
+problem: 8J5B96BKH5
+origin: human
+author:
+  display: Kiran Kedlaya and Lenny Ng
+source: kedlaya-putnam
+url: https://kskedlaya.org/putnam-archive/2019s.pdf
+capture: ddfb24f6dcb1a1bb3a8fa34091cc967db45111f0202d860fd29a6b1764406d4e
+zone: Z3
+lang: en
+complete: true
+---

@@ -1,0 +1,14 @@
+---
+tag: BBF2C1GP63
+kind: solution
+problem: DPNE4EA6EB
+origin: human
+author:
+  display: Manjul Bhargava, Kiran Kedlaya and Lenny Ng
+source: kedlaya-putnam
+url: https://kskedlaya.org/putnam-archive/2000s.pdf
+capture: b1b2a0343e8f188f373d5f33b98ebc60cf2e46716367b2699c629d547ff87901
+zone: Z3
+lang: en
+complete: true
+---

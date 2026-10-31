@@ -1,0 +1,14 @@
+---
+tag: P2F4RKAPW8
+kind: solution
+problem: 2GX14Z6TZ4
+origin: human
+author:
+  display: Kiran Kedlaya and Lenny Ng
+source: kedlaya-putnam
+url: https://kskedlaya.org/putnam-archive/2010s.pdf
+capture: 5b8ef07c50042ca9250bba5ded668d77a6c73f7c917b61d11295a6e611ad838a
+zone: Z3
+lang: en
+complete: true
+---

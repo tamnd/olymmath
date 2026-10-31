@@ -1,0 +1,14 @@
+---
+tag: 4JTYSYDC2R
+kind: solution
+problem: 9PXBSM1W45
+origin: human
+author:
+  display: Kiran Kedlaya and Lenny Ng
+source: kedlaya-putnam
+url: https://kskedlaya.org/putnam-archive/2011s.pdf
+capture: 3db6b68752988fc685f3cd15e8aeb78649630bad4c3b40bc1c9bec6c20b7e701
+zone: Z3
+lang: en
+complete: true
+---

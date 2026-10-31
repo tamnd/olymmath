@@ -14,6 +14,7 @@
   size: 27,817 HF rows; 30,676 in the paper
   wave: 0
   state: planned
+  terms: The dataset card gives the MIT licence and the paper gives CC BY 4.0. The texts come from national olympiad booklets, so the source of each booklet is cited.
   notes: Official-booklet statements from 47 countries and 143 competitions. Each item keeps the copyright of its competition.
 
 - id: hf-numina-olympiads
@@ -60,6 +61,7 @@
   size: 80,661 rows
   wave: 0
   state: planned
+  terms: The dataset card states no licence. The texts are AoPS forum posts, so each statement keeps the link to its AoPS topic.
   notes: AoPS contest collection threads with metadata.path (the c13 tree). It is the de facto index of AoPS.
 
 - id: hf-numinamath-1-5

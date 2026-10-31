@@ -2085,6 +2085,10 @@
   level: high-school
   country: ID
   edition_form: year
+  layout:
+    - {paper: day1, name: Day 1, positions: [p1, p2, p3, p4]}
+    - {paper: day2, name: Day 2, positions: [p5, p6, p7, p8]}
+  per_year: 8
   languages: [id]
   sources: [hf-indonesian-olympiad]
   description: The mathematics section of the Indonesian national science olympiad. No official archive has been found.

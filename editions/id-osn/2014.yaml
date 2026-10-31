@@ -1,0 +1,6 @@
+year: 2014
+papers:
+  - name: Day 1
+    problems: [p1, p2, p3, p4]
+  - name: Day 2
+    problems: [p5, p6, p7, p8]

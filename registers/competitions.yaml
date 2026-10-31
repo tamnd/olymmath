@@ -1001,6 +1001,7 @@
   url: https://www.obm.org.br/como-se-preparar/provas-e-gabaritos/
   first_year: 1979
   edition_form: year
+  per_year: 6
   official_solutions: true
   languages: [pt]
   sources: [obm, hf-mathnet]
@@ -1173,6 +1174,7 @@
   url: https://www.mathematik-olympiaden.de/
   first_year: 1961
   edition_form: year
+  per_year: 6
   languages: [de]
   copyright: Linking is allowed with the permission of the Verein. Solutions from the 35th MO are not to be republished.
   sources: [mathematik-olympiaden, imomath]
@@ -1379,6 +1381,8 @@
   group: national
   level: high-school
   country: SE
+  edition_form: year
+  per_year: 6
   languages: [sv]
   sources: [kalva]
   description: The national olympiad of Sweden.
@@ -1485,6 +1489,7 @@
   url: https://om.sem.edu.pl/problems/
   first_year: 1950
   edition_form: year
+  per_year: 6
   official_solutions: true
   languages: [pl]
   sources: [om-sem, imomath, hf-mathnet]
@@ -1573,6 +1578,7 @@
   country: BG
   url: https://www.math.bas.bg/bcmi/
   edition_form: year
+  per_year: 6
   languages: [bg]
   sources: [math-bas-bg, imomath]
   description: The national olympiad and team selection test of Bulgaria.
@@ -1919,6 +1925,8 @@
   country: JP
   url: https://www.imojp.org/domestic/jmo_overview.html
   edition_form: year
+  first_year: 1991
+  per_year: 5
   official_solutions: false
   languages: [ja]
   sources: [imojp]
@@ -1948,6 +1956,7 @@
   organizer: KMS
   url: https://www.kmo.or.kr/
   edition_form: year
+  per_year: 8
   languages: [ko]
   sources: [kms, hf-hrm8k, hf-mathnet]
   description: The Korean olympiad with a preliminary round of 20 problems and a final round (FKMO) of 8 problems.
@@ -2000,6 +2009,7 @@
   organizer: Ministry of Education
   first_year: 1962
   edition_form: year
+  per_year: 6
   languages: [vi]
   sources: [imomath]
   description: The national olympiad of Vietnam with six or seven problems. The ministry publishes the papers with grading guides from 2022.
@@ -2023,6 +2033,7 @@
   url: https://sms.math.nus.edu.sg/
   first_year: 1995
   edition_form: year
+  per_year: 5
   languages: [en]
   sources: [sms-smo]
   description: The Singapore olympiad in junior, senior and open sections, with a second round for the open section. Its archive is not confirmed.
@@ -2033,6 +2044,8 @@
   level: high-school
   country: TH
   edition_form: year
+  first_year: 2004
+  per_year: 10
   languages: [th]
   sources: [hf-mathnet]
   description: The national olympiad of Thailand. MathNet covers the years 2007 to 2017.
@@ -2305,6 +2318,7 @@
   country: TR
   url: https://bilimolimpiyatlari.tubitak.gov.tr/
   edition_form: year
+  per_year: 6
   languages: [tr]
   sources: [tubitak, hf-tubitak]
   description: The Turkish olympiad and team selection test, run by TÜBİTAK. The first-round papers are online.

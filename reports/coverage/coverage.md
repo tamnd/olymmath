@@ -6,7 +6,7 @@ This report is made by `om coverage`. The register gives the expected positions 
 
 | Expected | C0 | C1 | C2 | Candidate | No candidate | Located seed rows |
 |---:|---:|---:|---:|---:|---:|---:|
-| 14605 | 0.1% | 0.1% | 0.1% | 7219 (49.4%) | 7368 (50.4%) | 141461 |
+| 17935 | 32.2% | 3.5% | 0.8% | 3561 (19.9%) | 8594 (47.9%) | 139009 |
 
 ## Sources
 
@@ -22,17 +22,18 @@ This report is made by `om coverage`. The register gives the expected positions 
 | hf-mathnet | 55634 | 34782 (62.5%) | 0 | 6014 |
 | hf-mathodyssey | 389 | 0 (0.0%) | 0 | 389 |
 | hf-nemotron-imo-bench | 200 | 0 (0.0%) | 0 | 200 |
-| hf-numina-olympiads | 13087 | 11949 (91.3%) | 11819 | 1094 |
-| hf-numina-olympiads-ref | 13087 | 11949 (91.3%) | 11819 | 1094 |
+| hf-numina-olympiads | 13087 | 10989 (84.0%) | 10859 | 2054 |
+| hf-numina-olympiads-ref | 13087 | 10989 (84.0%) | 10859 | 2054 |
 | hf-numinamath-1-5 | 315736 | 0 (0.0%) | 0 | 315736 |
 | hf-olymmath-ruc | 400 | 0 (0.0%) | 0 | 400 |
 | hf-olympiadbench | 2133 | 0 (0.0%) | 0 | 2133 |
 | hf-omni-math | 4428 | 3545 (80.1%) | 0 | 697 |
 | hf-polymath | 9000 | 0 (0.0%) | 0 | 9000 |
 | hf-putnam-1995-2025 | 372 | 372 (100.0%) | 372 | 0 |
-| hf-putnam-axiom | 1122 | 1122 (100.0%) | 594 | 0 |
+| hf-putnam-axiom | 100 | 100 (100.0%) | 99 | 0 |
 | hf-putnamgap | 1051 | 1051 (100.0%) | 0 | 0 |
 | hf-tubitak | 1270 | 671 (52.8%) | 0 | 599 |
+| kedlaya-putnam | 490 | 490 (100.0%) | 490 | 0 |
 
 ## Competitions
 
@@ -40,7 +41,7 @@ The order is the order of the register. A competition with no shape in the regis
 
 | Code | Competition | Expected | C0 | C1 | C2 | Candidate | No candidate | Seed rows |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| imo | International Mathematical Olympiad | 408 | 4.4% | 4.4% | 4.4% | 390 | 0 | 3324 |
+| imo | International Mathematical Olympiad | 408 | 81.9% | 35.0% | 35.0% | 63 | 11 | 1404 |
 | isl | IMO Shortlist | no shape | - | - | - | 0 | 0 | 7063 |
 | igo | Iranian Geometry Olympiad | 195 | 0.0% | 0.0% | 0.0% | 45 | 150 | 289 |
 | kangaroo | Mathematical Kangaroo | no shape | - | - | - | 0 | 0 | 0 |
@@ -54,22 +55,22 @@ The order is the order of the register. A competition with no shape in the regis
 | elmo | ELMO | 168 | 0.0% | 0.0% | 0.0% | 85 | 83 | 695 |
 | olympic-revenge | Olympic Revenge | 150 | 0.0% | 0.0% | 0.0% | 0 | 150 | 159 |
 | duel | Mathematical Duel | no shape | - | - | - | 0 | 0 | 0 |
-| egmo | European Girls' Mathematical Olympiad | 90 | 0.0% | 0.0% | 0.0% | 83 | 7 | 750 |
-| balkan | Balkan Mathematical Olympiad | 172 | 0.0% | 0.0% | 0.0% | 164 | 8 | 859 |
+| egmo | European Girls' Mathematical Olympiad | 90 | 84.4% | 0.0% | 0.0% | 7 | 7 | 750 |
+| balkan | Balkan Mathematical Olympiad | 172 | 41.3% | 0.0% | 0.0% | 93 | 8 | 859 |
 | balkan-sl | Balkan MO Shortlist | no shape | - | - | - | 0 | 0 | 1055 |
-| jbmo | Junior Balkan Mathematical Olympiad | 120 | 0.0% | 0.0% | 0.0% | 106 | 14 | 766 |
+| jbmo | Junior Balkan Mathematical Olympiad | 120 | 31.7% | 0.0% | 0.0% | 68 | 14 | 766 |
 | jbmo-sl | JBMO Shortlist | no shape | - | - | - | 0 | 0 | 1736 |
-| baltic-way | Baltic Way | 740 | 0.0% | 0.0% | 0.0% | 692 | 48 | 4443 |
+| baltic-way | Baltic Way | 740 | 80.1% | 0.0% | 0.0% | 99 | 48 | 4443 |
 | memo | Middle European Mathematical Olympiad | 240 | 0.0% | 0.0% | 0.0% | 109 | 131 | 629 |
 | austrian-polish | Austrian-Polish Mathematics Competition | no shape | - | - | - | 0 | 0 | 520 |
-| rmm | Romanian Master of Mathematics | 114 | 0.0% | 0.0% | 0.0% | 86 | 28 | 503 |
-| nordic | Nordic Mathematical Contest | 160 | 0.0% | 0.0% | 0.0% | 150 | 10 | 666 |
-| benelux | Benelux Mathematical Olympiad | 72 | 0.0% | 0.0% | 0.0% | 68 | 4 | 495 |
+| rmm | Romanian Master of Mathematics | 114 | 63.2% | 0.0% | 0.0% | 14 | 28 | 503 |
+| nordic | Nordic Mathematical Contest | 160 | 80.6% | 0.0% | 0.0% | 21 | 10 | 666 |
+| benelux | Benelux Mathematical Olympiad | 72 | 83.3% | 0.0% | 0.0% | 8 | 4 | 495 |
 | caps | Czech-Austrian-Polish-Slovak Match | no shape | - | - | - | 0 | 0 | 339 |
 | kurschak | Kürschák Competition | 399 | 0.0% | 0.0% | 0.0% | 225 | 174 | 594 |
 | francophone | Olympiade Francophone de Mathématiques | 56 | 0.0% | 0.0% | 0.0% | 0 | 56 | 16 |
 | caucasus | Caucasus Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 292 |
-| apmo | Asian Pacific Mathematics Olympiad | 190 | 0.0% | 0.0% | 0.0% | 185 | 5 | 1087 |
+| apmo | Asian Pacific Mathematics Olympiad | 190 | 78.9% | 0.0% | 0.0% | 35 | 5 | 1087 |
 | gulf | Gulf Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 53 |
 | arab | Arab Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 0 |
 | ibero | Iberoamerican Mathematical Olympiad | 252 | 0.0% | 0.0% | 0.0% | 138 | 114 | 932 |
@@ -79,7 +80,7 @@ The order is the order of the register. A competition with no shape in the regis
 | rioplatense | Olimpiada Rioplatense | no shape | - | - | - | 0 | 0 | 748 |
 | lusophon | Lusophon Mathematical Olympiad | 96 | 0.0% | 0.0% | 0.0% | 56 | 40 | 154 |
 | pamo | Pan-African Mathematics Olympiad | 240 | 0.0% | 0.0% | 0.0% | 87 | 153 | 277 |
-| putnam | William Lowell Putnam Mathematical Competition | 1068 | 0.0% | 0.0% | 0.0% | 808 | 260 | 4124 |
+| putnam | William Lowell Putnam Mathematical Competition | 1068 | 48.4% | 44.8% | 0.0% | 356 | 195 | 3592 |
 | imc | International Mathematics Competition for University Students | 330 | 0.0% | 0.0% | 0.0% | 165 | 165 | 653 |
 | seemous | South Eastern European Mathematical Olympiad for University Students | no shape | - | - | - | 0 | 0 | 93 |
 | schweitzer | Miklós Schweitzer Competition | no shape | - | - | - | 0 | 0 | 1159 |
@@ -91,9 +92,9 @@ The order is the order of the register. A competition with no shape in the regis
 | amc8 | AMC 8 | 1050 | 0.0% | 0.0% | 0.0% | 0 | 1050 | 1025 |
 | amc10 | AMC 10 | 675 | 0.0% | 0.0% | 0.0% | 0 | 675 | 1472 |
 | amc12 | AMC 12 | 675 | 0.0% | 0.0% | 0.0% | 0 | 675 | 178 |
-| aime | American Invitational Mathematics Examination | 660 | 0.0% | 0.0% | 0.0% | 660 | 0 | 2215 |
-| usamo | United States of America Mathematical Olympiad | 330 | 0.0% | 0.0% | 0.0% | 299 | 31 | 1443 |
-| usajmo | United States of America Junior Mathematical Olympiad | 102 | 0.0% | 0.0% | 0.0% | 96 | 6 | 472 |
+| aime | American Invitational Mathematics Examination | 660 | 98.0% | 0.0% | 0.0% | 13 | 0 | 2215 |
+| usamo | United States of America Mathematical Olympiad | 330 | 82.7% | 0.0% | 0.0% | 26 | 31 | 1443 |
+| usajmo | United States of America Junior Mathematical Olympiad | 102 | 52.0% | 0.0% | 0.0% | 43 | 6 | 472 |
 | tstst | USA TST for the TST | no shape | - | - | - | 0 | 0 | 689 |
 | us-tst | USA IMO Team Selection Test | no shape | - | - | - | 0 | 0 | 575 |
 | us-egmo-tst | USA EGMO Team Selection Test | no shape | - | - | - | 0 | 0 | 45 |
@@ -106,11 +107,11 @@ The order is the order of the register. A competition with no shape in the regis
 | mathcounts | MATHCOUNTS | no shape | - | - | - | 0 | 0 | 0 |
 | nimo | National Internet Math Olympiad | no shape | - | - | - | 0 | 0 | 363 |
 | omo | Online Math Open | no shape | - | - | - | 0 | 0 | 580 |
-| ca-cmo | Canadian Mathematical Olympiad | 290 | 0.0% | 0.0% | 0.0% | 250 | 40 | 1561 |
+| ca-cmo | Canadian Mathematical Olympiad | 290 | 85.9% | 0.0% | 0.0% | 1 | 40 | 1561 |
 | ca-cjmo | Canadian Junior Mathematical Olympiad | 35 | 0.0% | 0.0% | 0.0% | 0 | 35 | 17 |
 | ca-euclid | Euclid Mathematics Contest | 10 | 0.0% | 0.0% | 0.0% | 0 | 10 | 13 |
-| mx-omm | Mexican Mathematical Olympiad | 240 | 0.0% | 0.0% | 0.0% | 198 | 42 | 472 |
-| br-obm | Brazilian Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 3096 |
+| mx-omm | Mexican Mathematical Olympiad | 240 | 75.4% | 0.0% | 0.0% | 17 | 42 | 472 |
+| br-obm | Brazilian Mathematical Olympiad | 288 | 69.1% | 0.0% | 0.0% | 35 | 54 | 3096 |
 | br-obmep | Brazilian Public Schools Mathematics Olympiad | no shape | - | - | - | 0 | 0 | 0 |
 | ar-oma | Argentine Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 299 |
 | pe-mo | Peru national mathematics olympiad | no shape | - | - | - | 0 | 0 | 101 |
@@ -125,12 +126,12 @@ The order is the order of the register. A competition with no shape in the regis
 | uk-ukmt | UKMT Challenges, Kangaroos and Olympiads | no shape | - | - | - | 0 | 0 | 0 |
 | uk-tst | UK IMO Selection Tests | no shape | - | - | - | 0 | 0 | 0 |
 | ie-irmo | Irish Mathematical Olympiad | 390 | 0.0% | 0.0% | 0.0% | 198 | 192 | 1674 |
-| de-mo | German Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 659 |
+| de-mo | German Mathematical Olympiad | 396 | 37.4% | 0.0% | 0.0% | 2 | 246 | 659 |
 | de-bundeswettbewerb | Bundeswettbewerb Mathematik | 456 | 0.0% | 0.0% | 0.0% | 0 | 456 | 451 |
 | de-tst | German IMO Selection | no shape | - | - | - | 0 | 0 | 839 |
 | fr-tst | French Olympiad Training and Selection | no shape | - | - | - | 0 | 0 | 1885 |
 | fr-academiques | Olympiades académiques de mathématiques | no shape | - | - | - | 0 | 0 | 0 |
-| it-cesenatico | Italian Mathematical Olympiad | 246 | 0.0% | 0.0% | 0.0% | 194 | 52 | 697 |
+| it-cesenatico | Italian Mathematical Olympiad | 246 | 71.5% | 0.0% | 0.0% | 18 | 52 | 697 |
 | es-ome | Spanish Mathematical Olympiad | 378 | 0.0% | 0.0% | 0.0% | 258 | 120 | 1267 |
 | pt-opm | Portuguese Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 238 |
 | nl-nwo | Dutch Mathematical Olympiad Final | no shape | - | - | - | 0 | 0 | 761 |
@@ -142,7 +143,7 @@ The order is the order of the register. A competition with no shape in the regis
 | at-oemo | Austrian Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 913 |
 | dk-georgmohr | Georg Mohr Contest | no shape | - | - | - | 0 | 0 | 175 |
 | no-abel | Abel Competition | no shape | - | - | - | 0 | 0 | 399 |
-| se-skolornas | Swedish Mathematical Competition | no shape | - | - | - | 0 | 0 | 760 |
+| se-skolornas | Swedish Mathematical Competition | 378 | 91.8% | 0.0% | 0.0% | 1 | 30 | 760 |
 | fi-mo | Finnish national mathematics olympiad | no shape | - | - | - | 0 | 0 | 240 |
 | is-mo | Icelandic national mathematics olympiad | no shape | - | - | - | 0 | 0 | 0 |
 | ee-mo | Estonian Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 900 |
@@ -154,14 +155,14 @@ The order is the order of the register. A competition with no shape in the regis
 | ad-mo | Andorra national mathematics olympiad | no shape | - | - | - | 0 | 0 | 0 |
 | li-mo | Liechtenstein national mathematics olympiad | no shape | - | - | - | 0 | 0 | 0 |
 | mc-mo | Monaco national mathematics olympiad | no shape | - | - | - | 0 | 0 | 0 |
-| pl-om | Polish Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 1264 |
+| pl-om | Polish Mathematical Olympiad | 462 | 21.9% | 0.0% | 0.0% | 47 | 314 | 1264 |
 | pl-omj | Polish Junior Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 34 |
 | cz-sk-mo | Czech-Slovak Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 660 |
 | hu-oktv | Hungarian National Secondary School Competition | no shape | - | - | - | 0 | 0 | 0 |
 | hu-komal | KöMaL Problem Contests | no shape | - | - | - | 0 | 0 | 0 |
 | ro-nmo | Romanian National Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 3851 |
 | ro-tst | Romanian IMO Team Selection Test | no shape | - | - | - | 0 | 0 | 1252 |
-| bg-mo | Bulgarian Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 1270 |
+| bg-mo | Bulgarian Mathematical Olympiad | 384 | 65.1% | 0.0% | 0.0% | 28 | 106 | 1270 |
 | rs-smo | Serbian Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 415 |
 | hr-mo | Croatia national mathematics olympiad | no shape | - | - | - | 0 | 0 | 1562 |
 | si-mo | Slovenia national mathematics olympiad | no shape | - | - | - | 0 | 0 | 710 |
@@ -187,22 +188,22 @@ The order is the order of the register. A competition with no shape in the regis
 | am-mo | Armenia national mathematics olympiad | no shape | - | - | - | 0 | 0 | 59 |
 | az-mo | Azerbaijan national mathematics olympiad | no shape | - | - | - | 0 | 0 | 18 |
 | cn-league | China National High School Mathematics League | no shape | - | - | - | 0 | 0 | 1086 |
-| cn-mo | Chinese Mathematical Olympiad | 246 | 0.0% | 0.0% | 0.0% | 156 | 90 | 671 |
+| cn-mo | Chinese Mathematical Olympiad | 246 | 44.3% | 0.0% | 0.0% | 47 | 90 | 671 |
 | cn-tst | China Team Selection Test | no shape | - | - | - | 0 | 0 | 1558 |
-| cn-gmo | China Girls' Mathematical Olympiad | 200 | 0.0% | 0.0% | 0.0% | 147 | 53 | 560 |
-| cn-wmo | China Western Mathematical Olympiad | 208 | 0.0% | 0.0% | 0.0% | 104 | 104 | 488 |
-| cn-smo | China Southeast Mathematical Olympiad | 176 | 0.0% | 0.0% | 0.0% | 111 | 65 | 549 |
-| jp-jmo | Japan Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 459 |
+| cn-gmo | China Girls' Mathematical Olympiad | 200 | 71.5% | 0.0% | 0.0% | 4 | 53 | 560 |
+| cn-wmo | China Western Mathematical Olympiad | 208 | 30.3% | 0.0% | 0.0% | 41 | 104 | 488 |
+| cn-smo | China Southeast Mathematical Olympiad | 176 | 25.6% | 0.0% | 0.0% | 66 | 65 | 549 |
+| jp-jmo | Japan Mathematical Olympiad | 180 | 0.0% | 0.0% | 0.0% | 129 | 51 | 459 |
 | jp-jjmo | Japan Junior Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 126 |
-| kr-kmo | Korean Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 1488 |
+| kr-kmo | Korean Mathematical Olympiad | 264 | 24.6% | 0.0% | 0.0% | 105 | 94 | 1488 |
 | tw-tst | Taiwan TST and National Olympiad | no shape | - | - | - | 0 | 0 | 521 |
 | hk-pc | Hong Kong Preliminary Selection Contest and TST | no shape | - | - | - | 0 | 0 | 674 |
 | mo-macau | Macau Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 0 |
 | mn-mo | Mongolian Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 838 |
-| vn-vmo | Vietnam Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 873 |
-| vn-tst | Vietnam Team Selection Test | 222 | 0.0% | 0.0% | 0.0% | 126 | 96 | 470 |
-| sg-smo | Singapore Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 727 |
-| th-tmo | Thailand Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 690 |
+| vn-vmo | Vietnam Mathematical Olympiad | 390 | 29.0% | 0.0% | 0.0% | 81 | 196 | 873 |
+| vn-tst | Vietnam Team Selection Test | 222 | 27.9% | 0.0% | 0.0% | 64 | 96 | 470 |
+| sg-smo | Singapore Mathematical Olympiad | 160 | 61.2% | 0.0% | 0.0% | 11 | 51 | 727 |
+| th-tmo | Thailand Mathematical Olympiad | 230 | 63.5% | 0.0% | 0.0% | 49 | 35 | 690 |
 | ph-pmo | Philippine Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 1069 |
 | my-omk | Malaysian Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 114 |
 | id-osn | Indonesian National Science Olympiad | no shape | - | - | - | 0 | 0 | 376 |
@@ -210,11 +211,11 @@ The order is the order of the register. A competition with no shape in the regis
 | la-mo | Laos national mathematics olympiad | no shape | - | - | - | 0 | 0 | 0 |
 | mm-mo | Myanmar national mathematics olympiad | no shape | - | - | - | 0 | 0 | 0 |
 | bn-mo | Brunei national mathematics olympiad | no shape | - | - | - | 0 | 0 | 0 |
-| au-amo | Australian Mathematical Olympiad | 384 | 0.0% | 0.0% | 0.0% | 4 | 380 | 32 |
+| au-amo | Australian Mathematical Olympiad | 384 | 1.0% | 0.0% | 0.0% | 0 | 380 | 32 |
 | au-amc | Australian Mathematics Competition | no shape | - | - | - | 0 | 0 | 0 |
 | au-mcyb | Maths Challenge for Young Australians | no shape | - | - | - | 0 | 0 | 0 |
 | nz-nzmo | New Zealand Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 456 |
-| in-inmo | Indian National Mathematical Olympiad | 246 | 0.0% | 0.0% | 0.0% | 205 | 41 | 1120 |
+| in-inmo | Indian National Mathematical Olympiad | 246 | 82.9% | 0.0% | 0.0% | 1 | 41 | 1120 |
 | in-rmo | Indian Regional Mathematical Olympiad | 222 | 0.0% | 0.0% | 0.0% | 0 | 222 | 372 |
 | in-prmo-ioqm | PRMO and IOQM | no shape | - | - | - | 0 | 0 | 372 |
 | in-tst | India Team Selection Test | no shape | - | - | - | 0 | 0 | 521 |
@@ -229,7 +230,7 @@ The order is the order of the register. A competition with no shape in the regis
 | tm-mo | Turkmenistan national mathematics olympiad | no shape | - | - | - | 0 | 0 | 21 |
 | ir-mo | Iran Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 2347 |
 | ir-tst | Iran Team Selection Test | no shape | - | - | - | 0 | 0 | 599 |
-| tr-mo | Turkish Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 1142 |
+| tr-mo | Turkish Mathematical Olympiad | 198 | 32.3% | 0.0% | 0.0% | 31 | 103 | 1142 |
 | il-gillis | Israel National Olympiad | no shape | - | - | - | 0 | 0 | 264 |
 | il-grossman | Grossman Olympiad | no shape | - | - | - | 0 | 0 | 0 |
 | sa-samc | Saudi Arabia Mathematical Competition | no shape | - | - | - | 0 | 0 | 1080 |
@@ -273,7 +274,7 @@ The order is the order of the register. A competition with no shape in the regis
 
 ## Unknown competitions
 
-These labels do not resolve through the alias table (1030 keys). There are 2014 labels with 32300 rows. The full list is in `unknown-competitions.tsv`. To resolve a label, add a line to `registers/competition-aliases.tsv`, or add the competition to the register.
+These labels do not resolve through the alias table (1031 keys). There are 2014 labels with 32300 rows. The full list is in `unknown-competitions.tsv`. To resolve a label, add a line to `registers/competition-aliases.tsv`, or add the competition to the register.
 
 | Source | Label | Rows |
 |---|---|---:|
@@ -377,103 +378,3 @@ These labels do not resolve through the alias table (1030 keys). There are 2014 
 | hf-aops-wiki | Niels Henrik Abels Math Contest (Norwegian MO) Final Round | 40 |
 | hf-indonesian-olympiad | NaMO_Junior | 40 |
 | hf-indonesian-olympiad | NaMO_Umum | 40 |
-| hf-indonesian-olympiad | OPSILON_SMA_2018 | 40 |
-| hf-indonesian-olympiad | OPSILON_SMA_2019 | 40 |
-| hf-indonesian-olympiad | SCE_SMP_2020 | 40 |
-| hf-mathnet | 1. Auswahlklausur | 40 |
-| hf-mathnet | 17. tekmovanje dijakov srednjih tehniških in strokovnih šol v znanju matematike | 40 |
-| hf-mathnet | 18th PMO Area Stage | 40 |
-| hf-mathnet | 62. matematično tekmovanje srednješolcev Slovenije Državno tekmovanje | 40 |
-| hf-mathnet | BMO 2023 Short List | 40 |
-| hf-mathnet | Baltic Way 2002 mathematical team contest | 40 |
-| hf-mathnet | China Mathematical Competition (Complementary Test) | 40 |
-| hf-mathnet | HONG KONG PRELIMINARY SELECTION CONTEST | 40 |
-| hf-mathnet | IMO Preliminary Selection Contest — Hong Kong | 40 |
-| hf-mathnet | IMO Problem Shortlist | 40 |
-| hf-mathnet | International Mathematical Olympiad Shortlisted Problems | 40 |
-| hf-mathnet | NZMO Round Two | 40 |
-| hf-mathnet | National Math Olympiad 2015 – First Round | 40 |
-| hf-ai-mo-aops | Chile Junior Math Olympiad | 39 |
-| hf-ai-mo-aops | Ecuador Juniors | 39 |
-| hf-ai-mo-aops | Nicolae Coculescu | 39 |
-| hf-ai-mo-aops | PEN E Problems | 39 |
-| hf-ai-mo-aops | Simon Marais Mathematical Competition | 39 |
-| hf-indonesian-olympiad | FIMNas_SMA_2009 | 39 |
-| hf-indonesian-olympiad | POSI_SMP_2020 | 39 |
-| hf-indonesian-olympiad | SCE_SMA_2019 | 39 |
-| hf-indonesian-olympiad | SCE_SMA_2020 | 39 |
-| hf-ai-mo-aops | Brazil L2 Finals (OBM) - geometry | 38 |
-| hf-ai-mo-aops | Saudi Arabia Training Tests | 38 |
-| hf-ai-mo-aops | Swiss NMO - geometry | 38 |
-| hf-indonesian-olympiad | POSI_SMA_2020 | 38 |
-| hf-mathnet | 12th Philippine Mathematical Olympiad - Area Stage | 38 |
-| hf-mathnet | 60. matematično tekmovanje srednješolcev Slovenije | 38 |
-| hf-mathnet | 63. matematično tekmovanje srednješolcev Slovenije, Državno tekmovanje | 38 |
-| hf-mathnet | 63rd Czech and Slovak Mathematical Olympiad | 38 |
-| hf-mathnet | 65th Czech and Slovak Mathematical Olympiad | 38 |
-| hf-mathnet | 66th Czech and Slovak Mathematical Olympiad | 38 |
-| hf-mathnet | 66th NMO SELECTION TESTS FOR THE BALKAN AND INTERNATIONAL MATHEMATICAL OLYMPIADS | 38 |
-| hf-mathnet | Fall 2021 AMC 10 B | 38 |
-| hf-mathnet | Fall Mathematical Competition | 38 |
-| hf-mathnet | OJBM | 38 |
-| hf-mathnet | Olimpiade Italiana di Matematica | 38 |
-| hf-mathnet | Problems from Ukrainian Authors | 38 |
-| hf-mathnet | SMO - Vorrunde | 38 |
-| hf-mathnet | Selection tests for the Balkan Mathematical Olympiad 2013 | 38 |
-| hf-mathnet | THE 68th NMO SELECTION TESTS FOR THE JUNIOR BALKAN MATHEMATICAL OLYMPIAD | 38 |
-| hf-mathnet | Регионален натпревар по математика за средно образование | 38 |
-| hf-ai-mo-aops | Azerbaijan JBMO TST | 37 |
-| hf-ai-mo-aops | Germany LWM BW - geometry | 37 |
-| hf-ai-mo-aops | Kyiv City MO Juniors Round2 2010+ geometry | 37 |
-| hf-ai-mo-aops | PEN S Problems | 37 |
-| hf-ai-mo-aops | SG Originals | 37 |
-| hf-ai-mo-aops | VN Math Olympiad For High School Students | 37 |
-| hf-aops-wiki | Greece NMO | 37 |
-| hf-aops-wiki | Hong kong NMO | 37 |
-| hf-indonesian-olympiad | POSI_SD_2020 | 37 |
-| hf-ai-mo-aops | Centennial Schools Mathematics Competition | 36 |
-| hf-ai-mo-aops | Czech and Slovak Match | 36 |
-| hf-ai-mo-aops | Iberoamerican | 36 |
-| hf-ai-mo-aops | Indonesia Juniors | 36 |
-| hf-ai-mo-aops | OMMock - Mexico National Olympiad Mock Exam | 36 |
-| hf-ai-mo-aops | UNSW School MC Seniors - geometry | 36 |
-| hf-aops-wiki | Austria Federal Comp. for Adv. Students Part 1 | 36 |
-| hf-aops-wiki | Kosovo TST | 36 |
-| hf-aops-wiki | QEDMO | 36 |
-| hf-mathnet | 10. tekmovanje v znanju matematike za dijake srednjih tehniških in strokovnih šol, Državno tekmovanje | 36 |
-| hf-mathnet | 16. tekmovanje v znanju matematike za dijake srednjih tehniških in strokovnih šol Državno tekmovanje | 36 |
-| hf-mathnet | 49th International Mathematical Olympiad Spain | 36 |
-| hf-mathnet | 53rd International Mathematical Olympiad Shortlisted Problems with Solutions | 36 |
-| hf-mathnet | 64th NMO Selection Tests for the Balkan and International Mathematical Olympiads | 36 |
-| hf-mathnet | 65th NMO Selection Tests for BMO and IMO | 36 |
-| hf-mathnet | 69th NMO Selection Tests for BMO and IMO | 36 |
-| hf-mathnet | AUT_ABooklet_2023 | 36 |
-| hf-mathnet | Austria 2010 | 36 |
-| hf-mathnet | AustriaMO2011 | 36 |
-| hf-mathnet | Czech and Slovak Mathematical Olympiad | 36 |
-| hf-mathnet | Japan 2007 | 36 |
-| hf-mathnet | MO-selectietoets | 36 |
-| hf-mathnet | Macedonian Junior Mathematical Olympiad | 36 |
-| hf-mathnet | Nacional OMA | 36 |
-| hf-mathnet | Nacional OMA 2019 | 36 |
-| hf-mathnet | Olimpiada Naţională de Matematică Etapa Naţională | 36 |
-| hf-mathnet | Préparation Olympique Française de Mathématiques - ENVOI 5 : Pot-POURRI | 36 |
-| hf-mathnet | Spring Mathematical Competition | 36 |
-| hf-mathnet | XLVII Olimpiada Matemática Española Primera Fase | 36 |
-| hf-mathnet | XXIX Olimpíada Matemática Argentina National Round | 36 |
-| hf-ai-mo-aops | Bulgarian Spring Mathematical Competition | 35 |
-| hf-ai-mo-aops | CMI B.Sc. Entrance Exam | 35 |
-| hf-ai-mo-aops | CMWMC | 35 |
-| hf-ai-mo-aops | Chile Classification NMO Seniors | 35 |
-| hf-ai-mo-aops | Durer Math Competition CD 1st Round - geometry | 35 |
-| hf-ai-mo-aops | GLMT | 35 |
-| hf-ai-mo-aops | IMTS | 35 |
-| hf-ai-mo-aops | Indonesia MO Shortlist - geometry | 35 |
-| hf-ai-mo-aops | Israel Olympic Revenge | 35 |
-| hf-ai-mo-aops | Morocco National Olympiad | 35 |
-| hf-ai-mo-aops | PEN M Problems | 35 |
-| hf-ai-mo-aops | Pan-African Shortlist | 35 |
-| hf-ai-mo-aops | Serbia JBMO TST | 35 |
-| hf-ai-mo-aops | UMD Math Competition Part I | 35 |
-| hf-ai-mo-aops | Uzbekistan National Olympiad | 35 |
-| hf-ai-mo-aops | Yugoslav National Math Olympiad | 35 |

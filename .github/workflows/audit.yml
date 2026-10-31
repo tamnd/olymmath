@@ -1,0 +1,57 @@
+name: audit
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    # Each night, the audit runs on the full corpus (spec 09.3).
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+# No job in this workflow writes to the repository.
+permissions:
+  contents: read
+
+concurrency:
+  group: audit-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+
+jobs:
+  audit:
+    name: run the audit rules
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          path: content
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          repository: tamnd/olymmath-agent
+          ref: main
+          path: toolchain
+      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
+        with:
+          go-version-file: toolchain/go.mod
+          cache-dependency-path: toolchain/go.sum
+      - name: build om
+        working-directory: toolchain
+        run: go build -trimpath -o "$RUNNER_TEMP/om" ./cmd/om
+      - name: run om audit
+        run: |
+          set +e
+          "$RUNNER_TEMP/om" audit -content content > audit.txt
+          code=$?
+          set -e
+          cat audit.txt
+          {
+            echo "## Audit"
+            echo
+            echo '```'
+            cat audit.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          exit "$code"

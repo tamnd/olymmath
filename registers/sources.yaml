@@ -77,6 +77,7 @@
   size: about 316k non-synthetic rows before dedup
   wave: 0
   state: planned
+  terms: The dataset card gives the Apache 2.0 licence. The amc_aime texts come from the AoPS wiki, so each one is a transcription of the official paper.
   notes: Used for discovery through the source field. Synthetic rows are not used.
 
 - id: hf-omni-math
@@ -1548,6 +1549,7 @@
   size: about 4,100 problems, 2,300 with solutions
   wave: 2
   state: active
+  terms: The site states no licence. John Scholes wrote the texts in his own words, and the mirror keeps his pages as they were. Each statement links to its page.
   notes: Second source for old IMO, USAMO, APMO and Vietnam problems. John Scholes changed the wording of each problem on purpose, but not the substance, so the texts are H3 and not transcriptions. The mirror has only the IMO, the shortlist, the Putnam, the AIME, the APMO, the IMC, the USAMO, the All-Russian and the Vietnam pages.
 
 - id: komal
@@ -1564,6 +1566,7 @@
   size: 20k to 30k problems
   wave: 2
   state: active
+  terms: The texts are copyright KöMaL. The problems are public on the site, and each statement links to its month page. Solutions are not copied.
   notes: English statements for 40+ years and Hungarian solutions. Scans exist for 1893 to 2001. The English month pages before 2005 show the texts only to subscribers, so the lane reads the pages from September 2004. A problem with a picture and no TeX is left out.
 
 - id: crux

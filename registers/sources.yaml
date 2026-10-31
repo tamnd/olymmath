@@ -610,7 +610,7 @@
   ai_train: unknown
   size: problems 1985 to 2025, solutions 1995 to 2025
   wave: 1
-  state: planned
+  state: active
 
 - id: problems-ru
   name: problems.ru

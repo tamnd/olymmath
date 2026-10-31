@@ -1,9 +1,2661 @@
-# The competition register. Each row is one competition. Milestone M2 adds the full register of about 210 competitions, with editions and positions.
+# The competition register. Each row is one competition. Spec 05.2 gives the groups and the codes.
+
+# International, high school (01b section 2)
+
 - code: imo
   name: International Mathematical Olympiad
   short: IMO
-  level: international
+  group: international
+  level: high-school
   organizer: IMO Board
   url: https://www.imo-official.org/
   first_year: 1959
+  edition_form: year
+  layout:
+    - {paper: day1, name: Day 1, positions: [p1, p2, p3]}
+    - {paper: day2, name: Day 2, positions: [p4, p5, p6]}
+  per_year: 6
+  official_solutions: false
+  copyright: Footer says "© International Mathematical Olympiad". No licence stated.
+  sources: [imo-official, aops-collections, hf-mathnet, hf-numina-olympiads, hf-matharena, kalva, imomath, evanchen, compfiles, mathlib-archive-imo, formal-imo, minif2f-v2]
   description: The world championship of mathematics for secondary school students. Each country sends a team of up to six students, who write two papers of three problems on two days.
+
+- code: isl
+  name: IMO Shortlist
+  short: ISL
+  group: international
+  level: high-school
+  organizer: IMO Board
+  url: https://www.imo-official.org/problems.aspx
+  edition_form: year
+  official_solutions: true
+  languages: [en]
+  copyright: Embargoed until the next IMO.
+  sources: [imo-official, hf-numina-olympiads, kalva, aops-collections, imosllean4]
+  description: The list of about 30 problems from which the IMO jury picks the six IMO problems. It stays confidential until the end of the next IMO.
+
+- code: igo
+  name: Iranian Geometry Olympiad
+  short: IGO
+  group: international
+  level: high-school
+  url: https://igo-official.com/
+  first_year: 2014
+  edition_form: year
+  per_year: 15
+  official_solutions: true
+  languages: [en, fa]
+  copyright: None stated.
+  sources: [igo-official]
+  description: An international geometry olympiad with three levels of five problems each. The official booklets have solutions.
+
+- code: kangaroo
+  name: Mathematical Kangaroo
+  group: international
+  organizer: AKSF
+  url: https://www.aksf.org/
+  first_year: 1991
+  edition_form: year
+  copyright: Varies by country. Thales Cyprus forbids publication of its English papers.
+  sources: [hf-matharena]
+  description: A multiple choice contest for school students in about six levels. National organizers publish the papers, and only answers are official.
+
+- code: tot
+  name: Tournament of Towns
+  short: ToT
+  names: {ru: Турнир городов}
+  group: international
+  level: high-school
+  url: https://www.turgor.ru/en/problems/
+  first_year: 1980
+  edition_form: year-season
+  languages: [ru, en]
+  copyright: None stated.
+  sources: [turgor, problems-ru]
+  description: A contest held in many towns in two rounds a year, each with two tiers and two levels. problems.ru holds 1,854 of its problems.
+
+- code: iom
+  name: International Olympiad of Metropolises
+  short: IOM
+  group: international
+  level: high-school
+  first_year: 2016
+  edition_form: year
+  languages: [en, ru]
+  sources: [imomath]
+  description: An olympiad for teams from large cities. No official site has been found.
+
+- code: sharygin
+  name: Sharygin Geometry Olympiad
+  names: {ru: Олимпиада по геометрии имени И. Ф. Шарыгина}
+  group: international
+  level: high-school
+  url: https://geometry.ru/olimp/olimpsharygin.php
+  first_year: 2005
+  edition_form: year
+  official_solutions: true
+  languages: [ru, en]
+  copyright: None stated.
+  sources: [geometry-ru, problems-ru]
+  description: A geometry olympiad with a correspondence round and a final round. English texts exist from 2007.
+
+- code: tuymaada
+  name: Tuymaada Olympiad
+  names: {ru: Туймаада}
+  group: international
+  level: high-school
+  url: https://tuymaada.lensky-kray.ru/en/arhiv/
+  first_year: 1994
+  edition_form: year
+  per_year: 16
+  languages: [ru, en]
+  copyright: None stated.
+  sources: [tuymaada-official]
+  description: An olympiad in Yakutsk with a senior and a junior league of eight problems each. The 2026 contest was the 33rd edition.
+
+- code: zhautykov
+  name: International Zhautykov Olympiad
+  short: IZhO
+  group: international
+  level: high-school
+  url: https://izho.kz/
+  first_year: 2005
+  edition_form: year
+  per_year: 6
+  languages: [ru, en, kk]
+  sources: [izho-official, imomath]
+  description: An olympiad in Almaty for teams of specialized schools. Its papers are also on imomath.
+
+- code: silk-road
+  name: Silk Road Mathematical Competition
+  group: international
+  level: high-school
+  first_year: 2002
+  edition_form: year
+  per_year: 4
+  languages: [ru, en]
+  description: A contest with four problems. No official archive has been found.
+
+- code: usemo
+  name: US Ersatz Math Olympiad
+  short: USEMO
+  group: international
+  level: high-school
+  organizer: Evan Chen
+  url: https://web.evanchen.cc/problems.html
+  first_year: 2019
+  edition_form: year
+  layout:
+    - {paper: day1, name: Day 1, positions: [p1, p2, p3]}
+    - {paper: day2, name: Day 2, positions: [p4, p5, p6]}
+  per_year: 6
+  official_solutions: true
+  languages: [en]
+  copyright: None stated.
+  sources: [evanchen]
+  description: An open olympiad in the style of the IMO, run by Evan Chen. The organizer publishes the problems and solutions.
+
+- code: elmo
+  name: ELMO
+  short: ELMO
+  group: international
+  level: high-school
+  url: https://web.evanchen.cc/problems.html
+  first_year: 1999
+  edition_form: year
+  per_year: 6
+  languages: [en]
+  copyright: None stated.
+  sources: [evanchen]
+  description: An olympiad written and taken by students at the US training camp. It also has a shortlist of about 30 problems.
+
+- code: olympic-revenge
+  name: Olympic Revenge
+  group: international
+  level: high-school
+  url: https://artofproblemsolving.com/community/c3274
+  first_year: 2002
+  edition_form: year
+  per_year: 6
+  official_solutions: false
+  languages: [pt, en]
+  sources: [aops-collections]
+  description: A Brazilian olympiad of six problems. The problems are known mostly from AoPS.
+
+- code: duel
+  name: Mathematical Duel
+  group: international
+  level: high-school
+  url: https://www.mathematicalduel.eu/index.php/problems/archive
+  first_year: 1993
+  edition_form: year
+  official_solutions: true
+  languages: [en, cs, pl, de]
+  copyright: The book is published by World Scientific (doi 10.1142/10544).
+  sources: [duel-official]
+  description: A contest of schools in Bílovec, Chorzów, Graz and Přerov. A book holds the problems with solutions.
+
+- code: egmo
+  name: European Girls' Mathematical Olympiad
+  short: EGMO
+  group: international
+  level: high-school
+  url: https://www.egmo.org/
+  first_year: 2012
+  edition_form: year
+  layout:
+    - {paper: day1, name: Day 1, positions: [p1, p2, p3]}
+    - {paper: day2, name: Day 2, positions: [p4, p5, p6]}
+  per_year: 6
+  official_solutions: true
+  copyright: None stated.
+  sources: [egmo-official, hf-numina-olympiads, evanchen]
+  description: An olympiad for girls in the style of the IMO, with two papers of three problems. Each host publishes a booklet with solutions.
+
+- code: balkan
+  name: Balkan Mathematical Olympiad
+  group: international
+  level: high-school
+  first_year: 1984
+  edition_form: year
+  layout:
+    - {paper: paper, name: Paper, positions: [p1, p2, p3, p4]}
+  per_year: 4
+  languages: [en]
+  copyright: None stated.
+  sources: [imomath, hf-mathnet, aops-collections]
+  description: An olympiad of the Balkan countries with one paper of four problems. There is no central archive, so each host site holds its own year.
+
+- code: balkan-sl
+  name: Balkan MO Shortlist
+  group: international
+  level: high-school
+  first_year: 2007
+  edition_form: year
+  official_solutions: true
+  languages: [en]
+  sources: [imogeometry-blog]
+  description: The shortlist of about 25 problems from which the Balkan MO problems are chosen.
+
+- code: jbmo
+  name: Junior Balkan Mathematical Olympiad
+  short: JBMO
+  group: international
+  level: junior
+  first_year: 1997
+  edition_form: year
+  layout:
+    - {paper: paper, name: Paper, positions: [p1, p2, p3, p4]}
+  per_year: 4
+  languages: [en]
+  sources: [aops-wiki, aops-collections]
+  description: The junior olympiad of the Balkan countries. It has four problems, and five in 1997.
+
+- code: jbmo-sl
+  name: JBMO Shortlist
+  group: international
+  level: junior
+  first_year: 2000
+  edition_form: year
+  official_solutions: true
+  languages: [en]
+  sources: [hf-numina-olympiads, imogeometry-blog]
+  description: The shortlist of about 25 problems from which the JBMO problems are chosen.
+
+- code: baltic-way
+  name: Baltic Way
+  group: international
+  level: high-school
+  url: https://math.olympiaadid.ut.ee/eng/html/?id=bw
+  first_year: 1990
+  edition_form: year
+  per_year: 20
+  official_solutions: true
+  languages: [en]
+  copyright: None stated.
+  sources: [olympiaadid-ut, hf-mathnet, hf-numina-olympiads, imomath]
+  description: A team contest of the countries around the Baltic Sea, with 20 problems for each team. Solutions exist for all years except 2009, 2019 and 2022.
+
+- code: memo
+  name: Middle European Mathematical Olympiad
+  short: MEMO
+  group: international
+  level: high-school
+  url: https://www.memo-official.org/
+  first_year: 2007
+  edition_form: year
+  per_year: 12
+  official_solutions: true
+  languages: [en, de, cs, pl, hu]
+  copyright: None stated.
+  sources: [memo-official]
+  description: An olympiad of Central European countries with four individual problems and eight team problems.
+
+- code: austrian-polish
+  name: Austrian-Polish Mathematics Competition
+  group: international
+  level: high-school
+  first_year: 1978
+  last_year: 2006
+  edition_form: year
+  languages: [de, pl, en]
+  sources: [kalva, imomath]
+  description: The contest of Austria and Poland that came before MEMO. It had 29 editions from 1978 to 2006.
+
+- code: rmm
+  name: Romanian Master of Mathematics
+  short: RMM
+  group: international
+  level: high-school
+  url: https://rmms.lbi.ro/
+  first_year: 2008
+  edition_form: year
+  layout:
+    - {paper: day1, name: Day 1, positions: [p1, p2, p3]}
+    - {paper: day2, name: Day 2, positions: [p4, p5, p6]}
+  per_year: 6
+  languages: [en]
+  copyright: None stated.
+  sources: [rmm-official]
+  description: An invitational olympiad in Bucharest for strong IMO countries. It had four problems in 2008 and 2009 and six from 2010.
+
+- code: nordic
+  name: Nordic Mathematical Contest
+  short: NMC
+  group: international
+  level: high-school
+  url: https://georgmohr.dk/nmcperm/probl/
+  first_year: 1987
+  edition_form: year
+  per_year: 4
+  official_solutions: true
+  copyright: None stated.
+  sources: [georgmohr, imomath]
+  description: The contest of the Nordic countries with four problems. A compiled file holds the problems and solutions from 1987 to 2011.
+
+- code: benelux
+  name: Benelux Mathematical Olympiad
+  short: BxMO
+  group: international
+  level: high-school
+  url: https://bxmo.org/
+  first_year: 2009
+  edition_form: year
+  per_year: 4
+  languages: [en, nl, fr]
+  copyright: None stated.
+  sources: [wiskundeolympiade]
+  description: The olympiad of Belgium, the Netherlands and Luxembourg with four problems.
+
+- code: caps
+  name: Czech-Austrian-Polish-Slovak Match
+  short: CAPS
+  group: international
+  level: high-school
+  edition_form: year
+  languages: [en]
+  description: A team match of four Central European countries. Its first year and its archive are not confirmed.
+
+- code: kurschak
+  name: Kürschák Competition
+  names: {hu: Kürschák József Matematikai Tanulóverseny}
+  group: international
+  level: high-school
+  first_year: 1894
+  edition_form: year
+  per_year: 3
+  official_solutions: true
+  languages: [hu, en]
+  copyright: The books are copyrighted.
+  sources: [komal]
+  description: The Hungarian competition of three problems, called the Eötvös competition until 1938. The Hungarian Problem Book series holds the problems with solutions.
+
+- code: francophone
+  name: Olympiade Francophone de Mathématiques
+  short: OFM
+  names: {fr: Olympiade Francophone de Mathématiques}
+  group: international
+  level: high-school
+  url: https://igm.univ-mlv.fr/~juge/ofm/
+  first_year: 2020
+  edition_form: year
+  per_year: 8
+  languages: [fr]
+  copyright: None stated.
+  sources: [ofm-official]
+  description: The olympiad of French-speaking countries, with a junior and a senior paper of four problems each.
+
+- code: caucasus
+  name: Caucasus Mathematical Olympiad
+  group: international
+  level: high-school
+  url: https://cmo.adygmath.ru/
+  first_year: 2015
+  edition_form: year
+  official_solutions: true
+  languages: [ru, en]
+  copyright: None stated.
+  sources: [caucasus-official]
+  description: An olympiad with a junior and a senior league. The 2026 contest was the 11th edition, and English solutions are published.
+
+- code: apmo
+  name: Asian Pacific Mathematics Olympiad
+  short: APMO
+  group: international
+  level: high-school
+  url: https://www.apmo-official.org/
+  first_year: 1989
+  edition_form: year
+  layout:
+    - {paper: paper, name: Paper, positions: [p1, p2, p3, p4, p5]}
+  per_year: 5
+  official_solutions: true
+  languages: [en]
+  copyright: None stated.
+  sources: [apmo-official, hf-numina-olympiads, hf-omni-math, kalva, imomath]
+  description: A regional olympiad of one four-hour paper with five problems, written in each country. The official site has all problems and solutions from 1989.
+
+- code: gulf
+  name: Gulf Mathematical Olympiad
+  group: international
+  level: high-school
+  organizer: ABEGS
+  url: https://ds.abegs.org/gmo
+  edition_form: year
+  languages: [ar, en]
+  sources: [gulf-official]
+  description: The olympiad of the Gulf states, run by the Arab Bureau of Education for the Gulf States.
+
+- code: arab
+  name: Arab Mathematical Olympiad
+  group: international
+  level: high-school
+  first_year: 2018
+  edition_form: year
+  languages: [ar, en]
+  sources: [imogeometry-blog]
+  description: An olympiad of Arab countries. No official site has been found.
+
+- code: ibero
+  name: Iberoamerican Mathematical Olympiad
+  short: OIM
+  names: {es: Olimpiada Iberoamericana de Matemática}
+  group: international
+  level: high-school
+  first_year: 1985
+  edition_form: year
+  per_year: 6
+  languages: [es, pt]
+  sources: [imomath, aops-wiki]
+  description: The olympiad of Spanish and Portuguese speaking countries with six problems. The OEI site removed its archive, so the problems come from secondary sources.
+
+- code: centro
+  name: Centroamerican and Caribbean Mathematical Olympiad
+  short: OMCC
+  names: {es: Olimpiada Matemática de Centroamérica y el Caribe}
+  group: international
+  level: high-school
+  first_year: 1999
+  edition_form: year
+  layout:
+    - {paper: day1, name: Day 1, positions: [p1, p2, p3]}
+    - {paper: day2, name: Day 2, positions: [p4, p5, p6]}
+  per_year: 6
+  languages: [es]
+  sources: [kalva, omm]
+  description: The olympiad of Central America and the Caribbean with two papers of three problems.
+
+- code: istmo
+  name: Istmo Centroamericano
+  group: international
+  level: high-school
+  first_year: 2017
+  edition_form: year
+  languages: [es]
+  description: A Central American contest. Only the years 2017 to 2019 are known, and this is not confirmed.
+
+- code: cono-sur
+  name: Cono Sur Mathematical Olympiad
+  names: {es: Olimpiada Matemática del Cono Sur}
+  group: international
+  level: high-school
+  url: https://www.oma.org.ar/enunciados/con1.htm
+  first_year: 1989
+  edition_form: year
+  per_year: 6
+  languages: [es, pt]
+  sources: [oma]
+  description: The olympiad of the southern countries of South America. It was not held in 1990, and the 2026 contest in Lima was the 37th.
+
+- code: rioplatense
+  name: Olimpiada Rioplatense
+  names: {es: Olimpiada Matemática Rioplatense}
+  group: international
+  level: high-school
+  edition_form: year
+  languages: [es]
+  description: A contest in three levels for students of the Río de la Plata region. Its archive is not confirmed.
+
+- code: lusophon
+  name: Lusophon Mathematical Olympiad
+  short: OMCPLP
+  names: {pt: Olimpíada de Matemática da Comunidade dos Países de Língua Portuguesa}
+  group: international
+  level: high-school
+  url: https://omcplp.obmep.org.br/index.php/site/provas
+  first_year: 2011
+  edition_form: year
+  layout:
+    - {paper: day1, name: Day 1, positions: [p1, p2, p3]}
+    - {paper: day2, name: Day 2, positions: [p4, p5, p6]}
+  per_year: 6
+  languages: [pt]
+  copyright: None stated.
+  sources: [omcplp-official]
+  description: The olympiad of Portuguese-speaking countries with two papers of three problems.
+
+- code: pamo
+  name: Pan-African Mathematics Olympiad
+  short: PAMO
+  group: international
+  level: high-school
+  url: https://pamoofficial.org/
+  first_year: 1987
+  edition_form: year
+  layout:
+    - {paper: day1, name: Day 1, positions: [p1, p2, p3]}
+    - {paper: day2, name: Day 2, positions: [p4, p5, p6]}
+  per_year: 6
+  languages: [en, fr, ar]
+  sources: [pamo-official, imogeometry-blog]
+  description: The olympiad of African countries with two papers of three problems. The sources do not agree on the years in which it was not held.
+
+# Undergraduate (01b section 3)
+
+- code: putnam
+  name: William Lowell Putnam Mathematical Competition
+  short: Putnam
+  group: undergraduate
+  level: undergraduate
+  organizer: MAA
+  url: https://kskedlaya.org/putnam-archive/
+  first_year: 1938
+  edition_form: year
+  layout:
+    - {paper: a, name: Session A, positions: [a1, a2, a3, a4, a5, a6]}
+    - {paper: b, name: Session B, positions: [b1, b2, b3, b4, b5, b6]}
+  per_year: 12
+  languages: [en]
+  copyright: Problems are copyrighted by the MAA. The archive authors ask readers to link, not to copy.
+  sources: [kedlaya-putnam, kalva, hf-omni-math, hf-matharena, hf-putnam-1995-2025, hf-putnam-axiom, hf-putnamgap, putnambench]
+  description: The main North American competition for undergraduates, with two sessions of six problems. It was not held from 1943 to 1945.
+
+- code: imc
+  name: International Mathematics Competition for University Students
+  short: IMC
+  group: undergraduate
+  level: undergraduate
+  url: https://www.imc-math.org.uk/
+  first_year: 1994
+  edition_form: year
+  per_year: 10
+  official_solutions: true
+  languages: [en]
+  copyright: None stated.
+  sources: [imc-official, hf-omni-math, hf-matharena]
+  description: An international competition for university students over two days. It had six problems a day until about 2008, five a day from 2009, and four a day from 2020 to 2022.
+
+- code: seemous
+  name: South Eastern European Mathematical Olympiad for University Students
+  short: SEEMOUS
+  group: undergraduate
+  level: undergraduate
+  organizer: MASSEE
+  url: https://www.massee-org.eu/mathematical/seemous
+  first_year: 2007
+  edition_form: year
+  languages: [en]
+  sources: [seemous-official]
+  description: A university olympiad of South Eastern Europe with four or five problems.
+
+- code: schweitzer
+  name: Miklós Schweitzer Competition
+  names: {hu: Schweitzer Miklós Matematikai Emlékverseny}
+  group: undergraduate
+  level: undergraduate
+  url: https://www.math.u-szeged.hu/~mmaroti/schweitzer/
+  first_year: 1949
+  edition_form: year
+  languages: [hu, en]
+  copyright: None stated.
+  sources: [schweitzer-archive, aops-collections, hf-matharena]
+  description: A Hungarian open-book competition of about 10 to 12 hard problems over ten days.
+
+- code: vtrmc
+  name: Virginia Tech Regional Mathematics Contest
+  short: VTRMC
+  group: undergraduate
+  level: undergraduate
+  url: https://math.vt.edu/undergrad-math/vtrmc.html
+  first_year: 1979
+  last_year: 2022
+  edition_form: year
+  official_solutions: true
+  languages: [en]
+  copyright: None stated.
+  sources: [vtrmc-official]
+  description: A regional contest for undergraduates with about seven or eight problems. It stopped after 2022.
+
+- code: ciim
+  name: Iberoamerican Interuniversity Mathematics Competition
+  short: CIIM
+  names: {es: Competencia Iberoamericana Interuniversitaria de Matemáticas}
+  group: undergraduate
+  level: undergraduate
+  url: https://ciim.uan.edu.co/
+  first_year: 2009
+  edition_form: year
+  layout:
+    - {paper: day1, name: Day 1, positions: [p1, p2, p3]}
+    - {paper: day2, name: Day 2, positions: [p4, p5, p6]}
+  per_year: 6
+  languages: [es, pt]
+  sources: [ciim-official]
+  description: The university competition of Spanish and Portuguese speaking countries with two papers of three problems.
+
+- code: ir-university
+  name: Iranian University Mathematics Olympiad
+  group: undergraduate
+  level: undergraduate
+  country: IR
+  languages: [fa]
+  description: The national olympiad for university students in Iran. No source has been found.
+
+- code: ru-student
+  name: Russian and Soviet Student Olympiads
+  group: undergraduate
+  level: undergraduate
+  country: RU
+  languages: [ru]
+  description: The olympiads for university students in Russia and the Soviet Union. No source has been found.
+
+# USA (01b section 4.1)
+
+- code: ahsme
+  name: American High School Mathematics Examination
+  short: AHSME
+  group: usa
+  level: high-school
+  country: US
+  organizer: MAA
+  first_year: 1950
+  last_year: 1999
+  edition_form: year
+  official_solutions: true
+  languages: [en]
+  copyright: Copyright MAA.
+  sources: [maa-amc, aops-wiki, hf-aops-wiki]
+  description: The multiple choice examination that came before the AMC 12. It had 50 problems in the 1950s, then 40, 35, and 30 from 1983.
+
+- code: amc8
+  name: AMC 8
+  short: AMC 8
+  group: usa
+  level: junior
+  country: US
+  organizer: MAA
+  first_year: 1985
+  edition_form: year
+  layout:
+    - {paper: paper, name: Paper, positions: [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18, p19, p20, p21, p22, p23, p24, p25]}
+  per_year: 25
+  official_solutions: true
+  languages: [en]
+  copyright: Copyright MAA.
+  sources: [maa-amc, aops-wiki, hf-aops-wiki]
+  description: A multiple choice contest of 25 problems for middle school students. It was called AJHSME until 1999.
+
+- code: amc10
+  name: AMC 10
+  short: AMC 10
+  group: usa
+  level: high-school
+  country: US
+  organizer: MAA
+  first_year: 2000
+  edition_form: year-letter
+  layout:
+    - {paper: paper, name: Paper, positions: [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18, p19, p20, p21, p22, p23, p24, p25]}
+  per_year: 25
+  official_solutions: true
+  languages: [en]
+  copyright: Copyright MAA. Older notices allow non-commercial web posting with the notice. The 2015 AMC 10B notice allows paper copies only.
+  sources: [maa-amc, aops-wiki, hf-aops-wiki]
+  description: A multiple choice contest of 25 problems for students in grade 10 and below. It has two papers, A and B, from 2002.
+
+- code: amc12
+  name: AMC 12
+  short: AMC 12
+  group: usa
+  level: high-school
+  country: US
+  organizer: MAA
+  first_year: 2000
+  edition_form: year-letter
+  layout:
+    - {paper: paper, name: Paper, positions: [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18, p19, p20, p21, p22, p23, p24, p25]}
+  per_year: 25
+  official_solutions: true
+  languages: [en]
+  copyright: Copyright MAA.
+  sources: [maa-amc, aops-wiki, hf-aops-wiki, minif2f-v2]
+  description: A multiple choice contest of 25 problems for high school students, with papers A and B. About 10 to 15 problems of each paper are shared with the AMC 10.
+
+- code: aime
+  name: American Invitational Mathematics Examination
+  short: AIME
+  group: usa
+  level: high-school
+  country: US
+  organizer: MAA
+  first_year: 1983
+  edition_form: year-letter
+  layout:
+    - {paper: paper, name: Paper, positions: [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15]}
+  per_year: 15
+  official_solutions: true
+  languages: [en]
+  copyright: Copyright MAA.
+  sources: [maa-amc, aops-wiki, hf-aops-wiki, hf-aime-1983-2026, hf-matharena, minif2f-v2]
+  description: A contest of 15 problems with integer answers for top AMC students. It has two papers, I and II, from 2000.
+
+- code: usamo
+  name: United States of America Mathematical Olympiad
+  short: USAMO
+  group: usa
+  level: high-school
+  country: US
+  organizer: MAA
+  first_year: 1972
+  edition_form: year
+  layout:
+    - {paper: day1, name: Day 1, positions: [p1, p2, p3]}
+    - {paper: day2, name: Day 2, positions: [p4, p5, p6]}
+  per_year: 6
+  official_solutions: false
+  languages: [en]
+  copyright: Copyright MAA. The committee solutions are not published.
+  sources: [maa-amc, aops-wiki, evanchen, kalva, hf-numina-olympiads, hf-matharena, compfiles]
+  description: The national olympiad of the USA. It had five problems until 1995 and six from 1996.
+
+- code: usajmo
+  name: United States of America Junior Mathematical Olympiad
+  short: USAJMO
+  group: usa
+  level: junior
+  country: US
+  organizer: MAA
+  first_year: 2010
+  edition_form: year
+  layout:
+    - {paper: day1, name: Day 1, positions: [p1, p2, p3]}
+    - {paper: day2, name: Day 2, positions: [p4, p5, p6]}
+  per_year: 6
+  official_solutions: false
+  languages: [en]
+  copyright: Copyright MAA. The committee solutions are not published.
+  sources: [maa-amc, aops-wiki, evanchen]
+  description: The junior national olympiad of the USA. Some problems are shared with the USAMO.
+
+- code: tstst
+  name: USA TST for the TST
+  short: TSTST
+  group: usa
+  level: high-school
+  country: US
+  url: https://github.com/usa-tst-public/USA-TST-Archive
+  first_year: 2011
+  edition_form: year
+  official_solutions: true
+  languages: [en]
+  copyright: None stated.
+  sources: [usa-tst-archive, evanchen]
+  description: The selection test that chooses the students who write the USA IMO team selection test.
+
+- code: us-tst
+  name: USA IMO Team Selection Test
+  group: usa
+  level: high-school
+  country: US
+  url: https://github.com/usa-tst-public/USA-TST-Archive
+  edition_form: year
+  official_solutions: true
+  languages: [en]
+  copyright: None stated.
+  sources: [usa-tst-archive, evanchen, hf-omni-math]
+  description: The test that chooses the USA team for the IMO.
+
+- code: us-egmo-tst
+  name: USA EGMO Team Selection Test
+  group: usa
+  level: high-school
+  country: US
+  url: https://github.com/usa-tst-public/USA-TST-Archive
+  edition_form: year
+  official_solutions: true
+  languages: [en]
+  copyright: None stated.
+  sources: [usa-tst-archive]
+  description: The test that chooses the USA team for the EGMO.
+
+- code: hmmt
+  name: Harvard-MIT Mathematics Tournament
+  short: HMMT
+  group: usa
+  level: high-school
+  country: US
+  url: https://www.hmmt.org/www/archive/
+  first_year: 1998
+  edition_form: year
+  official_solutions: true
+  languages: [en]
+  copyright: None stated.
+  sources: [hmmt-official, hf-numina-olympiads, hf-matharena]
+  description: A large student-run tournament with a November contest, a February contest and the HMIC. It has about 250 problems a year.
+
+- code: pumac
+  name: Princeton University Mathematics Competition
+  short: PUMaC
+  group: usa
+  level: high-school
+  country: US
+  edition_form: year
+  official_solutions: true
+  languages: [en]
+  description: A student-run tournament with about 150 problems a year. Its official archive site is not confirmed.
+
+- code: bmt
+  name: Berkeley Math Tournament
+  short: BMT
+  group: usa
+  level: high-school
+  country: US
+  url: https://berkeley.mt
+  edition_form: year
+  languages: [en]
+  description: A student-run tournament with about 150 problems a year. Its archive is not confirmed.
+
+- code: cmimc
+  name: Carnegie Mellon Informatics and Mathematics Competition
+  short: CMIMC
+  group: usa
+  level: high-school
+  country: US
+  url: https://cmimc.com/archive
+  first_year: 2016
+  edition_form: year
+  official_solutions: true
+  languages: [en]
+  sources: [cmimc-official, hf-matharena]
+  description: A student-run tournament with about 100 problems a year. The archive covers 2016 to 2026.
+
+- code: smt
+  name: Stanford Math Tournament
+  short: SMT
+  group: usa
+  level: high-school
+  country: US
+  url: https://sumo.stanford.edu/smt
+  edition_form: year
+  languages: [en]
+  sources: [hf-matharena]
+  description: A student-run tournament with about 150 problems a year. Its archive is not confirmed.
+
+- code: arml
+  name: American Regions Mathematics League
+  short: ARML
+  group: usa
+  level: high-school
+  country: US
+  url: https://www.arml.com/
+  first_year: 1976
+  edition_form: year
+  official_solutions: true
+  languages: [en]
+  copyright: ARML encourages the reproduction of its contest problems for non-commercial, educational purposes.
+  sources: [arml-official]
+  description: A team competition with about 50 to 60 problems a year. Its reuse notice is the most permissive one found.
+
+- code: mathcounts
+  name: MATHCOUNTS
+  short: MATHCOUNTS
+  group: usa
+  level: junior
+  country: US
+  url: https://www.mathcounts.org/resources/past-competitions
+  first_year: 1983
+  edition_form: year
+  languages: [en]
+  copyright: Copyright MATHCOUNTS.
+  sources: [mathcounts-official]
+  description: A middle school competition with many rounds. Most of it is below olympiad level, and only the last year is free.
+
+- code: nimo
+  name: National Internet Math Olympiad
+  short: NIMO
+  group: usa
+  level: high-school
+  country: US
+  languages: [en]
+  description: An online contest that no longer runs. Its papers are kept on Evan Chen's Google Drive.
+
+- code: omo
+  name: Online Math Open
+  short: OMO
+  group: usa
+  level: high-school
+  country: US
+  languages: [en]
+  description: An online team contest that no longer runs. Its papers are kept on Evan Chen's Google Drive.
+
+# National olympiads and TSTs (01b section 4, and the Russian rows of section 2.2)
+
+- code: ca-cmo
+  name: Canadian Mathematical Olympiad
+  short: CMO
+  group: national
+  level: high-school
+  country: CA
+  organizer: CMS
+  url: https://cms.math.ca/competitions/cmo/
+  first_year: 1969
+  edition_form: year
+  layout:
+    - {paper: paper, name: Paper, positions: [p1, p2, p3, p4, p5]}
+  per_year: 5
+  official_solutions: true
+  languages: [en, fr]
+  copyright: "CMS: personal copying only."
+  sources: [cms, imomath]
+  description: The national olympiad of Canada with five problems. Solutions are published from 1994.
+
+- code: ca-cjmo
+  name: Canadian Junior Mathematical Olympiad
+  short: CJMO
+  group: national
+  level: junior
+  country: CA
+  organizer: CMS
+  url: https://cms.math.ca/competitions/cmo/
+  first_year: 2020
+  edition_form: year
+  per_year: 5
+  official_solutions: true
+  languages: [en, fr]
+  copyright: "CMS: personal copying only."
+  sources: [cms]
+  description: The junior national olympiad of Canada with five problems.
+
+- code: ca-euclid
+  name: Euclid Mathematics Contest
+  short: Euclid
+  group: national
+  level: high-school
+  country: CA
+  organizer: CEMC
+  url: https://cemc.uwaterloo.ca/contests/euclid
+  edition_form: year
+  per_year: 10
+  official_solutions: true
+  languages: [en, fr]
+  copyright: Copyright CEMC.
+  sources: [cemc]
+  description: A contest of ten problems run by the CEMC at the University of Waterloo. About ten years of papers are online.
+
+- code: mx-omm
+  name: Mexican Mathematical Olympiad
+  short: OMM
+  names: {es: Olimpiada Mexicana de Matemáticas}
+  group: national
+  level: high-school
+  country: MX
+  url: https://www.ommenlinea.org/
+  first_year: 1987
+  edition_form: year
+  per_year: 6
+  languages: [es]
+  sources: [omm]
+  description: The national olympiad of Mexico with six problems. The Tzaloa magazine also publishes its problems.
+
+- code: br-obm
+  name: Brazilian Mathematical Olympiad
+  short: OBM
+  names: {pt: Olimpíada Brasileira de Matemática}
+  group: national
+  level: high-school
+  country: BR
+  url: https://www.obm.org.br/como-se-preparar/provas-e-gabaritos/
+  first_year: 1979
+  edition_form: year
+  official_solutions: true
+  languages: [pt]
+  sources: [obm, hf-mathnet]
+  description: The national olympiad of Brazil in several levels, with six problems at level 3. Solutions are in Eureka! from 1998 to 2015 and with NOIC from 2015.
+
+- code: br-obmep
+  name: Brazilian Public Schools Mathematics Olympiad
+  short: OBMEP
+  names: {pt: Olimpíada Brasileira de Matemática das Escolas Públicas}
+  group: national
+  country: BR
+  first_year: 2005
+  edition_form: year
+  official_solutions: true
+  languages: [pt]
+  description: A very large olympiad for public school students in Brazil. Its archive is not confirmed.
+
+- code: ar-oma
+  name: Argentine Mathematical Olympiad
+  short: OMA
+  names: {es: Olimpíada Matemática Argentina}
+  group: national
+  level: high-school
+  country: AR
+  url: https://www.oma.org.ar/enunciados/
+  edition_form: year
+  languages: [es]
+  sources: [oma, hf-mathnet]
+  description: The national olympiad of Argentina in several levels.
+
+- code: pe-mo
+  name: Peru national mathematics olympiad
+  group: national
+  level: high-school
+  country: PE
+  languages: [es]
+  sources: [aops-collections, imogeometry-blog]
+  description: The national olympiad of Peru. No primary source has been found yet.
+
+- code: co-mo
+  name: Colombia national mathematics olympiad
+  group: national
+  level: high-school
+  country: CO
+  languages: [es]
+  sources: [aops-collections, imogeometry-blog]
+  description: The national olympiad of Colombia. No primary source has been found yet.
+
+- code: cl-mo
+  name: Chile national mathematics olympiad
+  group: national
+  level: high-school
+  country: CL
+  languages: [es]
+  sources: [aops-collections, imogeometry-blog]
+  description: The national olympiad of Chile. No primary source has been found yet.
+
+- code: ve-mo
+  name: Venezuela national mathematics olympiad
+  group: national
+  level: high-school
+  country: VE
+  languages: [es]
+  sources: [aops-collections, imogeometry-blog]
+  description: The national olympiad of Venezuela. No primary source has been found yet.
+
+- code: uy-mo
+  name: Uruguay national mathematics olympiad
+  group: national
+  level: high-school
+  country: UY
+  languages: [es]
+  sources: [aops-collections, imogeometry-blog]
+  description: The national olympiad of Uruguay. No primary source has been found yet.
+
+- code: cr-mo
+  name: Costa Rica national mathematics olympiad
+  group: national
+  level: high-school
+  country: CR
+  languages: [es]
+  sources: [aops-collections, imogeometry-blog]
+  description: The national olympiad of Costa Rica. No primary source has been found yet.
+
+- code: cu-mo
+  name: Cuba national mathematics olympiad
+  group: national
+  level: high-school
+  country: CU
+  languages: [es]
+  sources: [aops-collections, imogeometry-blog]
+  description: The national olympiad of Cuba. No primary source has been found yet.
+
+- code: uk-bmo1
+  name: British Mathematical Olympiad Round 1
+  short: BMO1
+  group: national
+  level: high-school
+  country: GB
+  organizer: UKMT
+  url: https://bmos.ukmt.org.uk/home/bmo.shtml
+  first_year: 1965
+  edition_form: year
+  per_year: 6
+  languages: [en]
+  copyright: Copyright UKMT.
+  sources: [ukmt]
+  description: The first round of the British olympiad with six problems. Papers are online from 1973.
+
+- code: uk-bmo2
+  name: British Mathematical Olympiad Round 2
+  short: BMO2
+  group: national
+  level: high-school
+  country: GB
+  organizer: UKMT
+  url: https://bmos.ukmt.org.uk/home/bmo.shtml
+  first_year: 1972
+  edition_form: year
+  per_year: 4
+  languages: [en]
+  copyright: Copyright UKMT.
+  sources: [ukmt]
+  description: The second round of the British olympiad with four problems. It was called FIST from 1972 to 1991.
+
+- code: uk-ukmt
+  name: UKMT Challenges, Kangaroos and Olympiads
+  group: national
+  country: GB
+  organizer: UKMT
+  url: https://www.ukmt.org.uk/free-past-papers/
+  first_year: 1996
+  edition_form: year
+  official_solutions: true
+  languages: [en]
+  copyright: Copyright UKMT.
+  sources: [ukmt]
+  description: The large multiple choice challenges of the UKMT and their follow-on rounds, such as the Kangaroos and the MOG.
+
+- code: uk-tst
+  name: UK IMO Selection Tests
+  group: national
+  level: high-school
+  country: GB
+  official_solutions: false
+  languages: [en]
+  description: The tests that choose the UK team for the IMO. They are not public.
+
+- code: ie-irmo
+  name: Irish Mathematical Olympiad
+  short: IrMO
+  group: national
+  level: high-school
+  country: IE
+  url: https://www.irmo.ie/problems.html
+  first_year: 1988
+  edition_form: year
+  per_year: 10
+  languages: [en]
+  copyright: None stated.
+  sources: [irmo-official]
+  description: The national olympiad of Ireland with ten problems. A single file holds the problems from 1988 to 2023.
+
+- code: de-mo
+  name: German Mathematical Olympiad
+  names: {de: Mathematik-Olympiade}
+  group: national
+  country: DE
+  organizer: Mathematik-Olympiaden e.V.
+  url: https://www.mathematik-olympiaden.de/
+  first_year: 1961
+  edition_form: year
+  languages: [de]
+  copyright: Linking is allowed with the permission of the Verein. Solutions from the 35th MO are not to be republished.
+  sources: [mathematik-olympiaden, imomath]
+  description: The German olympiad in four rounds for grades 3 to 13. It began in the DDR in 1961 and has been all-German since 1990/91.
+
+- code: de-bundeswettbewerb
+  name: Bundeswettbewerb Mathematik
+  names: {de: Bundeswettbewerb Mathematik}
+  group: national
+  level: high-school
+  country: DE
+  url: https://www.bundeswettbewerb-mathematik.de/
+  first_year: 1970
+  edition_form: year
+  per_year: 8
+  official_solutions: true
+  languages: [de]
+  copyright: The Springer book is copyrighted by Springer.
+  sources: [bundeswettbewerb]
+  description: A German competition in two rounds of four problems. A Springer book holds the problems from 1970 to 2019.
+
+- code: de-tst
+  name: German IMO Selection
+  group: national
+  level: high-school
+  country: DE
+  languages: [de]
+  description: The tests that choose the German team for the IMO. No source has been found.
+
+- code: fr-tst
+  name: French Olympiad Training and Selection
+  group: national
+  level: high-school
+  country: FR
+  url: https://maths-olympiques.fr/?page_id=41
+  edition_form: year
+  official_solutions: true
+  languages: [fr]
+  sources: [maths-olympiques, hf-numina-olympiads]
+  description: The French olympiad training programme (POFM), the Coupe Animath and the French IMO selection tests.
+
+- code: fr-academiques
+  name: Olympiades académiques de mathématiques
+  names: {fr: Olympiades académiques de mathématiques}
+  group: national
+  level: high-school
+  country: FR
+  first_year: 2001
+  edition_form: year
+  official_solutions: true
+  languages: [fr]
+  description: The regional French olympiads. Each académie publishes its own papers.
+
+- code: it-cesenatico
+  name: Italian Mathematical Olympiad
+  names: {it: Olimpiadi della Matematica}
+  group: national
+  level: high-school
+  country: IT
+  url: https://olimpiadi.dm.unibo.it/le-gare/gara-nazionale/
+  edition_form: year
+  per_year: 6
+  official_solutions: true
+  languages: [it]
+  sources: [olimpiadi-unibo, hf-mathnet]
+  description: The Italian olympiad with its national final in Cesenatico and the Febbraio and Archimede rounds. The site has the finals from 2000 to 2025 with solutions.
+
+- code: es-ome
+  name: Spanish Mathematical Olympiad
+  short: OME
+  names: {es: Olimpiada Matemática Española}
+  group: national
+  level: high-school
+  country: ES
+  organizer: RSME
+  url: https://www.rsme.es/olimpiada-matematica-espanola/
+  first_year: 1964
+  edition_form: year
+  per_year: 6
+  languages: [es]
+  sources: [rsme-ome, hf-mathnet]
+  description: The national olympiad of Spain with six problems. A compendium holds the problems from 1963 to 2004.
+
+- code: pt-opm
+  name: Portuguese Mathematical Olympiad
+  short: OPM
+  names: {pt: Olimpíadas Portuguesas de Matemática}
+  group: national
+  level: high-school
+  country: PT
+  url: https://www.mat.uc.pt/~opm/
+  edition_form: year
+  languages: [pt]
+  sources: [spm-opm]
+  description: The national olympiad of Portugal with about six problems.
+
+- code: nl-nwo
+  name: Dutch Mathematical Olympiad Final
+  names: {nl: Nederlandse Wiskunde Olympiade}
+  group: national
+  level: high-school
+  country: NL
+  url: https://www.wiskundeolympiade.nl/wedstrijdarchief/finale
+  first_year: 1962
+  edition_form: year
+  official_solutions: true
+  languages: [nl, en]
+  sources: [wiskundeolympiade, hf-mathnet]
+  description: The final round of the Dutch olympiad with about five problems. The archive has problems and solutions from 2001, with English texts for recent years.
+
+- code: nl-nwo-r2
+  name: Dutch Mathematical Olympiad Second Round
+  group: national
+  level: high-school
+  country: NL
+  url: https://www.wiskundeolympiade.nl/wedstrijdarchief/2e-ronde
+  first_year: 2011
+  edition_form: year
+  official_solutions: true
+  languages: [nl]
+  sources: [wiskundeolympiade]
+  description: The second round of the Dutch olympiad, held in March.
+
+- code: be-vwo
+  name: Flemish Mathematical Olympiad
+  short: VWO
+  names: {nl: Vlaamse Wiskunde Olympiade}
+  group: national
+  level: high-school
+  country: BE
+  languages: [nl]
+  description: The olympiad of Flanders. Its site and archive are not confirmed.
+
+- code: be-omb
+  name: Belgian Mathematical Olympiad (francophone)
+  short: OMB
+  names: {fr: Olympiade Mathématique Belge}
+  group: national
+  level: high-school
+  country: BE
+  languages: [fr]
+  description: The olympiad of French-speaking Belgium. Its site and archive are not confirmed.
+
+- code: lu-mo
+  name: Luxembourg national mathematics olympiad
+  group: national
+  level: high-school
+  country: LU
+  description: The national olympiad of Luxembourg. No source has been found.
+
+- code: ch-smo
+  name: Swiss Mathematical Olympiad
+  names: {de: Schweizer Mathematik-Olympiade}
+  group: national
+  level: high-school
+  country: CH
+  url: https://imosuisse.github.io/
+  edition_form: year
+  official_solutions: true
+  languages: [de, fr, it, en]
+  copyright: The licence of the GitHub archive is not checked.
+  sources: [imosuisse]
+  description: The Swiss olympiad and IMO selection. The official archive is on GitHub.
+
+- code: at-oemo
+  name: Austrian Mathematical Olympiad
+  short: ÖMO
+  names: {de: Österreichische Mathematik-Olympiade}
+  group: national
+  level: high-school
+  country: AT
+  url: https://www.oemo.at/OeMO/aufgaben/
+  first_year: 1970
+  edition_form: year
+  official_solutions: true
+  languages: [de, en]
+  sources: [oemo]
+  description: The Austrian olympiad in several rounds. The site has the problems in German and English with solutions, and 2026 was the 57th.
+
+- code: dk-georgmohr
+  name: Georg Mohr Contest
+  names: {da: Georg Mohr-Konkurrencen}
+  group: national
+  level: high-school
+  country: DK
+  url: https://georgmohr.dk/
+  languages: [da]
+  sources: [georgmohr, kalva]
+  description: The national olympiad of Denmark.
+
+- code: no-abel
+  name: Abel Competition
+  names: {"no": Abelkonkurransen}
+  group: national
+  level: high-school
+  country: "NO"
+  languages: ["no"]
+  sources: [kalva]
+  description: The national olympiad of Norway.
+
+- code: se-skolornas
+  name: Swedish Mathematical Competition
+  names: {sv: Skolornas matematiktävling}
+  group: national
+  level: high-school
+  country: SE
+  languages: [sv]
+  sources: [kalva]
+  description: The national olympiad of Sweden.
+
+- code: fi-mo
+  name: Finnish national mathematics olympiad
+  group: national
+  level: high-school
+  country: FI
+  languages: [fi]
+  sources: [kalva]
+  description: The national olympiad of Finland.
+
+- code: is-mo
+  name: Icelandic national mathematics olympiad
+  group: national
+  level: high-school
+  country: IS
+  languages: [is]
+  description: The national olympiad of Iceland. Its archive is not confirmed.
+
+- code: ee-mo
+  name: Estonian Mathematical Olympiad
+  group: national
+  level: high-school
+  country: EE
+  url: https://math.olympiaadid.ut.ee/
+  official_solutions: true
+  languages: [et, en]
+  sources: [olympiaadid-ut]
+  description: The national olympiad of Estonia. English booklets with solutions are published.
+
+- code: lv-mo
+  name: Latvian Mathematical Olympiad
+  group: national
+  level: high-school
+  country: LV
+  languages: [lv]
+  description: The national olympiad of Latvia. Its archive is not confirmed.
+
+- code: lt-mo
+  name: Lithuanian Mathematical Olympiad
+  group: national
+  level: high-school
+  country: LT
+  languages: [lt]
+  description: The national olympiad of Lithuania. Its archive is not confirmed.
+
+- code: gr-hms
+  name: Greek Mathematical Olympiad
+  group: national
+  level: high-school
+  country: GR
+  organizer: Hellenic Mathematical Society
+  url: https://www.hms.gr/
+  edition_form: year
+  official_solutions: true
+  languages: [el]
+  sources: [hms]
+  description: The Greek olympiad in the Thales, Euclides and Archimedes rounds.
+
+- code: cy-mo
+  name: Cyprus Mathematical Olympiad
+  group: national
+  level: high-school
+  country: CY
+  languages: [el, en]
+  description: The national olympiad of Cyprus, linked to the Thales Foundation and the Cyprus Mathematical Society. Its archive is not confirmed.
+
+- code: mt-mo
+  name: Malta national mathematics olympiad
+  group: national
+  level: high-school
+  country: MT
+  description: The national olympiad of Malta. No source has been found.
+
+- code: ad-mo
+  name: Andorra national mathematics olympiad
+  group: national
+  level: high-school
+  country: AD
+  description: The national olympiad of Andorra. No source has been found.
+
+- code: li-mo
+  name: Liechtenstein national mathematics olympiad
+  group: national
+  level: high-school
+  country: LI
+  description: The national olympiad of Liechtenstein. No source has been found.
+
+- code: mc-mo
+  name: Monaco national mathematics olympiad
+  group: national
+  level: high-school
+  country: MC
+  description: The national olympiad of Monaco. No source has been found.
+
+- code: pl-om
+  name: Polish Mathematical Olympiad
+  names: {pl: Olimpiada Matematyczna}
+  group: national
+  level: high-school
+  country: PL
+  url: https://om.sem.edu.pl/problems/
+  first_year: 1950
+  edition_form: year
+  official_solutions: true
+  languages: [pl]
+  sources: [om-sem, imomath, hf-mathnet]
+  description: The Polish olympiad in three rounds, first held in 1949/50. The site has the 47th to the 77th olympiads.
+
+- code: pl-omj
+  name: Polish Junior Mathematical Olympiad
+  short: OMJ
+  names: {pl: Olimpiada Matematyczna Juniorów}
+  group: national
+  level: junior
+  country: PL
+  url: https://omj.edu.pl/zadania
+  edition_form: year
+  official_solutions: true
+  languages: [pl]
+  sources: [omj]
+  description: The junior olympiad of Poland.
+
+- code: cz-sk-mo
+  name: Czech-Slovak Mathematical Olympiad
+  names: {cs: Matematická olympiáda}
+  group: national
+  level: high-school
+  url: https://www.matematickaolympiada.cz/en
+  first_year: 1952
+  edition_form: year
+  official_solutions: true
+  languages: [cs, sk, en]
+  copyright: The DML-CZ terms apply to the yearly reports.
+  sources: [matematickaolympiada]
+  description: The joint olympiad of the Czech Republic and Slovakia in categories A, B, C and Z, first held in 1951/52. English booklets exist for 2007 to 2023.
+
+- code: hu-oktv
+  name: Hungarian National Secondary School Competition
+  short: OKTV
+  names: {hu: Országos Középiskolai Tanulmányi Verseny}
+  group: national
+  level: high-school
+  country: HU
+  url: https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek_/oktv_kereteben/versenyfeladatok_javitasi_utmutatok/tartalomjegyzek/matematika_II
+  edition_form: year
+  official_solutions: true
+  languages: [hu]
+  sources: [oktatas-oktv]
+  description: The Hungarian national competition in three categories and three rounds. The papers from 2004/05 are online with marking guides.
+
+- code: hu-komal
+  name: KöMaL Problem Contests
+  short: KöMaL
+  group: national
+  level: high-school
+  country: HU
+  url: https://www.komal.hu/lap/archivum.e.shtml
+  first_year: 1894
+  edition_form: year
+  languages: [hu, en]
+  copyright: Copyright KöMaL.
+  sources: [komal]
+  description: The points contests of the KöMaL journal in the A, B, C and K series. Short solutions are published from 1999/2000.
+
+- code: ro-nmo
+  name: Romanian National Mathematical Olympiad
+  group: national
+  level: high-school
+  country: RO
+  edition_form: year
+  languages: [ro]
+  sources: [imomath, hf-mathnet]
+  description: The national olympiad of Romania for grades 7 to 12. No official archive has been found.
+
+- code: ro-tst
+  name: Romanian IMO Team Selection Test
+  group: national
+  level: high-school
+  country: RO
+  edition_form: year
+  languages: [ro]
+  sources: [imomath]
+  description: The tests that choose the Romanian team for the IMO. No official archive has been found.
+
+- code: bg-mo
+  name: Bulgarian Mathematical Olympiad
+  group: national
+  level: high-school
+  country: BG
+  url: https://www.math.bas.bg/bcmi/
+  edition_form: year
+  languages: [bg]
+  sources: [math-bas-bg, imomath]
+  description: The national olympiad and team selection test of Bulgaria.
+
+- code: rs-smo
+  name: Serbian Mathematical Olympiad
+  group: national
+  level: high-school
+  country: RS
+  organizer: Mathematical Society of Serbia
+  url: https://dms.rs/matematika-srednje-skole/
+  edition_form: year
+  official_solutions: true
+  languages: [sr]
+  sources: [dms-rs, imomath, hf-mathnet]
+  description: The Serbian competitions from the municipal round to the national olympiad and the team selection test.
+
+- code: hr-mo
+  name: Croatia national mathematics olympiad
+  group: national
+  level: high-school
+  country: HR
+  sources: [aops-collections, imogeometry-blog]
+  description: The national olympiad of Croatia. No primary source has been found yet.
+
+- code: si-mo
+  name: Slovenia national mathematics olympiad
+  group: national
+  level: high-school
+  country: SI
+  sources: [aops-collections, imogeometry-blog, hf-mathnet]
+  description: The national olympiad of Slovenia. No primary source has been found yet.
+
+- code: ba-mo
+  name: Bosnia and Herzegovina national mathematics olympiad
+  group: national
+  level: high-school
+  country: BA
+  sources: [aops-collections, imogeometry-blog]
+  description: The national olympiad of Bosnia and Herzegovina. No primary source has been found yet.
+
+- code: mk-mo
+  name: North Macedonia national mathematics olympiad
+  group: national
+  level: high-school
+  country: MK
+  sources: [aops-collections, imogeometry-blog, hf-mathnet]
+  description: The national olympiad of North Macedonia. No primary source has been found yet.
+
+- code: me-mo
+  name: Montenegro national mathematics olympiad
+  group: national
+  level: high-school
+  country: ME
+  sources: [aops-collections, imogeometry-blog]
+  description: The national olympiad of Montenegro. No primary source has been found yet.
+
+- code: al-mo
+  name: Albania national mathematics olympiad
+  group: national
+  level: high-school
+  country: AL
+  sources: [aops-collections, imogeometry-blog]
+  description: The national olympiad of Albania. No primary source has been found yet.
+
+- code: xk-mo
+  name: Kosovo national mathematics olympiad
+  group: national
+  level: high-school
+  country: XK
+  sources: [aops-collections, imogeometry-blog]
+  description: The national olympiad of Kosovo. XK is a user-assigned code, not an official ISO 3166-1 code.
+
+- code: ru-allrussian
+  name: All-Russian Mathematical Olympiad
+  names: {ru: Всероссийская олимпиада школьников по математике}
+  group: national
+  level: high-school
+  country: RU
+  url: https://olympiads.mccme.ru/vmo/
+  first_year: 1961
+  edition_form: year
+  official_solutions: true
+  languages: [ru]
+  copyright: None stated.
+  sources: [mccme-vmo, problems-ru, imomath, hf-numina-olympiads]
+  description: The Russian national olympiad with regional and final stages. It was the All-Union olympiad from 1967 to 1991, and 2026 was the 52nd.
+
+- code: ru-moscow
+  name: Moscow Mathematical Olympiad
+  names: {ru: Московская математическая олимпиада}
+  group: national
+  level: high-school
+  country: RU
+  organizer: MCCME
+  url: https://mmo.mccme.ru/
+  first_year: 1935
+  edition_form: year
+  official_solutions: true
+  languages: [ru]
+  copyright: Copyright MCCME.
+  sources: [mccme-mmo, problems-ru]
+  description: The olympiad of Moscow, with about 30 problems a year across the grades. It was not held from 1942 to 1944, and problems.ru holds 2,003 of its problems.
+
+- code: ru-spb
+  name: St Petersburg Mathematical Olympiad
+  names: {ru: Санкт-Петербургская математическая олимпиада}
+  group: national
+  level: high-school
+  country: RU
+  url: https://www.pdmi.ras.ru/~olymp/
+  first_year: 1934
+  edition_form: year
+  languages: [ru]
+  copyright: None stated.
+  sources: [pdmi-olymp]
+  description: The olympiad of St Petersburg, called the Leningrad olympiad from 1934. A book by Fomin and Kokhas holds about 940 problems from 1992 to 2008.
+
+- code: ru-239-open
+  name: 239 Lyceum Open Olympiad
+  group: national
+  level: high-school
+  country: RU
+  url: https://239.ru/
+  edition_form: year
+  languages: [ru]
+  description: The open olympiad of the 239 Lyceum in St Petersburg with about 20 problems a year. Its first year and archive are not confirmed.
+
+- code: ru-okruzhnaya
+  name: Moscow District Olympiad
+  names: {ru: Окружная олимпиада}
+  group: national
+  level: high-school
+  country: RU
+  official_solutions: true
+  languages: [ru]
+  copyright: Copyright MCCME.
+  sources: [problems-ru]
+  description: The district round of the Moscow olympiad. problems.ru holds 416 of its problems.
+
+- code: ru-regata
+  name: Moscow Mathematical Regatta
+  names: {ru: Математическая регата}
+  group: national
+  level: high-school
+  country: RU
+  official_solutions: true
+  languages: [ru]
+  copyright: Copyright MCCME.
+  sources: [problems-ru]
+  description: A team contest in Moscow. problems.ru holds 557 of its problems.
+
+- code: ru-prazdnik
+  name: Mathematical Festival
+  names: {ru: Математический праздник}
+  group: national
+  level: junior
+  country: RU
+  official_solutions: true
+  languages: [ru]
+  copyright: Copyright MCCME.
+  sources: [problems-ru]
+  description: A Moscow olympiad for younger students. problems.ru holds 404 of its problems.
+
+- code: ru-lomonosov
+  name: Lomonosov Tournament
+  names: {ru: Турнир Ломоносова}
+  group: national
+  country: RU
+  official_solutions: true
+  languages: [ru]
+  copyright: Copyright MCCME.
+  sources: [problems-ru]
+  description: A Moscow tournament in many subjects with a mathematics section. problems.ru holds 372 of its problems.
+
+- code: ru-euler
+  name: Euler Olympiad
+  names: {ru: Олимпиада имени Леонарда Эйлера}
+  group: national
+  level: junior
+  country: RU
+  official_solutions: true
+  languages: [ru]
+  copyright: Copyright MCCME.
+  sources: [problems-ru]
+  description: A Russian olympiad for younger students, listed in 01b among the other Russian contests of problems.ru.
+
+- code: ru-oral-geometry
+  name: Moscow Oral Geometry Olympiad
+  names: {ru: Устная олимпиада по геометрии}
+  group: national
+  country: RU
+  official_solutions: true
+  languages: [ru]
+  copyright: Copyright MCCME.
+  sources: [problems-ru]
+  description: An oral geometry olympiad in Moscow. problems.ru holds 185 of its problems.
+
+- code: ua-umo
+  name: Ukrainian Mathematical Olympiad
+  group: national
+  level: high-school
+  country: UA
+  edition_form: year
+  languages: [uk]
+  sources: [imomath, imogeometry-blog]
+  description: The national olympiad and team selection test of Ukraine.
+
+- code: by-mo
+  name: Belarus Mathematical Olympiad
+  group: national
+  level: high-school
+  country: BY
+  edition_form: year
+  languages: [ru, be]
+  sources: [imomath, problems-ru]
+  description: The national olympiad of Belarus. problems.ru holds 132 of its problems.
+
+- code: md-mo
+  name: Moldova national mathematics olympiad
+  group: national
+  level: high-school
+  country: MD
+  sources: [aops-collections, imomath]
+  description: The national olympiad of Moldova. imomath holds 357 of its problems.
+
+- code: ge-mo
+  name: Georgia national mathematics olympiad
+  group: national
+  level: high-school
+  country: GE
+  sources: [aops-collections]
+  description: The national olympiad of Georgia. No primary source has been found yet.
+
+- code: am-mo
+  name: Armenia national mathematics olympiad
+  group: national
+  level: high-school
+  country: AM
+  sources: [aops-collections]
+  description: The national olympiad of Armenia. No primary source has been found yet.
+
+- code: az-mo
+  name: Azerbaijan national mathematics olympiad
+  group: national
+  level: high-school
+  country: AZ
+  sources: [aops-collections]
+  description: The national olympiad of Azerbaijan. No primary source has been found yet.
+
+- code: cn-league
+  name: China National High School Mathematics League
+  names: {zh: 全国高中数学联赛}
+  group: national
+  level: high-school
+  country: CN
+  url: https://www.cms.org.cn/
+  first_year: 1981
+  edition_form: year
+  official_solutions: true
+  languages: [zh]
+  copyright: Copyright of the publishers.
+  sources: [cms-org-cn]
+  description: The Chinese league contest with two papers. From 2022 it is called the preliminary round of the Chinese Mathematical Olympiad.
+
+- code: cn-mo
+  name: Chinese Mathematical Olympiad
+  short: CMO
+  names: {zh: 中国数学奥林匹克}
+  group: national
+  level: high-school
+  country: CN
+  first_year: 1986
+  edition_form: year
+  layout:
+    - {paper: day1, name: Day 1, positions: [p1, p2, p3]}
+    - {paper: day2, name: Day 2, positions: [p4, p5, p6]}
+  per_year: 6
+  official_solutions: true
+  languages: [zh, en]
+  copyright: Copyright World Scientific.
+  sources: [imomath, hf-omni-math]
+  description: The national final of China with six problems. The book series Mathematical Olympiad in China holds the problems with solutions.
+
+- code: cn-tst
+  name: China Team Selection Test
+  group: national
+  level: high-school
+  country: CN
+  edition_form: year
+  official_solutions: true
+  languages: [zh, en]
+  copyright: Copyright of the publishers.
+  description: The tests that choose the Chinese team for the IMO, with about 18 to 24 problems a year.
+
+- code: cn-gmo
+  name: China Girls' Mathematical Olympiad
+  short: CGMO
+  names: {zh: 中国女子数学奥林匹克}
+  group: national
+  level: high-school
+  country: CN
+  first_year: 2002
+  edition_form: year
+  per_year: 8
+  official_solutions: true
+  languages: [zh, en]
+  copyright: Copyright of the publishers.
+  description: The Chinese olympiad for girls with eight problems.
+
+- code: cn-wmo
+  name: China Western Mathematical Olympiad
+  short: CWMO
+  group: national
+  level: high-school
+  country: CN
+  first_year: 2001
+  edition_form: year
+  per_year: 8
+  official_solutions: true
+  languages: [zh, en]
+  copyright: Copyright of the publishers.
+  description: The olympiad of western China with eight problems.
+
+- code: cn-smo
+  name: China Southeast Mathematical Olympiad
+  names: {zh: 中国东南地区数学奥林匹克}
+  group: national
+  level: high-school
+  country: CN
+  edition_form: year
+  per_year: 8
+  official_solutions: true
+  languages: [zh, en]
+  copyright: Copyright of the publishers.
+  description: The olympiad of southeast China with eight problems.
+
+- code: jp-jmo
+  name: Japan Mathematical Olympiad
+  short: JMO
+  names: {ja: 日本数学オリンピック}
+  group: national
+  level: high-school
+  country: JP
+  url: https://www.imojp.org/domestic/jmo_overview.html
+  edition_form: year
+  official_solutions: false
+  languages: [ja]
+  sources: [imojp]
+  description: The Japanese olympiad with a preliminary round of 12 short-answer problems and a final round of five problems. The 2026 contest was the 36th.
+
+- code: jp-jjmo
+  name: Japan Junior Mathematical Olympiad
+  short: JJMO
+  names: {ja: 日本ジュニア数学オリンピック}
+  group: national
+  level: junior
+  country: JP
+  url: https://www.imojp.org/domestic/jmo_overview.html
+  edition_form: year
+  official_solutions: false
+  languages: [ja]
+  sources: [imojp]
+  description: The junior olympiad of Japan.
+
+- code: kr-kmo
+  name: Korean Mathematical Olympiad
+  short: KMO
+  names: {ko: 한국수학올림피아드}
+  group: national
+  level: high-school
+  country: KR
+  organizer: KMS
+  url: https://www.kmo.or.kr/
+  edition_form: year
+  languages: [ko]
+  sources: [kms, hf-hrm8k, hf-mathnet]
+  description: The Korean olympiad with a preliminary round of 20 problems and a final round (FKMO) of 8 problems.
+
+- code: tw-tst
+  name: Taiwan TST and National Olympiad
+  group: national
+  level: high-school
+  country: TW
+  edition_form: year
+  languages: [zh]
+  sources: [evanchen, hf-mathnet]
+  description: The national olympiad of Taiwan and its IMO selection tests.
+
+- code: hk-pc
+  name: Hong Kong Preliminary Selection Contest and TST
+  group: national
+  level: high-school
+  country: HK
+  url: https://www.imohkc.org.hk/tests
+  edition_form: year
+  languages: [zh, en]
+  sources: [hkmo]
+  description: The Hong Kong preliminary selection contest and the tests that choose the IMO team.
+
+- code: mo-macau
+  name: Macau Mathematical Olympiad
+  group: national
+  level: high-school
+  country: MO
+  languages: [zh, pt]
+  description: The national olympiad of Macau. No source has been found.
+
+- code: mn-mo
+  name: Mongolian Mathematical Olympiad
+  group: national
+  level: high-school
+  country: MN
+  edition_form: year
+  languages: [mn]
+  sources: [imomath, hf-mathnet]
+  description: The national olympiad of Mongolia. The 2007 contest was the 43rd.
+
+- code: vn-vmo
+  name: Vietnam Mathematical Olympiad
+  short: VMO
+  group: national
+  level: high-school
+  country: VN
+  organizer: Ministry of Education
+  first_year: 1962
+  edition_form: year
+  languages: [vi]
+  sources: [imomath]
+  description: The national olympiad of Vietnam with six or seven problems. The ministry publishes the papers with grading guides from 2022.
+
+- code: vn-tst
+  name: Vietnam Team Selection Test
+  group: national
+  level: high-school
+  country: VN
+  edition_form: year
+  per_year: 6
+  languages: [vi]
+  description: The test that chooses the Vietnamese team for the IMO.
+
+- code: sg-smo
+  name: Singapore Mathematical Olympiad
+  short: SMO
+  group: national
+  level: high-school
+  country: SG
+  url: https://sms.math.nus.edu.sg/
+  first_year: 1995
+  edition_form: year
+  languages: [en]
+  sources: [sms-smo]
+  description: The Singapore olympiad in junior, senior and open sections, with a second round for the open section. Its archive is not confirmed.
+
+- code: th-tmo
+  name: Thailand Mathematical Olympiad
+  group: national
+  level: high-school
+  country: TH
+  edition_form: year
+  languages: [th]
+  sources: [hf-mathnet]
+  description: The national olympiad of Thailand. MathNet covers the years 2007 to 2017.
+
+- code: ph-pmo
+  name: Philippine Mathematical Olympiad
+  short: PMO
+  group: national
+  level: high-school
+  country: PH
+  url: https://pmo.ph/
+  edition_form: year
+  official_solutions: true
+  languages: [en]
+  sources: [pmo-ph]
+  description: The national olympiad of the Philippines. The site has the 10th to the 24th olympiads with solutions.
+
+- code: my-omk
+  name: Malaysian Mathematical Olympiad
+  short: OMK
+  group: national
+  level: high-school
+  country: MY
+  url: https://omk-persama.org.my/bank_soalan_omk/
+  edition_form: year
+  languages: [ms, en]
+  sources: [omk]
+  description: The national olympiad of Malaysia.
+
+- code: id-osn
+  name: Indonesian National Science Olympiad
+  short: OSN
+  group: national
+  level: high-school
+  country: ID
+  edition_form: year
+  languages: [id]
+  sources: [hf-indonesian-olympiad]
+  description: The mathematics section of the Indonesian national science olympiad. No official archive has been found.
+
+- code: kh-mo
+  name: Cambodia national mathematics olympiad
+  group: national
+  level: high-school
+  country: KH
+  description: The national olympiad of Cambodia. No source has been found.
+
+- code: la-mo
+  name: Laos national mathematics olympiad
+  group: national
+  level: high-school
+  country: LA
+  description: The national olympiad of Laos. No source has been found.
+
+- code: mm-mo
+  name: Myanmar national mathematics olympiad
+  group: national
+  level: high-school
+  country: MM
+  description: The national olympiad of Myanmar. No source has been found.
+
+- code: bn-mo
+  name: Brunei national mathematics olympiad
+  group: national
+  level: high-school
+  country: BN
+  description: The national olympiad of Brunei. No source has been found.
+
+- code: au-amo
+  name: Australian Mathematical Olympiad
+  short: AMO
+  group: national
+  level: high-school
+  country: AU
+  organizer: AMT
+  url: https://www.amt.edu.au/department/past-papers
+  first_year: 1979
+  edition_form: year
+  per_year: 8
+  official_solutions: true
+  languages: [en]
+  copyright: Copyright AMT.
+  sources: [amt]
+  description: The national olympiad of Australia with eight problems. AMT books hold the years 1979 to 2011.
+
+- code: au-amc
+  name: Australian Mathematics Competition
+  group: national
+  country: AU
+  organizer: AMT
+  first_year: 1978
+  edition_form: year
+  official_solutions: true
+  languages: [en]
+  copyright: Copyright AMT.
+  sources: [amt]
+  description: A large multiple choice competition for Australian school students.
+
+- code: au-mcyb
+  name: Maths Challenge for Young Australians
+  group: national
+  level: junior
+  country: AU
+  organizer: AMT
+  edition_form: year
+  official_solutions: true
+  languages: [en]
+  copyright: Copyright AMT.
+  sources: [amt]
+  description: A problem solving programme of the AMT for younger students.
+
+- code: nz-nzmo
+  name: New Zealand Mathematical Olympiad
+  group: national
+  level: high-school
+  country: NZ
+  edition_form: year
+  languages: [en]
+  description: The national olympiad of New Zealand. Its archive is not confirmed.
+
+- code: in-inmo
+  name: Indian National Mathematical Olympiad
+  short: INMO
+  group: national
+  level: high-school
+  country: IN
+  url: https://olympiads.hbcse.tifr.res.in/how-to-prepare/past-papers/
+  first_year: 1986
+  edition_form: year
+  per_year: 6
+  official_solutions: true
+  languages: [en, hi]
+  sources: [hbcse, imomath]
+  description: The national olympiad of India with six problems. It has been held at ISI since 1989.
+
+- code: in-rmo
+  name: Indian Regional Mathematical Olympiad
+  short: RMO
+  group: national
+  level: high-school
+  country: IN
+  url: https://olympiads.hbcse.tifr.res.in/how-to-prepare/past-papers/
+  first_year: 1990
+  edition_form: year
+  per_year: 6
+  official_solutions: true
+  languages: [en]
+  sources: [hbcse]
+  description: The regional round of the Indian olympiad, with six problems in each of several regions.
+
+- code: in-prmo-ioqm
+  name: PRMO and IOQM
+  group: national
+  level: high-school
+  country: IN
+  organizer: MTA(I)
+  url: https://olympiads.hbcse.tifr.res.in/how-to-prepare/past-papers/
+  first_year: 2012
+  edition_form: year
+  languages: [en]
+  sources: [hbcse]
+  description: The first round of the Indian olympiad, called PRMO until 2019 and IOQM from 2020. Only answers are official.
+
+- code: in-tst
+  name: India Team Selection Test
+  group: national
+  level: high-school
+  country: IN
+  edition_form: year
+  languages: [en]
+  sources: [aops-collections]
+  description: The tests that choose the Indian team for the IMO, with about 12 problems a year.
+
+- code: bd-bdmo
+  name: Bangladesh Mathematical Olympiad
+  group: national
+  level: high-school
+  country: BD
+  languages: [bn]
+  description: The national olympiad of Bangladesh. No source has been found.
+
+- code: pk-mo
+  name: Pakistan national mathematics olympiad
+  group: national
+  level: high-school
+  country: PK
+  description: The national olympiad of Pakistan. No source has been found.
+
+- code: lk-mo
+  name: Sri Lanka national mathematics olympiad
+  group: national
+  level: high-school
+  country: LK
+  description: The national olympiad of Sri Lanka. No source has been found.
+
+- code: np-mo
+  name: Nepal national mathematics olympiad
+  group: national
+  level: high-school
+  country: NP
+  description: The national olympiad of Nepal. No source has been found.
+
+- code: kz-mo
+  name: Kazakhstan Mathematical Olympiad
+  group: national
+  level: high-school
+  country: KZ
+  edition_form: year
+  languages: [kk, ru]
+  sources: [imomath, imogeometry-blog]
+  description: The national olympiad of Kazakhstan.
+
+- code: uz-mo
+  name: Uzbekistan national mathematics olympiad
+  group: national
+  level: high-school
+  country: UZ
+  sources: [aops-collections]
+  description: The national olympiad of Uzbekistan. No primary source has been found yet.
+
+- code: kg-mo
+  name: Kyrgyzstan national mathematics olympiad
+  group: national
+  level: high-school
+  country: KG
+  sources: [aops-collections]
+  description: The national olympiad of Kyrgyzstan. No primary source has been found yet.
+
+- code: tj-mo
+  name: Tajikistan national mathematics olympiad
+  group: national
+  level: high-school
+  country: TJ
+  sources: [aops-collections]
+  description: The national olympiad of Tajikistan. No primary source has been found yet.
+
+- code: tm-mo
+  name: Turkmenistan national mathematics olympiad
+  group: national
+  level: high-school
+  country: TM
+  sources: [aops-collections]
+  description: The national olympiad of Turkmenistan. No primary source has been found yet.
+
+- code: ir-mo
+  name: Iran Mathematical Olympiad
+  group: national
+  level: high-school
+  country: IR
+  edition_form: year
+  official_solutions: true
+  languages: [fa, en]
+  sources: [aops-collections, imomath]
+  description: The Iranian olympiad in three rounds. English booklets with solutions circulate, but there is no official archive.
+
+- code: ir-tst
+  name: Iran Team Selection Test
+  group: national
+  level: high-school
+  country: IR
+  edition_form: year
+  languages: [fa, en]
+  sources: [aops-collections]
+  description: The tests that choose the Iranian team for the IMO.
+
+- code: tr-mo
+  name: Turkish Mathematical Olympiad
+  group: national
+  level: high-school
+  country: TR
+  url: https://bilimolimpiyatlari.tubitak.gov.tr/
+  edition_form: year
+  languages: [tr]
+  sources: [tubitak, hf-tubitak]
+  description: The Turkish olympiad and team selection test, run by TÜBİTAK. The first-round papers are online.
+
+- code: il-gillis
+  name: Israel National Olympiad
+  group: national
+  level: high-school
+  country: IL
+  url: https://www.weizmann.ac.il/math/gillis/
+  edition_form: year
+  languages: [he, en]
+  sources: [aops-collections]
+  description: The Israeli national olympiad, known as the Gillis olympiad of the Weizmann Institute.
+
+- code: il-grossman
+  name: Grossman Olympiad
+  group: national
+  level: high-school
+  country: IL
+  languages: [he]
+  description: An olympiad of the Technion. No source has been found.
+
+- code: sa-samc
+  name: Saudi Arabia Mathematical Competition
+  group: national
+  level: high-school
+  country: SA
+  edition_form: year
+  official_solutions: true
+  languages: [ar, en]
+  description: The Saudi competition and team selection test. Booklets with solutions are known for some years.
+
+- code: ae-mo
+  name: United Arab Emirates national mathematics olympiad
+  group: national
+  level: high-school
+  country: AE
+  languages: [ar]
+  description: The national olympiad of the United Arab Emirates. No source has been found.
+
+- code: kw-mo
+  name: Kuwait national mathematics olympiad
+  group: national
+  level: high-school
+  country: KW
+  languages: [ar]
+  description: The national olympiad of Kuwait. No source has been found.
+
+- code: qa-mo
+  name: Qatar national mathematics olympiad
+  group: national
+  level: high-school
+  country: QA
+  languages: [ar]
+  description: The national olympiad of Qatar. No source has been found.
+
+- code: bh-mo
+  name: Bahrain national mathematics olympiad
+  group: national
+  level: high-school
+  country: BH
+  languages: [ar]
+  description: The national olympiad of Bahrain. No source has been found.
+
+- code: om-mo
+  name: Oman national mathematics olympiad
+  group: national
+  level: high-school
+  country: OM
+  languages: [ar]
+  description: The national olympiad of Oman. No source has been found.
+
+- code: jo-mo
+  name: Jordan national mathematics olympiad
+  group: national
+  level: high-school
+  country: JO
+  languages: [ar]
+  description: The national olympiad of Jordan. No source has been found.
+
+- code: sy-mo
+  name: Syria national mathematics olympiad
+  group: national
+  level: high-school
+  country: SY
+  languages: [ar]
+  description: The national olympiad of Syria. No source has been found.
+
+- code: lb-mo
+  name: Lebanon national mathematics olympiad
+  group: national
+  level: high-school
+  country: LB
+  languages: [ar]
+  description: The national olympiad of Lebanon. No source has been found.
+
+- code: iq-mo
+  name: Iraq national mathematics olympiad
+  group: national
+  level: high-school
+  country: IQ
+  languages: [ar]
+  description: The national olympiad of Iraq. No source has been found.
+
+- code: ps-mo
+  name: Palestine national mathematics olympiad
+  group: national
+  level: high-school
+  country: PS
+  languages: [ar]
+  description: The national olympiad of Palestine. No source has been found.
+
+- code: eg-mo
+  name: Egypt national mathematics olympiad
+  group: national
+  level: high-school
+  country: EG
+  languages: [ar, fr]
+  description: The national olympiad of Egypt. No source has been found.
+
+- code: ma-mo
+  name: Morocco national mathematics olympiad
+  group: national
+  level: high-school
+  country: MA
+  languages: [ar, fr]
+  description: The national olympiad of Morocco. No source has been found.
+
+- code: tn-mo
+  name: Tunisia national mathematics olympiad
+  group: national
+  level: high-school
+  country: TN
+  languages: [ar, fr]
+  description: The national olympiad of Tunisia. No source has been found.
+
+- code: dz-mo
+  name: Algeria national mathematics olympiad
+  group: national
+  level: high-school
+  country: DZ
+  languages: [ar, fr]
+  description: The national olympiad of Algeria. No source has been found.
+
+- code: za-samo
+  name: South African Mathematics Olympiad
+  group: national
+  level: high-school
+  country: ZA
+  edition_form: year
+  languages: [en]
+  description: The national olympiad of South Africa. Its site and archive are not confirmed.
+
+- code: ng-mo
+  name: Nigeria national mathematics olympiad
+  group: national
+  level: high-school
+  country: NG
+  description: The national olympiad of Nigeria. No source has been found.
+
+- code: ke-mo
+  name: Kenya national mathematics olympiad
+  group: national
+  level: high-school
+  country: KE
+  description: The national olympiad of Kenya. No source has been found.
+
+- code: gh-mo
+  name: Ghana national mathematics olympiad
+  group: national
+  level: high-school
+  country: GH
+  description: The national olympiad of Ghana. No source has been found.
+
+- code: rw-mo
+  name: Rwanda national mathematics olympiad
+  group: national
+  level: high-school
+  country: RW
+  description: The national olympiad of Rwanda. No source has been found.
+
+- code: ug-mo
+  name: Uganda national mathematics olympiad
+  group: national
+  level: high-school
+  country: UG
+  description: The national olympiad of Uganda. No source has been found.
+
+- code: tz-mo
+  name: Tanzania national mathematics olympiad
+  group: national
+  level: high-school
+  country: TZ
+  description: The national olympiad of Tanzania. No source has been found.
+
+- code: zw-mo
+  name: Zimbabwe national mathematics olympiad
+  group: national
+  level: high-school
+  country: ZW
+  description: The national olympiad of Zimbabwe. No source has been found.
+
+- code: bw-mo
+  name: Botswana national mathematics olympiad
+  group: national
+  level: high-school
+  country: BW
+  description: The national olympiad of Botswana. No source has been found.
+
+- code: ci-mo
+  name: Côte d'Ivoire national mathematics olympiad
+  group: national
+  level: high-school
+  country: CI
+  description: The national olympiad of Côte d'Ivoire. No source has been found.
+
+- code: sn-mo
+  name: Senegal national mathematics olympiad
+  group: national
+  level: high-school
+  country: SN
+  description: The national olympiad of Senegal. No source has been found.
+
+- code: cm-mo
+  name: Cameroon national mathematics olympiad
+  group: national
+  level: high-school
+  country: CM
+  description: The national olympiad of Cameroon. No source has been found.
+
+- code: et-mo
+  name: Ethiopia national mathematics olympiad
+  group: national
+  level: high-school
+  country: ET
+  description: The national olympiad of Ethiopia. No source has been found.
+
+# Journals with problem sections (01b section 5). They are source kinds, not competitions.
+
+- code: journal-crux
+  name: Crux Mathematicorum
+  short: Crux
+  group: journal
+  level: open
+  organizer: CMS
+  url: https://cms.math.ca/publications/crux/
+  first_year: 1975
+  languages: [en, fr]
+  copyright: "Personal and private use only. All other rights are reserved."
+  sources: [crux]
+  description: The problem journal of the CMS, with about 5,000 proposals and the Olympiad Corner. It is open access from 2019.
+
+- code: journal-komal
+  name: KöMaL
+  short: KöMaL
+  names: {hu: Középiskolai Matematikai és Fizikai Lapok}
+  group: journal
+  level: open
+  url: https://www.komal.hu/
+  first_year: 1894
+  languages: [hu, en]
+  copyright: Copyright KöMaL.
+  sources: [komal]
+  description: The Hungarian school mathematics journal, with English problem statements for more than 40 years.
+
+- code: journal-kvant
+  name: Kvant Problem Section
+  short: Kvant
+  names: {ru: Задачник «Кванта»}
+  group: journal
+  level: open
+  first_year: 1970
+  languages: [ru]
+  sources: [kvant]
+  description: The problem section of the Russian journal Kvant, with about 3,000 problems.
+
+- code: journal-excalibur
+  name: Mathematical Excalibur
+  group: journal
+  level: open
+  organizer: HKUST
+  url: https://www.math.hkust.edu.hk/excalibur/
+  first_year: 1995
+  languages: [en, zh]
+  sources: [excalibur]
+  description: The free newsletter of HKUST, with a problem corner of about 800 problems.
+
+- code: journal-tzaloa
+  name: Tzaloa
+  group: journal
+  level: open
+  url: https://www.ommenlinea.org/
+  first_year: 2009
+  languages: [es]
+  sources: [tzaloa]
+  description: The magazine of the Mexican olympiad.
+
+- code: journal-eureka
+  name: Eureka!
+  names: {pt: Eureka!}
+  group: journal
+  level: open
+  url: https://www.obm.org.br/
+  first_year: 1998
+  last_year: 2015
+  languages: [pt]
+  sources: [eureka]
+  description: The magazine of the Brazilian olympiad from 1998 to 2015. It published the OBM solutions.
+
+- code: journal-amm
+  name: American Mathematical Monthly Problems
+  short: AMM
+  group: journal
+  level: open
+  organizer: MAA
+  first_year: 1894
+  languages: [en]
+  copyright: Copyright MAA. Paywalled.
+  sources: [amm]
+  description: The problem section of the American Mathematical Monthly, with about 12,000 problems. It is paywalled, so olymmath keeps the locator and a link only.
+
+- code: journal-mr
+  name: Mathematical Reflections
+  group: journal
+  level: open
+  organizer: AwesomeMath
+  url: https://www.awesomemath.org/mathematical-reflections/
+  first_year: 2006
+  languages: [en]
+  copyright: Copyright AwesomeMath. All rights reserved.
+  sources: [mathreflections]
+  description: A free online journal started by Titu Andreescu, with about 3,000 problems.
+
+- code: journal-gazeta
+  name: Gazeta Matematică
+  names: {ro: Gazeta Matematică}
+  group: journal
+  level: open
+  organizer: SSMR
+  url: https://gmb.ssmr.ro/
+  first_year: 1895
+  languages: [ro]
+  copyright: Copyright SSMR.
+  sources: [gazeta]
+  description: The monthly Romanian school mathematics journal, with a very large problem section.
+
+- code: journal-parabola
+  name: Parabola
+  group: journal
+  level: open
+  organizer: UNSW
+  url: https://www.parabola.unsw.edu.au/
+  first_year: 1964
+  languages: [en]
+  copyright: Diamond open access. No licence is stated on the site.
+  sources: [parabola]
+  description: The school mathematics journal of UNSW, with a problems section from 1964.

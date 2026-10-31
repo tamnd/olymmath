@@ -35,7 +35,7 @@
   name: NuminaMath olympiads-ref
   kind: dataset
   origin: D
-  url: https://huggingface.co/datasets/AI-MO/olympiads-ref
+  url: https://huggingface.co/datasets/project-numina/olympiads-ref-base
   access: hf
   zone:
     statement: Z2
@@ -49,7 +49,7 @@
   name: AI-MO AoPS
   kind: dataset
   origin: D
-  url: https://huggingface.co/datasets/AI-MO/aops
+  url: https://huggingface.co/datasets/project-numina/aops
   access: hf
   zone:
     statement: Z2

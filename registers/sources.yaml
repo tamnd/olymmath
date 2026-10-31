@@ -1,0 +1,1902 @@
+# The source register. Each row is one place that olymmath harvests from (spec 05.3).
+
+- id: hf-mathnet
+  name: MathNet
+  kind: dataset
+  origin: D
+  url: https://huggingface.co/datasets/ShadenA/MathNet
+  access: hf
+  licence: MIT (dataset); CC BY 4.0 (paper)
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: 27,817 HF rows; 30,676 in the paper
+  wave: 0
+  state: planned
+  notes: Official-booklet statements from 47 countries and 143 competitions. Each item keeps the copyright of its competition.
+
+- id: hf-numina-olympiads
+  name: NuminaMath olympiads
+  kind: dataset
+  origin: D
+  url: https://huggingface.co/datasets/project-numina/olympiads
+  access: hf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: 13,088 rows in 28 exams
+  wave: 0
+  state: planned
+  notes: Rows carry exam, year and problem_label, with official solutions.
+
+- id: hf-numina-olympiads-ref
+  name: NuminaMath olympiads-ref
+  kind: dataset
+  origin: D
+  url: https://huggingface.co/datasets/AI-MO/olympiads-ref
+  access: hf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 0
+  state: planned
+  notes: The reference subset of the Numina olympiad set.
+
+- id: hf-ai-mo-aops
+  name: AI-MO AoPS
+  kind: dataset
+  origin: D
+  url: https://huggingface.co/datasets/AI-MO/aops
+  access: hf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: 'no'
+  size: 80,661 rows
+  wave: 0
+  state: planned
+  notes: AoPS contest collection threads with metadata.path (the c13 tree). It is the de facto index of AoPS.
+
+- id: hf-numinamath-1-5
+  name: NuminaMath-1.5
+  kind: dataset
+  origin: D
+  url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+  access: hf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: about 316k non-synthetic rows before dedup
+  wave: 0
+  state: planned
+  notes: Used for discovery through the source field. Synthetic rows are not used.
+
+- id: hf-omni-math
+  name: Omni-MATH
+  kind: dataset
+  origin: D
+  url: https://huggingface.co/datasets/KbsdJames/Omni-MATH
+  access: hf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: 4,428 rows
+  wave: 0
+  state: planned
+  notes: About 100 competition labels with difficulty and domain.
+
+- id: hf-olympiadbench
+  name: OlympiadBench
+  kind: dataset
+  origin: D
+  url: https://huggingface.co/datasets/Hothan/OlympiadBench
+  access: hf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: 6,142 math rows, about 2,100 from competitions
+  wave: 0
+  state: planned
+  notes: The gaokao rows are a negative filter.
+
+- id: hf-aops-wiki
+  name: AoPS wiki problems
+  kind: dataset
+  origin: D
+  url: https://huggingface.co/datasets/sandropa/aops-problems
+  access: hf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: 'no'
+  size: about 43k rows with links
+  wave: 0
+  state: planned
+  notes: AMC, AIME and USAMO statements and wiki solutions with page links.
+
+- id: hf-openmathreasoning
+  name: OpenMathReasoning
+  kind: dataset
+  origin: M
+  url: https://huggingface.co/datasets/nvidia/OpenMathReasoning
+  access: hf
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: 'no'
+  size: about 125k rows from aops_c6_high_school_olympiads
+  wave: 0
+  state: planned
+  notes: A model rewrote the problems. Only the AoPS topic ids are used, for discovery.
+
+- id: hf-nemotron-math-proofs
+  name: Nemotron-Math-Proofs-v1
+  kind: dataset
+  origin: M
+  url: https://huggingface.co/datasets/nvidia/Nemotron-Math-Proofs-v1
+  access: hf
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: 'no'
+  size: 243k rows
+  wave: 0
+  state: planned
+  notes: The url and user_name fields point to AoPS posts. Used for discovery only.
+
+- id: hf-nemotron-math-v2
+  name: Nemotron-Math-v2
+  kind: dataset
+  origin: M
+  url: https://huggingface.co/datasets/nvidia/Nemotron-Math-v2
+  access: hf
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: 'no'
+  size: 7.1M rows
+  wave: 0
+  state: planned
+  notes: The url field points to AoPS posts. Used for discovery only.
+
+- id: hf-aops-instruct
+  name: AoPS-Instruct
+  kind: dataset
+  origin: D
+  url: https://huggingface.co/datasets/DeepStudentLlama/AoPS-Instruct
+  access: hf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: 'no'
+  size: about 650k QA rows
+  wave: 0
+  state: planned
+  notes: original_question is human AoPS text. The dates help with contamination checks.
+
+- id: hf-liveaopsbench
+  name: LiveAoPSBench
+  kind: dataset
+  origin: D
+  url: https://huggingface.co/datasets/jojo23333/LiveAoPSBench-2024
+  access: hf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: 'no'
+  wave: 0
+  state: planned
+  notes: Dated AoPS problems for contamination checks.
+
+- id: hf-matharena
+  name: MathArena
+  kind: dataset
+  origin: D
+  url: https://huggingface.co/MathArena
+  access: hf
+  licence: CC BY-NC-SA 4.0
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: unknown
+  size: about 900 problems
+  wave: 0
+  state: planned
+  notes: Answers and dates for recent AIME, HMMT, BRUMO, SMT, CMIMC and other contests.
+
+- id: hf-imo-bench
+  name: IMO-Bench
+  kind: dataset
+  origin: D
+  url: https://imobench.github.io/
+  access: hf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 0
+  state: planned
+  notes: A benchmark of IMO-level problems.
+
+- id: hf-aime-1983-2026
+  name: AIME 1983 to 2026
+  kind: dataset
+  origin: D
+  url: https://huggingface.co/datasets/Pandores/aime-1983-2026
+  access: hf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: 1,065 problems
+  wave: 0
+  state: planned
+  notes: All AIME problems with answers.
+
+- id: hf-putnam-1995-2025
+  name: Putnam 1995 to 2025
+  kind: dataset
+  origin: D
+  url: https://huggingface.co/datasets/lkevincc0/Putnam_1995_2025_372
+  access: hf
+  zone:
+    statement: Z2
+    solution: Z3
+  ai_train: unknown
+  wave: 0
+  state: planned
+  notes: Putnam problems with solutions. Kedlaya asks for links, so solutions stay Z3.
+
+- id: hf-putnam-axiom
+  name: Putnam-AXIOM
+  kind: dataset
+  origin: D
+  url: https://huggingface.co/datasets/Putnam-AXIOM/putnam-axiom-dataset-ICML-2025-522
+  access: hf
+  zone:
+    statement: Z2
+    solution: Z3
+  ai_train: unknown
+  wave: 0
+  state: planned
+  notes: Putnam problems with answers and variations.
+
+- id: hf-putnamgap
+  name: PutnamGAP
+  kind: dataset
+  origin: D
+  url: https://huggingface.co/datasets/blackhao0426/PutnamGAP
+  access: hf
+  zone:
+    statement: Z2
+    solution: Z3
+  ai_train: unknown
+  wave: 0
+  state: planned
+  notes: A Putnam benchmark set.
+
+- id: hf-olymmath-ruc
+  name: OlymMATH (RUC)
+  kind: dataset
+  origin: D
+  url: https://huggingface.co/datasets/RUC-AIBOX/OlymMATH
+  access: hf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 0
+  state: planned
+  notes: An olympiad benchmark from Renmin University of China, not this project.
+
+- id: hf-amo-bench
+  name: AMO-Bench
+  kind: dataset
+  origin: D
+  url: https://huggingface.co/datasets/meituan-longcat/AMO-Bench
+  access: hf
+  licence: MIT
+  zone:
+    statement: Z1
+    solution: Z1
+  ai_train: allowed
+  wave: 0
+  state: planned
+  notes: Olympiad-level problems written for the benchmark.
+
+- id: hf-nemotron-imo-bench
+  name: Nemotron-IMO-Bench
+  kind: dataset
+  origin: D
+  url: https://huggingface.co/datasets/nvidia/Nemotron-IMO-Bench
+  access: hf
+  licence: CC BY 4.0
+  zone:
+    statement: Z1
+    solution: Z1
+  ai_train: 'no'
+  wave: 0
+  state: planned
+  notes: An IMO-level benchmark from NVIDIA.
+
+- id: hf-harp
+  name: HARP
+  kind: dataset
+  origin: D
+  access: hf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 0
+  state: planned
+  notes: Not surveyed in 01a.
+
+- id: hf-champ
+  name: CHAMP
+  kind: dataset
+  origin: D
+  access: hf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 0
+  state: planned
+  notes: Not surveyed in 01a.
+
+- id: hf-polymath
+  name: PolyMath
+  kind: dataset
+  origin: D
+  url: https://huggingface.co/datasets/Qwen/PolyMath
+  access: hf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 0
+  state: planned
+  notes: A multilingual math benchmark.
+
+- id: hf-mathodyssey
+  name: MathOdyssey
+  kind: dataset
+  origin: D
+  url: https://huggingface.co/datasets/MathOdyssey/MathOdyssey
+  access: hf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 0
+  state: planned
+  notes: A benchmark with olympiad-level problems.
+
+- id: hf-olympicarena
+  name: OlympicArena
+  kind: dataset
+  origin: D
+  url: https://huggingface.co/datasets/GAIR/OlympicArena
+  access: hf
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: unknown
+  wave: 0
+  state: planned
+  notes: A multi-subject olympiad benchmark. Its terms restrict reuse.
+
+- id: hf-tubitak
+  name: TÜBİTAK olympiad set
+  kind: dataset
+  origin: D
+  url: https://huggingface.co/datasets/ytu-ce-cosmos/tubitak-science-olympiad-tr
+  access: hf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: 2k to 8k rows
+  wave: 0
+  state: planned
+  notes: Turkish national olympiad problems.
+
+- id: hf-indonesian-olympiad
+  name: Indonesian olympiad set
+  kind: dataset
+  origin: D
+  url: https://huggingface.co/datasets/hafidhsoekma/math-olympiad-indonesian-benchmark
+  access: hf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: 2k to 8k rows
+  wave: 0
+  state: planned
+  notes: Indonesian national olympiad problems.
+
+- id: hf-hrm8k
+  name: HRM8K
+  kind: dataset
+  origin: D
+  url: https://huggingface.co/datasets/HAERAE-HUB/HRM8K
+  access: hf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: 2k to 8k rows
+  wave: 0
+  state: planned
+  notes: Korean problems, with KMO problems.
+
+- id: compfiles
+  name: Compfiles
+  kind: formal
+  origin: H2
+  url: https://github.com/dwrensha/compfiles
+  access: git
+  licence: Apache-2.0
+  zone:
+    statement: Z1
+    solution: Z1
+  ai_train: allowed
+  wave: 0
+  state: planned
+  notes: Lean formalizations of competition problems with native names.
+
+- id: imosllean4
+  name: IMOSLLean4
+  kind: formal
+  origin: H2
+  url: https://github.com/mortarsanjaya/IMOSLLean4
+  access: git
+  licence: Apache-2.0
+  zone:
+    statement: Z1
+    solution: Z1
+  ai_train: allowed
+  wave: 0
+  state: planned
+  notes: Lean 4 formalizations of IMO Shortlist problems.
+
+- id: mathlib-archive-imo
+  name: Mathlib Archive/Imo
+  kind: formal
+  origin: H2
+  url: https://github.com/leanprover-community/mathlib4/tree/master/Archive/Imo
+  access: git
+  licence: Apache-2.0
+  zone:
+    statement: Z1
+    solution: Z1
+  ai_train: allowed
+  wave: 0
+  state: planned
+  notes: IMO solutions in the Mathlib archive.
+
+- id: formal-imo
+  name: formal-imo
+  kind: formal
+  origin: H2
+  url: https://github.com/google-deepmind/formal-imo
+  access: git
+  licence: Apache-2.0
+  zone:
+    statement: Z1
+    solution: Z1
+  ai_train: allowed
+  wave: 0
+  state: planned
+  notes: Formal statements of IMO problems.
+
+- id: putnambench
+  name: PutnamBench
+  kind: formal
+  origin: H2
+  url: https://github.com/trishullab/PutnamBench
+  access: git
+  licence: Apache-2.0 (Lean, Isabelle); MIT (Coq)
+  zone:
+    statement: Z1
+    solution: Z1
+  ai_train: allowed
+  wave: 0
+  state: planned
+  notes: Formal statements of Putnam problems in Lean, Isabelle and Coq.
+
+- id: minif2f-v2
+  name: miniF2F v2
+  kind: formal
+  origin: H2
+  url: https://github.com/roozbeh-yz/miniF2F_v2
+  access: git
+  licence: Apache-2.0
+  zone:
+    statement: Z1
+    solution: Z1
+  ai_train: allowed
+  wave: 0
+  state: planned
+  notes: Formal statements of AMC, AIME and IMO problems.
+
+- id: imo-official
+  name: IMO official site
+  kind: official
+  origin: H1
+  url: https://www.imo-official.org/
+  access: pdf
+  terms: No licence stated.
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: IMO 1959 to 2026, about 400 problems
+  wave: 1
+  state: active
+  notes: Official texts in many languages and statistics per problem. The ISL is published after the embargo.
+
+- id: usa-tst-archive
+  name: USA TST Archive
+  kind: official
+  origin: H1
+  url: https://github.com/usa-tst-public/USA-TST-Archive
+  access: git
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+  notes: TST, TSTST and EGMO TST problems, solutions and statistics.
+
+- id: maa-amc
+  name: MAA AMC
+  kind: official
+  origin: H1
+  url: https://maa.org/student-programs/amc/
+  access: pdf
+  terms: MAA permits non-commercial web posting with the notice.
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: about 6k problems
+  wave: 1
+  state: planned
+  notes: AMC 8, 10 and 12, AHSME, AIME, USAMO and USAJMO.
+
+- id: aops-wiki
+  name: AoPS wiki
+  kind: community
+  origin: H3
+  url: https://artofproblemsolving.com/wiki/
+  access: api
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: 'no'
+  size: about 12.7k articles
+  wave: 1
+  state: planned
+  notes: Every AMC, AIME and USAMO problem with wiki solutions. MediaWiki API behind a Cloudflare challenge, which is not circumvented. The MAA notice is kept.
+
+- id: kedlaya-putnam
+  name: Kedlaya Putnam archive
+  kind: curated
+  origin: H2
+  url: https://kskedlaya.org/putnam-archive/
+  access: html
+  terms: Kedlaya asks for links, not copies.
+  zone:
+    statement: Z2
+    solution: Z3
+  ai_train: unknown
+  size: problems 1985 to 2025, solutions 1995 to 2025
+  wave: 1
+  state: planned
+
+- id: problems-ru
+  name: problems.ru
+  kind: curated
+  origin: H2
+  url: https://problems.ru/
+  access: html
+  crawl_delay: 20
+  terms: Free for non-commercial use. Other sites must link to problems.ru and the problem number.
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: about 21k problems, 8,157 from olympiads
+  wave: 1
+  state: planned
+  notes: TeX inside HTML. Ask MCCME for Z1 (11.4).
+
+- id: evanchen
+  name: Evan Chen problems page
+  kind: curated
+  origin: H2
+  url: https://web.evanchen.cc/problems.html
+  access: tex
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: unknown
+  size: 318 TeX files
+  wave: 1
+  state: planned
+  notes: Spec 05.4 says Z2 until permission. Spec 11.2 lists Evan Chen under Z3. This row follows 11.2 until he answers.
+
+- id: mathnet-official
+  name: MathNet official booklets
+  kind: official
+  origin: H1
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+  notes: The official booklets that MathNet used, to raise MathNet rows to H1.
+
+- id: kvant
+  name: Kvant problem corpus
+  kind: journal
+  origin: H2
+  access: git
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: about 3k problems
+  wave: 1
+  state: planned
+  notes: Ids come from the kvant corpus. No new harvest.
+
+- id: mathse
+  name: Mathematics Stack Exchange
+  kind: community
+  origin: H3
+  url: https://math.stackexchange.com/
+  access: api
+  licence: CC BY-SA
+  zone:
+    statement: Z1
+    solution: Z1
+  ai_train: unknown
+  size: 10,806 contest-math questions
+  wave: 1
+  state: planned
+  notes: The cleanest source of full human solutions. The API needs a key.
+
+- id: ukmt
+  name: UKMT and BMO
+  kind: official
+  origin: H1
+  url: https://www.ukmt.org.uk/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: cemc
+  name: CEMC Waterloo
+  kind: official
+  origin: H1
+  url: https://cemc.uwaterloo.ca/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: cms
+  name: Canadian Mathematical Society
+  kind: official
+  origin: H1
+  url: https://cms.math.ca/competitions/cmo/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+  notes: robots.txt disallows the CMO problem-set paths, so they are not crawled.
+
+- id: amt
+  name: Australian Mathematics Trust
+  kind: official
+  origin: H1
+  url: https://www.amt.edu.au/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: mathematik-olympiaden
+  name: Mathematik-Olympiaden e.V.
+  kind: official
+  origin: H1
+  url: https://www.mathematik-olympiaden.de/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+  notes: Linking is allowed with the permission of the Verein.
+
+- id: bundeswettbewerb
+  name: Bundeswettbewerb Mathematik
+  kind: official
+  origin: H1
+  url: https://www.bundeswettbewerb-mathematik.de/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: mccme-vmo
+  name: All-Russian olympiad archive
+  kind: official
+  origin: H1
+  url: https://olympiads.mccme.ru/vmo/
+  access: html
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: mccme-mmo
+  name: Moscow MO archive
+  kind: official
+  origin: H1
+  url: https://mmo.mccme.ru/
+  access: html
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: turgor
+  name: Tournament of Towns
+  kind: official
+  origin: H1
+  url: https://www.turgor.ru/en/problems/
+  access: html
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: geometry-ru
+  name: geometry.ru Sharygin olympiad
+  kind: official
+  origin: H1
+  url: https://geometry.ru/olimp/olimpsharygin.php
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: obm
+  name: Olimpíada Brasileira de Matemática
+  kind: official
+  origin: H1
+  url: https://www.obm.org.br/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: omm
+  name: Olimpiada Mexicana de Matemáticas
+  kind: official
+  origin: H1
+  url: https://www.ommenlinea.org/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: kms
+  name: Korean Mathematical Society KMO
+  kind: official
+  origin: H1
+  url: https://www.kmo.or.kr/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: hkmo
+  name: IMO Hong Kong Committee
+  kind: official
+  origin: H1
+  url: https://www.imohkc.org.hk/tests
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: sms-smo
+  name: Singapore Mathematical Society
+  kind: official
+  origin: H1
+  url: https://sms.math.nus.edu.sg/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: egmo-official
+  name: EGMO official site
+  kind: official
+  origin: H1
+  url: https://www.egmo.org/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: apmo-official
+  name: APMO official site
+  kind: official
+  origin: H1
+  url: https://www.apmo-official.org/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: memo-official
+  name: MEMO official site
+  kind: official
+  origin: H1
+  url: https://www.memo-official.org/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: olympiaadid-ut
+  name: Estonian olympiads (University of Tartu)
+  kind: official
+  origin: H1
+  url: https://math.olympiaadid.ut.ee/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+  notes: Also holds the Baltic Way archive.
+
+- id: rmm-official
+  name: RMM official site
+  kind: official
+  origin: H1
+  url: https://rmms.lbi.ro/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: georgmohr
+  name: Georg Mohr and NMC
+  kind: official
+  origin: H1
+  url: https://georgmohr.dk/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: wiskundeolympiade
+  name: Dutch Mathematical Olympiad
+  kind: official
+  origin: H1
+  url: https://www.wiskundeolympiade.nl/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+  notes: Also holds BxMO material.
+
+- id: igo-official
+  name: IGO official site
+  kind: official
+  origin: H1
+  url: https://igo-official.com/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: tuymaada-official
+  name: Tuymaada olympiad
+  kind: official
+  origin: H1
+  url: https://tuymaada.lensky-kray.ru/en/arhiv/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: izho-official
+  name: IZhO official site
+  kind: official
+  origin: H1
+  url: https://izho.kz/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: caucasus-official
+  name: Caucasus MO
+  kind: official
+  origin: H1
+  url: https://cmo.adygmath.ru/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: ofm-official
+  name: Olympiade Francophone de Mathématiques
+  kind: official
+  origin: H1
+  url: https://igm.univ-mlv.fr/~juge/ofm/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: pdmi-olymp
+  name: St Petersburg olympiad (PDMI)
+  kind: official
+  origin: H1
+  url: https://www.pdmi.ras.ru/~olymp/
+  access: html
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: oma
+  name: Olimpíada Matemática Argentina
+  kind: official
+  origin: H1
+  url: https://www.oma.org.ar/enunciados/
+  access: html
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+  notes: Also holds the Cono Sur archive.
+
+- id: omcplp-official
+  name: OMCPLP official site
+  kind: official
+  origin: H1
+  url: https://omcplp.obmep.org.br/index.php/site/provas
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: pamo-official
+  name: PAMO official site
+  kind: official
+  origin: H1
+  url: https://pamoofficial.org/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: duel-official
+  name: Mathematical Duel
+  kind: official
+  origin: H1
+  url: https://www.mathematicalduel.eu/index.php/problems/archive
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: gulf-official
+  name: ABEGS Gulf Mathematical Olympiad
+  kind: official
+  origin: H1
+  url: https://ds.abegs.org/gmo
+  access: html
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: imc-official
+  name: IMC official site
+  kind: official
+  origin: H1
+  url: https://www.imc-math.org.uk/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: seemous-official
+  name: SEEMOUS (MASSEE)
+  kind: official
+  origin: H1
+  url: https://www.massee-org.eu/mathematical/seemous
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: schweitzer-archive
+  name: Schweitzer competition archive
+  kind: official
+  origin: H1
+  url: https://www.math.u-szeged.hu/~mmaroti/schweitzer/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: vtrmc-official
+  name: VTRMC official page
+  kind: official
+  origin: H1
+  url: https://math.vt.edu/undergrad-math/vtrmc.html
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: ciim-official
+  name: CIIM official site
+  kind: official
+  origin: H1
+  url: https://ciim.uan.edu.co/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: hmmt-official
+  name: HMMT archive
+  kind: official
+  origin: H1
+  url: https://www.hmmt.org/www/archive/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: cmimc-official
+  name: CMIMC archive
+  kind: official
+  origin: H1
+  url: https://cmimc.com/archive
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: arml-official
+  name: ARML
+  kind: official
+  origin: H1
+  url: https://www.arml.com/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+  notes: ARML encourages reproduction for non-commercial, educational purposes. It may qualify for Z1.
+
+- id: mathcounts-official
+  name: MATHCOUNTS past competitions
+  kind: official
+  origin: H1
+  url: https://www.mathcounts.org/resources/past-competitions
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+  notes: Only the last year is free.
+
+- id: irmo-official
+  name: Irish Mathematical Olympiad
+  kind: official
+  origin: H1
+  url: https://www.irmo.ie/problems.html
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: oemo
+  name: Österreichische Mathematik-Olympiade
+  kind: official
+  origin: H1
+  url: https://www.oemo.at/OeMO/aufgaben/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: imosuisse
+  name: IMO Suisse archive
+  kind: official
+  origin: H1
+  url: https://imosuisse.github.io/
+  access: git
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+  notes: The licence of the GitHub archive is not checked.
+
+- id: maths-olympiques
+  name: Animath and POFM
+  kind: official
+  origin: H1
+  url: https://maths-olympiques.fr/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: olimpiadi-unibo
+  name: Olimpiadi della Matematica (Bologna)
+  kind: official
+  origin: H1
+  url: https://olimpiadi.dm.unibo.it/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: rsme-ome
+  name: RSME Olimpiada Matemática Española
+  kind: official
+  origin: H1
+  url: https://www.rsme.es/olimpiada-matematica-espanola/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: spm-opm
+  name: Olimpíadas Portuguesas de Matemática
+  kind: official
+  origin: H1
+  url: https://www.mat.uc.pt/~opm/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: hms
+  name: Hellenic Mathematical Society
+  kind: official
+  origin: H1
+  url: https://www.hms.gr/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: om-sem
+  name: Polish Mathematical Olympiad
+  kind: official
+  origin: H1
+  url: https://om.sem.edu.pl/problems/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: omj
+  name: Polish Junior Mathematical Olympiad
+  kind: official
+  origin: H1
+  url: https://omj.edu.pl/zadania
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: matematickaolympiada
+  name: Czech-Slovak Mathematical Olympiad
+  kind: official
+  origin: H1
+  url: https://www.matematickaolympiada.cz/en
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: oktatas-oktv
+  name: OKTV (Oktatási Hivatal)
+  kind: official
+  origin: H1
+  url: https://www.oktatas.hu/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: dms-rs
+  name: Mathematical Society of Serbia
+  kind: official
+  origin: H1
+  url: https://dms.rs/matematika-srednje-skole/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: math-bas-bg
+  name: Bulgarian Academy of Sciences (BCMI)
+  kind: official
+  origin: H1
+  url: https://www.math.bas.bg/bcmi/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: cms-org-cn
+  name: Chinese Mathematical Society
+  kind: official
+  origin: H1
+  url: https://www.cms.org.cn/
+  access: html
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: hbcse
+  name: HBCSE olympiad past papers
+  kind: official
+  origin: H1
+  url: https://olympiads.hbcse.tifr.res.in/how-to-prepare/past-papers/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: tubitak
+  name: TÜBİTAK science olympiads
+  kind: official
+  origin: H1
+  url: https://bilimolimpiyatlari.tubitak.gov.tr/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: pmo-ph
+  name: Philippine Mathematical Olympiad
+  kind: official
+  origin: H1
+  url: https://pmo.ph/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: omk
+  name: Olimpiad Matematik Kebangsaan (PERSAMA)
+  kind: official
+  origin: H1
+  url: https://omk-persama.org.my/bank_soalan_omk/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: planned
+
+- id: imojp
+  name: Mathematical Olympiad Foundation of Japan
+  kind: official
+  origin: H1
+  url: https://www.imojp.org/
+  access: pdf
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: unknown
+  wave: 1
+  state: planned
+  notes: The site restricts reuse, so its texts are link only.
+
+- id: aops-collections
+  name: AoPS contest collections
+  kind: community
+  origin: H3
+  url: https://artofproblemsolving.com/community/c13
+  access: api
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: 'no'
+  size: about 80k contest problems, est. 1M+ posts
+  wave: 2
+  state: planned
+  notes: The full c13 tree and its threads. AJAX JSON behind a Cloudflare challenge, which is not circumvented. The biggest source of human solutions.
+
+- id: imomath
+  name: imomath
+  kind: curated
+  origin: H2
+  url: https://imomath.com/
+  access: html
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: about 8.5k problems from 42 countries
+  wave: 2
+  state: planned
+  notes: HTML behind a JS proof-of-work gate. Ask the owner (5.6).
+
+- id: kalva
+  name: Kalva (prase.cz mirror)
+  kind: curated
+  origin: H2
+  url: https://prase.cz/kalva/
+  access: html
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: about 4,100 problems, 2,300 with solutions
+  wave: 2
+  state: planned
+  notes: Second source for old IMO, USAMO, Putnam and APMO problems.
+
+- id: komal
+  name: KöMaL
+  kind: journal
+  origin: H1
+  url: https://www.komal.hu/
+  access: html
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: 20k to 30k problems
+  wave: 2
+  state: planned
+  notes: English statements for 40+ years and Hungarian solutions. Scans exist for 1893 to 2001.
+
+- id: crux
+  name: Crux Mathematicorum
+  kind: journal
+  origin: H1
+  url: https://cms.math.ca/publications/crux/
+  access: pdf
+  terms: Personal and private use only.
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: unknown
+  size: about 5k proposals and the Olympiad Corner, 1975 to 2026
+  wave: 2
+  state: planned
+  notes: Old volumes are scans and need OCR. Ask CMS.
+
+- id: mathreflections
+  name: Mathematical Reflections
+  kind: journal
+  origin: H1
+  url: https://www.awesomemath.org/mathematical-reflections/
+  access: pdf
+  terms: All rights reserved.
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: unknown
+  size: about 3k problems, 2006 to 2026
+  wave: 2
+  state: planned
+  notes: Born-digital PDFs. Ask AwesomeMath.
+
+- id: excalibur
+  name: Mathematical Excalibur
+  kind: journal
+  origin: H1
+  url: https://www.math.hkust.edu.hk/excalibur/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: about 800 problems
+  wave: 2
+  state: planned
+
+- id: parabola
+  name: Parabola (UNSW)
+  kind: journal
+  origin: H1
+  url: https://www.parabola.unsw.edu.au/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 2
+  state: planned
+  notes: Diamond open access. No licence is stated.
+
+- id: pme
+  name: Pi Mu Epsilon Journal
+  kind: journal
+  origin: H1
+  url: https://pme-math.org/pme-journal-problem-department
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 2
+  state: planned
+  notes: OCR where scanned.
+
+- id: ssmrmh
+  name: SSMR Romanian Mathematical Magazine
+  kind: journal
+  origin: H1
+  url: https://www.ssmrmh.ro/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 2
+  state: planned
+  notes: OCR where scanned.
+
+- id: gazeta
+  name: Gazeta Matematică
+  kind: journal
+  origin: H1
+  url: https://gmb.ssmr.ro/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 2
+  state: planned
+  notes: OCR where scanned.
+
+- id: tzaloa
+  name: Tzaloa
+  kind: journal
+  origin: H1
+  url: https://www.ommenlinea.org/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 2
+  state: planned
+
+- id: eureka
+  name: Eureka!
+  kind: journal
+  origin: H1
+  url: https://www.obm.org.br/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 2
+  state: planned
+  notes: Published from 1998 to 2015.
+
+- id: cut-the-knot
+  name: Cut the Knot
+  kind: curated
+  origin: H2
+  url: https://www.cut-the-knot.org/
+  access: html
+  crawl_delay: 120
+  zone:
+    statement: Z2
+    solution: Z3
+  ai_train: unknown
+  wave: 2
+  state: planned
+  notes: Olympiad inequalities and geometry. A full crawl takes about 14 days.
+
+- id: imogeometry-blog
+  name: IMO geometry blog index
+  kind: metadata
+  origin: H3
+  url: https://imogeometry.blogspot.com/
+  access: html
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: unknown
+  wave: 2
+  state: planned
+  notes: The map of which years exist for each olympiad. Used for the register, not for text.
+
+- id: diendantoanhoc
+  name: Diễn Đàn Toán Học
+  kind: community
+  origin: H3
+  url: https://diendantoanhoc.org/
+  access: html
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: unknown
+  size: 638k posts
+  wave: 2
+  state: planned
+  notes: Behind Cloudflare. Z3 until permission. Discovery of Vietnamese problems.
+
+- id: mathchina
+  name: MathChina forum
+  kind: community
+  origin: H3
+  url: http://www.mathchina.com/bbs/
+  access: html
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: unknown
+  wave: 2
+  state: planned
+  notes: Behind Cloudflare. Z3 until permission. Discovery of Chinese problems.
+
+- id: aops-language-forums
+  name: AoPS language forums
+  kind: community
+  origin: H3
+  url: https://artofproblemsolving.com/community
+  access: html
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: 'no'
+  wave: 2
+  state: planned
+  notes: Behind Cloudflare. Z3 until permission.
+
+- id: amm
+  name: American Mathematical Monthly
+  kind: journal
+  origin: H1
+  terms: Paywalled.
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: unknown
+  wave: 3
+  state: planned
+  notes: Locator, title, link and problem number only.
+
+- id: math-magazine
+  name: Mathematics Magazine
+  kind: journal
+  origin: H1
+  terms: Paywalled.
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: unknown
+  wave: 3
+  state: planned
+  notes: Locator, title, link and problem number only.
+
+- id: college-math-journal
+  name: College Mathematics Journal
+  kind: journal
+  origin: H1
+  terms: Paywalled.
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: unknown
+  wave: 3
+  state: planned
+  notes: Locator, title, link and problem number only.
+
+- id: math-horizons
+  name: Math Horizons
+  kind: journal
+  origin: H1
+  terms: Paywalled.
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: unknown
+  wave: 3
+  state: planned
+  notes: Locator, title, link and problem number only.
+
+- id: zhongdeng-shuxue
+  name: 中等数学
+  kind: journal
+  origin: H1
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: unknown
+  wave: 3
+  state: planned
+  notes: Metadata and links only.
+
+- id: thtt
+  name: Toán Học và Tuổi Trẻ
+  kind: journal
+  origin: H1
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: unknown
+  wave: 3
+  state: planned
+  notes: Metadata and links only.
+
+- id: zbmath
+  name: zbMATH Open
+  kind: metadata
+  origin: M
+  url: https://zbmath.org/
+  access: api
+  licence: CC BY-SA
+  zone:
+    statement: Z1
+    solution: Z1
+  ai_train: unknown
+  wave: 3
+  state: planned
+  notes: Metadata for problem books (MSC 97U40 and 00A07).
+
+- id: wikipedia
+  name: Wikipedia list pages
+  kind: metadata
+  origin: H3
+  url: https://en.wikipedia.org/
+  access: api
+  licence: CC BY-SA
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: unknown
+  wave: 3
+  state: planned
+  notes: Lists of competitions and years. Metadata only.
+
+- id: brilliant
+  name: Brilliant
+  kind: community
+  origin: H3
+  url: https://brilliant.org/
+  access: html
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: unknown
+  wave: 3
+  state: planned
+  notes: Link only.
+
+- id: reddit-mathriddles
+  name: Reddit r/mathriddles
+  kind: community
+  origin: H3
+  url: https://www.reddit.com/r/mathriddles/
+  access: html
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: unknown
+  wave: 3
+  state: planned
+  notes: Link only.
+
+- id: problem-books
+  name: Problem books
+  kind: metadata
+  origin: H1
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: unknown
+  wave: 3
+  state: planned
+  notes: Metadata and links only.

@@ -563,7 +563,7 @@
     solution: Z2
   ai_train: unknown
   wave: 1
-  state: planned
+  state: active
   notes: TST, TSTST and EGMO TST problems, solutions and statistics.
 
 - id: maa-amc

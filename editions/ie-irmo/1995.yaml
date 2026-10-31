@@ -1,0 +1,6 @@
+year: 1995
+papers:
+  - name: Paper 1
+    problems: [p1, p2, p3, p4, p5]
+  - name: Paper 2
+    problems: [p6, p7, p8, p9, p10]

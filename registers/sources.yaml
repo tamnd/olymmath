@@ -246,6 +246,22 @@
   terms: The dataset card states no licence. The problems are MAA texts, so the MAA notice applies.
   notes: All AIME problems with answers.
 
+- id: hf-amc12-full
+  name: AMC 12 2000 to 2025
+  kind: dataset
+  origin: D
+  url: https://huggingface.co/datasets/edev2000/amc12-full
+  access: hf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: 1,199 problems
+  wave: 0
+  state: planned
+  terms: The dataset card states no licence. The problems are MAA texts, so the MAA notice applies.
+  notes: All AMC 12 problems from 2000 to 2025 with the answer letters, except the two papers of fall 2021. Each id gives the year, the paper and the problem.
+
 - id: hf-putnam-1995-2025
   name: Putnam 1995 to 2025
   kind: dataset

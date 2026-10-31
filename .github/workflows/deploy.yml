@@ -1,0 +1,76 @@
+name: deploy
+
+# Build the site with om site build and deploy it to Cloudflare Workers static assets at https://olymmath.tamnd.com.
+# A push to main of tamnd/olymmath-agent calls this workflow too, with the commit of the toolchain.
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "41 2 * * *"
+  workflow_dispatch:
+  workflow_call:
+    inputs:
+      toolchain-ref:
+        description: The commit of tamnd/olymmath-agent to build om from.
+        type: string
+        default: main
+    secrets:
+      CLOUDFLARE_API_TOKEN:
+        required: true
+      CLOUDFLARE_ACCOUNT_ID:
+        required: true
+
+permissions:
+  contents: read
+
+# Do not cancel a deploy that has started. Each run deploys the newest main.
+concurrency:
+  group: deploy-cloudflare
+  cancel-in-progress: false
+
+jobs:
+  cloudflare:
+    name: deploy to Cloudflare
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: cloudflare
+      url: https://olymmath.tamnd.com
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          repository: tamnd/olymmath
+          ref: main
+          path: content
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          repository: tamnd/olymmath-agent
+          ref: ${{ inputs.toolchain-ref || 'main' }}
+          path: toolchain
+      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
+        with:
+          go-version-file: toolchain/go.mod
+          cache-dependency-path: toolchain/go.sum
+      - name: build om
+        working-directory: toolchain
+        run: go build -trimpath -ldflags "-X main.Version=$(git rev-parse --short HEAD)" -o "$RUNNER_TEMP/om" ./cmd/om
+      - name: build the site
+        working-directory: content
+        run: |
+          "$RUNNER_TEMP/om" check -content . -q
+          "$RUNNER_TEMP/om" site build -content . -out build/site -commit "$(git rev-parse HEAD)" -date now
+      - name: deploy
+        working-directory: content
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx --yes wrangler@4.156.0 deploy
+      - name: check the site
+        run: |
+          for path in / /c/ /imo/2024/p1 /search.json; do
+            code=$(curl -s -o /dev/null -w '%{http_code}' "https://olymmath.tamnd.com$path")
+            echo "$path $code"
+            test "$code" = 200
+          done

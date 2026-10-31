@@ -1,0 +1,6 @@
+year: 1972
+papers:
+  - name: Session A
+    problems: [a1, a2, a3, a4, a5, a6]
+  - name: Session B
+    problems: [b1, b2, b3, b4, b5, b6]

@@ -29,6 +29,7 @@
   size: 13,088 rows in 28 exams
   wave: 0
   state: planned
+  terms: The dataset card states no licence. The texts come from official papers and solution booklets.
   notes: Rows carry exam, year and problem_label, with official solutions.
 
 - id: hf-numina-olympiads-ref
@@ -43,6 +44,7 @@
   ai_train: unknown
   wave: 0
   state: planned
+  terms: The dataset card states no licence. The texts come from official papers and solution booklets.
   notes: The reference subset of the Numina olympiad set.
 
 - id: hf-ai-mo-aops
@@ -118,6 +120,7 @@
   size: about 43k rows with links
   wave: 0
   state: planned
+  terms: The dataset card gives the MIT licence. The texts come from the AoPS wiki, so the page links stay with each statement.
   notes: AMC, AIME and USAMO statements and wiki solutions with page links.
 
 - id: hf-openmathreasoning
@@ -237,6 +240,7 @@
   size: 1,065 problems
   wave: 0
   state: planned
+  terms: The dataset card states no licence. The problems are MAA texts, so the MAA notice applies.
   notes: All AIME problems with answers.
 
 - id: hf-putnam-1995-2025
@@ -251,6 +255,7 @@
   ai_train: unknown
   wave: 0
   state: planned
+  terms: The dataset card gives the Apache 2.0 licence. Kedlaya asks for links, not copies, so solutions stay Z3.
   notes: Putnam problems with solutions. Kedlaya asks for links, so solutions stay Z3.
 
 - id: hf-putnam-axiom
@@ -265,6 +270,7 @@
   ai_train: unknown
   wave: 0
   state: planned
+  terms: The dataset card states no licence. Only the original problems are used. The variations are made by a program.
   notes: Putnam problems with answers and variations.
 
 - id: hf-putnamgap

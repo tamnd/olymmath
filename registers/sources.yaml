@@ -678,13 +678,14 @@
   url: https://math.stackexchange.com/
   access: api
   licence: CC BY-SA
+  terms: CC BY-SA 4.0. Each answer names its author and links to the post.
   zone:
     statement: Z1
     solution: Z1
   ai_train: unknown
   size: 10,806 contest-math questions
   wave: 1
-  state: planned
+  state: active
   notes: The cleanest source of full human solutions. The API needs a key.
 
 - id: ukmt

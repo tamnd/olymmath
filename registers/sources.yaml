@@ -1555,6 +1555,7 @@
   kind: journal
   origin: H1
   url: https://www.komal.hu/
+  crawl_delay: 3
   access: html
   zone:
     statement: Z2
@@ -1562,8 +1563,8 @@
   ai_train: unknown
   size: 20k to 30k problems
   wave: 2
-  state: planned
-  notes: English statements for 40+ years and Hungarian solutions. Scans exist for 1893 to 2001.
+  state: active
+  notes: English statements for 40+ years and Hungarian solutions. Scans exist for 1893 to 2001. The English month pages before 2005 show the texts only to subscribers, so the lane reads the pages from September 2004. A problem with a picture and no TeX is left out.
 
 - id: crux
   name: Crux Mathematicorum

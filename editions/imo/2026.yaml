@@ -1,0 +1,15 @@
+year: 2026
+number: 67
+place: Shanghai
+country: China
+url: https://www.imo-official.org/assets/documents/problems/2026/2026_eng.pdf
+language: English
+papers:
+  - name: Day 1
+    date: 2026-07-15
+    time: 4 hours and 30 minutes
+    problems: [p1, p2, p3]
+  - name: Day 2
+    date: 2026-07-16
+    time: 4 hours and 30 minutes
+    problems: [p4, p5, p6]

@@ -4,3 +4,10 @@ papers:
     problems: [p1, p2, p3]
   - name: Day 2
     problems: [p4, p5, p6]
+official:
+  - lang: English
+    code: eng
+    url: https://www.imo-official.org/assets/documents/problems/1997/1997_eng.pdf
+  - lang: French
+    code: fre
+    url: https://www.imo-official.org/assets/documents/problems/1997/1997_fre.pdf

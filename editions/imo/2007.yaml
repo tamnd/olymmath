@@ -4,3 +4,112 @@ papers:
     problems: [p1, p2, p3]
   - name: Day 2
     problems: [p4, p5, p6]
+official:
+  - lang: English
+    code: eng
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_eng.pdf
+  - lang: Arabic
+    code: ara
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_ara.pdf
+  - lang: Arabic (Moroccan)
+    code: arn
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_arn.pdf
+  - lang: Azerbaijani
+    code: aze
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_aze.pdf
+  - lang: Bosnian
+    code: bos
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_bos.pdf
+  - lang: Bulgarian
+    code: bul
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_bul.pdf
+  - lang: Chinese (Simplified)
+    code: chs
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_chs.pdf
+  - lang: Chinese (Traditional)
+    code: cht
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_cht.pdf
+  - lang: Czech
+    code: cze
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_cze.pdf
+  - lang: Danish
+    code: dan
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_dan.pdf
+  - lang: Dutch
+    code: dut
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_dut.pdf
+  - lang: French
+    code: fre
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_fre.pdf
+  - lang: German
+    code: ger
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_ger.pdf
+  - lang: Hebrew
+    code: heb
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_heb.pdf
+  - lang: Croatian
+    code: hrv
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_hrv.pdf
+  - lang: Icelandic
+    code: ice
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_ice.pdf
+  - lang: Indonesian
+    code: ind
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_ind.pdf
+  - lang: Italian
+    code: ita
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_ita.pdf
+  - lang: Khmer
+    code: khm
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_khm.pdf
+  - lang: Korean
+    code: kor
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_kor.pdf
+  - lang: Korean (North Korea)
+    code: krn
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_krn.pdf
+  - lang: Lithuanian
+    code: lit
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_lit.pdf
+  - lang: Macedonian
+    code: mac
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_mac.pdf
+  - lang: Norwegian
+    code: nor
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_nor.pdf
+  - lang: Persian (Farsi)
+    code: per
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_per.pdf
+  - lang: Polish
+    code: pol
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_pol.pdf
+  - lang: Romanian
+    code: rum
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_rum.pdf
+  - lang: Slovak
+    code: slk
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_slk.pdf
+  - lang: Slovenian
+    code: slv
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_slv.pdf
+  - lang: Spanish
+    code: spa
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_spa.pdf
+  - lang: Serbian
+    code: srp
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_srp.pdf
+  - lang: Thai
+    code: tha
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_tha.pdf
+  - lang: Turkish
+    code: tur
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_tur.pdf
+  - lang: Ukrainian
+    code: ukr
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_ukr.pdf
+  - lang: Uzbek
+    code: uzb
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_uzb.pdf
+  - lang: Vietnamese
+    code: vie
+    url: https://www.imo-official.org/assets/documents/problems/2007/2007_vie.pdf

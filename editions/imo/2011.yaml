@@ -4,3 +4,166 @@ papers:
     problems: [p1, p2, p3]
   - name: Day 2
     problems: [p4, p5, p6]
+official:
+  - lang: English
+    code: eng
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_eng.pdf
+  - lang: Afrikaans
+    code: afr
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_afr.pdf
+  - lang: Albanian
+    code: alb
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_alb.pdf
+  - lang: Arabic
+    code: ara
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_ara.pdf
+  - lang: Armenian
+    code: arm
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_arm.pdf
+  - lang: Arabic (Moroccan)
+    code: arn
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_arn.pdf
+  - lang: Arabic (Syrian)
+    code: ars
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_ars.pdf
+  - lang: Arabic (Kuwaiti)
+    code: arw
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_arw.pdf
+  - lang: Azerbaijani
+    code: aze
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_aze.pdf
+  - lang: Bosnian
+    code: bos
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_bos.pdf
+  - lang: Bulgarian
+    code: bul
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_bul.pdf
+  - lang: Chinese (Simplified)
+    code: chs
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_chs.pdf
+  - lang: Chinese (Traditional)
+    code: cht
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_cht.pdf
+  - lang: Czech
+    code: cze
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_cze.pdf
+  - lang: Danish
+    code: dan
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_dan.pdf
+  - lang: Dutch
+    code: dut
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_dut.pdf
+  - lang: Estonian
+    code: est
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_est.pdf
+  - lang: Finnish
+    code: fin
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_fin.pdf
+  - lang: French
+    code: fre
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_fre.pdf
+  - lang: Georgian
+    code: geo
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_geo.pdf
+  - lang: German
+    code: ger
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_ger.pdf
+  - lang: Hebrew
+    code: heb
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_heb.pdf
+  - lang: Greek
+    code: hel
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_hel.pdf
+  - lang: Croatian
+    code: hrv
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_hrv.pdf
+  - lang: Hungarian
+    code: hun
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_hun.pdf
+  - lang: Icelandic
+    code: ice
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_ice.pdf
+  - lang: Indonesian
+    code: ind
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_ind.pdf
+  - lang: Italian
+    code: ita
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_ita.pdf
+  - lang: Japanese
+    code: jpn
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_jpn.pdf
+  - lang: Kazakh
+    code: kaz
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_kaz.pdf
+  - lang: Korean
+    code: kor
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_kor.pdf
+  - lang: Latvian
+    code: lav
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_lav.pdf
+  - lang: Lithuanian
+    code: lit
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_lit.pdf
+  - lang: Macedonian
+    code: mac
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_mac.pdf
+  - lang: Malay
+    code: may
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_may.pdf
+  - lang: Montenegrin
+    code: mnt
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_mnt.pdf
+  - lang: Mongolian
+    code: mon
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_mon.pdf
+  - lang: Norwegian
+    code: nor
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_nor.pdf
+  - lang: Persian (Farsi)
+    code: per
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_per.pdf
+  - lang: Polish
+    code: pol
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_pol.pdf
+  - lang: Portuguese
+    code: por
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_por.pdf
+  - lang: Romanian
+    code: rum
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_rum.pdf
+  - lang: Russian
+    code: rus
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_rus.pdf
+  - lang: Slovak
+    code: slk
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_slk.pdf
+  - lang: Slovenian
+    code: slv
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_slv.pdf
+  - lang: Spanish
+    code: spa
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_spa.pdf
+  - lang: Serbian (BIH)
+    code: srb
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_srb.pdf
+  - lang: Serbian
+    code: srp
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_srp.pdf
+  - lang: Swedish
+    code: swe
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_swe.pdf
+  - lang: Thai
+    code: tha
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_tha.pdf
+  - lang: Turkish
+    code: tur
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_tur.pdf
+  - lang: Ukrainian
+    code: ukr
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_ukr.pdf
+  - lang: Uzbek
+    code: uzb
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_uzb.pdf
+  - lang: Vietnamese
+    code: vie
+    url: https://www.imo-official.org/assets/documents/problems/2011/2011_vie.pdf

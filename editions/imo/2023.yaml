@@ -4,3 +4,172 @@ papers:
     problems: [p1, p2, p3]
   - name: Day 2
     problems: [p4, p5, p6]
+official:
+  - lang: English
+    code: eng
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_eng.pdf
+  - lang: Afrikaans
+    code: afr
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_afr.pdf
+  - lang: Albanian
+    code: alb
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_alb.pdf
+  - lang: Albanian (Kosovo)
+    code: alk
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_alk.pdf
+  - lang: Arabic
+    code: ara
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_ara.pdf
+  - lang: Arabic (Algerian)
+    code: arg
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_arg.pdf
+  - lang: Armenian
+    code: arm
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_arm.pdf
+  - lang: Arabic (Syrian)
+    code: ars
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_ars.pdf
+  - lang: Arabic (Tunisian)
+    code: art
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_art.pdf
+  - lang: Azerbaijani
+    code: aze
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_aze.pdf
+  - lang: Bosnian
+    code: bos
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_bos.pdf
+  - lang: Bulgarian
+    code: bul
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_bul.pdf
+  - lang: Chinese (Simplified)
+    code: chs
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_chs.pdf
+  - lang: Chinese (Traditional)
+    code: cht
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_cht.pdf
+  - lang: Czech
+    code: cze
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_cze.pdf
+  - lang: Danish
+    code: dan
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_dan.pdf
+  - lang: Dutch
+    code: dut
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_dut.pdf
+  - lang: Estonian
+    code: est
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_est.pdf
+  - lang: Finnish
+    code: fin
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_fin.pdf
+  - lang: French
+    code: fre
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_fre.pdf
+  - lang: Georgian
+    code: geo
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_geo.pdf
+  - lang: German
+    code: ger
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_ger.pdf
+  - lang: Hebrew
+    code: heb
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_heb.pdf
+  - lang: Greek
+    code: hel
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_hel.pdf
+  - lang: Croatian
+    code: hrv
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_hrv.pdf
+  - lang: Hungarian
+    code: hun
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_hun.pdf
+  - lang: Icelandic
+    code: ice
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_ice.pdf
+  - lang: Indonesian
+    code: ind
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_ind.pdf
+  - lang: Italian
+    code: ita
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_ita.pdf
+  - lang: Japanese
+    code: jpn
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_jpn.pdf
+  - lang: Kinyarwanda
+    code: kin
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_kin.pdf
+  - lang: Korean
+    code: kor
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_kor.pdf
+  - lang: Latvian
+    code: lav
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_lav.pdf
+  - lang: Lithuanian
+    code: lit
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_lit.pdf
+  - lang: Macedonian
+    code: mac
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_mac.pdf
+  - lang: Malay
+    code: may
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_may.pdf
+  - lang: Montenegrin
+    code: mnt
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_mnt.pdf
+  - lang: Mongolian
+    code: mon
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_mon.pdf
+  - lang: Norwegian
+    code: nor
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_nor.pdf
+  - lang: Persian (Farsi)
+    code: per
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_per.pdf
+  - lang: Polish
+    code: pol
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_pol.pdf
+  - lang: Portuguese
+    code: por
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_por.pdf
+  - lang: Romanian
+    code: rum
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_rum.pdf
+  - lang: Russian
+    code: rus
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_rus.pdf
+  - lang: Slovak
+    code: slk
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_slk.pdf
+  - lang: Slovenian
+    code: slv
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_slv.pdf
+  - lang: Spanish
+    code: spa
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_spa.pdf
+  - lang: Serbian (BIH)
+    code: srb
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_srb.pdf
+  - lang: Serbian
+    code: srp
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_srp.pdf
+  - lang: Swedish
+    code: swe
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_swe.pdf
+  - lang: Thai
+    code: tha
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_tha.pdf
+  - lang: Turkmen
+    code: tuk
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_tuk.pdf
+  - lang: Turkish
+    code: tur
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_tur.pdf
+  - lang: Ukrainian
+    code: ukr
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_ukr.pdf
+  - lang: Uzbek
+    code: uzb
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_uzb.pdf
+  - lang: Vietnamese
+    code: vie
+    url: https://www.imo-official.org/assets/documents/problems/2023/2023_vie.pdf

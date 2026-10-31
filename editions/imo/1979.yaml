@@ -4,3 +4,52 @@ papers:
     problems: [p1, p2, p3]
   - name: Day 2
     problems: [p4, p5, p6]
+official:
+  - lang: English
+    code: eng
+    url: https://www.imo-official.org/assets/documents/problems/1979/1979_eng.pdf
+  - lang: Bulgarian
+    code: bul
+    url: https://www.imo-official.org/assets/documents/problems/1979/1979_bul.pdf
+  - lang: Czech
+    code: cze
+    url: https://www.imo-official.org/assets/documents/problems/1979/1979_cze.pdf
+  - lang: Finnish
+    code: fin
+    url: https://www.imo-official.org/assets/documents/problems/1979/1979_fin.pdf
+  - lang: French
+    code: fre
+    url: https://www.imo-official.org/assets/documents/problems/1979/1979_fre.pdf
+  - lang: German
+    code: ger
+    url: https://www.imo-official.org/assets/documents/problems/1979/1979_ger.pdf
+  - lang: Hebrew
+    code: heb
+    url: https://www.imo-official.org/assets/documents/problems/1979/1979_heb.pdf
+  - lang: Greek
+    code: hel
+    url: https://www.imo-official.org/assets/documents/problems/1979/1979_hel.pdf
+  - lang: Hungarian
+    code: hun
+    url: https://www.imo-official.org/assets/documents/problems/1979/1979_hun.pdf
+  - lang: Polish
+    code: pol
+    url: https://www.imo-official.org/assets/documents/problems/1979/1979_pol.pdf
+  - lang: Portuguese
+    code: por
+    url: https://www.imo-official.org/assets/documents/problems/1979/1979_por.pdf
+  - lang: Romanian
+    code: rum
+    url: https://www.imo-official.org/assets/documents/problems/1979/1979_rum.pdf
+  - lang: Slovak
+    code: slk
+    url: https://www.imo-official.org/assets/documents/problems/1979/1979_slk.pdf
+  - lang: Serbian
+    code: srp
+    url: https://www.imo-official.org/assets/documents/problems/1979/1979_srp.pdf
+  - lang: Swedish
+    code: swe
+    url: https://www.imo-official.org/assets/documents/problems/1979/1979_swe.pdf
+  - lang: Vietnamese
+    code: vie
+    url: https://www.imo-official.org/assets/documents/problems/1979/1979_vie.pdf

@@ -43,3 +43,43 @@ usajmo/2023/p5	usamo/2023/p4	strong	1.000	none	usamo-usajmo	-
 usajmo/2024/p6	usamo/2024/p5	strong	1.000	none	usamo-usajmo	-
 usajmo/2025/p5	usamo/2025/p4	strong	1.000	none	usamo-usajmo	-
 usajmo/2023/p3	usamo/2023/p3	strong	0.913	none	usamo-usajmo	-
+balkan-sl/2016/c3	balkan/2016/p4	strong	0.218	none	balkan-sl	-	0.865
+balkan-sl/2016/n4	balkan/2016/p3	strong	0.319	match	balkan-sl	-	0.776
+balkan-sl/2018/c2	balkan/2018/p3	strong	0.503	none	balkan-sl	-	0.846
+balkan-sl/2019/a3	balkan/2019/p2	strong	0.345	none	balkan-sl	-	0.949
+balkan-sl/2021/g3	balkan/2021/p1	strong	0.538	none	balkan-sl	-	0.953
+balkan-sl/2021/c5	balkan/2021/p4	strong	0.471	none	balkan-sl	-	0.938
+balkan-sl/2021/n6	balkan/2021/p3	strong	0.622	none	balkan-sl	-	0.934
+isl/2006/n1	imo/2006/p4	strong	0.351	none	isl-imo	-	0.978
+isl/2006/g1	imo/2006/p1	strong	0.156	none	isl-imo	-	0.891
+isl/2006/n4	imo/2006/p5	strong	0.309	none	isl-imo	-	0.879
+isl/2006/g10	imo/2006/p6	strong	0.088	none	isl-imo	-	0.850
+isl/2007/c6	imo/2007/p3	strong	0.189	none	isl-imo	-	0.892
+isl/2007/a7	imo/2007/p6	strong	0.234	none	isl-imo	-	0.793
+isl/2007/g4	imo/2007/p2	strong	0.146	none	isl-imo	-	0.738
+isl/2008/n6	imo/2008/p3	strong	0.333	none	isl-imo	-	0.848
+isl/2008/g7	imo/2008/p6	strong	0.115	none	isl-imo	-	0.794
+isl/2011/n5	imo/2011/p5	strong	0.541	none	isl-imo	-	0.970
+isl/2011/a6	imo/2011/p3	strong	0.407	none	isl-imo	-	0.717
+isl/2012/a1	imo/2012/p4	strong	0.295	none	isl-imo	-	0.712
+isl/2014/g5	imo/2014/p3	strong	0.234	none	isl-imo	-	0.770
+isl/2014/c3	imo/2014/p2	strong	0.295	none	isl-imo	-	0.763
+isl/2017/a6	imo/2017/p2	strong	0.304	none	isl-imo	-	0.919
+isl/2017/c4	imo/2017/p5	strong	0.156	none	isl-imo	-	0.742
+isl/2018/g6	imo/2018/p6	strong	0.351	none	isl-imo	-	0.822
+isl/2019/a1	imo/2019/p1	strong	0.529	none	isl-imo	-	0.938
+isl/2019/c5	imo/2019/p3	strong	0.202	none	isl-imo	-	0.738
+isl/2020/g2	imo/2020/p1	strong	0.030	none	isl-imo	-	0.870
+isl/2021/n2	imo/2021/p1	strong	0.326	none	isl-imo	-	0.821
+isl/2022/g1	imo/2022/p4	strong	0.136	none	isl-imo	-	0.758
+isl/2022/n4	imo/2022/p5	strong	0.314	none	isl-imo	-	0.723
+isl/2023/g4	imo/2023/p2	strong	0.129	none	isl-imo	-	0.866
+jbmo-sl/2012/c2	jbmo/2012/p3	strong	0.152	none	jbmo-sl	-	0.933
+jbmo-sl/2014/g3	jbmo/2014/p2	strong	0.430	match	jbmo-sl	-	0.982
+jbmo-sl/2016/a2	jbmo/2016/p2	strong	0.614	none	jbmo-sl	-	0.955
+jbmo-sl/2016/g3	jbmo/2016/p1	strong	0.479	none	jbmo-sl	-	0.881
+jbmo-sl/2017/a4	jbmo/2017/p2	strong	0.582	none	jbmo-sl	-	0.795
+jbmo-sl/2018/g3	jbmo/2018/p4	strong	0.748	none	jbmo-sl	-	0.958
+jbmo-sl/2019/n1	jbmo/2019/p1	strong	0.579	none	jbmo-sl	-	0.977
+jbmo-sl/2019/c3	jbmo/2019/p4	strong	0.089	match	jbmo-sl	-	0.828
+jbmo-sl/2020/c3	jbmo/2020/p3	strong	0.283	none	jbmo-sl	-	0.853

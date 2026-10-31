@@ -10,6 +10,7 @@
   organizer: IMO Board
   url: https://www.imo-official.org/
   first_year: 1959
+  gaps: [1980]
   edition_form: year
   layout:
     - {paper: day1, name: Day 1, positions: [p1, p2, p3]}

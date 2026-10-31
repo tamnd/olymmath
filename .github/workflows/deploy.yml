@@ -32,7 +32,7 @@ jobs:
   cloudflare:
     name: deploy to Cloudflare
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 60
     environment:
       name: cloudflare
       url: https://olymmath.tamnd.com

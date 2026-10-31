@@ -6,7 +6,7 @@ This report is made by `om coverage`. The register gives the expected positions 
 
 | Expected | C0 | C1 | C2 | Candidate | No candidate | Located seed rows |
 |---:|---:|---:|---:|---:|---:|---:|
-| 17935 | 32.2% | 3.5% | 0.8% | 3561 (19.9%) | 8594 (47.9%) | 139009 |
+| 17935 | 33.6% | 3.5% | 0.8% | 3408 (19.0%) | 8495 (47.4%) | 139733 |
 
 ## Sources
 
@@ -33,6 +33,7 @@ This report is made by `om coverage`. The register gives the expected positions 
 | hf-putnam-axiom | 100 | 100 (100.0%) | 99 | 0 |
 | hf-putnamgap | 1051 | 1051 (100.0%) | 0 | 0 |
 | hf-tubitak | 1270 | 671 (52.8%) | 0 | 599 |
+| kalva | 724 | 724 (100.0%) | 724 | 0 |
 | kedlaya-putnam | 490 | 490 (100.0%) | 490 | 0 |
 
 ## Competitions
@@ -41,7 +42,7 @@ The order is the order of the register. A competition with no shape in the regis
 
 | Code | Competition | Expected | C0 | C1 | C2 | Candidate | No candidate | Seed rows |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| imo | International Mathematical Olympiad | 408 | 81.9% | 35.0% | 35.0% | 63 | 11 | 1404 |
+| imo | International Mathematical Olympiad | 408 | 95.1% | 35.0% | 35.0% | 20 | 0 | 1668 |
 | isl | IMO Shortlist | no shape | - | - | - | 0 | 0 | 7063 |
 | igo | Iranian Geometry Olympiad | 195 | 0.0% | 0.0% | 0.0% | 45 | 150 | 289 |
 | kangaroo | Mathematical Kangaroo | no shape | - | - | - | 0 | 0 | 0 |
@@ -70,7 +71,7 @@ The order is the order of the register. A competition with no shape in the regis
 | kurschak | Kürschák Competition | 399 | 0.0% | 0.0% | 0.0% | 225 | 174 | 594 |
 | francophone | Olympiade Francophone de Mathématiques | 56 | 0.0% | 0.0% | 0.0% | 0 | 56 | 16 |
 | caucasus | Caucasus Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 292 |
-| apmo | Asian Pacific Mathematics Olympiad | 190 | 78.9% | 0.0% | 0.0% | 35 | 5 | 1087 |
+| apmo | Asian Pacific Mathematics Olympiad | 190 | 97.4% | 0.0% | 0.0% | 0 | 5 | 1167 |
 | gulf | Gulf Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 53 |
 | arab | Arab Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 0 |
 | ibero | Iberoamerican Mathematical Olympiad | 252 | 0.0% | 0.0% | 0.0% | 138 | 114 | 932 |
@@ -93,7 +94,7 @@ The order is the order of the register. A competition with no shape in the regis
 | amc10 | AMC 10 | 675 | 0.0% | 0.0% | 0.0% | 0 | 675 | 1472 |
 | amc12 | AMC 12 | 675 | 0.0% | 0.0% | 0.0% | 0 | 675 | 178 |
 | aime | American Invitational Mathematics Examination | 660 | 98.0% | 0.0% | 0.0% | 13 | 0 | 2215 |
-| usamo | United States of America Mathematical Olympiad | 330 | 82.7% | 0.0% | 0.0% | 26 | 31 | 1443 |
+| usamo | United States of America Mathematical Olympiad | 330 | 87.9% | 0.0% | 0.0% | 9 | 31 | 1606 |
 | usajmo | United States of America Junior Mathematical Olympiad | 102 | 52.0% | 0.0% | 0.0% | 43 | 6 | 472 |
 | tstst | USA TST for the TST | no shape | - | - | - | 0 | 0 | 689 |
 | us-tst | USA IMO Team Selection Test | no shape | - | - | - | 0 | 0 | 575 |
@@ -200,7 +201,7 @@ The order is the order of the register. A competition with no shape in the regis
 | hk-pc | Hong Kong Preliminary Selection Contest and TST | no shape | - | - | - | 0 | 0 | 674 |
 | mo-macau | Macau Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 0 |
 | mn-mo | Mongolian Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 838 |
-| vn-vmo | Vietnam Mathematical Olympiad | 390 | 29.0% | 0.0% | 0.0% | 81 | 196 | 873 |
+| vn-vmo | Vietnam Mathematical Olympiad | 390 | 66.4% | 0.0% | 0.0% | 23 | 108 | 1090 |
 | vn-tst | Vietnam Team Selection Test | 222 | 27.9% | 0.0% | 0.0% | 64 | 96 | 470 |
 | sg-smo | Singapore Mathematical Olympiad | 160 | 61.2% | 0.0% | 0.0% | 11 | 51 | 727 |
 | th-tmo | Thailand Mathematical Olympiad | 230 | 63.5% | 0.0% | 0.0% | 49 | 35 | 690 |

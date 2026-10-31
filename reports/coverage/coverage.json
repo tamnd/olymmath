@@ -2,12 +2,12 @@
   "this_year": 2026,
   "totals": {
     "expected": 17935,
-    "c0": 5780,
+    "c0": 6032,
     "c1": 621,
     "c2": 143,
-    "candidate": 3561,
-    "no_candidate": 8594,
-    "rows": 139009
+    "candidate": 3408,
+    "no_candidate": 8495,
+    "rows": 139733
   },
   "competitions": [
     {
@@ -15,12 +15,12 @@
       "name": "International Mathematical Olympiad",
       "group": "international",
       "expected": 408,
-      "c0": 334,
+      "c0": 388,
       "c1": 143,
       "c2": 143,
-      "candidate": 63,
-      "no_candidate": 11,
-      "rows": 1404,
+      "candidate": 20,
+      "no_candidate": 0,
+      "rows": 1668,
       "shape": true,
       "years": [
         {
@@ -33,7 +33,7 @@
             "p5",
             "p6"
           ],
-          "rows": 12
+          "rows": 18
         },
         {
           "year": 1960,
@@ -48,21 +48,19 @@
           "candidate": [
             "p7"
           ],
-          "rows": 14
+          "rows": 21
         },
         {
           "year": 1961,
           "record": [
             "p1",
+            "p2",
             "p3",
             "p4",
             "p5",
             "p6"
           ],
-          "candidate": [
-            "p2"
-          ],
-          "rows": 11
+          "rows": 17
         },
         {
           "year": 1962,
@@ -77,7 +75,7 @@
           "candidate": [
             "p7"
           ],
-          "rows": 14
+          "rows": 21
         },
         {
           "year": 1963,
@@ -89,7 +87,7 @@
             "p5",
             "p6"
           ],
-          "rows": 11
+          "rows": 17
         },
         {
           "year": 1964,
@@ -101,7 +99,7 @@
             "p5",
             "p6"
           ],
-          "rows": 12
+          "rows": 18
         },
         {
           "year": 1965,
@@ -113,7 +111,7 @@
             "p5",
             "p6"
           ],
-          "rows": 12
+          "rows": 18
         },
         {
           "year": 1966,
@@ -125,7 +123,7 @@
             "p5",
             "p6"
           ],
-          "rows": 12
+          "rows": 18
         },
         {
           "year": 1967,
@@ -137,23 +135,19 @@
             "p5",
             "p6"
           ],
-          "rows": 12
+          "rows": 18
         },
         {
           "year": 1968,
           "record": [
             "p1",
             "p2",
+            "p3",
             "p4",
-            "p5"
-          ],
-          "candidate": [
-            "p3"
-          ],
-          "missing": [
+            "p5",
             "p6"
           ],
-          "rows": 12
+          "rows": 18
         },
         {
           "year": 1969,
@@ -165,23 +159,19 @@
             "p5",
             "p6"
           ],
-          "rows": 12
+          "rows": 18
         },
         {
           "year": 1970,
           "record": [
             "p1",
+            "p2",
             "p3",
             "p4",
-            "p5"
-          ],
-          "candidate": [
-            "p2"
-          ],
-          "missing": [
+            "p5",
             "p6"
           ],
-          "rows": 12
+          "rows": 18
         },
         {
           "year": 1971,
@@ -193,7 +183,7 @@
             "p5",
             "p6"
           ],
-          "rows": 12
+          "rows": 18
         },
         {
           "year": 1972,
@@ -205,23 +195,19 @@
             "p5",
             "p6"
           ],
-          "rows": 12
+          "rows": 18
         },
         {
           "year": 1973,
           "record": [
+            "p1",
             "p2",
             "p3",
+            "p4",
             "p5",
             "p6"
           ],
-          "candidate": [
-            "p1"
-          ],
-          "missing": [
-            "p4"
-          ],
-          "rows": 12
+          "rows": 18
         },
         {
           "year": 1974,
@@ -230,12 +216,10 @@
             "p2",
             "p3",
             "p4",
+            "p5",
             "p6"
           ],
-          "candidate": [
-            "p5"
-          ],
-          "rows": 13
+          "rows": 19
         },
         {
           "year": 1975,
@@ -247,7 +231,7 @@
             "p5",
             "p6"
           ],
-          "rows": 11
+          "rows": 17
         },
         {
           "year": 1976,
@@ -259,7 +243,7 @@
             "p5",
             "p6"
           ],
-          "rows": 12
+          "rows": 18
         },
         {
           "year": 1977,
@@ -267,29 +251,23 @@
             "p1",
             "p2",
             "p3",
+            "p4",
             "p5",
             "p6"
           ],
-          "missing": [
-            "p4"
-          ],
-          "rows": 13
+          "rows": 19
         },
         {
           "year": 1978,
           "record": [
             "p1",
+            "p2",
+            "p3",
             "p4",
+            "p5",
             "p6"
           ],
-          "candidate": [
-            "p2",
-            "p3"
-          ],
-          "missing": [
-            "p5"
-          ],
-          "rows": 12
+          "rows": 18
         },
         {
           "year": 1979,
@@ -301,17 +279,19 @@
             "p5",
             "p6"
           ],
-          "rows": 12
+          "rows": 18
         },
         {
           "year": 1980,
+          "record": [
+            "p6"
+          ],
           "candidate": [
             "p1",
             "p2",
             "p3",
             "p4",
             "p5",
-            "p6",
             "p7",
             "p8",
             "p9",
@@ -337,15 +317,13 @@
           "year": 1981,
           "record": [
             "p1",
+            "p2",
             "p3",
             "p4",
             "p5",
             "p6"
           ],
-          "candidate": [
-            "p2"
-          ],
-          "rows": 13
+          "rows": 19
         },
         {
           "year": 1982,
@@ -357,7 +335,7 @@
             "p5",
             "p6"
           ],
-          "rows": 12
+          "rows": 18
         },
         {
           "year": 1983,
@@ -369,7 +347,7 @@
             "p5",
             "p6"
           ],
-          "rows": 12
+          "rows": 18
         },
         {
           "year": 1984,
@@ -381,7 +359,7 @@
             "p5",
             "p6"
           ],
-          "rows": 12
+          "rows": 18
         },
         {
           "year": 1985,
@@ -393,7 +371,7 @@
             "p5",
             "p6"
           ],
-          "rows": 12
+          "rows": 18
         },
         {
           "year": 1986,
@@ -405,7 +383,7 @@
             "p5",
             "p6"
           ],
-          "rows": 12
+          "rows": 18
         },
         {
           "year": 1987,
@@ -417,21 +395,19 @@
             "p5",
             "p6"
           ],
-          "rows": 12
+          "rows": 18
         },
         {
           "year": 1988,
           "record": [
+            "p1",
             "p2",
             "p3",
             "p4",
             "p5",
             "p6"
           ],
-          "candidate": [
-            "p1"
-          ],
-          "rows": 12
+          "rows": 18
         },
         {
           "year": 1989,
@@ -443,7 +419,7 @@
             "p5",
             "p6"
           ],
-          "rows": 12
+          "rows": 18
         },
         {
           "year": 1990,
@@ -455,75 +431,37 @@
             "p5",
             "p6"
           ],
-          "rows": 13
+          "rows": 19
         },
         {
           "year": 1991,
           "record": [
+            "p1",
             "p2",
-            "p3"
-          ],
-          "candidate": [
-            "p1"
-          ],
-          "missing": [
+            "p3",
             "p4",
             "p5",
             "p6"
           ],
-          "rows": 11
+          "rows": 17
         },
         {
           "year": 1992,
           "record": [
+            "p1",
             "p2",
-            "p3"
-          ],
-          "candidate": [
-            "p1"
-          ],
-          "missing": [
+            "p3",
             "p4",
             "p5",
             "p6"
           ],
-          "rows": 11
+          "rows": 17
         },
         {
           "year": 1993,
           "record": [
-            "p2"
-          ],
-          "candidate": [
             "p1",
-            "p3",
-            "p4",
-            "p5",
-            "p6"
-          ],
-          "rows": 12
-        },
-        {
-          "year": 1994,
-          "record": [
             "p2",
-            "p3",
-            "p4",
-            "p5",
-            "p6"
-          ],
-          "candidate": [
-            "p1"
-          ],
-          "rows": 12
-        },
-        {
-          "year": 1995,
-          "record": [
-            "p1",
-            "p2"
-          ],
-          "candidate": [
             "p3",
             "p4",
             "p5",
@@ -532,18 +470,40 @@
           "rows": 18
         },
         {
-          "year": 1996,
+          "year": 1994,
           "record": [
             "p1",
             "p2",
-            "p3"
-          ],
-          "candidate": [
+            "p3",
             "p4",
             "p5",
             "p6"
           ],
-          "rows": 12
+          "rows": 18
+        },
+        {
+          "year": 1995,
+          "record": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 24
+        },
+        {
+          "year": 1996,
+          "record": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 18
         },
         {
           "year": 1997,
@@ -555,7 +515,7 @@
             "p5",
             "p6"
           ],
-          "rows": 13
+          "rows": 19
         },
         {
           "year": 1998,
@@ -564,44 +524,40 @@
             "p2",
             "p3",
             "p4",
-            "p5"
-          ],
-          "candidate": [
+            "p5",
             "p6"
           ],
-          "rows": 17
+          "rows": 23
         },
         {
           "year": 1999,
           "record": [
-            "p2",
-            "p4"
-          ],
-          "candidate": [
             "p1",
+            "p2",
             "p3",
+            "p4",
             "p5",
             "p6"
           ],
-          "rows": 14
+          "rows": 20
         },
         {
           "year": 2000,
           "record": [
+            "p2",
             "p3",
             "p4",
+            "p5",
             "p6"
           ],
           "candidate": [
-            "p1",
-            "p2",
-            "p5"
+            "p1"
           ],
-          "rows": 12
+          "rows": 17
         },
         {
           "year": 2001,
-          "candidate": [
+          "record": [
             "p1",
             "p2",
             "p3",
@@ -609,35 +565,31 @@
             "p5",
             "p6"
           ],
-          "rows": 13
+          "rows": 19
         },
         {
           "year": 2002,
           "record": [
+            "p1",
             "p2",
             "p3",
-            "p5"
-          ],
-          "candidate": [
-            "p1",
             "p4",
+            "p5",
             "p6"
           ],
-          "rows": 15
+          "rows": 20
         },
         {
           "year": 2003,
           "record": [
+            "p1",
             "p2",
             "p3",
             "p4",
+            "p5",
             "p6"
           ],
-          "candidate": [
-            "p1",
-            "p5"
-          ],
-          "rows": 18
+          "rows": 24
         },
         {
           "year": 2004,
@@ -13300,12 +13252,12 @@
       "name": "Asian Pacific Mathematics Olympiad",
       "group": "international",
       "expected": 190,
-      "c0": 150,
+      "c0": 185,
       "c1": 0,
       "c2": 0,
-      "candidate": 35,
+      "candidate": 0,
       "no_candidate": 5,
-      "rows": 1087,
+      "rows": 1167,
       "shape": true,
       "years": [
         {
@@ -13317,7 +13269,7 @@
             "p4",
             "p5"
           ],
-          "rows": 32
+          "rows": 37
         },
         {
           "year": 1990,
@@ -13328,7 +13280,7 @@
             "p4",
             "p5"
           ],
-          "rows": 28
+          "rows": 33
         },
         {
           "year": 1991,
@@ -13339,7 +13291,7 @@
             "p4",
             "p5"
           ],
-          "rows": 32
+          "rows": 37
         },
         {
           "year": 1992,
@@ -13350,7 +13302,7 @@
             "p4",
             "p5"
           ],
-          "rows": 20
+          "rows": 25
         },
         {
           "year": 1993,
@@ -13361,7 +13313,7 @@
             "p4",
             "p5"
           ],
-          "rows": 30
+          "rows": 35
         },
         {
           "year": 1994,
@@ -13372,51 +13324,51 @@
             "p4",
             "p5"
           ],
-          "rows": 34
+          "rows": 39
         },
         {
           "year": 1995,
-          "candidate": [
+          "record": [
             "p1",
             "p2",
             "p3",
             "p4",
             "p5"
           ],
-          "rows": 10
+          "rows": 15
         },
         {
           "year": 1996,
-          "candidate": [
+          "record": [
             "p1",
             "p2",
             "p3",
             "p4",
             "p5"
           ],
-          "rows": 11
+          "rows": 16
         },
         {
           "year": 1997,
-          "candidate": [
+          "record": [
             "p1",
             "p2",
             "p3",
             "p4",
             "p5"
           ],
-          "rows": 10
+          "rows": 15
         },
         {
           "year": 1998,
-          "candidate": [
+          "record": [
             "p1",
             "p2",
             "p3",
             "p4",
             "p5"
           ],
-          "rows": 10
+          "rows": 15
         },
         {
           "year": 1999,
@@ -13427,7 +13379,7 @@
             "p4",
             "p5"
           ],
-          "rows": 22
+          "rows": 27
         },
         {
           "year": 2000,
@@ -13438,18 +13390,18 @@
             "p4",
             "p5"
           ],
-          "rows": 22
+          "rows": 27
         },
         {
           "year": 2001,
-          "candidate": [
+          "record": [
             "p1",
             "p2",
             "p3",
             "p4",
             "p5"
           ],
-          "rows": 10
+          "rows": 15
         },
         {
           "year": 2002,
@@ -13460,7 +13412,7 @@
             "p4",
             "p5"
           ],
-          "rows": 30
+          "rows": 35
         },
         {
           "year": 2003,
@@ -13471,7 +13423,7 @@
             "p4",
             "p5"
           ],
-          "rows": 24
+          "rows": 29
         },
         {
           "year": 2004,
@@ -13482,7 +13434,7 @@
             "p4",
             "p5"
           ],
-          "rows": 25
+          "rows": 30
         },
         {
           "year": 2005,
@@ -13552,7 +13504,7 @@
         },
         {
           "year": 2011,
-          "candidate": [
+          "record": [
             "p1",
             "p2",
             "p3",
@@ -13563,7 +13515,7 @@
         },
         {
           "year": 2012,
-          "candidate": [
+          "record": [
             "p1",
             "p2",
             "p3",
@@ -24502,12 +24454,12 @@
       "name": "United States of America Mathematical Olympiad",
       "group": "usa",
       "expected": 330,
-      "c0": 273,
+      "c0": 290,
       "c1": 0,
       "c2": 0,
-      "candidate": 26,
+      "candidate": 9,
       "no_candidate": 31,
-      "rows": 1443,
+      "rows": 1606,
       "shape": true,
       "years": [
         {
@@ -24522,7 +24474,7 @@
           "missing": [
             "p6"
           ],
-          "rows": 20
+          "rows": 25
         },
         {
           "year": 1973,
@@ -24536,7 +24488,7 @@
           "missing": [
             "p6"
           ],
-          "rows": 20
+          "rows": 25
         },
         {
           "year": 1974,
@@ -24550,7 +24502,7 @@
           "missing": [
             "p6"
           ],
-          "rows": 20
+          "rows": 25
         },
         {
           "year": 1975,
@@ -24564,7 +24516,7 @@
           "missing": [
             "p6"
           ],
-          "rows": 20
+          "rows": 25
         },
         {
           "year": 1976,
@@ -24578,7 +24530,7 @@
           "missing": [
             "p6"
           ],
-          "rows": 20
+          "rows": 25
         },
         {
           "year": 1977,
@@ -24592,7 +24544,7 @@
           "missing": [
             "p6"
           ],
-          "rows": 20
+          "rows": 25
         },
         {
           "year": 1978,
@@ -24606,7 +24558,7 @@
           "missing": [
             "p6"
           ],
-          "rows": 15
+          "rows": 20
         },
         {
           "year": 1979,
@@ -24620,7 +24572,7 @@
           "missing": [
             "p6"
           ],
-          "rows": 19
+          "rows": 24
         },
         {
           "year": 1980,
@@ -24634,7 +24586,7 @@
           "missing": [
             "p6"
           ],
-          "rows": 15
+          "rows": 20
         },
         {
           "year": 1981,
@@ -24648,7 +24600,7 @@
           "missing": [
             "p6"
           ],
-          "rows": 16
+          "rows": 21
         },
         {
           "year": 1982,
@@ -24662,7 +24614,7 @@
           "missing": [
             "p6"
           ],
-          "rows": 15
+          "rows": 20
         },
         {
           "year": 1983,
@@ -24676,7 +24628,7 @@
           "missing": [
             "p6"
           ],
-          "rows": 20
+          "rows": 25
         },
         {
           "year": 1984,
@@ -24690,7 +24642,7 @@
           "missing": [
             "p6"
           ],
-          "rows": 20
+          "rows": 25
         },
         {
           "year": 1985,
@@ -24704,7 +24656,7 @@
           "missing": [
             "p6"
           ],
-          "rows": 16
+          "rows": 21
         },
         {
           "year": 1986,
@@ -24718,7 +24670,7 @@
           "missing": [
             "p6"
           ],
-          "rows": 15
+          "rows": 20
         },
         {
           "year": 1987,
@@ -24732,7 +24684,7 @@
           "missing": [
             "p6"
           ],
-          "rows": 20
+          "rows": 25
         },
         {
           "year": 1988,
@@ -24746,11 +24698,11 @@
           "missing": [
             "p6"
           ],
-          "rows": 15
+          "rows": 20
         },
         {
           "year": 1989,
-          "candidate": [
+          "record": [
             "p1",
             "p2",
             "p3",
@@ -24774,7 +24726,7 @@
           "missing": [
             "p6"
           ],
-          "rows": 18
+          "rows": 23
         },
         {
           "year": 1991,
@@ -24788,7 +24740,7 @@
           "missing": [
             "p6"
           ],
-          "rows": 20
+          "rows": 25
         },
         {
           "year": 1992,
@@ -24802,7 +24754,7 @@
           "missing": [
             "p6"
           ],
-          "rows": 20
+          "rows": 25
         },
         {
           "year": 1993,
@@ -24816,7 +24768,7 @@
           "missing": [
             "p6"
           ],
-          "rows": 19
+          "rows": 24
         },
         {
           "year": 1994,
@@ -24830,7 +24782,7 @@
           "missing": [
             "p6"
           ],
-          "rows": 21
+          "rows": 26
         },
         {
           "year": 1995,
@@ -24844,7 +24796,7 @@
           "missing": [
             "p6"
           ],
-          "rows": 18
+          "rows": 23
         },
         {
           "year": 1996,
@@ -24853,40 +24805,34 @@
             "p2",
             "p3",
             "p4",
+            "p5",
             "p6"
           ],
-          "candidate": [
-            "p5"
-          ],
-          "rows": 23
+          "rows": 29
         },
         {
           "year": 1997,
           "record": [
+            "p1",
             "p2",
-            "p3",
-            "p4",
-            "p6"
-          ],
-          "candidate": [
-            "p1",
-            "p5"
-          ],
-          "rows": 25
-        },
-        {
-          "year": 1998,
-          "record": [
-            "p1",
             "p3",
             "p4",
             "p5",
             "p6"
           ],
-          "candidate": [
-            "p2"
+          "rows": 31
+        },
+        {
+          "year": 1998,
+          "record": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
           ],
-          "rows": 21
+          "rows": 27
         },
         {
           "year": 1999,
@@ -24898,7 +24844,7 @@
             "p5",
             "p6"
           ],
-          "rows": 23
+          "rows": 29
         },
         {
           "year": 2000,
@@ -24907,54 +24853,46 @@
             "p2",
             "p3",
             "p4",
-            "p5"
-          ],
-          "candidate": [
+            "p5",
             "p6"
           ],
-          "rows": 21
+          "rows": 27
         },
         {
           "year": 2001,
           "record": [
             "p1",
             "p2",
+            "p3",
             "p4",
             "p5",
             "p6"
           ],
-          "candidate": [
-            "p3"
-          ],
-          "rows": 21
+          "rows": 27
         },
         {
           "year": 2002,
           "record": [
-            "p2",
-            "p3",
-            "p4",
-            "p6"
-          ],
-          "candidate": [
             "p1",
-            "p5"
-          ],
-          "rows": 16
-        },
-        {
-          "year": 2003,
-          "record": [
             "p2",
             "p3",
             "p4",
             "p5",
             "p6"
           ],
-          "candidate": [
-            "p1"
+          "rows": 22
+        },
+        {
+          "year": 2003,
+          "record": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
           ],
-          "rows": 19
+          "rows": 25
         },
         {
           "year": 2004,
@@ -25012,10 +24950,10 @@
             "p1",
             "p2",
             "p3",
+            "p4",
             "p5"
           ],
           "candidate": [
-            "p4",
             "p6"
           ],
           "rows": 32
@@ -25145,14 +25083,12 @@
         {
           "year": 2019,
           "record": [
+            "p1",
             "p2",
             "p3",
             "p4",
             "p5",
             "p6"
-          ],
-          "candidate": [
-            "p1"
           ],
           "rows": 30
         },
@@ -25187,12 +25123,10 @@
           "record": [
             "p1",
             "p2",
+            "p3",
             "p4",
             "p5",
             "p6"
-          ],
-          "candidate": [
-            "p3"
           ],
           "rows": 24
         },
@@ -25200,13 +25134,11 @@
           "year": 2023,
           "record": [
             "p1",
+            "p2",
             "p3",
             "p4",
             "p5",
             "p6"
-          ],
-          "candidate": [
-            "p2"
           ],
           "rows": 36
         },
@@ -51957,12 +51889,12 @@
       "name": "Vietnam Mathematical Olympiad",
       "group": "national",
       "expected": 390,
-      "c0": 113,
+      "c0": 259,
       "c1": 0,
       "c2": 0,
-      "candidate": 81,
-      "no_candidate": 196,
-      "rows": 873,
+      "candidate": 23,
+      "no_candidate": 108,
+      "rows": 1090,
       "shape": true,
       "years": [
         {
@@ -51977,7 +51909,7 @@
           "missing": [
             "p6"
           ],
-          "rows": 10
+          "rows": 15
         },
         {
           "year": 1963,
@@ -51991,7 +51923,7 @@
           "missing": [
             "p6"
           ],
-          "rows": 10
+          "rows": 15
         },
         {
           "year": 1964,
@@ -52005,7 +51937,7 @@
             "p5",
             "p6"
           ],
-          "rows": 8
+          "rows": 12
         },
         {
           "year": 1965,
@@ -52019,49 +51951,49 @@
             "p5",
             "p6"
           ],
-          "rows": 6
+          "rows": 9
         },
         {
           "year": 1966,
           "record": [
-            "p1"
+            "p1",
+            "p2",
+            "p3"
           ],
           "missing": [
-            "p2",
-            "p3",
             "p4",
             "p5",
             "p6"
           ],
-          "rows": 3
+          "rows": 6
         },
         {
           "year": 1967,
           "record": [
             "p1",
+            "p2",
             "p3"
           ],
           "missing": [
-            "p2",
             "p4",
             "p5",
             "p6"
           ],
-          "rows": 5
+          "rows": 8
         },
         {
           "year": 1968,
           "record": [
-            "p1"
+            "p1",
+            "p2"
           ],
           "missing": [
-            "p2",
             "p3",
             "p4",
             "p5",
             "p6"
           ],
-          "rows": 3
+          "rows": 5
         },
         {
           "year": 1969,
@@ -52075,21 +52007,21 @@
             "p5",
             "p6"
           ],
-          "rows": 8
+          "rows": 12
         },
         {
           "year": 1970,
           "record": [
             "p1",
+            "p2",
             "p3",
-            "p4"
+            "p4",
+            "p5"
           ],
           "missing": [
-            "p2",
-            "p5",
             "p6"
           ],
-          "rows": 8
+          "rows": 13
         },
         {
           "year": 1971,
@@ -52103,21 +52035,21 @@
             "p5",
             "p6"
           ],
-          "rows": 4
+          "rows": 6
         },
         {
           "year": 1972,
           "record": [
             "p1",
+            "p2",
             "p3",
             "p4"
           ],
           "missing": [
-            "p2",
             "p5",
             "p6"
           ],
-          "rows": 6
+          "rows": 10
         },
         {
           "year": 1973,
@@ -52143,21 +52075,19 @@
             "p5",
             "p6"
           ],
-          "rows": 8
+          "rows": 12
         },
         {
           "year": 1975,
           "record": [
             "p1",
+            "p2",
             "p3",
             "p4",
-            "p5"
-          ],
-          "missing": [
-            "p2",
+            "p5",
             "p6"
           ],
-          "rows": 9
+          "rows": 15
         },
         {
           "year": 1976,
@@ -52169,21 +52099,19 @@
             "p5",
             "p6"
           ],
-          "rows": 12
+          "rows": 18
         },
         {
           "year": 1977,
           "record": [
             "p1",
             "p2",
+            "p3",
             "p4",
             "p5",
             "p6"
           ],
-          "candidate": [
-            "p3"
-          ],
-          "rows": 11
+          "rows": 17
         },
         {
           "year": 1978,
@@ -52195,7 +52123,7 @@
             "p5",
             "p6"
           ],
-          "rows": 12
+          "rows": 18
         },
         {
           "year": 1979,
@@ -52207,172 +52135,134 @@
             "p5",
             "p6"
           ],
-          "rows": 12
+          "rows": 18
         },
         {
           "year": 1980,
-          "candidate": [
-            "p1",
-            "p2",
-            "p3"
-          ],
-          "missing": [
-            "p4",
-            "p5",
-            "p6"
-          ],
-          "rows": 11
-        },
-        {
-          "year": 1981,
           "record": [
-            "p2",
-            "p3"
-          ],
-          "candidate": [
-            "p1"
-          ],
-          "missing": [
-            "p4",
-            "p5",
-            "p6"
-          ],
-          "rows": 10
-        },
-        {
-          "year": 1982,
-          "candidate": [
             "p1",
             "p2",
-            "p3"
-          ],
-          "missing": [
-            "p4",
-            "p5",
-            "p6"
-          ],
-          "rows": 12
-        },
-        {
-          "year": 1983,
-          "candidate": [
-            "p1",
-            "p2",
-            "p3"
-          ],
-          "missing": [
-            "p4",
-            "p5",
-            "p6"
-          ],
-          "rows": 12
-        },
-        {
-          "year": 1984,
-          "candidate": [
-            "p1",
-            "p2",
-            "p3"
-          ],
-          "missing": [
-            "p4",
-            "p5",
-            "p6"
-          ],
-          "rows": 12
-        },
-        {
-          "year": 1985,
-          "candidate": [
-            "p1",
-            "p2",
-            "p3"
-          ],
-          "missing": [
-            "p4",
-            "p5",
-            "p6"
-          ],
-          "rows": 12
-        },
-        {
-          "year": 1986,
-          "candidate": [
-            "p1",
-            "p2",
-            "p3"
-          ],
-          "missing": [
-            "p4",
-            "p5",
-            "p6"
-          ],
-          "rows": 12
-        },
-        {
-          "year": 1987,
-          "candidate": [
-            "p1",
-            "p2",
-            "p3"
-          ],
-          "missing": [
-            "p4",
-            "p5",
-            "p6"
-          ],
-          "rows": 12
-        },
-        {
-          "year": 1988,
-          "candidate": [
-            "p1",
-            "p2",
-            "p3"
-          ],
-          "missing": [
-            "p4",
-            "p5",
-            "p6"
-          ],
-          "rows": 12
-        },
-        {
-          "year": 1989,
-          "candidate": [
-            "p1",
-            "p2",
-            "p3"
-          ],
-          "missing": [
-            "p4",
-            "p5",
-            "p6"
-          ],
-          "rows": 12
-        },
-        {
-          "year": 1990,
-          "record": [
-            "p2"
-          ],
-          "missing": [
-            "p1",
             "p3",
             "p4",
             "p5",
             "p6"
           ],
-          "rows": 7
+          "rows": 17
         },
         {
-          "year": 1991,
-          "candidate": [
+          "year": 1981,
+          "record": [
             "p1",
             "p2",
-            "p3"
+            "p3",
+            "p4",
+            "p5",
+            "p6"
           ],
-          "missing": [
+          "rows": 16
+        },
+        {
+          "year": 1982,
+          "record": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 18
+        },
+        {
+          "year": 1983,
+          "record": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 18
+        },
+        {
+          "year": 1984,
+          "record": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 18
+        },
+        {
+          "year": 1985,
+          "record": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 18
+        },
+        {
+          "year": 1986,
+          "record": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 18
+        },
+        {
+          "year": 1987,
+          "record": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 18
+        },
+        {
+          "year": 1988,
+          "record": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 18
+        },
+        {
+          "year": 1989,
+          "record": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 18
+        },
+        {
+          "year": 1990,
+          "record": [
+            "p1",
+            "p2",
+            "p3",
             "p4",
             "p5",
             "p6"
@@ -52380,124 +52270,104 @@
           "rows": 13
         },
         {
-          "year": 1992,
-          "candidate": [
+          "year": 1991,
+          "record": [
             "p1",
             "p2",
-            "p3"
-          ],
-          "missing": [
+            "p3",
             "p4",
             "p5",
             "p6"
           ],
-          "rows": 12
+          "rows": 19
+        },
+        {
+          "year": 1992,
+          "record": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 18
         },
         {
           "year": 1993,
-          "candidate": [
+          "record": [
             "p1",
             "p2",
-            "p3"
-          ],
-          "missing": [
+            "p3",
             "p4",
             "p5",
             "p6"
           ],
-          "rows": 12
+          "rows": 18
         },
         {
           "year": 1994,
-          "candidate": [
+          "record": [
             "p1",
             "p2",
-            "p3"
-          ],
-          "missing": [
+            "p3",
             "p4",
             "p5",
             "p6"
           ],
-          "rows": 12
+          "rows": 18
         },
         {
           "year": 1995,
-          "candidate": [
+          "record": [
             "p1",
             "p2",
-            "p3"
-          ],
-          "missing": [
+            "p3",
             "p4",
             "p5",
             "p6"
           ],
-          "rows": 12
+          "rows": 18
         },
         {
           "year": 1996,
           "record": [
-            "p3"
-          ],
-          "candidate": [
             "p1",
-            "p2"
-          ],
-          "missing": [
+            "p2",
+            "p3",
             "p4",
             "p5",
             "p6"
           ],
-          "rows": 11
+          "rows": 17
         },
         {
           "year": 1997,
-          "candidate": [
+          "record": [
             "p1",
             "p2",
-            "p3"
-          ],
-          "missing": [
+            "p3",
             "p4",
             "p5",
             "p6"
           ],
-          "rows": 12
+          "rows": 18
         },
         {
           "year": 1998,
-          "candidate": [
+          "record": [
             "p1",
             "p2",
-            "p3"
-          ],
-          "missing": [
+            "p3",
             "p4",
             "p5",
             "p6"
           ],
-          "rows": 12
+          "rows": 18
         },
         {
           "year": 1999,
           "record": [
-            "p2",
-            "p3"
-          ],
-          "candidate": [
-            "p1"
-          ],
-          "missing": [
-            "p4",
-            "p5",
-            "p6"
-          ],
-          "rows": 9
-        },
-        {
-          "year": 2000,
-          "missing": [
             "p1",
             "p2",
             "p3",
@@ -52505,49 +52375,57 @@
             "p5",
             "p6"
           ],
-          "rows": 6
+          "rows": 15
         },
         {
-          "year": 2001,
-          "candidate": [
+          "year": 2000,
+          "record": [
             "p1",
             "p2",
-            "p3"
-          ],
-          "missing": [
+            "p3",
             "p4",
             "p5",
             "p6"
           ],
           "rows": 12
+        },
+        {
+          "year": 2001,
+          "record": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 18
         },
         {
           "year": 2002,
           "record": [
-            "p2"
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
           ],
-          "missing": [
+          "rows": 13
+        },
+        {
+          "year": 2003,
+          "record": [
             "p1",
             "p3",
             "p4",
             "p5",
             "p6"
           ],
-          "rows": 7
-        },
-        {
-          "year": 2003,
           "candidate": [
-            "p1",
-            "p2",
-            "p3"
+            "p2"
           ],
-          "missing": [
-            "p4",
-            "p5",
-            "p6"
-          ],
-          "rows": 12
+          "rows": 17
         },
         {
           "year": 2004,
@@ -62769,6 +62647,13 @@
       "located": 671,
       "positioned": 0,
       "excluded": 599
+    },
+    {
+      "id": "kalva",
+      "rows": 724,
+      "located": 724,
+      "positioned": 724,
+      "excluded": 0
     },
     {
       "id": "kedlaya-putnam",

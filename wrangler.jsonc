@@ -1,12 +1,17 @@
-// The site at https://olymmath.tamnd.com is a Worker with static assets only. `om site build` writes the files to build/site.
+// The site at https://olymmath.tamnd.com is a Worker with static assets and an R2 bucket (spec 10.4). `om site build` writes the files to build/site, and `om site split` moves the pages that are not in tier 1 to build/r2. `om site upload` puts build/r2 into the bucket. The Worker in worker/index.js answers each request that is not a static asset.
 {
   "name": "olymmath",
+  "main": "worker/index.js",
   "compatibility_date": "2026-10-01",
   "assets": {
     "directory": "./build/site",
+    "binding": "ASSETS",
     "html_handling": "auto-trailing-slash",
-    "not_found_handling": "404-page"
+    "not_found_handling": "none"
   },
+  "r2_buckets": [
+    { "binding": "SITE", "bucket_name": "olymmath-site" }
+  ],
   "routes": [
     { "pattern": "olymmath.tamnd.com", "custom_domain": true }
   ],

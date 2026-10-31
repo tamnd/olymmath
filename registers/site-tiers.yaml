@@ -1,0 +1,6 @@
+# The tiers of the site (spec 10.4). The problem pages of tier 1 are static assets of the Worker. The problem pages of the other competitions are in the R2 bucket olymmath-site, and the Worker reads them from there. A move between tiers changes no URL.
+# A competition is in tier 1 when its group, its country or its code is in these lists.
+groups: [international, usa, undergraduate]
+# The countries with the strongest results at the IMO in the last ten years.
+countries: [CN, US, KR, RU, RO, JP, VN, GB, CA, IN, TW, HU, UA, PL, IT, TR, DE, FR, BG, IR, KZ, BR, AU, IL, TH, SG, HK, SK, SE, MX]
+codes: []

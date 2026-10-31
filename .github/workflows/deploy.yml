@@ -61,6 +61,13 @@ jobs:
         run: |
           "$RUNNER_TEMP/om" check -content . -q
           "$RUNNER_TEMP/om" site build -content . -out build/site -commit "$(git rev-parse HEAD)" -date now
+          "$RUNNER_TEMP/om" site split -content . -in build/site -out build/r2
+      - name: upload the pages that are not in tier 1 to R2
+        working-directory: content
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: '"$RUNNER_TEMP/om" site upload -dir build/r2 -bucket olymmath-site'
       - name: deploy
         working-directory: content
         env:
@@ -69,8 +76,10 @@ jobs:
         run: npx --yes wrangler@4.156.0 deploy
       - name: check the site
         run: |
-          for path in / /c/ /imo/2024/p1 /search.json; do
+          # A static page, a page in R2, a redirect and a missing page.
+          for want in /:200 /c/:200 /imo/2024/p1:200 /search.json:200 /nz-nzmo/2019/p1:200 /p/0JY6M52386:301 /no-such-page:404; do
+            path=${want%:*}
             code=$(curl -s -o /dev/null -w '%{http_code}' "https://olymmath.tamnd.com$path")
             echo "$path $code"
-            test "$code" = 200
+            test "$code" = "${want##*:}"
           done

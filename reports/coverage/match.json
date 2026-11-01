@@ -1,0 +1,200 @@
+[
+  {
+    "source": "hf-mathnet",
+    "rows": 55634,
+    "matched": 7228,
+    "by_key": 0,
+    "near": 7798,
+    "new": 40608,
+    "new_located": 24500
+  },
+  {
+    "source": "hf-numina-olympiads",
+    "rows": 13087,
+    "matched": 5382,
+    "by_key": 5132,
+    "near": 1168,
+    "new": 6537,
+    "new_located": 4863
+  },
+  {
+    "source": "hf-numina-olympiads-ref",
+    "rows": 13087,
+    "matched": 5453,
+    "by_key": 5131,
+    "near": 1325,
+    "new": 6309,
+    "new_located": 4790
+  },
+  {
+    "source": "hf-ai-mo-aops",
+    "rows": 80661,
+    "matched": 12031,
+    "by_key": 0,
+    "near": 9705,
+    "new": 58925,
+    "new_located": 32037
+  },
+  {
+    "source": "hf-numinamath-1-5",
+    "rows": 315736,
+    "matched": 22727,
+    "by_key": 0,
+    "near": 37417,
+    "new": 255592,
+    "new_located": 0
+  },
+  {
+    "source": "hf-omni-math",
+    "rows": 4428,
+    "matched": 585,
+    "by_key": 0,
+    "near": 588,
+    "new": 3255,
+    "new_located": 2533
+  },
+  {
+    "source": "hf-olympiadbench",
+    "rows": 2133,
+    "matched": 551,
+    "by_key": 0,
+    "near": 228,
+    "new": 1354,
+    "new_located": 0
+  },
+  {
+    "source": "hf-aops-wiki",
+    "rows": 33674,
+    "matched": 11274,
+    "by_key": 11204,
+    "near": 401,
+    "new": 21999,
+    "new_located": 13617
+  },
+  {
+    "source": "hf-liveaopsbench",
+    "rows": 5328,
+    "matched": 136,
+    "by_key": 0,
+    "near": 655,
+    "new": 4537,
+    "new_located": 0
+  },
+  {
+    "source": "hf-aime-1983-2026",
+    "rows": 1065,
+    "matched": 1061,
+    "by_key": 1060,
+    "near": 1,
+    "new": 3,
+    "new_located": 3
+  },
+  {
+    "source": "hf-amc12-full",
+    "rows": 1199,
+    "matched": 1184,
+    "by_key": 1184,
+    "near": 1,
+    "new": 14,
+    "new_located": 14
+  },
+  {
+    "source": "hf-putnam-1995-2025",
+    "rows": 372,
+    "matched": 372,
+    "by_key": 372,
+    "near": 0,
+    "new": 0,
+    "new_located": 0
+  },
+  {
+    "source": "hf-putnam-axiom",
+    "rows": 100,
+    "matched": 82,
+    "by_key": 76,
+    "near": 3,
+    "new": 15,
+    "new_located": 15
+  },
+  {
+    "source": "hf-putnamgap",
+    "rows": 1051,
+    "matched": 366,
+    "by_key": 0,
+    "near": 143,
+    "new": 542,
+    "new_located": 542
+  },
+  {
+    "source": "hf-olymmath-ruc",
+    "rows": 400,
+    "matched": 10,
+    "by_key": 0,
+    "near": 50,
+    "new": 340,
+    "new_located": 0
+  },
+  {
+    "source": "hf-amo-bench",
+    "rows": 50,
+    "matched": 0,
+    "by_key": 0,
+    "near": 0,
+    "new": 50,
+    "new_located": 0
+  },
+  {
+    "source": "hf-nemotron-imo-bench",
+    "rows": 200,
+    "matched": 24,
+    "by_key": 0,
+    "near": 40,
+    "new": 136,
+    "new_located": 0
+  },
+  {
+    "source": "hf-polymath",
+    "rows": 9000,
+    "matched": 1464,
+    "by_key": 0,
+    "near": 1084,
+    "new": 6452,
+    "new_located": 0
+  },
+  {
+    "source": "hf-mathodyssey",
+    "rows": 389,
+    "matched": 6,
+    "by_key": 0,
+    "near": 33,
+    "new": 350,
+    "new_located": 0
+  },
+  {
+    "source": "hf-tubitak",
+    "rows": 0,
+    "matched": 0,
+    "by_key": 0,
+    "near": 0,
+    "new": 0,
+    "new_located": 0
+  },
+  {
+    "source": "hf-indonesian-olympiad",
+    "rows": 2204,
+    "matched": 15,
+    "by_key": 0,
+    "near": 105,
+    "new": 2084,
+    "new_located": 0
+  },
+  {
+    "source": "hf-hrm8k",
+    "rows": 8011,
+    "matched": 224,
+    "by_key": 0,
+    "near": 802,
+    "new": 6985,
+    "new_located": 665
+  }
+]

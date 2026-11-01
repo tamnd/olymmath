@@ -30,6 +30,27 @@
   url: https://www.imo-official.org/problems.aspx
   edition_form: year
   topic_positions: true
+  eras:
+    - {from: 1959, to: 2005}
+  overrides:
+    2006: [a1, a2, a3, a4, a5, a6, c1, c2, c3, c4, c5, c6, c7, g1, g2, g3, g4, g5, g6, g7, g8, g9, g10, n1, n2, n3, n4, n5, n6, n7]
+    2007: [a1, a2, a3, a4, a5, a6, a7, c1, c2, c3, c4, c5, c6, c7, c8, g1, g2, g3, g4, g5, g6, g7, g8, n1, n2, n3, n4, n5, n6, n7]
+    2008: [a1, a2, a3, a4, a5, a6, a7, c1, c2, c3, c4, c5, c6, g1, g2, g3, g4, g5, g6, g7, n1, n2, n3, n4, n5, n6]
+    2009: [a1, a2, a3, a4, a5, a6, a7, c1, c2, c3, c4, c5, c6, c7, c8, g1, g2, g3, g4, g5, g6, g7, g8, n1, n2, n3, n4, n5, n6, n7]
+    2010: [a1, a2, a3, a4, a5, a6, a7, a8, c1, c2, c3, c4, c5, c6, c7, g1, g2, g3, g4, g5, g6, g7, n1, n2, n3, n4, n5, n6]
+    2011: [a1, a2, a3, a4, a5, a6, a7, c1, c2, c3, c4, c5, c6, c7, g1, g2, g3, g4, g5, g6, g7, g8, n1, n2, n3, n4, n5, n6, n7, n8]
+    2012: [a1, a2, a3, a4, a5, a6, a7, c1, c2, c3, c4, c5, c6, c7, g1, g2, g3, g4, g5, g6, g7, g8, n1, n2, n3, n4, n5, n6, n7, n8]
+    2013: [a1, a2, a3, a4, a5, a6, c1, c2, c3, c4, c5, c6, c7, c8, g1, g2, g3, g4, g5, g6, n1, n2, n3, n4, n5, n6, n7]
+    2014: [a1, a2, a3, a4, a5, a6, c1, c2, c3, c4, c5, c6, c7, c8, c9, g1, g2, g3, g4, g5, g6, g7, n1, n2, n3, n4, n5, n6, n7, n8]
+    2015: [a1, a2, a3, a4, a5, a6, c1, c2, c3, c4, c5, c6, c7, g1, g2, g3, g4, g5, g6, g7, g8, n1, n2, n3, n4, n5, n6, n7, n8]
+    2016: [a1, a2, a3, a4, a5, a6, a7, a8, c1, c2, c3, c4, c5, c6, c7, c8, g1, g2, g3, g4, g5, g6, g7, g8, n1, n2, n3, n4, n5, n6, n7, n8]
+    2017: [a1, a2, a3, a4, a5, a6, a7, a8, c1, c2, c3, c4, c5, c6, c7, c8, g1, g2, g3, g4, g5, g6, g7, g8, n1, n2, n3, n4, n5, n6, n7, n8]
+    2018: [a1, a2, a3, a4, a5, a6, a7, c1, c2, c3, c4, c5, c6, c7, g1, g2, g3, g4, g5, g6, g7, n1, n2, n3, n4, n5, n6, n7]
+    2019: [a1, a2, a3, a4, a5, a6, a7, c1, c2, c3, c4, c5, c6, c7, c8, c9, g1, g2, g3, g4, g5, g6, g7, g8, n1, n2, n3, n4, n5, n6, n7, n8]
+    2020: [a1, a2, a3, a4, a5, a6, a7, a8, c1, c2, c3, c4, c5, c6, c7, c8, g1, g2, g3, g4, g5, g6, g7, g8, g9, n1, n2, n3, n4, n5, n6, n7]
+    2021: [a1, a2, a3, a4, a5, a6, a7, a8, c1, c2, c3, c4, c5, c6, c7, c8, g1, g2, g3, g4, g5, g6, g7, g8, n1, n2, n3, n4, n5, n6, n7, n8]
+    2022: [a1, a2, a3, a4, a5, a6, a7, a8, c1, c2, c3, c4, c5, c6, c7, c8, c9, g1, g2, g3, g4, g5, g6, g7, g8, n1, n2, n3, n4, n5, n6, n7, n8]
+    2023: [a1, a2, a3, a4, a5, a6, a7, c1, c2, c3, c4, c5, c6, c7, g1, g2, g3, g4, g5, g6, g7, g8, n1, n2, n3, n4, n5, n6, n7, n8]
   official_solutions: true
   languages: [en]
   copyright: Embargoed until the next IMO.
@@ -239,6 +260,22 @@
   layout:
     - {paper: shortlist, name: Shortlist, positions: [a1, a2, a3, a4, a5, a6, a7, a8, c1, c2, c3, c4, c5, c6, g1, g2, g3, g4, g5, g6, g7, g8, g9, n1, n2, n3, n4, n5, n6, n7, n8, n9]}
   per_year: 32
+  overrides:
+    2007: [a1, a2, a3, a4, a5, a6, a7, a8, c1, c2, c3, g1, g2, g3, g4, n1, n2, n3, n4, n5]
+    2008: [a1, a2, a3, a4, a5, a6, a7, c1, c2, c3, c4, g1, g2, g3, g4, g5, g6, g7, g8, n1, n2, n3, n4, n5, n6]
+    2009: [a1, a2, a3, a4, a5, a6, a7, a8, c1, c2, g1, g2, g3, g4, g5, g6, n1, n2, n3]
+    2010: [a1, a2, a3, a4, c1, c2, c3, c4, c5, g1, g2, g3, g4, g5, g6, g7, g8, n1, n2, n3]
+    2011: [a1, a2, a3, a4, c1, c2, c3, g1, g2, g3, g4, n1, n2]
+    2012: [a1, a2, a3, a4, a5, a6, c1, g1, g2, g3, g4, g5, g6, g7, n1, n2, n3]
+    2013: [a1, a2, a3, a4, a5, a6, a7, c1, c2, c3, c4, c5, g1, g2, g3, g4, g5, n1, n2, n3, n4, n5, n6, n7, n8, n9]
+    2014: [a1, a2, a3, a4, a5, a6, a7, c1, c2, c3, g1, g2, g3, g4, g5, g6, g7, n1, n2, n3, n4, n5]
+    2015: [a1, a2, a3, a4, a5, a6, c1, c2, c3, g1, g2, g3, g4, g5, g6, g7, n1, n2, n3, n4, n5, n6, n7]
+    2016: [a1, a2, a3, a4, a5, a6, a7, a8, c1, c2, c3, g1, g2, g3, n1, n2, n3, n4, n5]
+    2017: [a1, a2, a3, a4, a5, a6, c1, c2, c3, c4, c5, c6, g1, g2, g3, g4, g5, g6, g7, g8, n1, n2, n3, n4, n5]
+    2018: [a1, a2, a3, a4, a5, a6, c1, c2, c3, g1, g2, g3, g4, g5, g6, n1, n2, n3, n4, n5]
+    2019: [a1, a2, a3, a4, a5, c1, c2, c3, c4, g1, g2, g3, g4, g5, g6, g7, g8, g9, n1, n2]
+    2020: [a1, a2, a3, a4, c1, c2, c3, c4, g1, g2, g3, g4, g5, n1, n2, n3, n4, n5]
+    2021: [a1, a2, a3, a4, a5, a6, c1, c2, c3, c4, c5, c6, g1, g2, g3, g4, g5, g6, g7, g8, n1, n2, n3, n4, n5, n6, n7]
   official_solutions: true
   languages: [en]
   sources: [imogeometry-blog]
@@ -268,6 +305,29 @@
   layout:
     - {paper: shortlist, name: Shortlist, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, c1, c2, c3, c4, c5, c6, c7, c8, c9, g1, g2, g3, g4, g5, g6, g7, g8, g9, g10, g11, n1, n2, n3, n4, n5, n6, n7]}
   per_year: 36
+  eras:
+    - {from: 2001, to: 2001}
+  overrides:
+    2002: [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13]
+    2003: [p1, p2, p3, p4, p5, p6, p7]
+    2004: [a1, a2, a3, a4, c1, c2, g1, g2, g3, g4, g5]
+    2005: [a1, a2, a3, a4, a5, c1, c2, c3, c4, g1, g2, g3, g4, g5, g6, g7]
+    2006: [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15]
+    2007: [a1, a2, a3, a4, a5, c1, c2, c3, g1, g2, g3, g4]
+    2008: [a1, a2, a3, a4, a5, a6, a7, a8, a9, c1, c2, c3, c4, g1, g2, g3, g4, g5, g6, g7, g8, g9, g10, g11]
+    2009: [a1, a2, a3, a4, a5, c1, c2, c3, c4, g1, g2, g3, g4, g5]
+    2010: [a1, a2, a3, a4, a5, c1, c2, g1, g2, g3, g4, n1, n2]
+    2011: [a1, a2, a3, a4, a5, a6, a7, a8, a9, c1, c2, c3, c4, c5, c6, c7, c8, c9, g1, g2, g3, g4, g5, g6]
+    2012: [a1, a2, a3, a4, a5, c1, c2, c3, g1, g2, g3, g4]
+    2013: [a1, a2, a3, c1, c2, c3, g1, g2, g3, g4, g5, n1, n2, n3, n4, n5, n6]
+    2014: [a1, a2, a3, a4, a5, a6, a7, a8, a9, c1, c2, c3, c4, g1, g2, g3, g4, g5, g6, n1, n2, n3, n4, n5, n6]
+    2015: [a1, a2, a3, a4, a5, c1, c2, c3, c4, g1, g2, g3, g4, g5]
+    2016: [a1, a2, a3, a4, a5, c1, c2, c3, c4, g1, g2, g3, g4, g5, g6, g7, n1, n2, n3, n4, n5]
+    2017: [a1, a2, a3, a4, c1, c2, c3, g1, g2, g3, g4, g5]
+    2018: [a1, a2, a3, a4, a5, a6, a7, c1, c2, c3, g1, g2, g3, g4, g5, g6]
+    2019: [a1, a2, a3, a4, a5, a6, a7, c1, c2, c3, c4, c5, g1, g2, g3, g4, g5, g6, g7, n1, n2, n3, n4, n5, n6, n7]
+    2020: [a1, a2, a3, c1, c2, c3, g1, g2, g3]
+    2021: [a1, a2, a3, c1, c2, c3, c4, c5, c6, g1, g2, g3, g4, g5, n1, n2, n3, n4, n5, n6, n7]
   official_solutions: true
   languages: [en]
   sources: [hf-numina-olympiads, imogeometry-blog]
@@ -310,6 +370,8 @@
   last_year: 2006
   edition_form: year
   per_year: 9
+  eras:
+    - {from: 2000, to: 2006, per_year: 10}
   languages: [de, pl, en]
   sources: [kalva, imomath]
   description: The contest of Austria and Poland that came before MEMO. It had 29 editions from 1978 to 2006.
@@ -739,6 +801,11 @@
   first_year: 1950
   last_year: 1999
   edition_form: year
+  eras:
+    - {from: 1950, to: 1959, per_year: 50}
+    - {from: 1960, to: 1967, per_year: 40}
+    - {from: 1968, to: 1973, per_year: 35}
+    - {from: 1974, to: 1999, per_year: 30}
   official_solutions: true
   languages: [en]
   copyright: Copyright MAA.
@@ -865,6 +932,8 @@
   first_year: 2011
   edition_form: year
   per_year: 9
+  eras:
+    - {from: 2014, to: 2017, per_year: 6}
   official_solutions: true
   languages: [en]
   copyright: None stated.
@@ -879,6 +948,12 @@
   url: https://github.com/usa-tst-public/USA-TST-Archive
   edition_form: year
   per_year: 6
+  eras:
+    - {from: 2008, to: 2011, per_year: 9}
+    - {from: 2012, to: 2013, per_year: 4}
+  overrides:
+    2001: [p1, p2, p3, p4, p5, p6, p7, p8, p9]
+    2021: [p1, p2, p3]
   official_solutions: true
   languages: [en]
   copyright: None stated.
@@ -1385,6 +1460,10 @@
   first_year: 1962
   edition_form: year
   per_year: 5
+  eras:
+    - {from: 1977, to: 1988, per_year: 4}
+  overrides:
+    1990: [p1, p2, p3, p4]
   official_solutions: true
   languages: [nl, en]
   sources: [wiskundeolympiade, hf-mathnet]
@@ -2081,6 +2160,8 @@
   country: TW
   edition_form: year
   per_year: 6
+  overrides:
+    1997: [p1, p2, p3, p4, p5, p6, p7, p8, p9]
   languages: [zh]
   sources: [evanchen, hf-mathnet]
   description: The national olympiad of Taiwan and its IMO selection tests.

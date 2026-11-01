@@ -1,0 +1,6 @@
+year: 2019
+papers:
+  - name: Paper A
+    problems: [a1, a2, a3, a4]
+  - name: Paper B
+    problems: [b1, b2, b3, b4]

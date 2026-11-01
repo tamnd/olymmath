@@ -1,0 +1,6 @@
+year: 2022
+papers:
+  - name: Junior
+    problems: [j1, j2, j3, j4]
+  - name: Senior
+    problems: [s1, s2, s3, s4]

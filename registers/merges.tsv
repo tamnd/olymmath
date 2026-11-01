@@ -83,3 +83,6 @@ jbmo-sl/2018/g3	jbmo/2018/p4	strong	0.748	none	jbmo-sl	-	0.958
 jbmo-sl/2019/n1	jbmo/2019/p1	strong	0.579	none	jbmo-sl	-	0.977
 jbmo-sl/2019/c3	jbmo/2019/p4	strong	0.089	match	jbmo-sl	-	0.828
 jbmo-sl/2020/c3	jbmo/2020/p3	strong	0.283	none	jbmo-sl	-	0.853
+isl/2010/g4	imo/2010/p2	strong	0.000	none	isl-imo	7edc2704394e	0.575
+baltic-way/1994/p13	bg-mo/1983/p4	none	0.058	none	text	ab826f8b7ad0	0.498
+ro-tst/1996/p11	ir-mo/1996/p6	none	0.000	none	text	20224a63444f	0.519

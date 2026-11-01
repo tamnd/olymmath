@@ -65,7 +65,13 @@
   url: https://igo-official.com/
   first_year: 2014
   edition_form: year
+  layout:
+    - {paper: elementary, name: Elementary, positions: [e1, e2, e3, e4, e5]}
+    - {paper: intermediate, name: Intermediate, positions: [i1, i2, i3, i4, i5]}
+    - {paper: advanced, name: Advanced, positions: [a1, a2, a3, a4, a5]}
   per_year: 15
+  eras:
+    - {from: 2014, to: 2014, per_year: 10, layout: [{paper: junior, name: Junior, positions: [j1, j2, j3, j4, j5]}, {paper: senior, name: Senior, positions: [s1, s2, s3, s4, s5]}]}
   official_solutions: true
   languages: [en, fa]
   copyright: None stated.
@@ -131,7 +137,12 @@
   url: https://tuymaada.lensky-kray.ru/en/arhiv/
   first_year: 1994
   edition_form: year
+  layout:
+    - {paper: junior, name: Junior, days: 2, positions: [j1, j2, j3, j4, j5, j6, j7, j8]}
+    - {paper: senior, name: Senior, days: 2, positions: [s1, s2, s3, s4, s5, s6, s7, s8]}
   per_year: 16
+  eras:
+    - {from: 1994, to: 2007}
   languages: [ru, en]
   copyright: None stated.
   sources: [tuymaada-official]
@@ -347,6 +358,15 @@
   sources: [olympiaadid-ut, hf-mathnet, hf-numina-olympiads, imomath]
   description: A team contest of the countries around the Baltic Sea, with 20 problems for each team. Solutions exist for all years except 2009, 2019 and 2022.
 
+- code: baltic-way-sl
+  name: Baltic Way Shortlist
+  group: international
+  level: high-school
+  edition_form: year
+  languages: [en]
+  sources: [hf-mathnet]
+  description: The shortlist of problems from which the jury of Baltic Way chooses the 20 problems of the contest. The seed rows of the shortlist have no problem number, so the register gives no layout.
+
 - code: memo
   name: Middle European Mathematical Olympiad
   short: MEMO
@@ -355,6 +375,9 @@
   url: https://www.memo-official.org/
   first_year: 2007
   edition_form: year
+  layout:
+    - {paper: individual, name: Individual, positions: [i1, i2, i3, i4]}
+    - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8]}
   per_year: 12
   official_solutions: true
   languages: [en, de, cs, pl, hu]
@@ -983,11 +1006,266 @@
   url: https://www.hmmt.org/www/archive/
   first_year: 1998
   edition_form: year
+  layout:
+    - {paper: algebra-number-theory, name: Algebra and Number Theory, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]}
+    - {paper: geometry, name: Geometry, positions: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10]}
+    - {paper: combinatorics, name: Combinatorics, positions: [c1, c2, c3, c4, c5, c6, c7, c8, c9, c10]}
+    - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10]}
+    - {paper: guts, name: Guts, positions: [u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11, u12, u13, u14, u15, u16, u17, u18, u19, u20, u21, u22, u23, u24, u25, u26, u27, u28, u29, u30, u31, u32, u33, u34, u35, u36]}
+  per_year: 76
+  eras:
+    - from: 1998
+      to: 1998
+      per_year: 30
+      layout:
+        - {paper: algebra, name: Algebra, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]}
+        - {paper: calculus, name: Calculus, positions: [k1, k2, k3, k4, k5, k6, k7, k8, k9, k10]}
+        - {paper: advanced-topics, name: Advanced Topics, positions: [v1, v2, v3, v4, v5, v6, v7, v8, v9, v10]}
+    - from: 1999
+      to: 1999
+      per_year: 62
+      layout:
+        - {paper: algebra, name: Algebra, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]}
+        - {paper: geometry, name: Geometry, positions: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10]}
+        - {paper: calculus, name: Calculus, positions: [k1, k2, k3, k4, k5, k6, k7, k8, k9, k10]}
+        - {paper: advanced-topics, name: Advanced Topics, positions: [v1, v2, v3, v4, v5, v6, v7, v8, v9, v10]}
+        - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12]}
+        - {paper: oral, name: Oral, positions: [o1, o2, o3, o4, o5, o6, o7, o8, o9, o10]}
+    - {from: 2000, to: 2000}
+    - from: 2001
+      to: 2001
+      per_year: 132
+      layout:
+        - {paper: algebra, name: Algebra, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]}
+        - {paper: geometry, name: Geometry, positions: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10]}
+        - {paper: calculus, name: Calculus, positions: [k1, k2, k3, k4, k5, k6, k7, k8, k9, k10]}
+        - {paper: advanced-topics, name: Advanced Topics, positions: [v1, v2, v3, v4, v5, v6, v7, v8, v9, v10]}
+        - {paper: general-1, name: General 1, positions: [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10]}
+        - {paper: general-2, name: General 2, positions: [f1, f2, f3, f4, f5, f6, f7, f8, f9, f10]}
+        - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12]}
+        - {paper: guts, name: Guts, positions: [u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11, u12, u13, u14, u15, u16, u17, u18, u19, u20, u21, u22, u23, u24, u25, u26, u27, u28, u29, u30, u31, u32, u33, u34, u35, u36, u37, u38, u39, u40, u41, u42, u43, u44, u45, u46, u47, u48, u49, u50, u51, u52, u53, u54, u55, u56, u57, u58, u59, u60]}
+    - from: 2002
+      to: 2002
+      per_year: 135
+      layout:
+        - {paper: algebra, name: Algebra, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]}
+        - {paper: geometry, name: Geometry, positions: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10]}
+        - {paper: calculus, name: Calculus, positions: [k1, k2, k3, k4, k5, k6, k7, k8, k9, k10]}
+        - {paper: advanced-topics, name: Advanced Topics, positions: [v1, v2, v3, v4, v5, v6, v7, v8, v9, v10]}
+        - {paper: general-1, name: General 1, positions: [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10]}
+        - {paper: general-2, name: General 2, positions: [f1, f2, f3, f4, f5, f6, f7, f8, f9, f10]}
+        - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12]}
+        - {paper: guts, name: Guts, positions: [u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11, u12, u13, u14, u15, u16, u17, u18, u19, u20, u21, u22, u23, u24, u25, u26, u27, u28, u29, u30, u31, u32, u33, u34, u35, u36, u37, u38, u39, u40, u41, u42, u43, u44, u45, u46, u47, u48, u49, u50, u51, u52, u53, u54, u55, u56, u57, u58, u59, u60, u61, u62, u63]}
+    - from: 2003
+      to: 2003
+      per_year: 112
+      layout:
+        - {paper: algebra, name: Algebra, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]}
+        - {paper: geometry, name: Geometry, positions: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10]}
+        - {paper: combinatorics, name: Combinatorics, positions: [c1, c2, c3, c4, c5, c6, c7, c8, c9, c10]}
+        - {paper: calculus, name: Calculus, positions: [k1, k2, k3, k4, k5, k6, k7, k8, k9, k10]}
+        - {paper: general-1, name: General 1, positions: [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10]}
+        - {paper: general-2, name: General 2, positions: [f1, f2, f3, f4, f5, f6, f7, f8, f9, f10]}
+        - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10]}
+        - {paper: guts, name: Guts, positions: [u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11, u12, u13, u14, u15, u16, u17, u18, u19, u20, u21, u22, u23, u24, u25, u26, u27, u28, u29, u30, u31, u32, u33, u34, u35, u36, u37, u38, u39, u40, u41, u42]}
+    - from: 2004
+      to: 2004
+      per_year: 121
+      layout:
+        - {paper: algebra, name: Algebra, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]}
+        - {paper: geometry, name: Geometry, positions: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10]}
+        - {paper: combinatorics, name: Combinatorics, positions: [c1, c2, c3, c4, c5, c6, c7, c8, c9, c10]}
+        - {paper: calculus, name: Calculus, positions: [k1, k2, k3, k4, k5, k6, k7, k8, k9, k10]}
+        - {paper: general-1, name: General 1, positions: [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10]}
+        - {paper: general-2, name: General 2, positions: [f1, f2, f3, f4, f5, f6, f7, f8, f9, f10]}
+        - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15, t16]}
+        - {paper: guts, name: Guts, positions: [u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11, u12, u13, u14, u15, u16, u17, u18, u19, u20, u21, u22, u23, u24, u25, u26, u27, u28, u29, u30, u31, u32, u33, u34, u35, u36, u37, u38, u39, u40, u41, u42, u43, u44, u45]}
+    - from: 2005
+      to: 2005
+      per_year: 132
+      layout:
+        - {paper: algebra, name: Algebra, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]}
+        - {paper: geometry, name: Geometry, positions: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10]}
+        - {paper: combinatorics, name: Combinatorics, positions: [c1, c2, c3, c4, c5, c6, c7, c8, c9, c10]}
+        - {paper: calculus, name: Calculus, positions: [k1, k2, k3, k4, k5, k6, k7, k8, k9, k10]}
+        - {paper: general-1, name: General 1, positions: [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10]}
+        - {paper: general-2, name: General 2, positions: [f1, f2, f3, f4, f5, f6, f7, f8, f9, f10]}
+        - {paper: team-1, name: Team 1, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15]}
+        - {paper: team-2, name: Team 2, positions: [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15]}
+        - {paper: guts, name: Guts, positions: [u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11, u12, u13, u14, u15, u16, u17, u18, u19, u20, u21, u22, u23, u24, u25, u26, u27, u28, u29, u30, u31, u32, u33, u34, u35, u36, u37, u38, u39, u40, u41, u42]}
+    - from: 2006
+      to: 2006
+      per_year: 135
+      layout:
+        - {paper: algebra, name: Algebra, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]}
+        - {paper: geometry, name: Geometry, positions: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10]}
+        - {paper: combinatorics, name: Combinatorics, positions: [c1, c2, c3, c4, c5, c6, c7, c8, c9, c10]}
+        - {paper: calculus, name: Calculus, positions: [k1, k2, k3, k4, k5, k6, k7, k8, k9, k10]}
+        - {paper: general-1, name: General 1, positions: [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10]}
+        - {paper: general-2, name: General 2, positions: [f1, f2, f3, f4, f5, f6, f7, f8, f9, f10]}
+        - {paper: team-1, name: Team 1, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15]}
+        - {paper: team-2, name: Team 2, positions: [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15]}
+        - {paper: guts, name: Guts, positions: [u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11, u12, u13, u14, u15, u16, u17, u18, u19, u20, u21, u22, u23, u24, u25, u26, u27, u28, u29, u30, u31, u32, u33, u34, u35, u36, u37, u38, u39, u40, u41, u42, u43, u44, u45]}
+    - from: 2007
+      to: 2007
+      per_year: 120
+      layout:
+        - {paper: algebra, name: Algebra, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]}
+        - {paper: geometry, name: Geometry, positions: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10]}
+        - {paper: combinatorics, name: Combinatorics, positions: [c1, c2, c3, c4, c5, c6, c7, c8, c9, c10]}
+        - {paper: calculus, name: Calculus, positions: [k1, k2, k3, k4, k5, k6, k7, k8, k9, k10]}
+        - {paper: general-1, name: General 1, positions: [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10]}
+        - {paper: general-2, name: General 2, positions: [f1, f2, f3, f4, f5, f6, f7, f8, f9, f10]}
+        - {paper: team-1, name: Team 1, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14]}
+        - {paper: team-2, name: Team 2, positions: [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10]}
+        - {paper: guts, name: Guts, positions: [u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11, u12, u13, u14, u15, u16, u17, u18, u19, u20, u21, u22, u23, u24, u25, u26, u27, u28, u29, u30, u31, u32, u33, u34, u35, u36]}
+    - from: 2008
+      to: 2008
+      per_year: 125
+      layout:
+        - {paper: algebra, name: Algebra, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]}
+        - {paper: geometry, name: Geometry, positions: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10]}
+        - {paper: combinatorics, name: Combinatorics, positions: [c1, c2, c3, c4, c5, c6, c7, c8, c9, c10]}
+        - {paper: calculus, name: Calculus, positions: [k1, k2, k3, k4, k5, k6, k7, k8, k9, k10]}
+        - {paper: general-1, name: General 1, positions: [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10]}
+        - {paper: general-2, name: General 2, positions: [f1, f2, f3, f4, f5, f6, f7, f8, f9, f10]}
+        - {paper: team-1, name: Team 1, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14]}
+        - {paper: team-2, name: Team 2, positions: [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15]}
+        - {paper: guts, name: Guts, positions: [u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11, u12, u13, u14, u15, u16, u17, u18, u19, u20, u21, u22, u23, u24, u25, u26, u27, u28, u29, u30, u31, u32, u33, u34, u35, u36]}
+    - from: 2009
+      to: 2009
+      per_year: 110
+      layout:
+        - {paper: algebra, name: Algebra, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]}
+        - {paper: geometry, name: Geometry, positions: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10]}
+        - {paper: combinatorics, name: Combinatorics, positions: [c1, c2, c3, c4, c5, c6, c7, c8, c9, c10]}
+        - {paper: calculus, name: Calculus, positions: [k1, k2, k3, k4, k5, k6, k7, k8, k9, k10]}
+        - {paper: general-1, name: General 1, positions: [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10]}
+        - {paper: general-2, name: General 2, positions: [f1, f2, f3, f4, f5, f6, f7, f8, f9, f10]}
+        - {paper: team-1, name: Team 1, positions: [t1, t2, t3, t4, t5, t6, t7, t8]}
+        - {paper: team-2, name: Team 2, positions: [s1, s2, s3, s4, s5, s6]}
+        - {paper: guts, name: Guts, positions: [u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11, u12, u13, u14, u15, u16, u17, u18, u19, u20, u21, u22, u23, u24, u25, u26, u27, u28, u29, u30, u31, u32, u33, u34, u35, u36]}
+    - from: 2010
+      to: 2010
+      per_year: 116
+      layout:
+        - {paper: algebra, name: Algebra, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]}
+        - {paper: geometry, name: Geometry, positions: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10]}
+        - {paper: combinatorics, name: Combinatorics, positions: [c1, c2, c3, c4, c5, c6, c7, c8, c9, c10]}
+        - {paper: calculus, name: Calculus, positions: [k1, k2, k3, k4, k5, k6, k7, k8, k9, k10]}
+        - {paper: general-1, name: General 1, positions: [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10]}
+        - {paper: general-2, name: General 2, positions: [f1, f2, f3, f4, f5, f6, f7, f8, f9, f10]}
+        - {paper: team-1, name: Team 1, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10]}
+        - {paper: team-2, name: Team 2, positions: [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10]}
+        - {paper: guts, name: Guts, positions: [u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11, u12, u13, u14, u15, u16, u17, u18, u19, u20, u21, u22, u23, u24, u25, u26, u27, u28, u29, u30, u31, u32, u33, u34, u35, u36]}
+    - from: 2011
+      to: 2011
+      per_year: 66
+      layout:
+        - {paper: team-1, name: Team 1, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15]}
+        - {paper: team-2, name: Team 2, positions: [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15]}
+        - {paper: guts, name: Guts, positions: [u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11, u12, u13, u14, u15, u16, u17, u18, u19, u20, u21, u22, u23, u24, u25, u26, u27, u28, u29, u30, u31, u32, u33, u34, u35, u36]}
+    - from: 2012
+      to: 2012
+      per_year: 86
+      layout:
+        - {paper: algebra, name: Algebra, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]}
+        - {paper: geometry, name: Geometry, positions: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10]}
+        - {paper: combinatorics, name: Combinatorics, positions: [c1, c2, c3, c4, c5, c6, c7, c8, c9, c10]}
+        - {paper: team-1, name: Team 1, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10]}
+        - {paper: team-2, name: Team 2, positions: [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10]}
+        - {paper: guts, name: Guts, positions: [u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11, u12, u13, u14, u15, u16, u17, u18, u19, u20, u21, u22, u23, u24, u25, u26, u27, u28, u29, u30, u31, u32, u33, u34, u35, u36]}
+    - from: 2013
+      to: 2016
+      per_year: 76
+      layout:
+        - {paper: algebra, name: Algebra, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]}
+        - {paper: geometry, name: Geometry, positions: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10]}
+        - {paper: combinatorics, name: Combinatorics, positions: [c1, c2, c3, c4, c5, c6, c7, c8, c9, c10]}
+        - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10]}
+        - {paper: guts, name: Guts, positions: [u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11, u12, u13, u14, u15, u16, u17, u18, u19, u20, u21, u22, u23, u24, u25, u26, u27, u28, u29, u30, u31, u32, u33, u34, u35, u36]}
   official_solutions: true
   languages: [en]
   copyright: None stated.
   sources: [hmmt-official, hf-numina-olympiads, hf-matharena]
-  description: A large student-run tournament with a November contest, a February contest and the HMIC. It has about 250 problems a year.
+  description: A large student-run tournament in February, with subject rounds, a team round and a guts round. The positions have the letter of the round, such as a7 for problem 7 of the algebra round. The November contest and the HMIC have their own codes, hmnt and hmic.
+
+- code: hmnt
+  name: HMMT November
+  short: HMMT November
+  group: usa
+  level: high-school
+  country: US
+  url: https://www.hmmt.org/www/archive/
+  first_year: 2008
+  edition_form: year
+  layout:
+    - {paper: general, name: General, positions: [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10]}
+    - {paper: theme, name: Theme, positions: [h1, h2, h3, h4, h5, h6, h7, h8, h9, h10]}
+    - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10]}
+    - {paper: guts, name: Guts, positions: [u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11, u12, u13, u14, u15, u16, u17, u18, u19, u20, u21, u22, u23, u24, u25, u26, u27, u28, u29, u30, u31, u32, u33, u34, u35, u36]}
+  per_year: 66
+  eras:
+    - from: 2008
+      to: 2008
+      per_year: 57
+      layout:
+        - {paper: general-1, name: General 1, positions: [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10]}
+        - {paper: general-2, name: General 2, positions: [f1, f2, f3, f4, f5]}
+        - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6]}
+        - {paper: guts, name: Guts, positions: [u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11, u12, u13, u14, u15, u16, u17, u18, u19, u20, u21, u22, u23, u24, u25, u26, u27, u28, u29, u30, u31, u32, u33, u34, u35, u36]}
+    - from: 2009
+      to: 2009
+      per_year: 66
+      layout:
+        - {paper: general-1, name: General 1, positions: [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10]}
+        - {paper: general-2, name: General 2, positions: [f1, f2, f3, f4, f5, f6, f7, f8, f9, f10]}
+        - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11]}
+        - {paper: guts, name: Guts, positions: [u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11, u12, u13, u14, u15, u16, u17, u18, u19, u20, u21, u22, u23, u24, u25, u26, u27, u28, u29, u30, u31, u32, u33, u34, u35]}
+    - from: 2010
+      to: 2010
+      per_year: 66
+      layout:
+        - {paper: general-1, name: General 1, positions: [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10]}
+        - {paper: general-2, name: General 2, positions: [f1, f2, f3, f4, f5, f6, f7, f8, f9, f10]}
+        - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10]}
+        - {paper: guts, name: Guts, positions: [u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11, u12, u13, u14, u15, u16, u17, u18, u19, u20, u21, u22, u23, u24, u25, u26, u27, u28, u29, u30, u31, u32, u33, u34, u35, u36]}
+    - from: 2011
+      to: 2011
+      per_year: 66
+      layout:
+        - {paper: general, name: General, positions: [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10]}
+        - {paper: theme, name: Theme, positions: [h1, h2, h3, h4, h5, h6, h7, h8, h9, h10]}
+        - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10]}
+        - {paper: guts, name: Guts, positions: [u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11, u12, u13, u14, u15, u16, u17, u18, u19, u20, u21, u22, u23, u24, u25, u26, u27, u28, u29, u30, u31, u32, u33, u34, u35, u36]}
+    - from: 2012
+      to: 2012
+      per_year: 30
+      layout:
+        - {paper: general, name: General, positions: [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10]}
+        - {paper: theme, name: Theme, positions: [h1, h2, h3, h4, h5, h6, h7, h8, h9, h10]}
+        - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10]}
+  official_solutions: true
+  languages: [en]
+  copyright: None stated.
+  sources: [hmmt-official, hf-numina-olympiads]
+  description: The November contest of HMMT, for students who are newer to competitions. It has a general round, a theme round, a team round and a guts round.
+
+- code: hmic
+  name: HMMT Invitational Competition
+  short: HMIC
+  group: usa
+  level: high-school
+  country: US
+  url: https://www.hmmt.org/www/archive/
+  first_year: 2013
+  edition_form: year
+  per_year: 5
+  official_solutions: true
+  languages: [en]
+  copyright: None stated.
+  sources: [hmmt-official, hf-numina-olympiads]
+  description: A proof contest of five problems for the top students of HMMT February.
 
 - code: pumac
   name: Princeton University Mathematics Competition
@@ -1707,6 +1985,8 @@
   first_year: 1952
   edition_form: year
   per_year: 6
+  eras:
+    - {from: 1952, to: 1957, per_year: 4}
   official_solutions: true
   languages: [cs, sk, en]
   copyright: The DML-CZ terms apply to the yearly reports.

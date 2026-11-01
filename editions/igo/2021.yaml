@@ -1,0 +1,8 @@
+year: 2021
+papers:
+  - name: Elementary
+    problems: [e1, e2, e3, e4, e5]
+  - name: Intermediate
+    problems: [i1, i2, i3, i4, i5]
+  - name: Advanced
+    problems: [a1, a2, a3, a4, a5]

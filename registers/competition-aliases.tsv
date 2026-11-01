@@ -16,9 +16,10 @@ Kürschák	kurschak
 Austrian-Polish Competition	austrian-polish
 BalticWay	baltic-way
 Baltic Way	baltic-way
-Baltic Way Shortlist	baltic-way
-Baltic Way Problem Shortlist	baltic-way
-Baltic Way SHL	baltic-way
+Baltic Way Shortlist	baltic-way-sl
+Baltic Way Problem Shortlist	baltic-way-sl
+Baltic Way SHL	baltic-way-sl
+Baltic Way Shortlisted Problems	baltic-way-sl
 balkan_mo	balkan
 Balkan MO	balkan
 Balkan MO Shortlist	balkan-sl
@@ -100,15 +101,15 @@ USAMO	usamo
 USA_MO	usamo
 USAJMO	usajmo
 HMMT_2	hmmt
-HMMT_11	hmmt
+HMMT_11	hmnt
 HMMT February	hmmt
-HMMT November	hmmt
+HMMT November	hmnt
 HMMT February Guts Round	hmmt
 HMMT Spring Guts Round	hmmt
-HMNT	hmmt
+HMNT	hmnt
 HMMO	hmmt
-Harvard-MIT November Tournament	hmmt
-Annual Harvard-MIT November Tournament	hmmt
+Harvard-MIT November Tournament	hmnt
+Annual Harvard-MIT November Tournament	hmnt
 Annual Harvard-MIT Mathematics Tournament	hmmt
 BMT Spring	bmt
 BMT Fall	bmt
@@ -537,7 +538,7 @@ Philippine Mathematical Olympiad, National Orals	ph-pmo
 AIME II	aime
 AIME I	aime
 HMMT Spring	hmmt
-HMIC	hmmt
+HMIC	hmic
 Irish	ie-irmo
 CMIMC Geometry	cmimc
 CMIMC Integration Bee	-
@@ -605,7 +606,7 @@ Regional Olympiad of Mexico Southeast	-
 Mexico States Finals - geometry	-
 Kyiv City MO Juniors + geometry	-
 Portugal Juniors (OPM) - geometry	pt-opm
-Baltic Way Shortlist Geometry	baltic-way
+Baltic Way Shortlist Geometry	-
 putnam (modified boxing)	putnam
 IMO Compendium	-
 # Labels from the unknown list of the coverage report of 2026-11-01. Agent decision: each line below maps a label to the competition that the label names. A round of a national olympiad goes to the code of the olympiad, as in the lines above. A label that names a shortlist goes to the shortlist code, or to "-" when the register has no shortlist code.

@@ -1,0 +1,18 @@
+year: 2004
+papers:
+  - name: Algebra
+    problems: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]
+  - name: Geometry
+    problems: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10]
+  - name: Combinatorics
+    problems: [c1, c2, c3, c4, c5, c6, c7, c8, c9, c10]
+  - name: Calculus
+    problems: [k1, k2, k3, k4, k5, k6, k7, k8, k9, k10]
+  - name: General 1
+    problems: [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10]
+  - name: General 2
+    problems: [f1, f2, f3, f4, f5, f6, f7, f8, f9, f10]
+  - name: Team
+    problems: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15, t16]
+  - name: Guts
+    problems: [u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11, u12, u13, u14, u15, u16, u17, u18, u19, u20, u21, u22, u23, u24, u25, u26, u27, u28, u29, u30, u31, u32, u33, u34, u35, u36, u37, u38, u39, u40, u41, u42, u43, u44, u45]

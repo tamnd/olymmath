@@ -62,13 +62,14 @@ jobs:
           "$RUNNER_TEMP/om" check -content . -q
           "$RUNNER_TEMP/om" site build -content . -out build/site -commit "$(git rev-parse HEAD)" -date now
           "$RUNNER_TEMP/om" site split -content . -in build/site -out build/r2
-      - name: upload the pages that are not in tier 1 to R2
+          "$RUNNER_TEMP/om" site pack -in build/r2 -out build/pack -index build/site/_pack
+      - name: upload the new packs to R2
         working-directory: content
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        # The upload stops after 40 minutes so that the deploy step runs in the 60 minutes of the job. The next run sends the rest.
-        run: '"$RUNNER_TEMP/om" site upload -dir build/r2 -bucket olymmath-site -budget 40m'
+        # The old Worker still reads the old packs, so this upload keeps them. The step after the deploy deletes them.
+        run: '"$RUNNER_TEMP/om" site upload -dir build/pack -bucket olymmath-site -keep'
       - name: deploy
         working-directory: content
         env:
@@ -84,3 +85,8 @@ jobs:
             echo "$path $code"
             test "$code" = "${want##*:}"
           done
+      - name: delete the old packs
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: '"$RUNNER_TEMP/om" site upload -dir build/pack -bucket olymmath-site -budget 20m'

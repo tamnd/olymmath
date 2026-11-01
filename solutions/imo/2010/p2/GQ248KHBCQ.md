@@ -1,7 +1,7 @@
 ---
 tag: GQ248KHBCQ
 kind: solution
-problem: ZP52EKYC6V
+problem: VWBJ1Z53V0
 origin: official
 author:
   display: the IMO Problem Selection Committee

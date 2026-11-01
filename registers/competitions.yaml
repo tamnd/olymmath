@@ -545,6 +545,48 @@
   sources: [pamo-official, imogeometry-blog]
   description: The olympiad of African countries with two papers of three problems. The sources do not agree on the years in which it was not held.
 
+- code: pagmo
+  name: Pan-American Girls' Mathematical Olympiad
+  short: PAGMO
+  group: international
+  level: high-school
+  first_year: 2021
+  edition_form: year
+  languages: [es, pt, en]
+  sources: [hf-aops-wiki, hf-ai-mo-aops]
+  description: An olympiad for girls from the countries of the Americas, first held in 2021. No official archive has been found.
+
+- code: imac
+  name: International Mathematical Arhimede Contest
+  short: IMAC
+  group: international
+  level: high-school
+  country: RO
+  edition_form: year
+  languages: [en, ro]
+  sources: [hf-aops-wiki, hf-ai-mo-aops]
+  description: An international contest held in Romania. Its first year and its archive are not confirmed.
+
+- code: danube
+  name: Danube Mathematical Competition
+  group: international
+  level: high-school
+  country: RO
+  edition_form: year
+  languages: [ro, en]
+  sources: [hf-aops-wiki, hf-ai-mo-aops]
+  description: A contest held in Romania with a junior and a senior paper. Its first year and its archive are not confirmed.
+
+- code: alibaba
+  name: Alibaba Global Mathematics Competition
+  group: international
+  level: open
+  first_year: 2018
+  edition_form: year
+  languages: [zh, en]
+  sources: [hf-aops-wiki, hf-ai-mo-aops, hf-omni-math]
+  description: An open contest held online by the Alibaba DAMO Academy, with a preliminary round and a final round. Its archive is not confirmed.
+
 # Undergraduate (01b section 3)
 
 - code: putnam
@@ -655,6 +697,32 @@
   country: RU
   languages: [ru]
   description: The olympiads for university students in Russia and the Soviet Union. No source has been found.
+
+- code: oimu
+  name: Iberoamerican Olympiad for University Students
+  short: OIMU
+  names: {es: Olimpiada Iberoamericana de Matemática Universitaria}
+  group: undergraduate
+  level: undergraduate
+  first_year: 1998
+  edition_form: year
+  languages: [es, pt]
+  sources: [hf-aops-wiki, hf-ai-mo-aops]
+  description: A university olympiad of Spanish and Portuguese speaking countries, written in each country. It is not the CIIM. No official archive has been found.
+
+- code: simon-marais
+  name: Simon Marais Mathematics Competition
+  group: undergraduate
+  level: undergraduate
+  first_year: 2017
+  edition_form: year
+  layout:
+    - {paper: a, name: Paper A, positions: [a1, a2, a3, a4]}
+    - {paper: b, name: Paper B, positions: [b1, b2, b3, b4]}
+  per_year: 8
+  languages: [en]
+  sources: [hf-aops-wiki, hf-ai-mo-aops, hf-omni-math]
+  description: A university competition of the Asia Pacific region with two papers of four problems.
 
 # USA (01b section 4.1)
 
@@ -958,6 +1026,18 @@
   copyright: "CMS: personal copying only."
   sources: [cms, imomath]
   description: The national olympiad of Canada with five problems. Solutions are published from 1994.
+
+- code: ca-cmoqr
+  name: Canadian Mathematical Olympiad Qualifying Repêchage
+  short: CMOQR
+  group: national
+  level: high-school
+  country: CA
+  edition_form: year
+  per_year: 8
+  languages: [en, fr]
+  sources: [hf-aops-wiki, hf-ai-mo-aops]
+  description: A take-home contest of eight problems that gives students a second way to qualify for the Canadian Mathematical Olympiad. It is not the CMO.
 
 - code: ca-cjmo
   name: Canadian Junior Mathematical Olympiad

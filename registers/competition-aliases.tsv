@@ -158,7 +158,7 @@ United States	-
 # Canada and Latin America.
 Canada National Olympiad	ca-cmo
 Canada_MO	ca-cmo
-Canadian Mathematical Olympiad Qualification	ca-cmo
+Canadian Mathematical Olympiad Qualification	ca-cmoqr
 Canadian Open Math Challenge	-
 pascal	-
 fermat	-
@@ -193,7 +193,7 @@ Romania Team Selection Test	ro-tst
 Romania Team Selection Tests	ro-tst
 IMAR Test	-
 Stars of Mathematics	-
-Danube Mathematical Competition	-
+Danube Mathematical Competition	danube
 Gheorghe Vranceanu	-
 Traian Lălescu	-
 Alexandru Myller	-
@@ -546,7 +546,7 @@ Saudi Arabia GMO TST	-
 iTest Tournament of Champions	-
 QUALIFYING STAGE	-
 IberoAmerican Shortlist - Geometry	ibero
-Thailand MO Shortlist - Geometry	th-tmo
+Thailand MO Shortlist - Geometry	-
 CentroAmerican Shortlist - geometry	centro
 # The Korean set HRM8K.
 KMS	-
@@ -603,3 +603,265 @@ Portugal Juniors (OPM) - geometry	pt-opm
 Baltic Way Shortlist Geometry	baltic-way
 putnam (modified boxing)	putnam
 IMO Compendium	-
+# Labels from the unknown list of the coverage report of 2026-11-01. Agent decision: each line below maps a label to the competition that the label names. A round of a national olympiad goes to the code of the olympiad, as in the lines above. A label that names a shortlist goes to the shortlist code, or to "-" when the register has no shortlist code.
+IZho	zhautykov
+International Zhautykov OIympiad	zhautykov
+Francophone MO	francophone
+Francophone Mathematical Olympiad	francophone
+math_olympiad_for_the_french_speaking	francophone
+Iberoamerican	ibero
+lberoAmerican	ibero
+bero_American	ibero
+Kürschák Math Competition	kurschak
+Junior Balkаn MO	jbmo
+Junior Balkаn Mathematical Olympiad	jbmo
+jbmo_shortlists	jbmo-sl
+BMO 2023 Short List	balkan-sl
+BMO 2016 Short List Final	balkan-sl
+BMO Short List	balkan-sl
+shortlistBMO 2011	balkan-sl
+Balkan Mathematical Olympiad Shortlisted Problems	balkan-sl
+Baltic Way 2002 mathematical team contest	baltic-way
+asia_pacific_math_olympiad	apmo
+th_middle_european_mathematical_olympiad	memo
+th_centroamerican_and_caribbean_math_olympiad_havana	centro
+austrianpolish_competition	austrian-polish
+Istmo Centroamericano MO	istmo
+Mathematical Olympiad Rioplatense	rioplatense
+rioplatense_mathematical_olympiad_level	rioplatense
+Romanian Masters of Mathematics Collection	rmm
+Romania Masters in Mathematics	rmm
+Romanian Masters in Mathematic	rmm
+Romanian Master of Mathematics Competition	rmm
+2011 Fourth ROMANIAN MASTER OF MATHEMATICS	rmm
+Olimpiada europeana de matematica a fetelor	egmo
+CAPS Match	caps
+Czech and Slovak Match	caps
+Czech-Slovak-Polish Match	caps
+Czech-Slovak-Polish Match, 2011	caps
+Czech-Polish-Slovak Mathematics Competition	caps
+czech-polish-slovak matches	caps
+48th International Mathematical Olympiad Vietnam 2007 Shortlisted Problems with Solutions	isl
+International Mathematical Olympiad Shortlisted Problems with Solutions	isl
+International Mathematical Olympiad Shortlisted Problems	isl
+International Mathematical Olympiad Shortlist	isl
+IMO Problem Shortlist	isl
+49th International Mathematical Olympiad Spain	imo
+usa_team_selection_test_for_imo	us-tst
+USA TST Selection Test for 67th IMO and 15th EGMO	us-tst
+problems_from_the_kmal_magazine	journal-komal
+problems_from_the_kvant_magazine	journal-kvant
+India IMOTC	in-tst
+Indija TS 2009	in-tst
+Indija mo 2011	in-inmo
+HK IMO Preliminary Selection Contest	hk-pc
+HKIMO Preliminary Selection Contest	hk-pc
+Hong Kong Preliminary Selection Contest	hk-pc
+IMO Preliminary Selection Contest — Hong Kong	hk-pc
+HongKong 2022-23 IMO Selection Tests	hk-pc
+Federal Competition For Advanced Students, Part 1	at-oemo
+Federal Competition For Advanced Students, P1	at-oemo
+Austria Federal Comp. for Adv. Students Part 1	at-oemo
+Federal Competition For Advanced Students	at-oemo
+Austrian MO National Competition	at-oemo
+Austria Regional Competition For Advanced Students	at-oemo
+Austrian MO Regional Competition	at-oemo
+Austria 2010	at-oemo
+AustriaMO2011	at-oemo
+AUT_ABooklet_2023	at-oemo
+Uzbekistan NMO	uz-mo
+Uzbekistan National Olympiad	uz-mo
+Kyrgyzstan NMO	kg-mo
+Kyrgyzstan National Olympiad	kg-mo
+Morocco NMO	ma-mo
+Morocco National Olympiad	ma-mo
+Nepal NMO	np-mo
+Nepal National Olympiad	np-mo
+Azerbaijan NMO	az-mo
+Azerbaijan National Olympiad	az-mo
+Azerbaijan Senior NMO	az-mo
+Azerbaijan Senior National Olympiad	az-mo
+Lithuania NMO	lt-mo
+Latvia National Olympiad	lv-mo
+Estonia NMO	ee-mo
+Greece NMO	gr-hms
+Hellenic Mathematical Olympiad	gr-hms
+Ireland National MO	ie-irmo
+Chile NMO	cl-mo
+Colombia NMO	co-mo
+Colombia National Olympiad	co-mo
+Argentina NMO	ar-oma
+Argentine NMO	ar-oma
+Argentine NMO Level 3	ar-oma
+Argentina National Math Olympiad Level 3	ar-oma
+Argentine National Olympiad, Level 3	ar-oma
+Argentine National Olympiad	ar-oma
+Nacional OMA	ar-oma
+NATIONAL XXX OMA	ar-oma
+National Olympiad of Argentina	ar-oma
+XXIX Olimpíada Matemática Argentina National Round	ar-oma
+XX OLIMPIADA MATEMÁTICA ARGENTINA	ar-oma
+Argentina 2008	ar-oma
+North Macedonia National Olympiad	mk-mo
+North Macedonia NMOs	mk-mo
+Macedonian Junior Mathematical Olympiad	mk-mo
+Републички натпревар по математика за средно образование	mk-mo
+Bangladesh Mathematical Olympiad National	bd-bdmo
+Bangladeshi National Mathematical Olympiad	bd-bdmo
+Belarus National Olympiad	by-mo
+Korean National Olympiad	kr-kmo
+Korean Mathematical Olympiad Final Round	kr-kmo
+Israel National Olympiad (Gillis)	il-gillis
+Israel Mathematical Olympiad	il-gillis
+Grosman Mathematical Olympiad	il-grossman
+Grosman MO	il-grossman
+Grosman Memorial Mathematical Olympiad	il-grossman
+Israel Grosman Mathematical Olympiad	il-grossman
+Italy National Olympiad	it-cesenatico
+Olimpiade Italiana di Matematica	it-cesenatico
+Gara Nazionale di Matematica	it-cesenatico
+Progetto Olimpiadi della Matematica - GARA di FEBBRAIO	it-cesenatico
+Progetto Olimpiadi di Matematica - GARA di SECONDO LIVELLO	it-cesenatico
+Olimpiadi di Matematica - GARA di SECONDO LIVELLO	it-cesenatico
+Olimpiadi della Matematica - Gara di Febbraio	it-cesenatico
+Olimpiadi di Matematica - Febbraio	it-cesenatico
+Italian Mathematical Olympiad - Febbraio Round	it-cesenatico
+Mexico National Olmypiad	mx-omm
+Australia National Olympiad	au-amo
+Australia NMO	au-amo
+South African National Olympiad	za-samo
+South African Mathematics Olympiad Second Round	za-samo
+Japan Junior MO (JJMO) Finals	jp-jjmo
+Japan Junior Mathematical Olympiad First Round	jp-jjmo
+The 35th Japanese Mathematical Olympiad	jp-jmo
+Japan Mathematical Olympiad First Round	jp-jmo
+Japan Mathematical Olympiad Initial Round	jp-jmo
+Japan Mathematical Olympiad First Stage	jp-jmo
+The 16th Japanese Mathematical Olympiad - The First Round	jp-jmo
+Taiwan Mathematics Olympiad	tw-tst
+Taiwan MO	tw-tst
+Finnish National High School Mathematics Comp	fi-mo
+Finnish National High School Mathematics	fi-mo
+Thailand NMO	th-tmo
+Thai Mathematical Olympiad	th-tmo
+Tajland 2014	th-tmo
+China High School Math League	cn-league
+China Mathematical Competition (Complementary Test)	cn-league
+China Mathematical Competition (Extra Test)	cn-league
+China South East Mathematical Olympiad	cn-smo
+22nd Chinese Girls' Mathematical Olympiad	cn-gmo
+China Western Invitational Mathematical Competition	cn-wmo
+2022 China Team Selection Test for IMO	cn-tst
+2025 International Mathematical Olympiad China National Team Selection Test	cn-tst
+2023 Chinese IMO National Team Selection Test	cn-tst
+China-TST-2025A	cn-tst
+China-TST-2023B	cn-tst
+The 65th IMO China National Team Selection Test	cn-tst
+Canada Junior National Olympiad	ca-cjmo
+Candian MO	ca-cmo
+Leningrad Math Olympiad	ru-spb
+All-Soviet Union Olympiad	ru-allrussian
+LI Всероссийская математическая олимпиада школьников	ru-allrussian
+German National Olympiad(Third Round)	de-mo
+Bundeswettbewerb Mathematik - Round 2	de-bundeswettbewerb
+Bundeswettbewerb Mathematik Germany	de-bundeswettbewerb
+Romania TST for IMO	ro-tst
+NMO Selection Tests for the Balkan and International Mathematical Olympiads	ro-tst
+NMO Selection Tests for BMO and IMO	ro-tst
+Olimpiada Naţională de Matematică Etapa Naţională	ro-nmo
+Olimpiada Naţională de Matematică, Etapa Naţională	ro-nmo
+Olimpiada Națională de Matematică	ro-nmo
+Olimpiada Naţională de Matematică, Etapa Judeţeană şi a Municipiului Bucureşti	ro-nmo
+Olimpiada Naţională de Matematică Etapa Judeţeană şi a Municipiului Bucureşti	ro-nmo
+Ukrajina 2008	ua-umo
+62nd Ukrainian National Mathematical Olympiad, Third Round, First Tour	ua-umo
+62nd Ukrainian National Mathematical Olympiad, Third Round, Second Tour	ua-umo
+55rd Ukrainian National Mathematical Olympiad - Third Round	ua-umo
+55rd Ukrainian National Mathematical Olympiad - Third Round (Second Tour)	ua-umo
+50th Mathematical Olympiad in Ukraine, Third Round (January 23, 2010)	ua-umo
+50th Mathematical Olympiad in Ukraine, Fourth Round (March 24, 2010)	ua-umo
+50th Mathematical Olympiad in Ukraine, Fourth Round (March 23, 2010)	ua-umo
+62nd Czech and Slovak Mathematical Olympiad	cz-sk-mo
+65. matematično tekmovanje srednješolcev Slovenije	si-mo
+67. matematično tekmovanje srednješolcev Slovenije, Državno tekmovanje	si-mo
+61. matematično tekmovanje srednješolcev Slovenije, Odbirno tekmovanje	si-mo
+Slovenian Mathematical Olympiad	si-mo
+Slovenian Secondary School Mathematical Competition	si-mo
+Slovenia National Math Olympiad 2013 - First Round	si-mo
+Slovenia National Math Olympiad 2013 - Final Round	si-mo
+Bulgarian National Mathematical Olympiad	bg-mo
+ММО-48	mn-mo
+ММО-46	mn-mo
+MMO2025 Round 2	mn-mo
+Mongolian Mathematical Olympiad Round 1	mn-mo
+Mongolian Mathematical Olympiad Round 2	mn-mo
+Mongolian Mathematical Olympiad Round 3	mn-mo
+23rd Philippine Mathematical Olympiad Qualifying Stage	ph-pmo
+17th Philippine Mathematical Olympiad Area Stage	ph-pmo
+12th Philippine Mathematical Olympiad - Area Stage	ph-pmo
+21st PMO Area Stage	ph-pmo
+Philippines Area Stage	ph-pmo
+27th Philippine MO Qualifying Stage	ph-pmo
+25th Philippine MO Area Stage	ph-pmo
+NZMO Round Two	nz-nzmo
+Vietnamese Mathematical Olympiad	vn-vmo
+Vijetnam 2008	vn-vmo
+Spanija 2012	es-ome
+XLVII Olimpiada Matemática Española Primera Fase	es-ome
+LVII Olimpiada Matemática Española Concurso Final Nacional	es-ome
+Olimpiadas Matemáticas Españolas	es-ome
+OME 21	es-ome
+FASE LOCAL DE LA OLIMPIADA MATEMÁTICA ESPAÑOLA.	es-ome
+Spanish Mathematical Olympiad - Local Stage	es-ome
+OME fase local	es-ome
+A 62-a OLIMPIADĂ DE MATEMATICĂ A REPUBLICII MOLDOVA	md-mo
+A 63-a OLIMPIADĂ DE MATEMATICĂ A REPUBLICII MOLDOVA	md-mo
+СРПСКА МАТЕМАТИЧКА ОЛИМПИЈАДА	rs-smo
+10. СРПСКА МАТЕМАТИЧКА ОЛИМПИЈАДА УЧЕНИКА СРЕДЊИХ ШКОЛА	rs-smo
+SMO - Vorrunde	ch-smo
+SMO-Selektion	ch-smo
+IMO-Selektionsprüfung	ch-smo
+OSN_SMA_2002	id-osn
+MMO2025 Round 3	mn-mo
+MMO2025 Round 4	mn-mo
+Mongolia Round 3	mn-mo
+Switzerland Selektion	ch-smo
+Switzerland IMO Selection	ch-smo
+1. Auswahlklausur	de-tst
+1. IMO-Auswahlklausur	de-tst
+Auswahlwettbewerb zur IMO	de-tst
+Auswahlwettbewerb zur Internationalen Mathematik-Olympiade	de-tst
+Romania SELECTION TESTS FOR THE 2019 BMO AND IMO	ro-tst
+Austria National Competition	at-oemo
+Estonia National Olympiad Final Round	ee-mo
+Estonia Selected Problems from the Final Round of National Olympiad	ee-mo
+Netherlands Second Round	nl-nwo-r2
+United States IMO Team Selection Test	us-tst
+Vietnam IMO Team Selection Test	vn-tst
+Singapur	sg-smo
+Pan American Girls' MO	pagmo
+Pan-American Girls’ Mathematical Olympiad	pagmo
+Pan-American Girls' Math Olympiad	pagmo
+IMAC Arhimede	imac
+International Mathematical Arhimede Contest (IMAC)	imac
+International Mathematical Arhimede Contest	imac
+Danube Competition in Mathematics	danube
+Danube Mathematical Olympiad	danube
+Danube MO	danube
+danube_mathematical_olympiad	danube
+Alibaba Global Math Competition	alibaba
+alibaba_global_contest	alibaba
+IberoAmerican Olympiad For University Students	oimu
+Simon Marais Mathematical Competition	simon-marais
+Simon Marais Mathematics Competition	simon-marais
+simon_marais_mathematics_competition	simon-marais
+Canadian Mathematical Olympiad Qualification Repechage	ca-cmoqr
+Canadian MO Qualification Repechage	ca-cmoqr
+Niels Henrik Abels Math Contest (Norwegian MO) Final Round	no-abel
+Abelkonkurransen Finale	no-abel
+China Second Round	cn-league
+India Regional MathematicaI Olympiad	in-rmo
+India RMO	in-rmo
+India National OIympiad	in-inmo
+Sinapore MO Open	sg-smo
+JBMO OJBM	jbmo

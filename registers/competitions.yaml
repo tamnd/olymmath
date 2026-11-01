@@ -392,6 +392,9 @@
   url: https://igm.univ-mlv.fr/~juge/ofm/
   first_year: 2020
   edition_form: year
+  layout:
+    - {paper: junior, name: Junior, positions: [j1, j2, j3, j4]}
+    - {paper: senior, name: Senior, positions: [s1, s2, s3, s4]}
   per_year: 8
   languages: [fr]
   copyright: None stated.

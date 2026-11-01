@@ -57,6 +57,8 @@ Czech-Austrian-Polish-Slovak Match	caps
 ELMO Shortlist	elmo
 ELMO Problems	elmo
 USEMO	usemo
+Ersatz MO (USEMO)	usemo
+Francophone MO	francophone
 Zhautykov	zhautykov
 International Zhautykov Olympiad	zhautykov
 Silk Road	silk-road
@@ -225,6 +227,7 @@ German National Olympiad	de-mo
 German National Olympiad 3rd Round	de-mo
 Germany_TST	de-tst
 Germany Team Selection Test	de-tst
+Bundeswettbewerb Mathematik Germany	de-bundeswettbewerb
 Spain Mathematical Olympiad	es-ome
 Spain	es-ome
 ITAMO	it-cesenatico
@@ -371,6 +374,8 @@ Vietnam National Olympiad	vn-vmo
 Vietnamese Mathematical Competitions	vn-vmo
 Vietnam TST	vn-tst
 India Regional Mathematical Olympiad	in-rmo
+India Regional MathematicaI Olympiad	in-rmo
+India RMO	in-rmo
 India National Olympiad	in-inmo
 India PRMO	in-prmo-ioqm
 IOQM India	in-prmo-ioqm

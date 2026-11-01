@@ -1,0 +1,12 @@
+year: 2016
+papers:
+  - name: Algebra
+    problems: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]
+  - name: Geometry
+    problems: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10]
+  - name: Combinatorics
+    problems: [c1, c2, c3, c4, c5, c6, c7, c8, c9, c10]
+  - name: Team
+    problems: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10]
+  - name: Guts
+    problems: [u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11, u12, u13, u14, u15, u16, u17, u18, u19, u20, u21, u22, u23, u24, u25, u26, u27, u28, u29, u30, u31, u32, u33, u34, u35, u36]

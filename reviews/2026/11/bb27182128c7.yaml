@@ -1,0 +1,7 @@
+id: bb27182128c7
+kind: pair
+records: [QET4B1F3R1, VN07SBAMMY]
+decision: different
+by: agent
+date: "2026-11-02"
+note: "Agent decision, not a person's review. The two texts are the same but the answers disagree, so om merge refused them. One of the two texts is probably wrong in the seed. Check them against the official paper."

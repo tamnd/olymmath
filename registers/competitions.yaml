@@ -83,6 +83,7 @@
   level: high-school
   first_year: 2016
   edition_form: year
+  per_year: 6
   languages: [en, ru]
   sources: [imomath]
   description: An olympiad for teams from large cities. No official site has been found.
@@ -235,6 +236,9 @@
   first_year: 2007
   edition_form: year
   topic_positions: true
+  layout:
+    - {paper: shortlist, name: Shortlist, positions: [a1, a2, a3, a4, a5, a6, a7, a8, c1, c2, c3, c4, c5, c6, g1, g2, g3, g4, g5, g6, g7, g8, g9, n1, n2, n3, n4, n5, n6, n7, n8, n9]}
+  per_year: 32
   official_solutions: true
   languages: [en]
   sources: [imogeometry-blog]
@@ -261,6 +265,9 @@
   first_year: 2000
   edition_form: year
   topic_positions: true
+  layout:
+    - {paper: shortlist, name: Shortlist, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, c1, c2, c3, c4, c5, c6, c7, c8, c9, g1, g2, g3, g4, g5, g6, g7, g8, g9, g10, g11, n1, n2, n3, n4, n5, n6, n7]}
+  per_year: 36
   official_solutions: true
   languages: [en]
   sources: [hf-numina-olympiads, imogeometry-blog]
@@ -302,6 +309,7 @@
   first_year: 1978
   last_year: 2006
   edition_form: year
+  per_year: 9
   languages: [de, pl, en]
   sources: [kalva, imomath]
   description: The contest of Austria and Poland that came before MEMO. It had 29 editions from 1978 to 2006.
@@ -357,6 +365,7 @@
   group: international
   level: high-school
   edition_form: year
+  per_year: 6
   languages: [en]
   description: A team match of four Central European countries. Its first year and its archive are not confirmed.
 
@@ -426,6 +435,7 @@
   organizer: ABEGS
   url: https://ds.abegs.org/gmo
   edition_form: year
+  per_year: 4
   languages: [ar, en]
   sources: [gulf-official]
   description: The olympiad of the Gulf states, run by the Arab Bureau of Education for the Gulf States.
@@ -497,6 +507,7 @@
   group: international
   level: high-school
   edition_form: year
+  per_year: 6
   languages: [es]
   description: A contest in three levels for students of the Río de la Plata region. Its archive is not confirmed.
 
@@ -578,6 +589,7 @@
   url: https://www.massee-org.eu/mathematical/seemous
   first_year: 2007
   edition_form: year
+  per_year: 4
   languages: [en]
   sources: [seemous-official]
   description: A university olympiad of South Eastern Europe with four or five problems.
@@ -604,6 +616,7 @@
   first_year: 1979
   last_year: 2022
   edition_form: year
+  per_year: 7
   official_solutions: true
   languages: [en]
   copyright: None stated.
@@ -780,6 +793,7 @@
   url: https://github.com/usa-tst-public/USA-TST-Archive
   first_year: 2011
   edition_form: year
+  per_year: 9
   official_solutions: true
   languages: [en]
   copyright: None stated.
@@ -793,6 +807,7 @@
   country: US
   url: https://github.com/usa-tst-public/USA-TST-Archive
   edition_form: year
+  per_year: 6
   official_solutions: true
   languages: [en]
   copyright: None stated.
@@ -806,6 +821,7 @@
   country: US
   url: https://github.com/usa-tst-public/USA-TST-Archive
   edition_form: year
+  per_year: 6
   official_solutions: true
   languages: [en]
   copyright: None stated.
@@ -1037,6 +1053,7 @@
   group: national
   level: high-school
   country: PE
+  per_year: 4
   languages: [es]
   sources: [aops-collections, imogeometry-blog]
   description: The national olympiad of Peru. No primary source has been found yet.
@@ -1270,6 +1287,7 @@
   country: PT
   url: https://www.mat.uc.pt/~opm/
   edition_form: year
+  per_year: 6
   languages: [pt]
   sources: [spm-opm]
   description: The national olympiad of Portugal with about six problems.
@@ -1283,6 +1301,7 @@
   url: https://www.wiskundeolympiade.nl/wedstrijdarchief/finale
   first_year: 1962
   edition_form: year
+  per_year: 5
   official_solutions: true
   languages: [nl, en]
   sources: [wiskundeolympiade, hf-mathnet]
@@ -1308,6 +1327,7 @@
   group: national
   level: high-school
   country: BE
+  per_year: 4
   languages: [nl]
   description: The olympiad of Flanders. Its site and archive are not confirmed.
 
@@ -1364,6 +1384,7 @@
   level: high-school
   country: DK
   url: https://georgmohr.dk/
+  per_year: 5
   languages: [da]
   sources: [georgmohr, kalva]
   description: The national olympiad of Denmark.
@@ -1374,6 +1395,7 @@
   group: national
   level: high-school
   country: "NO"
+  per_year: 4
   languages: ["no"]
   sources: [kalva]
   description: The national olympiad of Norway.
@@ -1395,6 +1417,7 @@
   group: national
   level: high-school
   country: FI
+  per_year: 5
   languages: [fi]
   sources: [kalva]
   description: The national olympiad of Finland.
@@ -1431,6 +1454,7 @@
   group: national
   level: high-school
   country: LT
+  per_year: 4
   languages: [lt]
   description: The national olympiad of Lithuania. Its archive is not confirmed.
 
@@ -1520,6 +1544,7 @@
   url: https://www.matematickaolympiada.cz/en
   first_year: 1952
   edition_form: year
+  per_year: 6
   official_solutions: true
   languages: [cs, sk, en]
   copyright: The DML-CZ terms apply to the yearly reports.
@@ -1594,6 +1619,7 @@
   organizer: Mathematical Society of Serbia
   url: https://dms.rs/matematika-srednje-skole/
   edition_form: year
+  per_year: 6
   official_solutions: true
   languages: [sr]
   sources: [dms-rs, imomath, hf-mathnet]
@@ -1628,6 +1654,7 @@
   group: national
   level: high-school
   country: MK
+  per_year: 5
   sources: [aops-collections, imogeometry-blog, hf-mathnet]
   description: The national olympiad of North Macedonia. No primary source has been found yet.
 
@@ -1970,6 +1997,7 @@
   level: high-school
   country: TW
   edition_form: year
+  per_year: 6
   languages: [zh]
   sources: [evanchen, hf-mathnet]
   description: The national olympiad of Taiwan and its IMO selection tests.
@@ -2477,6 +2505,7 @@
   level: high-school
   country: ZA
   edition_form: year
+  per_year: 6
   languages: [en]
   description: The national olympiad of South Africa. Its site and archive are not confirmed.
 

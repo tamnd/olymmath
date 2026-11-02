@@ -359,3 +359,8 @@ E7C380BJTN	RBEBG9ZFQP	isl/2020/g9 is the same problem as imo/2020/p6
 D3KK4BX70M	6WNDZE67QH	caps/2000/p6 is the same problem as isl/1999/c6
 845DR6976S	-	the text at jp-jmo/2016/p2 was a problem of the preliminary round, not of the final
 8M165GPHD2	-	the text at jp-jmo/2016/p4 was a problem of the preliminary round, not of the final
+# Agent decision, not a person's review (2026-11-03): the AoPS collection "2017 Australian MO" holds the problems of the Austrian olympiad of 2017. The AoPS wiki rows of it say "Austrian MO 2017 P1" to "P4", and the official AMO 2017 paper of the AMT has other problems. So the four records at au-amo/2017 p1 to p4 are withdrawn. Their texts are not moved, because no official Austrian paper was checked.
+ZNWT7RP8E2	-	the text at au-amo/2017/p1 was a problem of the Austrian olympiad, not of the AMO
+K0ZZKGK1S9	-	the text at au-amo/2017/p2 was a problem of the Austrian olympiad, not of the AMO
+H8FZA2CJHN	-	the text at au-amo/2017/p3 was a problem of the Austrian olympiad, not of the AMO
+8H6XXP5TNP	-	the text at au-amo/2017/p4 was a problem of the Austrian olympiad, not of the AMO

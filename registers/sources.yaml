@@ -752,14 +752,17 @@
   name: Australian Mathematics Trust
   kind: official
   origin: H1
-  url: https://www.amt.edu.au/
+  url: https://amt.edu.au/department/past-papers
   access: pdf
+  terms: The papers say "© Australian Mathematics Trust" and give no open licence, so the content links to the papers and holds no text of them.
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
+  size: The AMO papers of 2016 to 2020, 5 PDF files with the solutions
   wave: 1
-  state: planned
+  state: active
+  notes: The past papers page lists only the AMO papers of 2016 to 2020. The other years are in the AMT books, which are sold and not online. robots.txt (checked on 2026-11-03) allows the papers and asks for a crawl delay of 10 s. om papers amt records the papers. The text layer of the 2016 and 2017 files has two copies of each page on top of each other, so their text is mixed, but the pages of the problems are right.
 
 - id: mathematik-olympiaden
   name: Mathematik-Olympiaden e.V.

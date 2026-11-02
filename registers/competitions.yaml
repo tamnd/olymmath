@@ -1655,7 +1655,7 @@
   languages: [de]
   copyright: Linking is allowed with the permission of the Verein. Solutions from the 35th MO are not to be republished.
   sources: [mathematik-olympiaden, imomath]
-  description: The German olympiad in four rounds for grades 3 to 13. It began in the DDR in 1961 and has been all-German since 1990/91.
+  description: The German olympiad in four rounds for grades 3 to 13. It began in the DDR in 1961 and has been all-German since 1990/91. The edition holds the six problems of the final round of the highest grade. The problems of the third round are not part of it.
 
 - code: de-bundeswettbewerb
   name: Bundeswettbewerb Mathematik

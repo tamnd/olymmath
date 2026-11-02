@@ -1,0 +1,12 @@
+year: 2025
+papers:
+  - name: Round 1
+    problems: [p1, p2, p3, p4]
+  - name: Round 2
+    problems: [p5, p6, p7, p8]
+official:
+  - lang: German
+    code: de
+    url: https://www.mathe-wettbewerbe.de/fileadmin/Mathe-Wettbewerbe/Bundeswettbewerb_Mathematik/Dokumente/Aufgaben_und_Loesungen_BWM/2025/BWM_25_2_Aufgabenblatt.pdf
+    paper: round2
+    source: bundeswettbewerb

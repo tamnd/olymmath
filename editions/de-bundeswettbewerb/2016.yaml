@@ -1,1 +1,12 @@
 year: 2016
+official:
+  - lang: German
+    code: de
+    url: https://www.mathe-wettbewerbe.de/fileadmin/Mathe-Wettbewerbe/Bundeswettbewerb_Mathematik/Dokumente/Aufgaben_und_Loesungen_BWM/aufgaben_16_1.pdf
+    paper: round1
+    source: bundeswettbewerb
+  - lang: German
+    code: de
+    url: https://www.mathe-wettbewerbe.de/fileadmin/Mathe-Wettbewerbe/Bundeswettbewerb_Mathematik/Dokumente/Aufgaben_und_Loesungen_BWM/aufgaben_16_2.pdf
+    paper: round2
+    source: bundeswettbewerb

@@ -1,1 +1,12 @@
 year: 2022
+official:
+  - lang: German
+    code: de
+    url: https://www.mathe-wettbewerbe.de/fileadmin/Mathe-Wettbewerbe/Bundeswettbewerb_Mathematik/Dokumente/Aufgaben_und_Loesungen_BWM/aufgaben_22_1.pdf
+    paper: round1
+    source: bundeswettbewerb
+  - lang: German
+    code: de
+    url: https://www.mathe-wettbewerbe.de/fileadmin/Mathe-Wettbewerbe/Bundeswettbewerb_Mathematik/Dokumente/22_2_Aufgabenblatt_lfd_Rd_Web_220630.pdf
+    paper: round2
+    source: bundeswettbewerb

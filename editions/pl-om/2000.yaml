@@ -1,0 +1,11 @@
+year: 2000
+official:
+  - lang: Polish
+    code: pl
+    url: https://om.sem.edu.pl/static/app_main/problems/om51_3.pdf
+    source: om-sem
+  - lang: Polish
+    code: pl
+    url: https://om.sem.edu.pl/static/app_main/problems/om51_1.pdf
+    paper: stage1
+    source: om-sem

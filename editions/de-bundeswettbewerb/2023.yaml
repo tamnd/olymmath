@@ -1,1 +1,12 @@
 year: 2023
+official:
+  - lang: German
+    code: de
+    url: https://www.mathe-wettbewerbe.de/fileadmin/Mathe-Wettbewerbe/Bundeswettbewerb_Mathematik/Dokumente/BWM_2023.1_Aufgabenblatt.pdf
+    paper: round1
+    source: bundeswettbewerb
+  - lang: German
+    code: de
+    url: https://www.mathe-wettbewerbe.de/fileadmin/Mathe-Wettbewerbe/Bundeswettbewerb_Mathematik/Dokumente/Aufgaben_und_Loesungen_BWM/23_2_Aufgabenblatt_Web_230530.pdf
+    paper: round2
+    source: bundeswettbewerb

@@ -776,14 +776,17 @@
   name: Bundeswettbewerb Mathematik
   kind: official
   origin: H1
-  url: https://www.bundeswettbewerb-mathematik.de/
+  url: https://www.mathe-wettbewerbe.de/bundeswettbewerb-mathematik
   access: pdf
+  terms: No licence stated.
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
+  size: Papers of the two rounds from 2000, about 50 PDF files
   wave: 1
-  state: planned
+  state: active
+  notes: The papers of the two rounds of each year are in German, with four problems each. The listing page is https://www.mathe-wettbewerbe.de/aufgaben.
 
 - id: mccme-vmo
   name: All-Russian olympiad archive
@@ -1369,12 +1372,15 @@
   origin: H1
   url: https://om.sem.edu.pl/problems/
   access: pdf
+  terms: No licence stated.
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
+  size: Papers of the 47th to the 77th olympiad, about 90 PDF files
   wave: 1
-  state: planned
+  state: active
+  notes: The papers of the three stages of each olympiad are in Polish. The third stage is the final, with six problems. om papers records them, and the rows of the final are placed with them.
 
 - id: omj
   name: Polish Junior Mathematical Olympiad

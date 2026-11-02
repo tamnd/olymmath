@@ -1,1 +1,16 @@
 year: 2017
+official:
+  - lang: Polish
+    code: pl
+    url: https://om.sem.edu.pl/static/app_main/problems/om68_3.pdf
+    source: om-sem
+  - lang: Polish
+    code: pl
+    url: https://om.sem.edu.pl/static/app_main/problems/om68_1.pdf
+    paper: stage1
+    source: om-sem
+  - lang: Polish
+    code: pl
+    url: https://om.sem.edu.pl/static/app_main/problems/om68_2.pdf
+    paper: stage2
+    source: om-sem

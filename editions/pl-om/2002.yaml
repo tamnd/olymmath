@@ -1,0 +1,16 @@
+year: 2002
+official:
+  - lang: Polish
+    code: pl
+    url: https://om.sem.edu.pl/static/app_main/problems/om53_3.pdf
+    source: om-sem
+  - lang: Polish
+    code: pl
+    url: https://om.sem.edu.pl/static/app_main/problems/om53_1.pdf
+    paper: stage1
+    source: om-sem
+  - lang: Polish
+    code: pl
+    url: https://om.sem.edu.pl/static/app_main/problems/om53_2.pdf
+    paper: stage2
+    source: om-sem

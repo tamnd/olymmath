@@ -1,0 +1,7 @@
+id: 73649e95a3ba
+kind: merge
+records: [6R4H746B4J, 7SWPJPYWZQ]
+decision: accept
+by: agent
+date: "2026-11-02"
+note: "Agent decision, not a person's review. KöMaL C. 1239 repeats C. 994. Both ask for the natural numbers x<y<z with 3^x+3^y+3^z = 179415."

@@ -2523,7 +2523,7 @@
   edition_form: year
   per_year: 6
   languages: [vi]
-  description: The test that chooses the Vietnamese team for the IMO.
+  description: The test that chooses the Vietnamese team for the IMO. The Ministry of Education and Training sets it and publishes only the results. No official archive of the papers is online (checked on 2026-11-03). The problems are in the book of Le Anh Vinh and Le Phuc Lu (Vietnam Education Publishing House, 2007 to 2024), and blogs and forums retype them.
 
 - code: sg-smo
   name: Singapore Mathematical Olympiad

@@ -1,0 +1,11 @@
+year: 2025
+official:
+  - lang: Japanese
+    code: ja
+    url: https://www.imojp.org/archive/mo2025/jmo/problems/jmo35hq.pdf
+    source: imojp
+  - lang: Japanese
+    code: ja
+    url: https://www.imojp.org/archive/mo2025/jmo/problems/jmo35yqa.pdf
+    paper: prelim
+    source: imojp

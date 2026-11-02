@@ -2426,7 +2426,7 @@
   official_solutions: false
   languages: [ja]
   sources: [imojp]
-  description: The Japanese olympiad with a preliminary round of 12 short-answer problems and a final round of five problems. The 2026 contest was the 36th.
+  description: The Japanese olympiad with a preliminary round of 12 short-answer problems and a final round of five problems. The 2026 contest was the 36th. The edition holds the five problems of the final round (honsen). The problems of the preliminary round (yosen) are not part of it.
 
 - code: jp-jjmo
   name: Japan Junior Mathematical Olympiad
@@ -2435,12 +2435,14 @@
   group: national
   level: junior
   country: JP
-  url: https://www.imojp.org/domestic/jmo_overview.html
+  url: https://www.imojp.org/domestic/jjmo_overview.html
   edition_form: year
+  first_year: 2009
+  per_year: 5
   official_solutions: false
   languages: [ja]
   sources: [imojp]
-  description: The junior olympiad of Japan.
+  description: The junior olympiad of Japan. It began in 2003. From 2009 it has a preliminary round of 12 short-answer problems and a final round of five problems. The edition holds the five problems of the final round. The problems of the preliminary round, and the one paper of twelve short-answer problems of the first six olympiads (2003 to 2008), are not part of it.
 
 - code: kr-kmo
   name: Korean Mathematical Olympiad

@@ -1,0 +1,11 @@
+year: 2026
+official:
+  - lang: Japanese
+    code: ja
+    url: https://www.imojp.org/archive/mo2026/jmo/problems/jmo36hq.pdf
+    source: imojp
+  - lang: Japanese
+    code: ja
+    url: https://www.imojp.org/archive/mo2026/jmo/problems/jmo36yqa.pdf
+    paper: prelim
+    source: imojp

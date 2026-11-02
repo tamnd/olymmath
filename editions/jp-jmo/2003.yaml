@@ -1,0 +1,11 @@
+year: 2003
+official:
+  - lang: Japanese
+    code: ja
+    url: https://www.imojp.org/archive/mo2003/jmo2003/problems/jmo13mq.html
+    source: imojp
+  - lang: Japanese
+    code: ja
+    url: https://www.imojp.org/archive/mo2003/jmo2003/problems/jmo13yq.html
+    paper: prelim
+    source: imojp

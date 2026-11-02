@@ -1,0 +1,11 @@
+year: 2005
+official:
+  - lang: Japanese
+    code: ja
+    url: https://www.imojp.org/archive/mo2005/jmo2005/problems/jmo15mq.html
+    source: imojp
+  - lang: Japanese
+    code: ja
+    url: https://www.imojp.org/archive/mo2005/jmo2005/problems/jmo15yq.html
+    paper: prelim
+    source: imojp

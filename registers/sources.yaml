@@ -1470,12 +1470,15 @@
   origin: H1
   url: https://olympiads.hbcse.tifr.res.in/how-to-prepare/past-papers/
   access: pdf
+  terms: The site says "© Olympiads, HBCSE" and gives no open licence, so the content links to the papers and holds no text of them.
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
+  size: Papers of the RMO from 2001 and of the INMO from 2000, about 70 PDF files
   wave: 1
-  state: planned
+  state: active
+  notes: The papers are in English, and some are bilingual with Hindi. Some files are solutions that hold the problems, and some are scans with no text layer. The year of a paper is the year in which it was held, so the INMO of January 2026 is INMO 2026. om papers hbcse records them. The old links of RMO 2000, RMO 2003 and INMO 2008 give no file. The INMO 2021 paper has a password.
 
 - id: tubitak
   name: TÜBİTAK science olympiads

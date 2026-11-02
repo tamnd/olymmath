@@ -1,7 +1,7 @@
 ---
 tag: TCXJ7FXCZF
 kind: solution
-problem: MCWTCB8HR3
+problem: 23WX5P5JH4
 origin: official
 author:
   display: the IMO Problem Selection Committee

@@ -1,0 +1,7 @@
+id: d478cbc62d40
+kind: merge
+records: [8BYGSRMXDD, TC1RWWH3YD]
+decision: accept
+by: agent
+date: "2026-11-02"
+note: "Agent decision, not a person's review. KöMaL A. 403 and VMO 2002 problem 2 ask the same question: for which positive integers n the equation a+b+c+d = n sqrt(abcd) has a solution in positive integers."

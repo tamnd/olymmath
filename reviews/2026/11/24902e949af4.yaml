@@ -1,0 +1,7 @@
+id: 24902e949af4
+kind: merge
+records: [K9NNZHJRKW, 2154SMVQGQ]
+decision: accept
+by: agent
+date: "2026-11-02"
+note: "Agent decision, not a person's review. KöMaL A. 637 reprints Schweitzer 2014 problem 1. The two texts state the same claim about a separating family of ceil(log2 n)+1 sets."

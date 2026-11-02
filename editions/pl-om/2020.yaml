@@ -1,1 +1,12 @@
 year: 2020
+official:
+  - lang: Polish
+    code: pl
+    url: https://om.sem.edu.pl/static/app_main/problems/om71_1.pdf
+    paper: stage1
+    source: om-sem
+  - lang: Polish
+    code: pl
+    url: https://om.sem.edu.pl/static/app_main/problems/om71_2.pdf
+    paper: stage2
+    source: om-sem

@@ -1642,9 +1642,12 @@
   group: national
   level: high-school
   country: DE
-  url: https://www.bundeswettbewerb-mathematik.de/
+  url: https://www.mathe-wettbewerbe.de/bundeswettbewerb-mathematik
   first_year: 1970
   edition_form: year
+  layout:
+    - {paper: round1, name: Round 1, positions: [p1, p2, p3, p4]}
+    - {paper: round2, name: Round 2, positions: [p5, p6, p7, p8]}
   per_year: 8
   official_solutions: true
   languages: [de]

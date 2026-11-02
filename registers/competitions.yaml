@@ -1559,10 +1559,21 @@
   first_year: 1965
   edition_form: year
   per_year: 6
+  eras:
+    - {from: 1992, to: 2005, per_year: 5}
+  overrides:
+    1973: [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11]
+    1974: [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10]
+    1975: [p1, p2, p3, p4, p5, p6, p7, p8]
+    1980: [p1, p2, p3, p4, p5]
+    1984: [p1, p2, p3, p4, p5, p6, p7]
+    1987: [p1, p2, p3, p4, p5, p6, p7]
+    1991: [p1, p2, p3, p4, p5, p6, p7]
+    2021: [p1, p2, p3, p4, p5, p6, p7]
   languages: [en]
   copyright: Copyright UKMT.
   sources: [ukmt]
-  description: The first round of the British olympiad with six problems. Papers are online from 1973.
+  description: The first round of the British olympiad. It has six problems, five from 1992 to 2005 and between five and eleven before. Before 1992 it was the only round. Papers are online from 1973. The edition is the year in which the school year ends, so the paper of November 2014 is the edition 2015.
 
 - code: uk-bmo2
   name: British Mathematical Olympiad Round 2
@@ -1575,10 +1586,20 @@
   first_year: 1972
   edition_form: year
   per_year: 4
+  overrides:
+    1976: [p1, p2, p3, p4, p5]
+    1981: [p1, p2, p3, p4, p5, p6, p7]
+    1982: [p1, p2, p3, p4, p5]
+    1983: [p1, p2, p3, p4, p5, p6, p7]
+    1984: [p1, p2, p3, p4, p5]
+    1985: [p1, p2, p3, p4, p5]
+    1986: [p1, p2, p3, p4, p5]
+    1988: [p1, p2, p3, p4, p5, p6]
+    1990: [p1, p2, p3, p4, p5]
   languages: [en]
   copyright: Copyright UKMT.
   sources: [ukmt]
-  description: The second round of the British olympiad with four problems. It was called FIST from 1972 to 1991.
+  description: The second round of the British olympiad with four problems. It was called FIST from 1972 to 1991 and then had four to seven problems. Papers are online from 1972, except FIST 1973 and 1987.
 
 - code: uk-ukmt
   name: UKMT Challenges, Kangaroos and Olympiads

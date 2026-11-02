@@ -773,7 +773,8 @@
   ai_train: unknown
   wave: 1
   state: planned
-  notes: Linking is allowed with the permission of the Verein.
+  terms: Linking is allowed with the permission of the Verein.
+  notes: The robots.txt of the site disallows all paths for all agents (checked on 2026-11-02), so the fetcher does not read the papers. Ask the Verein for permission first.
 
 - id: bundeswettbewerb
   name: Bundeswettbewerb Mathematik

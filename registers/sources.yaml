@@ -709,14 +709,17 @@
   name: UKMT and BMO
   kind: official
   origin: H1
-  url: https://www.ukmt.org.uk/
+  url: https://bmos.ukmt.org.uk/home/bmo.shtml
   access: pdf
+  terms: Copyright UKMT. No open licence stated, so the content links to the papers and holds no text of them.
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
+  size: Papers of BMO1 from 1973 and of BMO2 (FIST before 1992) from 1972, about 110 PDF files
   wave: 1
-  state: planned
+  state: active
+  notes: The papers are in English. The year of a paper is the year in the name of its file, which is the year of the end of the school year, so the BMO1 of November 2014 is BMO1 2015. The single olympiad before 1992 is BMO1, and FIST is BMO2. om papers ukmt records them.
 
 - id: cemc
   name: CEMC Waterloo

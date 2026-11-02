@@ -1,1 +1,6 @@
 year: 2000
+official:
+  - lang: English
+    code: en
+    url: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/inmo-sol-2000.pdf
+    source: hbcse

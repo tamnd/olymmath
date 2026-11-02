@@ -1,0 +1,17 @@
+year: 2025
+papers:
+  - name: Non-KV and Non-JNV
+    problems: [p1, p2, p3, p4, p5, p6]
+  - name: KV and JNV
+    problems: [k1, k2, k3, k4, k5, k6]
+official:
+  - lang: English
+    code: en
+    url: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/RMO-2025-Paper-1.pdf
+    paper: paper1
+    source: hbcse
+  - lang: English
+    code: en
+    url: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/RMO-2025-Paper-2.pdf
+    paper: paper2
+    source: hbcse

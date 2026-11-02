@@ -1,0 +1,17 @@
+year: 2018
+papers:
+  - name: October 7
+    problems: [p1, p2, p3, p4, p5, p6]
+  - name: Kerala and Tamil Nadu
+    problems: [k1, k2, k3, k4, k5, k6]
+official:
+  - lang: English
+    code: en
+    url: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/solutions-crmo-18.pdf
+    paper: paper1
+    source: hbcse
+  - lang: English
+    code: en
+    url: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/solutions-KL-TN-18.pdf
+    paper: paper2
+    source: hbcse

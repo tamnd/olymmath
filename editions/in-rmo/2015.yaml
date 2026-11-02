@@ -1,0 +1,38 @@
+year: 2015
+papers:
+  - name: CRMO Paper 1
+    problems: [a1, a2, a3, a4, a5, a6]
+  - name: CRMO Paper 2
+    problems: [b1, b2, b3, b4, b5, b6]
+  - name: CRMO Paper 3
+    problems: [c1, c2, c3, c4, c5, c6]
+  - name: CRMO Paper 4
+    problems: [d1, d2, d3, d4, d5, d6]
+  - name: Mumbai Region
+    problems: [m1, m2, m3, m4, m5, m6, m7, m8]
+official:
+  - lang: English
+    code: en
+    url: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmo-15-5.pdf
+    paper: mumbai
+    source: hbcse
+  - lang: English
+    code: en
+    url: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmo-15-1.pdf
+    paper: paper1
+    source: hbcse
+  - lang: English
+    code: en
+    url: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmo-15-2.pdf
+    paper: paper2
+    source: hbcse
+  - lang: English
+    code: en
+    url: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmo-15-3.pdf
+    paper: paper3
+    source: hbcse
+  - lang: English
+    code: en
+    url: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmo-15-4.pdf
+    paper: paper4
+    source: hbcse

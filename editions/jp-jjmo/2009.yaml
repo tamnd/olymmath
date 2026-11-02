@@ -1,0 +1,11 @@
+year: 2009
+official:
+  - lang: Japanese
+    code: ja
+    url: https://www.imojp.org/archive/mo2009/jjmo2009/problems/jjmo7mq.html
+    source: imojp
+  - lang: Japanese
+    code: ja
+    url: https://www.imojp.org/archive/mo2009/jjmo2009/problems/jjmo7yq.html
+    paper: prelim
+    source: imojp

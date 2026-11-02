@@ -1525,13 +1525,15 @@
   origin: H1
   url: https://www.imojp.org/
   access: pdf
+  terms: Each page says that no image, text or other part of the site may be reproduced without permission, and each paper says that the copyright belongs to the Mathematical Olympiad Foundation of Japan. The use of past problems needs a written request. So the content links to the papers and holds no text of them.
   zone:
     statement: Z3
     solution: Z3
   ai_train: unknown
+  size: Papers of the JMO from 2001 and of the JJMO from 2009, final and preliminary round, about 90 HTML pages and PDF files
   wave: 1
-  state: planned
-  notes: The site restricts reuse, so its texts are link only.
+  state: active
+  notes: The site has no robots.txt (404 on 2026-11-02). The papers are in Japanese. Most papers before 2024 are HTML pages of scanned images, and the page of a problem is the number of its image. The JMO papers of 1991 to 2000 and the JJMO papers of 2021 are not on the site. om papers imojp records the papers.
 
 - id: aops-collections
   name: AoPS contest collections

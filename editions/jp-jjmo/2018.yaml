@@ -1,0 +1,11 @@
+year: 2018
+official:
+  - lang: Japanese
+    code: ja
+    url: https://www.imojp.org/archive/mo2018/jjmo2018/problems/jjmo16mq.html
+    source: imojp
+  - lang: Japanese
+    code: ja
+    url: https://www.imojp.org/archive/mo2018/jjmo2018/problems/jjmo16yq.html
+    paper: prelim
+    source: imojp

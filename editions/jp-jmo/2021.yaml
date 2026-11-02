@@ -1,0 +1,11 @@
+year: 2021
+official:
+  - lang: Japanese
+    code: ja
+    url: https://www.imojp.org/archive/mo2021/jmo2021/problems/jmo31hq.html
+    source: imojp
+  - lang: Japanese
+    code: ja
+    url: https://www.imojp.org/archive/mo2021/jmo2021/problems/jmo31yq.html
+    paper: prelim
+    source: imojp

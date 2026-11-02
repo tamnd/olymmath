@@ -1,1 +1,11 @@
 year: 2016
+official:
+  - lang: Japanese
+    code: ja
+    url: https://www.imojp.org/archive/mo2016/jmo2016/problems/jmo26mq.html
+    source: imojp
+  - lang: Japanese
+    code: ja
+    url: https://www.imojp.org/archive/mo2016/jmo2016/problems/jmo26yq.html
+    paper: prelim
+    source: imojp

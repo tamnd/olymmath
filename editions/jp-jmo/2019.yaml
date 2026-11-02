@@ -1,0 +1,11 @@
+year: 2019
+official:
+  - lang: Japanese
+    code: ja
+    url: https://www.imojp.org/archive/mo2019/jmo2019/problems/jmo29mq.html
+    source: imojp
+  - lang: Japanese
+    code: ja
+    url: https://www.imojp.org/archive/mo2019/jmo2019/problems/jmo29yq.html
+    paper: prelim
+    source: imojp

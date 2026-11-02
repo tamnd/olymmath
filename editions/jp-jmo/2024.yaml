@@ -1,0 +1,11 @@
+year: 2024
+official:
+  - lang: Japanese
+    code: ja
+    url: https://www.imojp.org/archive/mo2024/problems/jmo34hq.pdf
+    source: imojp
+  - lang: Japanese
+    code: ja
+    url: https://www.imojp.org/archive/mo2024/problems/jmo34yqa.pdf
+    paper: prelim
+    source: imojp

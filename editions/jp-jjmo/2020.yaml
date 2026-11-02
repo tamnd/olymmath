@@ -1,0 +1,11 @@
+year: 2020
+official:
+  - lang: Japanese
+    code: ja
+    url: https://www.imojp.org/archive/mo2020/jjmo2020/problems/jjmo18hq.html
+    source: imojp
+  - lang: Japanese
+    code: ja
+    url: https://www.imojp.org/archive/mo2020/jjmo2020/problems/jjmo18yq.html
+    paper: prelim
+    source: imojp

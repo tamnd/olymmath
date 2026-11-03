@@ -364,3 +364,12 @@ ZNWT7RP8E2	-	the text at au-amo/2017/p1 was a problem of the Austrian olympiad, 
 K0ZZKGK1S9	-	the text at au-amo/2017/p2 was a problem of the Austrian olympiad, not of the AMO
 H8FZA2CJHN	-	the text at au-amo/2017/p3 was a problem of the Austrian olympiad, not of the AMO
 8H6XXP5TNP	-	the text at au-amo/2017/p4 was a problem of the Austrian olympiad, not of the AMO
+# Agent decision, not a person's review (2026-11-03): the next 8 records of pl-om held problems of the first or the second stage. The official papers on om.sem.edu.pl (the old om.mimuw.edu.pl) name the stage. pl-om holds only the third stage, so the records are withdrawn. The AoPS labels of their rows ("Poland - First Round" and "Poland - Second Round") already map to "-".
+VSSPKW69M6	-	the text at pl-om/1998/p1 was problem 1 of the first stage of the 50th olympiad (om50_1.pdf), not of the final of 1998
+W47J4F954D	-	the text at pl-om/1998/p2 was problem 2 of the first stage of the 50th olympiad (om50_1.pdf), not of the final of 1998
+BT0MRQ14XK	-	the text at pl-om/1998/p3 was problem 3 of the first stage of the 50th olympiad (om50_1.pdf), not of the final of 1998
+J566HNZZ1C	-	the text at pl-om/1998/p4 was problem 4 of the first stage of the 50th olympiad (om50_1.pdf), not of the final of 1998
+SEMB2RMMEP	-	the text at pl-om/2018/p1 was problem 1 of the second stage of the 69th olympiad (om69_2.pdf), not of the final
+WW7H57F1MK	-	the text at pl-om/2018/p2 was problem 2 of the second stage of the 69th olympiad (om69_2.pdf), not of the final
+FXE1RZ9CA6	-	the text at pl-om/2018/p3 was problem 3 of the second stage of the 69th olympiad (om69_2.pdf), not of the final
+64DSC56JNQ	-	the text at pl-om/2020/p1 was problem 1 of the second stage of the 71st olympiad (om71_2.pdf), not of the final

@@ -1,0 +1,8 @@
+--- a/lean/vendor/formal-conjectures/fd5c0ab5d1a7/FormalConjecturesForMathlib/Data/Sym/Sym2.lean
++++ b/lean/vendor/formal-conjectures/fd5c0ab5d1a7/FormalConjecturesForMathlib/Data/Sym/Sym2.lean
+@@ -25 +25 @@
+-@[simp] lemma fst_out_mk_self : (Quot.out s(a, a)).1 = a := by simpa using out_fst_mem s(a, a)
++-- Mathlib v4.35.0 has Sym2.fst_out_mk_self.
+@@ -26 +26 @@
+-@[simp] lemma snd_out_mk_self : (Quot.out s(a, a)).2 = a := by simpa using out_snd_mem s(a, a)
++-- Mathlib v4.35.0 has Sym2.snd_out_mk_self.

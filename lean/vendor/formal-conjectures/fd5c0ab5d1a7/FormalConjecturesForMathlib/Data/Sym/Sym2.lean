@@ -22,7 +22,7 @@ public section
 namespace Sym2
 variable {α : Type*} {a : α}
 
-@[simp] lemma fst_out_mk_self : (Quot.out s(a, a)).1 = a := by simpa using out_fst_mem s(a, a)
-@[simp] lemma snd_out_mk_self : (Quot.out s(a, a)).2 = a := by simpa using out_snd_mem s(a, a)
+-- Mathlib v4.35.0 has Sym2.fst_out_mk_self.
+-- Mathlib v4.35.0 has Sym2.snd_out_mk_self.
 
 end Sym2

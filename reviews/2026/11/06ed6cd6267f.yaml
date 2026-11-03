@@ -1,0 +1,8 @@
+id: 06ed6cd6267f
+kind: doubt
+records:
+    - elmo/2012/p4
+decision: keep
+by: agent
+date: "2026-11-03"
+note: Agent decision, not a person's review. The record is problem 4 of the official paper of 2012, the sequences with floors of square roots. The other row is another problem. I read both.

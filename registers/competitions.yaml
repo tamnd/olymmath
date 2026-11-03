@@ -195,13 +195,13 @@
   short: ELMO
   group: international
   level: high-school
-  url: https://web.evanchen.cc/problems.html
+  url: https://elmo.evanchen.cc/problems.html
   first_year: 1999
   edition_form: year
   per_year: 6
   languages: [en]
   copyright: None stated.
-  sources: [evanchen]
+  sources: [elmo-official, evanchen]
   description: An olympiad written and taken by students at the US training camp. It also has a shortlist of about 30 problems.
 
 - code: olympic-revenge

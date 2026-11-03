@@ -1,0 +1,8 @@
+id: 272bde3e9dc9
+kind: doubt
+records:
+    - elmo/2013/p2
+decision: replace
+by: agent
+date: "2026-11-03"
+note: 'Agent decision, not a person''s review. The official paper of 2013 has this row at problem 2: a+b+c is the sum of the seventh roots, and a^a b^b c^c >= 1. The placed row was another problem. So this row is now the text of elmo/2013/p2. I read both.'

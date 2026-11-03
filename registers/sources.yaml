@@ -646,6 +646,22 @@
   state: planned
   notes: TeX inside HTML. Ask MCCME for Z1 (11.4).
 
+- id: elmo-official
+  name: ELMO site
+  kind: official
+  origin: H1
+  url: https://elmo.evanchen.cc/problems.html
+  access: pdf
+  terms: The pages and the papers state no licence. So the content links to the papers and holds no text of them.
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: 16 papers, 2010 to 2026, with no paper for 2015
+  wave: 1
+  state: active
+  notes: The problems page of the ELMO site links the paper of each year from 2010, at web.evanchen.cc/exams/ELMO-YYYY.pdf. The paper of 2015 is only an attachment on AoPS, so it is not used. The site has no paper before 2010. The robots.txt of both hosts has no rule (checked on 2026-11-03). om papers elmo-official records the papers.
+
 - id: evanchen
   name: Evan Chen problems page
   kind: curated

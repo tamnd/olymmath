@@ -1,0 +1,11 @@
+year: 2004
+papers:
+  - name: Day 1
+    problems: [p1, p2, p3]
+  - name: Day 2
+    problems: [p4, p5, p6]
+official:
+  - lang: English
+    code: en
+    url: https://pamoofficial.org/problems/#pamo-2004
+    source: pamo-official

@@ -4,3 +4,8 @@ papers:
     problems: [p1, p2, p3]
   - name: Day 2
     problems: [p4, p5, p6]
+official:
+  - lang: English
+    code: en
+    url: https://pamoofficial.org/problems/#pamo-2009
+    source: pamo-official

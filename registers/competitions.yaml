@@ -703,12 +703,28 @@
   url: https://www.imc-math.org.uk/
   first_year: 1994
   edition_form: year
+  layout:
+    - {paper: day1, name: Day 1, positions: [p1, p2, p3, p4, p5]}
+    - {paper: day2, name: Day 2, positions: [p6, p7, p8, p9, p10]}
   per_year: 10
+  eras:
+    - from: 1994
+      to: 2008
+      per_year: 12
+      layout:
+        - {paper: day1, name: Day 1, positions: [p1, p2, p3, p4, p5, p6]}
+        - {paper: day2, name: Day 2, positions: [p7, p8, p9, p10, p11, p12]}
+    - from: 2020
+      to: 2022
+      per_year: 8
+      layout:
+        - {paper: day1, name: Day 1, positions: [p1, p2, p3, p4]}
+        - {paper: day2, name: Day 2, positions: [p5, p6, p7, p8]}
   official_solutions: true
   languages: [en]
   copyright: None stated.
   sources: [imc-official, hf-omni-math, hf-matharena]
-  description: An international competition for university students over two days. It had six problems a day until about 2008, five a day from 2009, and four a day from 2020 to 2022.
+  description: An international competition for university students over two days. It had six problems a day from 1994 to 2008, five a day from 2009, and four a day from 2020 to 2022.
 
 - code: seemous
   name: South Eastern European Mathematical Olympiad for University Students

@@ -1155,12 +1155,15 @@
   origin: H1
   url: https://www.imc-math.org.uk/
   access: pdf
+  terms: The pages say "© IMC" and the papers state no licence. So the content links to the papers and holds no text of them.
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
+  size: The problems of 33 years, 1994 to 2026, in 63 PDF files. Most years have one file for each day.
   wave: 1
-  state: planned
+  state: active
+  notes: The site has no robots.txt (checked on 2026-11-03). om papers imc-official takes the TeX Questions file of a day first, because the Problems files of 2015 to 2017 are web page prints that lose text at the right edge. The files of 1994 to 1996 hold both days in one paper, and the numbers of the second day start again at 1, so only the first day of these years is linked.
 
 - id: seemous-official
   name: SEEMOUS (MASSEE)

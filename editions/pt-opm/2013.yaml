@@ -1,1 +1,12 @@
 year: 2013
+official:
+  - lang: Portuguese
+    code: pt
+    url: https://olimpiadas.spm.pt/Downloads/Ficheiros/Provas/XXXI%20OPM(2012-13)/XXXI_f1b.pdf
+    paper: day1
+    source: spm-opm
+  - lang: Portuguese
+    code: pt
+    url: https://olimpiadas.spm.pt/Downloads/Ficheiros/Provas/XXXI%20OPM(2012-13)/XXXI_f2b.pdf
+    paper: day2
+    source: spm-opm

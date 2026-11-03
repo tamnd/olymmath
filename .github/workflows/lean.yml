@@ -1,0 +1,54 @@
+name: lean
+
+# This workflow compiles the vendored Lean files with the pinned toolchain and Mathlib, and runs the checks of spec 08.4 and 08.5. It runs only by hand (gh workflow run lean.yml), so it never blocks a pull request. om formal record and om formal fidelity read the artifact that it uploads.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: lean
+  cancel-in-progress: false
+
+jobs:
+  check:
+    name: check ${{ matrix.lib }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      matrix:
+        lib: [Compfiles, IMOSLLean4, Archive, Imo, PutnamBench]
+    env:
+      LIB: ${{ matrix.lib }}
+    steps:
+      - name: free disk
+        run: |
+          sudo rm -rf /usr/share/dotnet /opt/ghc /usr/local/lib/android /usr/local/.ghcup /opt/hostedtoolcache/CodeQL /usr/share/swift /usr/local/share/boost
+          df -h /
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          sparse-checkout: |
+            lean
+      - name: install elan
+        run: |
+          curl -sSfL https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -o "$RUNNER_TEMP/elan-init.sh"
+          sh "$RUNNER_TEMP/elan-init.sh" -y --default-toolchain none --no-modify-path
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+      - name: get Mathlib and its cache
+        working-directory: lean
+        run: |
+          lake --version
+          lake exe cache get
+          df -h /
+      - name: build and check
+        working-directory: lean
+        run: bash checks/check.sh "$LIB" "checks/$LIB.targets.tsv" "$RUNNER_TEMP/out"
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        if: always()
+        with:
+          name: lean-${{ matrix.lib }}
+          path: ${{ runner.temp }}/out
+          retention-days: 30

@@ -1,0 +1,8 @@
+id: 1d23a26f4561
+kind: doubt
+records:
+    - rs-smo/2013/p2
+decision: reject
+by: agent
+date: "2026-11-03"
+note: Agent decision, not a person's review. This row is not problem 2 of the official paper of 2013. The paper has it as problem 1 of the second day, so it is now the text of rs-smo/2013/p4. I read both.

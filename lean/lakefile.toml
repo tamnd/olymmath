@@ -1,0 +1,13 @@
+# The Lake package Olymmath (spec 08.3). om formal lakefile writes this file. Do not edit it by hand.
+name = "Olymmath"
+defaultTargets = []
+
+[leanOptions]
+pp.unicode.fun = true
+autoImplicit = false
+relaxedAutoImplicit = false
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "v4.35.0"

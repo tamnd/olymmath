@@ -469,6 +469,7 @@
   origin: H2
   url: https://github.com/dwrensha/compfiles
   access: git
+  terms: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/LICENSE
   licence: Apache-2.0
   zone:
     statement: Z1
@@ -484,6 +485,7 @@
   origin: H2
   url: https://github.com/mortarsanjaya/IMOSLLean4
   access: git
+  terms: https://github.com/mortarsanjaya/IMOSLLean4/blob/883b0326e585ac9a2148e5d67a4c335bb4f798be/LICENSE
   licence: Apache-2.0
   zone:
     statement: Z1
@@ -499,6 +501,7 @@
   origin: H2
   url: https://github.com/leanprover-community/mathlib4/tree/master/Archive/Imo
   access: git
+  terms: https://github.com/leanprover-community/mathlib4/blob/v4.35.0/LICENSE
   licence: Apache-2.0
   zone:
     statement: Z1
@@ -514,6 +517,7 @@
   origin: H2
   url: https://github.com/google-deepmind/formal-imo
   access: git
+  terms: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/LICENSE
   licence: Apache-2.0
   zone:
     statement: Z1
@@ -529,6 +533,7 @@
   origin: H2
   url: https://github.com/trishullab/PutnamBench
   access: git
+  terms: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/LICENSE
   licence: Apache-2.0 (Lean, Isabelle); MIT (Coq)
   zone:
     statement: Z1

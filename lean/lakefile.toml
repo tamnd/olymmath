@@ -1,6 +1,6 @@
 # The Lake package Olymmath (spec 08.3). om formal lakefile writes this file. Do not edit it by hand. The Mathlib Archive files are built from the Mathlib dependency.
 name = "Olymmath"
-defaultTargets = ["Compfiles"]
+defaultTargets = ["Compfiles", "IMOSLLean4"]
 
 [leanOptions]
 pp.unicode.fun = true
@@ -18,3 +18,11 @@ name = "Compfiles"
 srcDir = "vendor/compfiles/1745e6ced3e6"
 roots = ["ProblemExtraction"]
 globs = ["ProblemExtraction.+", "Compfiles.+"]
+
+# IMOSLLean4, https://github.com/mortarsanjaya/IMOSLLean4. Licence: Apache-2.0.
+[[lean_lib]]
+name = "IMOSLLean4"
+srcDir = "vendor/imosllean4/883b0326e585"
+roots = ["IMOSLLean4"]
+globs = ["IMOSLLean4.+"]
+leanOptions = {autoImplicit = true}

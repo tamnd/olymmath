@@ -745,13 +745,18 @@
   url: https://math.vt.edu/undergrad-math/vtrmc.html
   first_year: 1979
   last_year: 2022
+  gaps: [2020, 2021]
   edition_form: year
   per_year: 7
+  eras:
+    - {from: 1979, to: 1994, per_year: 8}
+    - {from: 1998, to: 1999, per_year: 6}
+    - {from: 2022, to: 2022, per_year: 6}
   official_solutions: true
   languages: [en]
   copyright: None stated.
   sources: [vtrmc-official]
-  description: A regional contest for undergraduates with about seven or eight problems. It stopped after 2022.
+  description: A regional contest for undergraduates. It had eight problems up to 1994, seven from 1995 to 2019 except six in 1998 and 1999, and six in 2022. It was not held in 2020 and 2021, and it stopped after 2022.
 
 - code: ciim
   name: Iberoamerican Interuniversity Mathematics Competition

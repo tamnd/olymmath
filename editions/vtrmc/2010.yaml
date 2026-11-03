@@ -1,1 +1,6 @@
 year: 2010
+official:
+  - lang: English
+    code: en
+    url: https://intranet.math.vt.edu/vtrmc/exams/32nd%20VTRMC.pdf
+    source: vtrmc-official

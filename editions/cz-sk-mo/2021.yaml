@@ -1,1 +1,6 @@
 year: 2021
+official:
+  - lang: Czech
+    code: cs
+    url: https://www.matematickaolympiada.cz/media/3472029/a70iii.pdf
+    source: mo-cz

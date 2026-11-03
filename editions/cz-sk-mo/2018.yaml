@@ -1,1 +1,6 @@
 year: 2018
+official:
+  - lang: Czech
+    code: cs
+    url: https://www.matematickaolympiada.cz/media/3471970/a67iii.pdf
+    source: mo-cz

@@ -1,1 +1,6 @@
 year: 2017
+official:
+  - lang: Czech
+    code: cs
+    url: https://www.matematickaolympiada.cz/media/3471951/a66iii.pdf
+    source: mo-cz

@@ -1,1 +1,6 @@
 year: 2005
+official:
+  - lang: English
+    code: en
+    url: https://intranet.math.vt.edu/vtrmc/exams/27th%20VTRMC.pdf
+    source: vtrmc-official

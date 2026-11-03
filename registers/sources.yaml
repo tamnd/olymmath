@@ -1194,12 +1194,15 @@
   origin: H1
   url: https://math.vt.edu/undergrad-math/vtrmc.html
   access: pdf
+  terms: The page says "© Virginia Polytechnic Institute and State University. All rights reserved." The exams state no licence. So the content links to the exams and holds no text of them.
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
+  size: The 42 exams of 1979 to 2022, one PDF file each, and their solutions from 1987
   wave: 1
-  state: planned
+  state: active
+  notes: The contest was not held in 2020 and 2021. The exams are on intranet.math.vt.edu. robots.txt of math.vt.edu (checked on 2026-11-03) allows all paths and asks for a crawl delay of 10 s. Two links of the page are wrong (2009 and 2011), so om papers vtrmc-official makes the URL of each exam from the number of the contest.
 
 - id: ciim-official
   name: CIIM official site

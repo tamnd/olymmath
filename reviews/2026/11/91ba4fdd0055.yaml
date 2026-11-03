@@ -1,0 +1,8 @@
+id: 91ba4fdd0055
+kind: doubt
+records:
+    - elmo/2023/p1
+decision: keep
+by: agent
+date: "2026-11-03"
+note: Agent decision, not a person's review. The record is problem 1 of the official paper of 2023, the polynomials in terms of m. The other row is another problem. I read both.

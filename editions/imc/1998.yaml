@@ -1,0 +1,12 @@
+year: 1998
+official:
+  - lang: English
+    code: en
+    url: https://www.imc-math.org.uk/archive/problems/1998/IMC_1998_Day_1_Problems_and_Solutions.pdf
+    paper: day1
+    source: imc-official
+  - lang: English
+    code: en
+    url: https://www.imc-math.org.uk/archive/problems/1998/IMC_1998_Day_2_Problems_and_Solutions.pdf
+    paper: day2
+    source: imc-official

@@ -1,1 +1,6 @@
 year: 1995
+official:
+  - lang: English
+    code: en
+    url: https://www.imc-math.org.uk/archive/problems/1995/IMC_1995_Problems_and_Solutions.pdf
+    source: imc-official

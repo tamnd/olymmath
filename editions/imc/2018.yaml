@@ -1,1 +1,12 @@
 year: 2018
+official:
+  - lang: English
+    code: en
+    url: https://www.imc-math.org.uk/archive/problems/2018/IMC_2018_Day_1_Questions.pdf
+    paper: day1
+    source: imc-official
+  - lang: English
+    code: en
+    url: https://www.imc-math.org.uk/archive/problems/2018/IMC_2018_Day_2_Questions.pdf
+    paper: day2
+    source: imc-official

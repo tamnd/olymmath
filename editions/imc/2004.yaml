@@ -1,0 +1,12 @@
+year: 2004
+official:
+  - lang: English
+    code: en
+    url: https://www.imc-math.org.uk/archive/problems/2004/IMC_2004_Day_1_Problems_and_Solutions.pdf
+    paper: day1
+    source: imc-official
+  - lang: English
+    code: en
+    url: https://www.imc-math.org.uk/archive/problems/2004/IMC_2004_Day_2_Problems_and_Solutions.pdf
+    paper: day2
+    source: imc-official

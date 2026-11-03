@@ -7,6 +7,7 @@ const pack = "onetwo";
 const assets = {
   "/redirects.json": JSON.stringify({ "/old": "/nz/2020/p1" }),
   "/_pack/nz.json": JSON.stringify({ pack: "pack/nz.abc.pack", files: { "2020/p1.html": [0, 3, "h1"], "2020/p1.md": [3, 3, "h2"] } }),
+  "/_pack/api.json": JSON.stringify({ packs: ["pack/api-00.x.pack", "pack/nz.abc.pack"], files: { "problem/A.json": [3, 3, "h3", 1] } }),
   "/404": "not found",
 };
 const env = {
@@ -49,4 +50,11 @@ test("a redirect and a missing page", async () => {
   assert.equal(r.status, 301);
   assert.equal(r.headers.get("Location"), "https://olymmath.tamnd.com/nz/2020/p1");
   for (const p of ["/nz/2020/p9", "/xx/2020/p1", "/Bad!/x"]) assert.equal((await get(p)).status, 404, p);
+});
+
+test("a file of a big folder comes from the pack its entry names", async () => {
+  const r = await get("/api/problem/A.json");
+  assert.equal(r.status, 200);
+  assert.equal(await r.text(), "two");
+  assert.equal(r.headers.get("Content-Type"), "application/json");
 });

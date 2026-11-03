@@ -1,6 +1,6 @@
 // The Worker answers each request that is not a static asset (spec 10.4).
 // 1. A path in redirects.json gets a 301 to its new path.
-// 2. A page that is not in tier 1 comes from a pack in the R2 bucket. `om site pack` joins the files of each top folder, such as aime, into one pack, and writes the index of the pack to the static asset /_pack/FOLDER.json. The index gives the offset, the length and the hash of each file, so the Worker reads the page with one range request. The pack name has the hash of the pack, so a deploy sends only the packs that changed.
+// 2. A page that is not in tier 1 comes from a pack in the R2 bucket. `om site pack` joins the files of each top folder, such as aime, into one pack, and writes the index of the pack to the static asset /_pack/FOLDER.json. The index gives the offset, the length and the hash of each file, so the Worker reads the page with one range request. The pack name has the hash of the pack, so a deploy sends only the packs that changed. A big folder, such as api, has 32 packs: its index lists them in packs, and the entry of a file gives its pack as a fourth value.
 // 3. Any other path gets the 404 page.
 
 let redirects = null;
@@ -77,7 +77,8 @@ export default {
         ETag: etag,
       });
       if (request.headers.get("If-None-Match") === etag) return new Response(null, { status: 304, headers });
-      const body = await cached(env, ctx, url, ix.pack, k, e);
+      const pack = e.length > 3 ? ix.packs?.[e[3]] : ix.pack;
+      const body = pack ? await cached(env, ctx, url, pack, k, e) : null;
       if (body) return new Response(request.method === "HEAD" ? null : body, { headers });
     }
     const nf = await env.ASSETS.fetch(new URL("/404", url));

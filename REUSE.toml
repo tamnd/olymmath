@@ -14,7 +14,7 @@ SPDX-FileCopyrightText = "2026 the olymmath contributors"
 SPDX-License-Identifier = "CC-BY-SA-4.0"
 
 [[annotations]]
-path = [".github/**", "scripts/**", "wrangler.jsonc"]
+path = [".github/**", "scripts/**", "wrangler.jsonc", "lean/checks/check.sh"]
 precedence = "override"
 SPDX-FileCopyrightText = "2026 the olymmath contributors"
 SPDX-License-Identifier = "Apache-2.0"

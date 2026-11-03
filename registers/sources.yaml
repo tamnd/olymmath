@@ -1420,18 +1420,21 @@
   wave: 1
   state: planned
 
-- id: matematickaolympiada
-  name: Czech-Slovak Mathematical Olympiad
+- id: mo-cz
+  name: Matematická olympiáda (Czech Mathematical Olympiad)
   kind: official
   origin: H1
-  url: https://www.matematickaolympiada.cz/en
+  url: https://www.matematickaolympiada.cz/mo-pro-ss/rocnik
   access: pdf
+  terms: The pages and the papers state no licence. So the content links to the papers and holds no text of them.
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
+  size: 32 papers of the final round of category A, 1994 to 2026, with no paper for 1996 and 1997
   wave: 1
-  state: planned
+  state: active
+  notes: The site has a page for each olympiad from the 43rd, but none for the 45th and the 46th. The nth olympiad ends in the year 1951 + n. The final round of category A is the file aNNiii.pdf up to the 72nd olympiad and aNNiv.pdf from the 73rd. The files are in Czech and hold the solutions too. The page /en links English booklets of some years. The robots.txt allows all paths (checked on 2026-11-03). om papers mo-cz records the papers.
 
 - id: oktatas-oktv
   name: OKTV (Oktatási Hivatal)

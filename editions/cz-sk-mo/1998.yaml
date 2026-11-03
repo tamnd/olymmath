@@ -1,1 +1,6 @@
 year: 1998
+official:
+  - lang: Czech
+    code: cs
+    url: https://www.matematickaolympiada.cz/media/3471668/a47iii.pdf
+    source: mo-cz

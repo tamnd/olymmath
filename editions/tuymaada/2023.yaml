@@ -1,0 +1,27 @@
+year: 2023
+papers:
+  - name: Junior
+    problems: [j1, j2, j3, j4, j5, j6, j7, j8]
+  - name: Senior
+    problems: [s1, s2, s3, s4, s5, s6, s7, s8]
+official:
+  - lang: English
+    code: en
+    url: https://tuymaada.lensky-kray.ru/wp-content/uploads/2023/07/T23-day1-sol-eng.pdf
+    paper: senior
+    source: tuymaada-official
+  - lang: English
+    code: en
+    url: https://tuymaada.lensky-kray.ru/wp-content/uploads/2023/07/T23-day1-sol-eng.pdf
+    paper: junior
+    source: tuymaada-official
+  - lang: English
+    code: en
+    url: https://tuymaada.lensky-kray.ru/wp-content/uploads/2023/07/T23-day2-sol-eng.pdf
+    paper: senior
+    source: tuymaada-official
+  - lang: English
+    code: en
+    url: https://tuymaada.lensky-kray.ru/wp-content/uploads/2023/07/T23-day2-sol-eng.pdf
+    paper: junior
+    source: tuymaada-official

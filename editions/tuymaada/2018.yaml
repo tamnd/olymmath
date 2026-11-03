@@ -1,1 +1,22 @@
 year: 2018
+official:
+  - lang: English
+    code: en
+    url: https://tuymaada.lensky-kray.ru/wp-content/uploads/2019/02/ol1booke.pdf
+    paper: senior
+    source: tuymaada-official
+  - lang: English
+    code: en
+    url: https://tuymaada.lensky-kray.ru/wp-content/uploads/2019/02/ol1booke.pdf
+    paper: junior
+    source: tuymaada-official
+  - lang: English
+    code: en
+    url: https://tuymaada.lensky-kray.ru/wp-content/uploads/2019/02/ol2booke.pdf
+    paper: senior
+    source: tuymaada-official
+  - lang: English
+    code: en
+    url: https://tuymaada.lensky-kray.ru/wp-content/uploads/2019/02/ol2booke.pdf
+    paper: junior
+    source: tuymaada-official

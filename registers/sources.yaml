@@ -1024,12 +1024,15 @@
   origin: H1
   url: https://tuymaada.lensky-kray.ru/en/arhiv/
   access: pdf
+  terms: The booklets say "© Republic of Sakha (Yakutia) ministry of education and science" and give no licence, so the content links to them and holds no text of them.
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
+  size: 16 English booklets, one for each day of 2018 and of 2020 to 2026
   wave: 1
-  state: planned
+  state: active
+  notes: The archive page links the English booklet of each day of the mathematics olympiad. A booklet holds the four problems of the senior league, then the four problems of the junior league, then the solutions, so it gives two papers, senior and junior. The archive has no English booklet for 2019. Some junior problems only say "See problem N of Senior league", and their records only link to the booklet. robots.txt (checked on 2026-11-03) only blocks /wp-admin/. om papers tuymaada-official records the papers.
 
 - id: izho-official
   name: IZhO official site

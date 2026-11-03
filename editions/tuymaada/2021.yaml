@@ -1,1 +1,22 @@
 year: 2021
+official:
+  - lang: English
+    code: en
+    url: https://tuymaada.lensky-kray.ru/wp-content/uploads/2021/12/ol1booke-2021.pdf
+    paper: senior
+    source: tuymaada-official
+  - lang: English
+    code: en
+    url: https://tuymaada.lensky-kray.ru/wp-content/uploads/2021/12/ol1booke-2021.pdf
+    paper: junior
+    source: tuymaada-official
+  - lang: English
+    code: en
+    url: https://tuymaada.lensky-kray.ru/wp-content/uploads/2021/12/ol2booke-2021.pdf
+    paper: senior
+    source: tuymaada-official
+  - lang: English
+    code: en
+    url: https://tuymaada.lensky-kray.ru/wp-content/uploads/2021/12/ol2booke-2021.pdf
+    paper: junior
+    source: tuymaada-official

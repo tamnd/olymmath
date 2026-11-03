@@ -4,3 +4,24 @@ papers:
     problems: [j1, j2, j3, j4, j5, j6, j7, j8]
   - name: Senior
     problems: [s1, s2, s3, s4, s5, s6, s7, s8]
+official:
+  - lang: English
+    code: en
+    url: https://tuymaada.lensky-kray.ru/wp-content/uploads/2022/07/ol1booke.pdf
+    paper: senior
+    source: tuymaada-official
+  - lang: English
+    code: en
+    url: https://tuymaada.lensky-kray.ru/wp-content/uploads/2022/07/ol1booke.pdf
+    paper: junior
+    source: tuymaada-official
+  - lang: English
+    code: en
+    url: https://tuymaada.lensky-kray.ru/wp-content/uploads/2022/07/solutions-day2.pdf
+    paper: senior
+    source: tuymaada-official
+  - lang: English
+    code: en
+    url: https://tuymaada.lensky-kray.ru/wp-content/uploads/2022/07/solutions-day2.pdf
+    paper: junior
+    source: tuymaada-official

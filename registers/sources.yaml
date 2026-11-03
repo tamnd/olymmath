@@ -525,7 +525,7 @@
   ai_train: allowed
   wave: 0
   state: planned
-  notes: Formal statements of IMO problems.
+  notes: Formal statements of IMO problems, with no proofs. The files at commit a85d84b97c8e are in lean/vendor/formal-imo. 253 of 258 statements map to a problem, as reports/formal/formal-imo.tsv shows. The source pins Lean v4.27.0 and imports formal_conjectures (Answer, Triplewise and the geometry files), which olymmath does not vendor yet. The formal records wait for a port and a compile check at Lean v4.35.0 and Mathlib v4.35.0.
 
 - id: putnambench
   name: PutnamBench
@@ -541,7 +541,7 @@
   ai_train: allowed
   wave: 0
   state: planned
-  notes: Formal statements of Putnam problems in Lean, Isabelle and Coq.
+  notes: Formal statements of Putnam problems in Lean, Isabelle and Coq, with no proofs. olymmath reads the Lean files only. The files in lean4/src at commit a635813f5edf are in lean/vendor/putnambench. 597 of 672 statements map to a problem, as reports/formal/putnambench.tsv shows. The source pins Lean v4.33.1. The formal records wait for a compile check at Lean v4.35.0 and Mathlib v4.35.0.
 
 - id: minif2f-v2
   name: miniF2F v2

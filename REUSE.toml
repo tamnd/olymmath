@@ -26,9 +26,9 @@ precedence = "override"
 SPDX-FileCopyrightText = "the holders named in the source of each file"
 SPDX-License-Identifier = "LicenseRef-Quoted"
 
-# The Lean files under lean/vendor are copies of open sources. Each directory is lean/vendor/<source>/<commit>/, and it keeps the LICENSE file of the source. The source register names each source.
+# The Lean files under lean/vendor are copies of open sources. Each directory is lean/vendor/<source>/<commit>/, and it keeps the LICENSE file of the source. The source register names each source. The diffs under lean/ports change those files, under the same licence.
 [[annotations]]
-path = "lean/vendor/**"
+path = ["lean/vendor/**", "lean/ports/**"]
 precedence = "override"
 SPDX-FileCopyrightText = "the authors of each source, as its LICENSE file says"
 SPDX-License-Identifier = "Apache-2.0"

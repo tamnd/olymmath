@@ -1,0 +1,8 @@
+id: a301cdd2db5c
+kind: official
+records:
+    - rs-smo/2017/p3
+decision: accept
+by: agent
+date: "2026-11-03"
+note: Agent decision, not a person's review. The English text is a translation of problem 3 of the official Serbian paper of 2017, about 2n-1 lamps in a row. I read both.

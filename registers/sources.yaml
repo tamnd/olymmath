@@ -1471,12 +1471,15 @@
   origin: H1
   url: https://dms.rs/matematika-srednje-skole/
   access: pdf
+  terms: The pages and the papers state no licence. So the content links to the papers and holds no text of them.
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
+  size: 14 papers of the Serbian MO, 2008 to 2024, with no paper for 2015, 2020 and 2021
   wave: 1
-  state: planned
+  state: active
+  notes: The secondary school page of the DMS links the paper of the Serbian MO for 2008 to 2014, 2016 to 2019 and 2022 to 2024. The files of the solutions (resenja) and the results (rezultati) are not used. The papers of 2008 to 2011 and 2013 number the problems of each day 1 to 3, so only the first day splits by number. The robots.txt only disallows /wp-admin/ (checked on 2026-11-03). om papers dms-rs records the papers.
 
 - id: math-bas-bg
   name: Bulgarian Academy of Sciences (BCMI)

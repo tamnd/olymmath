@@ -1869,10 +1869,12 @@
   level: high-school
   country: DK
   url: https://georgmohr.dk/
+  first_year: 1991
+  edition_form: year
   per_year: 5
   languages: [da]
   sources: [georgmohr, kalva]
-  description: The national olympiad of Denmark.
+  description: The national olympiad of Denmark. Its second round, held in January, has five problems. The year of an edition is the year of the second round.
 
 - code: no-abel
   name: Abel Competition

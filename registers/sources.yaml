@@ -493,7 +493,7 @@
   ai_train: allowed
   wave: 0
   state: planned
-  notes: Lean 4 formalizations of IMO Shortlist problems.
+  notes: Lean 4 formalizations of IMO Shortlist problems. The files at commit 883b0326e585 are in lean/vendor/imosllean4. 164 of 174 statements map to a problem, as reports/formal/imosllean4.tsv shows. The source pins a Mathlib 34 commits after v4.35.0, and it needs autoImplicit true, so its statements cannot be checker-clean. The formal records wait for a compile check at Lean v4.35.0 and Mathlib v4.35.0.
 
 - id: mathlib-archive-imo
   name: Mathlib Archive/Imo
@@ -509,7 +509,7 @@
   ai_train: allowed
   wave: 0
   state: planned
-  notes: IMO solutions in the Mathlib archive.
+  notes: IMO solutions in the Mathlib archive. The files of Mathlib v4.35.0 (commit 56a005855ea1) are in lean/vendor/mathlib-archive-imo. The package builds them from the Mathlib dependency. All 54 statements map to a problem, as reports/formal/mathlib-archive-imo.tsv shows. The formal records wait for a compile check.
 
 - id: formal-imo
   name: formal-imo

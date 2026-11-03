@@ -477,7 +477,7 @@
   ai_train: allowed
   wave: 0
   state: planned
-  notes: Lean formalizations of competition problems with native names.
+  notes: Lean formalizations of competition problems with native names. The files at commit 1745e6ced3e6 are in lean/vendor/compfiles. 510 of 551 statements map to a problem, as reports/formal/compfiles.tsv shows. The formal records wait for a compile check at Lean v4.35.0 and Mathlib v4.35.0.
 
 - id: imosllean4
   name: IMOSLLean4

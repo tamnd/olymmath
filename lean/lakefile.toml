@@ -1,6 +1,6 @@
-# The Lake package Olymmath (spec 08.3). om formal lakefile writes this file. Do not edit it by hand.
+# The Lake package Olymmath (spec 08.3). om formal lakefile writes this file. Do not edit it by hand. The Mathlib Archive files are built from the Mathlib dependency.
 name = "Olymmath"
-defaultTargets = []
+defaultTargets = ["Compfiles"]
 
 [leanOptions]
 pp.unicode.fun = true
@@ -11,3 +11,10 @@ relaxedAutoImplicit = false
 name = "mathlib"
 git = "https://github.com/leanprover-community/mathlib4"
 rev = "v4.35.0"
+
+# Compfiles, https://github.com/dwrensha/compfiles. Licence: Apache-2.0.
+[[lean_lib]]
+name = "Compfiles"
+srcDir = "vendor/compfiles/1745e6ced3e6"
+roots = ["ProblemExtraction"]
+globs = ["ProblemExtraction.+", "Compfiles.+"]

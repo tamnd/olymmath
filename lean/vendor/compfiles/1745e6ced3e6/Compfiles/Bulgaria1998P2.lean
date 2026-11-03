@@ -1,0 +1,52 @@
+/-
+Copyright (c) 2023 David Renshaw. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: David Renshaw
+-/
+
+module
+
+public import Mathlib.Analysis.InnerProductSpace.PiL2
+public import Mathlib.LinearAlgebra.AffineSpace.Midpoint
+public import Mathlib.Geometry.Euclidean.Basic
+public import Mathlib.Geometry.Euclidean.Triangle
+
+public import ProblemExtraction
+
+@[expose] public section
+
+problem_file { tags := [.Geometry] }
+
+/-!
+# Bulgarian Mathematical Olympiad 1998, Problem 2
+
+A convex quadrilateral ABCD has AD = CD and ∠DAB = ∠ABC < 90°.
+The line through D and the midpoint of BC intersects line AB
+in point E. Prove that ∠BEC = ∠DAC. (Note: The problem is valid
+without the assumption ∠ABC < 90°.)
+-/
+
+namespace Bulgaria1998P2
+
+open EuclideanGeometry
+
+problem bulgaria1998_p2
+    (A B C D E M : EuclideanSpace ℝ (Fin 2))
+    -- ABCD is a nondegenerate convex quadrilateral: its diagonals AC and BD
+    -- cross at a point strictly inside both of them.
+    (hABC : ¬ Collinear ℝ {A, B, C})
+    (hConvex : ∃ Q, Sbtw ℝ A Q C ∧ Sbtw ℝ B Q D)
+    (H1 : dist D A = dist D C)
+    (H2 : ∠ D A B = ∠ A B C)
+    (H3 : M = midpoint ℝ B C)
+    (hEAB : Collinear ℝ {A, B, E})
+    (hEDM : Collinear ℝ {D, M, E}) :
+    ∠ B E C = ∠ D A C := by
+  let x := ∠ D A C
+  have : ∠ D A C = ∠ D C A := EuclideanGeometry.angle_eq_angle_of_dist_eq H1
+  let y := ∠ C A B
+  have : ∠ A B C = x + y := by rw [← H2]; sorry -- need to switch to oangles?
+  sorry
+
+
+end Bulgaria1998P2

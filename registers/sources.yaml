@@ -1114,14 +1114,17 @@
   name: PAMO official site
   kind: official
   origin: H1
-  url: https://pamoofficial.org/
-  access: pdf
+  url: https://pamoofficial.org/problems/
+  access: html
+  terms: The problems page states no licence, so the content links to the page and holds no text of it.
   zone:
     statement: Z2
     solution: Z2
-  ai_train: unknown
+  ai_train: 'no'
+  size: The problems of 24 years from 2000 to 2026, on one HTML page
   wave: 1
-  state: planned
+  state: active
+  notes: The problems page holds the six problems of each year in a section with the id pamo-YEAR, so the paper of a year is the page with that id as the fragment. The page has no problems for 1987 to 1999, 2011, 2014 and 2020. robots.txt (checked on 2026-11-03) allows all paths for other agents and says search=yes, ai-train=no, use=reference. om papers pamo-official records the papers.
 
 - id: duel-official
   name: Mathematical Duel

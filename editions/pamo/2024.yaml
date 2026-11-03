@@ -1,0 +1,11 @@
+year: 2024
+papers:
+  - name: Day 1
+    problems: [p1, p2, p3]
+  - name: Day 2
+    problems: [p4, p5, p6]
+official:
+  - lang: English
+    code: en
+    url: https://pamoofficial.org/problems/#pamo-2024
+    source: pamo-official

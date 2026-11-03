@@ -1,0 +1,5 @@
+--- a/lean/vendor/formal-imo/a85d84b97c8e/Imo/ProblemImports.lean
++++ b/lean/vendor/formal-imo/a85d84b97c8e/Imo/ProblemImports.lean
+@@ -21 +21 @@
+-import FormalConjectures.Util.Answer
++import FormalConjecturesUtil.Answer

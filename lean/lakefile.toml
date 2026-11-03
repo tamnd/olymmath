@@ -1,6 +1,6 @@
 # The Lake package Olymmath (spec 08.3). om formal lakefile writes this file. Do not edit it by hand. The Mathlib Archive files are built from the Mathlib dependency.
 name = "Olymmath"
-defaultTargets = ["Compfiles", "IMOSLLean4", "Imo", "PutnamBench"]
+defaultTargets = ["Compfiles", "IMOSLLean4", "Imo", "PutnamBench", "FormalConjectures"]
 
 [leanOptions]
 pp.unicode.fun = true
@@ -17,14 +17,14 @@ rev = "v4.35.0"
 name = "Compfiles"
 srcDir = "vendor/compfiles/1745e6ced3e6"
 roots = ["ProblemExtraction"]
-globs = ["ProblemExtraction.+", "Compfiles.+"]
+globs = ["ProblemExtraction.*", "Compfiles.*"]
 
 # IMOSLLean4, https://github.com/mortarsanjaya/IMOSLLean4. Licence: Apache-2.0.
 [[lean_lib]]
 name = "IMOSLLean4"
 srcDir = "vendor/imosllean4/883b0326e585"
 roots = ["IMOSLLean4"]
-globs = ["IMOSLLean4.+"]
+globs = ["IMOSLLean4.*"]
 leanOptions = {autoImplicit = true}
 
 # formal-imo, https://github.com/google-deepmind/formal-imo. Licence: Apache-2.0.
@@ -32,11 +32,18 @@ leanOptions = {autoImplicit = true}
 name = "Imo"
 srcDir = "vendor/formal-imo/a85d84b97c8e"
 roots = []
-globs = ["Imo.+"]
+globs = ["Imo.*"]
 
 # PutnamBench, https://github.com/trishullab/PutnamBench. Licence: Apache-2.0.
 [[lean_lib]]
 name = "PutnamBench"
 srcDir = "vendor/putnambench/a635813f5edf"
 roots = []
-globs = ["src.+"]
+globs = ["src.*"]
+
+# formal-conjectures (support files), https://github.com/google-deepmind/formal-conjectures. Licence: Apache-2.0.
+[[lean_lib]]
+name = "FormalConjectures"
+srcDir = "vendor/formal-conjectures/fd5c0ab5d1a7"
+roots = []
+globs = ["FormalConjecturesUtil.*", "FormalConjecturesForMathlib.*"]

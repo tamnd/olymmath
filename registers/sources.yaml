@@ -1366,14 +1366,17 @@
   name: Olimpíadas Portuguesas de Matemática
   kind: official
   origin: H1
-  url: https://www.mat.uc.pt/~opm/
+  url: https://olimpiadas.spm.pt/index.php?id=75&tipo=1
   access: pdf
+  terms: The papers and the archive page state no licence. The old page of www.mat.uc.pt/~opm says "copyright Sociedade Portuguesa de Matemática 2002". So the content links to the papers and holds no text of them.
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
+  size: 60 papers of the final of category B, 1994 to 2026, with no paper for 2004
   wave: 1
-  state: planned
+  state: active
+  notes: The archive page of olimpiadas.spm.pt links the papers of each olympiad, in a folder named by its school year, such as "XXXI OPM(2012-13)". The final of category B has two days of three problems, numbered 1 to 6. The finals of 2020 and 2021 had one day of four problems. The archive has no folder for the XXII OPM (2003-04). The site has no robots.txt (checked on 2026-11-03). om papers spm-opm records the papers.
 
 - id: hms
   name: Hellenic Mathematical Society

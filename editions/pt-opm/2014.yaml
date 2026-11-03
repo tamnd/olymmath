@@ -1,0 +1,17 @@
+year: 2014
+papers:
+  - name: Final day 1
+    problems: [p1, p2, p3]
+  - name: Final day 2
+    problems: [p4, p5, p6]
+official:
+  - lang: Portuguese
+    code: pt
+    url: https://olimpiadas.spm.pt/Downloads/Ficheiros/Provas/XXXII%20OPM(2013-14)/XXXII_f1b.pdf
+    paper: day1
+    source: spm-opm
+  - lang: Portuguese
+    code: pt
+    url: https://olimpiadas.spm.pt/Downloads/Ficheiros/Provas/XXXII%20OPM(2013-14)/XXXII_f2b.pdf
+    paper: day2
+    source: spm-opm

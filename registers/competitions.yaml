@@ -3281,3 +3281,156 @@
   copyright: Diamond open access. No licence is stated on the site.
   sources: [parabola]
   description: The school mathematics journal of UNSW, with a problems section from 1964.
+
+# Open problem sets (group benchmark). Their texts were written for the set and carry an open licence, so they may be Z1. They are not competitions and have no shape, so they do not count in C0.
+
+- code: amo-bench
+  name: AMO-Bench
+  short: AMO-Bench
+  group: benchmark
+  level: open
+  organizer: Meituan LongCat
+  url: https://github.com/meituan-longcat/AMO-Bench
+  first_year: 2025
+  languages: [en]
+  copyright: MIT licence (https://github.com/meituan-longcat/AMO-Bench/blob/main/LICENSE).
+  sources: [hf-amo-bench]
+  description: A set of 50 new problems at olympiad level, written by experts for the evaluation of language models.
+
+- code: nemotron-imo-bench
+  name: Nemotron IMO-Bench
+  short: Nemotron-IMO-Bench
+  group: benchmark
+  level: open
+  organizer: NVIDIA
+  url: https://huggingface.co/datasets/nvidia/Nemotron-IMO-Bench
+  first_year: 2026
+  languages: [en]
+  copyright: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
+  sources: [hf-nemotron-imo-bench]
+  description: A set of proof problems at IMO level in algebra, combinatorics, geometry and number theory.
+
+- code: gaic-math
+  name: GAIC Math (MathOdyssey)
+  short: GAIC Math
+  group: benchmark
+  level: open
+  organizer: Global Artificial Intelligence Championship
+  url: https://github.com/protagolabs/odyssey-math
+  first_year: 2024
+  languages: [en]
+  copyright: MIT licence (https://github.com/protagolabs/odyssey-math/blob/main/LICENSE).
+  sources: [hf-mathodyssey]
+  description: The original problems of the GAIC Math 2024 set (MathOdyssey). Only the 148 high school competition problems are kept.
+
+# Selection tests and national contests that the AoPS data names (reports/coverage/unknown-competitions.tsv). Their shape is not known yet, so they do not count in C0.
+
+- code: ru-tst
+  name: Russian IMO Team Selection Test
+  group: national
+  level: high-school
+  country: RU
+  edition_form: year
+  languages: [ru]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: The tests that choose the Russian team for the IMO. No official archive has been found.
+
+- code: ro-egmo-tst
+  name: Romanian EGMO Team Selection Test
+  group: national
+  level: high-school
+  country: RO
+  edition_form: year
+  languages: [ro]
+  sources: [hf-ai-mo-aops]
+  description: The tests that choose the Romanian team for the EGMO. No official archive has been found.
+
+- code: bg-jbmo-tst
+  name: Bulgarian JBMO Team Selection Test
+  group: national
+  level: junior
+  country: BG
+  edition_form: year
+  languages: [bg]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: The tests that choose the Bulgarian team for the JBMO.
+
+- code: bg-egmo-tst
+  name: Bulgarian EGMO Team Selection Test
+  group: national
+  level: high-school
+  country: BG
+  edition_form: year
+  languages: [bg]
+  sources: [hf-ai-mo-aops]
+  description: The tests that choose the Bulgarian team for the EGMO.
+
+- code: bg-winter
+  name: Bulgarian Winter Mathematical Competition
+  group: national
+  level: high-school
+  country: BG
+  edition_form: year
+  languages: [bg]
+  sources: [hf-ai-mo-aops, hf-mathnet]
+  description: A national competition of Bulgaria that is held each winter.
+
+- code: bg-spring
+  name: Bulgarian Spring Mathematical Competition
+  group: national
+  level: high-school
+  country: BG
+  edition_form: year
+  languages: [bg]
+  sources: [hf-ai-mo-aops, hf-aops-wiki, hf-mathnet]
+  description: A national competition of Bulgaria that is held each spring.
+
+- code: ma-tst
+  name: Moroccan IMO Team Selection Test
+  group: national
+  level: high-school
+  country: MA
+  edition_form: year
+  languages: [ar, fr]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: The tests that choose the Moroccan team for the IMO. No official archive has been found.
+
+- code: pe-conosur-tst
+  name: Peruvian Cono Sur Team Selection Test
+  group: national
+  level: high-school
+  country: PE
+  edition_form: year
+  languages: [es]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: The test that chooses the Peruvian team for the Cono Sur Olympiad.
+
+- code: pe-ibero-tst
+  name: Peruvian Iberoamerican Team Selection Test
+  group: national
+  level: high-school
+  country: PE
+  edition_form: year
+  languages: [es]
+  sources: [hf-ai-mo-aops]
+  description: The test that chooses the Peruvian team for the Iberoamerican Olympiad.
+
+- code: nl-bxmo-tst
+  name: Dutch BxMO Team Selection Test
+  group: national
+  level: high-school
+  country: NL
+  edition_form: year
+  languages: [nl]
+  sources: [hf-ai-mo-aops]
+  description: The test that chooses the Dutch team for the Benelux Mathematical Olympiad.
+
+- code: xk-tst
+  name: Kosovo Team Selection Test
+  group: national
+  level: high-school
+  country: XK
+  edition_form: year
+  languages: [sq]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: The tests that choose the team of Kosovo for the international olympiads.

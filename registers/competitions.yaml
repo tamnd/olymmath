@@ -1460,6 +1460,9 @@
   first_year: 1987
   edition_form: year
   per_year: 6
+  overrides:
+    1987: [p1, p2, p3, p4, p5, p6, p7, p8]
+    1988: [p1, p2, p3, p4, p5, p6, p7, p8]
   languages: [es]
   sources: [omm]
   description: The national olympiad of Mexico with six problems. The Tzaloa magazine also publishes its problems.

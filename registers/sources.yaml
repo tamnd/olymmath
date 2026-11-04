@@ -908,12 +908,14 @@
   origin: H1
   url: https://www.obm.org.br/
   access: pdf
+  terms: "No licence stated. The footer says \"Copyright © 2026, OBM\". Agent decision, not a person's review: Z2, the spec default for competition statements, as for tubitak."
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
   wave: 1
-  state: planned
+  state: active
+  notes: "The page of papers is https://www.obm.org.br/como-se-preparar/provas-e-gabaritos/. The level 3 paper (Nível 3, six problems in two days) of br-obm is the third phase (Terceira Fase) to 2016 and the single phase (Fase Única) from 2017. The file names do not always give the year: 3Fase_2005-2-N3.pdf is the XXVI olympiad, the same as 3Fase_2004-3-N3.pdf, so it is the paper of 2004, and the paper of 2005 is not online. The year is the number of the olympiad plus 1978. robots.txt (checked on 2026-11-04) disallows only /wp/wp-admin/."
 
 - id: omm
   name: Olimpiada Mexicana de Matemáticas
@@ -921,12 +923,14 @@
   origin: H1
   url: https://www.ommenlinea.org/
   access: pdf
+  terms: "No licence stated. The footer says \"Copyright 2017 Olimpiada Mexicana de Matemáticas | Todos los derechos reservados\". Agent decision, not a person's review: Z2, the spec default for competition statements, as for tubitak."
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
   wave: 1
-  state: planned
+  state: active
+  notes: "The papers of the national contest (Concurso Nacional) are listed at https://www.ommenlinea.org/actividades/concursos/concurso-nacional/ as nac01.pdf to nac31.pdf, one file for each olympiad from the 1st (1987) to the 31st (2017), so the year is the number plus 1986. The papers of 1987 and 1988 have eight problems. robots.txt (checked on 2026-11-04) disallows only /wp-admin/."
 
 - id: kms
   name: Korean Mathematical Society KMO
@@ -940,6 +944,7 @@
   ai_train: unknown
   wave: 1
   state: planned
+  notes: "The site (https://www.kmo.or.kr/) has a notice on the copyright of past problems that forbids unauthorised commercial use (기출문제 저작권 안내 및 무단 상업적 이용 금지), and the KMS sells a book of the past problems. Not read until a person reviews the terms (checked on 2026-11-04)."
 
 - id: hkmo
   name: IMO Hong Kong Committee
@@ -966,6 +971,7 @@
   ai_train: unknown
   wave: 1
   state: planned
+  notes: "The site gave no answer on 2026-11-04, so the archive is still not confirmed."
 
 - id: egmo-official
   name: EGMO official site
@@ -1403,7 +1409,8 @@
     solution: Z2
   ai_train: unknown
   wave: 1
-  state: planned
+  state: active
+  notes: "The papers of the final (Gara Nazionale) are listed at https://olimpiadi.dm.unibo.it/le-gare/gara-nazionale/: zip files for 1997 to 2015 and 2018, and PDF files for the other years. Some files hold the solutions with the problems. robots.txt (checked on 2026-11-04) disallows only /wp-admin/, /wp-login.php and /xmlrpc.php."
 
 - id: rsme-ome
   name: RSME Olimpiada Matemática Española
@@ -1533,6 +1540,7 @@
   ai_train: unknown
   wave: 1
   state: planned
+  notes: "robots.txt of math.bas.bg (checked on 2026-11-04) disallows all paths for ClaudeBot, GPTBot and Bytespider, so the agent does not read the papers."
 
 - id: cms-org-cn
   name: Chinese Mathematical Society

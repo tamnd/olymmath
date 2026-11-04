@@ -1,3 +1,8 @@
+--- a/lean/vendor/putnambench/a635813f5edf/src/putnam_1971_a4.lean
++++ b/lean/vendor/putnambench/a635813f5edf/src/putnam_1971_a4.lean
+@@ -13 +13 @@
+-: ∃ N : ℕ, ∀ n ≥ N, ∀ i : Fin 2 →₀ ℕ, MvPolynomial.coeff i (P n ε) ≥ 0 :=
++: ∃ N : ℕ, ∀ n ≥ N, ∀ i : Fin 2 →₀ ℕ, (P n ε).coeff i ≥ 0 :=
 --- a/lean/vendor/putnambench/a635813f5edf/src/putnam_1987_a4.lean
 +++ b/lean/vendor/putnambench/a635813f5edf/src/putnam_1987_a4.lean
 @@ -16 +16 @@

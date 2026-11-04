@@ -557,7 +557,7 @@
   ai_train: allowed
   wave: 0
   state: planned
-  notes: Formal statements of Putnam problems in Lean, Isabelle and Coq, with no proofs. olymmath reads the Lean files only. The files in lean4/src at commit a635813f5edf are in lean/vendor/putnambench. 597 of 672 statements map to a problem, as reports/formal/putnambench.tsv shows. The source pins Lean v4.33.1. At Lean v4.35.0 and Mathlib v4.35.0 (Actions run 41621966152), 593 of 597 mapped statements compile and have formal records. 4 do not: 2021 A1, 2022 A5 and 2025 A3 use List.Chain and List.Chain', which Mathlib renamed, and 1987 A4 has Unknown identifier coeff. They have the status fails-at-pin in the report.
+  notes: Formal statements of Putnam problems in Lean, Isabelle and Coq, with no proofs. olymmath reads the Lean files only. The files in lean4/src at commit a635813f5edf are in lean/vendor/putnambench. 597 of 672 statements map to a problem, as reports/formal/putnambench.tsv shows. The source pins Lean v4.33.1. At Lean v4.35.0 and Mathlib v4.35.0 (Actions run 41621966152), 593 of 597 mapped statements compile and have formal records. 4 do not compile. They are 2021 A1, 2022 A5 and 2025 A3 use List.Chain and List.Chain', which Mathlib renamed, and 1987 A4 has Unknown identifier coeff. They have the status fails-at-pin in the report.
 
 - id: minif2f-v2
   name: miniF2F v2

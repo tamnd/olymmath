@@ -6,7 +6,7 @@ This report is made by `om coverage`. The register gives the expected positions 
 
 | Expected | C0 | C1 | C2 | Candidate | No candidate | Located seed rows |
 |---:|---:|---:|---:|---:|---:|---:|
-| 30013 | 67.3% | 11.1% | 9.6% | 729 (2.4%) | 9099 (30.3%) | 154945 |
+| 30013 | 67.3% | 11.2% | 9.6% | 749 (2.5%) | 9067 (30.2%) | 155343 |
 
 ## Sources
 
@@ -15,16 +15,16 @@ This report is made by `om coverage`. The register gives the expected positions 
 | hf-ai-mo-aops | 80661 | 50421 (62.5%) | 0 | 20635 |
 | hf-aime-1983-2026 | 1065 | 1065 (100.0%) | 1065 | 0 |
 | hf-amc12-full | 1199 | 1199 (100.0%) | 1199 | 0 |
-| hf-amo-bench | 50 | 0 (0.0%) | 0 | 50 |
+| hf-amo-bench | 50 | 50 (100.0%) | 50 | 0 |
 | hf-aops-wiki | 33676 | 26461 (78.6%) | 22444 | 5144 |
 | hf-hrm8k | 8011 | 730 (9.1%) | 0 | 7281 |
 | hf-indonesian-olympiad | 2204 | 30 (1.4%) | 0 | 0 |
 | hf-liveaopsbench | 5328 | 0 (0.0%) | 0 | 5328 |
 | hf-mathnet | 55634 | 41842 (75.2%) | 0 | 6058 |
-| hf-mathodyssey | 389 | 0 (0.0%) | 0 | 389 |
-| hf-nemotron-imo-bench | 200 | 0 (0.0%) | 0 | 200 |
-| hf-numina-olympiads | 13087 | 11033 (84.3%) | 10903 | 2054 |
-| hf-numina-olympiads-ref | 13087 | 11033 (84.3%) | 10903 | 2054 |
+| hf-mathodyssey | 148 | 148 (100.0%) | 148 | 0 |
+| hf-nemotron-imo-bench | 200 | 200 (100.0%) | 200 | 0 |
+| hf-numina-olympiads | 13087 | 11033 (84.3%) | 10793 | 2054 |
+| hf-numina-olympiads-ref | 13087 | 11033 (84.3%) | 10792 | 2054 |
 | hf-numinamath-1-5 | 315736 | 0 (0.0%) | 0 | 315736 |
 | hf-olymmath-ruc | 400 | 0 (0.0%) | 0 | 400 |
 | hf-olympiadbench | 2133 | 0 (0.0%) | 0 | 2133 |
@@ -32,7 +32,7 @@ This report is made by `om coverage`. The register gives the expected positions 
 | hf-polymath | 9000 | 0 (0.0%) | 0 | 9000 |
 | hf-putnam-1995-2025 | 372 | 372 (100.0%) | 372 | 0 |
 | hf-putnam-axiom | 100 | 100 (100.0%) | 99 | 0 |
-| hf-putnamgap | 1051 | 1051 (100.0%) | 0 | 0 |
+| hf-putnamgap | 1051 | 1051 (100.0%) | 1037 | 0 |
 | hf-tubitak | 1270 | 671 (52.8%) | 0 | 599 |
 | kalva | 724 | 724 (100.0%) | 724 | 0 |
 | kedlaya-putnam | 490 | 490 (100.0%) | 490 | 0 |
@@ -88,7 +88,7 @@ The order is the order of the register. A competition with no shape in the regis
 | imac | International Mathematical Arhimede Contest | no shape | - | - | - | 0 | 0 | 94 |
 | danube | Danube Mathematical Competition | no shape | - | - | - | 0 | 0 | 271 |
 | alibaba | Alibaba Global Mathematics Competition | no shape | - | - | - | 0 | 0 | 68 |
-| putnam | William Lowell Putnam Mathematical Competition | 1068 | 95.3% | 44.8% | 0.0% | 0 | 50 | 3592 |
+| putnam | William Lowell Putnam Mathematical Competition | 1068 | 95.3% | 44.8% | 0.0% | 1 | 49 | 3592 |
 | imc | International Mathematics Competition for University Students | 354 | 100.0% | 41.5% | 41.5% | 0 | 0 | 653 |
 | seemous | South Eastern European Mathematical Olympiad for University Students | 80 | 48.8% | 0.0% | 0.0% | 1 | 40 | 93 |
 | schweitzer | Miklós Schweitzer Competition | no shape | - | - | - | 0 | 0 | 1159 |
@@ -108,9 +108,9 @@ The order is the order of the register. A competition with no shape in the regis
 | tstst | USA TST for the TST | 132 | 99.2% | 13.6% | 13.6% | 1 | 0 | 689 |
 | us-tst | USA IMO Team Selection Test | 164 | 83.5% | 3.7% | 3.7% | 11 | 16 | 625 |
 | us-egmo-tst | USA EGMO Team Selection Test | 24 | 66.7% | 25.0% | 25.0% | 8 | 0 | 45 |
-| hmmt | Harvard-MIT Mathematics Tournament | 2546 | 96.3% | 0.0% | 0.0% | 0 | 95 | 17107 |
-| hmnt | HMMT November | 1209 | 87.9% | 0.0% | 0.0% | 0 | 146 | 3321 |
-| hmic | HMMT Invitational Competition | 70 | 92.9% | 0.0% | 0.0% | 0 | 5 | 166 |
+| hmmt | Harvard-MIT Mathematics Tournament | 2546 | 96.3% | 0.0% | 0.0% | 10 | 85 | 13957 |
+| hmnt | HMMT November | 1209 | 87.9% | 0.0% | 0.0% | 9 | 137 | 6263 |
+| hmic | HMMT Invitational Competition | 70 | 92.9% | 0.0% | 0.0% | 0 | 5 | 374 |
 | pumac | Princeton University Mathematics Competition | no shape | - | - | - | 0 | 0 | 889 |
 | bmt | Berkeley Math Tournament | no shape | - | - | - | 0 | 0 | 888 |
 | cmimc | Carnegie Mellon Informatics and Mathematics Competition | no shape | - | - | - | 0 | 0 | 357 |
@@ -123,7 +123,7 @@ The order is the order of the register. A competition with no shape in the regis
 | ca-cmoqr | Canadian Mathematical Olympiad Qualifying Repêchage | 136 | 29.4% | 0.0% | 0.0% | 0 | 96 | 179 |
 | ca-cjmo | Canadian Junior Mathematical Olympiad | 35 | 17.1% | 0.0% | 0.0% | 0 | 29 | 22 |
 | ca-euclid | Euclid Mathematics Contest | 10 | 0.0% | 0.0% | 0.0% | 0 | 10 | 13 |
-| mx-omm | Mexican Mathematical Olympiad | 244 | 89.8% | 13.1% | 13.1% | 0 | 25 | 478 |
+| mx-omm | Mexican Mathematical Olympiad | 244 | 94.7% | 18.0% | 18.0% | 0 | 13 | 478 |
 | br-obm | Brazilian Mathematical Olympiad | 288 | 93.1% | 20.1% | 20.1% | 6 | 14 | 3096 |
 | br-obmep | Brazilian Public Schools Mathematics Olympiad | no shape | - | - | - | 0 | 0 | 0 |
 | ar-oma | Argentine Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 756 |
@@ -286,9 +286,9 @@ The order is the order of the register. A competition with no shape in the regis
 | journal-mr | Mathematical Reflections | no shape | - | - | - | 0 | 0 | 0 |
 | journal-gazeta | Gazeta Matematică | no shape | - | - | - | 0 | 0 | 0 |
 | journal-parabola | Parabola | no shape | - | - | - | 0 | 0 | 0 |
-| amo-bench | AMO-Bench | no shape | - | - | - | 0 | 0 | 0 |
-| nemotron-imo-bench | Nemotron IMO-Bench | no shape | - | - | - | 0 | 0 | 0 |
-| gaic-math | GAIC Math (MathOdyssey) | no shape | - | - | - | 0 | 0 | 0 |
+| amo-bench | AMO-Bench | no shape | - | - | - | 0 | 0 | 50 |
+| nemotron-imo-bench | Nemotron IMO-Bench | no shape | - | - | - | 0 | 0 | 200 |
+| gaic-math | GAIC Math (MathOdyssey) | no shape | - | - | - | 0 | 0 | 148 |
 | ru-tst | Russian IMO Team Selection Test | no shape | - | - | - | 0 | 0 | 355 |
 | ro-egmo-tst | Romanian EGMO Team Selection Test | no shape | - | - | - | 0 | 0 | 49 |
 | bg-jbmo-tst | Bulgarian JBMO Team Selection Test | no shape | - | - | - | 0 | 0 | 56 |

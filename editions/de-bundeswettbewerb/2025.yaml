@@ -10,3 +10,8 @@ official:
     url: https://www.mathe-wettbewerbe.de/fileadmin/Mathe-Wettbewerbe/Bundeswettbewerb_Mathematik/Dokumente/Aufgaben_und_Loesungen_BWM/2025/BWM_25_2_Aufgabenblatt.pdf
     paper: round2
     source: bundeswettbewerb
+  - lang: German
+    code: de
+    url: https://www.mathe-wettbewerbe.de/fileadmin/Mathe-Wettbewerbe/Bundeswettbewerb_Mathematik/Dokumente/Aufgaben_und_Loesungen_BWM/2025/BWM_2025_Aufgabenblatt_SCREEN.pdf
+    paper: round1
+    source: bundeswettbewerb

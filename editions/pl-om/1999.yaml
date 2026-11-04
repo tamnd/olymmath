@@ -10,3 +10,7 @@ official:
     url: https://om.sem.edu.pl/static/app_main/problems/om50_2.pdf
     paper: stage2
     source: om-sem
+  - lang: Polish
+    code: pl
+    url: https://om.sem.edu.pl/static/app_main/problems/om50_3r.pdf
+    source: om-sem

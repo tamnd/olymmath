@@ -1,0 +1,22 @@
+tag: 7ZD20C5MFF
+kind: proof
+formal: 9Q3YTZGFQ0
+origin:
+  kind: human
+  source: imosllean4
+  url: https://github.com/mortarsanjaya/IMOSLLean4/blob/883b0326e585ac9a2148e5d67a4c335bb4f798be/IMOSLLean4/Main/IMO2021/N2.lean
+  commit: 883b0326e585ac9a2148e5d67a4c335bb4f798be
+  native_name: IMO2021N2
+path: lean/vendor/imosllean4/883b0326e585/IMOSLLean4/Main/IMO2021/N2.lean
+module: IMOSLLean4.Main.IMO2021.N2
+decl: IMOSL.IMO2021N2.final_solution
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+  axioms:
+    - propext
+  comparator: not-run
+  lean4checker: not-run
+  note: The proof is in the same declaration as the statement, so it cannot change the statement.

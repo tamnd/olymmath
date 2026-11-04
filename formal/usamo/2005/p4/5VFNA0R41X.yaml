@@ -1,0 +1,64 @@
+tag: 5VFNA0R41X
+kind: formal
+problem: YDA652PHJD
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Usa2005P4.lean
+module: Compfiles.Usa2005P4
+decl: Usa2005P4.usa2005_p4
+answer:
+  style: separate-def
+  decl: Usa2005P4.solution
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Usa2005P4.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Usa2005P4
+licence: Apache-2.0
+text: |-
+  abbrev solution (n : ℕ) : ℕ := (n + 1) * (2 * n ^ 2 + 4 * n + 3) / 3
+
+  snip begin
+
+  theorem usa2005_p4 (n : ℕ) :
+      {k : ℕ × ℕ × ℕ × ℕ | k.1 ≤ n ∧ k.2.1 ≤ n ∧ k.2.2.1 ≤ n ∧ k.2.2.2 ≤ n ∧
+        k.1 + k.2.2.1 = k.2.1 + k.2.2.2}.ncard = solution n
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - 5JX8CNJFF2

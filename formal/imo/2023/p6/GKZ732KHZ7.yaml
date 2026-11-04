@@ -1,0 +1,75 @@
+tag: GKZ732KHZ7
+kind: formal
+problem: G3JM4T0WMW
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo2023P6.lean
+module: Compfiles.Imo2023P6
+decl: Imo2023P6.imo2023_p6
+answer:
+  style: none
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo2023P6.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo2023P6
+licence: Apache-2.0
+text: |-
+  theorem imo2023_p6 {A B C A₁ B₁ C₁ A₂ B₂ C₂ : P}
+      (affineIndependent_ABC : AffineIndependent ℝ ![A, B, C])
+      (equilateral_ABC : (⟨_, affineIndependent_ABC⟩ : Triangle ℝ P).Equilateral)
+      (A₁_mem_interior_ABC : A₁ ∈ (⟨_, affineIndependent_ABC⟩ : Triangle ℝ P).interior)
+      (B₁_mem_interior_ABC : B₁ ∈ (⟨_, affineIndependent_ABC⟩ : Triangle ℝ P).interior)
+      (C₁_mem_interior_ABC : C₁ ∈ (⟨_, affineIndependent_ABC⟩ : Triangle ℝ P).interior)
+      (BA₁_eq_A₁C : dist B A₁ = dist A₁ C) (CB₁_eq_B₁A : dist C B₁ = dist B₁ A)
+      (AC₁_eq_C₁B : dist A C₁ = dist C₁ B)
+      (angle_BA₁C_add_angle_CB₁A_add_angle_AC₁B :
+        ∠ B A₁ C + ∠ C B₁ A + ∠ A C₁ B = 8 / 3 * π)
+      (A₂_mem_inf_BC₁_CB₁ : A₂ ∈ line[ℝ, B, C₁] ⊓ line[ℝ, C, B₁])
+      (B₂_mem_inf_CA₁_AC₁ : B₂ ∈ line[ℝ, C, A₁] ⊓ line[ℝ, A, C₁])
+      (C₂_mem_inf_AB₁_BA₁ : C₂ ∈ line[ℝ, A, B₁] ⊓ line[ℝ, B, A₁])
+      (affineIndependent_A₁B₁C₁ : AffineIndependent ℝ ![A₁, B₁, C₁])
+      (scalene_A₁B₁C₁ : (⟨_, affineIndependent_A₁B₁C₁⟩ : Triangle ℝ P).Scalene) :
+      ∃ affineIndependent_AA₁A₂ : AffineIndependent ℝ ![A, A₁, A₂],
+      ∃ affineIndependent_BB₁B₂ : AffineIndependent ℝ ![B, B₁, B₂],
+      ∃ affineIndependent_CC₁C₂ : AffineIndependent ℝ ![C, C₁, C₂],
+      2 ≤ #((⟨_, affineIndependent_AA₁A₂⟩ : Triangle ℝ P).circumsphere ∩
+            (⟨_, affineIndependent_BB₁B₂⟩ : Triangle ℝ P).circumsphere ∩
+            (⟨_, affineIndependent_CC₁C₂⟩ : Triangle ℝ P).circumsphere : Set P)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1

@@ -1,0 +1,65 @@
+tag: PG235FSGX5
+kind: formal
+problem: 8C9SA6E7V5
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo1975P6.lean
+module: Compfiles.Imo1975P6
+decl: Imo1975P6.imo1975_p6
+answer:
+  style: separate-def
+  decl: Imo1975P6.solution_set
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo1975P6.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo1975P6
+licence: Apache-2.0
+text: |-
+  abbrev solution_set : Set (ℝ[X][Y]) := {P | ∃ n : ℕ, P = (C X - 2 * Y)*(C X + Y)^n}
+
+  snip begin
+
+  theorem imo1975_p6 {P : ℝ[X][Y]} : P ∈ solution_set ↔
+      (∃ n : ℕ+, ∀ t x y : ℝ, P.evalEval (t * x) (t * y) = t^n.val * P.evalEval x y)  ∧
+      (∀ a b c : ℝ, P.evalEval (b+c) a + P.evalEval (c+a) b + P.evalEval (a+b) c = 0) ∧
+      (P.evalEval 1 0 = 1)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - DXB06A7CTE

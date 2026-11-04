@@ -1,0 +1,60 @@
+tag: P8AZ6MC5D1
+kind: formal
+problem: D2Z5F7KJ3W
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo2019P2.lean
+module: Compfiles.Imo2019P2
+decl: Imo2019P2.imo2019_p2
+answer:
+  style: none
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo2019P2.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo2019P2
+licence: Apache-2.0
+text: |-
+  theorem imo2019_p2 [Fact (finrank ℝ V = 2)] (A B C A₁ B₁ P Q P₁ Q₁ : Pt)
+      (affine_independent_ABC : AffineIndependent ℝ ![A, B, C]) (wbtw_B_A₁_C : Wbtw ℝ B A₁ C)
+      (wbtw_A_B₁_C : Wbtw ℝ A B₁ C) (wbtw_A_P_A₁ : Wbtw ℝ A P A₁) (wbtw_B_Q_B₁ : Wbtw ℝ B Q B₁)
+      (PQ_parallel_AB : line[ℝ, P, Q] ∥ line[ℝ, A, B]) (P_ne_Q : P ≠ Q)
+      (sbtw_P_B₁_P₁ : Sbtw ℝ P B₁ P₁) (angle_PP₁C_eq_angle_BAC : ∠ P P₁ C = ∠ B A C)
+      (C_ne_P₁ : C ≠ P₁) (sbtw_Q_A₁_Q₁ : Sbtw ℝ Q A₁ Q₁)
+      (angle_CQ₁Q_eq_angle_CBA : ∠ C Q₁ Q = ∠ C B A) (C_ne_Q₁ : C ≠ Q₁) :
+      Concyclic ({P, Q, P₁, Q₁} : Set Pt)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: unreviewed
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1

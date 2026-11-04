@@ -1,0 +1,64 @@
+tag: CRHKQS8MGD
+kind: formal
+problem: PKVY6C4C9D
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1967_a3.lean
+module: src.putnam_1967_a3
+decl: putnam_1967_a3
+answer:
+  style: separate-def
+  decl: putnam_1967_a3_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1967_a3.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1967_a3
+licence: Apache-2.0
+text: |-
+  abbrev putnam_1967_a3_solution : ℕ := sorry
+
+  theorem putnam_1967_a3 :
+      IsLeast
+        {a | ∃ P : Polynomial ℤ,
+          P.degree = 2 ∧
+          (∃ z1 z2 : Set.Ioo (0 : ℝ) 1, z1 ≠ z2 ∧ aeval (z1 : ℝ) P = 0 ∧ aeval (z2 : ℝ) P = 0) ∧
+          P.coeff 2 = a ∧ a > 0}
+        putnam_1967_a3_solution
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

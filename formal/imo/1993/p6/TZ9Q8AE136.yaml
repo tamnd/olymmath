@@ -1,0 +1,24 @@
+tag: TZ9Q8AE136
+kind: proof
+formal: B8JFSZ8HD1
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo1993P6.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo1993P6
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo1993P6.lean
+module: Compfiles.Imo1993P6
+decl: Imo1993P6.imo1993_p6_c
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+  axioms:
+    - Classical.choice
+    - Quot.sound
+    - propext
+  comparator: not-run
+  lean4checker: not-run
+  note: The proof is in the same declaration as the statement, so it cannot change the statement.

@@ -1,0 +1,58 @@
+tag: G1MSYDS5A6
+kind: formal
+problem: FT3JGXJZGD
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/mathlib-archive-imo/56a005855ea1/Archive/Imo/Imo2019Q4.lean
+module: Archive.Imo.Imo2019Q4
+decl: imo2019_q4
+answer:
+  style: none
+origin:
+  kind: human
+  source: mathlib-archive-imo
+  url: https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/Archive/Imo/Imo2019Q4.lean
+  commit: 56a005855ea17e0b0958f73ec801ae140b0a1679
+  native_name: Imo2019Q4
+licence: Apache-2.0
+text: |-
+  theorem imo2019_q4 {k n : ℕ} (hk : 0 < k) (hn : 0 < n) :
+      (k ! : ℤ) = ∏ i ∈ range n, ((2 : ℤ) ^ n - (2 : ℤ) ^ i) ↔ (k, n) = (1, 1) ∨ (k, n) = (3, 2)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - e58ba7f32ef4
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 3
+proofs:
+  - 8EBA2V7KY5

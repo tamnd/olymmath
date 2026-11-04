@@ -1,0 +1,23 @@
+tag: GDPMC1DAS1
+kind: proof
+formal: HHRM4ABT8N
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Usa1976P1.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Usa1976P1
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Usa1976P1.lean
+module: Compfiles.Usa1976P1
+decl: Usa1976P1.usa1976_p1_second
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+  axioms:
+    - Quot.sound
+    - propext
+  comparator: not-run
+  lean4checker: not-run
+  note: The proof is in the same declaration as the statement, so it cannot change the statement.

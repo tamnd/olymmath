@@ -1,0 +1,56 @@
+tag: EE6J5JVKEP
+kind: formal
+problem: TZH1ZE1HVH
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo2023P2.lean
+module: Compfiles.Imo2023P2
+decl: Imo2023P2.imo2023_p1
+answer:
+  style: none
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo2023P2.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo2023P2
+licence: Apache-2.0
+text: "theorem imo2023_p1\n           \n  (A B C D E L S P : Pt)\n            \n  (Ω ω : Sphere Pt)\n          \n  (perp_A_BC prll_D_BC tang_P_ω : AffineSubspace ℝ Pt)\n                                        \n  (h_ABC : AffineIndependent ℝ ![A, B, C])\n  (h_acute_ABC : (⟨![A, B, C], h_ABC⟩ :Affine.Triangle _ _).AcuteAngled)\n                  \n  (h_AB_lt_BC : dist A B < dist A C)\n                                        \n  (h_Ω : {A, B, C} ⊆ (Ω : Set Pt))\n                                               \n  (h_S_Ω : dist S C = dist S B ∧ S ∈ (Ω : Set Pt))\n                      \n  (h_S_A : (∡ C B S).sign = (∡ C B A).sign)\n                                       \n  (h_perp_A_BC : perp_A_BC.direction ⟂ line[ℝ, B, C].direction ∧ A ∈ perp_A_BC)\n                      \n  (h_D : D ∈ (perp_A_BC : Set Pt) ∩ line[ℝ, B, S])\n                                     \n  (h_E : E ∈ (perp_A_BC : Set Pt) ∩ Ω)\n                 \n  (h_E_ne_A : E ≠ A)\n                                          \n  (h_prll_D_BC : D ∈ prll_D_BC ∧ prll_D_BC ∥ line[ℝ, B, C])\n                             \n  (h_L : L ∈ (prll_D_BC : Set Pt) ∩ line[ℝ, B, E])\n                                                   \n  (h_ω : {B, D, L} ⊆ (ω : Set Pt))\n                                   \n  (h_P : P ∈ (ω : Set Pt) ∩ Ω)\n             \n  (h_P_ne_B : P ≠ B)\n                                               \n  (h_rank_tang_P_ω : Module.finrank ℝ tang_P_ω.direction = 1)\n  (h_tang_P_ω : Sphere.IsTangentAt ω P tang_P_ω) :\n                                                            \n  ∃ X : Pt,\n    X ∈ (tang_P_ω : Set Pt) ∩ line[ℝ, B, S]\n    ∧ ∠ B A X = ∠ X A C\n    ∧ ∠ B A X < π / 2"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - DYD4CGH48B

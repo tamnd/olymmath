@@ -1,0 +1,55 @@
+tag: 2CCWJB65A7
+kind: formal
+problem: TVQ94JC006
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/1988/P2.lean
+module: Imo.«1988».P2
+decl: imo_1988_p2
+answer:
+  style: embedded
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/1988/P2.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_1988_p2
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: "@[imo_problem_subject combinatorics]\ntheorem imo_1988_p2 :\n    {(n) | (n : ℕ) (h₀ : 0 < n)\n                                                              \n      (A : Fin (2 * n + 1) → Finset ℕ)\n      (B : Finset ℕ)\n      (h₀ : ∀ i, A i ⊆ B)\n                                                    \n      (h₁ : ∀ i, (A i).card = 2 * n)\n                                                                                              \n      (h₂ : ∀ i j, i ≠ j → (A i ∩ A j).card = 1)\n                                                                           \n      (h₃ : ∀ x ∈ B, ∃ i j, i ≠ j ∧ x ∈ A i ∧ x ∈ A j)\n                                                            \n      (h₅ : ∃ f : ℕ → ℕ, (∀ x : ℕ, x ∈ B → f x = 0 ∨ f x = 1) ∧\n        ∀ i, ((A i).filter (f · = 0)).card = n)} =\n    answer({n : ℕ | 0 < n ∧ 2 ∣ n})"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

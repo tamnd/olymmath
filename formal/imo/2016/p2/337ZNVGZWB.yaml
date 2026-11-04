@@ -1,0 +1,55 @@
+tag: 337ZNVGZWB
+kind: formal
+problem: RC362SSBW3
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/2016/P2.lean
+module: Imo.«2016».P2
+decl: imo_2016_p2
+answer:
+  style: embedded
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/2016/P2.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_2016_p2
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: "@[imo_problem_subject combinatorics]\ntheorem imo_2016_p2 (I M O : Fin 3) (h₀ : ![I, M, O] = ![0, 1, 2])\n    (valid_table : ∀ {n}, Matrix (Fin n) (Fin n) (Fin 3) → Prop)\n                                                                           \n    (equal_IMO) (hequal_IMO :\n        equal_IMO =\n        fun {n} (f : Matrix (Fin n) (Fin n) (Fin 3)) (idx : Finset (Fin n × Fin n)) =>\n        3 ∣ idx.card →\n          (idx.filter fun i : Fin n × Fin n => f i.1 i.2 = I).card = idx.card / 3 ∧\n          (idx.filter fun i : Fin n × Fin n => f i.1 i.2 = M).card = idx.card / 3 ∧\n          (idx.filter fun i : Fin n × Fin n => f i.1 i.2 = O).card = idx.card / 3)\n    (h_valid_table : ∀ {n} (table : Matrix (Fin n) (Fin n) (Fin 3)),\n        valid_table table ↔\n          3 ∣ n ∧\n                 \n          (∀ r, equal_IMO table (Finset.univ.filter fun i => i.1 = r)) ∧\n                    \n          (∀ c, equal_IMO table (Finset.univ.filter fun i => i.2 = c)) ∧\n                      \n          (∀ d ∈ Finset.Ioo (-n : ℤ) n,\n            equal_IMO table (Finset.univ.filter fun i => d = ↑i.1 - i.2)) ∧\n                          \n          (∀ d ∈ Finset.Ico 0 (2 * n - 1),\n            equal_IMO table (Finset.univ.filter fun i => d = ↑i.1 + i.2)))\n    (n : ℕ) :\n    (∃ table : Matrix (Fin n) (Fin n) (Fin 3), valid_table table) ↔ answer(9 ∣ n)"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

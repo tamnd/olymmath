@@ -1,0 +1,61 @@
+tag: S52CRF7VDN
+kind: formal
+problem: G9MGBZTT89
+part: a
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo1961P2.lean
+module: Compfiles.Imo1961P2
+decl: Imo1961P2.imo1961_p2a
+answer:
+  style: none
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo1961P2.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo1961P2
+licence: Apache-2.0
+text: |-
+  theorem imo1961_p2a (a b c T : ℝ)
+      (h_pos_a : 0 < a) (h_pos_b : 0 < b) (h_pos_c : 0 < c)
+      (h_area : 16 * T^2 = (a + b + c) * (a + b - c) * (a - b + c) * (-a + b + c)) :
+      a^2 + b^2 + c^2 ≥ 4 * Real.sqrt 3 * T
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - 1DYXTSPJXF

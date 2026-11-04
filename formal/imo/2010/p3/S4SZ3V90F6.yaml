@@ -1,0 +1,63 @@
+tag: S4SZ3V90F6
+kind: formal
+problem: 6MV5C1YWSZ
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo2010P3.lean
+module: Compfiles.Imo2010P3
+decl: Imo2010P3.imo2010_p3
+answer:
+  style: separate-def
+  decl: Imo2010P3.SolutionSet
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo2010P3.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo2010P3
+licence: Apache-2.0
+text: |-
+  abbrev SolutionSet : Set (ℤ>0 → ℤ>0) := { f | f = id ∨ ∃ c, ∀ x, f x = x + c }
+
+  snip begin
+
+  theorem imo2010_p3 (g : ℤ>0 → ℤ>0) :
+      g ∈ SolutionSet ↔ ∀ m n, IsSquare ((g m + n) * (g n + m))
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - XJSPVW2WPA

@@ -1,0 +1,65 @@
+tag: T5533S9HWY
+kind: formal
+problem: J82WHBWR84
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/2007/P6.lean
+module: Imo.«2007».P6
+decl: imo_2007_p6
+answer:
+  style: embedded
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/2007/P6.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_2007_p6
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: |-
+  @[imo_problem_subject algebra]
+  theorem imo_2007_p6
+      (n : ℕ) (hn : 0 < n) (S : Finset (Fin 3 → ℕ))
+      (hS : ∀ x y z, ![x, y, z] ∈ S ↔ x ∈ Set.Icc 0 n ∧ y ∈ Set.Icc 0 n ∧ z ∈ Set.Icc 0 n ∧ x + y + z > 0) :
+      IsLeast
+        {(planes.card) |
+          (planes : Finset {p : AffineSubspace ℝ ℝ³ // Module.rank ℝ p.direction = 2})
+          (hunion : (S : Set _) ⊆ ⋃ p ∈ planes, {x : Fin 3 → ℕ | (WithLp.equiv _ (Fin 3 → ℝ)).symm (x ·) ∈ p.1})
+          (h0 : ∀ p ∈ planes, !₂[0, 0, 0] ∉ p.1)}
+        answer((3 * n))
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

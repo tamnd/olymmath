@@ -1,0 +1,72 @@
+tag: TZ04DYD0NB
+kind: formal
+problem: F22EZPE4T4
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo2015P2.lean
+module: Compfiles.Imo2015P2
+decl: Imo2015P2.imo2015_p2
+answer:
+  style: separate-def
+  decl: Imo2015P2.SolutionSet
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo2015P2.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo2015P2
+licence: Apache-2.0
+text: |-
+  abbrev SolutionSet : Set (ℤ × ℤ × ℤ) := {
+    (2, 2, 2),
+    (2, 2, 3), (2, 3, 2), (3, 2, 2),
+    (2, 6, 11), (6, 11, 2), (11, 2, 6),
+    (11, 6, 2), (6, 2, 11), (2, 11, 6),
+    (3, 5, 7), (5, 7, 3), (7, 3, 5),
+    (7, 5, 3), (5, 3, 7), (3, 7, 5)
+  }
+
+  theorem imo2015_p2 (a b c : ℤ) :
+      (a,b,c) ∈ SolutionSet ↔
+        0 < a ∧ 0 < b ∧ 0 < c ∧
+        is_power_of_two (a * b - c) ∧
+        is_power_of_two (b * c - a) ∧
+        is_power_of_two (c * a - b)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - 53RC34AN2Z

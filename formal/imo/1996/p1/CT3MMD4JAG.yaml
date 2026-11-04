@@ -1,0 +1,55 @@
+tag: CT3MMD4JAG
+kind: formal
+problem: S8RRH8JTVV
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/1996/P1.lean
+module: Imo.«1996».P1
+decl: imo_1996_p1
+answer:
+  style: none
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/1996/P1.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_1996_p1
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: "@[imo_problem_subject combinatorics]\ntheorem imo_1996_p1 (r : ℕ) (hr : 0 < r) (A B : Fin 20 × Fin 12)\n                                               \n    (hAB : A = (0, 0) ∧ B = (19, 0))\n                                           \n    (valid_moves : (ℕ → Fin 20 × Fin 12) → Prop)\n    (h₀ :\n      valid_moves = fun moves =>\n        (moves 0 = A ∧\n          ∀ (t) (P₁) (_ : P₁ = moves t) (P₂) (_ : P₂ = moves (t + 1)),\n                                                                         \n            √((P₁.1 - P₂.1) ^ 2 + (P₁.2 - P₂.2) ^ 2) = √r) ∧\n                     \n        ∃ t, moves t = B) :\n    (2 ∣ r ∨ 3 ∣ r → ¬∃ moves, valid_moves moves) ∧\n      (r = 73 → ∃ moves, valid_moves moves) ∧ (r = 97 → ¬∃ moves, valid_moves moves)"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

@@ -1,0 +1,65 @@
+tag: EYWDMX53FF
+kind: formal
+problem: DRF47Z12S8
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo1984P6.lean
+module: Compfiles.Imo1984P6
+decl: Imo1984P6.imo1984_p6
+answer:
+  style: none
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo1984P6.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo1984P6
+licence: Apache-2.0
+text: |-
+  theorem imo1984_p6
+      (a b c d k m : ℕ)
+      (h₀ : 0 < a ∧ 0 < b ∧ 0 < c ∧ 0 < d)
+      (h₁ : Odd a ∧ Odd b ∧ Odd c ∧ Odd d)
+      (h₂ : a < b ∧ b < c ∧ c < d)
+      (h₃ : a * d = b * c)
+      (h₄ : a + d = 2^k)
+      (h₅ : b + c = 2^m) :
+      a = 1
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - PK6SQWKJ79

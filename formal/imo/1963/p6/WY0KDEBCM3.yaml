@@ -1,0 +1,57 @@
+tag: WY0KDEBCM3
+kind: formal
+problem: YKB78PCY1N
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo1963P6.lean
+module: Compfiles.Imo1963P6
+decl: Imo1963P6.imo1963_p6
+answer:
+  style: separate-def
+  decl: Imo1963P6.answer
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo1963P6.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo1963P6
+licence: Apache-2.0
+text: "abbrev answer : Equiv.Perm (Fin 5) where\n  toFun := ![2, 4, 3, 1, 0]\n  invFun := ![4, 3, 0, 2, 1]\n  left_inv := by intro x; fin_cases x <;> decide\n  right_inv := by intro x; fin_cases x <;> decide\n\nsnip begin\n\n                                                                          \n                                                                          \nset_option maxRecDepth 4000 in\n\ntheorem imo1963_p6 (π : Equiv.Perm (Fin 5))\n                                                                            \n                       \n    (h1 : ∀ s : Fin 5, π s ≠ s)\n                                                                             \n                                                                             \n               \n    (h2 : ∀ i : Fin 4, (π i.succ : ℕ) ≠ (π i.castSucc : ℕ) + 1)\n                                                                          \n                  \n    (h3 : (Finset.univ.filter (fun s => π s = secondPrediction s)).card = 2)\n                                                                           \n                                                                             \n                                                                           \n                                                             \n    (h4 : ((π 0 : ℕ) = (π 3 : ℕ) + 1 ∧ (π 2 : ℕ) = (π 4 : ℕ) + 1) ∨\n           ((π 0 : ℕ) = (π 3 : ℕ) + 1 ∧ (π 1 : ℕ) = (π 2 : ℕ) + 1) ∨\n           ((π 4 : ℕ) = (π 0 : ℕ) + 1 ∧ (π 1 : ℕ) = (π 2 : ℕ) + 1)) :\n    π = answer"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - ADAR6RV1CZ

@@ -1,0 +1,66 @@
+tag: V77KHEV378
+kind: formal
+problem: CKBMRM4K8V
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_2007_a2.lean
+module: src.putnam_2007_a2
+decl: putnam_2007_a2
+answer:
+  style: separate-def
+  decl: putnam_2007_a2_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_2007_a2.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_2007_a2
+licence: Apache-2.0
+text: |-
+  noncomputable abbrev putnam_2007_a2_solution : ENNReal := sorry
+
+  theorem putnam_2007_a2 :
+    IsLeast
+      {y | ∃ S : Set (Fin 2 → ℝ),
+        Convex ℝ S ∧
+        (∃ p ∈ S, p 0 > 0 ∧ p 1 > 0 ∧ p 0 * p 1 = 1) ∧
+        (∃ p ∈ S, p 0 < 0 ∧ p 1 < 0 ∧ p 0 * p 1 = 1) ∧
+        (∃ p ∈ S, p 0 < 0 ∧ p 1 > 0 ∧ p 0 * p 1 = -1) ∧
+        (∃ p ∈ S, p 0 > 0 ∧ p 1 < 0 ∧ p 0 * p 1 = -1) ∧
+      volume S = y} putnam_2007_a2_solution
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

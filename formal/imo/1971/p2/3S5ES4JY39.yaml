@@ -1,0 +1,55 @@
+tag: 3S5ES4JY39
+kind: formal
+problem: D9285S3WZD
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/1971/P2.lean
+module: Imo.«1971».P2
+decl: imo_1971_p2
+answer:
+  style: none
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/1971/P2.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_1971_p2
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: "@[imo_problem_subject combinatorics]\ntheorem imo_1971_p2 (P : Fin 9 → Set ℝ³) (A : Fin 9 → ℝ³)\n                                                                                      \n    (hP0 : P 0 = convexHull ℝ (Set.range A) ∧ Set.range A ⊆ frontier (P 0))\n                                                                                                \n    (hP0' : (interior (P 0)).Nonempty)\n                                                                                                   \n                                                                                                        \n    (hA : ∀ i : Fin 9, convexHull ℝ (A '' {i}ᶜ) ⊂ convexHull ℝ (Set.range A))\n                                                                        \n    (hP : ∀ i, P i = (A i -ᵥ A 0) +ᵥ P 0) :\n    ∃ (i j : _) (hij : i ≠ j) (p : ℝ³), p ∈ interior (P i) ∧ p ∈ interior (P j)"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

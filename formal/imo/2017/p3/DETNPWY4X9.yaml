@@ -1,0 +1,64 @@
+tag: DETNPWY4X9
+kind: formal
+problem: ZTY2QA4ZXD
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo2017P3.lean
+module: Compfiles.Imo2017P3
+decl: Imo2017P3.imo2017_p3
+answer:
+  style: separate-def
+  decl: Imo2017P3.does_exist
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo2017P3.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo2017P3
+licence: Apache-2.0
+text: |-
+  abbrev does_exist : Bool := false
+
+  theorem imo2017_p3 :
+      if does_exist then
+        ∃ σ : Strategy, ValidStrategy σ ∧
+          ∀ A p : ℕ → Pt, ValidRabbit A → ValidReports A p →
+            dist (A totalRounds) (hunterPos σ p totalRounds) ≤ 100
+      else
+        ¬ ∃ σ : Strategy, ValidStrategy σ ∧
+          ∀ A p : ℕ → Pt, ValidRabbit A → ValidReports A p →
+            dist (A totalRounds) (hunterPos σ p totalRounds) ≤ 100
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: unreviewed
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1

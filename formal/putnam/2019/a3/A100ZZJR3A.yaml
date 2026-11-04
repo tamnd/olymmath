@@ -1,0 +1,64 @@
+tag: A100ZZJR3A
+kind: formal
+problem: SCNJE0GQYK
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_2019_a3.lean
+module: src.putnam_2019_a3
+decl: putnam_2019_a3
+answer:
+  style: separate-def
+  decl: putnam_2019_a3_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_2019_a3.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_2019_a3
+licence: Apache-2.0
+text: |-
+  noncomputable abbrev putnam_2019_a3_solution : ℝ := sorry
+
+  theorem putnam_2019_a3
+    (v : Polynomial ℂ → Prop)
+    (hv : v = fun b => b.degree = 2019 ∧ 1 ≤ (b.coeff 0).re ∧ (b.coeff 2019).re ≤ 2019 ∧
+      (∀ i : Fin 2020, (b.coeff i).im = 0) ∧ (∀ i : Fin 2019, (b.coeff i).re < (b.coeff (i + 1)).re))
+    (μ : Polynomial ℂ → ℝ)
+    (hμ : μ = fun b => (Multiset.map (fun ω : ℂ => ‖ω‖) (Polynomial.roots b)).sum/2019) :
+    IsGreatest {M : ℝ | ∀ b, v b → μ b ≥ M} putnam_2019_a3_solution
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

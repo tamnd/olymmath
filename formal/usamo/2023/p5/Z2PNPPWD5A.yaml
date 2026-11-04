@@ -1,0 +1,68 @@
+tag: Z2PNPPWD5A
+kind: formal
+problem: F7P7MTVH9A
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Usa2023P5.lean
+module: Compfiles.Usa2023P5
+decl: Usa2023P5.usa2023_p5
+answer:
+  style: separate-def
+  decl: Usa2023P5.solution_set
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Usa2023P5.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Usa2023P5
+licence: Apache-2.0
+text: |-
+  abbrev solution_set : Set ℕ := { n | n.Prime }
+
+  snip begin
+
+  theorem usa2023_p5 (n : ℕ) (hn : 2 < n) :
+      n ∈ solution_set ↔
+      (∀ a : (Fin n → Fin n → Fin (n^2)),
+        (ha : a.Injective2) → row_valid (Nat.zero_lt_of_lt hn) a ha →
+          ∃ p : Fin n → Fin n → Fin n, ∃ hp : (∀ r, (p r).Injective),
+              col_valid (Nat.zero_lt_of_lt hn) (fun r c ↦ a r (p r c))
+                (injective_of_permuted_rows ha hp))
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - 8FFTBW6STX

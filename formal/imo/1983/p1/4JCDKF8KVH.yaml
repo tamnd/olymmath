@@ -1,0 +1,55 @@
+tag: 4JCDKF8KVH
+kind: formal
+problem: D3W3RNXCQB
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/1983/P1.lean
+module: Imo.«1983».P1
+decl: imo_1983_p1
+answer:
+  style: embedded
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/1983/P1.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_1983_p1
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: "@[imo_problem_subject algebra]\ntheorem imo_1983_p1 :\n    {f : ℝ → ℝ |\n        (∀ x : ℝ, 0 < x → 0 < f x) ∧\n        (∀ x y : ℝ, 0 < x ∧ 0 < y → f (x * f y) = y * f x) ∧\n        Filter.Tendsto f Filter.atTop (\U0001D4DD 0)} =\n                                                                                                \n      answer({f : ℝ → ℝ | ∀ x : ℝ, 0 < x → f x = 1 / x})"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

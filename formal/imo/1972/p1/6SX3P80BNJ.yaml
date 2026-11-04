@@ -1,0 +1,61 @@
+tag: 6SX3P80BNJ
+kind: formal
+problem: E8CQPBA4Y0
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo1972P1.lean
+module: Compfiles.Imo1972P1
+decl: Imo1972P1.imo1972_p1
+answer:
+  style: none
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo1972P1.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo1972P1
+licence: Apache-2.0
+text: |-
+  theorem imo1972_p1 (S : Finset ℕ)
+      (Scard : S.card = 10)
+      (Sdigits : ∀ n ∈ S, (Nat.digits 10 n).length = 2) :
+      ∃ S1 S2 : Finset ℕ, S1 ⊆ S ∧ S2 ⊆ S ∧
+         Disjoint S1 S2 ∧ ∑ n ∈ S1, n = ∑ n ∈ S2, n
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - Y0TR1TMPRA

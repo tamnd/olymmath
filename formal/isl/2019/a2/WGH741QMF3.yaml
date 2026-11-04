@@ -1,0 +1,62 @@
+tag: WGH741QMF3
+kind: formal
+problem: BBKNWYH4G4
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/imosllean4/883b0326e585/IMOSLLean4/Main/IMO2019/A2/A2.lean
+module: IMOSLLean4.Main.IMO2019.A2.A2
+decl: IMOSL.IMO2019A2.final_solution
+answer:
+  style: none
+origin:
+  kind: human
+  source: imosllean4
+  url: https://github.com/mortarsanjaya/IMOSLLean4/blob/883b0326e585ac9a2148e5d67a4c335bb4f798be/IMOSLLean4/Main/IMO2019/A2/A2.lean
+  commit: 883b0326e585ac9a2148e5d67a4c335bb4f798be
+  native_name: IMO2019A2
+licence: Apache-2.0
+options:
+  autoImplicit: "true"
+text: |-
+  theorem final_solution [Semiring R] [LinearOrder R] [IsStrictOrderedRing R]
+      [ExistsAddOfLE R] {M : Multiset R} (hM : M.sum = 0)
+      (ha : ∀ x ∈ M, x ≤ a) (hb : ∀ x ∈ M, b ≤ x) :
+      card M • (a * b) + (M.map λ x ↦ x ^ 2).sum ≤ 0
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+  note: The source needs autoImplicit true.
+fidelity:
+  status: unreviewed
+  steps:
+    - step: compile
+      result: fail
+      at: "2026-11-03"
+      by: agent
+      note: The file compiles only with autoImplicit true, so a name in the statement can be bound by accident.
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 2
+proofs:
+  - H45EYXF75R

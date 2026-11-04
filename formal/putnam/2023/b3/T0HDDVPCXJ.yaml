@@ -1,0 +1,55 @@
+tag: T0HDDVPCXJ
+kind: formal
+problem: VS5696QG6X
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_2023_b3.lean
+module: src.putnam_2023_b3
+decl: putnam_2023_b3
+answer:
+  style: separate-def
+  decl: putnam_2023_b3_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_2023_b3.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_2023_b3
+licence: Apache-2.0
+text: "noncomputable abbrev putnam_2023_b3_solution : ℕ → ℝ := sorry\n\ntheorem putnam_2023_b3\n    (IsZigZag : {k : ℕ} → (Fin k → ℝ) → Prop)\n    (IsZigZag_def : ∀ (k : ℕ) [NeZero k] (y : Fin k → ℝ),\n      IsZigZag y ↔ k = 1 ∨ ((∀ i : Fin k, i + 1 < k → y (i + 1) ≠ y i)) ∧\n        (∀ i : Fin k, i + 2 < k → (y (i + 2) < y (i + 1) ↔ y i < y (i + 1))))\n    (n : ℕ)\n    (hn : 2 ≤ n)\n    (a : (Fin n → Icc (0 : ℝ) 1) → ℕ)\n    (ha : ∀ x, IsGreatest {k | ∃ i : Fin k ↪o Fin n, IsZigZag ((↑) ∘ x ∘ i)} (a x)) :\n    \U0001D53C[(↑) ∘ a] = putnam_2023_b3_solution n"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

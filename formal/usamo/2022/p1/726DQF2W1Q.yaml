@@ -1,0 +1,68 @@
+tag: 726DQF2W1Q
+kind: formal
+problem: VVX7NGXJ04
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Usa2022P1.lean
+module: Compfiles.Usa2022P1
+decl: Usa2022P1.usa2022_p1
+answer:
+  style: none
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Usa2022P1.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Usa2022P1
+licence: Apache-2.0
+text: |-
+  theorem usa2022_p1
+      (a b : ℕ)
+      (ha : 0 < a)
+      (hb : 0 < b)
+      (color : Fin (a + b + 1) × Fin (a + b + 1) → Fin 2)
+      (c0 : a ^ 2 + a * b - b ≤ Fintype.card {s // color s = 0})
+      (c1 : b ^ 2 + a * b - a ≤ Fintype.card {s // color s = 1}) :
+      ∃ A B : Finset (Fin (a + b + 1) × Fin (a + b + 1)),
+        A.card = a ∧ B.card = b ∧
+        (∀ x ∈ A, color x = 0) ∧
+        (∀ y ∈ B, color y = 1) ∧
+        ∀ x ∈ A ∪ B, ∀ y ∈ A ∪ B, x ≠ y → x.fst ≠ y.fst ∧ x.snd ≠ y.snd
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - 512ZKV2TZK

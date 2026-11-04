@@ -1,0 +1,55 @@
+tag: EXVVZA9G26
+kind: formal
+problem: EEJK7P24VV
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1964_b4.lean
+module: src.putnam_1964_b4
+decl: putnam_1964_b4
+answer:
+  style: separate-def
+  decl: putnam_1964_b4_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1964_b4.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1964_b4
+licence: Apache-2.0
+text: "abbrev putnam_1964_b4_solution : ℕ → ℕ := sorry\n\ntheorem putnam_1964_b4\n    {n : ℕ} (hn : 0 < n)\n                                                                                       \n    (C : Fin n → Set (EuclideanSpace ℝ (Fin 3)))\n                                                          \n    (v : Fin n → EuclideanSpace ℝ (Fin 3))\n                                                                                    \n    (hv : ∀ i, C i = Metric.sphere 0 1 ∩ {x : EuclideanSpace ℝ (Fin 3) | ⟪v i, x⟫_ℝ = 0 })\n                                  \n    (hv' : ∀ i, v i ≠ 0)\n    (hCinj : Function.Injective C)\n                                                 \n    (hT₂ : ∀ᵉ (x ∈ Metric.sphere 0 1) (y ∈ Metric.sphere 0 1),\n      (Finset.univ.filter (fun i => {x, y} ⊆ (C i))).card ≤ 2)\n                                                                                              \n    (IsRegion : Set (EuclideanSpace ℝ (Fin 3)) → Prop)\n                                                                                                   \n                                 \n    (IsRegion_def : ∀ R, IsRegion R ↔ R.Nonempty ∧ ∃ sign : Fin n → SignType, (∀ i, sign i ≠ 0) ∧\n      R = Metric.sphere 0 1 ∩ {x : EuclideanSpace ℝ (Fin 3) | ∀ i, signHom ⟪v i, x⟫_ℝ = sign i}) :\n    {R | IsRegion R}.ncard = putnam_1964_b4_solution n"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

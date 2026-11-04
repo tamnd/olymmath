@@ -1,0 +1,63 @@
+tag: 4F3MTWKRGY
+kind: formal
+problem: 8N099GDENX
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo1999P3.lean
+module: Compfiles.Imo1999P3
+decl: Imo1999P3.imo1999_p3
+answer:
+  style: separate-def
+  decl: Imo1999P3.solution_value
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo1999P3.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo1999P3
+licence: Apache-2.0
+text: |-
+  abbrev solution_value (n : ℕ) : ℕ := n * (n + 2) / 4
+
+  theorem imo1999_p3 (n : ℕ) (h_pos : 0 < n) (h_even : Even n) :
+    IsLeast
+      {k : ℕ | ∃ s : Finset (Square n), IsValidMarking s ∧ s.card = k}
+      (solution_value n)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - 49D1DJ20BE

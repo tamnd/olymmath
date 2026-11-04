@@ -1,0 +1,56 @@
+tag: XYDGQN214C
+kind: formal
+problem: RADER8C2RS
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo1998P2.lean
+module: Compfiles.Imo1998P2
+decl: Imo1998P2.imo1998_p2
+answer:
+  style: none
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo1998P2.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo1998P2
+licence: Apache-2.0
+text: |-
+  theorem imo1998_p2 [Fintype J] [Fintype C] (a b k : ℕ) (hC : Fintype.card C = a)
+      (hJ : Fintype.card J = b) (ha : 0 < a) (hb : Odd b)
+      (hk : ∀ p : JudgePair J, p.Distinct → (agreedContestants r p).card ≤ k) :
+      (b - 1 : ℚ) / (2 * b) ≤ k / a
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: unreviewed
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1

@@ -1,0 +1,64 @@
+tag: CHN27MAQW4
+kind: formal
+problem: 0S8DJVF0AR
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo2024P6.lean
+module: Compfiles.Imo2024P6
+decl: Imo2024P6.imo2024_p6
+answer:
+  style: separate-def
+  decl: Imo2024P6.solution
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo2024P6.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo2024P6
+licence: Apache-2.0
+text: |-
+  abbrev solution : ℕ := 2
+
+  theorem imo2024_p6 :
+      (∀ f, Aquaesulian f → #(Set.range (fun x ↦ f x + f (-x))) ≤ solution) ∧
+      ∀ c : ℕ,
+        (∀ f, Aquaesulian f → #(Set.range (fun x ↦ f x + f (-x))) ≤ c) →
+          solution ≤ c
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - MJJCREH917

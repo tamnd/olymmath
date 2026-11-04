@@ -1,0 +1,61 @@
+tag: 8M3K90BT01
+kind: formal
+problem: 1RS8ZCYD5C
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1984_b1.lean
+module: src.putnam_1984_b1
+decl: putnam_1984_b1
+answer:
+  style: separate-def
+  decl: putnam_1984_b1_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1984_b1.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1984_b1
+licence: Apache-2.0
+text: |-
+  noncomputable abbrev putnam_1984_b1_solution : Polynomial ℝ × Polynomial ℝ := sorry
+
+  theorem putnam_1984_b1
+  (f : ℕ → ℤ)
+  (hf : ∀ n > 0, f n = ∑ i : Set.Icc 1 n, ((i)! : ℤ))
+  : let (P, Q)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

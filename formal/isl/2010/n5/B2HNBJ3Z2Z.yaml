@@ -1,0 +1,24 @@
+tag: B2HNBJ3Z2Z
+kind: proof
+formal: 3THDZ91B2Q
+origin:
+  kind: human
+  source: imosllean4
+  url: https://github.com/mortarsanjaya/IMOSLLean4/blob/883b0326e585ac9a2148e5d67a4c335bb4f798be/IMOSLLean4/Main/IMO2010/N5.lean
+  commit: 883b0326e585ac9a2148e5d67a4c335bb4f798be
+  native_name: IMO2010N5
+path: lean/vendor/imosllean4/883b0326e585/IMOSLLean4/Main/IMO2010/N5.lean
+module: IMOSLLean4.Main.IMO2010.N5
+decl: IMOSL.IMO2010N5.final_solution
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+  axioms:
+    - Classical.choice
+    - Quot.sound
+    - propext
+  comparator: not-run
+  lean4checker: not-run
+  note: The proof is in the same declaration as the statement, so it cannot change the statement.

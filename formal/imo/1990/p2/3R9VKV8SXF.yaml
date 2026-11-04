@@ -1,0 +1,62 @@
+tag: 3R9VKV8SXF
+kind: formal
+problem: QG913C4F9K
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo1990P2.lean
+module: Compfiles.Imo1990P2
+decl: Imo1990P2.imo1990_p2
+answer:
+  style: separate-def
+  decl: Imo1990P2.solution
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo1990P2.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo1990P2
+licence: Apache-2.0
+text: |-
+  abbrev solution (n : ℕ) : ℕ := if n % 3 = 2 then n - 1 else n
+
+  theorem imo1990_p2 (n : ℕ) (hn : 3 ≤ n) :
+      IsLeast {k : ℕ | ∀ B : Finset (ZMod (2 * n - 1)), B.card = k → IsGood n B}
+        (solution n)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - WAJE1AVMJE

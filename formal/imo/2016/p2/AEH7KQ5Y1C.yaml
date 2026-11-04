@@ -1,0 +1,63 @@
+tag: AEH7KQ5Y1C
+kind: formal
+problem: RC362SSBW3
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo2016P2.lean
+module: Compfiles.Imo2016P2
+decl: Imo2016P2.imo2016_p2
+answer:
+  style: separate-def
+  decl: Imo2016P2.solution
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo2016P2.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo2016P2
+licence: Apache-2.0
+text: |-
+  abbrev solution : Set ℕ := { n | 9 ∣ n }
+
+  snip begin
+
+  theorem imo2016_p2 (n : ℕ) (hn : 0 < n) :
+      n ∈ solution ↔ ∃ f : Fin n → Fin n → Letter, MODTable f
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - 2FZAMQAS5D

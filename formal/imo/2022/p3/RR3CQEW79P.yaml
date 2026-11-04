@@ -1,0 +1,61 @@
+tag: RR3CQEW79P
+kind: formal
+problem: CWFM3MFS17
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo2022P3.lean
+module: Compfiles.Imo2022P3
+decl: Imo2022P3.imo2023_p3
+answer:
+  style: none
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo2022P3.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo2022P3
+licence: Apache-2.0
+text: |-
+  theorem imo2023_p3
+      {k : ℕ} (_hk : 0 < k) (S : Finset ℕ) (hne : S.Nonempty)
+      (hS : ∀ p ∈ S, Odd p ∧ Nat.Prime p)
+      {p₁ p₂ : Fin #S ≃ S} (hp₁ : Condition k S p₁) (hp₂ : Condition k S p₂) :
+      (∃ i, ∀ j, p₂ j = p₁ (j + i)) ∨ ∃ i, ∀ j, p₂ j = p₁ (Fin.rev j + i)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - VRA42KM3MD

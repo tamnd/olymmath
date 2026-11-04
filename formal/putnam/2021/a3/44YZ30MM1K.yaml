@@ -1,0 +1,68 @@
+tag: 44YZ30MM1K
+kind: formal
+problem: W3FCYT049D
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_2021_a3.lean
+module: src.putnam_2021_a3
+decl: putnam_2021_a3
+answer:
+  style: separate-def
+  decl: putnam_2021_a3_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_2021_a3.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_2021_a3
+licence: Apache-2.0
+text: |-
+  abbrev putnam_2021_a3_solution : Set ℕ := sorry
+
+  theorem putnam_2021_a3
+    (N : ℕ)
+    (Nsphere : Set (EuclideanSpace ℝ (Fin 3)))
+    (hNsphere : Nsphere = {p | (p 0) ^ 2 + (p 1) ^ 2 + (p 2) ^ 2 = (N : ℝ)})
+    (intcoords : (EuclideanSpace ℝ (Fin 3)) → Prop)
+    (intcoords_def : ∀ p, intcoords p ↔ ∀ i : Fin 3, p i = round (p i)) :
+    (0 < N ∧ ∃ A B C D : EuclideanSpace ℝ (Fin 3),
+      A ∈ Nsphere ∧ B ∈ Nsphere ∧ C ∈ Nsphere ∧ D ∈ Nsphere ∧
+      intcoords A ∧ intcoords B ∧ intcoords C ∧ intcoords D ∧
+      (∃ s > 0, dist A B = s ∧ dist A C = s ∧ dist A D = s ∧ dist B C = s ∧ dist B D = s ∧ dist C D = s))
+    ↔ N ∈ putnam_2021_a3_solution
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

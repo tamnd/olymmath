@@ -1,0 +1,65 @@
+tag: FXCTT7X5A3
+kind: formal
+problem: PSEYPC1N9Y
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/1999/P2.lean
+module: Imo.«1999».P2
+decl: imo_1999_p2
+answer:
+  style: embedded
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/1999/P2.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_1999_p2
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: |-
+  @[imo_problem_subject algebra]
+  theorem imo_1999_p2 (n : ℕ) (h₀ : n ≥ 2) [NeZero n] (LHS RHS : (Fin n → ℝ) → ℝ)
+      (h₁ :
+        LHS = fun x =>
+          ∑ i ∈ Finset.Ico 0 ((n - 1) : Fin _),
+            ∑ j ∈ Finset.Ioc i ((n - 1) : Fin _), x i * x j * (x i ^ 2 + x j ^ 2))
+      (h₃ : RHS = fun x => (∑ i ∈ Finset.univ, x i) ^ 4) :
+      IsLeast {C : ℝ | ∀ (x : Fin n → ℝ) (hx : ∀ i, 0 ≤ x i), LHS x ≤ C * RHS x} answer(1 / 8) ∧
+        ∀ (x : Fin n → ℝ) (hx : ∀ i, 0 ≤ x i),
+          LHS x = 1 / 8 * RHS x ↔ answer(∃ i j, i ≠ j ∧ x i = x j ∧ ∀ k, k ≠ i ∧ k ≠ j → x k = 0)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

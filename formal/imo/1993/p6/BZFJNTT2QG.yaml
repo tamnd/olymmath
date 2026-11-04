@@ -1,0 +1,55 @@
+tag: BZFJNTT2QG
+kind: formal
+problem: VATEC4WQQ1
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/1993/P6.lean
+module: Imo.«1993».P6
+decl: imo_1993_p6
+answer:
+  style: none
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/1993/P6.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_1993_p6
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: "@[imo_problem_subject combinatorics]\ntheorem imo_1993_p6 (n : ℕ) (h₀ : n > 1) [NeZero n]\n                                 \n    (lamps : ℕ → Fin n → Bool)\n    (h₁ : lamps 0 = ⊤)\n    (h₂ :\n      ∀ t > 0,\n        lamps t =\n          ite (lamps (t - 1) (t - 1 : ℕ) = true)\n            (Function.update (lamps (t - 1)) t (!lamps (t - 1) t))\n            (lamps (t - 1))) :\n    (∃ M : ℕ, 0 < M ∧ lamps M = ⊤) ∧\n      ((∃ k : ℕ, n = 2 ^ k) → lamps (n ^ 2 - 1) = ⊤) ∧\n        ((∃ k : ℕ, n = 2 ^ k + 1) → lamps (n ^ 2 - n + 1) = ⊤)"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

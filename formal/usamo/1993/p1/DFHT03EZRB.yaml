@@ -1,0 +1,62 @@
+tag: DFHT03EZRB
+kind: formal
+problem: X24QRSQT57
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Usa1993P1.lean
+module: Compfiles.Usa1993P1
+decl: Usa1993P1.usa1993_p1
+answer:
+  style: separate-def
+  decl: Usa1993P1.a_is_larger
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Usa1993P1.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Usa1993P1
+licence: Apache-2.0
+text: |-
+  abbrev a_is_larger : ℕ → Bool := fun _ ↦ true
+
+  theorem usa1993_p1 (n : ℕ) (hn : 2 ≤ n) (a b : ℝ) (ha : 0 < a) (hb : 0 < b)
+      (han : a^n = a + 1) (hbn : b^(2 * n) = b + 3 * a) :
+      if a_is_larger n then b < a else a < b
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - SRHWPA827Z

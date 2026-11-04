@@ -1,0 +1,63 @@
+tag: FB6F0955H1
+kind: formal
+problem: AD29KPPB5K
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1974_b1.lean
+module: src.putnam_1974_b1
+decl: putnam_1974_b1
+answer:
+  style: separate-def
+  decl: putnam_1974_b1_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1974_b1.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1974_b1
+licence: Apache-2.0
+text: |-
+  abbrev putnam_1974_b1_solution : (Fin 5 → EuclideanSpace ℝ (Fin 2)) → Prop := sorry
+
+  theorem putnam_1974_b1
+      (d : (Fin 5 → EuclideanSpace ℝ (Fin 2)) → ℝ)
+      (d_def : ∀ p, d p = ∑ ⟨i, j⟩ : Fin 5 × Fin 5, if i < j then dist (p i) (p j) else 0)
+      (p : Fin 5 → EuclideanSpace ℝ (Fin 2))
+      (hp : ∀ i, ‖p i‖ = 1) :
+      d p = sSup {d q | (q) (hq : ∀ i, ‖q i‖ = 1)} ↔ putnam_1974_b1_solution p
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

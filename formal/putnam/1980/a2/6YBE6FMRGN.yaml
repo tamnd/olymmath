@@ -1,0 +1,68 @@
+tag: 6YBE6FMRGN
+kind: formal
+problem: 88BZW399A8
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1980_a2.lean
+module: src.putnam_1980_a2
+decl: putnam_1980_a2
+answer:
+  style: separate-def
+  decl: putnam_1980_a2_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1980_a2.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1980_a2
+licence: Apache-2.0
+text: |-
+  abbrev putnam_1980_a2_solution : ℕ → ℕ → ℕ := sorry
+
+  theorem putnam_1980_a2
+      (r s : ℕ)
+      (abcdlcm : ℕ → ℕ → ℕ → ℕ → Prop)
+      (rspos : r > 0 ∧ s > 0)
+      (habcdlcm : ∀ a b c d : ℕ, abcdlcm a b c d ↔
+        (a > 0 ∧ b > 0 ∧ c > 0 ∧ d > 0 ∧
+        (3 ^ r * 7 ^ s = Nat.lcm (Nat.lcm a b) c) ∧
+        (3 ^ r * 7 ^ s = Nat.lcm (Nat.lcm a b) d) ∧
+        (3 ^ r * 7 ^ s = Nat.lcm (Nat.lcm a c) d) ∧
+        (3 ^ r * 7 ^ s = Nat.lcm (Nat.lcm b c) d))) :
+      {(a, b, c, d) : ℕ × ℕ × ℕ × ℕ | abcdlcm a b c d}.encard = putnam_1980_a2_solution r s
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

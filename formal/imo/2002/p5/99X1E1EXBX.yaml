@@ -1,0 +1,60 @@
+tag: 99X1E1EXBX
+kind: formal
+problem: 2D53FNV8TV
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/2002/P5.lean
+module: Imo.«2002».P5
+decl: imo_2002_p5
+answer:
+  style: embedded
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/2002/P5.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_2002_p5
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: |-
+  @[imo_problem_subject algebra]
+  theorem imo_2002_p5 :
+      { f : ℝ → ℝ | ∀ x y u v,
+        (f x + f y) * (f u + f v) = f (x * u - y * v) + f (x * v + y * u)
+      } = answer({ fun _ ↦ 0, fun _ ↦ 1 / 2, fun x ↦ x ^ 2 })
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

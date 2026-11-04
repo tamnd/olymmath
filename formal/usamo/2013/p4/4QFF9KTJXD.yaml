@@ -1,0 +1,66 @@
+tag: 4QFF9KTJXD
+kind: formal
+problem: H9351DEZ2V
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Usa2013P4.lean
+module: Compfiles.Usa2013P4
+decl: Usa2013P4.usa2013_p4
+answer:
+  style: separate-def
+  decl: Usa2013P4.solution_set
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Usa2013P4.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Usa2013P4
+licence: Apache-2.0
+text: |-
+  abbrev solution_set : Set (ℝ × ℝ × ℝ) :=
+    { p : ℝ × ℝ × ℝ |
+        Distinguished p.1 p.2.1 p.2.2 ∨ Distinguished p.2.1 p.1 p.2.2 ∨
+          Distinguished p.2.2 p.1 p.2.1 }
+
+  theorem usa2013_p4 (x y z : ℝ) :
+      1 ≤ x ∧ 1 ≤ y ∧ 1 ≤ z ∧
+        min (min (√(x + x * y * z)) (√(y + x * y * z))) (√(z + x * y * z)) =
+          √(x - 1) + √(y - 1) + √(z - 1) ↔ (x, y, z) ∈ solution_set
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - FEKZE62DT6

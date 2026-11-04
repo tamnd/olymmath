@@ -1,0 +1,62 @@
+tag: JYCCRHTRTN
+kind: formal
+problem: JRFGNN0GNT
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Usa1992P1.lean
+module: Compfiles.Usa1992P1
+decl: Usa1992P1.usa1992_p1
+answer:
+  style: separate-def
+  decl: Usa1992P1.solution
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Usa1992P1.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Usa1992P1
+licence: Apache-2.0
+text: |-
+  abbrev solution : ℕ → ℕ := fun n ↦ 9 * 2 ^ n
+
+  theorem usa1992_p1 (n : ℕ) :
+      (Nat.digits 10
+       (∏ i ∈ Finset.range (n + 1), (10^(2^i) - 1))).sum = solution n
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - 5E60Y5SKBY

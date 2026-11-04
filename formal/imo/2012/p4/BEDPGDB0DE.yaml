@@ -1,0 +1,64 @@
+tag: BEDPGDB0DE
+kind: formal
+problem: QSM5XBK1C4
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/2012/P4.lean
+module: Imo.«2012».P4
+decl: imo_2012_p4
+answer:
+  style: embedded
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/2012/P4.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_2012_p4
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: |-
+  @[imo_problem_subject algebra]
+  theorem imo_2012_p4 :
+      { f : ℤ → ℤ | ∀ a b c, a + b + c = 0 →
+        f a ^ 2 + f b ^ 2 + f c ^ 2 = 2 * f a * f b + 2 * f b * f c + 2 * f c * f a
+      } = answer(
+        { fun x ↦ k * x ^ 2 | (k : ℤ) } ∪
+        { fun x ↦ if Even x then 0 else k | (k : ℤ) } ∪
+        { fun x ↦ if 4 ∣ x then 0 else if Odd x then k else 4 * k | (k : ℤ) }
+      )
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

@@ -1,5 +1,4 @@
 # The import of compfiles at 1745e6ced3e671bd74417548494b034eb2c87da8: 551 statements, 510 mapped to a problem, 505 with a proof.
-# The import wrote no formal record, because the files have not passed a compile check at the pin yet. Rule F01 needs one.
 # native	decl	part	locator	status	tag	proved
 Bulgaria1998P1	Bulgaria1998P1.bulgaria1998_p1			no-locator		true
 Bulgaria1998P11	Bulgaria1998P11.bulgaria1998_p11			no-locator		true
@@ -8,305 +7,305 @@ Bulgaria1998P3	Bulgaria1998P3.bulgaria1998_p3			no-locator		true
 Bulgaria1998P6	Bulgaria1998P6.bulgaria1998_p6			no-locator		true
 Bulgaria1998P8	Bulgaria1998P8.bulgaria1998_p8			no-locator		true
 CIIM2022P6	CIIM2022P6.ciim2022_p6			no-locator		true
-Canada1998P3	Canada1998P3.canada1998_p3		ca-cmo/1998/p3	mapped		true
-Canada1998P5	Canada1998P5.canada1998_p5		ca-cmo/1998/p5	mapped		true
-Egmo2023P1	Egmo2023P1.egmo2023_p1		egmo/2023/p1	mapped		true
+Canada1998P3	Canada1998P3.canada1998_p3		ca-cmo/1998/p3	mapped	8VSZA6NW8J	true
+Canada1998P5	Canada1998P5.canada1998_p5		ca-cmo/1998/p5	mapped	3HBMD4RFZ2	true
+Egmo2023P1	Egmo2023P1.egmo2023_p1		egmo/2023/p1	mapped	4C45PATC4Z	true
 Hungary1998P6	Hungary1998P6.hungary1998_p6			no-locator		true
-Imo1959P1	Imo1959P1.imo1959_p1		imo/1959/p1	mapped		true
-Imo1959P2	Imo1959P2.imo1959_p2a	a	imo/1959/p2	mapped		true
-Imo1959P2	Imo1959P2.imo1959_p2b	b	imo/1959/p2	mapped		true
-Imo1959P2	Imo1959P2.imo1959_p2c	c	imo/1959/p2	mapped		true
-Imo1959P3	Imo1959P3.imo1959_p3	a	imo/1959/p3	mapped		true
-Imo1959P3	Imo1959P3.imo1959_p3_comparison	b	imo/1959/p3	mapped		true
-Imo1960P1	Imo1960P1.imo1960_p1		imo/1960/p1	mapped		true
-Imo1960P2	Imo1960Q2.imo1960_p2		imo/1960/p2	mapped		true
-Imo1961P1	Imo1961P1.imo1961_p1a	a	imo/1961/p1	mapped		true
-Imo1961P1	Imo1961P1.imo1961_p1b	b	imo/1961/p1	mapped		true
-Imo1961P2	Imo1961P2.imo1961_p2a	a	imo/1961/p2	mapped		true
-Imo1961P2	Imo1961P2.imo1961_p2b	b	imo/1961/p2	mapped		true
-Imo1961P3	Imo1961P3.imo1961_p3		imo/1961/p3	mapped		true
-Imo1962P1	Imo1962P1.imo1962_p1		imo/1962/p1	mapped		true
-Imo1962P2	Imo1962P2.imo1962_p2		imo/1962/p2	mapped		true
-Imo1962P4	imo1962_p4		imo/1962/p4	mapped		true
-Imo1963P1	Imo1963P1.imo1963_p1		imo/1963/p1	mapped		true
-Imo1963P4	Imo1963P4.imo1963_p4		imo/1963/p4	mapped		true
-Imo1963P5	Imo1963P5.imo1963_p5		imo/1963/p5	mapped		true
-Imo1963P6	Imo1963P6.imo1963_p6		imo/1963/p6	mapped		true
-Imo1964P1	Imo1964P1.imo1964_p1a	a	imo/1964/p1	mapped		true
-Imo1964P1	Imo1964P1.imo1964_p1b	b	imo/1964/p1	mapped		true
-Imo1964P2	Imo1964P2.imo1964_p2		imo/1964/p2	mapped		true
-Imo1964P4	Imo1964P4.imo1964_p4		imo/1964/p4	mapped		true
-Imo1965P1	Imo1965P1.imo1965_p1		imo/1965/p1	mapped		true
-Imo1965P2	Imo1965P2.imo1965_p2		imo/1965/p2	mapped		true
-Imo1965P4	Imo1965P4.imo1965_p4		imo/1965/p4	mapped		true
-Imo1966P1	Imo1966P1.imo1966_p1		imo/1966/p1	mapped		true
-Imo1966P4	Imo1966P4.imo1966_p4		imo/1966/p4	mapped		true
-Imo1966P5	Imo1966P5.imo1966_p5		imo/1966/p5	mapped		true
-Imo1967P3	Imo1967P3.imo1967_p3		imo/1967/p3	mapped		true
-Imo1967P5	Imo1967P5.imo1967_p5		imo/1967/p5	mapped		true
-Imo1967P6	Imo1967P6.imo1967_p6		imo/1967/p6	mapped		true
-Imo1968P2	Imo1968P2.imo1968_p2		imo/1968/p2	mapped		true
-Imo1968P3	Imo1968P3.imo1968_p3		imo/1968/p3	mapped		true
-Imo1968P5	Imo1968P5.imo1968_p5a	a	imo/1968/p5	mapped		true
-Imo1968P5	Imo1968P5.imo1968_p5b	b	imo/1968/p5	mapped		true
-Imo1968P6	Imo1968P6.imo1968_p6		imo/1968/p6	mapped		true
-Imo1969P1	Imo1969P1.imo1969_p1		imo/1969/p1	mapped		true
-Imo1969P2	Imo1969P2.imo1969_p2		imo/1969/p2	mapped		true
-Imo1969P6	Imo1969P6.imo1969_p6		imo/1969/p6	mapped		true
-Imo1970P2	Imo1970P2.imo1970_p2		imo/1970/p2	mapped		true
-Imo1970P3	Imo1970P3.imo1970_p3		imo/1970/p3	mapped		true
-Imo1970P4	Imo1970P4.imo1970_p4		imo/1970/p4	mapped		true
-Imo1970P6	Imo1970P6.imo1970_p6		imo/1970/p6	mapped		true
-Imo1971P1	Imo1971P1.imo1971_p1		imo/1971/p1	mapped		true
-Imo1971P3	Imo1971P3.imo1971_p3		imo/1971/p3	mapped		true
-Imo1971P5	Imo1971P5.imo1971_p5		imo/1971/p5	mapped		true
-Imo1971P6	Imo1971P6.imo1971_p6		imo/1971/p6	mapped		true
-Imo1972P1	Imo1972P1.imo1972_p1		imo/1972/p1	mapped		true
-Imo1972P3	Imo1972P3.imo1972_p3		imo/1972/p3	mapped		true
-Imo1972P4	Imo1972P4.imo1972_p4		imo/1972/p4	mapped		true
-Imo1972P5	Imo1972P5.imo1972_p5		imo/1972/p5	mapped		true
-Imo1973P3	Imo1973P3.imo1973_p3		imo/1973/p3	mapped		true
-Imo1973P5	Imo1973P5.imo1973_p5		imo/1973/p5	mapped		true
-Imo1973P6	Imo1973P6.imo1973_p6		imo/1973/p6	mapped		true
-Imo1974P1	Imo1974P1.imo1974_p1		imo/1974/p1	mapped		true
-Imo1974P2	Imo1974P2.imo1974_p2		imo/1974/p2	mapped		false
-Imo1974P3	Imo1974P3.imo1974_p3		imo/1974/p3	mapped		true
-Imo1974P4	Imo1974P4.imo1974_p4		imo/1974/p4	mapped		true
-Imo1974P5	Imo1974P5.imo1974_p5		imo/1974/p5	mapped		true
-Imo1974P6	Imo1974P6.imo1974_p6		imo/1974/p6	mapped		true
-Imo1975P1	Imo1975P1.imo1975_p1		imo/1975/p1	mapped		true
-Imo1975P2	Imo1975P2.imo1975_p2		imo/1975/p2	mapped		true
-Imo1975P4	Imo1975P4.imo1975_p4		imo/1975/p4	mapped		true
-Imo1975P5	Imo1975P5.imo1975_p5		imo/1975/p5	mapped		true
-Imo1975P6	Imo1975P6.imo1975_p6		imo/1975/p6	mapped		true
-Imo1976P2	Imo1976P2.imo1976_p2		imo/1976/p2	mapped		true
-Imo1976P3	Imo1976P3.imo1976_p3		imo/1976/p3	mapped		true
-Imo1976P4	Imo1976P4.imo1976_p4		imo/1976/p4	mapped		true
-Imo1976P5	Imo1976P5.imo1976_p5		imo/1976/p5	mapped		true
-Imo1976P6	Imo1976P6.imo1976_p6		imo/1976/p6	mapped		true
-Imo1977P2	Imo1977P2.imo1977_p2		imo/1977/p2	mapped		true
-Imo1977P3	Imo1977P3.imo1977_p3		imo/1977/p3	mapped		true
-Imo1977P4	Imo1977P4.imo1977_p4		imo/1977/p4	mapped		true
-Imo1977P5	Imo1977P5.imo1977_p5		imo/1977/p5	mapped		true
-Imo1977P6	Imo1977P6.imo1977_p6		imo/1977/p6	mapped		true
-Imo1978P1	Imo1978P1.imo1978_p1		imo/1978/p1	mapped		true
-Imo1978P3	Imo1978P3.imo1978_p3		imo/1978/p3	mapped		true
-Imo1978P5	Imo1978P5.imo1978_p5		imo/1978/p5	mapped		true
-Imo1978P6	Imo1978P6.imo1978_p6		imo/1978/p6	mapped		true
-Imo1979P1	Imo1979P1.imo1979_p1		imo/1979/p1	mapped		true
-Imo1979P2	Imo1979P2.imo1979_p2		imo/1979/p2	mapped		true
-Imo1979P5	Imo1979P5.imo1979_p5		imo/1979/p5	mapped		true
-Imo1979P6	Imo1979P6.imo1979_p6		imo/1979/p6	mapped		true
-Imo1981P2	Imo1981P2.imo1981_p2		imo/1981/p2	mapped		true
-Imo1981P3	Imo1981P3.imo1981_p3		imo/1981/p3	mapped		true
-Imo1981P4	Imo1981P4.imo1981_p4		imo/1981/p4	mapped		true
-Imo1981P6	Imo1981P6.imo1981_p6		imo/1981/p6	mapped		true
-Imo1982P1	Imo1982P1.imo1982_p1		imo/1982/p1	mapped		true
-Imo1982P3	Imo1982P3.imo1982_p3a	a	imo/1982/p3	mapped		true
-Imo1982P3	Imo1982P3.imo1982_p3b	b	imo/1982/p3	mapped		true
-Imo1982P4	Imo1982P4.imo1982_p4		imo/1982/p4	mapped		true
-Imo1983P1	Imo1983P1.imo1983_p1		imo/1983/p1	mapped		true
-Imo1983P3	Imo1983P3.imo1983_p3		imo/1983/p3	mapped		true
-Imo1983P5	Imo1983P5.imo1983_p5		imo/1983/p5	mapped		true
-Imo1983P6	Imo1983P6.imo1983_p6		imo/1983/p6	mapped		true
-Imo1984P1	Imo1984P1.imo1984_p1		imo/1984/p1	mapped		true
-Imo1984P2	Imo1984P2.imo1984_p2		imo/1984/p2	mapped		true
-Imo1984P3	Imo1984P3.imo1984_p3		imo/1984/p3	mapped		true
-Imo1984P6	Imo1984P6.imo1984_p6		imo/1984/p6	mapped		true
-Imo1985P2	Imo1985P2.imo1985_p2		imo/1985/p2	mapped		true
-Imo1985P3	Imo1985P3.imo1985_p3		imo/1985/p3	mapped		true
-Imo1985P4	Imo1985P4.imo1985_p4		imo/1985/p4	mapped		true
-Imo1985P6	Imo1985P6.imo1985_p6		imo/1985/p6	mapped		true
-Imo1986P1	Imo1986P1.imo1986_p1		imo/1986/p1	mapped		true
-Imo1986P3	Imo1986P3.imo1986_p3		imo/1986/p3	mapped		true
-Imo1986P5	Imo1986P5.imo1986_p5		imo/1986/p5	mapped		true
-Imo1986P6	Imo1986P6.imo1986_p6		imo/1986/p6	mapped		true
-Imo1987P1	Imo1987P1.imo1987_p1		imo/1987/p1	mapped		true
-Imo1987P3	Imo1987P3.imo1987_p3		imo/1987/p3	mapped		true
-Imo1987P4	Imo1987P4.imo1987_p4		imo/1987/p4	mapped		true
-Imo1987P6	Imo1987P6.imo1987_p6		imo/1987/p6	mapped		true
-Imo1988P2	Imo1988P2.imo1988_p2		imo/1988/p2	mapped		true
-Imo1988P3	Imo1988P3.imo1988_p3		imo/1988/p3	mapped		true
-Imo1988P4	imo1988_p4		imo/1988/p4	mapped		true
-Imo1988P6	Imo1988P6.imo1988_p6		imo/1988/p6	mapped		true
-Imo1989P1	Imo1989P1.imo1989_p1		imo/1989/p1	mapped		true
-Imo1989P3	Imo1989P3.imo1989_p3		imo/1989/p3	mapped		true
-Imo1989P5	Imo1989P5.imo1989_p5		imo/1989/p5	mapped		true
-Imo1989P6	Imo1989P6.imo1989_p6		imo/1989/p6	mapped		true
-Imo1990P2	Imo1990P2.imo1990_p2		imo/1990/p2	mapped		true
-Imo1990P3	Imo1990P3.imo1990_p3		imo/1990/p3	mapped		true
-Imo1990P4	Imo1990P4.imo1990_p4		imo/1990/p4	mapped		true
-Imo1990P5	Imo1990P5.imo1990_p5		imo/1990/p5	mapped		true
-Imo1991P2	Imo1991P2.imo1991_p2		imo/1991/p2	mapped		true
-Imo1991P3	Imo1991P3.imo1991_p3		imo/1991/p3	mapped		true
-Imo1991P4	Imo1991P4.imo1991_p4		imo/1991/p4	mapped		true
-Imo1991P5	Imo1991P5.imo1991_p5		imo/1991/p5	mapped		true
-Imo1991P6	Imo1991P6.imo1991_p6		imo/1991/p6	mapped		true
-Imo1992P1	Imo1992P1.imo1992_p1		imo/1992/p1	mapped		true
-Imo1992P2	Imo1992P2.imo1992_p2		imo/1992/p2	mapped		true
-Imo1992P3	Imo1992P3.imo1992_p3		imo/1992/p3	mapped		true
-Imo1992P5	Imo1992P5.imo1992_p5		imo/1992/p5	mapped		true
-Imo1992P6	Imo1992P6.imo1992_p6		imo/1992/p6	mapped		true
-Imo1993P1	Imo1993P1.imo1993_p1		imo/1993/p1	mapped		true
-Imo1993P3	Imo1993P3.imo1993_p3		imo/1993/p3	mapped		true
-Imo1993P5	Imo1993P5.imo1993_p5		imo/1993/p5	mapped		true
-Imo1993P6	Imo1993P6.imo1993_p6_a	a	imo/1993/p6	mapped		true
-Imo1993P6	Imo1993P6.imo1993_p6_b	b	imo/1993/p6	mapped		true
-Imo1993P6	Imo1993P6.imo1993_p6_c	c	imo/1993/p6	mapped		true
-Imo1994P1	Imo1994P1.imo1994_p1		imo/1994/p1	mapped		true
-Imo1994P3	Imo1994P3.imo1994_p3a	a	imo/1994/p3	mapped		true
-Imo1994P3	Imo1994P3.imo1994_p3b	b	imo/1994/p3	mapped		true
-Imo1994P4	Imo1994P4.imo1994_p4		imo/1994/p4	mapped		true
-Imo1994P5	Imo1994P5.imo1994_p5		imo/1994/p5	mapped		true
-Imo1994P6	Imo1994P6.imo1994_p6		imo/1994/p6	mapped		true
-Imo1995P2	Imo1995P2.imo1995_p2		imo/1995/p2	mapped		true
-Imo1995P4	Imo1995P4.imo1995_p4		imo/1995/p4	mapped		true
-Imo1995P6	Imo1995P6.imo1995_p6		imo/1995/p6	mapped		true
-Imo1996P1	Imo1996P1.imo1996_p1_a	a	imo/1996/p1	mapped		true
-Imo1996P1	Imo1996P1.imo1996_p1_b	b	imo/1996/p1	mapped		true
-Imo1996P1	Imo1996P1.imo1996_p1_c	c	imo/1996/p1	mapped		true
-Imo1996P3	Imo1996P3.imo1996_p3		imo/1996/p3	mapped		true
-Imo1996P4	Imo1996P4.imo1996_p4		imo/1996/p4	mapped		true
-Imo1996P6	Imo1996P6.imo1996_p6		imo/1996/p6	mapped		true
-Imo1997P3	Imo1997P3.imo1997_p3		imo/1997/p3	mapped		true
-Imo1997P4	Imo1997P4.imo1997_p4		imo/1997/p4	mapped		true
-Imo1997P5	Imo1997P5.imo1997_p5		imo/1997/p5	mapped		true
-Imo1997P6	Imo1997P6.imo1997_p6		imo/1997/p6	mapped		true
-Imo1998P2	imo1998_p2		imo/1998/p2	mapped		true
-Imo1998P3	Imo1998P3.imo1998_p3		imo/1998/p3	mapped		true
-Imo1998P4	Imo1998P4.imo1998_p4		imo/1998/p4	mapped		true
-Imo1998P6	Imo1998P6.imo1998_p6		imo/1998/p6	mapped		true
-Imo1999P2	Imo1999P2.imo1999_p2		imo/1999/p2	mapped		true
-Imo1999P3	Imo1999P3.imo1999_p3		imo/1999/p3	mapped		true
-Imo1999P4	Imo1999P4.imo1999_p4		imo/1999/p4	mapped		true
-Imo1999P6	Imo1999P6.imo1999_p6		imo/1999/p6	mapped		true
-Imo2000P2	Imo2000P2.imo2000_p2		imo/2000/p2	mapped		true
-Imo2000P3	Imo2000P3.imo2000_p3		imo/2000/p3	mapped		true
-Imo2000P4	Imo2000P4.imo2000_p4		imo/2000/p4	mapped		true
-Imo2000P5	Imo2000P5.imo2000_p5		imo/2000/p5	mapped		true
-Imo2001P1	Imo2001P1.imo2001_p1		imo/2001/p1	mapped		true
-Imo2001P2	Imo2001P2.imo2001_p2		imo/2001/p2	mapped		true
-Imo2001P3	Imo2001P3.imo2001_p3		imo/2001/p3	mapped		true
-Imo2001P4	Imo2001Q4.imo2001_p4		imo/2001/p4	mapped		true
-Imo2001P5	Imo2001P5.imo2001_p5		imo/2001/p5	mapped		true
-Imo2001P6	Imo2001P6.imo2001_p6		imo/2001/p6	mapped		true
-Imo2002P1	Imo2002P1.imo2002_p1		imo/2002/p1	mapped		true
-Imo2002P3	Imo2002P3.imo2002_p3		imo/2002/p3	mapped		true
-Imo2002P4	Imo2002P4.imo2002_p4		imo/2002/p4	mapped		true
-Imo2002P5	Imo2002P5.imo2002_p5		imo/2002/p5	mapped		true
-Imo2003P1	Imo2003P1.imo2003_p1		imo/2003/p1	mapped		true
-Imo2003P2	Imo2003P2.imo2003_p2		imo/2003/p2	mapped		true
-Imo2003P5	Imo2003P5.imo2003_p5	a	imo/2003/p5	mapped		true
-Imo2003P5	Imo2003P5.imo2003_p5_equality	b	imo/2003/p5	mapped		true
-Imo2003P6	Imo2003P6.imo2003_p6		imo/2003/p6	mapped		true
-Imo2004P2	Imo2004P2.imo2004_p2		imo/2004/p2	mapped		true
-Imo2004P3	Imo2004P3.imo2004_p3		imo/2004/p3	mapped		true
-Imo2004P4	Imo2004P4.imo2004_p4		imo/2004/p4	mapped		true
-Imo2004P6	Imo2004P6.imo2004_p6		imo/2004/p6	mapped		true
-Imo2005P2	Imo2005P2.imo2005_p2		imo/2005/p2	mapped		true
-Imo2005P3	Imo2005P3.imo2005_p3		imo/2005/p3	mapped		true
-Imo2005P4	Imo2005P4.imo2005_p4		imo/2005/p4	mapped		true
-Imo2005P6	Imo2005P6.imo2005_p6		imo/2005/p6	mapped		true
-Imo2006P3	Imo2006P3.imo2006_p3		imo/2006/p3	mapped		true
-Imo2006P4	Imo2006P4.imo2006_p4		imo/2006/p4	mapped		true
-Imo2006P5	Imo2006P5.imo2006_p5		imo/2006/p5	mapped		true
-Imo2007P1	Imo2007P1.imo2007_p1a	a	imo/2007/p1	mapped		true
-Imo2007P1	Imo2007P1.imo2007_p1b	b	imo/2007/p1	mapped		true
-Imo2007P3	Imo2007P3.imo2007_p3		imo/2007/p3	mapped		true
-Imo2007P5	Imo2007P5.imo2007_p5		imo/2007/p5	mapped		true
-Imo2007P6	Imo2007P6.imo2007_p6		imo/2007/p6	mapped		true
-Imo2008P2	Imo2008P2.imo2008_p2a	a	imo/2008/p2	mapped		true
-Imo2008P2	Imo2008P2.imo2008_p2b	b	imo/2008/p2	mapped		true
-Imo2008P3	Imo2008P3.imo2008_p3		imo/2008/p3	mapped		true
-Imo2008P4	Imo2008P4.imo2008_p4		imo/2008/p4	mapped		true
-Imo2008P5	Imo2008P5.imo2008_p5		imo/2008/p5	mapped		true
-Imo2009P1	Imo2009P1.imo2009_p1		imo/2009/p1	mapped		true
-Imo2009P3	Imo2009P3.imo2009_p3		imo/2009/p3	mapped		true
-Imo2009P5	Imo2009P5.imo2009_p5		imo/2009/p5	mapped		true
-Imo2009P6	Imo2009P6.imo2009_p6		imo/2009/p6	mapped		true
-Imo2010P1	Imo2010P1.imo2010_p1		imo/2010/p1	mapped		true
-Imo2010P3	Imo2010P3.imo2010_p3		imo/2010/p3	mapped		true
-Imo2010P5	Imo2010P5.imo2010_p5		imo/2010/p5	mapped		true
-Imo2010P6	Imo2010P6.imo2010_p6		imo/2010/p6	mapped		true
-Imo2011P1	Imo2011P1.imo2011_p1		imo/2011/p1	mapped		true
-Imo2011P3	Imo2011P3.imo2011_p3		imo/2011/p3	mapped		true
-Imo2011P4	Imo2011P4.imo2011_p4		imo/2011/p4	mapped		true
-Imo2011P5	Imo2011P5.imo2011_p5		imo/2011/p5	mapped		true
-Imo2012P2	Imo2012P2.imo2012_p2		imo/2012/p2	mapped		true
-Imo2012P3	imo2012_p3_part_a	a	imo/2012/p3	mapped		true
-Imo2012P3	imo2012_p3_part_b	b	imo/2012/p3	mapped		true
-Imo2012P4	Imo2012P4.imo2012_p4		imo/2012/p4	mapped		true
-Imo2012P5	Imo2012P5.imo2012_p5		imo/2012/p5	mapped		true
-Imo2012P6	Imo2012P6.imo2012_p6		imo/2012/p6	mapped		true
-Imo2013P1	Imo2013P1.imo2013_p1		imo/2013/p1	mapped		true
-Imo2013P2	Imo2013P2.imo2013_p2		imo/2013/p2	mapped		true
-Imo2013P5	Imo2013P5.imo2013_p5		imo/2013/p5	mapped		true
-Imo2014P1	Imo2014P1.imo2014_p1		imo/2014/p1	mapped		true
-Imo2014P2	Imo2014P2.imo2014_p2		imo/2014/p2	mapped		true
-Imo2014P4	Imo2014P4.imo2014_p4		imo/2014/p4	mapped		true
-Imo2014P5	Imo2014P5.imo2014_p5		imo/2014/p5	mapped		true
-Imo2014P6	Imo2014P6.imo2014_p6		imo/2014/p6	mapped		true
-Imo2015P2	Imo2015P2.imo2015_p2		imo/2015/p2	mapped		true
-Imo2015P5	Imo2015P5.imo2015_p5		imo/2015/p5	mapped		true
-Imo2015P6	Imo2015P6.imo2015_p6		imo/2015/p6	mapped		true
-Imo2016P2	Imo2016P2.imo2016_p2		imo/2016/p2	mapped		true
+Imo1959P1	Imo1959P1.imo1959_p1		imo/1959/p1	mapped	9FRVBTP7TT	true
+Imo1959P2	Imo1959P2.imo1959_p2a	a	imo/1959/p2	mapped	47WPMTQ5J6	true
+Imo1959P2	Imo1959P2.imo1959_p2b	b	imo/1959/p2	mapped	R00ZHKXGWP	true
+Imo1959P2	Imo1959P2.imo1959_p2c	c	imo/1959/p2	mapped	3V13XDTXE4	true
+Imo1959P3	Imo1959P3.imo1959_p3	a	imo/1959/p3	mapped	X97TR7KAAQ	true
+Imo1959P3	Imo1959P3.imo1959_p3_comparison	b	imo/1959/p3	mapped	EZ7H4VF2X8	true
+Imo1960P1	Imo1960P1.imo1960_p1		imo/1960/p1	mapped	DYANGQETHE	true
+Imo1960P2	Imo1960Q2.imo1960_p2		imo/1960/p2	mapped	29VH3C9TGC	true
+Imo1961P1	Imo1961P1.imo1961_p1a	a	imo/1961/p1	mapped	53KAGPGGB4	true
+Imo1961P1	Imo1961P1.imo1961_p1b	b	imo/1961/p1	mapped	6YJRYBQKCQ	true
+Imo1961P2	Imo1961P2.imo1961_p2a	a	imo/1961/p2	mapped	S52CRF7VDN	true
+Imo1961P2	Imo1961P2.imo1961_p2b	b	imo/1961/p2	mapped	2EZ9578YTJ	true
+Imo1961P3	Imo1961P3.imo1961_p3		imo/1961/p3	mapped	N06NRXWZDM	true
+Imo1962P1	Imo1962P1.imo1962_p1		imo/1962/p1	mapped	AE0M86XKZ7	true
+Imo1962P2	Imo1962P2.imo1962_p2		imo/1962/p2	mapped	BX4Q4NHSGM	true
+Imo1962P4	Imo1962P4.imo1962_p4		imo/1962/p4	mapped	WA8AGV1ZZ7	true
+Imo1963P1	Imo1963P1.imo1963_p1		imo/1963/p1	mapped	33YG0WVM2Z	true
+Imo1963P4	Imo1963P4.imo1963_p4		imo/1963/p4	mapped	R1MW3YQJ8M	true
+Imo1963P5	Imo1963P5.imo1963_p5		imo/1963/p5	mapped	AZ3YK7FE2B	true
+Imo1963P6	Imo1963P6.imo1963_p6		imo/1963/p6	mapped	WY0KDEBCM3	true
+Imo1964P1	Imo1964P1.imo1964_p1a	a	imo/1964/p1	mapped	D2VE71CJ8P	true
+Imo1964P1	Imo1964P1.imo1964_p1b	b	imo/1964/p1	mapped	1R5CSS5BGE	true
+Imo1964P2	Imo1964P2.imo1964_p2		imo/1964/p2	mapped	GC97MNVGYR	true
+Imo1964P4	Imo1964P4.imo1964_p4		imo/1964/p4	mapped	2YTEXA9PN3	true
+Imo1965P1	Imo1965P1.imo1965_p1		imo/1965/p1	mapped	HNC5X6QH9R	true
+Imo1965P2	Imo1965P2.imo1965_p2		imo/1965/p2	mapped	SD4TZ3H1FT	true
+Imo1965P4	Imo1965P4.imo1965_p4		imo/1965/p4	mapped	XTWXBSQECH	true
+Imo1966P1	Imo1966P1.imo1966_p1		imo/1966/p1	mapped	FA4W2MBEQ9	true
+Imo1966P4	Imo1966P4.imo1966_p4		imo/1966/p4	mapped	V4YAQQX9GK	true
+Imo1966P5	Imo1966P5.imo1966_p5		imo/1966/p5	mapped	MYF2G8BD9V	true
+Imo1967P3	Imo1967P3.imo1967_p3		imo/1967/p3	mapped	V1ATPQ61PW	true
+Imo1967P5	Imo1967P5.imo1967_p5		imo/1967/p5	mapped	293GWBRS9X	true
+Imo1967P6	Imo1967P6.imo1967_p6		imo/1967/p6	mapped	6E0F8VANY6	true
+Imo1968P2	Imo1968P2.imo1968_p2		imo/1968/p2	mapped	2C026P52X5	true
+Imo1968P3	Imo1968P3.imo1968_p3		imo/1968/p3	mapped	R1M4QC5XMP	true
+Imo1968P5	Imo1968P5.imo1968_p5a	a	imo/1968/p5	mapped	618JTV5SQF	true
+Imo1968P5	Imo1968P5.imo1968_p5b	b	imo/1968/p5	mapped	5WF2QT4KA2	true
+Imo1968P6	Imo1968P6.imo1968_p6		imo/1968/p6	mapped	GVS977AFXN	true
+Imo1969P1	Imo1969P1.imo1969_p1		imo/1969/p1	mapped	V0NF0B28XX	true
+Imo1969P2	Imo1969P2.imo1969_p2		imo/1969/p2	mapped	FFFHTGFMWM	true
+Imo1969P6	Imo1969P6.imo1969_p6		imo/1969/p6	mapped	2A16XAWRR3	true
+Imo1970P2	Imo1970P2.imo1970_p2		imo/1970/p2	mapped	VTTD990MF0	true
+Imo1970P3	Imo1970P3.imo1970_p3		imo/1970/p3	mapped	88VV67DZ34	true
+Imo1970P4	Imo1970P4.imo1970_p4		imo/1970/p4	mapped	7HB10GG81F	true
+Imo1970P6	Imo1970P6.imo1970_p6		imo/1970/p6	mapped	BHHET9GQ82	true
+Imo1971P1	Imo1971P1.imo1971_p1		imo/1971/p1	mapped	GCWTMA1AHY	true
+Imo1971P3	Imo1971P3.imo1971_p3		imo/1971/p3	mapped	3BRF8DMQEP	true
+Imo1971P5	Imo1971P5.imo1971_p5		imo/1971/p5	mapped	SNXXYTR7ZJ	true
+Imo1971P6	Imo1971P6.imo1971_p6		imo/1971/p6	mapped	336ZZWGCE8	true
+Imo1972P1	Imo1972P1.imo1972_p1		imo/1972/p1	mapped	6SX3P80BNJ	true
+Imo1972P3	Imo1972P3.imo1972_p3		imo/1972/p3	mapped	BKPEB89KMG	true
+Imo1972P4	Imo1972P4.imo1972_p4		imo/1972/p4	mapped	9MVJZR2KMT	true
+Imo1972P5	Imo1972P5.imo1972_p5		imo/1972/p5	mapped	VMY3HRJ2KC	true
+Imo1973P3	Imo1973P3.imo1973_p3		imo/1973/p3	mapped	9ZBT6NMT99	true
+Imo1973P5	Imo1973P5.imo1973_p5		imo/1973/p5	mapped	22DSE03FS3	true
+Imo1973P6	Imo1973P6.imo1973_p6		imo/1973/p6	mapped	7DN1Z57EXY	true
+Imo1974P1	Imo1974P1.imo1974_p1		imo/1974/p1	mapped	HZ1WVW0JZW	true
+Imo1974P2	Imo1974P2.imo1974_p2		imo/1974/p2	mapped	MNNEJY6XB7	false
+Imo1974P3	Imo1974P3.imo1974_p3		imo/1974/p3	mapped	SXCZJZC06H	true
+Imo1974P4	Imo1974P4.imo1974_p4		imo/1974/p4	mapped	X3XMR5N743	true
+Imo1974P5	Imo1974P5.imo1974_p5		imo/1974/p5	mapped	3HQ3A0J8B0	true
+Imo1974P6	Imo1974P6.imo1974_p6		imo/1974/p6	mapped	YHKQZSX64K	true
+Imo1975P1	Imo1975P1.imo1975_p1		imo/1975/p1	mapped	CGHY0H90DT	true
+Imo1975P2	Imo1975P2.imo1975_p2		imo/1975/p2	mapped	Z165YN61JB	true
+Imo1975P4	Imo1975P4.imo1975_p4		imo/1975/p4	mapped	GEWBAQ9XMA	true
+Imo1975P5	Imo1975P5.imo1975_p5		imo/1975/p5	mapped	H9W9FG7SA9	true
+Imo1975P6	Imo1975P6.imo1975_p6		imo/1975/p6	mapped	PG235FSGX5	true
+Imo1976P2	Imo1976P2.imo1976_p2		imo/1976/p2	mapped	BWFZN8CKJE	true
+Imo1976P3	Imo1976P3.imo1976_p3		imo/1976/p3	mapped	EDP14FNX50	true
+Imo1976P4	Imo1976P4.imo1976_p4		imo/1976/p4	mapped	C2A2A8Y2T0	true
+Imo1976P5	Imo1976P5.imo1976_p5		imo/1976/p5	mapped	8SJCJ2Z28E	true
+Imo1976P6	Imo1976P6.imo1976_p6		imo/1976/p6	mapped	X7F1F3J7JD	true
+Imo1977P2	Imo1977P2.imo1977_p2		imo/1977/p2	mapped	J0JABAWN4P	true
+Imo1977P3	Imo1977P3.imo1977_p3		imo/1977/p3	mapped	HQ0WMGA3NF	true
+Imo1977P4	Imo1977P4.imo1977_p4		imo/1977/p4	mapped	H39G6YABN4	true
+Imo1977P5	Imo1977P5.imo1977_p5		imo/1977/p5	mapped	XWHX4SQY5H	true
+Imo1977P6	Imo1977P6.imo1977_p6		imo/1977/p6	mapped	GS6D74P8BG	true
+Imo1978P1	Imo1978P1.imo1978_p1		imo/1978/p1	mapped	WXT7VB43MR	true
+Imo1978P3	Imo1978P3.imo1978_p3		imo/1978/p3	mapped	2X2RRNTXRT	true
+Imo1978P5	Imo1978P5.imo1978_p5		imo/1978/p5	mapped	7BYYD48ERZ	true
+Imo1978P6	Imo1978P6.imo1978_p6		imo/1978/p6	mapped	3GC8H571EQ	true
+Imo1979P1	Imo1979P1.imo1979_p1		imo/1979/p1	mapped	2MH2HW2PVK	true
+Imo1979P2	Imo1979P2.imo1979_p2		imo/1979/p2	mapped	48PXX5AMSB	true
+Imo1979P5	Imo1979P5.imo1979_p5		imo/1979/p5	mapped	KP8WKP7SCV	true
+Imo1979P6	Imo1979P6.imo1979_p6		imo/1979/p6	mapped	4AD3QKVVRC	true
+Imo1981P2	Imo1981P2.imo1981_p2		imo/1981/p2	mapped	NJW99H998K	true
+Imo1981P3	Imo1981P3.imo1981_p3		imo/1981/p3	mapped	5G9EZ8F6W2	true
+Imo1981P4	Imo1981P4.imo1981_p4		imo/1981/p4	mapped	VK20GMGM32	true
+Imo1981P6	Imo1981P6.imo1981_p6		imo/1981/p6	mapped	PG1PHR32H5	true
+Imo1982P1	Imo1982P1.imo1982_p1		imo/1982/p1	mapped	DJN8FTAK3W	true
+Imo1982P3	Imo1982P3.imo1982_p3a	a	imo/1982/p3	mapped	PCB4MXJAWZ	true
+Imo1982P3	Imo1982P3.imo1982_p3b	b	imo/1982/p3	mapped	9V4F8R416Z	true
+Imo1982P4	Imo1982P4.imo1982_p4		imo/1982/p4	mapped	QKAT9ZXYXB	true
+Imo1983P1	Imo1983P1.imo1983_p1		imo/1983/p1	mapped	DK86AYBQGX	true
+Imo1983P3	Imo1983P3.imo1983_p3		imo/1983/p3	mapped	B1KS2JAT7Q	true
+Imo1983P5	Imo1983P5.imo1983_p5		imo/1983/p5	mapped	F6MSENQK9N	true
+Imo1983P6	Imo1983P6.imo1983_p6		imo/1983/p6	mapped	B5CQQPP6JS	true
+Imo1984P1	Imo1984P1.imo1984_p1		imo/1984/p1	mapped	8SMX9SYN4C	true
+Imo1984P2	Imo1984P2.imo1984_p2		imo/1984/p2	mapped	SW0MDMTJCG	true
+Imo1984P3	Imo1984P3.imo1984_p3		imo/1984/p3	mapped	K8GGHR0Z06	true
+Imo1984P6	Imo1984P6.imo1984_p6		imo/1984/p6	mapped	EYWDMX53FF	true
+Imo1985P2	Imo1985P2.imo1985_p2		imo/1985/p2	mapped	99YPY0G0ZN	true
+Imo1985P3	Imo1985P3.imo1985_p3		imo/1985/p3	mapped	N5E1C5WH52	true
+Imo1985P4	Imo1985P4.imo1985_p4		imo/1985/p4	mapped	S4EWWE34QH	true
+Imo1985P6	Imo1985P6.imo1985_p6		imo/1985/p6	mapped	W613MNA9X6	true
+Imo1986P1	Imo1986P1.imo1986_p1		imo/1986/p1	mapped	FQVYVMG0TN	true
+Imo1986P3	Imo1986P3.imo1986_p3		imo/1986/p3	mapped	6GGK02QCJE	true
+Imo1986P5	Imo1986P5.imo1986_p5		imo/1986/p5	mapped	BZ40D099TS	true
+Imo1986P6	Imo1986P6.imo1986_p6		imo/1986/p6	mapped	W1EZRANJBX	true
+Imo1987P1	Imo1987P1.imo1987_p1		imo/1987/p1	mapped	1XFZ1SZXCN	true
+Imo1987P3	Imo1987P3.imo1987_p3		imo/1987/p3	mapped	AYT0NBP557	true
+Imo1987P4	Imo1987P4.imo1987_p4		imo/1987/p4	mapped	MEHBNR07YM	true
+Imo1987P6	Imo1987P6.imo1987_p6		imo/1987/p6	mapped	V3AJY67APR	true
+Imo1988P2	Imo1988P2.imo1988_p2		imo/1988/p2	mapped	E0S4VPFDKE	true
+Imo1988P3	Imo1988P3.imo1988_p3		imo/1988/p3	mapped	9KQ5Y5N767	true
+Imo1988P4	Imo1988P4.imo1988_p4		imo/1988/p4	mapped	A89MEHXYGQ	true
+Imo1988P6	Imo1988P6.imo1988_p6		imo/1988/p6	mapped	ZY4NZS0ZGE	true
+Imo1989P1	Imo1989P1.imo1989_p1		imo/1989/p1	mapped	M8BFVPD1AE	true
+Imo1989P3	Imo1989P3.imo1989_p3		imo/1989/p3	mapped	88FCDVSJF6	true
+Imo1989P5	Imo1989P5.imo1989_p5		imo/1989/p5	mapped	Y987TQMBQM	true
+Imo1989P6	Imo1989P6.imo1989_p6		imo/1989/p6	mapped	QCX29Z5N6C	true
+Imo1990P2	Imo1990P2.imo1990_p2		imo/1990/p2	mapped	3R9VKV8SXF	true
+Imo1990P3	Imo1990P3.imo1990_p3		imo/1990/p3	mapped	R49QZF36AM	true
+Imo1990P4	Imo1990P4.imo1990_p4		imo/1990/p4	mapped	QV8MH88Q7J	true
+Imo1990P5	Imo1990P5.imo1990_p5		imo/1990/p5	mapped	MMP72P133A	true
+Imo1991P2	Imo1991P2.imo1991_p2		imo/1991/p2	mapped	JZ9MAX22GY	true
+Imo1991P3	Imo1991P3.imo1991_p3		imo/1991/p3	mapped	5A4ZMCNSCM	true
+Imo1991P4	Imo1991P4.imo1991_p4		imo/1991/p4	mapped	HZJBMRDSXZ	true
+Imo1991P5	Imo1991P5.imo1991_p5		imo/1991/p5	mapped	JHHKJYTYHV	true
+Imo1991P6	Imo1991P6.imo1991_p6		imo/1991/p6	mapped	1ZK51JTAD6	true
+Imo1992P1	Imo1992P1.imo1992_p1		imo/1992/p1	mapped	S9ZW3YHR42	true
+Imo1992P2	Imo1992P2.imo1992_p2		imo/1992/p2	mapped	86GA67AN8K	true
+Imo1992P3	Imo1992P3.imo1992_p3		imo/1992/p3	mapped	SM9T2P78C5	true
+Imo1992P5	Imo1992P5.imo1992_p5		imo/1992/p5	mapped	KXDYX1QKRN	true
+Imo1992P6	Imo1992P6.imo1992_p6		imo/1992/p6	mapped	HN6YAFM553	true
+Imo1993P1	Imo1993P1.imo1993_p1		imo/1993/p1	mapped	M3A0NZ5E3R	true
+Imo1993P3	Imo1993P3.imo1993_p3		imo/1993/p3	mapped	V4SFZQ58FX	true
+Imo1993P5	Imo1993P5.imo1993_p5		imo/1993/p5	mapped	KCST54M6Z4	true
+Imo1993P6	Imo1993P6.imo1993_p6_a	a	imo/1993/p6	mapped	CTV4KE31Q8	true
+Imo1993P6	Imo1993P6.imo1993_p6_b	b	imo/1993/p6	mapped	M5M7BD1X1Y	true
+Imo1993P6	Imo1993P6.imo1993_p6_c	c	imo/1993/p6	mapped	B8JFSZ8HD1	true
+Imo1994P1	Imo1994P1.imo1994_p1		imo/1994/p1	mapped	657KNRV0XS	true
+Imo1994P3	Imo1994P3.imo1994_p3a	a	imo/1994/p3	mapped	TA3CW8GAY6	true
+Imo1994P3	Imo1994P3.imo1994_p3b	b	imo/1994/p3	mapped	SA3Z1VM9WP	true
+Imo1994P4	Imo1994P4.imo1994_p4		imo/1994/p4	mapped	WCTQSNSZ2H	true
+Imo1994P5	Imo1994P5.imo1994_p5		imo/1994/p5	mapped	FHBFCWV29D	true
+Imo1994P6	Imo1994P6.imo1994_p6		imo/1994/p6	mapped	FY3WFM353Z	true
+Imo1995P2	Imo1995P2.imo1995_p2		imo/1995/p2	mapped	XV75SJA3QC	true
+Imo1995P4	Imo1995P4.imo1995_p4		imo/1995/p4	mapped	C9693A0WAA	true
+Imo1995P6	Imo1995P6.imo1995_p6		imo/1995/p6	mapped	7TT2WM4BX6	true
+Imo1996P1	Imo1996P1.imo1996_p1_a	a	imo/1996/p1	mapped	H0ZV2DQQRV	true
+Imo1996P1	Imo1996P1.imo1996_p1_b	b	imo/1996/p1	mapped	284VHY0TJH	true
+Imo1996P1	Imo1996P1.imo1996_p1_c	c	imo/1996/p1	mapped	2T4BM235W0	true
+Imo1996P3	Imo1996P3.imo1996_p3		imo/1996/p3	mapped	NDGP9W2FN5	true
+Imo1996P4	Imo1996P4.imo1996_p4		imo/1996/p4	mapped	GFDXCS3AYV	true
+Imo1996P6	Imo1996P6.imo1996_p6		imo/1996/p6	mapped	P56B91T3FE	true
+Imo1997P3	Imo1997P3.imo1997_p3		imo/1997/p3	mapped	5M6D95KQKD	true
+Imo1997P4	Imo1997P4.imo1997_p4		imo/1997/p4	mapped	HGFNV8AD2P	true
+Imo1997P5	Imo1997P5.imo1997_p5		imo/1997/p5	mapped	BKPNQY107R	true
+Imo1997P6	Imo1997P6.imo1997_p6		imo/1997/p6	mapped	77YRHP226B	true
+Imo1998P2	Imo1998P2.imo1998_p2		imo/1998/p2	mapped	XYDGQN214C	true
+Imo1998P3	Imo1998P3.imo1998_p3		imo/1998/p3	mapped	2FS1G9ESXZ	true
+Imo1998P4	Imo1998P4.imo1998_p4		imo/1998/p4	mapped	7QCEF343M0	true
+Imo1998P6	Imo1998P6.imo1998_p6		imo/1998/p6	mapped	K1ZZ7N5DBA	true
+Imo1999P2	Imo1999P2.imo1999_p2		imo/1999/p2	mapped	SE0GSTDWPZ	true
+Imo1999P3	Imo1999P3.imo1999_p3		imo/1999/p3	mapped	4F3MTWKRGY	true
+Imo1999P4	Imo1999P4.imo1999_p4		imo/1999/p4	mapped	9EJAEXCY4T	true
+Imo1999P6	Imo1999P6.imo1999_p6		imo/1999/p6	mapped	BXJVJ90C67	true
+Imo2000P2	Imo2000P2.imo2000_p2		imo/2000/p2	mapped	3Y1Z8F5K9D	true
+Imo2000P3	Imo2000P3.imo2000_p3		imo/2000/p3	mapped	SQ3GAD57BR	true
+Imo2000P4	Imo2000P4.imo2000_p4		imo/2000/p4	mapped	C00GD92X4C	true
+Imo2000P5	Imo2000P5.imo2000_p5		imo/2000/p5	mapped	H3GCK4VM3H	true
+Imo2001P1	Imo2001P1.imo2001_p1		imo/2001/p1	mapped	YEDPGCEXZ0	true
+Imo2001P2	Imo2001P2.imo2001_p2		imo/2001/p2	mapped	PY1BW64CCX	true
+Imo2001P3	Imo2001P3.imo2001_p3		imo/2001/p3	mapped	KJ3MA8RX4V	true
+Imo2001P4	Imo2001Q4.imo2001_p4		imo/2001/p4	mapped	JBA81VDG45	true
+Imo2001P5	Imo2001P5.imo2001_p5		imo/2001/p5	mapped	7P6ZSJ4ZAH	true
+Imo2001P6	Imo2001P6.imo2001_p6		imo/2001/p6	mapped	5941WCG4EY	true
+Imo2002P1	Imo2002P1.imo2002_p1		imo/2002/p1	mapped	H3FMPH9KWC	true
+Imo2002P3	Imo2002P3.imo2002_p3		imo/2002/p3	mapped	ZVXXY37HJA	true
+Imo2002P4	Imo2002P4.imo2002_p4		imo/2002/p4	mapped	EFFJW0K80X	true
+Imo2002P5	Imo2002P5.imo2002_p5		imo/2002/p5	mapped	KTMDH8CPK9	true
+Imo2003P1	Imo2003P1.imo2003_p1		imo/2003/p1	mapped	2EZPXRTJ9D	true
+Imo2003P2	Imo2003P2.imo2003_p2		imo/2003/p2	mapped	8W726QSXYM	true
+Imo2003P5	Imo2003P5.imo2003_p5	a	imo/2003/p5	mapped	GEQB0Y7VQ1	true
+Imo2003P5	Imo2003P5.imo2003_p5_equality	b	imo/2003/p5	mapped	D86HGMBE6W	true
+Imo2003P6	Imo2003P6.imo2003_p6		imo/2003/p6	mapped	YPF8AVXG29	true
+Imo2004P2	Imo2004P2.imo2004_p2		imo/2004/p2	mapped	50285PBFZ6	true
+Imo2004P3	Imo2004P3.imo2004_p3		imo/2004/p3	mapped	12D9ZGF8E8	true
+Imo2004P4	Imo2004P4.imo2004_p4		imo/2004/p4	mapped	ZWP3PGM138	true
+Imo2004P6	Imo2004P6.imo2004_p6		imo/2004/p6	mapped	A4CQGXJTJQ	true
+Imo2005P2	Imo2005P2.imo2005_p2		imo/2005/p2	mapped	PCMY15HBRT	true
+Imo2005P3	Imo2005P3.imo2005_p3		imo/2005/p3	mapped	TV9WMQC59K	true
+Imo2005P4	Imo2005P4.imo2005_p4		imo/2005/p4	mapped	NB0PDRAKEZ	true
+Imo2005P6	Imo2005P6.imo2005_p6		imo/2005/p6	mapped	RXA8G7PYKW	true
+Imo2006P3	Imo2006P3.imo2006_p3		imo/2006/p3	mapped	39W3GR9AY3	true
+Imo2006P4	Imo2006P4.imo2006_p4		imo/2006/p4	mapped	54BV0QMBR5	true
+Imo2006P5	Imo2006P5.imo2006_p5		imo/2006/p5	mapped	DRGMT49W3C	true
+Imo2007P1	Imo2007P1.imo2007_p1a	a	imo/2007/p1	mapped	WZS9VTH6N7	true
+Imo2007P1	Imo2007P1.imo2007_p1b	b	imo/2007/p1	mapped	DEZYWNBMG2	true
+Imo2007P3	Imo2007P3.imo2007_p3		imo/2007/p3	mapped	2YWQZXXP01	true
+Imo2007P5	Imo2007P5.imo2007_p5		imo/2007/p5	mapped	80F8Z8VM6C	true
+Imo2007P6	Imo2007P6.imo2007_p6		imo/2007/p6	mapped	DJQKSW49P5	true
+Imo2008P2	Imo2008P2.imo2008_p2a	a	imo/2008/p2	mapped	HAN8GAZX2N	true
+Imo2008P2	Imo2008P2.imo2008_p2b	b	imo/2008/p2	mapped	A5V7ZW2SAX	true
+Imo2008P3	Imo2008P3.imo2008_p3		imo/2008/p3	mapped	WSYB37TC5E	true
+Imo2008P4	Imo2008P4.imo2008_p4		imo/2008/p4	mapped	K5NCYVPWNH	true
+Imo2008P5	Imo2008P5.imo2008_p5		imo/2008/p5	mapped	VAM9W5KSAV	true
+Imo2009P1	Imo2009P1.imo2009_p1		imo/2009/p1	mapped	YAAJ85XTM0	true
+Imo2009P3	Imo2009P3.imo2009_p3		imo/2009/p3	mapped	CP1AXE2FJ5	true
+Imo2009P5	Imo2009P5.imo2009_p5		imo/2009/p5	mapped	2CA34N92MZ	true
+Imo2009P6	Imo2009P6.imo2009_p6		imo/2009/p6	mapped	8WTG2NXX9C	true
+Imo2010P1	Imo2010P1.imo2010_p1		imo/2010/p1	mapped	WZA862EWWD	true
+Imo2010P3	Imo2010P3.imo2010_p3		imo/2010/p3	mapped	S4SZ3V90F6	true
+Imo2010P5	Imo2010P5.imo2010_p5		imo/2010/p5	mapped	R46BJJ4TD1	true
+Imo2010P6	Imo2010P6.imo2010_p6		imo/2010/p6	mapped	E8Y4AZPNXB	true
+Imo2011P1	Imo2011P1.imo2011_p1		imo/2011/p1	mapped	610G042QCC	true
+Imo2011P3	Imo2011P3.imo2011_p3		imo/2011/p3	mapped	FA7YMMSSY6	true
+Imo2011P4	Imo2011P4.imo2011_p4		imo/2011/p4	mapped	VDVCJ3BSRH	true
+Imo2011P5	Imo2011P5.imo2011_p5		imo/2011/p5	mapped	RPJV77ZHTZ	true
+Imo2012P2	Imo2012P2.imo2012_p2		imo/2012/p2	mapped	VTKZXHWWSN	true
+Imo2012P3	Imo2012P3.imo2012_p3_part_a	a	imo/2012/p3	mapped	M7F9EYSZ4N	true
+Imo2012P3	Imo2012P3.imo2012_p3_part_b	b	imo/2012/p3	mapped	97H0BHS521	true
+Imo2012P4	Imo2012P4.imo2012_p4		imo/2012/p4	mapped	MD57TXF3CE	true
+Imo2012P5	Imo2012P5.imo2012_p5		imo/2012/p5	mapped	H14AYV20J9	true
+Imo2012P6	Imo2012P6.imo2012_p6		imo/2012/p6	mapped	NRS4R1VEM6	true
+Imo2013P1	Imo2013P1.imo2013_p1		imo/2013/p1	mapped	MKE4J3ZJ27	true
+Imo2013P2	Imo2013P2.imo2013_p2		imo/2013/p2	mapped	N46PZ3ASJV	true
+Imo2013P5	Imo2013P5.imo2013_p5		imo/2013/p5	mapped	YYAHJ9P74P	true
+Imo2014P1	Imo2014P1.imo2014_p1		imo/2014/p1	mapped	ZTADVPE7P9	true
+Imo2014P2	Imo2014P2.imo2014_p2		imo/2014/p2	mapped	QEC38S46CS	true
+Imo2014P4	Imo2014P4.imo2014_p4		imo/2014/p4	mapped	TCS66P8D07	true
+Imo2014P5	Imo2014P5.imo2014_p5		imo/2014/p5	mapped	QEB47ZQ4RR	true
+Imo2014P6	Imo2014P6.imo2014_p6		imo/2014/p6	mapped	S0TH0ZB652	true
+Imo2015P2	Imo2015P2.imo2015_p2		imo/2015/p2	mapped	TZ04DYD0NB	true
+Imo2015P5	Imo2015P5.imo2015_p5		imo/2015/p5	mapped	4TSP842SQN	true
+Imo2015P6	Imo2015P6.imo2015_p6		imo/2015/p6	mapped	QTQBFK4B3K	true
+Imo2016P2	Imo2016P2.imo2016_p2		imo/2016/p2	mapped	AEH7KQ5Y1C	true
 Imo2016P4	Imo2016P4.imo2016_p4		imo/2016/p4	no-problem		true
 Imo2016P5	Imo2016P5.imo2016_p5		imo/2016/p5	no-problem		true
-Imo2017P1	Imo2017P1.imo2017_p1		imo/2017/p1	mapped		true
-Imo2017P2	Imo2017P2.imo2017_p2		imo/2017/p2	mapped		true
-Imo2017P3	imo2017_p3		imo/2017/p3	mapped		true
-Imo2017P5	Imo2017P5.imo2017_p5		imo/2017/p5	mapped		true
-Imo2017P6	Imo2017P6.imo2017_p6		imo/2017/p6	mapped		true
-Imo2018P2	Imo2018P2.imo2018_p2		imo/2018/p2	mapped		true
+Imo2017P1	Imo2017P1.imo2017_p1		imo/2017/p1	mapped	J0K9F2505Q	true
+Imo2017P2	Imo2017P2.imo2017_p2		imo/2017/p2	mapped	ZQ2MD4G99R	true
+Imo2017P3	Imo2017P3.imo2017_p3		imo/2017/p3	mapped	DETNPWY4X9	true
+Imo2017P5	Imo2017P5.imo2017_p5		imo/2017/p5	mapped	CCWH0E5M8P	true
+Imo2017P6	Imo2017P6.imo2017_p6		imo/2017/p6	mapped	JJGVAX3PF2	true
+Imo2018P2	Imo2018P2.imo2018_p2		imo/2018/p2	mapped	F2K0J61A6P	true
 Imo2018P3	Imo2018P3.imo2018_p3		imo/2018/p3	no-problem		true
-Imo2018P4	Imo2018P4.imo2018_p4		imo/2018/p4	mapped		true
-Imo2018P5	Imo2018P5.imo2018_p5		imo/2018/p5	mapped		true
-Imo2019P1	Imo2019P1.imo2019_p1		imo/2019/p1	mapped		true
-Imo2019P2	imo2019_p2		imo/2019/p2	mapped		true
-Imo2019P3	Imo2019P3.imo2019_p3		imo/2019/p3	mapped		true
-Imo2019P4	Imo2019P4.imo2019_p4		imo/2019/p4	mapped		true
-Imo2019P5	Imo2019P5.imo2019_p5_parta	a	imo/2019/p5	mapped		true
-Imo2019P5	Imo2019P5.imo2019_p5_partb_definition	b	imo/2019/p5	mapped		true
-Imo2019P5	Imo2019P5.imo2019_p5_partb	b	imo/2019/p5	mapped		true
-Imo2020P2	imo2020_p2		imo/2020/p2	mapped		true
-Imo2020P3	Imo2020P3.imo2020_p3		imo/2020/p3	mapped		true
-Imo2020P4	Imo2020P4.imo2020_p4		imo/2020/p4	mapped		true
-Imo2020P5	Imo2020P5.imo2020_p5		imo/2020/p5	mapped		true
-Imo2020P6	Imo2020P6.imo2020_p6		imo/2020/p6	mapped		true
-Imo2021P1	Imo2021P1.imo2021_p1		imo/2021/p1	mapped		true
-Imo2021P2	Imo2021P2.imo2021_p2		imo/2021/p2	mapped		true
-Imo2021P3	Imo2021P3.imo2021_p3		imo/2021/p3	mapped		false
-Imo2021P5	Imo2021P5.imo2021_p5		imo/2021/p5	mapped		true
-Imo2021P6	Imo2021P6.imo2021_p6		imo/2021/p6	mapped		true
-Imo2022P1	Imo2022P1.imo2022_p1		imo/2022/p1	mapped		true
-Imo2022P2	Imo2022P2.imo2022_p2		imo/2022/p2	mapped		true
-Imo2022P3	Imo2022P3.imo2023_p3		imo/2022/p3	mapped		true
-Imo2022P5	Imo2022P5.imo2022_p5		imo/2022/p5	mapped		true
-Imo2022P6	Imo2022P6.imo2022_p6		imo/2022/p6	mapped		true
-Imo2023P1	Imo2023P1.imo2023_p1		imo/2023/p1	mapped		true
-Imo2023P2	Imo2023P2.imo2023_p1		imo/2023/p2	mapped		true
-Imo2023P3	Imo2023P3.imo2023_p3		imo/2023/p3	mapped		true
-Imo2023P4	Imo2023P4.imo2023_p4		imo/2023/p4	mapped		true
-Imo2023P5	Imo2023P5.imo2023_p5		imo/2023/p5	mapped		true
-Imo2023P6	Imo2023P6.imo2023_p6		imo/2023/p6	mapped		false
-Imo2024P1	Imo2024P1.imo2024_p1		imo/2024/p1	mapped		true
-Imo2024P2	Imo2024P2.imo2024_p2		imo/2024/p2	mapped		true
-Imo2024P3	Imo2024P3.imo2024_p3		imo/2024/p3	mapped		true
-Imo2024P5	Imo2024P5.imo2024_p5		imo/2024/p5	mapped		true
-Imo2024P6	Imo2024P6.imo2024_p6		imo/2024/p6	mapped		true
-Imo2025P1	Imo2025P1.imo2025_p1		imo/2025/p1	mapped		true
-Imo2025P2	Imo2025P2.imo2025_p2		imo/2025/p2	mapped		false
-Imo2025P3	imo2025_p3		imo/2025/p3	mapped		true
-Imo2025P4	Imo2025P4.imo2025_p4		imo/2025/p4	mapped		true
-Imo2025P5	Imo2025P5.imo2025_p5		imo/2025/p5	mapped		true
-Imo2025P6	Imo2025P6.imo2025_p6		imo/2025/p6	mapped		true
-Imo2026P1	Imo2026P1.imo2026_p1a_termination	a	imo/2026/p1	mapped		true
-Imo2026P1	Imo2026P1.imo2026_p1a_unique_large	b	imo/2026/p1	mapped		true
-Imo2026P1	Imo2026P1.imo2026_p1b_invariance	c	imo/2026/p1	mapped		true
-Imo2026P3	imo2026_p3		imo/2026/p3	mapped		true
-Imo2026P4	Imo2026P4.imo2026_p4		imo/2026/p4	mapped		true
-Imo2026P5	Imo2026P5.imo2026_p5		imo/2026/p5	mapped		true
-Imo2026P6	Imo2026P6.imo2026_p6		imo/2026/p6	mapped		true
+Imo2018P4	Imo2018P4.imo2018_p4		imo/2018/p4	mapped	2761X248B5	true
+Imo2018P5	Imo2018P5.imo2018_p5		imo/2018/p5	mapped	TEY61SSQCX	true
+Imo2019P1	Imo2019P1.imo2019_p1		imo/2019/p1	mapped	YRZEVKGP4N	true
+Imo2019P2	Imo2019P2.imo2019_p2		imo/2019/p2	mapped	P8AZ6MC5D1	true
+Imo2019P3	Imo2019P3.imo2019_p3		imo/2019/p3	mapped	ZFBMKC80E9	true
+Imo2019P4	Imo2019P4.imo2019_p4		imo/2019/p4	mapped	EDDCC43H9C	true
+Imo2019P5	Imo2019P5.imo2019_p5_parta	a	imo/2019/p5	mapped	SVMQXH1B3K	true
+Imo2019P5	Imo2019P5.imo2019_p5_partb_definition	b	imo/2019/p5	mapped	DHPQ38AAE9	true
+Imo2019P5	Imo2019P5.imo2019_p5_partb	b	imo/2019/p5	mapped	G9HR3JE8F1	true
+Imo2020P2	imo2020_p2		imo/2020/p2	mapped	NRPPB19R1Q	true
+Imo2020P3	Imo2020P3.imo2020_p3		imo/2020/p3	mapped	SZGNWDFZHJ	true
+Imo2020P4	Imo2020P4.imo2020_p4		imo/2020/p4	mapped	6AX94RSC07	true
+Imo2020P5	Imo2020P5.imo2020_p5		imo/2020/p5	mapped	VGBXV6TJ2Y	true
+Imo2020P6	Imo2020P6.imo2020_p6		imo/2020/p6	mapped	WS778X2VJ8	true
+Imo2021P1	Imo2021P1.imo2021_p1		imo/2021/p1	mapped	QT19F9YZRR	true
+Imo2021P2	Imo2021P2.imo2021_p2		imo/2021/p2	mapped	Y2FW66DABV	true
+Imo2021P3	Imo2021P3.imo2021_p3		imo/2021/p3	mapped	81TAFK6AAN	false
+Imo2021P5	Imo2021P5.imo2021_p5		imo/2021/p5	mapped	Z6VS5YH1RE	true
+Imo2021P6	Imo2021P6.imo2021_p6		imo/2021/p6	mapped	5Z1H932E1V	true
+Imo2022P1	Imo2022P1.imo2022_p1		imo/2022/p1	mapped	X3HFD5P5Z0	true
+Imo2022P2	Imo2022P2.imo2022_p2		imo/2022/p2	mapped	8M8H7NB7A7	true
+Imo2022P3	Imo2022P3.imo2023_p3		imo/2022/p3	mapped	RR3CQEW79P	true
+Imo2022P5	Imo2022P5.imo2022_p5		imo/2022/p5	mapped	H8FQ22K372	true
+Imo2022P6	Imo2022P6.imo2022_p6		imo/2022/p6	mapped	T4DACH0593	true
+Imo2023P1	Imo2023P1.imo2023_p1		imo/2023/p1	mapped	FNCN21ZFHA	true
+Imo2023P2	Imo2023P2.imo2023_p1		imo/2023/p2	mapped	EE6J5JVKEP	true
+Imo2023P3	Imo2023P3.imo2023_p3		imo/2023/p3	mapped	T4XZZXW5AZ	true
+Imo2023P4	Imo2023P4.imo2023_p4		imo/2023/p4	mapped	5SFNQP3J61	true
+Imo2023P5	Imo2023P5.imo2023_p5		imo/2023/p5	mapped	RXEM0S0GEX	true
+Imo2023P6	Imo2023P6.imo2023_p6		imo/2023/p6	mapped	GKZ732KHZ7	false
+Imo2024P1	Imo2024P1.imo2024_p1		imo/2024/p1	mapped	DS0ZYWWQRM	true
+Imo2024P2	Imo2024P2.imo2024_p2		imo/2024/p2	mapped	HSW250J3FS	true
+Imo2024P3	Imo2024P3.imo2024_p3		imo/2024/p3	mapped	R0NPXVMV0M	true
+Imo2024P5	Imo2024P5.imo2024_p5		imo/2024/p5	mapped	NR4RGCBTY3	true
+Imo2024P6	Imo2024P6.imo2024_p6		imo/2024/p6	mapped	CHN27MAQW4	true
+Imo2025P1	Imo2025P1.imo2025_p1		imo/2025/p1	mapped	MA2HRESK4B	true
+Imo2025P2	Imo2025P2.imo2025_p2		imo/2025/p2	mapped	EEEB64FYAF	false
+Imo2025P3	imo2025_p3		imo/2025/p3	mapped	1Y530PN3FH	true
+Imo2025P4	Imo2025P4.imo2025_p4		imo/2025/p4	mapped	5QFB47BTFS	true
+Imo2025P5	Imo2025P5.imo2025_p5		imo/2025/p5	mapped	76Q5MDDNGJ	true
+Imo2025P6	Imo2025P6.imo2025_p6		imo/2025/p6	mapped	XRB2V5C9R7	true
+Imo2026P1	Imo2026P1.imo2026_p1a_termination	a	imo/2026/p1	mapped	7CYM5MM070	true
+Imo2026P1	Imo2026P1.imo2026_p1a_unique_large	b	imo/2026/p1	mapped	RZN27G6J4Z	true
+Imo2026P1	Imo2026P1.imo2026_p1b_invariance	c	imo/2026/p1	mapped	F7E6AYEDQF	true
+Imo2026P3	Imo2026P3.imo2026_p3		imo/2026/p3	mapped	6DQ9YMB2PS	true
+Imo2026P4	Imo2026P4.imo2026_p4		imo/2026/p4	mapped	9YGS0AJ9C6	true
+Imo2026P5	Imo2026P5.imo2026_p5		imo/2026/p5	mapped	2X5GFV2MN9	true
+Imo2026P6	Imo2026P6.imo2026_p6		imo/2026/p6	mapped	MDJECF90C6	true
 India1998P1	India1998P1.india1998_p1a	a		no-locator		true
 India1998P1	India1998P1.india1998_p1b	b		no-locator		true
 IntegersInACircle	IntegersInACircle.integers_in_a_circle			no-locator		true
@@ -322,230 +321,230 @@ Singapore2019P11	Singapore2019R1P11.singapore2019_r1_p11			no-locator		true
 Singapore2019P2	Singapore2019R1P2.singapore2019_r1_p2			no-locator		true
 Singapore2019P4	Singapore2019R1P4.singapore2019_r1_p4			no-locator		true
 Singapore2019P7	Singapore2019R1P7.singapore2019_r1_p7			no-locator		true
-UK2024R1P1	UK2024R1P1.uk2024_r1_p1		uk-bmo1/2024/p1	mapped		true
-UK2024R1P2	UK2024R1P2.uk2024_r1_p2		uk-bmo1/2024/p2	mapped		true
-UK2024R1P4	UK2024R1P4.uk2024_r1_p4		uk-bmo1/2024/p4	mapped		true
+UK2024R1P1	UK2024R1P1.uk2024_r1_p1		uk-bmo1/2024/p1	mapped	TCAXV3P39J	true
+UK2024R1P2	UK2024R1P2.uk2024_r1_p2		uk-bmo1/2024/p2	mapped	72JKXFXP9B	true
+UK2024R1P4	UK2024R1P4.uk2024_r1_p4		uk-bmo1/2024/p4	mapped	J3EZYE0ZZM	true
 UpperLowerContinuous	UpperLowerContinuous.properties_of_upper_lower_continuous			no-locator		true
-Usa1972P1	Usa1972P1.usa1972_p1		usamo/1972/p1	mapped		true
-Usa1972P3	Usa1972P3.usa1972_p3		usamo/1972/p3	mapped		true
-Usa1972P4	Usa1972P4.usa1972_p4		usamo/1972/p4	mapped		true
-Usa1973P2	Usa1973P2.usa1973_p2		usamo/1973/p2	mapped		true
-Usa1973P4	Usa1973P4.usa1973_p4		usamo/1973/p4	mapped		true
-Usa1973P5	Usa1973P5.usa1973_p5		usamo/1973/p5	mapped		true
-Usa1974P1	Usa1974P1.usa1974_p1		usamo/1974/p1	mapped		true
-Usa1974P2	Usa1974P2.usa1974_p2		usamo/1974/p2	mapped		true
-Usa1974P4	Usa1974P4.usa1974_p4		usamo/1974/p4	mapped		true
-Usa1975P1	Usa1975P1.usa1975_p1a	a	usamo/1975/p1	mapped		true
-Usa1975P1	Usa1975P1.usa1975_p1b	b	usamo/1975/p1	mapped		true
-Usa1975P3	Usa1975P3.usa1975_p3		usamo/1975/p3	mapped		true
-Usa1975P5	Usa1975P5.usa1975_p5		usamo/1975/p5	mapped		true
-Usa1976P1	Usa1976P1.usa1976_p1_first	a	usamo/1976/p1	mapped		true
-Usa1976P1	Usa1976P1.usa1976_p1_second	b	usamo/1976/p1	mapped		true
-Usa1976P3	Usa1976P3.usa1976_p3		usamo/1976/p3	mapped		true
-Usa1976P5	Usa1976P5.usa1976_p5		usamo/1976/p5	mapped		true
-Usa1977P1	Usa1977P1.usa1977_p1		usamo/1977/p1	mapped		true
-Usa1977P3	Usa1977P3.usa1977_p3		usamo/1977/p3	mapped		true
-Usa1977P5	Usa1977P5.usa1977_p5		usamo/1977/p5	mapped		true
-Usa1978P1	Usa1978P1.usa1978_p1		usamo/1978/p1	mapped		true
-Usa1978P3	Usa1978P3.usa1978_p3		usamo/1978/p3	mapped		true
-Usa1978P5	Usa1978P5.usa1978_p5		usamo/1978/p5	mapped		true
-Usa1979P1	Usa1979P1.usa1979_p1		usamo/1979/p1	mapped		true
-Usa1979P3	Usa1979P3.usa1979_p3		usamo/1979/p3	mapped		true
-Usa1979P5	Usa1979P5.usa1979_p5		usamo/1979/p5	mapped		true
-Usa1980P1	Usa1980P1.usa1980_p1		usamo/1980/p1	mapped		true
-Usa1980P2	Usa1980P2.usa1980_p2		usamo/1980/p2	mapped		true
-Usa1980P3	Usa1980P3.usa1980_p3		usamo/1980/p3	mapped		true
-Usa1980P5	Usa1980P5.usa1980_p5		usamo/1980/p5	mapped		true
-Usa1981P2	Usa1981P2.usa1981_p2		usamo/1981/p2	mapped		true
-Usa1981P5	Usa1981P5.usa1981_p5		usamo/1981/p5	mapped		true
-Usa1982P1	Usa1982P1.usa1982_p1		usamo/1982/p1	mapped		true
-Usa1982P2	Usa1982P2.usa1982_p2		usamo/1982/p2	mapped		true
-Usa1982P4	Usa1982P4.usa1982_p4		usamo/1982/p4	mapped		true
-Usa1983P1	Usa1983P1.usa1983_p1		usamo/1983/p1	mapped		true
-Usa1983P2	Usa1983P2.usa1983_p2		usamo/1983/p2	mapped		true
-Usa1983P3	Usa1983P3.usa1983_p3		usamo/1983/p3	mapped		true
-Usa1983P5	Usa1983P5.usa1983_p5		usamo/1983/p5	mapped		true
-Usa1984P1	Usa1984P1.usa1984_p1		usamo/1984/p1	mapped		true
-Usa1984P2	Usa1984P2.usa1984_p2a	a	usamo/1984/p2	mapped		true
-Usa1984P2	Usa1984P2.usa1984_p2b	b	usamo/1984/p2	mapped		true
-Usa1984P4	Usa1984P4.usa1984_p4		usamo/1984/p4	mapped		true
-Usa1984P5	Usa1984P5.usa1984_p5		usamo/1984/p5	mapped		true
-Usa1985P1	Usa1985P1.usa1985_p1		usamo/1985/p1	mapped		true
-Usa1985P2	Usa1985P2.usa1985_p2		usamo/1985/p2	mapped		true
-Usa1985P4	Usa1985P4.usa1985_p4		usamo/1985/p4	mapped		true
-Usa1985P5	Usa1985P5.usa1985_p5		usamo/1985/p5	mapped		true
-Usa1986P1	Usa1986P1.usa1986_p1a	a	usamo/1986/p1	mapped		true
-Usa1986P1	Usa1986P1.usa1986_p1b	b	usamo/1986/p1	mapped		true
-Usa1986P2	Usa1986P2.usa1986_p2		usamo/1986/p2	mapped		true
-Usa1986P3	Usa1986P3.usa1986_p3		usamo/1986/p3	mapped		true
-Usa1986P5	Usa1986P5.usa1986_p5		usamo/1986/p5	mapped		true
-Usa1987P1	Usa1987P1.usa1987_p1		usamo/1987/p1	mapped		true
-Usa1987P3	Usa1987P3.usa1987_p3		usamo/1987/p3	mapped		true
-Usa1987P5	Usa1987P5.usa1987_p5_part1	1	usamo/1987/p5	mapped		true
-Usa1987P5	Usa1987P5.usa1987_p5_part2	2	usamo/1987/p5	mapped		true
-Usa1988P1	Usa1988P1.usa1988_p1		usamo/1988/p1	mapped		true
-Usa1988P2	Usa1988P2.usa1988_p2		usamo/1988/p2	mapped		true
-Usa1988P3	Usa1988P3.usa1988_p3		usamo/1988/p3	mapped		true
-Usa1988P4	Usa1988P4.usa1988_p4		usamo/1988/p4	mapped		false
-Usa1988P5	Usa1988P5.usa1988_p5		usamo/1988/p5	mapped		true
-Usa1989P1	Usa1989P1.usa1989_p1		usamo/1989/p1	mapped		true
-Usa1989P2	Usa1989P2.usa1989_p2		usamo/1989/p2	mapped		true
-Usa1989P3	Usa1989P3.usa1989_p3		usamo/1989/p3	mapped		true
-Usa1989P5	Usa1989P5.usa1989_p5		usamo/1989/p5	mapped		true
-Usa1990P1	Usa1990P1.usa1990_p1		usamo/1990/p1	mapped		true
-Usa1990P2	Usa1990P2.usa1990_p2		usamo/1990/p2	mapped		true
-Usa1990P3	Usa1990P3.usa1990_p3		usamo/1990/p3	mapped		true
-Usa1990P4	Usa1990P4.usa1990_p4		usamo/1990/p4	mapped		true
-Usa1991P2	Usa1991P2.usa1991_p2		usamo/1991/p2	mapped		true
-Usa1991P3	Usa1991P3.usa1991_p3		usamo/1991/p3	mapped		true
-Usa1991P4	Usa1991P4.usa1991_p4		usamo/1991/p4	mapped		true
-Usa1992P1	Usa1992P1.usa1992_p1		usamo/1992/p1	mapped		true
-Usa1992P2	Usa1992P2.usa1992_p2		usamo/1992/p2	mapped		true
-Usa1992P3	Usa1992P3.usa1992_p3		usamo/1992/p3	mapped		true
-Usa1992P5	Usa1992P5.usa1992_p5		usamo/1992/p5	mapped		true
-Usa1993P1	Usa1993P1.usa1993_p1		usamo/1993/p1	mapped		true
-Usa1993P3	Usa1993P3.usa1993_p3		usamo/1993/p3	mapped		true
-Usa1993P4	Usa1993P4.usa1993_p4		usamo/1993/p4	mapped		true
-Usa1993P5	Usa1993P5.usa1993_p5		usamo/1993/p5	mapped		true
-Usa1994P1	Usa1994P1.usa1994_p1		usamo/1994/p1	mapped		true
-Usa1994P2	Usa1994P2.usa1994_p2		usamo/1994/p2	mapped		true
-Usa1994P4	Usa1994P4.usa1994_p4		usamo/1994/p4	mapped		true
-Usa1994P5	Usa1994P5.usa1994_p5		usamo/1994/p5	mapped		true
-Usa1995P1	Usa1995P1.usa1995_p1		usamo/1995/p1	mapped		true
-Usa1995P2	Usa1995P2.usa1995_p2		usamo/1995/p2	mapped		true
-Usa1995P4	Usa1995P4.usa1995_p4		usamo/1995/p4	mapped		true
-Usa1995P5	Usa1995P5.usa1995_p5		usamo/1995/p5	mapped		true
-Usa1996P1	Usa1996P1.usa1996_p1		usamo/1996/p1	mapped		true
-Usa1996P2	Usa1996P2.usa1996_p2		usamo/1996/p2	mapped		true
-Usa1996P4	Usa1996P4.usa1996_p4		usamo/1996/p4	mapped		true
-Usa1996P6	Usa1996P6.usa1996_p6		usamo/1996/p6	mapped		true
-Usa1997P1	Usa1997P1.usa1997_p1		usamo/1997/p1	mapped		true
-Usa1997P3	Usa1997P3.usa1997_p3		usamo/1997/p3	mapped		true
-Usa1997P5	Usa1997P5.usa1997_p5		usamo/1997/p5	mapped		true
-Usa1997P6	Usa1997P6.usa1997_p6		usamo/1997/p6	mapped		true
-Usa1998P1	Usa1998P1.usa1998_p1		usamo/1998/p1	mapped		true
-Usa1998P3	Usa1998P3.usa1998_p3		usamo/1998/p3	mapped		true
-Usa1998P4	Usa1998P4.usa1998_p4		usamo/1998/p4	mapped		true
-Usa1998P5	Usa1998P5.usa1998_p5		usamo/1998/p5	mapped		true
-Usa1999P1	Usa1999P1.usa1999_p1		usamo/1999/p1	mapped		true
-Usa1999P3	usa1999_p3		usamo/1999/p3	mapped		true
-Usa1999P4	Usa1999P4.usa1999_p4		usamo/1999/p4	mapped		true
-Usa1999P5	Usa1999P5.usa1999_p5		usamo/1999/p5	mapped		true
-Usa2000P1	Usa2000P1.usa2000_p1		usamo/2000/p1	mapped		true
-Usa2000P3	Usa2000P3.usa2000_p3		usamo/2000/p3	mapped		true
-Usa2000P4	Usa2000P4.usa2000_p4		usamo/2000/p4	mapped		true
-Usa2000P5	Usa2000P5.usa2000_p5		usamo/2000/p5	mapped		true
-Usa2000P6	Usa2000P6.usa2000_p6		usamo/2000/p6	mapped		true
-Usa2001P1	Usa2001P1.usa2001_p1		usamo/2001/p1	mapped		true
-Usa2001P3	Usa2001P3.usa2001_p3		usamo/2001/p3	mapped		true
-Usa2001P4	Usa2001P4.usa2001_p4		usamo/2001/p4	mapped		true
-Usa2001P5	Usa2001P5.usa2001_p5		usamo/2001/p5	mapped		true
-Usa2002P1	Usa2002P1.usa2002_p1		usamo/2002/p1	mapped		true
-Usa2002P3	Usa2002P3.usa2002_p3		usamo/2002/p3	mapped		true
-Usa2002P4	Usa2002P4.usa2002_p4		usamo/2002/p4	mapped		true
-Usa2002P5	Usa2002P5.usa2002_p5		usamo/2002/p5	mapped		true
-Usa2002P6	Usa2002P6.usa2002_p6		usamo/2002/p6	mapped		true
-Usa2003P1	Usa2003P1.usa2003_p1		usamo/2003/p1	mapped		true
-Usa2003P3	Usa2003P3.usa2003_p3		usamo/2003/p3	mapped		true
-Usa2003P5	Usa2003P5.usa2003_p5		usamo/2003/p5	mapped		true
-Usa2003P6	Usa2003P6.usa2003_p6		usamo/2003/p6	mapped		true
-Usa2004P2	Usa2004P2.usa2004_p2		usamo/2004/p2	mapped		true
-Usa2004P4	Usa2004P4.usa2004_p4		usamo/2004/p4	mapped		true
-Usa2004P5	Usa2004P5.usa2004_p5		usamo/2004/p5	mapped		true
-Usa2005P1	Usa2005P1.usa2005_p1		usamo/2005/p1	mapped		true
-Usa2005P2	Usa2005P2.usa2005_p2		usamo/2005/p2	mapped		true
-Usa2005P4	Usa2005P4.usa2005_p4		usamo/2005/p4	mapped		true
-Usa2005P6	Usa2005P6.usa2005_p6		usamo/2005/p6	mapped		true
-Usa2006P1	Usa2006P1.usa2006_p1		usamo/2006/p1	mapped		true
-Usa2006P2	Usa2006P2.usa2006_p2		usamo/2006/p2	mapped		true
-Usa2006P3	Usa2006P3.usa2006_p3		usamo/2006/p3	mapped		true
-Usa2006P4	Usa2006P4.usa2006_p4		usamo/2006/p4	mapped		true
-Usa2006P5	Usa2006P5.usa2006_p5		usamo/2006/p5	mapped		true
-Usa2007P1	Usa2007P1.usa2007_p1		usamo/2007/p1	mapped		true
-Usa2007P3	Usa2007P3.usa2007_p3		usamo/2007/p3	mapped		true
-Usa2007P4	Usa2007P4.usa2007_p4		usamo/2007/p4	mapped		true
+Usa1972P1	Usa1972P1.usa1972_p1		usamo/1972/p1	mapped	EXRTQVPPJA	true
+Usa1972P3	Usa1972P3.usa1972_p3		usamo/1972/p3	mapped	WTGKM58KRQ	true
+Usa1972P4	Usa1972P4.usa1972_p4		usamo/1972/p4	mapped	HBFP55JH5F	true
+Usa1973P2	Usa1973P2.usa1973_p2		usamo/1973/p2	mapped	P2K77DB2N5	true
+Usa1973P4	Usa1973P4.usa1973_p4		usamo/1973/p4	mapped	RFG032BMRW	true
+Usa1973P5	Usa1973P5.usa1973_p5		usamo/1973/p5	mapped	WEHE59T9Q8	true
+Usa1974P1	Usa1974P1.usa1974_p1		usamo/1974/p1	mapped	WZPTRCG72R	true
+Usa1974P2	Usa1974P2.usa1974_p2		usamo/1974/p2	mapped	B5JP6P5PPV	true
+Usa1974P4	Usa1974P4.usa1974_p4		usamo/1974/p4	mapped	BPN52T5H19	true
+Usa1975P1	Usa1975P1.usa1975_p1a	a	usamo/1975/p1	mapped	1J6G6KYNF1	true
+Usa1975P1	Usa1975P1.usa1975_p1b	b	usamo/1975/p1	mapped	73A9SKGW71	true
+Usa1975P3	Usa1975P3.usa1975_p3		usamo/1975/p3	mapped	N0ZJA6R4ZP	true
+Usa1975P5	Usa1975P5.usa1975_p5		usamo/1975/p5	mapped	P32WNYZ63W	true
+Usa1976P1	Usa1976P1.usa1976_p1_first	a	usamo/1976/p1	mapped	1SRBTV13A0	true
+Usa1976P1	Usa1976P1.usa1976_p1_second	b	usamo/1976/p1	mapped	HHRM4ABT8N	true
+Usa1976P3	Usa1976P3.usa1976_p3		usamo/1976/p3	mapped	AVEZZG1TRT	true
+Usa1976P5	Usa1976P5.usa1976_p5		usamo/1976/p5	mapped	M0QT9ZE9C0	true
+Usa1977P1	Usa1977P1.usa1977_p1		usamo/1977/p1	mapped	CNYYJWX9JE	true
+Usa1977P3	Usa1977P3.usa1977_p3		usamo/1977/p3	mapped	F7HHX3PNJ2	true
+Usa1977P5	Usa1977P5.usa1977_p5		usamo/1977/p5	mapped	W82PG0GHJD	true
+Usa1978P1	Usa1978P1.usa1978_p1		usamo/1978/p1	mapped	ZA0MCSMQJD	true
+Usa1978P3	Usa1978P3.usa1978_p3		usamo/1978/p3	mapped	59DXV0SP6A	true
+Usa1978P5	Usa1978P5.usa1978_p5		usamo/1978/p5	mapped	Q8GQRHSZA9	true
+Usa1979P1	Usa1979P1.usa1979_p1		usamo/1979/p1	mapped	G0QXCR44Q8	true
+Usa1979P3	Usa1979P3.usa1979_p3		usamo/1979/p3	mapped	N1CSAKJ8WP	true
+Usa1979P5	Usa1979P5.usa1979_p5		usamo/1979/p5	mapped	AS989M7Z4Y	true
+Usa1980P1	Usa1980P1.usa1980_p1		usamo/1980/p1	mapped	2AT25R1Q00	true
+Usa1980P2	Usa1980P2.usa1980_p2		usamo/1980/p2	mapped	X4RTCEQ4FZ	true
+Usa1980P3	Usa1980P3.usa1980_p3		usamo/1980/p3	mapped	E69QZMNF5Y	true
+Usa1980P5	Usa1980P5.usa1980_p5		usamo/1980/p5	mapped	179T12QBRW	true
+Usa1981P2	Usa1981P2.usa1981_p2		usamo/1981/p2	mapped	8RRCF8MG8C	true
+Usa1981P5	Usa1981P5.usa1981_p5		usamo/1981/p5	mapped	DVM3P7K29G	true
+Usa1982P1	Usa1982P1.usa1982_p1		usamo/1982/p1	mapped	8BA1KRNMDR	true
+Usa1982P2	Usa1982P2.usa1982_p2		usamo/1982/p2	mapped	3G936Z7SG2	true
+Usa1982P4	Usa1982P4.usa1982_p4		usamo/1982/p4	mapped	DBGRRVX2A5	true
+Usa1983P1	Usa1983P1.usa1983_p1		usamo/1983/p1	mapped	A6T4KEFC54	true
+Usa1983P2	Usa1983P2.usa1983_p2		usamo/1983/p2	mapped	SR092G7JC0	true
+Usa1983P3	Usa1983P3.usa1983_p3		usamo/1983/p3	mapped	79MMR40MVC	true
+Usa1983P5	Usa1983P5.usa1983_p5		usamo/1983/p5	mapped	G5C67FS052	true
+Usa1984P1	Usa1984P1.usa1984_p1		usamo/1984/p1	mapped	SV9FQ4PEVC	true
+Usa1984P2	Usa1984P2.usa1984_p2a	a	usamo/1984/p2	mapped	GZQRFMK3ZY	true
+Usa1984P2	Usa1984P2.usa1984_p2b	b	usamo/1984/p2	mapped	RXN1TRC7PD	true
+Usa1984P4	Usa1984P4.usa1984_p4		usamo/1984/p4	mapped	NE5WEEFPCB	true
+Usa1984P5	Usa1984P5.usa1984_p5		usamo/1984/p5	mapped	D0GNF4P65H	true
+Usa1985P1	Usa1985P1.usa1985_p1		usamo/1985/p1	mapped	S5BR1QT5AK	true
+Usa1985P2	Usa1985P2.usa1985_p2		usamo/1985/p2	mapped	Y0HZ2NGG5D	true
+Usa1985P4	Usa1985P4.usa1985_p4		usamo/1985/p4	mapped	MXJGB3Z6XC	true
+Usa1985P5	Usa1985P5.usa1985_p5		usamo/1985/p5	mapped	FS3GZKD9QF	true
+Usa1986P1	Usa1986P1.usa1986_p1a	a	usamo/1986/p1	mapped	J7H3EG1PNZ	true
+Usa1986P1	Usa1986P1.usa1986_p1b	b	usamo/1986/p1	mapped	S57JRY4K2T	true
+Usa1986P2	Usa1986P2.usa1986_p2		usamo/1986/p2	mapped	S1QV6CNDCT	true
+Usa1986P3	Usa1986P3.usa1986_p3		usamo/1986/p3	mapped	7T78SYEXMF	true
+Usa1986P5	Usa1986P5.usa1986_p5		usamo/1986/p5	mapped	A2CRZ1H8M6	true
+Usa1987P1	Usa1987P1.usa1987_p1		usamo/1987/p1	mapped	KEEBA07B0Q	true
+Usa1987P3	Usa1987P3.usa1987_p3		usamo/1987/p3	mapped	V0YAFBJP0Y	true
+Usa1987P5	Usa1987P5.usa1987_p5_part1	1	usamo/1987/p5	mapped	D4VCVG2JW9	true
+Usa1987P5	Usa1987P5.usa1987_p5_part2	2	usamo/1987/p5	mapped	YRFBJ0RKNE	true
+Usa1988P1	Usa1988P1.usa1988_p1		usamo/1988/p1	mapped	9XPJZ4WKD9	true
+Usa1988P2	Usa1988P2.usa1988_p2		usamo/1988/p2	mapped	64GZX8ZP1P	true
+Usa1988P3	Usa1988P3.usa1988_p3		usamo/1988/p3	mapped	Z0J8PM0Q4M	true
+Usa1988P4	Usa1988P4.usa1988_p4		usamo/1988/p4	mapped	NXX5KJE9D0	false
+Usa1988P5	Usa1988P5.usa1988_p5		usamo/1988/p5	mapped	TTWW668HTM	true
+Usa1989P1	Usa1989P1.usa1989_p1		usamo/1989/p1	mapped	5QZHPTYDMN	true
+Usa1989P2	Usa1989P2.usa1989_p2		usamo/1989/p2	mapped	7ZXC8KD0K8	true
+Usa1989P3	Usa1989P3.usa1989_p3		usamo/1989/p3	mapped	K8V0TGJY2E	true
+Usa1989P5	Usa1989P5.usa1989_p5		usamo/1989/p5	mapped	RXCE0NMGRD	true
+Usa1990P1	Usa1990P1.usa1990_p1		usamo/1990/p1	mapped	704RSP0XAR	true
+Usa1990P2	Usa1990P2.usa1990_p2		usamo/1990/p2	mapped	DHVXDZBSHP	true
+Usa1990P3	Usa1990P3.usa1990_p3		usamo/1990/p3	mapped	455BHWB5DA	true
+Usa1990P4	Usa1990P4.usa1990_p4		usamo/1990/p4	mapped	1YBJYHDX4B	true
+Usa1991P2	Usa1991P2.usa1991_p2		usamo/1991/p2	mapped	9MMEGZX9Y2	true
+Usa1991P3	Usa1991P3.usa1991_p3		usamo/1991/p3	mapped	C300DCQ6DG	true
+Usa1991P4	Usa1991P4.usa1991_p4		usamo/1991/p4	mapped	BKEW8GZY10	true
+Usa1992P1	Usa1992P1.usa1992_p1		usamo/1992/p1	mapped	JYCCRHTRTN	true
+Usa1992P2	Usa1992P2.usa1992_p2		usamo/1992/p2	mapped	P6778KDY3Q	true
+Usa1992P3	Usa1992P3.usa1992_p3		usamo/1992/p3	mapped	XZ0X1CHTMN	true
+Usa1992P5	Usa1992P5.usa1992_p5		usamo/1992/p5	mapped	1AJRYN1RM2	true
+Usa1993P1	Usa1993P1.usa1993_p1		usamo/1993/p1	mapped	DFHT03EZRB	true
+Usa1993P3	Usa1993P3.usa1993_p3		usamo/1993/p3	mapped	9QTZ9ZK0CK	true
+Usa1993P4	Usa1993P4.usa1993_p4		usamo/1993/p4	mapped	FMAT7TD9ZP	true
+Usa1993P5	Usa1993P5.usa1993_p5		usamo/1993/p5	mapped	R2X4RMGZXE	true
+Usa1994P1	Usa1994P1.usa1994_p1		usamo/1994/p1	mapped	SGYYH6VM46	true
+Usa1994P2	Usa1994P2.usa1994_p2		usamo/1994/p2	mapped	A54VV5FKA3	true
+Usa1994P4	Usa1994P4.usa1994_p4		usamo/1994/p4	mapped	7CPA0WZA34	true
+Usa1994P5	Usa1994P5.usa1994_p5		usamo/1994/p5	mapped	18EZSEFZNJ	true
+Usa1995P1	Usa1995P1.usa1995_p1		usamo/1995/p1	mapped	D5EDKBN55C	true
+Usa1995P2	Usa1995P2.usa1995_p2		usamo/1995/p2	mapped	1AHB708WTQ	true
+Usa1995P4	Usa1995P4.usa1995_p4		usamo/1995/p4	mapped	N16D95GQ28	true
+Usa1995P5	Usa1995P5.usa1995_p5		usamo/1995/p5	mapped	8PTV5FPJ90	true
+Usa1996P1	Usa1996P1.usa1996_p1		usamo/1996/p1	mapped	DTZ92D7G93	true
+Usa1996P2	Usa1996P2.usa1996_p2		usamo/1996/p2	mapped	X2XG1FAHE6	true
+Usa1996P4	Usa1996P4.usa1996_p4		usamo/1996/p4	mapped	B0SKZ7HYRC	true
+Usa1996P6	Usa1996P6.usa1996_p6		usamo/1996/p6	mapped	C5A8HFNSYM	true
+Usa1997P1	Usa1997P1.usa1997_p1		usamo/1997/p1	mapped	ZC94VMVCBV	true
+Usa1997P3	Usa1997P3.usa1997_p3		usamo/1997/p3	mapped	FANBQ5F01E	true
+Usa1997P5	Usa1997P5.usa1997_p5		usamo/1997/p5	mapped	HTJRW068S6	true
+Usa1997P6	Usa1997P6.usa1997_p6		usamo/1997/p6	mapped	SN9KHFWQ57	true
+Usa1998P1	Usa1998P1.usa1998_p1		usamo/1998/p1	mapped	NS5701Z3QS	true
+Usa1998P3	Usa1998P3.usa1998_p3		usamo/1998/p3	mapped	SWSE9YKNZ5	true
+Usa1998P4	Usa1998P4.usa1998_p4		usamo/1998/p4	mapped	WBTX67Z5P6	true
+Usa1998P5	Usa1998P5.usa1998_p5		usamo/1998/p5	mapped	6S7VBCEXFS	true
+Usa1999P1	Usa1999P1.usa1999_p1		usamo/1999/p1	mapped	3FVXNFANCW	true
+Usa1999P3	Usa1999P3.usa1999_p3		usamo/1999/p3	mapped	8MR13JQY13	true
+Usa1999P4	Usa1999P4.usa1999_p4		usamo/1999/p4	mapped	C17XD1HWX7	true
+Usa1999P5	Usa1999P5.usa1999_p5		usamo/1999/p5	mapped	FK6RA0DV10	true
+Usa2000P1	Usa2000P1.usa2000_p1		usamo/2000/p1	mapped	HFR5Q0VRC2	true
+Usa2000P3	Usa2000P3.usa2000_p3		usamo/2000/p3	mapped	DEZFVDCJD2	true
+Usa2000P4	Usa2000P4.usa2000_p4		usamo/2000/p4	mapped	XJEJH604R7	true
+Usa2000P5	Usa2000P5.usa2000_p5		usamo/2000/p5	mapped	JM61D1YKM6	true
+Usa2000P6	Usa2000P6.usa2000_p6		usamo/2000/p6	mapped	P2V3YSP084	true
+Usa2001P1	Usa2001P1.usa2001_p1		usamo/2001/p1	mapped	CKERXFW0ZZ	true
+Usa2001P3	Usa2001P3.usa2001_p3		usamo/2001/p3	mapped	BJJF4DPS09	true
+Usa2001P4	Usa2001P4.usa2001_p4		usamo/2001/p4	mapped	ZMBJK266NZ	true
+Usa2001P5	Usa2001P5.usa2001_p5		usamo/2001/p5	mapped	DA87R0Q7GX	true
+Usa2002P1	Usa2002P1.usa2002_p1		usamo/2002/p1	mapped	2X9XVP4NG5	true
+Usa2002P3	Usa2002P3.usa2002_p3		usamo/2002/p3	mapped	19SM5D824X	true
+Usa2002P4	Usa2002P4.usa2002_p4		usamo/2002/p4	mapped	P2NE327N8X	true
+Usa2002P5	Usa2002P5.usa2002_p5		usamo/2002/p5	mapped	9JQNBZWTFJ	true
+Usa2002P6	Usa2002P6.usa2002_p6		usamo/2002/p6	mapped	RRNF9FDVYA	true
+Usa2003P1	Usa2003P1.usa2003_p1		usamo/2003/p1	mapped	QZJ6DPSSJ6	true
+Usa2003P3	Usa2003P3.usa2003_p3		usamo/2003/p3	mapped	8G0JFKZFVR	true
+Usa2003P5	Usa2003P5.usa2003_p5		usamo/2003/p5	mapped	SQ88HRQ9WJ	true
+Usa2003P6	Usa2003P6.usa2003_p6		usamo/2003/p6	mapped	GC015P9CGK	true
+Usa2004P2	Usa2004P2.usa2004_p2		usamo/2004/p2	mapped	QYF3CVYXPR	true
+Usa2004P4	Usa2004P4.usa2004_p4		usamo/2004/p4	mapped	88Y4GR522Y	true
+Usa2004P5	Usa2004P5.usa2004_p5		usamo/2004/p5	mapped	RMSJ6TW3S1	true
+Usa2005P1	Usa2005P1.usa2005_p1		usamo/2005/p1	mapped	7QGRG45MW6	true
+Usa2005P2	Usa2005P2.usa2005_p2		usamo/2005/p2	mapped	M1SHV3PBKS	true
+Usa2005P4	Usa2005P4.usa2005_p4		usamo/2005/p4	mapped	5VFNA0R41X	true
+Usa2005P6	Usa2005P6.usa2005_p6		usamo/2005/p6	mapped	1WXFYQDKJJ	true
+Usa2006P1	Usa2006P1.usa2006_p1		usamo/2006/p1	mapped	2FHKPG64FC	true
+Usa2006P2	Usa2006P2.usa2006_p2		usamo/2006/p2	mapped	Z1GRE4KFBV	true
+Usa2006P3	Usa2006P3.usa2006_p3		usamo/2006/p3	mapped	FEASCGFKBR	true
+Usa2006P4	Usa2006P4.usa2006_p4		usamo/2006/p4	mapped	FE4K5EEDPB	true
+Usa2006P5	Usa2006P5.usa2006_p5		usamo/2006/p5	mapped	FFK8BVFK10	true
+Usa2007P1	Usa2007P1.usa2007_p1		usamo/2007/p1	mapped	T0710NB8TM	true
+Usa2007P3	Usa2007P3.usa2007_p3		usamo/2007/p3	mapped	MS08HKZ05Q	true
+Usa2007P4	Usa2007P4.usa2007_p4		usamo/2007/p4	mapped	6W2HMKPN3Z	true
 Usa2007P5	USA2007P5.usa2007_p5		usamo/2007/p5	no-problem		true
-Usa2008P1	Usa2008P1.usa2008_p1		usamo/2008/p1	mapped		true
-Usa2008P3	Usa2008P3.usa2008_p3		usamo/2008/p3	mapped		true
-Usa2008P5	Usa2008P5.usa2008_p5		usamo/2008/p5	mapped		true
+Usa2008P1	Usa2008P1.usa2008_p1		usamo/2008/p1	mapped	141SQ31Z52	true
+Usa2008P3	Usa2008P3.usa2008_p3		usamo/2008/p3	mapped	JRP5SG5RRV	true
+Usa2008P5	Usa2008P5.usa2008_p5		usamo/2008/p5	mapped	C1PX1YV1Z6	true
 Usa2008P6	Usa2008P6.usa2008_p6		usamo/2008/p6	no-problem		true
-Usa2009P2	Usa2009P2.usa2009_p2		usamo/2009/p2	mapped		true
-Usa2009P4	Usa2009P4.usa2009_p4		usamo/2009/p4	mapped		true
-Usa2009P6	Usa2009P6.usa2009_p6		usamo/2009/p6	mapped		true
-Usa2010P2	Usa2010P2.usa2010_p2		usamo/2010/p2	mapped		true
-Usa2010P3	Usa2010P3.usa2010_p3		usamo/2010/p3	mapped		true
-Usa2010P5	Usa2010P5.usa2010_p5		usamo/2010/p5	mapped		true
-Usa2010P6	Usa2010P6.usa2010_p6		usamo/2010/p6	mapped		true
-Usa2011P1	Usa2011P1.usa2011_p1		usamo/2011/p1	mapped		true
-Usa2011P2	Usa2011P2.usa2011_p2		usamo/2011/p2	mapped		true
-Usa2011P4	Usa2011P4.usa2011_p4		usamo/2011/p4	mapped		true
-Usa2011P6	Usa2011P6.usa2011_p6	a	usamo/2011/p6	mapped		true
-Usa2011P6	Usa2011P6.usa2011_p6_sharp	b	usamo/2011/p6	mapped		true
+Usa2009P2	Usa2009P2.usa2009_p2		usamo/2009/p2	mapped	XNFW6T4QQ2	true
+Usa2009P4	Usa2009P4.usa2009_p4		usamo/2009/p4	mapped	Z5G3DJ126W	true
+Usa2009P6	Usa2009P6.usa2009_p6		usamo/2009/p6	mapped	21QXCNAFW6	true
+Usa2010P2	Usa2010P2.usa2010_p2		usamo/2010/p2	mapped	WRYQ58JN2B	true
+Usa2010P3	Usa2010P3.usa2010_p3		usamo/2010/p3	mapped	ASE7XM11NK	true
+Usa2010P5	Usa2010P5.usa2010_p5		usamo/2010/p5	mapped	X6JF5NCFJ0	true
+Usa2010P6	Usa2010P6.usa2010_p6		usamo/2010/p6	mapped	FWKNPBW31M	true
+Usa2011P1	Usa2011P1.usa2011_p1		usamo/2011/p1	mapped	2EZ296MNR6	true
+Usa2011P2	Usa2011P2.usa2011_p2		usamo/2011/p2	mapped	S8DHP33EWX	true
+Usa2011P4	Usa2011P4.usa2011_p4		usamo/2011/p4	mapped	V0XK14RES3	true
+Usa2011P6	Usa2011P6.usa2011_p6	a	usamo/2011/p6	mapped	AHBSHC1ZT7	true
+Usa2011P6	Usa2011P6.usa2011_p6_sharp	b	usamo/2011/p6	mapped	283YBMYY35	true
 Usa2012P1	Usa2012P1.usa2012_p1		usamo/2012/p1	no-problem		true
-Usa2012P2	Usa2012P2.usa2012_p2		usamo/2012/p2	mapped		true
-Usa2012P3	Usa2012P3.usa2012_p3		usamo/2012/p3	mapped		true
-Usa2012P4	Usa2012P4.usa2012_p4		usamo/2012/p4	mapped		true
-Usa2012P6	Usa2012P6.usa2012_p6	a	usamo/2012/p6	mapped		true
-Usa2012P6	Usa2012P6.usa2012_p6_equality_cases	b	usamo/2012/p6	mapped		true
-Usa2013P2	Usa2013P2.usa2013_p2		usamo/2013/p2	mapped		true
-Usa2013P3	Usa2013P3.usa2013_p3		usamo/2013/p3	mapped		true
-Usa2013P4	Usa2013P4.usa2013_p4		usamo/2013/p4	mapped		true
-Usa2013P5	Usa2013P5.usa2013_p5		usamo/2013/p5	mapped		true
-Usa2014P1	Usa2014P1.usa2014_p1		usamo/2014/p1	mapped		true
-Usa2014P2	Usa2014P2.usa2014_p2		usamo/2014/p2	mapped		true
-Usa2014P3	Usa2014P3.usa2014_p3		usamo/2014/p3	mapped		true
-Usa2014P4	Usa2014P4.usa2014_p4		usamo/2014/p4	mapped		true
-Usa2014P6	Usa2014P6.usa2014_p6		usamo/2014/p6	mapped		true
-Usa2015P1	Usa2015P1.usa2015_p1		usamo/2015/p1	mapped		true
-Usa2015P3	Usa2015P3.usa2015_p3		usamo/2015/p3	mapped		true
-Usa2015P4	Usa2015P4.usa2015_p4		usamo/2015/p4	mapped		true
-Usa2015P5	Usa2015P5.usa2015_p5		usamo/2015/p5	mapped		true
-Usa2015P6	Usa2015P6.usa2015_p6		usamo/2015/p6	mapped		true
-Usa2016P1	Usa2016P1.usa2016_p1		usamo/2016/p1	mapped		true
-Usa2016P2	Usa2016P2.usa2016_p2		usamo/2016/p2	mapped		true
-Usa2016P4	Usa2016P4.usa2016_p4		usamo/2016/p4	mapped		true
-Usa2016P6	Usa2016P6.usa2016_p6		usamo/2016/p6	mapped		true
-Usa2017P1	Usa2017P1.usa2016_p1		usamo/2017/p1	mapped		true
-Usa2017P2	Usa2017P2.usa2017_p2		usamo/2017/p2	mapped		true
-Usa2017P4	Usa2017P4.usa2017_p4		usamo/2017/p4	mapped		true
-Usa2017P5	Usa2017P5.usa2017_p5		usamo/2017/p5	mapped		true
-Usa2017P6	Usa2017P6.usa2017_p6		usamo/2017/p6	mapped		true
-Usa2018P1	Usa2018P1.usa2018_p1		usamo/2018/p1	mapped		true
-Usa2018P2	Usa2018P2.usa2018_p2		usamo/2018/p2	mapped		true
-Usa2018P3	Usa2018P3.usa2018_p3		usamo/2018/p3	mapped		true
-Usa2018P4	Usa2018P4.usa2018_p4		usamo/2018/p4	mapped		true
-Usa2018P6	Usa2018P6.usa2018_p6		usamo/2018/p6	mapped		true
-Usa2019P1	Usa2019P1.usa2019_p1		usamo/2019/p1	mapped		true
-Usa2019P3	Usa2019P3.usa2019_p3		usamo/2019/p3	mapped		true
-Usa2019P4	Usa2019P4.usa2019_p4		usamo/2019/p4	mapped		true
-Usa2019P5	Usa2019P5.usa2019_p5		usamo/2019/p5	mapped		true
-Usa2019P6	Usa2019P6.usa2019_p6		usamo/2019/p6	mapped		true
+Usa2012P2	Usa2012P2.usa2012_p2		usamo/2012/p2	mapped	F10GB093AJ	true
+Usa2012P3	Usa2012P3.usa2012_p3		usamo/2012/p3	mapped	P287JC1Q56	true
+Usa2012P4	Usa2012P4.usa2012_p4		usamo/2012/p4	mapped	S05NBPEHZP	true
+Usa2012P6	Usa2012P6.usa2012_p6	a	usamo/2012/p6	mapped	3QBMHET02F	true
+Usa2012P6	Usa2012P6.usa2012_p6_equality_cases	b	usamo/2012/p6	mapped	FBZ60JGEZJ	true
+Usa2013P2	Usa2013P2.usa2013_p2		usamo/2013/p2	mapped	V6Z690Y95W	true
+Usa2013P3	Usa2013P3.usa2013_p3		usamo/2013/p3	mapped	B39JY10YPT	true
+Usa2013P4	Usa2013P4.usa2013_p4		usamo/2013/p4	mapped	4QFF9KTJXD	true
+Usa2013P5	Usa2013P5.usa2013_p5		usamo/2013/p5	mapped	JAZSVM2B9D	true
+Usa2014P1	Usa2014P1.usa2014_p1		usamo/2014/p1	mapped	QNSNH37QAN	true
+Usa2014P2	Usa2014P2.usa2014_p2		usamo/2014/p2	mapped	CRXZ8Y2NM6	true
+Usa2014P3	Usa2014P3.usa2014_p3		usamo/2014/p3	mapped	Y0M3F30ZEV	true
+Usa2014P4	Usa2014P4.usa2014_p4		usamo/2014/p4	mapped	A3PT0SA9PZ	true
+Usa2014P6	Usa2014P6.usa2014_p6		usamo/2014/p6	mapped	F822D62SEV	true
+Usa2015P1	Usa2015P1.usa2015_p1		usamo/2015/p1	mapped	H60TM05JB2	true
+Usa2015P3	Usa2015P3.usa2015_p3		usamo/2015/p3	mapped	RR5G1PYC4M	true
+Usa2015P4	Usa2015P4.usa2015_p4		usamo/2015/p4	mapped	DYCKFWWPHH	true
+Usa2015P5	Usa2015P5.usa2015_p5		usamo/2015/p5	mapped	N3YK2FXV0S	true
+Usa2015P6	Usa2015P6.usa2015_p6		usamo/2015/p6	mapped	4CPYXQZMRB	true
+Usa2016P1	Usa2016P1.usa2016_p1		usamo/2016/p1	mapped	VK7DBKGMD3	true
+Usa2016P2	Usa2016P2.usa2016_p2		usamo/2016/p2	mapped	G64EW4YX52	true
+Usa2016P4	Usa2016P4.usa2016_p4		usamo/2016/p4	mapped	VGQPPQ24AM	true
+Usa2016P6	Usa2016P6.usa2016_p6		usamo/2016/p6	mapped	7VQ0TEX9SE	true
+Usa2017P1	Usa2017P1.usa2016_p1		usamo/2017/p1	mapped	DW58ZQQ8YE	true
+Usa2017P2	Usa2017P2.usa2017_p2		usamo/2017/p2	mapped	AB76S3PH0S	true
+Usa2017P4	Usa2017P4.usa2017_p4		usamo/2017/p4	mapped	Q3PFJCYTPX	true
+Usa2017P5	Usa2017P5.usa2017_p5		usamo/2017/p5	mapped	C95FB5S62E	true
+Usa2017P6	Usa2017P6.usa2017_p6		usamo/2017/p6	mapped	8AT0AAWFGA	true
+Usa2018P1	Usa2018P1.usa2018_p1		usamo/2018/p1	mapped	9QX3MV6DRB	true
+Usa2018P2	Usa2018P2.usa2018_p2		usamo/2018/p2	mapped	ZAYGMCJEF4	true
+Usa2018P3	Usa2018P3.usa2018_p3		usamo/2018/p3	mapped	NW47VQ5MF0	true
+Usa2018P4	Usa2018P4.usa2018_p4		usamo/2018/p4	mapped	CPAAJF5KKW	true
+Usa2018P6	Usa2018P6.usa2018_p6		usamo/2018/p6	mapped	XNA2A4VM0Q	true
+Usa2019P1	Usa2019P1.usa2019_p1		usamo/2019/p1	mapped	ZQM3SK78SF	true
+Usa2019P3	Usa2019P3.usa2019_p3		usamo/2019/p3	mapped	X3G48MDA2H	true
+Usa2019P4	Usa2019P4.usa2019_p4		usamo/2019/p4	mapped	D59FEM0KW4	true
+Usa2019P5	Usa2019P5.usa2019_p5		usamo/2019/p5	mapped	GFZBJXRKNN	true
+Usa2019P6	Usa2019P6.usa2019_p6		usamo/2019/p6	mapped	ADF6TBEP7V	true
 Usa2020P2	Usa2020P2.usa2020_p2		usamo/2020/p2	no-problem		true
 Usa2020P3	Usamo2020P3.usa2020_p3		usamo/2020/p3	no-problem		true
 Usa2020P4	Usa2020P4.usa2020_p4		usamo/2020/p4	no-problem		true
 Usa2020P5	Usa2020P5.usa2020_p5		usamo/2020/p5	no-problem		true
-Usa2020P6	Usa2020P6.usa2020_p6		usamo/2020/p6	mapped		true
-Usa2021P2	Usa2021P2.usa2021_p2		usamo/2021/p2	mapped		true
-Usa2021P3	Usa2021P3.usa2021_p3		usamo/2021/p3	mapped		true
-Usa2021P4	Usa2021P4.usa2021_p4		usamo/2021/p4	mapped		true
-Usa2021P5	Usa2021P5.usa2021_p5		usamo/2021/p5	mapped		true
-Usa2022P1	Usa2022P1.usa2022_p1		usamo/2022/p1	mapped		true
-Usa2022P3	Usa2022P3.usa2022_p3		usamo/2022/p3	mapped		true
-Usa2022P4	Usa2022P4.usa2022_p4		usamo/2022/p4	mapped		true
-Usa2022P5	Usa2022P5.usa2022_p5		usamo/2022/p5	mapped		true
-Usa2022P6	Usa2022P6.usa2022_p6		usamo/2022/p6	mapped		true
-Usa2023P2	Usa2023P2.usa2023_p2		usamo/2023/p2	mapped		true
-Usa2023P4	Usa2023P4.usa2023_p4		usamo/2023/p4	mapped		true
-Usa2023P5	Usa2023P5.usa2023_p5		usamo/2023/p5	mapped		true
-Usa2024P1	Usa2024P1.usa2024_p1		usamo/2024/p1	mapped		true
-Usa2024P2	Usa2024P2.usa2024_p2		usamo/2024/p2	mapped		true
-Usa2024P4	Usa2024P4.usa2024_p4		usamo/2024/p4	mapped		true
-Usa2024P6	Usa2024P6.usa2024_p6		usamo/2024/p6	mapped		true
+Usa2020P6	Usa2020P6.usa2020_p6		usamo/2020/p6	mapped	KY785AJ226	true
+Usa2021P2	Usa2021P2.usa2021_p2		usamo/2021/p2	mapped	1V2SGN7JQ1	true
+Usa2021P3	Usa2021P3.usa2021_p3		usamo/2021/p3	mapped	Z068A6EXD0	true
+Usa2021P4	Usa2021P4.usa2021_p4		usamo/2021/p4	mapped	342D76KP68	true
+Usa2021P5	Usa2021P5.usa2021_p5		usamo/2021/p5	mapped	JNN3NTRY3Y	true
+Usa2022P1	Usa2022P1.usa2022_p1		usamo/2022/p1	mapped	726DQF2W1Q	true
+Usa2022P3	Usa2022P3.usa2022_p3		usamo/2022/p3	mapped	6H3SZ3FS7X	true
+Usa2022P4	Usa2022P4.usa2022_p4		usamo/2022/p4	mapped	9DR39DJXJ7	true
+Usa2022P5	Usa2022P5.usa2022_p5		usamo/2022/p5	mapped	2PS7QY2DDM	true
+Usa2022P6	Usa2022P6.usa2022_p6		usamo/2022/p6	mapped	RYZ6RETASV	true
+Usa2023P2	Usa2023P2.usa2023_p2		usamo/2023/p2	mapped	D9QK68K5B5	true
+Usa2023P4	Usa2023P4.usa2023_p4		usamo/2023/p4	mapped	1QWXYN69RS	true
+Usa2023P5	Usa2023P5.usa2023_p5		usamo/2023/p5	mapped	Z2PNPPWD5A	true
+Usa2024P1	Usa2024P1.usa2024_p1		usamo/2024/p1	mapped	XZNGDES7G8	true
+Usa2024P2	Usa2024P2.usa2024_p2		usamo/2024/p2	mapped	5B4WWMRPYP	true
+Usa2024P4	Usa2024P4.usa2024_p4		usamo/2024/p4	mapped	RGDYPK6MRP	true
+Usa2024P6	Usa2024P6.usa2024_p6		usamo/2024/p6	mapped	YQAY7H28P2	true
 Usa2025P1	Usa2025P1.usa2025_p1		usamo/2025/p1	no-problem		true
-Usa2025P2	Usa2025P2.usa2025_p2		usamo/2025/p2	mapped		true
-Usa2025P4	Usamo2025P4.usa2025_p4		usamo/2025/p4	mapped		true
-Usa2025P5	Usa2025P5.usa2025_p5		usamo/2025/p5	mapped		true
-Usa2025P6	Usa2025P6.usa2025_p6		usamo/2025/p6	mapped		true
+Usa2025P2	Usa2025P2.usa2025_p2		usamo/2025/p2	mapped	QEM5GN6TKJ	true
+Usa2025P4	Usamo2025P4.usa2025_p4		usamo/2025/p4	mapped	EAH3YS136D	true
+Usa2025P5	Usa2025P5.usa2025_p5		usamo/2025/p5	mapped	JFDTBX4JDH	true
+Usa2025P6	Usa2025P6.usa2025_p6		usamo/2025/p6	mapped	P8ZCVNT986	true
 Usa2026P1	Usa2026P1.usa2026_p1		usamo/2026/p1	no-problem		true
 Usa2026P2	Usa2026P2.usa2026_p2		usamo/2026/p2	no-problem		true
 Usa2026P4	Usa2026P4.usa2026_p4		usamo/2026/p4	no-problem		true

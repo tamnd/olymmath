@@ -1,0 +1,61 @@
+tag: CNYYJWX9JE
+kind: formal
+problem: 52WQRVK8FB
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Usa1977P1.lean
+module: Compfiles.Usa1977P1
+decl: Usa1977P1.usa1977_p1
+answer:
+  style: separate-def
+  decl: Usa1977P1.solution_set
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Usa1977P1.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Usa1977P1
+licence: Apache-2.0
+text: |-
+  abbrev solution_set : Set (ℕ+ × ℕ+) := {p | ((p.1 : ℕ) + 1).Coprime (p.2 : ℕ) }
+
+  theorem usa1977_p1 (m n : ℕ+) :
+      (m, n) ∈ solution_set ↔ geomSum m ∣ geomSumStep m n
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - V7B08YB07T

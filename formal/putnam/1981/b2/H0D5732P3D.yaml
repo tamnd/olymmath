@@ -1,0 +1,63 @@
+tag: H0D5732P3D
+kind: formal
+problem: GQJZY6K0HQ
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1981_b2.lean
+module: src.putnam_1981_b2
+decl: putnam_1981_b2
+answer:
+  style: separate-def
+  decl: putnam_1981_b2_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1981_b2.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1981_b2
+licence: Apache-2.0
+text: |-
+  noncomputable abbrev putnam_1981_b2_solution : ℝ := sorry
+
+  theorem putnam_1981_b2
+      (P : ℝ × ℝ × ℝ → Prop)
+      (hP : P = fun (r, s, t) => 1 ≤ r ∧ r ≤ s ∧ s ≤ t ∧ t ≤ 4)
+      (f : ℝ × ℝ × ℝ → ℝ)
+      (hf : f = fun (r, s, t) => (r - 1)^2 + (s/r - 1)^2 + (t/s - 1)^2 + (4/t - 1)^2) :
+      IsLeast {y | ∃ r s t, P (r, s, t) ∧ f (r, s, t) = y} putnam_1981_b2_solution
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

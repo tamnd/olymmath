@@ -1,0 +1,65 @@
+tag: YJ4F94NC53
+kind: formal
+problem: AVQMVPH04P
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_2007_a3.lean
+module: src.putnam_2007_a3
+decl: putnam_2007_a3
+answer:
+  style: separate-def
+  decl: putnam_2007_a3_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_2007_a3.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_2007_a3
+licence: Apache-2.0
+text: |-
+  abbrev putnam_2007_a3_solution : ℕ → ℚ := sorry
+
+  theorem putnam_2007_a3
+  (k : ℕ)
+  (kpos : k > 0)
+  (perms : Set (Fin (3 * k + 1) → ℤ))
+  (goodperms : Set (Fin (3 * k + 1) → ℤ))
+  (hgoodperms : goodperms = {f ∈ perms | ¬∃ j : Fin (3 * k + 1), 3 ∣ ∑ i : Fin (3 * k + 1), ite (i ≤ j) (f i) 0})
+  (hperms : perms = {f : Fin (3 * k + 1) → ℤ | ∀ y ∈ Icc 1 (3 * k + 1), ∃! x : Fin (3 * k + 1), f x = y})
+  : (goodperms.ncard = perms.ncard * (putnam_2007_a3_solution k))
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

@@ -1,0 +1,55 @@
+tag: JTFKMD4Z1H
+kind: formal
+problem: 23WX5P5JH4
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/2011/P2.lean
+module: Imo.«2011».P2
+decl: imo_2011_p2
+answer:
+  style: none
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/2011/P2.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_2011_p2
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: "@[imo_problem_subject combinatorics]\ntheorem imo_2011_p2\n    (S : Finset ℝ²) (S_card : 2 ≤ S.card)\n    (S_ncoll : (S : Set ℝ²).Triplewise (¬Collinear ℝ {·, ·, ·}))\n    (windmillDist: ℝ² → ℝ² → ℝ² → ℝ)\n                                                                         \n    (windmillDist_def : ∀ Q P Q', windmillDist Q P Q' =\n        \n                                                                 \n                                                                            \n        \n      (∡ Q P Q').toReal + if (∡ Q P Q').toReal ≤ 0 then π else 0) :\n      \n                                                         \n                                                                             \n                                                           \n                                                 \n                                                                        \n      \n    ∃ P : ℕ → ℝ²,\n        \n                                                                            \n                                                                               \n                                                          \n        \n      (∀ n, P n ∈ S ∧ P (n + 1) ≠ P n ∧ ∀ p ∈ S,\n        windmillDist (P n) (P (n + 1)) (P (n + 2)) ≤\n        windmillDist (P n) (P (n + 1)) p) ∧\n      ∀ p ∈ S, (P ⁻¹' {p}).Infinite"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

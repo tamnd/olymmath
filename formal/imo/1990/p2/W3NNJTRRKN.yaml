@@ -1,0 +1,55 @@
+tag: W3NNJTRRKN
+kind: formal
+problem: QG913C4F9K
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/1990/P2.lean
+module: Imo.«1990».P2
+decl: imo_1990_p2
+answer:
+  style: embedded
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/1990/P2.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_1990_p2
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: "@[imo_problem_subject combinatorics]\ntheorem imo_1990_p2\n                  \n    {n : ℕ}  {hn : 3 ≤ n}\n    (IsGood : ℝ² → Finset ℝ² → Finset ℝ² → Prop)\n    (IsGood_def : ∀ E Black_points O, IsGood O E Black_points  ↔\n                                                                               \n      ∃ P1 ∈ Black_points, ∃ P2 ∈ Black_points, P1 ≠ P2 ∧\n                                                                                \n                                                                               \n                                                                                 \n                                                                            \n                           \n      n = (E.filter (fun Q => sbtw 0 (∡ P1 O Q) (∡ P1 O P2))).card ∨\n      n = (E.filter (fun Q => sbtw 0 (∡ P2 O Q) (∡ P2 O P1))).card) :\n                                                                                      \n                                                        \n    IsLeast\n      {k : ℕ | ∀ (E : Finset ℝ²) (O : ℝ²), E.card = (2*n-1 : ℕ) →\n        (∃ r, 0 < r ∧ ∀ P ∈ E, dist P O = r) →\n        ∀ Black_points ⊆ E, Black_points.card = k → IsGood O E Black_points }\n                                                                     \n      answer(if 3 ∣ (2*n-1 : ℕ) then 3*((2*n - 1)/6 : ℕ)+1 else n)"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

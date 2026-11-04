@@ -477,7 +477,7 @@
   ai_train: allowed
   wave: 0
   state: planned
-  notes: Lean formalizations of competition problems with native names. The files at commit 1745e6ced3e6 are in lean/vendor/compfiles. 510 of 551 statements map to a problem, as reports/formal/compfiles.tsv shows. The formal records wait for a compile check at Lean v4.35.0 and Mathlib v4.35.0.
+  notes: Lean formalizations of competition problems with native names. The files at commit 1745e6ced3e6 are in lean/vendor/compfiles. 510 of 551 statements map to a problem, as reports/formal/compfiles.tsv shows. All 510 mapped statements compile at Lean v4.35.0 and Mathlib v4.35.0 (Actions run 41621966152), so they have formal records. 496 of 505 proofs check with the allowed axioms. The other 9 got new declaration names after a fix to the reader, so their proofs wait for the next run.
 
 - id: imosllean4
   name: IMOSLLean4
@@ -493,7 +493,7 @@
   ai_train: allowed
   wave: 0
   state: planned
-  notes: Lean 4 formalizations of IMO Shortlist problems. The files at commit 883b0326e585 are in lean/vendor/imosllean4. 164 of 174 statements map to a problem, as reports/formal/imosllean4.tsv shows. The source pins a Mathlib 34 commits after v4.35.0, and it needs autoImplicit true, so its statements cannot be checker-clean. The formal records wait for a compile check at Lean v4.35.0 and Mathlib v4.35.0.
+  notes: Lean 4 formalizations of IMO Shortlist problems. The files at commit 883b0326e585 are in lean/vendor/imosllean4. 164 of 174 statements map to a problem, as reports/formal/imosllean4.tsv shows. The source pins a Mathlib 34 commits after v4.35.0, and it needs autoImplicit true, so its statements cannot be checker-clean. At Lean v4.35.0 and Mathlib v4.35.0 (Actions run 41621966152), 152 of 154 modules build. 162 of 164 mapped statements have formal records, and their 162 proofs check. IMO2009C5 and IMO2010C4 do not compile (Unknown identifier), so they have the status fails-at-pin in the report.
 
 - id: mathlib-archive-imo
   name: Mathlib Archive/Imo
@@ -509,7 +509,7 @@
   ai_train: allowed
   wave: 0
   state: planned
-  notes: IMO solutions in the Mathlib archive. The files of Mathlib v4.35.0 (commit 56a005855ea1) are in lean/vendor/mathlib-archive-imo. The package builds them from the Mathlib dependency. All 54 statements map to a problem, as reports/formal/mathlib-archive-imo.tsv shows. The formal records wait for a compile check.
+  notes: IMO solutions in the Mathlib archive. The files of Mathlib v4.35.0 (commit 56a005855ea1) are in lean/vendor/mathlib-archive-imo. The package builds them from the Mathlib dependency. All 54 statements map to a problem, as reports/formal/mathlib-archive-imo.tsv shows. All 54 statements compile at Lean v4.35.0 and Mathlib v4.35.0 (Actions run 41621966152), so they have formal records. 53 of 54 proofs check. The axioms check gives Unknown constant for imo2019_q2, so that proof has no proof record yet.
 
 - id: formal-imo
   name: formal-imo
@@ -525,7 +525,7 @@
   ai_train: allowed
   wave: 0
   state: planned
-  notes: Formal statements of IMO problems, with no proofs. The files at commit a85d84b97c8e are in lean/vendor/formal-imo. 253 of 258 statements map to a problem, as reports/formal/formal-imo.tsv shows. The source pins Lean v4.27.0 and imports formal-conjectures (Answer, Triplewise and the geometry files). Those files are in lean/vendor/formal-conjectures. The port changes one import of Imo/ProblemImports.lean to the module name at that commit, as lean/ports/formal-imo/a85d84b97c8e.diff shows. The formal records wait for a compile check at Lean v4.35.0 and Mathlib v4.35.0.
+  notes: Formal statements of IMO problems, with no proofs. The files at commit a85d84b97c8e are in lean/vendor/formal-imo. 253 of 258 statements map to a problem, as reports/formal/formal-imo.tsv shows. The source pins Lean v4.27.0 and imports formal-conjectures (Answer, Triplewise and the geometry files). Those files are in lean/vendor/formal-conjectures. The port changes one import of Imo/ProblemImports.lean to the module name at that commit, as lean/ports/formal-imo/a85d84b97c8e.diff shows. At Lean v4.35.0 and Mathlib v4.35.0 (Actions run 41621966152), 247 of 253 mapped statements compile and have formal records. 6 do not, because Mathlib renamed List.Chain' and Finset.toSet (1969 P5, 1970 P6, 1992 P3, 2004 P6, 2020 P4, 2022 P6). They have the status fails-at-pin in the report.
 
 - id: formal-conjectures
   name: formal-conjectures
@@ -557,7 +557,7 @@
   ai_train: allowed
   wave: 0
   state: planned
-  notes: Formal statements of Putnam problems in Lean, Isabelle and Coq, with no proofs. olymmath reads the Lean files only. The files in lean4/src at commit a635813f5edf are in lean/vendor/putnambench. 597 of 672 statements map to a problem, as reports/formal/putnambench.tsv shows. The source pins Lean v4.33.1. The formal records wait for a compile check at Lean v4.35.0 and Mathlib v4.35.0.
+  notes: Formal statements of Putnam problems in Lean, Isabelle and Coq, with no proofs. olymmath reads the Lean files only. The files in lean4/src at commit a635813f5edf are in lean/vendor/putnambench. 597 of 672 statements map to a problem, as reports/formal/putnambench.tsv shows. The source pins Lean v4.33.1. At Lean v4.35.0 and Mathlib v4.35.0 (Actions run 41621966152), 593 of 597 mapped statements compile and have formal records. 4 do not: 2021 A1, 2022 A5 and 2025 A3 use List.Chain and List.Chain', which Mathlib renamed, and 1987 A4 has Unknown identifier coeff. They have the status fails-at-pin in the report.
 
 - id: minif2f-v2
   name: miniF2F v2

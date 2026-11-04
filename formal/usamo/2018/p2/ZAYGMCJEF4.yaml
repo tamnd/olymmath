@@ -1,0 +1,65 @@
+tag: ZAYGMCJEF4
+kind: formal
+problem: N08KSZGZV9
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Usa2018P2.lean
+module: Compfiles.Usa2018P2
+decl: Usa2018P2.usa2018_p2
+answer:
+  style: separate-def
+  decl: Usa2018P2.solution_set
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Usa2018P2.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Usa2018P2
+licence: Apache-2.0
+text: |-
+  abbrev solution_set : Set (ℝ → ℝ) :=
+    { f | ∃ k : ℝ, k ∈ Set.Icc (-1 / 2) 1 ∧ ∀ t : ℝ, 0 < t → f t = k / (t + 1) + (1 - k) / 3 }
+
+  theorem usa2018_p2 (f : ℝ → ℝ) :
+      f ∈ solution_set ↔
+        (∀ x : ℝ, 0 < x → 0 < f x) ∧
+          (∀ x y z : ℝ, 0 < x → 0 < y → 0 < z → x * y * z = 1 →
+            f (x + 1 / y) + f (y + 1 / z) + f (z + 1 / x) = 1)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - 5SFPH694J5

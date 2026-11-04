@@ -1,0 +1,62 @@
+tag: RYZ6RETASV
+kind: formal
+problem: NHWP58BJKM
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Usa2022P6.lean
+module: Compfiles.Usa2022P6
+decl: Usa2022P6.usa2022_p6
+answer:
+  style: separate-def
+  decl: Usa2022P6.answer
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Usa2022P6.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Usa2022P6
+licence: Apache-2.0
+text: |-
+  abbrev answer : ℕ := 3031
+
+  theorem usa2022_p6 :
+      IsLeast {m : ℕ | ∃ G : SimpleGraph (Fin 2022), Completable G ∧ G.edgeSet.ncard = m}
+        answer
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - 3H71V94W4E

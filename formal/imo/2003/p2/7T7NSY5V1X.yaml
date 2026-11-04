@@ -1,0 +1,67 @@
+tag: 7T7NSY5V1X
+kind: formal
+problem: ARD6XDQ0Y0
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/2003/P2.lean
+module: Imo.«2003».P2
+decl: imo_2003_p2
+answer:
+  style: embedded
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/2003/P2.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_2003_p2
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: |-
+  @[imo_problem_subject number_theory]
+  theorem imo_2003_p2 :
+      {(a, b) |
+        (a : ℤ) (b : ℤ)
+        (h₀ : 0 < a ∧ 0 < b)
+        (h₁ : ∃ c : ℤ, 0 < c ∧ (a^2 : ℚ)/(2*a*(b^2) - b^3 + 1) = c)} =
+      answer({(a, b) |
+        (a : ℤ) (b : ℤ)
+        (h₀ : ∃ n > 0,
+          ((a = 2*n ∧ b = 1) ∨
+          (a = n ∧ b = 2*n) ∨
+          (a = 8*n^4 - n ∧ b = 2*n)))} )
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

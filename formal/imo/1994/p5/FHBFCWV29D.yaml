@@ -1,0 +1,66 @@
+tag: FHBFCWV29D
+kind: formal
+problem: JNH94VWBMA
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo1994P5.lean
+module: Compfiles.Imo1994P5
+decl: Imo1994P5.imo1994_p5
+answer:
+  style: separate-def
+  decl: Imo1994P5.solution_set
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo1994P5.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo1994P5
+licence: Apache-2.0
+text: |-
+  abbrev solution_set : Set (S → S) := { fun x ↦ ⟨-x.val / (1 + x.val), sol_prop x.property⟩ }
+
+  theorem imo1994_p5 (f : S → S) :
+      f ∈ solution_set ↔
+      ((∀ x y : S, f (op f x y) = op f y x) ∧
+       (∀ x y : S, x.val ∈ Set.Ioo (-1) 0 → y.val ∈ Set.Ioo (-1) 0 →
+          x.val < y.val → (f x).val / x.val < (f y).val / y.val) ∧
+       (∀ x y : S, 0 < x.val → 0 < y.val →
+          x.val < y.val → (f x).val / x.val < (f y).val / y.val))
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - 3YDD3JMF3Z

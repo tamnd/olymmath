@@ -1,0 +1,55 @@
+tag: XXY2ZB1XTB
+kind: formal
+problem: BYK8XS11F8
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_2016_b2.lean
+module: src.putnam_2016_b2
+decl: putnam_2016_b2
+answer:
+  style: separate-def
+  decl: putnam_2016_b2_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_2016_b2.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_2016_b2
+licence: Apache-2.0
+text: "noncomputable abbrev putnam_2016_b2_solution : ℝ × ℝ := sorry\n\ntheorem putnam_2016_b2\n(squarish : ℤ → Prop)\n(hsquarish : ∀ n, squarish n ↔ IsSquare n ∨ ∃ w : ℤ, IsSquare |n - w ^ 2| ∧ ∀ v : ℕ, |n - w ^ 2| ≤ |n - v ^ 2|)\n(S : ℤ → ℕ)\n(hS : S = fun n ↦ {i ∈ Finset.Icc 1 n | squarish i}.card)\n(p : ℝ → ℝ → Prop)\n(hp : ∀ α β, p α β ↔ α > 0 ∧ β > 0 ∧ Tendsto (fun N ↦ S N / (N : ℝ) ^ α) atTop (\U0001D4DD β))\n: ((∀ α β : ℝ, ((α, β) = putnam_2016_b2_solution ↔ p α β)) ∨ ¬∃ α β : ℝ, p α β)"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

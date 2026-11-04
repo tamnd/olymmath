@@ -1,0 +1,62 @@
+tag: D9QK68K5B5
+kind: formal
+problem: 9TWF6X84JA
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Usa2023P2.lean
+module: Compfiles.Usa2023P2
+decl: Usa2023P2.usa2023_p2
+answer:
+  style: separate-def
+  decl: Usa2023P2.solution_set
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Usa2023P2.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Usa2023P2
+licence: Apache-2.0
+text: |-
+  abbrev solution_set : Set (ℝ+ → ℝ+) := { fun x ↦ x + 1 }
+
+  theorem usa2023_p2 (f : ℝ+ → ℝ+) :
+      f ∈ solution_set ↔
+      ∀ x y, f (x * y + (f x)) = x * (f y) + ⟨2, two_pos⟩
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - ZYYQBQ671D

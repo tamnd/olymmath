@@ -1,0 +1,64 @@
+tag: JQ52Z5S03V
+kind: formal
+problem: KDQV4V68ZC
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1976_a4.lean
+module: src.putnam_1976_a4
+decl: putnam_1976_a4
+answer:
+  style: separate-def
+  decl: putnam_1976_a4_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1976_a4.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1976_a4
+licence: Apache-2.0
+text: |-
+  noncomputable abbrev putnam_1976_a4_solution : (ℝ → ℝ) × (ℝ → ℝ) := sorry
+
+  theorem putnam_1976_a4
+  (a b c d : ℤ)
+  (r : ℝ)
+  (P Q: Polynomial ℚ)
+  (hP : P = X^3 + (C (a : ℚ))*X^2 + (C (b : ℚ))*X - (C 1) ∧ aeval r P = 0 ∧ Irreducible P)
+  (hQ : Q =  X^3 + (C (c : ℚ))*X^2 + (C (d : ℚ))*X + (C 1) ∧ aeval (r + 1) Q = 0)
+  : ∃ s : ℝ, aeval s P = 0 ∧ (s = putnam_1976_a4_solution.1 r ∨ s = putnam_1976_a4_solution.2 r)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

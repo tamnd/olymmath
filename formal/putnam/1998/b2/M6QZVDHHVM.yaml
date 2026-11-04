@@ -1,0 +1,65 @@
+tag: M6QZVDHHVM
+kind: formal
+problem: XT35QNP5YD
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1998_b2.lean
+module: src.putnam_1998_b2
+decl: putnam_1998_b2
+answer:
+  style: separate-def
+  decl: putnam_1998_b2_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1998_b2.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1998_b2
+licence: Apache-2.0
+text: |-
+  noncomputable abbrev putnam_1998_b2_solution : ℝ → ℝ → ℝ := sorry
+
+  theorem putnam_1998_b2
+  (a b : ℝ)
+  (hab : 0 < b ∧ b < a)
+  : sInf {d : ℝ | ∃ (c : ℝ) (x : ℝ), d = Real.sqrt ((a - c)^2 + (b - 0)^2) +  Real.sqrt ((c - x)^2 + (0 - x)^2) + Real.sqrt ((a - x)^2 + (b - x)^2) ∧
+    Real.sqrt ((a - c)^2 + (b - 0)^2) + Real.sqrt ((c - x)^2 + (0 - x)^2) > Real.sqrt ((a - x)^2 + (b - x)^2) ∧
+    Real.sqrt ((a - c)^2 + (b - 0)^2) + Real.sqrt ((a - x)^2 + (b - x)^2) > Real.sqrt ((c - x)^2 + (0 - x)^2) ∧
+    Real.sqrt ((c - x)^2 + (0 - x)^2) + Real.sqrt ((a - x)^2 + (b - x)^2) > Real.sqrt ((a - c)^2 + (b - 0)^2)}
+   = putnam_1998_b2_solution a b
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

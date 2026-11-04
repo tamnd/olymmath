@@ -1,0 +1,55 @@
+tag: 59PVRS83XD
+kind: formal
+problem: PKNCX14Y9N
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/2011/P4.lean
+module: Imo.«2011».P4
+decl: imo_2011_p4
+answer:
+  style: embedded
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/2011/P4.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_2011_p4
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: "@[imo_problem_subject combinatorics]\ntheorem imo_2011_p4 (n : ℕ) (h₀ : 0 < n) [NeZero n]\n                                                                                    \n    (S : Finset (Fin n → Fin n × Fin 2))\n                                                               \n    (perm : (Fin n → Fin n × Fin 2) → Prop)\n    (h₁ : perm = fun f => Function.Bijective fun x => (f x).1)\n                                                           \n    (instant_weight_difference : (Fin n → Fin n × Fin 2) → Fin n → ℤ)\n    (h₂ : ∀ f, instant_weight_difference f = fun t => 2 ^ ((f t).1 : ℕ) * (((f t).2 : ℤ) * 2 - 1))\n                                              \n    (cumulative_weight_difference : (Fin n → Fin n × Fin 2) → Fin n → ℤ)\n    (h₃ : ∀ f, cumulative_weight_difference f = fun t =>\n      ∑ i ∈ Finset.Icc 0 t, instant_weight_difference f i)\n                                                       \n    (condition : (Fin n → Fin n × Fin 2) → Prop)\n    (h₄ : condition = fun f => ∀ t : Fin n, cumulative_weight_difference f t ≤ 0)\n    (h₅ : ∀ f, f ∈ S ↔ condition f ∧ perm f) : S.card = answer((2 * n - 1)‼)"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

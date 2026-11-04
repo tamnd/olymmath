@@ -1,0 +1,61 @@
+tag: 1R5CSS5BGE
+kind: formal
+problem: 4TYKC0S6D3
+part: b
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo1964P1.lean
+module: Compfiles.Imo1964P1
+decl: Imo1964P1.imo1964_p1b
+answer:
+  style: separate-def
+  decl: Imo1964P1.solution_set
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo1964P1.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo1964P1
+licence: Apache-2.0
+text: |-
+  abbrev solution_set : Set ℕ := { n | n % 3 = 0 }
+
+  theorem imo1964_p1b (n : ℕ) : ¬ 7 ∣ (2^n + 1)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - 513VE2QXQV

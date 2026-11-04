@@ -1,0 +1,64 @@
+tag: JNB9G44NNT
+kind: formal
+problem: 1N7KD4FDSC
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/1978/P3.lean
+module: Imo.«1978».P3
+decl: imo_1978_p3
+answer:
+  style: embedded
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/1978/P3.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_1978_p3
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: |-
+  @[imo_problem_subject combinatorics]
+  theorem imo_1978_p3 (f : ℕ → ℕ) (not_in_sequence : ℕ → Prop) [DecidablePred not_in_sequence]
+      (h₀ : ∀ n, 0 < n → 0 < f n) (h₁ : StrictMonoOn f (Set.Ici 1))
+      (h₂ : ∀ n, not_in_sequence n = ¬∃ m, f m = n)
+      (h₃ :
+        ∀ n > 0,
+          not_in_sequence (f (f n) + 1) ∧
+            Finset.card (Finset.filter not_in_sequence (Finset.Ico 1 (f (f n) + 1))) = n - 1) :
+      f 240 = answer(388)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

@@ -1,0 +1,65 @@
+tag: JHNMG9J6ZQ
+kind: formal
+problem: 100FQT2K71
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1974_b6.lean
+module: src.putnam_1974_b6
+decl: putnam_1974_b6
+answer:
+  style: separate-def
+  decl: putnam_1974_b6_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1974_b6.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1974_b6
+licence: Apache-2.0
+text: |-
+  abbrev putnam_1974_b6_solution : (ℕ × ℕ × ℕ) := sorry
+
+  theorem putnam_1974_b6
+  (n : ℤ)
+  (hn : n = 1000)
+  (count0 count1 count2 : ℕ)
+  (hcount0 : count0 = {S | S ⊆ Finset.Icc 1 n ∧ S.card ≡ 0 [MOD 3]}.ncard)
+  (hcount1 : count1 = {S | S ⊆ Finset.Icc 1 n ∧ S.card ≡ 1 [MOD 3]}.ncard)
+  (hcount2 : count2 = {S | S ⊆ Finset.Icc 1 n ∧ S.card ≡ 2 [MOD 3]}.ncard)
+  : (count0, count1, count2) = putnam_1974_b6_solution
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

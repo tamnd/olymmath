@@ -1,0 +1,24 @@
+tag: M1VP1MQMM7
+kind: proof
+formal: 1YBJYHDX4B
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Usa1990P4.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Usa1990P4
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Usa1990P4.lean
+module: Compfiles.Usa1990P4
+decl: Usa1990P4.usa1990_p4
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+  axioms:
+    - Classical.choice
+    - Quot.sound
+    - propext
+  comparator: not-run
+  lean4checker: not-run
+  note: The proof is in the same declaration as the statement, so it cannot change the statement.

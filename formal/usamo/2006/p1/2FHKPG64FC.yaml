@@ -1,0 +1,61 @@
+tag: 2FHKPG64FC
+kind: formal
+problem: NN6ZW8M8WA
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Usa2006P1.lean
+module: Compfiles.Usa2006P1
+decl: Usa2006P1.usa2006_p1
+answer:
+  style: none
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Usa2006P1.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Usa2006P1
+licence: Apache-2.0
+text: |-
+  theorem usa2006_p1 (p s : ℕ) (hp : p.Prime) (hs0 : 0 < s) (hs1 : s < p) :
+      (∃ m n : ℕ, 0 < m ∧ m < n ∧ n < p ∧
+        Int.fract ((s : ℚ) * m / p) < Int.fract ((s : ℚ) * n / p) ∧
+        Int.fract ((s : ℚ) * n / p) < (s : ℚ) / p) ↔
+      ¬ s ∣ p - 1
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - KPMHE20CQG

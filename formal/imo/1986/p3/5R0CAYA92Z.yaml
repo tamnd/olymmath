@@ -1,0 +1,55 @@
+tag: 5R0CAYA92Z
+kind: formal
+problem: YCTBC9VAFQ
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/1986/P3.lean
+module: Imo.«1986».P3
+decl: imo_1986_p3
+answer:
+  style: embedded
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/1986/P3.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_1986_p3
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: "@[imo_problem_subject combinatorics]\ntheorem imo_1986_p3\n                                                                                                                                               \n  {move : (Fin 5 → ℤ) → Fin 5 → Fin 5 → ℤ}\n  {move_def : ∀ (i : Fin 5) (n : Fin 5 → ℤ),\n    move n i = fun j =>\n      if j = i-1 then n (i-1) + n i else\n      if j = i then - n i else\n      if j = i+1 then n (i+1) + n i else\n      n j} :\n                                                                                                  \n    (                                                                      \n    ∀ (n : Fin 5 → ℤ), 0 < ∑ i, n i →\n                                                                                                         \n                                                                                                              \n      ∀ (m : ℕ → Fin 5), (∀ i, ((List.range i).map m).foldl move n (m i) < 0) → False) ↔\n    answer(True)"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

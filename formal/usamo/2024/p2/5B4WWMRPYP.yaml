@@ -1,0 +1,69 @@
+tag: 5B4WWMRPYP
+kind: formal
+problem: WF59FPFKBA
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Usa2024P2.lean
+module: Compfiles.Usa2024P2
+decl: Usa2024P2.usa2024_p2
+answer:
+  style: separate-def
+  decl: Usa2024P2.solution
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Usa2024P2.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Usa2024P2
+licence: Apache-2.0
+text: |-
+  abbrev solution : ℕ := 50 * Nat.choose 100 50
+
+  structure Good (S : Fin 100 → Set ℤ) : Prop where
+    finite : ∀ i, (S i).Finite
+    nonempty_inter : ⋂ i, S i ≠ ∅
+    card : ∀ T : Finset (Fin 100), T.Nonempty →
+                   ∃ k : ℕ, (⋂ i ∈ T, S i).ncard = k * T.card
+
+  theorem usa2024_p2 :
+      IsLeast
+        { k | ∃ S, Good S ∧
+               k = {z : ℤ | InAtLeastKSubsets S 50 z }.ncard } solution
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - P14YQSKQY9

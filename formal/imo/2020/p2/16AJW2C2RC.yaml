@@ -1,0 +1,24 @@
+tag: 16AJW2C2RC
+kind: proof
+formal: ET7ERA15J7
+origin:
+  kind: human
+  source: mathlib-archive-imo
+  url: https://github.com/leanprover-community/mathlib4/blob/56a005855ea17e0b0958f73ec801ae140b0a1679/Archive/Imo/Imo2020Q2.lean
+  commit: 56a005855ea17e0b0958f73ec801ae140b0a1679
+  native_name: Imo2020Q2
+path: lean/vendor/mathlib-archive-imo/56a005855ea1/Archive/Imo/Imo2020Q2.lean
+module: Archive.Imo.Imo2020Q2
+decl: imo2020_q2
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+  axioms:
+    - Classical.choice
+    - Quot.sound
+    - propext
+  comparator: not-run
+  lean4checker: not-run
+  note: The proof is in the same declaration as the statement, so it cannot change the statement.

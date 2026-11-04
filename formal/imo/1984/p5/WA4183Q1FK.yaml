@@ -1,0 +1,55 @@
+tag: WA4183Q1FK
+kind: formal
+problem: G4DS9X8B2T
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/1984/P5.lean
+module: Imo.«1984».P5
+decl: imo_1984_p5
+answer:
+  style: none
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/1984/P5.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_1984_p5
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: "@[imo_problem_subject combinatorics]\ntheorem imo_1984_p5\n                                                                                                                                 \n    {n d p : ℕ} [NeZero n] {hn : n > 3}\n                                               \n    (P : Fin n → ℝ²)\n                           \n    (hP : ∀ i j, j ≠ i-1 → j ≠ i → (∡ (P (i-1)) (P i) (P j)).sign = 1)\n                                         \n    (hp : p = ∑ i, dist (P i) (P (i+1)))\n                                                                                                                                                                          \n    (hd : d = 1/2 * ∑ i, ∑ j ∈ (Finset.univ \\ {i-1, i, i+1}), dist (P i) (P j))\n    : (n-3 : ℝ) < 2*d / p ∧ (2*d / p : ℝ) <  ⌊ (n/2 : ℝ)⌋ * ⌊ (n+1 : ℝ)/2 ⌋ - 2"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

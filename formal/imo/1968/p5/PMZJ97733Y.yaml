@@ -1,0 +1,55 @@
+tag: PMZJ97733Y
+kind: formal
+problem: 7VBAJ1T3EX
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/1968/P5.lean
+module: Imo.«1968».P5
+decl: imo_1968_p5
+answer:
+  style: none
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/1968/P5.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_1968_p5
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: "@[imo_problem_subject algebra]\ntheorem imo_1968_p5 :\n    (∀\n      (f : ℝ → ℝ) (a : ℝ) (ha : 0 < a)\n      (hnn : ∀ x, 0 ≤ f x - f x ^ 2)                                              \n      (hf : ∀ x, f (x + a) = 1 / 2 + √(f x - f x ^ 2)),\n      ∃ b > 0, f.Periodic b) ∧\n                         \n    Set.piecewise (⋃ n : ℤ, Set.Ico (2 * n : ℝ) (2 * n + 1)) (1 : ℝ → ℝ) (1 / 2) ∈\n      {f : ℝ → ℝ |\n        ∃ (a : ℝ) (ha : 0 < a) (hnn : ∀ x, 0 ≤ f x - f x ^ 2)\n          (hf : ∀ x, f (x + a) = 1 / 2 + √(f x - f x ^ 2)),\n                                           \n          a = 1 ∧ ∀ c, f ≠ Function.const _ c}"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

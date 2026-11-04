@@ -1,0 +1,64 @@
+tag: 8WVHFR71BH
+kind: formal
+problem: G7RJGAW057
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/1995/P4.lean
+module: Imo.«1995».P4
+decl: imo_1995_p4
+answer:
+  style: none
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/1995/P4.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_1995_p4
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: |-
+  @[imo_problem_subject algebra]
+  theorem imo_1995_p4 :
+      IsGreatest
+        {c : ℝ |
+          ∃ x : ℕ → ℝ,
+            x 0 = c ∧
+              x 0 = x 1995 ∧
+                (∀ i, 0 < x i) ∧ ∀ i ∈ Set.Icc 1 1995, x (i - 1) + 2 / x (i - 1) = 2 * x i + 1 / x i}
+        (2 ^ 997)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

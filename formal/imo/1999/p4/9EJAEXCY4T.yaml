@@ -1,0 +1,62 @@
+tag: 9EJAEXCY4T
+kind: formal
+problem: HTCEZAWB64
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo1999P4.lean
+module: Compfiles.Imo1999P4
+decl: Imo1999P4.imo1999_p4
+answer:
+  style: separate-def
+  decl: Imo1999P4.SolutionSet
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo1999P4.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo1999P4
+licence: Apache-2.0
+text: |-
+  abbrev SolutionSet : Set (ℕ × ℕ) := {(2,2), (3,3)} ∪ {(n,p) | n = 1 ∧ p.Prime}
+
+  theorem imo1999_p4 (n p : ℕ) :
+      (n,p) ∈ SolutionSet ↔
+      0 < n ∧ n ≤ 2 * p ∧ p.Prime ∧ n^(p - 1) ∣ (p - 1)^n + 1
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - T5RQ2YFWQK

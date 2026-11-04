@@ -1,0 +1,65 @@
+tag: 3CJEWFMSYM
+kind: formal
+problem: MS6J3Z755Y
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_2003_a1.lean
+module: src.putnam_2003_a1
+decl: putnam_2003_a1
+answer:
+  style: separate-def
+  decl: putnam_2003_a1_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_2003_a1.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_2003_a1
+licence: Apache-2.0
+text: |-
+  abbrev putnam_2003_a1_solution : ℕ → ℕ := sorry
+
+  theorem putnam_2003_a1
+  (n : ℕ) (hn : n > 0)
+  : Set.encard {a : ℕ → ℤ |
+    ∃ k > 0, (∑ i : Fin k, a i = n) ∧
+      (∀ i : Fin k, a i > 0) ∧
+      (∀ i : Fin (k - 1), a i ≤ a (i + 1)) ∧
+      a (k - 1) ≤ a 0 + 1 ∧ (∀ i ≥ k, a i = 0)}
+    = putnam_2003_a1_solution n
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

@@ -1,0 +1,65 @@
+tag: FE4K5EEDPB
+kind: formal
+problem: G7Q530C8KQ
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Usa2006P4.lean
+module: Compfiles.Usa2006P4
+decl: Usa2006P4.usa2006_p4
+answer:
+  style: separate-def
+  decl: Usa2006P4.SolutionSet
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Usa2006P4.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Usa2006P4
+licence: Apache-2.0
+text: |-
+  abbrev SolutionSet : Set ℕ := { n | n = 4 ∨ 6 ≤ n }
+
+  snip begin
+
+  theorem usa2006_p4 (n : ℕ) (hn : 0 < n) :
+      n ∈ SolutionSet ↔
+        ∃ l : List ℚ, 2 ≤ l.length ∧ (∀ x ∈ l, 0 < x) ∧ l.sum = (n : ℚ) ∧
+          l.prod = (n : ℚ)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - 2BK9VHJPSB

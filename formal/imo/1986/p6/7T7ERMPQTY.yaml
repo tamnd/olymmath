@@ -1,0 +1,55 @@
+tag: 7T7ERMPQTY
+kind: formal
+problem: WWRM4FBRY4
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/1986/P6.lean
+module: Imo.«1986».P6
+decl: imo_1986_p6
+answer:
+  style: embedded
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/1986/P6.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_1986_p6
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: "@[imo_problem_subject combinatorics]\ntheorem imo_1986_p6\n                                                                              \n    {S : Finset (ℤ × ℤ)}\n                                   \n    (x_axis : AffineSubspace ℝ (ℝ × ℝ))\n    (y_axis :  AffineSubspace ℝ (ℝ × ℝ))\n                                                                    \n    (hx_axis : x_axis = affineSpan ℝ {(1, 0), 0})\n                                                                    \n    (hy_axis : y_axis = affineSpan ℝ {(0, 1), 0}) :\n                                                            \n    (∃ (Red White : Finset (ℤ × ℤ)), Disjoint Red White ∧ Red ∪ White = S ∧\n                                                                              \n    ∀ (L : AffineSubspace ℝ (ℝ × ℝ)), ⊥ < L → L < ⊤ → L ∥ x_axis ∨ L ∥ y_axis\n                                                                                                                    \n    → Int.natAbs ((Red.filter (fun P => (P.1, P.2) ∈ L)).card - (White.filter (fun P => (P.1, P.2) ∈ L)).card : ℤ) ≤ 1)\n                   \n    ↔ answer(True)"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

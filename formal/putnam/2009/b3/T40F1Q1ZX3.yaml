@@ -1,0 +1,63 @@
+tag: T40F1Q1ZX3
+kind: formal
+problem: EPH06R3HRZ
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_2009_b3.lean
+module: src.putnam_2009_b3
+decl: putnam_2009_b3
+answer:
+  style: separate-def
+  decl: putnam_2009_b3_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_2009_b3.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_2009_b3
+licence: Apache-2.0
+text: |-
+  abbrev putnam_2009_b3_solution : Set ℤ := sorry
+
+  theorem putnam_2009_b3
+  (mediocre : ℤ → Set ℤ → Prop)
+  (hmediocre : ∀ n S, mediocre n S ↔ (S ⊆ Icc 1 n) ∧ ∀ a ∈ S, ∀ b ∈ S, 2 ∣ a + b → (a + b) / 2 ∈ S)
+  (A : ℤ → ℤ)
+  (hA : A = fun n ↦ ({S : Set ℤ | mediocre n S}.ncard : ℤ))
+  : ({n : ℤ | n > 0 ∧ A (n + 2) - 2 * A (n + 1) + A n = 1} = putnam_2009_b3_solution)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

@@ -1,0 +1,55 @@
+tag: 3SAFZ9XDZF
+kind: formal
+problem: ZTY2QA4ZXD
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/2017/P3.lean
+module: Imo.«2017».P3
+decl: imo_2017_p3
+answer:
+  style: embedded
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/2017/P3.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_2017_p3
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: "@[imo_problem_subject combinatorics]\ntheorem imo_2017_p3 :\n                                                                              \n    (∃ B : (ℕ → ℝ²) → ℕ → ℝ²,\n                                                                     \n                                         \n      (∀ P, B P 0 = P 0) ∧\n                                                       \n      (∀ P i, dist (B P i) (B P (i + 1)) = 1) ∧\n                                                      \n      (∀ (P1 : ℕ → ℝ²) (P2 : ℕ → ℝ²) (n), (∀ i ≤ n, P1 i = P2 i) → B P1 n = B P2 n) ∧\n                                                         \n      ∀ (A : ℕ → ℝ²) (P : ℕ → ℝ²), (\n                                                   \n        (∀ i, dist (A i) (A (i + 1)) = 1) ∧\n                                                                            \n        (∀ i, i ≠ 0 → dist (A i) (P i) ≤ 1) ∧\n                                                                        \n        A 0 = P 0) →\n                                   \n      dist (A (10 ^ 9)) (B P (10 ^ 9)) ≤ 100) ↔\n                    \n    answer(False)"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

@@ -1,0 +1,23 @@
+tag: 8E5YWFSBQ5
+kind: formal
+problem: KJEB8DJX8H
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/2022/P6.lean
+module: Imo.«2022».P6
+decl: imo_2022_p6
+answer:
+  style: embedded
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/2022/P6.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_2022_p6
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: "@[imo_problem_subject combinatorics]\ntheorem imo_2022_p6 {n : ℕ} (hn : 0 < n)\n                              \n    (isNordic : (Fin n × Fin n → Fin (n ^ 2)) → Prop)\n                                                                                  \n    (isNordic_spec : ∀ B, isNordic B ↔ Function.Bijective B)\n                         \n    (isAdj : Fin n × Fin n → Fin n × Fin n → Prop)\n                                                            \n    (isAdj_spec : ∀ a b c d, isAdj (a, b) (c, d) ↔ Nat.dist a.1 c.1 + Nat.dist b.1 d.1 = 1)\n                       \n    (isValley : (Fin n × Fin n → Fin (n ^ 2)) → Fin n × Fin n → Prop)\n                                                           \n    (isValley_spec : ∀ B i, isValley B i ↔ ∀ j, isAdj i j → B i < B j)\n                                \n    (isUphill : (Fin n × Fin n → Fin (n ^ 2)) → List (Fin n × Fin n) → Prop)\n                                              \n    (isUphill_spec : ∀ B L, isUphill B L ↔\n      L ≠ [] ∧\n      (∀ i ∈ L.head?, isValley B i) ∧\n      L.Chain' isAdj ∧\n      L.Chain' (fun i j => B i ≤ B j)) :\n    IsLeast {Set.ncard {L | isUphill B L} | (B : Fin n × Fin n → Fin (n ^ 2)) (hB : isNordic B)}\n    answer((2 * n ^ 2 - 2 * n + 1 : ℕ))"
+fidelity:
+  status: unreviewed
+rank: 4

@@ -1,0 +1,12 @@
+tag: 5D8XTXYGKP
+kind: proof
+formal: KTSVGAQDSQ
+origin:
+  kind: human
+  source: imosllean4
+  url: https://github.com/mortarsanjaya/IMOSLLean4/blob/883b0326e585ac9a2148e5d67a4c335bb4f798be/IMOSLLean4/Main/IMO2009/C5.lean
+  commit: 883b0326e585ac9a2148e5d67a4c335bb4f798be
+  native_name: IMO2009C5
+path: lean/vendor/imosllean4/883b0326e585/IMOSLLean4/Main/IMO2009/C5.lean
+module: IMOSLLean4.Main.IMO2009.C5
+decl: IMOSL.IMO2009C5.final_solution

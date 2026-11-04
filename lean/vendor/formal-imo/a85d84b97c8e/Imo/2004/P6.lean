@@ -29,6 +29,6 @@ Solution: all numbers except multiples of 20.
 @[imo_problem_subject number_theory]
 theorem imo_2004_p6 (alternating : ℕ → Prop)
     (h₀ : ∀ n, alternating n ↔
-      (Nat.digits 10 n).Chain' fun d1 d2 => (Odd d1 ↔ Even d2) ∧ (Even d1 ↔ Odd d2)) :
+      (Nat.digits 10 n).IsChain fun d1 d2 => (Odd d1 ↔ Even d2) ∧ (Even d1 ↔ Odd d2)) :
     {n : ℕ | 0 < n ∧ ∃ m, 0 < m ∧ n ∣ m ∧ alternating m} = answer({n : ℕ | 0 < n ∧ ¬20 ∣ n}) := by
   sorry

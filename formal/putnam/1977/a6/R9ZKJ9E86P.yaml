@@ -1,0 +1,32 @@
+tag: R9ZKJ9E86P
+kind: formal
+problem: EB7Y690TX3
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1977_a6.lean
+module: src.putnam_1977_a6
+decl: putnam_1977_a6
+answer:
+  style: separate-def
+  decl: putnam_1977_a6_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1977_a6.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1977_a6
+licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
+text: |-
+  abbrev putnam_1977_a6_solution : Prop := sorry
+
+  theorem putnam_1977_a6
+  (X : Set (ℝ × ℝ))
+  (hX : X = Set.prod (Icc 0 1) (Icc 0 1))
+  (room : (ℝ × ℝ) → ℝ)
+  (hroom : room = fun (a,b) ↦ min (min a (1 - a)) (min b (1 - b)))
+  : ((∀ f : (ℝ × ℝ) → ℝ, Continuous f → (∀ P ∈ X, ∫ x in (P.1 - room P)..(P.1 + room P), ∫ y in (P.2 - room P)..(P.2 + room P), f (x, y) = 0) → (∀ P ∈ X, f P = 0)) ↔ putnam_1977_a6_solution)
+fidelity:
+  status: unreviewed
+rank: 5

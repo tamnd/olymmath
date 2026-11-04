@@ -1,0 +1,12 @@
+tag: N7MCTHV6B0
+kind: proof
+formal: XYDGQN214C
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo1998P2.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo1998P2
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo1998P2.lean
+module: Compfiles.Imo1998P2
+decl: Imo1998P2.imo1998_p2

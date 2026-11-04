@@ -1,0 +1,38 @@
+tag: NFAW63R9EH
+kind: formal
+problem: 1BCHZFCJR1
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1987_a4.lean
+module: src.putnam_1987_a4
+decl: putnam_1987_a4
+answer:
+  style: separate-def
+  decl: putnam_1987_a4_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1987_a4.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1987_a4
+licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
+text: |-
+  noncomputable abbrev putnam_1987_a4_solution : ℂ := sorry
+
+  theorem putnam_1987_a4
+  (P : MvPolynomial (Fin 3) ℂ)
+  (hPreal : ∀ i : Fin 3 →₀ ℕ, (coeff i P).im = 0)
+  (F : ℝ → ℝ → ℝ)
+  (vars : ℂ → ℂ → ℂ → (Fin 3 → ℂ))
+  (hvars : vars = fun a b c ↦ fun i ↦ ite (i = 0) a (ite (i = 1) b c))
+  (h : ∀ x y z u : ℝ, eval (vars (u * x) (u * y) (u * z)) P = u ^ 2 * F (y - x) (z - x))
+  (hPval : eval (vars 1 0 0) P = 4 ∧ eval (vars 0 1 0) P = 5 ∧ eval (vars 0 0 1) P = 6)
+  (A B C : ℂ)
+  (hPABC : eval (vars A B C) P = 0)
+  (habs : ‖B - A‖ = 10)
+  : (‖C - A‖ = putnam_1987_a4_solution)
+fidelity:
+  status: unreviewed
+rank: 5

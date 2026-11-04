@@ -18,6 +18,7 @@ origin:
 licence: Apache-2.0
 options:
   autoImplicit: "true"
+  relaxedAutoImplicit: "true"
 text: |-
   theorem final_solution (hk : 0 < k) (hl : 0 < l) (hm : 0 < m) (hn : 1 < n)
       (h : n ^ k + m * n ^ l + 1 ∣ n ^ (k + l) - 1) :

@@ -16,6 +16,7 @@ origin:
   commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
   native_name: putnam_1994_b5
 licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
 text: |-
   theorem putnam_1994_b5
     (n : ℕ) (hn : n > 0)

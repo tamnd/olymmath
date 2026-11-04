@@ -16,6 +16,7 @@ origin:
   commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
   native_name: putnam_1999_a3
 licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
 text: "theorem putnam_1999_a3\n    (f : ℝ → ℝ)\n    (hf : f = fun x ↦ 1 / (1 - 2 * x - x ^ 2))\n    (a : ℕ → ℝ)\n    (hf' : ∀ᶠ x in \U0001D4DD 0, Tendsto (fun N : ℕ ↦ ∑ n ∈ Finset.range N, (a n) * x ^ n) atTop (\U0001D4DD (f x)))\n    (n : ℕ) :\n    ∃ m : ℕ, (a n) ^ 2 + (a (n + 1)) ^ 2 = a m"
 check:
   result: pass

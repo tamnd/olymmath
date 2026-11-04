@@ -1,0 +1,12 @@
+tag: CRR3Y4F588
+kind: proof
+formal: M7F9EYSZ4N
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo2012P3.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo2012P3
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo2012P3.lean
+module: Compfiles.Imo2012P3
+decl: Imo2012P3.imo2012_p3_part_a

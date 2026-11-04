@@ -17,6 +17,7 @@ origin:
   commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
   native_name: putnam_1997_a3
 licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
 text: "noncomputable abbrev putnam_1997_a3_solution : ℝ := sorry\n\ntheorem putnam_1997_a3\n(series1 series2 : ℝ → ℝ)\n(hseries1 : series1 = fun x => ∑' n : ℕ, (-1)^n * x^(2*n + 1)/(∏ i : Finset.range n, 2 * ((i : ℝ) + 1)))\n(hseries2 : series2 = fun x => ∑' n : ℕ, x^(2*n)/(∏ i : Finset.range n, (2 * ((i : ℝ) + 1))^2))\n: Tendsto (fun t => ∫ x in Set.Icc 0 t, series1 x * series2 x) atTop (\U0001D4DD (putnam_1997_a3_solution))"
 check:
   result: pass

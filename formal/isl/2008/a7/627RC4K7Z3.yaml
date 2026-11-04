@@ -19,6 +19,7 @@ origin:
 licence: Apache-2.0
 options:
   autoImplicit: "true"
+  relaxedAutoImplicit: "true"
 text: |-
   theorem final_solution_part2 {x : Fin 4 → F} (hx : ∀ i, x i > 0) :
       targetSum x = 0 ↔ x 0 = x 2 ∧ x 1 = x 3

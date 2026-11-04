@@ -16,6 +16,7 @@ origin:
   commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
   native_name: putnam_1975_b2
 licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
 text: "theorem putnam_1975_b2\n(slab : (Fin 3 → ℝ) → ℝ → ℝ → Set (Fin 3 → ℝ))\n(hslab : slab = fun normal offset thickness => {x : Fin 3 → ℝ | offset < normal ⬝ᵥ x ∧ normal ⬝ᵥ x < offset + thickness})\n(normals : ℕ → (Fin 3 → ℝ))\n(offsets : ℕ → ℝ)\n(thicknesses : ℕ → ℝ)\n(hnormalsunit : ∀ i : ℕ, ‖normals i‖ = 1)\n(hthicknessespos : ∀ i : ℕ, thicknesses i > 0)\n(hthicknessesconv : ∃ C : ℝ, Tendsto (fun i : ℕ => ∑ j ∈ Finset.range i, thicknesses j) atTop (\U0001D4DD C))\n: Set.univ ≠ ⋃ i : ℕ, slab (normals i) (offsets i) (thicknesses i)"
 check:
   result: pass

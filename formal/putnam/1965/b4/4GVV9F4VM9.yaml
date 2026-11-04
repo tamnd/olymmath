@@ -1,0 +1,34 @@
+tag: 4GVV9F4VM9
+kind: formal
+problem: 2PN3V8D23Q
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1965_b4.lean
+module: src.putnam_1965_b4
+decl: putnam_1965_b4
+answer:
+  style: separate-def
+  decl: putnam_1965_b4_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1965_b4.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1965_b4
+licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
+text: |-
+  noncomputable abbrev putnam_1965_b4_solution : ((((ℝ → ℝ) → (ℝ → ℝ)) × ((ℝ → ℝ) → (ℝ → ℝ))) × ((Set ℝ) × (ℝ → ℝ))) := sorry
+
+  theorem putnam_1965_b4
+      (f u v : ℕ → ℝ → ℝ)
+      (hu : ∀ n > 0, ∀ x, u n x = ∑ i ∈ Finset.Icc 0 (n / 2), (n.choose (2 * i)) * x ^ i)
+      (hv : ∀ n > 0, ∀ x, v n x = ∑ i ∈ Finset.Icc 0 ((n - 1) / 2), (n.choose (2 * i + 1)) * x ^ i)
+      (hf : ∀ n > 0, ∀ x, f n x = u n x / v n x)
+      (n : ℕ)
+      (hn : 0 < n) :
+      let ⟨⟨p, q⟩, ⟨s, g⟩⟩
+fidelity:
+  status: unreviewed
+rank: 5

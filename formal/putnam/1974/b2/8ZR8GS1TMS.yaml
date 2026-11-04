@@ -16,6 +16,7 @@ origin:
   commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
   native_name: putnam_1974_b2
 licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
 text: "theorem putnam_1974_b2\n(y : ℝ → ℝ)\n(ycontdiff : ContDiff ℝ 1 y)\n(limy : Tendsto (fun x : ℝ => (deriv y x)^2 + (y x)^3) atTop (\U0001D4DD 0))\n: Tendsto y atTop (\U0001D4DD 0) ∧ Tendsto (deriv y) atTop (\U0001D4DD 0)"
 check:
   result: pass

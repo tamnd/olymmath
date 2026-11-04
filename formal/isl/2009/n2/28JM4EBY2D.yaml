@@ -19,6 +19,7 @@ origin:
 licence: Apache-2.0
 options:
   autoImplicit: "true"
+  relaxedAutoImplicit: "true"
 text: |-
   theorem final_solution_part1 (N) :
       ∃ a b, a ≠ b ∧ ∀ k < N, Even (Ω ((a + k) * (b + k)))

@@ -50,7 +50,7 @@ theorem imo_2020_p4 (n : ℕ) (hn : 1 < n) :
                 ∃ l : List (Fin (n ^ 2)),
                   l.head? = some (min s₁ s₂) ∧
                   l.getLast? = some (max s₁ s₂) ∧
-                  l.Chain' fun si sj => ∃ i, start c i = si ∧ finish c i = sj),
+                  l.IsChain fun si sj => ∃ i, start c i = si ∧ finish c i = sj),
             -- there are two distinct stations linked by all (both) companies
             ∃ (s₁ s₂ : _) (h : s₁ ≠ s₂), ∀ c, linked c s₁ s₂ h}
       answer(n ^ 2 - n + 1) := by

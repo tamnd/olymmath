@@ -18,6 +18,7 @@ origin:
 licence: Apache-2.0
 options:
   autoImplicit: "true"
+  relaxedAutoImplicit: "true"
 text: |-
   theorem final_solution {a : ℕ → ℕ} (ha : ∀ n, 0 < a n)
       (ha0 : ∃ K, ∀ n ≥ K, ∃ z : ℤ, (z : ℚ) =

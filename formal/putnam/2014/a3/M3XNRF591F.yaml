@@ -17,6 +17,7 @@ origin:
   commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
   native_name: putnam_2014_a3
 licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
 text: "noncomputable abbrev putnam_2014_a3_solution : ℝ := sorry\n\ntheorem putnam_2014_a3\n(a : ℕ → ℝ)\n(a0 : a 0 = 5 / 2)\n(ak : ∀ k ≥ 1, a k = (a (k - 1)) ^ 2 - 2)\n: Tendsto (fun n : ℕ => ∏ k ∈ Finset.range n, (1 - 1 / a k)) atTop (\U0001D4DD putnam_2014_a3_solution)"
 check:
   result: pass

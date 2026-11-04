@@ -18,6 +18,7 @@ origin:
 licence: Apache-2.0
 options:
   autoImplicit: "true"
+  relaxedAutoImplicit: "true"
 text: |-
   theorem final_solution {b c : ℤ} (h : 1 < b.natAbs) (h0 : c ≠ 0) :
       good b c f ↔ b - 1 ∣ c ∧ f = ((b - 1) * · + c / (b - 1))

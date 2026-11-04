@@ -25,7 +25,7 @@ name = "IMOSLLean4"
 srcDir = "vendor/imosllean4/883b0326e585"
 roots = ["IMOSLLean4"]
 globs = ["IMOSLLean4.*"]
-leanOptions = {autoImplicit = true}
+leanOptions = {autoImplicit = true, relaxedAutoImplicit = true}
 
 # formal-imo, https://github.com/google-deepmind/formal-imo. Licence: Apache-2.0.
 [[lean_lib]]

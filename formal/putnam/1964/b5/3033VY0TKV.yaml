@@ -16,6 +16,7 @@ origin:
   commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
   native_name: putnam_1964_b5
 licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
 text: "theorem putnam_1964_b5\n(a b : ℕ → ℕ)\n(ha : StrictMono a ∧ ∀ n : ℕ, a n > 0)\n(hb : b 0 = a 0 ∧ ∀ n : ℕ, b (n + 1) = lcm (b n) (a (n + 1)))\n: (∃ L : ℝ, Tendsto (fun N ↦ ∑ n ∈ Finset.range N, (1 : ℝ) / b n) atTop (\U0001D4DD L))"
 check:
   result: pass

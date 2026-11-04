@@ -18,6 +18,7 @@ origin:
 licence: Apache-2.0
 options:
   autoImplicit: "true"
+  relaxedAutoImplicit: "true"
 text: |-
   theorem final_solution {a : ℕ → G} (h : good1 D a) (h0 : good2 D a) (n : ℕ) :
       |a n| ≤ max (2 • (range (D + 1)).sup' nonempty_range_add_one a)

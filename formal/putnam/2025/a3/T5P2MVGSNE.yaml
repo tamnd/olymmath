@@ -1,0 +1,28 @@
+tag: T5P2MVGSNE
+kind: formal
+problem: 4350EFJQE8
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_2025_a3.lean
+module: src.putnam_2025_a3
+decl: putnam_2025_a3
+answer:
+  style: separate-def
+  decl: putnam_2025_a3_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_2025_a3.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_2025_a3
+licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
+text: |-
+  abbrev putnam_2025_a3_solution : ℕ → Prop := sorry
+
+  theorem putnam_2025_a3 (n : ℕ) (hn : 1 ≤ n) :
+      putnam_2025_a3_solution n ↔ AliceHasWinningStrategy n
+fidelity:
+  status: unreviewed
+rank: 5

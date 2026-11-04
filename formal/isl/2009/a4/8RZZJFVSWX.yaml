@@ -18,6 +18,7 @@ origin:
 licence: Apache-2.0
 options:
   autoImplicit: "true"
+  relaxedAutoImplicit: "true"
 text: |-
   theorem final_solution {x : Fin 3 → ℝ≥0} (hx : ∀ i, x i > 0) (hx0 : ∑ i, (x i)⁻¹ ≤ 3) :
       ∑ i, sqrt ((x i ^ 2 + x (i + 1) ^ 2) / (x i + x (i + 1))) + 3

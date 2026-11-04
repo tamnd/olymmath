@@ -1,0 +1,35 @@
+tag: RJGX5VC16N
+kind: formal
+problem: V294QAE2GS
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1979_b3.lean
+module: src.putnam_1979_b3
+decl: putnam_1979_b3
+answer:
+  style: separate-def
+  decl: putnam_1979_b3_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1979_b3.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1979_b3
+licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
+text: |-
+  abbrev putnam_1979_b3_solution : ℕ → ℤ := sorry
+
+  theorem putnam_1979_b3
+  (F : Type*) [Field F] [Fintype F]
+  (n : ℕ)
+  (hn : n = Fintype.card F)
+  (nodd : Odd n)
+  (b c : F)
+  (p : Polynomial F)
+  (hp : p = X ^ 2 + (C b) * X + (C c) ∧ Irreducible p)
+  : ({d : F | Irreducible (p + (C d))}.ncard = putnam_1979_b3_solution n)
+fidelity:
+  status: unreviewed
+rank: 5

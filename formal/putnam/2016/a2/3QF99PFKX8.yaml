@@ -17,6 +17,7 @@ origin:
   commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
   native_name: putnam_2016_a2
 licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
 text: "noncomputable abbrev putnam_2016_a2_solution : ℝ := sorry\n\ntheorem putnam_2016_a2\n    (M : ℕ → ℕ)\n    (hM : ∀ n > 0, IsGreatest {m | 0 < m ∧ (m - 1).choose n < m.choose (n - 1)} (M n)) :\n    Tendsto (fun n ↦ M n / (n : ℝ)) atTop (\U0001D4DD putnam_2016_a2_solution)"
 check:
   result: pass

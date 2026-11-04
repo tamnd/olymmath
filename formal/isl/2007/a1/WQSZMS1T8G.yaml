@@ -19,6 +19,7 @@ origin:
 licence: Apache-2.0
 options:
   autoImplicit: "true"
+  relaxedAutoImplicit: "true"
 text: |-
   theorem final_solution_part1 {x : ℕ → G} (hx : Monotone x) (h0 : k ≤ m) (h1 : m ≤ n) :
       a k - a m ≤ 2 • (range (n + 1)).sup' nonempty_range_add_one (λ i ↦ |x i - a i|)

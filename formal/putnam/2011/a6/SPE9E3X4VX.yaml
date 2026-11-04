@@ -16,6 +16,7 @@ origin:
   commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
   native_name: putnam_2011_a6
 licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
 text: "theorem putnam_2011_a6\n(G : Type*) [CommGroup G] [Fintype G]\n(n : ℕ)\n(gset : Set G)\n(k : ℕ)\n(mgprob : ℕ → G → ℝ)\n(hmgprob : mgprob = (fun (m : ℕ) (x : G) => ({f : Fin m → gset | (∏ i : Fin m, (f i).1) = x}.ncard : ℝ) / k ^ m))\n(hn : n = (Fintype.elems : Finset G).card)\n(hk : gset.encard = k)\n(hgsetprop : k < n)\n(hgset1 : 1 ∈ gset)\n(hgsetgen : Subgroup.closure gset = ⊤)\n: ∃ b ∈ Set.Ioo (0 : ℝ) 1, ∃ C > 0, Tendsto (fun m : ℕ => (1 / b ^ (2 * m)) * (∑ x : G, (mgprob m x - 1 / n) ^ 2)) atTop (\U0001D4DD C)"
 check:
   result: pass

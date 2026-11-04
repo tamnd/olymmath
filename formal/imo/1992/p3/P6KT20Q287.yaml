@@ -1,0 +1,23 @@
+tag: P6KT20Q287
+kind: formal
+problem: ZER7B34A2C
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/1992/P3.lean
+module: Imo.«1992».P3
+decl: imo_1992_p3
+answer:
+  style: embedded
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/1992/P3.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_1992_p3
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: "@[imo_problem_subject combinatorics]\ntheorem imo_1992_p3\n                                 \n  {S : Finset (Fin 3 → ℝ)}\n  {S_card : S.card = 9}\n                                                                                                                                       \n                                                            \n  {hS : ∀ T ⊆ S, T.card = 4 → (∃ (P : AffineSubspace ℝ (Fin 3 → ℝ)),\n    T.toSet ⊆ P ∧ P < ⊤) → False} :\n  IsLeast {n : ℕ |\n                                                                                                                                                    \n    ∀ Blue ⊆ S.sym2 \\ S.image Sym2.diag, ∀ Red ⊆ S.sym2 \\ S.image Sym2.diag, Blue ∩ Red = ⊥\n      → (Blue ∪ Red).card = n →\n                                                                                                      \n    ∃ P1 ∈ S, ∃ P2 ∈ S, ∃ P3 ∈ S, [P1, P2, P3].Nodup ∧ ({s(P1, P2), s(P2, P3), s(P3, P1)} ⊆ Blue\n      ∨ {s(P1, P2), s(P2, P3), s(P3, P1)} ⊆ Red)}\n    answer(32)"
+fidelity:
+  status: unreviewed
+rank: 4

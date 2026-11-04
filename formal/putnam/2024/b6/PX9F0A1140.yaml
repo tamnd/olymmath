@@ -17,6 +17,7 @@ origin:
   commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
   native_name: putnam_2024_b6
 licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
 text: "noncomputable abbrev putnam_2024_b6_solution : ℝ := sorry\n\ntheorem putnam_2024_b6\n    (F : ℝ → ℝ → ℝ) (c : ℝ)\n    (hF : ∀ a, ∀ x ∈ Set.Ico 0 1,\n      HasSum (fun (n : ℕ) => (n+1)^a * rexp (2*(n+1)) * x^(n+1)^2) (F a x)) :\n    ((∀ a < c, Filter.Tendsto (fun x => F a x * rexp (- 1 / (1-x))) (\U0001D4DD[<] 1) (\U0001D4DD 0)) ∧\n    (∀ a > c, Filter.Tendsto (fun x => F a x * rexp (- 1 / (1-x))) (\U0001D4DD[<] 1) Filter.atTop))\n    ↔ c = putnam_2024_b6_solution"
 check:
   result: pass

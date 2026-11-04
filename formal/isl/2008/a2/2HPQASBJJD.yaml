@@ -19,6 +19,7 @@ origin:
 licence: Apache-2.0
 options:
   autoImplicit: "true"
+  relaxedAutoImplicit: "true"
 text: 'theorem final_solution_part2 : {p : Fin 3 → ℚ | good p}.Infinite'
 check:
   result: pass

@@ -1,0 +1,12 @@
+tag: NQBGASQPDC
+kind: proof
+formal: 8MR13JQY13
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Usa1999P3.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Usa1999P3
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Usa1999P3.lean
+module: Compfiles.Usa1999P3
+decl: Usa1999P3.usa1999_p3

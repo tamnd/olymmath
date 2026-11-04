@@ -1,0 +1,24 @@
+tag: 446KSBDFTS
+kind: formal
+problem: 6ST42WTV1G
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1984_a3.lean
+module: src.putnam_1984_a3
+decl: putnam_1984_a3
+answer:
+  style: separate-def
+  decl: putnam_1984_a3_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1984_a3.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1984_a3
+licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
+text: "noncomputable abbrev putnam_1984_a3_solution : MvPolynomial (Fin 3) ℝ := sorry\n\ntheorem putnam_1984_a3\n(n : ℕ)\n(a b : ℝ)\n(Mn : ℝ → Matrix (Fin (2 * n)) (Fin (2 * n)) ℝ)\n(polyabn : Fin 3 → ℝ)\n(npos : n > 0)\n(aneb : a ≠ b)\n(hMn : Mn = fun x : ℝ => fun i j : Fin (2 * n) => if i = j then x else if Even (i.1 + j.1) then a else b)\n(hpolyabn : polyabn 0 = a ∧ polyabn 1 = b ∧ polyabn 2 = n)\n: Tendsto (fun x : ℝ => (Mn x).det / (x - a) ^ (2 * n - 2)) (\U0001D4DD[≠] a) (\U0001D4DD (MvPolynomial.eval polyabn putnam_1984_a3_solution))"
+fidelity:
+  status: unreviewed
+rank: 5

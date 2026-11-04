@@ -16,6 +16,7 @@ origin:
   commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
   native_name: putnam_1965_a2
 licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
 text: |-
   theorem putnam_1965_a2
   : ∀ n > 0, ∑ r ∈ Finset.Icc 0 ((n - 1)/2), ((n - 2*r) * Nat.choose n r / (n : ℚ))^2 = (Nat.choose (2*n - 2) (n - 1))/(n : ℚ)

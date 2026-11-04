@@ -19,6 +19,7 @@ origin:
 licence: Apache-2.0
 options:
   autoImplicit: "true"
+  relaxedAutoImplicit: "true"
 text: |-
   theorem final_solution_part2 (N) :
       ∃ n > N, ¬∃ a, ∃ b > 0, b ≤ Nat.sqrt n ∧

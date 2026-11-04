@@ -11,7 +11,7 @@ theorem putnam_2022_a5
       (x = y ∧ ∀ i < 2021, i ∉ x → i + 1 ∈ x) ∨
       ∃ i < 2021, i ∉ x ∧ i + 1 ∉ x ∧ y = x ∪ {i, i + 1})
     (IsValidGame : List (Set (Fin 2022)) → Prop)
-    (IsValidGame_def : ∀ g, IsValidGame g ↔ (∃ gt, g = ∅ :: gt) ∧ g.Chain' IsValidMove)
+    (IsValidGame_def : ∀ g, IsValidGame g ↔ (∃ gt, g = ∅ :: gt) ∧ g.IsChain IsValidMove)
     (ConformsToStrategy : List (Set (Fin 2022)) → (Set (Fin 2022) → Set (Fin 2022)) → Prop)
     (ConformsToStrategy_def : ∀ g s, ConformsToStrategy g s ↔
       ∀ (i) (h : i + 1 < g.length), Even i → g[i + 1] = s g[i]) :

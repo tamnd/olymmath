@@ -1,0 +1,23 @@
+tag: MFH50H1ZEJ
+kind: formal
+problem: 5SZ3WHPYKZ
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1969_b4.lean
+module: src.putnam_1969_b4
+decl: putnam_1969_b4
+answer:
+  style: none
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1969_b4.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1969_b4
+licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
+text: "theorem putnam_1969_b4\n    (Γ : ℝ → EuclideanSpace ℝ (Fin 2))\n                                                                                                                         \n    (Γ_cts : ContinuousOn Γ (Set.Icc 0 1))\n    (hΓ : eVariationOn Γ (Set.Icc 0 1) = 1) :\n    letI : Module.Oriented ℝ (EuclideanSpace ℝ (Fin 2)) (Fin 2)"
+fidelity:
+  status: unreviewed
+rank: 5

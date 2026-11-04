@@ -18,6 +18,7 @@ origin:
 licence: Apache-2.0
 options:
   autoImplicit: "true"
+  relaxedAutoImplicit: "true"
 text: |-
   theorem final_solution {f : ℕ → ℕ} (hf : StrictMono f)
       (h : ∃ A B, ∀ n, f (f n) = A * n + B) (h0 : ∃ C D, ∀ n, f (f n + 1) = C * n + D) :

@@ -1,0 +1,24 @@
+tag: SXR41FEW3C
+kind: formal
+problem: YYAXTRV99N
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1977_b1.lean
+module: src.putnam_1977_b1
+decl: putnam_1977_b1
+answer:
+  style: separate-def
+  decl: putnam_1977_b1_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1977_b1.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1977_b1
+licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
+text: "noncomputable abbrev putnam_1977_b1_solution : ℝ := sorry\n\ntheorem putnam_1977_b1\n: Tendsto (fun N ↦ ∏ n ∈ Finset.Icc (2 : ℤ) N, ((n : ℝ) ^ 3 - 1) / (n ^ 3 + 1)) atTop (\U0001D4DD putnam_1977_b1_solution)"
+fidelity:
+  status: unreviewed
+rank: 5

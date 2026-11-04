@@ -16,6 +16,7 @@ origin:
   commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
   native_name: putnam_1994_a5
 licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
 text: "theorem putnam_1994_a5\n  (r : ℕ → ℝ)\n  (S : Set ℝ)\n  (rpos : ∀ n, r n > 0)\n  (rlim : Tendsto r atTop (\U0001D4DD 0))\n  (hS : S = {x | ∃ i : Fin 1994 → ℕ, (∀ j k : Fin 1994, j < k → i j < i k) ∧ (x = ∑ j : Fin 1994, r (i j))}) :\n  ∀ a b : ℝ, a < b → (∃ c d : ℝ, a ≤ c ∧ c < d ∧ d ≤ b ∧ (Set.Ioo c d) ∩ S = ∅)"
 check:
   result: pass

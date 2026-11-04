@@ -16,6 +16,7 @@ origin:
   commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
   native_name: putnam_1982_b5
 licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
 text: "theorem putnam_1982_b5\n(T : Set ℝ)\n(hT : T = Ioi (Real.exp (Real.exp 1)))\n(S : ℝ → ℕ → ℝ)\n(hS : ∀ x ∈ T, S x 0 = (Real.exp 1) ∧ ∀ n : ℕ, S x (n + 1) = Real.logb (S x n) x)\n(g : ℝ → ℝ)\n: ∀ x ∈ T, (∃ L : ℝ, Tendsto (S x) atTop (\U0001D4DD L)) ∧\n(∀ x ∈ T, Tendsto (S x) atTop (\U0001D4DD (g x))) → ContinuousOn g T"
 check:
   result: pass

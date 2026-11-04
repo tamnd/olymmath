@@ -17,6 +17,7 @@ origin:
   commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
   native_name: putnam_2022_a4
 licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
 text: "abbrev putnam_2022_a4_solution : ℝ := sorry\n\ntheorem putnam_2022_a4\n    {Ω : Type*} [MeasureSpace Ω]\n    [IsProbabilityMeasure (ℙ : Measure Ω)]\n    (X : ℕ → Ω → ℝ)\n    (hX : ∀ i, Measurable (X i))\n    (hX' : ∀ i, MeasureTheory.pdf.IsUniform (X i) (Set.Icc 0 1) ℙ)\n    (hX'' : iIndepFun X)\n    (k : Ω → Set ℕ)\n      \n                                                                                                   \n                                                                              \n      \n    (hk : ∀ ω, k ω = sSup { s : Set ℕ |\n      ∃ m, s = Set.Iic m ∧ ∀ l, l < m → X l ω > X (l + 1) ω })\n    (S : Ω → ℝ)\n    (hS : ∀ ω, S ω = ∑' (i : k ω), (X i ω) / (2 ^ (i.val + 1))) :\n    ∫ ω, S ω ∂(ℙ : Measure Ω) = putnam_2022_a4_solution"
 check:
   result: pass

@@ -17,6 +17,7 @@ origin:
   commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
   native_name: putnam_2011_a2
 licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
 text: "noncomputable abbrev putnam_2011_a2_solution : ℝ := sorry\n\ntheorem putnam_2011_a2\n(a b : ℕ → ℝ)\n(habn : ∀ n : ℕ, a n > 0 ∧ b n > 0)\n(hab1 : a 0 = 1 ∧ b 0 = 1)\n(hb : ∀ n ≥ 1, b n = b (n-1) * a n - 2)\n(hbnd : ∃ B : ℝ, ∀ n : ℕ, |b n| ≤ B)\n: Tendsto (fun n => ∑ i : Fin n, 1/(∏ j : Fin (i + 1), (a j))) atTop (\U0001D4DD putnam_2011_a2_solution)"
 check:
   result: pass

@@ -1,0 +1,12 @@
+tag: Z68SVWDS28
+kind: proof
+formal: P8AZ6MC5D1
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo2019P2.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo2019P2
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo2019P2.lean
+module: Compfiles.Imo2019P2
+decl: Imo2019P2.imo2019_p2

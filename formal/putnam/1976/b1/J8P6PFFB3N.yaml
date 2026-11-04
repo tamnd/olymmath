@@ -1,0 +1,24 @@
+tag: J8P6PFFB3N
+kind: formal
+problem: FRS7T6D479
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1976_b1.lean
+module: src.putnam_1976_b1
+decl: putnam_1976_b1
+answer:
+  style: separate-def
+  decl: putnam_1976_b1_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1976_b1.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1976_b1
+licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
+text: "abbrev putnam_1976_b1_solution : ℕ × ℕ := sorry\n\ntheorem putnam_1976_b1\n: Tendsto (fun n : ℕ => ((1 : ℝ)/n)*∑ k ∈ Finset.Icc (1 : ℤ) n, (Int.floor ((2*n)/k) - 2*Int.floor (n/k))) atTop\n    (\U0001D4DD (Real.log putnam_1976_b1_solution.1 - putnam_1976_b1_solution.2))"
+fidelity:
+  status: unreviewed
+rank: 5

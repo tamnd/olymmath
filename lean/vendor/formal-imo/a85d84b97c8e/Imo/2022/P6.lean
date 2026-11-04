@@ -54,8 +54,8 @@ theorem imo_2022_p6 {n : ℕ} (hn : 0 < n)
     (isUphill_spec : ∀ B L, isUphill B L ↔
       L ≠ [] ∧
       (∀ i ∈ L.head?, isValley B i) ∧
-      L.Chain' isAdj ∧
-      L.Chain' (fun i j => B i ≤ B j)) :
+      L.IsChain isAdj ∧
+      L.IsChain (fun i j => B i ≤ B j)) :
     IsLeast {Set.ncard {L | isUphill B L} | (B : Fin n × Fin n → Fin (n ^ 2)) (hB : isNordic B)}
     answer((2 * n ^ 2 - 2 * n + 1 : ℕ)) := by
   sorry

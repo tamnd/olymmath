@@ -1,0 +1,29 @@
+tag: KTSVGAQDSQ
+kind: formal
+problem: DAE4JQ65VR
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/imosllean4/883b0326e585/IMOSLLean4/Main/IMO2009/C5.lean
+module: IMOSLLean4.Main.IMO2009.C5
+decl: IMOSL.IMO2009C5.final_solution
+answer:
+  style: none
+origin:
+  kind: human
+  source: imosllean4
+  url: https://github.com/mortarsanjaya/IMOSLLean4/blob/883b0326e585ac9a2148e5d67a4c335bb4f798be/IMOSLLean4/Main/IMO2009/C5.lean
+  commit: 883b0326e585ac9a2148e5d67a4c335bb4f798be
+  native_name: IMO2009C5
+licence: Apache-2.0
+options:
+  autoImplicit: "true"
+  relaxedAutoImplicit: "true"
+text: |-
+  theorem final_solution [LinearOrder G] [IsOrderedAddMonoid G] [AddLeftStrictMono G]
+      {r : G} {hr : r ≥ 0} : ¬(GameState.init r hr).isLosing true
+fidelity:
+  status: unreviewed
+rank: 2
+proofs:
+  - 5D8XTXYGKP

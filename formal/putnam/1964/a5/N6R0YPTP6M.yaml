@@ -16,6 +16,7 @@ origin:
   commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
   native_name: putnam_1964_a5
 licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
 text: "theorem putnam_1964_a5\n    (pa : (ℕ → ℝ) → Prop)\n    (hpa : ∀ a, pa a ↔ (∀ n : ℕ, a n > 0) ∧ ∃ L : ℝ, Tendsto (fun N ↦ ∑ n ∈ Finset.range N, 1 / a n) atTop (\U0001D4DD L)) :\n    ∃ k : ℝ, ∀ a : ℕ → ℝ, pa a →\n      ∑' n : ℕ, (n + 1) / (∑ i ∈ Finset.range (n + 1), a i) ≤ k * ∑' n : ℕ, 1 / a n"
 check:
   result: pass

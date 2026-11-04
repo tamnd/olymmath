@@ -18,6 +18,7 @@ origin:
 licence: Apache-2.0
 options:
   autoImplicit: "true"
+  relaxedAutoImplicit: "true"
 text: 'theorem final_solution (k : ℕ) (hk : good (X ^ k)) : 3 ∣ k + 1'
 check:
   result: pass

@@ -16,6 +16,7 @@ origin:
   commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
   native_name: putnam_2008_a6
 licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
 text: |-
   theorem putnam_2008_a6
   : ∃ c : ℝ, c > 0 ∧ ∀ G [Group G] (fing : Fintype G), fing.card > 1 → ∃ s : List G, s.length ≤ c * Real.log (fing.card : ℝ) ∧ ∀ g : G, ∃ t : List G, t.Sublist s ∧ t.prod = g

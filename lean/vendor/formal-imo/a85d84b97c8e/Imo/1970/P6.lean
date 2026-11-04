@@ -24,7 +24,7 @@ Given $100$ coplanar points, no three collinear, prove that at most $70\%$ of th
 @[imo_problem_subject combinatorics]
 theorem imo_1970_p6
     (S : Finset ℝ²) (S_card : S.card = 100)
-    (S_ncoll : Set.Triplewise S.toSet (¬Collinear ℝ {·, ·, ·}))
+    (S_ncoll : Set.Triplewise (S : Set ℝ²) (¬Collinear ℝ {·, ·, ·}))
     (acute : Finset ℝ² → Prop)
     (acute_def : ∀ T, acute T ↔ ∀ A ∈ T, ∀ B ∈ T, ∀ C ∈ T,
       A ≠ B → B ≠ C → C ≠ A → ∠ A B C < π / 2) :

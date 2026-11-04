@@ -1,7 +1,6 @@
-# The import of putnambench at a635813f5edf297d928f9bd5ef8324a26bdde09c: 672 statements, 597 mapped to a problem, 0 with a proof.
-# 4 mapped statements did not compile at Lean v4.35.0 and Mathlib v4.35.0, so they have the status fails-at-pin and no record.
+# The import of putnambench at a635813f5edf297d928f9bd5ef8324a26bdde09c: 672 statements, 671 mapped to a problem, 0 with a proof.
 # native	decl	part	locator	status	tag	proved
-putnam_1962_a1	putnam_1962_a1		putnam/1962/a1	no-problem		false
+putnam_1962_a1	putnam_1962_a1		putnam/1962/a1	mapped	P6R2PFDJGH	false
 putnam_1962_a2	putnam_1962_a2		putnam/1962/a2	mapped	TM293KMM3E	false
 putnam_1962_a3	putnam_1962_a3		putnam/1962/a3	mapped	PX45V5YV85	false
 putnam_1962_a4	putnam_1962_a4		putnam/1962/a4	mapped	S97HM3FZNH	false
@@ -21,42 +20,42 @@ putnam_1963_b2	putnam_1963_b2		putnam/1963/b2	mapped	488H81JQPN	false
 putnam_1963_b3	putnam_1963_b3		putnam/1963/b3	mapped	AFADS1MX6P	false
 putnam_1963_b5	putnam_1963_b5		putnam/1963/b5	mapped	7GG53D8R01	false
 putnam_1963_b6	putnam_1963_b6		putnam/1963/b6	mapped	9TBFYFW9E5	false
-putnam_1964_a1	putnam_1964_a1		putnam/1964/a1	no-problem		false
+putnam_1964_a1	putnam_1964_a1		putnam/1964/a1	mapped	1HR1WJXA7X	false
 putnam_1964_a2	putnam_1964_a2		putnam/1964/a2	mapped	3W4SAM8ZNV	false
-putnam_1964_a3	putnam_1964_a3		putnam/1964/a3	no-problem		false
+putnam_1964_a3	putnam_1964_a3		putnam/1964/a3	mapped	1MFSJ3SX6F	false
 putnam_1964_a4	putnam_1964_a4		putnam/1964/a4	mapped	CEDXZ327HK	false
 putnam_1964_a5	putnam_1964_a5		putnam/1964/a5	mapped	N6R0YPTP6M	false
 putnam_1964_a6	putnam_1964_a6		putnam/1964/a6	mapped	JV6ZXXEB0P	false
 putnam_1964_b1	putnam_1964_b1		putnam/1964/b1	mapped	MC1DJD631S	false
 putnam_1964_b2	putnam_1964_b2		putnam/1964/b2	mapped	XH2N2BFGX3	false
-putnam_1964_b3	putnam_1964_b3		putnam/1964/b3	no-problem		false
+putnam_1964_b3	putnam_1964_b3		putnam/1964/b3	mapped	PZ4ZFX1SHM	false
 putnam_1964_b4	putnam_1964_b4		putnam/1964/b4	mapped	EXVVZA9G26	false
 putnam_1964_b5	putnam_1964_b5		putnam/1964/b5	mapped	3033VY0TKV	false
 putnam_1964_b6	putnam_1964_b6		putnam/1964/b6	mapped	3493A7FTWN	false
 putnam_1965_a1	putnam_1965_a1		putnam/1965/a1	mapped	YTREE26WF6	false
 putnam_1965_a2	putnam_1965_a2		putnam/1965/a2	mapped	JN1PTZ30ER	false
-putnam_1965_a3	putnam_1965_a3		putnam/1965/a3	no-problem		false
-putnam_1965_a4	putnam_1965_a4		putnam/1965/a4	no-problem		false
+putnam_1965_a3	putnam_1965_a3		putnam/1965/a3	mapped	S53GZJHSZ6	false
+putnam_1965_a4	putnam_1965_a4		putnam/1965/a4	mapped	QBZ403X0WC	false
 putnam_1965_a5	putnam_1965_a5		putnam/1965/a5	mapped	5N61YQ2R7P	false
-putnam_1965_a6	putnam_1965_a6		putnam/1965/a6	no-problem		false
+putnam_1965_a6	putnam_1965_a6		putnam/1965/a6	mapped	1N94YRZPXE	false
 putnam_1965_b1	putnam_1965_b1		putnam/1965/b1	mapped	2D47AVHSBZ	false
-putnam_1965_b2	putnam_1965_b2		putnam/1965/b2	no-problem		false
-putnam_1965_b3	putnam_1965_b3		putnam/1965/b3	no-problem		false
-putnam_1965_b4	putnam_1965_b4		putnam/1965/b4	no-problem		false
-putnam_1965_b5	putnam_1965_b5		putnam/1965/b5	no-problem		false
-putnam_1965_b6	putnam_1965_b6		putnam/1965/b6	no-problem		false
-putnam_1966_a1	putnam_1966_a1		putnam/1966/a1	no-problem		false
+putnam_1965_b2	putnam_1965_b2		putnam/1965/b2	mapped	X3D0YRDZHQ	false
+putnam_1965_b3	putnam_1965_b3		putnam/1965/b3	mapped	BKFH4M3212	false
+putnam_1965_b4	putnam_1965_b4		putnam/1965/b4	mapped	4GVV9F4VM9	false
+putnam_1965_b5	putnam_1965_b5		putnam/1965/b5	mapped	K0E8DENAQ9	false
+putnam_1965_b6	putnam_1965_b6		putnam/1965/b6	mapped	HQ8XTKWB37	false
+putnam_1966_a1	putnam_1966_a1		putnam/1966/a1	mapped	2QMVS72A2N	false
 putnam_1966_a2	putnam_1966_a2		putnam/1966/a2	mapped	404W42WD20	false
-putnam_1966_a3	putnam_1966_a3		putnam/1966/a3	no-problem		false
-putnam_1966_a4	putnam_1966_a4		putnam/1966/a4	no-problem		false
-putnam_1966_a5	putnam_1966_a5		putnam/1966/a5	no-problem		false
-putnam_1966_a6	putnam_1966_a6		putnam/1966/a6	no-problem		false
+putnam_1966_a3	putnam_1966_a3		putnam/1966/a3	mapped	PCSA1K5NMD	false
+putnam_1966_a4	putnam_1966_a4		putnam/1966/a4	mapped	7QEMYD351M	false
+putnam_1966_a5	putnam_1966_a5		putnam/1966/a5	mapped	NC5N8KNRSH	false
+putnam_1966_a6	putnam_1966_a6		putnam/1966/a6	mapped	NXEM4XGXMW	false
 putnam_1966_b1	putnam_1966_b1		putnam/1966/b1	mapped	3VDAYW4PWB	false
-putnam_1966_b2	putnam_1966_b2		putnam/1966/b2	no-problem		false
-putnam_1966_b3	putnam_1966_b3		putnam/1966/b3	no-problem		false
-putnam_1966_b4	putnam_1966_b4		putnam/1966/b4	no-problem		false
-putnam_1966_b5	putnam_1966_b5		putnam/1966/b5	no-problem		false
-putnam_1966_b6	putnam_1966_b6		putnam/1966/b6	no-problem		false
+putnam_1966_b2	putnam_1966_b2		putnam/1966/b2	mapped	YNB5RQF49Q	false
+putnam_1966_b3	putnam_1966_b3		putnam/1966/b3	mapped	44M6WD415C	false
+putnam_1966_b4	putnam_1966_b4		putnam/1966/b4	mapped	69V6JGN29T	false
+putnam_1966_b5	putnam_1966_b5		putnam/1966/b5	mapped	9PP5PBXR7D	false
+putnam_1966_b6	putnam_1966_b6		putnam/1966/b6	mapped	KGXXKHHZ2K	false
 putnam_1967_a1	putnam_1967_a1		putnam/1967/a1	mapped	DPHERPEN6V	false
 putnam_1967_a2	putnam_1967_a2		putnam/1967/a2	mapped	ZGHQZQ8081	false
 putnam_1967_a3	putnam_1967_a3		putnam/1967/a3	mapped	CRHKQS8MGD	false
@@ -85,15 +84,15 @@ putnam_1969_a2	putnam_1969_a2		putnam/1969/a2	mapped	R2EV3RCQNY	false
 putnam_1969_a4	putnam_1969_a4		putnam/1969/a4	mapped	FBV9X24TYV	false
 putnam_1969_a5	putnam_1969_a5		putnam/1969/a5	mapped	RSJCW7NGEE	false
 putnam_1969_a6	putnam_1969_a6		putnam/1969/a6	mapped	RHH36GQASG	false
-putnam_1969_b1	putnam_1969_b1		putnam/1969/b1	no-problem		false
+putnam_1969_b1	putnam_1969_b1		putnam/1969/b1	mapped	TNQDVB1B7X	false
 putnam_1969_b2	putnam_1969_b2		putnam/1969/b2	mapped	YNTJ6RD0ED	false
 putnam_1969_b3	putnam_1969_b3		putnam/1969/b3	mapped	VHEC7KY1M8	false
-putnam_1969_b4	putnam_1969_b4		putnam/1969/b4	no-problem		false
+putnam_1969_b4	putnam_1969_b4		putnam/1969/b4	mapped	MFH50H1ZEJ	false
 putnam_1969_b5	putnam_1969_b5		putnam/1969/b5	mapped	TVP2XN17WF	false
 putnam_1969_b6	putnam_1969_b6		putnam/1969/b6	mapped	CR6CKHRAJ0	false
 putnam_1970_a1	putnam_1970_a1		putnam/1970/a1	mapped	1D3KV4TM76	false
 putnam_1970_a2	putnam_1970_a2		putnam/1970/a2	mapped	9BZDSD4E9F	false
-putnam_1970_a3	putnam_1970_a3		putnam/1970/a3	no-problem		false
+putnam_1970_a3	putnam_1970_a3		putnam/1970/a3	mapped	XETSP8F6DP	false
 putnam_1970_a4	putnam_1970_a4		putnam/1970/a4	mapped	YSC162ZZ7Q	false
 putnam_1970_b1	putnam_1970_b1		putnam/1970/b1	mapped	44CP57ZRKQ	false
 putnam_1970_b2	putnam_1970_b2		putnam/1970/b2	mapped	23RR6TR0T4	false
@@ -101,29 +100,29 @@ putnam_1970_b3	putnam_1970_b3		putnam/1970/b3	mapped	HYTKF1WRRP	false
 putnam_1970_b4	putnam_1970_b4		putnam/1970/b4	mapped	TD2320BNRQ	false
 putnam_1970_b5	putnam_1970_b5		putnam/1970/b5	mapped	V0AGQ566SC	false
 putnam_1970_b6	putnam_1970_b6		putnam/1970/b6	mapped	9ARP52HCPN	false
-putnam_1971_a1	putnam_1971_a1		putnam/1971/a1	no-problem		false
-putnam_1971_a2	putnam_1971_a2		putnam/1971/a2	no-problem		false
-putnam_1971_a3	putnam_1971_a3		putnam/1971/a3	no-problem		false
-putnam_1971_a4	putnam_1971_a4		putnam/1971/a4	no-problem		false
+putnam_1971_a1	putnam_1971_a1		putnam/1971/a1	mapped	4V9EKJ2YTD	false
+putnam_1971_a2	putnam_1971_a2		putnam/1971/a2	mapped	SACJ1KPKSH	false
+putnam_1971_a3	putnam_1971_a3		putnam/1971/a3	mapped	TQC1MAERHH	false
+putnam_1971_a4	putnam_1971_a4		putnam/1971/a4	mapped	SKYMWCS1TV	false
 putnam_1971_a5	putnam_1971_a5		putnam/1971/a5	mapped	STPBCJB7JF	false
-putnam_1971_a6	putnam_1971_a6		putnam/1971/a6	no-problem		false
-putnam_1971_b1	putnam_1971_b1		putnam/1971/b1	no-problem		false
-putnam_1971_b2	putnam_1971_b2		putnam/1971/b2	no-problem		false
-putnam_1971_b3	putnam_1971_b3		putnam/1971/b3	no-problem		false
-putnam_1971_b6	putnam_1971_b6		putnam/1971/b6	no-problem		false
+putnam_1971_a6	putnam_1971_a6		putnam/1971/a6	mapped	B1ND5V5BCZ	false
+putnam_1971_b1	putnam_1971_b1		putnam/1971/b1	mapped	WK46AWY0W0	false
+putnam_1971_b2	putnam_1971_b2		putnam/1971/b2	mapped	195SA42M02	false
+putnam_1971_b3	putnam_1971_b3		putnam/1971/b3	mapped	70NTGWVSRF	false
+putnam_1971_b6	putnam_1971_b6		putnam/1971/b6	mapped	5XMKH6V8ES	false
 putnam_1972_a1	putnam_1972_a1		putnam/1972/a1	mapped	Y6Z9E3A3QG	false
 putnam_1972_a2	putnam_1972_a2		putnam/1972/a2	mapped	BY12P4TBGP	false
 putnam_1972_a3	putnam_1972_a3		putnam/1972/a3	mapped	CPS36C5YT7	false
-putnam_1972_a5	putnam_1972_a5		putnam/1972/a5	no-problem		false
+putnam_1972_a5	putnam_1972_a5		putnam/1972/a5	mapped	5PCQYF8T5H	false
 putnam_1972_a6	putnam_1972_a6		putnam/1972/a6	mapped	W8T6A11BZ3	false
 putnam_1972_b1	putnam_1972_b1		putnam/1972/b1	mapped	4SSNW0SG6F	false
 putnam_1972_b2	putnam_1972_b2		putnam/1972/b2	mapped	M3MX02N7T5	false
 putnam_1972_b3	putnam_1972_b3		putnam/1972/b3	mapped	36QZGZWJV4	false
 putnam_1972_b4	putnam_1972_b4		putnam/1972/b4	mapped	QN9E45DC09	false
 putnam_1972_b5	putnam_1972_b5		putnam/1972/b5	mapped	F2M0PEYVG3	false
-putnam_1972_b6	putnam_1972_b6		putnam/1972/b6	no-problem		false
+putnam_1972_b6	putnam_1972_b6		putnam/1972/b6	mapped	YARD1BRQZ7	false
 putnam_1973_a1	putnam_1973_a1		putnam/1973/a1	mapped	H34BYZXZZJ	false
-putnam_1973_a2	putnam_1973_a2		putnam/1973/a2	no-problem		false
+putnam_1973_a2	putnam_1973_a2		putnam/1973/a2	mapped	1JF2Z5W94Y	false
 putnam_1973_a3	putnam_1973_a3		putnam/1973/a3	mapped	GJN8GVJ881	false
 putnam_1973_a4	putnam_1973_a4		putnam/1973/a4	mapped	GP6ZP6D32A	false
 putnam_1973_a6	putnam_1973_a6		putnam/1973/a6	mapped	P0WG2EW6W0	false
@@ -151,69 +150,69 @@ putnam_1975_b2	putnam_1975_b2		putnam/1975/b2	mapped	M0EAZ4R02S	false
 putnam_1975_b3	putnam_1975_b3		putnam/1975/b3	mapped	QJDACWB5EG	false
 putnam_1975_b4	putnam_1975_b4		putnam/1975/b4	mapped	SPDNN1QXZH	false
 putnam_1975_b5	putnam_1975_b5		putnam/1975/b5	mapped	DHBWHB6231	false
-putnam_1975_b6	putnam_1975_b6		putnam/1975/b6	no-problem		false
-putnam_1976_a2	putnam_1976_a2		putnam/1976/a2	no-problem		false
-putnam_1976_a3	putnam_1976_a3		putnam/1976/a3	no-problem		false
+putnam_1975_b6	putnam_1975_b6		putnam/1975/b6	mapped	PX29YH6V76	false
+putnam_1976_a2	putnam_1976_a2		putnam/1976/a2	mapped	V60H6VAZ88	false
+putnam_1976_a3	putnam_1976_a3		putnam/1976/a3	mapped	KG1MYTHWZY	false
 putnam_1976_a4	putnam_1976_a4		putnam/1976/a4	mapped	JQ52Z5S03V	false
-putnam_1976_a6	putnam_1976_a6		putnam/1976/a6	no-problem		false
-putnam_1976_b1	putnam_1976_b1		putnam/1976/b1	no-problem		false
-putnam_1976_b2	putnam_1976_b2		putnam/1976/b2	no-problem		false
-putnam_1976_b3	putnam_1976_b3		putnam/1976/b3	no-problem		false
+putnam_1976_a6	putnam_1976_a6		putnam/1976/a6	mapped	X3MXPQQHV1	false
+putnam_1976_b1	putnam_1976_b1		putnam/1976/b1	mapped	J8P6PFFB3N	false
+putnam_1976_b2	putnam_1976_b2		putnam/1976/b2	mapped	FN7C12M9C5	false
+putnam_1976_b3	putnam_1976_b3		putnam/1976/b3	mapped	6FMQRDCT4D	false
 putnam_1976_b5	putnam_1976_b5		putnam/1976/b5	no-problem		false
-putnam_1976_b6	putnam_1976_b6		putnam/1976/b6	no-problem		false
-putnam_1977_a1	putnam_1977_a1		putnam/1977/a1	no-problem		false
-putnam_1977_a2	putnam_1977_a2		putnam/1977/a2	no-problem		false
-putnam_1977_a3	putnam_1977_a3		putnam/1977/a3	no-problem		false
-putnam_1977_a4	putnam_1977_a4		putnam/1977/a4	no-problem		false
-putnam_1977_a5	putnam_1977_a5		putnam/1977/a5	no-problem		false
-putnam_1977_a6	putnam_1977_a6		putnam/1977/a6	no-problem		false
-putnam_1977_b1	putnam_1977_b1		putnam/1977/b1	no-problem		false
-putnam_1977_b3	putnam_1977_b3		putnam/1977/b3	no-problem		false
-putnam_1977_b5	putnam_1977_b5		putnam/1977/b5	no-problem		false
-putnam_1977_b6	putnam_1977_b6		putnam/1977/b6	no-problem		false
+putnam_1976_b6	putnam_1976_b6		putnam/1976/b6	mapped	1TVBWJ36YE	false
+putnam_1977_a1	putnam_1977_a1		putnam/1977/a1	mapped	YJAPXJ3DEB	false
+putnam_1977_a2	putnam_1977_a2		putnam/1977/a2	mapped	7M01RMEEAT	false
+putnam_1977_a3	putnam_1977_a3		putnam/1977/a3	mapped	GRWGERBVW0	false
+putnam_1977_a4	putnam_1977_a4		putnam/1977/a4	mapped	GVF677HYVK	false
+putnam_1977_a5	putnam_1977_a5		putnam/1977/a5	mapped	542WS2RDGY	false
+putnam_1977_a6	putnam_1977_a6		putnam/1977/a6	mapped	R9ZKJ9E86P	false
+putnam_1977_b1	putnam_1977_b1		putnam/1977/b1	mapped	SXR41FEW3C	false
+putnam_1977_b3	putnam_1977_b3		putnam/1977/b3	mapped	MXN5W9MM6Z	false
+putnam_1977_b5	putnam_1977_b5		putnam/1977/b5	mapped	KMBYW17Q90	false
+putnam_1977_b6	putnam_1977_b6		putnam/1977/b6	mapped	7CKMZQKWFM	false
 putnam_1978_a1	putnam_1978_a1		putnam/1978/a1	mapped	DEJ7YYPX31	false
 putnam_1978_a2	putnam_1978_a2		putnam/1978/a2	mapped	R5G5XVWPKR	false
 putnam_1978_a3	putnam_1978_a3		putnam/1978/a3	mapped	C2RQAM7K5B	false
 putnam_1978_a4	putnam_1978_a4		putnam/1978/a4	mapped	WHK9MVVC5N	false
 putnam_1978_a5	putnam_1978_a5		putnam/1978/a5	mapped	6KJSA831AC	false
-putnam_1978_a6	putnam_1978_a6		putnam/1978/a6	no-problem		false
+putnam_1978_a6	putnam_1978_a6		putnam/1978/a6	mapped	Z2Q2593FAJ	false
 putnam_1978_b2	putnam_1978_b2		putnam/1978/b2	mapped	A2HK9WEK79	false
 putnam_1978_b3	putnam_1978_b3		putnam/1978/b3	mapped	E3WA6W9YRN	false
 putnam_1978_b4	putnam_1978_b4		putnam/1978/b4	mapped	FQ51J01BDM	false
 putnam_1978_b5	putnam_1978_b5		putnam/1978/b5	mapped	ABGR94TNCG	false
 putnam_1978_b6	putnam_1978_b6		putnam/1978/b6	mapped	343559DXF3	false
-putnam_1979_a1	putnam_1979_a1		putnam/1979/a1	no-problem		false
-putnam_1979_a2	putnam_1979_a2		putnam/1979/a2	no-problem		false
-putnam_1979_a3	putnam_1979_a3		putnam/1979/a3	no-problem		false
-putnam_1979_a4	putnam_1979_a4		putnam/1979/a4	no-problem		false
-putnam_1979_a5	putnam_1979_a5		putnam/1979/a5	no-problem		false
-putnam_1979_a6	putnam_1979_a6		putnam/1979/a6	no-problem		false
-putnam_1979_b2	putnam_1979_b2		putnam/1979/b2	no-problem		false
-putnam_1979_b3	putnam_1979_b3		putnam/1979/b3	no-problem		false
-putnam_1979_b5	putnam_1979_b5		putnam/1979/b5	no-problem		false
-putnam_1979_b6	putnam_1979_b6		putnam/1979/b6	no-problem		false
+putnam_1979_a1	putnam_1979_a1		putnam/1979/a1	mapped	KDNMYWJY0H	false
+putnam_1979_a2	putnam_1979_a2		putnam/1979/a2	mapped	852TSQW4VF	false
+putnam_1979_a3	putnam_1979_a3		putnam/1979/a3	mapped	AANK44Y6R4	false
+putnam_1979_a4	putnam_1979_a4		putnam/1979/a4	mapped	EKE5CAMTXG	false
+putnam_1979_a5	putnam_1979_a5		putnam/1979/a5	mapped	41V8WBC6T1	false
+putnam_1979_a6	putnam_1979_a6		putnam/1979/a6	mapped	41BHEK2A3D	false
+putnam_1979_b2	putnam_1979_b2		putnam/1979/b2	mapped	EF6CT7MZS6	false
+putnam_1979_b3	putnam_1979_b3		putnam/1979/b3	mapped	RJGX5VC16N	false
+putnam_1979_b5	putnam_1979_b5		putnam/1979/b5	mapped	7H6D7WBS47	false
+putnam_1979_b6	putnam_1979_b6		putnam/1979/b6	mapped	CQTXKCHHC0	false
 putnam_1980_a2	putnam_1980_a2		putnam/1980/a2	mapped	6YBE6FMRGN	false
-putnam_1980_a3	putnam_1980_a3		putnam/1980/a3	no-problem		false
+putnam_1980_a3	putnam_1980_a3		putnam/1980/a3	mapped	KN2CMXK71Y	false
 putnam_1980_a4	putnam_1980_a4		putnam/1980/a4	mapped	5SHG9CRE61	false
 putnam_1980_a5	putnam_1980_a5		putnam/1980/a5	mapped	J6222JF27B	false
 putnam_1980_a6	putnam_1980_a6		putnam/1980/a6	mapped	XBC96BHBVX	false
 putnam_1980_b1	putnam_1980_b1		putnam/1980/b1	mapped	YXB500SQNP	false
 putnam_1980_b3	putnam_1980_b3		putnam/1980/b3	mapped	QESR6844MF	false
 putnam_1980_b4	putnam_1980_b4		putnam/1980/b4	mapped	1Y96VBN1QB	false
-putnam_1980_b5	putnam_1980_b5		putnam/1980/b5	no-problem		false
-putnam_1980_b6	putnam_1980_b6		putnam/1980/b6	no-problem		false
+putnam_1980_b5	putnam_1980_b5		putnam/1980/b5	mapped	T2ZXCHAFAD	false
+putnam_1980_b6	putnam_1980_b6		putnam/1980/b6	mapped	KXDDQV8XAA	false
 putnam_1981_a1	putnam_1981_a1		putnam/1981/a1	mapped	H0WAEHY9RP	false
 putnam_1981_a3	putnam_1981_a3		putnam/1981/a3	mapped	NQGTCRGE4W	false
 putnam_1981_a5	putnam_1981_a5		putnam/1981/a5	mapped	EF8DPM5KA6	false
 putnam_1981_b1	putnam_1981_b1		putnam/1981/b1	mapped	7XMBGP5EDR	false
 putnam_1981_b2	putnam_1981_b2		putnam/1981/b2	mapped	H0D5732P3D	false
-putnam_1981_b3	putnam_1981_b3		putnam/1981/b3	no-problem		false
+putnam_1981_b3	putnam_1981_b3		putnam/1981/b3	mapped	AJBS6T8E9N	false
 putnam_1981_b4	putnam_1981_b4		putnam/1981/b4	mapped	J1TTVQRFGW	false
 putnam_1981_b5	putnam_1981_b5		putnam/1981/b5	mapped	2Z078DRWZD	false
 putnam_1982_a2	putnam_1982_a2		putnam/1982/a2	mapped	Y66HM1Z8ZG	false
 putnam_1982_a3	putnam_1982_a3		putnam/1982/a3	mapped	ENP3VQ5KZN	false
 putnam_1982_a4	putnam_1982_a4		putnam/1982/a4	mapped	W77FN9Z1P2	false
-putnam_1982_a5	putnam_1982_a5		putnam/1982/a5	no-problem		false
+putnam_1982_a5	putnam_1982_a5		putnam/1982/a5	mapped	V0AK3VD1Y9	false
 putnam_1982_a6	putnam_1982_a6		putnam/1982/a6	mapped	FY6HW5GQXP	false
 putnam_1982_b2	putnam_1982_b2		putnam/1982/b2	mapped	NWZHMTPG41	false
 putnam_1982_b3	putnam_1982_b3		putnam/1982/b3	mapped	M3AS3SE8TF	false
@@ -227,10 +226,10 @@ putnam_1983_a6	putnam_1983_a6		putnam/1983/a6	mapped	AFC6YMMF0P	false
 putnam_1983_b2	putnam_1983_b2		putnam/1983/b2	mapped	7YV2EC78GW	false
 putnam_1983_b4	putnam_1983_b4		putnam/1983/b4	mapped	TJQ9A68E41	false
 putnam_1983_b5	putnam_1983_b5		putnam/1983/b5	mapped	T6H34J6RBB	false
-putnam_1983_b6	putnam_1983_b6		putnam/1983/b6	no-problem		false
+putnam_1983_b6	putnam_1983_b6		putnam/1983/b6	mapped	H2R1CFHJEH	false
 putnam_1984_a2	putnam_1984_a2		putnam/1984/a2	mapped	5KY31B3AQQ	false
-putnam_1984_a3	putnam_1984_a3		putnam/1984/a3	no-problem		false
-putnam_1984_a5	putnam_1984_a5		putnam/1984/a5	no-problem		false
+putnam_1984_a3	putnam_1984_a3		putnam/1984/a3	mapped	446KSBDFTS	false
+putnam_1984_a5	putnam_1984_a5		putnam/1984/a5	mapped	5XCHSRZ8JS	false
 putnam_1984_a6	putnam_1984_a6		putnam/1984/a6	mapped	FG6GFZA1F6	false
 putnam_1984_b1	putnam_1984_b1		putnam/1984/b1	mapped	8M3K90BT01	false
 putnam_1984_b2	putnam_1984_b2		putnam/1984/b2	mapped	9EAKBE0829	false
@@ -260,7 +259,7 @@ putnam_1986_b5	putnam_1986_b5		putnam/1986/b5	mapped	X1X83BZ5TQ	false
 putnam_1986_b6	putnam_1986_b6		putnam/1986/b6	mapped	9WW2V4BS29	false
 putnam_1987_a1	putnam_1987_a1		putnam/1987/a1	mapped	2EA6E5J0AT	false
 putnam_1987_a2	putnam_1987_a2		putnam/1987/a2	mapped	YNTTYX0BMH	false
-putnam_1987_a4	putnam_1987_a4		putnam/1987/a4	fails-at-pin		false
+putnam_1987_a4	putnam_1987_a4		putnam/1987/a4	mapped	NFAW63R9EH	false
 putnam_1987_a5	putnam_1987_a5		putnam/1987/a5	mapped	QEG32ZHZYX	false
 putnam_1987_a6	putnam_1987_a6		putnam/1987/a6	mapped	BRERKYMQKJ	false
 putnam_1987_b1	putnam_1987_b1		putnam/1987/b1	mapped	7A3ME2E3P4	false
@@ -616,7 +615,7 @@ putnam_2020_b1	putnam_2020_b1		putnam/2020/b1	mapped	W82WEA5EMR	false
 putnam_2020_b4	putnam_2020_b4		putnam/2020/b4	mapped	M8DRZ646YD	false
 putnam_2020_b5	putnam_2020_b5		putnam/2020/b5	mapped	G0FPP6VEYP	false
 putnam_2020_b6	putnam_2020_b6		putnam/2020/b6	mapped	NQ2YQ15MBR	false
-putnam_2021_a1	putnam_2021_a1		putnam/2021/a1	fails-at-pin		false
+putnam_2021_a1	putnam_2021_a1		putnam/2021/a1	mapped	256XC1H735	false
 putnam_2021_a2	putnam_2021_a2		putnam/2021/a2	mapped	4JSRN6EQHM	false
 putnam_2021_a3	putnam_2021_a3		putnam/2021/a3	mapped	44YZ30MM1K	false
 putnam_2021_a4	putnam_2021_a4		putnam/2021/a4	mapped	MW5B59C7HH	false
@@ -630,7 +629,7 @@ putnam_2022_a1	putnam_2022_a1		putnam/2022/a1	mapped	5KS8M0QVJG	false
 putnam_2022_a2	putnam_2022_a2		putnam/2022/a2	mapped	1XNGWFHSF4	false
 putnam_2022_a3	putnam_2022_a3		putnam/2022/a3	mapped	9ZTRWM28NY	false
 putnam_2022_a4	putnam_2022_a4		putnam/2022/a4	mapped	HKQ3V1T7Y7	false
-putnam_2022_a5	putnam_2022_a5		putnam/2022/a5	fails-at-pin		false
+putnam_2022_a5	putnam_2022_a5		putnam/2022/a5	mapped	39HHXWB452	false
 putnam_2022_a6	putnam_2022_a6		putnam/2022/a6	mapped	VR5QPWCSS3	false
 putnam_2022_b1	putnam_2022_b1		putnam/2022/b1	mapped	DQWPM3ATPS	false
 putnam_2022_b2	putnam_2022_b2		putnam/2022/b2	mapped	GDQ3MYP1M2	false
@@ -663,7 +662,7 @@ putnam_2024_b5	putnam_2024_b5		putnam/2024/b5	mapped	W771TXC98E	false
 putnam_2024_b6	putnam_2024_b6		putnam/2024/b6	mapped	PX9F0A1140	false
 putnam_2025_a1	putnam_2025_a1		putnam/2025/a1	mapped	5XZSD5W5AG	false
 putnam_2025_a2	putnam_2025_a2		putnam/2025/a2	mapped	8MVPYH896W	false
-putnam_2025_a3	putnam_2025_a3		putnam/2025/a3	fails-at-pin		false
+putnam_2025_a3	putnam_2025_a3		putnam/2025/a3	mapped	T5P2MVGSNE	false
 putnam_2025_a4	putnam_2025_a4		putnam/2025/a4	mapped	211VD8AX8V	false
 putnam_2025_a5	putnam_2025_a5		putnam/2025/a5	mapped	A8BMF7VRDC	false
 putnam_2025_a6	putnam_2025_a6		putnam/2025/a6	mapped	SH63F6VYN9	false

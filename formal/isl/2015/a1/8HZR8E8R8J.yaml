@@ -18,6 +18,7 @@ origin:
 licence: Apache-2.0
 options:
   autoImplicit: "true"
+  relaxedAutoImplicit: "true"
 text: |-
   theorem final_solution
       [Semifield F] [LinearOrder F] [IsStrictOrderedRing F] [ExistsAddOfLE F] {a : ℕ → F}

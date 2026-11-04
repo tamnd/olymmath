@@ -1,0 +1,32 @@
+tag: 195SA42M02
+kind: formal
+problem: MA92VEGBCG
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1971_b2.lean
+module: src.putnam_1971_b2
+decl: putnam_1971_b2
+answer:
+  style: separate-def
+  decl: putnam_1971_b2_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1971_b2.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1971_b2
+licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
+text: |-
+  abbrev putnam_1971_b2_solution : Set (ℝ → ℝ) := sorry
+
+  theorem putnam_1971_b2
+  (S : Set ℝ)
+  (hS : S = univ \ {0, 1})
+  (P : (ℝ → ℝ) → Prop)
+  (hP : P = fun (F : ℝ → ℝ) => ∀ x ∈ S, F x + F ((x - 1)/x) = 1 + x)
+  : (∀ F ∈ putnam_1971_b2_solution, P F) ∧ ∀ f : ℝ → ℝ, P f → ∃ F ∈ putnam_1971_b2_solution, (∀ x ∈ S, f x = F x)
+fidelity:
+  status: unreviewed
+rank: 5

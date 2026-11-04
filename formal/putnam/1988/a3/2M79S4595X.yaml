@@ -17,6 +17,7 @@ origin:
   commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
   native_name: putnam_1988_a3
 licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
 text: "abbrev putnam_1988_a3_solution : Set ℝ := sorry\n\ntheorem putnam_1988_a3\n: {x : ℝ | ∃ L : ℝ, Tendsto (fun t ↦ ∑ n ∈ Finset.Icc (1 : ℕ) t, (((1 / n) / Real.sin (1 / n) - 1) ^ x)) atTop (\U0001D4DD L)} = putnam_1988_a3_solution"
 check:
   result: pass

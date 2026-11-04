@@ -16,6 +16,7 @@ origin:
   commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
   native_name: putnam_1974_b4
 licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
 text: "theorem putnam_1974_b4\n(f : ℝ × ℝ → ℝ)\n(hfcontx : ∀ y : ℝ, Continuous (fun x => f ⟨x, y⟩))\n(hfconty : ∀ x : ℝ, Continuous (fun y => f ⟨x, y⟩))\n: ∃ g : ℕ → (ℝ × ℝ → ℝ), (∀ n : ℕ, Continuous (g n)) ∧ (∀ x y : ℝ, Tendsto (fun n => g n ⟨x, y⟩) atTop (\U0001D4DD (f ⟨x, y⟩)))"
 check:
   result: pass

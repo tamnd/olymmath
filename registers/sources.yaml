@@ -2010,3 +2010,51 @@
   wave: 3
   state: planned
   notes: Metadata and links only.
+
+- id: imo-gradingbench
+  name: IMO-GradingBench
+  kind: dataset
+  origin: D
+  url: https://github.com/google-deepmind/superhuman/tree/main/imobench
+  access: git
+  licence: CC BY 4.0
+  zone:
+    statement: Z2
+    solution: Z3
+  ai_train: unknown
+  wave: 0
+  state: planned
+  terms: The repository gives CC BY 4.0 for the benchmark data. Read on 2026-11-04.
+  notes: Human grades of model proofs of IMO-level problems, for the calibration of the grading jury (om calibrate -set gradingbench). om calibrate fetch puts the file in the work directory. No proof from it goes into solutions/.
+
+- id: hf-proofbench
+  name: ProofBench
+  kind: dataset
+  origin: D
+  url: https://huggingface.co/datasets/wenjiema02/ProofBench
+  access: hf
+  licence: MIT
+  zone:
+    statement: Z2
+    solution: Z3
+  ai_train: unknown
+  wave: 0
+  state: planned
+  terms: The dataset card gives the MIT licence. Read on 2026-11-04.
+  notes: Expert ratings from 0 to 7 of model proofs, with marking schemes, for the calibration of the grading jury (om calibrate -set proofbench). No proof from it goes into solutions/.
+
+- id: hf-open-proof-corpus
+  name: Open Proof Corpus
+  kind: dataset
+  origin: D
+  url: https://huggingface.co/datasets/INSAIT-Institute/OPC
+  access: hf
+  licence: CC BY-NC-SA 4.0
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: unknown
+  wave: 0
+  state: planned
+  terms: The dataset card gives CC BY-NC-SA 4.0. Read on 2026-11-04. The data stays in the work directory of om calibrate and out of git.
+  notes: Pass or fail judgements of model proofs by human judges, for the calibration of the grading jury (om calibrate -set opc). Link only.

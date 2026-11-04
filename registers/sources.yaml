@@ -923,14 +923,14 @@
   origin: H1
   url: https://www.ommenlinea.org/
   access: pdf
-  terms: "No licence stated. The footer says \"Copyright 2017 Olimpiada Mexicana de Matemáticas | Todos los derechos reservados\". Agent decision, not a person's review: Z2, the spec default for competition statements, as for tubitak."
+  terms: "No licence stated. The footer says \"Copyright 2017 Olimpiada Mexicana de Matemáticas | Todos los derechos reservados\". The magazine Tzaloa, which the site publishes, says \"Los contenidos e imágenes de Tzaloa pueden ser reproducidos y utilizados, citando apropiadamente y otorgando el crédito correspondiente a la publicación y a la Sociedad Matemática Mexicana\". Agent decision, not a person's review: Z2, the spec default for competition statements, as for tubitak."
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
   wave: 1
   state: active
-  notes: "The papers of the national contest (Concurso Nacional) are listed at https://www.ommenlinea.org/actividades/concursos/concurso-nacional/ as nac01.pdf to nac31.pdf, one file for each olympiad from the 1st (1987) to the 31st (2017), so the year is the number plus 1986. The papers of 1987 and 1988 have eight problems. robots.txt (checked on 2026-11-04) disallows only /wp-admin/."
+  notes: "The papers of the national contest (Concurso Nacional) are listed at https://www.ommenlinea.org/actividades/concursos/concurso-nacional/ as nac01.pdf to nac31.pdf, one file for each olympiad from the 1st (1987) to the 31st (2017), so the year is the number plus 1986. The papers of 1987 and 1988 have eight problems. From 2018 there is no nac file. The magazine Tzaloa prints the problems of a national contest in a later issue, which gives 2024 (the 38th, in TZALOA-24-03.pdf) and 2025 (the 39th, in Tzaloa2026-1.pdf). No issue online has the 37th (2023), and the first issue of 2022 (the 35th, 2021) gives a 404. The app at nacionales.ommenlinea.org has only the 2026 contest, which is held from 16 to 21 November 2026, and its robots.txt has no rules. robots.txt of www.ommenlinea.org (checked on 2026-11-04) disallows only /wp-admin/."
 
 - id: kms
   name: Korean Mathematical Society KMO

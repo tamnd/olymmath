@@ -2,56 +2,56 @@
   {
     "source": "hf-mathnet",
     "rows": 55634,
-    "matched": 13780,
+    "matched": 13822,
     "by_key": 0,
-    "near": 7856,
-    "new": 33998,
-    "new_located": 23904
+    "near": 7710,
+    "new": 34102,
+    "new_located": 23970
   },
   {
     "source": "hf-numina-olympiads",
     "rows": 13087,
-    "matched": 10254,
-    "by_key": 10067,
-    "near": 546,
-    "new": 2287,
-    "new_located": 711
+    "matched": 10092,
+    "by_key": 5285,
+    "near": 591,
+    "new": 2404,
+    "new_located": 822
   },
   {
     "source": "hf-numina-olympiads-ref",
     "rows": 13087,
-    "matched": 10351,
-    "by_key": 10066,
-    "near": 720,
-    "new": 2016,
-    "new_located": 623
+    "matched": 10191,
+    "by_key": 5285,
+    "near": 764,
+    "new": 2132,
+    "new_located": 731
   },
   {
     "source": "hf-ai-mo-aops",
     "rows": 80661,
-    "matched": 15789,
+    "matched": 15817,
     "by_key": 0,
-    "near": 10422,
-    "new": 54450,
-    "new_located": 29148
+    "near": 10453,
+    "new": 54391,
+    "new_located": 29117
   },
   {
     "source": "hf-numinamath-1-5",
     "rows": 315736,
-    "matched": 30253,
+    "matched": 30307,
     "by_key": 0,
-    "near": 40456,
-    "new": 245027,
+    "near": 40447,
+    "new": 244982,
     "new_located": 0
   },
   {
     "source": "hf-omni-math",
     "rows": 4428,
-    "matched": 2666,
+    "matched": 2669,
     "by_key": 0,
-    "near": 405,
-    "new": 1357,
-    "new_located": 739
+    "near": 399,
+    "new": 1360,
+    "new_located": 741
   },
   {
     "source": "hf-olympiadbench",
@@ -65,19 +65,19 @@
   {
     "source": "hf-aops-wiki",
     "rows": 33674,
-    "matched": 13132,
-    "by_key": 13037,
-    "near": 346,
-    "new": 20196,
-    "new_located": 13145
+    "matched": 13119,
+    "by_key": 13049,
+    "near": 363,
+    "new": 20192,
+    "new_located": 13139
   },
   {
     "source": "hf-liveaopsbench",
     "rows": 5328,
-    "matched": 212,
+    "matched": 220,
     "by_key": 0,
-    "near": 765,
-    "new": 4351,
+    "near": 762,
+    "new": 4346,
     "new_located": 0
   },
   {
@@ -112,62 +112,62 @@
     "rows": 100,
     "matched": 85,
     "by_key": 76,
-    "near": 3,
-    "new": 12,
-    "new_located": 12
+    "near": 4,
+    "new": 11,
+    "new_located": 11
   },
   {
     "source": "hf-putnamgap",
     "rows": 1051,
-    "matched": 1008,
-    "by_key": 1006,
-    "near": 0,
-    "new": 43,
-    "new_located": 43
+    "matched": 422,
+    "by_key": 0,
+    "near": 173,
+    "new": 456,
+    "new_located": 456
   },
   {
     "source": "hf-olymmath-ruc",
     "rows": 400,
     "matched": 23,
     "by_key": 0,
-    "near": 60,
-    "new": 317,
+    "near": 57,
+    "new": 320,
     "new_located": 0
   },
   {
     "source": "hf-amo-bench",
     "rows": 50,
-    "matched": 49,
-    "by_key": 49,
-    "near": 0,
-    "new": 1,
-    "new_located": 1
+    "matched": 12,
+    "by_key": 0,
+    "near": 5,
+    "new": 33,
+    "new_located": 0
   },
   {
     "source": "hf-nemotron-imo-bench",
     "rows": 200,
-    "matched": 198,
-    "by_key": 194,
-    "near": 1,
-    "new": 1,
-    "new_located": 1
+    "matched": 187,
+    "by_key": 0,
+    "near": 6,
+    "new": 7,
+    "new_located": 0
   },
   {
     "source": "hf-polymath",
     "rows": 9000,
-    "matched": 1600,
+    "matched": 1551,
     "by_key": 0,
-    "near": 1237,
-    "new": 6163,
+    "near": 1219,
+    "new": 6230,
     "new_located": 0
   },
   {
     "source": "hf-mathodyssey",
-    "rows": 148,
-    "matched": 148,
-    "by_key": 148,
-    "near": 0,
-    "new": 0,
+    "rows": 389,
+    "matched": 140,
+    "by_key": 0,
+    "near": 15,
+    "new": 234,
     "new_located": 0
   },
   {
@@ -182,19 +182,19 @@
   {
     "source": "hf-indonesian-olympiad",
     "rows": 2204,
-    "matched": 22,
+    "matched": 19,
     "by_key": 0,
-    "near": 122,
-    "new": 2060,
+    "near": 124,
+    "new": 2061,
     "new_located": 23
   },
   {
     "source": "hf-hrm8k",
     "rows": 8011,
-    "matched": 876,
+    "matched": 866,
     "by_key": 0,
-    "near": 858,
-    "new": 6277,
-    "new_located": 660
+    "near": 861,
+    "new": 6284,
+    "new_located": 661
   }
 ]

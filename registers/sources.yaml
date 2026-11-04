@@ -446,8 +446,8 @@
   ai_train: unknown
   size: 2k to 8k rows
   wave: 0
-  state: planned
-  notes: Turkish national olympiad problems.
+  state: active
+  notes: Turkish national olympiad problems. Its mathematics split (Matematik) has one image for each question, cut from the TÜBİTAK papers, with 581 first-round questions for 2008-2025 (tr-mo-r1) and 90 second-round problems (tr-mo). Its question_number is not always the printed number (row 37 of 2011 is printed as 10), so the records use the printed number.
 
 - id: hf-indonesian-olympiad
   name: Indonesian olympiad set

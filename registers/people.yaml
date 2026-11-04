@@ -1,0 +1,7 @@
+# The people register. Each row is a problem author, a solver, a grader or a contributor.
+# A human grade names its grader as human:reviewer/<id>, and the grader needs the role reviewer.
+
+- id: tamnd
+  name: Tam Nguyen Duc
+  github: tamnd
+  roles: [maintainer, reviewer]

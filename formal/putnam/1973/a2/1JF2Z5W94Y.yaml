@@ -19,6 +19,38 @@ origin:
 licence: Apache-2.0
 port_diff: lean/ports/putnambench/a635813f5edf.diff
 text: "abbrev putnam_1973_a2_solution : Prop := sorry\n\ntheorem putnam_1973_a2\n(L : List ℝ)\n(hL : L.length = 8 ∧ ∀ i : Fin L.length, L[i] = 1 ∨ L[i] = -1)\n(pluses : ℕ)\n(hpluses : pluses = {i : Fin L.length | L[i] = 1}.ncard)\n(S : ℕ → ℝ)\n(hS : S = fun n : ℕ ↦ ∑ i ∈ Finset.Icc 1 n, L[i % 8]/i)\n: (pluses = 4 → ∃ l : ℝ, Tendsto S atTop (\U0001D4DD l)) ∧ (putnam_1973_a2_solution ↔ ((∃ l : ℝ, Tendsto S atTop (\U0001D4DD l)) → pluses = 4))"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-04"
 fidelity:
-  status: unreviewed
+  status: checker-clean
+  reviews:
+    - ecdf02245176
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-04"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-04"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-04"
+      by: agent
 rank: 5

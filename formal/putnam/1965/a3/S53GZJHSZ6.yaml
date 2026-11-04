@@ -18,6 +18,38 @@ origin:
 licence: Apache-2.0
 port_diff: lean/ports/putnambench/a635813f5edf.diff
 text: "theorem putnam_1965_a3\n(a : ℕ → ℝ)\n(α : ℂ)\n: Tendsto (fun n : ℕ => (∑ k ∈ Finset.Icc 1 n, exp (I * a k))/n) atTop (\U0001D4DD α) ↔\nTendsto (fun n : ℕ => (∑ k ∈ Finset.Icc 1 (n^2), exp (I * a k))/n^2) atTop (\U0001D4DD α)"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-04"
 fidelity:
-  status: unreviewed
+  status: checker-clean
+  reviews:
+    - ecdf02245176
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-04"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-04"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-04"
+      by: agent
 rank: 5

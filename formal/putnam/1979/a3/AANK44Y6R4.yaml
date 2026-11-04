@@ -25,6 +25,38 @@ text: |-
   (x : ℕ → ℝ)
   (hx : ∀ n : ℕ, x n ≠ 0 ∧ (n ≥ 3 → x n = (x (n - 2))*(x (n - 1))/(2*(x (n - 2)) - (x (n - 1)))))
   : (∀ m : ℕ, ∃ n : ℕ, n > m ∧ ∃ a : ℤ, a = x n) ↔ putnam_1979_a3_solution (x 1, x 2)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-04"
 fidelity:
-  status: unreviewed
+  status: checker-clean
+  reviews:
+    - ecdf02245176
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-04"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-04"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-04"
+      by: agent
 rank: 5

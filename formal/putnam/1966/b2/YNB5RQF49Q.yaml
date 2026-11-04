@@ -22,6 +22,38 @@ text: |-
   (S : ℤ → Set ℤ)
   (hS : S = fun n : ℤ => {n, n + 1, n + 2, n + 3, n + 4, n + 5, n + 6, n + 7, n + 8, n + 9})
   : ∀ n : ℤ, n > 0 → (∃ k ∈ S n, ∀ m ∈ S n, k ≠ m → IsCoprime m k)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-04"
 fidelity:
-  status: unreviewed
+  status: checker-clean
+  reviews:
+    - ecdf02245176
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-04"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-04"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-04"
+      by: agent
 rank: 5

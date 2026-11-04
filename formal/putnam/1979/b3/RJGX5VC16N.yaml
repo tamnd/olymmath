@@ -30,6 +30,38 @@ text: |-
   (p : Polynomial F)
   (hp : p = X ^ 2 + (C b) * X + (C c) ∧ Irreducible p)
   : ({d : F | Irreducible (p + (C d))}.ncard = putnam_1979_b3_solution n)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-04"
 fidelity:
-  status: unreviewed
+  status: checker-clean
+  reviews:
+    - ecdf02245176
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-04"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-04"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-04"
+      by: agent
 rank: 5

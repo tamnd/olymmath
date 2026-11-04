@@ -10,3 +10,13 @@ origin:
 path: lean/vendor/imosllean4/883b0326e585/IMOSLLean4/Main/IMO2010/C4/C4.lean
 module: IMOSLLean4.Main.IMO2010.C4.C4
 decl: IMOSL.IMO2010C4.final_solution
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-04"
+  axioms:
+    - propext
+  comparator: not-run
+  lean4checker: not-run
+  note: The proof is in the same declaration as the statement, so it cannot change the statement.

@@ -27,6 +27,38 @@ text: |-
   (room : (ℝ × ℝ) → ℝ)
   (hroom : room = fun (a,b) ↦ min (min a (1 - a)) (min b (1 - b)))
   : ((∀ f : (ℝ × ℝ) → ℝ, Continuous f → (∀ P ∈ X, ∫ x in (P.1 - room P)..(P.1 + room P), ∫ y in (P.2 - room P)..(P.2 + room P), f (x, y) = 0) → (∀ P ∈ X, f P = 0)) ↔ putnam_1977_a6_solution)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-04"
 fidelity:
-  status: unreviewed
+  status: checker-clean
+  reviews:
+    - ecdf02245176
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-04"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-04"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-04"
+      by: agent
 rank: 5

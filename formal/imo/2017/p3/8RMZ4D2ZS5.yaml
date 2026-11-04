@@ -10,3 +10,15 @@ origin:
 path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo2017P3.lean
 module: Compfiles.Imo2017P3
 decl: Imo2017P3.imo2017_p3
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-04"
+  axioms:
+    - Classical.choice
+    - Quot.sound
+    - propext
+  comparator: not-run
+  lean4checker: not-run
+  note: The proof is in the same declaration as the statement, so it cannot change the statement.

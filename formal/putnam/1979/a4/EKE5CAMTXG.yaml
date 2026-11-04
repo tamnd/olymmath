@@ -33,6 +33,38 @@ text: |-
             (∀ L ∈ v, ∀ M ∈ v, L ≠ M → ∀ x ∈ Icc 0 1, ∀ y ∈ Icc 0 1,
             Real.sqrt ((w (L.1, L.2) x 0 - w (M.1, M.2) y 0)^2 + (w (L.1, L.2) x 1 - w (M.1, M.2) y 1)^2) ≠ 0) ∧
           v.card = R.card ∧ ∀ L ∈ v, L.1 ∈ R ∧ L.2 ∈ B)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-04"
 fidelity:
-  status: unreviewed
+  status: checker-clean
+  reviews:
+    - ecdf02245176
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-04"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-04"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-04"
+      by: agent
 rank: 5

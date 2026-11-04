@@ -1,0 +1,55 @@
+tag: YYPR25ZJJ1
+kind: formal
+problem: 8XN0AAHBJQ
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/2018/P4.lean
+module: Imo.«2018».P4
+decl: imo_2018_p4
+answer:
+  style: embedded
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/2018/P4.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_2018_p4
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: "@[imo_problem_subject combinatorics]\ntheorem imo_2018_p4\n    (distSq : Fin 20 × Fin 20 → Fin 20 × Fin 20 → ℤ)\n    (distSq_def : ∀ i₁ j₁ i₂ j₂,\n      distSq (i₁, j₁) (i₂, j₂) = ((i₁ : ℤ) - i₂) ^ 2 + ((j₁ : ℤ) - j₂) ^ 2)\n                                                                                 \n                                                                                    \n    (IsValidForAmy : Fin 20 × Fin 20 → Set (Fin 20 × Fin 20) → Set (Fin 20 × Fin 20) → Prop)\n    (IsValidForAmy_def : ∀ r R B, IsValidForAmy r R B ↔ r ∉ B ∧ r ∉ R ∧ ¬ ∃ r' ∈ R, distSq r r' = 5)\n                                                                                        \n                                                                                                \n                                                                               \n    (L : Set (Fin 20 × Fin 20) → Set (Fin 20 × Fin 20) → ℕ)\n    (hL₀ : ∀ R B, (¬ ∃ r, IsValidForAmy r R B) → L R B = 0)\n    (hL₁ : ∀ R B, (∃ r, IsValidForAmy r R B) →\n      L R B = 1 + sSup {sInf {L (R.insert r) (B.insert b) | b ∉ B ∪ R ∪ {r}} |\n        (r) (hr : IsValidForAmy r R B)}) :\n    L ∅ ∅ = answer(100)"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

@@ -1,0 +1,59 @@
+tag: Z0J8PM0Q4M
+kind: formal
+problem: 843K6Y2D7A
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Usa1988P3.lean
+module: Compfiles.Usa1988P3
+decl: Usa1988P3.usa1988_p3
+answer:
+  style: none
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Usa1988P3.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Usa1988P3
+licence: Apache-2.0
+text: |-
+  theorem usa1988_p3 (f : Finset ℕ → ℕ) :
+      ∃ Y : Finset ℕ, Y ⊆ Finset.Icc 1 20 ∧ Y.card = 10 ∧
+        ∀ k ∈ Y, f (Y.erase k) ≠ k
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - S394NYMNTR

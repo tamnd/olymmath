@@ -1,0 +1,83 @@
+tag: N5PHK7S5TQ
+kind: formal
+problem: Q49TXF784S
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/1997/P1.lean
+module: Imo.«1997».P1
+decl: imo_1997_p1
+answer:
+  style: none
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/1997/P1.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_1997_p1
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: |-
+  @[imo_problem_subject combinatorics]
+  theorem imo_1997_p1
+      (next_square : ℤ → ℤ → Set (ℝ × ℝ))
+      (next_square_definition :
+        ∀ x y, next_square x y = Set.Icc ((x : ℝ), (y : ℝ)) (x + 1, y + 1))
+      (next_square_color : ℤ → ℤ → Fin 2)
+      (colors_alternate :
+        ∀ x y,
+        next_square_color x y ≠ next_square_color (x + 1) y ∧
+        next_square_color x y ≠ next_square_color x (y + 1))
+      (triangle : ∀ m n : {x : ℤ // x > 0}, Set (ℝ × ℝ))
+      (triangle_definition : ∀ m n,
+        triangle m n = convexHull ℝ {(0, 0), ((m : ℝ), 0), (0, (n : ℝ))})
+      (color_part_area : ∀ (m n : {x : ℤ // x > 0}) (c : Fin 2), ℝ)
+      (color_part_area_definition : ∀ m n c, color_part_area m n c =
+        (MeasureTheory.volume (
+          (⋃ x, ⋃ y, ⋃ h : next_square_color x y = c, next_square x y)
+          ∩ triangle m n)).toReal)
+      (S₁ S₂ : ∀ (m n : {x : ℤ // x > 0}), ℝ)
+      (S₁_definition : ∀ m n, S₁ m n = color_part_area m n 0)
+      (S₂_definition : ∀ m n, S₂ m n = color_part_area m n 1)
+      (f : ∀ (m n : {x : ℤ // x > 0}), ℝ)
+      (f_definition : ∀ m n, f m n = |S₁ m n - S₂ m n|) :
+      (∀ m n : {x : ℤ // x > 0},
+        (Even (m : ℤ) → Even (n : ℤ) → f m n = 0) ∧
+        (Odd (m : ℤ) → Odd (n : ℤ) → f m n = 1 / 2)) ∧
+      (∀ m n, f m n ≤ max m n / 2) ∧
+      ¬(∃ C, ∀ m n, f m n < C)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

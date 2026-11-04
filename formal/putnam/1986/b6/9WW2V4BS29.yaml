@@ -1,0 +1,62 @@
+tag: 9WW2V4BS29
+kind: formal
+problem: C42AWRM5ZR
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1986_b6.lean
+module: src.putnam_1986_b6
+decl: putnam_1986_b6
+answer:
+  style: none
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1986_b6.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1986_b6
+licence: Apache-2.0
+text: |-
+  theorem putnam_1986_b6
+  (n : ℕ)
+  (npos : n > 0)
+  (F : Type*) [Field F]
+  (A B C D : Matrix (Fin n) (Fin n) F)
+  (hsymm : IsSymm (A * Bᵀ) ∧ IsSymm (C * Dᵀ))
+  (hid : A * Dᵀ - B * Cᵀ = 1)
+  : (Aᵀ * D - Cᵀ * B = 1)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

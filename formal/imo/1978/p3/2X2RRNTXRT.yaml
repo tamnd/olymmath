@@ -1,0 +1,57 @@
+tag: 2X2RRNTXRT
+kind: formal
+problem: 1N7KD4FDSC
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo1978P3.lean
+module: Compfiles.Imo1978P3
+decl: Imo1978P3.imo1978_p3
+answer:
+  style: separate-def
+  decl: Imo1978P3.solution
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo1978P3.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo1978P3
+licence: Apache-2.0
+text: "abbrev solution : ℕ := 388\n\nsnip begin\n\n  \n                                       \n                                              \n\n                                                                                 \n                                                                                        \n                                                                                            \n                                                                               \n                                                     \n  \n\nopen scoped goldenRatio\nopen Real\n\ntheorem imo1978_p3\n    (f g : ℕ → ℕ)\n    (hfpos : ∀ n, 0 < n → 0 < f n)\n    (hgpos : ∀ n, 0 < n → 0 < g n)\n    (hfmono : ∀ n m, 0 < n → n < m → f n < f m)\n    (hgmono : ∀ n m, 0 < n → n < m → g n < g m)\n    (hdisjoint : ∀ n m, 0 < n → 0 < m → f n ≠ g m)\n    (hcover : ∀ k, 0 < k → (∃ n, 0 < n ∧ f n = k) ∨ (∃ n, 0 < n ∧ g n = k))\n    (hgf : ∀ n, 0 < n → g n = f (f n) + 1) :\n    f 240 = solution"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - SFJAEYASBJ

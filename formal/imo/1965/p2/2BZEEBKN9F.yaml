@@ -1,0 +1,62 @@
+tag: 2BZEEBKN9F
+kind: formal
+problem: KSYXT3M3SF
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/1965/P2.lean
+module: Imo.«1965».P2
+decl: imo_1965_p2
+answer:
+  style: none
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/1965/P2.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_1965_p2
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: |-
+  @[imo_problem_subject algebra]
+  theorem imo_1965_p2 (x y z : ℝ) (a₁₁ a₁₂ a₁₃ a₂₁ a₂₂ a₂₃ a₃₁ a₃₂ a₃₃ : ℝ)
+      (h₀ : 0 < a₁₁ ∧ 0 < a₂₂ ∧ 0 < a₃₃) (h₁ : a₁₂ < 0 ∧ a₁₃ < 0) (h₂ : a₂₁ < 0 ∧ a₂₃ < 0)
+      (h₃ : a₃₁ < 0 ∧ a₃₂ < 0) (h₄ : 0 < a₁₁ + a₁₂ + a₁₃) (h₅ : 0 < a₂₁ + a₂₂ + a₂₃)
+      (h₆ : 0 < a₃₁ + a₃₂ + a₃₃) (h₇ : a₁₁ * x + a₁₂ * y + a₁₃ * z = 0)
+      (h₈ : a₂₁ * x + a₂₂ * y + a₂₃ * z = 0) (h₉ : a₃₁ * x + a₃₂ * y + a₃₃ * z = 0) :
+      x = 0 ∧ y = 0 ∧ z = 0
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

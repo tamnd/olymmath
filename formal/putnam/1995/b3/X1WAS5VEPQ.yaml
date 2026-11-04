@@ -1,0 +1,65 @@
+tag: X1WAS5VEPQ
+kind: formal
+problem: SP4FX2S3ZE
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1995_b3.lean
+module: src.putnam_1995_b3
+decl: putnam_1995_b3
+answer:
+  style: separate-def
+  decl: putnam_1995_b3_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1995_b3.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1995_b3
+licence: Apache-2.0
+text: |-
+  abbrev putnam_1995_b3_solution : ℕ → ℤ := sorry
+
+  theorem putnam_1995_b3
+  (n : ℕ)
+  (hn : n > 0)
+  (digits_set : Set (ℕ → ℕ))
+  (hdigits_set : digits_set = {f | f 0 ≠ 0 ∧ (∀ i : Fin (n ^ 2), f i ≤ 9) ∧ (∀ i ≥ n ^ 2, f i = 0)})
+  (digits_to_matrix : (ℕ → ℕ) → Matrix (Fin n) (Fin n) ℤ)
+  (hdigits_to_matrix : digits_to_matrix = fun f => (fun i j => f (i.1 * n + j.1)))
+  : ∑' f : digits_set, (digits_to_matrix f).det = putnam_1995_b3_solution n
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

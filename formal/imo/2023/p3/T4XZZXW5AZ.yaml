@@ -1,0 +1,69 @@
+tag: T4XZZXW5AZ
+kind: formal
+problem: EZ37N6YK3H
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo2023P3.lean
+module: Compfiles.Imo2023P3
+decl: Imo2023P3.imo2023_p3
+answer:
+  style: separate-def
+  decl: Imo2023P3.SolutionSet
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo2023P3.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo2023P3
+licence: Apache-2.0
+text: |-
+  abbrev SolutionSet {k : ℕ} (hk : 2 ≤ k) : Set (ℕ+ → ℕ+) :=
+    {a | ∃ a₀ d : ℕ, ∀ m : ℕ, (a ⟨m + 1, Nat.succ_pos m⟩).val = a₀ + d * m}
+
+  snip begin
+
+  theorem imo2023_p3 {k : ℕ} (hk : 2 ≤ k) (a : ℕ+ → ℕ+) :
+      a ∈ SolutionSet hk ↔
+      (∃ P : Polynomial ℤ, P.Monic ∧ P.degree = k ∧
+       (∀ n, n ≤ k → 0 ≤ P.coeff n) ∧
+        ∀ n : ℕ+,
+          P.eval ((a n) : ℤ) =
+          ∏ i ∈ Finset.range k, a ⟨n + i + 1, Nat.succ_pos _⟩)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - Y4MF1A3J03

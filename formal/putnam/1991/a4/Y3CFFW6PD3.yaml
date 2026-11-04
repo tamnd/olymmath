@@ -1,0 +1,64 @@
+tag: Y3CFFW6PD3
+kind: formal
+problem: 2D9552B5KA
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1991_a4.lean
+module: src.putnam_1991_a4
+decl: putnam_1991_a4
+answer:
+  style: separate-def
+  decl: putnam_1991_a4_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1991_a4.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1991_a4
+licence: Apache-2.0
+text: |-
+  abbrev putnam_1991_a4_solution : Prop := sorry
+
+  theorem putnam_1991_a4 :
+      (∃ (c : ℕ → EuclideanSpace ℝ (Fin 2)) (r : ℕ → ℝ),
+        (¬ ∃ p, MapClusterPt p atTop c) ∧
+        (Summable <| fun i ↦ r i ^ 2) ∧
+        (∀ L : AffineSubspace ℝ (EuclideanSpace ℝ (Fin 2)),
+          Module.finrank ℝ L.direction = 1 → ∃ i, (↑L ∩ closedBall (c i) (r i)).Nonempty)) ↔
+      putnam_1991_a4_solution
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

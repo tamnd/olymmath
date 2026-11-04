@@ -1,0 +1,63 @@
+tag: X97TR7KAAQ
+kind: formal
+problem: 19VWPMEP55
+part: a
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo1959P3.lean
+module: Compfiles.Imo1959P3
+decl: Imo1959P3.imo1959_p3
+answer:
+  style: separate-def
+  decl: Imo1959P3.formedQuadratic
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo1959P3.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo1959P3
+licence: Apache-2.0
+text: |-
+  abbrev formedQuadratic (a b c : ℝ) : ℝ × ℝ × ℝ :=
+    (a ^ 2, 2 * a ^ 2 + 4 * a * c - 2 * b ^ 2, a ^ 2 + 4 * a * c - 2 * b ^ 2 + 4 * c ^ 2)
+
+  theorem imo1959_p3 (a b c x : ℝ) (h : a * cos x ^ 2 + b * cos x + c = 0) :
+      formedQuadraticEval a b c (cos (2 * x)) = 0
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - HZS3V9KZSF

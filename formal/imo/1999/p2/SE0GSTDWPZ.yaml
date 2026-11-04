@@ -1,0 +1,65 @@
+tag: SE0GSTDWPZ
+kind: formal
+problem: PSEYPC1N9Y
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo1999P2.lean
+module: Compfiles.Imo1999P2
+decl: Imo1999P2.imo1999_p2
+answer:
+  style: separate-def
+  decl: Imo1999P2.C
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo1999P2.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo1999P2
+licence: Apache-2.0
+text: |-
+  noncomputable determine C : ℝ := 1 / 8
+
+  theorem imo1999_p2 (n : ℕ) (hn : 2 ≤ n) :
+      IsLeast
+        {c : ℝ | ∀ x : Fin n → ℝ, (∀ i, 0 ≤ x i) →
+          ∑ i, ∑ j ∈ Finset.Ioi i, x i * x j * ((x i) ^ 2 + (x j) ^ 2) ≤
+            c * (∑ i, x i) ^ 4}
+        C
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - 4X7ZNFW8JE

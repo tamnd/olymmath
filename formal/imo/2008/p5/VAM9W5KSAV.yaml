@@ -1,0 +1,62 @@
+tag: VAM9W5KSAV
+kind: formal
+problem: 54ST9E8K4T
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo2008P5.lean
+module: Compfiles.Imo2008P5
+decl: Imo2008P5.imo2008_p5
+answer:
+  style: separate-def
+  decl: Imo2008P5.solution
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo2008P5.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo2008P5
+licence: Apache-2.0
+text: |-
+  abbrev solution (n k : ℕ) : ℚ := 2 ^ (k - n)
+
+  theorem imo2008_p5 (n k : ℕ) (hn : 0 < n)
+      (hnk : n ≤ k) (he : Even (k - n))
+      : Set.ncard (MSequence n k) * solution n k = Set.ncard (NSequence n k)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - Z9F5WW3NKY

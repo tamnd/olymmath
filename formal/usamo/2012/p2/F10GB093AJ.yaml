@@ -1,0 +1,67 @@
+tag: F10GB093AJ
+kind: formal
+problem: CA27D487Y1
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Usa2012P2.lean
+module: Compfiles.Usa2012P2
+decl: Usa2012P2.usa2012_p2
+answer:
+  style: none
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Usa2012P2.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Usa2012P2
+licence: Apache-2.0
+text: |-
+  theorem usa2012_p2 (color : ZMod 432 → Fin 4)
+      (hcolor : ∀ i, (Finset.univ.filter fun x => color x = i).card = 108) :
+      ∃ (U : Finset (ZMod 432)) (t₁ t₂ t₃ : ZMod 432),
+        U.card = 3 ∧
+        (∀ x ∈ U, color x = 0) ∧
+        (∀ x ∈ U, color (x + t₁) = 1) ∧
+        (∀ x ∈ U, color (x + t₂) = 2) ∧
+        (∀ x ∈ U, color (x + t₃) = 3) ∧
+        (∀ x ∈ U, ∀ y ∈ U, arcDist x y = arcDist (x + t₁) (y + t₁)) ∧
+        (∀ x ∈ U, ∀ y ∈ U, arcDist x y = arcDist (x + t₂) (y + t₂)) ∧
+        (∀ x ∈ U, ∀ y ∈ U, arcDist x y = arcDist (x + t₃) (y + t₃))
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - 6C2XXD2JNY

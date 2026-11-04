@@ -1,0 +1,55 @@
+tag: MW5B59C7HH
+kind: formal
+problem: 4JY1F2Z1Z9
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_2021_a4.lean
+module: src.putnam_2021_a4
+decl: putnam_2021_a4
+answer:
+  style: separate-def
+  decl: putnam_2021_a4_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_2021_a4.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_2021_a4
+licence: Apache-2.0
+text: "noncomputable abbrev putnam_2021_a4_solution : ℝ := sorry\n\ntheorem putnam_2021_a4\n  (S : ℝ → Set (EuclideanSpace ℝ (Fin 2)))\n  (hS : S = fun R => ball (0 : EuclideanSpace ℝ (Fin 2)) R)\n  (I : ℝ → ℝ)\n  (hI : I = fun R => ∫ p in S R,\n    (1 + 2*(p 0)^2)/(1 + (p 0)^4 + 6*(p 0)^2*(p 1)^2 + (p 1)^4) - (1 + (p 1)^2)/(2 + (p 0)^4 + (p 1)^4)) :\n  Tendsto I atTop (\U0001D4DD putnam_2021_a4_solution)"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

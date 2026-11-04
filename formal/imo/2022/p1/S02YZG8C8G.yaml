@@ -1,0 +1,55 @@
+tag: S02YZG8C8G
+kind: formal
+problem: G9R9HK0XAN
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/2022/P1.lean
+module: Imo.«2022».P1
+decl: imo_2022_p1
+answer:
+  style: embedded
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/2022/P1.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_2022_p1
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: "@[imo_problem_subject combinatorics]\ntheorem imo_2022_p1\n                                                                        \n    (IsValid : ∀ (n) (coins : List Bool), Prop)\n    (isValid_iff : ∀ n coins, IsValid n coins ↔ ∀ b, coins.count b = n)\n                                                                    \n    (operation :\n      ∀ {n k} (hk : 1 ≤ k) (hn : k ≤ 2 * n) (coins : Subtype (IsValid n)), Subtype (IsValid n))\n    (operation_def :\n      ∀ (n k) (hk : 1 ≤ k) (hn : k ≤ 2 * n) (coins : Subtype (IsValid n)),\n        operation hk hn coins =\n                                                                       \n          have hc : (coins : List Bool).length = 2 * n := by\n            rw [← List.count_true_add_count_false coins, (isValid_iff _ _).mp coins.prop,\n              (isValid_iff _ _).mp coins.prop, ← two_mul]\n          have hk' : k - 1 < 2 * n := (Nat.pred_lt (zero_lt_one.trans_le hk).ne').trans_le hn\n                                                                       \n          let c := (coins : List Bool).get ⟨k - 1, hk'.trans_eq hc.symm⟩\n          let c_prefix := (coins : List Bool).take (k - 1)\n          let c_suffix := (coins : List Bool).drop k\n          let c_moved :=\n                                                                   \n            (c_prefix.reverse.takeWhile fun c' => c' = c).reverse ++ [c] ++\n              c_suffix.takeWhile fun c' => c' = c\n          let c_rest :=\n            (c_prefix.reverse.dropWhile fun c' => c' = c).reverse ++\n              c_suffix.dropWhile fun c' => c' = c\n          ⟨c_moved ++ c_rest, by                                                             \n            have hcoins := coins.prop\n            rw [isValid_iff] at hcoins ⊢\n            intro b\n            dsimp [c_rest, c_moved]\n            simp only [List.count_append]\n            rw [add_add_add_comm, add_right_comm _ ([c].count b),\n              add_comm ((List.reverse _).count b)]\n            simp only [← List.count_append, ← List.reverse_append, List.takeWhile_append_dropWhile,\n              List.reverse_reverse]\n            convert hcoins b\n            rw [List.append_assoc]\n            dsimp [c_prefix, c_suffix, c]\n            convert List.take_append_drop _ _ using 2\n            convert List.cons_get_drop_succ\n            exact (tsub_add_cancel_of_le hk).symm⟩) :\n    {(n, k) |\n                    \n      (n : ℕ) (k : ℕ) (hk : 1 ≤ k) (hn : k ≤ 2*n)\n      (h : ∀ coins : Subtype (IsValid n),\n                                                                   \n        ∃ (i : ℕ) (b : Bool),\n                                                                  \n          (↑((operation hk hn)^[i] coins) : List Bool).take n = List.replicate n b)}\n      =\n    answer(\n    {(n, k) |\n                                                 \n      (n : ℕ) (k : ℕ) (hk : 1 ≤ k) (hn : k ≤ 2*n)\n                                   \n      (hk : n ≤ k) (hn : k ≤ 2*n - ⌊(n / 2 : ℚ)⌋₊)})"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

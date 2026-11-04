@@ -1,0 +1,69 @@
+tag: MWFM2HVW3V
+kind: formal
+problem: PA75T7PEPJ
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_2006_b3.lean
+module: src.putnam_2006_b3
+decl: putnam_2006_b3
+answer:
+  style: separate-def
+  decl: putnam_2006_b3_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_2006_b3.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_2006_b3
+licence: Apache-2.0
+text: |-
+  abbrev putnam_2006_b3_solution : ℕ → ℕ := sorry
+
+  theorem putnam_2006_b3
+      (IsLinearPartition : Finset (Fin 2 → ℝ) → Finset (Finset (Fin 2 → ℝ)) → Prop)
+      (IsLinearPartition_def : ∀ S AB, IsLinearPartition S AB ↔
+        (AB.card = 2 ∧ ∃ A ∈ AB, ∃ B ∈ AB,
+          A ≠ B ∧ (A ∪ B = S) ∧ (A ∩ B = ∅) ∧
+          (∃ m b : ℝ,
+            (∀ p ∈ A, p 1 > m * p 0 + b) ∧
+            (∀ p ∈ B, p 1 < m * p 0 + b))))
+      (L : Finset (Fin 2 → ℝ) → ℕ)
+      (hL : ∀ S, L S = {AB | IsLinearPartition S AB}.encard)
+      (n : ℕ) (npos : 0 < n) :
+      IsGreatest {L S | (S) (hS : S.card = n)} (putnam_2006_b3_solution n)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

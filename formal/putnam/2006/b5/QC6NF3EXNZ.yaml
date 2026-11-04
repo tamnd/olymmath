@@ -1,0 +1,64 @@
+tag: QC6NF3EXNZ
+kind: formal
+problem: MF4ZDY7DYH
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_2006_b5.lean
+module: src.putnam_2006_b5
+decl: putnam_2006_b5
+answer:
+  style: separate-def
+  decl: putnam_2006_b5_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_2006_b5.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_2006_b5
+licence: Apache-2.0
+text: |-
+  noncomputable abbrev putnam_2006_b5_solution : ℝ := sorry
+
+  theorem putnam_2006_b5
+    (I J : (ℝ → ℝ) → ℝ)
+    (hI : I = fun f ↦ ∫ x in (0)..1, x ^ 2 * (f x))
+    (hJ : J = fun f ↦ ∫ x in (0)..1, x * (f x) ^ 2) :
+    IsGreatest
+      {y | ∃ f : ℝ → ℝ, ContinuousOn f (Icc 0 1) ∧ I f - J f = y}
+      putnam_2006_b5_solution
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

@@ -1,0 +1,64 @@
+tag: WD0PZQ7CN9
+kind: formal
+problem: 9PZHD3G6PQ
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/2015/P1.lean
+module: Imo.«2015».P1
+decl: imo_2015_p1
+answer:
+  style: embedded
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/2015/P1.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_2015_p1
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: |-
+  @[imo_problem_subject combinatorics]
+  theorem imo_2015_p1 (Balanced : Finset (EuclideanSpace ℝ (Fin 2)) → Prop)
+      (hb₀ : ∀ s, Balanced s ↔ ∀ A ∈ s, ∀ B ∈ s, A ≠ B → ∃ C ∈ s, dist A C = dist B C)
+      (center_free : Finset (EuclideanSpace ℝ (Fin 2)) → Prop)
+      (hb₁ : ∀ s, center_free s ↔ ∀ A ∈ s, ∀ B ∈ s, ∀ C ∈ s, A ≠ B ∧ B ≠ C ∧ A ≠ C → ¬∃ P ∈ s,
+          dist P A = dist P B ∧
+          dist P B = dist P C) :
+      (∀ n ≥ 3, ∃ s, Balanced s ∧ s.card = n) ∧
+      {n : ℕ | 3 ≤ n ∧ ∃ s, Balanced s ∧ center_free s ∧ s.card = n} = answer({n | 3 ≤ n ∧ Odd n})
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

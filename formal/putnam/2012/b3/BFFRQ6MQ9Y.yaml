@@ -1,0 +1,68 @@
+tag: BFFRQ6MQ9Y
+kind: formal
+problem: A27QW6069E
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_2012_b3.lean
+module: src.putnam_2012_b3
+decl: putnam_2012_b3
+answer:
+  style: separate-def
+  decl: putnam_2012_b3_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_2012_b3.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_2012_b3
+licence: Apache-2.0
+text: |-
+  abbrev putnam_2012_b3_solution : Prop := sorry
+
+  theorem putnam_2012_b3
+  (nmatchupsgames nmatchupsall : (n : ℕ) → (Fin (2 * n - 1) → (Fin (2 * n) → Fin (2 * n))) → Prop)
+  (nmatchupswins nmatchupswinschoices: (n : ℕ) → (Fin (2 * n - 1) → (Fin (2 * n) → Fin (2 * n))) → (Fin (2 * n - 1) → (Fin (2 * n) → Bool)) → Prop)
+  (hnmatchupsall : ∀ n matchups, nmatchupsall n matchups ↔ ∀ t1 t2, t1 ≠ t2 → (∃ d, matchups d t1 = t2))
+  (hnmatchupsgames : ∀ n matchups, nmatchupsgames n matchups ↔ ∀ d, ∀ t, matchups d t ≠ t ∧ matchups d (matchups d t) = t)
+  (hnmatchupswins : ∀ n matchups wins, nmatchupswins n matchups wins ↔ ∀ d t, wins d t = !(wins d (matchups d t)))
+  (hnmatchupswinschoices : ∀ n matchups wins, nmatchupswinschoices n matchups wins ↔ ∃ choices, (∀ d, wins d (choices d)) ∧ Function.Injective choices) :
+    (∀ n ≥ 1, ∀ matchups wins,
+      (nmatchupsgames n matchups ∧ nmatchupsall n matchups ∧ nmatchupswins n matchups wins) →
+      nmatchupswinschoices n matchups wins)
+    ↔ putnam_2012_b3_solution
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

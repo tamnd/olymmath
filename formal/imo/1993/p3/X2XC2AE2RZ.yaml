@@ -1,0 +1,55 @@
+tag: X2XC2AE2RZ
+kind: formal
+problem: VJYPA9PB39
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/1993/P3.lean
+module: Imo.«1993».P3
+decl: imo_1993_p3
+answer:
+  style: none
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/1993/P3.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_1993_p3
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: "@[imo_problem_subject combinatorics]\ntheorem imo_1993_p3 :\n    { n : ℕ | 0 < n ∧\n      ∃ (pieces : ℕ → Finset (ℤ × ℤ)) (jump_start : ℕ → ℤ × ℤ) (jump_dir : ℕ → ℤ × ℤ),\n        pieces 0 = Finset.Icc 1 (n : ℤ) ×ˢ Finset.Icc 1 (n : ℤ) ∧\n                                                                                                   \n        ∀ i, i + 1 < n * n →\n          jump_dir i ∈ ({(0, 1), (1, 0), (-1, 0), (0, -1)} : Set (ℤ × ℤ)) ∧\n          jump_start i ∈ pieces i ∧ jump_start i + jump_dir i ∈ pieces i ∧\n          jump_start i + 2 * jump_dir i ∉ pieces i ∧\n          pieces (i + 1) = pieces i \\ {jump_start i, jump_start i + jump_dir i}\n            ∪ {jump_start i + 2 * jump_dir i}\n    } = { n : ℕ | ¬3 ∣ n }"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

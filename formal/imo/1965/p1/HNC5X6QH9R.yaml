@@ -1,0 +1,63 @@
+tag: HNC5X6QH9R
+kind: formal
+problem: KCE8B72VTR
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo1965P1.lean
+module: Compfiles.Imo1965P1
+decl: Imo1965P1.imo1965_p1
+answer:
+  style: separate-def
+  decl: Imo1965P1.the_answer
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo1965P1.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo1965P1
+licence: Apache-2.0
+text: |-
+  abbrev the_answer : Set ℝ := Icc (π/4) (7*π/4)
+
+  theorem imo1965_p1 :
+      {x ∈ Icc 0 (2*π) |
+         |√(1 + sin (2*x)) - √(1 - sin (2*x))| ∈ Icc (2 * cos x) √2}
+       = the_answer
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - QJD12GPVSN

@@ -1,0 +1,68 @@
+tag: 2AT25R1Q00
+kind: formal
+problem: H92CGN6K0F
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Usa1980P1.lean
+module: Compfiles.Usa1980P1
+decl: Usa1980P1.usa1980_p1
+answer:
+  style: separate-def
+  decl: Usa1980P1.solution
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Usa1980P1.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Usa1980P1
+licence: Apache-2.0
+text: |-
+  noncomputable determine solution (A a B b C : ℝ) : ℝ :=
+    C * sqrt ((a - b) / (A - B)) +
+      (b * A - a * B) / ((A - B) * (sqrt ((a - b) / (A - B)) + 1))
+
+  snip begin
+
+  theorem usa1980_p1 {A a B b C h k x₁ x₂ x₃ : ℝ} (hh : 0 < h)
+      (h1 : x₁ = h * A + k) (h2 : a = h * x₁ + k)
+      (h3 : x₂ = h * B + k) (h4 : b = h * x₂ + k)
+      (h5 : x₃ = h * C + k) (hne : x₁ ≠ x₂) :
+      x₃ = solution A a B b C
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - Q9SAJVVVT4

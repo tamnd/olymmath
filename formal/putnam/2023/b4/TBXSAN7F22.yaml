@@ -1,0 +1,55 @@
+tag: TBXSAN7F22
+kind: formal
+problem: 4EE6B7SXW2
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_2023_b4.lean
+module: src.putnam_2023_b4
+decl: putnam_2023_b4
+answer:
+  style: separate-def
+  decl: putnam_2023_b4_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_2023_b4.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_2023_b4
+licence: Apache-2.0
+text: "abbrev putnam_2023_b4_solution : ℝ := sorry\n\ntheorem putnam_2023_b4\n    (tne : ℕ → (ℕ → ℝ) → Set ℝ)\n    (htne : ∀ n ts, tne n ts = {t | t > ts 0 ∧ ∀ i : Fin n, t ≠ ts (i.1 + 1)}) :\n    IsLeast\n    {(T : ℝ) | 0 ≤ T ∧ ∃ (n : ℕ) (ts : ℕ → ℝ) (f : ℝ → ℝ),\n      (∀ k : Fin n, ts (k.1 + 1) ≥ ts k.1 + 1) ∧\n      ContinuousOn f (Set.Ici (ts 0)) ∧\n      ContDiffOn ℝ 1 f (tne n ts) ∧\n      DifferentiableOn ℝ (derivWithin f (tne n ts)) (tne n ts) ∧\n      f (ts 0) = 0.5 ∧\n      (∀ k : Fin (n + 1),\n        Tendsto (derivWithin f (tne n ts)) (\U0001D4DD[>] (ts k.1)) (\U0001D4DD 0)) ∧\n      (∀ k : Fin n,\n        ∀ t ∈ Set.Ioo (ts k.1) (ts (k.1 + 1)),\n          iteratedDerivWithin 2 f (tne n ts) t = k.1 + 1) ∧\n      (∀ t > ts n,\n        iteratedDerivWithin 2 f (tne n ts) t = n + 1) ∧\n      f (ts 0 + T) = 2023}\n    putnam_2023_b4_solution"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

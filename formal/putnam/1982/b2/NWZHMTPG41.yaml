@@ -1,0 +1,64 @@
+tag: NWZHMTPG41
+kind: formal
+problem: 6HNZ5K3EFA
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1982_b2.lean
+module: src.putnam_1982_b2
+decl: putnam_1982_b2
+answer:
+  style: separate-def
+  decl: putnam_1982_b2_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1982_b2.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1982_b2
+licence: Apache-2.0
+text: |-
+  noncomputable abbrev putnam_1982_b2_solution : Polynomial ℝ := sorry
+
+  theorem putnam_1982_b2
+  (A : ℝ × ℝ → ℕ)
+  (g I : ℝ)
+  (hA : A = fun (x, y) => {(m, n) : ℤ × ℤ | m^2 + n^2 ≤ x^2 + y^2}.ncard)
+  (hg : g = ∑' k : ℕ, Real.exp (-k^2))
+  (hI : I = ∫ y : ℝ, ∫ x : ℝ, A (x, y) * Real.exp (-x^2 - y^2))
+  : I = putnam_1982_b2_solution.eval g
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

@@ -1,0 +1,69 @@
+tag: 7BW5WT2ADE
+kind: formal
+problem: SR0TWQB5N5
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1991_a6.lean
+module: src.putnam_1991_a6
+decl: putnam_1991_a6
+answer:
+  style: none
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1991_a6.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1991_a6
+licence: Apache-2.0
+text: |-
+  theorem putnam_1991_a6
+    (nabsum : ℕ → ℕ × (ℕ → ℕ) → Prop)
+    (agt bge bg1 bg2 : ℕ × (ℕ → ℕ) → Prop)
+    (A g B: ℕ → ℕ)
+    (hnabsum : ∀ᵉ (n ≥ 1) (ab), nabsum n ab ↔
+      (ab.1 ≥ 1 ∧ (∀ i < ab.1, ab.2 i > 0) ∧
+      (∀ i ≥ ab.1, ab.2 i = 0) ∧ (∑ i : Fin ab.1, ab.2 i) = n))
+    (hA : ∀ n ≥ 1, A n = {a | nabsum n a ∧
+      (∀ i : Fin (a.1 - 2), a.2 i > a.2 (i + 1) + a.2 (i + 2)) ∧ 1 < a.1 → a.2 (a.1 - 2) > a.2 (a.1 - 1)}.encard)
+    (hg : g 0 = 1 ∧ g 1 = 2 ∧ (∀ j ≥ 2, g j = g (j - 1) + g (j - 2) + 1))
+    (hB : ∀ n ≥ 1, B n = {b | nabsum n b ∧
+      (∀ i : Fin (b.1 - 1), b.2 i ≥ b.2 (i + 1)) ∧
+      (∀ i : Fin b.1, ∃ j : ℕ, b.2 i = g j) ∧
+      (∃ k : ℕ, b.2 0 = g k ∧ (∀ j ≤ k, ∃ i : Fin b.1, b.2 i = g j))}.encard) :
+    ∀ n ≥ 1, (A n) = (B n)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

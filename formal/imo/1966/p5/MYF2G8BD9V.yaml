@@ -1,0 +1,66 @@
+tag: MYF2G8BD9V
+kind: formal
+problem: 7ENZT4X1J0
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo1966P5.lean
+module: Compfiles.Imo1966P5
+decl: Imo1966P5.imo1966_p5
+answer:
+  style: separate-def
+  decl: Imo1966P5.solution_set
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo1966P5.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo1966P5
+licence: Apache-2.0
+text: |-
+  noncomputable determine solution_set {a : Fin 4 → ℝ}
+      (ha : Function.Injective a) : Set ((Fin 4 → ℝ)) :=
+    solution_set_generalized (by norm_num : 2 ≤ 4) ha
+
+  theorem imo1966_p5
+      (x a : Fin 4 → ℝ)
+      (ha : Function.Injective a) :
+      (∀ i : Fin 4, ∑ j : Fin 4, abs (a i - a j) * x j = 1)
+      ↔ x ∈ solution_set ha
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - SE2TPCBXZP

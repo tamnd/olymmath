@@ -1,0 +1,73 @@
+tag: MW218ZFMFQ
+kind: formal
+problem: 7RATTYVJFJ
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_2023_b1.lean
+module: src.putnam_2023_b1
+decl: putnam_2023_b1
+answer:
+  style: separate-def
+  decl: putnam_2023_b1_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_2023_b1.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_2023_b1
+licence: Apache-2.0
+text: |-
+  abbrev putnam_2023_b1_solution : ℕ → ℕ → ℕ := sorry
+
+  theorem putnam_2023_b1
+  (m n : ℕ)
+  (initcoins : ℕ → ℕ → Bool)
+  (hinitcoins : initcoins = (fun i j : ℕ => (i ≤ m - 2 ∧ j ≤ n - 2 : Bool)))
+  (IsLegalMove : (ℕ → ℕ → Bool) → (ℕ → ℕ → Bool) → Prop)
+  (IsLegalMove_def : ∀ coins1 coins2,
+    IsLegalMove coins1 coins2 ↔
+      ∃ i j, i < m - 1 ∧ j < n - 1 ∧
+        coins1 i j ∧ !coins1 (i + 1) j ∧ !coins1 i (j + 1) ∧ !coins1 (i + 1) (j + 1) ∧
+        !coins2 i j ∧ !coins2 (i + 1) j ∧ !coins2 i (j + 1) ∧ coins2 (i + 1) (j + 1) ∧
+        (∀ i' j', ((i', j') ≠ (i, j) ∧ (i', j') ≠ (i + 1, j) ∧ (i', j') ≠ (i, j + 1) ∧ (i', j') ≠ (i + 1, j + 1))
+          → coins1 i' j' = coins2 i' j'))
+  (IsLegalSeq : List (ℕ → ℕ → Bool) → Prop)
+  (IsLegalSeq_def : ∀ seq, IsLegalSeq seq ↔ seq.length ≥ 1 ∧ seq[0]! = initcoins ∧ (∀ i < seq.length - 1, IsLegalMove seq[i]! seq[i + 1]!))
+  (mnpos : 1 < m ∧ 1 < n)
+  : {config : ℕ → ℕ → Bool | ∃ seq : List (ℕ → ℕ → Bool), IsLegalSeq seq ∧ config = seq.getLast!}.encard = putnam_2023_b1_solution m n
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

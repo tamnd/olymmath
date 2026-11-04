@@ -1,170 +1,170 @@
 # The import of imosllean4 at 883b0326e585ac9a2148e5d67a4c335bb4f798be: 174 statements, 164 mapped to a problem, 164 with a proof.
-# The import wrote no formal record, because the files have not passed a compile check at the pin yet. Rule F01 needs one.
+# 2 mapped statements did not compile at Lean v4.35.0 and Mathlib v4.35.0, so they have the status fails-at-pin and no record.
 # native	decl	part	locator	status	tag	proved
-IMO2006A1	IMOSL.IMO2006A1.final_solution		isl/2006/a1	mapped		true
-IMO2006A2	IMOSL.IMO2006A2.final_solution		isl/2006/a2	mapped		true
-IMO2006A4	IMOSL.IMO2006A4.final_solution		isl/2006/a4	mapped		true
-IMO2006N1	IMOSL.IMO2006N1.final_solution		isl/2006/n1	mapped		true
-IMO2006N2	IMOSL.IMO2006N2.final_solution		isl/2006/n2	mapped		true
-IMO2006N3	IMOSL.IMO2006N3.final_solution_part1	1	isl/2006/n3	mapped		true
-IMO2006N3	IMOSL.IMO2006N3.final_solution_part2	2	isl/2006/n3	mapped		true
-IMO2006N4	IMOSL.IMO2006N4.final_solution		isl/2006/n4	mapped		true
-IMO2006N5	IMOSL.IMO2006N5.final_solution		isl/2006/n5	mapped		true
-IMO2006N7	IMOSL.IMO2006N7.final_solution		isl/2006/n7	mapped		true
-IMO2007A1	IMOSL.IMO2007A1.final_solution_part1	1	isl/2007/a1	mapped		true
-IMO2007A1	IMOSL.IMO2007A1.final_solution_part2	2	isl/2007/a1	mapped		true
-IMO2007A2	IMOSL.IMO2007A2.final_solution		isl/2007/a2	mapped		true
-IMO2007A3	IMOSL.IMO2007A3.final_solution		isl/2007/a3	mapped		true
-IMO2007A4	IMOSL.IMO2007A4.final_solution		isl/2007/a4	mapped		true
-IMO2007A6	IMOSL.IMO2007A6.final_solution		isl/2007/a6	mapped		true
-IMO2007C3	IMOSL.IMO2007C3.final_solution		isl/2007/c3	mapped		true
-IMO2007N1	IMOSL.IMO2007N1.final_solution		isl/2007/n1	mapped		true
-IMO2007N2	IMOSL.IMO2007N2.final_solution		isl/2007/n2	mapped		true
-IMO2007N5	IMOSL.IMO2007N5.final_solution		isl/2007/n5	mapped		true
-IMO2007N6	IMOSL.IMO2007N6.final_solution		isl/2007/n6	mapped		true
-IMO2007N7	IMOSL.IMO2007N7.final_solution		isl/2007/n7	mapped		true
-IMO2008A1	IMOSL.IMO2008A1.final_solution		isl/2008/a1	mapped		true
-IMO2008A2	IMOSL.IMO2008A2.final_solution_part1	1	isl/2008/a2	mapped		true
-IMO2008A2	IMOSL.IMO2008A2.final_solution_part2	2	isl/2008/a2	mapped		true
-IMO2008A3	IMOSL.IMO2008A3.final_solution_part1		isl/2008/a3	mapped		true
-IMO2008A5	IMOSL.IMO2008A5.final_solution		isl/2008/a5	mapped		true
-IMO2008A7	IMOSL.IMO2008A7.final_solution_part1	1	isl/2008/a7	mapped		true
-IMO2008A7	IMOSL.IMO2008A7.final_solution_part2	2	isl/2008/a7	mapped		true
-IMO2008C2	IMOSL.IMO2008C2.final_solution		isl/2008/c2	mapped		true
-IMO2008C3	IMOSL.IMO2008C3.final_solution		isl/2008/c3	mapped		true
-IMO2008C4	IMOSL.IMO2008C4.final_solution		isl/2008/c4	mapped		true
-IMO2008N1	IMOSL.IMO2008N1.final_solution		isl/2008/n1	mapped		true
-IMO2008N6	IMOSL.IMO2008N6.final_solution		isl/2008/n6	mapped		true
-IMO2009A1	IMOSL.IMO2009A1.final_solution		isl/2009/a1	mapped		true
-IMO2009A2	IMOSL.IMO2009A2.final_solution		isl/2009/a2	mapped		true
-IMO2009A3	IMOSL.IMO2009A3.final_solution		isl/2009/a3	mapped		true
-IMO2009A4	IMOSL.IMO2009A4.final_solution		isl/2009/a4	mapped		true
-IMO2009A5	IMOSL.IMO2009A5.final_solution		isl/2009/a5	mapped		true
-IMO2009A6	IMOSL.IMO2009A6.final_solution		isl/2009/a6	mapped		true
-IMO2009A7	IMOSL.IMO2009A7.final_solution		isl/2009/a7	mapped		true
-IMO2009C2	IMOSL.IMO2009C2.final_solution		isl/2009/c2	mapped		true
-IMO2009C3	IMOSL.IMO2009C3.final_solution		isl/2009/c3	mapped		true
-IMO2009C5	IMOSL.IMO2009C5.final_solution		isl/2009/c5	mapped		true
-IMO2009N1	IMOSL.IMO2009N1.final_solution		isl/2009/n1	mapped		true
-IMO2009N2	IMOSL.IMO2009N2.final_solution_part1	1	isl/2009/n2	mapped		true
-IMO2009N2	IMOSL.IMO2009N2.final_solution_part2	2	isl/2009/n2	mapped		true
-IMO2009N3	IMOSL.IMO2009N3.final_solution		isl/2009/n3	mapped		true
-IMO2009N4	IMOSL.IMO2009N4.final_solution		isl/2009/n4	mapped		true
-IMO2009N5	IMOSL.IMO2009N5.final_solution		isl/2009/n5	mapped		true
-IMO2009N6	IMOSL.IMO2009N6.final_solution		isl/2009/n6	mapped		true
-IMO2010A1	IMOSL.IMO2010A1.final_solution		isl/2010/a1	mapped		true
-IMO2010A2	IMOSL.IMO2010A2.final_solution		isl/2010/a2	mapped		true
-IMO2010A3	IMOSL.IMO2010A3.final_solution		isl/2010/a3	mapped		true
-IMO2010A4	IMOSL.IMO2010A4.final_solution		isl/2010/a4	mapped		true
-IMO2010A6	IMOSL.IMO2010A6.final_solution		isl/2010/a6	mapped		true
-IMO2010C4	IMOSL.IMO2010C4.final_solution		isl/2010/c4	mapped		true
-IMO2010N2	IMOSL.IMO2010N2.final_solution		isl/2010/n2	mapped		true
-IMO2010N4	IMOSL.IMO2010N4.final_solution_part1	1	isl/2010/n4	mapped		true
-IMO2010N4	IMOSL.IMO2010N4.final_solution_part2	2	isl/2010/n4	mapped		true
-IMO2010N5	IMOSL.IMO2010N5.final_solution		isl/2010/n5	mapped		true
-IMO2011A1	IMOSL.IMO2011A1.final_solution		isl/2011/a1	mapped		true
-IMO2011A2	IMOSL.IMO2011A2.final_solution		isl/2011/a2	mapped		true
-IMO2011A3	IMOSL.IMO2011A3.final_solution		isl/2011/a3	mapped		true
-IMO2011A4	IMOSL.IMO2011A4.final_solution		isl/2011/a4	mapped		true
-IMO2011A5	IMOSL.IMO2011A5.final_solution		isl/2011/a5	mapped		true
-IMO2011N2	IMOSL.IMO2011N2.final_solution		isl/2011/n2	mapped		true
-IMO2011N3	IMOSL.IMO2011N3.final_solution		isl/2011/n3	mapped		true
-IMO2011N7	IMOSL.IMO2011N7.final_solution		isl/2011/n7	mapped		true
-IMO2012A1	IMOSL.IMO2012A1.final_solution		isl/2012/a1	mapped		true
-IMO2012A3	IMOSL.IMO2012A3.final_solution		isl/2012/a3	mapped		true
-IMO2012A5	IMOSL.IMO2012A5.final_solution		isl/2012/a5	mapped		true
-IMO2012A7	IMOSL.IMO2012A7.final_solution		isl/2012/a7	mapped		true
-IMO2012C1	IMOSL.IMO2012C1.final_solution		isl/2012/c1	mapped		true
-IMO2012C3	IMOSL.IMO2012C3.final_solution		isl/2012/c3	mapped		true
-IMO2012N1	IMOSL.IMO2012N1.final_solution		isl/2012/n1	mapped		true
-IMO2012N3	IMOSL.IMO2012N3.final_solution		isl/2012/n3	mapped		true
-IMO2012N4	IMOSL.IMO2012N4.final_solution_part1	1	isl/2012/n4	mapped		true
-IMO2012N4	IMOSL.IMO2012N4.final_solution_part2	2	isl/2012/n4	mapped		true
-IMO2012N6	IMOSL.IMO2012N6.final_solution		isl/2012/n6	mapped		true
-IMO2012N8	IMOSL.IMO2012N8.final_solution		isl/2012/n8	mapped		true
-IMO2013A1	IMOSL.IMO2013A1.final_solution		isl/2013/a1	mapped		true
-IMO2013A5	IMOSL.IMO2013A5.final_solution		isl/2013/a5	mapped		true
-IMO2013N1	IMOSL.IMO2013N1.final_solution		isl/2013/n1	mapped		true
-IMO2013N2	IMOSL.IMO2013N2.final_solution		isl/2013/n2	mapped		true
-IMO2013N3	IMOSL.IMO2013N3.final_solution		isl/2013/n3	mapped		true
-IMO2013N6	IMOSL.IMO2013N6.final_solution		isl/2013/n6	mapped		true
-IMO2014A1	IMOSL.IMO2014A1.final_solution		isl/2014/a1	mapped		true
-IMO2014A2	IMOSL.IMO2014A2.final_solution		isl/2014/a2	mapped		true
-IMO2014A4	IMOSL.IMO2014A4.final_solution		isl/2014/a4	mapped		true
-IMO2014C2	IMOSL.IMO2014C2.final_solution		isl/2014/c2	mapped		true
-IMO2014C4	IMOSL.IMO2014C4.final_solution		isl/2014/c4	mapped		true
-IMO2014N2	IMOSL.IMO2014N2.final_solution		isl/2014/n2	mapped		true
-IMO2014N4	IMOSL.IMO2014N4.final_solution		isl/2014/n4	mapped		true
-IMO2015A1	IMOSL.IMO2015A1.final_solution		isl/2015/a1	mapped		true
-IMO2015A2	IMOSL.IMO2015A2.final_solution		isl/2015/a2	mapped		true
-IMO2015A4	IMOSL.IMO2015A4.final_solution		isl/2015/a4	mapped		true
-IMO2015N1	IMOSL.IMO2015N1.final_solution		isl/2015/n1	mapped		true
-IMO2015N2	IMOSL.IMO2015N2.final_solution		isl/2015/n2	mapped		true
-IMO2015N3	IMOSL.IMO2015N3.final_solution		isl/2015/n3	mapped		true
-IMO2015N7	IMOSL.IMO2015N7.final_solution		isl/2015/n7	mapped		true
-IMO2016A1	IMOSL.IMO2016A1.final_solution		isl/2016/a1	mapped		true
-IMO2016A4	IMOSL.IMO2016A4.final_solution		isl/2016/a4	mapped		true
-IMO2016A5	IMOSL.IMO2016A5.final_solution_part1	1	isl/2016/a5	mapped		true
-IMO2016A5	IMOSL.IMO2016A5.final_solution_part2_explicit	b	isl/2016/a5	mapped		true
-IMO2016A5	IMOSL.IMO2016A5.final_solution_part2	2	isl/2016/a5	mapped		true
-IMO2016A7	IMOSL.IMO2016A7.final_solution		isl/2016/a7	mapped		true
-IMO2016C2	IMOSL.IMO2016C2.final_solution		isl/2016/c2	mapped		true
-IMO2016N4	IMOSL.IMO2016N4.final_solution		isl/2016/n4	mapped		true
-IMO2016N5	IMOSL.IMO2016N5.final_solution		isl/2016/n5	mapped		true
-IMO2017A1	IMOSL.IMO2017A1.final_solution		isl/2017/a1	mapped		true
-IMO2017A2	IMOSL.IMO2017A2.final_solution		isl/2017/a2	mapped		true
-IMO2017A3	IMOSL.IMO2017A3.final_solution		isl/2017/a3	mapped		true
-IMO2017A4	IMOSL.IMO2017A4.final_solution		isl/2017/a4	mapped		true
-IMO2017A6	IMOSL.IMO2017A6.final_solution		isl/2017/a6	mapped		true
-IMO2017A7	IMOSL.IMO2017A7.final_solution		isl/2017/a7	mapped		true
-IMO2017A8	IMOSL.IMO2017A8.final_solution		isl/2017/a8	mapped		true
-IMO2017C1	IMOSL.IMO2017C1.final_solution		isl/2017/c1	mapped		true
-IMO2017N1	IMOSL.IMO2017N1.final_solution		isl/2017/n1	mapped		true
-IMO2017N3	IMOSL.IMO2017N3.final_solution		isl/2017/n3	mapped		true
-IMO2017N6	IMOSL.IMO2017N6.final_solution		isl/2017/n6	mapped		true
-IMO2018A2	IMOSL.IMO2018A2.final_solution		isl/2018/a2	mapped		true
-IMO2018C1	IMOSL.IMO2018C1.final_solution		isl/2018/c1	mapped		true
-IMO2018N2	IMOSL.IMO2018N2.final_solution		isl/2018/n2	mapped		true
-IMO2018N4	IMOSL.IMO2018N4.final_solution		isl/2018/n4	mapped		true
-IMO2018N5	IMOSL.IMO2018N5.final_solution		isl/2018/n5	mapped		true
-IMO2018N6	IMOSL.IMO2018N6.final_solution		isl/2018/n6	mapped		true
-IMO2019A1	IMOSL.IMO2019A1.final_solution		isl/2019/a1	mapped		true
-IMO2019A2	IMOSL.IMO2019A2.final_solution		isl/2019/a2	mapped		true
-IMO2019C2	IMOSL.IMO2019C2.final_solution		isl/2019/c2	mapped		true
-IMO2019N2	IMOSL.IMO2019N2.final_solution		isl/2019/n2	mapped		true
-IMO2019N3	IMOSL.IMO2019N3.final_solution		isl/2019/n3	mapped		true
-IMO2019N4	IMOSL.IMO2019N4.final_solution		isl/2019/n4	mapped		true
-IMO2020A3	IMOSL.IMO2020A3.final_solution		isl/2020/a3	mapped		true
-IMO2020A4	IMOSL.IMO2020A4.final_solution		isl/2020/a4	mapped		true
-IMO2020A6	IMOSL.IMO2020A6.final_solution		isl/2020/a6	mapped		true
-IMO2020N1	IMOSL.IMO2020N1.final_solution		isl/2020/n1	mapped		true
-IMO2020N2	IMOSL.IMO2020N2.final_solution		isl/2020/n2	mapped		true
-IMO2020N5	IMOSL.IMO2020N5.final_solution		isl/2020/n5	mapped		true
-IMO2021A1	IMOSL.IMO2021A1.final_solution		isl/2021/a1	mapped		true
-IMO2021A2	IMOSL.IMO2021A2.final_solution		isl/2021/a2	mapped		true
-IMO2021A4	IMOSL.IMO2021A4.final_solution		isl/2021/a4	mapped		true
-IMO2021A5	IMOSL.IMO2021A5.final_solution		isl/2021/a5	mapped		true
-IMO2021A6	IMOSL.IMO2021A6.final_solution		isl/2021/a6	mapped		true
-IMO2021A7	IMOSL.IMO2021A7.final_solution		isl/2021/a7	mapped		true
-IMO2021C1	IMOSL.IMO2021C1.final_solution		isl/2021/c1	mapped		true
-IMO2021C2	IMOSL.IMO2021C2.final_solution		isl/2021/c2	mapped		true
-IMO2021N1	IMOSL.IMO2021N1.final_solution		isl/2021/n1	mapped		true
-IMO2021N2	IMOSL.IMO2021N2.final_solution		isl/2021/n2	mapped		true
-IMO2022A1	IMOSL.IMO2022A1.final_solution		isl/2022/a1	mapped		true
-IMO2022A3	IMOSL.IMO2022A3.final_solution		isl/2022/a3	mapped		true
-IMO2022A6	IMOSL.IMO2022A6.final_solution		isl/2022/a6	mapped		true
-IMO2022C6	IMOSL.IMO2022C6.final_solution		isl/2022/c6	mapped		true
-IMO2022C7	IMOSL.IMO2022C7.final_solution		isl/2022/c7	mapped		true
-IMO2022N1	IMOSL.IMO2022N1.final_solution		isl/2022/n1	mapped		true
-IMO2022N8	IMOSL.IMO2022N8.final_solution		isl/2022/n8	mapped		true
-IMO2023A2	IMOSL.IMO2023A2.final_solution		isl/2023/a2	mapped		true
-IMO2023A3	IMOSL.IMO2023A3.final_solution		isl/2023/a3	mapped		true
-IMO2023N2	IMOSL.IMO2023N2.final_solution		isl/2023/n2	mapped		true
-IMO2023N3	IMOSL.IMO2023N3.final_solution_part1	1	isl/2023/n3	mapped		true
-IMO2023N3	IMOSL.IMO2023N3.final_solution_part2	2	isl/2023/n3	mapped		true
-IMO2023N4	IMOSL.IMO2023N4.final_solution		isl/2023/n4	mapped		true
-IMO2023N6	IMOSL.IMO2023N6.final_solution		isl/2023/n6	mapped		true
-IMO2023N7	IMOSL.IMO2023N7.final_solution		isl/2023/n7	mapped		true
+IMO2006A1	IMOSL.IMO2006A1.final_solution		isl/2006/a1	mapped	FZ85KW607H	true
+IMO2006A2	IMOSL.IMO2006A2.final_solution		isl/2006/a2	mapped	YD9RJ29F3Y	true
+IMO2006A4	IMOSL.IMO2006A4.final_solution		isl/2006/a4	mapped	7443CAXB1S	true
+IMO2006N1	IMOSL.IMO2006N1.final_solution		isl/2006/n1	mapped	22H6Q9NK99	true
+IMO2006N2	IMOSL.IMO2006N2.final_solution		isl/2006/n2	mapped	WS35MA2SDS	true
+IMO2006N3	IMOSL.IMO2006N3.final_solution_part1	1	isl/2006/n3	mapped	CDHFE0WNV8	true
+IMO2006N3	IMOSL.IMO2006N3.final_solution_part2	2	isl/2006/n3	mapped	HBMFAA5GPN	true
+IMO2006N4	IMOSL.IMO2006N4.final_solution		isl/2006/n4	mapped	5R3XMMZ1ZZ	true
+IMO2006N5	IMOSL.IMO2006N5.final_solution		isl/2006/n5	mapped	JRVSG1M91X	true
+IMO2006N7	IMOSL.IMO2006N7.final_solution		isl/2006/n7	mapped	RHN6251T5Y	true
+IMO2007A1	IMOSL.IMO2007A1.final_solution_part1	1	isl/2007/a1	mapped	WQSZMS1T8G	true
+IMO2007A1	IMOSL.IMO2007A1.final_solution_part2	2	isl/2007/a1	mapped	A5V0Y771A9	true
+IMO2007A2	IMOSL.IMO2007A2.final_solution		isl/2007/a2	mapped	Z7ZP7A4YBH	true
+IMO2007A3	IMOSL.IMO2007A3.final_solution		isl/2007/a3	mapped	R0DTBHMR75	true
+IMO2007A4	IMOSL.IMO2007A4.final_solution		isl/2007/a4	mapped	GPYTM7TXHD	true
+IMO2007A6	IMOSL.IMO2007A6.final_solution		isl/2007/a6	mapped	19ERB0TA7Y	true
+IMO2007C3	IMOSL.IMO2007C3.final_solution		isl/2007/c3	mapped	KDW7WP7D02	true
+IMO2007N1	IMOSL.IMO2007N1.final_solution		isl/2007/n1	mapped	WMDB60CPTZ	true
+IMO2007N2	IMOSL.IMO2007N2.final_solution		isl/2007/n2	mapped	AVTW6GJDXQ	true
+IMO2007N5	IMOSL.IMO2007N5.final_solution		isl/2007/n5	mapped	M6VHT6JKJH	true
+IMO2007N6	IMOSL.IMO2007N6.final_solution		isl/2007/n6	mapped	3BX06JV3MK	true
+IMO2007N7	IMOSL.IMO2007N7.final_solution		isl/2007/n7	mapped	YKY1S8MH0X	true
+IMO2008A1	IMOSL.IMO2008A1.final_solution		isl/2008/a1	mapped	42KVK3YR3F	true
+IMO2008A2	IMOSL.IMO2008A2.final_solution_part1	1	isl/2008/a2	mapped	3AFBCFTAF3	true
+IMO2008A2	IMOSL.IMO2008A2.final_solution_part2	2	isl/2008/a2	mapped	2HPQASBJJD	true
+IMO2008A3	IMOSL.IMO2008A3.final_solution_part1		isl/2008/a3	mapped	SA2S4RQS1W	true
+IMO2008A5	IMOSL.IMO2008A5.final_solution		isl/2008/a5	mapped	FQDJ6Z022E	true
+IMO2008A7	IMOSL.IMO2008A7.final_solution_part1	1	isl/2008/a7	mapped	7AYH3PMZR5	true
+IMO2008A7	IMOSL.IMO2008A7.final_solution_part2	2	isl/2008/a7	mapped	627RC4K7Z3	true
+IMO2008C2	IMOSL.IMO2008C2.final_solution		isl/2008/c2	mapped	2Z4JM3N408	true
+IMO2008C3	IMOSL.IMO2008C3.final_solution		isl/2008/c3	mapped	GED2W35E5Q	true
+IMO2008C4	IMOSL.IMO2008C4.final_solution		isl/2008/c4	mapped	H7AWSBZ0BK	true
+IMO2008N1	IMOSL.IMO2008N1.final_solution		isl/2008/n1	mapped	RDXVZYHDAB	true
+IMO2008N6	IMOSL.IMO2008N6.final_solution		isl/2008/n6	mapped	H3YMXXQDHJ	true
+IMO2009A1	IMOSL.IMO2009A1.final_solution		isl/2009/a1	mapped	FCQYYN7VRX	true
+IMO2009A2	IMOSL.IMO2009A2.final_solution		isl/2009/a2	mapped	44YGW78WS8	true
+IMO2009A3	IMOSL.IMO2009A3.final_solution		isl/2009/a3	mapped	3G9BPQT828	true
+IMO2009A4	IMOSL.IMO2009A4.final_solution		isl/2009/a4	mapped	8RZZJFVSWX	true
+IMO2009A5	IMOSL.IMO2009A5.final_solution		isl/2009/a5	mapped	EMGVXHX77R	true
+IMO2009A6	IMOSL.IMO2009A6.final_solution		isl/2009/a6	mapped	BPHFM4HN4N	true
+IMO2009A7	IMOSL.IMO2009A7.final_solution		isl/2009/a7	mapped	CBKGGRX4P1	true
+IMO2009C2	IMOSL.IMO2009C2.final_solution		isl/2009/c2	mapped	D9WFFNFKXP	true
+IMO2009C3	IMOSL.IMO2009C3.final_solution		isl/2009/c3	mapped	53VZ2SF7T6	true
+IMO2009C5	IMOSL.IMO2009C5.final_solution		isl/2009/c5	fails-at-pin		true
+IMO2009N1	IMOSL.IMO2009N1.final_solution		isl/2009/n1	mapped	HVRRQ95QKS	true
+IMO2009N2	IMOSL.IMO2009N2.final_solution_part1	1	isl/2009/n2	mapped	28JM4EBY2D	true
+IMO2009N2	IMOSL.IMO2009N2.final_solution_part2	2	isl/2009/n2	mapped	AHQMX5DFYJ	true
+IMO2009N3	IMOSL.IMO2009N3.final_solution		isl/2009/n3	mapped	1N39GKK3HS	true
+IMO2009N4	IMOSL.IMO2009N4.final_solution		isl/2009/n4	mapped	QBVGQPGCGC	true
+IMO2009N5	IMOSL.IMO2009N5.final_solution		isl/2009/n5	mapped	6VA4YNB0R8	true
+IMO2009N6	IMOSL.IMO2009N6.final_solution		isl/2009/n6	mapped	P1KYAAF445	true
+IMO2010A1	IMOSL.IMO2010A1.final_solution		isl/2010/a1	mapped	7VPDACHE8W	true
+IMO2010A2	IMOSL.IMO2010A2.final_solution		isl/2010/a2	mapped	S1YRD26CPP	true
+IMO2010A3	IMOSL.IMO2010A3.final_solution		isl/2010/a3	mapped	23JZZQ0W7N	true
+IMO2010A4	IMOSL.IMO2010A4.final_solution		isl/2010/a4	mapped	X9CSG8W6WA	true
+IMO2010A6	IMOSL.IMO2010A6.final_solution		isl/2010/a6	mapped	KFH2VZ1VR1	true
+IMO2010C4	IMOSL.IMO2010C4.final_solution		isl/2010/c4	fails-at-pin		true
+IMO2010N2	IMOSL.IMO2010N2.final_solution		isl/2010/n2	mapped	XSC6QYM5FN	true
+IMO2010N4	IMOSL.IMO2010N4.final_solution_part1	1	isl/2010/n4	mapped	H642D1XQBA	true
+IMO2010N4	IMOSL.IMO2010N4.final_solution_part2	2	isl/2010/n4	mapped	7JZGEQ83DH	true
+IMO2010N5	IMOSL.IMO2010N5.final_solution		isl/2010/n5	mapped	3THDZ91B2Q	true
+IMO2011A1	IMOSL.IMO2011A1.final_solution		isl/2011/a1	mapped	K42GMAZEF3	true
+IMO2011A2	IMOSL.IMO2011A2.final_solution		isl/2011/a2	mapped	55C1HRWNQ0	true
+IMO2011A3	IMOSL.IMO2011A3.final_solution		isl/2011/a3	mapped	VVZWNSPZ2Z	true
+IMO2011A4	IMOSL.IMO2011A4.final_solution		isl/2011/a4	mapped	JRT5J3XKAZ	true
+IMO2011A5	IMOSL.IMO2011A5.final_solution		isl/2011/a5	mapped	ZCVY48WC8V	true
+IMO2011N2	IMOSL.IMO2011N2.final_solution		isl/2011/n2	mapped	544CM1089T	true
+IMO2011N3	IMOSL.IMO2011N3.final_solution		isl/2011/n3	mapped	VB412YE6FK	true
+IMO2011N7	IMOSL.IMO2011N7.final_solution		isl/2011/n7	mapped	5CPGYMPT77	true
+IMO2012A1	IMOSL.IMO2012A1.final_solution		isl/2012/a1	mapped	6VYHYKTDW0	true
+IMO2012A3	IMOSL.IMO2012A3.final_solution		isl/2012/a3	mapped	EEA04V18CX	true
+IMO2012A5	IMOSL.IMO2012A5.final_solution		isl/2012/a5	mapped	6Y9RKQSQAG	true
+IMO2012A7	IMOSL.IMO2012A7.final_solution		isl/2012/a7	mapped	EFK2C9P5C1	true
+IMO2012C1	IMOSL.IMO2012C1.final_solution		isl/2012/c1	mapped	5EX68Y7D0Y	true
+IMO2012C3	IMOSL.IMO2012C3.final_solution		isl/2012/c3	mapped	GYYCZCZSDV	true
+IMO2012N1	IMOSL.IMO2012N1.final_solution		isl/2012/n1	mapped	41S4RER1YJ	true
+IMO2012N3	IMOSL.IMO2012N3.final_solution		isl/2012/n3	mapped	TVHDZ1FQGA	true
+IMO2012N4	IMOSL.IMO2012N4.final_solution_part1	1	isl/2012/n4	mapped	V86ZBSJJ3A	true
+IMO2012N4	IMOSL.IMO2012N4.final_solution_part2	2	isl/2012/n4	mapped	NCGX9C5CV0	true
+IMO2012N6	IMOSL.IMO2012N6.final_solution		isl/2012/n6	mapped	JRQ5MNX9QY	true
+IMO2012N8	IMOSL.IMO2012N8.final_solution		isl/2012/n8	mapped	VKM2QWN4XP	true
+IMO2013A1	IMOSL.IMO2013A1.final_solution		isl/2013/a1	mapped	EKRN230RVN	true
+IMO2013A5	IMOSL.IMO2013A5.final_solution		isl/2013/a5	mapped	XHFSRAAHY0	true
+IMO2013N1	IMOSL.IMO2013N1.final_solution		isl/2013/n1	mapped	3ZN3TBHK2K	true
+IMO2013N2	IMOSL.IMO2013N2.final_solution		isl/2013/n2	mapped	PS0YKV52P1	true
+IMO2013N3	IMOSL.IMO2013N3.final_solution		isl/2013/n3	mapped	R2TX64Q2S7	true
+IMO2013N6	IMOSL.IMO2013N6.final_solution		isl/2013/n6	mapped	M3TMY04FGP	true
+IMO2014A1	IMOSL.IMO2014A1.final_solution		isl/2014/a1	mapped	PZ735MS446	true
+IMO2014A2	IMOSL.IMO2014A2.final_solution		isl/2014/a2	mapped	CJ3WNC8PGP	true
+IMO2014A4	IMOSL.IMO2014A4.final_solution		isl/2014/a4	mapped	V9BT9KTQ4Q	true
+IMO2014C2	IMOSL.IMO2014C2.final_solution		isl/2014/c2	mapped	2EFHT6T1BR	true
+IMO2014C4	IMOSL.IMO2014C4.final_solution		isl/2014/c4	mapped	FJ85X51JSM	true
+IMO2014N2	IMOSL.IMO2014N2.final_solution		isl/2014/n2	mapped	RA7CFJ9WBQ	true
+IMO2014N4	IMOSL.IMO2014N4.final_solution		isl/2014/n4	mapped	2ZEHB0NC8K	true
+IMO2015A1	IMOSL.IMO2015A1.final_solution		isl/2015/a1	mapped	8HZR8E8R8J	true
+IMO2015A2	IMOSL.IMO2015A2.final_solution		isl/2015/a2	mapped	AX9R3DXVYZ	true
+IMO2015A4	IMOSL.IMO2015A4.final_solution		isl/2015/a4	mapped	YY10Q246SH	true
+IMO2015N1	IMOSL.IMO2015N1.final_solution		isl/2015/n1	mapped	E2MACP9G6K	true
+IMO2015N2	IMOSL.IMO2015N2.final_solution		isl/2015/n2	mapped	790S69998G	true
+IMO2015N3	IMOSL.IMO2015N3.final_solution		isl/2015/n3	mapped	5QKYW0VKV0	true
+IMO2015N7	IMOSL.IMO2015N7.final_solution		isl/2015/n7	mapped	ZNNBV6F2B3	true
+IMO2016A1	IMOSL.IMO2016A1.final_solution		isl/2016/a1	mapped	H59TA46701	true
+IMO2016A4	IMOSL.IMO2016A4.final_solution		isl/2016/a4	mapped	HH9VRXXNHY	true
+IMO2016A5	IMOSL.IMO2016A5.final_solution_part1	1	isl/2016/a5	mapped	9YEQBYR33F	true
+IMO2016A5	IMOSL.IMO2016A5.final_solution_part2_explicit	b	isl/2016/a5	mapped	K7J3YVH68S	true
+IMO2016A5	IMOSL.IMO2016A5.final_solution_part2	2	isl/2016/a5	mapped	2MTY69HEK8	true
+IMO2016A7	IMOSL.IMO2016A7.final_solution		isl/2016/a7	mapped	WM7KCGZGGT	true
+IMO2016C2	IMOSL.IMO2016C2.final_solution		isl/2016/c2	mapped	8QB8XEP5Y3	true
+IMO2016N4	IMOSL.IMO2016N4.final_solution		isl/2016/n4	mapped	2A97J8FR4E	true
+IMO2016N5	IMOSL.IMO2016N5.final_solution		isl/2016/n5	mapped	HAMPFJK75C	true
+IMO2017A1	IMOSL.IMO2017A1.final_solution		isl/2017/a1	mapped	GM48RA3DAS	true
+IMO2017A2	IMOSL.IMO2017A2.final_solution		isl/2017/a2	mapped	7SGMV799VM	true
+IMO2017A3	IMOSL.IMO2017A3.final_solution		isl/2017/a3	mapped	73PCRYNADR	true
+IMO2017A4	IMOSL.IMO2017A4.final_solution		isl/2017/a4	mapped	923PKNE6P5	true
+IMO2017A6	IMOSL.IMO2017A6.final_solution		isl/2017/a6	mapped	5GTFQ0GKY2	true
+IMO2017A7	IMOSL.IMO2017A7.final_solution		isl/2017/a7	mapped	1P96TAT4WZ	true
+IMO2017A8	IMOSL.IMO2017A8.final_solution		isl/2017/a8	mapped	ZC9001JCBV	true
+IMO2017C1	IMOSL.IMO2017C1.final_solution		isl/2017/c1	mapped	3W5DK1HKK2	true
+IMO2017N1	IMOSL.IMO2017N1.final_solution		isl/2017/n1	mapped	Z6QFSY7SBF	true
+IMO2017N3	IMOSL.IMO2017N3.final_solution		isl/2017/n3	mapped	5W7E30ZGNY	true
+IMO2017N6	IMOSL.IMO2017N6.final_solution		isl/2017/n6	mapped	99F6F04KVH	true
+IMO2018A2	IMOSL.IMO2018A2.final_solution		isl/2018/a2	mapped	7SQ7T8DWRZ	true
+IMO2018C1	IMOSL.IMO2018C1.final_solution		isl/2018/c1	mapped	RYA4KR32BW	true
+IMO2018N2	IMOSL.IMO2018N2.final_solution		isl/2018/n2	mapped	M4CP3PWRZS	true
+IMO2018N4	IMOSL.IMO2018N4.final_solution		isl/2018/n4	mapped	SXFZE0VPZB	true
+IMO2018N5	IMOSL.IMO2018N5.final_solution		isl/2018/n5	mapped	HX7RWCHBG6	true
+IMO2018N6	IMOSL.IMO2018N6.final_solution		isl/2018/n6	mapped	7EWZFTSN1A	true
+IMO2019A1	IMOSL.IMO2019A1.final_solution		isl/2019/a1	mapped	G4NF7D7DYE	true
+IMO2019A2	IMOSL.IMO2019A2.final_solution		isl/2019/a2	mapped	WGH741QMF3	true
+IMO2019C2	IMOSL.IMO2019C2.final_solution		isl/2019/c2	mapped	92P5CQ9DN1	true
+IMO2019N2	IMOSL.IMO2019N2.final_solution		isl/2019/n2	mapped	7G94XTGPY3	true
+IMO2019N3	IMOSL.IMO2019N3.final_solution		isl/2019/n3	mapped	ZBN1RRZV07	true
+IMO2019N4	IMOSL.IMO2019N4.final_solution		isl/2019/n4	mapped	Y2J096J3YZ	true
+IMO2020A3	IMOSL.IMO2020A3.final_solution		isl/2020/a3	mapped	F3QWBTHXKX	true
+IMO2020A4	IMOSL.IMO2020A4.final_solution		isl/2020/a4	mapped	AP7N9WBGGY	true
+IMO2020A6	IMOSL.IMO2020A6.final_solution		isl/2020/a6	mapped	4W0Q54TYRK	true
+IMO2020N1	IMOSL.IMO2020N1.final_solution		isl/2020/n1	mapped	F0Q7G9KYW4	true
+IMO2020N2	IMOSL.IMO2020N2.final_solution		isl/2020/n2	mapped	JC6JEJC6TG	true
+IMO2020N5	IMOSL.IMO2020N5.final_solution		isl/2020/n5	mapped	DXP5NMPVBT	true
+IMO2021A1	IMOSL.IMO2021A1.final_solution		isl/2021/a1	mapped	FY1A42VRHW	true
+IMO2021A2	IMOSL.IMO2021A2.final_solution		isl/2021/a2	mapped	3M9K9YRKAS	true
+IMO2021A4	IMOSL.IMO2021A4.final_solution		isl/2021/a4	mapped	Z0SN87ZBYV	true
+IMO2021A5	IMOSL.IMO2021A5.final_solution		isl/2021/a5	mapped	TNW5M86T3V	true
+IMO2021A6	IMOSL.IMO2021A6.final_solution		isl/2021/a6	mapped	TEXMHAY4V9	true
+IMO2021A7	IMOSL.IMO2021A7.final_solution		isl/2021/a7	mapped	2VT3Q4KCKW	true
+IMO2021C1	IMOSL.IMO2021C1.final_solution		isl/2021/c1	mapped	H9CAMRT5Q8	true
+IMO2021C2	IMOSL.IMO2021C2.final_solution		isl/2021/c2	mapped	J39R8NDVQ5	true
+IMO2021N1	IMOSL.IMO2021N1.final_solution		isl/2021/n1	mapped	344JBJ7HQ6	true
+IMO2021N2	IMOSL.IMO2021N2.final_solution		isl/2021/n2	mapped	9Q3YTZGFQ0	true
+IMO2022A1	IMOSL.IMO2022A1.final_solution		isl/2022/a1	mapped	YQDQSS8VE8	true
+IMO2022A3	IMOSL.IMO2022A3.final_solution		isl/2022/a3	mapped	SEZHQY5VW4	true
+IMO2022A6	IMOSL.IMO2022A6.final_solution		isl/2022/a6	mapped	5R27D0QQYP	true
+IMO2022C6	IMOSL.IMO2022C6.final_solution		isl/2022/c6	mapped	3NB68ZD0KS	true
+IMO2022C7	IMOSL.IMO2022C7.final_solution		isl/2022/c7	mapped	HTTWRJBG5Z	true
+IMO2022N1	IMOSL.IMO2022N1.final_solution		isl/2022/n1	mapped	16ER9PYXJX	true
+IMO2022N8	IMOSL.IMO2022N8.final_solution		isl/2022/n8	mapped	QNPSWHCXGP	true
+IMO2023A2	IMOSL.IMO2023A2.final_solution		isl/2023/a2	mapped	NMGSW77KBG	true
+IMO2023A3	IMOSL.IMO2023A3.final_solution		isl/2023/a3	mapped	1V95P9PJS4	true
+IMO2023N2	IMOSL.IMO2023N2.final_solution		isl/2023/n2	mapped	25MWXXG4YR	true
+IMO2023N3	IMOSL.IMO2023N3.final_solution_part1	1	isl/2023/n3	mapped	7T355HFYYS	true
+IMO2023N3	IMOSL.IMO2023N3.final_solution_part2	2	isl/2023/n3	mapped	8WW5Z6XACM	true
+IMO2023N4	IMOSL.IMO2023N4.final_solution		isl/2023/n4	mapped	QNWC64KEFM	true
+IMO2023N6	IMOSL.IMO2023N6.final_solution		isl/2023/n6	mapped	SP92Z4V9F2	true
+IMO2023N7	IMOSL.IMO2023N7.final_solution		isl/2023/n7	mapped	KXJ1RATMVV	true
 IMO2024A1	IMOSL.IMO2024A1.final_solution		isl/2024/a1	no-problem		true
 IMO2024A3	IMOSL.IMO2024A3.final_solution		isl/2024/a3	no-problem		true
 IMO2024C5	IMOSL.IMO2024C5.final_solution		isl/2024/c5	no-problem		true

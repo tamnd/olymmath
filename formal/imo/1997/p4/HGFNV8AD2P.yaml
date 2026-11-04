@@ -1,0 +1,59 @@
+tag: HGFNV8AD2P
+kind: formal
+problem: AWA16DC2NX
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo1997P4.lean
+module: Compfiles.Imo1997P4
+decl: Imo1997P4.imo1997_p4
+answer:
+  style: none
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo1997P4.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo1997P4
+licence: Apache-2.0
+text: |-
+  theorem imo1997_p4 :
+      (¬ ∃ M : Fin 1997 → Fin 1997 → ℕ, SilverMatrix 1997 M) ∧
+      {n : ℕ | ∃ M : Fin n → Fin n → ℕ, SilverMatrix n M}.Infinite
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - RB8B6W9TCX

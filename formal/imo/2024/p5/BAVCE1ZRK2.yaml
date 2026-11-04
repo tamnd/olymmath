@@ -1,0 +1,55 @@
+tag: BAVCE1ZRK2
+kind: formal
+problem: 076WE21YGJ
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/2024/P5.lean
+module: Imo.«2024».P5
+decl: imo_2024_p5
+answer:
+  style: embedded
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/2024/P5.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_2024_p5
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: "@[imo_problem_subject combinatorics]\ntheorem imo_2024_p5\n                                                \n                                                  \n                                                         \n\n    (isAdj : ℕ × ℕ → ℕ × ℕ → Prop)\n    (isAdj_spec : ∀ i j : ℕ × ℕ, isAdj i j ↔ Nat.dist i.1 j.1 + Nat.dist i.2 j.2 = 1)\n                                            \n    (isMoveSeq : (ℕ → ℕ × ℕ) → Prop)\n    (isMoveSeq_spec : ∀ f : ℕ → ℕ × ℕ, isMoveSeq f ↔\n      (f 0).2 = 0 ∧ (∀ i, isAdj (f i) (f (i + 1))) ∧\n      (∀ i, (f i).1 < 2023) ∧ (∀ i, (f i).2 < 2024) ∧\n      (∃ i, (f i).2 = 2023))\n\n                                                         \n    (isMonsterSetup : (ℕ → ℕ) → Prop)\n    (isMonsterSetup_spec : ∀ m, isMonsterSetup m ↔\n                                                                               \n      (∀ r ∈ Finset.Ioo 0 2023, m r < 2023) ∧\n                                                         \n      Set.InjOn m (Finset.Ioo 0 2023))\n                                             \n                                                       \n    (isStrategy : (n : ℕ) → (∀ k < n, (∀ i < k, (ℕ → ℕ × ℕ) × ℕ) → ℕ → ℕ × ℕ) → Prop)\n    (isStrategy_spec : ∀ n S, isStrategy n S ↔\n                                                           \n                                                                                         \n                                                    \n      ∀ k hk h, (∀ i hi, isMoveSeq (h i hi).1) → isMoveSeq (S k hk h))\n\n    (trajectory : (n : ℕ) → (∀ k < n, (∀ i < k, (ℕ → ℕ × ℕ) × ℕ) → ℕ → ℕ × ℕ) →\n      (ℕ → ℕ) → ∀ k < n, (ℕ → ℕ × ℕ))\n    (breakPoint : (n : ℕ) → (∀ k < n, (∀ i < k, (ℕ → ℕ × ℕ) × ℕ) → ℕ → ℕ × ℕ) →\n      (ℕ → ℕ) → ∀ k < n, ℕ)\n    (breakPoint_spec : ∀ n S m k hk, isStrategy n S → isMonsterSetup m →\n        IsLeast\n          {i | (((trajectory n S m k hk i).2 ∈ Finset.Ioo 0 2023) ∧\n                m (trajectory n S m k hk i).2 = (trajectory n S m k hk i).1) ∨\n               (trajectory n S m k hk i).2 = 2023}\n          (breakPoint n S m k hk))\n    (trajectory_ind : ∀ n S m k (hk : k < n), isStrategy n S → isMonsterSetup m →\n      trajectory n S m k (by omega) =\n        S k hk fun i hi =>\n          (trajectory n S m i (by omega), breakPoint n S m i (by omega)))\n\n    (isWinningFor : (n : ℕ) → (∀ k < n, (∀ i < k, (ℕ → ℕ × ℕ) × ℕ) → ℕ → ℕ × ℕ) →\n        (ℕ → ℕ) → Prop)\n    (isWinningFor_spec : ∀ n S m, isStrategy n S → isMonsterSetup m →\n      (isWinningFor n S m ↔ ∃ (i : ℕ) (H : i < n), ∃ j, (trajectory n S m i H j).2 = 2023)) :\n    IsLeast {n | ∃ S, isStrategy n S ∧ ∀ m, isMonsterSetup m → isWinningFor n S m}\n    answer(3)"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

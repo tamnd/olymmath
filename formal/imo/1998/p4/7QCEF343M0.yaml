@@ -1,0 +1,63 @@
+tag: 7QCEF343M0
+kind: formal
+problem: THQ52MVV9A
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo1998P4.lean
+module: Compfiles.Imo1998P4
+decl: Imo1998P4.imo1998_p4
+answer:
+  style: separate-def
+  decl: Imo1998P4.solution_set
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo1998P4.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo1998P4
+licence: Apache-2.0
+text: |-
+  abbrev solution_set : Set (ℤ × ℤ) := {(11, 1), (49, 1)} ∪
+    {(x,y) | ∃ k : ℤ , (0 < k ∧ x = 7 * k^2 ∧ y = 7 * k)}
+
+  theorem imo1998_p4 (a b : ℤ) :
+      (0 < a ∧ 0 < b ∧ a * b^2 + b + 7 ∣ a^2 * b + a + b) ↔
+      (a, b) ∈ solution_set
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - JT4DYA57A0

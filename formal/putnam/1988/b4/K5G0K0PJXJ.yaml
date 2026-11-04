@@ -1,0 +1,54 @@
+tag: K5G0K0PJXJ
+kind: formal
+problem: 4RFAAJFM3T
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1988_b4.lean
+module: src.putnam_1988_b4
+decl: putnam_1988_b4
+answer:
+  style: none
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1988_b4.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1988_b4
+licence: Apache-2.0
+text: "theorem putnam_1988_b4\n    (a : ℕ → ℝ)\n    (IsPosConv : (ℕ → ℝ) → Prop)\n    (IsPosConv_def : ∀ a' : ℕ → ℝ, IsPosConv a' ↔\n      (∀ n ≥ 1, a' n > 0) ∧\n      (∃ s : ℝ, Tendsto (fun N : ℕ => ∑ n : Set.Icc 1 N, a' n) atTop (\U0001D4DD s))) :\n    (IsPosConv a) → IsPosConv (fun n : ℕ => (a n) ^ ((n : ℝ) / (n + 1)))"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

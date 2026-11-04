@@ -1,0 +1,64 @@
+tag: 70GBYBAH6D
+kind: formal
+problem: 9AZ6HA9RQS
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1996_a2.lean
+module: src.putnam_1996_a2
+decl: putnam_1996_a2
+answer:
+  style: separate-def
+  decl: putnam_1996_a2_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1996_a2.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1996_a2
+licence: Apache-2.0
+text: |-
+  abbrev putnam_1996_a2_solution : (EuclideanSpace ℝ (Fin 2)) → (EuclideanSpace ℝ (Fin 2)) → Set (EuclideanSpace ℝ (Fin 2)) := sorry
+
+  theorem putnam_1996_a2
+  (O1 O2 : EuclideanSpace ℝ (Fin 2))
+  (C1 C2 : Set (EuclideanSpace ℝ (Fin 2)))
+  (hC1 : C1 = sphere O1 1)
+  (hC2 : C2 = sphere O2 3)
+  (hO1O2 : dist O1 O2 = 10)
+  : {M : EuclideanSpace ℝ (Fin 2) | ∃ X Y, X ∈ C1 ∧ Y ∈ C2 ∧ M = midpoint ℝ X Y} = putnam_1996_a2_solution O1 O2
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

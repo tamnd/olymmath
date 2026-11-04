@@ -1,0 +1,68 @@
+tag: SW0MDMTJCG
+kind: formal
+problem: YCKWFE9PAC
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo1984P2.lean
+module: Compfiles.Imo1984P2
+decl: Imo1984P2.imo1984_p2
+answer:
+  style: separate-def
+  decl: Imo1984P2.a
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo1984P2.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo1984P2
+licence: Apache-2.0
+text: |-
+  abbrev a : ℤ := 18
+
+  theorem imo1984_p2 :
+      (0 < a) ∧ (0 < b) ∧
+      (¬ 7 ∣ a * b * (a + b)) ∧
+      7^7 ∣ (a + b)^7 - a^7 - b^7
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: unreviewed
+  reviews:
+    - 15afc63a566a
+  defects:
+    - kind: trivial-goal
+      by: agent
+      note: Agent decision, not a person's review. The tactics of the check trivial-goal prove the statement. A person must decide if the statement is wrong.
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: fail
+      at: "2026-11-03"
+      by: agent
+      note: The tactics of the checks trivial-goal prove the statement.
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - RS3KK7JGHQ

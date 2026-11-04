@@ -1,0 +1,62 @@
+tag: 9V4F8R416Z
+kind: formal
+problem: M8A12QSVGG
+part: b
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo1982P3.lean
+module: Compfiles.Imo1982P3
+decl: Imo1982P3.imo1982_p3b
+answer:
+  style: separate-def
+  decl: Imo1982P3.sol
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo1982P3.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo1982P3
+licence: Apache-2.0
+text: |-
+  noncomputable determine sol : ℕ → ℝ := fun k ↦ 2⁻¹ ^ k
+
+  theorem imo1982_p3b : Antitone sol ∧ sol 0 = 1 ∧ (∀ k, 0 < sol k)
+      ∧ ∀ n, ∑ k ∈ Finset.range n, sol k ^ 2 / sol (k + 1) < 4
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - BWH6JEFTHQ

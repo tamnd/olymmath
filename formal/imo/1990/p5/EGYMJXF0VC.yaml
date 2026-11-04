@@ -1,0 +1,55 @@
+tag: EGYMJXF0VC
+kind: formal
+problem: XSPFYFGFHH
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/1990/P5.lean
+module: Imo.«1990».P5
+decl: imo_1990_p5
+answer:
+  style: none
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/1990/P5.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_1990_p5
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: "@[imo_problem_subject combinatorics]\ntheorem imo_1990_p5 (n₀ : ℕ) (h₀ : n₀ > 1)\n                                                                               \n                                                                        \n                                                                                 \n                                                                           \n                                                                     \n    (valid_A valid_B : (ℕ → ℕ) → Prop)\n                          \n    (A_win B_win : (ℕ → ℕ) → (ℕ → ℕ) → Prop)\n    (h₁ : valid_A = fun A => ∀ k, k ≤ A k ∧ A k ≤ k ^ 2)\n    (h₂ : valid_B = fun B => ∀ (k) (h : ∃ Bk, Bk ∣ k ∧ IsPrimePow (k / Bk)), B k = h.choose)\n    (h₃ :\n      A_win = fun A B =>\n        ∃ n : ℕ → ℕ,\n          n 0 = n₀ ∧\n          (∀ k, n (2 * k + 1) = A (n (2 * k))) ∧\n          (∀ k, n (2 * k + 2) = B (n (2 * k + 1))) ∧\n          (∃ k, n (2 * k + 1) = 1990 ∧ ∀ i ≤ k, n (2 * i) ≠ 1))\n    (h₄ :\n      B_win = fun A B =>\n        ∃ n : ℕ → ℕ,\n          n 0 = n₀ ∧\n          (∀ k, n (2 * k + 1) = A (n (2 * k))) ∧\n          (∀ k, n (2 * k + 2) = B (n (2 * k + 1))) ∧\n          (∃ k, n (2 * k) = 1 ∧ ∀ i < k, n (2 * i + 1) ≠ 1990)) :\n                                                 \n    ((∃ A, valid_A A ∧ ∀ B, valid_B B → A_win A B) ↔ n₀ ≥ 8) ∧\n                                                 \n    ((∃ B, valid_B B ∧ ∀ A, valid_A A → B_win A B) ↔ n₀ < 6) ∧\n                                                     \n                                                     \n    (((∃ A, valid_A A ∧ ∀ B, valid_B B → ¬B_win A B) ∧\n       ∃ B, valid_B B ∧ ∀ A, valid_A A → ¬A_win A B) ↔\n          n₀ = 6 ∨ n₀ = 7)"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

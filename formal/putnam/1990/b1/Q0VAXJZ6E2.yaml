@@ -1,0 +1,63 @@
+tag: Q0VAXJZ6E2
+kind: formal
+problem: KG84WW9TQ5
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1990_b1.lean
+module: src.putnam_1990_b1
+decl: putnam_1990_b1
+answer:
+  style: separate-def
+  decl: putnam_1990_b1_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1990_b1.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1990_b1
+licence: Apache-2.0
+text: |-
+  abbrev putnam_1990_b1_solution : Set (ℝ → ℝ) := sorry
+
+  theorem putnam_1990_b1
+      (P : (ℝ → ℝ) → Prop)
+      (P_def : ∀ f, P f ↔ ∀ x,
+        (f x) ^ 2 = (∫ t in (0 : ℝ)..x, (f t) ^ 2 + (deriv f t) ^ 2) + 1990)
+      (f : ℝ → ℝ) :
+      (ContDiff ℝ 1 f ∧ P f) ↔ f ∈ putnam_1990_b1_solution
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

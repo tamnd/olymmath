@@ -1,0 +1,68 @@
+tag: 9MVJZR2KMT
+kind: formal
+problem: MPEKYYW7V0
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo1972P4.lean
+module: Compfiles.Imo1972P4
+decl: Imo1972P4.imo1972_p4
+answer:
+  style: separate-def
+  decl: Imo1972P4.solution_set
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo1972P4.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo1972P4
+licence: Apache-2.0
+text: |-
+  abbrev solution_set : Set (ℝ × ℝ × ℝ × ℝ × ℝ) :=
+    {(a, b, c, d, e) | a = b ∧ b = c ∧ c = d ∧ d = e}
+
+  theorem imo1972_p4 (a b c d e : ℝ)
+    (h₀ : 0 < a ∧ 0 < b ∧ 0 < c ∧ 0 < d ∧ 0 < e):
+      (a^2 - c * e) * (b^2 - c * e) ≤ 0 ∧
+      (b^2 - d * a) * (c^2 - d * a) ≤ 0 ∧
+      (c^2 - e * b) * (d^2 - e * b) ≤ 0 ∧
+      (d^2 - a * c) * (e^2 - a * c) ≤ 0 ∧
+      (e^2 - b * d) * (a^2 - b * d) ≤ 0 ↔
+        (a, b, c, d, e) ∈ solution_set
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - RMHK4RYCJQ

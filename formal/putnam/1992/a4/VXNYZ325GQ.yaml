@@ -1,0 +1,62 @@
+tag: VXNYZ325GQ
+kind: formal
+problem: XGR86JKY97
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1992_a4.lean
+module: src.putnam_1992_a4
+decl: putnam_1992_a4
+answer:
+  style: separate-def
+  decl: putnam_1992_a4_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1992_a4.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1992_a4
+licence: Apache-2.0
+text: |-
+  abbrev putnam_1992_a4_solution : ℕ → ℝ := sorry
+
+  theorem putnam_1992_a4
+  (f : ℝ → ℝ)
+  (hfdiff : ContDiff ℝ ⊤ f)
+  (hf : ∀ n : ℕ, n > 0 → f (1 / n) = n ^ 2 / (n ^ 2 + 1))
+  : (∀ k : ℕ, k > 0 → iteratedDeriv k f 0 = putnam_1992_a4_solution k)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

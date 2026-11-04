@@ -1,0 +1,75 @@
+tag: R1MW3YQJ8M
+kind: formal
+problem: TBQXQW92Q6
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo1963P4.lean
+module: Compfiles.Imo1963P4
+decl: Imo1963P4.imo1963_p4
+answer:
+  style: separate-def
+  decl: Imo1963P4.SolutionSet
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo1963P4.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo1963P4
+licence: Apache-2.0
+text: |-
+  abbrev SolutionSet (y : ℝ) : Set (ℝ × ℝ × ℝ × ℝ × ℝ) :=
+   {(x₁, x₂, x₃, x₄, x₅) |
+    (x₁ = 0 ∧ x₂ = 0 ∧ x₃ = 0 ∧ x₄ = 0 ∧ x₅ = 0) ∨
+    (x₁ = x₂ ∧ x₂ = x₃ ∧ x₃ = x₄ ∧ x₄ = x₅ ∧ y = 2) ∨
+    (y^2 + y - 1 = 0 ∧ ∃ s t,
+      x₁ = s ∧
+      x₂ = t ∧
+      x₃ = y * t - s ∧
+      x₄ = -(y * t) - y * s ∧
+      x₅ = y * s - t)}
+
+  theorem imo1963_p4 (x₁ x₂ x₃ x₄ x₅ y : ℝ) :
+      (x₁, x₂, x₃, x₄, x₅) ∈ SolutionSet y ↔
+      (x₅ + x₂ = y * x₁ ∧
+       x₁ + x₃ = y * x₂ ∧
+       x₂ + x₄ = y * x₃ ∧
+       x₃ + x₅ = y * x₄ ∧
+       x₄ + x₁ = y * x₅)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - X5DDW2JVHV

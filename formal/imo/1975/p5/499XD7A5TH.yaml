@@ -1,0 +1,55 @@
+tag: 499XD7A5TH
+kind: formal
+problem: VPA5W60HPX
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/1975/P5.lean
+module: Imo.«1975».P5
+decl: imo_1975_p5
+answer:
+  style: none
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/1975/P5.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_1975_p5
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: "@[imo_problem_subject algebra]\ntheorem imo_1975_p5 :\n                                           \n  (fun P ans => Option.recOn ans (∀ x, ¬P x) P)\n                         \n    (fun p : Fin 1975 → ℝ² =>\n                           \n      ∀ i, p i ∈ Metric.sphere 0 1 ∧\n                           \n      Function.Injective p ∧\n                                             \n      Pairwise fun i j => dist (p i) (p j) ∈ Set.range Rat.cast)\n                         \n    (some <| fun i : Fin _ =>\n      ((Matrix.toEuclideanLin !![3/5, 4/5; -4/5, 3/5] : ℝ² →ₗ[ℝ] ℝ²)^(2*i : ℕ))\n        <| !₂[1, 0])"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

@@ -1,0 +1,66 @@
+tag: XNFW6T4QQ2
+kind: formal
+problem: BCP32ZVF6S
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Usa2009P2.lean
+module: Compfiles.Usa2009P2
+decl: Usa2009P2.usa2009_p2
+answer:
+  style: separate-def
+  decl: Usa2009P2.answer
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Usa2009P2.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Usa2009P2
+licence: Apache-2.0
+text: |-
+  abbrev answer (n : ℕ) : ℕ := if Even n then n else n + 1
+
+  snip begin
+
+  theorem usa2009_p2 (n : ℕ) (hn : 0 < n) :
+      IsGreatest
+        {k : ℕ | ∃ A : Finset ℤ,
+          A ⊆ Finset.Icc (-(n : ℤ)) (n : ℤ) ∧ IsGood A ∧ A.card = k}
+        (answer n)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - VR0DRP3KY7

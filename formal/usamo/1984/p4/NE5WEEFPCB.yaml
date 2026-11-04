@@ -1,0 +1,63 @@
+tag: NE5WEEFPCB
+kind: formal
+problem: 3EJ8EE2KJS
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Usa1984P4.lean
+module: Compfiles.Usa1984P4
+decl: Usa1984P4.usa1984_p4
+answer:
+  style: none
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Usa1984P4.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Usa1984P4
+licence: Apache-2.0
+text: |-
+  theorem usa1984_p4 {Pupil : Type} [Fintype Pupil] (attempt : Pupil → Finset (Fin 28))
+      (hattempt : ∀ p, (attempt p).card = 7)
+      (hpair : ∀ q1 q2 : Fin 28, q1 ≠ q2 →
+        (Finset.univ.filter fun p ↦ q1 ∈ attempt p ∧ q2 ∈ attempt p).card = 2)
+      (paper1 : Finset (Fin 28)) (hpaper1 : paper1.Nonempty)
+      (_hpaper2 : (Finset.univ \ paper1).Nonempty) :
+      ∃ p, (attempt p ∩ paper1).card = 0 ∨ 4 ≤ (attempt p ∩ paper1).card
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - SBZVCRYCSW

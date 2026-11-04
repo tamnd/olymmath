@@ -1,0 +1,68 @@
+tag: WTG0P613DT
+kind: formal
+problem: 6K72TSK0D2
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1975_a3.lean
+module: src.putnam_1975_a3
+decl: putnam_1975_a3
+answer:
+  style: separate-def
+  decl: putnam_1975_a3_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1975_a3.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1975_a3
+licence: Apache-2.0
+text: |-
+  noncomputable abbrev putnam_1975_a3_solution : ((ℝ × ℝ × ℝ) → (ℝ × ℝ × ℝ)) × ((ℝ × ℝ × ℝ) → (ℝ × ℝ × ℝ)) := sorry
+
+  theorem putnam_1975_a3
+  (a b c : ℝ)
+  (hi : 0 < a ∧ a < b ∧ b < c)
+  (P : (ℝ × ℝ × ℝ) → Prop)
+  (f : (ℝ × ℝ × ℝ) → ℝ)
+  (hP : P = fun (x, y, z) => x ≥ 0 ∧ y ≥ 0 ∧ z ≥ 0 ∧ x^b + y^b + z^b = 1)
+  (hf : f = fun (x, y, z) => x^a + y^b + z^c)
+  : (P (putnam_1975_a3_solution.1 (a, b, c)) ∧ ∀ x y z : ℝ, P (x, y, z) →
+  f (x, y, z) ≤ f (putnam_1975_a3_solution.1 (a, b, c))) ∧
+  (P (putnam_1975_a3_solution.2 (a, b, c)) ∧ ∀ x y z : ℝ, P (x, y, z) →
+  f (x, y, z) ≥ f (putnam_1975_a3_solution.2 (a, b, c)))
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

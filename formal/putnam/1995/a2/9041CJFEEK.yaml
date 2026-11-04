@@ -1,0 +1,55 @@
+tag: 9041CJFEEK
+kind: formal
+problem: WTC2GZERF1
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1995_a2.lean
+module: src.putnam_1995_a2
+decl: putnam_1995_a2
+answer:
+  style: separate-def
+  decl: putnam_1995_a2_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1995_a2.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1995_a2
+licence: Apache-2.0
+text: "abbrev putnam_1995_a2_solution : Set (ℝ × ℝ) := sorry\n\ntheorem putnam_1995_a2\n(habconv : (ℝ × ℝ) → Prop)\n(habconv_def : habconv = fun ⟨a,b⟩ =>\n∃ limit : ℝ, Tendsto (fun t : ℝ => ∫ x in (Set.Icc b t), (sqrt (sqrt (x + a) - sqrt x) - sqrt (sqrt x - sqrt (x - b)))) atTop (\U0001D4DD limit))\n: ∀ ab : ℝ × ℝ, ab.1 > 0 ∧ ab.2 > 0 → (habconv ab ↔ ab ∈ putnam_1995_a2_solution)"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

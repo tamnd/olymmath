@@ -1,0 +1,68 @@
+tag: 9KQ5Y5N767
+kind: formal
+problem: Z746NMBD18
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo1988P3.lean
+module: Compfiles.Imo1988P3
+decl: Imo1988P3.imo1988_p3
+answer:
+  style: separate-def
+  decl: Imo1988P3.solution
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo1988P3.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo1988P3
+licence: Apache-2.0
+text: |-
+  abbrev solution : ℕ := 92
+
+  snip begin
+
+  theorem imo1988_p3 (f : ℕ+ → ℕ+)
+      (h₀ : f 1 = 1)
+      (h₁ : f 3 = 3)
+      (h₂ : ∀ n, f (2 * n) = f n)
+      (h₃ : ∀ n, f (4 * n + 1) + f n = 2 * f (2 * n + 1))
+      (h₄ : ∀ n, f (4 * n + 3) + 2 * f n = 3 * f (2 * n + 1)) :
+      Set.ncard {n | n ≤ 1988 ∧ f n = n} = solution
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - B7DGSFX00W

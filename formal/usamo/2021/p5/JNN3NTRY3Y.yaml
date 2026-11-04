@@ -1,0 +1,64 @@
+tag: JNN3NTRY3Y
+kind: formal
+problem: MKYVEZPPCP
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Usa2021P5.lean
+module: Compfiles.Usa2021P5
+decl: Usa2021P5.usa2021_p5
+answer:
+  style: separate-def
+  decl: Usa2021P5.solution
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Usa2021P5.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Usa2021P5
+licence: Apache-2.0
+text: |-
+  abbrev solution (n : ℕ) : (ZMod n → ℝ) × (ZMod n → ℝ) :=
+    (fun _ => 2, fun _ => 1)
+
+  theorem usa2021_p5 (n : ℕ) (hn : 4 ≤ n) (a b : ZMod n → ℝ)
+      (ha : ∀ k, 0 < a k) (_hb : ∀ k, 0 < b k) :
+      ((∀ k, a k = b k + b (k + 1)) ∧
+       (∀ k, b k = 1 / a (k - 1) + 1 / a k)) ↔ (a, b) = solution n
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - V7SVBVGRPX

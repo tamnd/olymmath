@@ -1,0 +1,61 @@
+tag: AP7N9WBGGY
+kind: formal
+problem: EQ23XHX6DZ
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/imosllean4/883b0326e585/IMOSLLean4/Main/IMO2020/A4.lean
+module: IMOSLLean4.Main.IMO2020.A4
+decl: IMOSL.IMO2020A4.final_solution
+answer:
+  style: none
+origin:
+  kind: human
+  source: imosllean4
+  url: https://github.com/mortarsanjaya/IMOSLLean4/blob/883b0326e585ac9a2148e5d67a4c335bb4f798be/IMOSLLean4/Main/IMO2020/A4.lean
+  commit: 883b0326e585ac9a2148e5d67a4c335bb4f798be
+  native_name: IMO2020A4
+licence: Apache-2.0
+options:
+  autoImplicit: "true"
+text: |-
+  theorem final_solution {a b c d : ℝ}
+      (hd : d > 0) (hdc : d ≤ c) (hcb : c ≤ b) (hba : b ≤ a) (h : a + b + c + d = 1) :
+      (a + 2 * b + 3 * c + 4 * d) * (a ^ a * b ^ b * c ^ c * d ^ d) < 1
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+  note: The source needs autoImplicit true.
+fidelity:
+  status: unreviewed
+  steps:
+    - step: compile
+      result: fail
+      at: "2026-11-03"
+      by: agent
+      note: The file compiles only with autoImplicit true, so a name in the statement can be bound by accident.
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 2
+proofs:
+  - 2FJF2YQ8AC

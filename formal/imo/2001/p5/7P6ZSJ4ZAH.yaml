@@ -1,0 +1,61 @@
+tag: 7P6ZSJ4ZAH
+kind: formal
+problem: PVT59K8CB7
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo2001P5.lean
+module: Compfiles.Imo2001P5
+decl: Imo2001P5.imo2001_p5
+answer:
+  style: separate-def
+  decl: Imo2001P5.solution_ABC
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo2001P5.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo2001P5
+licence: Apache-2.0
+text: |-
+  abbrev solution_ABC : ℝ := 4 * π / 9
+
+  theorem imo2001_p5 (s : Setup X) :
+      ∠ s.A s.B s.C = solution_ABC ∧ ∠ s.A s.C s.B = solution_ACB
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - 5ARVT2FHZV

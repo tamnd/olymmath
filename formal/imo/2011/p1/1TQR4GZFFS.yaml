@@ -1,0 +1,65 @@
+tag: 1TQR4GZFFS
+kind: formal
+problem: XQJVZQRB7E
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/2011/P1.lean
+module: Imo.«2011».P1
+decl: imo_2011_p1
+answer:
+  style: embedded
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/2011/P1.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_2011_p1
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: |-
+  @[imo_problem_subject algebra]
+  theorem imo_2011_p1 (valid : Finset ℕ → Prop) (allpairs : Finset ℕ → Finset (Finset ℕ))
+      (n : Finset ℕ → ℕ) (has_greatest_n : Finset ℕ → Prop)
+      (h₀ : ∀ A, valid A = (A.card = 4 ∧ ∀ v ∈ A, 0 < v))
+      (h₁ : ∀ A P, P ∈ allpairs A ↔ P ⊆ A ∧ P.card = 2)
+      (h₂ : ∀ A, n A = ((allpairs A).filter fun p : Finset ℕ => p.sum id ∣ A.sum id).card)
+      (h₃ : ∀ A, has_greatest_n A = ¬∃ A₁, valid A₁ ∧ n A < n A₁) :
+      {A | valid A ∧ has_greatest_n A} =
+        answer({({x, 5*x, 7*x, 11*x}) | (x : ℕ) (h : 0 < x)} ∪
+        {({x, 11*x, 19*x, 29*x}) | (x : ℕ) (h : 0 < x)})
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

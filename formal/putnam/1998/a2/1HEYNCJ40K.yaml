@@ -1,0 +1,65 @@
+tag: 1HEYNCJ40K
+kind: formal
+problem: SVBC3TRQRQ
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1998_a2.lean
+module: src.putnam_1998_a2
+decl: putnam_1998_a2
+answer:
+  style: none
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1998_a2.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1998_a2
+licence: Apache-2.0
+text: |-
+  theorem putnam_1998_a2
+  (quadrant : (EuclideanSpace ℝ (Fin 2)) → Prop)
+  (isarc : (EuclideanSpace ℝ (Fin 2)) → (EuclideanSpace ℝ (Fin 2)) → Prop)
+  (hquadrant : ∀ P, quadrant P ↔ P 0 > 0 ∧ P 1 > 0 ∧ dist 0 P = 1)
+  (hisarc : ∀ P Q, isarc P Q ↔ quadrant P ∧ quadrant Q ∧ P 0 > Q 0)
+  (arc : (EuclideanSpace ℝ (Fin 2)) → (EuclideanSpace ℝ (Fin 2)) → Set (EuclideanSpace ℝ (Fin 2)))
+  (harc : arc = fun P Q ↦ {R : EuclideanSpace ℝ (Fin 2) | quadrant R ∧ P 0 > R 0 ∧ R 0 > Q 0})
+  (A B : (EuclideanSpace ℝ (Fin 2)) → (EuclideanSpace ℝ (Fin 2)) → ℝ)
+  (hA : A = fun P Q ↦ (MeasureTheory.volume {S : EuclideanSpace ℝ (Fin 2) | ∃ R ∈ arc P Q, R 0 = S 0 ∧ R 1 > S 1 ∧ S 1 > 0}).toReal)
+  (hB : B = fun P Q ↦ (MeasureTheory.volume {S : EuclideanSpace ℝ (Fin 2) | ∃ R ∈ arc P Q, R 1 = S 1 ∧ R 0 > S 0 ∧ S 0 > 0}).toReal)
+  : (∃ f : ℝ → ℝ, ∀ P Q : EuclideanSpace ℝ (Fin 2), isarc P Q → A P Q + B P Q = f (InnerProductGeometry.angle P Q))
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

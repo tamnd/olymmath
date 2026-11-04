@@ -1,0 +1,63 @@
+tag: C2RQAM7K5B
+kind: formal
+problem: 6W3A3NN57F
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1978_a3.lean
+module: src.putnam_1978_a3
+decl: putnam_1978_a3
+answer:
+  style: separate-def
+  decl: putnam_1978_a3_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1978_a3.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1978_a3
+licence: Apache-2.0
+text: |-
+  abbrev putnam_1978_a3_solution : ℕ := sorry
+
+  theorem putnam_1978_a3
+      (p : Polynomial ℝ)
+      (hp : p = 2 * (X ^ 6 + 1) + 4 * (X ^ 5 + X) + 3 * (X ^ 4 + X ^ 2) + 5 * X ^ 3)
+      (I : ℕ → ℝ)
+      (hI : I = fun k ↦ ∫ x in Ioi 0, x ^ k / p.eval x) :
+      IsLeast {y | ∃ k ∈ Ioo 0 5, I k = y} (I putnam_1978_a3_solution)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

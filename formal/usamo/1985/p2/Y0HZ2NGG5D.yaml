@@ -1,0 +1,64 @@
+tag: Y0HZ2NGG5D
+kind: formal
+problem: 3BJKMBGPH9
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Usa1985P2.lean
+module: Compfiles.Usa1985P2
+decl: Usa1985P2.usa1985_p2
+answer:
+  style: separate-def
+  decl: Usa1985P2.answer
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Usa1985P2.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Usa1985P2
+licence: Apache-2.0
+text: |-
+  abbrev answer : ℝ × ℝ := (99999.9984, 100000.0016)
+
+  theorem usa1985_p2 (N : ℝ) (hN : N = 10 ^ 10) :
+      ∃ x₁ x₂ : ℝ, x₁ < x₂ ∧
+        (∀ x : ℝ, x ^ 4 - (2 * N + 1) * x ^ 2 - x + N ^ 2 + N - 1 = 0 ↔
+          x = x₁ ∨ x = x₂) ∧
+        |x₁ - answer.1| < 0.00005 ∧ |x₂ - answer.2| < 0.00005
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - ZWRXCH1NHM

@@ -1,0 +1,67 @@
+tag: C95FB5S62E
+kind: formal
+problem: 845Q40SNA7
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Usa2017P5.lean
+module: Compfiles.Usa2017P5
+decl: Usa2017P5.usa2017_p5
+answer:
+  style: separate-def
+  decl: Usa2017P5.solution_set
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Usa2017P5.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Usa2017P5
+licence: Apache-2.0
+text: |-
+  abbrev solution_set : Set ℝ := Set.Ioo 0 (Real.sqrt 2)
+
+  theorem usa2017_p5 (c : ℝ) :
+    c ∈ solution_set ↔
+    (0 < c ∧
+      ∃ l : ℤ × ℤ → ℕ,
+        (Set.range l).Finite ∧
+        (∀ p, 0 < l p) ∧
+        ∀ {p1 p2}, p1 ≠ p2 → (l p1 = l p2) →
+            c ^ (l p1) ≤ dist p1 p2)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - 8WZQAW2P68

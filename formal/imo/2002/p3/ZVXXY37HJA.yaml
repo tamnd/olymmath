@@ -1,0 +1,62 @@
+tag: ZVXXY37HJA
+kind: formal
+problem: 1EAYJ5WZZX
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo2002P3.lean
+module: Compfiles.Imo2002P3
+decl: Imo2002P3.imo2002_p3
+answer:
+  style: separate-def
+  decl: Imo2002P3.solution
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo2002P3.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo2002P3
+licence: Apache-2.0
+text: |-
+  abbrev solution : Set (ℕ × ℕ) := {⟨5, 3⟩}
+
+  theorem imo2002_p3 {m n : ℕ} (hm : 3 ≤ m) (hn : 3 ≤ n) :
+      ⟨m, n⟩ ∈ solution ↔
+      {a : ℤ | 0 < a ∧ a ^ n + a ^ 2 - 1 ∣ a ^ m + a - 1}.Infinite
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - 8VWMHVVCMY

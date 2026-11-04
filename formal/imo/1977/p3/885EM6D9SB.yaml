@@ -1,0 +1,64 @@
+tag: 885EM6D9SB
+kind: formal
+problem: F9DF9Y4F09
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/1977/P3.lean
+module: Imo.«1977».P3
+decl: imo_1977_p3
+answer:
+  style: none
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/1977/P3.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_1977_p3
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: |-
+  @[imo_problem_subject number_theory]
+  theorem imo_1977_p3 (n : ℕ) (V : Set ℕ) (indecomp : ℕ → Prop) (h₀ : 2 < n)
+      (h₁ : V = (Set.Ici 1).image fun k => 1 + k * n)
+      (h₂ : indecomp = fun m => ¬∃ p q, p ∈ V ∧ q ∈ V ∧ m = p * q) :
+      ∃ r,
+        r ∈ V ∧
+          ∃ P₁ P₂ : Multiset ℕ,
+            (∀ n, n ∈ P₁ → n ∈ V ∧ indecomp n) ∧
+              (∀ n, n ∈ P₂ → n ∈ V ∧ indecomp n) ∧ r = P₁.prod ∧ r = P₂.prod ∧ P₁ ≠ P₂
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

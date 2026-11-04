@@ -1,0 +1,55 @@
+tag: B3GYN86J2K
+kind: formal
+problem: RCR0HFHSRK
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/2019/P5.lean
+module: Imo.«2019».P5
+decl: imo_2019_p5
+answer:
+  style: embedded
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/2019/P5.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_2019_p5
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: "@[imo_problem_subject combinatorics]\ntheorem imo_2019_p5 (n : ℕ) (h : 0 < n)\n                                                                                  \n    (action : (Fin n → Bool) → Option (Fin n → Bool))\n    (action_def :\n      ∀ coins,\n        action coins =\n                                \n          let k := (Finset.univ.filter fun i => coins i = true).card\n                             \n          if hk : 0 < k then\n                                               \n            let k' : Fin n := ⟨k - 1, (Nat.pred_lt hk.ne').trans_le <|\n              (Finset.card_filter_le _ _).trans_eq <| Finset.card_fin _⟩\n                             \n            some (Function.update coins k' (not <| coins k'))\n          else\n                                     \n            none) :\n              \n    ∃ hterminates :\n      ∀ coins : Fin n → Bool,\n                                                                                        \n        ∃ t, ((fun o => Option.bind o action)^[t]) (some coins) = none,\n                                                        \n                                                                                  \n                             \n      (∑ c : Fin n → Bool, (Nat.find (hterminates c) - 1) / 2 ^ n : ℚ) =\n        answer(1 / 4 * n * (n + 1))"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

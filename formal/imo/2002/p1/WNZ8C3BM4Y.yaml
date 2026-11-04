@@ -1,0 +1,55 @@
+tag: WNZ8C3BM4Y
+kind: formal
+problem: VJ94GQWQ89
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/2002/P1.lean
+module: Imo.«2002».P1
+decl: imo_2002_p1
+answer:
+  style: none
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/2002/P1.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_2002_p1
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: "@[imo_problem_subject combinatorics]\ntheorem imo_2002_p1 (n : ℕ) (h₀ : 0 < n) (S : Finset (ℕ × ℕ)) (h₁ : ∀ x y, (x, y) ∈ S ↔ x + y < n)\n                             \n    (red : ℕ × ℕ → Prop)\n                                                                                  \n                                                                                    \n                                     \n    (h₂ : ∀ (x₁ y₁ x₂ y₂ : ℕ) (h : red (x₁, y₁) ∧ x₂ ≤ x₁ ∧ y₂ ≤ y₁), red (x₂, y₂))\n                                                                            \n    (A : Finset (Finset (ℕ × ℕ)))\n    (h₃ :\n      ∀ C,\n        C ∈ A ↔\n          C ⊆ S ∧\n            C.card = n ∧\n              (∀ c ∈ C, ¬red c) ∧\n                ∀ (x₁ y₁ x₂ y₂) (h : (x₁, y₁) ∈ C ∧ (x₂, y₂) ∈ C ∧ x₁ = x₂), y₁ = y₂)\n                                                                            \n    (B : Finset (Finset (ℕ × ℕ)))\n    (h₄ :\n      ∀ C,\n        C ∈ B ↔\n          C ⊆ S ∧\n            C.card = n ∧\n              (∀ c ∈ C, ¬red c) ∧\n                ∀ (x₁ y₁ x₂ y₂) (h : (x₁, y₁) ∈ C ∧ (x₂, y₂) ∈ C ∧ y₁ = y₂), x₁ = x₂) :\n    A.card = B.card"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

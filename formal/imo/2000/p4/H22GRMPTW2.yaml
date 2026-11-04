@@ -1,0 +1,55 @@
+tag: H22GRMPTW2
+kind: formal
+problem: 1FT7TQAFH1
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/2000/P4.lean
+module: Imo.«2000».P4
+decl: imo_2000_p4
+answer:
+  style: embedded
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/2000/P4.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_2000_p4
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: "@[imo_problem_subject combinatorics]\ntheorem imo_2000_p4\n                                                                \n                                                                                 \n                                                                                 \n                                                                     \n    (sums : Fin 3 → (Fin 100 → Fin 3) → Set ℕ)\n    (h₀ :\n      ∀ i, sums i = fun f => {n : ℕ | ∃ b c : Fin 100, (b + c : ℕ) = n ∧ f b ≠ f c ∧ f b ≠ i ∧ f c ≠ i})\n    (valid : (Fin 100 → Fin 3) → Prop)\n    (h₁ : valid = fun f => (∀ (i j) (h : i ≠ j), sums i f ∩ sums j f = ∅) ∧ f.Surjective)\n    (valid_set : Finset (Fin 100 → Fin 3)) (h₂ : ∀ f, f ∈ valid_set ↔ valid f) :\n    valid_set.card = answer(12)"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

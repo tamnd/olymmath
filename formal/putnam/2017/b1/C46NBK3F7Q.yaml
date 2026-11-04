@@ -1,0 +1,62 @@
+tag: C46NBK3F7Q
+kind: formal
+problem: JTRMBY8Y8A
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_2017_b1.lean
+module: src.putnam_2017_b1
+decl: putnam_2017_b1
+answer:
+  style: none
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_2017_b1.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_2017_b1
+licence: Apache-2.0
+text: |-
+  theorem putnam_2017_b1
+    (lines : Set (Set (Fin 2 → ℝ)))
+    (L1 L2 : Set (Fin 2 → ℝ))
+    (L1L2lines : L1 ∈ lines ∧ L2 ∈ lines)
+    (L1L2distinct : L1 ≠ L2)
+    (hlines : lines = {L | ∃ v w : Fin 2 → ℝ, w ≠ 0 ∧ L = {p | ∃ t : ℝ, p = v + t • w}}) :
+    L1 ∩ L2 ≠ ∅ ↔ (∀ lambda : ℝ, lambda ≠ 0 →
+      ∀ P, (P ∉ L1 ∧ P ∉ L2) → ∃ A1 A2, A1 ∈ L1 ∧ A2 ∈ L2 ∧ (A2 - P = lambda • (A1 - P)))
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

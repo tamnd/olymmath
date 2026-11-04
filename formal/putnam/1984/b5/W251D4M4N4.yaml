@@ -1,0 +1,64 @@
+tag: W251D4M4N4
+kind: formal
+problem: W9ZTQ9EQS7
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1984_b5.lean
+module: src.putnam_1984_b5
+decl: putnam_1984_b5
+answer:
+  style: separate-def
+  decl: putnam_1984_b5_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1984_b5.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1984_b5
+licence: Apache-2.0
+text: |-
+  noncomputable abbrev putnam_1984_b5_solution : ℤ × Polynomial ℝ × Polynomial ℕ := sorry
+
+  theorem putnam_1984_b5
+      (m : ℕ) (mpos : m > 0)
+      (d : ℕ → ℕ)
+      (sumbits : List ℕ → ℕ)
+      (hsumbits : ∀ bits : List ℕ, sumbits bits = ∑ i : Fin bits.length, bits[i])
+      (hd : ∀ k : ℕ, d k = sumbits (Nat.digits 2 k)) :
+      let (a, f, g)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

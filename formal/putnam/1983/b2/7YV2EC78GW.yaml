@@ -1,0 +1,66 @@
+tag: 7YV2EC78GW
+kind: formal
+problem: W8VD81S4S0
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1983_b2.lean
+module: src.putnam_1983_b2
+decl: putnam_1983_b2
+answer:
+  style: separate-def
+  decl: putnam_1983_b2_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1983_b2.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1983_b2
+licence: Apache-2.0
+text: |-
+  abbrev putnam_1983_b2_solution : Prop := sorry
+
+  theorem putnam_1983_b2
+      (f : ℕ+ → ℕ)
+      (hf : f = fun (n : ℕ+) ↦
+        Set.ncard {M : Multiset ℕ |
+          (∀ m ∈ M, ∃ k : ℕ, m = (2 ^ k : ℤ)) ∧
+          (∀ m ∈ M, M.count m ≤ 3) ∧
+          (M.sum : ℤ) = n}) :
+      putnam_1983_b2_solution ↔
+        (∃ p : Polynomial ℝ, ∀ n : ℕ+, ⌊p.eval (n : ℝ)⌋ = f n)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

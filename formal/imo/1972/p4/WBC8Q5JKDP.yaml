@@ -1,0 +1,65 @@
+tag: WBC8Q5JKDP
+kind: formal
+problem: MPEKYYW7V0
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/1972/P4.lean
+module: Imo.«1972».P4
+decl: imo_1972_p4
+answer:
+  style: embedded
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/1972/P4.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_1972_p4
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: |-
+  @[imo_problem_subject algebra]
+  theorem imo_1972_p4 :
+      {(x₁, x₂, x₃, x₄, x₅,) : ℝ × ℝ × ℝ × ℝ × ℝ |
+          (0 < x₁ ∧ 0 < x₂ ∧ 0 < x₃ ∧ 0 < x₄ ∧ 0 < x₅) ∧
+          ((x₁ ^ 2 - x₃ * x₅) * (x₂ ^ 2 - x₃ * x₅) ≤ 0) ∧
+          ((x₂ ^ 2 - x₄ * x₁) * (x₃ ^ 2 - x₄ * x₁) ≤ 0) ∧
+          ((x₃ ^ 2 - x₅ * x₂) * (x₄ ^ 2 - x₅ * x₂) ≤ 0) ∧
+          ((x₄ ^ 2 - x₁ * x₃) * (x₅ ^ 2 - x₁ * x₃) ≤ 0) ∧
+          ((x₅ ^ 2 - x₂ * x₄) * (x₁ ^ 2 - x₂ * x₄) ≤ 0)} =
+        answer({(x, x, x, x, x) | (x : ℝ)})
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

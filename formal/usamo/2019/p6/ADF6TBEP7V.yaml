@@ -1,0 +1,66 @@
+tag: ADF6TBEP7V
+kind: formal
+problem: T1RQ80GJRE
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Usa2019P6.lean
+module: Compfiles.Usa2019P6
+decl: Usa2019P6.usa2019_p6
+answer:
+  style: separate-def
+  decl: Usa2019P6.SolutionSet
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Usa2019P6.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Usa2019P6
+licence: Apache-2.0
+text: |-
+  abbrev SolutionSet : Set (Polynomial ℝ) := {P | ∃ c : ℝ, P = C c * (X ^ 2 + 3)}
+
+  snip begin
+
+  theorem usa2019_p6 (P : Polynomial ℝ) :
+      P ∈ SolutionSet ↔
+      ∀ x y z : ℝ, x ≠ 0 → y ≠ 0 → z ≠ 0 → 2 * x * y * z = x + y + z →
+        P.eval x / (y * z) + P.eval y / (z * x) + P.eval z / (x * y) =
+          P.eval (x - y) + P.eval (y - z) + P.eval (z - x)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - 98ZA2W2NY7

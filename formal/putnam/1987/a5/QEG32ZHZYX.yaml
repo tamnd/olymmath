@@ -1,0 +1,69 @@
+tag: QEG32ZHZYX
+kind: formal
+problem: 8EJAZTZGPY
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1987_a5.lean
+module: src.putnam_1987_a5
+decl: putnam_1987_a5
+answer:
+  style: separate-def
+  decl: putnam_1987_a5_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1987_a5.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1987_a5
+licence: Apache-2.0
+text: |-
+  abbrev putnam_1987_a5_solution : Prop := sorry
+
+  theorem putnam_1987_a5
+      (curl : ((Fin 3 → ℝ) → (Fin 3 → ℝ)) → ((Fin 3 → ℝ) → (Fin 3 → ℝ)))
+      (curl_def : ∀ f x, curl f x = ![
+        fderiv ℝ f x (Pi.single 1 1) 2 - fderiv ℝ f x (Pi.single 2 1) 1,
+        fderiv ℝ f x (Pi.single 2 1) 0 - fderiv ℝ f x (Pi.single 0 1) 2,
+        fderiv ℝ f x (Pi.single 0 1) 1 - fderiv ℝ f x (Pi.single 1 1) 0])
+      (G : (Fin 2 → ℝ) → (Fin 3 → ℝ))
+      (G_def : ∀ x y, G ![x, y] = ![(-y / (x ^ 2 + 4 * y ^ 2)), (x / (x ^ 2 + 4 * y ^ 2)), 0]) :
+      (∃ F : (Fin 3 → ℝ) → (Fin 3 → ℝ),
+        ContDiffOn ℝ 1 F {v | v ≠ ![0,0,0]} ∧
+        (∀ x, x ≠ 0 → curl F x = 0) ∧
+        ∀ x y, F ![x, y, 0] = G ![x, y]) ↔ putnam_1987_a5_solution
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

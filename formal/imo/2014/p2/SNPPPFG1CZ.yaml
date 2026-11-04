@@ -1,0 +1,55 @@
+tag: SNPPPFG1CZ
+kind: formal
+problem: 26P4N9Q5E1
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/2014/P2.lean
+module: Imo.«2014».P2
+decl: imo_2014_p2
+answer:
+  style: embedded
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/2014/P2.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_2014_p2
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: "@[imo_problem_subject combinatorics]\ntheorem imo_2014_p2 (n : ℕ) (h₁ : 2 ≤ n)\n                                                            \n    (peaceful : (Fin n → Fin n × Fin n) → Prop)\n    (h₂ : peaceful = fun r => ∀ x, (∃! y, (r y).1 = x) ∧ ∃! y, (r y).2 = x)\n                                                                      \n    (k_empty : Fin n → (Fin n → Fin n × Fin n) → Prop)\n    (h₃ : ∀ k : Fin n, k_empty k = fun r => ∃ x y : Fin n,\n                                 \n      (x : ℕ) + k ≤ n ∧\n      (y : ℕ) + k ≤ n ∧\n                                             \n      ∀ t, ¬ (x ≤ (r t).1 ∧ ↑(r t).1 < (x : ℕ) + k ∧ y ≤ (r t).2 ∧ ↑(r t).2 < (y : ℕ) + k)) :\n    IsGreatest\n      {(k : ℕ) | (k : Fin n) (H : ∀ r : Fin n → (Fin n × Fin n), peaceful r → (k_empty k) r)}\n      answer(⌈√n⌉₊ - 1)"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

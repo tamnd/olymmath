@@ -1,0 +1,67 @@
+tag: HDPG5BDG76
+kind: formal
+problem: 64T8HNDCJG
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/2000/P3.lean
+module: Imo.«2000».P3
+decl: imo_2000_p3
+answer:
+  style: embedded
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/2000/P3.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_2000_p3
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: |-
+  @[imo_problem_subject algebra]
+  theorem imo_2000_p3 {n : ℕ} (hn : 2 ≤ n)
+      {valid_jump : ℝ → (Fin n → ℝ) → (Fin n → ℝ) → Prop}
+      (valid_jump_def : ∀ lambda pos next_pos, valid_jump lambda pos next_pos ↔
+        ∃ i j A B C, pos i = A ∧ pos j = B ∧ A < B ∧ B < C ∧
+        (C - B) / (B - A) = lambda ∧ next_pos = Function.update pos i C) :
+      { lambda : ℝ | 0 < lambda ∧
+        ∀ (M : ℝ) (init_pos : Fin n → ℝ), (∃ i j, init_pos i ≠ init_pos j) →
+          ∃ seq : ℕ → Fin n → ℝ, seq 0 = init_pos ∧
+            (∀ t, valid_jump lambda (seq t) (seq (t + 1))) ∧
+            ∃ t, ∀ i, seq t i > M
+      } = answer({ lambda | 1 / (n - 1) ≤ lambda })
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

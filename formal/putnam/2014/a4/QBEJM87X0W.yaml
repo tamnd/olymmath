@@ -1,0 +1,63 @@
+tag: QBEJM87X0W
+kind: formal
+problem: WQD7EHPNJV
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_2014_a4.lean
+module: src.putnam_2014_a4
+decl: putnam_2014_a4
+answer:
+  style: separate-def
+  decl: putnam_2014_a4_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_2014_a4.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_2014_a4
+licence: Apache-2.0
+text: |-
+  noncomputable abbrev putnam_2014_a4_solution : ℝ := sorry
+
+  theorem putnam_2014_a4
+  (Xrandvar : (ℕ → ℝ) → Prop)
+  (hXrandvar : Xrandvar = (fun X : ℕ → ℝ => (∀ n : ℕ, X n ∈ Set.Icc 0 1) ∧ ∑' n : ℕ, X n = 1))
+  (E : (ℕ → ℝ) → (ℕ → ℝ) → ℝ)
+  (hE : E = (fun (X : ℕ → ℝ) (f : ℕ → ℝ) => ∑' n : ℕ, f n * X n))
+  : sInf {X0 : ℝ | ∃ X : ℕ → ℝ, Xrandvar X ∧ E X (fun x : ℕ => x) = 1 ∧ E X (fun x : ℕ => x ^ 2) = 2 ∧ E X (fun x : ℕ => x ^ 3) = 5 ∧ X0 = X 0} = putnam_2014_a4_solution
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

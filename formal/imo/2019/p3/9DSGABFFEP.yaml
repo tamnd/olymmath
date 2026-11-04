@@ -1,0 +1,55 @@
+tag: 9DSGABFFEP
+kind: formal
+problem: SWY1DN3VKW
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/2019/P3.lean
+module: Imo.«2019».P3
+decl: imo_2019_p3
+answer:
+  style: none
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/2019/P3.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_2019_p3
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: "@[imo_problem_subject combinatorics]\ntheorem imo_2019_p3\n                            \n    {User : Type _} [Fintype User] [Inhabited User]\n    (h : Fintype.card User = 2019)\n                                                                                                                                    \n    (IsFriendshipTriangle : SimpleGraph User → (User × User × User) → Prop)\n    (IsFriendshipTriangle_def : ∀ (Network : SimpleGraph User) (A B C : User),\n      IsFriendshipTriangle Network (A, B, C) ↔ Network.Adj A B ∧\n        Network.Adj A C ∧ ¬ Network.Adj B C ∧ B ≠ C)\n                                                                              \n    (UpdateFriends : SimpleGraph User → (User × User × User) → SimpleGraph User)\n                                                                           \n                                                                  \n                                     \n                                     \n                                    \n    (UpdateFriends_def : ∀ (Network : SimpleGraph User) (A B C : User),\n                                                                              \n      IsFriendshipTriangle Network (A, B, C) →\n      (¬ (UpdateFriends Network (A, B, C)).Adj A B) ∧\n      (¬ (UpdateFriends Network (A, B, C)).Adj A C) ∧\n      (UpdateFriends Network (A, B, C)).Adj B C ∧\n      (∀ X Y : User, X ∉ [A, B, C] ∨ Y ∉ [A, B, C] →\n        (UpdateFriends Network (A, B, C)).Adj X Y = Network.Adj X Y))\n                                                              \n    (Network₀ : SimpleGraph User)\n                                                                    \n    (h₁ : (Finset.univ.filter fun u₁ => Network₀.degree u₁ = 1009).card = 1010)\n                                                                    \n    (h₂ : (Finset.univ.filter fun u₁ => Network₀.degree u₁ = 1010).card = 1009) :\n                                              \n    ∃ UserTriple : List (User × User × User),\n                                                                                   \n                                                    \n      (∀ i : Fin UserTriple.length, IsFriendshipTriangle ((UserTriple.take i).foldl\n        UpdateFriends Network₀) (UserTriple.get i)) ∧\n                                                                     \n      ∀ X, (UserTriple.foldl UpdateFriends Network₀).degree X ≤ 1"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

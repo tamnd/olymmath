@@ -1,0 +1,65 @@
+tag: FMAT7TD9ZP
+kind: formal
+problem: B7W6N4QZG6
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Usa1993P4.lean
+module: Compfiles.Usa1993P4
+decl: Usa1993P4.usa1993_p4
+answer:
+  style: separate-def
+  decl: Usa1993P4.constant_value
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Usa1993P4.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Usa1993P4
+licence: Apache-2.0
+text: |-
+  abbrev constant_value (r s : ℕ) : ℕ := Nat.gcd r s
+
+  snip begin
+
+  theorem usa1993_p4 (r s : ℕ) (hr : Odd r) (hs : Odd s) (a : ℕ → ℕ)
+      (ha0 : a 0 = r) (ha1 : a 1 = s)
+      (han : ∀ n, a (n + 2) = ordCompl[2] (a (n + 1) + a n)) :
+      ∃ N, ∀ n, N ≤ n → a n = constant_value r s
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - YAF2C6V4SD

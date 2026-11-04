@@ -1,0 +1,60 @@
+tag: 29VH3C9TGC
+kind: formal
+problem: RD0VF8KZYY
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo1960P2.lean
+module: Compfiles.Imo1960P2
+decl: Imo1960Q2.imo1960_p2
+answer:
+  style: separate-def
+  decl: Imo1960Q2.SolutionSet
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo1960P2.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo1960P2
+licence: Apache-2.0
+text: |-
+  abbrev SolutionSet : Set ℝ := Ico (-1/2) (45/8) \ {0}
+
+  theorem imo1960_p2 {x} : IsGood x ↔ x ∈ SolutionSet
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - GRT6YVHC3Z

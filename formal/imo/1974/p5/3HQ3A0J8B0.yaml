@@ -1,0 +1,66 @@
+tag: 3HQ3A0J8B0
+kind: formal
+problem: 7GEQS7N240
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo1974P5.lean
+module: Compfiles.Imo1974P5
+decl: Imo1974P5.imo1974_p5
+answer:
+  style: separate-def
+  decl: Imo1974P5.solution_set
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo1974P5.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo1974P5
+licence: Apache-2.0
+text: |-
+  abbrev solution_set : Set ℝ := Set.Ioo 1 2
+
+  snip begin
+
+  theorem imo1974_p5 (s : ℝ) :
+      s ∈ solution_set ↔
+      ∃ a b c d : ℝ, 0 < a ∧ 0 < b ∧ 0 < c ∧ 0 < d ∧
+       s = a / (a + b + d) + b / (a + b + c) +
+           c / (b + c + d) + d / (a + c + d)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - 1PHMD798Q7

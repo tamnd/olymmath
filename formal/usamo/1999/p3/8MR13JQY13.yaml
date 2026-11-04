@@ -1,0 +1,60 @@
+tag: 8MR13JQY13
+kind: formal
+problem: ESWE2Y07NG
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Usa1999P3.lean
+module: Compfiles.Usa1999P3
+decl: Usa1999P3.usa1999_p3
+answer:
+  style: none
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Usa1999P3.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Usa1999P3
+licence: Apache-2.0
+text: |-
+  theorem usa1999_p3 (p : ℕ) (hp : p.Prime) (hp2 : 2 < p) (a b c d : ℤ)
+      (ha : ¬ (p : ℤ) ∣ a) (hb : ¬ (p : ℤ) ∣ b) (hc : ¬ (p : ℤ) ∣ c) (hd : ¬ (p : ℤ) ∣ d)
+      (h : ∀ n : ℤ, ¬ (p : ℤ) ∣ n →
+        Int.fract (((n * a : ℤ) : ℝ) / (p : ℝ)) + Int.fract (((n * b : ℤ) : ℝ) / (p : ℝ)) +
+        Int.fract (((n * c : ℤ) : ℝ) / (p : ℝ)) + Int.fract (((n * d : ℤ) : ℝ) / (p : ℝ)) = 2) :
+      (p : ℤ) ∣ a + b ∧ (p : ℤ) ∣ c + d ∨
+        (p : ℤ) ∣ a + c ∧ (p : ℤ) ∣ b + d ∨
+          (p : ℤ) ∣ a + d ∧ (p : ℤ) ∣ b + c
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: unreviewed
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1

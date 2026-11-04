@@ -1,0 +1,63 @@
+tag: Y78VBXNCCF
+kind: formal
+problem: QZ8ACA21SY
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1975_a4.lean
+module: src.putnam_1975_a4
+decl: putnam_1975_a4
+answer:
+  style: separate-def
+  decl: putnam_1975_a4_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1975_a4.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1975_a4
+licence: Apache-2.0
+text: |-
+  noncomputable abbrev putnam_1975_a4_solution : ℕ → Polynomial ℤ := sorry
+
+  theorem putnam_1975_a4
+  (m : ℕ)
+  (hm : Odd m ∧ m > 1)
+  (θ : ℂ)
+  (hθ : θ = cexp (2 * Real.pi * I / (2 * m)))
+  : 1/(1 - θ) = Polynomial.aeval θ (putnam_1975_a4_solution m)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

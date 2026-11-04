@@ -1,0 +1,60 @@
+tag: P8ZCVNT986
+kind: formal
+problem: FD85994TPP
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Usa2025P6.lean
+module: Compfiles.Usa2025P6
+decl: Usa2025P6.usa2025_p6
+answer:
+  style: none
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Usa2025P6.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Usa2025P6
+licence: Apache-2.0
+text: |-
+  theorem usa2025_p6 {m n : ℕ} [NeZero m] (_hm : 0 < m) (hn : 0 < n) (hmn : n ≤ m)
+      (like : Fin n → ZMod m → ℝ) (hnn : ∀ p c, 0 ≤ like p c)
+      (hpart : ∀ p, ∃ P : CirclePartition m n, ∀ i, 1 ≤ ∑ x ∈ P.arcOf i, like p x) :
+      ∃ a : ZMod m → Fin n, ∀ p, 1 ≤ ∑ c ∈ Finset.univ.filter (a · = p), like p c
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - Q1E20WC399

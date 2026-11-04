@@ -1,0 +1,70 @@
+tag: YMTCRCE8TR
+kind: formal
+problem: 66JZY18Z0X
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_2024_a5.lean
+module: src.putnam_2024_a5
+decl: putnam_2024_a5
+answer:
+  style: separate-def
+  decl: putnam_2024_a5_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_2024_a5.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_2024_a5
+licence: Apache-2.0
+text: |-
+  noncomputable abbrev putnam_2024_a5_solution : Set ℝ := sorry
+
+  theorem putnam_2024_a5
+      (IsIntersecting : ℝ → EuclideanSpace ℝ (Fin 2) → EuclideanSpace ℝ (Fin 2) → Prop)
+      (IsIntersecting_def : ∀ r P Q,
+        IsIntersecting r P Q ↔ (line[ℝ,P,Q] : Set (EuclideanSpace ℝ (Fin 2)))
+        ∩ Metric.sphere ((WithLp.equiv _ _).symm ![r, 0]) 1 ≠ ∅)
+      (ProbIntersect : ℝ → ℝ≥0∞)
+      (ProbIntersect_def : ∀ r,
+        ProbIntersect r = volume {(s, t) : ℝ × ℝ | s ∈ Set.Icc 0 1 ∧ t ∈ Set.Icc 0 1 ∧
+          IsIntersecting r
+            ((WithLp.equiv _ _).symm ![9 * Real.cos (2 * Real.pi * s), 9 * Real.sin (2 * Real.pi * s)])
+            ((WithLp.equiv _ _).symm ![9 * Real.cos (2 * Real.pi * t), 9 * Real.sin (2 * Real.pi * t)]) }) :
+      {r | r ∈ Set.Icc 0 8 ∧ ProbIntersect r = ⨅ x ∈ Set.Icc 0 8, ProbIntersect x} =
+        putnam_2024_a5_solution
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

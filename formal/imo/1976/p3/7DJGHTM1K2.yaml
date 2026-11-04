@@ -1,0 +1,55 @@
+tag: 7DJGHTM1K2
+kind: formal
+problem: 4DT2F7CZEW
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/1976/P3.lean
+module: Imo.«1976».P3
+decl: imo_1976_p3
+answer:
+  style: embedded
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/1976/P3.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_1976_p3
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: "@[imo_problem_subject combinatorics]\ntheorem imo_1976_p3\n                                                                                \n    (cube1 : Set ℝ³) (hcube1 : cube1 = (WithLp.equiv _ _).symm '' Set.Icc 0 1)\n    (cube2 : Set ℝ³)\n    (hcube2 : MeasureSpace.volume cube2 = 2 ∧ ∃ l, cube2 = (WithLp.equiv _ _).symm '' Set.Icc 0 fun _ => l) :\n                                         \n  { ({↑dx, ↑dy, ↑dz} : Multiset ℝ) |\n                                 \n    (dx : ℝ≥0) (dy : ℝ≥0) (dz : ℝ≥0)\n    (box : Set ℝ³)\n                           \n    (hbox : box = (WithLp.equiv _ _).symm '' Set.Icc 0 ![↑dx, ↑dy, ↑dz]  )\n    (hbox' : MeasureSpace.volume box ≠ 0)                                                           \n                                                   \n    (h1 : ∃ (os : Set ℝ³),\n                                          \n      (⋃ o ∈ os, o +ᵥ cube1) = box ∧\n                          \n      (os.Pairwise fun o₁ o₂ => MeasureSpace.volume ((o₁ +ᵥ cube1) ∩ (o₂ +ᵥ cube1)) = 0)\n      )\n                                                                                  \n    (is_cube2_packing : Finset ℝ³ → Prop)\n    (is_cube2_packing_iff : ∀ ts,\n      is_cube2_packing ts ↔\n        (∀ t ∈ ts, t +ᵥ cube1 ⊆ box) ∧\n        (ts : Set ℝ³).Pairwise fun o₁ o₂ => MeasureSpace.volume ((o₁ +ᵥ cube2) ∩ (o₂ +ᵥ cube2)) = 0)\n                         \n    (ts : Finset ℝ³) (hts : is_cube2_packing ts)\n                      \n    (htsc : IsGreatest {(ts'.card) | (ts' : Finset ℝ³) (hts' : is_cube2_packing ts')} ts.card)\n                                        \n    (hv : MeasureSpace.volume (⋃ o ∈ ts, o +ᵥ cube2) = (40/100) * MeasureSpace.volume box) } =\n      answer({{2, 5, 3}, {2, 5, 6}})"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

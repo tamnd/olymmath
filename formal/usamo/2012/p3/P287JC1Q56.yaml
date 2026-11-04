@@ -1,0 +1,62 @@
+tag: P287JC1Q56
+kind: formal
+problem: RH8BM26JZV
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Usa2012P3.lean
+module: Compfiles.Usa2012P3
+decl: Usa2012P3.usa2012_p3
+answer:
+  style: separate-def
+  decl: Usa2012P3.SolutionSet
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Usa2012P3.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Usa2012P3
+licence: Apache-2.0
+text: |-
+  abbrev SolutionSet : Set ℕ := { n | 2 < n }
+
+  theorem usa2012_p3 (n : ℕ) (hn : 1 < n) :
+      n ∈ SolutionSet ↔ ∃ a : ℕ → ℤ, (∀ i, 1 ≤ i → a i ≠ 0) ∧
+        ∀ k, 1 ≤ k → ∑ j ∈ Finset.Icc 1 n, (j : ℤ) * a (j * k) = 0
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - GZCCZXPK9E

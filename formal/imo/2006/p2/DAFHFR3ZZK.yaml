@@ -1,0 +1,55 @@
+tag: DAFHFR3ZZK
+kind: formal
+problem: TWWJ4YJ287
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/2006/P2.lean
+module: Imo.«2006».P2
+decl: imo_2006_p2
+answer:
+  style: embedded
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/2006/P2.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_2006_p2
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: "@[imo_problem_subject combinatorics]\ntheorem imo_2006_p2\n                                                                                \n    (rotate : ∀ (point origin : ℝ²) (angle : ℝ), ℝ²)\n    (rotate_definition : ∀ x y x₀ y₀ angle, rotate !₂[x, y] (!₂[x₀, y₀]) angle =\n      !₂[\n        x₀ + angle.cos * (x - x₀) - angle.sin * (y - y₀),\n        y₀ + angle.sin * (x - x₀) + angle.cos * (y - y₀)\n      ])\n                                                                                                                                                          \n    (regular_polygon_vertex : ∀ (center : ℝ²) (vertex₀ : ℝ²) (vertex_count : {x : ℕ | x ≥ 3}), Fin vertex_count → ℝ²)\n    (regular_polygon_vertex_definition : ∀ center vertex₀ vertex_count i,\n      regular_polygon_vertex center vertex₀ vertex_count i = rotate vertex₀ center (2 * Real.pi / vertex_count))\n                                                                                                                                                   \n    (is_diagonal : ∀ i j : Fin 2006, Bool)\n    (is_diagonal_definition : ∀ i j, is_diagonal i j ↔ i ≠ j ∧ i ≠ j + 1 ∧ i ≠ j - 1)\n                                                                                                                                                              \n    (is_good_diagonal : ∀ i j : Fin 2006, Bool)\n    (is_good_diagonal_definition : ∀ i j, is_good_diagonal i j ↔ is_diagonal i j ∧ Odd (i - j) ∧ Odd (j - i))\n                                                                                                                                               \n    (is_side : ∀ i j : Fin 2006, Bool)\n    (is_side_definition : ∀ i j, is_side i j ↔ i = j + 1 ∨ i = j - 1)\n                                                                                                                                                                 \n    (is_good_line_segment : ∀ i j : Fin 2006, Bool)\n    (is_good_line_segment_definition : ∀ i j, is_good_line_segment i j ↔ is_good_diagonal i j ∨ is_side i j)\n                                                                                                                                                                                                                                    \n    (no_common_point_in_interior : ∀ (i₁ j₁ i₂ j₂ : Fin 2006) (P_vertices : Fin 2006 → ℝ²), Bool)\n    (no_common_point_in_interior_definition : ∀ i₁ j₁ i₂ j₂ P_vertices, no_common_point_in_interior i₁ j₁ i₂ j₂ P_vertices ↔\n      openSegment ℝ (P_vertices i₁) (P_vertices j₁) ∩ openSegment ℝ (P_vertices i₂) (P_vertices j₂) = ∅)\n                                                                                                                                                                                                                                                                                                                                                                                                                                  \n    (is_constructed_line_segment : ∀ (i j : Fin 2006) (constructed_diagonals : Finset {(i, j) : Fin 2006 × Fin 2006 | i ≤ j ∧ is_diagonal i j}), Bool)\n    (is_constructed_line_segment_definition : ∀ i j constructed_diagonals,\n      is_constructed_line_segment i j constructed_diagonals ↔\n      is_side i j ∨\n      (∃ h, ⟨(i, j), h⟩ ∈ constructed_diagonals) ∨\n      (∃ h, ⟨(j, i), h⟩ ∈ constructed_diagonals))\n                                                                                                                                                  \n    (is_triangle : ∀ i j k : Fin 2006, Bool)\n    (is_triangle_definition : ∀ i j k, is_triangle i j k ↔\n      i ≠ j ∧ i ≠ k ∧ j ≠ k)\n                                                                                                                                                                                                                                                                                                                                                                                                         \n    (is_constructed_triangle : ∀ (i j k : Fin 2006) (constructed_diagonals : Finset {(i, j) : Fin 2006 × Fin 2006 | i ≤ j ∧ is_diagonal i j}), Bool)\n    (is_constructed_triangle_definition : ∀ i j k constructed_diagonals, is_constructed_triangle i j k constructed_diagonals ↔\n      is_triangle i j k ∧\n      is_constructed_line_segment i j constructed_diagonals ∧\n      is_constructed_line_segment i k constructed_diagonals ∧\n      is_constructed_line_segment j k constructed_diagonals)\n                                                                                                                                                                 \n    (is_isosceles_triangle : ∀ (i j k : Fin 2006) (P_vertices : Fin 2006 → ℝ²), Bool)\n    (is_isosceles_triangle_definition : ∀ i j k P_vertices, is_isosceles_triangle i j k P_vertices ↔\n      is_triangle i j k ∧\n      (\n        dist (P_vertices i) (P_vertices j) = dist (P_vertices i) (P_vertices k) ∨\n        dist (P_vertices i) (P_vertices j) = dist (P_vertices j) (P_vertices k) ∨\n        dist (P_vertices i) (P_vertices k) = dist (P_vertices j) (P_vertices k)\n      ))\n                                                                                                                                                                                                                              \n    (triangle_good_side_count : ∀ i j k : Fin 2006, ℕ)\n    (triangle_good_side_count_definition : ∀ i j k, triangle_good_side_count i j k =\n      ([(i, j), (i, k), (j, k)].filter (fun s ↦ is_good_line_segment s.1 s.2)).length)\n    : IsGreatest\n      {\n        special_triangle_count : ℕ |\n        ∃ P_vertices : Fin 2006 → ℝ²,\n        ∃ P_center : ℝ²,\n        ∃ P_vertex₀ : ℝ²,\n        P_vertices = regular_polygon_vertex P_center P_vertex₀ ⟨2006, by decide⟩ ∧\n        ∃ constructed_diagonals : Finset {(i, j) : Fin 2006 × Fin 2006 | i ≤ j ∧ is_diagonal i j},\n        constructed_diagonals.card = 2003 ∧\n        (∀ i₁ j₁ h₁ i₂ j₂ h₂,\n          ⟨(i₁, j₁), h₁⟩ ∈ constructed_diagonals →\n          ⟨(i₂, j₂), h₂⟩ ∈ constructed_diagonals →\n          (i₁, j₁) ≠ (i₂, j₂) →\n          no_common_point_in_interior i₁ j₁ i₂ j₂ P_vertices) ∧\n        ∃ special_triangles : Finset {(i, j, k) : Fin 2006 × Fin 2006 × Fin 2006 |\n          i ≤ j ∧\n          j ≤ k ∧\n          is_constructed_triangle i j k constructed_diagonals ∧\n          is_isosceles_triangle i j k P_vertices ∧\n          triangle_good_side_count i j k = 2},\n        special_triangle_count = special_triangles.card\n      }\n      answer(1003)"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

@@ -1,0 +1,62 @@
+tag: RN4PPC4TAD
+kind: formal
+problem: 7VQM2P1SF1
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/1994/P3.lean
+module: Imo.«1994».P3
+decl: imo_1994_p3
+answer:
+  style: embedded
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/1994/P3.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_1994_p3
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: |-
+  @[imo_problem_subject number_theory]
+  theorem imo_1994_p3 (f : ℕ → ℕ)
+      (h₀ : ∀ k, 0 < k →
+        f k = ((Finset.Icc (k + 1) (2 * k)).filter fun n => (Nat.digits 2 n).count 1 = 3).card) :
+      (∀ m, 0 < m → ∃ k, 0 < k ∧ f k = m) ∧
+        {m | 0 < m ∧ ∃! k, 0 < k ∧ f k = m} =
+          answer({a*(a - 1) / 2 + 1 | (a : ℕ) (h : a ≥ 2)})
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

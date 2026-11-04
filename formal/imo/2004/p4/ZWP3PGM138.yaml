@@ -1,0 +1,64 @@
+tag: ZWP3PGM138
+kind: formal
+problem: XANV4WB82F
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Imo2004P4.lean
+module: Compfiles.Imo2004P4
+decl: Imo2004P4.imo2004_p4
+answer:
+  style: none
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Imo2004P4.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Imo2004P4
+licence: Apache-2.0
+text: |-
+  theorem imo2004_p4 (n : ℕ) (hn : 3 ≤ n) (t : Fin n → ℝ)
+      (ht : ∀ i, 0 < t i)
+      (hsum : (∑ i, t i) * (∑ i, 1 / t i) < n ^ 2 + 1)
+      (i j k : Fin n) (hij : i < j) (hjk : j < k) :
+      ∃ T : Affine.Triangle ℝ (EuclideanSpace ℝ (Fin 2)),
+        dist (T.points 0) (T.points 1) = t i ∧
+        dist (T.points 1) (T.points 2) = t j ∧
+        dist (T.points 2) (T.points 0) = t k
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - SZTBC9YRR7

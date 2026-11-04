@@ -1,0 +1,63 @@
+tag: DEZFVDCJD2
+kind: formal
+problem: 8SC3PJDHN7
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/compfiles/1745e6ced3e6/Compfiles/Usa2000P3.lean
+module: Compfiles.Usa2000P3
+decl: Usa2000P3.usa2000_p3
+answer:
+  style: separate-def
+  decl: Usa2000P3.lowestScore
+origin:
+  kind: human
+  source: compfiles
+  url: https://github.com/dwrensha/compfiles/blob/1745e6ced3e671bd74417548494b034eb2c87da8/Compfiles/Usa2000P3.lean
+  commit: 1745e6ced3e671bd74417548494b034eb2c87da8
+  native_name: Usa2000P3
+licence: Apache-2.0
+text: |-
+  abbrev lowestScore (A B C : ℕ) : ℕ := min (min (A * C) (3 * A * B)) (2 * B * C)
+
+  theorem usa2000_p3 (A B C : ℕ) :
+      IsLeast {s : ℕ | ∃ l ∈ plays A B C, score l = s} (lowestScore A B C) ∧
+      ((plays A B C).filter (fun l ↦ score l = lowestScore A B C)).card =
+        fewestWays A B C
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - cd09195131f3
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 1
+proofs:
+  - T8347GAK5A

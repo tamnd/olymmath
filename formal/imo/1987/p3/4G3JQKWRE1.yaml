@@ -1,0 +1,55 @@
+tag: 4G3JQKWRE1
+kind: formal
+problem: PTF3F18WTR
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/1987/P3.lean
+module: Imo.«1987».P3
+decl: imo_1987_p3
+answer:
+  style: none
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/1987/P3.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_1987_p3
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: "@[imo_problem_subject algebra]\ntheorem imo_1987_p3\n    (n : ℕ) (h₀ : 1 ≤ n) (x : ℕ → ℝ) (h₁ : ∑ i ∈ Finset.Icc 1 n, x i ^ 2 = 1)\n    (k : ℕ)\n    (h₂ : 2 ≤ k) :\n                                              \n    ∃ a : ℕ → ℤ,\n                     \n      (∃ j ∈ Finset.Icc 1 n, a j ≠ 0) ∧\n                                             \n      (∀ i ∈ Finset.Icc 1 n, |a i| ≤ k - 1) ∧\n                                                                        \n      (|∑ i ∈ Finset.Icc 1 n, ↑(a i) * x i| ≤ (k - 1) * √↑n / (k ^ n - 1))"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 60cf0b555259
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 4

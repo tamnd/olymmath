@@ -1,0 +1,65 @@
+tag: YB9A54M5D6
+kind: formal
+problem: K7N8DGEQF4
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_2012_a3.lean
+module: src.putnam_2012_a3
+decl: putnam_2012_a3
+answer:
+  style: separate-def
+  decl: putnam_2012_a3_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_2012_a3.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_2012_a3
+licence: Apache-2.0
+text: |-
+  noncomputable abbrev putnam_2012_a3_solution : ℝ → ℝ := sorry
+
+  theorem putnam_2012_a3
+  (S : Set ℝ)
+  (hS : S = Set.Icc (-1 : ℝ) 1)
+  (fsat : (ℝ → ℝ) → Prop)
+  (hfsat : fsat = fun f : ℝ → ℝ => ContinuousOn f S ∧
+  (∀ x ∈ S, f x = ((2 - x^2)/2)*f (x^2/(2 - x^2))) ∧ f 0 = 1 ∧
+  (∃ y : ℝ, leftLim (fun x : ℝ => (f x)/Real.sqrt (1 - x)) 1 = y))
+  : fsat putnam_2012_a3_solution ∧ ∀ f : ℝ → ℝ, fsat f → ∀ x ∈ S, f x = putnam_2012_a3_solution x
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-03"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 8f7bef525373
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-03"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-03"
+      by: agent
+rank: 5

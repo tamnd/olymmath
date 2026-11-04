@@ -6,7 +6,7 @@ This report is made by `om coverage`. The register gives the expected positions 
 
 | Expected | C0 | C1 | C2 | Candidate | No candidate | Located seed rows |
 |---:|---:|---:|---:|---:|---:|---:|
-| 29285 | 64.9% | 8.8% | 7.2% | 869 (3.0%) | 9409 (32.1%) | 153885 |
+| 29409 | 64.6% | 8.8% | 7.1% | 953 (3.2%) | 9449 (32.1%) | 153885 |
 
 ## Sources
 
@@ -208,7 +208,8 @@ The order is the order of the register. A competition with no shape in the regis
 | cn-smo | China Southeast Mathematical Olympiad | 176 | 42.6% | 0.0% | 0.0% | 51 | 50 | 550 |
 | jp-jmo | Japan Mathematical Olympiad | 180 | 72.2% | 69.4% | 69.4% | 41 | 9 | 470 |
 | jp-jjmo | Japan Junior Mathematical Olympiad | 90 | 94.4% | 94.4% | 94.4% | 0 | 5 | 158 |
-| kr-kmo | Korean Mathematical Olympiad | 264 | 35.2% | 0.0% | 0.0% | 97 | 74 | 1612 |
+| kr-kmo | Korean Mathematical Olympiad | 208 | 24.5% | 0.0% | 0.0% | 88 | 69 | 1139 |
+| kr-fkmo | Final Korean Mathematical Olympiad | 180 | 23.3% | 0.0% | 0.0% | 93 | 45 | 473 |
 | tw-tst | Taiwan TST and National Olympiad | 159 | 39.6% | 0.0% | 0.0% | 7 | 89 | 567 |
 | hk-pc | Hong Kong Preliminary Selection Contest and TST | no shape | - | - | - | 0 | 0 | 880 |
 | mo-macau | Macau Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 0 |
@@ -287,7 +288,7 @@ The order is the order of the register. A competition with no shape in the regis
 
 ## Unknown competitions
 
-These labels do not resolve through the alias table (1287 keys). There are 1584 labels with 22628 rows. The full list is in `unknown-competitions.tsv`. To resolve a label, add a line to `registers/competition-aliases.tsv`, or add the competition to the register.
+These labels do not resolve through the alias table (1290 keys). There are 1584 labels with 22628 rows. The full list is in `unknown-competitions.tsv`. To resolve a label, add a line to `registers/competition-aliases.tsv`, or add the competition to the register.
 
 | Source | Label | Rows |
 |---|---|---:|

@@ -108,7 +108,7 @@ This report is made by `om dups` (spec 09.4). It takes 500 random problems of th
 | 0.59 | JMCPXAT6EX us-tst/2018/p5 | DSTW6KR1DH amc12/2008b/p8 | different |
 | 0.59 | BDT6R9H58G amc12/2017b/p13 | 5Y5F48YSKJ amc12/2022b/p4 | different |
 | 0.59 | PNDV0G51AT amc12/2003a/p9 | 27DGMPD9VJ amc12/2003a/p13 | different |
-| 0.59 | S1J8XX9N7J kr-kmo/2023/p2 | G361W319SN id-osn/2015/p4 | different |
+| 0.59 | S1J8XX9N7J kr-fkmo/2023/p2 | G361W319SN id-osn/2015/p4 | different |
 | 0.59 | WVFDQH3P3Z th-tmo/2023/p3 | FMRCQ0NB36 bg-mo/2013/p2 | different |
 | 0.59 | V165RZC20D amc12/2004a/p6 | 4HTB33FQJ4 it-cesenatico/2004/p3 | different |
 | 0.59 | BAA0ABXBWE apmo/2016/p3 | 8XN3P7XH13 hu-komal/2020/a771 | different |
@@ -166,7 +166,7 @@ This report is made by `om dups` (spec 09.4). It takes 500 random problems of th
 | 0.55 | BDT6R9H58G amc12/2017b/p13 | GTW1RJDSBZ amc12/2023a/p3 | different |
 | 0.55 | 6WNDZE67QH isl/1999/c6 | D3KK4BX70M caps/2000/p6 | same |
 | 0.55 | WSFSFBPGXP ie-irmo/2013/p3 | 77TN14M2VS hu-komal/2023/b5351 | different |
-| 0.55 | S1J8XX9N7J kr-kmo/2023/p2 | BPNJYFEXDR bg-mo/2015/p4 | different |
+| 0.55 | S1J8XX9N7J kr-fkmo/2023/p2 | BPNJYFEXDR bg-mo/2015/p4 | different |
 | 0.55 | 9C7Y1T7CJV amc12/2019a/p11 | PFV2P23CFC amc8/2018/p1 | different |
 | 0.55 | HNW19BTN5X apmo/2016/p5 | M357H1FBQ7 hmic/2018/p4 | different |
 | 0.55 | S3AG3KQZC7 hmnt/2022/u31 | 8PPED1NP7N baltic-way/2023/p2 | different |

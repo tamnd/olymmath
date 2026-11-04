@@ -1,12 +1,12 @@
 {
   "this_year": 2026,
   "totals": {
-    "expected": 29285,
+    "expected": 29409,
     "c0": 19007,
     "c1": 2578,
     "c2": 2099,
-    "candidate": 869,
-    "no_candidate": 9409,
+    "candidate": 953,
+    "no_candidate": 9449,
     "rows": 153885
   },
   "competitions": [
@@ -65849,31 +65849,15 @@
       "code": "kr-kmo",
       "name": "Korean Mathematical Olympiad",
       "group": "national",
-      "expected": 264,
-      "c0": 93,
+      "expected": 208,
+      "c0": 51,
       "c1": 0,
       "c2": 0,
-      "candidate": 97,
-      "no_candidate": 74,
-      "rows": 1612,
+      "candidate": 88,
+      "no_candidate": 69,
+      "rows": 1139,
       "shape": true,
       "years": [
-        {
-          "year": 1993,
-          "record": [
-            "p1",
-            "p2",
-            "p3",
-            "p4",
-            "p5",
-            "p6"
-          ],
-          "missing": [
-            "p7",
-            "p8"
-          ],
-          "rows": 12
-        },
         {
           "year": 1994,
           "candidate": [
@@ -65932,123 +65916,21 @@
             "p7",
             "p8"
           ],
-          "rows": 22
-        },
-        {
-          "year": 1998,
-          "record": [
-            "p2",
-            "p5"
-          ],
-          "candidate": [
-            "p3"
-          ],
-          "missing": [
-            "p1",
-            "p4",
-            "p6",
-            "p7",
-            "p8"
-          ],
-          "rows": 9
-        },
-        {
-          "year": 1999,
-          "record": [
-            "p2",
-            "p5"
-          ],
-          "candidate": [
-            "p1"
-          ],
-          "missing": [
-            "p3",
-            "p4",
-            "p6",
-            "p7",
-            "p8"
-          ],
-          "rows": 10
-        },
-        {
-          "year": 2000,
-          "missing": [
-            "p1",
-            "p2",
-            "p3",
-            "p4",
-            "p5",
-            "p6",
-            "p7",
-            "p8"
-          ],
-          "rows": 6
-        },
-        {
-          "year": 2001,
-          "record": [
-            "p2",
-            "p3",
-            "p4",
-            "p5",
-            "p6"
-          ],
-          "candidate": [
-            "p1"
-          ],
-          "missing": [
-            "p7",
-            "p8"
-          ],
-          "rows": 12
-        },
-        {
-          "year": 2002,
-          "record": [
-            "p1",
-            "p2",
-            "p3",
-            "p4",
-            "p5",
-            "p6"
-          ],
-          "missing": [
-            "p7",
-            "p8"
-          ],
-          "rows": 12
-        },
-        {
-          "year": 2003,
-          "candidate": [
-            "p1",
-            "p2",
-            "p3"
-          ],
-          "missing": [
-            "p4",
-            "p5",
-            "p6",
-            "p7",
-            "p8"
-          ],
-          "rows": 11
+          "rows": 16
         },
         {
           "year": 2004,
-          "candidate": [
+          "missing": [
             "p1",
             "p2",
-            "p3"
-          ],
-          "missing": [
+            "p3",
             "p4",
             "p5",
             "p6",
             "p7",
             "p8"
           ],
-          "rows": 17
+          "rows": 5
         },
         {
           "year": 2005,
@@ -66064,7 +65946,7 @@
             "p5",
             "p6"
           ],
-          "rows": 26
+          "rows": 16
         },
         {
           "year": 2006,
@@ -66080,14 +65962,10 @@
             "p2",
             "p3"
           ],
-          "rows": 28
+          "rows": 16
         },
         {
           "year": 2007,
-          "record": [
-            "p5",
-            "p6"
-          ],
           "candidate": [
             "p1",
             "p2",
@@ -66095,34 +65973,32 @@
             "p4"
           ],
           "missing": [
+            "p5",
+            "p6",
             "p7",
             "p8"
           ],
-          "rows": 27
+          "rows": 15
         },
         {
           "year": 2008,
-          "record": [
-            "p1",
-            "p2",
-            "p4",
-            "p5",
-            "p6"
-          ],
           "candidate": [
             "p3"
           ],
           "missing": [
+            "p1",
+            "p2",
+            "p4",
+            "p5",
+            "p6",
             "p7",
             "p8"
           ],
-          "rows": 21
+          "rows": 9
         },
         {
           "year": 2009,
           "record": [
-            "p5",
-            "p6",
             "p7",
             "p8"
           ],
@@ -66132,13 +66008,15 @@
             "p3",
             "p4"
           ],
-          "rows": 28
+          "missing": [
+            "p5",
+            "p6"
+          ],
+          "rows": 16
         },
         {
           "year": 2010,
           "record": [
-            "p5",
-            "p6",
             "p7",
             "p8"
           ],
@@ -66148,7 +66026,11 @@
             "p3",
             "p4"
           ],
-          "rows": 28
+          "missing": [
+            "p5",
+            "p6"
+          ],
+          "rows": 16
         },
         {
           "year": 2011,
@@ -66164,7 +66046,7 @@
             "p7",
             "p8"
           ],
-          "rows": 28
+          "rows": 16
         },
         {
           "year": 2012,
@@ -66180,7 +66062,7 @@
             "p2",
             "p3"
           ],
-          "rows": 28
+          "rows": 16
         },
         {
           "year": 2013,
@@ -66196,13 +66078,11 @@
             "p5",
             "p6"
           ],
-          "rows": 28
+          "rows": 16
         },
         {
           "year": 2014,
           "record": [
-            "p5",
-            "p6",
             "p7",
             "p8"
           ],
@@ -66212,13 +66092,15 @@
             "p3",
             "p4"
           ],
-          "rows": 28
+          "missing": [
+            "p5",
+            "p6"
+          ],
+          "rows": 16
         },
         {
           "year": 2015,
           "record": [
-            "p5",
-            "p6",
             "p7",
             "p8"
           ],
@@ -66228,7 +66110,11 @@
             "p3",
             "p4"
           ],
-          "rows": 28
+          "missing": [
+            "p5",
+            "p6"
+          ],
+          "rows": 16
         },
         {
           "year": 2016,
@@ -66244,7 +66130,7 @@
             "p5",
             "p6"
           ],
-          "rows": 27
+          "rows": 15
         },
         {
           "year": 2017,
@@ -66260,7 +66146,7 @@
             "p5",
             "p6"
           ],
-          "rows": 27
+          "rows": 15
         },
         {
           "year": 2018,
@@ -66276,7 +66162,7 @@
             "p5",
             "p6"
           ],
-          "rows": 28
+          "rows": 16
         },
         {
           "year": 2019,
@@ -66292,7 +66178,7 @@
             "p5",
             "p6"
           ],
-          "rows": 28
+          "rows": 16
         },
         {
           "year": 2020,
@@ -66308,7 +66194,7 @@
             "p7",
             "p8"
           ],
-          "rows": 24
+          "rows": 12
         },
         {
           "year": 2021,
@@ -66324,7 +66210,7 @@
             "p7",
             "p8"
           ],
-          "rows": 24
+          "rows": 12
         },
         {
           "year": 2022,
@@ -66340,23 +66226,21 @@
             "p5",
             "p6"
           ],
-          "rows": 27
+          "rows": 16
         },
         {
           "year": 2023,
-          "record": [
+          "missing": [
             "p1",
             "p2",
             "p3",
             "p4",
             "p5",
-            "p6"
-          ],
-          "missing": [
+            "p6",
             "p7",
             "p8"
           ],
-          "rows": 20
+          "rows": 8
         },
         {
           "year": 2024,
@@ -66370,7 +66254,7 @@
             "p7",
             "p8"
           ],
-          "rows": 14
+          "rows": 8
         },
         {
           "year": 2025,
@@ -66384,7 +66268,414 @@
             "p7",
             "p8"
           ],
-          "rows": 14
+          "rows": 8
+        }
+      ]
+    },
+    {
+      "code": "kr-fkmo",
+      "name": "Final Korean Mathematical Olympiad",
+      "group": "national",
+      "expected": 180,
+      "c0": 42,
+      "c1": 0,
+      "c2": 0,
+      "candidate": 93,
+      "no_candidate": 45,
+      "rows": 473,
+      "shape": true,
+      "years": [
+        {
+          "year": 1993,
+          "record": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 12
+        },
+        {
+          "year": 1997,
+          "missing": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 6
+        },
+        {
+          "year": 1998,
+          "record": [
+            "p2",
+            "p5"
+          ],
+          "candidate": [
+            "p3"
+          ],
+          "missing": [
+            "p1",
+            "p4",
+            "p6"
+          ],
+          "rows": 9
+        },
+        {
+          "year": 1999,
+          "record": [
+            "p2",
+            "p5"
+          ],
+          "candidate": [
+            "p1"
+          ],
+          "missing": [
+            "p3",
+            "p4",
+            "p6"
+          ],
+          "rows": 10
+        },
+        {
+          "year": 2000,
+          "missing": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 6
+        },
+        {
+          "year": 2001,
+          "record": [
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "candidate": [
+            "p1"
+          ],
+          "rows": 12
+        },
+        {
+          "year": 2002,
+          "record": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 12
+        },
+        {
+          "year": 2003,
+          "candidate": [
+            "p1",
+            "p2",
+            "p3"
+          ],
+          "missing": [
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 11
+        },
+        {
+          "year": 2004,
+          "candidate": [
+            "p1",
+            "p2",
+            "p3"
+          ],
+          "missing": [
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 12
+        },
+        {
+          "year": 2005,
+          "candidate": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 10
+        },
+        {
+          "year": 2006,
+          "candidate": [
+            "p1",
+            "p2",
+            "p3"
+          ],
+          "missing": [
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 12
+        },
+        {
+          "year": 2007,
+          "record": [
+            "p5",
+            "p6"
+          ],
+          "candidate": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ],
+          "rows": 12
+        },
+        {
+          "year": 2008,
+          "record": [
+            "p1",
+            "p2",
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "candidate": [
+            "p3"
+          ],
+          "rows": 12
+        },
+        {
+          "year": 2009,
+          "record": [
+            "p5",
+            "p6"
+          ],
+          "candidate": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ],
+          "rows": 12
+        },
+        {
+          "year": 2010,
+          "record": [
+            "p5",
+            "p6"
+          ],
+          "candidate": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ],
+          "rows": 12
+        },
+        {
+          "year": 2011,
+          "candidate": [
+            "p1",
+            "p2",
+            "p3"
+          ],
+          "missing": [
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 12
+        },
+        {
+          "year": 2012,
+          "candidate": [
+            "p1",
+            "p2",
+            "p3"
+          ],
+          "missing": [
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 12
+        },
+        {
+          "year": 2013,
+          "candidate": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 12
+        },
+        {
+          "year": 2014,
+          "record": [
+            "p5",
+            "p6"
+          ],
+          "candidate": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ],
+          "rows": 12
+        },
+        {
+          "year": 2015,
+          "record": [
+            "p5",
+            "p6"
+          ],
+          "candidate": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ],
+          "rows": 12
+        },
+        {
+          "year": 2016,
+          "candidate": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 12
+        },
+        {
+          "year": 2017,
+          "candidate": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 12
+        },
+        {
+          "year": 2018,
+          "candidate": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 12
+        },
+        {
+          "year": 2019,
+          "candidate": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 12
+        },
+        {
+          "year": 2020,
+          "candidate": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 12
+        },
+        {
+          "year": 2021,
+          "candidate": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 12
+        },
+        {
+          "year": 2022,
+          "candidate": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 11
+        },
+        {
+          "year": 2023,
+          "record": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 12
+        },
+        {
+          "year": 2024,
+          "missing": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 6
+        },
+        {
+          "year": 2025,
+          "missing": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "rows": 6
         }
       ]
     },
@@ -86091,5 +86382,5 @@
       "rows": 1
     }
   ],
-  "aliases": 1287
+  "aliases": 1290
 }

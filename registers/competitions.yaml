@@ -2485,7 +2485,21 @@
   per_year: 8
   languages: [ko]
   sources: [kms, hf-hrm8k, hf-mathnet]
-  description: The Korean olympiad with a preliminary round of 20 problems and a final round (FKMO) of 8 problems.
+  description: The Korean olympiad of the KMS. The second round of the high-school division has 8 problems in two days. The edition holds these 8 problems. The first round of 20 short-answer problems is not part of it, and the final round is kr-fkmo.
+
+- code: kr-fkmo
+  name: Final Korean Mathematical Olympiad
+  short: FKMO
+  group: national
+  level: high-school
+  country: KR
+  organizer: KMS
+  url: https://www.kmo.or.kr/
+  edition_form: year
+  per_year: 6
+  languages: [ko]
+  sources: [kms, hf-mathnet]
+  description: The final round of the Korean olympiad. The best students of the second round of kr-kmo take it. It has 6 problems in two days.
 
 - code: tw-tst
   name: Taiwan TST and National Olympiad

@@ -1,0 +1,8 @@
+id: 49e516c4818a
+kind: official
+records:
+    - in-inmo/2012/p6
+decision: accept
+by: agent
+date: "2026-11-04"
+note: Agent decision, not a person's review. The record states the same problem as problem 6 of the official paper with solutions of 2012, page 5. I read both. The text score is low because the paper text also holds the solution, and the PDF text has no TeX.

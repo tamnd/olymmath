@@ -6,7 +6,6 @@
   origin: D
   url: https://huggingface.co/datasets/ShadenA/MathNet
   access: hf
-  licence: MIT (dataset); CC BY 4.0 (paper)
   zone:
     statement: Z2
     solution: Z2
@@ -14,7 +13,7 @@
   size: 27,817 HF rows; 30,676 in the paper
   wave: 0
   state: planned
-  terms: The dataset card gives the MIT licence and the paper gives CC BY 4.0. The texts come from national olympiad booklets, so the source of each booklet is cited.
+  terms: The dataset card gives CC BY 4.0 (https://huggingface.co/datasets/ShadenA/MathNet, read on 2026-11-04). The texts come from national olympiad booklets and keep the copyright of their competitions, so the dataset licence does not cover them (spec 11.1). The statements stay Z2 with the booklet cited. Agent decision, not a person's review.
   notes: Official-booklet statements from 47 countries and 143 competitions. Each item keeps the copyright of its competition.
 
 - id: hf-numina-olympiads
@@ -77,7 +76,7 @@
   size: about 316k non-synthetic rows before dedup
   wave: 0
   state: planned
-  terms: The dataset card gives the Apache 2.0 licence. The amc_aime texts come from the AoPS wiki, so each one is a transcription of the official paper.
+  terms: The dataset card gives the Apache 2.0 licence (https://huggingface.co/datasets/project-numina/NuminaMath-1.5). The texts come from competition papers, forums and the AoPS wiki, so the dataset licence does not cover them (spec 11.1), and the statements stay Z2.
   notes: Used for discovery through the source field. Synthetic rows are not used.
 
 - id: hf-omni-math
@@ -86,6 +85,7 @@
   origin: D
   url: https://huggingface.co/datasets/KbsdJames/Omni-MATH
   access: hf
+  terms: The dataset card gives the Apache 2.0 licence (https://huggingface.co/datasets/KbsdJames/Omni-MATH). The texts are competition statements and AoPS solutions, so the dataset licence does not cover them (spec 11.1), and the statements stay Z2.
   zone:
     statement: Z2
     solution: Z2
@@ -101,6 +101,7 @@
   origin: D
   url: https://huggingface.co/datasets/Hothan/OlympiadBench
   access: hf
+  terms: The dataset card gives the Apache 2.0 licence (https://huggingface.co/datasets/Hothan/OlympiadBench). The texts are competition statements, so the dataset licence does not cover them (spec 11.1), and the statements stay Z2.
   zone:
     statement: Z2
     solution: Z2
@@ -123,7 +124,7 @@
   size: about 43k rows with links
   wave: 0
   state: planned
-  terms: The dataset card gives the MIT licence. The texts come from the AoPS wiki, so the page links stay with each statement.
+  terms: The dataset card gives the MIT licence (https://huggingface.co/datasets/sandropa/aops-problems). The texts come from the AoPS wiki and keep the rights of AoPS and of the competitions, so the dataset licence does not cover them (spec 11.1), and the statements stay Z2 with ai_train no.
   notes: AMC, AIME and USAMO statements and wiki solutions with page links.
 
 - id: hf-openmathreasoning
@@ -132,6 +133,7 @@
   origin: M
   url: https://huggingface.co/datasets/nvidia/OpenMathReasoning
   access: hf
+  terms: The dataset card gives CC BY 4.0 (https://huggingface.co/datasets/nvidia/OpenMathReasoning). A model rewrote AoPS posts, so the texts are not reference texts and the AoPS posts keep their authors' rights (spec 11.1). Z3, used for discovery only.
   zone:
     statement: Z3
     solution: Z3
@@ -147,6 +149,7 @@
   origin: M
   url: https://huggingface.co/datasets/nvidia/Nemotron-Math-Proofs-v1
   access: hf
+  terms: The dataset card gives CC BY-SA 4.0 (https://huggingface.co/datasets/nvidia/Nemotron-Math-Proofs-v1). A model rewrote AoPS posts, so the texts are not reference texts and the AoPS posts keep their authors' rights (spec 11.1). Z3, used for discovery only.
   zone:
     statement: Z3
     solution: Z3
@@ -162,6 +165,7 @@
   origin: M
   url: https://huggingface.co/datasets/nvidia/Nemotron-Math-v2
   access: hf
+  terms: The dataset card gives CC BY 4.0 and CC BY-SA 4.0 (https://huggingface.co/datasets/nvidia/Nemotron-Math-v2). A model rewrote AoPS posts, so the texts are not reference texts and the AoPS posts keep their authors' rights (spec 11.1). Z3, used for discovery only.
   zone:
     statement: Z3
     solution: Z3
@@ -177,6 +181,7 @@
   origin: D
   url: https://huggingface.co/datasets/DeepStudentLlama/AoPS-Instruct
   access: hf
+  terms: The dataset card gives the MIT licence (https://huggingface.co/datasets/DeepStudentLlama/AoPS-Instruct). The texts are AoPS posts that belong to their authors, so the dataset licence does not cover them (spec 11.1).
   zone:
     statement: Z2
     solution: Z2
@@ -192,6 +197,7 @@
   origin: D
   url: https://huggingface.co/datasets/jojo23333/LiveAoPSBench-2024
   access: hf
+  terms: The dataset card gives the Apache 2.0 licence (https://huggingface.co/datasets/jojo23333/LiveAoPSBench-2024). The texts are AoPS posts that belong to their authors, so the dataset licence does not cover them (spec 11.1).
   zone:
     statement: Z2
     solution: Z2
@@ -207,6 +213,7 @@
   url: https://huggingface.co/MathArena
   access: hf
   licence: CC BY-NC-SA 4.0
+  terms: CC BY-NC-SA 4.0 (https://huggingface.co/MathArena). Spec 11.2 puts MathArena in Z3, because the non-commercial terms do not fit the CC BY-SA site licence.
   zone:
     statement: Z3
     solution: Z3
@@ -298,6 +305,7 @@
   origin: D
   url: https://huggingface.co/datasets/blackhao0426/PutnamGAP
   access: hf
+  terms: The dataset card gives CC BY 4.0 (https://huggingface.co/datasets/blackhao0426/PutnamGAP). The original statements are MAA texts, so the licence covers only the variants of the authors, and the statements stay Z2. Kedlaya asks for links, so solutions stay Z3.
   zone:
     statement: Z2
     solution: Z3
@@ -312,6 +320,7 @@
   origin: D
   url: https://huggingface.co/datasets/RUC-AIBOX/OlymMATH
   access: hf
+  terms: The dataset card gives the MIT licence (https://huggingface.co/datasets/RUC-AIBOX/OlymMATH). The problems were collected from printed books and magazines, so the dataset licence does not cover them (spec 11.1), and the statements stay Z2.
   zone:
     statement: Z2
     solution: Z2
@@ -327,6 +336,7 @@
   url: https://huggingface.co/datasets/meituan-longcat/AMO-Bench
   access: hf
   licence: MIT
+  terms: The dataset card and the GitHub repository give the MIT licence (https://huggingface.co/datasets/meituan-longcat/AMO-Bench and https://github.com/meituan-longcat/AMO-Bench/blob/main/LICENSE, read on 2026-11-04). The 50 problems and their solutions were written for the benchmark by its authors, so the licence covers the texts. Zone Z1. Agent decision, not a person's review.
   zone:
     statement: Z1
     solution: Z1
@@ -342,6 +352,7 @@
   url: https://huggingface.co/datasets/nvidia/Nemotron-IMO-Bench
   access: hf
   licence: CC BY 4.0
+  terms: The dataset card gives CC BY 4.0 (https://huggingface.co/datasets/nvidia/Nemotron-IMO-Bench, licence text at https://creativecommons.org/licenses/by/4.0/, read on 2026-11-04). The card says that the 200 problems and proofs were written for the benchmark with Titu Andreescu and were not published before, so the licence covers the texts. Zone Z1. The card asks that the problems are not put in training data, so ai_train is no and the HF export leaves the texts out. Agent decision, not a person's review.
   zone:
     statement: Z1
     solution: Z1
@@ -396,9 +407,11 @@
   origin: D
   url: https://huggingface.co/datasets/MathOdyssey/MathOdyssey
   access: hf
+  licence: MIT
+  terms: The GitHub repository of the dataset gives the MIT licence (https://github.com/protagolabs/odyssey-math/blob/main/LICENSE, read on 2026-11-04). The README says that the 387 problems were written for the Global Artificial Intelligence Championship Math 2024 by invited problem setters and were original and kept confidential, so the licence covers the texts. The HF card states no licence. Zone Z1. Agent decision, not a person's review.
   zone:
-    statement: Z2
-    solution: Z2
+    statement: Z1
+    solution: Z1
   ai_train: unknown
   wave: 0
   state: planned
@@ -410,6 +423,8 @@
   origin: D
   url: https://huggingface.co/datasets/GAIR/OlympicArena
   access: hf
+  licence: CC BY-NC-SA 4.0
+  terms: The dataset card gives CC BY-NC-SA 4.0 (https://huggingface.co/datasets/GAIR/OlympicArena). The non-commercial and share-alike terms do not fit the CC BY-SA site licence, so it stays Z3 (spec 11.2).
   zone:
     statement: Z3
     solution: Z3
@@ -424,6 +439,7 @@
   origin: D
   url: https://huggingface.co/datasets/ytu-ce-cosmos/tubitak-science-olympiad-tr
   access: hf
+  terms: The dataset card gives CC BY 4.0 (https://huggingface.co/datasets/ytu-ce-cosmos/tubitak-science-olympiad-tr). The problems are TÜBİTAK papers, so the dataset licence does not cover them (spec 11.1), and the statements stay Z2.
   zone:
     statement: Z2
     solution: Z2
@@ -454,6 +470,7 @@
   origin: D
   url: https://huggingface.co/datasets/HAERAE-HUB/HRM8K
   access: hf
+  terms: The dataset card gives the MIT licence (https://huggingface.co/datasets/HAERAE-HUB/HRM8K). The KMO and other problems keep the copyright of their competitions, so the dataset licence does not cover them (spec 11.1), and the statements stay Z2.
   zone:
     statement: Z2
     solution: Z2
@@ -731,8 +748,8 @@
   origin: H3
   url: https://math.stackexchange.com/
   access: api
-  licence: CC BY-SA
-  terms: CC BY-SA 4.0. Each answer names its author and links to the post.
+  licence: CC BY-SA 4.0
+  terms: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/), as the Stack Exchange terms say (https://stackoverflow.com/legal/terms-of-service/public). Each answer names its author and links to the post.
   zone:
     statement: Z1
     solution: Z1
@@ -1962,10 +1979,10 @@
   origin: H3
   url: https://en.wikipedia.org/
   access: api
-  licence: CC BY-SA
+  terms: The text of Wikipedia is CC BY-SA 4.0 (https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License). A problem statement that a page quotes keeps the copyright of its competition, so the licence does not cover it (spec 11.1). Statements and solutions are Z2, as for other competition statements, with the link to the page. Agent decision, not a person's review.
   zone:
-    statement: Z3
-    solution: Z3
+    statement: Z2
+    solution: Z2
   ai_train: unknown
   wave: 3
   state: planned

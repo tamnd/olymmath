@@ -16,39 +16,40 @@ origin:
   commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
   native_name: putnam_1978_b3
 licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
 text: "theorem putnam_1978_b3\n(P : ℕ+ → Polynomial ℝ)\n(hP1 : P 1 = 1 + X)\n(hP2 : P 2 = 1 + 2 * X)\n(hPodd : ∀ n, P (2 * n + 1) = P (2 * n) + C ((n : ℝ) + 1) * X * P (2 * n - 1))\n(hPeven : ∀ n, P (2 * n + 2) = P (2 * n + 1) + C ((n : ℝ) + 1) * X * P (2 * n))\n(a : ℕ+ → ℝ)\n(haroot : ∀ n, (P n).eval (a n) = 0)\n(haub : ∀ n, ∀ x, (P n).eval x = 0 → x ≤ a n)\n: (StrictMono a ∧ Tendsto a atTop (\U0001D4DD 0))"
 check:
   result: pass
   toolchain: leanprover/lean4:v4.35.0
   mathlib: v4.35.0
-  at: "2026-11-03"
+  at: "2026-11-04"
 fidelity:
   status: checker-clean
   reviews:
-    - 8f7bef525373
+    - ecdf02245176
   steps:
     - step: compile
       result: pass
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: static-checks
       result: pass
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: counterexample-search
       result: not-run
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: back-translation
       result: not-run
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: equivalence
       result: not-run
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: human-review
       result: not-run
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
 rank: 5

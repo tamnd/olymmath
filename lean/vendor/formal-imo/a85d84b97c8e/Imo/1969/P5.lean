@@ -28,7 +28,7 @@ Given $n>4$ points in the plane, no three collinear. Prove that there are at lea
 theorem imo_1969_p5
     (n : ℕ) (hn : 4 < n)
     (S : Finset ℝ²) (S_card : S.card = n)
-    (S_ncoll : Set.Triplewise S.toSet (¬Collinear ℝ {·, ·, ·}))
+    (S_ncoll : Set.Triplewise (S : Set ℝ²) (¬Collinear ℝ {·, ·, ·}))
     (convex : Finset ℝ² → Prop)
     (convex_def : ∀ P, convex P ↔ ∀ p ∈ P, p ∉ convexHull ℝ (P \ {p})) :
     Nat.choose (n - 3) 2 ≤ (S.powersetCard 4 |>.filter convex |>.card) := by

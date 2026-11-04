@@ -1,0 +1,56 @@
+tag: EF6CT7MZS6
+kind: formal
+problem: ZSKVC9SM8E
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/putnambench/a635813f5edf/src/putnam_1979_b2.lean
+module: src.putnam_1979_b2
+decl: putnam_1979_b2
+answer:
+  style: separate-def
+  decl: putnam_1979_b2_solution
+origin:
+  kind: human
+  source: putnambench
+  url: https://github.com/trishullab/PutnamBench/blob/a635813f5edf297d928f9bd5ef8324a26bdde09c/lean4/src/putnam_1979_b2.lean
+  commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
+  native_name: putnam_1979_b2
+licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
+text: "noncomputable abbrev putnam_1979_b2_solution : ℝ × ℝ → ℝ := sorry\n\ntheorem putnam_1979_b2\n: ∀ a b : ℝ, 0 < a ∧ a < b → Tendsto (fun t : ℝ => (∫ x in Icc 0 1, (b*x + a*(1 - x))^t)^(1/t)) (\U0001D4DD[≠] 0) (\U0001D4DD (putnam_1979_b2_solution (a, b)))"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-04"
+fidelity:
+  status: checker-clean
+  reviews:
+    - ecdf02245176
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-04"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-04"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+rank: 5

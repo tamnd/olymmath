@@ -1,3 +1,36 @@
+--- a/lean/vendor/formal-imo/a85d84b97c8e/Imo/1969/P5.lean
++++ b/lean/vendor/formal-imo/a85d84b97c8e/Imo/1969/P5.lean
+@@ -31 +31 @@
+-    (S_ncoll : Set.Triplewise S.toSet (¬Collinear ℝ {·, ·, ·}))
++    (S_ncoll : Set.Triplewise (S : Set ℝ²) (¬Collinear ℝ {·, ·, ·}))
+--- a/lean/vendor/formal-imo/a85d84b97c8e/Imo/1970/P6.lean
++++ b/lean/vendor/formal-imo/a85d84b97c8e/Imo/1970/P6.lean
+@@ -27 +27 @@
+-    (S_ncoll : Set.Triplewise S.toSet (¬Collinear ℝ {·, ·, ·}))
++    (S_ncoll : Set.Triplewise (S : Set ℝ²) (¬Collinear ℝ {·, ·, ·}))
+--- a/lean/vendor/formal-imo/a85d84b97c8e/Imo/1992/P3.lean
++++ b/lean/vendor/formal-imo/a85d84b97c8e/Imo/1992/P3.lean
+@@ -34 +34 @@
+-    T.toSet ⊆ P ∧ P < ⊤) → False} :
++    (T : Set (Fin 3 → ℝ)) ⊆ P ∧ P < ⊤) → False} :
+--- a/lean/vendor/formal-imo/a85d84b97c8e/Imo/2004/P6.lean
++++ b/lean/vendor/formal-imo/a85d84b97c8e/Imo/2004/P6.lean
+@@ -32 +32 @@
+-      (Nat.digits 10 n).Chain' fun d1 d2 => (Odd d1 ↔ Even d2) ∧ (Even d1 ↔ Odd d2)) :
++      (Nat.digits 10 n).IsChain fun d1 d2 => (Odd d1 ↔ Even d2) ∧ (Even d1 ↔ Odd d2)) :
+--- a/lean/vendor/formal-imo/a85d84b97c8e/Imo/2020/P4.lean
++++ b/lean/vendor/formal-imo/a85d84b97c8e/Imo/2020/P4.lean
+@@ -53 +53 @@
+-                  l.Chain' fun si sj => ∃ i, start c i = si ∧ finish c i = sj),
++                  l.IsChain fun si sj => ∃ i, start c i = si ∧ finish c i = sj),
+--- a/lean/vendor/formal-imo/a85d84b97c8e/Imo/2022/P6.lean
++++ b/lean/vendor/formal-imo/a85d84b97c8e/Imo/2022/P6.lean
+@@ -57 +57 @@
+-      L.Chain' isAdj ∧
++      L.IsChain isAdj ∧
+@@ -58 +58 @@
+-      L.Chain' (fun i j => B i ≤ B j)) :
++      L.IsChain (fun i j => B i ≤ B j)) :
 --- a/lean/vendor/formal-imo/a85d84b97c8e/Imo/ProblemImports.lean
 +++ b/lean/vendor/formal-imo/a85d84b97c8e/Imo/ProblemImports.lean
 @@ -21 +21 @@

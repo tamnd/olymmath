@@ -17,39 +17,40 @@ origin:
   commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
   native_name: putnam_2009_a3
 licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
 text: "abbrev putnam_2009_a3_solution : ℝ := sorry\n\ntheorem putnam_2009_a3\n(cos_matrix : (n : ℕ) → Matrix (Fin n) (Fin n) ℝ)\n(hM : ∀ n : ℕ, ∀ i j : Fin n, (cos_matrix n) i j = Real.cos (1 + n * i + j))\n: Tendsto (fun n => (cos_matrix n).det) atTop (\U0001D4DD putnam_2009_a3_solution)"
 check:
   result: pass
   toolchain: leanprover/lean4:v4.35.0
   mathlib: v4.35.0
-  at: "2026-11-03"
+  at: "2026-11-04"
 fidelity:
   status: checker-clean
   reviews:
-    - 8f7bef525373
+    - ecdf02245176
   steps:
     - step: compile
       result: pass
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: static-checks
       result: pass
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: counterexample-search
       result: not-run
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: back-translation
       result: not-run
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: equivalence
       result: not-run
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: human-review
       result: not-run
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
 rank: 5

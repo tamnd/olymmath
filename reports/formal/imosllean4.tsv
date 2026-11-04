@@ -1,5 +1,4 @@
 # The import of imosllean4 at 883b0326e585ac9a2148e5d67a4c335bb4f798be: 174 statements, 164 mapped to a problem, 164 with a proof.
-# 2 mapped statements did not compile at Lean v4.35.0 and Mathlib v4.35.0, so they have the status fails-at-pin and no record.
 # native	decl	part	locator	status	tag	proved
 IMO2006A1	IMOSL.IMO2006A1.final_solution		isl/2006/a1	mapped	FZ85KW607H	true
 IMO2006A2	IMOSL.IMO2006A2.final_solution		isl/2006/a2	mapped	YD9RJ29F3Y	true
@@ -44,7 +43,7 @@ IMO2009A6	IMOSL.IMO2009A6.final_solution		isl/2009/a6	mapped	BPHFM4HN4N	true
 IMO2009A7	IMOSL.IMO2009A7.final_solution		isl/2009/a7	mapped	CBKGGRX4P1	true
 IMO2009C2	IMOSL.IMO2009C2.final_solution		isl/2009/c2	mapped	D9WFFNFKXP	true
 IMO2009C3	IMOSL.IMO2009C3.final_solution		isl/2009/c3	mapped	53VZ2SF7T6	true
-IMO2009C5	IMOSL.IMO2009C5.final_solution		isl/2009/c5	fails-at-pin		true
+IMO2009C5	IMOSL.IMO2009C5.final_solution		isl/2009/c5	mapped	KTSVGAQDSQ	true
 IMO2009N1	IMOSL.IMO2009N1.final_solution		isl/2009/n1	mapped	HVRRQ95QKS	true
 IMO2009N2	IMOSL.IMO2009N2.final_solution_part1	1	isl/2009/n2	mapped	28JM4EBY2D	true
 IMO2009N2	IMOSL.IMO2009N2.final_solution_part2	2	isl/2009/n2	mapped	AHQMX5DFYJ	true
@@ -57,7 +56,7 @@ IMO2010A2	IMOSL.IMO2010A2.final_solution		isl/2010/a2	mapped	S1YRD26CPP	true
 IMO2010A3	IMOSL.IMO2010A3.final_solution		isl/2010/a3	mapped	23JZZQ0W7N	true
 IMO2010A4	IMOSL.IMO2010A4.final_solution		isl/2010/a4	mapped	X9CSG8W6WA	true
 IMO2010A6	IMOSL.IMO2010A6.final_solution		isl/2010/a6	mapped	KFH2VZ1VR1	true
-IMO2010C4	IMOSL.IMO2010C4.final_solution		isl/2010/c4	fails-at-pin		true
+IMO2010C4	IMOSL.IMO2010C4.final_solution		isl/2010/c4	mapped	2P90WJ33C8	true
 IMO2010N2	IMOSL.IMO2010N2.final_solution		isl/2010/n2	mapped	XSC6QYM5FN	true
 IMO2010N4	IMOSL.IMO2010N4.final_solution_part1	1	isl/2010/n4	mapped	H642D1XQBA	true
 IMO2010N4	IMOSL.IMO2010N4.final_solution_part2	2	isl/2010/n4	mapped	7JZGEQ83DH	true

@@ -1,0 +1,20 @@
+--- a/lean/vendor/putnambench/a635813f5edf/src/putnam_1987_a4.lean
++++ b/lean/vendor/putnambench/a635813f5edf/src/putnam_1987_a4.lean
+@@ -16 +16 @@
+-(hPreal : ∀ i : Fin 3 →₀ ℕ, (coeff i P).im = 0)
++(hPreal : ∀ i : Fin 3 →₀ ℕ, (P.coeff i).im = 0)
+--- a/lean/vendor/putnambench/a635813f5edf/src/putnam_2021_a1.lean
++++ b/lean/vendor/putnambench/a635813f5edf/src/putnam_2021_a1.lean
+@@ -14 +14 @@
+-    (P_def : ∀ l, P l ↔ l.Chain' fun p q ↦ (p.1 - q.1) ^ 2 + (p.2 - q.2) ^ 2 = 25) :
++    (P_def : ∀ l, P l ↔ l.IsChain fun p q ↦ (p.1 - q.1) ^ 2 + (p.2 - q.2) ^ 2 = 25) :
+--- a/lean/vendor/putnambench/a635813f5edf/src/putnam_2022_a5.lean
++++ b/lean/vendor/putnambench/a635813f5edf/src/putnam_2022_a5.lean
+@@ -14 +14 @@
+-    (IsValidGame_def : ∀ g, IsValidGame g ↔ (∃ gt, g = ∅ :: gt) ∧ g.Chain' IsValidMove)
++    (IsValidGame_def : ∀ g, IsValidGame g ↔ (∃ gt, g = ∅ :: gt) ∧ g.IsChain IsValidMove)
+--- a/lean/vendor/putnambench/a635813f5edf/src/putnam_2025_a3.lean
++++ b/lean/vendor/putnambench/a635813f5edf/src/putnam_2025_a3.lean
+@@ -18 +18 @@
+-  play.Chain isValidMove (initialState n) ∧
++  (initialState n :: play).IsChain isValidMove ∧

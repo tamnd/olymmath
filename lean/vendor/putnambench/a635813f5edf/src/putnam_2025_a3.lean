@@ -15,7 +15,7 @@ def isValidMove {n : ℕ} (s1 s2 : GameString n) : Prop :=
     ((s1 i).val + 1 = (s2 i).val ∨ (s2 i).val + 1 = (s1 i).val)
 
 def IsValidGamePlay {n : ℕ} (play : List (GameString n)) : Prop :=
-  play.Chain isValidMove (initialState n) ∧
+  (initialState n :: play).IsChain isValidMove ∧
   (initialState n :: play).Nodup
 
 inductive HasWinningStrategy (n : ℕ) : List (GameString n) → Prop where

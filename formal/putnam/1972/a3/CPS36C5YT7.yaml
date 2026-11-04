@@ -17,39 +17,40 @@ origin:
   commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
   native_name: putnam_1972_a3
 licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
 text: "abbrev putnam_1972_a3_solution : Set (ℝ → ℝ) := sorry\n\ntheorem putnam_1972_a3\n    (climit_exists : (ℕ → ℝ) → Prop)\n    (supercontinuous : (ℝ → ℝ) → Prop)\n    (hclimit_exists : ∀ x, climit_exists x ↔ ∃ C : ℝ, Tendsto (fun n => (∑ i ∈ Finset.range n, (x i))/(n : ℝ)) atTop (\U0001D4DD C))\n    (hsupercontinuous : ∀ f, supercontinuous f ↔ ∀ (x : ℕ → ℝ), (∀ i : ℕ, x i ∈ Icc 0 1) → climit_exists x → climit_exists (fun i => f (x i))) :\n    {f | supercontinuous f} = putnam_1972_a3_solution"
 check:
   result: pass
   toolchain: leanprover/lean4:v4.35.0
   mathlib: v4.35.0
-  at: "2026-11-03"
+  at: "2026-11-04"
 fidelity:
   status: checker-clean
   reviews:
-    - 8f7bef525373
+    - ecdf02245176
   steps:
     - step: compile
       result: pass
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: static-checks
       result: pass
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: counterexample-search
       result: not-run
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: back-translation
       result: not-run
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: equivalence
       result: not-run
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: human-review
       result: not-run
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
 rank: 5

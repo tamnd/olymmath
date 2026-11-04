@@ -18,6 +18,7 @@ origin:
 licence: Apache-2.0
 options:
   autoImplicit: "true"
+  relaxedAutoImplicit: "true"
 text: |-
   theorem final_solution : ∀ n : ℕ, (n : ℤ) ≤ a b n ∨ (n : ℤ) ≤ a b n.succ
     | 0 => Or.inl (le_refl 0)
@@ -27,35 +28,35 @@ check:
   result: pass
   toolchain: leanprover/lean4:v4.35.0
   mathlib: v4.35.0
-  at: "2026-11-03"
+  at: "2026-11-04"
   note: The source needs autoImplicit true.
 fidelity:
   status: unreviewed
   steps:
     - step: compile
       result: fail
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
       note: The file compiles only with autoImplicit true, so a name in the statement can be bound by accident.
     - step: static-checks
       result: pass
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: counterexample-search
       result: not-run
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: back-translation
       result: not-run
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: equivalence
       result: not-run
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: human-review
       result: not-run
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
 rank: 2
 proofs:

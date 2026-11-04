@@ -1,0 +1,63 @@
+tag: 867GFF7MPG
+kind: formal
+problem: 127YX9M0H0
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/1969/P5.lean
+module: Imo.«1969».P5
+decl: imo_1969_p5
+answer:
+  style: none
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/1969/P5.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_1969_p5
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: |-
+  @[imo_problem_subject combinatorics]
+  theorem imo_1969_p5
+      (n : ℕ) (hn : 4 < n)
+      (S : Finset ℝ²) (S_card : S.card = n)
+      (S_ncoll : Set.Triplewise S.toSet (¬Collinear ℝ {·, ·, ·}))
+      (convex : Finset ℝ² → Prop)
+      (convex_def : ∀ P, convex P ↔ ∀ p ∈ P, p ∉ convexHull ℝ (P \ {p})) :
+      Nat.choose (n - 3) 2 ≤ (S.powersetCard 4 |>.filter convex |>.card)
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-04"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 2e8879b683ad
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-04"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-04"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+rank: 4

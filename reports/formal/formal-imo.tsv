@@ -1,5 +1,4 @@
 # The import of formal-imo at a85d84b97c8e88a352c136b1e29c355139609bea: 258 statements, 253 mapped to a problem, 0 with a proof.
-# 6 mapped statements did not compile at Lean v4.35.0 and Mathlib v4.35.0, so they have the status fails-at-pin and no record.
 # native	decl	part	locator	status	tag	proved
 imo_1959_p1	imo_1959_p1		imo/1959/p1	mapped	FNEP2B24AG	false
 imo_1959_p2	imo_1959_p2		imo/1959/p2	mapped	VFCARA2A0F	false
@@ -32,12 +31,12 @@ imo_1968_p5	imo_1968_p5		imo/1968/p5	mapped	PMZJ97733Y	false
 imo_1968_p6	imo_1968_p6		imo/1968/p6	mapped	WHRYV39M07	false
 imo_1969_p1	imo_1969_p1		imo/1969/p1	mapped	ENW722TRMK	false
 imo_1969_p2	imo_1969_p2		imo/1969/p2	mapped	XZM9S0XMR1	false
-imo_1969_p5	imo_1969_p5		imo/1969/p5	fails-at-pin		false
+imo_1969_p5	imo_1969_p5		imo/1969/p5	mapped	867GFF7MPG	false
 imo_1969_p6	imo_1969_p6		imo/1969/p6	mapped	P8QD7SSB34	false
 imo_1970_p2	imo_1970_p2		imo/1970/p2	mapped	9PMX1FVR90	false
 imo_1970_p3	imo_1970_p3		imo/1970/p3	mapped	AYAQDQT2S8	false
 imo_1970_p4	imo_1970_p4		imo/1970/p4	mapped	KFWCQPD4PN	false
-imo_1970_p6	imo_1970_p6		imo/1970/p6	fails-at-pin		false
+imo_1970_p6	imo_1970_p6		imo/1970/p6	mapped	PPYA15ZZTW	false
 imo_1971_p1	imo_1971_p1		imo/1971/p1	mapped	4F5M12A6K6	false
 imo_1971_p2	imo_1971_p2		imo/1971/p2	mapped	3S5ES4JY39	false
 imo_1971_p3	imo_1971_p3		imo/1971/p3	mapped	2JAS19WDDJ	false
@@ -122,7 +121,7 @@ imo_1991_p4	imo_1991_p4		imo/1991/p4	mapped	SV6EZKSNRD	false
 imo_1991_p6	imo_1991_p6		imo/1991/p6	mapped	6QM9G593FJ	false
 imo_1992_p1	imo_1992_p1		imo/1992/p1	mapped	KWPKPB0P47	false
 imo_1992_p2	imo_1992_p2		imo/1992/p2	mapped	YT88KQQCPB	false
-imo_1992_p3	imo_1992_p3		imo/1992/p3	fails-at-pin		false
+imo_1992_p3	imo_1992_p3		imo/1992/p3	mapped	P6KT20Q287	false
 imo_1992_p5	imo_1992_p5		imo/1992/p5	mapped	EKXQ2Y4CNY	false
 imo_1992_p6	imo_1992_p6		imo/1992/p6	mapped	WYRBYV5FKN	false
 imo_1993_p1	imo_1993_p1		imo/1993/p1	mapped	Q3QKWY8EME	false
@@ -173,7 +172,7 @@ imo_2003_p6	imo_2003_p6		imo/2003/p6	mapped	B0ATB5HC66	false
 imo_2004_p2	imo_2004_p2		imo/2004/p2	mapped	9PKZ4FZXF1	false
 imo_2004_p3	imo_2004_p3		imo/2004/p3	mapped	N7KXEQVJAT	false
 imo_2004_p4	imo_2004_p4		imo/2004/p4	mapped	WYW3MFYSRE	false
-imo_2004_p6	imo_2004_p6		imo/2004/p6	fails-at-pin		false
+imo_2004_p6	imo_2004_p6		imo/2004/p6	mapped	989AWH0D83	false
 imo_2005_p2	imo_2005_p2		imo/2005/p2	mapped	SH8T3XRT20	false
 imo_2005_p3	imo_2005_p3		imo/2005/p3	mapped	HTZQ5E2A23	false
 imo_2005_p4	imo_2005_p4		imo/2005/p4	mapped	TPXWAD6VXV	false
@@ -239,7 +238,7 @@ imo_2019_p4	imo_2019_p4		imo/2019/p4	mapped	K8DXZ9TJVM	false
 imo_2019_p5	imo_2019_p5		imo/2019/p5	mapped	B3GYN86J2K	false
 imo_2020_p2	imo_2020_p2		imo/2020/p2	mapped	CH2GH45NE1	false
 imo_2020_p3	imo_2020_p3		imo/2020/p3	mapped	KG5Z4VCHA0	false
-imo_2020_p4	imo_2020_p4		imo/2020/p4	fails-at-pin		false
+imo_2020_p4	imo_2020_p4		imo/2020/p4	mapped	V849HTM7QM	false
 imo_2020_p5	imo_2020_p5		imo/2020/p5	mapped	47PHCKKJCQ	false
 imo_2021_p1	imo_2021_p1		imo/2021/p1	mapped	3081S9RWD6	false
 imo_2021_p2	imo_2021_p2		imo/2021/p2	mapped	RDWJNR8MSX	false
@@ -249,7 +248,7 @@ imo_2022_p1	imo_2022_p1		imo/2022/p1	mapped	S02YZG8C8G	false
 imo_2022_p2	imo_2022_p2		imo/2022/p2	mapped	3XG5E9Q7ZX	false
 imo_2022_p3	imo_2022_p3		imo/2022/p3	mapped	T5S1PHK8DB	false
 imo_2022_p5	imo_2022_p5		imo/2022/p5	mapped	QXPFB0R2Q0	false
-imo_2022_p6	imo_2022_p6		imo/2022/p6	fails-at-pin		false
+imo_2022_p6	imo_2022_p6		imo/2022/p6	mapped	8E5YWFSBQ5	false
 imo_2023_p1	imo_2023_p1		imo/2023/p1	mapped	YAT1C274KG	false
 imo_2023_p3	imo_2023_p3		imo/2023/p3	mapped	P16JT9TWQP	false
 imo_2023_p4	imo_2023_p4		imo/2023/p4	mapped	BYGSYH8BFB	false

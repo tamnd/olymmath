@@ -31,7 +31,7 @@ theorem imo_1992_p3
   --no $4$ coplanar. (Note that this is equivalent to the statement that no 4 points lie in an affine subspace of dimension ≤ 2, i.e.
   --an affine subspace that is not the whole ambiant space).
   {hS : ∀ T ⊆ S, T.card = 4 → (∃ (P : AffineSubspace ℝ (Fin 3 → ℝ)),
-    T.toSet ⊆ P ∧ P < ⊤) → False} :
+    (T : Set (Fin 3 → ℝ)) ⊆ P ∧ P < ⊤) → False} :
   IsLeast {n : ℕ |
     --Whenever we color exactly $n$ of the edges in either red or blue (edges are encoded as unordered pairs of points in S outside of the diagonal)
     ∀ Blue ⊆ S.sym2 \ S.image Sym2.diag, ∀ Red ⊆ S.sym2 \ S.image Sym2.diag, Blue ∩ Red = ⊥

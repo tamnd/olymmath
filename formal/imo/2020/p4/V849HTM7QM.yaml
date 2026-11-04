@@ -1,0 +1,55 @@
+tag: V849HTM7QM
+kind: formal
+problem: E6MWVZCM4F
+system: lean4
+toolchain: leanprover/lean4:v4.35.0
+mathlib: v4.35.0
+path: lean/vendor/formal-imo/a85d84b97c8e/Imo/2020/P4.lean
+module: Imo.«2020».P4
+decl: imo_2020_p4
+answer:
+  style: embedded
+origin:
+  kind: human
+  source: formal-imo
+  url: https://github.com/google-deepmind/formal-imo/blob/a85d84b97c8e88a352c136b1e29c355139609bea/Imo/2020/P4.lean
+  commit: a85d84b97c8e88a352c136b1e29c355139609bea
+  native_name: imo_2020_p4
+licence: Apache-2.0
+port_diff: lean/ports/formal-imo/a85d84b97c8e.diff
+text: "@[imo_problem_subject combinatorics]\ntheorem imo_2020_p4 (n : ℕ) (hn : 1 < n) :\n    IsLeast\n      {k : ℕ |\n        0 < k ∧\n          ∀\n                                                                                            \n            (start : ∀ c : Fin 2, Fin k → Fin (n ^ 2))\n            (finish : ∀ c : Fin 2, Fin k → Fin (n ^ 2))\n                                                                      \n            (h₁ : ∀ c, Function.Injective (start c))\n            (h₂ : ∀ c, Function.Injective (finish c))\n                                                                                          \n            (h₃ : ∀ c i, start c i < finish c i)\n                                                                   \n            (h₄ : ∀ c i j, start c i < start c j → finish c i < finish c j)\n                                                                                          \n            (linked : ∀ c : Fin 2, ∀ s₁ s₂ : Fin (n ^ 2), s₁ ≠ s₂ → Prop)\n            (hlinked : ∀ c s₁ s₂ h,\n              linked c s₁ s₂ h ↔\n                                                                                                                                                                               \n                ∃ l : List (Fin (n ^ 2)),\n                  l.head? = some (min s₁ s₂) ∧\n                  l.getLast? = some (max s₁ s₂) ∧\n                  l.Chain' fun si sj => ∃ i, start c i = si ∧ finish c i = sj),\n                                                                             \n            ∃ (s₁ s₂ : _) (h : s₁ ≠ s₂), ∀ c, linked c s₁ s₂ h}\n      answer(n ^ 2 - n + 1)"
+check:
+  result: pass
+  toolchain: leanprover/lean4:v4.35.0
+  mathlib: v4.35.0
+  at: "2026-11-04"
+fidelity:
+  status: checker-clean
+  reviews:
+    - 2e8879b683ad
+  steps:
+    - step: compile
+      result: pass
+      at: "2026-11-04"
+      by: agent
+    - step: static-checks
+      result: pass
+      at: "2026-11-04"
+      by: agent
+    - step: counterexample-search
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+    - step: back-translation
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+    - step: equivalence
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+    - step: human-review
+      result: not-run
+      at: "2026-11-04"
+      by: agent
+rank: 4

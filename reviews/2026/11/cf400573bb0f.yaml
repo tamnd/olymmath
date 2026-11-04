@@ -1,0 +1,7 @@
+id: cf400573bb0f
+kind: fidelity
+records: [SW0MDMTJCG]
+decision: flagged
+by: agent
+date: "2026-11-04"
+note: Agent decision, not a person's review. A static check proved each of these statements of compfiles. A trivial proof is a sign of a defect, but it is not proof of one. A person must decide.

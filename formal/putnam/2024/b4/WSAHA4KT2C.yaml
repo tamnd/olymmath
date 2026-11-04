@@ -17,39 +17,40 @@ origin:
   commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
   native_name: putnam_2024_b4
 licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
 text: "noncomputable abbrev putnam_2024_b4_solution : ℝ := sorry\n\ntheorem putnam_2024_b4\n    {Ω : Type*}\n    [MeasureSpace Ω]\n    [IsProbabilityMeasure (ℙ : Measure Ω)]\n    (m a : ℕ → ℕ → Ω → ℤ)\n    (h₀ : ∀ n > 0, a n 0 = 1)\n    (h₁ : ∀ n k, 0 < n → pdf.IsUniform (m n k) (Set.Icc 1 n) ℙ (ProbabilityTheory.uniformOn <| Set.Icc 1 n))\n    (h₂ : ∀ n k ω, 0 < n →\n      a n (k + 1) ω =\n        if m n k ω > a n k ω then\n          a n k ω + 1\n        else if m n k ω = a n k ω then\n          a n k ω\n        else\n          a n k ω - 1)\n    (h₃ : ProbabilityTheory.iIndepFun m.uncurry ℙ) :\n    Filter.Tendsto (fun n => (∫ ω, a n n ω : ℝ) / n) Filter.atTop (\U0001D4DD putnam_2024_b4_solution)"
 check:
   result: pass
   toolchain: leanprover/lean4:v4.35.0
   mathlib: v4.35.0
-  at: "2026-11-03"
+  at: "2026-11-04"
 fidelity:
   status: checker-clean
   reviews:
-    - 8f7bef525373
+    - ecdf02245176
   steps:
     - step: compile
       result: pass
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: static-checks
       result: pass
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: counterexample-search
       result: not-run
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: back-translation
       result: not-run
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: equivalence
       result: not-run
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: human-review
       result: not-run
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
 rank: 5

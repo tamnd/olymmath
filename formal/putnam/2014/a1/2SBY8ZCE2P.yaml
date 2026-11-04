@@ -16,6 +16,7 @@ origin:
   commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
   native_name: putnam_2014_a1
 licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
 text: |-
   theorem putnam_2014_a1
   (f : ℝ → ℝ)
@@ -28,34 +29,34 @@ check:
   result: pass
   toolchain: leanprover/lean4:v4.35.0
   mathlib: v4.35.0
-  at: "2026-11-03"
+  at: "2026-11-04"
 fidelity:
   status: checker-clean
   reviews:
-    - 8f7bef525373
+    - ecdf02245176
   steps:
     - step: compile
       result: pass
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: static-checks
       result: pass
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: counterexample-search
       result: not-run
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: back-translation
       result: not-run
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: equivalence
       result: not-run
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: human-review
       result: not-run
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
 rank: 5

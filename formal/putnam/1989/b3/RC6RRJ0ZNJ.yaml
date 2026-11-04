@@ -17,39 +17,40 @@ origin:
   commit: a635813f5edf297d928f9bd5ef8324a26bdde09c
   native_name: putnam_1989_b3
 licence: Apache-2.0
+port_diff: lean/ports/putnambench/a635813f5edf.diff
 text: "noncomputable abbrev putnam_1989_b3_solution : ℕ → ℝ → ℝ := sorry\n\ntheorem putnam_1989_b3\n    (f : ℝ → ℝ)\n    (hfdiff : Differentiable ℝ f)\n    (hfderiv : ∀ x > 0, deriv f x = -3 * f x + 6 * f (2 * x))\n    (hdecay : ∀ x ≥ 0, |f x| ≤ Real.exp (- √x))\n    (μ : ℕ → ℝ)\n    (μ_def : ∀ n, μ n = ∫ x in Set.Ioi 0, x ^ n * f x) :\n    (∀ n, μ n = putnam_1989_b3_solution n (μ 0)) ∧\n    (∃ L, Tendsto (fun n ↦ (μ n) * 3 ^ n / n !) atTop (\U0001D4DD L)) ∧\n    (Tendsto (fun n ↦ (μ n) * 3 ^ n / n !) atTop (\U0001D4DD 0) → μ 0 = 0)"
 check:
   result: pass
   toolchain: leanprover/lean4:v4.35.0
   mathlib: v4.35.0
-  at: "2026-11-03"
+  at: "2026-11-04"
 fidelity:
   status: checker-clean
   reviews:
-    - 8f7bef525373
+    - ecdf02245176
   steps:
     - step: compile
       result: pass
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: static-checks
       result: pass
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: counterexample-search
       result: not-run
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: back-translation
       result: not-run
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: equivalence
       result: not-run
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
     - step: human-review
       result: not-run
-      at: "2026-11-03"
+      at: "2026-11-04"
       by: agent
 rank: 5

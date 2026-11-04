@@ -2,82 +2,82 @@
   {
     "source": "hf-mathnet",
     "rows": 55634,
-    "matched": 7228,
+    "matched": 13780,
     "by_key": 0,
-    "near": 7798,
-    "new": 40608,
-    "new_located": 24500
+    "near": 7856,
+    "new": 33998,
+    "new_located": 23904
   },
   {
     "source": "hf-numina-olympiads",
     "rows": 13087,
-    "matched": 5382,
-    "by_key": 5132,
-    "near": 1168,
-    "new": 6537,
-    "new_located": 4863
+    "matched": 10254,
+    "by_key": 10067,
+    "near": 546,
+    "new": 2287,
+    "new_located": 711
   },
   {
     "source": "hf-numina-olympiads-ref",
     "rows": 13087,
-    "matched": 5453,
-    "by_key": 5131,
-    "near": 1325,
-    "new": 6309,
-    "new_located": 4790
+    "matched": 10351,
+    "by_key": 10066,
+    "near": 720,
+    "new": 2016,
+    "new_located": 623
   },
   {
     "source": "hf-ai-mo-aops",
     "rows": 80661,
-    "matched": 12031,
+    "matched": 15789,
     "by_key": 0,
-    "near": 9705,
-    "new": 58925,
-    "new_located": 32037
+    "near": 10422,
+    "new": 54450,
+    "new_located": 29148
   },
   {
     "source": "hf-numinamath-1-5",
     "rows": 315736,
-    "matched": 22727,
+    "matched": 30253,
     "by_key": 0,
-    "near": 37417,
-    "new": 255592,
+    "near": 40456,
+    "new": 245027,
     "new_located": 0
   },
   {
     "source": "hf-omni-math",
     "rows": 4428,
-    "matched": 585,
+    "matched": 2666,
     "by_key": 0,
-    "near": 588,
-    "new": 3255,
-    "new_located": 2533
+    "near": 405,
+    "new": 1357,
+    "new_located": 739
   },
   {
     "source": "hf-olympiadbench",
     "rows": 2133,
-    "matched": 551,
+    "matched": 552,
     "by_key": 0,
-    "near": 228,
-    "new": 1354,
+    "near": 268,
+    "new": 1313,
     "new_located": 0
   },
   {
     "source": "hf-aops-wiki",
     "rows": 33674,
-    "matched": 11274,
-    "by_key": 11204,
-    "near": 401,
-    "new": 21999,
-    "new_located": 13617
+    "matched": 13132,
+    "by_key": 13037,
+    "near": 346,
+    "new": 20196,
+    "new_located": 13145
   },
   {
     "source": "hf-liveaopsbench",
     "rows": 5328,
-    "matched": 136,
+    "matched": 212,
     "by_key": 0,
-    "near": 655,
-    "new": 4537,
+    "near": 765,
+    "new": 4351,
     "new_located": 0
   },
   {
@@ -110,64 +110,64 @@
   {
     "source": "hf-putnam-axiom",
     "rows": 100,
-    "matched": 82,
+    "matched": 85,
     "by_key": 76,
     "near": 3,
-    "new": 15,
-    "new_located": 15
+    "new": 12,
+    "new_located": 12
   },
   {
     "source": "hf-putnamgap",
     "rows": 1051,
-    "matched": 366,
-    "by_key": 0,
-    "near": 143,
-    "new": 542,
-    "new_located": 542
+    "matched": 1008,
+    "by_key": 1006,
+    "near": 0,
+    "new": 43,
+    "new_located": 43
   },
   {
     "source": "hf-olymmath-ruc",
     "rows": 400,
-    "matched": 10,
+    "matched": 23,
     "by_key": 0,
-    "near": 50,
-    "new": 340,
+    "near": 60,
+    "new": 317,
     "new_located": 0
   },
   {
     "source": "hf-amo-bench",
     "rows": 50,
-    "matched": 0,
-    "by_key": 0,
+    "matched": 49,
+    "by_key": 49,
     "near": 0,
-    "new": 50,
-    "new_located": 0
+    "new": 1,
+    "new_located": 1
   },
   {
     "source": "hf-nemotron-imo-bench",
     "rows": 200,
-    "matched": 24,
-    "by_key": 0,
-    "near": 40,
-    "new": 136,
-    "new_located": 0
+    "matched": 198,
+    "by_key": 194,
+    "near": 1,
+    "new": 1,
+    "new_located": 1
   },
   {
     "source": "hf-polymath",
     "rows": 9000,
-    "matched": 1464,
+    "matched": 1600,
     "by_key": 0,
-    "near": 1084,
-    "new": 6452,
+    "near": 1237,
+    "new": 6163,
     "new_located": 0
   },
   {
     "source": "hf-mathodyssey",
-    "rows": 389,
-    "matched": 6,
-    "by_key": 0,
-    "near": 33,
-    "new": 350,
+    "rows": 148,
+    "matched": 148,
+    "by_key": 148,
+    "near": 0,
+    "new": 0,
     "new_located": 0
   },
   {
@@ -182,19 +182,19 @@
   {
     "source": "hf-indonesian-olympiad",
     "rows": 2204,
-    "matched": 15,
+    "matched": 22,
     "by_key": 0,
-    "near": 105,
-    "new": 2084,
-    "new_located": 0
+    "near": 122,
+    "new": 2060,
+    "new_located": 23
   },
   {
     "source": "hf-hrm8k",
     "rows": 8011,
-    "matched": 224,
+    "matched": 876,
     "by_key": 0,
-    "near": 802,
-    "new": 6985,
-    "new_located": 665
+    "near": 858,
+    "new": 6277,
+    "new_located": 660
   }
 ]

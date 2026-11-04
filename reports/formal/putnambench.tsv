@@ -1,5 +1,5 @@
 # The import of putnambench at a635813f5edf297d928f9bd5ef8324a26bdde09c: 672 statements, 671 mapped to a problem, 0 with a proof.
-# 2 mapped statements did not compile at Lean v4.35.0 and Mathlib v4.35.0, so they have the status fails-at-pin and no record.
+# 1 mapped statement did not compile at Lean v4.35.0 and Mathlib v4.35.0, so it has the status fails-at-pin and no record.
 # native	decl	part	locator	status	tag	proved
 putnam_1962_a1	putnam_1962_a1		putnam/1962/a1	mapped	P6R2PFDJGH	false
 putnam_1962_a2	putnam_1962_a2		putnam/1962/a2	mapped	TM293KMM3E	false
@@ -104,7 +104,7 @@ putnam_1970_b6	putnam_1970_b6		putnam/1970/b6	mapped	9ARP52HCPN	false
 putnam_1971_a1	putnam_1971_a1		putnam/1971/a1	mapped	4V9EKJ2YTD	false
 putnam_1971_a2	putnam_1971_a2		putnam/1971/a2	mapped	SACJ1KPKSH	false
 putnam_1971_a3	putnam_1971_a3		putnam/1971/a3	mapped	TQC1MAERHH	false
-putnam_1971_a4	putnam_1971_a4		putnam/1971/a4	fails-at-pin		false
+putnam_1971_a4	putnam_1971_a4		putnam/1971/a4	mapped	CHEAFJCENG	false
 putnam_1971_a5	putnam_1971_a5		putnam/1971/a5	mapped	STPBCJB7JF	false
 putnam_1971_a6	putnam_1971_a6		putnam/1971/a6	mapped	B1ND5V5BCZ	false
 putnam_1971_b1	putnam_1971_b1		putnam/1971/b1	mapped	WK46AWY0W0	false

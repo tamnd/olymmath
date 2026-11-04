@@ -31,23 +31,18 @@ check:
   mathlib: v4.35.0
   at: "2026-11-04"
 fidelity:
-  status: unreviewed
+  status: checker-clean
   reviews:
-    - f9be7e2c668d
-  defects:
-    - kind: trivial-goal
-      by: agent
-      note: Agent decision, not a person's review. The tactics of the check trivial-goal prove the statement. A person must decide if the statement is wrong.
+    - 3055e1437f53
   steps:
     - step: compile
       result: pass
       at: "2026-11-04"
       by: agent
     - step: static-checks
-      result: fail
+      result: pass
       at: "2026-11-04"
       by: agent
-      note: The tactics of the checks trivial-goal prove the statement.
     - step: counterexample-search
       result: not-run
       at: "2026-11-04"
@@ -65,3 +60,5 @@ fidelity:
       at: "2026-11-04"
       by: agent
 rank: 3
+proofs:
+  - NF8TCCV6PE

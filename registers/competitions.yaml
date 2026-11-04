@@ -2926,6 +2926,20 @@
   sources: [tubitak, hf-tubitak]
   description: The Turkish olympiad and team selection test, run by TÜBİTAK. The first-round papers are online.
 
+- code: tr-mo-r1
+  name: Turkish Mathematical Olympiad, first round
+  group: national
+  level: high-school
+  country: TR
+  url: https://bilimolimpiyatlari.tubitak.gov.tr/tr/gecmis-sinav-sorulari
+  edition_form: year
+  eras:
+    - {from: 1998, to: 2013, per_year: 36}
+    - {from: 2014, per_year: 32}
+  languages: [tr]
+  sources: [tubitak, hf-tubitak]
+  description: The first round (Birinci Aşama) of the Turkish olympiad, a multiple-choice paper held in the spring, with 36 questions to 2013 and 32 from 2014. It is the round that chooses the students for the second round (tr-mo). Agent decision, not a person's review, to keep it as its own competition, with its shape taken from the TÜBİTAK papers.
+
 - code: il-gillis
   name: Israel National Olympiad
   group: national

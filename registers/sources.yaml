@@ -613,6 +613,7 @@
   origin: H1
   url: https://github.com/usa-tst-public/USA-TST-Archive
   access: git
+  terms: No licence stated. The repository has no licence file and its README gives no terms.
   zone:
     statement: Z2
     solution: Z2

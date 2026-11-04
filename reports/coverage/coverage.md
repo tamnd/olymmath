@@ -6,25 +6,25 @@ This report is made by `om coverage`. The register gives the expected positions 
 
 | Expected | C0 | C1 | C2 | Candidate | No candidate | Located seed rows |
 |---:|---:|---:|---:|---:|---:|---:|
-| 29409 | 64.6% | 8.8% | 7.1% | 953 (3.2%) | 9449 (32.1%) | 153885 |
+| 29409 | 65.7% | 8.8% | 7.1% | 794 (2.7%) | 9284 (31.6%) | 155343 |
 
 ## Sources
 
 | Source | Rows | Located | With a position | Not a competition |
 |---|---:|---:|---:|---:|
-| hf-ai-mo-aops | 80661 | 49881 (61.8%) | 0 | 20635 |
+| hf-ai-mo-aops | 80661 | 50421 (62.5%) | 0 | 20635 |
 | hf-aime-1983-2026 | 1065 | 1065 (100.0%) | 1065 | 0 |
 | hf-amc12-full | 1199 | 1199 (100.0%) | 1199 | 0 |
-| hf-amo-bench | 50 | 0 (0.0%) | 0 | 50 |
-| hf-aops-wiki | 33676 | 26027 (77.3%) | 22092 | 5187 |
+| hf-amo-bench | 50 | 50 (100.0%) | 50 | 0 |
+| hf-aops-wiki | 33676 | 26461 (78.6%) | 22444 | 5144 |
 | hf-hrm8k | 8011 | 730 (9.1%) | 0 | 7281 |
 | hf-indonesian-olympiad | 2204 | 30 (1.4%) | 0 | 0 |
 | hf-liveaopsbench | 5328 | 0 (0.0%) | 0 | 5328 |
-| hf-mathnet | 55634 | 41756 (75.1%) | 0 | 6058 |
-| hf-mathodyssey | 389 | 0 (0.0%) | 0 | 389 |
-| hf-nemotron-imo-bench | 200 | 0 (0.0%) | 0 | 200 |
-| hf-numina-olympiads | 13087 | 11033 (84.3%) | 10903 | 2054 |
-| hf-numina-olympiads-ref | 13087 | 11033 (84.3%) | 10903 | 2054 |
+| hf-mathnet | 55634 | 41842 (75.2%) | 0 | 6058 |
+| hf-mathodyssey | 148 | 148 (100.0%) | 148 | 0 |
+| hf-nemotron-imo-bench | 200 | 200 (100.0%) | 200 | 0 |
+| hf-numina-olympiads | 13087 | 11033 (84.3%) | 10793 | 2054 |
+| hf-numina-olympiads-ref | 13087 | 11033 (84.3%) | 10792 | 2054 |
 | hf-numinamath-1-5 | 315736 | 0 (0.0%) | 0 | 315736 |
 | hf-olymmath-ruc | 400 | 0 (0.0%) | 0 | 400 |
 | hf-olympiadbench | 2133 | 0 (0.0%) | 0 | 2133 |
@@ -32,7 +32,7 @@ This report is made by `om coverage`. The register gives the expected positions 
 | hf-polymath | 9000 | 0 (0.0%) | 0 | 9000 |
 | hf-putnam-1995-2025 | 372 | 372 (100.0%) | 372 | 0 |
 | hf-putnam-axiom | 100 | 100 (100.0%) | 99 | 0 |
-| hf-putnamgap | 1051 | 1051 (100.0%) | 0 | 0 |
+| hf-putnamgap | 1051 | 1051 (100.0%) | 1037 | 0 |
 | hf-tubitak | 1270 | 671 (52.8%) | 0 | 599 |
 | kalva | 724 | 724 (100.0%) | 724 | 0 |
 | kedlaya-putnam | 490 | 490 (100.0%) | 490 | 0 |
@@ -88,7 +88,7 @@ The order is the order of the register. A competition with no shape in the regis
 | imac | International Mathematical Arhimede Contest | no shape | - | - | - | 0 | 0 | 94 |
 | danube | Danube Mathematical Competition | no shape | - | - | - | 0 | 0 | 271 |
 | alibaba | Alibaba Global Mathematics Competition | no shape | - | - | - | 0 | 0 | 68 |
-| putnam | William Lowell Putnam Mathematical Competition | 1068 | 78.7% | 44.8% | 0.0% | 33 | 195 | 3592 |
+| putnam | William Lowell Putnam Mathematical Competition | 1068 | 95.3% | 44.8% | 0.0% | 1 | 49 | 3592 |
 | imc | International Mathematics Competition for University Students | 354 | 96.9% | 38.4% | 38.4% | 1 | 10 | 653 |
 | seemous | South Eastern European Mathematical Olympiad for University Students | 80 | 48.8% | 0.0% | 0.0% | 1 | 40 | 93 |
 | schweitzer | Miklós Schweitzer Competition | no shape | - | - | - | 0 | 0 | 1159 |
@@ -108,9 +108,9 @@ The order is the order of the register. A competition with no shape in the regis
 | tstst | USA TST for the TST | 132 | 85.6% | 0.0% | 0.0% | 1 | 18 | 689 |
 | us-tst | USA IMO Team Selection Test | 164 | 79.9% | 0.0% | 0.0% | 11 | 22 | 625 |
 | us-egmo-tst | USA EGMO Team Selection Test | 24 | 41.7% | 0.0% | 0.0% | 8 | 6 | 45 |
-| hmmt | Harvard-MIT Mathematics Tournament | 2546 | 96.3% | 0.0% | 0.0% | 0 | 95 | 17107 |
-| hmnt | HMMT November | 1209 | 87.9% | 0.0% | 0.0% | 0 | 146 | 3321 |
-| hmic | HMMT Invitational Competition | 70 | 92.9% | 0.0% | 0.0% | 0 | 5 | 166 |
+| hmmt | Harvard-MIT Mathematics Tournament | 2546 | 96.3% | 0.0% | 0.0% | 10 | 85 | 13957 |
+| hmnt | HMMT November | 1209 | 87.9% | 0.0% | 0.0% | 9 | 137 | 6263 |
+| hmic | HMMT Invitational Competition | 70 | 92.9% | 0.0% | 0.0% | 0 | 5 | 374 |
 | pumac | Princeton University Mathematics Competition | no shape | - | - | - | 0 | 0 | 889 |
 | bmt | Berkeley Math Tournament | no shape | - | - | - | 0 | 0 | 888 |
 | cmimc | Carnegie Mellon Informatics and Mathematics Competition | no shape | - | - | - | 0 | 0 | 357 |
@@ -208,8 +208,8 @@ The order is the order of the register. A competition with no shape in the regis
 | cn-smo | China Southeast Mathematical Olympiad | 176 | 42.6% | 0.0% | 0.0% | 51 | 50 | 550 |
 | jp-jmo | Japan Mathematical Olympiad | 180 | 72.2% | 69.4% | 69.4% | 41 | 9 | 470 |
 | jp-jjmo | Japan Junior Mathematical Olympiad | 90 | 94.4% | 94.4% | 94.4% | 0 | 5 | 158 |
-| kr-kmo | Korean Mathematical Olympiad | 208 | 24.5% | 0.0% | 0.0% | 88 | 69 | 1139 |
-| kr-fkmo | Final Korean Mathematical Olympiad | 180 | 23.3% | 0.0% | 0.0% | 93 | 45 | 473 |
+| kr-kmo | Korean Mathematical Olympiad | 208 | 61.1% | 0.0% | 0.0% | 12 | 69 | 1139 |
+| kr-fkmo | Final Korean Mathematical Olympiad | 180 | 62.2% | 0.0% | 0.0% | 23 | 45 | 473 |
 | tw-tst | Taiwan TST and National Olympiad | 159 | 39.6% | 0.0% | 0.0% | 7 | 89 | 567 |
 | hk-pc | Hong Kong Preliminary Selection Contest and TST | no shape | - | - | - | 0 | 0 | 880 |
 | mo-macau | Macau Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 0 |
@@ -219,7 +219,7 @@ The order is the order of the register. A competition with no shape in the regis
 | sg-smo | Singapore Mathematical Olympiad | 160 | 63.8% | 0.0% | 0.0% | 11 | 47 | 788 |
 | th-tmo | Thailand Mathematical Olympiad | 230 | 75.7% | 0.4% | 0.4% | 21 | 35 | 723 |
 | ph-pmo | Philippine Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 1639 |
-| my-omk | Malaysian Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 114 |
+| my-omk | Malaysian Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 162 |
 | id-osn | Indonesian National Science Olympiad | 192 | 74.0% | 0.0% | 0.0% | 6 | 44 | 406 |
 | kh-mo | Cambodia national mathematics olympiad | no shape | - | - | - | 0 | 0 | 0 |
 | la-mo | Laos national mathematics olympiad | no shape | - | - | - | 0 | 0 | 0 |
@@ -285,10 +285,24 @@ The order is the order of the register. A competition with no shape in the regis
 | journal-mr | Mathematical Reflections | no shape | - | - | - | 0 | 0 | 0 |
 | journal-gazeta | Gazeta Matematică | no shape | - | - | - | 0 | 0 | 0 |
 | journal-parabola | Parabola | no shape | - | - | - | 0 | 0 | 0 |
+| amo-bench | AMO-Bench | no shape | - | - | - | 0 | 0 | 50 |
+| nemotron-imo-bench | Nemotron IMO-Bench | no shape | - | - | - | 0 | 0 | 200 |
+| gaic-math | GAIC Math (MathOdyssey) | no shape | - | - | - | 0 | 0 | 148 |
+| ru-tst | Russian IMO Team Selection Test | no shape | - | - | - | 0 | 0 | 355 |
+| ro-egmo-tst | Romanian EGMO Team Selection Test | no shape | - | - | - | 0 | 0 | 49 |
+| bg-jbmo-tst | Bulgarian JBMO Team Selection Test | no shape | - | - | - | 0 | 0 | 56 |
+| bg-egmo-tst | Bulgarian EGMO Team Selection Test | no shape | - | - | - | 0 | 0 | 46 |
+| bg-winter | Bulgarian Winter Mathematical Competition | no shape | - | - | - | 0 | 0 | 61 |
+| bg-spring | Bulgarian Spring Mathematical Competition | no shape | - | - | - | 0 | 0 | 109 |
+| ma-tst | Moroccan IMO Team Selection Test | no shape | - | - | - | 0 | 0 | 64 |
+| pe-conosur-tst | Peruvian Cono Sur Team Selection Test | no shape | - | - | - | 0 | 0 | 54 |
+| pe-ibero-tst | Peruvian Iberoamerican Team Selection Test | no shape | - | - | - | 0 | 0 | 47 |
+| nl-bxmo-tst | Dutch BxMO Team Selection Test | no shape | - | - | - | 0 | 0 | 88 |
+| xk-tst | Kosovo Team Selection Test | no shape | - | - | - | 0 | 0 | 83 |
 
 ## Unknown competitions
 
-These labels do not resolve through the alias table (1290 keys). There are 1584 labels with 22628 rows. The full list is in `unknown-competitions.tsv`. To resolve a label, add a line to `registers/competition-aliases.tsv`, or add the competition to the register.
+These labels do not resolve through the alias table (1326 keys). There are 1541 labels with 21611 rows. The full list is in `unknown-competitions.tsv`. To resolve a label, add a line to `registers/competition-aliases.tsv`, or add the competition to the register.
 
 | Source | Label | Rows |
 |---|---|---:|
@@ -297,20 +311,13 @@ These labels do not resolve through the alias table (1290 keys). There are 1584 
 | hf-ai-mo-aops | Ukraine Correspondence MO -  geometry | 50 |
 | hf-indonesian-olympiad | OPSILON_SMP_2023 | 50 |
 | hf-mathnet | Italy | 50 |
-| hf-ai-mo-aops | Romania EGMO TST | 49 |
 | hf-indonesian-olympiad | ICEF_SD_2019 | 49 |
-| hf-aops-wiki | Malaysia NMO | 48 |
 | hf-mathnet | Team Selection Test for IMO | 48 |
-| hf-ai-mo-aops | Bulgaria JBMO TST | 47 |
 | hf-ai-mo-aops | OMpD | 47 |
-| hf-ai-mo-aops | Peru Iberoamerican Team Selection Test | 47 |
 | hf-ai-mo-aops | Bogdan Stan | 46 |
-| hf-ai-mo-aops | Bulgaria EGMO TST | 46 |
-| hf-ai-mo-aops | Peru Cono Sur TST | 46 |
 | hf-mathnet | 69th NMO Selection Tests for JBMO | 46 |
 | hf-mathnet | IMO Team Selection Contest | 46 |
 | hf-ai-mo-aops | Akdeniz University MO | 45 |
-| hf-ai-mo-aops | Dutch BxMO TST | 45 |
 | hf-ai-mo-aops | NIMO Summer Contest | 45 |
 | hf-aops-wiki | Ukraine Correspondence MO    geometry | 45 |
 | hf-indonesian-olympiad | FIMNas_SMP_2009 | 45 |
@@ -318,9 +325,7 @@ These labels do not resolve through the alias table (1290 keys). There are 1584 
 | hf-aops-wiki | Swiss NMO   geometry | 44 |
 | hf-ai-mo-aops | Durer Math Competition CD Finals - geometry | 43 |
 | hf-ai-mo-aops | Kyiv City MO Seniors 2003+ geometry | 43 |
-| hf-aops-wiki | Morocco TST | 43 |
 | hf-ai-mo-aops | Belgium OMB Juniors - geometry | 42 |
-| hf-ai-mo-aops | Kosovo Team Selection Test | 42 |
 | hf-ai-mo-aops | Mathcenter Contest | 42 |
 | hf-ai-mo-aops | Mexico States Semifinals - geometry | 42 |
 | hf-ai-mo-aops | OMMC POTM | 42 |
@@ -377,7 +382,6 @@ These labels do not resolve through the alias table (1290 keys). There are 1584 
 | hf-ai-mo-aops | Indonesia Juniors | 36 |
 | hf-ai-mo-aops | OMMock - Mexico National Olympiad Mock Exam | 36 |
 | hf-ai-mo-aops | UNSW School MC Seniors - geometry | 36 |
-| hf-aops-wiki | Kosovo TST | 36 |
 | hf-aops-wiki | QEDMO | 36 |
 | hf-mathnet | 10. tekmovanje v znanju matematike za dijake srednjih tehniških in strokovnih šol, Državno tekmovanje | 36 |
 | hf-mathnet | 16. tekmovanje v znanju matematike za dijake srednjih tehniških in strokovnih šol Državno tekmovanje | 36 |
@@ -385,10 +389,20 @@ These labels do not resolve through the alias table (1290 keys). There are 1584 
 | hf-mathnet | MO-selectietoets | 36 |
 | hf-mathnet | Préparation Olympique Française de Mathématiques - ENVOI 5 : Pot-POURRI | 36 |
 | hf-mathnet | Spring Mathematical Competition | 36 |
-| hf-ai-mo-aops | Bulgarian Spring Mathematical Competition | 35 |
 | hf-ai-mo-aops | CMI B.Sc. Entrance Exam | 35 |
 | hf-ai-mo-aops | CMWMC | 35 |
 | hf-ai-mo-aops | Chile Classification NMO Seniors | 35 |
 | hf-ai-mo-aops | Durer Math Competition CD 1st Round - geometry | 35 |
 | hf-ai-mo-aops | GLMT | 35 |
 | hf-ai-mo-aops | IMTS | 35 |
+| hf-ai-mo-aops | Indonesia MO Shortlist - geometry | 35 |
+| hf-ai-mo-aops | Israel Olympic Revenge | 35 |
+| hf-ai-mo-aops | PEN M Problems | 35 |
+| hf-ai-mo-aops | Pan-African Shortlist | 35 |
+| hf-ai-mo-aops | Serbia JBMO TST | 35 |
+| hf-ai-mo-aops | UMD Math Competition Part I | 35 |
+| hf-ai-mo-aops | Yugoslav National Math Olympiad | 35 |
+| hf-indonesian-olympiad | KMSI_SD_12_2022 | 35 |
+| hf-ai-mo-aops | Adygea Teachers' Geometry Olympiad | 34 |
+| hf-ai-mo-aops | Brazil Cono Sur TST | 34 |
+| hf-ai-mo-aops | Math Hour Olympiad | 34 |

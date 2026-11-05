@@ -16,6 +16,10 @@
     - {paper: day1, name: Day 1, positions: [p1, p2, p3]}
     - {paper: day2, name: Day 2, positions: [p4, p5, p6]}
   per_year: 6
+  # The IMO 1960 and the IMO 1962 had seven problems, four on Day 2, as the official papers of imo-official show.
+  eras:
+    - {from: 1960, to: 1960, per_year: 7, layout: [{paper: day1, name: Day 1, positions: [p1, p2, p3]}, {paper: day2, name: Day 2, positions: [p4, p5, p6, p7]}]}
+    - {from: 1962, to: 1962, per_year: 7, layout: [{paper: day1, name: Day 1, positions: [p1, p2, p3]}, {paper: day2, name: Day 2, positions: [p4, p5, p6, p7]}]}
   official_solutions: false
   copyright: Footer says "© International Mathematical Olympiad". No licence stated.
   sources: [imo-official, aops-collections, hf-mathnet, hf-numina-olympiads, hf-matharena, kalva, imomath, evanchen, compfiles, mathlib-archive-imo, formal-imo, minif2f-v2]
@@ -690,6 +694,13 @@
     - {paper: a, name: Session A, positions: [a1, a2, a3, a4, a5, a6]}
     - {paper: b, name: Session B, positions: [b1, b2, b3, b4, b5, b6]}
   per_year: 12
+  # Agent decision, not a person's review. Some early sessions had seven or eight problems. hf-putnamgap, which follows the problem books, and the AoPS wiki give the same extra problems.
+  eras:
+    - {from: 1938, to: 1938, per_year: 13, layout: [{paper: a, name: Session A, positions: [a1, a2, a3, a4, a5, a6, a7]}, {paper: b, name: Session B, positions: [b1, b2, b3, b4, b5, b6]}]}
+    - {from: 1939, to: 1939, per_year: 14, layout: [{paper: a, name: Session A, positions: [a1, a2, a3, a4, a5, a6, a7]}, {paper: b, name: Session B, positions: [b1, b2, b3, b4, b5, b6, b7]}]}
+    - {from: 1940, to: 1940, per_year: 15, layout: [{paper: a, name: Session A, positions: [a1, a2, a3, a4, a5, a6, a7, a8]}, {paper: b, name: Session B, positions: [b1, b2, b3, b4, b5, b6, b7]}]}
+    - {from: 1941, to: 1941, per_year: 14, layout: [{paper: a, name: Session A, positions: [a1, a2, a3, a4, a5, a6, a7]}, {paper: b, name: Session B, positions: [b1, b2, b3, b4, b5, b6, b7]}]}
+    - {from: 1951, to: 1961, per_year: 14, layout: [{paper: a, name: Session A, positions: [a1, a2, a3, a4, a5, a6, a7]}, {paper: b, name: Session B, positions: [b1, b2, b3, b4, b5, b6, b7]}]}
   languages: [en]
   copyright: Problems are copyrighted by the MAA. The archive authors ask readers to link, not to copy.
   sources: [kedlaya-putnam, kalva, hf-omni-math, hf-matharena, hf-putnam-1995-2025, hf-putnam-axiom, hf-putnamgap, putnambench]
@@ -1398,6 +1409,13 @@
   layout:
     - {paper: paper, name: Paper, positions: [p1, p2, p3, p4, p5]}
   per_year: 5
+  # Agent decision, not a person's review. The papers of 1969 to 1978 had six to ten problems, as the AoPS wiki pages of these years show.
+  eras:
+    - {from: 1969, to: 1972, per_year: 10, layout: [{paper: paper, name: Paper, positions: [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10]}]}
+    - {from: 1973, to: 1974, per_year: 7, layout: [{paper: paper, name: Paper, positions: [p1, p2, p3, p4, p5, p6, p7]}]}
+    - {from: 1975, to: 1976, per_year: 8, layout: [{paper: paper, name: Paper, positions: [p1, p2, p3, p4, p5, p6, p7, p8]}]}
+    - {from: 1977, to: 1977, per_year: 7, layout: [{paper: paper, name: Paper, positions: [p1, p2, p3, p4, p5, p6, p7]}]}
+    - {from: 1978, to: 1978, per_year: 6, layout: [{paper: paper, name: Paper, positions: [p1, p2, p3, p4, p5, p6]}]}
   official_solutions: true
   languages: [en, fr]
   copyright: "CMS: personal copying only."
@@ -1758,6 +1776,21 @@
   first_year: 1964
   edition_form: year
   per_year: 6
+  # Agent decision, not a person's review. The olympiads of 1964 to 1974, 1984 and 1985 had eight problems, as the AoPS wiki pages of these years show.
+  overrides:
+    1964: [p1, p2, p3, p4, p5, p6, p7, p8]
+    1965: [p1, p2, p3, p4, p5, p6, p7, p8]
+    1966: [p1, p2, p3, p4, p5, p6, p7, p8]
+    1967: [p1, p2, p3, p4, p5, p6, p7, p8]
+    1968: [p1, p2, p3, p4, p5, p6, p7, p8]
+    1969: [p1, p2, p3, p4, p5, p6, p7, p8]
+    1970: [p1, p2, p3, p4, p5, p6, p7, p8]
+    1971: [p1, p2, p3, p4, p5, p6, p7, p8]
+    1972: [p1, p2, p3, p4, p5, p6, p7, p8]
+    1973: [p1, p2, p3, p4, p5, p6, p7, p8]
+    1974: [p1, p2, p3, p4, p5, p6, p7, p8]
+    1984: [p1, p2, p3, p4, p5, p6, p7, p8]
+    1985: [p1, p2, p3, p4, p5, p6, p7, p8]
   languages: [es]
   sources: [rsme-ome, hf-mathnet]
   description: The national olympiad of Spain with six problems. A compendium holds the problems from 1963 to 2004.

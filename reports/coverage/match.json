@@ -2,82 +2,82 @@
   {
     "source": "hf-mathnet",
     "rows": 55634,
-    "matched": 13846,
+    "matched": 14148,
     "by_key": 0,
-    "near": 7700,
-    "new": 34088,
-    "new_located": 23978
+    "near": 7776,
+    "new": 33710,
+    "new_located": 23670
   },
   {
     "source": "hf-numina-olympiads",
     "rows": 13087,
-    "matched": 10257,
-    "by_key": 10067,
-    "near": 548,
-    "new": 2282,
-    "new_located": 715
+    "matched": 10285,
+    "by_key": 10097,
+    "near": 534,
+    "new": 2268,
+    "new_located": 696
   },
   {
     "source": "hf-numina-olympiads-ref",
     "rows": 13087,
-    "matched": 10354,
-    "by_key": 10066,
-    "near": 704,
-    "new": 2029,
-    "new_located": 627
+    "matched": 10385,
+    "by_key": 10096,
+    "near": 702,
+    "new": 2000,
+    "new_located": 602
   },
   {
     "source": "hf-ai-mo-aops",
     "rows": 80661,
-    "matched": 15838,
+    "matched": 16516,
     "by_key": 0,
-    "near": 10453,
-    "new": 54370,
-    "new_located": 29097
+    "near": 10444,
+    "new": 53701,
+    "new_located": 28534
   },
   {
     "source": "hf-numinamath-1-5",
     "rows": 315736,
-    "matched": 30364,
+    "matched": 31274,
     "by_key": 0,
-    "near": 40462,
-    "new": 244910,
+    "near": 40930,
+    "new": 243532,
     "new_located": 0
   },
   {
     "source": "hf-omni-math",
     "rows": 4428,
-    "matched": 2669,
+    "matched": 2698,
     "by_key": 0,
-    "near": 399,
-    "new": 1360,
-    "new_located": 741
+    "near": 397,
+    "new": 1333,
+    "new_located": 718
   },
   {
     "source": "hf-olympiadbench",
     "rows": 2133,
-    "matched": 552,
+    "matched": 553,
     "by_key": 0,
-    "near": 269,
-    "new": 1312,
+    "near": 272,
+    "new": 1308,
     "new_located": 0
   },
   {
     "source": "hf-aops-wiki",
-    "rows": 33674,
-    "matched": 13199,
-    "by_key": 13129,
-    "near": 353,
-    "new": 20122,
-    "new_located": 13069
+    "rows": 43005,
+    "matched": 19634,
+    "by_key": 15235,
+    "near": 4291,
+    "new": 19080,
+    "new_located": 11915
   },
   {
     "source": "hf-liveaopsbench",
     "rows": 5328,
-    "matched": 221,
+    "matched": 224,
     "by_key": 0,
-    "near": 758,
-    "new": 4349,
+    "near": 756,
+    "new": 4348,
     "new_located": 0
   },
   {
@@ -110,28 +110,28 @@
   {
     "source": "hf-putnam-axiom",
     "rows": 100,
-    "matched": 85,
+    "matched": 86,
     "by_key": 76,
     "near": 4,
-    "new": 11,
-    "new_located": 11
+    "new": 10,
+    "new_located": 10
   },
   {
     "source": "hf-putnamgap",
     "rows": 1051,
-    "matched": 1008,
-    "by_key": 1006,
+    "matched": 1037,
+    "by_key": 1036,
     "near": 0,
-    "new": 43,
-    "new_located": 43
+    "new": 14,
+    "new_located": 14
   },
   {
     "source": "hf-olymmath-ruc",
     "rows": 400,
     "matched": 23,
     "by_key": 0,
-    "near": 57,
-    "new": 320,
+    "near": 60,
+    "new": 317,
     "new_located": 0
   },
   {
@@ -155,10 +155,10 @@
   {
     "source": "hf-polymath",
     "rows": 9000,
-    "matched": 1540,
+    "matched": 1601,
     "by_key": 0,
-    "near": 1208,
-    "new": 6252,
+    "near": 1231,
+    "new": 6168,
     "new_located": 0
   },
   {
@@ -186,15 +186,15 @@
     "by_key": 0,
     "near": 121,
     "new": 2064,
-    "new_located": 23
+    "new_located": 24
   },
   {
     "source": "hf-hrm8k",
     "rows": 8011,
-    "matched": 866,
+    "matched": 878,
     "by_key": 0,
-    "near": 862,
-    "new": 6283,
+    "near": 871,
+    "new": 6262,
     "new_located": 661
   }
 ]

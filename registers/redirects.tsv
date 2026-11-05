@@ -1,6 +1,5 @@
 # old locator	new locator. A line that starts with # is a comment.
-# Agent decision, not a person's review (2026-11-01): the next 14 records were at the number of the AoPS wiki row, which counts from 1 in each day or section. They are now at the position in the title of their AoPS topic.
-bg-mo/2014/p3	bg-mo/2014/p6
+# Agent decision, not a person's review (2026-11-01): the next 13 records were at the number of the AoPS wiki row, which counts from 1 in each day or section. They are now at the position in the title of their AoPS topic.
 br-obm/1986/p5	br-obm/1986/p6
 by-mo/2001/p7	by-mo/2001/p9
 by-mo/2001/p8	by-mo/2001/p10
@@ -14,6 +13,7 @@ cr-mo/2006/p2	cr-mo/2006/p5
 isl/1999/p8	isl/1999/g8
 isl/2002/p8	isl/2002/g8
 isl/2003/p8	isl/2003/n8
+# Agent decision, not a person's review (2026-11-05): the redirect of bg-mo/2014/p3 is removed, because this locator now holds its own problem. The AoPS wiki row of it is the third row of day 1, and the row of the old record names p6 in its title.
 # Agent decision, not a person's review (2026-11-05): the redirects of ibero/1987/p1, ibero/2014/p1 and ibero/2014/p2 are removed, because these locators now hold their own problems. The AoPS wiki rows with the titles of these problems give the texts.
 # Agent decision, not a person's review (2026-11-03): kr-kmo held two competitions. The next 42 records are problems of the Final Korean MO, as the AoPS category "Korea - Final Round" of each source record says. They move to kr-fkmo at the same year and position.
 kr-kmo/1993/p1	kr-fkmo/1993/p1

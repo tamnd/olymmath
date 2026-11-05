@@ -2298,6 +2298,11 @@
   group: national
   level: high-school
   country: XK
+  # Agent decision, not a person's review: the AoPS wiki numbers the problems of each grade from 1. In 2019, 2020 and 2022 its titles, such as "Kosovo MO 2019 Grade 10 P1", name the grades 9 to 12, with five problems for each grade in 2019 and four in 2020 and 2022. The position of problem N of grade G is pG followed by N, as by-mo uses. The other years have no full set of titles, so they have no shape.
+  eras:
+    - {from: 2019, to: 2019, per_year: 20, layout: [{paper: grade9, name: Grade 9, positions: [p91, p92, p93, p94, p95]}, {paper: grade10, name: Grade 10, positions: [p101, p102, p103, p104, p105]}, {paper: grade11, name: Grade 11, positions: [p111, p112, p113, p114, p115]}, {paper: grade12, name: Grade 12, positions: [p121, p122, p123, p124, p125]}]}
+    - {from: 2020, to: 2020, per_year: 16, layout: [{paper: grade9, name: Grade 9, positions: [p91, p92, p93, p94]}, {paper: grade10, name: Grade 10, positions: [p101, p102, p103, p104]}, {paper: grade11, name: Grade 11, positions: [p111, p112, p113, p114]}, {paper: grade12, name: Grade 12, positions: [p121, p122, p123, p124]}]}
+    - {from: 2022, to: 2022, per_year: 16, layout: [{paper: grade9, name: Grade 9, positions: [p91, p92, p93, p94]}, {paper: grade10, name: Grade 10, positions: [p101, p102, p103, p104]}, {paper: grade11, name: Grade 11, positions: [p111, p112, p113, p114]}, {paper: grade12, name: Grade 12, positions: [p121, p122, p123, p124]}]}
   sources: [aops-collections, imogeometry-blog]
   description: The national olympiad of Kosovo. XK is a user-assigned code, not an official ISO 3166-1 code.
 
@@ -2443,6 +2448,10 @@
   country: BY
   edition_form: year
   languages: [ru, be]
+  # Agent decision, not a person's review: in 2018 and 2019 the AoPS wiki gives each problem a number such as 10.3, for problem 3 of grade 10, with eight problems for each of the grades 9, 10 and 11. The position of problem N of grade G is pG followed by N, as in by-mo/2018/p91.
+  eras:
+    - {from: 2018, to: 2018, per_year: 24, layout: [{paper: grade9, name: Grade 9, positions: [p91, p92, p93, p94, p95, p96, p97, p98]}, {paper: grade10, name: Grade 10, positions: [p101, p102, p103, p104, p105, p106, p107, p108]}, {paper: grade11, name: Grade 11, positions: [p111, p112, p113, p114, p115, p116, p117, p118]}]}
+    - {from: 2019, to: 2019, per_year: 24, layout: [{paper: grade9, name: Grade 9, positions: [p91, p92, p93, p94, p95, p96, p97, p98]}, {paper: grade10, name: Grade 10, positions: [p101, p102, p103, p104, p105, p106, p107, p108]}, {paper: grade11, name: Grade 11, positions: [p111, p112, p113, p114, p115, p116, p117, p118]}]}
   sources: [imomath, problems-ru]
   description: The national olympiad of Belarus. problems.ru holds 132 of its problems.
 
@@ -2451,6 +2460,9 @@
   group: national
   level: high-school
   country: MD
+  # Agent decision, not a person's review: in 2002 the AoPS wiki titles, such as "Moldova NMO 2002 grade 7 problem nr.5", name the grades 7 to 11, with eight problems for each grade. The wiki numbers problems 1 to 4 and problems 5 to 8 of each grade from 1, as two days of four problems. The position of problem N of grade G is pG followed by N, as by-mo uses. The other years have no full set of titles, so they have no shape.
+  eras:
+    - {from: 2002, to: 2002, per_year: 40, layout: [{paper: grade7, name: Grade 7, days: 2, positions: [p71, p72, p73, p74, p75, p76, p77, p78]}, {paper: grade8, name: Grade 8, days: 2, positions: [p81, p82, p83, p84, p85, p86, p87, p88]}, {paper: grade9, name: Grade 9, days: 2, positions: [p91, p92, p93, p94, p95, p96, p97, p98]}, {paper: grade10, name: Grade 10, days: 2, positions: [p101, p102, p103, p104, p105, p106, p107, p108]}, {paper: grade11, name: Grade 11, days: 2, positions: [p111, p112, p113, p114, p115, p116, p117, p118]}]}
   sources: [aops-collections, imomath]
   description: The national olympiad of Moldova. imomath holds 357 of its problems.
 

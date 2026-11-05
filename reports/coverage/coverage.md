@@ -6,7 +6,7 @@ This report is made by `om coverage`. The register gives the expected positions 
 
 | Expected | C0 | C1 | C2 | Candidate | No candidate | Located seed rows |
 |---:|---:|---:|---:|---:|---:|---:|
-| 30804 | 70.6% | 10.9% | 9.4% | 634 (2.1%) | 8425 (27.4%) | 157268 |
+| 30944 | 70.7% | 10.9% | 9.3% | 634 (2.0%) | 8426 (27.2%) | 157268 |
 
 ## Sources
 
@@ -181,7 +181,7 @@ The order is the order of the register. A competition with no shape in the regis
 | mk-mo | North Macedonia national mathematics olympiad | 140 | 81.4% | 0.7% | 0.7% | 0 | 26 | 706 |
 | me-mo | Montenegro national mathematics olympiad | no shape | - | - | - | 0 | 0 | 0 |
 | al-mo | Albania national mathematics olympiad | no shape | - | - | - | 0 | 0 | 0 |
-| xk-mo | Kosovo national mathematics olympiad | no shape | - | - | - | 0 | 0 | 492 |
+| xk-mo | Kosovo national mathematics olympiad | 52 | 98.1% | 0.0% | 0.0% | 0 | 1 | 492 |
 | ru-allrussian | All-Russian Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 5908 |
 | ru-moscow | Moscow Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 833 |
 | ru-spb | St Petersburg Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 710 |
@@ -193,8 +193,8 @@ The order is the order of the register. A competition with no shape in the regis
 | ru-euler | Euler Olympiad | no shape | - | - | - | 0 | 0 | 14 |
 | ru-oral-geometry | Moscow Oral Geometry Olympiad | no shape | - | - | - | 0 | 0 | 276 |
 | ua-umo | Ukrainian Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 2058 |
-| by-mo | Belarus Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 1389 |
-| md-mo | Moldova national mathematics olympiad | no shape | - | - | - | 0 | 0 | 589 |
+| by-mo | Belarus Mathematical Olympiad | 48 | 100.0% | 0.0% | 0.0% | 0 | 0 | 1389 |
+| md-mo | Moldova national mathematics olympiad | 40 | 100.0% | 0.0% | 0.0% | 0 | 0 | 589 |
 | ge-mo | Georgia national mathematics olympiad | no shape | - | - | - | 0 | 0 | 0 |
 | am-mo | Armenia national mathematics olympiad | no shape | - | - | - | 0 | 0 | 59 |
 | az-mo | Azerbaijan national mathematics olympiad | no shape | - | - | - | 0 | 0 | 74 |

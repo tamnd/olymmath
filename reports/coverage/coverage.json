@@ -2,11 +2,11 @@
   "this_year": 2026,
   "totals": {
     "expected": 30944,
-    "c0": 21884,
+    "c0": 21896,
     "c1": 3361,
     "c2": 2882,
     "candidate": 634,
-    "no_candidate": 8426,
+    "no_candidate": 8414,
     "rows": 157268
   },
   "competitions": [
@@ -39981,11 +39981,11 @@
       "name": "Peru national mathematics olympiad",
       "group": "national",
       "expected": 76,
-      "c0": 25,
+      "c0": 28,
       "c1": 0,
       "c2": 0,
       "candidate": 0,
-      "no_candidate": 51,
+      "no_candidate": 48,
       "rows": 102,
       "shape": true,
       "years": [
@@ -40146,11 +40146,9 @@
         {
           "year": 2018,
           "record": [
-            "p3"
-          ],
-          "missing": [
             "p1",
             "p2",
+            "p3",
             "p4"
           ],
           "rows": 4
@@ -42255,11 +42253,11 @@
       "name": "Irish Mathematical Olympiad",
       "group": "national",
       "expected": 390,
-      "c0": 158,
+      "c0": 167,
       "c1": 0,
       "c2": 0,
       "candidate": 82,
-      "no_candidate": 150,
+      "no_candidate": 141,
       "rows": 1736,
       "shape": true,
       "years": [
@@ -42883,10 +42881,9 @@
         },
         {
           "year": 2022,
-          "missing": [
+          "record": [
             "p1",
             "p2",
-            "p3",
             "p4",
             "p5",
             "p6",
@@ -42894,6 +42891,9 @@
             "p8",
             "p9",
             "p10"
+          ],
+          "missing": [
+            "p3"
           ],
           "rows": 10
         },

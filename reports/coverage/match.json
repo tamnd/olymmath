@@ -2,82 +2,82 @@
   {
     "source": "hf-mathnet",
     "rows": 55634,
-    "matched": 14148,
+    "matched": 14190,
     "by_key": 0,
-    "near": 7776,
-    "new": 33710,
-    "new_located": 23670
+    "near": 7830,
+    "new": 33614,
+    "new_located": 23596
   },
   {
     "source": "hf-numina-olympiads",
     "rows": 13087,
-    "matched": 10285,
-    "by_key": 10097,
+    "matched": 10326,
+    "by_key": 10117,
     "near": 534,
-    "new": 2268,
-    "new_located": 696
+    "new": 2227,
+    "new_located": 682
   },
   {
     "source": "hf-numina-olympiads-ref",
     "rows": 13087,
-    "matched": 10385,
-    "by_key": 10096,
-    "near": 702,
-    "new": 2000,
-    "new_located": 602
+    "matched": 10428,
+    "by_key": 10116,
+    "near": 704,
+    "new": 1955,
+    "new_located": 583
   },
   {
     "source": "hf-ai-mo-aops",
     "rows": 80661,
-    "matched": 16516,
+    "matched": 16976,
     "by_key": 0,
-    "near": 10444,
-    "new": 53701,
-    "new_located": 28534
+    "near": 10471,
+    "new": 53214,
+    "new_located": 28072
   },
   {
     "source": "hf-numinamath-1-5",
     "rows": 315736,
-    "matched": 31274,
+    "matched": 31859,
     "by_key": 0,
-    "near": 40930,
-    "new": 243532,
+    "near": 41058,
+    "new": 242819,
     "new_located": 0
   },
   {
     "source": "hf-omni-math",
     "rows": 4428,
-    "matched": 2698,
+    "matched": 2705,
     "by_key": 0,
-    "near": 397,
-    "new": 1333,
-    "new_located": 718
+    "near": 396,
+    "new": 1327,
+    "new_located": 712
   },
   {
     "source": "hf-olympiadbench",
     "rows": 2133,
-    "matched": 553,
+    "matched": 554,
     "by_key": 0,
-    "near": 272,
+    "near": 271,
     "new": 1308,
     "new_located": 0
   },
   {
     "source": "hf-aops-wiki",
     "rows": 43005,
-    "matched": 19634,
-    "by_key": 15235,
-    "near": 4291,
-    "new": 19080,
-    "new_located": 11915
+    "matched": 20344,
+    "by_key": 15699,
+    "near": 4215,
+    "new": 18446,
+    "new_located": 11302
   },
   {
     "source": "hf-liveaopsbench",
     "rows": 5328,
-    "matched": 224,
+    "matched": 226,
     "by_key": 0,
-    "near": 756,
-    "new": 4348,
+    "near": 758,
+    "new": 4344,
     "new_located": 0
   },
   {
@@ -130,8 +130,8 @@
     "rows": 400,
     "matched": 23,
     "by_key": 0,
-    "near": 60,
-    "new": 317,
+    "near": 59,
+    "new": 318,
     "new_located": 0
   },
   {
@@ -148,17 +148,17 @@
     "rows": 200,
     "matched": 198,
     "by_key": 194,
-    "near": 1,
-    "new": 1,
-    "new_located": 1
+    "near": 0,
+    "new": 2,
+    "new_located": 2
   },
   {
     "source": "hf-polymath",
     "rows": 9000,
     "matched": 1601,
     "by_key": 0,
-    "near": 1231,
-    "new": 6168,
+    "near": 1251,
+    "new": 6148,
     "new_located": 0
   },
   {
@@ -184,17 +184,17 @@
     "rows": 2204,
     "matched": 19,
     "by_key": 0,
-    "near": 121,
-    "new": 2064,
+    "near": 123,
+    "new": 2062,
     "new_located": 24
   },
   {
     "source": "hf-hrm8k",
     "rows": 8011,
-    "matched": 878,
+    "matched": 883,
     "by_key": 0,
-    "near": 871,
-    "new": 6262,
+    "near": 869,
+    "new": 6259,
     "new_located": 661
   }
 ]

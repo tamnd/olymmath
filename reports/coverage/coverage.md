@@ -6,7 +6,7 @@ This report is made by `om coverage`. The register gives the expected positions 
 
 | Expected | C0 | C1 | C2 | Candidate | No candidate | Located seed rows |
 |---:|---:|---:|---:|---:|---:|---:|
-| 30108 | 69.9% | 11.2% | 9.6% | 631 (2.1%) | 8426 (28.0%) | 157268 |
+| 30804 | 70.6% | 10.9% | 9.4% | 634 (2.1%) | 8425 (27.4%) | 157268 |
 
 ## Sources
 
@@ -42,7 +42,7 @@ The order is the order of the register. A competition with no shape in the regis
 | Code | Competition | Expected | C0 | C1 | C2 | Candidate | No candidate | Seed rows |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | imo | International Mathematical Olympiad | 410 | 98.5% | 34.9% | 34.9% | 6 | 0 | 1486 |
-| isl | IMO Shortlist | 541 | 99.6% | 66.4% | 66.4% | 1 | 1 | 5743 |
+| isl | IMO Shortlist | 541 | 100.0% | 66.4% | 66.4% | 0 | 0 | 5743 |
 | ill | IMO Longlist | no shape | - | - | - | 0 | 0 | 2957 |
 | igo | Iranian Geometry Olympiad | 190 | 52.1% | 0.0% | 0.0% | 0 | 91 | 307 |
 | kangaroo | Mathematical Kangaroo | no shape | - | - | - | 0 | 0 | 0 |
@@ -89,12 +89,12 @@ The order is the order of the register. A competition with no shape in the regis
 | putnam | William Lowell Putnam Mathematical Competition | 1098 | 95.4% | 43.5% | 0.0% | 1 | 49 | 3657 |
 | imc | International Mathematics Competition for University Students | 354 | 100.0% | 41.5% | 41.5% | 0 | 0 | 731 |
 | seemous | South Eastern European Mathematical Olympiad for University Students | 80 | 55.0% | 0.0% | 0.0% | 4 | 32 | 101 |
-| schweitzer | Miklós Schweitzer Competition | no shape | - | - | - | 0 | 0 | 1516 |
+| schweitzer | Miklós Schweitzer Competition | 647 | 99.4% | 0.5% | 0.5% | 4 | 0 | 1516 |
 | vtrmc | Virginia Tech Regional Mathematics Contest | 307 | 100.0% | 69.4% | 69.1% | 0 | 0 | 197 |
 | ciim | Iberoamerican Interuniversity Mathematics Competition | 108 | 68.5% | 0.0% | 0.0% | 0 | 34 | 172 |
 | ir-university | Iranian University Mathematics Olympiad | no shape | - | - | - | 0 | 0 | 0 |
 | ru-student | Russian and Soviet Student Olympiads | no shape | - | - | - | 0 | 0 | 0 |
-| oimu | Iberoamerican Olympiad for University Students | no shape | - | - | - | 0 | 0 | 98 |
+| oimu | Iberoamerican Olympiad for University Students | 49 | 100.0% | 0.0% | 0.0% | 0 | 0 | 98 |
 | simon-marais | Simon Marais Mathematics Competition | 80 | 20.0% | 0.0% | 0.0% | 0 | 64 | 64 |
 | ahsme | American High School Mathematics Examination | 1810 | 0.0% | 0.0% | 0.0% | 0 | 1810 | 2490 |
 | amc8 | AMC 8 | 1050 | 3.1% | 0.0% | 0.0% | 0 | 1017 | 1032 |

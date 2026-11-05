@@ -1,23 +1,29 @@
 source	label	rows
+hf-aops-wiki	Slovenia NMO	134
 hf-indonesian-olympiad	OMITS_SMA_2007	58
+hf-aops-wiki	Hong kong NMO	55
 hf-mathnet	Регионален натпревар по математика за основно образование	52
 hf-ai-mo-aops	Ukraine Correspondence MO -  geometry	50
+hf-aops-wiki	Ukraine Correspondence MO    geometry	50
 hf-indonesian-olympiad	OPSILON_SMP_2023	50
 hf-mathnet	Italy	50
+hf-aops-wiki	Belgium Flanders Seniors VWO   geometry	49
 hf-indonesian-olympiad	ICEF_SD_2019	49
 hf-mathnet	Team Selection Test for IMO	48
 hf-ai-mo-aops	OMpD	47
+hf-aops-wiki	Swiss NMO   geometry	47
 hf-ai-mo-aops	Bogdan Stan	46
 hf-mathnet	69th NMO Selection Tests for JBMO	46
 hf-mathnet	IMO Team Selection Contest	46
 hf-ai-mo-aops	Akdeniz University MO	45
 hf-ai-mo-aops	NIMO Summer Contest	45
-hf-aops-wiki	Ukraine Correspondence MO    geometry	45
 hf-indonesian-olympiad	FIMNas_SMP_2009	45
 hf-ai-mo-aops	Malaysia IMONST 1	44
-hf-aops-wiki	Swiss NMO   geometry	44
+hf-aops-wiki	Albania TST	44
+hf-aops-wiki	Azerbaijan TST	44
 hf-ai-mo-aops	Durer Math Competition CD Finals - geometry	43
 hf-ai-mo-aops	Kyiv City MO Seniors 2003+ geometry	43
+hf-aops-wiki	Junior Balkan TST	43
 hf-ai-mo-aops	Belgium OMB Juniors - geometry	42
 hf-ai-mo-aops	Mathcenter Contest	42
 hf-ai-mo-aops	Mexico States Semifinals - geometry	42
@@ -26,19 +32,17 @@ hf-ai-mo-aops	PEN P Problems	42
 hf-ai-mo-aops	Poland Juniors  Round 1 - geometry	42
 hf-ai-mo-aops	Saudi Arabia Pre-TST + Training Tests	42
 hf-aops-wiki	Japan EGMO Preliminary	42
-hf-aops-wiki	Slovenia NMO	42
 hf-mathnet	1st CIS	42
 hf-ai-mo-aops	Cono Sur Shortlist - geometry	41
 hf-ai-mo-aops	Gauss	41
 hf-ai-mo-aops	IPhOO	41
 hf-ai-mo-aops	Indonesia MO Shortlist	41
-hf-aops-wiki	Belgium Flanders Seniors VWO   geometry	41
 hf-ai-mo-aops	Malaysian IMO Training Camp	40
 hf-ai-mo-aops	Peking University Autumn Camp	40
 hf-ai-mo-aops	Science ON all problems	40
 hf-ai-mo-aops	UNSW School MC Juniors - geometry	40
-hf-aops-wiki	Azerbaijan TST	40
 hf-aops-wiki	Grand Duchy of Lithuania	40
+hf-aops-wiki	Math Prize For Girls	40
 hf-indonesian-olympiad	NaMO_Junior	40
 hf-indonesian-olympiad	NaMO_Umum	40
 hf-indonesian-olympiad	OPSILON_SMA_2018	40
@@ -49,6 +53,7 @@ hf-ai-mo-aops	Chile Junior Math Olympiad	39
 hf-ai-mo-aops	Ecuador Juniors	39
 hf-ai-mo-aops	Nicolae Coculescu	39
 hf-ai-mo-aops	PEN E Problems	39
+hf-aops-wiki	NMO First Round	39
 hf-indonesian-olympiad	FIMNas_SMA_2009	39
 hf-indonesian-olympiad	POSI_SMP_2020	39
 hf-indonesian-olympiad	SCE_SMA_2019	39
@@ -56,6 +61,8 @@ hf-indonesian-olympiad	SCE_SMA_2020	39
 hf-ai-mo-aops	Brazil L2 Finals (OBM) - geometry	38
 hf-ai-mo-aops	Saudi Arabia Training Tests	38
 hf-ai-mo-aops	Swiss NMO - geometry	38
+hf-aops-wiki	HMNT   HMMT November	38
+hf-aops-wiki	Hong Kong NMO	38
 hf-indonesian-olympiad	POSI_SMA_2020	38
 hf-mathnet	Fall 2021 AMC 10 B	38
 hf-mathnet	Fall Mathematical Competition	38
@@ -69,12 +76,12 @@ hf-ai-mo-aops	Kyiv City MO Juniors Round2 2010+ geometry	37
 hf-ai-mo-aops	PEN S Problems	37
 hf-ai-mo-aops	SG Originals	37
 hf-ai-mo-aops	VN Math Olympiad For High School Students	37
-hf-aops-wiki	Hong kong NMO	37
 hf-indonesian-olympiad	POSI_SD_2020	37
 hf-ai-mo-aops	Centennial Schools Mathematics Competition	36
 hf-ai-mo-aops	Indonesia Juniors	36
 hf-ai-mo-aops	OMMock - Mexico National Olympiad Mock Exam	36
 hf-ai-mo-aops	UNSW School MC Seniors - geometry	36
+hf-aops-wiki	JBMO TST   Macedonia	36
 hf-aops-wiki	QEDMO	36
 hf-mathnet	10. tekmovanje v znanju matematike za dijake srednjih tehniških in strokovnih šol, Državno tekmovanje	36
 hf-mathnet	16. tekmovanje v znanju matematike za dijake srednjih tehniških in strokovnih šol Državno tekmovanje	36
@@ -100,6 +107,7 @@ hf-ai-mo-aops	Adygea Teachers' Geometry Olympiad	34
 hf-ai-mo-aops	Brazil Cono Sur TST	34
 hf-ai-mo-aops	Math Hour Olympiad	34
 hf-ai-mo-aops	Peking University Summer Camp	34
+hf-aops-wiki	JBMO TST   Bosnia and Herzegovina	34
 hf-mathnet	66th NMO SELECTION TESTS FOR THE JUNIOR BALKAN MATHEMATICAL OLYMPIAD	34
 hf-mathnet	Državno tekmovanje v znanju matematike za dijake srednjih tehniških in strokovnih šol	34
 hf-mathnet	ENVOI 1 : GÉOMÉTRIE Corrigé	34
@@ -111,6 +119,8 @@ hf-ai-mo-aops	Ecuador NMO (OMEC)	33
 hf-ai-mo-aops	Regional Olympiad of Mexico Northeast	33
 hf-ai-mo-aops	VII Soros Olympiad 2000 - 01	33
 hf-aops-wiki	JOM 2015 Shortlist	33
+hf-aops-wiki	NZMOC Camp Selection	33
+hf-aops-wiki	Regional MO	33
 hf-ai-mo-aops	Brazil EGMO TST	32
 hf-ai-mo-aops	Chile Classification NMO Juniors	32
 hf-ai-mo-aops	JHMMC 8	32
@@ -121,8 +131,7 @@ hf-ai-mo-aops	PUMaC Geometry A	32
 hf-ai-mo-aops	PUMaC Team Round	32
 hf-ai-mo-aops	Turkey National Olympiad First Round	32
 hf-ai-mo-aops	Turkish National Olympiad First Round	32
-hf-aops-wiki	JBMO TST   Macedonia	32
-hf-aops-wiki	Junior Balkan TST	32
+hf-aops-wiki	Flanders Junior Olympiad	32
 hf-aops-wiki	Saudi Arabia Pre TST + Training Tests	32
 hf-mathnet	19. tekmovanje v znanju matematike za dijake srednjih tehniških in strokovnih šol Državno tekmovanje	32
 hf-mathnet	21. tekmovanje v znanju matematike za dijake srednjih tehniških in strokovnih šol Državno tekmovanje	32
@@ -139,6 +148,7 @@ hf-ai-mo-aops	Hong kong National Olympiad	31
 hf-ai-mo-aops	LIMIT Category A	31
 hf-ai-mo-aops	PEN K Problems	31
 hf-ai-mo-aops	PUMaC Team	31
+hf-aops-wiki	Mongolia TST	31
 hf-indonesian-olympiad	KMSI_SMP_2022	31
 hf-ai-mo-aops	CMIMC Individual Finals	30
 hf-ai-mo-aops	CUBRMC	30
@@ -149,6 +159,8 @@ hf-ai-mo-aops	KVS IOQM India	30
 hf-ai-mo-aops	NMTC Junior	30
 hf-ai-mo-aops	PEN G Problems	30
 hf-ai-mo-aops	Thailand Online MO	30
+hf-aops-wiki	JBMO TST   Moldova	30
+hf-aops-wiki	JBMO TST   Romania	30
 hf-indonesian-olympiad	FSN_SMP_2024	30
 hf-indonesian-olympiad	LMNas_SMA_2022	30
 hf-indonesian-olympiad	LMNas_SMP_2019	30
@@ -174,7 +186,8 @@ hf-ai-mo-aops	AHSME Spring	29
 hf-ai-mo-aops	Belgium OMB Seniors - geometry	29
 hf-ai-mo-aops	Korea Summer Program Practice Test	29
 hf-ai-mo-aops	North Korea Mathematical Olympiad	29
-hf-aops-wiki	Mongolia TST	29
+hf-aops-wiki	Hanoi Open Mathematics Competition	29
+hf-aops-wiki	IFYM Int. Fest. of Young Mathematicians Sozopol	29
 hf-indonesian-olympiad	KMSI_SD_34_2022	29
 hf-indonesian-olympiad	LMNas_SMA_2019	29
 hf-indonesian-olympiad	LMNas_SMA_2021	29
@@ -189,9 +202,8 @@ hf-ai-mo-aops	Kazakhstan Juniors - geometry	28
 hf-ai-mo-aops	LIMIT Category 1	28
 hf-ai-mo-aops	LIMIT Category B	28
 hf-ai-mo-aops	Polish Junior MO First Round	28
-hf-aops-wiki	IFYM Int. Fest. of Young Mathematicians Sozopol	28
-hf-aops-wiki	JBMO TST   Bosnia and Herzegovina	28
 hf-aops-wiki	Latvia BW TST	28
+hf-aops-wiki	USAMTS	28
 hf-indonesian-olympiad	LMNas_SMP_2022	28
 hf-indonesian-olympiad	UMC_SD_2022	28
 hf-mathnet	2. matematično tekmovanje dijakov srednjih tehniških in strokovnih šol	28
@@ -213,9 +225,12 @@ hf-ai-mo-aops	Mathcenter Contest + Longlist	27
 hf-ai-mo-aops	Olimphíada	27
 hf-ai-mo-aops	PUMaC Live Round	27
 hf-ai-mo-aops	Poland Juniors  Round 2 - geometry	27
-hf-aops-wiki	Hong Kong NMO	27
+hf-aops-wiki	Albania NMO	27
+hf-aops-wiki	Argentina Cono Sur TST	27
+hf-aops-wiki	CHMMC problems	27
+hf-aops-wiki	Durer Math Competition	27
+hf-aops-wiki	KoMaL A 2018/2019	27
 hf-aops-wiki	KoMaL A 2021/2022	27
-hf-aops-wiki	Regional MO	27
 hf-indonesian-olympiad	KMSI_SD_56_2022	27
 hf-ai-mo-aops	2024	26
 hf-ai-mo-aops	AMC 12-AHSME	26
@@ -224,8 +239,10 @@ hf-ai-mo-aops	Mathley 2014-15	26
 hf-ai-mo-aops	N.N. Mihăileanu Individual	26
 hf-ai-mo-aops	Nigerian Senior MO Round 2	26
 hf-ai-mo-aops	Slovenia Team Selection Test	26
-hf-aops-wiki	JBMO TST   Moldova	26
-hf-aops-wiki	KoMaL A 2018/2019	26
+hf-aops-wiki	BAMO Contests	26
+hf-aops-wiki	India Pre Regional MO	26
+hf-aops-wiki	Purple Comet	26
+hf-aops-wiki	Thailand October Camp	26
 hf-indonesian-olympiad	LMNas_SMA_2024	26
 hf-indonesian-olympiad	osn_kabupaten_sd_2024	26
 hf-mathnet	15. tekmovanje v znanju matematike za dijake srednjih tehniških in strokovnih šol, Državno tekmovanje	26
@@ -247,8 +264,7 @@ hf-ai-mo-aops	Polish Junior MO Second Round	25
 hf-ai-mo-aops	SDMO (Middle School)	25
 hf-ai-mo-aops	SNSB Admission	25
 hf-ai-mo-aops	Selection round of Kiev team to UMO	25
-hf-aops-wiki	NZMOC Camp Selection	25
-hf-aops-wiki	Thailand October Camp	25
+hf-aops-wiki	KoMaL A 2019/2020	25
 hf-indonesian-olympiad	KSM_MA_2019	25
 hf-indonesian-olympiad	osn_kabupaten_sd_2023	25
 hf-indonesian-olympiad	osn_kabupaten_smp_2020	25
@@ -270,8 +286,9 @@ hf-ai-mo-aops	PUMaC Number Theory A	24
 hf-ai-mo-aops	Peru EGMO TST	24
 hf-ai-mo-aops	Ramnicean Hope	24
 hf-ai-mo-aops	VMEO III 2006	24
-hf-aops-wiki	JBMO TST   Romania	24
+hf-aops-wiki	Azerbaijan Junior NMO	24
 hf-aops-wiki	KoMaL A 2022/2023	24
+hf-aops-wiki	NIMO Summer Contest	24
 hf-indonesian-olympiad	ITBMo_2022	24
 hf-indonesian-olympiad	KSM_MA_2018	24
 hf-indonesian-olympiad	OSN_Provinsi_SMA_2005	24
@@ -308,6 +325,11 @@ hf-ai-mo-aops	VMEO III 2006 Shortlist	23
 hf-ai-mo-aops	VMEO IV 2015	23
 hf-ai-mo-aops	Winter SDPC	23
 hf-aops-wiki	AMC 12/AHSME	23
+hf-aops-wiki	Azerbaijan BMO TST	23
+hf-aops-wiki	BMO TST	23
+hf-aops-wiki	KoMaL A 2020/2021	23
+hf-aops-wiki	Latvia NMO	23
+hf-aops-wiki	Math Open At Andover problems	23
 hf-aops-wiki	San Diego Power Contest	23
 hf-indonesian-olympiad	OSN_Provinsi_SMA_2006	23
 hf-indonesian-olympiad	OSN_Provinsi_SMA_2007	23
@@ -318,10 +340,14 @@ hf-ai-mo-aops	Mathematics for Its Sake	22
 hf-ai-mo-aops	PEN J Problems	22
 hf-ai-mo-aops	September SZM Mathematical Olympiad	22
 hf-ai-mo-aops	Ukrainian From Tasks to Tasks - geometry	22
-hf-aops-wiki	Azerbaijan Junior NMO	22
+hf-aops-wiki	Croatia  MO    geometry	22
+hf-aops-wiki	IMOC Shortlist	22
 hf-aops-wiki	Moldova MO 11 12	22
+hf-aops-wiki	TST Round 1	22
 hf-aops-wiki	TST Round 2	22
 hf-aops-wiki	TST Round 3	22
+hf-aops-wiki	Tokio University Entry Examination	22
+hf-aops-wiki	Tokyo Instutute Of Technology Entrance Examination	22
 hf-indonesian-olympiad	OMVN_SMP_2013	22
 hf-indonesian-olympiad	OSN_Provinsi_SMA_2002	22
 hf-indonesian-olympiad	OSN_Provinsi_SMA_2003	22
@@ -356,9 +382,14 @@ hf-ai-mo-aops	Polish Junior Math Olympiad First Round	21
 hf-ai-mo-aops	QEDMO 15th	21
 hf-aops-wiki	Bosnia and Herzegovina EGMO TST	21
 hf-aops-wiki	Champions Tournament Seniors   geometry	21
-hf-aops-wiki	IMOC Shortlist	21
-hf-aops-wiki	KoMaL A 2019/2020	21
-hf-aops-wiki	TST Round 1	21
+hf-aops-wiki	MathLinks Contest 1st	21
+hf-aops-wiki	MathLinks Contest 2nd	21
+hf-aops-wiki	MathLinks Contest 3rd	21
+hf-aops-wiki	MathLinks Contest 4th	21
+hf-aops-wiki	MathLinks Contest 5th	21
+hf-aops-wiki	MathLinks Contest 6th	21
+hf-aops-wiki	MathLinks Contest 7th	21
+hf-aops-wiki	Tajikistan TST	21
 hf-indonesian-olympiad	OMVN_SMA_2016	21
 hf-indonesian-olympiad	OMVN_SMA_2018	21
 hf-indonesian-olympiad	OSN_Provinsi_SMA_2004	21
@@ -382,11 +413,12 @@ hf-ai-mo-aops	Polish Junior Math Olympiad Finals	20
 hf-ai-mo-aops	RMT Algebra Round	20
 hf-ai-mo-aops	The Golden Digits 2024	20
 hf-ai-mo-aops	VU MIF Olympiad - geometry	20
-hf-aops-wiki	Croatia  MO    geometry	20
-hf-aops-wiki	Durer Math Competition	20
-hf-aops-wiki	Flanders Junior Olympiad	20
+hf-aops-wiki	Adygea Teachers' Geometry Olympiad	20
+hf-aops-wiki	Albania BMO TST	20
+hf-aops-wiki	Belgium OMB Seniors   geometry	20
 hf-aops-wiki	Junior Tuymaada Olympiad	20
 hf-aops-wiki	OMMock   Mexico NMO Mock Exam	20
+hf-aops-wiki	Ukrainian From Tasks to Tasks   geometry	20
 hf-indonesian-olympiad	BMOC_2020	20
 hf-indonesian-olympiad	OSN_Kabupaten_SMA_2008	20
 hf-indonesian-olympiad	OSN_Kabupaten_SMA_2009	20
@@ -429,7 +461,6 @@ hf-ai-mo-aops	SAFEST Olympiad	19
 hf-ai-mo-aops	SCMC Fall	19
 hf-ai-mo-aops	Saudi Arabia BMO + EGMO TST	19
 hf-ai-mo-aops	Unirea	19
-hf-aops-wiki	KoMaL A 2020/2021	19
 hf-indonesian-olympiad	OSN_Kabupaten_SMA_2003	19
 hf-indonesian-olympiad	OSN_Kabupaten_SMA_2004	19
 hf-indonesian-olympiad	OSN_Kabupaten_SMA_2006	19
@@ -447,9 +478,12 @@ hf-ai-mo-aops	Kettering HS MO	18
 hf-ai-mo-aops	Kharkiv City MO Seniors - geometry	18
 hf-ai-mo-aops	OMMC Samples	18
 hf-ai-mo-aops	PEN I Problems	18
-hf-aops-wiki	Albania NMO	18
 hf-aops-wiki	Argentina Iberoamerican TST	18
+hf-aops-wiki	Federal Math Competition of Serbia and Montenegro	18
 hf-aops-wiki	Japan TST	18
+hf-aops-wiki	Kharkiv City MO Seniors   geometry	18
+hf-aops-wiki	Kyiv City MO	18
+hf-aops-wiki	Kyoto University Entry Examination	18
 hf-indonesian-olympiad	OSN_Kabupaten_SMA_2002	18
 hf-indonesian-olympiad	OSN_Kabupaten_SMA_2005	18
 hf-mathnet	$10^{\text {th }}$ Annual Harvard-MIT Mathematics Tournament	18
@@ -473,7 +507,7 @@ hf-mathnet	Team Selection Test for IMO 2023	18
 hf-mathnet	Team Selection Test for IMO 2024	18
 hf-mathnet	Viernes 19 de enero de 2001	18
 hf-ai-mo-aops	Azerbaijan IZhO TST	17
-hf-aops-wiki	Tokio University Entry Examination	17
+hf-aops-wiki	Israel Olympic Revenge	17
 hf-aops-wiki	VMEO = Vietnam Mathematical E Olympiad	17
 hf-indonesian-olympiad	OSN_Kabupaten_SMA_2007	17
 hf-ai-mo-aops	2021-IMOC qualification	16
@@ -493,11 +527,10 @@ hf-ai-mo-aops	Proofathon Spring Contest	16
 hf-ai-mo-aops	Uruguay IMO TST	16
 hf-ai-mo-aops	VIASM Summer Challenge	16
 hf-ai-mo-aops	Victor Vâlcovici	16
-hf-aops-wiki	Albania TST	16
-hf-aops-wiki	Argentina Cono Sur TST	16
 hf-aops-wiki	Austrian Junior Regional	16
-hf-aops-wiki	Azerbaijan BMO TST	16
-hf-aops-wiki	Israel Olympic Revenge	16
+hf-aops-wiki	Hitotsubashi University Entrance Examination	16
+hf-aops-wiki	IMEO	16
+hf-aops-wiki	India IOQM	16
 hf-aops-wiki	Nigerian Senior MO Round 2	16
 hf-aops-wiki	Taiwan APMO Prelininary	16
 hf-mathnet	2015 Ninth STARS OF MATHEMATICS Competition	16
@@ -544,9 +577,8 @@ hf-ai-mo-aops	SDMO (High School)	15
 hf-ai-mo-aops	SIME	15
 hf-ai-mo-aops	UNSW School MC Juniors - Combo Geo	15
 hf-ai-mo-aops	Ukraine Yasinskyi Geometry Olympiad	15
-hf-aops-wiki	Belgium OMB Seniors   geometry	15
 hf-aops-wiki	Cyprus TST	15
-hf-aops-wiki	IMEO	15
+hf-aops-wiki	Georgia TST	15
 hf-aops-wiki	Oliforum Contest	15
 hf-aops-wiki	Slovenia TSTs	15
 hf-ai-mo-aops	Azerbaijan Junior National Olympiad	14
@@ -569,6 +601,8 @@ hf-ai-mo-aops	Taiwan APMO Prelim, Round 1	14
 hf-ai-mo-aops	Taiwan APMO Preliminary	14
 hf-ai-mo-aops	Ukrainian Geometry Olympiad - April	14
 hf-ai-mo-aops	parmenides51 tags	14
+hf-aops-wiki	Canadian Students MO	14
+hf-aops-wiki	MMATHS problems	14
 hf-indonesian-olympiad	Science_EXPO_SUD_2018	14
 hf-mathnet	2020 Taiwan IMO 1J	14
 hf-mathnet	64th NMO Selection Tests for the Junior Balkan Mathematical Olympiad	14
@@ -602,8 +636,8 @@ hf-ai-mo-aops	QEDMO 4th	13
 hf-ai-mo-aops	Revenge EL(S)MO 2024	13
 hf-ai-mo-aops	The Chinese Mathematics Competition	13
 hf-ai-mo-aops	Ukrainian Geometry Olympiad - December	13
-hf-aops-wiki	Kyoto University Entry Examination	13
 hf-aops-wiki	Mathcenter Contest	13
+hf-aops-wiki	Rice Math Tournament problems	13
 hf-ai-mo-aops	Azerbaijan EGMO TST	12
 hf-ai-mo-aops	Azerbaijan IMO TST	12
 hf-ai-mo-aops	Azerbaijan Team Selection Test	12
@@ -633,11 +667,15 @@ hf-ai-mo-aops	Turkey Olympic Revenge	12
 hf-ai-mo-aops	VMEO II 2005	12
 hf-ai-mo-aops	Vietnamese Southern Summer School contest	12
 hf-ai-mo-aops	pOMA	12
-hf-aops-wiki	Federal Math Competition of Serbia and Montenegro	12
+hf-aops-wiki	CNCM Online	12
+hf-aops-wiki	Chennai Mathematical Institute B.Sc. Entrance Exam	12
+hf-aops-wiki	EGMO TST   Romania	12
+hf-aops-wiki	Ecuador Juniors	12
+hf-aops-wiki	Ecuador MO (OMEC)	12
 hf-aops-wiki	Girls in Mathematics Tournament	12
-hf-aops-wiki	Hitotsubashi University Entrance Examination	12
 hf-aops-wiki	Kosovo & Albania MO	12
 hf-aops-wiki	Nigerian Senior MO Round 3	12
+hf-aops-wiki	Peru EGMO TST	12
 hf-mathnet	11-th Czech-Slovak-Polish Match, 2011	12
 hf-mathnet	17. tekmovanje v znanju matematike za dijake srednjih tehniških in strokovnih šol, Odbirno tekmovanje	12
 hf-mathnet	2020 Taiwan IMO 2J	12
@@ -754,11 +792,9 @@ hf-ai-mo-aops	SIMO	11
 hf-ai-mo-aops	TNO 2008 Junior	11
 hf-ai-mo-aops	Tajikistan Team Selection Test	11
 hf-ai-mo-aops	UNSW School MC Seniors - Combo Geo	11
-hf-aops-wiki	BAMO Contests	11
 hf-aops-wiki	ICMC 5	11
 hf-aops-wiki	ICMC 6	11
-hf-aops-wiki	Peru EGMO TST	11
-hf-aops-wiki	Tokyo Instutute Of Technology Entrance Examination	11
+hf-aops-wiki	Paenza	11
 hf-indonesian-olympiad	osn_provinsi_sma_2023	11
 hf-ai-mo-aops	Alborz Mathematical Olympiad	10
 hf-ai-mo-aops	CMIMC Algebra and Number Theory	10
@@ -785,10 +821,13 @@ hf-ai-mo-aops	QEDMO 13th or 12th	10
 hf-ai-mo-aops	QEDMO 9th	10
 hf-ai-mo-aops	RMT Calculus Round	10
 hf-ai-mo-aops	UMD Math Competition Part II	10
+hf-aops-wiki	Estonia Math Open Junior Contests	10
+hf-aops-wiki	Estonia Math Open Senior Contests	10
 hf-aops-wiki	ICMC 2	10
 hf-aops-wiki	ICMC 3	10
 hf-aops-wiki	ICMC 4	10
 hf-aops-wiki	JOM	10
+hf-aops-wiki	Junior Regional   Federation of Bosnia Herzegovina	10
 hf-aops-wiki	Memorial "Aleksandar Blazhevski Cane"	10
 hf-aops-wiki	North Korea TST	10
 hf-aops-wiki	The Chinese Mathematics Competition	10
@@ -870,16 +909,14 @@ hf-ai-mo-aops	Oliforum Contest IV 2013	9
 hf-ai-mo-aops	PUMaC Individual Finals A	9
 hf-ai-mo-aops	Turkey Team SeIection Test	9
 hf-ai-mo-aops	UNSW School MC Seniors - 3D Geo	9
-hf-aops-wiki	BMO TST	9
-hf-aops-wiki	EGMO TST   Romania	9
 hf-aops-wiki	India EGMO TST	9
 hf-aops-wiki	Indonesia MO Shortlist	9
 hf-aops-wiki	Iran RMM TST	9
 hf-aops-wiki	Lithuania TST	9
 hf-aops-wiki	Mathematics Talent Reward Programme (MTRP)	9
 hf-aops-wiki	OIFMAT	9
-hf-aops-wiki	Tajikistan TST	9
 hf-aops-wiki	Thailand Online MO	9
+hf-aops-wiki	Ukrainian Geometry Olympiad	9
 hf-ai-mo-aops	3rd Memorial "Aleksandar Blazhevski-Cane"	8
 hf-ai-mo-aops	4th Memorial "Aleksandar Blazhevski-Cane"	8
 hf-ai-mo-aops	6th Memorial "Aleksandar Blazhevski-Cane"	8
@@ -931,10 +968,12 @@ hf-ai-mo-aops	QEDMO 5th	8
 hf-ai-mo-aops	QEDMO 8th	8
 hf-ai-mo-aops	Ukrainian Geometry Olympiad	8
 hf-ai-mo-aops	Winter Stars of Mathematics	8
-hf-aops-wiki	Albania BMO TST	8
 hf-aops-wiki	International Olympic Revenge	8
+hf-aops-wiki	Iranian Combinatorics Olympiad	8
 hf-aops-wiki	Junior Balkan TSTs   Moldova	8
+hf-aops-wiki	Malaysia IMONST	8
 hf-aops-wiki	NMTC	8
+hf-aops-wiki	Serbia JBMO TST	8
 hf-indonesian-olympiad	osn_provinsi_sma_2021	8
 hf-indonesian-olympiad	osn_provinsi_sma_2024	8
 hf-indonesian-olympiad	osn_provinsi_smp_2021	8
@@ -1101,11 +1140,10 @@ hf-ai-mo-aops	UNSW School MC Juniors - Geo Inequalities	7
 hf-ai-mo-aops	UNSW School MC Seniors - Geo Inequalities	7
 hf-ai-mo-aops	VMEO I 2004	7
 hf-ai-mo-aops	Waseda University Entrance Examination	7
-hf-aops-wiki	Chennai Mathematical Institute B.Sc. Entrance Exam	7
+hf-aops-wiki	Gauss	7
 hf-aops-wiki	Iranian Our MO	7
 hf-aops-wiki	JBMO TST   Azerbaijan	7
-hf-aops-wiki	Kyiv City MO	7
-hf-aops-wiki	Ukrainian Geometry Olympiad	7
+hf-aops-wiki	Mathley Magazine	7
 hf-omni-math	th_igo	7
 hf-omni-math	yau_contest	7
 hf-ai-mo-aops	11th Xueersi Mathematical Olympiad	6
@@ -1176,14 +1214,21 @@ hf-ai-mo-aops	UNSW School MC Juniors - 3D Geo	6
 hf-ai-mo-aops	USOJMO	6
 hf-ai-mo-aops	Yunfudao Mathematical Olympiad	6
 hf-ai-mo-aops	Zhautykov City MO - Geo Inequalities	6
+hf-aops-wiki	Azerbaijan IMO TST	6
+hf-aops-wiki	Bolivian Cono Sur TST	6
 hf-aops-wiki	Cyprus JBMO TST	6
-hf-aops-wiki	Estonia Math Open Senior Contests	6
+hf-aops-wiki	IMTS	6
+hf-aops-wiki	Indonesia Juniors	6
+hf-aops-wiki	International Physics Online Olympiad	6
 hf-aops-wiki	Malaysian IMO TST	6
 hf-aops-wiki	Mexican Quarantine MO	6
+hf-aops-wiki	Nepal TST	6
+hf-aops-wiki	Online Monmouth Math Competition (OMMC)	6
 hf-aops-wiki	Pakistan TST	6
 hf-aops-wiki	Pre   Vietnam MO	6
 hf-aops-wiki	SAFEST Olympiad	6
 hf-aops-wiki	South Korea USCM	6
+hf-aops-wiki	US Math Competition Association	6
 hf-aops-wiki	Waseda University Entrance Examination	6
 hf-mathnet	$22^{ ext {nd }}$ Philippine Mathematical Olympiad National Stage, Written Phase	6
 hf-mathnet	14-2J-M1	6
@@ -1291,12 +1336,9 @@ hf-ai-mo-aops	Zhautykov City MO - Combo Geo	5
 hf-aops-wiki	Azerbaijan IMO TST First Round	5
 hf-aops-wiki	Azerbaijan TST First Round.	5
 hf-aops-wiki	BIMO	5
-hf-aops-wiki	Bolivian Cono Sur TST	5
 hf-aops-wiki	Cyprus IMO TST	5
-hf-aops-wiki	Estonia Math Open Junior Contests	5
 hf-aops-wiki	JOM 2015	5
-hf-aops-wiki	NMO First Round	5
-hf-aops-wiki	Serbia JBMO TST	5
+hf-aops-wiki	Math Hour Olympiad	5
 hf-aops-wiki	Slovenia TST	5
 hf-ai-mo-aops	14th Xueersi Mathematical Olympiad	4
 hf-ai-mo-aops	16th Xueersi Mathematical Olympiad	4
@@ -1346,17 +1388,23 @@ hf-ai-mo-aops	the 15th XMO	4
 hf-aops-wiki	Azerbaijan CMO TST	4
 hf-aops-wiki	Azerbaijan EGMO TST	4
 hf-aops-wiki	Azerbaijan IZHO TST	4
-hf-aops-wiki	HMNT   HMMT November	4
-hf-aops-wiki	IMTS	4
-hf-aops-wiki	Iranian Combinatorics Olympiad	4
+hf-aops-wiki	Chile Junior MO	4
 hf-aops-wiki	Israel Oral Olympiad	4
+hf-aops-wiki	Istek Lyceum MOs	4
+hf-aops-wiki	JHMMC 7 Contests	4
+hf-aops-wiki	JHMMC 8 Contests	4
 hf-aops-wiki	JOM Shortlists	4
 hf-aops-wiki	Junior Balkan TSTs Serbia	4
 hf-aops-wiki	Lotfi Zadeh Olympiad	4
 hf-aops-wiki	MO Summer Program Homework	4
+hf-aops-wiki	Montgomery Blair	4
 hf-aops-wiki	Nigerian Senior MO Round 4	4
+hf-aops-wiki	Northern Summer Camp Of Mathematics	4
+hf-aops-wiki	Paraguay Juniors	4
+hf-aops-wiki	Preliminary Round   Switzerland	4
 hf-aops-wiki	Serbia JBMO TSTs	4
 hf-aops-wiki	Simurgh	4
+hf-aops-wiki	Tokyo Institute Of Technology Admission Office Entrance Examination	4
 hf-indonesian-olympiad	osn_smp_2020	4
 hf-mathnet	18. tekmovanje v znanju matematike za dijake srednjih tehniških in strokovnih šol, Odbirno tekmovanje	4
 hf-mathnet	2011 CLOCK-TOWER SCHOOL JUNIORS COMPETITION	4
@@ -1433,23 +1481,22 @@ hf-ai-mo-aops	STEMS 2021 Phy Cat C	3
 hf-ai-mo-aops	UM Integral Bee 2025 Final Round	3
 hf-ai-mo-aops	USAPhO	3
 hf-aops-wiki	Albania Round 2	3
-hf-aops-wiki	Azerbaijan IMO TST	3
+hf-aops-wiki	Bosnia and Herzegovina BMO TST	3
+hf-aops-wiki	Bosnia and Herzegovina IMO TST	3
+hf-aops-wiki	Canadian Senior Mathematics Contest	3
 hf-aops-wiki	Colombia TST	3
-hf-aops-wiki	Ecuador Juniors	3
+hf-aops-wiki	Euclid Contest	3
 hf-aops-wiki	France JBMO TST	3
 hf-aops-wiki	Graduate School Of Mathematical Sciences The Master Course Kyoto University	3
 hf-aops-wiki	Honduran MO	3
 hf-aops-wiki	Korea Summer Program Practice Test	3
 hf-aops-wiki	Latvia TST	3
-hf-aops-wiki	Malaysia IMONST	3
 hf-aops-wiki	Malaysian APMO Camp Selection Test	3
-hf-aops-wiki	Mathley Magazine	3
 hf-aops-wiki	Mexican Girls' Contest	3
-hf-aops-wiki	Northern Summer Camp Of Mathematics	3
-hf-aops-wiki	Paraguay Juniors	3
 hf-aops-wiki	Rio de Janeiro MO	3
 hf-aops-wiki	SAFEST (South Africa   Estonia) Olympiad	3
 hf-aops-wiki	Turkey Olympic Revenge	3
+hf-aops-wiki	USAPhO	3
 hf-aops-wiki	Vietnamese Southern Summer School	3
 hf-omni-math	all_levels	3
 hf-omni-math	usomo	3
@@ -1472,6 +1519,7 @@ hf-ai-mo-aops	Second Annual SZM Mathematical Olympiad	2
 hf-aops-wiki	Bolivian IMO TST	2
 hf-aops-wiki	Bolivian Ibero TST	2
 hf-aops-wiki	Graduate School Of Mathematical Sciences The Master Cource  The University Of Tokyo	2
+hf-aops-wiki	JHMT HS Team Rounds	2
 hf-aops-wiki	Regional Olympiad   Republic of Srpska	2
 hf-aops-wiki	Sri Lanka Mathematics Challenge Competition	2
 hf-mathnet	16. tekmovanje v znanju matematike za dijake srednjih tehniških and strokovnih šol Državno tekmovanje	2
@@ -1532,9 +1580,7 @@ hf-ai-mo-aops	MOAA Individual Speed General Rounds	1
 hf-ai-mo-aops	May Olympiad L2 - geometry	1
 hf-ai-mo-aops	Problems in the future	1
 hf-ai-mo-aops	XMO (China)  1-19 - geometry	1
-hf-aops-wiki	Canadian Students MO	1
-hf-aops-wiki	Chile Junior MO	1
-hf-aops-wiki	Tokyo Institute Of Technology Admission Office Entrance Examination	1
+hf-aops-wiki	Assam MO	1
 hf-omni-math	competition_given_at_the_end_of_the_international_mathematics_summer_camp	1
 hf-omni-math	hungaryisrael_binational	1
 hf-omni-math	imor	1

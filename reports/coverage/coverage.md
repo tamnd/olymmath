@@ -6,7 +6,7 @@ This report is made by `om coverage`. The register gives the expected positions 
 
 | Expected | C0 | C1 | C2 | Candidate | No candidate | Located seed rows |
 |---:|---:|---:|---:|---:|---:|---:|
-| 30108 | 69.9% | 11.2% | 9.6% | 648 (2.2%) | 8426 (28.0%) | 157268 |
+| 30108 | 69.9% | 11.2% | 9.6% | 631 (2.1%) | 8426 (28.0%) | 157268 |
 
 ## Sources
 
@@ -42,7 +42,8 @@ The order is the order of the register. A competition with no shape in the regis
 | Code | Competition | Expected | C0 | C1 | C2 | Candidate | No candidate | Seed rows |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | imo | International Mathematical Olympiad | 410 | 98.5% | 34.9% | 34.9% | 6 | 0 | 1486 |
-| isl | IMO Shortlist | 541 | 99.6% | 66.4% | 66.4% | 1 | 1 | 8700 |
+| isl | IMO Shortlist | 541 | 99.6% | 66.4% | 66.4% | 1 | 1 | 5743 |
+| ill | IMO Longlist | no shape | - | - | - | 0 | 0 | 2957 |
 | igo | Iranian Geometry Olympiad | 190 | 52.1% | 0.0% | 0.0% | 0 | 91 | 307 |
 | kangaroo | Mathematical Kangaroo | no shape | - | - | - | 0 | 0 | 0 |
 | tot | Tournament of Towns | no shape | - | - | - | 0 | 0 | 2852 |
@@ -173,7 +174,7 @@ The order is the order of the register. A competition with no shape in the regis
 | ro-nmo | Romanian National Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 4045 |
 | ro-tst | Romanian IMO Team Selection Test | no shape | - | - | - | 0 | 0 | 1614 |
 | bg-mo | Bulgarian Mathematical Olympiad | 384 | 82.0% | 0.0% | 0.0% | 17 | 52 | 1398 |
-| rs-smo | Serbian Mathematical Olympiad | 108 | 64.8% | 23.1% | 23.1% | 38 | 0 | 566 |
+| rs-smo | Serbian Mathematical Olympiad | 108 | 80.6% | 23.1% | 23.1% | 21 | 0 | 566 |
 | hr-mo | Croatia national mathematics olympiad | no shape | - | - | - | 0 | 0 | 1599 |
 | si-mo | Slovenia national mathematics olympiad | no shape | - | - | - | 0 | 0 | 1550 |
 | ba-mo | Bosnia and Herzegovina national mathematics olympiad | no shape | - | - | - | 0 | 0 | 424 |
@@ -300,7 +301,7 @@ The order is the order of the register. A competition with no shape in the regis
 
 ## Unknown competitions
 
-These labels do not resolve through the alias table (1328 keys). There are 1587 labels with 22766 rows. The full list is in `unknown-competitions.tsv`. To resolve a label, add a line to `registers/competition-aliases.tsv`, or add the competition to the register.
+These labels do not resolve through the alias table (1330 keys). There are 1587 labels with 22766 rows. The full list is in `unknown-competitions.tsv`. To resolve a label, add a line to `registers/competition-aliases.tsv`, or add the competition to the register.
 
 | Source | Label | Rows |
 |---|---|---:|

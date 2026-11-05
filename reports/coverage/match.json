@@ -2,11 +2,11 @@
   {
     "source": "hf-mathnet",
     "rows": 55634,
-    "matched": 14190,
+    "matched": 14252,
     "by_key": 0,
-    "near": 7830,
-    "new": 33614,
-    "new_located": 23596
+    "near": 7854,
+    "new": 33528,
+    "new_located": 23518
   },
   {
     "source": "hf-numina-olympiads",
@@ -22,36 +22,36 @@
     "rows": 13087,
     "matched": 10428,
     "by_key": 10116,
-    "near": 704,
-    "new": 1955,
+    "near": 709,
+    "new": 1950,
     "new_located": 583
   },
   {
     "source": "hf-ai-mo-aops",
     "rows": 80661,
-    "matched": 16976,
+    "matched": 17098,
     "by_key": 0,
-    "near": 10471,
-    "new": 53214,
-    "new_located": 28072
+    "near": 10513,
+    "new": 53050,
+    "new_located": 27939
   },
   {
     "source": "hf-numinamath-1-5",
     "rows": 315736,
-    "matched": 31859,
+    "matched": 32010,
     "by_key": 0,
-    "near": 41058,
-    "new": 242819,
+    "near": 41191,
+    "new": 242535,
     "new_located": 0
   },
   {
     "source": "hf-omni-math",
     "rows": 4428,
-    "matched": 2705,
+    "matched": 2707,
     "by_key": 0,
-    "near": 396,
-    "new": 1327,
-    "new_located": 712
+    "near": 395,
+    "new": 1326,
+    "new_located": 711
   },
   {
     "source": "hf-olympiadbench",
@@ -65,19 +65,19 @@
   {
     "source": "hf-aops-wiki",
     "rows": 43005,
-    "matched": 20344,
-    "by_key": 15699,
+    "matched": 20482,
+    "by_key": 15700,
     "near": 4215,
-    "new": 18446,
-    "new_located": 11302
+    "new": 18308,
+    "new_located": 11178
   },
   {
     "source": "hf-liveaopsbench",
     "rows": 5328,
-    "matched": 226,
+    "matched": 227,
     "by_key": 0,
-    "near": 758,
-    "new": 4344,
+    "near": 761,
+    "new": 4340,
     "new_located": 0
   },
   {
@@ -130,8 +130,8 @@
     "rows": 400,
     "matched": 23,
     "by_key": 0,
-    "near": 59,
-    "new": 318,
+    "near": 61,
+    "new": 316,
     "new_located": 0
   },
   {
@@ -155,9 +155,9 @@
   {
     "source": "hf-polymath",
     "rows": 9000,
-    "matched": 1601,
+    "matched": 1600,
     "by_key": 0,
-    "near": 1251,
+    "near": 1252,
     "new": 6148,
     "new_located": 0
   },

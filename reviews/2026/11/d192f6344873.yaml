@@ -1,0 +1,9 @@
+id: d192f6344873
+kind: pair
+records:
+    - caps/1999/p2
+    - isl/1997/p18
+decision: same
+by: agent
+date: "2026-11-05"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: the circumcircle of PQR passes through the midpoint of BC. The AoPS wiki gives the shortlist row the title IMO Shortlist 1997 Q18 (topic 219812) and the match row the title Czech and Slovak Match 1999 P2 (topic 1521836). The record is now at isl/1997/p18, the earlier appearance, with caps/1999/p2 as a second appearance.'

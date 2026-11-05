@@ -1,0 +1,9 @@
+id: 6886d66af0b3
+kind: pair
+records:
+    - caps/2001/p3
+    - isl/2000/c4
+decision: same
+by: agent
+date: "2026-11-05"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: the least number of pawns on an n by n board for k with n/2 < k <= 2n/3. The AoPS wiki puts one topic (219749) on both pages, as IMO Shortlist 2000 C4 and as Czech Polish Slovak Match 2001 problem 3. The IMO Compendium row in hf-numina-olympiads-ref gives the same text as C4 (CZE). The record is now at isl/2000/c4, the earlier appearance, with caps/2001/p3 as a second appearance.'

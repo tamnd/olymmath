@@ -1,0 +1,8 @@
+id: c8f036f0a1f1
+kind: official
+records:
+    - imo/1996/p3
+decision: accept
+by: agent
+date: "2026-11-05"
+note: Agent decision, not a person's review. The record had the text of IMO 1996 P6. It now has the text of its AoPS topic 60429, the functional equation f(m + f(n)) = f(f(m)) + f(n) on the nonnegative integers. That is problem 3 of the official paper, page 1. I read both. The IMO Compendium row in hf-numina-olympiads-ref also gives this text as A8 and IMO 3.

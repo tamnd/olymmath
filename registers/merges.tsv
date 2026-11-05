@@ -102,13 +102,13 @@ hu-komal/2017/c1423	ru-allrussian/1963/p1	none	0.048	none	text	f2da3ce06abe	0.58
 vtrmc/2018/p4	putnam/2000/b2	none	0.157	none	text	0450d3fde6ba	0.572
 jbmo-sl/2016/c3	jbmo/2016/p4	strong	0.051	match	jbmo-sl	-	0.510
 hu-komal/2013/b4528	hu-komal/2008/b4140	none	0.104	none	text	6a9316205563	0.831
-cr-mo/2016/f1	isl/1982/p56	none	0.228	none	text	2eb033fc8b81	0.793
+cr-mo/2016/f1	ill/1982/p56	none	0.228	none	text	2eb033fc8b81	0.793
 de-mo/2015/p5	imo/1984/p4	none	0.058	none	text	e443bd89256f	0.740
 schweitzer/2014/p8	hu-komal/2014/a627	none	0.825	none	text	6c7d12eb2d89	0.714
 cr-mo/2003/p2	centro/2003/p2	none	0.074	none	text	df074275447a	0.631
 isl/2018/a2	imo/2018/p2	strong	0.295	none	isl-imo	16de99dbe250	0.549
 vn-vmo/1967/p3	vn-vmo/1966/p3	none	0.677	none	text	1dc2fa52dd1c	0.612
-pl-om/1983/p3	isl/1982/p40	none	0.028	none	text	993a99dbfab4	0.562
+pl-om/1983/p3	ill/1982/p40	none	0.028	none	text	993a99dbfab4	0.562
 hu-komal/2007/a422	ro-tst/1996/p13	none	0.195	none	text	35dcedc1858d	0.522
 hu-komal/2008/b4116	imo/1961/p3	none	0.031	none	text	2bf155d7c2e6	0.516
 id-osn/2005/p4	bg-mo/1993/p2	none	0.112	none	text	a707efaff486	0.513
@@ -221,7 +221,7 @@ tuymaada/2017/s6	tuymaada/2017/j6	none	0.701	none	text	12c5903aa860	0.936
 vtrmc/2015/p5	putnam/1982/a3	none	0.432	none	text	852d53781196	0.921
 pamo/2018/p5	centro/2014/p3	none	0.316	none	text	748e12761e5e	0.883
 hu-komal/2013/k395	hu-komal/2012/k353	none	0.633	none	text	60c5ba673cb9	0.873
-baltic-way/1993/p8	isl/1982/p23	none	0.423	none	text	9c1925fcbaba	0.872
+baltic-way/1993/p8	ill/1982/p23	none	0.423	none	text	9c1925fcbaba	0.872
 jbmo-sl/2004/c1	jbmo/2004/p4	strong	0.248	none	jbmo-sl	-	0.848
 hu-komal/2022/c1713	se-skolornas/1979/p3	none	0.190	none	text	9c18f6d16525	0.842
 hu-komal/2013/k394	hu-komal/2012/k354	none	0.292	none	text	38dc51ab796f	0.826

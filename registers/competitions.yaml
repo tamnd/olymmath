@@ -61,6 +61,23 @@
   sources: [imo-official, hf-numina-olympiads, kalva, aops-collections, imosllean4]
   description: The list of about 30 problems from which the IMO jury picks the six IMO problems. It stays confidential until the end of the next IMO.
 
+- code: ill
+  name: IMO Longlist
+  short: ILL
+  group: international
+  level: high-school
+  organizer: IMO Board
+  url: https://www.imo-official.org/
+  edition_form: year
+  # Agent decision, not a person's review: the longlist of a year has its own numbers, which are not the numbers of the shortlist, so it has its own code. The size of a longlist changes from year to year, so the register gives no positions.
+  eras:
+    - {from: 1959}
+  official_solutions: false
+  languages: [en]
+  copyright: None stated.
+  sources: [hf-aops-wiki, hf-ai-mo-aops]
+  description: The list of all problems that the countries proposed for an IMO. The jury chose the shortlist from it. The longlists of the early years are public.
+
 - code: igo
   name: Iranian Geometry Olympiad
   short: IGO

@@ -1,7 +1,7 @@
 # The alias table maps a competition label of a dataset to a code of registers/competitions.yaml. Each line is a label, a tab and a code. The code "-" marks a label that is not one competition of the register, for example a training camp, a mixed benchmark or a school contest. om coverage compares labels after it removes years, ordinals, punctuation and case, so one line covers each label family.
 # Wave 0 dataset labels: the international and regional competitions.
-IMO Longlists	isl
-imo_longlists	isl
+IMO Longlists	ill
+imo_longlists	ill
 IMO-SL	isl
 IMO Shortlist	isl
 IMO ShortList	isl

@@ -1,18 +1,18 @@
 # Match rate
 
-This report is made by `om matchrate` (spec 05.4). A seed row is matched when its competition, year and position give an appearance that has a record. Else it is compared with the 28636 problem records with a statement by E, the cosine of the TF-IDF weights of their words and TeX, and a row whose nearest record has E of at least 0.7 is matched. A row with E from 0.5 to 0.7 is near, and a person must look at it to tell. The other rows can be new problems. The acceptance of milestone 6 asks for less than 1% new rows.
+This report is made by `om matchrate` (spec 05.4). A seed row is matched when its competition, year and position give an appearance that has a record. Else it is compared with the 28648 problem records with a statement by E, the cosine of the TF-IDF weights of their words and TeX, and a row whose nearest record has E of at least 0.7 is matched. A row with E from 0.5 to 0.7 is near, and a person must look at it to tell. The other rows can be new problems. The acceptance of milestone 6 asks for less than 1% new rows.
 
 | Dataset | Rows | Matched | By key | Near | New | New rate | New with a competition |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| hf-mathnet | 55634 | 14252 | 0 | 7854 | 33528 | 60.27% | 23518 |
-| hf-numina-olympiads | 13087 | 10326 | 10117 | 534 | 2227 | 17.02% | 682 |
+| hf-mathnet | 55634 | 14264 | 0 | 7854 | 33516 | 60.24% | 23504 |
+| hf-numina-olympiads | 13087 | 10326 | 10117 | 532 | 2229 | 17.03% | 682 |
 | hf-numina-olympiads-ref | 13087 | 10428 | 10116 | 709 | 1950 | 14.90% | 583 |
-| hf-ai-mo-aops | 80661 | 17098 | 0 | 10513 | 53050 | 65.77% | 27939 |
-| hf-numinamath-1-5 | 315736 | 32010 | 0 | 41191 | 242535 | 76.82% | 0 |
+| hf-ai-mo-aops | 80661 | 17109 | 0 | 10512 | 53040 | 65.76% | 27931 |
+| hf-numinamath-1-5 | 315736 | 32015 | 0 | 41185 | 242536 | 76.82% | 0 |
 | hf-omni-math | 4428 | 2707 | 0 | 395 | 1326 | 29.95% | 711 |
 | hf-olympiadbench | 2133 | 554 | 0 | 271 | 1308 | 61.32% | 0 |
-| hf-aops-wiki | 43005 | 20482 | 15700 | 4215 | 18308 | 42.57% | 11178 |
-| hf-liveaopsbench | 5328 | 227 | 0 | 761 | 4340 | 81.46% | 0 |
+| hf-aops-wiki | 43005 | 20485 | 15700 | 4212 | 18308 | 42.57% | 11178 |
+| hf-liveaopsbench | 5328 | 228 | 0 | 759 | 4341 | 81.48% | 0 |
 | hf-aime-1983-2026 | 1065 | 1061 | 1060 | 1 | 3 | 0.28% | 3 |
 | hf-amc12-full | 1199 | 1184 | 1184 | 0 | 15 | 1.25% | 15 |
 | hf-putnam-1995-2025 | 372 | 372 | 372 | 0 | 0 | 0.00% | 0 |
@@ -26,4 +26,4 @@ This report is made by `om matchrate` (spec 05.4). A seed row is matched when it
 | hf-tubitak | 0 | 0 | 0 | 0 | 0 | 0.00% | 0 |
 | hf-indonesian-olympiad | 2204 | 19 | 0 | 123 | 2062 | 93.56% | 24 |
 | hf-hrm8k | 8011 | 883 | 0 | 869 | 6259 | 78.13% | 661 |
-| All | 556899 | 114744 | 40052 | 68753 | 373402 | 67.05% | 65341 |
+| All | 556899 | 114776 | 40052 | 68739 | 373384 | 67.05% | 65319 |

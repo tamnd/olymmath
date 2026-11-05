@@ -2,19 +2,19 @@
   {
     "source": "hf-mathnet",
     "rows": 55634,
-    "matched": 14252,
+    "matched": 14264,
     "by_key": 0,
     "near": 7854,
-    "new": 33528,
-    "new_located": 23518
+    "new": 33516,
+    "new_located": 23504
   },
   {
     "source": "hf-numina-olympiads",
     "rows": 13087,
     "matched": 10326,
     "by_key": 10117,
-    "near": 534,
-    "new": 2227,
+    "near": 532,
+    "new": 2229,
     "new_located": 682
   },
   {
@@ -29,19 +29,19 @@
   {
     "source": "hf-ai-mo-aops",
     "rows": 80661,
-    "matched": 17098,
+    "matched": 17109,
     "by_key": 0,
-    "near": 10513,
-    "new": 53050,
-    "new_located": 27939
+    "near": 10512,
+    "new": 53040,
+    "new_located": 27931
   },
   {
     "source": "hf-numinamath-1-5",
     "rows": 315736,
-    "matched": 32010,
+    "matched": 32015,
     "by_key": 0,
-    "near": 41191,
-    "new": 242535,
+    "near": 41185,
+    "new": 242536,
     "new_located": 0
   },
   {
@@ -65,19 +65,19 @@
   {
     "source": "hf-aops-wiki",
     "rows": 43005,
-    "matched": 20482,
+    "matched": 20485,
     "by_key": 15700,
-    "near": 4215,
+    "near": 4212,
     "new": 18308,
     "new_located": 11178
   },
   {
     "source": "hf-liveaopsbench",
     "rows": 5328,
-    "matched": 227,
+    "matched": 228,
     "by_key": 0,
-    "near": 761,
-    "new": 4340,
+    "near": 759,
+    "new": 4341,
     "new_located": 0
   },
   {

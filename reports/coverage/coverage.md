@@ -6,7 +6,7 @@ This report is made by `om coverage`. The register gives the expected positions 
 
 | Expected | C0 | C1 | C2 | Candidate | No candidate | Located seed rows |
 |---:|---:|---:|---:|---:|---:|---:|
-| 30944 | 70.7% | 10.9% | 9.3% | 634 (2.0%) | 8426 (27.2%) | 157268 |
+| 30944 | 70.8% | 10.9% | 9.3% | 634 (2.0%) | 8414 (27.2%) | 157268 |
 
 ## Sources
 
@@ -125,7 +125,7 @@ The order is the order of the register. A competition with no shape in the regis
 | br-obm | Brazilian Mathematical Olympiad | 288 | 93.8% | 20.1% | 20.1% | 5 | 13 | 3119 |
 | br-obmep | Brazilian Public Schools Mathematics Olympiad | no shape | - | - | - | 0 | 0 | 0 |
 | ar-oma | Argentine Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 777 |
-| pe-mo | Peru national mathematics olympiad | 76 | 32.9% | 0.0% | 0.0% | 0 | 51 | 102 |
+| pe-mo | Peru national mathematics olympiad | 76 | 36.8% | 0.0% | 0.0% | 0 | 48 | 102 |
 | co-mo | Colombia national mathematics olympiad | no shape | - | - | - | 0 | 0 | 15 |
 | cl-mo | Chile national mathematics olympiad | no shape | - | - | - | 0 | 0 | 248 |
 | ve-mo | Venezuela national mathematics olympiad | no shape | - | - | - | 0 | 0 | 0 |
@@ -136,7 +136,7 @@ The order is the order of the register. A competition with no shape in the regis
 | uk-bmo2 | British Mathematical Olympiad Round 2 | 234 | 96.6% | 96.6% | 96.6% | 0 | 8 | 0 |
 | uk-ukmt | UKMT Challenges, Kangaroos and Olympiads | no shape | - | - | - | 0 | 0 | 0 |
 | uk-tst | UK IMO Selection Tests | no shape | - | - | - | 0 | 0 | 0 |
-| ie-irmo | Irish Mathematical Olympiad | 390 | 40.5% | 0.0% | 0.0% | 82 | 150 | 1736 |
+| ie-irmo | Irish Mathematical Olympiad | 390 | 42.8% | 0.0% | 0.0% | 82 | 141 | 1736 |
 | de-mo | German Mathematical Olympiad | 396 | 40.9% | 0.3% | 0.3% | 1 | 233 | 606 |
 | de-bundeswettbewerb | Bundeswettbewerb Mathematik | 456 | 47.4% | 12.5% | 12.5% | 0 | 240 | 461 |
 | de-tst | German IMO Selection | no shape | - | - | - | 0 | 0 | 1115 |

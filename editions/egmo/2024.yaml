@@ -4,3 +4,9 @@ papers:
     problems: [p1, p2, p3]
   - name: Day 2
     problems: [p4, p5, p6]
+official:
+  - lang: English
+    code: en
+    url: https://www.egmo.org/egmos/egmo13/paper-day1-English.pdf
+    paper: day1
+    source: egmo-official

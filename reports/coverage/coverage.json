@@ -1,12 +1,12 @@
 {
   "this_year": 2026,
   "totals": {
-    "expected": 30944,
-    "c0": 21896,
-    "c1": 3361,
-    "c2": 2882,
-    "candidate": 634,
-    "no_candidate": 8414,
+    "expected": 31254,
+    "c0": 22446,
+    "c1": 3728,
+    "c2": 3249,
+    "candidate": 626,
+    "no_candidate": 8182,
     "rows": 157268
   },
   "competitions": [
@@ -5730,14 +5730,14 @@
       "code": "sharygin",
       "name": "Sharygin Geometry Olympiad",
       "group": "international",
-      "expected": 0,
-      "c0": 0,
-      "c1": 0,
-      "c2": 0,
+      "expected": 310,
+      "c0": 310,
+      "c1": 127,
+      "c2": 127,
       "candidate": 0,
       "no_candidate": 0,
       "rows": 1833,
-      "shape": false,
+      "shape": true,
       "years": [
         {
           "year": 2005,
@@ -5821,6 +5821,12 @@
         {
           "year": 2007,
           "record": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
             "p7",
             "p8",
             "p9",
@@ -5837,19 +5843,19 @@
             "p20",
             "p21"
           ],
-          "candidate": [
-            "p1",
-            "p2",
-            "p3",
-            "p4",
-            "p5",
-            "p6"
-          ],
           "rows": 78
         },
         {
           "year": 2008,
           "record": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
             "p9",
             "p10",
             "p11",
@@ -5866,22 +5872,20 @@
             "p22",
             "p23",
             "p24"
-          ],
-          "candidate": [
-            "p1",
-            "p2",
-            "p3",
-            "p4",
-            "p5",
-            "p6",
-            "p7",
-            "p8"
           ],
           "rows": 96
         },
         {
           "year": 2009,
           "record": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
             "p9",
             "p10",
             "p11",
@@ -5899,21 +5903,11 @@
             "p23",
             "p24"
           ],
-          "candidate": [
-            "p1",
-            "p2",
-            "p3",
-            "p4",
-            "p5",
-            "p6",
-            "p7",
-            "p8"
-          ],
           "rows": 96
         },
         {
           "year": 2010,
-          "candidate": [
+          "record": [
             "p1",
             "p2",
             "p3",
@@ -5945,6 +5939,14 @@
         {
           "year": 2011,
           "record": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
             "p9",
             "p10",
             "p11",
@@ -5963,7 +5965,11 @@
             "p24",
             "p25"
           ],
-          "candidate": [
+          "rows": 98
+        },
+        {
+          "year": 2012,
+          "record": [
             "p1",
             "p2",
             "p3",
@@ -5971,13 +5977,7 @@
             "p5",
             "p6",
             "p7",
-            "p8"
-          ],
-          "rows": 98
-        },
-        {
-          "year": 2012,
-          "record": [
+            "p8",
             "p9",
             "p10",
             "p11",
@@ -5995,7 +5995,11 @@
             "p23",
             "p24"
           ],
-          "candidate": [
+          "rows": 96
+        },
+        {
+          "year": 2013,
+          "record": [
             "p1",
             "p2",
             "p3",
@@ -6003,13 +6007,7 @@
             "p5",
             "p6",
             "p7",
-            "p8"
-          ],
-          "rows": 96
-        },
-        {
-          "year": 2013,
-          "record": [
+            "p8",
             "p9",
             "p10",
             "p11",
@@ -6026,7 +6024,11 @@
             "p22",
             "p23"
           ],
-          "candidate": [
+          "rows": 94
+        },
+        {
+          "year": 2014,
+          "record": [
             "p1",
             "p2",
             "p3",
@@ -6034,13 +6036,7 @@
             "p5",
             "p6",
             "p7",
-            "p8"
-          ],
-          "rows": 94
-        },
-        {
-          "year": 2014,
-          "record": [
+            "p8",
             "p9",
             "p10",
             "p11",
@@ -6051,31 +6047,30 @@
             "p16",
             "p17",
             "p18",
+            "p19",
             "p20",
+            "p21",
             "p22",
             "p23",
             "p24"
-          ],
-          "candidate": [
-            "p1",
-            "p2",
-            "p3",
-            "p4",
-            "p5",
-            "p6",
-            "p7",
-            "p8",
-            "p19",
-            "p21"
           ],
           "rows": 94
         },
         {
           "year": 2015,
           "record": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
             "p9",
             "p10",
             "p11",
+            "p12",
             "p13",
             "p14",
             "p15",
@@ -6088,39 +6083,12 @@
             "p22",
             "p23",
             "p24"
-          ],
-          "candidate": [
-            "p1",
-            "p2",
-            "p3",
-            "p4",
-            "p5",
-            "p6",
-            "p7",
-            "p8",
-            "p12"
           ],
           "rows": 96
         },
         {
           "year": 2016,
           "record": [
-            "p9",
-            "p10",
-            "p11",
-            "p12",
-            "p14",
-            "p15",
-            "p16",
-            "p17",
-            "p19",
-            "p20",
-            "p21",
-            "p22",
-            "p23",
-            "p24"
-          ],
-          "candidate": [
             "p1",
             "p2",
             "p3",
@@ -6129,93 +6097,28 @@
             "p6",
             "p7",
             "p8",
+            "p9",
+            "p10",
+            "p11",
+            "p12",
             "p13",
-            "p18"
+            "p14",
+            "p15",
+            "p16",
+            "p17",
+            "p18",
+            "p19",
+            "p20",
+            "p21",
+            "p22",
+            "p23",
+            "p24"
           ],
           "rows": 96
         },
         {
           "year": 2017,
           "record": [
-            "p9",
-            "p10",
-            "p11",
-            "p12",
-            "p13",
-            "p14",
-            "p15",
-            "p16",
-            "p17",
-            "p18",
-            "p19",
-            "p20",
-            "p21",
-            "p22",
-            "p23",
-            "p24"
-          ],
-          "candidate": [
-            "p1",
-            "p2",
-            "p3",
-            "p4",
-            "p5",
-            "p6",
-            "p7",
-            "p8"
-          ],
-          "rows": 96
-        },
-        {
-          "year": 2018,
-          "record": [
-            "p9",
-            "p10",
-            "p11",
-            "p12",
-            "p13",
-            "p14",
-            "p15",
-            "p16",
-            "p17",
-            "p18",
-            "p19",
-            "p20",
-            "p21",
-            "p22",
-            "p23",
-            "p24"
-          ],
-          "candidate": [
-            "p1",
-            "p2",
-            "p3",
-            "p4",
-            "p5",
-            "p6",
-            "p7",
-            "p8"
-          ],
-          "rows": 96
-        },
-        {
-          "year": 2019,
-          "record": [
-            "p12",
-            "p13",
-            "p14",
-            "p15",
-            "p16",
-            "p17",
-            "p18",
-            "p19",
-            "p20",
-            "p21",
-            "p22",
-            "p23",
-            "p24"
-          ],
-          "candidate": [
             "p1",
             "p2",
             "p3",
@@ -6226,7 +6129,80 @@
             "p8",
             "p9",
             "p10",
-            "p11"
+            "p11",
+            "p12",
+            "p13",
+            "p14",
+            "p15",
+            "p16",
+            "p17",
+            "p18",
+            "p19",
+            "p20",
+            "p21",
+            "p22",
+            "p23",
+            "p24"
+          ],
+          "rows": 96
+        },
+        {
+          "year": 2018,
+          "record": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p9",
+            "p10",
+            "p11",
+            "p12",
+            "p13",
+            "p14",
+            "p15",
+            "p16",
+            "p17",
+            "p18",
+            "p19",
+            "p20",
+            "p21",
+            "p22",
+            "p23",
+            "p24"
+          ],
+          "rows": 96
+        },
+        {
+          "year": 2019,
+          "record": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p9",
+            "p10",
+            "p11",
+            "p12",
+            "p13",
+            "p14",
+            "p15",
+            "p16",
+            "p17",
+            "p18",
+            "p19",
+            "p20",
+            "p21",
+            "p22",
+            "p23",
+            "p24"
           ],
           "rows": 95
         },
@@ -7182,11 +7158,11 @@
       "name": "International Zhautykov Olympiad",
       "group": "international",
       "expected": 132,
-      "c0": 79,
-      "c1": 0,
-      "c2": 0,
+      "c0": 85,
+      "c1": 6,
+      "c2": 6,
       "candidate": 18,
-      "no_candidate": 35,
+      "no_candidate": 29,
       "rows": 418,
       "shape": true,
       "years": [
@@ -7436,7 +7412,7 @@
         },
         {
           "year": 2024,
-          "missing": [
+          "record": [
             "p1",
             "p2",
             "p3",
@@ -8756,11 +8732,11 @@
       "name": "European Girls' Mathematical Olympiad",
       "group": "international",
       "expected": 90,
-      "c0": 82,
-      "c1": 0,
-      "c2": 0,
-      "candidate": 1,
-      "no_candidate": 7,
+      "c0": 90,
+      "c1": 8,
+      "c2": 8,
+      "candidate": 0,
+      "no_candidate": 0,
       "rows": 767,
       "shape": true,
       "years": [
@@ -8916,15 +8892,11 @@
           "year": 2024,
           "record": [
             "p1",
+            "p2",
+            "p3",
             "p4",
             "p5",
             "p6"
-          ],
-          "candidate": [
-            "p2"
-          ],
-          "missing": [
-            "p3"
           ],
           "rows": 40
         },
@@ -8942,7 +8914,7 @@
         },
         {
           "year": 2026,
-          "missing": [
+          "record": [
             "p1",
             "p2",
             "p3",
@@ -8959,11 +8931,11 @@
       "name": "Balkan Mathematical Olympiad",
       "group": "international",
       "expected": 172,
-      "c0": 165,
-      "c1": 0,
-      "c2": 0,
+      "c0": 169,
+      "c1": 4,
+      "c2": 4,
       "candidate": 3,
-      "no_candidate": 4,
+      "no_candidate": 0,
       "rows": 870,
       "shape": true,
       "years": [
@@ -9395,7 +9367,7 @@
         },
         {
           "year": 2026,
-          "missing": [
+          "record": [
             "p1",
             "p2",
             "p3",
@@ -10034,11 +10006,11 @@
       "name": "Junior Balkan Mathematical Olympiad",
       "group": "international",
       "expected": 120,
-      "c0": 107,
-      "c1": 0,
-      "c2": 0,
+      "c0": 115,
+      "c1": 8,
+      "c2": 8,
       "candidate": 1,
-      "no_candidate": 12,
+      "no_candidate": 4,
       "rows": 839,
       "shape": true,
       "years": [
@@ -10319,7 +10291,7 @@
         },
         {
           "year": 2024,
-          "missing": [
+          "record": [
             "p1",
             "p2",
             "p3",
@@ -10339,7 +10311,7 @@
         },
         {
           "year": 2026,
-          "missing": [
+          "record": [
             "p1",
             "p2",
             "p3",
@@ -11237,11 +11209,11 @@
       "name": "Baltic Way",
       "group": "international",
       "expected": 740,
-      "c0": 692,
-      "c1": 0,
-      "c2": 0,
+      "c0": 712,
+      "c1": 20,
+      "c2": 20,
       "candidate": 5,
-      "no_candidate": 43,
+      "no_candidate": 23,
       "rows": 4027,
       "shape": true,
       "years": [
@@ -12168,7 +12140,7 @@
         },
         {
           "year": 2025,
-          "missing": [
+          "record": [
             "p1",
             "p2",
             "p3",
@@ -12256,11 +12228,11 @@
       "name": "Middle European Mathematical Olympiad",
       "group": "international",
       "expected": 240,
-      "c0": 100,
-      "c1": 0,
-      "c2": 0,
+      "c0": 140,
+      "c1": 40,
+      "c2": 40,
       "candidate": 0,
-      "no_candidate": 140,
+      "no_candidate": 100,
       "rows": 642,
       "shape": true,
       "years": [
@@ -12654,11 +12626,13 @@
         },
         {
           "year": 2020,
-          "missing": [
+          "record": [
             "i1",
             "i2",
             "i3",
-            "i4",
+            "i4"
+          ],
+          "missing": [
             "t1",
             "t2",
             "t3",
@@ -12732,7 +12706,7 @@
         },
         {
           "year": 2023,
-          "missing": [
+          "record": [
             "i1",
             "i2",
             "i3",
@@ -12750,7 +12724,7 @@
         },
         {
           "year": 2024,
-          "missing": [
+          "record": [
             "i1",
             "i2",
             "i3",
@@ -12768,7 +12742,7 @@
         },
         {
           "year": 2025,
-          "missing": [
+          "record": [
             "i1",
             "i2",
             "i3",
@@ -13268,11 +13242,11 @@
       "name": "Romanian Master of Mathematics",
       "group": "international",
       "expected": 114,
-      "c0": 92,
-      "c1": 0,
-      "c2": 0,
+      "c0": 98,
+      "c1": 6,
+      "c2": 6,
       "candidate": 0,
-      "no_candidate": 22,
+      "no_candidate": 16,
       "rows": 612,
       "shape": true,
       "years": [
@@ -13555,7 +13529,7 @@
         },
         {
           "year": 2026,
-          "missing": [
+          "record": [
             "p1",
             "p2",
             "p3",
@@ -13572,11 +13546,11 @@
       "name": "Nordic Mathematical Contest",
       "group": "international",
       "expected": 160,
-      "c0": 152,
-      "c1": 0,
-      "c2": 0,
+      "c0": 160,
+      "c1": 8,
+      "c2": 8,
       "candidate": 0,
-      "no_candidate": 8,
+      "no_candidate": 0,
       "rows": 686,
       "shape": true,
       "years": [
@@ -13962,7 +13936,7 @@
         },
         {
           "year": 2025,
-          "missing": [
+          "record": [
             "p1",
             "p2",
             "p3",
@@ -13972,7 +13946,7 @@
         },
         {
           "year": 2026,
-          "missing": [
+          "record": [
             "p1",
             "p2",
             "p3",
@@ -16070,11 +16044,11 @@
       "name": "Asian Pacific Mathematics Olympiad",
       "group": "international",
       "expected": 190,
-      "c0": 185,
-      "c1": 0,
-      "c2": 0,
+      "c0": 190,
+      "c1": 5,
+      "c2": 5,
       "candidate": 0,
-      "no_candidate": 5,
+      "no_candidate": 0,
       "rows": 1094,
       "shape": true,
       "years": [
@@ -16487,7 +16461,7 @@
         },
         {
           "year": 2026,
-          "missing": [
+          "record": [
             "p1",
             "p2",
             "p3",
@@ -16639,11 +16613,11 @@
       "name": "Iberoamerican Mathematical Olympiad",
       "group": "international",
       "expected": 252,
-      "c0": 125,
-      "c1": 0,
-      "c2": 0,
+      "c0": 143,
+      "c1": 18,
+      "c2": 18,
       "candidate": 47,
-      "no_candidate": 80,
+      "no_candidate": 62,
       "rows": 1022,
       "shape": true,
       "years": [
@@ -17245,7 +17219,7 @@
         },
         {
           "year": 2023,
-          "missing": [
+          "record": [
             "p1",
             "p2",
             "p3",
@@ -17257,7 +17231,7 @@
         },
         {
           "year": 2024,
-          "missing": [
+          "record": [
             "p1",
             "p2",
             "p3",
@@ -17269,7 +17243,7 @@
         },
         {
           "year": 2025,
-          "missing": [
+          "record": [
             "p1",
             "p2",
             "p3",
@@ -17710,11 +17684,11 @@
       "name": "Cono Sur Mathematical Olympiad",
       "group": "international",
       "expected": 228,
-      "c0": 168,
-      "c1": 0,
-      "c2": 0,
+      "c0": 186,
+      "c1": 18,
+      "c2": 18,
       "candidate": 14,
-      "no_candidate": 46,
+      "no_candidate": 28,
       "rows": 549,
       "shape": true,
       "years": [
@@ -18148,7 +18122,7 @@
         },
         {
           "year": 2023,
-          "missing": [
+          "record": [
             "p1",
             "p2",
             "p3",
@@ -18160,7 +18134,7 @@
         },
         {
           "year": 2024,
-          "missing": [
+          "record": [
             "p1",
             "p2",
             "p3",
@@ -18172,7 +18146,7 @@
         },
         {
           "year": 2025,
-          "missing": [
+          "record": [
             "p1",
             "p2",
             "p3",
@@ -18608,11 +18582,11 @@
       "name": "Lusophon Mathematical Olympiad",
       "group": "international",
       "expected": 96,
-      "c0": 71,
-      "c1": 0,
-      "c2": 0,
+      "c0": 89,
+      "c1": 18,
+      "c2": 18,
       "candidate": 0,
-      "no_candidate": 25,
+      "no_candidate": 7,
       "rows": 168,
       "shape": true,
       "years": [
@@ -18764,7 +18738,7 @@
         },
         {
           "year": 2023,
-          "missing": [
+          "record": [
             "p1",
             "p2",
             "p3",
@@ -18776,7 +18750,7 @@
         },
         {
           "year": 2024,
-          "missing": [
+          "record": [
             "p1",
             "p2",
             "p3",
@@ -18788,7 +18762,7 @@
         },
         {
           "year": 2025,
-          "missing": [
+          "record": [
             "p1",
             "p2",
             "p3",
@@ -24054,11 +24028,11 @@
       "name": "Iberoamerican Interuniversity Mathematics Competition",
       "group": "undergraduate",
       "expected": 108,
-      "c0": 74,
-      "c1": 0,
-      "c2": 0,
+      "c0": 92,
+      "c1": 18,
+      "c2": 18,
       "candidate": 0,
-      "no_candidate": 34,
+      "no_candidate": 16,
       "rows": 172,
       "shape": true,
       "years": [
@@ -24222,7 +24196,7 @@
         },
         {
           "year": 2022,
-          "missing": [
+          "record": [
             "p1",
             "p2",
             "p3",
@@ -24246,7 +24220,7 @@
         },
         {
           "year": 2024,
-          "missing": [
+          "record": [
             "p1",
             "p2",
             "p3",
@@ -24258,7 +24232,7 @@
         },
         {
           "year": 2025,
-          "missing": [
+          "record": [
             "p1",
             "p2",
             "p3",
@@ -24507,17 +24481,17 @@
       "name": "Simon Marais Mathematics Competition",
       "group": "undergraduate",
       "expected": 80,
-      "c0": 16,
-      "c1": 0,
-      "c2": 0,
+      "c0": 72,
+      "c1": 56,
+      "c2": 56,
       "candidate": 0,
-      "no_candidate": 64,
+      "no_candidate": 8,
       "rows": 64,
       "shape": true,
       "years": [
         {
           "year": 2017,
-          "missing": [
+          "record": [
             "a1",
             "a2",
             "a3",
@@ -24531,7 +24505,7 @@
         },
         {
           "year": 2018,
-          "missing": [
+          "record": [
             "a1",
             "a2",
             "a3",
@@ -24559,7 +24533,7 @@
         },
         {
           "year": 2020,
-          "missing": [
+          "record": [
             "a1",
             "a2",
             "a3",
@@ -24587,7 +24561,7 @@
         },
         {
           "year": 2022,
-          "missing": [
+          "record": [
             "a1",
             "a2",
             "a3",
@@ -24601,7 +24575,7 @@
         },
         {
           "year": 2023,
-          "missing": [
+          "record": [
             "a1",
             "a2",
             "a3",
@@ -24615,7 +24589,7 @@
         },
         {
           "year": 2024,
-          "missing": [
+          "record": [
             "a1",
             "a2",
             "a3",
@@ -24629,7 +24603,7 @@
         },
         {
           "year": 2025,
-          "missing": [
+          "record": [
             "a1",
             "a2",
             "a3",
@@ -59628,10 +59602,10 @@
       "name": "Serbian Mathematical Olympiad",
       "group": "national",
       "expected": 108,
-      "c0": 87,
-      "c1": 25,
-      "c2": 25,
-      "candidate": 21,
+      "c0": 94,
+      "c1": 32,
+      "c2": 32,
+      "candidate": 14,
       "no_candidate": 0,
       "rows": 566,
       "shape": true,
@@ -59666,11 +59640,9 @@
             "p1",
             "p2",
             "p3",
+            "p4",
             "p5",
             "p6"
-          ],
-          "candidate": [
-            "p4"
           ],
           "rows": 23
         },
@@ -59691,9 +59663,7 @@
           "record": [
             "p1",
             "p2",
-            "p3"
-          ],
-          "candidate": [
+            "p3",
             "p4",
             "p5",
             "p6"
@@ -59839,12 +59809,10 @@
           "record": [
             "p1",
             "p2",
-            "p6"
-          ],
-          "candidate": [
             "p3",
             "p4",
-            "p5"
+            "p5",
+            "p6"
           ],
           "rows": 12
         },

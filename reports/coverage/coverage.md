@@ -6,7 +6,7 @@ This report is made by `om coverage`. The register gives the expected positions 
 
 | Expected | C0 | C1 | C2 | Candidate | No candidate | Located seed rows |
 |---:|---:|---:|---:|---:|---:|---:|
-| 30944 | 70.8% | 10.9% | 9.3% | 634 (2.0%) | 8414 (27.2%) | 157268 |
+| 31254 | 71.8% | 11.9% | 10.4% | 626 (2.0%) | 8182 (26.2%) | 157268 |
 
 ## Sources
 
@@ -48,39 +48,39 @@ The order is the order of the register. A competition with no shape in the regis
 | kangaroo | Mathematical Kangaroo | no shape | - | - | - | 0 | 0 | 0 |
 | tot | Tournament of Towns | no shape | - | - | - | 0 | 0 | 2852 |
 | iom | International Olympiad of Metropolises | 66 | 53.0% | 0.0% | 0.0% | 1 | 30 | 72 |
-| sharygin | Sharygin Geometry Olympiad | no shape | - | - | - | 0 | 0 | 1833 |
+| sharygin | Sharygin Geometry Olympiad | 310 | 100.0% | 41.0% | 41.0% | 0 | 0 | 1833 |
 | tuymaada | Tuymaada Olympiad | 304 | 71.1% | 15.8% | 15.8% | 0 | 88 | 802 |
-| zhautykov | International Zhautykov Olympiad | 132 | 59.8% | 0.0% | 0.0% | 18 | 35 | 418 |
+| zhautykov | International Zhautykov Olympiad | 132 | 64.4% | 4.5% | 4.5% | 18 | 29 | 418 |
 | silk-road | Silk Road Mathematical Competition | 100 | 83.0% | 0.0% | 0.0% | 0 | 17 | 283 |
 | usemo | US Ersatz Math Olympiad | 48 | 25.0% | 0.0% | 0.0% | 0 | 36 | 53 |
 | elmo | ELMO | 168 | 68.5% | 7.7% | 7.7% | 0 | 53 | 704 |
 | olympic-revenge | Olympic Revenge | 150 | 18.0% | 0.0% | 0.0% | 0 | 123 | 160 |
 | duel | Mathematical Duel | no shape | - | - | - | 0 | 0 | 0 |
-| egmo | European Girls' Mathematical Olympiad | 90 | 91.1% | 0.0% | 0.0% | 1 | 7 | 767 |
-| balkan | Balkan Mathematical Olympiad | 172 | 95.9% | 0.0% | 0.0% | 3 | 4 | 870 |
+| egmo | European Girls' Mathematical Olympiad | 90 | 100.0% | 8.9% | 8.9% | 0 | 0 | 767 |
+| balkan | Balkan Mathematical Olympiad | 172 | 98.3% | 2.3% | 2.3% | 3 | 0 | 870 |
 | balkan-sl | Balkan MO Shortlist | 474 | 64.3% | 0.0% | 0.0% | 8 | 161 | 1213 |
-| jbmo | Junior Balkan Mathematical Olympiad | 120 | 89.2% | 0.0% | 0.0% | 1 | 12 | 839 |
+| jbmo | Junior Balkan Mathematical Olympiad | 120 | 95.8% | 6.7% | 6.7% | 1 | 4 | 839 |
 | jbmo-sl | JBMO Shortlist | 538 | 57.1% | 0.0% | 0.0% | 3 | 228 | 1839 |
-| baltic-way | Baltic Way | 740 | 93.5% | 0.0% | 0.0% | 5 | 43 | 4027 |
+| baltic-way | Baltic Way | 740 | 96.2% | 2.7% | 2.7% | 5 | 23 | 4027 |
 | baltic-way-sl | Baltic Way Shortlist | no shape | - | - | - | 0 | 0 | 472 |
-| memo | Middle European Mathematical Olympiad | 240 | 41.7% | 0.0% | 0.0% | 0 | 140 | 642 |
+| memo | Middle European Mathematical Olympiad | 240 | 58.3% | 16.7% | 16.7% | 0 | 100 | 642 |
 | austrian-polish | Austrian-Polish Mathematics Competition | 268 | 99.6% | 0.0% | 0.0% | 1 | 0 | 541 |
-| rmm | Romanian Master of Mathematics | 114 | 80.7% | 0.0% | 0.0% | 0 | 22 | 612 |
-| nordic | Nordic Mathematical Contest | 160 | 95.0% | 0.0% | 0.0% | 0 | 8 | 686 |
+| rmm | Romanian Master of Mathematics | 114 | 86.0% | 5.3% | 5.3% | 0 | 16 | 612 |
+| nordic | Nordic Mathematical Contest | 160 | 100.0% | 5.0% | 5.0% | 0 | 0 | 686 |
 | benelux | Benelux Mathematical Olympiad | 72 | 94.4% | 1.4% | 1.4% | 0 | 4 | 503 |
 | caps | Czech-Austrian-Polish-Slovak Match | 186 | 82.8% | 0.5% | 0.5% | 7 | 25 | 503 |
 | kurschak | Kürschák Competition | 399 | 55.6% | 0.0% | 0.0% | 3 | 174 | 624 |
 | francophone | Olympiade Francophone de Mathématiques | 56 | 50.0% | 0.0% | 0.0% | 0 | 28 | 112 |
 | caucasus | Caucasus Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 292 |
-| apmo | Asian Pacific Mathematics Olympiad | 190 | 97.4% | 0.0% | 0.0% | 0 | 5 | 1094 |
+| apmo | Asian Pacific Mathematics Olympiad | 190 | 100.0% | 2.6% | 2.6% | 0 | 0 | 1094 |
 | gulf | Gulf Mathematical Olympiad | 28 | 100.0% | 0.0% | 0.0% | 0 | 0 | 56 |
 | arab | Arab Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 0 |
-| ibero | Iberoamerican Mathematical Olympiad | 252 | 49.6% | 0.0% | 0.0% | 47 | 80 | 1022 |
+| ibero | Iberoamerican Mathematical Olympiad | 252 | 56.7% | 7.1% | 7.1% | 47 | 62 | 1022 |
 | centro | Centroamerican and Caribbean Mathematical Olympiad | 168 | 79.2% | 0.0% | 0.0% | 5 | 30 | 375 |
 | istmo | Istmo Centroamericano | no shape | - | - | - | 0 | 0 | 15 |
-| cono-sur | Cono Sur Mathematical Olympiad | 228 | 73.7% | 0.0% | 0.0% | 14 | 46 | 549 |
+| cono-sur | Cono Sur Mathematical Olympiad | 228 | 81.6% | 7.9% | 7.9% | 14 | 28 | 549 |
 | rioplatense | Olimpiada Rioplatense | 186 | 67.2% | 0.0% | 0.0% | 25 | 36 | 818 |
-| lusophon | Lusophon Mathematical Olympiad | 96 | 74.0% | 0.0% | 0.0% | 0 | 25 | 168 |
+| lusophon | Lusophon Mathematical Olympiad | 96 | 92.7% | 18.8% | 18.8% | 0 | 7 | 168 |
 | pamo | Pan-African Mathematics Olympiad | 240 | 60.0% | 3.3% | 3.3% | 0 | 96 | 278 |
 | pagmo | Pan-American Girls' Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 42 |
 | imac | International Mathematical Arhimede Contest | no shape | - | - | - | 0 | 0 | 96 |
@@ -91,11 +91,11 @@ The order is the order of the register. A competition with no shape in the regis
 | seemous | South Eastern European Mathematical Olympiad for University Students | 80 | 55.0% | 0.0% | 0.0% | 4 | 32 | 101 |
 | schweitzer | Miklós Schweitzer Competition | 647 | 99.4% | 0.5% | 0.5% | 4 | 0 | 1516 |
 | vtrmc | Virginia Tech Regional Mathematics Contest | 307 | 100.0% | 69.4% | 69.1% | 0 | 0 | 197 |
-| ciim | Iberoamerican Interuniversity Mathematics Competition | 108 | 68.5% | 0.0% | 0.0% | 0 | 34 | 172 |
+| ciim | Iberoamerican Interuniversity Mathematics Competition | 108 | 85.2% | 16.7% | 16.7% | 0 | 16 | 172 |
 | ir-university | Iranian University Mathematics Olympiad | no shape | - | - | - | 0 | 0 | 0 |
 | ru-student | Russian and Soviet Student Olympiads | no shape | - | - | - | 0 | 0 | 0 |
 | oimu | Iberoamerican Olympiad for University Students | 49 | 100.0% | 0.0% | 0.0% | 0 | 0 | 98 |
-| simon-marais | Simon Marais Mathematics Competition | 80 | 20.0% | 0.0% | 0.0% | 0 | 64 | 64 |
+| simon-marais | Simon Marais Mathematics Competition | 80 | 90.0% | 70.0% | 70.0% | 0 | 8 | 64 |
 | ahsme | American High School Mathematics Examination | 1810 | 0.0% | 0.0% | 0.0% | 0 | 1810 | 2490 |
 | amc8 | AMC 8 | 1050 | 3.1% | 0.0% | 0.0% | 0 | 1017 | 1032 |
 | amc10 | AMC 10 | 675 | 2.4% | 0.0% | 0.0% | 0 | 659 | 1473 |
@@ -174,7 +174,7 @@ The order is the order of the register. A competition with no shape in the regis
 | ro-nmo | Romanian National Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 4045 |
 | ro-tst | Romanian IMO Team Selection Test | no shape | - | - | - | 0 | 0 | 1614 |
 | bg-mo | Bulgarian Mathematical Olympiad | 384 | 82.0% | 0.0% | 0.0% | 17 | 52 | 1398 |
-| rs-smo | Serbian Mathematical Olympiad | 108 | 80.6% | 23.1% | 23.1% | 21 | 0 | 566 |
+| rs-smo | Serbian Mathematical Olympiad | 108 | 87.0% | 29.6% | 29.6% | 14 | 0 | 566 |
 | hr-mo | Croatia national mathematics olympiad | no shape | - | - | - | 0 | 0 | 1599 |
 | si-mo | Slovenia national mathematics olympiad | no shape | - | - | - | 0 | 0 | 1550 |
 | ba-mo | Bosnia and Herzegovina national mathematics olympiad | no shape | - | - | - | 0 | 0 | 424 |

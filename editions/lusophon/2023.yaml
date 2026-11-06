@@ -1,0 +1,11 @@
+year: 2023
+papers:
+  - name: Day 1
+    problems: [p1, p2, p3]
+  - name: Day 2
+    problems: [p4, p5, p6]
+official:
+  - lang: Portuguese
+    code: pt
+    url: https://www.obm.org.br/content/uploads/2023/05/Provas_OMCPLP_2023.pdf
+    source: obm

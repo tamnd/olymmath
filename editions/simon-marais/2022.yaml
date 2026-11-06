@@ -1,0 +1,17 @@
+year: 2022
+papers:
+  - name: Paper A
+    problems: [a1, a2, a3, a4]
+  - name: Paper B
+    problems: [b1, b2, b3, b4]
+official:
+  - lang: English
+    code: en
+    url: https://www.simonmarais.org/uploads/8/2/3/5/82358688/smmc-2022-paper-a.pdf
+    paper: a
+    source: simonmarais-official
+  - lang: English
+    code: en
+    url: https://www.simonmarais.org/uploads/8/2/3/5/82358688/smmc-2022-paper-b.pdf
+    paper: b
+    source: simonmarais-official

@@ -1,0 +1,12 @@
+year: 2023
+official:
+  - lang: English
+    code: en
+    url: https://memo2023.skmo.sk/docs/indiv_english.pdf
+    paper: individual
+    source: memo-official
+  - lang: English
+    code: en
+    url: https://memo2023.skmo.sk/docs/team_english.pdf
+    paper: team
+    source: memo-official

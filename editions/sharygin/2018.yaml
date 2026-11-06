@@ -1,1 +1,6 @@
 year: 2018
+official:
+  - lang: English
+    code: en
+    url: https://geometry.ru/olimp/2018/zaoch_en.pdf
+    source: geometry-ru

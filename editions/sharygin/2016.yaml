@@ -1,1 +1,6 @@
 year: 2016
+official:
+  - lang: English
+    code: en
+    url: https://geometry.ru/olimp/2016/zaoch-e.pdf
+    source: geometry-ru

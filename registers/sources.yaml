@@ -917,7 +917,7 @@
   ai_train: unknown
   wave: 1
   state: active
-  notes: "The page of papers is https://www.obm.org.br/como-se-preparar/provas-e-gabaritos/. The level 3 paper (Nível 3, six problems in two days) of br-obm is the third phase (Terceira Fase) to 2016 and the single phase (Fase Única) from 2017. The file names do not always give the year: 3Fase_2005-2-N3.pdf is the XXVI olympiad, the same as 3Fase_2004-3-N3.pdf, so it is the paper of 2004, and the paper of 2005 is not online. The year is the number of the olympiad plus 1978. robots.txt (checked on 2026-11-04) disallows only /wp/wp-admin/."
+  notes: "The page of papers is https://www.obm.org.br/como-se-preparar/provas-e-gabaritos/. The level 3 paper (Nível 3, six problems in two days) of br-obm is the third phase (Terceira Fase) to 2016 and the single phase (Fase Única) from 2017. The file names do not always give the year: 3Fase_2005-2-N3.pdf is the XXVI olympiad, the same as 3Fase_2004-3-N3.pdf, so it is the paper of 2004, and the paper of 2005 is not online. The year is the number of the olympiad plus 1978. robots.txt (checked on 2026-11-04) disallows only /wp/wp-admin/. The page also has an international bank of papers (Banco de provas), with the Portuguese papers of OIM, Cono Sur, OMCPLP and CIIM, such as https://www.obm.org.br/content/uploads/2023/09/ibero_2023.pdf. robots.txt was checked again on 2026-11-06."
 
 - id: omm
   name: Olimpiada Mexicana de Matemáticas
@@ -974,6 +974,36 @@
   wave: 1
   state: planned
   notes: "The site gave no answer on 2026-11-04, so the archive is still not confirmed."
+
+- id: jbmo-official
+  name: JBMO host sites
+  kind: official
+  origin: H1
+  url: https://jbmo2026.ssmr.ro/
+  access: pdf
+  terms: "No licence stated. Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: active
+  notes: "Each host country of the JBMO has its own site. The English paper of 2024 is https://jbmo2024.tubitak.gov.tr/assets/files/JBMO_2024_English.pdf, and that of 2026 is https://jbmo2026.ssmr.ro/wp-content/uploads/2026/06/English_JBMO2026.pdf. The site of 2025 (jbmo2025.mk) does not resolve. robots.txt of both sites (checked on 2026-11-06) gives 404 or allows all paths."
+
+- id: simonmarais-official
+  name: Simon Marais Mathematics Competition official site
+  kind: official
+  origin: H1
+  url: https://www.simonmarais.org/
+  access: pdf
+  terms: "The papers say \"© Simon Marais Mathematics Competition Ltd\" and give no licence. Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: active
+  notes: "The page of each year, such as https://www.simonmarais.org/20231.html, links Paper A, Paper B and, from 2022, Paper C of the West division, under /uploads/8/2/3/5/82358688/. Page 1 of a paper has the instructions and page 2 has the four problems, A1 to A4 or B1 to B4. robots.txt (checked on 2026-11-06) disallows some pages, such as /2023.html and /problems.html, but not the pages of the years that link the papers or /uploads/."
 
 - id: egmo-official
   name: EGMO official site
@@ -1296,12 +1326,14 @@
   origin: H1
   url: https://ciim.uan.edu.co/
   access: pdf
+  terms: "No licence stated. Agent decision, not a person's review: Z2, the spec default for competition statements."
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
   wave: 1
-  state: planned
+  state: active
+  notes: The papers of each year are under https://ciim.uan.edu.co/images/VersionesCIIM/YEAR/documentos/, one PDF file for each day and language, such as PruebaDia1-ES.pdf. robots.txt (checked on 2026-11-06) does not disallow /images/.
 
 - id: hmmt-official
   name: HMMT archive
@@ -1461,12 +1493,14 @@
   origin: H1
   url: https://www.hms.gr/
   access: pdf
+  terms: "No licence stated. Agent decision, not a person's review: Z2, the spec default for competition statements."
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
   wave: 1
-  state: planned
+  state: active
+  notes: The site of each BMO hosted in Greece, such as https://hms.gr/43bmo2026/, links the paper in all languages in one PDF file. The English paper of 2026 is page 1 of BMO2026_Problems_All_Languages_Country_Order.pdf. robots.txt (checked on 2026-11-06) allows the paths of the papers.
 
 - id: om-sem
   name: Polish Mathematical Olympiad

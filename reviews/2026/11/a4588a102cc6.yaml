@@ -1,0 +1,25 @@
+id: a4588a102cc6
+kind: official
+records:
+    - ciim/2022/p1
+    - ciim/2022/p2
+    - ciim/2022/p3
+    - ciim/2022/p4
+    - ciim/2022/p5
+    - ciim/2022/p6
+    - ciim/2024/p1
+    - ciim/2024/p2
+    - ciim/2024/p3
+    - ciim/2024/p4
+    - ciim/2024/p5
+    - ciim/2024/p6
+    - ciim/2025/p1
+    - ciim/2025/p2
+    - ciim/2025/p3
+    - ciim/2025/p4
+    - ciim/2025/p5
+    - ciim/2025/p6
+decision: accept
+by: agent
+date: "2026-11-06"
+note: 'Agent decision, not a person''s review. These texts are from the local OCR lane, read from the official Spanish papers of the CIIM site, 2022, 2024 and 2025. The OCR can drop diacritics, so I aligned the words of each text with the text layer of the PDF and compared each word with its diacritics. I also compared the numbers with the text layer. I removed the paper footers (time and points) and the headers of the next day from the ends of the texts. The words agree. In 2025 p6 I wrote "$C$ y $t$" for the OCR form "$C y t$".'

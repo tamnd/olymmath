@@ -1,0 +1,25 @@
+id: 22807b4c98cd
+kind: official
+records:
+    - lusophon/2023/p1
+    - lusophon/2023/p2
+    - lusophon/2023/p3
+    - lusophon/2023/p4
+    - lusophon/2023/p5
+    - lusophon/2023/p6
+    - lusophon/2024/p1
+    - lusophon/2024/p2
+    - lusophon/2024/p3
+    - lusophon/2024/p4
+    - lusophon/2024/p5
+    - lusophon/2024/p6
+    - lusophon/2025/p1
+    - lusophon/2025/p2
+    - lusophon/2025/p3
+    - lusophon/2025/p4
+    - lusophon/2025/p5
+    - lusophon/2025/p6
+decision: accept
+by: agent
+date: "2026-11-06"
+note: 'Agent decision, not a person''s review. These texts are from the local OCR lane, read from the official Portuguese papers of the OBM site, 2023 to 2025. The OCR can drop diacritics, so I aligned the words of each text with the text layer of the PDF and compared each word with its diacritics. I also compared the numbers with the text layer. I removed the paper footers (time and points) and the headers of the next day from the ends of the texts. The words agree. In 2023 p3 the OCR had "ímpar" without its accent, and I used the text layer form. In 2023 p3 I wrote "$k$-especial" for the OCR form "$k - especial$". In 2023 p5 and 2024 p4 I put the point names in math mode.'

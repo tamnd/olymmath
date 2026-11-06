@@ -1,0 +1,25 @@
+id: d5c12ec025e5
+kind: official
+records:
+    - cono-sur/2023/p1
+    - cono-sur/2023/p2
+    - cono-sur/2023/p3
+    - cono-sur/2023/p4
+    - cono-sur/2023/p5
+    - cono-sur/2023/p6
+    - cono-sur/2024/p1
+    - cono-sur/2024/p2
+    - cono-sur/2024/p3
+    - cono-sur/2024/p4
+    - cono-sur/2024/p5
+    - cono-sur/2024/p6
+    - cono-sur/2025/p1
+    - cono-sur/2025/p2
+    - cono-sur/2025/p3
+    - cono-sur/2025/p4
+    - cono-sur/2025/p5
+    - cono-sur/2025/p6
+decision: accept
+by: agent
+date: "2026-11-06"
+note: 'Agent decision, not a person''s review. These texts are from the local OCR lane, read from the official Portuguese papers of the OBM site, 2023 to 2025. The OCR can drop diacritics, so I aligned the words of each text with the text layer of the PDF and compared each word with its diacritics. I also compared the numbers with the text layer. I removed the paper footers (time and points) and the headers of the next day from the ends of the texts. The words agree, except two: in 2023 p2 the OCR has "imposível" and in 2024 p4 it has "seguinte condições". The text layer has "impossível" and "seguintes condições", so I used these.'

@@ -1,0 +1,17 @@
+year: 2022
+papers:
+  - name: Day 1
+    problems: [p1, p2, p3]
+  - name: Day 2
+    problems: [p4, p5, p6]
+official:
+  - lang: Spanish
+    code: es
+    url: https://ciim.uan.edu.co/images/VersionesCIIM/2022/documentos/PrimerDia-CIIM2022_ES.pdf
+    paper: day1
+    source: ciim-official
+  - lang: Spanish
+    code: es
+    url: https://ciim.uan.edu.co/images/VersionesCIIM/2022/documentos/SegundoDia-CIIM2022_ES.pdf
+    paper: day2
+    source: ciim-official

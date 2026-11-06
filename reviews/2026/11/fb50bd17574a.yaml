@@ -1,0 +1,13 @@
+id: fb50bd17574a
+kind: official
+records:
+    - sharygin/2007/p1
+    - sharygin/2007/p2
+    - sharygin/2007/p3
+    - sharygin/2007/p4
+    - sharygin/2007/p5
+    - sharygin/2007/p6
+decision: accept
+by: agent
+date: "2026-11-06"
+note: Agent decision, not a person's review. These texts are from the local OCR lane, read from the English paper of the correspondence round of 2007. The register has no fixed shape for this competition, so om ocr did not cut the pages at the right problem numbers. So I cut the OCR text of the pages again at the problem numbers with a grade label, such as "1. (8)", and I removed the grade label, as the other records of this competition do. A problem with grade labels only on its parts starts at the next problem number. The page of each record is now the page where the problem starts. I compared each text with the text layer of the PDF. The text layer of this PDF has broken ligatures, such as "su h" for "such", so the word match is lower, but the texts agree.

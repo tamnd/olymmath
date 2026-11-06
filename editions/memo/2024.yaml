@@ -1,0 +1,12 @@
+year: 2024
+official:
+  - lang: English
+    code: en
+    url: https://www.bolyai.hu/files/MEMO_2024_I_en.pdf
+    paper: individual
+    source: memo-official
+  - lang: English
+    code: en
+    url: https://www.bolyai.hu/files/MEMO_2024_T_en.pdf
+    paper: team
+    source: memo-official

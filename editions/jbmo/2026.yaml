@@ -1,0 +1,9 @@
+year: 2026
+papers:
+  - name: Paper
+    problems: [p1, p2, p3, p4]
+official:
+  - lang: English
+    code: en
+    url: https://jbmo2026.ssmr.ro/wp-content/uploads/2026/06/English_JBMO2026.pdf
+    source: jbmo-official

@@ -1,0 +1,9 @@
+year: 2026
+papers:
+  - name: Paper
+    problems: [p1, p2, p3, p4]
+official:
+  - lang: English
+    code: en
+    url: https://hms.gr/43bmo2026/pdf/BMO2026_Problems_All_Languages_Country_Order.pdf
+    source: hms

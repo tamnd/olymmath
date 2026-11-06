@@ -1,0 +1,12 @@
+year: 2025
+official:
+  - lang: English
+    code: en
+    url: https://www.memo2025.de/media/MEMO_2025_I_en.pdf
+    paper: individual
+    source: memo-official
+  - lang: English
+    code: en
+    url: https://www.memo2025.de/media/MEMO_2025_T_en.pdf
+    paper: team
+    source: memo-official

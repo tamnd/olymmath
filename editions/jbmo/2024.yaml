@@ -1,0 +1,9 @@
+year: 2024
+papers:
+  - name: Paper
+    problems: [p1, p2, p3, p4]
+official:
+  - lang: English
+    code: en
+    url: https://jbmo2024.tubitak.gov.tr/assets/files/JBMO_2024_English.pdf
+    source: jbmo-official

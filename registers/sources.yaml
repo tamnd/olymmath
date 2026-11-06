@@ -895,12 +895,14 @@
   origin: H1
   url: https://geometry.ru/olimp/olimpsharygin.php
   access: pdf
+  terms: "No licence stated. Agent decision, not a person's review: Z2, the spec default for competition statements."
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
   wave: 1
-  state: planned
+  state: active
+  notes: The year pages, such as /olimp/2012.php, link the English problems of the correspondence round (zaochn-e.pdf and similar names). The robots.txt of geometry.ru gives 404, so all paths are allowed (checked on 2026-11-06).
 
 - id: obm
   name: Olimpíada Brasileira de Matemática
@@ -979,12 +981,14 @@
   origin: H1
   url: https://www.egmo.org/
   access: pdf
+  terms: "No licence stated. Agent decision, not a person's review: Z2, the spec default for competition statements."
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
   wave: 1
-  state: planned
+  state: active
+  notes: The page of each EGMO, such as https://www.egmo.org/egmos/egmo15/ for 2026, links the paper of each day in each language, such as paper-day1-English.pdf. robots.txt gives 404, so all paths are allowed (checked on 2026-11-06).
 
 - id: apmo-official
   name: APMO official site
@@ -992,12 +996,14 @@
   origin: H1
   url: https://www.apmo-official.org/
   access: pdf
+  terms: "No licence stated. Agent decision, not a person's review: Z2, the spec default for competition statements."
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
   wave: 1
-  state: planned
+  state: active
+  notes: The page https://www.apmo-official.org/problems links the paper of each year, such as /static/problems/apmo2026_prb.pdf. robots.txt gives 404, so all paths are allowed (checked on 2026-11-06).
 
 - id: memo-official
   name: MEMO official site
@@ -1005,12 +1011,14 @@
   origin: H1
   url: https://www.memo-official.org/
   access: pdf
+  terms: "The host sites show a copyright line, such as \"\u00a9 2026 MEMO 2020\", and no licence. Agent decision, not a person's review: Z2, the spec default for competition statements."
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
   wave: 1
-  state: planned
+  state: active
+  notes: "memo-official.org links the site of each year. The papers are on those sites: memo2020.memo-official.org, memo2023.skmo.sk, www.bolyai.hu (for memo2024.bolyai.hu) and www.memo2025.de. Each of these hosts gives 404 for robots.txt, or gives no rules, so all paths are allowed (checked on 2026-11-06)."
 
 - id: olympiaadid-ut
   name: Estonian olympiads (University of Tartu)
@@ -1018,13 +1026,14 @@
   origin: H1
   url: https://math.olympiaadid.ut.ee/
   access: pdf
+  terms: "No licence stated. Agent decision, not a person's review: Z2, the spec default for competition statements."
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
   wave: 1
-  state: planned
-  notes: Also holds the Baltic Way archive.
+  state: active
+  notes: Also holds the Baltic Way archive, such as /eng/archive/bw/bw25eng.pdf for 2025. robots.txt blocks only /html/ and /laager/ (checked on 2026-11-06).
 
 - id: rmm-official
   name: RMM official site
@@ -1032,12 +1041,14 @@
   origin: H1
   url: https://rmms.lbi.ro/
   access: pdf
+  terms: "The site shows \"\u00a9 Copyright 2008 - 2026 RMM\" and no licence. Agent decision, not a person's review: Z2, the spec default for competition statements."
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
   wave: 1
-  state: planned
+  state: active
+  notes: The page of each year links the paper of each day, such as /rmm2026/pr1/RMM2026-Day1-English.pdf. robots.txt gives 404, so all paths are allowed (checked on 2026-11-06).
 
 - id: georgmohr
   name: Georg Mohr and NMC
@@ -1104,12 +1115,14 @@
   origin: H1
   url: https://izho.kz/
   access: pdf
+  terms: "No licence stated. Agent decision, not a person's review: Z2, the spec default for competition statements."
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
   wave: 1
-  state: planned
+  state: active
+  notes: The papers of each day are in /wp-content/uploads/, such as 1.day_1-2024.pdf, with the English text and then the Russian text. robots.txt blocks only /calendar and fund.fizmat.kz paths (checked on 2026-11-06). On 2026-11-06 the pages of the site gave HTTP 500, but the files still loaded.
 
 - id: caucasus-official
   name: Caucasus MO
@@ -1302,6 +1315,7 @@
   ai_train: unknown
   wave: 1
   state: planned
+  notes: The tournament pages, such as /www/archive/291 for November 2025, link the problems PDF of each round on hmmt-archive.s3.amazonaws.com. The robots.txt of www.hmmt.org allows all paths for other agents and says search=yes, ai-train=no, use=reference. The robots.txt of hmmt-archive.s3.amazonaws.com gives 403, and the fetch client reads a 403 as a block of all paths (checked on 2026-11-06). So om ocr cannot get these papers.
 
 - id: cmimc-official
   name: CMIMC archive

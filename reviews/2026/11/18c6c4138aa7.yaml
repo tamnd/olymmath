@@ -1,0 +1,17 @@
+id: 18c6c4138aa7
+kind: official
+records:
+    - sharygin/2014/p1
+    - sharygin/2014/p19
+    - sharygin/2014/p2
+    - sharygin/2014/p21
+    - sharygin/2014/p3
+    - sharygin/2014/p4
+    - sharygin/2014/p5
+    - sharygin/2014/p6
+    - sharygin/2014/p7
+    - sharygin/2014/p8
+decision: accept
+by: agent
+date: "2026-11-06"
+note: Agent decision, not a person's review. These texts are from the local OCR lane, read from the English paper of the correspondence round of 2014. Page 1 of the paper has a numbered list of rules for the participants before the problems, and om ocr took the rules as the first problems. So I cut the OCR text of the pages again at the problem numbers with a grade label, such as "1. (8)", and I removed the grade label, as the other records of this competition do. The page of each record is now the page where the problem starts. I compared each text with the text layer of the PDF.

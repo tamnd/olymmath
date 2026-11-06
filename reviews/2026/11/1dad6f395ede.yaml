@@ -1,0 +1,8 @@
+id: 1dad6f395ede
+kind: official
+records:
+    - apmo/2026/p2
+decision: accept
+by: agent
+date: "2026-11-06"
+note: Agent decision, not a person's review. The local OCR lane read the index of the second last set in the sum as 2^{n-1}. The official paper, page 1, has 2^n - 1, the index just before 2^n. I fixed the text from the page and the text layer of the PDF. The rest of the text is the same as the paper. I read both.

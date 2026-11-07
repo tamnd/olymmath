@@ -1,0 +1,9 @@
+id: 2879f2f29de8
+kind: pair
+records:
+    - hmmt/2005/a1
+    - hmmt/2005/e1
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: number of real solutions of |x-1| = |x-2| + |x-3|.'

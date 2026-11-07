@@ -1,0 +1,9 @@
+id: 4c3606cf7baf
+kind: pair
+records:
+    - hmmt/2004/c8
+    - hmmt/2004/e9
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: urn A with 4 white and 2 red, urn B with 3 red and 3 black, probability first red given second black.'

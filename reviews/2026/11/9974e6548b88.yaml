@@ -1,0 +1,9 @@
+id: 9974e6548b88
+kind: pair
+records:
+    - hmmt/2009/a2
+    - hmmt/2009/f3
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: log base 2 of the sum of the real coefficients of (1+ix)^2009.'

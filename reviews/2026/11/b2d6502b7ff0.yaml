@@ -1,0 +1,9 @@
+id: b2d6502b7ff0
+kind: pair
+records:
+    - hmmt/2007/f6
+    - hmmt/2007/g4
+decision: same
+by: agent
+date: "2026-11-07"
+note: Agent decision, not a person's review. Both texts have circle radius 5, OA=13, tangent line BC with BC=7, and ask for AB+AC. Only a line break differs.

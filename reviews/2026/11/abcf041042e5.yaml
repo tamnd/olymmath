@@ -1,0 +1,9 @@
+id: abcf041042e5
+kind: pair
+records:
+    - hmmt/2007/c3
+    - hmmt/2007/e7
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: Jack, Jill and John draw cards with replacement until a spade, probability Jill draws it.'

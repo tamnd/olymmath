@@ -1,0 +1,9 @@
+id: 8007187bf3b9
+kind: pair
+records:
+    - hmmt/2001/f2
+    - hmmt/2001/g2
+decision: same
+by: agent
+date: "2026-11-07"
+note: Agent decision, not a person's review. Both texts ask for the volume bounded by the planes through centers of adjacent face triples of a unit cube. Only a space before a period differs.

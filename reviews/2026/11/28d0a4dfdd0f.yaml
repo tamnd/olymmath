@@ -1,0 +1,9 @@
+id: 28d0a4dfdd0f
+kind: pair
+records:
+    - hmmt/2001/a2
+    - hmmt/2001/e7
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: the infinite product (x+1)(x^2+1)(x^4+1)... for |x|<1.'

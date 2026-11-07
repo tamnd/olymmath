@@ -1,0 +1,9 @@
+id: 236a97b2aef4
+kind: pair
+records:
+    - austrian-polish/1985/p1
+    - lt-mo/2006/p3
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. Both texts state the same identity: if a+b+c=0 then the product of the two cyclic sums equals 9. Only a space before the final period differs.'

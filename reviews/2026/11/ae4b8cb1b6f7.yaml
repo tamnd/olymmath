@@ -1,0 +1,9 @@
+id: ae4b8cb1b6f7
+kind: pair
+records:
+    - memo/2015/p7
+    - memo/2015/t7
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: pairs (a, b) with a! + b! = a^b + b^a.'

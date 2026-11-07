@@ -1,0 +1,9 @@
+id: b250194b1b71
+kind: pair
+records:
+    - aime/1985/p5
+    - it-cesenatico/1985/p5
+decision: same
+by: agent
+date: "2026-11-07"
+note: Agent decision, not a person's review. Both texts ask for the sum of the first 2001 terms of a_n = a_(n-1) - a_(n-2), given the sums 1985 for 1492 terms and 1492 for 1985 terms. Only spacing differs.

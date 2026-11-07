@@ -1,0 +1,9 @@
+id: 4f0deb82bdd1
+kind: pair
+records:
+    - hmmt/2011/s14
+    - hmmt/2011/t2
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: the run or fight checker game on 1 row of 2011 squares, counting final configurations. One text has a small typo ("moves" twice) and a semicolon, nothing else differs.'

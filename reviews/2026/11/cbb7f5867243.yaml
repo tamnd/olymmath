@@ -1,0 +1,9 @@
+id: cbb7f5867243
+kind: pair
+records:
+    - hmmt/2004/a2
+    - hmmt/2004/f1
+decision: same
+by: agent
+date: "2026-11-07"
+note: Agent decision, not a person's review. Both texts ask for the largest n such that (2004!)! is divisible by ((n!)!)!. Only the placement of a dollar sign differs.

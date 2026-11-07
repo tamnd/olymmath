@@ -1,0 +1,9 @@
+id: b14591c209da
+kind: pair
+records:
+    - hmmt/2002/a3
+    - hmmt/2002/e9
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: a+b+c=26 and 1/a+1/b+1/c=28, find the sum of the six ratios.'

@@ -1,0 +1,9 @@
+id: 428b743c5b56
+kind: pair
+records:
+    - amc12/2016a/p2
+    - amc10/2016a/p2
+decision: same
+by: agent
+date: "2026-11-07"
+note: Agent decision, not a person's review. Both texts ask for x with 10^x * 100^(2x) = 1000^5 and the same choices 1 to 5. Only formatting differs.

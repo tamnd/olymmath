@@ -1,0 +1,9 @@
+id: 635db9e688af
+kind: pair
+records:
+    - hmmt/2007/a8
+    - hmmt/2007/f9
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: f(x) + f(1 - 1/x) = log|x| on rationals other than 0 and 1, find f(2007).'

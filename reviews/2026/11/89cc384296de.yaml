@@ -1,0 +1,9 @@
+id: 89cc384296de
+kind: pair
+records:
+    - memo/2009/p12
+    - memo/2009/t8
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: non-negative integer solutions of 2^x + 2009 = 3^y 5^z.'

@@ -1,0 +1,9 @@
+id: 05197057febc
+kind: pair
+records:
+    - hmmt/2001/f10
+    - hmmt/2001/g5
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: volume of the tetrahedron with vertices (5,8,10), (10,10,17), (4,45,46), (2,5,4).'

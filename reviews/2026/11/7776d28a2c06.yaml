@@ -1,0 +1,9 @@
+id: 7776d28a2c06
+kind: pair
+records:
+    - hmmt/2005/a4
+    - hmmt/2005/e7
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: smallest value of the sum of floors of (a+b)/c, (b+c)/a, (c+a)/b.'

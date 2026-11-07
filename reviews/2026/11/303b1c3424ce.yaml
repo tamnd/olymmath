@@ -1,0 +1,9 @@
+id: 303b1c3424ce
+kind: pair
+records:
+    - memo/2015/p8
+    - memo/2015/t8
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: the number of m <= n with n dividing m^2 + 1.'

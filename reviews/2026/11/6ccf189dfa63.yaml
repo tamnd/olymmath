@@ -1,0 +1,9 @@
+id: 6ccf189dfa63
+kind: pair
+records:
+    - hmnt/2018/u18
+    - hmnt/2018/u3
+decision: different
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts differ: one asks for the number of solvable 2 x 5 mazes, the other for solvable 2 x 2 mazes.'

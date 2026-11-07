@@ -1,0 +1,9 @@
+id: 8bd09745c826
+kind: pair
+records:
+    - tuymaada/2017/p3
+    - tuymaada/2017/j3
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: clique, cluque and claque of cities, the clique size is at most the product of the other two maxima.'

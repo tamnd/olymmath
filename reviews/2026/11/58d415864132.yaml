@@ -1,0 +1,9 @@
+id: 58d415864132
+kind: pair
+records:
+    - memo/2017/p7
+    - memo/2017/t7
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: the n >= 2 with a permutation of 0,...,n-1 whose partial sums are distinct mod n.'

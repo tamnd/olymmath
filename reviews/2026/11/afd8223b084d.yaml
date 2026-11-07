@@ -1,0 +1,9 @@
+id: afd8223b084d
+kind: pair
+records:
+    - hmmt/2010/c1
+    - hmmt/2010/e2
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: subsets T of {1,...,10} closed under x to 2x.'

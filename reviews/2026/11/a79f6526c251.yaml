@@ -1,0 +1,9 @@
+id: a79f6526c251
+kind: pair
+records:
+    - hmmt/2010/c2
+    - hmmt/2010/f3
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: positive integers up to 240 that are sums of distinct factorials, with 0! and 1! distinct. They only differ in the spacing of 0! and 1!.'

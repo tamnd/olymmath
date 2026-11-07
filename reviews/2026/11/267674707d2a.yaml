@@ -1,0 +1,9 @@
+id: 267674707d2a
+kind: pair
+records:
+    - hu-komal/2023/a843
+    - nemotron-imo-bench/2026/n12
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: the set N of n with n | k^k - 1 implying n | k - 1 is closed under gcd.'

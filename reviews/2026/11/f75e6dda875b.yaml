@@ -1,0 +1,9 @@
+id: f75e6dda875b
+kind: pair
+records:
+    - memo/2009/p8
+    - memo/2009/t4
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: the maximum n of colours on the 2009 x 2009 board so that some colour is queen-connected.'

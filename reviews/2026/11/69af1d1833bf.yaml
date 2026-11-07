@@ -1,0 +1,9 @@
+id: 69af1d1833bf
+kind: pair
+records:
+    - tuymaada/2016/p5
+    - tuymaada/2016/s5
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: primes p, q with ratio at most 2 and two consecutive integers with largest prime divisors p and q.'

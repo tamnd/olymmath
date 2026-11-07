@@ -1,0 +1,9 @@
+id: a47fd39f0e69
+kind: pair
+records:
+    - hmmt/2010/a3
+    - hmmt/2010/e4
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: the largest k <= 2010 with S_k = 0.'

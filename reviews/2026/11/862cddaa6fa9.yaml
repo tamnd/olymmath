@@ -1,0 +1,9 @@
+id: 862cddaa6fa9
+kind: pair
+records:
+    - hmnt/2018/u17
+    - hmnt/2018/u2
+decision: different
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts differ: one asks for the sum of the absolute values of the numbers in the 2018th row, the other for the plain sum of the numbers in that row.'

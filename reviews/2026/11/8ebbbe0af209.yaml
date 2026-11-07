@@ -1,0 +1,9 @@
+id: 8ebbbe0af209
+kind: pair
+records:
+    - tuymaada/2015/p5
+    - tuymaada/2015/s5
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: adding the largest non-trivial divisor until a number divisible by 3^2000 appears.'

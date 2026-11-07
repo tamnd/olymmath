@@ -1,0 +1,9 @@
+id: db565024a8f8
+kind: pair
+records:
+    - hmmt/2005/c7
+    - hmmt/2005/f8
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: maximum number of bishops on an 8 by 8 board with at most three on any diagonal.'

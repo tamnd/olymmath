@@ -1,0 +1,9 @@
+id: 264b8ff18ce7
+kind: pair
+records:
+    - amc12/2016a/p1
+    - amc10/2016a/p1
+decision: same
+by: agent
+date: "2026-11-07"
+note: Agent decision, not a person's review. Both texts ask for (11! - 10!)/9! with the same choices 99, 100, 110, 121, 132. Only \frac vs \dfrac and layout differ.

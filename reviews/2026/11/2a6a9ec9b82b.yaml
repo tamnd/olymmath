@@ -1,0 +1,9 @@
+id: 2a6a9ec9b82b
+kind: pair
+records:
+    - us-tst/2023/p1
+    - us-egmo-tst/2023/p1
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: Bunbun hopping between 2022 points on a circle, maximal total arc length.'

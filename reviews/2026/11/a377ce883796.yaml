@@ -1,0 +1,9 @@
+id: a377ce883796
+kind: pair
+records:
+    - balkan-sl/2013/n5
+    - balkan-sl/2013/n6
+decision: different
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts differ in the exponent: one has p^(q-1) - q^(p-1) = 4n^2 and the other has 4n^3. These are two problems.'

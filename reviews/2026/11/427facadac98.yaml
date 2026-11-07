@@ -1,0 +1,9 @@
+id: 427facadac98
+kind: pair
+records:
+    - hmmt/2001/e9
+    - hmmt/2001/v4
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: Connect Four shapes on a 7 by 8 board up to horizontal flips, written as 9(1+2+...+n).'

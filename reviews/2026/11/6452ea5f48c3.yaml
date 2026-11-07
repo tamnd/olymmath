@@ -1,0 +1,9 @@
+id: 6452ea5f48c3
+kind: pair
+records:
+    - memo/2018/p8
+    - memo/2018/t8
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: silesian integers n = (a^2+b^2+c^2)/(ab+bc+ca), parts (a) and (b).'

@@ -1,0 +1,9 @@
+id: 4141f7cc559d
+kind: pair
+records:
+    - hmmt/2002/e5
+    - hmmt/2002/f5
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: square and regular hexagon with the same side, square area sqrt(3), find the hexagon area.'

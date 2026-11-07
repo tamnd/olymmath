@@ -1,0 +1,9 @@
+id: 3fd72356d948
+kind: pair
+records:
+    - hmmt/2010/a5
+    - hmmt/2010/f7
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: x + y = 1 and x^20 + y^20 = 20, sum of all possible x^2 + y^2.'

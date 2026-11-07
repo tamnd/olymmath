@@ -1,0 +1,9 @@
+id: 6de99445fa58
+kind: pair
+records:
+    - hu-komal/2017/a701
+    - nemotron-imo-bench/2026/c32
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts state the same problem with the same numbers and conditions: whether Bella''s most-expensive-flight tour costs at least as much as Anna''s cheapest-flight tour. They only differ in formatting or small wording.'

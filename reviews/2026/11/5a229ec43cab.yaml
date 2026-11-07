@@ -1,0 +1,9 @@
+id: 5a229ec43cab
+kind: pair
+records:
+    - amc12/2014a/p1
+    - amc10/2014a/p1
+decision: same
+by: agent
+date: "2026-11-07"
+note: Agent decision, not a person's review. Both texts ask for 10 times (1/2 + 1/5 + 1/10)^(-1) with the same choices 3, 8, 25/2, 170/3, 170. Only the layout of the choices differs.

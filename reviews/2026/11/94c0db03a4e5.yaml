@@ -1,0 +1,9 @@
+id: 94c0db03a4e5
+kind: pair
+records:
+    - memo/2019/p8
+    - memo/2019/t8
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: N with the sum of squared divisors equal to N(N+3) is a product of two Fibonacci numbers.'

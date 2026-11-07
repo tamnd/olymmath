@@ -1,0 +1,9 @@
+id: 968c57d85038
+kind: pair
+records:
+    - hmmt/2003/a5
+    - hmmt/2003/f10
+decision: same
+by: agent
+date: "2026-11-07"
+note: Agent decision, not a person's review. Both texts have positive integers with sum 2003 and ask for the maximum of n_2 + 2n_3 + ... + 2002n_2003. Only a final period differs.

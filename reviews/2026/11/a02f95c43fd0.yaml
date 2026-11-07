@@ -1,0 +1,9 @@
+id: a02f95c43fd0
+kind: pair
+records:
+    - memo/2011/p7
+    - memo/2011/t7
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: a in A and b in B with 11 dividing a^3 + ab^2 + b^3, where A and B split {1,...,10}.'

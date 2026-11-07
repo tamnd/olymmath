@@ -1,0 +1,9 @@
+id: db20e7655995
+kind: pair
+records:
+    - hu-komal/2014/c1203
+    - hu-komal/2014/k408
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: if (a-1)^2 x + (a-1)^2 y - (a^2-1) z = 0 with rational x, y, z, then a is rational.'

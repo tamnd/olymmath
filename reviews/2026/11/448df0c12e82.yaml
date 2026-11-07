@@ -1,0 +1,9 @@
+id: 448df0c12e82
+kind: pair
+records:
+    - hmmt/2009/c4
+    - hmmt/2009/e9
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: functions f on {1,...,5} with f(f(x)) = f(x).'

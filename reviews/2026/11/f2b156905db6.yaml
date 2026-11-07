@@ -1,0 +1,9 @@
+id: f2b156905db6
+kind: pair
+records:
+    - hmmt/2007/a9
+    - hmmt/2007/e10
+decision: same
+by: agent
+date: "2026-11-07"
+note: Agent decision, not a person's review. Both texts take the roots of x^4 + 2x^3 + 2 = 0 and ask for the set of the three pairwise product sums. One says 'four distinct roots' and the other 'complex roots', which is the same problem.

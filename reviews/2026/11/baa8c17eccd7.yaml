@@ -1,0 +1,9 @@
+id: baa8c17eccd7
+kind: pair
+records:
+    - hmmt/2006/f6
+    - hmmt/2006/g1
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: equiangular octagon with AB=1, BC=2, CD=3, DE=4, EF=FG=2, find the perimeter.'

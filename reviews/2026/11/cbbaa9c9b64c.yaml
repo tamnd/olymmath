@@ -1,0 +1,9 @@
+id: cbbaa9c9b64c
+kind: pair
+records:
+    - memo/2016/p8
+    - memo/2016/t8
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: a^2 + b^2 + c^2 + n = abc for n = 2017 and n = 2016.'

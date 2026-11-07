@@ -1,0 +1,9 @@
+id: ee57b65310a1
+kind: pair
+records:
+    - by-mo/2001/p6
+    - by-mo/2001/p8
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: the beetle on a (2n-1) x (2n-1) board leaves within 2^(3n-1)(n-1)! - 4 years.'

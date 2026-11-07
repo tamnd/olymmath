@@ -1,0 +1,9 @@
+id: c6f3baceeb36
+kind: pair
+records:
+    - pl-om/2003/p4
+    - sg-smo/2010/p5
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: prime p, 0 < x < y < z < p with equal cubes mod p, show x+y+z divides x^2+y^2+z^2.'

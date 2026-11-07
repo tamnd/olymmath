@@ -1,0 +1,9 @@
+id: d0f5f447882e
+kind: pair
+records:
+    - hmmt/2005/f1
+    - hmmt/2005/g1
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: cube with volume plus three times edge length equal to twice the surface area, find the long diagonal.'

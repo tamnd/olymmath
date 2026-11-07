@@ -1,0 +1,9 @@
+id: e49d876203a3
+kind: pair
+records:
+    - hmnt/2014/t1
+    - hmnt/2014/u25
+decision: different
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts differ: the second text has a fourth form n = pq for distinct primes p and q, the first has only three forms. This changes which n is the smallest.'

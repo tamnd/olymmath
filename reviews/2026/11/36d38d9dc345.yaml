@@ -1,0 +1,9 @@
+id: 36d38d9dc345
+kind: pair
+records:
+    - hmmt/2008/c10
+    - hmmt/2008/f10
+decision: same
+by: agent
+date: "2026-11-07"
+note: Agent decision, not a person's review. Both texts count 8-tuples with 0 <= a_k <= k and a_1+a_2+a_3+a_4 + 2b_1+3b_2+4b_3+5b_4 = 19. Only the TeX around the tuple differs.

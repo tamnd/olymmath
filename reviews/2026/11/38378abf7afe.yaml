@@ -1,0 +1,9 @@
+id: 38378abf7afe
+kind: pair
+records:
+    - hu-komal/2014/a627
+    - schweitzer/2014/p8
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts state the same problem with the same numbers and conditions: the distance inf max |f(x) - p(x)| over polynomials of degree less than n and f with c_k >= 0 summing to 1. They only differ in formatting or small wording.'

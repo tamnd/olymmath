@@ -1,0 +1,9 @@
+id: b791f782fed7
+kind: pair
+records:
+    - memo/2009/p6
+    - memo/2009/t2
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: the values of a^2+b^2+c^2 when each two of the three quadratics share exactly one root.'

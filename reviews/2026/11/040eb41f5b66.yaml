@@ -1,0 +1,9 @@
+id: 040eb41f5b66
+kind: pair
+records:
+    - memo/2019/p7
+    - memo/2019/t7
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: c(a-1)+b does not divide c(b-1)+a for a < b < c < a+b.'

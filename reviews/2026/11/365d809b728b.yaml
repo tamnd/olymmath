@@ -1,0 +1,9 @@
+id: 365d809b728b
+kind: pair
+records:
+    - memo/2009/p5
+    - memo/2009/t1
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: x^4+y^4+z^4+16(x^2+y^2+z^2) >= 8(x^3+y^3+z^3)+27 under x^2+y^2+z^2+9 = 4(x+y+z).'

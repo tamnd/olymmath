@@ -1,0 +1,9 @@
+id: 3cc8bd1443e8
+kind: pair
+records:
+    - hmmt/2002/f8
+    - hmmt/2002/v4
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: two fair coins flipped until a head appears, probability the other coin is also heads.'

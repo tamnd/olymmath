@@ -1,0 +1,9 @@
+id: c7fb8f2356b0
+kind: pair
+records:
+    - hmmt/2009/c5
+    - hmmt/2009/e7
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: (1/255) times the sum over 0 <= n < 16 of 2^n (-1)^s(n).'

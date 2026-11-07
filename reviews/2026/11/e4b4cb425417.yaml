@@ -1,0 +1,9 @@
+id: e4b4cb425417
+kind: pair
+records:
+    - tuymaada/2017/p2
+    - tuymaada/2017/j2
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: cyclic ABCD with perpendicular diagonals, CQ=AP, perimeter of BDQ at least 2AC.'

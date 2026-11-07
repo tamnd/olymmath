@@ -1,0 +1,9 @@
+id: ce2134c69d0f
+kind: pair
+records:
+    - hmmt/2009/a1
+    - hmmt/2009/e1
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: positive integers with a^2 - b^4 = 2009, find a+b.'

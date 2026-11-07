@@ -1,0 +1,9 @@
+id: 184879c03ed2
+kind: pair
+records:
+    - memo/2014/p8
+    - memo/2014/t8
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: quadruples with 20^x + 14^(2y) = (x + 2y + z)^(zt).'

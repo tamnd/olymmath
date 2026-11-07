@@ -1,0 +1,9 @@
+id: 67d218143b28
+kind: pair
+records:
+    - hmmt/2008/a4
+    - hmmt/2008/e5
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: f(x) + f(2x+y) + 5xy = f(3x-y) + 2x^2 + 1, find f(10).'

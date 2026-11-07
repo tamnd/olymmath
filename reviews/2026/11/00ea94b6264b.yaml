@@ -1,0 +1,9 @@
+id: 00ea94b6264b
+kind: pair
+records:
+    - aime/1985/p3
+    - it-cesenatico/1985/p3
+decision: same
+by: agent
+date: "2026-11-07"
+note: Agent decision, not a person's review. Both texts ask for c with c = (a + bi)^3 - 107i for positive integers a, b, c. Only spacing differs.

@@ -1,0 +1,9 @@
+id: d58a4c2e1b18
+kind: pair
+records:
+    - hmmt/2008/a3
+    - hmmt/2008/f6
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: all a such that |x^2 + 2ax + 3a| <= 2 has exactly one solution.'

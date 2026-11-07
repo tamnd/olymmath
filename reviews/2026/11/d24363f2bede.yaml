@@ -1,0 +1,9 @@
+id: d24363f2bede
+kind: pair
+records:
+    - hu-komal/2022/a834
+    - nemotron-imo-bench/2026/g17
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts state the same problem with the same numbers and conditions: the points B_1,...,B_8 of a convex cyclic octagon lie on one conic. They only differ in formatting or small wording.'

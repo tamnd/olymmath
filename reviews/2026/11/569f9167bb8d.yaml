@@ -1,0 +1,9 @@
+id: 569f9167bb8d
+kind: pair
+records:
+    - memo/2012/p7
+    - memo/2012/t7
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: positive triples with x^y + y^x = z^y and x^y + 2012 = y^(z+1).'

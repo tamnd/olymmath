@@ -1,0 +1,9 @@
+id: b8d006ee80e9
+kind: pair
+records:
+    - memo/2022/p5
+    - memo/2022/t5
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: XY is tangent to the circumcircle of the right triangle ABC.'

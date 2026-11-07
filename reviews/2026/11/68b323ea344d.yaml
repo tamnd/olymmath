@@ -1,0 +1,9 @@
+id: 68b323ea344d
+kind: pair
+records:
+    - memo/2012/p8
+    - memo/2012/t8
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: a and b with d(a) = d(b), d(a^2) = d(b^2) but d(a^3) != d(b^3).'

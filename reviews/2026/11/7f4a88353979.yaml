@@ -1,0 +1,9 @@
+id: 7f4a88353979
+kind: pair
+records:
+    - memo/2010/p1
+    - memo/2010/i1
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: functions with f(x+y) + f(x)f(y) = f(xy) + (y+1)f(x) + (x+1)f(y).'

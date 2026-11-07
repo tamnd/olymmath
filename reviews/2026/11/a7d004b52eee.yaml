@@ -1,0 +1,9 @@
+id: a7d004b52eee
+kind: pair
+records:
+    - fi-mo/2007/p2
+    - nordic/2001/p3
+decision: same
+by: agent
+date: "2026-11-07"
+note: Agent decision, not a person's review. Both texts ask for the number of real roots of x^8 - x^7 + 2x^6 - 2x^5 + 3x^4 - 3x^3 + 4x^2 - 4x + 5/2 = 0. Only the TeX formatting differs.

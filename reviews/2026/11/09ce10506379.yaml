@@ -1,0 +1,9 @@
+id: 09ce10506379
+kind: pair
+records:
+    - tuymaada/2016/p1
+    - tuymaada/2016/s1
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: the sequence with a_1=0 and a_(n+1) = mean + 1, prove a_2016 > 1/2 + a_1000.'

@@ -1,0 +1,9 @@
+id: 611532dbfb2c
+kind: pair
+records:
+    - tuymaada/2015/p3
+    - tuymaada/2015/s3
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: P(x+2y,x+y)=P(x,y) implies P(x,y)=Q((x^2-2y^2)^2).'

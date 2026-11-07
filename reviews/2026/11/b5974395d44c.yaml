@@ -1,0 +1,9 @@
+id: b5974395d44c
+kind: pair
+records:
+    - hmmt/2004/f9
+    - hmmt/2004/g9
+decision: same
+by: agent
+date: "2026-11-07"
+note: Agent decision, not a person's review. Both texts ask for the volume of the intersection of a regular tetrahedron of volume 1 and its reflection through its center. Only a space before a period differs.

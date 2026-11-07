@@ -1,0 +1,9 @@
+id: 9b565210c32c
+kind: pair
+records:
+    - hmmt/2010/c10
+    - hmmt/2010/f10
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: the maximum number of distinct integers in a 16 x 16 table with at most 4 per row and column.'

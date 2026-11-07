@@ -1,0 +1,9 @@
+id: f31687c74fc5
+kind: pair
+records:
+    - memo/2012/p5
+    - memo/2012/t5
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: the perpendiculars at K, L, M are concurrent when angle CLK = angle KMC.'

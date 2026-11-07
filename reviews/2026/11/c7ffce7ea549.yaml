@@ -1,0 +1,9 @@
+id: c7ffce7ea549
+kind: pair
+records:
+    - hmmt/2004/a1
+    - hmmt/2004/f3
+decision: same
+by: agent
+date: "2026-11-07"
+note: Agent decision, not a person's review. Both texts ask for integer pairs (a,b) with a^2+b^2 < 16, < 8a and < 8b. Only the TeX around (a,b) differs.

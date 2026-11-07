@@ -1,0 +1,9 @@
+id: 7302ef55cd8f
+kind: pair
+records:
+    - hmmt/2005/a5
+    - hmmt/2005/e8
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: ten integers on a circle, each one more than the gcd of its neighbors, find the sum.'

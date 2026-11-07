@@ -1,0 +1,9 @@
+id: 470ec5d71995
+kind: pair
+records:
+    - isl/2018/a7
+    - nemotron-imo-bench/2026/a7
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts state the same problem with the same numbers and conditions: the maximum of the sum of four cube roots a/(b+7) and so on with a+b+c+d = 100. They only differ in formatting or small wording.'

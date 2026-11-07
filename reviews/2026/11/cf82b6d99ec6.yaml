@@ -1,0 +1,9 @@
+id: cf82b6d99ec6
+kind: pair
+records:
+    - hmmt/2009/a4
+    - hmmt/2009/f5
+decision: same
+by: agent
+date: "2026-11-07"
+note: Agent decision, not a person's review. Both texts have gcd x+1 and lcm x^3 - 4x^2 + x + 6 for x^2+ax+b and x^2+bx+c and ask for a+b+c. One says 'ring of polynomials' and the other 'set of polynomials', which does not change the problem.

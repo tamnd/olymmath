@@ -1,0 +1,9 @@
+id: a1305920cef9
+kind: pair
+records:
+    - memo/2022/p7
+    - memo/2022/t7
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: increasing f on N with f(n)+n+1 and f(f(n))-f(n) both squares.'

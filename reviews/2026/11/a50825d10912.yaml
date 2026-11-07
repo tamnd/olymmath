@@ -1,0 +1,9 @@
+id: a50825d10912
+kind: pair
+records:
+    - tuymaada/2008/p2
+    - tuymaada/2008/s2
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: arrange all composite numbers up to 10^6 on a circle with no two neighbours coprime.'

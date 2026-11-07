@@ -1,0 +1,9 @@
+id: 546f73bfdfeb
+kind: pair
+records:
+    - memo/2021/p8
+    - memo/2021/t8
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: infinitely many n with n^2 in base 4 using only digits 1 and 2.'

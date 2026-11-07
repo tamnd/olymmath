@@ -1,0 +1,9 @@
+id: 79039ece49c5
+kind: pair
+records:
+    - memo/2009/p7
+    - memo/2009/t3
+decision: same
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same word for word: g(n), the fewest numbers left after erasing arithmetic means from 0,...,n.'

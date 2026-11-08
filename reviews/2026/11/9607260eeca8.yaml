@@ -1,0 +1,8 @@
+id: 9607260eeca8
+kind: official
+records:
+    - pl-om/2021/p1
+decision: accept
+by: agent
+date: "2026-11-08"
+note: Agent decision, not a person's review. This applies review 74828665de9f. The record had no k >= 2 and wrote p_3 = 3. The Polish paper of the 72nd olympiad, final round, problem 1, takes an integer k >= 2 and the k smallest primes, so p_3 = 5. The record now says this. It stays the English AI-MO AoPS text with the fix, since the paper is in Polish.

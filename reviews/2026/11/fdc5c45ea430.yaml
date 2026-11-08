@@ -1,0 +1,8 @@
+id: fdc5c45ea430
+kind: official
+records:
+    - imc/2020/p2
+decision: accept
+by: agent
+date: "2026-11-08"
+note: Agent decision, not a person's review. This applies review de97de305776. The record did not say that A and B are real. The IMC 2020 paper (day 1, problem 2) has real n x n matrices, so the record now says real. The rest was already the same. The text stays the AI-MO AoPS text with this fix, since the source register says the content holds no text of the IMC papers and only links them.

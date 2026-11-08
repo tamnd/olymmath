@@ -1,0 +1,8 @@
+id: 459e8e14dd99
+kind: official
+records:
+    - de-bundeswettbewerb/2020/p2
+decision: accept
+by: agent
+date: "2026-11-08"
+note: Agent decision, not a person's review. This applies review cb75d1fad5a9. The record had no bound on n. The Bundeswettbewerb 2020 paper, first round, problem 2, has n >= 3, so the record now says n >= 3. It stays the English AI-MO AoPS text with the fix, since the paper is in German.

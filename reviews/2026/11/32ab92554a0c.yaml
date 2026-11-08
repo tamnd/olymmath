@@ -1,0 +1,9 @@
+id: 32ab92554a0c
+kind: pair
+records:
+    - hu-komal/2024/c1818
+    - hu-komal/2024/c1819
+decision: different
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Two problems. The KöMaL page of C. 1818 (September 2024) asks for the number of integer five-tuples with k*ö*m*a*l = -130, and the page of C. 1819 is the unit square problem with the circle of radius AC and the length HE. So c1818 was the record with the wrong text: it held the English text of C. 1819. Commit 630b72489 (PR #32) already gave c1818 its own Hungarian text from its KöMaL page, so no text changes now. I read both pages on komal.hu.'

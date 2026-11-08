@@ -1,0 +1,9 @@
+id: 4c8fc6f7fa22
+kind: pair
+records:
+    - cono-sur/1997/p1
+    - cono-sur/1998/p1
+decision: different
+by: agent
+date: "2026-11-08"
+note: Agent decision, not a person's review. The AoPS wiki gives this text twice, as Cono Sur 1997 P1 and as Cono Sur 1998 P1, and both rows link the same topic 1545265, whose title is Cono sur Olympiad 1997 P1. The AoPS contest collection in the AI-MO AoPS dataset files that topic under 1997 only, and its 1998 collection has five other problems and not this one. So the text belongs to cono-sur/1997/p1, the 1998 row of the wiki is a wrong label, and problem 1 of 1998 is another problem whose text no source at hand gives. No record for cono-sur/1998/p1 is made. There is no official paper to confirm this.

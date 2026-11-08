@@ -1,0 +1,8 @@
+id: e82cacf03a4c
+kind: doubt
+records:
+    - balkan/2009/p1
+decision: replace
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. This applies review 0dd7685d2323. The canonical text was only a solution and never stated the problem. The record now takes the AoPS wiki row (topic 274318) as its canonical statement S3: solve 3^x - 5^y = z^2 in positive integers. The solution text is out of the body, and the word Greece at the end of the row, the proposing country, is left out.'

@@ -1,0 +1,8 @@
+id: 4f989c32bb9c
+kind: doubt
+records:
+    - putnam/1992/a1
+decision: reject
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The PutnamGAP row is cut: it starts in the middle of the sentence and has no f(n) = 1-n to prove. The canonical statement of the record is the Kedlaya archive text (S1, curated), which takes all integers n in each condition, the same as the cut row. The natural number form came from the AoPS row and is not in the file. So the canonical text stays, and no text changes.'

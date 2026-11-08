@@ -1,0 +1,8 @@
+id: 800aaad3c794
+kind: official
+records:
+    - imc/2001/p10
+decision: accept
+by: agent
+date: "2026-11-08"
+note: Agent decision, not a person's review. This applies review f7241b7ebf58. The record wrote k,l = 1..n for the minor with rows and columns j_1 < ... < j_m. The IMC 2001 paper of day 2 has k,l = 1..m and j_m <= n. The record now has both. The text stays the AI-MO AoPS text with this fix, since the source register says the content holds no text of the IMC papers and only links them.

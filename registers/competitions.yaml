@@ -2347,6 +2347,7 @@
   edition_form: year
   official_solutions: true
   languages: [ru]
+  # Agent decision, not a person's review: each grade writes its own paper. The position of problem N of grade G is pG followed by N, as in ru-moscow/2025/p81, the form of by-mo. The second day of grade 11 has no position yet.
   copyright: Copyright MCCME.
   sources: [mccme-mmo, problems-ru]
   description: The olympiad of Moscow, with about 30 problems a year across the grades. It was not held from 1942 to 1944, and problems.ru holds 2,003 of its problems.

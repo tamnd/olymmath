@@ -675,15 +675,15 @@
   url: https://problems.ru/
   access: html
   crawl_delay: 20
-  terms: Free for non-commercial use. Other sites must link to problems.ru and the problem number.
+  terms: 'The copyright page (about_system.php#copyright, read on 2026-11-07 and again on 2026-11-08) allows free use for personal non-commercial purposes and in lessons and circles, and asks a site that shows a problem to link to problems.ru and give its unique number. But publication on paper or electronic media needs the permission of the authors, the publishers or MCCME, the topic rubrics and the difficulty tables belong to MCCME, and all rights are reserved. That is not a clear licence for the text, so the content links to each problem page and holds no text.'
   zone:
-    statement: Z2
-    solution: Z2
+    statement: Z3
+    solution: Z3
   ai_train: unknown
   size: about 21k problems, 8,157 from olympiads
   wave: 1
-  state: planned
-  notes: TeX inside HTML. Ask MCCME for Z1 (11.4).
+  state: active
+  notes: 'robots.txt (checked on 2026-11-07) disallows /feedback.php?, /show_document.php? (the pictures) and the basket links, and asks for 20 s between requests. om seed problems-ru walks one olympiad node of the source catalogue and reads the listing of the paper of each grade, which gives the number of each problem. om links then writes a link-only problem for each new position, named by the problems.ru number. The topics and the difficulty are not copied. The first run covers the Moscow MO of 2015 to 2025. Left for later: the second day of grade 11 (5 problems a year), the problems with a picture, the Moscow MO before 2015, the Tournament of Towns, the Lomonosov tournament and the other olympiads, at about four minutes a year. Ask MCCME for Z1 or Z2 (11.4).'
 
 - id: elmo-official
   name: ELMO site
@@ -1746,32 +1746,34 @@
   kind: journal
   origin: H1
   url: https://cms.math.ca/publications/crux/
+  crawl_delay: 5
   access: pdf
-  terms: Personal and private use only.
+  terms: 'The CMS permissions page (read on 2026-11-07) lets readers copy articles for their own personal and private use. All other rights are reserved, and any other copy needs the written permission of the CMS. So the content links to the issues and holds no text of them.'
   zone:
     statement: Z3
     solution: Z3
   ai_train: unknown
-  size: about 5k proposals and the Olympiad Corner, 1975 to 2026
+  size: 486 issues, volume 1 (1975) to volume 52 (2026)
   wave: 2
-  state: planned
-  notes: Old volumes are scans and need OCR. Ask CMS.
+  state: active
+  notes: 'All issues are free on cms.math.ca since 2019, one PDF for each issue. robots.txt (checked on 2026-11-07) only disallows the CMO problem pages and gives no crawl delay, so the fetcher waits 5 s. om journal crux makes a link-only problem for each number of the main problem series, journal-crux/YEAR/pNNNN, with the page in the PDF. The Olympiad Corner, MathemAttic, Mayhem and Skoliad are left out. The first run (2026-11-08) gave 2,315 problems from 222 issues. The PDFs of volumes 1 to 21 (1975 to 1995, 210 issues) are scans, and 54 later issues have a text layer in Type 3 fonts that pdftotext cannot read (1996 no. 3, 1999 no. 8, 2000 no. 1 and 3, 2001 no. 6, 2002 no. 4 to 8, all of 2003 to 2007, and 2008 no. 1, 2, 3 and 6), so their numbers wait for the vision lane. For a text in the content, ask the CMS (managing-editor@cms.math.ca).'
 
 - id: mathreflections
   name: Mathematical Reflections
   kind: journal
   origin: H1
   url: https://www.awesomemath.org/mathematical-reflections/
+  crawl_delay: 3
   access: pdf
-  terms: All rights reserved.
+  terms: 'The site says "Copyright AwesomeMath. All Rights Reserved." (read on 2026-11-07). The journal is free to read, but the site gives no licence to copy it. So the content links to the issues and holds no text of them.'
   zone:
     statement: Z3
     solution: Z3
   ai_train: unknown
-  size: about 3k problems, 2006 to 2026
+  size: 29 issues on the site, 2022 to 2026, with 24 problems each
   wave: 2
-  state: planned
-  notes: Born-digital PDFs. Ask AwesomeMath.
+  state: active
+  notes: 'Born-digital PDFs. robots.txt (checked on 2026-11-07) allows /mathematical-reflections/ and /wp-pdf-files/ and gives no crawl delay, so the fetcher waits 3 s. om journal mathreflections makes a link-only problem for each number of the problem column of an issue, journal-mr/YEAR/j745 (J, S, U and O for the junior, senior, undergraduate and olympiad problems). The issues of 2006 to 2021 are not on the site, only in the books that AwesomeMath sells, so they are not in the content. For a text in the content, ask AwesomeMath.'
 
 - id: excalibur
   name: Mathematical Excalibur

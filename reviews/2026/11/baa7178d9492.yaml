@@ -1,0 +1,8 @@
+id: baa7178d9492
+kind: doubt
+records:
+    - isl/2016/a3
+decision: reject
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The IMO 2016 Shortlist booklet in the raw store (page 6) states A3 as: find all integers n >= 3 with the property. The record states the same, and its text is traced to the booklet. The other row asks for all positive integers n, a different condition (n = 1 has the property), so it is not the text of the shortlist.'

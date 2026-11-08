@@ -1,0 +1,8 @@
+id: dbdd46fbaebc
+kind: doubt
+records:
+    - putnam/1968/b1
+decision: replace
+by: agent
+date: "2026-11-08"
+note: Agent decision, not a person's review. The official form of Putnam 1968 B1 is the one about the temperatures in Chicago and Detroit, given P(x = 70), P(y = 70) and P(max(x, y) = 70), find P(min(x, y) = 70). PutnamGAP (row 373, from the Putnam problem books) and the Putnam-AXIOM originals (row 33) both give it. The random variables text of the AoPS topic is a forum rewording. The record file already has the temperatures text as its canonical statement S1, so no text changes.

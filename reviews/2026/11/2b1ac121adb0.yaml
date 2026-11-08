@@ -1,0 +1,8 @@
+id: 2b1ac121adb0
+kind: official
+records:
+    - pl-om/2001/p3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: Agent decision, not a person's review. This applies review cecc78ae9cb1. The record asked for as many repeated values as one likes. The Polish paper of the 52nd olympiad, final round, problem 3, asks for more than 2000 repeated values, with a and b real numbers, and asks to show that infinitely many is not possible. The record now says this. It stays the English AI-MO AoPS text with the fix, since the paper is in Polish.

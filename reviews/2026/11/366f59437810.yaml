@@ -1,0 +1,8 @@
+id: 366f59437810
+kind: official
+records:
+    - cz-sk-mo/2006/p4
+decision: accept
+by: agent
+date: "2026-11-08"
+note: Agent decision, not a person's review. This applies review 6c1a6845e57b. The record dropped the acute condition and asked for the locus of a point M that it never defines. The Czech paper of the 55th olympiad, final round, problem 4, asks for the set of centroids of the acute triangles ABC with A, B, the orthocenter and the incenter on one circle. The record now has the acute condition and the locus of the centroid G. It stays the English AI-MO AoPS text with the fix, since the source register says the content holds no text of the Czech papers.

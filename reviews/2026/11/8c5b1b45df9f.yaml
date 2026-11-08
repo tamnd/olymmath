@@ -1,0 +1,8 @@
+id: 8c5b1b45df9f
+kind: doubt
+records:
+    - putnam/1973/a1
+decision: replace
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. This applies review da6035955df9. The canonical text came from Putnam-AXIOM and asked for the lowest n with area XYZ >= n times area ABC, with no part (b). The record now takes the PutnamGAP row as its canonical statement S2: part (a) area XYZ >= 1/4 area ABC, and part (b) on the three corner triangles. The label A-1 at the start is left out. The Putnam-AXIOM row stays as a link with no text.'

@@ -1,0 +1,8 @@
+id: 511135ef8355
+kind: official
+records:
+    - imo/1988/p3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: f(2n) = f(n), f(4n+1), f(4n+3) recursion, count n <= 1988 with f(n) = n. The text score is low because the paper text has no TeX.'

@@ -1,0 +1,8 @@
+id: 582d5309f949
+kind: official
+records:
+    - imo/1973/p2
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: does a finite non-planar point set exist where every line through two points has a distinct parallel line through two other points. The text score is low because the paper text has no TeX.'

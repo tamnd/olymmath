@@ -1,0 +1,8 @@
+id: e61bd411a7a9
+kind: official
+records:
+    - imo/1975/p6
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: homogeneous P of degree n with P(a+b,c) + P(b+c,a) + P(c+a,b) = 0 and P(1,0) = 1. The text score is low because the paper text has no TeX.'

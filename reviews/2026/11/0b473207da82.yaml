@@ -1,0 +1,8 @@
+id: 0b473207da82
+kind: official
+records:
+    - imo/1977/p6
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: f on positive integers with f(n+1) > f(f(n)) implies f(n) = n. The text score is low because the paper text has no TeX.'

@@ -1,0 +1,8 @@
+id: d64c1d73a49f
+kind: official
+records:
+    - imc/1995/p6
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text: for p > 1 and |x|^p + |y|^p = 2, (x-y)^2 <= K_p(4-(x+y)^2). The paper text has the solution appended.'

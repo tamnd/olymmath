@@ -1,0 +1,8 @@
+id: 8f1e66704975
+kind: official
+records:
+    - imo/1993/p2
+decision: reject
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The two texts differ in a condition: the paper text has D inside an acute triangle ABC, the record only puts C and D on the same side of AB. The ratio AB*CD/(AC*BD) and the tangent part are the same.'

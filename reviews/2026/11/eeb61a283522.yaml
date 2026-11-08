@@ -1,0 +1,8 @@
+id: eeb61a283522
+kind: official
+records:
+    - imc/2001/p12
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text: f_n = sin t sin 2t ... sin 2^n t satisfies |f_n(t)| <= (2/sqrt 3)|f_n(pi/3)|. The paper text has the solution appended.'

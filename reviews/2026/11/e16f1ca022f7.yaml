@@ -1,0 +1,8 @@
+id: e16f1ca022f7
+kind: official
+records:
+    - imo/2002/p2
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: angle AOB < 120 is the same as angle AOC > 60 since BC is a diameter, and I (J in the paper) is the incenter of CEF. The text score is low because the paper text has no TeX.'

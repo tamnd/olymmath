@@ -1,0 +1,8 @@
+id: 549585fafd31
+kind: official
+records:
+    - imc/1996/p1
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text: the determinant of the (n+1) x (n+1) matrix with entries a + |i-j|d. The paper writes it with a_j = a_0 + jd, which is the same matrix.'

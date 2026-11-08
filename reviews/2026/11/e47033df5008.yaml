@@ -1,0 +1,8 @@
+id: e47033df5008
+kind: official
+records:
+    - isl/2017/g1
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: the convex pentagon with AB = BC = CD and the concurrency of the perpendicular from E to BC with AC and BD. The text score is low because the paper text has no TeX.'

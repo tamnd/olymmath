@@ -1,0 +1,8 @@
+id: a86b7dfbff6a
+kind: official
+records:
+    - imo/2003/p4
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: feet of perpendiculars from D in cyclic ABCD, equal segments iff the bisectors of angles ABC and ADC meet on AC. The letters P, Q, R are assigned in another order but the condition is the same.'

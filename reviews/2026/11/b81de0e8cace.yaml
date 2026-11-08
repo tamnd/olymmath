@@ -1,0 +1,8 @@
+id: b81de0e8cace
+kind: official
+records:
+    - imo/1979/p2
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: a pentagonal prism with two-colored edges and no one-colored triangle, all 10 base edges have one color. The text score is low because the paper text has no TeX.'

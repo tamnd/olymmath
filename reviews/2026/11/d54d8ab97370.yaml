@@ -1,0 +1,8 @@
+id: d54d8ab97370
+kind: official
+records:
+    - imc/1996/p5
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text: part (i) the limit of n times the integral of (1+ax+bx^2)^n, part (ii) concave f with limit L gives min |f''| = 1/L. The paper text has the solution appended.'

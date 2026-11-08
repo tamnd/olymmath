@@ -1,0 +1,8 @@
+id: 296343c3387e
+kind: official
+records:
+    - imc/1996/p2
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text: the integral from -pi to pi of sin(nx)/((1+2^x) sin x). The paper text has the solution appended.'

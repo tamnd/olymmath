@@ -1,0 +1,8 @@
+id: 24e562527175
+kind: official
+records:
+    - imo/1998/p2
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: m candidates, an odd number n >= 3 of judges, each pair agrees on at most k, prove k/m >= (n-1)/(2n). Only the letters differ.'

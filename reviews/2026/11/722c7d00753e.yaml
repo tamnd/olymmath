@@ -1,0 +1,8 @@
+id: 722c7d00753e
+kind: official
+records:
+    - cz-sk-mo/2007/p3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the Czech paper text: f(xf(y)) = yf(x) on positive integers, smallest possible f(2007).'

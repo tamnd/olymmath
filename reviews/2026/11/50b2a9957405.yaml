@@ -1,0 +1,8 @@
+id: 50b2a9957405
+kind: official
+records:
+    - pl-om/2016/p1
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the Polish paper text: find all n >= 0 for which x^4 - 2(n+p)x^2 + (n-p)^2 factors into two integer quadratics, p prime.'

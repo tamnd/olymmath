@@ -1,0 +1,8 @@
+id: 746ad81cebd0
+kind: official
+records:
+    - imc/2002/p5
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text: parts (a) monotone and (b) continuously differentiable f on [0,1] with uncountably many preimages of each y. The paper text has the solution appended.'

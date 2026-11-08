@@ -1,0 +1,8 @@
+id: 6be1b8483bf5
+kind: official
+records:
+    - cz-sk-mo/2021/p3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the Czech paper text: distinct nonzero a,b,c with {a+b,b+c,c+a} = {ab,bc,ca}, prove {a,b,c} = {a^2-2,b^2-2,c^2-2}. The paper text has rules text after it.'

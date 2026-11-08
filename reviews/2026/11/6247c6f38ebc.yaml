@@ -1,0 +1,8 @@
+id: 6247c6f38ebc
+kind: official
+records:
+    - imo/1979/p5
+decision: reject
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The two texts differ in a condition: the record asks for positive reals x_1..x_5, the paper text asks for non-negative reals. This changes the answer, since the paper answers need some x_k = 0.'

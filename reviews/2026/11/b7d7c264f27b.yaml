@@ -1,0 +1,8 @@
+id: b7d7c264f27b
+kind: official
+records:
+    - pl-om/2007/p3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the Polish paper text: every positive integer written once in the unit squares of the plane, can each number divide the sum of its four neighbours.'

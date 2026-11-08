@@ -1,0 +1,8 @@
+id: 5a7457f3ee26
+kind: official
+records:
+    - imo/2010/p1
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: f(floor(x) y) = f(x) floor(f(y)). The paper text lost the floor brackets in extraction.'

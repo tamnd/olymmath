@@ -1,0 +1,8 @@
+id: f79fe6f30b20
+kind: official
+records:
+    - de-bundeswettbewerb/2015/p2
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the German paper text: 335 distinct positive integers with sum 100000, least and greatest number of odd terms.'

@@ -1,0 +1,8 @@
+id: fbe016286cc7
+kind: official
+records:
+    - cz-sk-mo/2012/p2
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the Czech paper text: maximum area of triangle ABC with medians m_a <= 2, m_b <= 3, m_c <= 4. The paper text shows the <= signs as 5.'

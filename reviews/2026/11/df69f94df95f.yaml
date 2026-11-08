@@ -1,0 +1,8 @@
+id: df69f94df95f
+kind: official
+records:
+    - imo/1972/p4
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: the cyclic system of five inequalities (x1^2 - x3 x5)(x2^2 - x3 x5) <= 0 and so on, in positive reals. The text score is low because the paper text has no TeX.'

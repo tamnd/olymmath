@@ -1,0 +1,8 @@
+id: 5377957de8f2
+kind: official
+records:
+    - cz-sk-mo/2000/p5
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the Czech paper text: a paper tetrahedron with right-triangle base cut along the legs and a median unfolds to a square of side a, find the volume.'

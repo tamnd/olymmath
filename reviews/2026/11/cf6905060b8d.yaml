@@ -1,0 +1,8 @@
+id: cf6905060b8d
+kind: official
+records:
+    - imc/2015/p7
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text: the limit as A goes to infinity of (1/A) times the integral from 1 to A of A^(1/x) dx.'

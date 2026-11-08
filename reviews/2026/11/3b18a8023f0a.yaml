@@ -1,0 +1,8 @@
+id: 3b18a8023f0a
+kind: official
+records:
+    - imo/2014/p4
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: P, Q on BC with angle PAB = angle BCA and angle CAQ = angle ABC, and BM, CN meet on the circumcircle. The text score is low because the paper text has no TeX.'

@@ -1,0 +1,8 @@
+id: 54dc197a9e72
+kind: official
+records:
+    - pl-om/2023/p3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the Polish paper text at this position: choose b_i in {0,1} so that every block sum of a_i - b_i has absolute value at most n/(n+1). The text score is low because the paper text has no TeX.'

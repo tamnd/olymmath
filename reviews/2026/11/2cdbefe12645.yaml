@@ -1,0 +1,8 @@
+id: 2cdbefe12645
+kind: official
+records:
+    - cz-sk-mo/2015/p1
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the Czech paper text: 4-digit n = pqr with p+q = r-q and p+q+r the square of a prime. The paper says another prime, but s cannot be one of p, q, r anyway.'

@@ -1,0 +1,8 @@
+id: 6468d602f222
+kind: official
+records:
+    - cz-sk-mo/2021/p5
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the Czech paper text: neat and nice strings and reductions, any string with every character an even number of times comes from a nice string by reductions.'

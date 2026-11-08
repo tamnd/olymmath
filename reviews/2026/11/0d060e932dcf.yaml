@@ -1,0 +1,8 @@
+id: 0d060e932dcf
+kind: official
+records:
+    - pl-om/2022/p3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the Polish paper text: chords on n marked points stay connected after removing any 2021 chords, keep at most 2022n chords. Same numbers 2021 and 2022n.'

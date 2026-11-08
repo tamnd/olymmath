@@ -1,0 +1,8 @@
+id: acd7bdf86807
+kind: official
+records:
+    - imo/2000/p4
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: cards 1 to 100 in three boxes, the sum of two drawn cards identifies the third box, count the ways. The text score is low because the paper text has no TeX.'

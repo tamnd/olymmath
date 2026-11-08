@@ -1,0 +1,8 @@
+id: 8a277d3f5a8c
+kind: official
+records:
+    - imc/1996/p4
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text: a_1 = 1, a_n = (1/n) sum a_k a_(n-k), show limsup |a_n|^(1/n) < 2^(-1/2) and >= 2/3.'

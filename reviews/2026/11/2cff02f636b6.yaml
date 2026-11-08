@@ -1,0 +1,8 @@
+id: 2cff02f636b6
+kind: official
+records:
+    - pl-om/2012/p1
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the Polish paper text: is there a positive rational non-integer w with w^w rational. The text score is low only because of the language.'

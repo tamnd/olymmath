@@ -1,0 +1,8 @@
+id: d0c23161a46a
+kind: official
+records:
+    - imo/1975/p5
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: 1975 points on a unit circle with all pairwise distances rational. The text score is low because the paper text has no TeX.'

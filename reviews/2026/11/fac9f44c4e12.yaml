@@ -1,0 +1,8 @@
+id: fac9f44c4e12
+kind: official
+records:
+    - imc/2002/p7
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text: the determinant of the n x n matrix with 2 on the diagonal and (-1)^|i-j| elsewhere. The paper text has the solution appended.'

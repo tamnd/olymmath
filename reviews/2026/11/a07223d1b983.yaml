@@ -1,0 +1,8 @@
+id: a07223d1b983
+kind: official
+records:
+    - imc/2020/p8
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text: the limit of (1/log log n) times the sum of (-1)^k binomial(n,k) log k. The text score is low because the paper text has no TeX.'

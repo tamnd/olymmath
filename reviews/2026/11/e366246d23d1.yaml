@@ -1,0 +1,8 @@
+id: e366246d23d1
+kind: official
+records:
+    - imo/1970/p1
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: inradii r, r1, r2 and the exradii in angle ACB, with r1 r2 q = r q1 q2, which is the same as the paper''s ratio form.'

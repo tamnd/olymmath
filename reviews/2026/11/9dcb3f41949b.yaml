@@ -1,0 +1,8 @@
+id: 9dcb3f41949b
+kind: official
+records:
+    - imo/2010/p3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: all g: N -> N with (g(m) + n)(g(n) + m) a perfect square. The text score is low because the paper text has no TeX.'

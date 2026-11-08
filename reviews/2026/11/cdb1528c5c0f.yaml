@@ -1,0 +1,8 @@
+id: cdb1528c5c0f
+kind: official
+records:
+    - imc/2018/p10
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text: the limit over R of the sum of (-1)^(a+b)/(a^2+b^2) over lattice points with 0 < a^2+b^2 < R.'

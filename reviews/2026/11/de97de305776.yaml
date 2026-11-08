@@ -1,0 +1,8 @@
+id: de97de305776
+kind: official
+records:
+    - imc/2020/p2
+decision: reject
+by: agent
+date: "2026-11-08"
+note: Agent decision, not a person's review. The paper text is about real n x n matrices A, B with rk(AB - BA + I) = 1. The record leaves out that the matrices are real, a different condition. The claim tr(ABAB) - tr(A^2B^2) = n(n-1)/2 is the same.

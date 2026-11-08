@@ -1,0 +1,8 @@
+id: 00036d41ea7f
+kind: official
+records:
+    - imo/1969/p2
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: f(x) is the sum of cos(a_k + x)/2^(k-1), and f(x1) = f(x2) = 0 implies x1 - x2 is a multiple of pi. The text score is low because the paper text has no TeX.'

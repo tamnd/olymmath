@@ -1,0 +1,8 @@
+id: 881499b1aafe
+kind: official
+records:
+    - pl-om/2017/p3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the Polish paper text: 1 < a_1 < ... < a_n < 2a_1, m distinct primes of the product, prove (a_1...a_n)^(m-1) >= (n!)^m.'

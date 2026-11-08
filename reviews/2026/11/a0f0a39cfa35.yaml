@@ -1,0 +1,8 @@
+id: a0f0a39cfa35
+kind: official
+records:
+    - pl-om/2004/p4
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the Polish paper text: sum of sqrt(2(a^2+b^2)) over the three pairs is at least sqrt(3(a+b)^2+3(b+c)^2+3(c+a)^2). The paper text lost the root signs but shows four roots in the same places.'

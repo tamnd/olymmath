@@ -1,0 +1,8 @@
+id: c67f23277276
+kind: official
+records:
+    - imo/1967/p5
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: c_n is the sum of the n-th powers of a_1..a_8, infinitely many c_n are 0, find all n with c_n = 0. The text score is low because the paper text has no TeX.'

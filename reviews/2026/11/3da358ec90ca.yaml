@@ -1,0 +1,8 @@
+id: 3da358ec90ca
+kind: official
+records:
+    - isl/2010/n1
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: the least n with a product of (1 - 1/s_i) equal to 51/2010. The record has the solution appended and the paper text is garbled but has the same constant.'

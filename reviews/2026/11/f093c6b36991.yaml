@@ -1,0 +1,8 @@
+id: f093c6b36991
+kind: official
+records:
+    - pl-om/2009/p4
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the Polish paper text: a_i in {0,...,4}, not all 2, with 2 <= sum a_i x_i <= 2 + 2/(3^n - 1). The paper text lost the fraction layout.'

@@ -1,0 +1,8 @@
+id: feb03a8e45ef
+kind: official
+records:
+    - imc/2002/p6
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text: ||A^k - A^(k-1)|| <= 1/(2002k) for all k implies ||A^k|| <= 2002. The paper text has the solution appended.'

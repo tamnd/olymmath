@@ -1,0 +1,8 @@
+id: cb75d1fad5a9
+kind: official
+records:
+    - de-bundeswettbewerb/2020/p2
+decision: reject
+by: agent
+date: "2026-11-08"
+note: Agent decision, not a person's review. The paper text has n >= 3 for the knight on an n x n board. The record has no bound on n, and for n = 1 both walks have 0 moves, so the answer would change. That is a different condition.

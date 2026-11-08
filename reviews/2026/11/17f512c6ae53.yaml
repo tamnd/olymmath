@@ -1,0 +1,8 @@
+id: 17f512c6ae53
+kind: official
+records:
+    - imo/1977/p5
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: a^2 + b^2 divided by a + b gives quotient q and remainder r, find all pairs with q^2 + r = 1977. The text score is low because the paper text has no TeX.'

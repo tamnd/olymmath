@@ -1,0 +1,8 @@
+id: b8a09c71d93f
+kind: official
+records:
+    - vtrmc/2010/p2
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text: f_1(n) = n, f_{i+1}(n) = f_i(n)^f_i(n), find f_100(75) mod 17.'

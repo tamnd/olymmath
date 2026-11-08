@@ -1,0 +1,8 @@
+id: 621c76fec244
+kind: official
+records:
+    - imo/1984/p3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: circles C(X) with radius OX + angle(AOX)/OX, and a point not on ray OA whose color lies on C(X). The text score is low because the paper text has no TeX.'

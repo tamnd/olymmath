@@ -1,0 +1,8 @@
+id: d8edcf4d188a
+kind: official
+records:
+    - imo/2003/p6
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: for a prime p there is a prime q not dividing n^p - p for any n. The text score is low because the paper text has no TeX.'

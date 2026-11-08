@@ -1,0 +1,8 @@
+id: a01704f65e8a
+kind: official
+records:
+    - imo/1971/p1
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: the sum of products (a_i - a_j) is nonnegative for all reals exactly when n = 3 or 5. The text score is low because the paper text has no TeX.'

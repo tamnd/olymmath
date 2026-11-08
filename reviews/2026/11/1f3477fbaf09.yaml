@@ -1,0 +1,8 @@
+id: 1f3477fbaf09
+kind: official
+records:
+    - imo/1966/p6
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: points on the sides BC, CA, AB and one of the three corner triangles has area at most a quarter of ABC. Only the point names differ. The text score is low because the paper text has no TeX.'

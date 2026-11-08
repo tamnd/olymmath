@@ -1,0 +1,8 @@
+id: 256fd632a385
+kind: official
+records:
+    - imo/1998/p4
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: all positive pairs with xy^2 + y + 7 dividing x^2 y + x + y. The text score is low because the paper text has no TeX.'

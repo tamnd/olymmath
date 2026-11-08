@@ -1,0 +1,8 @@
+id: 95a1bfa0d74f
+kind: official
+records:
+    - imc/2006/p9
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text: compare tan(sin x) and sin(tan x) on (0, pi/2). The paper text has the solution appended.'

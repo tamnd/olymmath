@@ -1,0 +1,8 @@
+id: 28032ebee5d9
+kind: official
+records:
+    - imo/1990/p3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: all n > 1 with n^2 dividing 2^n + 1. The text score is low because the paper text has no TeX.'

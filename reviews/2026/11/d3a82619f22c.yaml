@@ -1,0 +1,8 @@
+id: d3a82619f22c
+kind: doubt
+records:
+    - jbmo-sl/2019/n6
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: all nonnegative integers with a!+5^b = 7^c. Only wording differs.'

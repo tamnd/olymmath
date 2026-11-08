@@ -1,0 +1,8 @@
+id: daeae33bee0b
+kind: doubt
+records:
+    - jbmo-sl/2016/a1
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: abc = 8, prove the sum of (ab+4)/(a+2) and its cyclic versions is at least 6. Only formatting differs.'

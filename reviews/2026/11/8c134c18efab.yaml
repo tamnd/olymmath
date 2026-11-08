@@ -1,0 +1,8 @@
+id: 8c134c18efab
+kind: doubt
+records:
+    - isl/2023/n3
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The other row is the same problem: infinitely many n with E_10(n) > E_9(n) and infinitely many m with E_10(m) < E_9(m). The other row also carries the next problem N4 at the end, which does not change this problem.'

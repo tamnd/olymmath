@@ -1,0 +1,8 @@
+id: bd9b58a5b9c1
+kind: doubt
+records:
+    - usamo/1972/p1
+decision: keep
+by: agent
+date: "2026-11-07"
+note: Agent decision, not a person's review. Both texts ask to prove the same gcd and lcm identity for positive integers a, b, c. The other row writes it cross multiplied, which is the same equation.

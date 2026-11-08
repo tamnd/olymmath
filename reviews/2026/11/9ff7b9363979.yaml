@@ -1,0 +1,8 @@
+id: 9ff7b9363979
+kind: doubt
+records:
+    - usamo/1993/p5
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. Same problem: a log concave positive sequence, the canonical inequality a_n b_{n-1} >= a_{n-1} b_n written with averages is the inequality the other row writes out in full.'

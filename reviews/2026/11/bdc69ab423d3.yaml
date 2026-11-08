@@ -1,0 +1,8 @@
+id: bdc69ab423d3
+kind: doubt
+records:
+    - isl/2014/n2
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: all positive integer pairs with cube root of 7x^2-13xy+7y^2 equal to |x-y|+1. Only formatting and the proposer line differ.'

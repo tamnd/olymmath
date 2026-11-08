@@ -1,0 +1,8 @@
+id: abd474726aaa
+kind: doubt
+records:
+    - jbmo-sl/2019/a4
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: a^4-2019a = b^4-2019b = c > 0 with a != b, prove -sqrt c < ab < 0. Only formatting differs.'

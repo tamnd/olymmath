@@ -1,0 +1,8 @@
+id: 95c160a76bc9
+kind: doubt
+records:
+    - usamo/1993/p3
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. Same problem: f on [0,1] nonnegative, f(1)=1, superadditive, find the smallest c with f(x) <= cx.'

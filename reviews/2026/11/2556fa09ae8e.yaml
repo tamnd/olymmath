@@ -1,0 +1,8 @@
+id: 2556fa09ae8e
+kind: doubt
+records:
+    - jbmo-sl/2008/g9
+decision: reject
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The other row has a broken condition: angle AOB + angle COD = angle BOC + angle COD, while the canonical text has angle AOB + angle COD = angle BOC + angle AOD. The canonical text looks like the right full problem.'

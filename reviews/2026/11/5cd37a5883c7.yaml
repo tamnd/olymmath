@@ -1,0 +1,8 @@
+id: 5cd37a5883c7
+kind: doubt
+records:
+    - usamo/1995/p4
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. Same problem: an integer sequence with m-n dividing q_m-q_n and bounded by a polynomial is itself a polynomial in n.'

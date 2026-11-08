@@ -1,0 +1,8 @@
+id: 612330c379d7
+kind: doubt
+records:
+    - putnam/1968/a5
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. Same problem: quadratics with |P(x)| <= 1 on [0,1], the best bound for |P''(0)|, which is the sup the other row asks for.'

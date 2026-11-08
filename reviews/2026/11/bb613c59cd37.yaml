@@ -1,0 +1,8 @@
+id: bb613c59cd37
+kind: doubt
+records:
+    - isl/2021/n5
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: finitely many solutions of n! = a^{n-1}+b^{n-1}+c^{n-1} in positive integers. Only wording differs.'

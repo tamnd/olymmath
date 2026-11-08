@@ -1,0 +1,8 @@
+id: 603fb742efa6
+kind: doubt
+records:
+    - jbmo-sl/2007/a5
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: positive x, y, z, m, n with m+n >= 2 and the same sum of square roots bounded by 3(m+n)/8 (x+y)(y+z)(z+x). Only formatting differs.'

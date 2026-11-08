@@ -1,0 +1,8 @@
+id: d6d69529fa74
+kind: doubt
+records:
+    - nordic/2008/p3
+decision: reject
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts differ in the ratio: the canonical has AG/BG = (AB+AC)/(AB+BC) and the other row has (AC+BC)/(AB+CB). A quick numeric check of the construction gives the canonical ratio, so the other row is wrong.'

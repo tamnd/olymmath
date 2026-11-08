@@ -1,0 +1,8 @@
+id: 37855b16f154
+kind: doubt
+records:
+    - isl/2020/a6
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: f from Z to Z with f^{a^2+b^2}(a+b) = af(a)+bf(b). The other row just leaves out the definition of the iterate.'

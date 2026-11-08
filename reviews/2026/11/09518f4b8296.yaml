@@ -1,0 +1,8 @@
+id: 09518f4b8296
+kind: doubt
+records:
+    - putnam/1962/a5
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. Same problem: the closed form of the sum of C(n,k)k^2. One sum starts at k=0 and one at k=1, but the k=0 term is 0.'

@@ -1,0 +1,8 @@
+id: 6f0a037e2b80
+kind: doubt
+records:
+    - jbmo-sl/2008/a6
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: 0 < a, b, c, d < 1, prove 1+ab+bc+cd+da+ac+bd > a+b+c+d. Only formatting differs.'

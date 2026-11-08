@@ -1,0 +1,8 @@
+id: aafee1a89eee
+kind: doubt
+records:
+    - usamo/1987/p5
+decision: reject
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The other row is another form of the problem: it counts the triples that are not (0,1,0) or (1,0,1) and asks for the smallest value, where the canonical text counts those triples and asks for the maximum. A different question, so the row is not this text. The canonical text stays.'

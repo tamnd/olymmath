@@ -1,0 +1,8 @@
+id: 947a2f065ee7
+kind: doubt
+records:
+    - baltic-way/2013/p4
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: the sum of x^3/(y^2+z^2) is at least (x+y+z)/2. Only formatting differs.'

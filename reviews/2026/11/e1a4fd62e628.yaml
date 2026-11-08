@@ -1,0 +1,8 @@
+id: e1a4fd62e628
+kind: doubt
+records:
+    - baltic-way/2014/p2
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: a_0 = a_N = 0 and a_{i+1}-2a_i+a_{i-1} = a_i^2, prove a_i <= 0. Only formatting differs.'

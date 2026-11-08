@@ -1,0 +1,8 @@
+id: a213e400ea78
+kind: doubt
+records:
+    - hmmt/2010/c6
+decision: reject
+by: agent
+date: "2026-11-07"
+note: Agent decision, not a person's review. The two texts are different problems. The canonical text counts ant paths to (2010,2010) in 4020 seconds, the other row counts ways to pay 2010 dollars with 2, 5 and 10 dollar notes. The canonical text looks complete.

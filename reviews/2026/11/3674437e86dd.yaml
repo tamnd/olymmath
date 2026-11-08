@@ -1,0 +1,8 @@
+id: 3674437e86dd
+kind: doubt
+records:
+    - hmmt/2003/c7
+decision: reject
+by: agent
+date: "2026-11-07"
+note: Agent decision, not a person's review. The two texts are different problems. The canonical text is 3 balls in boxes with probability 1/2^n, the other row is Daniel winning by two points with a 60% chance. The canonical text looks complete.

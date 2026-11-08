@@ -1,0 +1,8 @@
+id: 01063ddb9d12
+kind: doubt
+records:
+    - ca-cmo/2017/p1
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. Same problem: distinct nonnegative a, b, c, the sum of a^2/(b-c)^2 is greater than 2. (b-a)^2 and (a-b)^2 are equal.'

@@ -1,0 +1,8 @@
+id: 342db02c4523
+kind: doubt
+records:
+    - putnam/1972/b3
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. Same problem: ghg=hg^2h, g^3=1 and h of odd order (B^{2n-1}=1), then h is the identity. The other row asks for B in place of a proof.'

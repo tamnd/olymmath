@@ -1,0 +1,8 @@
+id: 3be01901e7be
+kind: doubt
+records:
+    - putnam/1974/b5
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same: 1+n/1!+...+n^n/n! > e^n/2 for n >= 0. The other row adds the allowed Taylor remainder remark.'

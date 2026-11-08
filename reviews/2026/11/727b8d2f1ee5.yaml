@@ -1,0 +1,8 @@
+id: 727b8d2f1ee5
+kind: doubt
+records:
+    - apmo/2019/p5
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same: f(x^2+f(y))=f(f(x))+f(y^2)+2f(xy).'

@@ -1,0 +1,8 @@
+id: 214146f2abcb
+kind: doubt
+records:
+    - jbmo-sl/2014/a8
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: xyz = 1 and the sum of 1/(x(ay+b)) is at least 3 in the three cases a=0,b=1, a=1,b=0 and a+b=1. Only formatting differs.'

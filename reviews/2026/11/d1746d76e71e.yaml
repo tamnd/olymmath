@@ -1,0 +1,8 @@
+id: d1746d76e71e
+kind: doubt
+records:
+    - putnam/1966/a3
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same: 0<x_1<1, x_{n+1}=x_n(1-x_n), show n x_n tends to 1.'

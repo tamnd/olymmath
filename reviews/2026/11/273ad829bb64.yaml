@@ -1,0 +1,8 @@
+id: 273ad829bb64
+kind: doubt
+records:
+    - jbmo-sl/2011/a4
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: x^3+y^3 <= x^2+y^2, find the maximum of xy. Only wording and the A4 label differ.'

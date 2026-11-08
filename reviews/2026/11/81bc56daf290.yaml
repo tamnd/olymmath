@@ -1,0 +1,8 @@
+id: 81bc56daf290
+kind: doubt
+records:
+    - putnam/1981/b1
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. Same problem: the limit of (1/n^5) times the double sum of 5h^4-18h^2k^2+5k^4. The other row has an index typo, n=1 for h=1.'

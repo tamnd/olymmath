@@ -1,0 +1,8 @@
+id: 9231508e4141
+kind: doubt
+records:
+    - baltic-way/2002/p2
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: a+b+c+d = -2 and the pairwise sum of products is 0, prove one of the numbers is at most -1. Only formatting differs.'

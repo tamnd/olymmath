@@ -1,0 +1,8 @@
+id: 78c02732ecdd
+kind: doubt
+records:
+    - putnam/2011/b1
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. Same problem: eps < |h sqrt(m) - k sqrt(n)| < 2 eps. The other row is cut at the start, the canonical text is complete.'

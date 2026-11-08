@@ -1,0 +1,8 @@
+id: bca297286074
+kind: doubt
+records:
+    - jbmo/2022/p1
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same: pairs of positive integers with 11ab <= a^3-b^3 <= 12ab.'

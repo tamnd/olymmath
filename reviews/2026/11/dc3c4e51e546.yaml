@@ -1,0 +1,8 @@
+id: dc3c4e51e546
+kind: doubt
+records:
+    - isl/2020/a4
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: a >= b >= c >= d > 0 with sum 1, prove (a+2b+3c+4d) a^a b^b c^c d^d < 1. Only wording differs.'

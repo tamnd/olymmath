@@ -1,0 +1,8 @@
+id: b7f50362f2c4
+kind: doubt
+records:
+    - in-inmo/2005/p6
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: all f from R to R with f(x^2+yf(z)) = xf(x)+zf(y). Only formatting differs.'

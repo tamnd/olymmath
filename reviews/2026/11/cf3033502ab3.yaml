@@ -1,0 +1,8 @@
+id: cf3033502ab3
+kind: doubt
+records:
+    - ca-cmo/2008/p3
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same: a+b+c=1, the sum of (a-bc)/(a+bc) is at most 3/2.'

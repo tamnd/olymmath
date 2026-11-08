@@ -1,0 +1,8 @@
+id: ce18d9ec4db9
+kind: doubt
+records:
+    - putnam/2003/a4
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same: |ax^2+bx+c| <= |Ax^2+Bx+C| for all x gives |b^2-4ac| <= |B^2-4AC|.'

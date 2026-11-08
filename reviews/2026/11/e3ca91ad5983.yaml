@@ -1,0 +1,8 @@
+id: e3ca91ad5983
+kind: doubt
+records:
+    - baltic-way/1996/p6
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: ab = cd for positive integers, prove a+b+c+d is not prime. Composite and not prime say the same here.'

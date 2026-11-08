@@ -1,0 +1,8 @@
+id: 9ff41b774135
+kind: doubt
+records:
+    - balkan/2014/p1
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: xy+yz+zx = 3xyz, prove x^2y+y^2z+z^2x >= 2(x+y+z)-3 and find the equality case. Only formatting and the author line differ.'

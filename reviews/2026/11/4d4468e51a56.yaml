@@ -1,0 +1,8 @@
+id: 4d4468e51a56
+kind: doubt
+records:
+    - putnam/1975/a3
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. Same problem with letters renamed: 0<a<b<c, extreme points of x^a+y^b+z^c on x^b+y^b+z^b=1 with x, y, z >= 0.'

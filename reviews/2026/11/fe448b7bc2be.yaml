@@ -1,0 +1,8 @@
+id: fe448b7bc2be
+kind: doubt
+records:
+    - zhautykov/2020/p5
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. Same problem: f from Z to Z with f(4x+3y)=f(3x+y)+f(x+2y). The other row only has a line break inside 3x+y.'

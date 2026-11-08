@@ -1,0 +1,8 @@
+id: b3d7dea1bc0e
+kind: doubt
+records:
+    - isl/2020/c6
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: 4n weights 1 to 4n in n colours with four of each, split into two equal weight piles with two of each colour. Coins versus pebbles is only wording.'

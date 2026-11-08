@@ -1,0 +1,8 @@
+id: ed02f2e69e2b
+kind: doubt
+records:
+    - zhautykov/2018/p2
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. Same problem: AL=BK, CN the bisector, P the meet of AK and BL, Q on CN and IJ. The other row swaps the names I and J, so IP=JQ there is IQ=JP here.'

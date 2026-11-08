@@ -1,0 +1,8 @@
+id: 9bec49c21c2b
+kind: doubt
+records:
+    - isl/2020/n2
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: islands or vertices 1 to p joined when p divides (n^2-m+1)(m^2-n+1), disconnected for infinitely many primes p. Only wording differs.'

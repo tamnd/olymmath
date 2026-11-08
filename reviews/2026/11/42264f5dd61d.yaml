@@ -1,0 +1,8 @@
+id: 42264f5dd61d
+kind: doubt
+records:
+    - in-inmo/2004/p2
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: for a prime p > 3 find all integers a, b with a^2+3ab+2p(a+b)+p^2 = 0. Only wording differs.'

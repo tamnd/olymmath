@@ -1,0 +1,8 @@
+id: 0e0fb7f10c50
+kind: doubt
+records:
+    - jbmo-sl/2015/a5
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: x^2+y^2+z^2 = 3, prove the sum of (x^2+yz)/(x^2+yz+1) is at most 2. The other row has a stray header line.'

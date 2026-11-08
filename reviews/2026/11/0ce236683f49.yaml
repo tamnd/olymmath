@@ -1,0 +1,8 @@
+id: 0ce236683f49
+kind: doubt
+records:
+    - jbmo-sl/2011/a2
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: the sum of (x+2y)/(z+2x+3y) and its cyclic versions is at most 3/2. Only formatting differs.'

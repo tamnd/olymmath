@@ -1,0 +1,8 @@
+id: 7aa262b06ec8
+kind: doubt
+records:
+    - putnam/1991/a6
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. Same problem: the number of n-sums of type 1 with a_i > a_{i+1}+a_{i+2} equals the number of type 2 sums using 1, 2, 4, ..., g_j. Both give the same example for n=7.'

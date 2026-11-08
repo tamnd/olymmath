@@ -1,0 +1,8 @@
+id: 160828569c22
+kind: doubt
+records:
+    - isl/2015/c5
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: a_i <= 2015, i+a_i pairwise distinct, find b and N with the partial sums of a_i - b bounded by 1007^2. Only wording differs.'

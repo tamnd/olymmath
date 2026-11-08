@@ -1,0 +1,8 @@
+id: 5a1d7b6679d6
+kind: doubt
+records:
+    - putnam/1970/a4
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. Same problem: x_n-x_{n-2} tends to 0, the limit of (x_n-x_{n-1})/n. The canonical text asks for the value, the other row asks to prove it is 0.'

@@ -1,0 +1,8 @@
+id: 4d0aaab24c91
+kind: doubt
+records:
+    - jbmo-sl/2016/a5
+decision: reject
+by: agent
+date: "2026-11-07"
+note: Agent decision, not a person's review. The other row is missing part b of the canonical text, the question when equality holds, and it adds a second version with sqrt((x^2+1)/2) terms. The canonical text looks like the full problem with both parts.

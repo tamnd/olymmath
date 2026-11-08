@@ -1,0 +1,8 @@
+id: 81e0c3a41a63
+kind: doubt
+records:
+    - isl/2007/n4
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: 2^{3k} divides C(2^{k+1},2^k) - C(2^k,2^{k-1}) but 2^{3k+1} does not, for k >= 2. Only the binomial notation and the author line differ.'

@@ -1,0 +1,8 @@
+id: 0dd7685d2323
+kind: doubt
+records:
+    - balkan/2009/p1
+decision: replace
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The canonical text is only a solution, it never states the problem. The other row states it: solve 3^x - 5^y = z^2 in positive integers, which is the equation the solution works on.'

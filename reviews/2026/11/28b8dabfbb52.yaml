@@ -1,0 +1,8 @@
+id: 28b8dabfbb52
+kind: doubt
+records:
+    - usamo/1982/p5
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. Same problem: A, B, C inside sphere S, AB and AC perpendicular to OA, two spheres through A, B, C tangent to S, show their radii add up to the radius of S.'

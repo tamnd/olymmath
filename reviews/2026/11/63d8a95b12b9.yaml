@@ -1,0 +1,8 @@
+id: 63d8a95b12b9
+kind: doubt
+records:
+    - isl/2016/c3
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The other row is the same problem: n coprime to 6, three colours with an odd count each, find an isosceles triangle with three colours. The other row also carries the next problem C4 at the end, which does not change this problem.'

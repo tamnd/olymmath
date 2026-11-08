@@ -1,0 +1,8 @@
+id: 1701c143069f
+kind: doubt
+records:
+    - balkan-sl/2018/a4
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same: abc=1, 2(a^2+b^2+c^2)(1/a^2+1/b^2+1/c^2) >= 3(a+b+c+ab+bc+ca).'

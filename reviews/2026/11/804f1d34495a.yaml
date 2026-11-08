@@ -1,0 +1,8 @@
+id: 804f1d34495a
+kind: doubt
+records:
+    - jbmo/2015/p2
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. Same problem: a+b+c=3, minimum of the sum of (2-a^3)/a. The canonical text only has an extra image and header line.'

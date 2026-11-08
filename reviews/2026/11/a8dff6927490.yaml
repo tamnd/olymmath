@@ -1,0 +1,8 @@
+id: a8dff6927490
+kind: doubt
+records:
+    - usamo/1991/p5
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. Same problem with letters renamed: a point on a side of the triangle, the second common tangent of the two incircles meets the cevian at a point whose locus is a circle arc.'

@@ -1,0 +1,8 @@
+id: e97e31e78238
+kind: doubt
+records:
+    - jbmo-sl/2018/g3
+decision: reject
+by: agent
+date: "2026-11-07"
+note: Agent decision, not a person's review. The other row drops the condition that the triangle is acute, which the canonical text has. Otherwise it is the same construction with reflections and the circles ABB' and ACC'. The canonical text looks like the full problem.

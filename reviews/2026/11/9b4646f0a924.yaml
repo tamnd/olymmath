@@ -1,0 +1,8 @@
+id: 9b4646f0a924
+kind: doubt
+records:
+    - baltic-way/2000/p19
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: t >= 1/2, prove t^{2n} >= (t-1)^{2n}+(2t-1)^n. Only formatting differs.'

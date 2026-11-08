@@ -1,0 +1,8 @@
+id: 1a91d959e185
+kind: doubt
+records:
+    - putnam/1978/a3
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same: for which k in (0,5) the integral of x^k/(2+4x+3x^2+5x^3+3x^4+4x^5+2x^6) is smallest.'

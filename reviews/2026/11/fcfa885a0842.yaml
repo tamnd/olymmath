@@ -1,0 +1,8 @@
+id: fcfa885a0842
+kind: doubt
+records:
+    - zhautykov/2020/p1
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. Same problem: if n never divides 2^a 3^b+1, then n never divides 2^c+3^d.'

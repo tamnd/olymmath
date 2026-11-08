@@ -1,0 +1,8 @@
+id: ff7545943a31
+kind: doubt
+records:
+    - in-inmo/2020/p4
+decision: reject
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts differ in the condition on n: the canonical text has n >= 2 and the other row has n >= 3, with the same inequality and the sum a_1+...+a_n = 2n. The canonical text looks like the full problem.'

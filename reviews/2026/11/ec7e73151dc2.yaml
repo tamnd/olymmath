@@ -1,0 +1,8 @@
+id: ec7e73151dc2
+kind: doubt
+records:
+    - balkan-sl/2017/a6
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same: f(x+yf(x^2))=f(x)+xf(xy) for all reals.'

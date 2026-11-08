@@ -1,0 +1,8 @@
+id: 5d4e7a00d43e
+kind: doubt
+records:
+    - putnam/1993/a2
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. Same problem: a_n^2-a_{n-1}a_{n+1}=1, prove a_{n+1}=alpha a_n - a_{n-1}. The other row is cut at the start but matches.'

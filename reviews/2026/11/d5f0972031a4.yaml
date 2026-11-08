@@ -1,0 +1,8 @@
+id: d5f0972031a4
+kind: doubt
+records:
+    - usamo/1982/p1
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. Same problem: 1982 people (points), among any four one knows (is joined to) the other three, find the least number who know everyone (joined to 1981 points).'

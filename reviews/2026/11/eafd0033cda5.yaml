@@ -1,0 +1,8 @@
+id: eafd0033cda5
+kind: doubt
+records:
+    - balkan/2021/p2
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: all f from positive reals to positive reals with f(x+f(x)+f(y)) = 2f(x)+y. Only wording differs.'

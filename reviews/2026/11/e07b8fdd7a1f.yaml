@@ -1,0 +1,8 @@
+id: e07b8fdd7a1f
+kind: doubt
+records:
+    - baltic-way/1991/p6
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: solve [x]{x} = 1991x. Only wording differs.'

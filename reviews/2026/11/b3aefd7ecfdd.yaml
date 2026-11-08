@@ -1,0 +1,8 @@
+id: b3aefd7ecfdd
+kind: doubt
+records:
+    - putnam/1957/a4
+decision: replace
+by: agent
+date: "2026-11-07"
+note: Agent decision, not a person's review. The canonical text is a forum help request and states the problem only for real coefficients and real k. The other row is the full statement for a complex polynomial and any complex k, with the disc of radius R+|k|, so it should be the text.

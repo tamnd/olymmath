@@ -1,0 +1,8 @@
+id: ce6bf0dfe7dd
+kind: doubt
+records:
+    - baltic-way/1996/p15
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: for which positive a, b the cyclic sum x_i x_{i+1} is at least the cyclic sum x_i^a x_{i+1}^b x_{i+2}^a for all n > 2. Only formatting differs.'

@@ -1,0 +1,8 @@
+id: 1c9068a03df5
+kind: doubt
+records:
+    - putnam/1968/a2
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. Same problem with letters renamed: integers with ad != bc, rationals x, y with 0<|ax+by-m|<eps and 0<|cx+dy-n|<eps.'

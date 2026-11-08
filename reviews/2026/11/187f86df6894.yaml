@@ -1,0 +1,8 @@
+id: 187f86df6894
+kind: doubt
+records:
+    - balkan-sl/2019/a5
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same: (ab)^2+(bc)^2+(ca)^2=3, prove the product of (a^2-a+1) terms is at least 1.'

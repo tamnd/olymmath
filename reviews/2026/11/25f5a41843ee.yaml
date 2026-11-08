@@ -1,0 +1,8 @@
+id: 25f5a41843ee
+kind: doubt
+records:
+    - apmo/2000/p2
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. Same problem: put 1 to 9 on the triangle of circles so the four numbers on each side have equal sums and equal sums of squares. The other row writes the sides as a_1..a_4, a_4..a_7, a_7..a_1.'

@@ -1,0 +1,8 @@
+id: ffad825a196b
+kind: doubt
+records:
+    - in-inmo/2011/p6
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: all f from R to R with f(x+y)f(x-y) = (f(x)+f(y))^2 - 4x^2 f(y). Only formatting differs.'

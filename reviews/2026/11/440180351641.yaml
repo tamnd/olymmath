@@ -1,0 +1,8 @@
+id: "440180351641"
+kind: doubt
+records:
+    - jbmo-sl/2016/g6
+decision: replace
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The canonical text is garbled at the midpoints: it says K and {K,L} are the midpoints of [BC_1] and {BC_1, CB_1}. The other row is the same problem and says it cleanly: K and L are the midpoints of BC_1 and CB_1. The two rows have the same text.'

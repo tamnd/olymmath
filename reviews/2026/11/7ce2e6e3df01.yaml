@@ -1,0 +1,8 @@
+id: 7ce2e6e3df01
+kind: doubt
+records:
+    - isl/2008/a5
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: abcd = 1 and a+b+c+d > a/b+b/c+c/d+d/a, prove a+b+c+d < b/a+c/b+d/c+a/d. Only formatting and the proposer line differ.'

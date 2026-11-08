@@ -1,0 +1,8 @@
+id: 957dcae9b10a
+kind: doubt
+records:
+    - putnam/1973/a4
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same: the number of real zeros of 2^x-1-x^2.'

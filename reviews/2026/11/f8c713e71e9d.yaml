@@ -1,0 +1,8 @@
+id: f8c713e71e9d
+kind: doubt
+records:
+    - jbmo-sl/2014/g2
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: AB < AC < BC, diameters BD and CE, circles about A with radii AE and AD give K and L, prove EK and DL meet on the circumcircle. Only wording differs.'

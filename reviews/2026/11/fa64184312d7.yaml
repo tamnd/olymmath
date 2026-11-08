@@ -1,0 +1,8 @@
+id: fa64184312d7
+kind: doubt
+records:
+    - nordic/2012/p1
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same: a^2+b^2=2c^2 with a != b, c != -a, c != -b, show the given fraction is an integer.'

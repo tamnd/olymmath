@@ -1,0 +1,8 @@
+id: c68a02e7d0e9
+kind: doubt
+records:
+    - hmmt/2008/a4
+decision: reject
+by: agent
+date: "2026-11-07"
+note: Agent decision, not a person's review. The two texts are different problems. The canonical text is the functional equation asking for f(10), the other row asks for xy with x^2+y^2=1 and x^4+y^4=17/18. The canonical text looks complete.

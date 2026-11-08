@@ -1,0 +1,8 @@
+id: b35b87b2cdc3
+kind: doubt
+records:
+    - usamo/1995/p2
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. Same problem: starting from 0, reach any positive rational with a finite chain of sin, cos, tan and their inverses.'

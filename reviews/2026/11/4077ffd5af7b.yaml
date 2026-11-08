@@ -1,0 +1,8 @@
+id: 4077ffd5af7b
+kind: doubt
+records:
+    - putnam/1972/a5
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same: no n>1 divides 2^n-1.'

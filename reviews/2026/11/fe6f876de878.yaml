@@ -1,0 +1,8 @@
+id: fe6f876de878
+kind: doubt
+records:
+    - imo/1983/p3
+decision: reject
+by: agent
+date: "2026-11-07"
+note: Agent decision, not a person's review. The two texts are different problems. The canonical text is the largest integer not of the form xbc+yca+zab, the other row is the triangle side inequality a^2b(a-b)+... >= 0. The canonical text looks complete.

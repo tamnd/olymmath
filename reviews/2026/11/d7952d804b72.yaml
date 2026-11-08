@@ -1,0 +1,8 @@
+id: d7952d804b72
+kind: doubt
+records:
+    - isl/2015/n2
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: a!+b! divides a!b!, prove 3a >= 2b+2. Only wording differs.'

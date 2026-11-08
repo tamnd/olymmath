@@ -1,0 +1,8 @@
+id: 77c78cb24dd9
+kind: doubt
+records:
+    - usamo/1987/p3
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. Same problem: the set of polynomials built from x by r -> x r and r -> x+(1-x)r, show two distinct members do not meet for 0<x<1.'

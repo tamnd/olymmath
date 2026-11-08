@@ -1,0 +1,8 @@
+id: 7d097d8b8049
+kind: doubt
+records:
+    - jbmo-sl/2008/a7
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: abc = 1, prove the product of (ab+bc+1/(ca)) and its cyclic versions is at least (1+2a)(1+2b)(1+2c). Only formatting differs.'

@@ -1,0 +1,8 @@
+id: e4119cb6a396
+kind: doubt
+records:
+    - baltic-way/2003/p5
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: a_1 = sqrt 2, a_2 = 2, a_{n+1} = a_n a_{n-1}^2, prove the product of (1+a_i) is less than (2+sqrt 2) times the product of a_i. Only formatting differs.'

@@ -1,0 +1,8 @@
+id: 758fc854cd5d
+kind: doubt
+records:
+    - jbmo-sl/2014/a2
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: abc = 1/8, prove a^2+b^2+c^2+a^2b^2+b^2c^2+c^2a^2 >= 15/16 and find the equality case. Only formatting differs.'

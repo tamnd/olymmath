@@ -1,0 +1,8 @@
+id: 065157495a32
+kind: doubt
+records:
+    - jbmo-sl/2017/a3
+decision: reject
+by: agent
+date: "2026-11-07"
+note: Agent decision, not a person's review. The other row drops the condition 0 <= a, it only has a <= b <= c <= d, and without it the inequality fails (a=-2, b=-1, c=d=0 gives 2 >= 4). The canonical text looks like the full problem.

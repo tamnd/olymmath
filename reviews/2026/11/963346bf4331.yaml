@@ -1,0 +1,8 @@
+id: 963346bf4331
+kind: doubt
+records:
+    - putnam/1958/b7
+decision: reject
+by: agent
+date: "2026-11-07"
+note: Agent decision, not a person's review. The two texts are different problems. The canonical text is about a continuous f with all moments zero on [a,b], the other row is the mean number of big integers in a permutation. The canonical text looks complete.

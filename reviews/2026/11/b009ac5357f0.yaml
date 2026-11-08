@@ -1,0 +1,8 @@
+id: b009ac5357f0
+kind: dispute
+records:
+    - isl/2020/a1
+decision: keep
+by: agent
+date: "2026-11-07"
+note: Agent decision, not a person's review. The other row states the same problem, ISL 2020 A1 with both versions, word for word, and then the official solution with the answer a_n = b_N = N/2. The canonical text stays. The record keeps no answer, so the answer mismatch does not change the record.

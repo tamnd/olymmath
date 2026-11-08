@@ -1,0 +1,8 @@
+id: a5433ec4a465
+kind: doubt
+records:
+    - putnam/1992/a3
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. Same problem: (x^2+y^2)^m=(xy)^n with n coprime to m. The other row is cut at the start but has the same equation and condition.'

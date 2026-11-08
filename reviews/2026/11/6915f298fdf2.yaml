@@ -1,0 +1,8 @@
+id: 6915f298fdf2
+kind: doubt
+records:
+    - putnam/1939/b1
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. Same problem: on the catenary y=c cosh(x/c), the line from (0,c) parallel to the normal at P, cut off by the x axis, has length equal to the ordinate of P.'

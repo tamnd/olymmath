@@ -1,0 +1,8 @@
+id: 8a75b522e5c9
+kind: doubt
+records:
+    - in-inmo/2013/p4
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: the number of nonempty subsets of {1,...,n} with integer mean has the same parity as n. The canonical says n > 1 and the other says n positive, which only adds the trivial case n = 1.'

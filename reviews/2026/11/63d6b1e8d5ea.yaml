@@ -1,0 +1,8 @@
+id: 63d6b1e8d5ea
+kind: doubt
+records:
+    - nz-nzmo/2021/p3
+decision: reject
+by: agent
+date: "2026-11-07"
+note: Agent decision, not a person's review. The two texts are different problems. The canonical text asks for the most golden terms in a permutation of 1 to 2021, the other row asks for the largest set where every sum of 3 is prime. The canonical text looks complete.

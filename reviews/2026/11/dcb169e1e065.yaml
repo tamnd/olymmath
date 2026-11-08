@@ -1,0 +1,8 @@
+id: dcb169e1e065
+kind: doubt
+records:
+    - isl/2019/n4
+decision: reject
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts differ: the canonical text has a general constant C with a+b > C, the other row fixes the bound a+b > 2019. The canonical text looks like the full problem.'

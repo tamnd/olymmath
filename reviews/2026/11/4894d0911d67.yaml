@@ -1,0 +1,8 @@
+id: 4894d0911d67
+kind: doubt
+records:
+    - isl/2011/g8
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The other row is the same problem: the circumcircle of the triangle formed by the reflections t_a, t_b, t_c of a tangent line is tangent to omega. The canonical text has the start of a solution and a figure link appended, but the full statement is there.'

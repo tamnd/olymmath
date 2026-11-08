@@ -1,0 +1,8 @@
+id: 637f7b901586
+kind: doubt
+records:
+    - putnam/1956/b5
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. Same problem: 2n points with n^2+1 edges force a triangle, and n^2 edges need not. The canonical text has a short extra request line that does not change the problem.'

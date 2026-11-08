@@ -1,0 +1,8 @@
+id: 7f78a63ff5e4
+kind: doubt
+records:
+    - baltic-way/2000/p20
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: x_n is the product (2n+1)...(4n+1) over (2n)...(4n), prove 1/(4n) < x_n - sqrt 2 < 2/n. Only formatting differs.'

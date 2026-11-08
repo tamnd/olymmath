@@ -1,0 +1,8 @@
+id: 722fc9536cec
+kind: doubt
+records:
+    - us-tst/2021/p1
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same: integers s >= 4 with s=a+b+c+d dividing abc+abd+acd+bcd.'

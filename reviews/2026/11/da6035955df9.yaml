@@ -1,0 +1,8 @@
+id: da6035955df9
+kind: doubt
+records:
+    - putnam/1973/a1
+decision: replace
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The canonical text is garbled: it asks for the lowest nonzero n with area XYZ >= n times area ABC, and it lacks part (b). The other row has the full problem, part (a) area XYZ >= 1/4 area ABC and part (b) about the three corner triangles.'

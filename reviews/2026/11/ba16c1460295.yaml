@@ -1,0 +1,8 @@
+id: ba16c1460295
+kind: doubt
+records:
+    - ca-cmo/2019/p4
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same: n>1, a_1=a_{n-1}=0, |a_0|-|a_n| is at most the sum of |a_i-ka_{i+1}-a_{i+2}|.'

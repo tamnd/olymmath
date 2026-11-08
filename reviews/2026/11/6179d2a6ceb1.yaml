@@ -1,0 +1,8 @@
+id: 6179d2a6ceb1
+kind: doubt
+records:
+    - nordic/2002/p3
+decision: keep
+by: agent
+date: "2026-11-07"
+note: 'Agent decision, not a person''s review. The two texts are the same problem: distinct a_i and products (a_i+b_1)...(a_i+b_n) all equal imply the products (a_1+b_j)...(a_n+b_j) all equal. Only wording differs.'

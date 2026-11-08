@@ -1,0 +1,8 @@
+id: ef6a31697f0b
+kind: sample
+records:
+    - imo/1988/p3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: the function f with f(1) = 1, f(3) = 3, f(2n) = f(n) and the two recursions, and the count of n <= 1988 with f(n) = n. The extra 29 in the paper is the page footer (29th IMO).'

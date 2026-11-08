@@ -1,0 +1,8 @@
+id: 1ac64e06106a
+kind: sample
+records:
+    - imo/1998/p2
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: a competitors and b judges with b >= 3 odd, any two judges agree on at most k competitors, prove k/a >= (b-1)/(2b). The differences are wording.'

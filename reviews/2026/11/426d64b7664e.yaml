@@ -1,0 +1,8 @@
+id: 426d64b7664e
+kind: sample
+records:
+    - imo/1989/p3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: n, k and the set S of n points with at least k points equidistant from each point, prove k < 1/2 + sqrt(2n). The extra 30 in the paper is the page footer (30th IMO).'

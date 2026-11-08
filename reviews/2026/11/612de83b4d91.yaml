@@ -1,0 +1,8 @@
+id: 612de83b4d91
+kind: sample
+records:
+    - imo/1996/p2
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: P inside ABC with angle APB - angle ACB = angle APC - angle ABC, and the incentres D and E, prove AP, BD, CE concur. The paper text layer reads the angle sign as 6.'

@@ -1,0 +1,8 @@
+id: 2315bbacfb7b
+kind: sample
+records:
+    - isl/2007/n3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: a set X of 10000 integers, none divisible by 47, has a subset Y of 2007 elements with the sum condition. The paper writes 10 000 with a space, which splits the number.'

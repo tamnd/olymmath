@@ -1,0 +1,8 @@
+id: 2cde3b5e9b48
+kind: sample
+records:
+    - imo/1968/p4
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: every tetrahedron has a vertex whose three edges can be the sides of a triangle. Only the wording differs.'

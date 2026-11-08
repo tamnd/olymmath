@@ -1,0 +1,8 @@
+id: 235a738d22bf
+kind: sample
+records:
+    - imo/1998/p5
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: the incircle of ABC touching the sides at K, L, M, and the angle RIS is acute. The record names the points in another order, the same configuration throughout.'

@@ -1,0 +1,8 @@
+id: a4e8a3ca6e98
+kind: official
+records:
+    - imo/1975/p2
+decision: replace
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record text asked for infinitely many a_m = x a_p + y a_q with some p != q, a weaker statement. The paper asks, for every p >= 1, for infinitely many a_m = x a_p + y a_q with q > p. The official statement S4 is new and canonical, with the text of the 1975 English paper (page 1). The old AI-MO AoPS text stays under its marker.'

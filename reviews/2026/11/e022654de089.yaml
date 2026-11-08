@@ -1,0 +1,8 @@
+id: e022654de089
+kind: official
+records:
+    - imo/1989/p2
+decision: replace
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record text dropped the condition that the triangle is acute-angled and merged the two parts into one chain. The official statement S2 is now canonical, with the text of the 1989 English paper and its parts (i) and (ii). The old AI-MO AoPS text stays under its marker.'

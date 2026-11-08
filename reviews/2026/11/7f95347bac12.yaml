@@ -1,0 +1,8 @@
+id: 7f95347bac12
+kind: sample
+records:
+    - imo/2010/p5
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: the six boxes with one coin each, the two moves, and the end state with 2010^(2010^2010) coins in B_6. The paper text layer loses the superscripts, which gives the number 20102010 in the paper only.'

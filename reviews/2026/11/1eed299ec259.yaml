@@ -1,0 +1,8 @@
+id: 1eed299ec259
+kind: official
+records:
+    - imo/1979/p5
+decision: replace
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record text asked for positive reals x_1, ..., x_5, the paper asks for non-negative reals, and this changes the answer. The official statement S4 is new and canonical, with the text of the 1979 English paper (page 1). The old AI-MO AoPS text stays under its marker.'

@@ -1,0 +1,8 @@
+id: 22f9ded5da9a
+kind: sample
+records:
+    - imo/2026/p3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: Agent decision, not a person's review. Same problem as the paper, word for word up to notation. The extra 2 in the paper is the page header (day 2).

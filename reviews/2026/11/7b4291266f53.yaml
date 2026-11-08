@@ -1,0 +1,8 @@
+id: 7b4291266f53
+kind: sample
+records:
+    - imo/1987/p5
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: for n >= 3, n points with irrational distances and rational area for every triangle. The extra 2 in the paper is the page number.'

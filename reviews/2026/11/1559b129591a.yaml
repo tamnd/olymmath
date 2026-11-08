@@ -1,0 +1,8 @@
+id: 1559b129591a
+kind: sample
+records:
+    - imo/1999/p6
+decision: accept
+by: agent
+date: "2026-11-08"
+note: Agent decision, not a person's review. Same functional equation f(x - f(y)) = f(f(y)) + x f(y) + f(x) - 1. The differences are notation.

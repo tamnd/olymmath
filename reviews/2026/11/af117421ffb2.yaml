@@ -1,0 +1,8 @@
+id: af117421ffb2
+kind: official
+records:
+    - isl/2016/c3
+decision: keep
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The canonical NuminaMath text had the whole next problem, C4 about the n by n table of I, M and O, appended at the end. That part is now removed. The rest is the booklet text word for word, so the canonical text stays.'

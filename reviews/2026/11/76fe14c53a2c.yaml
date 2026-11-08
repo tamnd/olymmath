@@ -1,0 +1,8 @@
+id: 76fe14c53a2c
+kind: sample
+records:
+    - isl/2019/n2
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: all triples (a, b, c) of positive integers with a^3 + b^3 + c^3 = (abc)^2. The differences are notation.'

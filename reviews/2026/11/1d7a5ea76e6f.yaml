@@ -1,0 +1,8 @@
+id: 1d7a5ea76e6f
+kind: sample
+records:
+    - imo/1969/p3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: for k = 1, ..., 5, conditions on a > 0 for a tetrahedron with k edges of length a and the remaining 6 - k edges of length 1. The record says "the remainder", which is the same 6 - k edges.'

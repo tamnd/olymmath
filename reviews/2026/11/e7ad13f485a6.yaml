@@ -1,0 +1,8 @@
+id: e7ad13f485a6
+kind: sample
+records:
+    - imo/1969/p5
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: n > 4 points in the plane with no three collinear give at least C(n-3, 2) convex quadrilaterals. The differences are wording and notation.'

@@ -1,0 +1,8 @@
+id: 63500cb42433
+kind: official
+records:
+    - imo/1967/p4
+decision: replace
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record text said that BC contains B_0, where the paper puts A_0 on BC. The official statement S4 is new and canonical, with the text of the 1967 English paper (page 1) typed from the PDF. The text layer reads "AC0 on AB", which is C_0 on AB. The old AI-MO AoPS text stays under its marker.'

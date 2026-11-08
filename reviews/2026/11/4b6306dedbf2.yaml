@@ -1,0 +1,8 @@
+id: 4b6306dedbf2
+kind: sample
+records:
+    - imo/1978/p5
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same inequality: for distinct positive integers a_k, sum a_k/k^2 >= sum 1/k for k from 1 to n. The paper lists the index k = 1, 2, 3, ..., which gives the number 3 in the paper only.'

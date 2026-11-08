@@ -1,0 +1,8 @@
+id: 925a99cb23f6
+kind: sample
+records:
+    - imo/2008/p1
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: the circles through the orthocentre H with centres at the midpoints of the sides, and the six points A_1, ..., C_2 lie on a circle. The record names the first circle and says "similarly define" for the others, the same construction.'

@@ -1,0 +1,8 @@
+id: a202a279603c
+kind: sample
+records:
+    - isl/2009/c2
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: the largest number N(n) of triples of nonnegative integers with sum n and all coordinates distinct. The record also carries the comment of the booklet that follows the problem, which gives the extra number 3.'

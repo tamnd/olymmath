@@ -1,0 +1,8 @@
+id: 9425f1c8563b
+kind: sample
+records:
+    - imo/1975/p6
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: the homogeneous polynomial P of degree n with P(b+c, a) + P(c+a, b) + P(a+b, c) = 0 and P(1, 0) = 1. The record labels the conditions a, b, c in place of (i), (ii), (iii) and orders the three terms differently, which is the same sum.'

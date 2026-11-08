@@ -1,0 +1,8 @@
+id: 41ea963f3a29
+kind: sample
+records:
+    - imo/2014/p1
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: an infinite sequence of positive integers a_0 < a_1 < ... has a unique n >= 1 with a_n < (a_0 + ... + a_n)/n <= a_(n+1). The differences are notation.'

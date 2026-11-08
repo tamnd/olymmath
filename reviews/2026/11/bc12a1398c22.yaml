@@ -1,0 +1,8 @@
+id: bc12a1398c22
+kind: sample
+records:
+    - imo/1975/p5
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: 1975 points on a circle of unit radius with all distances rational. The record says "radius 1" where the paper says "unit radius", which gives the number 1.'

@@ -1,0 +1,8 @@
+id: f78cd1e2b26a
+kind: sample
+records:
+    - imo/2025/p3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: the bonza functions f with f(a) | b^a - f(b)^f(a), and the least c with f(n) <= cn. The extra 2 in the paper is the page header (day 2).'

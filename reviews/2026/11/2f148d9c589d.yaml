@@ -1,0 +1,8 @@
+id: 2f148d9c589d
+kind: sample
+records:
+    - imo/1979/p6
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: the frog on the octagon, a_{2n-1} = 0 and a_{2n} = (x^{n-1} - y^{n-1})/sqrt(2) with x = 2 + sqrt(2), y = 2 - sqrt(2). The paper lists n = 1, 2, 3, which gives the number 3 in the paper only.'

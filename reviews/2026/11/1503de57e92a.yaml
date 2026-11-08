@@ -1,0 +1,8 @@
+id: 1503de57e92a
+kind: official
+records:
+    - imo/1993/p2
+decision: replace
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record text only put C and D on the same side of AB, where the paper has D inside the acute triangle ABC, and it states part (b) as orthogonal circumcircles, which its own remark explains as the same tangents at C. The official statement S4 is new and canonical, with the text of the 1993 English paper (page 1) and its parts (a) and (b). The old AI-MO AoPS text stays under its marker.'

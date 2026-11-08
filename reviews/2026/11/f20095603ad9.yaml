@@ -1,0 +1,8 @@
+id: f20095603ad9
+kind: official
+records:
+    - imo/1985/p4
+decision: replace
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record text said that no element has a prime divisor greater than 23, where the paper says 26, and it asked for a subset of 4 elements, where the paper asks for at least one subset of four distinct elements. The official statement S2 is now canonical, with the text of the 1985 English paper typed from the PDF. The old AI-MO AoPS text stays under its marker.'

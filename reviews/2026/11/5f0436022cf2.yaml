@@ -1,0 +1,8 @@
+id: 5f0436022cf2
+kind: sample
+records:
+    - imo/1988/p4
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: the set of real x with sum k/(x - k) >= 5/4 for k from 1 to 70 is a union of intervals of total length 1988. The differences are notation.'

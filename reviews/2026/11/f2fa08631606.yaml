@@ -1,0 +1,8 @@
+id: f2fa08631606
+kind: sample
+records:
+    - imo/1987/p3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: for x_1^2 + ... + x_n^2 = 1 and k >= 2 there are integers a_i, not all 0, with |a_i| <= k-1 and |sum a_i x_i| <= (k-1) sqrt(n)/(k^n - 1). The extra numbers in the paper are the page footer (28th IMO, July 11, 1987) and the lost superscripts. The paper misprints a_1 x_2, which the record has as a_2 x_2.'

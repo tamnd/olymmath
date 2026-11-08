@@ -1,0 +1,8 @@
+id: efb7783d4f8f
+kind: sample
+records:
+    - imo/2010/p4
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: P inside ABC, the second intersections K, L, M of AP, BP, CP with the circumcircle, the tangent at C meets AB at S, and SC = SP gives MK = ML. The record adds "(CA != CB)", which the existence of S already needs.'

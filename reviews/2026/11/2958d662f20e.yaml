@@ -1,0 +1,8 @@
+id: 2958d662f20e
+kind: sample
+records:
+    - isl/2007/g1
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: the bisector of angle BCA meets the circumcircle at R and the perpendicular bisectors at P and Q, and the triangles RPK and RQL have equal areas. The differences are notation.'

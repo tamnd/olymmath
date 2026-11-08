@@ -1,0 +1,8 @@
+id: 0558e10a1f2c
+kind: official
+records:
+    - de-bundeswettbewerb/2021/p1
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the German paper text, which is mixed with lines of other problems: a cube of side 10 cut twice into cuboids with integer sides, smallest possible volume of the largest of the three.'

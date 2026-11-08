@@ -1,0 +1,8 @@
+id: a19747f8e7ec
+kind: official
+records:
+    - imo/1974/p2
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: a point D on AB with CD^2 = AD DB exists iff sin A sin B <= sin^2(C/2). The text score is low because the paper text has no TeX.'

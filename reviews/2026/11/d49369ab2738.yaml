@@ -1,0 +1,8 @@
+id: d49369ab2738
+kind: official
+records:
+    - pl-om/2004/p2
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the Polish paper text: an integer polynomial with coprime values at two integers has an infinite set of integers with pairwise coprime values.'

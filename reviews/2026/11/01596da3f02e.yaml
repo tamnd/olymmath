@@ -1,0 +1,8 @@
+id: 01596da3f02e
+kind: official
+records:
+    - imo/1969/p4
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: the incircle of ABC and the two circles touching CD and the semicircle have a second common tangent. The text score is low because the paper text has no TeX.'

@@ -1,0 +1,8 @@
+id: cba77a4c8fc2
+kind: official
+records:
+    - cz-sk-mo/2006/p1
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the Czech paper text: a_(n+1) = a_n + b_n with b_n the digit reversal of a_n, can a_7 be prime. The example differs (250 in the record, 170 in the paper) but the question is the same.'

@@ -1,0 +1,8 @@
+id: f5e695e49c5e
+kind: official
+records:
+    - imo/1973/p6
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: find b_k > a_k with q < b_(k+1)/b_k < 1/q and sum of b_k less than (1+q)/(1-q) times the sum of a_k. The text score is low because the paper text has no TeX.'

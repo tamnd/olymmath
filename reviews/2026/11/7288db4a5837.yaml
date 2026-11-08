@@ -1,0 +1,8 @@
+id: 7288db4a5837
+kind: official
+records:
+    - imo/1975/p3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: external triangles with angles 45, 30 and 15 degrees, prove angle QRP = 90 and QR = RP. The text score is low because the paper text has no TeX.'

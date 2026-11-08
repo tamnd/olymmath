@@ -1,0 +1,8 @@
+id: 8fb5ca6bd817
+kind: official
+records:
+    - imo/1999/p4
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: pairs (x, p) with p prime, x <= 2p and x^(p-1) dividing (p-1)^x + 1. The text score is low because the paper text has no TeX.'

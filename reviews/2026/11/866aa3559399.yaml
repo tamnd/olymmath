@@ -1,0 +1,8 @@
+id: 866aa3559399
+kind: official
+records:
+    - pl-om/2016/p3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the Polish paper text: f(a,b) counts integer sequences of length a with sum of absolute values at most b, prove f(a,b) = f(b,a).'

@@ -1,0 +1,8 @@
+id: 08cfa63945c1
+kind: official
+records:
+    - imc/2006/p5
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text: positive a,b,c,d,e with equal sums of squares and of fourth powers, compare a^3+b^3+c^3 with d^3+e^3. The record says three numbers by mistake but lists all five, and the paper text has the solution appended.'

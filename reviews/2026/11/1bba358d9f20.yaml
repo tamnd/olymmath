@@ -1,0 +1,8 @@
+id: 1bba358d9f20
+kind: official
+records:
+    - de-bundeswettbewerb/2018/p1
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the German paper text: the largest natural number whose inner digits are each smaller than the mean of their two neighbours.'

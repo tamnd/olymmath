@@ -1,0 +1,8 @@
+id: c34f4bf53fae
+kind: official
+records:
+    - imo/1974/p6
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: for an integer polynomial P, the number of integers k with P(k)^2 = 1 is at most deg(P) + 2. The text score is low because the paper text has no TeX.'

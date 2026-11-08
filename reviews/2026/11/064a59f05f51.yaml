@@ -1,0 +1,8 @@
+id: 064a59f05f51
+kind: official
+records:
+    - imo/1968/p1
+decision: reject
+by: agent
+date: "2026-11-08"
+note: Agent decision, not a person's review. The paper text at this position asks to prove that there is one and only one triangle with consecutive integer sides and one angle twice another. The record asks to find all such triangles. That is a different question, so the record does not state the paper problem as written.

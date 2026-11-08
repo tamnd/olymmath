@@ -1,0 +1,8 @@
+id: 979d84fc69af
+kind: official
+records:
+    - isl/2019/a3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: an increasing sequence with sum 2, a set X minimising |1 - sum a_i|, and a sequence b with sum over X equal to 1. The record has solution remarks appended.'

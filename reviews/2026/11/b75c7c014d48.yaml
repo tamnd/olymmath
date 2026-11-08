@@ -1,0 +1,8 @@
+id: b75c7c014d48
+kind: official
+records:
+    - imo/1999/p2
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: the least C with sum x_i x_j (x_i^2 + x_j^2) <= C (sum x_i)^4 for x_i >= 0, and the equality cases. The text score is low because the paper text has no TeX.'

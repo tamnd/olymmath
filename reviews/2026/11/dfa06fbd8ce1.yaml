@@ -1,0 +1,8 @@
+id: dfa06fbd8ce1
+kind: official
+records:
+    - imc/2002/p4
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text: the orbit T_p of a continuous self map of [a,b] is closed, show it is finite. The paper text has the solution appended.'

@@ -1,0 +1,8 @@
+id: a3b9b0030213
+kind: official
+records:
+    - pl-om/2004/p3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the Polish paper text: maximum number of cyclic triples in a tournament with n >= 3 players.'

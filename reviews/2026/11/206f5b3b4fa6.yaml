@@ -1,0 +1,8 @@
+id: 206f5b3b4fa6
+kind: official
+records:
+    - vtrmc/2018/p4
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text: for integers n >= m >= 1, gcd(m,n)/n times binomial(n,m) is an integer. The paper text lost the formula layout but names gcd and the binomial coefficient.'

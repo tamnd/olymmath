@@ -1,0 +1,8 @@
+id: f3a7871d8e09
+kind: official
+records:
+    - imc/2002/p9
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text: a_n = sum k^n/k!, b_n = sum (-1)^k k^n/k!, show a_n b_n is an integer. The paper text has the solution appended.'

@@ -1,0 +1,8 @@
+id: 2b878fe2638a
+kind: official
+records:
+    - cz-sk-mo/2018/p6
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the Czech paper text: least n such that every 3-colouring of 1..n has two numbers of one colour differing by a perfect square.'

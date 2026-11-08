@@ -1,0 +1,8 @@
+id: 6c1a6845e57b
+kind: official
+records:
+    - cz-sk-mo/2006/p4
+decision: reject
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The texts differ: the Czech paper text asks for the set of centroids of acute triangles ABC with A, B, orthocenter and incenter concyclic. The record drops the acute condition and asks for the locus of an undefined point M.'

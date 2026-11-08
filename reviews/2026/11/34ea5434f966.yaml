@@ -1,0 +1,8 @@
+id: 34ea5434f966
+kind: official
+records:
+    - imc/1996/p6
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text: upper content C(E) and lower content K(E), prove C(L) = length(L), C(E) >= K(E), and equality can fail for compact E. The paper adds a hint and the solution.'

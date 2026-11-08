@@ -1,0 +1,8 @@
+id: 603b15c06e01
+kind: official
+records:
+    - imc/2002/p3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text: a_k = 1/binomial(n,k), b_k = 2^(k-n), show the sum of (a_k - b_k)/k is 0. The paper text has the solution appended.'

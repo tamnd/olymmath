@@ -1,0 +1,8 @@
+id: a15efbced39d
+kind: official
+records:
+    - imo/1975/p2
+decision: reject
+by: agent
+date: "2026-11-08"
+note: Agent decision, not a person's review. The paper text asks to prove that for every p >= 1 there are infinitely many a_m = x a_p + y a_q with q > p. The record only asks for infinitely many a_m = x a_p + y a_q with some p != q, without fixing p, so it is a weaker statement.

@@ -1,0 +1,8 @@
+id: ad5721f5308e
+kind: official
+records:
+    - imo/1992/p3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: nine points, edges colored red or blue or left uncolored, the smallest n that forces a one-colored triangle. The paper text also has the next day''s problems after it.'

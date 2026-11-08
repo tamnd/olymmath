@@ -1,0 +1,8 @@
+id: 4729fd766964
+kind: official
+records:
+    - isl/2017/g3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: the circumcenter of PQH lies on a median of the acute scalene triangle ABC. The text score is low because the paper text has no TeX.'

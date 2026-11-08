@@ -1,0 +1,8 @@
+id: 2a4af9bb3d63
+kind: official
+records:
+    - imo/2008/p1
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: circles through H centered at the side midpoints cut the sides in six concyclic points. The text score is low because the paper text has no TeX.'

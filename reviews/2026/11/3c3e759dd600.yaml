@@ -1,0 +1,8 @@
+id: 3c3e759dd600
+kind: official
+records:
+    - isl/2018/g7
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: circumcentres of AOP, BOP, COP and perpendicular lines forming a triangle whose circumcircle is tangent to OP. The text score is low because the paper text has no TeX.'

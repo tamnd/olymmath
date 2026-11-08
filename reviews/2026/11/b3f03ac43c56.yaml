@@ -1,0 +1,8 @@
+id: b3f03ac43c56
+kind: official
+records:
+    - tuymaada/2021/j5
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text word for word: 110 marked cells in a 100 x 100 table, can rows and columns be permuted to put them all on or above the main diagonal.'

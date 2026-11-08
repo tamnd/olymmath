@@ -1,0 +1,8 @@
+id: 74828665de9f
+kind: official
+records:
+    - pl-om/2021/p1
+decision: reject
+by: agent
+date: "2026-11-08"
+note: Agent decision, not a person's review. The paper text takes k >= 2 and the k smallest primes. The record has no k >= 2 and writes p_3 = 3 where the third prime is 5. Because of the wrong number the record does not state the paper problem as written.

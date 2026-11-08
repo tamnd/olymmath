@@ -1,0 +1,8 @@
+id: eb35e15c0428
+kind: official
+records:
+    - vtrmc/2009/p2
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text: the known middle digits 283247897734345611269596115894272 of 40!, find the missing digits a..f and p..x.'

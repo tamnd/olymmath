@@ -1,0 +1,8 @@
+id: cecc78ae9cb1
+kind: official
+records:
+    - pl-om/2001/p3
+decision: reject
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The texts differ in a number: the paper text asks for a Fibonacci type sequence with more than 2000 repeated values, the record asks for as many repeated values as one likes. Both also ask to show infinitely many is impossible.'

@@ -1,0 +1,8 @@
+id: 8d78817f719f
+kind: official
+records:
+    - cz-sk-mo/2000/p3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the Czech paper text: 2000 translated copies of a triangle of area 1, each containing the others'' centroids, union has area less than 22/9.'

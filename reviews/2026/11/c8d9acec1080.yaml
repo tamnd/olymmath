@@ -1,0 +1,8 @@
+id: c8d9acec1080
+kind: official
+records:
+    - pl-om/2013/p1
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the Polish paper text: solve x^4 + y = x^3 + y^2 in integers.'

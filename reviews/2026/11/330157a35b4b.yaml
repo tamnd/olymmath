@@ -1,0 +1,8 @@
+id: 330157a35b4b
+kind: official
+records:
+    - imc/2019/p1
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text: the product over n >= 3 of (n^3+3n)^2/(n^6-64). The text score is low because the paper text has no TeX.'

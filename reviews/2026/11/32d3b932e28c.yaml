@@ -1,0 +1,8 @@
+id: 32d3b932e28c
+kind: official
+records:
+    - imo/2000/p3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: the flea jumping move with ratio lambda and moving all fleas arbitrarily far to the right. The left and right labels of A and B are swapped but the move is the same.'

@@ -1,0 +1,8 @@
+id: d4c36904ce5a
+kind: official
+records:
+    - imo/2013/p1
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: 1 + (2^k - 1)/n as a product of k factors 1 + 1/m_i. The text score is low because the paper text has no TeX.'

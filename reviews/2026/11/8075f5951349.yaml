@@ -1,0 +1,8 @@
+id: 8075f5951349
+kind: official
+records:
+    - imo/1967/p4
+decision: reject
+by: agent
+date: "2026-11-08"
+note: Agent decision, not a person's review. The paper text puts A0 on BC, B0 on CA and C0 on AB. The record says BC contains B0 and CA contains B0, a different condition. The rest is the same problem, the largest triangle similar to A1B1C1 around A0B0C0, so the record text needs the letter fix.

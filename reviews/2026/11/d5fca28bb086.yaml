@@ -1,0 +1,8 @@
+id: d5fca28bb086
+kind: official
+records:
+    - imo/1991/p3
+decision: reject
+by: agent
+date: "2026-11-08"
+note: Agent decision, not a person's review. The paper text at this position is another problem, the one about n-element subsets of {1, ..., 280} with five pairwise coprime numbers. The record is the graph edge labeling problem, which appears in the paper text later as problem 1 of the second day.

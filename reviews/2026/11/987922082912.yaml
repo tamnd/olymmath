@@ -1,0 +1,8 @@
+id: "987922082912"
+kind: official
+records:
+    - imo/1979/p4
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: maximize (QP + PR)/QR over R in the plane. The paper text writes PA where PR is meant.'

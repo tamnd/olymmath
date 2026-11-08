@@ -1,0 +1,8 @@
+id: 9624aa0780d6
+kind: official
+records:
+    - isl/2009/c2
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: the maximal number N(n) of triples with sum n and all coordinates pairwise distinct. The record also has a comment appended.'

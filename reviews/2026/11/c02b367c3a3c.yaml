@@ -1,0 +1,8 @@
+id: c02b367c3a3c
+kind: official
+records:
+    - cz-sk-mo/2005/p2
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the Czech paper text: for which m are there exactly 2^15 subsets of {1,...,47} with least element m and x+m in X or x+m > 47. The paper text shows 2^15 as 215.'

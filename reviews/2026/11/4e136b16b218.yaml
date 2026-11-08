@@ -1,0 +1,8 @@
+id: 4e136b16b218
+kind: official
+records:
+    - imc/2019/p3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text: 2f''(x) + xf''''(x) >= 1 on (-1,1) implies the integral of x f(x) over [-1,1] is at least 1/3.'

@@ -1,0 +1,8 @@
+id: 44dcab46209d
+kind: official
+records:
+    - imo/2002/p3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the paper text at this position: m, n >= 3 with a^n + a^2 - 1 dividing a^m + a - 1 for infinitely many a. The text score is low because the paper text has no TeX.'

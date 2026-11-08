@@ -1,0 +1,8 @@
+id: 468e23a4e4b9
+kind: official
+records:
+    - cz-sk-mo/2007/p1
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the Czech paper text: alternate diagonal and straight moves on an n x n board starting with a diagonal move, for which n can the piece visit every square exactly once.'

@@ -1,0 +1,8 @@
+id: f7241b7ebf58
+kind: official
+records:
+    - imc/2001/p10
+decision: reject
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The paper text states the problem on principal minors: for each m, the m by m minor (a_{j_k,j_l})_{k,l=1..m} is zero, prove A^n = 0 and a permutation makes A strictly upper triangular. The record writes k,l = 1..n for that minor, a different condition. The record text needs the 1..m fix.'

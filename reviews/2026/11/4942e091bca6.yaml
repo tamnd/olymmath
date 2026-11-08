@@ -1,0 +1,8 @@
+id: 4942e091bca6
+kind: official
+records:
+    - cz-sk-mo/2015/p5
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record states the same problem as the Czech paper text: sides differ pairwise by at least d, prove [AIG]+[BIG]+[CIG] >= (2/3)dr. The paper text shows the inequality sign as =, an extraction fault seen elsewhere in this paper series.'

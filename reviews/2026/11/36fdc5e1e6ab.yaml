@@ -1,0 +1,8 @@
+id: 36fdc5e1e6ab
+kind: sample
+records:
+    - imo/1979/p5
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The text was fixed in this change: the record asked for positive reals x_1, ..., x_5, the paper asks for non-negative reals, and this changes the answer. The record now holds the paper text, typed from the PDF.'

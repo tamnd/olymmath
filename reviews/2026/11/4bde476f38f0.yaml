@@ -1,0 +1,8 @@
+id: 4bde476f38f0
+kind: sample
+records:
+    - imo/1969/p1
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: infinitely many a such that n^4 + a is not prime for any natural n. The paper text layer reads "natura1", which gives the extra 1.'

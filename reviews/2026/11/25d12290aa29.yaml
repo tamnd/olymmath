@@ -1,0 +1,8 @@
+id: 25d12290aa29
+kind: sample
+records:
+    - imo/1979/p4
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: a plane, a point P in it and a point Q outside it, and the points R of the plane where (QP + PR)/QR is largest. The paper text layer reads PR as "PA" in the numerator, and the record has PR, which is the meaning.'

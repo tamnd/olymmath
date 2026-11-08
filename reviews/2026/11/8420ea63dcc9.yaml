@@ -1,0 +1,8 @@
+id: 8420ea63dcc9
+kind: sample
+records:
+    - imo/2011/p4
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: n weights 2^0, 2^1, ..., 2^(n-1) put on a balance one by one so that the right pan is never heavier. The paper text layer loses the superscripts, which gives the number 20.'

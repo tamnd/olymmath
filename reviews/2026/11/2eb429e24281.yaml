@@ -1,0 +1,8 @@
+id: 2eb429e24281
+kind: sample
+records:
+    - imo/2003/p5
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same inequality: (sum |x_i - x_j|)^2 <= (2/3)(n^2 - 1) sum (x_i - x_j)^2, with equality iff the x_i form an arithmetic sequence. The paper text layer reads 2/3 as 32.'

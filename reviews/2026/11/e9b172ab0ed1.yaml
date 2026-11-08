@@ -1,0 +1,8 @@
+id: e9b172ab0ed1
+kind: doubt
+records:
+    - imo/2025/p1
+decision: reject
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record imo/2025/p1 holds the text of the official 2025 English paper, problem 1 about sunny lines, word for word. The two rows of this item are other problems: the NuminaMath olympiads-ref rows from USA_TST/en-sols-TST-IMO-2025 (Ana and Banana and the periodic function) and USA_TSTST/en-sols-TSTST-2025 (the water balloons). The dataset labels both as exam IMO, problem 1, so the weak key put them here. They are not this problem.'

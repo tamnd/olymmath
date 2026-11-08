@@ -1,0 +1,8 @@
+id: b3d00a384b12
+kind: sample
+records:
+    - imo/2003/p3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: the convex hexagon where each pair of opposite sides has the distance between midpoints sqrt(3)/2 times their sum, prove all angles are equal. The differences are wording.'

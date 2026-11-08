@@ -1,0 +1,8 @@
+id: 135cde4a2b4c
+kind: sample
+records:
+    - isl/2011/a2
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: the sequences x_1, ..., x_2011 of positive integers such that for every n the sum x_1^n + 2x_2^n + ... + 2011x_2011^n is a^(n+1) + 1 for some integer a. The differences are notation.'

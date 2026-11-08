@@ -1,0 +1,8 @@
+id: 8a5e1c8886b7
+kind: sample
+records:
+    - imo/1985/p2
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: n and k coprime with k < n, the colouring of M = {1, ..., n-1} with the two conditions. The record writes the set as {1, 2, 3, ..., n-1}, which gives the number 3 in the record only.'

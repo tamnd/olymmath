@@ -1,0 +1,8 @@
+id: 29dc9baf6d44
+kind: sample
+records:
+    - imo/1974/p2
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: a point D on AB with CD the geometric mean of AD and DB iff sqrt(sin A sin B) <= sin(C/2). The record also carries the alternative formulation from the 1974 shortlist as a comment, which gives the number 1974. The statement itself is the paper statement.'

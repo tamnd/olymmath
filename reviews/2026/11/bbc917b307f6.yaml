@@ -1,0 +1,8 @@
+id: bbc917b307f6
+kind: official
+records:
+    - imo/1982/p6
+decision: replace
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record text said A_0 = A_n, a closed path, where the paper says A_0 != A_n. The official statement S2 is now canonical, with the text of the 1982 English paper typed from the PDF. The old AI-MO AoPS text stays under its marker.'

@@ -1,0 +1,8 @@
+id: 39c023ae3729
+kind: sample
+records:
+    - imo/1997/p3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: |x_1 + ... + x_n| = 1, |x_i| <= (n+1)/2, a permutation y with |y_1 + 2y_2 + ... + n y_n| <= (n+1)/2. The extra numbers in the paper are the page footer (38th IMO, July 25, 1997).'

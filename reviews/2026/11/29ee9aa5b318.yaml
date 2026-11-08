@@ -1,0 +1,8 @@
+id: 29ee9aa5b318
+kind: sample
+records:
+    - imo/1985/p5
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: the circle through A and C that meets AB and BC again at K and N, the circumcircles of ABC and KBN meeting at M, and angle OMB = 90 degrees. The paper text layer reads "EBN" where KBN is meant and loses the degree sign.'

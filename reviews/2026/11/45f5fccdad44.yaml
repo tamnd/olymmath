@@ -1,0 +1,8 @@
+id: 45f5fccdad44
+kind: official
+records:
+    - imo/1964/p6
+decision: replace
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record text was wrong in three places: it named the point A_2 where the paper has A_1, it dropped the word "true" from the last question, and it wrote D_o for D_0. The official statement S2 is now canonical, with the text of the 1964 English paper typed from the PDF. The old AI-MO AoPS text stays under its marker.'

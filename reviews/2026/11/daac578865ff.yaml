@@ -1,0 +1,8 @@
+id: daac578865ff
+kind: sample
+records:
+    - isl/2016/n8
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: the polynomials P of odd degree d where for each n there are x_1, ..., x_n with 1/2 < P(x_i)/P(x_j) < 2 and each ratio a d-th power of a rational. The paper text layer breaks the fraction 1/2, which gives the number 21.'

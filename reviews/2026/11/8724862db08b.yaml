@@ -1,0 +1,8 @@
+id: 8724862db08b
+kind: official
+records:
+    - imo/1967/p1
+decision: replace
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record text ended the condition with "if and only" and no final "if". The official statement S2 is now canonical, with the text of the 1967 English paper typed from the PDF. The old AI-MO AoPS text stays under its marker.'

@@ -1,0 +1,8 @@
+id: 1fa2a49b51c3
+kind: sample
+records:
+    - imo/2005/p3
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same inequality for xyz >= 1: the sum of (x^5 - x^2)/(x^5 + y^2 + z^2) >= 0. The differences are notation.'

@@ -1,0 +1,8 @@
+id: b7378d9c877b
+kind: sample
+records:
+    - imo/1975/p1
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same inequality: for decreasing x_i and y_i and a permutation z of y, sum (x_i - y_i)^2 <= sum (x_i - z_i)^2. The paper text layer breaks the sums, so the order signal is low.'

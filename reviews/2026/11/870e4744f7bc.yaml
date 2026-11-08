@@ -1,0 +1,8 @@
+id: 870e4744f7bc
+kind: sample
+records:
+    - imo/1999/p4
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: all pairs (n, p) with p prime, n <= 2p and n^(p-1) dividing (p-1)^n + 1. The record carries an attachment link whose file name has 99, and nothing else changes.'

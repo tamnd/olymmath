@@ -1,0 +1,8 @@
+id: 81cdb5561d00
+kind: sample
+records:
+    - isl/2022/a5
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. Same problem: the n(n-1)/2 differences a_j - a_i equal to r^1, ..., r^(n(n-1)/2). The paper text layer loses the fraction and the superscripts, which gives the number 12.'

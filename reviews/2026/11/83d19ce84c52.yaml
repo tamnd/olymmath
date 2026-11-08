@@ -1,0 +1,8 @@
+id: 83d19ce84c52
+kind: official
+records:
+    - imo/1991/p3
+decision: replace
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record text was already the paper problem: the set {1, ..., 280} and the least n such that each n-element subset has five pairwise coprime numbers, problem 3 of the first day. The review d5fca28bb086 compared it with another segment: the 1991 paper numbers the problems of each day 1 to 3, so the problem 1 of the second day was read at position 3. The official statement S3 is new and canonical, with the text of the 1991 English paper (page 1). The AoPS wiki text stays under its marker.'

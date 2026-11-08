@@ -1,0 +1,8 @@
+id: ccfd6112f670
+kind: official
+records:
+    - imo/1968/p1
+decision: replace
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The record text asked to find all triangles with consecutive integer sides and one angle twice another. The paper asks to prove that there is one and only one such triangle. The official statement S4 is new and canonical, with the text of the 1968 English paper (page 1). The old AI-MO AoPS text stays under its marker.'

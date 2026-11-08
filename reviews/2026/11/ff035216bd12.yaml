@@ -1,0 +1,8 @@
+id: ff035216bd12
+kind: sample
+records:
+    - imo/1967/p4
+decision: accept
+by: agent
+date: "2026-11-08"
+note: 'Agent decision, not a person''s review. The text was fixed in this change: the record said that BC contains B_0, where the paper puts A_0 on BC. The record now holds the paper text, typed from the PDF, with C_0 on AB where the text layer reads "AC0".'

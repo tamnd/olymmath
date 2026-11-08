@@ -1,0 +1,8 @@
+id: 07f4a363d2bc
+kind: sample
+records:
+    - isl/2010/a1
+decision: accept
+by: agent
+date: "2026-11-08"
+note: Agent decision, not a person's review. Same functional equation f(floor(x) y) = f(x) floor(f(y)). The extra 1 in the paper is the equation label (1).

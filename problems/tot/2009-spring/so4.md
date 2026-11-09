@@ -1,0 +1,21 @@
+---
+tag: FR7R0GYMF5
+kind: problem
+appearances:
+  - at: tot/2009-spring/so4
+    primary: true
+canonical:
+  statement: S1
+  rule: curated
+statements:
+  - id: S1
+    lang: ru
+    source: problems-ru
+    name: problems.ru, problem 64517
+    url: https://problems.ru/view_problem_details_new.php?id=64517
+    origin: H2
+    zone: Z3
+    kind: transcription
+status:
+  statement: sourced
+---

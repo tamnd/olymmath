@@ -122,7 +122,7 @@
   languages: [ru, en]
   copyright: None stated.
   sources: [turgor, problems-ru]
-  description: A contest held in many towns in two rounds a year, each with two tiers and two levels. problems.ru holds 1,854 of its problems.
+  description: A contest held in many towns in two rounds a year, each with two tiers and two levels. problems.ru holds 1,854 of its problems. An edition is a round, named by the year in which it is held, as in 2024-fall and 2025-spring. A position is the tier (j for juniors in grades 7-8 or 8-9, s for seniors in grades 9-10 or 10-11), the level (o for the base, training or preparatory paper, a for the hard or main paper) and the problem number, as in tot/2024-fall/sa3.
 
 - code: iom
   name: International Olympiad of Metropolises
@@ -2333,7 +2333,7 @@
   languages: [ru]
   copyright: None stated.
   sources: [mccme-vmo, problems-ru, imomath, hf-numina-olympiads]
-  description: The Russian national olympiad with regional and final stages. It was the All-Union olympiad from 1967 to 1991, and 2026 was the 52nd.
+  description: The Russian national olympiad with regional and final stages. It was the All-Union olympiad from 1967 to 1991, and 2026 was the 52nd. A problem of the final stage from problems.ru is at pGN, grade then number, as in ru-allrussian/2005/p94.
 
 - code: ru-moscow
   name: Moscow Mathematical Olympiad
@@ -2421,7 +2421,7 @@
   languages: [ru]
   copyright: Copyright MCCME.
   sources: [problems-ru]
-  description: A Moscow tournament in many subjects with a mathematics section. problems.ru holds 372 of its problems.
+  description: A Moscow tournament in many subjects with a mathematics section. problems.ru holds 372 of its problems. The mathematics paper of a year has one list for all grades, so a position is pN.
 
 - code: ru-euler
   name: Euler Olympiad

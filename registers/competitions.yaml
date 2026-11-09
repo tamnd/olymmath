@@ -2417,6 +2417,8 @@
   names: {ru: Турнир Ломоносова}
   group: national
   country: RU
+  first_year: 1978
+  edition_form: year
   official_solutions: true
   languages: [ru]
   copyright: Copyright MCCME.

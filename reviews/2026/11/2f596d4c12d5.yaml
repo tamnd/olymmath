@@ -1,0 +1,8 @@
+id: 2f596d4c12d5
+kind: match
+records:
+    - ru-moscow/2006/p94
+decision: reject
+by: agent
+date: "2026-11-10"
+note: 'Agent decision, not a person''s review. Strong score (0.56) only from shared numbers and symbols. Checked by hand: the seed row asks for the least number of operations to get a power of x, while this record is a different problem about the signs of the coefficients of a polynomial power.'

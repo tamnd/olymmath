@@ -1086,7 +1086,7 @@
   origin: H1
   url: https://georgmohr.dk/
   access: pdf
-  terms: 'The page of the papers says "© Georg Mohr-Konkurrencens opgaver må ikke benyttes til kommercielle formål, herunder træning af sprogmodeller." The problems may not be used for commercial purposes, including the training of language models. So the content links to the papers and holds no text of them.'
+  terms: "The page of the papers says \"© Georg Mohr-Konkurrencens opgaver må ikke benyttes til kommercielle formål, herunder træning af sprogmodeller.\" The problems may not be used for commercial purposes, including the training of language models. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper. The text is shown on the non-commercial site only: ai_train stays no, so the export leaves it out and nothing here is used to train a model."
   zone:
     statement: Z2
     solution: Z2
@@ -1129,7 +1129,7 @@
   origin: H1
   url: https://tuymaada.lensky-kray.ru/en/arhiv/
   access: pdf
-  terms: The booklets say "© Republic of Sakha (Yakutia) ministry of education and science" and give no licence, so the content links to them and holds no text of them.
+  terms: "The booklets say \"© Republic of Sakha (Yakutia) ministry of education and science\" and give no licence. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper."
   zone:
     statement: Z2
     solution: Z2
@@ -1226,7 +1226,7 @@
   origin: H1
   url: https://pamoofficial.org/problems/
   access: html
-  terms: The problems page states no licence, so the content links to the page and holds no text of it.
+  terms: "The problems page states no licence. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper."
   zone:
     statement: Z2
     solution: Z2
@@ -1537,7 +1537,7 @@
   origin: H1
   url: https://www.matematickaolympiada.cz/mo-pro-ss/rocnik
   access: pdf
-  terms: The pages and the papers state no licence. So the content links to the papers and holds no text of them.
+  terms: "The pages and the papers state no licence. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper."
   zone:
     statement: Z2
     solution: Z2
@@ -1566,7 +1566,7 @@
   origin: H1
   url: https://dms.rs/matematika-srednje-skole/
   access: pdf
-  terms: The pages and the papers state no licence. So the content links to the papers and holds no text of them.
+  terms: "The pages and the papers state no licence. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper."
   zone:
     statement: Z2
     solution: Z2

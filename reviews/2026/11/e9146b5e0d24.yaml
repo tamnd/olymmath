@@ -1,0 +1,8 @@
+id: e9146b5e0d24
+kind: official
+records:
+    - it-cesenatico/2022/p4
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The problem runs from page 1 to page 2, and the page footer between them is left out. The table in the figure is written as an array; the paper sets the diagonal entries in bold. The text layer gives \"i 6= k\" for $i \\ne k$."

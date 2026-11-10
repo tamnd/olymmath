@@ -1,0 +1,8 @@
+id: f75cc95c53d4
+kind: official
+records:
+    - rs-smo/2024/p3
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The splitter missed it; this is problem 3 of day 1 on page 1. The text layer spells the Cyrillic font in Latin letters; the text is in Cyrillic as printed."

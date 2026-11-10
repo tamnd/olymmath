@@ -1,0 +1,8 @@
+id: 0e61407f040a
+kind: official
+records:
+    - pl-om/2026/p3
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer shows \"¬\" for <= and loses the exponents and the root; the inequality is rebuilt from the page image."

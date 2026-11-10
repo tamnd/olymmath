@@ -1,0 +1,8 @@
+id: c28550c11dbb
+kind: official
+records:
+    - rs-smo/2023/p2
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The record page 2 and its raw text hold day 2; problem 2 of day 1 is on page 1 (the paper numbers 1 to 6), so the text is taken from there. The text layer spells the Cyrillic font in Latin letters; the text is in Cyrillic as printed."

@@ -1,0 +1,8 @@
+id: dea7100995e9
+kind: official
+records:
+    - tuymaada/2026/s8
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer mangles the vector arrows; the page image shows $\\vec{x}$, $\\vec{y}$, $\\vec{z}$ and norms. Author line (N. El Idrissi, H. Zoubeir) left out."

@@ -1,0 +1,8 @@
+id: b2c93edc2356
+kind: official
+records:
+    - it-cesenatico/2006/p4
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The file cesenatico06-testi e soluzioni.pdf in the zip has a broken font encoding, so the text layer is unreadable. Page 3 was read with the codex lane and checked against the page image. The figure is the centre of the spiral, a 5 by 5 grid of the numbers 1 to 25; it is written as an array."

@@ -1,0 +1,8 @@
+id: 765e104ce992
+kind: official
+records:
+    - pl-om/2026/p4
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer garbles the fractions (\"f ( x1 )\", \"R(x+ 1 )\"); the page image shows f(1/x), P(x)/Q(x) and R(x+1/x)/S(x+1/x)."

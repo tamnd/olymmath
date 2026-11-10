@@ -1,0 +1,8 @@
+id: 42e5d9686c79
+kind: official
+records:
+    - de-bundeswettbewerb/2020/p6
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. This is Aufgabe 2 of the second round paper; the text layer loses the squares, the page image shows x^2 + y^2 + z^2 = 100."

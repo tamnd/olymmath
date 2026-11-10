@@ -1,0 +1,8 @@
+id: fdac4004e147
+kind: official
+records:
+    - pl-om/2005/p4
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer shows \"­\" for >= and loses the square roots and exponents; the equation is rebuilt from the page image."

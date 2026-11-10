@@ -1,0 +1,8 @@
+id: 3b5e20bcb7ee
+kind: official
+records:
+    - pl-om/2008/p1
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer shows \"­\" for >= and loses the fractions and exponents; the inequality is rebuilt from the page image."

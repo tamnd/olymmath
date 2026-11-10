@@ -1,0 +1,8 @@
+id: 21a6bbb2d93c
+kind: official
+records:
+    - pl-om/2010/p2
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer loses the exponents and moves the root sign; the page image shows a^3 + 4a^2 b = 4a^2 + b^4 and \\sqrt{a} - 1."

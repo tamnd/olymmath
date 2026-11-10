@@ -1,0 +1,8 @@
+id: 9d4c92994b68
+kind: official
+records:
+    - cz-sk-mo/2023/p4
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The problem is on page 2 (day 2), not page 1. The text layer gives n = 3; the page image shows n >= 3, and the subscripts are restored."

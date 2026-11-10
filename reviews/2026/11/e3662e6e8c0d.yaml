@@ -1,0 +1,8 @@
+id: e3662e6e8c0d
+kind: official
+records:
+    - pl-om/2003/p3
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer gives \"2n −1\"; the page image shows 2^n - 1."

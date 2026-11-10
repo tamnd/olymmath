@@ -5,4 +5,4 @@ records:
 decision: reject
 by: agent
 date: "2026-11-10"
-note: 'Agent decision, not a person's review. The content match put the seed row hf-numinamath-1-5|data/train-00000-of-00003.parquet#68340 at this position as a strong pair and it is the same problem, but the numbers of the seed row are broken by escaped dollar signs, and the list of the numbers on the backs is garbled, so the text is left out.'
+note: 'Agent decision, not a person''s review. The content match put the seed row hf-numinamath-1-5|data/train-00000-of-00003.parquet#68340 at this position as a strong pair and it is the same problem, but the numbers of the seed row are broken by escaped dollar signs, and the list of the numbers on the backs is garbled, so the text is left out.'

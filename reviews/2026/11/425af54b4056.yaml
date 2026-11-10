@@ -5,4 +5,4 @@ records:
 decision: reject
 by: agent
 date: "2026-11-10"
-note: 'Agent decision, not a person's review. The content match put the seed row hf-numinamath-1-5|data/train-00000-of-00003.parquet#65863 at this position as a strong pair and it is the same problem, but the seed row lost the numbers of its formulas (the number of floors and the size N of the rectangle are missing), so the text is left out.'
+note: 'Agent decision, not a person''s review. The content match put the seed row hf-numinamath-1-5|data/train-00000-of-00003.parquet#65863 at this position as a strong pair and it is the same problem, but the seed row lost the numbers of its formulas (the number of floors and the size N of the rectangle are missing), so the text is left out.'

@@ -5,8 +5,8 @@ appearances:
   - at: tot/2021-spring/so3
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,17 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-aops-wiki
+    name: AoPS wiki problems
+    url: https://artofproblemsolving.com/community/c6h3017309p27113567
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+For which $n{}$ is it possible that a product of $n{}$ consecutive positive integers is equal to a sum of $n{}$ consecutive (not necessarily the same) positive integers?
+
+Boris Frenkin

@@ -5,8 +5,8 @@ appearances:
   - at: tot/2005-fall/ja5
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,25 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
+  - id: S3
+    lang: en
+    source: hf-aops-wiki
+    name: AoPS wiki problems
+    url: https://artofproblemsolving.com/community/c6h1069955p4649039
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+Find the largest positive integer $N$ such that the equation $99x + 100y + 101z = N$ has an unique solution in the positive integers $x, y, z$ .
+
+*(7 points)*

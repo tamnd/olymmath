@@ -6,8 +6,8 @@ appearances:
     primary: true
   - at: tot/2002-fall/sa1
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -17,6 +17,23 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
+  - id: S3
+    lang: en
+    source: hf-aops-wiki
+    name: AoPS wiki problems
+    url: https://artofproblemsolving.com/community/c6h589656p3492020
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+All the species of plants existing in Russia are catalogued (numbered by integers from $2$ to $2000$ ; one after another, without omissions or repetitions). For any pair of species the gcd of their catalogue numbers was calculated and recorded but the catalogue numbers themselves were lost. Is it possible to restore the catalogue numbers from the data in hand?

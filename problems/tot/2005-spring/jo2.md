@@ -5,8 +5,8 @@ appearances:
   - at: tot/2005-spring/jo2
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,25 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
+  - id: S3
+    lang: en
+    source: hf-aops-wiki
+    name: AoPS wiki problems
+    url: https://artofproblemsolving.com/community/c6h1064946p4622962
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+Prove that one of the digits 1, 2 and 9 must appear in the base-ten expression of $n$ or $3n$ for any positive integer $n$ .
+
+*(4 points)*

@@ -5,8 +5,8 @@ appearances:
   - at: tot/2020-fall/ja2
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,17 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-aops-wiki
+    name: AoPS wiki problems
+    url: https://artofproblemsolving.com/community/c6h3017271p27113409
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+Let us say that a pair of distinct positive integers is nice if their arithmetic mean and their geometric mean are both integer. Is it true that for each nice pair there is another nice pair with the same arithmetic mean? (The pairs $(a, b)$ and $(b, a)$ are considered to be the same pair.)
+
+Boris Frenkin

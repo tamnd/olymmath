@@ -5,8 +5,8 @@ appearances:
   - at: tot/2000-spring/jo2
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,25 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
+  - id: S3
+    lang: en
+    source: hf-aops-wiki
+    name: AoPS wiki problems
+    url: https://artofproblemsolving.com/community/c6h2071263p14830968
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+In a quadrilateral $ABCD$ of area $1$ , the parallel sides $BC$ and $AD$ are in the ratio $1 :2$ . $K$ is the midpoint of the diagonal $AC$ and $L$ is the point of intersection of the line $DK$ and the side $AB$ . Determine the area of the quadrilateral $BCKL$ .
+
+(M G Sonkin)

@@ -5,8 +5,8 @@ appearances:
   - at: tot/2021-fall/ja3
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,25 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
+  - id: S3
+    lang: en
+    source: hf-aops-wiki
+    name: AoPS wiki problems
+    url: https://artofproblemsolving.com/community/c6h3017236p27113322
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+The hypotenuse of a right triangle has length 1. Consider the line passing through the points of tangency of the incircle with the legs of the triangle. The circumcircle of the triangle cuts out a segment of this line. What is the possible length of this segment?
+
+*Maxim Volchkevich*

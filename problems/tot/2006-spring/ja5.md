@@ -5,8 +5,8 @@ appearances:
   - at: tot/2006-spring/ja5
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,25 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
+  - id: S3
+    lang: en
+    source: hf-aops-wiki
+    name: AoPS wiki problems
+    url: https://artofproblemsolving.com/community/c6h1078126p4721511
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+Numbers $0, 1$ and $2$ are placed in a table $2005 \times 2006$ so that total sums of the numbers in each row and in each column are factors of $3$ . Find the maximal possible number of $1$ 's that can be placed in the table.
+
+*(6 points)*

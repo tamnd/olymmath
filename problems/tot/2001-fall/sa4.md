@@ -5,8 +5,8 @@ appearances:
   - at: tot/2001-fall/sa4
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,23 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
+  - id: S3
+    lang: en
+    source: hf-aops-wiki
+    name: AoPS wiki problems
+    url: https://artofproblemsolving.com/community/c6h425073p2405498
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+Let $F_1$ be an arbitrary convex quadrilateral. For $k\ge2$ , $F_k$ is obtained by cutting $F_{k-1}$ into two pieces along one of its diagonals, flipping one piece over, and the glueing them back together along the same diagonal. What is the maximum number of non-congruent quadrilaterals in the sequence $\{F_k\}$ ?

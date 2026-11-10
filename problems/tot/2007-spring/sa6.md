@@ -5,8 +5,8 @@ appearances:
   - at: tot/2007-spring/sa6
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,24 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
+  - id: S3
+    lang: en
+    source: hf-aops-wiki
+    name: AoPS wiki problems
+    url: https://artofproblemsolving.com/community/c6h428410p2425059
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+Let $a_0$ be an irrational number such that $0 < a_0 < \frac 12$ . Define $a_n = \min \{2a_{n-1},1 - 2a_{n-1}\}$ for $n \geq 1$ .
+[list]**(a)** Prove that $a_n < \frac{3}{16}$ for some $n$ .**(b)** Can it happen that $a_n > \frac{7}{40}$ for all $n$ ?[/list]

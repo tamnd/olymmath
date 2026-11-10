@@ -5,8 +5,8 @@ appearances:
   - at: tot/2019-spring/ja4
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,25 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
+  - id: S3
+    lang: en
+    source: hf-aops-wiki
+    name: AoPS wiki problems
+    url: https://artofproblemsolving.com/community/c6h2102836p15208882
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+Each segment whose endpoints are the vertices of a given regular $100$ -gon is colored red, if the number of vertices between its endpoints is even, and blue otherwise. (For example, all sides of the $100$ -gon are red.) A number is placed in every vertex so that the sum of their squares is equal to $1$ . On each segment the product of the numbers at its endpoints is written. The sum of the numbers on the blue segments is subtracted from the sum of the numbers on the red segments. What is the greatest possible result?
+
+(Ilya Bogdanov)

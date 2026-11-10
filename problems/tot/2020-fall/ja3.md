@@ -5,8 +5,8 @@ appearances:
   - at: tot/2020-fall/ja3
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,28 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
+  - id: S3
+    lang: en
+    source: hf-aops-wiki
+    name: AoPS wiki problems
+    url: https://artofproblemsolving.com/community/c6h3017272p27113416
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+Alice and Bob are playing the following game. Each turn Alice suggests an integer and Bob writes down either that number or the sum of that number with all previously written numbers. Is it always possible for Alice to ensure that at some moment among the written numbers there are
+[list=a]
+[*]at least a hundred copies of number 5?
+[*]at least a hundred copies of number 10?
+[/list]
+*Andrey Arzhantsev*

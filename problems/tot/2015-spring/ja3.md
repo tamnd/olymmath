@@ -6,8 +6,8 @@ appearances:
     primary: true
   - at: tot/2015-spring/sa1
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -17,6 +17,25 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
+  - id: S3
+    lang: en
+    source: hf-aops-wiki
+    name: AoPS wiki problems
+    url: https://artofproblemsolving.com/community/c6h1389048p7736731
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+**(a)** The integers $x$ , $x^2$ and $x^3$ begin with the same digit. Does it imply that this digit is $1$ ?
+*( $2$ points)***(b)** The same question for the integers $x, x^2, x^3, \cdots, x^{2015}$ *( $3$ points)*
+.

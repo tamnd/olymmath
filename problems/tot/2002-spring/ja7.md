@@ -5,8 +5,8 @@ appearances:
   - at: tot/2002-spring/ja7
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,23 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
+  - id: S3
+    lang: en
+    source: hf-aops-wiki
+    name: AoPS wiki problems
+    url: https://artofproblemsolving.com/community/c6h589258p3489228
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+Some domino pieces are placed in a chain according to standard rules. In each move, we may remove a sub-chain with equal numbers at its ends, turn the whole sub-chain around, and put it back in the same place. Prove that for every two legal chains formed from the same pieces and having the same numbers at their ends, we can transform one to another in a finite sequence of moves.

@@ -5,8 +5,8 @@ appearances:
   - at: tot/2020-spring/ja7
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,25 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
+  - id: S3
+    lang: en
+    source: hf-aops-wiki
+    name: AoPS wiki problems
+    url: https://artofproblemsolving.com/community/c6h2141899p15731365
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+Gleb picked positive integers $N$ and $a$ ( $a < N$ ). He wrote the number $a$ on a blackboard. Then each turn he did the following: he took the last number on the blackboard, divided the number $N$ by this last number with remainder and wrote the remainder onto the board. When he wrote the number $0$ onto the board, he stopped. Could he pick $N$ and $a$ such that the sum of the numbers on the blackboard would become greater than $100N$ ?
+
+Ivan Mitrofanov

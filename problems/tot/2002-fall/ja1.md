@@ -5,8 +5,8 @@ appearances:
   - at: tot/2002-fall/ja1
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,23 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
+  - id: S3
+    lang: en
+    source: hf-aops-wiki
+    name: AoPS wiki problems
+    url: https://artofproblemsolving.com/community/c6h589642p3491966
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+There are $2002$ employees in a bank. All the employees came to celebrate the bank's jubilee and were seated around one round table. It is known that the difference in salaries of any two adjacent employees is $2$ or $3$ dollars. Find the maximal difference in salaries of two employees, if it is known all salaries are different.

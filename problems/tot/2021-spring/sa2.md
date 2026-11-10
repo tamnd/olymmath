@@ -5,8 +5,8 @@ appearances:
   - at: tot/2021-spring/sa2
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,24 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
+  - id: S3
+    lang: en
+    source: hf-aops-wiki
+    name: AoPS wiki problems
+    url: https://artofproblemsolving.com/community/c6h3017324p27113628
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+Does there exist a positive integer $n{}$ such that for any real $x{}$ and $y{}$ there exist real numbers $a_1, \ldots , a_n$ satisfying $$x=a_1+\cdots+a_n\text{ and }y=\frac{1}{a_1}+\cdots+\frac{1}{a_n}?$$
+*Artemiy Sokolov*

@@ -5,8 +5,8 @@ appearances:
   - at: tot/2007-fall/so4
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,23 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
+  - id: S3
+    lang: en
+    source: hf-aops-wiki
+    name: AoPS wiki problems
+    url: https://artofproblemsolving.com/community/c6h428695p2426210
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+The audience chooses two of twenty-nine cards, numbered from $1$ to $29$ respectively. The assistant of a magician chooses two of the remaining twenty-seven cards, and asks a member of the audience to take them to the magician, who is in another room. The two cards are presented to the magician in an arbitrary order. By an arrangement with the assistant beforehand, the magician is able to deduce which two cards the audience has chosen only from the two cards he receives. Explain how this may be done.

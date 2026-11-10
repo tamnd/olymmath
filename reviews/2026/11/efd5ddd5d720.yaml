@@ -1,0 +1,24 @@
+id: efd5ddd5d720
+kind: official
+records:
+    - pt-opm/1998/p2
+    - pt-opm/2000/p2
+    - pt-opm/2003/p2
+    - pt-opm/2008/p2
+    - pt-opm/2010/p6
+    - pt-opm/2018/p6
+    - pt-opm/2022/p2
+    - pt-opm/2026/p1
+    - pt-opm/2026/p4
+    - mx-omm/2024/p1
+    - tuymaada/2025/s8
+    - cono-sur/2025/p4
+    - de-bundeswettbewerb/2025/p4
+    - it-cesenatico/2024/p5
+    - lusophon/2024/p4
+    - lusophon/2025/p3
+    - memo/2025/t3
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text says the problem has a figure, but the record had none. The figure is cropped from the page of the official PDF (Z2) with om figure, saved next to the problem and shown at its place in the paper. Each crop was checked by eye: the whole drawing with its labels, and no text of the problem in it. In pt-opm 2026 p1 and p4 the figure replaces a TeX array that copied the table and the pyramid."

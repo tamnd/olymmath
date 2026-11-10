@@ -6,17 +6,17 @@ This report is made by `om coverage`. The register gives the expected positions 
 
 | Expected | C0 | C1 | C2 | Candidate | No candidate | Located seed rows |
 |---:|---:|---:|---:|---:|---:|---:|
-| 31254 | 71.8% | 11.9% | 10.4% | 626 (2.0%) | 8182 (26.2%) | 157268 |
+| 31813 | 72.3% | 12.1% | 10.2% | 626 (2.0%) | 8182 (25.7%) | 156958 |
 
 ## Sources
 
 | Source | Rows | Located | With a position | Not a competition |
 |---|---:|---:|---:|---:|
-| hf-ai-mo-aops | 80661 | 50421 (62.5%) | 0 | 20635 |
+| hf-ai-mo-aops | 80661 | 49931 (61.9%) | 0 | 21125 |
 | hf-aime-1983-2026 | 1065 | 1065 (100.0%) | 1065 | 0 |
 | hf-amc12-full | 1199 | 1199 (100.0%) | 1199 | 0 |
 | hf-amo-bench | 50 | 50 (100.0%) | 50 | 0 |
-| hf-aops-wiki | 43005 | 33618 (78.2%) | 27736 | 6161 |
+| hf-aops-wiki | 43005 | 33615 (78.2%) | 27736 | 6164 |
 | hf-hrm8k | 8011 | 730 (9.1%) | 0 | 7281 |
 | hf-indonesian-olympiad | 2204 | 30 (1.4%) | 0 | 0 |
 | hf-liveaopsbench | 5328 | 0 (0.0%) | 0 | 5328 |
@@ -34,6 +34,7 @@ This report is made by `om coverage`. The register gives the expected positions 
 | hf-putnam-axiom | 100 | 100 (100.0%) | 99 | 0 |
 | hf-putnamgap | 1051 | 1051 (100.0%) | 1037 | 0 |
 | hf-tubitak | 1270 | 671 (52.8%) | 0 | 599 |
+| problems-ru | 183 | 183 (100.0%) | 0 | 0 |
 
 ## Competitions
 
@@ -41,14 +42,14 @@ The order is the order of the register. A competition with no shape in the regis
 
 | Code | Competition | Expected | C0 | C1 | C2 | Candidate | No candidate | Seed rows |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| imo | International Mathematical Olympiad | 410 | 98.5% | 34.9% | 34.9% | 6 | 0 | 1486 |
+| imo | International Mathematical Olympiad | 410 | 98.5% | 37.6% | 37.6% | 6 | 0 | 1486 |
 | isl | IMO Shortlist | 541 | 100.0% | 66.4% | 66.4% | 0 | 0 | 5743 |
 | ill | IMO Longlist | no shape | - | - | - | 0 | 0 | 2957 |
 | igo | Iranian Geometry Olympiad | 190 | 52.1% | 0.0% | 0.0% | 0 | 91 | 307 |
 | kangaroo | Mathematical Kangaroo | no shape | - | - | - | 0 | 0 | 0 |
-| tot | Tournament of Towns | no shape | - | - | - | 0 | 0 | 2852 |
+| tot | Tournament of Towns | no shape | - | - | - | 0 | 0 | 3035 |
 | iom | International Olympiad of Metropolises | 66 | 53.0% | 0.0% | 0.0% | 1 | 30 | 72 |
-| sharygin | Sharygin Geometry Olympiad | 310 | 100.0% | 41.0% | 41.0% | 0 | 0 | 1833 |
+| sharygin | Sharygin Geometry Olympiad | 869 | 100.0% | 25.5% | 14.6% | 0 | 0 | 1833 |
 | tuymaada | Tuymaada Olympiad | 304 | 71.1% | 15.8% | 15.8% | 0 | 88 | 802 |
 | zhautykov | International Zhautykov Olympiad | 132 | 64.4% | 4.5% | 4.5% | 18 | 29 | 418 |
 | silk-road | Silk Road Mathematical Competition | 100 | 83.0% | 0.0% | 0.0% | 0 | 17 | 283 |
@@ -182,7 +183,7 @@ The order is the order of the register. A competition with no shape in the regis
 | me-mo | Montenegro national mathematics olympiad | no shape | - | - | - | 0 | 0 | 0 |
 | al-mo | Albania national mathematics olympiad | no shape | - | - | - | 0 | 0 | 0 |
 | xk-mo | Kosovo national mathematics olympiad | 52 | 98.1% | 0.0% | 0.0% | 0 | 1 | 492 |
-| ru-allrussian | All-Russian Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 5908 |
+| ru-allrussian | All-Russian Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 5415 |
 | ru-moscow | Moscow Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 833 |
 | ru-spb | St Petersburg Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 710 |
 | ru-239-open | 239 Lyceum Open Olympiad | no shape | - | - | - | 0 | 0 | 324 |
@@ -301,7 +302,7 @@ The order is the order of the register. A competition with no shape in the regis
 
 ## Unknown competitions
 
-These labels do not resolve through the alias table (1330 keys). There are 1587 labels with 22766 rows. The full list is in `unknown-competitions.tsv`. To resolve a label, add a line to `registers/competition-aliases.tsv`, or add the competition to the register.
+These labels do not resolve through the alias table (1332 keys). There are 1587 labels with 22766 rows. The full list is in `unknown-competitions.tsv`. To resolve a label, add a line to `registers/competition-aliases.tsv`, or add the competition to the register.
 
 | Source | Label | Rows |
 |---|---|---:|

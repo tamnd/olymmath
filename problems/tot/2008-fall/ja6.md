@@ -5,8 +5,8 @@ appearances:
   - at: tot/2008-fall/ja6
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,15 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-numinamath-1-5
+    name: NuminaMath-1.5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+Given is a scalene triangle $ABC$. Outside the triangle, isosceles triangles $AB'C$ and $CA'B$ are constructed with bases $AC$ and $BC$ respectively, and angles at the bases equal to $\varphi$. The line through vertex $C$, perpendicular to $A'B'$, intersects the perpendicular bisector of segment $AB$ at point $C_{1}$. Find $\angle AC_{1}B$.

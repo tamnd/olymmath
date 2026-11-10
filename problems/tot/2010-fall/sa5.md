@@ -5,8 +5,8 @@ appearances:
   - at: tot/2010-fall/sa5
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,15 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-numinamath-1-5
+    name: NuminaMath-1.5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+Quadrilateral $ABCD$ is inscribed in a circle with center $O$, where $O$ does not lie on a diagonal of the quadrilateral. It is known that the center of the circle circumscribed around triangle $AOC$ lies on the line $BD$. Prove that the center of the circle circumscribed around triangle $BOD$ lies on the line $AC$.

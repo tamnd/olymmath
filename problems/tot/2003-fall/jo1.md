@@ -5,8 +5,8 @@ appearances:
   - at: tot/2003-fall/jo1
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,15 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-numinamath-1-5
+    name: NuminaMath-1.5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+Each face of a rectangular parallelepiped $3 \times 4 \times 5$ is divided into unit squares. Is it possible to inscribe a number in each square so that the sum of the numbers in each cellular ring of width 1, encircling the parallelepiped, is equal to 120?

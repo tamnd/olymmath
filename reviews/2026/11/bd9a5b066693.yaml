@@ -1,0 +1,8 @@
+id: bd9a5b066693
+kind: match
+records:
+    - tot/2012-spring/jo3
+decision: accept
+by: agent
+date: "2026-11-10"
+note: Agent decision, not a person's review. The content match put the seed row hf-ai-mo-aops|data/train-00000-of-00001.parquet#28957 at this position with a score of 0.380 (the next key of the row 0.126, the next row of the key 0.209), below the strong threshold. Asked whether the row and the problems.ru text of the record state the same problem, the codex lane said yes.

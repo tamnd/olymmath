@@ -1,0 +1,8 @@
+id: 1bed4dccfca4
+kind: match
+records:
+    - tot/2009-fall/sa5
+decision: reject
+by: agent
+date: "2026-11-10"
+note: 'Agent decision, not a person''s review. The content match paired the seed row with this record with a strong score, but the row is a variant: it asks about an equilateral triangle XYZ, while the problem is about any triangle XYZ. So it is not placed.'

@@ -1,0 +1,8 @@
+id: 3d650c6fff23
+kind: match
+records:
+    - ru-lomonosov/2020/p4
+decision: reject
+by: agent
+date: "2026-11-10"
+note: 'Agent decision, not a person's review. The content match put the seed row hf-numinamath-1-5|data/train-00000-of-00003.parquet#68340 at this position as a strong pair and it is the same problem, but the numbers of the seed row are broken by escaped dollar signs, and the list of the numbers on the backs is garbled, so the text is left out.'

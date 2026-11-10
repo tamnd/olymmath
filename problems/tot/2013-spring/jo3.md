@@ -5,8 +5,8 @@ appearances:
   - at: tot/2013-spring/jo3
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,15 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+Each of $11$ weights is weighing an integer number of grams. No two weights are equal. It is known that if all these weights or any group of them are placed on a balance then the side with a larger number of weights is always heavier. Prove that at least one weight is heavier than $35$ grams.

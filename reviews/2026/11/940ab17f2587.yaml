@@ -1,0 +1,8 @@
+id: 940ab17f2587
+kind: match
+records:
+    - ru-moscow/2018/d113
+decision: reject
+by: agent
+date: "2026-11-10"
+note: 'Agent decision, not a person''s review. Strong score, but the seed text is broken: the first sentence lost the condition on x and y, so the problem cannot be solved as written.'

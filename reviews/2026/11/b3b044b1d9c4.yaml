@@ -1,0 +1,8 @@
+id: b3b044b1d9c4
+kind: match
+records:
+    - ru-moscow/2013/p93
+decision: reject
+by: agent
+date: "2026-11-10"
+note: 'Agent decision, not a person''s review. Strong score, but the seed text is a changed version of the problem with an extra condition and a second part, so it is not the statement given at the olympiad.'

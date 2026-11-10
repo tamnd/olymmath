@@ -1,0 +1,8 @@
+id: 5d22b8d192a7
+kind: match
+records:
+    - ru-moscow/2017/p114
+decision: accept
+by: agent
+date: "2026-11-10"
+note: 'Agent decision, not a person''s review. Doubtful score (0.50) from the loose English of the seed row, but checked by hand: same track length, three cyclists with different constant speeds, and the same question about the smallest d.'

@@ -1,0 +1,8 @@
+id: ae3357569976
+kind: official
+records:
+    - de-bundeswettbewerb/2017/p4
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer garbles the bracket and the fraction; the page image shows a_n := a_{n-1} (4 - 2/n), and the subscripts are restored."

@@ -1,0 +1,8 @@
+id: fb9d78993eaf
+kind: official
+records:
+    - nordic/2025/p4
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer breaks the sum and gives 6= for the not-equal sign; the footnote about Pocklington's theorem belongs to Problem 2 and is left out here."

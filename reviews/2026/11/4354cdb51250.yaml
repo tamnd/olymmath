@@ -1,0 +1,8 @@
+id: 4354cdb51250
+kind: official
+records:
+    - pl-om/1998/p1
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer drops the Polish letters ł and ą (\"uklady\", \"calkowitych\", \"spelniajace\"); they are restored from the page image."

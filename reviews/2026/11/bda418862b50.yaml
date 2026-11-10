@@ -1,0 +1,8 @@
+id: bda418862b50
+kind: official
+records:
+    - it-cesenatico/2024/p5
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The paper has a figure of three example fortresses ($A = 23$, $P = 26$; $A = 20$, $P = 34$; $A = 17$, $P = 30$). The definitions in the text are complete without it, so the text is kept and the figure is left out."

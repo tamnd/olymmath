@@ -1,0 +1,8 @@
+id: cce5e646d5b1
+kind: official
+records:
+    - de-bundeswettbewerb/2025/p4
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The raw text mixes in Aufgabe 1 and misses the second half of the problem, which is taken from the page image (it sits in the raw text of p3). The letter x of mxn is written as \\times, and the closing sentence asking for a proof is left out. The paper has a figure: the 4x7 frame given as an example."

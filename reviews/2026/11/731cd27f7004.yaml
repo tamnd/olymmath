@@ -1,0 +1,8 @@
+id: 731cd27f7004
+kind: official
+records:
+    - rs-smo/2023/p5
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The splitter missed it; this is problem 5 (day 2) on page 2. The text layer spells the Cyrillic font in Latin letters; the text is in Cyrillic as printed. The nested fractions were rebuilt from the image."

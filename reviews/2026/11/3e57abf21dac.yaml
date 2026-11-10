@@ -1,0 +1,8 @@
+id: 3e57abf21dac
+kind: official
+records:
+    - tuymaada/2026/j5
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer misplaces the square roots; the page image shows $\\sqrt{x}$ in both places. Author line (A. Golovanov) left out."

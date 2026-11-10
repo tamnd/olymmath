@@ -1,0 +1,8 @@
+id: 748095aa9ae4
+kind: official
+records:
+    - de-bundeswettbewerb/2001/p2
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer loses the square root and subscripts; the page image shows a_{n+1} = a_n + \\sqrt{a_{n+1} + a_n}, and the subscript printed as the letter o in a_o is taken as 0."

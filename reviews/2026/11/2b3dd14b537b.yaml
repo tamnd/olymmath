@@ -1,0 +1,8 @@
+id: 2b3dd14b537b
+kind: official
+records:
+    - de-bundeswettbewerb/2026/p6
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. This is Aufgabe 2 of the second round paper; the text layer turns the formula into private-use symbols, the page image shows m \\le \\sum_{j=0}^{k} \\binom{n}{j}."

@@ -1,0 +1,8 @@
+id: 3c6bda7a8c33
+kind: official
+records:
+    - tuymaada/2025/s8
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The paper has a figure (the square cut by $h_1, \\dots, h_k$ with the diagonal blocks outlined); the text describes it. Author line (D. Donovan, T. Kemp, J. Lefevre) and the figure labels in the text layer left out."

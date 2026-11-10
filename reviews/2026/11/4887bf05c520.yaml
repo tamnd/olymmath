@@ -1,0 +1,8 @@
+id: 4887bf05c520
+kind: official
+records:
+    - de-bundeswettbewerb/2026/p8
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. This is Aufgabe 4 of the second round paper; the text layer gives R and R` where the page image shows a Fraktur R and its image, written here as \\mathfrak{R}'. The closing sentence asking for a proof and the conditions page are left out."

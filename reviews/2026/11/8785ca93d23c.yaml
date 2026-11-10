@@ -1,0 +1,8 @@
+id: 8785ca93d23c
+kind: official
+records:
+    - dk-georgmohr/2026/p3
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer garbles all fractions and gives 2 1001 for the power; rebuilt from the page image. A stray figure label T is dropped."

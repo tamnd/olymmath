@@ -1,0 +1,8 @@
+id: ea55a54b0c62
+kind: official
+records:
+    - nordic/2025/p2
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer gives 22p for the power. The last paragraph is the footnote of the paper attached to this problem, which the splitter put under Problem 4."

@@ -1,0 +1,8 @@
+id: 3a6bf9fb66b9
+kind: official
+records:
+    - rs-smo/2012/p3
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer spells the Cyrillic font in Latin letters; the text is in Cyrillic as printed. Broken letters such as \"може\" were restored from the image."

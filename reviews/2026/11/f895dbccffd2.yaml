@@ -1,0 +1,8 @@
+id: f895dbccffd2
+kind: official
+records:
+    - tuymaada/2026/s1
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer gives d21 + d22; the page image shows squares $d_k^2$. Author line (A. Devillers et al.) left out."

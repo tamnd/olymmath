@@ -1,0 +1,8 @@
+id: ac5cca16ad94
+kind: official
+records:
+    - de-bundeswettbewerb/2024/p7
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. This is Aufgabe 3 of the second round paper; the text layer moves the fractions out of place, the page image shows the sum D_A/V_A + D_B/V_B + D_C/V_C. The paper has a figure showing the three triangles and three quadrilaterals with their labels."

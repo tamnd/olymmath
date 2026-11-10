@@ -1,0 +1,8 @@
+id: f163d3108f21
+kind: official
+records:
+    - de-bundeswettbewerb/2023/p8
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. This is Aufgabe 4 of the second round paper; the text layer loses \"n ≥\" before the 2, and the Anmerkung asking for a proof is left out."

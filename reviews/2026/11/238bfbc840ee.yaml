@@ -1,0 +1,8 @@
+id: 238bfbc840ee
+kind: official
+records:
+    - pl-om/2002/p4
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer shows \"­\" for >= and breaks the two sums; they are rebuilt from the page image."

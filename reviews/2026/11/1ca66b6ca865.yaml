@@ -1,0 +1,8 @@
+id: 1ca66b6ca865
+kind: official
+records:
+    - imc/2007/p8
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. Day 2 Problem 2, position p8. The text layer gives 294 for 29^4 and loses the exponents."

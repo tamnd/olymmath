@@ -1,0 +1,8 @@
+id: e361aa60fb38
+kind: official
+records:
+    - imc/2000/p12
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. Day 2 Problem 6. The series for e^A and the exponents AB and BA are restored from the page image; the solution is left out."

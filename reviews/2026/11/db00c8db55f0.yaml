@@ -1,0 +1,8 @@
+id: db00c8db55f0
+kind: official
+records:
+    - imc/1998/p9
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. Day 2 Problem 3. The piecewise definition and the underbrace with n are rebuilt from the page image."

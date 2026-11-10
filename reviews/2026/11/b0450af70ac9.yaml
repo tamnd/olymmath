@@ -1,0 +1,8 @@
+id: b0450af70ac9
+kind: official
+records:
+    - imc/2005/p10
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. Day 2 Problem 4, position p10. The text layer gives f 000 and f 0 for f''' and f'; the fractions are rebuilt from the page image."

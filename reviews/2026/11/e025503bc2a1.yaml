@@ -1,0 +1,8 @@
+id: e025503bc2a1
+kind: official
+records:
+    - imc/2005/p7
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. Day 2 Problem 1, position p7. The text layer splits the square root; the solution is left out."

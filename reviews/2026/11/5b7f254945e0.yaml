@@ -1,0 +1,8 @@
+id: 5b7f254945e0
+kind: official
+records:
+    - pt-opm/2007/p3
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer puts the root sign on another line; the page image shows $\\sqrt{n}$."

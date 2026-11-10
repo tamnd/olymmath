@@ -1,0 +1,8 @@
+id: 3e2a52584b82
+kind: official
+records:
+    - imc/1999/p10
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. Day 2 Problem 4. The text layer gives \"f (x + y) f (x) + y\" without the brackets; the page shows f(x+y)(f(x)+y)."

@@ -1,0 +1,8 @@
+id: 3f596638e020
+kind: official
+records:
+    - imc/2005/p5
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer gives f 00 and f 0 for the derivatives f'' and f' and loses the square of x."

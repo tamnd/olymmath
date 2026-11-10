@@ -1,0 +1,8 @@
+id: 808d1f6a23d8
+kind: official
+records:
+    - pt-opm/2019/p5
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer puts the arc marks on another line and loses the overlines; the page image shows the arcs $\\overset{\\frown}{BC}$, $\\overset{\\frown}{AB}$, $\\overset{\\frown}{BW}$, $\\overset{\\frown}{LA}$, $\\overset{\\frown}{AP}$ and $\\overline{LQ} = \\overline{BQ}$."

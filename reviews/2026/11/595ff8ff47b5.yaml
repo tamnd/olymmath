@@ -1,0 +1,8 @@
+id: 595ff8ff47b5
+kind: official
+records:
+    - imc/2004/p5
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer splits the binomial coefficient into \"2k-4 k-2\"; the page shows binom(2k-4, k-2)+1. The point value and the solution are left out."

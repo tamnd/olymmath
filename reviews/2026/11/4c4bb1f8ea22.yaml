@@ -1,0 +1,8 @@
+id: 4c4bb1f8ea22
+kind: official
+records:
+    - imc/2001/p4
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer gives \"lnq q < ln(n+1) k\"; the page image shows q/ln q < k/ln(n+1). The solution is left out."

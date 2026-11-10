@@ -1,0 +1,8 @@
+id: c275d39db5d2
+kind: official
+records:
+    - imc/2006/p8
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. Day 2 Problem 2, position p8. The page prints a long arrow in f : R -> R; the point value is left out."

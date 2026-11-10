@@ -1,0 +1,8 @@
+id: 297732eb12fe
+kind: official
+records:
+    - imc/2001/p9
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. Day 2 Problem 3. The text layer moves the root sign into \"Rn√such\"; the page shows R^n and the bound sqrt(2)."

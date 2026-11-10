@@ -1,0 +1,8 @@
+id: f1639acd68f3
+kind: official
+records:
+    - imc/1999/p3
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer loses the absolute value bars around the sum; the page image shows them. The point value and the solution are left out."

@@ -1,0 +1,8 @@
+id: bc089b632ad3
+kind: official
+records:
+    - pt-opm/1997/p1
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. Fixed the broken diacritics in atribuídos and atribuído."

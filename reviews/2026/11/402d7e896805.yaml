@@ -1,0 +1,8 @@
+id: 402d7e896805
+kind: official
+records:
+    - pt-opm/2008/p4
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer gives 29, 28 and 27; the page image shows the powers $2^9$, $2^8$ and $2^7$."

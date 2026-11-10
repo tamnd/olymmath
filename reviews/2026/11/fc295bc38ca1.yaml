@@ -1,0 +1,8 @@
+id: fc295bc38ca1
+kind: official
+records:
+    - imc/1999/p6
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The exponent 1/p on f'(x) was moved off its line in the text layer and is placed from the page image; the point values and the solution are left out."

@@ -1,0 +1,8 @@
+id: 281c99974149
+kind: official
+records:
+    - imc/2005/p12
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. Second day, Problem 6; the paper prints \"Problem6.\" without a space, so the splitter missed it. The text layer breaks the matrices; they are taken from the page image."

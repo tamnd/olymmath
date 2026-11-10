@@ -1,0 +1,8 @@
+id: 81edb0d9353f
+kind: official
+records:
+    - imc/2005/p3
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The displayed inequality is mangled in the text layer (lost integral signs, exponents and the prime); it is rebuilt from the page image."

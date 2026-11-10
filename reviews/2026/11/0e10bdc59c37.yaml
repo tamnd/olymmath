@@ -1,0 +1,8 @@
+id: 0e10bdc59c37
+kind: official
+records:
+    - elmo/2011/p3
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer lost the sign of a_n != 0 and the subscripts; they come from the page image. The note of the paper after the problems and the header of day II are left out."

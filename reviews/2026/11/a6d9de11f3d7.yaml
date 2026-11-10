@@ -1,0 +1,8 @@
+id: a6d9de11f3d7
+kind: official
+records:
+    - imc/2009/p10
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. Day 2 Problem 5, position p10. The text layer loses the union sign, the binomial coefficients and gives 6= for the not-equal sign; the part point values (8 points) and (2 points) are left out."

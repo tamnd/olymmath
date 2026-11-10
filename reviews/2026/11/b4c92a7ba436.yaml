@@ -1,0 +1,8 @@
+id: b4c92a7ba436
+kind: official
+records:
+    - imc/1998/p4
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer gives \"f 0\" and \"f 00\" for the derivatives f' and f''; the solution is left out."

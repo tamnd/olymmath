@@ -1,0 +1,8 @@
+id: e97c5f3e5323
+kind: official
+records:
+    - pt-opm/2000/p1
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The two $3 \\times 3$ tables are written as arrays; the second has $14$ top left, $19$ and $36$ in the middle row, and $16$ in the middle of the bottom row, as on the page image."

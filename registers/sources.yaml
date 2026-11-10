@@ -691,7 +691,7 @@
   origin: H1
   url: https://elmo.evanchen.cc/problems.html
   access: pdf
-  terms: The pages and the papers state no licence. So the content links to the papers and holds no text of them.
+  terms: "The pages and the papers state no licence. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper."
   zone:
     statement: Z2
     solution: Z2
@@ -1268,7 +1268,7 @@
   origin: H1
   url: https://www.imc-math.org.uk/
   access: pdf
-  terms: The pages say "© IMC" and the papers state no licence. So the content links to the papers and holds no text of them.
+  terms: "The pages say \"© IMC\" and the papers state no licence. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper."
   zone:
     statement: Z2
     solution: Z2
@@ -1477,7 +1477,7 @@
   origin: H1
   url: https://olimpiadas.spm.pt/index.php?id=75&tipo=1
   access: pdf
-  terms: The papers and the archive page state no licence. The old page of www.mat.uc.pt/~opm says "copyright Sociedade Portuguesa de Matemática 2002". So the content links to the papers and holds no text of them.
+  terms: "The papers and the archive page state no licence. The old page of www.mat.uc.pt/~opm says \"copyright Sociedade Portuguesa de Matemática 2002\". Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper."
   zone:
     statement: Z2
     solution: Z2

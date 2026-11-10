@@ -1,0 +1,8 @@
+id: 5602ade7a895
+kind: official
+records:
+    - elmo/2026/p3
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The time limit line and the header of day 2 that the text layer joins to the problem are left out."

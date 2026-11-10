@@ -1,0 +1,8 @@
+id: 3acbe7a6f31c
+kind: official
+records:
+    - imc/2009/p3
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer scatters the sum of a_i^2 into the words (Pn us 2number); the page image shows the sum from i=1 to n of a_i^2 = n^2 - n."

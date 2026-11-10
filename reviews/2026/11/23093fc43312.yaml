@@ -1,0 +1,8 @@
+id: 23093fc43312
+kind: official
+records:
+    - elmo/2026/p5
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer gives n f (f (n)m ) = 2f (m) for the equation; the page image shows f(f(n)^m) = 2^(f(m)^n)."

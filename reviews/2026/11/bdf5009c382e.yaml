@@ -1,0 +1,49 @@
+id: bdf5009c382e
+kind: sample
+records:
+    - jp-jmo/2003/p1
+    - jp-jmo/2003/p2
+    - jp-jmo/2003/p3
+    - jp-jmo/2003/p4
+    - jp-jmo/2003/p5
+    - jp-jmo/2008/p1
+    - jp-jmo/2008/p2
+    - jp-jmo/2008/p3
+    - jp-jmo/2008/p4
+    - jp-jmo/2008/p5
+    - jp-jmo/2013/p1
+    - jp-jmo/2013/p2
+    - jp-jmo/2013/p3
+    - jp-jmo/2013/p4
+    - jp-jmo/2013/p5
+    - jp-jmo/2017/p1
+    - jp-jmo/2017/p2
+    - jp-jmo/2017/p3
+    - jp-jmo/2017/p4
+    - jp-jmo/2017/p5
+    - jp-jmo/2020/p1
+    - jp-jmo/2020/p2
+    - jp-jmo/2020/p3
+    - jp-jmo/2020/p4
+    - jp-jmo/2020/p5
+    - jp-jmo/2023/p1
+    - jp-jmo/2023/p2
+    - jp-jmo/2023/p3
+    - jp-jmo/2023/p4
+    - jp-jmo/2023/p5
+    - jp-jjmo/2018/p1
+    - jp-jjmo/2018/p2
+    - jp-jjmo/2018/p3
+    - jp-jjmo/2018/p4
+    - jp-jjmo/2020/p1
+    - jp-jjmo/2020/p2
+    - jp-jjmo/2020/p3
+    - jp-jjmo/2020/p4
+    - jp-jjmo/2022/p1
+    - jp-jjmo/2022/p2
+    - jp-jjmo/2022/p3
+    - jp-jjmo/2022/p4
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text comes from an AoPS wiki row (hf-aops-wiki, Z2) placed by om import -fill -existing from its title and number. Each placement was checked against the official imojp finals paper of that year (read only, its text is not copied): the row states the same problem as the official problem of that number. No preliminary round row was used."

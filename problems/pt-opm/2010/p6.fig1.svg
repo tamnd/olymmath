@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110pt" height="82pt" viewBox="0 0 110 82">
+<defs>
+<g>
+<g id="glyph-0-0">
+<path d="M 6.375 -3.578 C 6.375 -5.125 5.093 -6.375 3.578 -6.375 C 2.031 -6.375 0.781 -5.093 0.781 -3.578 C 0.781 -2.062 2.031 -0.796 3.578 -0.796 C 5.093 -0.796 6.375 -2.046 6.375 -3.578 Z M 6.375 -3.578 "/>
+</g>
+</g>
+</defs>
+<g fill="rgb(80.468%, 88.671%, 50%)">
+<use xlink:href="#glyph-0-0" x="25.439" y="74.360"/>
+</g>
+<g fill="rgb(52.929%, 81.25%, 88.671%)">
+<use xlink:href="#glyph-0-0" x="25.439" y="48.848"/>
+</g>
+<g fill="rgb(52.929%, 81.25%, 88.671%)">
+<use xlink:href="#glyph-0-0" x="25.439" y="23.336"/>
+</g>
+<g fill="rgb(52.929%, 81.25%, 88.671%)">
+<use xlink:href="#glyph-0-0" x="50.951" y="74.359"/>
+</g>
+<g fill="rgb(52.929%, 81.25%, 88.671%)">
+<use xlink:href="#glyph-0-0" x="50.951" y="48.848"/>
+</g>
+<g fill="rgb(80.468%, 88.671%, 50%)">
+<use xlink:href="#glyph-0-0" x="50.951" y="23.337"/>
+</g>
+<g fill="rgb(80.468%, 88.671%, 50%)">
+<use xlink:href="#glyph-0-0" x="76.463" y="74.360"/>
+</g>
+<g fill="rgb(52.929%, 81.25%, 88.671%)">
+<use xlink:href="#glyph-0-0" x="76.462" y="48.848"/>
+</g>
+<g fill="rgb(52.929%, 81.25%, 88.671%)">
+<use xlink:href="#glyph-0-0" x="76.462" y="23.336"/>
+</g>
+</svg>

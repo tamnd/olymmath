@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84pt" height="85pt" viewBox="0 0 84 85">
+<defs>
+<clipPath id="clip-0">
+<path clip-rule="nonzero" d="M 1.734 2 L 82.105 2 L 82.105 82.324 L 1.734 82.324 Z M 1.734 2 "/>
+</clipPath>
+<clipPath id="clip-1">
+<path clip-rule="nonzero" d="M 1.734 70 L 82 70 L 82 71 L 1.734 71 Z M 1.734 70 "/>
+</clipPath>
+<clipPath id="clip-2">
+<path clip-rule="nonzero" d="M 13 2 L 14 2 L 14 82.324 L 13 82.324 Z M 13 2 "/>
+</clipPath>
+<clipPath id="clip-3">
+<path clip-rule="nonzero" d="M 1.734 58 L 82 58 L 82 60 L 1.734 60 Z M 1.734 58 "/>
+</clipPath>
+<clipPath id="clip-4">
+<path clip-rule="nonzero" d="M 24 2 L 26 2 L 26 82.324 L 24 82.324 Z M 24 2 "/>
+</clipPath>
+<clipPath id="clip-5">
+<path clip-rule="nonzero" d="M 1.734 47 L 82 47 L 82 49 L 1.734 49 Z M 1.734 47 "/>
+</clipPath>
+<clipPath id="clip-6">
+<path clip-rule="nonzero" d="M 36 2 L 37 2 L 37 82.324 L 36 82.324 Z M 36 2 "/>
+</clipPath>
+<clipPath id="clip-7">
+<path clip-rule="nonzero" d="M 1.734 36 L 82 36 L 82 37 L 1.734 37 Z M 1.734 36 "/>
+</clipPath>
+<clipPath id="clip-8">
+<path clip-rule="nonzero" d="M 47 2 L 48 2 L 48 82.324 L 47 82.324 Z M 47 2 "/>
+</clipPath>
+<clipPath id="clip-9">
+<path clip-rule="nonzero" d="M 1.734 24 L 82 24 L 82 26 L 1.734 26 Z M 1.734 24 "/>
+</clipPath>
+<clipPath id="clip-10">
+<path clip-rule="nonzero" d="M 58 2 L 60 2 L 60 82.324 L 58 82.324 Z M 58 2 "/>
+</clipPath>
+<clipPath id="clip-11">
+<path clip-rule="nonzero" d="M 1.734 13 L 82 13 L 82 15 L 1.734 15 Z M 1.734 13 "/>
+</clipPath>
+<clipPath id="clip-12">
+<path clip-rule="nonzero" d="M 70 2 L 71 2 L 71 82.324 L 70 82.324 Z M 70 2 "/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip-0)">
+<path fill="none" stroke-width="9" stroke-linejoin="round" stroke="#000" stroke-miterlimit="10" d="M 4.983 4.978 L 798.655 4.978 L 798.655 798.689 L 4.983 798.689 Z M 4.983 4.978 " transform="matrix(0.1, 0, 0, -0.1, 1.736, 82.326)"/>
+</g>
+<g clip-path="url(#clip-1)">
+<path fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke="#000" stroke-dasharray="28.346 28.346 28.346 28.346" stroke-dashoffset="70.865" stroke-miterlimit="10" d="M 4.983 118.377 L 798.655 118.377 " transform="matrix(0.1, 0, 0, -0.1, 1.736, 82.326)"/>
+</g>
+<g clip-path="url(#clip-2)">
+<path fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke="#000" stroke-dasharray="28.346 28.346 28.346 28.346" stroke-dashoffset="70.865" stroke-miterlimit="10" d="M 118.382 4.978 L 118.382 798.689 " transform="matrix(0.1, 0, 0, -0.1, 1.736, 82.326)"/>
+</g>
+<g clip-path="url(#clip-3)">
+<path fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke="#000" stroke-dasharray="28.346 28.346 28.346 28.346" stroke-dashoffset="70.865" stroke-miterlimit="10" d="M 4.983 231.736 L 798.655 231.736 " transform="matrix(0.1, 0, 0, -0.1, 1.736, 82.326)"/>
+</g>
+<g clip-path="url(#clip-4)">
+<path fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke="#000" stroke-dasharray="28.346 28.346 28.346 28.346" stroke-dashoffset="70.865" stroke-miterlimit="10" d="M 231.741 4.978 L 231.741 798.689 " transform="matrix(0.1, 0, 0, -0.1, 1.736, 82.326)"/>
+</g>
+<g clip-path="url(#clip-5)">
+<path fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke="#000" stroke-dasharray="28.346 28.346 28.346 28.346" stroke-dashoffset="70.865" stroke-miterlimit="10" d="M 4.983 345.135 L 798.655 345.135 " transform="matrix(0.1, 0, 0, -0.1, 1.736, 82.326)"/>
+</g>
+<g clip-path="url(#clip-6)">
+<path fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke="#000" stroke-dasharray="28.346 28.346 28.346 28.346" stroke-dashoffset="70.865" stroke-miterlimit="10" d="M 345.14 4.978 L 345.14 798.689 " transform="matrix(0.1, 0, 0, -0.1, 1.736, 82.326)"/>
+</g>
+<g clip-path="url(#clip-7)">
+<path fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke="#000" stroke-dasharray="28.346 28.346 28.346 28.346" stroke-dashoffset="70.865" stroke-miterlimit="10" d="M 4.983 458.533 L 798.655 458.533 " transform="matrix(0.1, 0, 0, -0.1, 1.736, 82.326)"/>
+</g>
+<g clip-path="url(#clip-8)">
+<path fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke="#000" stroke-dasharray="28.346 28.346 28.346 28.346" stroke-dashoffset="70.865" stroke-miterlimit="10" d="M 458.538 4.978 L 458.538 798.689 " transform="matrix(0.1, 0, 0, -0.1, 1.736, 82.326)"/>
+</g>
+<g clip-path="url(#clip-9)">
+<path fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke="#000" stroke-dasharray="28.346 28.346 28.346 28.346" stroke-dashoffset="70.865" stroke-miterlimit="10" d="M 4.983 571.892 L 798.655 571.892 " transform="matrix(0.1, 0, 0, -0.1, 1.736, 82.326)"/>
+</g>
+<g clip-path="url(#clip-10)">
+<path fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke="#000" stroke-dasharray="28.346 28.346 28.346 28.346" stroke-dashoffset="70.865" stroke-miterlimit="10" d="M 571.897 4.978 L 571.897 798.689 " transform="matrix(0.1, 0, 0, -0.1, 1.736, 82.326)"/>
+</g>
+<g clip-path="url(#clip-11)">
+<path fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke="#000" stroke-dasharray="28.346 28.346 28.346 28.346" stroke-dashoffset="70.865" stroke-miterlimit="10" d="M 4.983 685.291 L 798.655 685.291 " transform="matrix(0.1, 0, 0, -0.1, 1.736, 82.326)"/>
+</g>
+<g clip-path="url(#clip-12)">
+<path fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke="#000" stroke-dasharray="28.346 28.346 28.346 28.346" stroke-dashoffset="70.865" stroke-miterlimit="10" d="M 685.296 4.978 L 685.296 798.689 " transform="matrix(0.1, 0, 0, -0.1, 1.736, 82.326)"/>
+</g>
+</svg>

@@ -13,7 +13,7 @@ records:
     - dk-georgmohr/2007/p1
     - dk-georgmohr/2026/p2
     - dk-georgmohr/1994/p1
-decision: keep
+decision: accept
 by: agent
 date: "2026-11-10"
-note: "Agent decision, not a person's review. The text needs a figure, so the record stays with no text for now. om has the figure file in the spec (spec 4.3, audit rule S08), but it has no tool to crop a figure from a page image, and the site does not publish figure files next to a problem, so a crop would not show. The text can be added when om can crop and publish figures."
+note: "Agent decision, not a person's review. The text comes from the text layer of the official paper, with the math put in TeX by hand. The figure is cropped from the same page of the official PDF with om figure, saved next to the problem as an SVG and shown in the statement. Each crop was checked by eye: the whole drawing with its labels, and no text of the problem in it."

@@ -5,8 +5,8 @@ appearances:
   - at: tot/2022-spring/so5
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,15 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+A quadrilateral ABCD is inscribed into a circle ω with center O. The circumcircle of the triangle AOC intersects the lines AB, BC, CD and DA the second time at the points M, N, K and L respectively. Prove that the lines MN, KL and the tangents to ω at the points A and C all touch the same circle.

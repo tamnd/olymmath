@@ -1,0 +1,8 @@
+id: 037dc925b12c
+kind: match
+records:
+    - tot/2018-spring/sa6
+decision: reject
+by: agent
+date: "2026-11-10"
+note: 'Agent decision, not a person''s review. The agent read the seed row and the problems.ru text of the record side by side. The row is the same problem, but its text is garbled: it carries a table of topics, names the wrong tangent points and loses the question. So it is not placed.'

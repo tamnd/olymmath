@@ -5,8 +5,8 @@ appearances:
   - at: tot/2014-fall/jo3
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,15 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-numinamath-1-5
+    name: NuminaMath-1.5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+On the side $AB$ of the square $ABCD$, a point $K$ is marked, and on the side $BC$ - a point $L$ such that $KB=LC$. Segments $AL$ and $CK$ intersect at point $P$. Prove that segments $DP$ and $KL$ are perpendicular.

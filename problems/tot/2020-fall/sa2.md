@@ -5,8 +5,8 @@ appearances:
   - at: tot/2020-fall/sa2
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,15 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-aops-wiki
+    name: AoPS wiki problems
+    url: https://artofproblemsolving.com/community/c6h2318161p18477282
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+Baron Munchausen presented a new theorem: if a polynomial $x^{n} - ax^{n-1} + bx^{n-2}+ \dots$ has $n$ positive integer roots then there exist $a$ lines in the plane such that they have exactly $b$ intersection points. Is the baron's theorem true?

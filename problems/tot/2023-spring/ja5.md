@@ -5,8 +5,8 @@ appearances:
   - at: tot/2023-spring/ja5
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,17 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+The positive integers from 1 to 100 are painted into three colors: 50 integers are red, 25 integers are yellow and 25 integers are green. The red and yellow integers can be divided into 25 triples such that each triple includes two red integers and one yellow integer which is greater than one of the red integers and smaller than another one. The same assertion is valid for the red and green integers. Is it necessarily possible to divide all the 100 integers into 25 quadruples so that each quadruple includes two red integers, one yellow integer and one green integer such that the yellow and the green integer lie between the red ones?
+
+*Alexandr Gribalko*

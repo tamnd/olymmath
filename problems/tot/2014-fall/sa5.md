@@ -5,8 +5,8 @@ appearances:
   - at: tot/2014-fall/sa5
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,15 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-numinamath-1-5
+    name: NuminaMath-1.5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+Petya calculated the number of all possible $m$-letter words, in which only four letters T, O, W, and N can be used, and in each word, the letters T and O are equal in number. Vasya calculated the number of all possible $2m$-letter words, in which only two letters T and O can be used, and in each word, these letters are equal in number. Who ended up with more words? (A word is any sequence of letters.)

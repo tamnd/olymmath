@@ -5,8 +5,8 @@ appearances:
   - at: tot/2013-fall/so3
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,16 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+Denote by $[a, b]$ the least common multiple of $a$ and $b$ .
+Let $n$ be a positive integer such that $[n, n + 1] > [n, n + 2] >...> [n, n + 35]$ . Prove that $[n, n + 35] > [n,n + 36]$ .

@@ -5,8 +5,8 @@ appearances:
   - at: tot/2023-fall/sa7
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,19 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-numinamath-1-5
+    name: NuminaMath-1.5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+On the table there are $2n$ coins that look the same. It is known that $n$ of them
+weigh 9 g. each, while the remaining $n$ weigh 10 g. each. It is required to split the
+coins into $n$ pairs with total weight of each pair 19 g. Prove that this can be done
+in less than $n$ weighings using a balance without additional weights (the balance
+shows which pan is heavier or that their weight is equal).

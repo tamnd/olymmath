@@ -1,0 +1,8 @@
+id: 835748662ea4
+kind: match
+records:
+    - ru-allrussian/2006/p114
+decision: reject
+by: agent
+date: "2026-11-10"
+note: 'Agent decision, not a person''s review. The agent read the seed row and the problems.ru text of the record side by side. The content match paired them with a strong score, but the row asks to find the ratio of the two radii, while the problem asks to prove that one radius is twice the other. The question changed, so it is not placed.'

@@ -1,0 +1,8 @@
+id: ed31679edf9a
+kind: match
+records:
+    - ru-allrussian/1994/p93
+decision: reject
+by: agent
+date: "2026-11-10"
+note: 'Agent decision, not a person''s review. The agent read the seed row and the problems.ru text of the record side by side. The content match paired them with a strong score, but the seed text is cut off after the first sentences and has no rule and no question. So it is not placed.'

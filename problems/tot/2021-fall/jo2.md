@@ -6,8 +6,8 @@ appearances:
     primary: true
   - at: tot/2021-fall/so2
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -17,6 +17,17 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-numinamath-1-5
+    name: NuminaMath-1.5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+A cube is given. Three planes, parallel to the faces, divide it into 8 parallelepipeds. They are painted in a checkerboard pattern. The volumes of the black parallelepipeds are $1, 6, 8, 12$.
+
+Find the volumes of the white parallelepipeds.

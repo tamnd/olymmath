@@ -1,0 +1,8 @@
+id: 251a210c5355
+kind: match
+records:
+    - ru-moscow/2007/p86
+decision: accept
+by: agent
+date: "2026-11-10"
+note: Agent decision, not a person's review. The content match put the seed row hf-numinamath-1-5|data/train-00000-of-00003.parquet#228844 at this position with a score of 0.453 (the next key of the row 0.082, the next row of the key 0.288), below the strong threshold. Asked whether the row and the problems.ru text of the record state the same problem, the codex lane said yes.

@@ -1,0 +1,8 @@
+id: 3230b1a6da7d
+kind: match
+records:
+    - ru-allrussian/1998/p115
+decision: reject
+by: agent
+date: "2026-11-10"
+note: 'Agent decision, not a person''s review. The agent read the seed row and the problems.ru text of the record side by side. The row asks for the diameter of the circle 1998, while the problem asks for its radius, so the question changed. It is not placed.'

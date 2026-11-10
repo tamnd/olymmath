@@ -5,8 +5,8 @@ appearances:
   - at: tot/2012-spring/jo3
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,15 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+In the parallelogram $ABCD$ , the diagonal $AC$ touches the incircles of triangles $ABC$ and $ADC$ at $W$ and $Y$ respectively, and the diagonal $BD$ touches the incircles of triangles $BAD$ and $BCD$ at $X$ and $Z$ respectively. Prove that either $W,X, Y$ and $Z$ coincide, or $WXYZ$ is a rectangle.

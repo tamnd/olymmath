@@ -1,0 +1,8 @@
+id: 21055dcde753
+kind: match
+records:
+    - ru-allrussian/1994/p96
+decision: reject
+by: agent
+date: "2026-11-10"
+note: Agent decision, not a person's review. The content match paired the seed row with this record, but the row asks for a bound on the number of arrangements of the cards, while the problem asks for a bound on the number of moves. The row is a loose translation that changes the question, so it is not placed.

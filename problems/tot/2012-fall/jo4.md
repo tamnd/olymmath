@@ -5,8 +5,8 @@ appearances:
   - at: tot/2012-fall/jo4
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,15 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+A circle touches sides $AB, BC, CD$ of a parallelogram $ABCD$ at points $K, L, M$ respectively. Prove that the line $KL$ bisects the height of the parallelogram drawn from the vertex $C$ to $AB$ .

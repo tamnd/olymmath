@@ -1,0 +1,8 @@
+id: 9c7cfdf08c21
+kind: merge
+records:
+    - 6ZD4QMER9E
+decision: accept
+by: agent
+date: "2026-11-10"
+note: Agent decision, not a person's review. problems.ru gives one page, problem 98412, for the problem at ru-lomonosov/1998/p5 and at tot/1998-fall/so2, so the two positions are one problem. The record had a link to the page already, so it gets the appearance tot/1998-fall/so2 and no second link. There is no text to compare.

@@ -1,0 +1,8 @@
+id: 890386fed3aa
+kind: merge
+records:
+    - 8WKE02ZEN5
+decision: accept
+by: agent
+date: "2026-11-10"
+note: Agent decision, not a person's review. problems.ru gives one page, problem 67026, for the problem at ru-moscow/2022/p104 and at tot/2022-spring/sa5, so the two positions are one problem. The record had a link to the page already, so it gets the appearance tot/2022-spring/sa5 and no second link. There is no text to compare.

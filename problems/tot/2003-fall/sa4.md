@@ -5,8 +5,8 @@ appearances:
   - at: tot/2003-fall/sa4
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,15 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+In a triangle $ABC$ , let $H$ be the point of intersection of altitudes, $I$ the center of incircle, $O$ the center of circumcircle, $K$ the point where the incircle touches $BC$ . Given that $IO$ is parallel to $BC$ , prove that $AO$ is parallel to $HK$ .

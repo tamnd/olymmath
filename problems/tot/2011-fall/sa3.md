@@ -5,8 +5,8 @@ appearances:
   - at: tot/2011-fall/sa3
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,15 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+In triangle $ABC$ , points $A_1,B_1,C_1$ are bases of altitudes from vertices $A,B,C$ , and points $C_A,C_B$ are the projections of $C_1$ to $AC$ and $BC$ respectively. Prove that line $C_AC_B$ bisects the segments $C_1A_1$ and $C_1B_1$ .

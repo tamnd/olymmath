@@ -1,0 +1,8 @@
+id: e600ff74dcd2
+kind: match
+records:
+    - ru-allrussian/2004/p103
+decision: reject
+by: agent
+date: "2026-11-10"
+note: Agent decision, not a person's review. The seed row states the same problem, but it starts with a cropped image from another page and a list of authors, so it is not placed.

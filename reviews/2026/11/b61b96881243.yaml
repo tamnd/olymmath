@@ -1,0 +1,8 @@
+id: b61b96881243
+kind: official
+records:
+    - imc/2008/p8
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. Official text of Day 2 Problem 2 from the native text layer of page 1 of the IMC 2008 Day 2 paper, checked against the page image. The AI-MO AoPS text is the same and stays as S2."

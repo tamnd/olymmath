@@ -1,0 +1,8 @@
+id: ea0d59b21a60
+kind: official
+records:
+    - rs-smo/2023/p2
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The page field of the official statement was wrong. Each problem was found in the native text layer of the 2023 paper: the problems of day 1 are on page 1, by its text where the record has it and else by its number and heading (pdftotext -f N -l N). Set rs-smo/2023/p2 to page 1."

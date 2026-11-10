@@ -1,0 +1,23 @@
+id: 18d57c784f58
+kind: official
+records:
+    - tuymaada/2026/j1
+    - tuymaada/2026/j2
+    - tuymaada/2026/j3
+    - tuymaada/2026/j4
+    - tuymaada/2026/j5
+    - tuymaada/2026/j6
+    - tuymaada/2026/j7
+    - tuymaada/2026/j8
+    - tuymaada/2026/s1
+    - tuymaada/2026/s2
+    - tuymaada/2026/s3
+    - tuymaada/2026/s4
+    - tuymaada/2026/s5
+    - tuymaada/2026/s6
+    - tuymaada/2026/s7
+    - tuymaada/2026/s8
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The page field of the official statement was wrong. Each problem was found in the native text layer of the 2026 booklet: pages 1 and 2 are the cover and the preface, and the problems are on page 3 (and 4), by its text where the record has it and else by its number and heading (pdftotext -f N -l N). Set tuymaada/2026/j1 to page 3, tuymaada/2026/j2 to page 3, tuymaada/2026/j3 to page 3, tuymaada/2026/j4 to page 3, tuymaada/2026/j5 to page 3, tuymaada/2026/j6 to page 3, tuymaada/2026/j7 to page 3, tuymaada/2026/j8 to page 3, tuymaada/2026/s1 to page 3, tuymaada/2026/s2 to page 3, tuymaada/2026/s3 to page 3, tuymaada/2026/s4 to page 3, tuymaada/2026/s5 to page 3, tuymaada/2026/s6 to page 3, tuymaada/2026/s7 to page 3, tuymaada/2026/s8 to page 3."

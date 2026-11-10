@@ -1,0 +1,8 @@
+id: 3f7133ef263e
+kind: official
+records:
+    - imc/2008/p7
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. Official text of Day 2 Problem 1 from the native text layer of page 1 of the IMC 2008 Day 2 paper, checked against the page image. The text layer drops the exponents (x2k), so they were put back from the image. The AI-MO AoPS text is the same problem and stays as S2."

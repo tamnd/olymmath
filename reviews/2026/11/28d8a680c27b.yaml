@@ -1,0 +1,9 @@
+id: 28d8a680c27b
+kind: merge
+records:
+    - ERD1B3N3M1
+    - X7EHFB56HN
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The official IMC 2008 paper (Day 2, page 1) prints this text as Problem 1 of Day 2, which is imc/2008/p7. The dataset record at imc/2008/p1 holds it at the wrong position, so the two records are one problem. The record keeps the tag that has the text, takes the appearance imc/2008/p7, and gives up the false appearance imc/2008/p1."

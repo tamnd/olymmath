@@ -1,0 +1,10 @@
+id: 19be4b0ca3f2
+kind: official
+records:
+    - cz-sk-mo/2025/p4
+    - cz-sk-mo/2025/p5
+    - cz-sk-mo/2025/p6
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The page field of the official statement was wrong. Each problem was found in the native text layer of the 2025 paper, by its text where the record has it and else by its number and heading (pdftotext -f N -l N). Set cz-sk-mo/2025/p4 to page 2, cz-sk-mo/2025/p5 to page 2, cz-sk-mo/2025/p6 to page 2."

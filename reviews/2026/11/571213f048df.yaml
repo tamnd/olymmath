@@ -1,0 +1,9 @@
+id: 571213f048df
+kind: merge
+records:
+    - H6GTQ845EW
+    - 1Z3RQAEDMP
+decision: split
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The merge of review 6257d35fba2b joined two problems. The official booklet of 2021 (day 2, page 3) has the triangle problem as senior problem 7 and the pile of stones problem as junior problem 7. The record 1Z3RQAEDMP was made for the AI-MO AoPS text of the stones problem, so it keeps that text. The triangle text, the official senior statement and the appearance tuymaada/2021/s7 go back to the tag H6GTQ845EW, which never had another problem. Its alias line and the merge line are removed."

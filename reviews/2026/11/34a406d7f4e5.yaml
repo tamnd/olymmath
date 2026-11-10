@@ -1,0 +1,8 @@
+id: 34a406d7f4e5
+kind: official
+records:
+    - tuymaada/2021/s7
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. Official text of senior problem 7 from the native text layer of page 3 of the 2021 day 2 booklet, checked against the page image. The text layer reads the not-equal sign as 6=, so it was put back from the image. The page is 3, not 1."

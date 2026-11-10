@@ -1,0 +1,9 @@
+id: f03a0ac936a6
+kind: merge
+records:
+    - 45AD0VJHJW
+    - 1Z3RQAEDMP
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The official booklet of 2021 (day 2, page 3) prints the pile of stones problem as junior problem 7. The AI-MO AoPS record at tuymaada/2021/p7 has the same text, and the AoPS statements of the record tuymaada/2021/j7 point to the same problem, so the two records are one problem."

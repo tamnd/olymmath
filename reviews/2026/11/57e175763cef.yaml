@@ -1,0 +1,12 @@
+id: 57e175763cef
+kind: official
+records:
+    - cz-sk-mo/2023/p6
+    - cz-sk-mo/2024/p3
+    - tuymaada/2026/s7
+    - mx-omm/2025/p4
+    - br-obm/2026/p5
+decision: keep
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text needs a figure, so the record stays with no text for now. om has the figure file in the spec (spec 4.3, audit rule S08), but it has no tool to crop a figure from a page image, and the site does not publish figure files next to a problem, so a crop would not show. The text can be added when om can crop and publish figures."

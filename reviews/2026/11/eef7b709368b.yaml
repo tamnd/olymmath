@@ -1,0 +1,19 @@
+id: eef7b709368b
+kind: official
+records:
+    - dk-georgmohr/2026/p4
+    - dk-georgmohr/2016/p2
+    - dk-georgmohr/1997/p2
+    - dk-georgmohr/1997/p5
+    - dk-georgmohr/1998/p3
+    - dk-georgmohr/1998/p1
+    - dk-georgmohr/1993/p2
+    - dk-georgmohr/1993/p4
+    - dk-georgmohr/1995/p1
+    - dk-georgmohr/2007/p1
+    - dk-georgmohr/2026/p2
+    - dk-georgmohr/1994/p1
+decision: keep
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text needs a figure, so the record stays with no text for now. om has the figure file in the spec (spec 4.3, audit rule S08), but it has no tool to crop a figure from a page image, and the site does not publish figure files next to a problem, so a crop would not show. The text can be added when om can crop and publish figures."

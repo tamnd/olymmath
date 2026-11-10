@@ -205,7 +205,8 @@ Alexandru Myller	-
 Junior Balkan Team Selection Tests - Romania	-
 Junior Balkan Team Selection Tests - Moldova	-
 All-Russian Olympiad	ru-allrussian
-All-Russian Olympiad Regional Round	ru-allrussian
+# Agent decision, not a person's review: the regional round of the All-Russian Olympiad is not the final round, and the register has no code for it, so its rows must not take the positions of ru-allrussian.
+All-Russian Olympiad Regional Round	-
 Russian Mathematical Olympiad	ru-allrussian
 XL Russian mathematical olympiad	ru-allrussian
 XLIII Russian mathematical olympiad	ru-allrussian

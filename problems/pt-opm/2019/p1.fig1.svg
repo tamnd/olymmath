@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="74pt" height="74pt" viewBox="0 0 74 74">
+<path fill="rgb(80.468%, 88.671%, 50%)" d="M 9.843 57.593 L 3.039 71.199 L 30.253 57.593 L 37.054 71.199 L 43.859 57.593 L 71.070 71.199 L 57.464 43.988 L 71.070 37.183 L 57.464 30.382 L 71.070 3.167 L 43.859 16.773 L 37.054 3.167 L 30.253 16.773 L 3.039 3.167 L 16.644 30.382 L 3.039 37.183 L 16.644 43.988 "/>
+<path fill="none" stroke-width="7.970" stroke="#000" stroke-miterlimit="10" d="M 2720.390 5548.164 L 2720.390 5208.007 L 3400.703 5208.007 L 3400.703 5888.320 L 2720.390 5888.320 Z M 2720.390 5548.164 " transform="matrix(0.1, 0, 0, -0.1, -269, 592)"/>
+<path fill="none" stroke-width="7.970" stroke="#000" stroke-miterlimit="10" d="M 2720.390 5208.007 L 3060.546 5888.320 " transform="matrix(0.1, 0, 0, -0.1, -269, 592)"/>
+<path fill="none" stroke-width="7.970" stroke="#000" stroke-miterlimit="10" d="M 2720.390 5208.007 L 3400.703 5548.164 " transform="matrix(0.1, 0, 0, -0.1, -269, 592)"/>
+<path fill="none" stroke-width="7.970" stroke="#000" stroke-miterlimit="10" d="M 3400.703 5888.320 L 3060.546 5208.007 " transform="matrix(0.1, 0, 0, -0.1, -269, 592)"/>
+<path fill="none" stroke-width="7.970" stroke="#000" stroke-miterlimit="10" d="M 3400.703 5888.320 L 2720.390 5548.164 " transform="matrix(0.1, 0, 0, -0.1, -269, 592)"/>
+<path fill="none" stroke-width="7.970" stroke="#000" stroke-miterlimit="10" d="M 3400.703 5208.007 L 3060.546 5888.320 " transform="matrix(0.1, 0, 0, -0.1, -269, 592)"/>
+<path fill="none" stroke-width="7.970" stroke="#000" stroke-miterlimit="10" d="M 3400.703 5208.007 L 2720.390 5548.164 " transform="matrix(0.1, 0, 0, -0.1, -269, 592)"/>
+<path fill="none" stroke-width="7.970" stroke="#000" stroke-miterlimit="10" d="M 2720.390 5888.320 L 3060.546 5208.007 " transform="matrix(0.1, 0, 0, -0.1, -269, 592)"/>
+<path fill="none" stroke-width="7.970" stroke="#000" stroke-miterlimit="10" d="M 2720.390 5888.320 L 3400.703 5548.164 " transform="matrix(0.1, 0, 0, -0.1, -269, 592)"/>
+</svg>

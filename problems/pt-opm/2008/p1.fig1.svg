@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90pt" height="76pt" viewBox="0 0 90 76">
+<defs>
+<g>
+<g id="glyph-0-0">
+<path d="M 4.828 -2.718 C 4.828 -3.890 3.875 -4.843 2.718 -4.843 C 1.531 -4.843 0.609 -3.875 0.609 -2.718 C 0.609 -1.562 1.578 -0.609 2.718 -0.609 C 3.906 -0.609 4.828 -1.578 4.828 -2.718 Z M 4.828 -2.718 "/>
+</g>
+</g>
+</defs>
+<g fill="#000">
+<use xlink:href="#glyph-0-0" x="2.439" y="30.720"/>
+</g>
+<g fill="#000">
+<use xlink:href="#glyph-0-0" x="2.439" y="10.800"/>
+</g>
+<g fill="#000">
+<use xlink:href="#glyph-0-0" x="22.359" y="30.720"/>
+</g>
+<g fill="#000">
+<use xlink:href="#glyph-0-0" x="42.279" y="70.560"/>
+</g>
+<g fill="#000">
+<use xlink:href="#glyph-0-0" x="42.279" y="50.640"/>
+</g>
+<g fill="#000">
+<use xlink:href="#glyph-0-0" x="42.279" y="30.720"/>
+</g>
+<g fill="#000">
+<use xlink:href="#glyph-0-0" x="42.279" y="10.800"/>
+</g>
+<g fill="#000">
+<use xlink:href="#glyph-0-0" x="62.199" y="30.720"/>
+</g>
+<g fill="#000">
+<use xlink:href="#glyph-0-0" x="82.119" y="30.720"/>
+</g>
+<g fill="#000">
+<use xlink:href="#glyph-0-0" x="82.119" y="10.800"/>
+</g>
+<path fill="#000" d="M 4.949 8.292 L 5.429 8.292 L 5.429 28.332 L 4.949 28.332 Z M 4.949 8.292 "/>
+<path fill="#000" d="M 5.187 28.093 L 84.988 28.093 L 84.988 28.570 L 5.187 28.570 Z M 5.187 28.093 "/>
+<path fill="#000" d="M 44.789 8.292 L 45.269 8.292 L 45.269 68.171 L 44.789 68.171 Z M 44.789 8.292 "/>
+<path fill="#000" d="M 84.628 8.292 L 85.109 8.292 L 85.109 28.332 L 84.628 28.332 Z M 84.628 8.292 "/>
+</svg>

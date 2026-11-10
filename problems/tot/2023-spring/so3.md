@@ -5,8 +5,8 @@ appearances:
   - at: tot/2023-spring/so3
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,17 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+Let $I{}$ be the incenter of triangle $ABC{}.$ Let $N{}$ be the foot of the bisector of angle $B{}.$ The tangent line to the circumcircle of triangle $AIN$ at $A{}$ and the tangent line to the circumcircle of triangle $CIN{}$ at $C{}$ intersect at $D{}.$ Prove that lines $AC{}$ and $DI$ are perpendicular.
+
+*Mikhail Evdokimov*

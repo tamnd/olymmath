@@ -5,8 +5,8 @@ appearances:
   - at: tot/2023-spring/so4
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,17 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+Let $a_1, a_2, a_3,\ldots$ and $b_1, b_2, b_3,\ldots$ be infinite increasing arithmetic progressions. Their terms are positive numbers. It is known that the ratio $a_k/b_k$ is an integer for all k. Is it true that this ratio does not depend on $k{}$ ?
+
+*Boris Frenkin*

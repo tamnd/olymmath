@@ -5,8 +5,8 @@ appearances:
   - at: tot/2018-fall/ja1
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,15 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-numinamath-1-5
+    name: NuminaMath-1.5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+In triangle $ABC$, point $M$ is the midpoint of side $BC$, and point $E$ is an arbitrary point inside side $AC$. It is known that $BE \geq 2AM$. Prove that triangle $ABC$ is obtuse. (N. Sedrakyan)

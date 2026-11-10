@@ -1,0 +1,8 @@
+id: ae8532ef3d47
+kind: match
+records:
+    - sharygin/2024/p82
+decision: accept
+by: agent
+date: "2026-11-10"
+note: Agent decision, not a person's review. The content match put the seed row hf-ai-mo-aops|data/train-00000-of-00001.parquet#2130 at this position with a score of 0.498 (the next key of the row 0.096, the next row of the key 0.200), below the strong threshold. Asked whether the row and the problems.ru text of the record state the same problem, the codex lane said yes.

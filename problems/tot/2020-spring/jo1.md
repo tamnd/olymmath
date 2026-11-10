@@ -5,8 +5,8 @@ appearances:
   - at: tot/2020-spring/jo1
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,15 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+The Quadrumland map is a 6 × 6 square where each square cell is either a kingdom or a disputed territory. There are 27 kingdoms and 9 disputed territories. Each disputed territory is claimed by those and only those kingdoms that are neighbouring with it (adjacent by an edge or a vertex). Is it possible that for each disputed territory the numbers of claims are different?

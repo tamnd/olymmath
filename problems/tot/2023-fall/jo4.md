@@ -5,8 +5,8 @@ appearances:
   - at: tot/2023-fall/jo4
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,17 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-omni-math
+    name: Omni-MATH
+    url: https://huggingface.co/datasets/KbsdJames/Omni-MATH
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+There are several (at least two) positive integers written along the circle. For any two neighboring integers one is either twice as big as the other or five times as big as the other. Can the sum of all these integers equal 2023 ?
+
+Sergey Dvoryaninov

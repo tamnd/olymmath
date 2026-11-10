@@ -6,8 +6,8 @@ appearances:
     primary: true
   - at: tot/2022-spring/sa1
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -17,6 +17,15 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+For each of the $9$ positive integers $n,2n,3n,\dots , 9n$ Alice take the first decimal digit (from the left) and writes it onto a blackboard. She selected $n$ so that among the nine digits on the blackboard there is the least possible number of different digits. What is this number of different digits equals to?

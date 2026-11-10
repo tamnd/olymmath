@@ -5,8 +5,8 @@ appearances:
   - at: tot/2020-spring/so4
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,21 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-numinamath-1-5
+    name: NuminaMath-1.5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+Does there exist a non-constant polynomial $P(x)$ that can be represented as the sum $a(x) + b(x)$, where $a(x)$ and $b(x)$ are squares of polynomials with real coefficients,
+
+a) in exactly one way?
+
+b) in exactly two ways?
+
+Ways that differ only in the order of the terms are considered the same.

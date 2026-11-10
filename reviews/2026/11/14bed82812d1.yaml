@@ -1,0 +1,8 @@
+id: 14bed82812d1
+kind: official
+records:
+    - imc/2025/p2
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. Problem 2; the text layer puts the first integral inside the label \"Problem 2\", so the splitter missed it. The point value is left out."

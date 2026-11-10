@@ -1,0 +1,8 @@
+id: b66d38527eec
+kind: official
+records:
+    - imc/2000/p5
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer gives \"6=\" for the not-equal sign and x2 for x^2; the solution is left out."

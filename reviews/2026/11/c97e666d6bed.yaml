@@ -1,0 +1,8 @@
+id: c97e666d6bed
+kind: official
+records:
+    - imc/2004/p12
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. Day 2 Problem 6. The text layer gives S(Ank-1) = S(Akn-1); the page shows S(A_n^{k-1}) = S(A_k^{n-1}). The block matrices are rebuilt from the page image."

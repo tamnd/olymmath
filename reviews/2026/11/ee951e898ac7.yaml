@@ -1,0 +1,8 @@
+id: ee951e898ac7
+kind: official
+records:
+    - pt-opm/2016/p4
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer loses the overlines and splits the angle marks; the page image shows $\\overline{AB} < \\overline{BC}$ and the angles $A\\hat{D}E$, $C\\hat{D}F$, $A\\hat{B}C$. The paper has a figure."

@@ -1,0 +1,8 @@
+id: b606610197ab
+kind: official
+records:
+    - imc/1997/p10
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. Day 2 Problem 4. The text layer moves the exponent of R^{n^2} and the trace sum; they are restored from the page image, and the equation labels (1), (2) are kept as tags."

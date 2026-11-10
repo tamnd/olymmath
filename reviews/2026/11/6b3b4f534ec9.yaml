@@ -1,0 +1,8 @@
+id: 6b3b4f534ec9
+kind: official
+records:
+    - imc/1994/p2
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer splits the limit subscripts and loses the prime and exponent in f'(x)+f^2(x); the page image restores them, and the solution is left out."

@@ -1,0 +1,8 @@
+id: d1d12e63db2c
+kind: official
+records:
+    - pt-opm/2015/p2
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer splits the angle mark; the page image shows the angle $A\\hat{B}C$ with a hat on $B$."

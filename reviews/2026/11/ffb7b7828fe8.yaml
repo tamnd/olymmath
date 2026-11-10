@@ -1,0 +1,8 @@
+id: ffb7b7828fe8
+kind: official
+records:
+    - imc/2000/p1
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The parts a) and b) are on their own lines as in the paper; the solution is left out."

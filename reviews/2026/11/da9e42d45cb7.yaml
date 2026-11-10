@@ -1,0 +1,8 @@
+id: da9e42d45cb7
+kind: official
+records:
+    - imc/2007/p10
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. Day 2 Problem 4, position p10. The case definition of a_ij is mangled in the text layer and rebuilt from the page image; the solution is left out."

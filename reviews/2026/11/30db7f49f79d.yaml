@@ -1,0 +1,8 @@
+id: 30db7f49f79d
+kind: official
+records:
+    - pt-opm/1994/p4
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. Fixed the diacritic in Olimpíadas and the line-end hyphenation of participante; the header, duration and Solução links are left out."

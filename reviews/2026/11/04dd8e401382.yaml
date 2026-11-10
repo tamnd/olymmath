@@ -1,0 +1,8 @@
+id: 04dd8e401382
+kind: official
+records:
+    - pt-opm/2018/p6
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer garbage of the figure is left out. The paper has a figure (the triangle cut into nine small triangles with counters in rows of 1, 2, 3, 4, all at 0, and after one move a downward small triangle in the lower right holding $-1$ at its three vertices)."

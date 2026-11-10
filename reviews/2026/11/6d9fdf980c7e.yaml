@@ -1,0 +1,8 @@
+id: 6d9fdf980c7e
+kind: official
+records:
+    - imc/2015/p10
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer drops the ffi ligature (coecients) and the absolute value bars; the point value is left out."

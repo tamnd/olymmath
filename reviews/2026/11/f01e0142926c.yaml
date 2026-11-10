@@ -1,0 +1,8 @@
+id: f01e0142926c
+kind: official
+records:
+    - pt-opm/1998/p4
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer gives 331 + 231 over 329 + 229; the page image shows the powers $3^{31}+2^{31}$ and $3^{29}+2^{29}$."

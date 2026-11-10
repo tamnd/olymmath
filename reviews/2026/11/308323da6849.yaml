@@ -1,0 +1,8 @@
+id: 308323da6849
+kind: official
+records:
+    - pt-opm/2026/p1
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The table of the figure (first row $1, 2, \\dots, 12, \\cdots, 2025, 2026$, second row empty) is written as an array; the text layer drops the ordinal mark of 2000ª."

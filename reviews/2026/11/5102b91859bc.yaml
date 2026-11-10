@@ -1,0 +1,8 @@
+id: 5102b91859bc
+kind: official
+records:
+    - pt-opm/2010/p6
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The paper has a figure (a $3 \\times 3$ grid of points with the chosen points, top middle, bottom left and bottom right, in another colour)."

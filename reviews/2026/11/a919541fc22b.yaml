@@ -1,0 +1,8 @@
+id: a919541fc22b
+kind: official
+records:
+    - imc/2004/p6
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer gives \"z ∈ / {0, 1}\" for z not in {0,1} and splits the fraction in b); they are restored from the page image. The point values and the solutions are left out."

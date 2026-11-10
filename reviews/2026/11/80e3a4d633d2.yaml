@@ -1,0 +1,8 @@
+id: 80e3a4d633d2
+kind: official
+records:
+    - pt-opm/2014/p3
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer gives n2; the page image shows $n^2$."

@@ -1,0 +1,8 @@
+id: 3ffd32acecef
+kind: official
+records:
+    - imc/2009/p4
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer loses the absolute value bars and splits the max subscripts; the solution is left out."

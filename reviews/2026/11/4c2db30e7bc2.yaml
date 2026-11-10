@@ -1,0 +1,8 @@
+id: 4c2db30e7bc2
+kind: official
+records:
+    - pt-opm/2020/p1
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer gives 22 and 32; the page image shows the squares $2^2$ and $3^2$."

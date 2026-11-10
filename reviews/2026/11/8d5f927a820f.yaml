@@ -1,0 +1,8 @@
+id: 8d5f927a820f
+kind: official
+records:
+    - elmo/2014/p1
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer gives 6= for the sign not equal; the page image shows F(a) != F(b)."

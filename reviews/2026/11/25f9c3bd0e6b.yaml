@@ -1,0 +1,8 @@
+id: 25f9c3bd0e6b
+kind: official
+records:
+    - imc/2000/p2
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer gives x5, x2 and \"6=\" for the exponents and the not-equal sign; the solution is left out."

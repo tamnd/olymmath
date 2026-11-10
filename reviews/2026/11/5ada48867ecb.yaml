@@ -1,0 +1,8 @@
+id: 5ada48867ecb
+kind: official
+records:
+    - imc/2006/p6
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer gives 6= for the not-equal sign and f 0 for f'; the point value and the solution are left out."

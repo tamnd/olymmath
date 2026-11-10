@@ -1,0 +1,8 @@
+id: 35d42f3b51ba
+kind: official
+records:
+    - imc/2026/p4
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer splits the square root and the limit subscript; the point value is left out."

@@ -1,0 +1,8 @@
+id: a896c898781c
+kind: official
+records:
+    - imc/1999/p4
+decision: accept
+by: agent
+date: "2026-11-10"
+note: "Agent decision, not a person's review. The text layer gives \"f fx(x)\" with the fraction x^2/f(x) lost; it is restored from the page image. The point value and the solution are left out."

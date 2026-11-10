@@ -5,8 +5,8 @@ appearances:
   - at: tot/2006-spring/ja1
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,25 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
+  - id: S3
+    lang: en
+    source: hf-aops-wiki
+    name: AoPS wiki problems
+    url: https://artofproblemsolving.com/community/c6h1078122p4721507
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+There is a billiard table in shape of rectangle $2 \times 1$ , with pockets at its corners and at midpoints of its two largest sizes. Find the minimal number of balls one has to place on the table interior so that any pocket is on a straight line with some two balls. (Assume that pockets and balls are points).
+
+*(4 points)*

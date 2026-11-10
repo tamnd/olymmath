@@ -5,8 +5,8 @@ appearances:
   - at: tot/2006-spring/jo2
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,25 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
+  - id: S3
+    lang: en
+    source: hf-aops-wiki
+    name: AoPS wiki problems
+    url: https://artofproblemsolving.com/community/c6h1078072p4721120
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+A $n \times n$ table is filled with the numbers as follows: the first column is filled with $1$ 's, the second column with $2$ 's, and so on. Then, the numbers on the main diagonal (from top-left to bottom-right) are erased. Prove that the total sums of the numbers on both sides of the main diagonal differ in exactly two times.
+
+*(3 points)*

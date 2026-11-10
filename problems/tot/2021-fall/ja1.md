@@ -5,8 +5,8 @@ appearances:
   - at: tot/2021-fall/ja1
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,25 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
+  - id: S3
+    lang: en
+    source: hf-aops-wiki
+    name: AoPS wiki problems
+    url: https://artofproblemsolving.com/community/c6h3017233p27113314
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+Alice wrote a sequence of $n > 2$ nonzero nonequal numbers such that each is greater than the previous one by the same amount. Bob wrote the inverses of those n numbers in some order. It so happened that each number in his row also is greater than the previous one by the same amount, possibly not the same as in Alice's sequence. What are the possible values of $n{}$ ?
+
+*Alexey Zaslavsky*

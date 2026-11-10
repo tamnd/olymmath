@@ -5,8 +5,8 @@ appearances:
   - at: tot/2005-fall/sa1
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,25 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
+  - id: S3
+    lang: en
+    source: hf-aops-wiki
+    name: AoPS wiki problems
+    url: https://artofproblemsolving.com/community/c6h1072107p4666492
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+For which $n \ge 2$ can one find a sequence of distinct positive integers $a_1, a_2, \ldots , a_n$ so that the sum $$ \frac{a_1}{a_2} + \frac{a_2}{a_3} + \ldots +\frac{a_n}{a_1} $$ is an integer?
+
+*(3 points)*

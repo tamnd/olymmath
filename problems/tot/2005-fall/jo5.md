@@ -6,8 +6,8 @@ appearances:
     primary: true
   - at: tot/2005-fall/so3
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -17,6 +17,25 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
+  - id: S3
+    lang: en
+    source: hf-aops-wiki
+    name: AoPS wiki problems
+    url: https://artofproblemsolving.com/community/c6h1069856p4648102
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+Among 6 coins one is counterfeit (its weight differs from that real one and neither weights is known). Using scales that show the total weight of coins placed on the cup, find the counterfeit coin in 3 weighings.
+
+*(5 points)*

@@ -5,8 +5,8 @@ appearances:
   - at: tot/2005-fall/ja1
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,25 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
+  - id: S3
+    lang: en
+    source: hf-aops-wiki
+    name: AoPS wiki problems
+    url: https://artofproblemsolving.com/community/c6h1069950p4649026
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+A palindrome is a positive integer which reads in the same way in both directions (for example, $1$ , $343$ and $2002$ are palindromes, while $2005$ is not). Is it possible to find $2005$ pairs in the form of $(n, n + 110)$ where both numbers are palindromes?
+
+*(3 points)*

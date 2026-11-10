@@ -5,8 +5,8 @@ appearances:
   - at: tot/2020-spring/jo3
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,25 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
+  - id: S3
+    lang: en
+    source: hf-aops-wiki
+    name: AoPS wiki problems
+    url: https://artofproblemsolving.com/community/c6h2133269p15609919
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+Let $ABCD$ be a rhombus, let $APQC$ be a parallelogram such that the point $B$ lies inside it and the side $AP$ is equal to the side of the rhombus. Prove that $B$ is the orthocenter of the triangle $DPQ$ .
+
+Egor Bakaev

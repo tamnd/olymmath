@@ -5,8 +5,8 @@ appearances:
   - at: tot/2005-spring/jo3
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,25 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
+  - id: S3
+    lang: en
+    source: hf-aops-wiki
+    name: AoPS wiki problems
+    url: https://artofproblemsolving.com/community/c6h1064947p4622966
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+There are eight identical Black Queens in the first row of a chessboard and eight identical White Queens in the last row. The Queens move one at a time, horizontally, vertically or diagonally by any number of squares as long as no other Queens are in the way. Black and White Queens move alternately. What is the minimal number of moves required for interchanging the Black and White Queens?
+
+*(5 points)*

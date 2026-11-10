@@ -6,8 +6,8 @@ appearances:
     primary: true
   - at: tot/2005-spring/so4
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -17,6 +17,25 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
+  - id: S3
+    lang: en
+    source: hf-aops-wiki
+    name: AoPS wiki problems
+    url: https://artofproblemsolving.com/community/c6h1064951p4622982
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+In a certain big city, all the streets go in one of two perpendicular directions. During a drive in the city, a car does not pass through any place twice, and returns to the parking place along a street from which it started. If it has made 100 left turns, how many right turns must it have made?
+
+*(5 points)*

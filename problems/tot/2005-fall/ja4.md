@@ -6,8 +6,8 @@ appearances:
     primary: true
   - at: tot/2005-fall/sa2
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -17,6 +17,27 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
+  - id: S3
+    lang: en
+    source: hf-aops-wiki
+    name: AoPS wiki problems
+    url: https://artofproblemsolving.com/community/c6h1069954p4649036
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+Two ants crawl along the perimeter of a polygonal table, so that the distance between them is always $10$ cm. Each side of the table is more than $1$ meter long. At the initial moment both ants are on the same side of the table.
+
+(a) *(2 points)* Suppose that the table is a convex polygon. Is it always true that both ants can visit each point on the perimeter?
+
+(b) *(4 points)* Is it always true (this time without assumption of convexity) that each point on the perimeter can be visited by at least one ant?

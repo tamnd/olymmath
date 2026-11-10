@@ -5,8 +5,8 @@ appearances:
   - at: tot/2020-fall/ja7
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-aops-wiki
+    name: AoPS wiki problems
+    url: https://artofproblemsolving.com/community/c6h3017279p27113435
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+There is a convex quadrangle $ABCD$ such that no three of its sides can form a triangle. Prove that:
+1. one of its angles is not greater than $60^\circ{}$;
+2. one of its angles is at least $120^\circ$.
+Maxim Didin

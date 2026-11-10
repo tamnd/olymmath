@@ -5,8 +5,8 @@ appearances:
   - at: tot/2021-spring/jo2
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: derived
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,25 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: AI-MO AoPS
+    url: https://huggingface.co/datasets/project-numina/aops
+    origin: D
+    zone: Z2
+    kind: transcription
+  - id: S3
+    lang: en
+    source: hf-aops-wiki
+    name: AoPS wiki problems
+    url: https://artofproblemsolving.com/community/c6h3017298p27113531
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
-  statement: sourced
+  statement: captured
 ---
+Let $AX$ and $BZ$ be altitudes of the triangle $ABC$ . Let $AY$ and $BT$ be its angle bisectors. It is given that angles $XAY$ and $ZBT$ are equal. Does this necessarily imply that $ABC$ is isosceles?
+
+*The Jury*

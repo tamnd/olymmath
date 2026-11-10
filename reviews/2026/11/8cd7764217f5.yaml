@@ -1,0 +1,9 @@
+id: 8cd7764217f5
+kind: pair
+records:
+    - sharygin/2016/p1
+    - sharygin/2016/p81
+decision: different
+by: agent
+date: "2026-11-10"
+note: Agent decision, not a person's review. The AoPS row is titled 2016 First Round P1 grade8, so its text is the correspondence round problem 1, which sharygin/2016/p1 already holds from the official paper. The locator read grade8 as the final round grade 8 paper and put the row at p81. The final round grade 8 problem 1 is a different problem, so p81 stays link-only.

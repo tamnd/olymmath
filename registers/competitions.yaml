@@ -2285,6 +2285,14 @@
   group: national
   level: high-school
   country: RO
+  # Agent decision, not a person's review: in these years the AoPS wiki titles name the test, written as "Day N" or "TST N" (each test is one day), as in "Romania TST 2015 Day 2 P3". The sizes of the tests come from the titles and agree with the count of the AoPS collection. Positions run across the year, so Test 2 P1 of 2015 is p6. Other years have titles that give no test, or tests whose size is not clear, and have no shape.
+  eras:
+    - {from: 2005, to: 2005, per_year: 17, layout: [{paper: test1, name: Test 1, positions: [p1, p2, p3]}, {paper: test2, name: Test 2, positions: [p4, p5, p6]}, {paper: test3, name: Test 3, positions: [p7, p8, p9]}, {paper: test4, name: Test 4, positions: [p10, p11, p12, p13]}, {paper: test5, name: Test 5, positions: [p14, p15, p16, p17]}]}
+    - {from: 2008, to: 2008, per_year: 19, layout: [{paper: test1, name: Test 1, positions: [p1, p2, p3, p4, p5]}, {paper: test2, name: Test 2, positions: [p6, p7, p8, p9]}, {paper: test3, name: Test 3, positions: [p10, p11, p12, p13]}, {paper: test4, name: Test 4, positions: [p14, p15, p16]}, {paper: test5, name: Test 5, positions: [p17, p18, p19]}]}
+    - {from: 2010, to: 2010, per_year: 22, layout: [{paper: test1, name: Test 1, positions: [p1, p2, p3, p4, p5]}, {paper: test2, name: Test 2, positions: [p6, p7, p8, p9]}, {paper: test3, name: Test 3, positions: [p10, p11, p12, p13]}, {paper: test4, name: Test 4, positions: [p14, p15, p16]}, {paper: test5, name: Test 5, positions: [p17, p18, p19]}, {paper: test6, name: Test 6, positions: [p20, p21, p22]}]}
+    - {from: 2012, to: 2012, per_year: 19, layout: [{paper: test1, name: Test 1, positions: [p1, p2, p3, p4, p5]}, {paper: test2, name: Test 2, positions: [p6, p7, p8, p9]}, {paper: test3, name: Test 3, positions: [p10, p11, p12, p13]}, {paper: test4, name: Test 4, positions: [p14, p15, p16]}, {paper: test5, name: Test 5, positions: [p17, p18, p19]}]}
+    - {from: 2013, to: 2013, per_year: 17, layout: [{paper: test1, name: Test 1, positions: [p1, p2, p3, p4]}, {paper: test2, name: Test 2, positions: [p5, p6, p7, p8]}, {paper: test3, name: Test 3, positions: [p9, p10, p11]}, {paper: test4, name: Test 4, positions: [p12, p13, p14]}, {paper: test5, name: Test 5, positions: [p15, p16, p17]}]}
+    - {from: 2014, to: 2015, per_year: 19, layout: [{paper: test1, name: Test 1, positions: [p1, p2, p3, p4, p5]}, {paper: test2, name: Test 2, positions: [p6, p7, p8, p9]}, {paper: test3, name: Test 3, positions: [p10, p11, p12, p13]}, {paper: test4, name: Test 4, positions: [p14, p15, p16]}, {paper: test5, name: Test 5, positions: [p17, p18, p19]}]}
   edition_form: year
   languages: [ro]
   sources: [imomath]

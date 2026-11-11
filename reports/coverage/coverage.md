@@ -6,21 +6,21 @@ This report is made by `om coverage`. The register gives the expected positions 
 
 | Expected | C0 | C1 | C2 | Candidate | No candidate | Located seed rows |
 |---:|---:|---:|---:|---:|---:|---:|
-| 33155 | 76.6% | 11.3% | 9.7% | 541 (1.6%) | 7203 (21.7%) | 156958 |
+| 34330 | 77.0% | 10.9% | 9.4% | 545 (1.6%) | 7343 (21.4%) | 155597 |
 
 ## Sources
 
 | Source | Rows | Located | With a position | Not a competition |
 |---|---:|---:|---:|---:|
-| hf-ai-mo-aops | 80661 | 49931 (61.9%) | 0 | 21125 |
+| hf-ai-mo-aops | 80661 | 49397 (61.2%) | 0 | 21659 |
 | hf-aime-1983-2026 | 1065 | 1065 (100.0%) | 1065 | 0 |
 | hf-amc12-full | 1199 | 1199 (100.0%) | 1199 | 0 |
 | hf-amo-bench | 50 | 50 (100.0%) | 50 | 0 |
-| hf-aops-wiki | 43005 | 33615 (78.2%) | 27736 | 6164 |
+| hf-aops-wiki | 43005 | 33588 (78.1%) | 27736 | 6191 |
 | hf-hrm8k | 8011 | 730 (9.1%) | 0 | 7281 |
 | hf-indonesian-olympiad | 2204 | 30 (1.4%) | 0 | 0 |
 | hf-liveaopsbench | 5328 | 0 (0.0%) | 0 | 5328 |
-| hf-mathnet | 55634 | 41842 (75.2%) | 0 | 6058 |
+| hf-mathnet | 55634 | 41042 (73.8%) | 0 | 6858 |
 | hf-mathodyssey | 148 | 148 (100.0%) | 148 | 0 |
 | hf-nemotron-imo-bench | 200 | 200 (100.0%) | 200 | 0 |
 | hf-numina-olympiads | 13087 | 11033 (84.3%) | 10793 | 2054 |
@@ -42,7 +42,7 @@ The order is the order of the register. A competition with no shape in the regis
 
 | Code | Competition | Expected | C0 | C1 | C2 | Candidate | No candidate | Seed rows |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| imo | International Mathematical Olympiad | 410 | 98.5% | 37.6% | 37.6% | 6 | 0 | 1486 |
+| imo | International Mathematical Olympiad | 410 | 98.3% | 37.6% | 37.6% | 7 | 0 | 1486 |
 | isl | IMO Shortlist | 541 | 100.0% | 66.4% | 66.4% | 0 | 0 | 5743 |
 | ill | IMO Longlist | no shape | - | - | - | 0 | 0 | 2957 |
 | igo | Iranian Geometry Olympiad | 190 | 52.1% | 0.0% | 0.0% | 0 | 91 | 307 |
@@ -50,11 +50,12 @@ The order is the order of the register. A competition with no shape in the regis
 | tot | Tournament of Towns | no shape | - | - | - | 0 | 0 | 3035 |
 | iom | International Olympiad of Metropolises | 66 | 53.0% | 0.0% | 0.0% | 1 | 30 | 72 |
 | sharygin | Sharygin Geometry Olympiad | 869 | 100.0% | 17.8% | 14.6% | 0 | 0 | 1833 |
-| tuymaada | Tuymaada Olympiad | 304 | 71.1% | 16.1% | 16.1% | 0 | 88 | 802 |
+| tuymaada | Tuymaada Olympiad | 304 | 75.7% | 16.4% | 16.4% | 0 | 74 | 802 |
 | zhautykov | International Zhautykov Olympiad | 132 | 64.4% | 4.5% | 4.5% | 18 | 29 | 418 |
 | silk-road | Silk Road Mathematical Competition | 100 | 83.0% | 0.0% | 0.0% | 0 | 17 | 283 |
 | usemo | US Ersatz Math Olympiad | 48 | 25.0% | 0.0% | 0.0% | 0 | 36 | 53 |
-| elmo | ELMO | 168 | 68.5% | 7.7% | 7.7% | 0 | 53 | 704 |
+| elmo | ELMO | 168 | 68.5% | 7.7% | 7.7% | 0 | 53 | 228 |
+| elmo-sl | ELMO Shortlist | no shape | - | - | - | 0 | 0 | 476 |
 | olympic-revenge | Olympic Revenge | 150 | 18.0% | 0.0% | 0.0% | 0 | 123 | 160 |
 | duel | Mathematical Duel | no shape | - | - | - | 0 | 0 | 0 |
 | egmo | European Girls' Mathematical Olympiad | 90 | 100.0% | 8.9% | 8.9% | 0 | 0 | 767 |
@@ -64,7 +65,7 @@ The order is the order of the register. A competition with no shape in the regis
 | jbmo-sl | JBMO Shortlist | 538 | 57.1% | 0.0% | 0.0% | 3 | 228 | 1839 |
 | baltic-way | Baltic Way | 740 | 96.2% | 2.7% | 2.7% | 5 | 23 | 4027 |
 | baltic-way-sl | Baltic Way Shortlist | no shape | - | - | - | 0 | 0 | 472 |
-| memo | Middle European Mathematical Olympiad | 240 | 58.3% | 16.7% | 16.7% | 0 | 100 | 642 |
+| memo | Middle European Mathematical Olympiad | 240 | 82.1% | 16.7% | 16.7% | 0 | 43 | 642 |
 | austrian-polish | Austrian-Polish Mathematics Competition | 268 | 99.6% | 0.0% | 0.0% | 1 | 0 | 541 |
 | rmm | Romanian Master of Mathematics | 114 | 86.0% | 5.3% | 5.3% | 0 | 16 | 612 |
 | nordic | Nordic Mathematical Contest | 160 | 100.0% | 5.0% | 5.0% | 0 | 0 | 686 |
@@ -101,7 +102,7 @@ The order is the order of the register. A competition with no shape in the regis
 | amc8 | AMC 8 | 1025 | 53.3% | 0.0% | 0.0% | 0 | 479 | 1032 |
 | amc10 | AMC 10 | 1350 | 26.7% | 0.0% | 0.0% | 0 | 990 | 1473 |
 | amc12 | AMC 12 | 1350 | 88.1% | 0.0% | 0.0% | 10 | 151 | 1377 |
-| aime | American Invitational Mathematics Examination | 660 | 99.4% | 0.0% | 0.0% | 4 | 0 | 2215 |
+| aime | American Invitational Mathematics Examination | 1065 | 99.5% | 0.0% | 0.0% | 5 | 0 | 2215 |
 | usamo | United States of America Mathematical Olympiad | 330 | 90.3% | 0.0% | 0.0% | 2 | 30 | 1524 |
 | usajmo | United States of America Junior Mathematical Olympiad | 102 | 92.2% | 0.0% | 0.0% | 2 | 6 | 489 |
 | tstst | USA TST for the TST | 132 | 99.2% | 13.6% | 13.6% | 1 | 0 | 689 |
@@ -123,7 +124,7 @@ The order is the order of the register. A competition with no shape in the regis
 | ca-cjmo | Canadian Junior Mathematical Olympiad | 35 | 17.1% | 0.0% | 0.0% | 0 | 29 | 24 |
 | ca-euclid | Euclid Mathematics Contest | 10 | 0.0% | 0.0% | 0.0% | 0 | 10 | 13 |
 | mx-omm | Mexican Mathematical Olympiad | 244 | 94.7% | 18.0% | 18.0% | 0 | 13 | 483 |
-| br-obm | Brazilian Mathematical Olympiad | 288 | 93.8% | 20.1% | 20.1% | 5 | 13 | 3119 |
+| br-obm | Brazilian Mathematical Olympiad | 290 | 93.8% | 20.0% | 20.0% | 5 | 13 | 3119 |
 | br-obmep | Brazilian Public Schools Mathematics Olympiad | no shape | - | - | - | 0 | 0 | 0 |
 | ar-oma | Argentine Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 777 |
 | pe-mo | Peru national mathematics olympiad | 76 | 36.8% | 0.0% | 0.0% | 0 | 48 | 102 |
@@ -172,7 +173,7 @@ The order is the order of the register. A competition with no shape in the regis
 | cz-sk-mo | Czech-Slovak Mathematical Olympiad | 438 | 58.7% | 4.8% | 4.8% | 1 | 180 | 933 |
 | hu-oktv | Hungarian National Secondary School Competition | no shape | - | - | - | 0 | 0 | 0 |
 | hu-komal | KöMaL Problem Contests | no shape | - | - | - | 0 | 0 | 0 |
-| ro-nmo | Romanian National Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 4045 |
+| ro-nmo | Romanian National Mathematical Olympiad | 408 | 67.9% | 0.0% | 0.0% | 0 | 131 | 2684 |
 | ro-tst | Romanian IMO Team Selection Test | no shape | - | - | - | 0 | 0 | 1614 |
 | bg-mo | Bulgarian Mathematical Olympiad | 384 | 82.0% | 0.0% | 0.0% | 17 | 52 | 1398 |
 | rs-smo | Serbian Mathematical Olympiad | 108 | 87.0% | 29.6% | 29.6% | 14 | 0 | 566 |
@@ -185,7 +186,7 @@ The order is the order of the register. A competition with no shape in the regis
 | xk-mo | Kosovo national mathematics olympiad | 52 | 98.1% | 0.0% | 0.0% | 0 | 1 | 492 |
 | ru-allrussian | All-Russian Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 5415 |
 | ru-moscow | Moscow Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 833 |
-| ru-spb | St Petersburg Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 710 |
+| ru-spb | St Petersburg Mathematical Olympiad | 315 | 74.6% | 0.0% | 0.0% | 0 | 80 | 710 |
 | ru-239-open | 239 Lyceum Open Olympiad | no shape | - | - | - | 0 | 0 | 324 |
 | ru-okruzhnaya | Moscow District Olympiad | no shape | - | - | - | 0 | 0 | 0 |
 | ru-regata | Moscow Mathematical Regatta | no shape | - | - | - | 0 | 0 | 0 |
@@ -213,10 +214,10 @@ The order is the order of the register. A competition with no shape in the regis
 | hk-pc | Hong Kong Preliminary Selection Contest and TST | no shape | - | - | - | 0 | 0 | 915 |
 | mo-macau | Macau Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 0 |
 | mn-mo | Mongolian Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 1174 |
-| vn-vmo | Vietnam Mathematical Olympiad | 404 | 78.5% | 0.0% | 0.0% | 10 | 77 | 1100 |
+| vn-vmo | Vietnam Mathematical Olympiad | 405 | 78.5% | 0.0% | 0.0% | 10 | 77 | 1100 |
 | vn-tst | Vietnam Team Selection Test | 222 | 81.1% | 0.0% | 0.0% | 10 | 32 | 497 |
 | sg-smo | Singapore Mathematical Olympiad | 160 | 73.8% | 0.0% | 0.0% | 2 | 40 | 823 |
-| th-tmo | Thailand Mathematical Olympiad | 230 | 80.0% | 0.4% | 0.4% | 13 | 33 | 725 |
+| th-tmo | Thailand Mathematical Olympiad | 274 | 82.5% | 0.4% | 0.4% | 15 | 33 | 725 |
 | ph-pmo | Philippine Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 1667 |
 | my-omk | Malaysian Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 180 |
 | id-osn | Indonesian National Science Olympiad | 192 | 79.7% | 0.0% | 0.0% | 8 | 31 | 418 |

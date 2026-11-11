@@ -1,0 +1,12 @@
+year: 2005
+papers:
+  - name: Test 1
+    problems: [p1, p2, p3]
+  - name: Test 2
+    problems: [p4, p5, p6]
+  - name: Test 3
+    problems: [p7, p8, p9]
+  - name: Test 4
+    problems: [p10, p11, p12, p13]
+  - name: Test 5
+    problems: [p14, p15, p16, p17]

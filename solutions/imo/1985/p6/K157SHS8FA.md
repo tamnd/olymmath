@@ -11,7 +11,7 @@ zone: Z1
 lang: en
 complete: false
 ---
-Assume that there is some $x_1$ such that $0<x_n<x_{n+1}<1$ then $\{x_n\}$ is monotonically increasing and bounded. Hence converges by [monotone convergence theorem](http://en.wikipedia.org/wiki/Monotone_convergence_theorem). 
+Assume that there is some $x_1$ such that $0<x_n<x_{n+1}<1$ then $\{x_n\}$ is monotonically increasing and bounded. Hence converges by [monotone convergence theorem](http://en.wikipedia.org/wiki/Monotone_convergence_theorem).
 
 Let $\lim\limits_{n\rightarrow \infty}{x_n}=l$, then obtain $l^2=l \Rightarrow l=0,1$, we can readily omit $0$ and hence $x_n\rightarrow 1$.
 
@@ -33,7 +33,7 @@ The divergence of $x_n-a_n$ is clear. A contradiction.
 
 
 ----------
-**To prove the *existence***, denote $f_{1}(x)=x$ and $f_{n+1}(x)=f_{n}(x)\left(f_{n}(x)+\frac{1}{n}\right)$. Using induction prove that $f_{n}(x)$ is a *strictly increasing* function in $x$. 
+**To prove the *existence***, denote $f_{1}(x)=x$ and $f_{n+1}(x)=f_{n}(x)\left(f_{n}(x)+\frac{1}{n}\right)$. Using induction prove that $f_{n}(x)$ is a *strictly increasing* function in $x$.
 
 Let $b_n$, $c_n$ be such that $f_{n}(b_n)=1-\frac{1}{n}$ and $f_{n}(c_n)=1$, the existence and uniqueness of $b_n$, $c_n$ follows from monotonicity of $f_n$, the observations $f_{n}(0)=0$, $f_{n}(1)>1$ and the continuity of $f_{n}$. Also observe that $b_n<c_n$ and using induction that $b_n$ is *strictly increasing* and $c_n$ is *strictly decreasing* sequences.
 

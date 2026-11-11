@@ -1,0 +1,14 @@
+year: 2021
+papers:
+  - name: Grade 7
+    problems: [p71, p72, p73, p74]
+  - name: Grade 8
+    problems: [p81, p82, p83, p84]
+  - name: Grade 9
+    problems: [p91, p92, p93, p94]
+  - name: Grade 10
+    problems: [p101, p102, p103, p104]
+  - name: Grade 11
+    problems: [p111, p112, p113, p114]
+  - name: Grade 12
+    problems: [p121, p122, p123, p124]

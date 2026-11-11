@@ -56,7 +56,7 @@
 4V5YF6N2E8	FNG1W26NXM	different	ru-allrussian/1974/p14 br-obm/1994/p2
 4WNH158NYQ	WD3WVC39BG	different	tstst/2021/p8 tstst/2023/p8
 4Z307D6RS1	PJDZZWFJSA	different	isl/2013/a4 isl/2020/c1
-514R3WDZ2P	C1KTJTANJS	different	vn-vmo/1974/p2 ru-spb/2022/p1
+514R3WDZ2P	C1KTJTANJS	different	vn-vmo/1974/p2 ru-spb/2022/p91
 51NHPRJ3EG	73VYMETGZZ	different	aime/2002b/p9 aime/2002a/p14
 5353NN72YS	YJQFBXTAHY	different	imo/2019/p6 jbmo-sl/2015/g5
 58E7YBV9MT	8D32W0S4M2	different	ru-allrussian/1989/p4 ru-allrussian/1980/p20
@@ -338,7 +338,7 @@ HGZDZ001JW	T3ANFKRPG6	different	hu-komal/2016/b4820 hu-komal/2017/a693
 6H039Z5HFP	T9XH08TN20	different	amc12/2006a/p7 amc12/2003a/p12
 FDCDE1MQGJ	THJP39QYE7	different	hu-komal/2008/b4058 hu-komal/2014/b4652
 ZSW63PNJWQ	1Q1PZQ9TJ8	different	balkan-sl/2019/g4 in-inmo/2019/p5
-5Z8C7193B1	514R3WDZ2P	different	hu-komal/2007/b3972 ru-spb/2022/p1
+5Z8C7193B1	514R3WDZ2P	different	hu-komal/2007/b3972 ru-spb/2022/p91
 5Z8C7193B1	VQ72C4SQT7	different	hu-komal/2007/b3972 hu-komal/2009/b4191
 5Z8C7193B1	ZKH4P70TXY	different	hu-komal/2007/b3972 id-osn/2003/p1
 5Z8C7193B1	MNDNB2GS5Q	different	hu-komal/2007/b3972 hu-komal/2024/k826
@@ -619,7 +619,7 @@ XMPT2NZD05	539VXVTXQF	different	isl/2009/g2 tstst/2021/p1
 GCEBP37HE1	2QZ3XFCWKY	different	hu-komal/2007/k133 aime/2001a/p1
 RZQPRJWZVS	JHWZA6GWMJ	different	amc12/2016b/p12 hu-komal/2022/k741
 D9XMY7R5VX	G20GQ4C0AE	different	hu-komal/2008/b4109 hu-komal/2014/b4657
-MFY7HCKEX5	QWGS2TE2KR	different	baltic-way/1993/p3 ru-spb/2013/p1
+MFY7HCKEX5	QWGS2TE2KR	different	baltic-way/1993/p3 ru-spb/2013/p101
 GCEBP37HE1	WQW42PNFZ0	different	hu-komal/2007/k133 hu-komal/2015/k486
 FQC1X2D3DY	STW01578T8	same	vtrmc/2018/p4 putnam/2000/b2
 VF9AEAJ6ZE	CNZ6RJZ5AK	different	putnam/1996/b3 caps/2002/p1
@@ -1391,7 +1391,7 @@ RRDPSVWA4E	68TBPRX5F9	different	hmmt/2009/a5 hu-komal/2007/b4043
 R5BYV9H48Z	TFZWFCVR32	same	hmmt/2008/f9 hmmt/2008/g9
 8MMAK6SA8F	JP7MKFNVDD	same	hmmt/2007/f2 hmmt/2004/g2
 355AK8TR6S	RV5EJYWMWK	variant	hmnt/2009/t7 hmnt/2009/t5
-514R3WDZ2P	VQ72C4SQT7	different	ru-spb/2022/p1 hu-komal/2009/b4191
+514R3WDZ2P	VQ72C4SQT7	different	ru-spb/2022/p91 hu-komal/2009/b4191
 B2K13PBE4R	S6RDF789CK	different	vn-vmo/1982/p4 vn-vmo/1982/p2
 MQJSCXKAV5	YZGMMTET94	variant	hmmt/2002/v2 hmmt/2002/e10
 D47N4J41T7	FAMH7YWXYZ	same	hmmt/2008/f3 hmmt/2008/c1
@@ -1596,7 +1596,7 @@ J9S34P4WB4	M632FXWT6F	same	hmmt/2001/g1 hmmt/2001/f1
 3DNMS6ZJ5T	SWW1Y0MKGX	variant	hmmt/2010/f4 hmmt/2010/g3
 5AC54GHFXA	EBD9QFF8EP	variant	hmmt/2004/f2 hmmt/2004/c4
 JGRN2HXX7A	YF2AK3HCYG	same	hu-komal/2023/b5347 hu-komal/2010/b4315
-ZKH4P70TXY	514R3WDZ2P	different	id-osn/2003/p1 ru-spb/2022/p1
+ZKH4P70TXY	514R3WDZ2P	different	id-osn/2003/p1 ru-spb/2022/p91
 JX8KZN1A3N	S43MA6ETSC	variant	hmnt/2017/u13 hmnt/2017/u25
 NJ71GW0ETM	SK3YPPGAG7	variant	hmmt/2006/c4 hmmt/2006/e8
 QET4B1F3R1	VN07SBAMMY	variant	hmmt/2004/c2 hmmt/2004/e4

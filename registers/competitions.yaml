@@ -2252,6 +2252,14 @@
   country: RO
   edition_form: year
   languages: [ro]
+  first_year: 1949
+  # Agent decision, not a person's review: the AoPS wiki titles of these years name the grade, as in "Romanian NMO 2014 Grade IX P2" or "RMO 2008 Grade 10 P3", and the wiki numbers the four problems of each grade from 1. The final round has one paper for each of the grades 7 to 12. The position of problem N of grade G is pG followed by N, as by-mo uses. The other years have titles with no grade, so they have no shape and their rows get no position.
+  eras:
+    - {from: 2000, to: 2000, per_year: 24, layout: [{paper: grade7, name: Grade 7, positions: [p71, p72, p73, p74]}, {paper: grade8, name: Grade 8, positions: [p81, p82, p83, p84]}, {paper: grade9, name: Grade 9, positions: [p91, p92, p93, p94]}, {paper: grade10, name: Grade 10, positions: [p101, p102, p103, p104]}, {paper: grade11, name: Grade 11, positions: [p111, p112, p113, p114]}, {paper: grade12, name: Grade 12, positions: [p121, p122, p123, p124]}]}
+    - {from: 2003, to: 2011, per_year: 24, layout: [{paper: grade7, name: Grade 7, positions: [p71, p72, p73, p74]}, {paper: grade8, name: Grade 8, positions: [p81, p82, p83, p84]}, {paper: grade9, name: Grade 9, positions: [p91, p92, p93, p94]}, {paper: grade10, name: Grade 10, positions: [p101, p102, p103, p104]}, {paper: grade11, name: Grade 11, positions: [p111, p112, p113, p114]}, {paper: grade12, name: Grade 12, positions: [p121, p122, p123, p124]}]}
+    - {from: 2013, to: 2017, per_year: 24, layout: [{paper: grade7, name: Grade 7, positions: [p71, p72, p73, p74]}, {paper: grade8, name: Grade 8, positions: [p81, p82, p83, p84]}, {paper: grade9, name: Grade 9, positions: [p91, p92, p93, p94]}, {paper: grade10, name: Grade 10, positions: [p101, p102, p103, p104]}, {paper: grade11, name: Grade 11, positions: [p111, p112, p113, p114]}, {paper: grade12, name: Grade 12, positions: [p121, p122, p123, p124]}]}
+    - {from: 2019, to: 2019, per_year: 24, layout: [{paper: grade7, name: Grade 7, positions: [p71, p72, p73, p74]}, {paper: grade8, name: Grade 8, positions: [p81, p82, p83, p84]}, {paper: grade9, name: Grade 9, positions: [p91, p92, p93, p94]}, {paper: grade10, name: Grade 10, positions: [p101, p102, p103, p104]}, {paper: grade11, name: Grade 11, positions: [p111, p112, p113, p114]}, {paper: grade12, name: Grade 12, positions: [p121, p122, p123, p124]}]}
+    - {from: 2021, to: 2021, per_year: 24, layout: [{paper: grade7, name: Grade 7, positions: [p71, p72, p73, p74]}, {paper: grade8, name: Grade 8, positions: [p81, p82, p83, p84]}, {paper: grade9, name: Grade 9, positions: [p91, p92, p93, p94]}, {paper: grade10, name: Grade 10, positions: [p101, p102, p103, p104]}, {paper: grade11, name: Grade 11, positions: [p111, p112, p113, p114]}, {paper: grade12, name: Grade 12, positions: [p121, p122, p123, p124]}]}
   sources: [imomath, hf-mathnet]
   description: The national olympiad of Romania for grades 7 to 12. No official archive has been found.
 
@@ -2393,6 +2401,9 @@
   country: RU
   url: https://www.pdmi.ras.ru/~olymp/
   first_year: 1934
+  # Agent decision, not a person's review: from 2008 to 2022 the AoPS wiki titles name the grade, as in "St Petersburg Olympiad 2014 Grade 11 P5" or "St. Petersburg 2019 10.4", with seven problems for each of the grades 9, 10 and 11 of the final round. The position of problem N of grade G is pG followed by N, as by-mo uses. A title that names a round, such as "round II", gives no position.
+  eras:
+    - {from: 2008, to: 2022, per_year: 21, layout: [{paper: grade9, name: Grade 9, positions: [p91, p92, p93, p94, p95, p96, p97]}, {paper: grade10, name: Grade 10, positions: [p101, p102, p103, p104, p105, p106, p107]}, {paper: grade11, name: Grade 11, positions: [p111, p112, p113, p114, p115, p116, p117]}]}
   edition_form: year
   languages: [ru]
   copyright: None stated.

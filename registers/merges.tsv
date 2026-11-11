@@ -531,3 +531,24 @@ amc10/2022b/p25	amc12/2022b/p23	strong	1.000	none	amc10-amc12	8bfc9752dd59
 amc10/2022b/p6	amc12/2022b/p3	strong	1.000	none	amc10-amc12	8e7b6f8f6ab0
 amc10/2022b/p8	amc12/2022b/p6	strong	1.000	none	amc10-amc12	36febe329cda
 tuymaada/2020/s3	tuymaada/2020/j3	none	0.753	none	text	8f38c67cd6ad	1.000
+ill/1967/p29	imo/1967/p4	strong	0.080	none	ill-imo	-	0.850
+ill/1971/p43	imo/1971/p6	strong	0.773	none	ill-imo	-	0.981
+ill/1985/p49	imo/1985/p4	strong	0.129	none	ill-imo	-	0.700
+ill/1987/p20	imo/1987/p3	strong	0.921	none	ill-imo	-	0.974
+ill/1987/p70	imo/1987/p2	strong	0.841	none	ill-imo	-	0.826
+ill/1988/p77	imo/1988/p3	strong	0.843	none	ill-imo	-	0.913
+ill/1989/p66	imo/1989/p3	strong	0.576	none	ill-imo	-	1.000
+ill/1989/p68	imo/1989/p1	strong	0.571	none	ill-imo	-	1.000
+ill/1990/p58	imo/1990/p6	strong	0.514	none	ill-imo	-	1.000
+ill/1990/p19	imo/1990/p5	strong	0.618	none	ill-imo	-	1.000
+ill/1992/p13	isl/1992/p5	strong	0.422	none	ill-isl	-	0.875
+ill/1992/p9	isl/1992/p3	strong	0.318	none	ill-isl	-	0.842
+ill/1970/p22	ill/1970/p21	none	1.000	none	text	30aaa6adae57	1.000
+ill/1974/p38	ill/1971/p1	none	1.000	none	text	ab3816a0a2e0	1.000
+ill/1974/p13	ill/1973/p9	none	1.000	none	text	c28ab4ebeafb	1.000
+ill/1974/p48	ill/1974/p44	none	1.000	none	text	e4517cd3b0f8	1.000
+ill/1984/p17	ill/1983/p54	none	1.000	none	text	9b01cb2622b7	1.000
+ill/1990/p46	ill/1985/p53	none	1.000	none	text	963fffac0968	1.000
+ill/1992/p66	ill/1990/p81	none	1.000	none	text	02574d490d48	1.000
+ill/1992/p67	ill/1990/p82	none	1.000	none	text	785a18780817	1.000
+ill/1992/p81	ill/1990/p96	none	1.000	none	text	208bbce71b3c	1.000

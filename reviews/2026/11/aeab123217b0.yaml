@@ -1,0 +1,9 @@
+id: aeab123217b0
+kind: pair
+records:
+    - elmo/2012/p3
+    - elmo-sl/2012/a7
+decision: accept
+by: agent
+date: "2026-11-11"
+note: 'Agent decision, not a person''s review. The AoPS wiki title "ELMO Shortlist 2012 A7; also ELMO #3" says that this shortlist problem was chosen as problem 3 of ELMO 2012, and the texts agree.'

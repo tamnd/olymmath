@@ -1,0 +1,9 @@
+id: 3327dbf378d6
+kind: pair
+records:
+    - elmo/2010/p5
+    - elmo-sl/2010/c3
+decision: accept
+by: agent
+date: "2026-11-11"
+note: 'Agent decision, not a person''s review. The AoPS wiki title "ELMO Shortlist 2010 C3; also ELMO #5" says that this shortlist problem was chosen as problem 5 of ELMO 2010, and the texts agree.'

@@ -1,0 +1,9 @@
+id: 40387d73c62f
+kind: pair
+records:
+    - amc12/2020a/p16
+    - amc10/2020a/p16
+decision: accept
+by: agent
+date: "2026-11-11"
+note: 'Agent decision, not a person''s review. Problem 16 of the 2020 AMC 10A is problem 16 of the 2020 AMC 12A, a shared problem of the same paper. The AMC 10 position comes from the AoPS wiki order of the NuminaMath amc_aime rows, and the text matches the AMC 12 record (T 1.000), so the AMC 10 position is an appearance of the AMC 12 record and not a new record.'

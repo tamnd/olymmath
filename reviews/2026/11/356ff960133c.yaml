@@ -1,0 +1,8 @@
+id: 356ff960133c
+kind: doubt
+records:
+    - amc8/2017/p10
+decision: keep
+by: agent
+date: "2026-11-11"
+note: 'Agent decision, not a person''s review. The position comes from the order of the NuminaMath amc_aime rows, which follow the AoPS wiki pages, and the year run has exactly the problems of the register. The ai-mo-aops topic order does not confirm it, but problems 1 to 4 of the same year run agree with the numbered AoPS wiki rows, and the run is placed as one block. Kept.'

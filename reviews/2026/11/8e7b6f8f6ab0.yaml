@@ -1,0 +1,9 @@
+id: 8e7b6f8f6ab0
+kind: pair
+records:
+    - amc12/2022b/p3
+    - amc10/2022b/p6
+decision: accept
+by: agent
+date: "2026-11-11"
+note: 'Agent decision, not a person''s review. Problem 6 of the 2022 AMC 10B is problem 3 of the 2022 AMC 12B, a shared problem of the same paper. The AMC 10 position comes from the AoPS wiki order of the NuminaMath amc_aime rows, and the text matches the AMC 12 record (T 1.000), so the AMC 10 position is an appearance of the AMC 12 record and not a new record.'

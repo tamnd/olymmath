@@ -1,0 +1,9 @@
+id: 7a2a5f07d765
+kind: pair
+records:
+    - amc12/2008a/p10
+    - amc10/2008a/p13
+decision: accept
+by: agent
+date: "2026-11-11"
+note: 'Agent decision, not a person''s review. Problem 13 of the 2008 AMC 10A is problem 10 of the 2008 AMC 12A, a shared problem of the same paper. The AMC 10 position comes from the AoPS wiki order of the NuminaMath amc_aime rows, and the text matches the AMC 12 record (T 1.000), so the AMC 10 position is an appearance of the AMC 12 record and not a new record.'

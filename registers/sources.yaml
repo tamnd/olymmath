@@ -795,13 +795,14 @@
   origin: H1
   url: https://cms.math.ca/competitions/cmo/
   access: pdf
+  terms: The copyright page https://cms.math.ca/copyright/ grants individual readers the right to copy articles for their own personal use, and says that use for any other purpose is strictly prohibited. So the content links to the papers and holds no text of them.
   zone:
-    statement: Z2
-    solution: Z2
+    statement: Z3
+    solution: Z3
   ai_train: unknown
   wave: 1
-  state: planned
-  notes: robots.txt disallows the CMO problem-set paths, so they are not crawled.
+  state: active
+  notes: robots.txt (checked on 2026-11-11) disallows /competitions/cmo/problem-sets and /concours/omc/problemes, so the CMO papers are not read. It allows the Repêchage page https://cms.math.ca/competitions/repechage/ and its papers under /wp-content/uploads, and the CMOQR records link to them, with the page of each problem.
 
 - id: amt
   name: Australian Mathematics Trust

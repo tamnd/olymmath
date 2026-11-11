@@ -1,0 +1,10 @@
+id: 8918feaafcac
+kind: doubt
+records:
+    - vn-vmo/2016/p5
+    - vn-vmo/2016/p6
+    - vn-vmo/2016/p7
+decision: keep
+by: agent
+date: "2026-11-11"
+note: 'Agent decision, not a person''s review. The AoPS wiki titles of day 2 are only "VMO 2016" with the numbers 1, 2 and 3 of the day. Day 1 has titles "Day 1 P1" to "Day 1 P4", so the numbers 1 to 3 can only be p5 to p7 by elimination. The texts fit: p5 is the functional equation with f(1) = 2016, p7 is the odd perfect number problem. Kept.'

@@ -1,0 +1,8 @@
+id: 466aa88b25c6
+kind: doubt
+records:
+    - cn-mo/1996/p2
+decision: keep
+by: agent
+date: "2026-11-11"
+note: 'Agent decision, not a person''s review. Not imported. The AoPS wiki lists CMO 1996 with numbers per day: "CMO 1996 5" (topic 68429) has the same text as this record (the pi/2 inequality), while the wiki row with the number 2 links topic 278793, the problem on subsets of {1, ..., 50} where a + b divides ab. One of the two positions is wrong. The new rows of 1996 were left out until a person checks the 1996 paper.'

@@ -182,6 +182,7 @@ hf-mathnet	Selected Problems from Open Contests	30
 hf-mathnet	Spring Mathematical Tournament	30
 hf-ai-mo-aops	2017-IMOC	29
 hf-ai-mo-aops	2024-IMOC	29
+hf-ai-mo-aops	AHSME Spring	29
 hf-ai-mo-aops	Belgium OMB Seniors - geometry	29
 hf-ai-mo-aops	Korea Summer Program Practice Test	29
 hf-ai-mo-aops	North Korea Mathematical Olympiad	29
@@ -217,6 +218,7 @@ hf-ai-mo-aops	2019	27
 hf-ai-mo-aops	2022	27
 hf-ai-mo-aops	2023	27
 hf-ai-mo-aops	2025	27
+hf-ai-mo-aops	AHSME Fall	27
 hf-ai-mo-aops	Girls in Mathematics Tournament	27
 hf-ai-mo-aops	JHMMC 7 Contest	27
 hf-ai-mo-aops	Mathcenter Contest + Longlist	27
@@ -231,6 +233,7 @@ hf-aops-wiki	KoMaL A 2018/2019	27
 hf-aops-wiki	KoMaL A 2021/2022	27
 hf-indonesian-olympiad	KMSI_SD_56_2022	27
 hf-ai-mo-aops	2024	26
+hf-ai-mo-aops	AMC 12-AHSME	26
 hf-ai-mo-aops	HMO Croatia MO -  geometry	26
 hf-ai-mo-aops	Mathley 2014-15	26
 hf-ai-mo-aops	N.N. Mihăileanu Individual	26
@@ -394,10 +397,9 @@ hf-indonesian-olympiad	Science_EXPO_SUD	21
 hf-ai-mo-aops	Austrian Junior Regional Competition	20
 hf-ai-mo-aops	Bulgaria MO Regional Round	20
 hf-ai-mo-aops	CMIMC Algebra	20
-hf-ai-mo-aops	CMIMC Algebra/NT	20
 hf-ai-mo-aops	CMIMC Combinatorics	20
-hf-ai-mo-aops	CMIMC Combo/CS	20
 hf-ai-mo-aops	CMIMC Number Theory	20
+hf-ai-mo-aops	CS	20
 hf-ai-mo-aops	Chile TST IMO	20
 hf-ai-mo-aops	Cyprus JBMO TST	20
 hf-ai-mo-aops	Estonia Math Open Junior Contests	20
@@ -405,6 +407,7 @@ hf-ai-mo-aops	Estonia Math Open Senior Contests	20
 hf-ai-mo-aops	Honduras National Mathematical Olympiad	20
 hf-ai-mo-aops	Korea Junior Math Olympiad (First Round)	20
 hf-ai-mo-aops	LIMIT Category 2	20
+hf-ai-mo-aops	NT	20
 hf-ai-mo-aops	Polish Junior MO Finals	20
 hf-ai-mo-aops	Polish Junior Math Olympiad Finals	20
 hf-ai-mo-aops	RMT Algebra Round	20
@@ -450,6 +453,7 @@ hf-ai-mo-aops	Assam Mathematics Olympiad	19
 hf-ai-mo-aops	Chile TST Ibero	19
 hf-ai-mo-aops	Durer  Math Competition (First Round)	19
 hf-ai-mo-aops	Dürer Math Competition (First Round)	19
+hf-ai-mo-aops	EGMO TST	19
 hf-ai-mo-aops	Final Mathematical Cup	19
 hf-ai-mo-aops	JBMO TST - Macedonia	19
 hf-ai-mo-aops	Nicolae Păun	19
@@ -768,11 +772,11 @@ hf-mathnet	Zweite Runde 2023	12
 hf-ai-mo-aops	CMIMC Algebra & Number Theory	11
 hf-ai-mo-aops	CMIMC Combinatorics & Computer Science	11
 hf-ai-mo-aops	CVM 2020	11
-hf-ai-mo-aops	Contests/ICMC 5	11
 hf-ai-mo-aops	February SZM Mathematical Olympiad	11
 hf-ai-mo-aops	Fractal Edition 1	11
 hf-ai-mo-aops	Fractal Edition 2	11
 hf-ai-mo-aops	Fractal Edition 5	11
+hf-ai-mo-aops	ICMC 5	11
 hf-ai-mo-aops	ICMC 7	11
 hf-ai-mo-aops	India Iran Friendly Math Competition	11
 hf-ai-mo-aops	Macedonia JBMO TST	11
@@ -1110,10 +1114,10 @@ hf-ai-mo-aops	Belgium OMB Seniors - 3D Geo	7
 hf-ai-mo-aops	Belgium OMB Seniors - Combo Geo	7
 hf-ai-mo-aops	Belgium OMB Seniors - Geo Inequalities	7
 hf-ai-mo-aops	Bolivian Cono Sur TST	7
+hf-ai-mo-aops	CNCM Online Round 1	7
 hf-ai-mo-aops	CNCM Online Round 2	7
 hf-ai-mo-aops	CNCM Online Round 3	7
 hf-ai-mo-aops	CNCM Online Round 4	7
-hf-ai-mo-aops	Contests/CNCM Online Round 1	7
 hf-ai-mo-aops	Czech and Slovak NMO I C - plane geometry	7
 hf-ai-mo-aops	ICMC 6	7
 hf-ai-mo-aops	Iranian Our MO	7
@@ -1143,6 +1147,7 @@ hf-aops-wiki	Mathley Magazine	7
 hf-omni-math	th_igo	7
 hf-omni-math	yau_contest	7
 hf-ai-mo-aops	11th Xueersi Mathematical Olympiad	6
+hf-ai-mo-aops	12	6
 hf-ai-mo-aops	2nd Memorial "Aleksandar Blazhevski-Cane"	6
 hf-ai-mo-aops	3rd Cabri Clubs 1996	6
 hf-ai-mo-aops	41st China MO 6th Mock Test	6
@@ -1150,8 +1155,8 @@ hf-ai-mo-aops	4th Cabri Clubs 1997	6
 hf-ai-mo-aops	5th Cabri Clubs 1997	6
 hf-ai-mo-aops	5th Memorial "Aleksandar Blazhevski-Cane"	6
 hf-ai-mo-aops	6th Cabri Clubs 1997	6
-hf-ai-mo-aops	ALMO/ALMO Junior	6
-hf-ai-mo-aops	ALMO/ALMO Senior	6
+hf-ai-mo-aops	ALMO Junior	6
+hf-ai-mo-aops	ALMO Senior	6
 hf-ai-mo-aops	Albanians Cup in Mathematics	6
 hf-ai-mo-aops	Argentina National Math Olympiad Level 2	6
 hf-ai-mo-aops	Armenian Republican Olympiads	6
@@ -1162,7 +1167,6 @@ hf-ai-mo-aops	EGMO TST Turkey	6
 hf-ai-mo-aops	Fractal Edition 4	6
 hf-ai-mo-aops	Geolympiad Spring	6
 hf-ai-mo-aops	Geolympiad Summer	6
-hf-ai-mo-aops	Germany, Landesrunde - Grade 11/12	6
 hf-ai-mo-aops	Honduras National Physics Olympiad (OHF)	6
 hf-ai-mo-aops	ICMC 8	6
 hf-ai-mo-aops	IDMC	6
@@ -1462,7 +1466,7 @@ hf-ai-mo-aops	Azerbaijan TSTST	3
 hf-ai-mo-aops	Bosnia and Herzegovina BMO TST	3
 hf-ai-mo-aops	CMIMC TCS	3
 hf-ai-mo-aops	CMIMC Theoretical Computer Science	3
-hf-ai-mo-aops	Dutch BxMO/EGMO TST, IMO TSTST	3
+hf-ai-mo-aops	EGMO TST, IMO TSTST	3
 hf-ai-mo-aops	French Olympiad - RMM Team Selection Test	3
 hf-ai-mo-aops	Graduate School Of Mathematical Sciences, The Master Cource,  The University Of Tokyo	3
 hf-ai-mo-aops	India EGMO 2021 TST	3
@@ -1565,8 +1569,8 @@ hf-ai-mo-aops	4th Xueersi Mathematical Olympiad	1
 hf-ai-mo-aops	5th Xueersi Mathematical Olympiad	1
 hf-ai-mo-aops	7th Xueersi Mathematical Olympiad	1
 hf-ai-mo-aops	8th Xueersi Mathematical Olympiad	1
-hf-ai-mo-aops	Azerbaijan EGMO/CMO TST	1
 hf-ai-mo-aops	BIMO 2020	1
+hf-ai-mo-aops	CMO TST	1
 hf-ai-mo-aops	Czech and Slovak NMO I A - Combo Geo	1
 hf-ai-mo-aops	Czech and Slovak NMO II C - 3D geo	1
 hf-ai-mo-aops	DMM Team Rounds	1

@@ -6,13 +6,13 @@ This report is made by `om coverage`. The register gives the expected positions 
 
 | Expected | C0 | C1 | C2 | Candidate | No candidate | Located seed rows |
 |---:|---:|---:|---:|---:|---:|---:|
-| 31791 | 77.1% | 11.7% | 10.2% | 577 (1.8%) | 6689 (21.0%) | 156958 |
+| 33141 | 76.4% | 11.3% | 9.7% | 578 (1.7%) | 7235 (21.8%) | 157040 |
 
 ## Sources
 
 | Source | Rows | Located | With a position | Not a competition |
 |---|---:|---:|---:|---:|
-| hf-ai-mo-aops | 80661 | 49931 (61.9%) | 0 | 21125 |
+| hf-ai-mo-aops | 80661 | 50013 (62.0%) | 0 | 21144 |
 | hf-aime-1983-2026 | 1065 | 1065 (100.0%) | 1065 | 0 |
 | hf-amc12-full | 1199 | 1199 (100.0%) | 1199 | 0 |
 | hf-amo-bench | 50 | 50 (100.0%) | 50 | 0 |
@@ -97,10 +97,10 @@ The order is the order of the register. A competition with no shape in the regis
 | ru-student | Russian and Soviet Student Olympiads | no shape | - | - | - | 0 | 0 | 0 |
 | oimu | Iberoamerican Olympiad for University Students | 49 | 100.0% | 0.0% | 0.0% | 0 | 0 | 98 |
 | simon-marais | Simon Marais Mathematics Competition | 80 | 90.0% | 70.0% | 70.0% | 0 | 8 | 64 |
-| ahsme | American High School Mathematics Examination | 1810 | 40.4% | 0.0% | 0.0% | 0 | 1079 | 2490 |
-| amc8 | AMC 8 | 1025 | 50.7% | 0.0% | 0.0% | 0 | 505 | 1032 |
-| amc10 | AMC 10 | 675 | 23.1% | 0.0% | 0.0% | 0 | 519 | 1473 |
-| amc12 | AMC 12 | 675 | 91.3% | 0.0% | 0.0% | 9 | 50 | 1377 |
+| ahsme | American High School Mathematics Examination | 1810 | 40.4% | 0.0% | 0.0% | 0 | 1079 | 1804 |
+| amc8 | AMC 8 | 1025 | 53.3% | 0.0% | 0.0% | 0 | 479 | 1032 |
+| amc10 | AMC 10 | 1350 | 26.7% | 0.0% | 0.0% | 0 | 990 | 1473 |
+| amc12 | AMC 12 | 1350 | 88.1% | 0.0% | 0.0% | 10 | 151 | 2145 |
 | aime | American Invitational Mathematics Examination | 660 | 99.4% | 0.0% | 0.0% | 4 | 0 | 2215 |
 | usamo | United States of America Mathematical Olympiad | 330 | 90.3% | 0.0% | 0.0% | 2 | 30 | 1524 |
 | usajmo | United States of America Junior Mathematical Olympiad | 102 | 92.2% | 0.0% | 0.0% | 2 | 6 | 489 |
@@ -302,7 +302,7 @@ The order is the order of the register. A competition with no shape in the regis
 
 ## Unknown competitions
 
-These labels do not resolve through the alias table (1333 keys). There are 1587 labels with 22766 rows. The full list is in `unknown-competitions.tsv`. To resolve a label, add a line to `registers/competition-aliases.tsv`, or add the competition to the register.
+These labels do not resolve through the alias table (1333 keys). There are 1583 labels with 22665 rows. The full list is in `unknown-competitions.tsv`. To resolve a label, add a line to `registers/competition-aliases.tsv`, or add the competition to the register.
 
 | Source | Label | Rows |
 |---|---|---:|

@@ -1009,6 +1009,7 @@
   edition_form: year-letter
   papers:
     - {from: 2002, letters: [a, b]}
+    - {from: 2021, to: 2021, part: fall, letters: [a, b]}
   layout:
     - {paper: paper, name: Paper, positions: [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18, p19, p20, p21, p22, p23, p24, p25]}
   per_year: 25
@@ -1016,7 +1017,7 @@
   languages: [en]
   copyright: Copyright MAA. Older notices allow non-commercial web posting with the notice. The 2015 AMC 10B notice allows paper copies only.
   sources: [maa-amc, aops-wiki, hf-aops-wiki]
-  description: A multiple choice contest of 25 problems for students in grade 10 and below. It has two papers, A and B, from 2002. In 2021 it also had the two papers of the fall, which have no editions here yet.
+  description: A multiple choice contest of 25 problems for students in grade 10 and below. It has two papers, A and B, from 2002. In 2021 it also had the two papers of the fall, with the editions 2021-fall-a and 2021-fall-b.
 
 - code: amc12
   name: AMC 12
@@ -1029,6 +1030,7 @@
   edition_form: year-letter
   papers:
     - {from: 2002, letters: [a, b]}
+    - {from: 2021, to: 2021, part: fall, letters: [a, b]}
   layout:
     - {paper: paper, name: Paper, positions: [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18, p19, p20, p21, p22, p23, p24, p25]}
   per_year: 25
@@ -1036,7 +1038,7 @@
   languages: [en]
   copyright: Copyright MAA.
   sources: [maa-amc, aops-wiki, hf-aops-wiki, hf-amc12-full, minif2f-v2]
-  description: A multiple choice contest of 25 problems for high school students, with papers A and B from 2002. About 10 to 15 problems of each paper are shared with the AMC 10. In 2021 it also had the two papers of the fall, which have no editions here yet.
+  description: A multiple choice contest of 25 problems for high school students, with papers A and B from 2002. About 10 to 15 problems of each paper are shared with the AMC 10. In 2021 it also had the two papers of the fall, with the editions 2021-fall-a and 2021-fall-b.
 
 - code: aime
   name: American Invitational Mathematics Examination

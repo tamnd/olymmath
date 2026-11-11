@@ -1,0 +1,9 @@
+id: 45ddae1fdc3d
+kind: pair
+records:
+    - amc10/2021-fall-a/p1
+    - amc10/2021a/p1
+decision: different
+by: agent
+date: "2026-11-11"
+note: Agent decision, not a person's review. The text (2112-2021)^2/169 is problem 1 of the Fall 2021 AMC 10A, edition 2021-fall-a. The hf-aops-wiki row titled AMC 10A 2021/1 that also gives it to amc10/2021a/p1 links the fall topic c5h2715590, and ai-mo-aops has the same text only under 2021 AMC 10 Fall. Problem 1 of the spring AMC 10A is (2^2-2)-(3^2-3)+(4^2-4), topic c5h2440214. So amc10/2021a/p1 is a different problem and the fall text stays only at amc10/2021-fall-a/p1.

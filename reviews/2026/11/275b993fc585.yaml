@@ -1,0 +1,8 @@
+id: 275b993fc585
+kind: doubt
+records:
+    - amc10/2021-fall-b/p2
+decision: keep
+by: agent
+date: "2026-11-11"
+note: 'Agent decision, not a person''s review. The position comes from the AoPS wiki order of the NuminaMath rows, and the Fall 2021 AMC 10 run has all 50 rows. No second source confirms this one: the text is short ("What is the area of the shaded figure shown below?") and ai-mo-aops and mathnet have no row that matches it. Problems 1 and 3 next to it match ai-mo-aops rows of 2021 AMC 10 Fall, and the answer 6 is the known answer of problem 2 of the Fall 2021 AMC 10B. Kept.'

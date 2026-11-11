@@ -1,0 +1,10 @@
+year: 2018
+papers:
+  - name: Test 1
+    problems: [p1, p2, p3, p4, p5, p6]
+  - name: Test 2
+    problems: [p7, p8, p9, p10, p11, p12]
+  - name: Test 3
+    problems: [p13, p14, p15, p16, p17, p18]
+  - name: Test 4
+    problems: [p19, p20, p21, p22, p23, p24]

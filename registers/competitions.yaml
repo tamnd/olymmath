@@ -2607,6 +2607,13 @@
   group: national
   level: high-school
   country: CN
+  # Agent decision, not a person's review: in these years the AoPS wiki titles name the test (also called quiz) and often the day, as in "2015 China TST 2 Day 2 Q1" or "China TST 2011 Quiz 3 D1 P2". Each test has two days of three problems, and positions run across the year, so problem N of test T sits at p(6(T-1)+N), the numbering the 2023 records already use. 2013 is left out because its titles mix quizzes and tests, and 2017 has five tests (three called TSTST). Years before 2011 have titles that give no test or day.
+  eras:
+    - {from: 2011, to: 2012, per_year: 18, layout: [{paper: test1, name: Test 1, days: 2, positions: [p1, p2, p3, p4, p5, p6]}, {paper: test2, name: Test 2, days: 2, positions: [p7, p8, p9, p10, p11, p12]}, {paper: test3, name: Test 3, days: 2, positions: [p13, p14, p15, p16, p17, p18]}]}
+    - {from: 2014, to: 2016, per_year: 18, layout: [{paper: test1, name: Test 1, days: 2, positions: [p1, p2, p3, p4, p5, p6]}, {paper: test2, name: Test 2, days: 2, positions: [p7, p8, p9, p10, p11, p12]}, {paper: test3, name: Test 3, days: 2, positions: [p13, p14, p15, p16, p17, p18]}]}
+    - {from: 2017, to: 2017, per_year: 30, layout: [{paper: test1, name: Test 1, days: 2, positions: [p1, p2, p3, p4, p5, p6]}, {paper: test2, name: Test 2, days: 2, positions: [p7, p8, p9, p10, p11, p12]}, {paper: test3, name: Test 3, days: 2, positions: [p13, p14, p15, p16, p17, p18]}, {paper: test4, name: Test 4, days: 2, positions: [p19, p20, p21, p22, p23, p24]}, {paper: test5, name: Test 5, days: 2, positions: [p25, p26, p27, p28, p29, p30]}]}
+    - {from: 2018, to: 2019, per_year: 24, layout: [{paper: test1, name: Test 1, days: 2, positions: [p1, p2, p3, p4, p5, p6]}, {paper: test2, name: Test 2, days: 2, positions: [p7, p8, p9, p10, p11, p12]}, {paper: test3, name: Test 3, days: 2, positions: [p13, p14, p15, p16, p17, p18]}, {paper: test4, name: Test 4, days: 2, positions: [p19, p20, p21, p22, p23, p24]}]}
+    - {from: 2021, to: 2022, per_year: 24, layout: [{paper: test1, name: Test 1, days: 2, positions: [p1, p2, p3, p4, p5, p6]}, {paper: test2, name: Test 2, days: 2, positions: [p7, p8, p9, p10, p11, p12]}, {paper: test3, name: Test 3, days: 2, positions: [p13, p14, p15, p16, p17, p18]}, {paper: test4, name: Test 4, days: 2, positions: [p19, p20, p21, p22, p23, p24]}]}
   edition_form: year
   official_solutions: true
   languages: [zh, en]
@@ -3143,6 +3150,13 @@
   group: national
   level: high-school
   country: IR
+  # Agent decision, not a person's review: the AoPS wiki titles of these years name the exam (or test) and the day, as in "Iran TST 2015 Exam 2 Day 2 P4". From 2012 each exam has two days of three problems, and positions run across the year, so problem N of exam E sits at p(6(E-1)+N), the numbering the 2011 and 2013 records already use. 2007 and 2011 have four days of three problems. 2008 to 2010 and 2022 are numbered across the year in the titles and have no shape.
+  eras:
+    - {from: 2007, to: 2007, per_year: 12, layout: [{paper: day1, name: Day 1, positions: [p1, p2, p3]}, {paper: day2, name: Day 2, positions: [p4, p5, p6]}, {paper: day3, name: Day 3, positions: [p7, p8, p9]}, {paper: day4, name: Day 4, positions: [p10, p11, p12]}]}
+    - {from: 2011, to: 2011, per_year: 12, layout: [{paper: day1, name: Day 1, positions: [p1, p2, p3]}, {paper: day2, name: Day 2, positions: [p4, p5, p6]}, {paper: day3, name: Day 3, positions: [p7, p8, p9]}, {paper: day4, name: Day 4, positions: [p10, p11, p12]}]}
+    - {from: 2012, to: 2019, per_year: 18, layout: [{paper: test1, name: Test 1, days: 2, positions: [p1, p2, p3, p4, p5, p6]}, {paper: test2, name: Test 2, days: 2, positions: [p7, p8, p9, p10, p11, p12]}, {paper: test3, name: Test 3, days: 2, positions: [p13, p14, p15, p16, p17, p18]}]}
+    - {from: 2020, to: 2021, per_year: 12, layout: [{paper: test1, name: Test 1, days: 2, positions: [p1, p2, p3, p4, p5, p6]}, {paper: test2, name: Test 2, days: 2, positions: [p7, p8, p9, p10, p11, p12]}]}
+    - {from: 2023, to: 2023, per_year: 12, layout: [{paper: test1, name: Test 1, positions: [p1, p2, p3, p4, p5, p6]}, {paper: test2, name: Test 2, positions: [p7, p8, p9, p10, p11, p12]}]}
   edition_form: year
   languages: [fa, en]
   sources: [aops-collections]

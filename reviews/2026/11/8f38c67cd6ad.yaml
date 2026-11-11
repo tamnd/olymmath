@@ -1,0 +1,9 @@
+id: 8f38c67cd6ad
+kind: merge
+records:
+    - tuymaada/2020/s3
+    - tuymaada/2020/j3
+decision: accept
+by: agent
+date: "2026-11-11"
+note: 'Agent decision, not a person''s review. After rule C04 moved tuymaada/2020/p3 to s3, its text is the text of tuymaada/2020/j3 word for word, apart from the author line (Y. Caro, A. Hansberg, J. Lauri, C. Zarb). The AoPS title "2020 Tuymaada Junior P3" and the s3 appearance show that the problem was set in both leagues, so the two records are one problem.'

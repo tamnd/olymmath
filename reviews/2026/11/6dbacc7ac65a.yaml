@@ -1,0 +1,8 @@
+id: 6dbacc7ac65a
+kind: register
+records:
+    - aime
+decision: accept
+by: agent
+date: "2026-11-11"
+note: 'Agent decision, not a person''s review. Rule C04 found 809 AIME appearances at editions such as aime/2010a and aime/2010b, which the register did not give, because aime had no papers entry. The AIME has two papers a year, AIME I and AIME II, from 2000 (MAA, AoPS wiki), as the description of the register says, and the edition files 2000a to 2026b agree. The register now gives the papers a and b from 2000.'

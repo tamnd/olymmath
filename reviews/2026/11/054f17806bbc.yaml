@@ -1,0 +1,8 @@
+id: 054f17806bbc
+kind: placement
+records:
+    - tuymaada/2015/s5
+decision: accept
+by: agent
+date: "2026-11-11"
+note: 'Agent decision, not a person''s review. Rule C04 found tuymaada/2015/p5 at a position that Tuymaada does not have. The AoPS topic title of the record puts it at tuymaada/2015/s5, so tuymaada/2015/p5 now redirects to tuymaada/2015/s5.'

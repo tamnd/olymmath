@@ -1,0 +1,8 @@
+id: 6bdf87c2debe
+kind: placement
+records:
+    - tuymaada/2010/s5
+decision: accept
+by: agent
+date: "2026-11-11"
+note: 'Agent decision, not a person''s review. Rule C04 found tuymaada/2010/p1 at a position that Tuymaada does not have. The record moved to tuymaada/2010/s5, and tuymaada/2010/p1 redirects to it. The wiki row has the number 1 and the title "XVII Tuymaada MO (2010) Senior Level". It opens the second run of senior rows numbered 1 to 4, after the run whose problem 4 is s4, so it is problem 1 of day 2. This is less certain than the other moves.'

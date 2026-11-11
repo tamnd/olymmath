@@ -1,0 +1,8 @@
+id: 32e320b61734
+kind: placement
+records:
+    - 3KZEN8RJ8M
+decision: reject
+by: agent
+date: "2026-11-11"
+note: 'Agent decision, not a person''s review. Rule C04 found imo/1980/p6 in a gap year: there was no IMO in 1980. The AoPS wiki title "Replacement IMO 1980 in Mersch P6" shows that the record is a problem of the replacement olympiad in Luxembourg, which has no code in the register. The record is now a loose problem with no appearance, and the redirects register has a dated comment.'

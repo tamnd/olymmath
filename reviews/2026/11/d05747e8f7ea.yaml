@@ -1,0 +1,9 @@
+id: d05747e8f7ea
+kind: register
+records:
+    - br-obm/1992/p7
+    - br-obm/1992/p8
+decision: accept
+by: agent
+date: "2026-11-11"
+note: 'Agent decision, not a person''s review. Rule C04 found br-obm/1992/p7 and p8 above the six problems of the register. The XIV OBM in 1992 had eight problems at level 3: MathNet and the AoPS wiki ("P7 Brazil MO 1992") give problems 7 and 8. The register now has an override for 1992.'

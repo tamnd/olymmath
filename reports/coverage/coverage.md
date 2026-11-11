@@ -6,13 +6,13 @@ This report is made by `om coverage`. The register gives the expected positions 
 
 | Expected | C0 | C1 | C2 | Candidate | No candidate | Located seed rows |
 |---:|---:|---:|---:|---:|---:|---:|
-| 31788 | 76.6% | 11.4% | 9.8% | 626 (2.0%) | 6799 (21.4%) | 157040 |
+| 31791 | 77.1% | 11.7% | 10.2% | 577 (1.8%) | 6689 (21.0%) | 156958 |
 
 ## Sources
 
 | Source | Rows | Located | With a position | Not a competition |
 |---|---:|---:|---:|---:|
-| hf-ai-mo-aops | 80661 | 50013 (62.0%) | 0 | 21144 |
+| hf-ai-mo-aops | 80661 | 49931 (61.9%) | 0 | 21125 |
 | hf-aime-1983-2026 | 1065 | 1065 (100.0%) | 1065 | 0 |
 | hf-amc12-full | 1199 | 1199 (100.0%) | 1199 | 0 |
 | hf-amo-bench | 50 | 50 (100.0%) | 50 | 0 |
@@ -97,10 +97,10 @@ The order is the order of the register. A competition with no shape in the regis
 | ru-student | Russian and Soviet Student Olympiads | no shape | - | - | - | 0 | 0 | 0 |
 | oimu | Iberoamerican Olympiad for University Students | 49 | 100.0% | 0.0% | 0.0% | 0 | 0 | 98 |
 | simon-marais | Simon Marais Mathematics Competition | 80 | 90.0% | 70.0% | 70.0% | 0 | 8 | 64 |
-| ahsme | American High School Mathematics Examination | 1810 | 40.4% | 0.0% | 0.0% | 0 | 1079 | 1804 |
+| ahsme | American High School Mathematics Examination | 1810 | 40.4% | 0.0% | 0.0% | 0 | 1079 | 2490 |
 | amc8 | AMC 8 | 1025 | 50.7% | 0.0% | 0.0% | 0 | 505 | 1032 |
 | amc10 | AMC 10 | 675 | 23.1% | 0.0% | 0.0% | 0 | 519 | 1473 |
-| amc12 | AMC 12 | 675 | 91.3% | 0.0% | 0.0% | 9 | 50 | 2145 |
+| amc12 | AMC 12 | 675 | 91.3% | 0.0% | 0.0% | 9 | 50 | 1377 |
 | aime | American Invitational Mathematics Examination | 660 | 99.4% | 0.0% | 0.0% | 4 | 0 | 2215 |
 | usamo | United States of America Mathematical Olympiad | 330 | 90.3% | 0.0% | 0.0% | 2 | 30 | 1524 |
 | usajmo | United States of America Junior Mathematical Olympiad | 102 | 92.2% | 0.0% | 0.0% | 2 | 6 | 489 |
@@ -119,7 +119,7 @@ The order is the order of the register. A competition with no shape in the regis
 | nimo | National Internet Math Olympiad | no shape | - | - | - | 0 | 0 | 382 |
 | omo | Online Math Open | no shape | - | - | - | 0 | 0 | 606 |
 | ca-cmo | Canadian Mathematical Olympiad | 323 | 98.5% | 0.0% | 0.0% | 0 | 5 | 1538 |
-| ca-cmoqr | Canadian Mathematical Olympiad Qualifying Repêchage | 136 | 29.4% | 0.0% | 0.0% | 0 | 96 | 179 |
+| ca-cmoqr | Canadian Mathematical Olympiad Qualifying Repêchage | 145 | 100.0% | 72.4% | 72.4% | 0 | 0 | 179 |
 | ca-cjmo | Canadian Junior Mathematical Olympiad | 35 | 17.1% | 0.0% | 0.0% | 0 | 29 | 24 |
 | ca-euclid | Euclid Mathematics Contest | 10 | 0.0% | 0.0% | 0.0% | 0 | 10 | 13 |
 | mx-omm | Mexican Mathematical Olympiad | 244 | 94.7% | 18.0% | 18.0% | 0 | 13 | 483 |
@@ -167,7 +167,7 @@ The order is the order of the register. A competition with no shape in the regis
 | ad-mo | Andorra national mathematics olympiad | no shape | - | - | - | 0 | 0 | 0 |
 | li-mo | Liechtenstein national mathematics olympiad | no shape | - | - | - | 0 | 0 | 0 |
 | mc-mo | Monaco national mathematics olympiad | no shape | - | - | - | 0 | 0 | 0 |
-| pl-om | Polish Mathematical Olympiad | 462 | 57.6% | 11.3% | 11.3% | 1 | 195 | 761 |
+| pl-om | Polish Mathematical Olympiad | 456 | 58.3% | 11.4% | 11.4% | 1 | 189 | 761 |
 | pl-omj | Polish Junior Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 42 |
 | cz-sk-mo | Czech-Slovak Mathematical Olympiad | 438 | 58.7% | 4.8% | 4.8% | 1 | 180 | 933 |
 | hu-oktv | Hungarian National Secondary School Competition | no shape | - | - | - | 0 | 0 | 0 |
@@ -207,15 +207,15 @@ The order is the order of the register. A competition with no shape in the regis
 | cn-smo | China Southeast Mathematical Olympiad | 176 | 50.6% | 0.0% | 0.0% | 54 | 33 | 579 |
 | jp-jmo | Japan Mathematical Olympiad | 180 | 100.0% | 6.1% | 6.1% | 0 | 0 | 514 |
 | jp-jjmo | Japan Junior Mathematical Olympiad | 90 | 94.4% | 65.6% | 65.6% | 0 | 5 | 158 |
-| kr-kmo | Korean Mathematical Olympiad | 208 | 61.1% | 0.0% | 0.0% | 24 | 57 | 1152 |
-| kr-fkmo | Final Korean Mathematical Olympiad | 180 | 62.2% | 0.0% | 0.0% | 34 | 34 | 489 |
+| kr-kmo | Korean Mathematical Olympiad | 208 | 70.7% | 0.0% | 0.0% | 12 | 49 | 1152 |
+| kr-fkmo | Final Korean Mathematical Olympiad | 180 | 68.3% | 0.0% | 0.0% | 23 | 34 | 489 |
 | tw-tst | Taiwan TST and National Olympiad | 159 | 39.6% | 0.0% | 0.0% | 9 | 87 | 574 |
 | hk-pc | Hong Kong Preliminary Selection Contest and TST | no shape | - | - | - | 0 | 0 | 915 |
 | mo-macau | Macau Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 0 |
 | mn-mo | Mongolian Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 1174 |
 | vn-vmo | Vietnam Mathematical Olympiad | 390 | 76.7% | 0.0% | 0.0% | 11 | 80 | 1100 |
 | vn-tst | Vietnam Team Selection Test | 222 | 53.2% | 0.0% | 0.0% | 43 | 61 | 497 |
-| sg-smo | Singapore Mathematical Olympiad | 160 | 73.1% | 0.0% | 0.0% | 3 | 40 | 823 |
+| sg-smo | Singapore Mathematical Olympiad | 160 | 73.8% | 0.0% | 0.0% | 2 | 40 | 823 |
 | th-tmo | Thailand Mathematical Olympiad | 230 | 80.0% | 0.4% | 0.4% | 13 | 33 | 725 |
 | ph-pmo | Philippine Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 1667 |
 | my-omk | Malaysian Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 180 |
@@ -228,7 +228,7 @@ The order is the order of the register. A competition with no shape in the regis
 | au-amc | Australian Mathematics Competition | no shape | - | - | - | 0 | 0 | 0 |
 | au-mcyb | Maths Challenge for Young Australians | no shape | - | - | - | 0 | 0 | 0 |
 | nz-nzmo | New Zealand Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 499 |
-| in-inmo | Indian National Mathematical Olympiad | 246 | 88.2% | 2.4% | 2.4% | 26 | 3 | 1201 |
+| in-inmo | Indian National Mathematical Olympiad | 246 | 98.4% | 2.4% | 2.4% | 1 | 3 | 1201 |
 | in-rmo | Indian Regional Mathematical Olympiad | 353 | 75.6% | 36.3% | 36.3% | 0 | 86 | 404 |
 | in-prmo-ioqm | PRMO and IOQM | no shape | - | - | - | 0 | 0 | 372 |
 | in-tst | India Team Selection Test | no shape | - | - | - | 0 | 0 | 770 |
@@ -302,7 +302,7 @@ The order is the order of the register. A competition with no shape in the regis
 
 ## Unknown competitions
 
-These labels do not resolve through the alias table (1333 keys). There are 1583 labels with 22665 rows. The full list is in `unknown-competitions.tsv`. To resolve a label, add a line to `registers/competition-aliases.tsv`, or add the competition to the register.
+These labels do not resolve through the alias table (1333 keys). There are 1587 labels with 22766 rows. The full list is in `unknown-competitions.tsv`. To resolve a label, add a line to `registers/competition-aliases.tsv`, or add the competition to the register.
 
 | Source | Label | Rows |
 |---|---|---:|

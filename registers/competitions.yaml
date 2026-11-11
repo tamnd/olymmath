@@ -248,6 +248,23 @@
   sources: [elmo-official, evanchen]
   description: An olympiad written and taken by students at the US training camp. It also has a shortlist of about 30 problems.
 
+- code: elmo-sl
+  name: ELMO Shortlist
+  short: ELMO SL
+  group: international
+  level: high-school
+  url: https://elmo.evanchen.cc/problems.html
+  first_year: 2010
+  edition_form: year
+  topic_positions: true
+  # Agent decision, not a person's review: the AoPS wiki titles of the shortlist name the section and the number of each problem, as in "ELMO Shortlist 2012 C8" or "2019 ELMO Shortlist G6", and the official shortlist files of 2017 to 2019 number each section from 1 in the same way. The position is the section letter and the number, as for the IMO Shortlist. The size of each section changes from year to year and is not known for each year, so the era gives no list of positions. A title that names no section, such as "2017 ELMO #2", gives no position.
+  eras:
+    - {from: 2010, to: 2019}
+  languages: [en]
+  copyright: None stated.
+  sources: [elmo-official, evanchen]
+  description: The shortlist from which the ELMO problems are chosen, in four sections (algebra, combinatorics, geometry and number theory).
+
 - code: olympic-revenge
   name: Olympic Revenge
   group: international

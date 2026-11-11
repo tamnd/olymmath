@@ -1,0 +1,14 @@
+id: c428a778dfa1
+kind: register
+records:
+    - th-tmo/2004
+    - th-tmo/2005
+    - th-tmo/2006
+    - th-tmo/2007
+    - th-tmo/2011
+    - th-tmo/2012
+    - th-tmo/2013
+decision: accept
+by: agent
+date: "2026-11-11"
+note: 'Agent decision, not a person''s review. Rule C04 found 42 Thailand MO appearances above p10. The AoPS wiki numbers 21 problems in 2004 and 2005, 18 in 2006 and 2007, and 12 in 2011 to 2013, for example "2004 Thailand MO day 1 p21" and "Thailand MO 2013 p12". The register now has eras with these sizes.'

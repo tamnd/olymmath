@@ -1,0 +1,8 @@
+id: 5a1b5dd3d338
+kind: placement
+records:
+    - tuymaada/2008/s2
+decision: accept
+by: agent
+date: "2026-11-11"
+note: 'Agent decision, not a person''s review. Rule C04 found tuymaada/2008/p2 at a position that Tuymaada does not have. The AoPS topic title of the record puts it at tuymaada/2008/s2, so tuymaada/2008/p2 now redirects to tuymaada/2008/s2. The body notes that Junior League problem 2 is a variant of the same problem, so it is not added as j2.'

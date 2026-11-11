@@ -1,0 +1,8 @@
+id: 205f5be72757
+kind: placement
+records:
+    - tuymaada/2013/s1
+decision: accept
+by: agent
+date: "2026-11-11"
+note: 'Agent decision, not a person''s review. Rule C04 found tuymaada/2013/p1 at a position that Tuymaada does not have. The AoPS topic title of the record puts it at tuymaada/2013/s1, so tuymaada/2013/p1 now redirects to tuymaada/2013/s1. The title "Tuymaada 2013 Day 1 P1 Juniors and 1 Seniors" gives both leagues, so j1 is a second appearance.'

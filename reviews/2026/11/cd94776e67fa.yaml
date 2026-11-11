@@ -1,0 +1,8 @@
+id: cd94776e67fa
+kind: placement
+records:
+    - memo/2013/t6
+decision: accept
+by: agent
+date: "2026-11-11"
+note: 'Agent decision, not a person''s review. Rule C04 found memo/2013/p6 at a position that MEMO does not have. The AoPS topic title of the record puts it at memo/2013/t6, so the record moved there and memo/2013/p6 redirects to it.'

@@ -1,0 +1,8 @@
+id: 09c387508064
+kind: placement
+records:
+    - tuymaada/2017/j4
+decision: accept
+by: agent
+date: "2026-11-11"
+note: 'Agent decision, not a person''s review. Rule C04 found tuymaada/2017/p4 at a position that Tuymaada does not have. The AoPS topic title of the record puts it at tuymaada/2017/j4, so tuymaada/2017/p4 now redirects to tuymaada/2017/j4.'

@@ -1,0 +1,9 @@
+id: 1f954c25756b
+kind: doubt
+records:
+    - vn-vmo/2014/p1
+    - vn-vmo/2014/p6
+decision: keep
+by: agent
+date: "2026-11-11"
+note: 'Agent decision, not a person''s review. Both positions come by elimination: the title of p1 is "Vietnam Mathematical OLympiad 2014" with the number 1, and p5 is taken by "P1 Day 2". The title of p6 is "Vietnam NMO 2014" with the number 2, and p2 is taken by "P2 Day 1". The topic ids agree with the days (the p6 topic is newer than all day 1 topics). Kept.'

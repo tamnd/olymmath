@@ -1,0 +1,9 @@
+id: 273a9752291d
+kind: doubt
+records:
+    - vn-tst/2006/p1
+    - vn-tst/2008/p1
+decision: keep
+by: agent
+date: "2026-11-11"
+note: 'Agent decision, not a person''s review. The AoPS wiki titles give no problem number ("Vietnamese TST 2006", "Vietnam TST 2008") and the year is numbered by day, so the number 1 is p1 or p4. p4 has its own titled topic in both years, so these rows take p1 by elimination. The topic ids are older than the p4 topics, as day 1 should be. Kept.'

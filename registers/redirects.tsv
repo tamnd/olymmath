@@ -8,6 +8,7 @@ cr-mo/2006/p2	cr-mo/2006/p5
 isl/1999/p8	isl/1999/g8
 isl/2002/p8	isl/2002/g8
 isl/2003/p8	isl/2003/n8
+# Agent decision, not a person's review (2026-11-11): the redirects of kr-kmo/2008/p1, p2, p4, p5 and p6, and of p5 and p6 of kr-kmo/2009, 2010, 2014 and 2015, are removed, because these locators now hold problems of the Korean MO (the second round). Their AoPS wiki rows give the position: the rows of 2008 are numbered 1 to 8 with no repeated number, and the other rows have titles such as "2015 Korean MO P6". Their texts differ from the Final Korean MO problems that moved to kr-fkmo.
 # Agent decision, not a person's review (2026-11-06): the redirect of caps/2012/p2 is removed, because this locator now holds its own problem. Its AoPS wiki row has no title, and no other topic claims its number. The AI-MO AoPS row gives the same text.
 # Agent decision, not a person's review (2026-11-06): the redirects of centro/2007/p1, cn-mo/2010/p1, cn-mo/2010/p3 and cn-wmo/2004/p2 are removed, because these locators now hold their own problems. Each comes from an AoPS wiki row with no title whose number no other topic claims. The rows of the old records name the later position in their titles.
 # Agent decision, not a person's review (2026-11-05): the redirect of bg-mo/2014/p3 is removed, because this locator now holds its own problem. The AoPS wiki row of it is the third row of day 1, and the row of the old record names p6 in its title.
@@ -36,19 +37,6 @@ kr-kmo/2002/p5	kr-fkmo/2002/p5
 kr-kmo/2002/p6	kr-fkmo/2002/p6
 kr-kmo/2007/p5	kr-fkmo/2007/p5
 kr-kmo/2007/p6	kr-fkmo/2007/p6
-kr-kmo/2008/p1	kr-fkmo/2008/p1
-kr-kmo/2008/p2	kr-fkmo/2008/p2
-kr-kmo/2008/p4	kr-fkmo/2008/p4
-kr-kmo/2008/p5	kr-fkmo/2008/p5
-kr-kmo/2008/p6	kr-fkmo/2008/p6
-kr-kmo/2009/p5	kr-fkmo/2009/p5
-kr-kmo/2009/p6	kr-fkmo/2009/p6
-kr-kmo/2010/p5	kr-fkmo/2010/p5
-kr-kmo/2010/p6	kr-fkmo/2010/p6
-kr-kmo/2014/p5	kr-fkmo/2014/p5
-kr-kmo/2014/p6	kr-fkmo/2014/p6
-kr-kmo/2015/p5	kr-fkmo/2015/p5
-kr-kmo/2015/p6	kr-fkmo/2015/p6
 kr-kmo/2023/p1	kr-fkmo/2023/p1
 kr-kmo/2023/p2	kr-fkmo/2023/p2
 kr-kmo/2023/p3	kr-fkmo/2023/p3

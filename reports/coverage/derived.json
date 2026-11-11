@@ -1,0 +1,57 @@
+[
+  {
+    "source": "hf-numinamath-1-5",
+    "rows": 315736,
+    "matched": 33884,
+    "by_key": 0,
+    "variant": 2215,
+    "near": 43780,
+    "new": 235857,
+    "new_problems": 187134,
+    "new_located": 0
+  },
+  {
+    "source": "hf-omni-math",
+    "rows": 4428,
+    "matched": 2520,
+    "by_key": 0,
+    "variant": 230,
+    "near": 395,
+    "new": 1283,
+    "new_problems": 1220,
+    "new_located": 667
+  },
+  {
+    "source": "hf-olympiadbench",
+    "rows": 2133,
+    "matched": 532,
+    "by_key": 0,
+    "variant": 24,
+    "near": 277,
+    "new": 1300,
+    "new_problems": 1011,
+    "new_located": 0
+  },
+  {
+    "source": "hf-liveaopsbench",
+    "rows": 5328,
+    "matched": 180,
+    "by_key": 0,
+    "variant": 59,
+    "near": 788,
+    "new": 4301,
+    "new_problems": 4222,
+    "new_located": 0
+  },
+  {
+    "source": "hf-polymath",
+    "rows": 9000,
+    "matched": 1476,
+    "by_key": 0,
+    "variant": 92,
+    "near": 1251,
+    "new": 6181,
+    "new_problems": 4233,
+    "new_located": 0
+  }
+]

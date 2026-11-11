@@ -67,6 +67,7 @@
   name: NuminaMath-1.5
   kind: dataset
   origin: D
+  derived: true
   url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
   access: hf
   zone:
@@ -83,6 +84,7 @@
   name: Omni-MATH
   kind: dataset
   origin: D
+  derived: true
   url: https://huggingface.co/datasets/KbsdJames/Omni-MATH
   access: hf
   terms: The dataset card gives the Apache 2.0 licence (https://huggingface.co/datasets/KbsdJames/Omni-MATH). The texts are competition statements and AoPS solutions, so the dataset licence does not cover them (spec 11.1), and the statements stay Z2.
@@ -99,6 +101,7 @@
   name: OlympiadBench
   kind: dataset
   origin: D
+  derived: true
   url: https://huggingface.co/datasets/Hothan/OlympiadBench
   access: hf
   terms: The dataset card gives the Apache 2.0 licence (https://huggingface.co/datasets/Hothan/OlympiadBench). The texts are competition statements, so the dataset licence does not cover them (spec 11.1), and the statements stay Z2.
@@ -131,6 +134,7 @@
   name: OpenMathReasoning
   kind: dataset
   origin: M
+  derived: true
   url: https://huggingface.co/datasets/nvidia/OpenMathReasoning
   access: hf
   terms: The dataset card gives CC BY 4.0 (https://huggingface.co/datasets/nvidia/OpenMathReasoning). A model rewrote AoPS posts, so the texts are not reference texts and the AoPS posts keep their authors' rights (spec 11.1). Z3, used for discovery only.
@@ -147,6 +151,7 @@
   name: Nemotron-Math-Proofs-v1
   kind: dataset
   origin: M
+  derived: true
   url: https://huggingface.co/datasets/nvidia/Nemotron-Math-Proofs-v1
   access: hf
   terms: The dataset card gives CC BY-SA 4.0 (https://huggingface.co/datasets/nvidia/Nemotron-Math-Proofs-v1). A model rewrote AoPS posts, so the texts are not reference texts and the AoPS posts keep their authors' rights (spec 11.1). Z3, used for discovery only.
@@ -163,6 +168,7 @@
   name: Nemotron-Math-v2
   kind: dataset
   origin: M
+  derived: true
   url: https://huggingface.co/datasets/nvidia/Nemotron-Math-v2
   access: hf
   terms: The dataset card gives CC BY 4.0 and CC BY-SA 4.0 (https://huggingface.co/datasets/nvidia/Nemotron-Math-v2). A model rewrote AoPS posts, so the texts are not reference texts and the AoPS posts keep their authors' rights (spec 11.1). Z3, used for discovery only.
@@ -179,6 +185,7 @@
   name: AoPS-Instruct
   kind: dataset
   origin: D
+  derived: true
   url: https://huggingface.co/datasets/DeepStudentLlama/AoPS-Instruct
   access: hf
   terms: The dataset card gives the MIT licence (https://huggingface.co/datasets/DeepStudentLlama/AoPS-Instruct). The texts are AoPS posts that belong to their authors, so the dataset licence does not cover them (spec 11.1).
@@ -195,6 +202,7 @@
   name: LiveAoPSBench
   kind: dataset
   origin: D
+  derived: true
   url: https://huggingface.co/datasets/jojo23333/LiveAoPSBench-2024
   access: hf
   terms: The dataset card gives the Apache 2.0 licence (https://huggingface.co/datasets/jojo23333/LiveAoPSBench-2024). The texts are AoPS posts that belong to their authors, so the dataset licence does not cover them (spec 11.1).
@@ -391,6 +399,7 @@
   name: PolyMath
   kind: dataset
   origin: D
+  derived: true
   url: https://huggingface.co/datasets/Qwen/PolyMath
   access: hf
   zone:

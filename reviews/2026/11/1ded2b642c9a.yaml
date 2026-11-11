@@ -1,0 +1,8 @@
+id: 1ded2b642c9a
+kind: doubt
+records:
+    - ahsme/1974/p15
+decision: keep
+by: agent
+date: "2026-11-11"
+note: 'Agent decision, not a person''s review. The position comes from the order of the NuminaMath amc_aime rows, which follow the AoPS wiki pages, and the year run has exactly the problems of the register. The ai-mo-aops topics of this year come in two batches, each in the order of the numbers, so their order does not confirm the position by itself. Kept.'

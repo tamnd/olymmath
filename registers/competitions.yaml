@@ -977,7 +977,7 @@
   languages: [en]
   copyright: Copyright MAA.
   sources: [maa-amc, aops-wiki, hf-aops-wiki]
-  description: The multiple choice examination that came before the AMC 12. It had 50 problems in the 1950s, then 40, 35, and 30 from 1983.
+  description: The multiple choice examination that came before the AMC 12. It had 50 problems from 1950 to 1959, 40 from 1960 to 1967, 35 from 1968 to 1973 and 30 from 1974 to 1999.
 
 - code: amc8
   name: AMC 8
@@ -987,6 +987,7 @@
   country: US
   organizer: MAA
   first_year: 1985
+  gaps: [2021]
   edition_form: year
   layout:
     - {paper: paper, name: Paper, positions: [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18, p19, p20, p21, p22, p23, p24, p25]}
@@ -995,7 +996,7 @@
   languages: [en]
   copyright: Copyright MAA.
   sources: [maa-amc, aops-wiki, hf-aops-wiki]
-  description: A multiple choice contest of 25 problems for middle school students. It was called AJHSME until 1999.
+  description: A multiple choice contest of 25 problems for middle school students. It was called AJHSME until 1998. There was no contest in 2021, because the contest moved from November 2021 to January 2022.
 
 - code: amc10
   name: AMC 10
@@ -1006,6 +1007,8 @@
   organizer: MAA
   first_year: 2000
   edition_form: year-letter
+  papers:
+    - {from: 2002, letters: [a, b]}
   layout:
     - {paper: paper, name: Paper, positions: [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18, p19, p20, p21, p22, p23, p24, p25]}
   per_year: 25
@@ -1013,7 +1016,7 @@
   languages: [en]
   copyright: Copyright MAA. Older notices allow non-commercial web posting with the notice. The 2015 AMC 10B notice allows paper copies only.
   sources: [maa-amc, aops-wiki, hf-aops-wiki]
-  description: A multiple choice contest of 25 problems for students in grade 10 and below. It has two papers, A and B, from 2002.
+  description: A multiple choice contest of 25 problems for students in grade 10 and below. It has two papers, A and B, from 2002. In 2021 it also had the two papers of the fall, which have no editions here yet.
 
 - code: amc12
   name: AMC 12
@@ -1024,6 +1027,8 @@
   organizer: MAA
   first_year: 2000
   edition_form: year-letter
+  papers:
+    - {from: 2002, letters: [a, b]}
   layout:
     - {paper: paper, name: Paper, positions: [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18, p19, p20, p21, p22, p23, p24, p25]}
   per_year: 25
@@ -1031,7 +1036,7 @@
   languages: [en]
   copyright: Copyright MAA.
   sources: [maa-amc, aops-wiki, hf-aops-wiki, hf-amc12-full, minif2f-v2]
-  description: A multiple choice contest of 25 problems for high school students, with papers A and B. About 10 to 15 problems of each paper are shared with the AMC 10.
+  description: A multiple choice contest of 25 problems for high school students, with papers A and B from 2002. About 10 to 15 problems of each paper are shared with the AMC 10. In 2021 it also had the two papers of the fall, which have no editions here yet.
 
 - code: aime
   name: American Invitational Mathematics Examination

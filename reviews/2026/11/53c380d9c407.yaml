@@ -1,0 +1,8 @@
+id: 53c380d9c407
+kind: doubt
+records:
+    - amc10/2021a/p1
+decision: replace
+by: agent
+date: "2026-11-11"
+note: Agent decision, not a person's review. The NuminaMath row placed at amc10/2021a/p1 holds the Fall 2021 AMC 10A problem 1, which is at amc10/2021-fall-a/p1. The other text, (2^2-2)-(3^2-3)+(4^2-4), is problem 1 of the spring 2021 AMC 10A (ai-mo-aops topic 2440214, labelled 2021 AMC 10 Spring). The position is left empty in this change; the other text should become its canonical text.

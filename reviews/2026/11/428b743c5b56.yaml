@@ -3,7 +3,7 @@ kind: pair
 records:
     - amc12/2016a/p2
     - amc10/2016a/p2
-decision: same
+decision: accept
 by: agent
-date: "2026-11-07"
-note: Agent decision, not a person's review. Both texts ask for x with 10^x * 100^(2x) = 1000^5 and the same choices 1 to 5. Only formatting differs.
+date: "2026-11-11"
+note: 'Agent decision, not a person''s review. Problem 2 of the 2016 AMC 10A is problem 2 of the 2016 AMC 12A, a shared problem of the same paper. The AMC 10 position comes from the AoPS wiki order of the NuminaMath amc_aime rows, and the text matches the AMC 12 record (T 1.000), so the AMC 10 position is an appearance of the AMC 12 record and not a new record.'

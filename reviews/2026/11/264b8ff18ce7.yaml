@@ -3,7 +3,7 @@ kind: pair
 records:
     - amc12/2016a/p1
     - amc10/2016a/p1
-decision: same
+decision: accept
 by: agent
-date: "2026-11-07"
-note: Agent decision, not a person's review. Both texts ask for (11! - 10!)/9! with the same choices 99, 100, 110, 121, 132. Only \frac vs \dfrac and layout differ.
+date: "2026-11-11"
+note: Agent decision, not a person's review. Problem 1 of the 2016 AMC 10A and of the 2016 AMC 12A is the same problem (11!-10!)/9!, a shared problem of the same paper. The two texts differ only in TeX.

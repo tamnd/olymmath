@@ -6,13 +6,13 @@ This report is made by `om coverage`. The register gives the expected positions 
 
 | Expected | C0 | C1 | C2 | Candidate | No candidate | Located seed rows |
 |---:|---:|---:|---:|---:|---:|---:|
-| 31813 | 72.3% | 12.1% | 10.2% | 626 (2.0%) | 8182 (25.7%) | 156958 |
+| 31788 | 76.6% | 11.4% | 9.8% | 626 (2.0%) | 6799 (21.4%) | 157040 |
 
 ## Sources
 
 | Source | Rows | Located | With a position | Not a competition |
 |---|---:|---:|---:|---:|
-| hf-ai-mo-aops | 80661 | 49931 (61.9%) | 0 | 21125 |
+| hf-ai-mo-aops | 80661 | 50013 (62.0%) | 0 | 21144 |
 | hf-aime-1983-2026 | 1065 | 1065 (100.0%) | 1065 | 0 |
 | hf-amc12-full | 1199 | 1199 (100.0%) | 1199 | 0 |
 | hf-amo-bench | 50 | 50 (100.0%) | 50 | 0 |
@@ -49,8 +49,8 @@ The order is the order of the register. A competition with no shape in the regis
 | kangaroo | Mathematical Kangaroo | no shape | - | - | - | 0 | 0 | 0 |
 | tot | Tournament of Towns | no shape | - | - | - | 0 | 0 | 3035 |
 | iom | International Olympiad of Metropolises | 66 | 53.0% | 0.0% | 0.0% | 1 | 30 | 72 |
-| sharygin | Sharygin Geometry Olympiad | 869 | 100.0% | 25.5% | 14.6% | 0 | 0 | 1833 |
-| tuymaada | Tuymaada Olympiad | 304 | 71.1% | 15.8% | 15.8% | 0 | 88 | 802 |
+| sharygin | Sharygin Geometry Olympiad | 869 | 100.0% | 17.8% | 14.6% | 0 | 0 | 1833 |
+| tuymaada | Tuymaada Olympiad | 304 | 71.1% | 16.1% | 16.1% | 0 | 88 | 802 |
 | zhautykov | International Zhautykov Olympiad | 132 | 64.4% | 4.5% | 4.5% | 18 | 29 | 418 |
 | silk-road | Silk Road Mathematical Competition | 100 | 83.0% | 0.0% | 0.0% | 0 | 17 | 283 |
 | usemo | US Ersatz Math Olympiad | 48 | 25.0% | 0.0% | 0.0% | 0 | 36 | 53 |
@@ -88,7 +88,7 @@ The order is the order of the register. A competition with no shape in the regis
 | danube | Danube Mathematical Competition | no shape | - | - | - | 0 | 0 | 286 |
 | alibaba | Alibaba Global Mathematics Competition | no shape | - | - | - | 0 | 0 | 74 |
 | putnam | William Lowell Putnam Mathematical Competition | 1098 | 95.4% | 43.5% | 0.0% | 1 | 49 | 3657 |
-| imc | International Mathematics Competition for University Students | 354 | 100.0% | 41.5% | 41.5% | 0 | 0 | 731 |
+| imc | International Mathematics Competition for University Students | 354 | 100.0% | 42.1% | 42.1% | 0 | 0 | 731 |
 | seemous | South Eastern European Mathematical Olympiad for University Students | 80 | 55.0% | 0.0% | 0.0% | 4 | 32 | 101 |
 | schweitzer | Miklós Schweitzer Competition | 647 | 99.4% | 0.5% | 0.5% | 4 | 0 | 1516 |
 | vtrmc | Virginia Tech Regional Mathematics Contest | 307 | 100.0% | 69.4% | 69.1% | 0 | 0 | 197 |
@@ -97,10 +97,10 @@ The order is the order of the register. A competition with no shape in the regis
 | ru-student | Russian and Soviet Student Olympiads | no shape | - | - | - | 0 | 0 | 0 |
 | oimu | Iberoamerican Olympiad for University Students | 49 | 100.0% | 0.0% | 0.0% | 0 | 0 | 98 |
 | simon-marais | Simon Marais Mathematics Competition | 80 | 90.0% | 70.0% | 70.0% | 0 | 8 | 64 |
-| ahsme | American High School Mathematics Examination | 1810 | 0.0% | 0.0% | 0.0% | 0 | 1810 | 2490 |
-| amc8 | AMC 8 | 1050 | 3.1% | 0.0% | 0.0% | 0 | 1017 | 1032 |
-| amc10 | AMC 10 | 675 | 2.4% | 0.0% | 0.0% | 0 | 659 | 1473 |
-| amc12 | AMC 12 | 675 | 91.3% | 0.0% | 0.0% | 9 | 50 | 1377 |
+| ahsme | American High School Mathematics Examination | 1810 | 40.4% | 0.0% | 0.0% | 0 | 1079 | 1804 |
+| amc8 | AMC 8 | 1025 | 50.7% | 0.0% | 0.0% | 0 | 505 | 1032 |
+| amc10 | AMC 10 | 675 | 23.1% | 0.0% | 0.0% | 0 | 519 | 1473 |
+| amc12 | AMC 12 | 675 | 91.3% | 0.0% | 0.0% | 9 | 50 | 2145 |
 | aime | American Invitational Mathematics Examination | 660 | 99.4% | 0.0% | 0.0% | 4 | 0 | 2215 |
 | usamo | United States of America Mathematical Olympiad | 330 | 90.3% | 0.0% | 0.0% | 2 | 30 | 1524 |
 | usajmo | United States of America Junior Mathematical Olympiad | 102 | 92.2% | 0.0% | 0.0% | 2 | 6 | 489 |
@@ -205,8 +205,8 @@ The order is the order of the register. A competition with no shape in the regis
 | cn-gmo | China Girls' Mathematical Olympiad | 200 | 83.0% | 0.0% | 0.0% | 2 | 32 | 598 |
 | cn-wmo | China Western Mathematical Olympiad | 208 | 62.0% | 0.0% | 0.0% | 12 | 67 | 518 |
 | cn-smo | China Southeast Mathematical Olympiad | 176 | 50.6% | 0.0% | 0.0% | 54 | 33 | 579 |
-| jp-jmo | Japan Mathematical Olympiad | 180 | 100.0% | 69.4% | 69.4% | 0 | 0 | 514 |
-| jp-jjmo | Japan Junior Mathematical Olympiad | 90 | 94.4% | 94.4% | 94.4% | 0 | 5 | 158 |
+| jp-jmo | Japan Mathematical Olympiad | 180 | 100.0% | 6.1% | 6.1% | 0 | 0 | 514 |
+| jp-jjmo | Japan Junior Mathematical Olympiad | 90 | 94.4% | 65.6% | 65.6% | 0 | 5 | 158 |
 | kr-kmo | Korean Mathematical Olympiad | 208 | 61.1% | 0.0% | 0.0% | 24 | 57 | 1152 |
 | kr-fkmo | Final Korean Mathematical Olympiad | 180 | 62.2% | 0.0% | 0.0% | 34 | 34 | 489 |
 | tw-tst | Taiwan TST and National Olympiad | 159 | 39.6% | 0.0% | 0.0% | 9 | 87 | 574 |
@@ -302,7 +302,7 @@ The order is the order of the register. A competition with no shape in the regis
 
 ## Unknown competitions
 
-These labels do not resolve through the alias table (1332 keys). There are 1587 labels with 22766 rows. The full list is in `unknown-competitions.tsv`. To resolve a label, add a line to `registers/competition-aliases.tsv`, or add the competition to the register.
+These labels do not resolve through the alias table (1333 keys). There are 1583 labels with 22665 rows. The full list is in `unknown-competitions.tsv`. To resolve a label, add a line to `registers/competition-aliases.tsv`, or add the competition to the register.
 
 | Source | Label | Rows |
 |---|---|---:|

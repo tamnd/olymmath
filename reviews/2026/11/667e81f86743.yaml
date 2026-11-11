@@ -1,0 +1,8 @@
+id: 667e81f86743
+kind: doubt
+records:
+    - amc8/2013/p8
+decision: keep
+by: agent
+date: "2026-11-11"
+note: 'Agent decision, not a person''s review. The position comes from the order of the NuminaMath amc_aime rows, which follow the AoPS wiki pages, and the year run has exactly the problems of the register. The ai-mo-aops topics of this year come in two batches in reverse order (12 to 1, then 25 to 13), which fits the position, but no numbered source has this year. Kept.'

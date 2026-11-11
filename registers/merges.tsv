@@ -477,3 +477,56 @@ tot/2025-spring/sa3	ru-moscow/2025/p84	none	0.000	none	link	e4cb448eaac1	0.000
 imc/2008/p7	imc/2008/p1	none	0.000	none	text	28d8a680c27b	0.000
 imc/2008/p8	imc/2008/p2	none	0.000	none	text	7a0086db662d	0.000
 tuymaada/2021/p7	tuymaada/2021/j7	none	0.000	none	text	f03a0ac936a6	0.000
+amc10/2016a/p1	amc12/2016a/p1	strong	0.778	none	amc10-amc12	264b8ff18ce7	0.646
+amc10/2008a/p1	amc12/2008a/p1	strong	1.000	none	amc10-amc12	a733338c6093
+amc10/2008a/p11	amc12/2008a/p7	strong	1.000	none	amc10-amc12	77fb7f4084e7
+amc10/2008a/p13	amc12/2008a/p10	strong	1.000	none	amc10-amc12	7a2a5f07d765
+amc10/2008a/p24	amc12/2008a/p15	strong	1.000	none	amc10-amc12	3d33db7b4f7d
+amc10/2008a/p4	amc12/2008a/p3	strong	1.000	none	amc10-amc12	02edd6412f47
+amc10/2014a/p1	amc12/2014a/p1	strong	1.000	none	amc10-amc12	5a229ec43cab
+amc10/2014a/p10	amc12/2014a/p9	strong	1.000	none	amc10-amc12	474aeef7d5db
+amc10/2014a/p15	amc12/2014a/p11	strong	1.000	none	amc10-amc12	fc18fef57f09
+amc10/2014a/p25	amc12/2014a/p22	strong	1.000	none	amc10-amc12	0e4d31396074
+amc10/2014a/p4	amc12/2014a/p3	strong	1.000	none	amc10-amc12	7560f72d32ac
+amc10/2014a/p5	amc12/2014a/p5	strong	1.000	none	amc10-amc12	95973ab987f7
+amc10/2014a/p6	amc12/2014a/p4	strong	1.000	none	amc10-amc12	82f2718de952
+amc10/2014b/p25	amc12/2014b/p22	strong	1.000	none	amc10-amc12	9125a06c6c17
+amc10/2016a/p2	amc12/2016a/p2	strong	1.000	none	amc10-amc12	428b743c5b56
+amc10/2017a/p19	amc12/2017a/p14	strong	1.000	none	amc10-amc12	98890123e7dd
+amc10/2017a/p20	amc12/2017a/p18	strong	1.000	none	amc10-amc12	731f5cea73e9
+amc10/2017a/p24	amc12/2017a/p23	strong	1.000	none	amc10-amc12	0cb86facd476
+amc10/2017a/p5	amc12/2017a/p2	strong	1.000	none	amc10-amc12	ac91356c0b77
+amc10/2017a/p6	amc12/2017a/p3	strong	1.000	none	amc10-amc12	15a2f5253933
+amc10/2017a/p7	amc12/2017a/p4	strong	1.000	none	amc10-amc12	2f0327f933dd
+amc10/2017b/p11	amc12/2017b/p10	strong	1.000	none	amc10-amc12	97228db862ab
+amc10/2017b/p17	amc12/2017b/p11	strong	1.000	none	amc10-amc12	cc7def755943
+amc10/2017b/p20	amc12/2017b/p16	strong	1.000	none	amc10-amc12	87dee861d89c
+amc10/2017b/p23	amc12/2017b/p19	strong	1.000	none	amc10-amc12	876161a612a9
+amc10/2017b/p25	amc12/2017b/p21	strong	1.000	none	amc10-amc12	06da09ec1380
+amc10/2017b/p4	amc12/2017b/p3	strong	1.000	none	amc10-amc12	4a3527054e0b
+amc10/2017b/p7	amc12/2017b/p4	strong	1.000	none	amc10-amc12	51a3c847a40f
+amc10/2020a/p11	amc12/2020a/p8	strong	1.000	none	amc10-amc12	2d414f8aeb06
+amc10/2020a/p16	amc12/2020a/p16	strong	1.000	none	amc10-amc12	40387d73c62f
+amc10/2020a/p20	amc12/2020a/p18	strong	1.000	none	amc10-amc12	d9975c609453
+amc10/2020a/p21	amc12/2020a/p19	strong	1.000	none	amc10-amc12	ba0609ca01b6
+amc10/2020a/p25	amc12/2020a/p23	strong	1.000	none	amc10-amc12	0e8a972a11a8
+amc10/2020a/p6	amc12/2020a/p4	strong	1.000	none	amc10-amc12	2f954b4dfa28
+amc10/2020a/p7	amc12/2020a/p5	strong	1.000	none	amc10-amc12	f3c212ebe5ed
+amc10/2020b/p16	amc12/2020b/p14	strong	0.957	none	amc10-amc12	77dacf6f6975
+amc10/2020b/p23	amc12/2020b/p19	strong	1.000	none	amc10-amc12	f41cdf754014
+amc10/2020b/p25	amc12/2020b/p24	strong	1.000	none	amc10-amc12	74ed3c6eaf6b
+amc10/2020b/p9	amc12/2020b/p8	strong	1.000	none	amc10-amc12	5242214594e7
+amc10/2022a/p12	amc12/2022a/p9	strong	1.000	none	amc10-amc12	db9b1a6ba95f
+amc10/2022a/p14	amc12/2022a/p10	strong	1.000	none	amc10-amc12	af1d0ec05d2d
+amc10/2022a/p16	amc12/2022a/p15	strong	1.000	none	amc10-amc12	e302538c5b90
+amc10/2022a/p23	amc12/2022a/p20	strong	1.000	none	amc10-amc12	f38ef82587b7
+amc10/2022a/p24	amc12/2022a/p24	strong	1.000	none	amc10-amc12	912888b7eac0
+amc10/2022a/p3	amc12/2022a/p2	strong	1.000	none	amc10-amc12	d37672a51e04
+amc10/2022a/p7	amc12/2022a/p4	strong	1.000	none	amc10-amc12	cb3c39914167
+amc10/2022a/p8	amc12/2022a/p6	strong	1.000	none	amc10-amc12	61683b541866
+amc10/2022b/p1	amc12/2022b/p1	strong	1.000	none	amc10-amc12	965470d72894
+amc10/2022b/p17	amc12/2022b/p15	strong	1.000	none	amc10-amc12	fbe7ac83d75c
+amc10/2022b/p23	amc12/2022b/p22	strong	1.000	none	amc10-amc12	8b58de439588
+amc10/2022b/p25	amc12/2022b/p23	strong	1.000	none	amc10-amc12	8bfc9752dd59
+amc10/2022b/p6	amc12/2022b/p3	strong	1.000	none	amc10-amc12	8e7b6f8f6ab0
+amc10/2022b/p8	amc12/2022b/p6	strong	1.000	none	amc10-amc12	36febe329cda

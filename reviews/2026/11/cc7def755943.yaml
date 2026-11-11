@@ -1,0 +1,9 @@
+id: cc7def755943
+kind: pair
+records:
+    - amc12/2017b/p11
+    - amc10/2017b/p17
+decision: accept
+by: agent
+date: "2026-11-11"
+note: 'Agent decision, not a person''s review. Problem 17 of the 2017 AMC 10B is problem 11 of the 2017 AMC 12B, a shared problem of the same paper. The AMC 10 position comes from the AoPS wiki order of the NuminaMath amc_aime rows, and the text matches the AMC 12 record (T 1.000), so the AMC 10 position is an appearance of the AMC 12 record and not a new record.'

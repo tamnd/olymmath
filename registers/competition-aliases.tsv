@@ -193,8 +193,9 @@ Romanian Mathematical Olympiad	ro-nmo
 ROMANIAN MATHEMATICAL OLYMPIAD	ro-nmo
 NMO	ro-nmo
 Olimpiada Naţională de Matematică	ro-nmo
-SHORTLISTED PROBLEMS FOR THE NMO	ro-nmo
-District Olympiad	ro-nmo
+# Agent decision, not a person's review: the district round (etapa judeţeană) and the shortlist of the Romanian NMO number their problems from 1 in each grade too, and the register has no code for them, so their rows must not take the positions of ro-nmo.
+SHORTLISTED PROBLEMS FOR THE NMO	-
+District Olympiad	-
 Romania Team Selection Test	ro-tst
 Romania Team Selection Tests	ro-tst
 IMAR Test	-
@@ -538,8 +539,8 @@ Berkeley Math Circle Monthly Contest 5	-
 Berkeley Math Circle Monthly Contest 6	-
 Berkeley Math Circle Monthly Contest 7	-
 Berkeley Math Circle Monthly Contest 8	-
-NMO Shortlisted Problems	ro-nmo
-Shortlisted problems for the Romanian NMO	ro-nmo
+NMO Shortlisted Problems	-
+Shortlisted problems for the Romanian NMO	-
 IMO Shortlisted Problems	isl
 Philippine Mathematical Olympiad, National Orals	ph-pmo
 AIME II	aime
@@ -600,7 +601,7 @@ First Round	-
 Local Mathematical Competitions	-
 Mongolian National Mathematical Olympiad	mn-mo
 NMO Selection Tests	-
-ROMANIAN MATHEMATICAL OLYMPIAD - DISTRICT ROUND	ro-nmo
+ROMANIAN MATHEMATICAL OLYMPIAD - DISTRICT ROUND	-
 Ukrainian National Mathematical Olympiad - Fourth Round	ua-umo
 Ukrainian Mathematical Olympiad, Final Round	ua-umo
 Junior Macedonian Mathematical Olympiad	mk-mo
@@ -784,8 +785,8 @@ NMO Selection Tests for BMO and IMO	ro-tst
 Olimpiada Naţională de Matematică Etapa Naţională	ro-nmo
 Olimpiada Naţională de Matematică, Etapa Naţională	ro-nmo
 Olimpiada Națională de Matematică	ro-nmo
-Olimpiada Naţională de Matematică, Etapa Judeţeană şi a Municipiului Bucureşti	ro-nmo
-Olimpiada Naţională de Matematică Etapa Judeţeană şi a Municipiului Bucureşti	ro-nmo
+Olimpiada Naţională de Matematică, Etapa Judeţeană şi a Municipiului Bucureşti	-
+Olimpiada Naţională de Matematică Etapa Judeţeană şi a Municipiului Bucureşti	-
 Ukrajina 2008	ua-umo
 62nd Ukrainian National Mathematical Olympiad, Third Round, First Tour	ua-umo
 62nd Ukrainian National Mathematical Olympiad, Third Round, Second Tour	ua-umo

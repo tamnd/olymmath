@@ -906,6 +906,21 @@
   state: active
   notes: The year pages, such as /2005/mmo2005.htm and /2019/, give the papers of each grade in HTML. The papers of 2009 to 2018 are only PDFs (var.pdf and a file for the second day of grade 11), and their text layer loses letters and formulas, so a model read their texts from the page images. The robots.txt of mmo.mccme.ru gives 404, so all paths are allowed (checked on 2026-11-12).
 
+- id: turlom
+  name: Lomonosov Tournament
+  kind: official
+  origin: H1
+  url: https://olympiads.mccme.ru/turlom/
+  access: html
+  terms: "The status page olympiads.mccme.ru/turlom/info-status.htm (published 2012-12-23) says that the information of the site has a free status and can be used and distributed without limits in all cases where this does not go against the law. It also says that the materials placed before 2012 are archival, and that their status follows the conditions of their publication. The new site of the tournament, турлом.цпм.рф (xn--k1acfgjg.xn--l1afu.xn--p1ai), states no licence; its footer says \"© 2026 Турнир имени М.В.Ломоносова\". Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 1
+  state: active
+  notes: The old site olympiads.mccme.ru/turlom has a page or a PDF paper with the problems of mathematics for 1995 to 2003 and 2007 to 2014. Its robots.txt gives 404, so all paths are allowed (checked on 2026-11-12). The paper of 2025 is a PDF on the new site, whose robots.txt allows all paths for all agents (checked on 2026-11-12). The site has no problems of mathematics for 2015 to 2022. turlom.olimpiada.ru now goes to the new site. The download.turlom.info and turlom.tel addresses are behind Cloudflare, so the agent does not read them.
+
 - id: turgor
   name: Tournament of Towns
   kind: official

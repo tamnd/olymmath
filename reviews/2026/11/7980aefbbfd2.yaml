@@ -1,0 +1,31 @@
+id: 7980aefbbfd2
+kind: placement
+records:
+    - HKEC7GA4YF
+    - FRSRNPHGFD
+    - 6PTKP540QD
+    - ACFE0GMCAV
+    - DNKHN2QCHE
+    - NQTFQXNV9P
+    - ZJTFADXBVD
+    - 1ETRV8G18J
+    - W3K22SJZKK
+    - W00DVKFN2S
+    - S05NKSVR8F
+    - X8CMNVQ2T5
+    - X8AB76GFQB
+    - 2FS1W304R8
+    - SXZMWBB5E2
+    - VEJZD6ZMAG
+    - FPR7C0KRX2
+    - F18F9726NM
+    - DYBG1Q8DYF
+    - 2DJ3FFB9EZ
+    - KSNKW1Y99G
+    - 945NJ62BR0
+    - Q01MR5RH4V
+    - M79D5NYF14
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. These rows of the second round of the Iranian olympiad, 2013 to 2022, are placed by their AoPS wiki titles, which name the round, the year and the number, such as "Iran MO 2018 second round p1" or "Iranian second round/Day2/Problem4". No second source gives their order: the hf-ai-mo-aops rows of these collections are not in the collection order, and the hf-mathnet booklets of the Iranian olympiad mix the rounds. The 2023 rows have only a number mark at the start of the text, so they are left out, and so are the years 1983 to 2012, whose rows have no number.'

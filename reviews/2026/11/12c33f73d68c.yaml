@@ -1,0 +1,8 @@
+id: 12c33f73d68c
+kind: match
+records:
+    - ru-allrussian/2022/p97
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The row 17964 (E 0.852, T 0.246, keyword match 1.000) and the text of ru-allrussian/2022/p97 state the same problem with the same data and the same question. The row became a second statement of the record.'

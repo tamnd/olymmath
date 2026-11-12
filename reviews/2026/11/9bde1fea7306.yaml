@@ -1,0 +1,9 @@
+id: 9bde1fea7306
+kind: pair
+records:
+    - 32B8G7A4S7
+    - DFNPQAS3SM
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 21077 to row 21069 of NuminaMath 1.5, but they are two problems: one has a polynomial of degree 200 and the move +2a, -a, the other has degree 100 and the move +a, -2a. Row 21077 is now its own loose record.'

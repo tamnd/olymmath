@@ -1,0 +1,8 @@
+id: fa574aeaaa5c
+kind: match
+records:
+    - NP7YCGS666
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. Row 20030 was joined into this record, which holds row 20013. The two rows state the same problem; one writes the letters in \mathrm and the other in plain math, so the formula score is low, but the data and the question are the same.'

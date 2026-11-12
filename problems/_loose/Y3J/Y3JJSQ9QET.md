@@ -1,0 +1,19 @@
+---
+tag: Y3JJSQ9QET
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=14799
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Two circles intersect at points $A$ and $B$. On the arc $A B$ of one circle, which lies inside the second circle, a point $C$ is taken. The points of intersection of $A C$ and $B C$ with the second circle, different from $A$ and $B$, are denoted by $E$ and $D$ respectively. Prove that the lines $D E$ and $O C$ are perpendicular.

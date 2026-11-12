@@ -1,0 +1,9 @@
+id: 760a79187d19
+kind: pair
+records:
+    - XCB7TGRPWQ
+    - WNTWKZZTTD
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 20886 to row 20878 of NuminaMath 1.5, but they are two problems: the questions differ: one says the second number is twice the first, the other has them the other way round. Row 20886 is now its own loose record.'

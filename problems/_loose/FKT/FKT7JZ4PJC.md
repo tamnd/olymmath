@@ -1,0 +1,21 @@
+---
+tag: FKT7JZ4PJC
+kind: problem
+type: answer
+answer: Itcould
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=17967
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Zhenya arranged the numbers from 1 to 10 in a circle in some order, and Dima wrote the sum of each pair of adjacent numbers in the gaps between them. Could it happen that all the numbers written by Dima were distinct?

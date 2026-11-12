@@ -1,0 +1,9 @@
+id: 945ac9a4d723
+kind: pair
+records:
+    - SKEAEPMEAQ
+    - 3VVNX5MXQY
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import linked row 3677 of NuminaMath 1.5 to loose record 3VVNX5MXQY, which holds a row from the same dataset, so the row added no statement. They are two problems: the trinomials have other coefficients and the ratio is turned over. The agent made row 3677 its own loose record and dropped the dataset answer, which it did not check.'

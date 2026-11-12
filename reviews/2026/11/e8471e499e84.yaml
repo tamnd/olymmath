@@ -1,0 +1,8 @@
+id: e8471e499e84
+kind: match
+records:
+    - NETXA33DK4
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. Row 19096 was joined into this record, which holds row 19072. The two rows state the same problem with the same data and question; only the wording, spacing or formula style differs.'

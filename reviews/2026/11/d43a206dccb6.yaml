@@ -1,0 +1,8 @@
+id: d43a206dccb6
+kind: sample
+records:
+    - 4V5724RN6J
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The text states one complete problem about a 6 by 3 table of 0s and 1s and no solution. The import found no text near it in the content.'

@@ -1,0 +1,9 @@
+id: ef08377ea2a8
+kind: pair
+records:
+    - FHEKWW7FBT
+    - JKB603K4PH
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 20925 to row 20917 of NuminaMath 1.5, but they are two problems: the starting number differs: one hundred nines against one hundred eights. Row 20925 is now its own loose record.'

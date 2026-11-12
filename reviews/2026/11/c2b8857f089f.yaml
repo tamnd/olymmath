@@ -1,0 +1,9 @@
+id: c2b8857f089f
+kind: pair
+records:
+    - SXVXJGBDPQ
+    - in-inmo/1987/p6
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import linked row 12054 of NuminaMath 1.5 to in-inmo/1987/p6, but they are two problems: the row asks if the discriminant can be 23, the record asks to prove that odd coefficients give no rational roots. Row 12054 is now its own loose record.'

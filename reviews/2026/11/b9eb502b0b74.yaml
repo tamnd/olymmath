@@ -1,0 +1,8 @@
+id: b9eb502b0b74
+kind: sample
+records:
+    - JHTGW6MPXC
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The text states one complete problem and no solution. The answer 114 is right: D lies on the circumcircle, so angle ADC is 180 - 66 degrees.'

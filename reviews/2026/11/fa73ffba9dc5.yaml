@@ -1,0 +1,9 @@
+id: fa73ffba9dc5
+kind: pair
+records:
+    - XZHWDKVGQ4
+    - ru-allrussian/2009/p115
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import linked row 20737 of NuminaMath 1.5 to ru-allrussian/2009/p115, but they are two problems: the row gives two equal sums and asks for log_a b, the record asks to prove an inequality between the sums. Row 20737 is now its own loose record.'

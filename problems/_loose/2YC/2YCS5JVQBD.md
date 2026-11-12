@@ -1,0 +1,19 @@
+---
+tag: 2YCS5JVQBD
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=18920
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+In a convex quadrilateral $A B C D$, the angles at vertices $A, B$ and $C$ are equal. A point $E$ is marked on side $A B$. It is known that $A D=C D=B E$. Prove that $C E$ is the bisector of angle $B C D . (A$. Kuznetsov)

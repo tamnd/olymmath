@@ -1,0 +1,9 @@
+id: 3dda7659387e
+kind: pair
+records:
+    - T7HADTSG2W
+    - G35B89FF9F
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 11975 to row 11937 of NuminaMath 1.5, but they are two problems: one uses sums of 7 and 11 consecutive numbers, the other sums of 3 and 5. Row 11975 is now its own loose record.'

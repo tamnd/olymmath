@@ -1,0 +1,8 @@
+id: 480e7c9533c0
+kind: sample
+records:
+    - DXC7Q649VD
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The text states one complete problem and no solution. The answer 605000 is right: after 250 rounds of four steps the ant is 550 cm south and 550 cm east of A. The agent removed the ''Variant 1.'' prefix.'

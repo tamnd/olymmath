@@ -1,0 +1,9 @@
+id: 878249e39b57
+kind: pair
+records:
+    - 94K4REG1ZZ
+    - B1Y9BXKNBY
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 21346 to row 21344 of NuminaMath 1.5, but they are two problems: one asks for all natural n and k, the other for natural n and composite k. Row 21346 is now its own loose record.'

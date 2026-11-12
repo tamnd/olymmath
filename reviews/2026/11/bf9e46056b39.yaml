@@ -1,0 +1,9 @@
+id: bf9e46056b39
+kind: pair
+records:
+    - KK035H9J20
+    - JFJQFFP7JA
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 16554 to row 15751 of NuminaMath 1.5, but they are two problems: the conditions on who played whom differ. Row 16554 is now its own loose record.'

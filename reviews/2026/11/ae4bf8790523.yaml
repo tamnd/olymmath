@@ -1,0 +1,8 @@
+id: ae4bf8790523
+kind: sample
+records:
+    - B14P7J893C
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The text states one problem with two parts (the mean and the variance of the number of matches) and no solution. The dataset answer had lost its first letter, so the agent removed it.'

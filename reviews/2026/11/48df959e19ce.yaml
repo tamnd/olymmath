@@ -1,0 +1,9 @@
+id: 48df959e19ce
+kind: pair
+records:
+    - 892HQDMHKN
+    - TPHH51X9DR
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 17390 to row 15253 of NuminaMath 1.5, but they are two problems: one asks only whether Vasya is right, the other gives Lena and Vasya different sets of figures and asks two questions. Row 17390 is now its own loose record.'

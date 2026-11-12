@@ -1,0 +1,9 @@
+id: b5dc4d389091
+kind: pair
+records:
+    - B2DCZ2KK4Z
+    - QHGSS63K5A
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 19956 to row 19833 of NuminaMath 1.5, but they are two problems: one has any two circles and a line through Q perpendicular to PQ, the other has two equal circles and any line through Q. Row 19956 is now its own loose record.'

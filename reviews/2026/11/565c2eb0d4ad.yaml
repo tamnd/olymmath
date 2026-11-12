@@ -1,0 +1,8 @@
+id: 565c2eb0d4ad
+kind: match
+records:
+    - JVKE52CT0D
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The row 7511 and the text of JVKE52CT0D write the formulas in other ways, so the import linked them by the words rule (words 0.91, formulas 0.90). The agent read both texts: they are the same problem with the same data. The row is a second statement of the record.'

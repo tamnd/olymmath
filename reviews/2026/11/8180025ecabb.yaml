@@ -1,0 +1,8 @@
+id: 8180025ecabb
+kind: sample
+records:
+    - VP795E3NVJ
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The text states one complete problem and no solution. The answer is an example sequence of 9 primes, which works: each term after the third is the sum of the three before it.'

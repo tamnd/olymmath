@@ -21,5 +21,4 @@ unplaced:
     source: hf-ai-mo-aops
     label: 2002 Greece National Olympiad
 ---
-The real numbers $a,b,c$ with $bc
-eq0$ satisfy $\frac{1-c^2}{bc}\geq0.$ Prove that $10(a^2+b^2+c^2-bc^3)\geq2ab+5ac.$
+The real numbers $a,b,c$ with $bc\neq0$ satisfy $\frac{1-c^2}{bc}\geq0.$ Prove that $10(a^2+b^2+c^2-bc^3)\geq2ab+5ac.$

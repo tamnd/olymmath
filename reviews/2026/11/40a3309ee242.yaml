@@ -1,0 +1,9 @@
+id: 40a3309ee242
+kind: pair
+records:
+    - K235W8Y1N2
+    - caps/1999/p1
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import linked row 15772 of NuminaMath 1.5 to caps/1999/p1, but they are two problems: the row asks to prove that the sum is greater than 1/2, the record that it is at least 1. Row 15772 is now its own loose record.'

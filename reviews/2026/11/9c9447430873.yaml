@@ -1,0 +1,9 @@
+id: 9c9447430873
+kind: pair
+records:
+    - Y5X4GCCHFB
+    - sharygin/2010/p16
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import linked row 19329 of NuminaMath 1.5 to sharygin/2010/p16, but they are two problems: the row asks in what ratio XC divides DE, the record asks to prove that XC passes through the midpoint of DE; the answers agree, but the tasks differ, so the agent keeps them apart. Row 19329 is now its own loose record.'

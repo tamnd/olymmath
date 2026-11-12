@@ -1,0 +1,9 @@
+id: 3cc14aa06af6
+kind: pair
+records:
+    - 58866CTKKH
+    - 13AEBZ4FCN
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 12501 to row 12491 of NuminaMath 1.5, but they are two problems: one only asks how many five-digit palindromes are divisible by 5, the other also asks for an example in part a. Row 12501 is now its own loose record.'

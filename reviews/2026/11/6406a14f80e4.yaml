@@ -1,0 +1,9 @@
+id: 6406a14f80e4
+kind: pair
+records:
+    - F99DQNDYHV
+    - EXR7G5QHCH
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 11853 to row 11827 of NuminaMath 1.5, but they are two problems: the order of the pavlosums differs: one adds a, b, c and then asks about other orders, the other also subtracts d. Row 11853 is now its own loose record.'

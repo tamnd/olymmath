@@ -1,0 +1,8 @@
+id: 92a8a8ea5f7f
+kind: sample
+records:
+    - JBJFBQJWQZ
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The text states one complete problem and no solution. The answer 50000 only fits if the eggs cost 50 rubles per ten, so the word ''dozen'' was a wrong translation of the Russian word for ten. The agent changed ''per dozen'' to ''per ten''.'

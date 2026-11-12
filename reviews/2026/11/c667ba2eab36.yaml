@@ -1,0 +1,9 @@
+id: c667ba2eab36
+kind: pair
+records:
+    - MJRRGEC6HC
+    - ill/1977/p49
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import linked row 15295 of NuminaMath 1.5 to ill/1977/p49, but they are two problems: the row asks to prove that a sum of reciprocals of root products does not depend on p and q, the record asks for integer pairs (p,q) with integer roots. Row 15295 is now its own loose record.'

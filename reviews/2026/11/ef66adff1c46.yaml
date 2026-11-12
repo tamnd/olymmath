@@ -1,0 +1,8 @@
+id: ef66adff1c46
+kind: sample
+records:
+    - 5PQH0Z454C
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The text states one complete proof problem and no solution. The dataset gave ''D>4'' as an answer, which only repeats the claim, so the agent removed it.'

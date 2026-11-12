@@ -1,0 +1,8 @@
+id: 09a28d5de18a
+kind: sample
+records:
+    - 9F7RXTAN5H
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The text states one complete problem and no solution. The import found no text near it in the content. It replaces sample records QD64K2GB8F and H5AED7RD3H, which the agent rejected and removed because they were not one clear problem.'

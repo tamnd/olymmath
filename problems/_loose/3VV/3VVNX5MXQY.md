@@ -16,5 +16,4 @@ statements:
 status:
   statement: captured
 ---
-Given quadratic trinomials $f_{1}(x)=x^{2}-a x+2, f_{2}(x)=x^{2}+3 x+b, f_{3}(x)=3 x^{2}+(3-2 a) x+4+b$ and $f_{4}(x)=3 x^{2}+(6-a) x+2+2 b$. Let the differences of their roots be $A, B, C$ and $D$, respectively, and given that $|A| 
-eq|B|$. Find the ratio $\frac{C^{2}-D^{2}}{A^{2}-B^{2}}$. The values of $A, B, C, D, a, b$ are not specified.
+Given quadratic trinomials $f_{1}(x)=x^{2}-a x+2, f_{2}(x)=x^{2}+3 x+b, f_{3}(x)=3 x^{2}+(3-2 a) x+4+b$ and $f_{4}(x)=3 x^{2}+(6-a) x+2+2 b$. Let the differences of their roots be $A, B, C$ and $D$, respectively, and given that $|A| \neq|B|$. Find the ratio $\frac{C^{2}-D^{2}}{A^{2}-B^{2}}$. The values of $A, B, C, D, a, b$ are not specified.

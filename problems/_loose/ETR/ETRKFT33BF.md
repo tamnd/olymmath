@@ -1,0 +1,42 @@
+---
+tag: ETRKFT33BF
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=17813
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Vasya chose some number $ x$ and wrote down the sequence $a=1+x^{2}+x^{3}$,
+
+$$
+\begin{aligned}
+& a=1+x^{3}+ \\
+& x^{4}, a =1+x^{4}+x^{5}, \ldots, a=1+x^{n+1} +x^{n+2}, \ldots . \text { It turned out that } a^{2}=a a . \text { Prove, }
+\end{aligned}
+$$
+
+$2 3$
+
+$n$
+
+that for all
+
+$n \geq 3 $ the equality $a^{2}=a$
+
+$a$
+
+$$
+n n-1 n+1
+$$
+
+holds.

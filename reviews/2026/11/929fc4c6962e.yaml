@@ -1,0 +1,9 @@
+id: 929fc4c6962e
+kind: pair
+records:
+    - BH2Y22Q35N
+    - C32G3CN2SZ
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 21156 to row 21148 of NuminaMath 1.5, but they are two problems: one asks for a fifth degree polynomial with negative roots and a derivative with positive roots, the other for a third degree polynomial with the signs the other way round. Row 21156 is now its own loose record.'

@@ -1,0 +1,27 @@
+---
+tag: 13AEBZ4FCN
+kind: problem
+type: answer
+answer: "100"
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=12491
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+We will call a number palindromic if it reads the same from left to right as it does from right to left. For example, the number 12321 is palindromic.
+
+a) Write any palindromic five-digit number that is divisible by 5.
+
+b) How many five-digit palindromic numbers are there that are divisible by 5?
+
+a)

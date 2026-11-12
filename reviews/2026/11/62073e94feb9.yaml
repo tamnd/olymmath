@@ -1,0 +1,8 @@
+id: 62073e94feb9
+kind: sample
+records:
+    - ZB25ZX1Z72
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The text states one complete problem and no solution. The agent removed the ''(5 points)'' prefix. The answer 5 is right for this known problem.'

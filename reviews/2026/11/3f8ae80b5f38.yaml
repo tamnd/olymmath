@@ -1,0 +1,8 @@
+id: 3f8ae80b5f38
+kind: placement
+records:
+    - smt/2013/e4
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The loose AoPS record EB5NAV08RJ has the same statement as the problem at smt/2013/e4 in the official paper of the round (page 1). I compared the texts. So the record now has this position and the official text.'

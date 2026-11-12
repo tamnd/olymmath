@@ -1,0 +1,9 @@
+id: 56a7184fbdb9
+kind: placement
+records:
+    - smt/2014/g4
+    - smt/2014/e25
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The loose AoPS record HQWK6CX7KS has the same statement as the problem at smt/2014/g4 in the official paper of the round (page 1). I compared the texts. So the record now has this position and the official text. The same problem is also at smt/2014/e25 in another round of this year, so the record has that appearance too.'

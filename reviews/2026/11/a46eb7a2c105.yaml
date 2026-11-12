@@ -1,0 +1,8 @@
+id: a46eb7a2c105
+kind: placement
+records:
+    - smt/2024/t15
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The loose AoPS record VR11AZP8EA has the same statement as the problem at smt/2024/t15 in the official paper of the round (page 2). I compared the texts. So the record now has this position and the official text.'

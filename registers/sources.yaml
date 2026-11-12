@@ -2209,6 +2209,22 @@
   terms: The dataset card gives the MIT licence. Read on 2026-11-04.
   notes: Expert ratings from 0 to 7 of model proofs, with marking schemes, for the calibration of the grading jury (om calibrate -set proofbench). No proof from it goes into solutions/.
 
+- id: stanford-smt
+  name: Stanford Math Tournament (SMT)
+  kind: official
+  origin: H1
+  url: https://www.stanfordmathtournament.org/past-tests/problems
+  access: pdf
+  terms: "The site has no page of terms (about, terms and privacy give 404 on 2026-11-13), and the pages and the papers give no licence and no copyright note. So the content holds the statements with a link to the paper of the round and does not copy the solutions."
+  zone:
+    statement: Z2
+    solution: Z3
+  ai_train: unknown
+  size: 77 papers of rounds, 2011 to 2014 and 2018 to 2025
+  wave: 1
+  state: active
+  notes: "The archive has one page for each year, such as /past-tests/SMT/2024. A page links the problems and the solutions of each round, as /pdfs/smt2024/algebra-problems.pdf. The robots.txt (read on 2026-11-13) allows all paths for all agents. The power round, the tiebreakers and the integration bee are not used. The links of the power round of 2018 and the guts round of 2020 give a web page and not a PDF. om papers stanford-smt records the papers."
+
 - id: hf-open-proof-corpus
   name: Open Proof Corpus
   kind: dataset

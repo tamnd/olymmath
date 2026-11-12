@@ -1,0 +1,8 @@
+id: 02d0a6d9ac0b
+kind: placement
+records:
+    - smt/2024/t1
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The loose AoPS record M9386JX99C has the same statement as the problem at smt/2024/t1 in the official paper of the round (page 1). I compared the texts. So the record now has this position and the official text.'

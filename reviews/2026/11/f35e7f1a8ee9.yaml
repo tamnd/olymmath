@@ -1,0 +1,8 @@
+id: f35e7f1a8ee9
+kind: placement
+records:
+    - smt/2022/k2
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The loose AoPS record PWCA5BKZQB has the same statement as the problem at smt/2022/k2 in the official paper of the round (page 1). I compared the texts. So the record now has this position and the official text.'

@@ -1,0 +1,8 @@
+id: d141eeeadd40
+kind: sample
+records:
+    - smt/2025/u30
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Checked by hand against the 2025 guts PDF page images. All five parts match.'

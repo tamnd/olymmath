@@ -1,0 +1,8 @@
+id: 6a3b67fc7f0f
+kind: sample
+records:
+    - smt/2018/t9
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Checked by hand against page 1 of the 2018 team PDF. The lengths and the angle condition match.'

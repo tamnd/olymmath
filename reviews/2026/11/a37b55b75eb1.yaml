@@ -1,0 +1,8 @@
+id: a37b55b75eb1
+kind: placement
+records:
+    - smt/2018/tp5
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The loose AoPS record 9YTYFZTRVW has the same statement as the problem at smt/2018/tp5 in the official paper of the round (page 3). I compared the texts. So the record now has this position and the official text.'

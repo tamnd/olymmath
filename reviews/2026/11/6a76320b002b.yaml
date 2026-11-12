@@ -1,0 +1,8 @@
+id: 6a76320b002b
+kind: sample
+records:
+    - smt/2014/t4
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Checked by hand against page 1 of the 2014 team PDF. The sum and the floor match.'

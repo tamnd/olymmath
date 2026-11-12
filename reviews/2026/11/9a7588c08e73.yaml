@@ -1,0 +1,9 @@
+id: 9a7588c08e73
+kind: placement
+records:
+    - smt/2023/d1
+    - smt/2023/e5
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The loose AoPS record 1338PQDVBY has the same statement as the problem at smt/2023/d1 in the official paper of the round (page 1). I compared the texts. So the record now has this position and the official text. The same problem is also at smt/2023/e5 in another round of this year, so the record has that appearance too.'

@@ -1,0 +1,8 @@
+id: 1e9ee9d16dcb
+kind: sample
+records:
+    - smt/2019/e12
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Checked by hand against page 1 of the 2019 general PDF. The text matches.'

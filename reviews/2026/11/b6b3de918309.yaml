@@ -1,0 +1,8 @@
+id: b6b3de918309
+kind: sample
+records:
+    - smt/2024/t3
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Checked by hand against the 2024 team PDF. The chord setup and the sum match.'

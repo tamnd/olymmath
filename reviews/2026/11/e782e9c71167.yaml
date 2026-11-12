@@ -1,0 +1,8 @@
+id: e782e9c71167
+kind: placement
+records:
+    - smt/2013/t10
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The loose AoPS record VF0HD568HK has the same statement as the problem at smt/2013/t10 in the official paper of the round (page 2). I compared the texts. So the record now has this position and the official text.'

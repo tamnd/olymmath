@@ -1,0 +1,8 @@
+id: db23a87514f1
+kind: placement
+records:
+    - smt/2018/g1
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The loose AoPS record 2AMT17Q1Q7 has the same statement as the problem at smt/2018/g1 in the official paper of the round (page 1). I compared the texts. So the record now has this position and the official text.'

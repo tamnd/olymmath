@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="115pt" height="122pt" viewBox="0 0 115 122">
+<path fill="none" stroke-width="0.398" stroke="#000" stroke-miterlimit="10" d="M 0.000 0.001 L 0.000 106.302 " transform="matrix(1, 0, 0, -1, 4.82, 111.306)"/>
+<path fill="none" stroke-width="0.398" stroke="#000" stroke-miterlimit="10" d="M 106.301 0.001 L 106.301 106.302 " transform="matrix(1, 0, 0, -1, 4.82, 111.306)"/>
+<path fill="none" stroke-width="0.398" stroke="#000" stroke-miterlimit="10" d="M 106.301 0.001 L 0.000 0.001 " transform="matrix(1, 0, 0, -1, 4.82, 111.306)"/>
+<path fill="none" stroke-width="0.398" stroke="#000" stroke-miterlimit="10" d="M 0.000 106.302 L 106.301 106.302 " transform="matrix(1, 0, 0, -1, 4.82, 111.306)"/>
+<path fill="none" stroke-width="0.398" stroke="#000" stroke-miterlimit="10" d="M 42.519 21.259 C 42.519 33.001 33.000 42.520 21.262 42.520 C 9.519 42.520 0.000 33.001 0.000 21.259 C 0.000 9.516 9.519 0.001 21.262 0.001 C 33.000 0.001 42.519 9.516 42.519 21.259 Z M 42.519 21.259 " transform="matrix(1, 0, 0, -1, 4.82, 111.306)"/>
+<path fill="none" stroke-width="0.398" stroke="#000" stroke-miterlimit="10" d="M 106.301 21.259 C 106.301 33.001 96.781 42.520 85.039 42.520 C 73.297 42.520 63.781 33.001 63.781 21.259 C 63.781 9.516 73.297 0.001 85.039 0.001 C 96.781 0.001 106.301 9.516 106.301 21.259 Z M 106.301 21.259 " transform="matrix(1, 0, 0, -1, 4.82, 111.306)"/>
+<path fill="none" stroke-width="0.398" stroke="#000" stroke-miterlimit="10" d="M 74.410 49.384 C 74.410 61.126 64.890 70.645 53.148 70.645 C 41.406 70.645 31.890 61.126 31.890 49.384 C 31.890 37.641 41.406 28.126 53.148 28.126 C 64.890 28.126 74.410 37.641 74.410 49.384 Z M 74.410 49.384 " transform="matrix(1, 0, 0, -1, 4.82, 111.306)"/>
+<path fill="none" stroke-width="0.398" stroke="#000" stroke-miterlimit="10" d="M 42.519 77.509 C 42.519 89.251 33.000 98.770 21.262 98.770 C 9.519 98.770 0.000 89.251 0.000 77.509 C 0.000 65.766 9.519 56.247 21.262 56.247 C 33.000 56.247 42.519 65.766 42.519 77.509 Z M 42.519 77.509 " transform="matrix(1, 0, 0, -1, 4.82, 111.306)"/>
+<path fill="none" stroke-width="0.398" stroke="#000" stroke-miterlimit="10" d="M 106.301 77.509 C 106.301 89.251 96.781 98.770 85.039 98.770 C 73.297 98.770 63.781 89.251 63.781 77.509 C 63.781 65.766 73.297 56.247 85.039 56.247 C 96.781 56.247 106.301 65.766 106.301 77.509 Z M 106.301 77.509 " transform="matrix(1, 0, 0, -1, 4.82, 111.306)"/>
+</svg>

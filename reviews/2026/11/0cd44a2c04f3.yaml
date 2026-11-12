@@ -1,0 +1,8 @@
+id: 0cd44a2c04f3
+kind: placement
+records:
+    - smt/2013/k10
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The loose AoPS record F8C4017HZZ has the same statement as the problem at smt/2013/k10 in the official paper of the round (page 1). I compared the texts. So the record now has this position and the official text.'

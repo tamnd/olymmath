@@ -1,0 +1,8 @@
+id: 4f7ef25038d4
+kind: placement
+records:
+    - smt/2013/t12
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The loose AoPS record 1CSRTF4S2Y has the same statement as the problem at smt/2013/t12 in the official paper of the round (page 2). I compared the texts. So the record now has this position and the official text.'

@@ -1,0 +1,19 @@
+---
+tag: 3CPJ5KC53F
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=8277
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Baron Munchausen claims that there exist two different 10-digit numbers, not divisible by 10, such that if you subtract the sum of the digits of their squares from each of these numbers, the results will be the same. Is the baron lying?

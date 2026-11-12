@@ -1,0 +1,9 @@
+id: 87e5f6275289
+kind: pair
+records:
+    - VX58E24167
+    - 7WFTN5NFS1
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 4654 to row 4648 of NuminaMath 1.5, but they are two problems: one asks for any polygon, the other for a convex polygon. Row 4654 is now its own loose record.'

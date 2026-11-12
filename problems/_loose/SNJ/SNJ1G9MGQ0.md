@@ -14,11 +14,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-numina-olympiads
+    url: https://huggingface.co/datasets/project-numina/olympiads
+    capture: hf-numina-olympiads/default/train/0000.parquet#row=4089
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: hmmt/2011
     source: hf-ai-mo-aops
     label: 2011 Harvard-MIT Mathematics Tournament
+  - at: hmmt/2011
+    source: hf-numina-olympiads
+    label: HMMT February
 ---
 A classroom has $30$ students and $30$ desks arranged in $5$ rows of $6$ . If the class has $15$ boys and $15$ girls, in how many ways can the students be placed in the chairs such that no boy is sitting in front of, behind, or next to another boy, and no girl is sitting in front of, behind, or next to another girl?

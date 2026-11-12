@@ -1,0 +1,8 @@
+id: 3a1de512198f
+kind: match
+records:
+    - V0Z38ZZ5BY
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. Row 8683 was joined into this record, which holds row 8596. The two rows state the same problem with the same data and question; only the wording, spacing or formula style differs.'

@@ -1,0 +1,9 @@
+id: 88fa551f860f
+kind: pair
+records:
+    - 32CR8KMTW9
+    - SGMYA80JPV
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 7651 to row 7645 of NuminaMath 1.5, but they are two problems: one asks that no knight attacks exactly four others, the other exactly three. Row 7651 is now its own loose record.'

@@ -1,0 +1,9 @@
+id: ac5f1e0fd5b9
+kind: pair
+records:
+    - H5QGXKMSK2
+    - B6Z66SS8V8
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 9112 to row 9102 of NuminaMath 1.5, but they are two problems: they are converse problems: one assumes XL parallel to BC and proves BL is the bisector, the other assumes the bisector and proves the parallel. Row 9112 is now its own loose record.'

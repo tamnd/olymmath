@@ -1,0 +1,8 @@
+id: 4fbb8ad956ab
+kind: match
+records:
+    - 2WM3G9H8C7
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. Row 8663 was joined into this record, which holds row 8569. The two rows state the same problem; row 8663 puts the word relations in the right place, row 8569 after the formula.'

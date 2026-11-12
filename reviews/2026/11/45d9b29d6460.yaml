@@ -1,0 +1,9 @@
+id: 45d9b29d6460
+kind: pair
+records:
+    - D9Z6X1N3CP
+    - ZWC47Y07R5
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 3705 to row 3087 of NuminaMath 1.5, but they are two problems: the two systems of inequalities differ in signs and in the denominator. Row 3705 is now its own loose record.'

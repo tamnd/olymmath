@@ -1,0 +1,21 @@
+---
+tag: KJFWA4E9P3
+kind: problem
+type: answer
+answer: 3,4,5,\ldots,13
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=10361
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Indicate all values of $n$ for which the sum of $n$ consecutive terms of the arithmetic progression $22,19,16, \ldots$, starting from the first, is not less than 52.

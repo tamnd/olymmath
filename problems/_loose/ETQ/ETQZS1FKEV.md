@@ -1,0 +1,21 @@
+---
+tag: ETQZS1FKEV
+kind: problem
+type: answer
+answer: \operatorname{ctg}\beta=1
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=3753
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+It is known that $\operatorname{tg}(2 \alpha-\beta)+6 \operatorname{tg} 2 \alpha+\operatorname{tg} \beta=0, \operatorname{tg} \alpha=2$. Find $\operatorname{ctg} \beta$.

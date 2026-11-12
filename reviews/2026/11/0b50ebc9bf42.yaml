@@ -1,0 +1,9 @@
+id: 0b50ebc9bf42
+kind: pair
+records:
+    - ZFHSF22AZ9
+    - 27EX24R7B6
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 8460 to row 8455 of NuminaMath 1.5, but they are two problems: the numbers are swapped: g(2021) with 2022(x+y) against g(2022) with 2021(x+y). Row 8460 is now its own loose record.'

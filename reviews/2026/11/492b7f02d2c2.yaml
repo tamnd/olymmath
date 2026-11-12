@@ -1,0 +1,9 @@
+id: 492b7f02d2c2
+kind: pair
+records:
+    - Q7XRX0X7NF
+    - 3MT62YGEZV
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 4229 to row 4191 of NuminaMath 1.5, but they are two problems: the circle has 33 points in one and 123 points in the other. Row 4199 has the 33-point text and goes with row 4229. Row 4229 is now its own loose record.'

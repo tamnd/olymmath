@@ -1,0 +1,9 @@
+id: f899cacbb001
+kind: pair
+records:
+    - EMEZMBK7R2
+    - QP8RNYV51C
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 8635 to row 8592 of NuminaMath 1.5, but they are two problems: the third statement to prove or disprove differs: max B >= 2 against a bound on the minimum element of B. Row 8635 is now its own loose record.'

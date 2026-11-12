@@ -1,0 +1,9 @@
+id: 3291e89b1d36
+kind: pair
+records:
+    - A6BFE0K7DX
+    - 9TDAPPMK73
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 4587 to row 4574 of NuminaMath 1.5, but they are two problems: one has students from no fewer than 4 schools, the other from exactly 4 schools, which is a weaker claim. Row 4587 is now its own loose record.'

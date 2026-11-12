@@ -1,0 +1,9 @@
+id: 0a7bb96714da
+kind: pair
+records:
+    - XDXW0MTFM0
+    - KF33YRMKRZ
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 8940 to row 8909 of NuminaMath 1.5, but they are two problems: one has 12 boxes, the other 13. Row 8940 is now its own loose record.'

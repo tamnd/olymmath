@@ -1,0 +1,9 @@
+id: 7f5b439327a5
+kind: pair
+records:
+    - HPC28GWNQG
+    - rioplatense/2013/p1
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import linked row 6812 of NuminaMath 1.5 to rioplatense/2013/p1, but they are two problems: the row has a, b, c, d at most 1 and another inequality, the record has a^2+b^2+c^2+d^2=1 and proves (1-a)(1-b)(1-c)(1-d) >= abcd. Row 6812 is now its own loose record.'

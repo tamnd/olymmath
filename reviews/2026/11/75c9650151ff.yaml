@@ -1,0 +1,9 @@
+id: 75c9650151ff
+kind: pair
+records:
+    - ZYJ7YXVQ55
+    - SWS8T3KJJ0
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 9362 to row 9352 of NuminaMath 1.5, but they are two problems: the score gaps differ: 3 and 7 points against 5 and 9 points. Row 9375 has the same text as row 9362 and goes with it. Row 9362 is now its own loose record.'

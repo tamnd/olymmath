@@ -1,0 +1,21 @@
+---
+tag: QAKSECHWE4
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=10094
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Given a regular quadrilateral pyramid $T A B C D$ with base $A B C D$, where $A B=9 / 2$. On its height $T O$, a point $T_{1}$ is chosen such that $T T_{1}=T O / 3$. Points $A_{1}, B_{1}, C_{1}$, and $D_{1}$ divide the segments $O A, O B, O C$, and $O D$, respectively, in the ratio $1: 2$, counting from point $O$. Find the area of the section of the pyramid $T_{1} A_{1} B_{1} C_{1} D_{1}$ by a plane parallel to the median $A K$ of the lateral face $T A B$, passing through the midpoint of edge $T C$ and point $F$ on segment $T A$ such that $A F: F T=1: 2$, given that the distance from point $B$ to this section plane is $8 \sqrt{5 / 13}$. Round the result to the hundredths place according to rounding rules.
+
+(16 points)

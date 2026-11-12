@@ -1,0 +1,29 @@
+---
+tag: GYT9YA5VWY
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numina-olympiads
+    url: https://huggingface.co/datasets/project-numina/olympiads
+    capture: hf-numina-olympiads/default/train/0000.parquet#row=2472
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Soient $x$, y et $z$ des réels strictement positifs tels que
+
+$$
+x+y+z \geqslant \frac{1}{x}+\frac{1}{y}+\frac{1}{z}
+$$
+
+Montrer que
+
+$$
+\frac{x}{y}+\frac{y}{z}+\frac{z}{x} \geqslant \frac{1}{x y}+\frac{1}{y z}+\frac{1}{z x}
+$$

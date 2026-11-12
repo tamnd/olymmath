@@ -1,0 +1,21 @@
+---
+tag: F9GS4AQZE3
+kind: problem
+type: answer
+answer: \frac{5}{19}
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=2400
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Point $M$ divides the diagonal $A C$ of square $A B C D$ in the ratio $M C: A M=1: 4$. A line passing through point $M$ divides the square into two parts, the areas of which are in the ratio $1: 11$. In what ratio does this line divide the perimeter of the square?

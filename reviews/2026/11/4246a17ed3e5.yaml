@@ -1,0 +1,9 @@
+id: 4246a17ed3e5
+kind: pair
+records:
+    - D7KP5PA4CJ
+    - ZJX5EG2JFF
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 2078 to row 2070 of NuminaMath 1.5, but they are two problems: the sums differ: 840 against 2520. Row 2078 is now its own loose record.'

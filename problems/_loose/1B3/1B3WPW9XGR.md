@@ -1,0 +1,23 @@
+---
+tag: 1B3WPW9XGR
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=752
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: pl-om/1989
+    source: hf-numinamath-1-5
+    label: XL OM - I - Problem 7
+---
+In space, a finite set of points is given, any four of which are vertices of a tetrahedron with a volume less than or equal to 1. Prove that there exists a tetrahedron with a volume no greater than 27, containing all these points.

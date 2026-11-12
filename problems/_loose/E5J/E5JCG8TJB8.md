@@ -1,0 +1,25 @@
+---
+tag: E5JCG8TJB8
+kind: problem
+type: answer
+answer: "99300"
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=1058
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: pl-om/1985
+    source: hf-numinamath-1-5
+    label: XXXVI OM - I - Zadanie 9
+---
+W urnie jest 1985 kartek z napisanymi liczbami 1,2,3,..., 1985, każda lczba na innej kartce. Losujemy bez zwracania 100 kartek. Znaleźć wartość oczekiwaną sumy liczb napisanych na wylosowanych kartkach.

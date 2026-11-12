@@ -1,0 +1,8 @@
+id: 561bc5782778
+kind: match
+records:
+    - 15V7SZMGGF
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. Row 10246 was joined into this record, which holds row 9998. The two rows state the same problem; only the points (8 against 16) differ.'

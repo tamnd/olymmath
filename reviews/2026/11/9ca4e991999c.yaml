@@ -1,0 +1,9 @@
+id: 9ca4e991999c
+kind: pair
+records:
+    - W61NY0FW83
+    - ill/1983/p7
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import linked row 491 of NuminaMath 1.5 to ill/1983/p7, but they are two problems: the row asks to write x^4+x^3+x^2+x+1 as a difference of squares of two polynomials, the record asks for the integers x that make it a perfect square. Row 491 is now its own loose record.'

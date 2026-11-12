@@ -1,0 +1,9 @@
+id: 4761af60d28a
+kind: pair
+records:
+    - S6D2K6S6XA
+    - 1944J3MJVF
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 9226 to row 9216 of NuminaMath 1.5, but they are two problems: the given angle is 50 degrees in one and 40 degrees in the other. Row 9226 is now its own loose record.'

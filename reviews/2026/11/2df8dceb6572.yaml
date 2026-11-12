@@ -1,0 +1,9 @@
+id: 2df8dceb6572
+kind: pair
+records:
+    - BJFZ19YM7H
+    - YREMF9B8NB
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import linked row 1731 of NuminaMath 1.5 to YREMF9B8NB, but they are two problems: the row asks for m such that x+y+z divides the polynomial, the record asks for m such that it is a product of three linear factors. Row 1731 is now its own loose record. The row keeps its unplaced entry pl-om/1956.'

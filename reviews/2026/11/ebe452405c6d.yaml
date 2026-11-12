@@ -1,0 +1,9 @@
+id: ebe452405c6d
+kind: pair
+records:
+    - ZWD78979VX
+    - XGGGS8EN1P
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 3525 to row 3511 of NuminaMath 1.5, but they are two problems: the equations differ: sin y + cos x = sin 3x and the sum cos y + sin x, against cos y + cos x = sin 3x and the sum sin y + sin x. Row 3525 is now its own loose record.'

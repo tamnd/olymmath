@@ -1,0 +1,25 @@
+---
+tag: F1Z5WDP6G3
+kind: problem
+type: answer
+answer: 8\pi
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=4412
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Compute the area of the figure defined by the inequality
+
+$$
+x^{2}+y^{2} \leqslant 4(x+y)
+$$

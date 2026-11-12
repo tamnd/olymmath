@@ -1,0 +1,23 @@
+---
+tag: 4T96ZJXZA7
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numina-olympiads
+    url: https://huggingface.co/datasets/project-numina/olympiads
+    capture: hf-numina-olympiads/default/train/0000.parquet#row=10867
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ibero/1990
+    source: hf-numina-olympiads
+    label: IberoAmerican_MO
+---
+The circle $\mathrm{C}$ has diameter $\mathrm{AB}$. The tangent at $\mathrm{B}$ is $\mathrm{T}$. For each point $\mathrm{M}$ (not equal to $\mathrm{A}$ ) on $\mathrm{C}$ there is a circle $\mathrm{C}^{\prime}$ which touches $\mathrm{T}$ and touches $\mathrm{C}$ at M. Find the point at which $\mathrm{C}^{\prime}$ touches $\mathrm{T}$ and find the locus of the center of $\mathrm{C}^{\prime}$ as $\mathrm{M}$ varies. Show that there is a circle orthogonal to all the circles $\mathrm{C}^{\prime}$.

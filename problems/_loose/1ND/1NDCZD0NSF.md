@@ -1,0 +1,19 @@
+---
+tag: 1NDCZD0NSF
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=2459
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Pete throws a die several times onto the table and counts the sum of the points that come up. For any natural number $n$, the event $A_{n}$ occurs if this sum equals $n$. Find the probability of the event $A_{9}$.

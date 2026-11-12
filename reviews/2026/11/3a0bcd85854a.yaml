@@ -1,0 +1,8 @@
+id: 3a0bcd85854a
+kind: match
+records:
+    - benelux/2017/p4
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The row 1158 and the text of benelux/2017/p4 write the formulas in other ways, so the import linked them by the words rule (words 0.96, formulas 0.82). The agent read both texts: they are the same problem with the same data. The row is a second statement of the record.'

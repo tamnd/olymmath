@@ -5,8 +5,8 @@ appearances:
   - at: tot/2012-fall/jo5
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2012-fall official paper
+    url: https://turgor.ru/problems/34/os34baz-avt.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+В классе 20 школьников. Было устроено несколько экскурсий, в каждой из которых участвовал хотя бы один школьник этого класса. Докажите, что найдётся такая экскурсия, что каждый из участвовавших в ней школьников этого класса принял участие по меньшей мере в 1/20 всех экскурсий.

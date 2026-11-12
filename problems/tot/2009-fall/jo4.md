@@ -6,8 +6,8 @@ appearances:
     primary: true
   - at: tot/2009-fall/so1
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -17,6 +17,17 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2009-fall official page
+    url: https://turgor.ru/problems/31/index.php
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/html (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Семизначный код, состоящий из семи различных цифр, назовем хорошим. Паролем сейфа является хороший код. Известно, что сейф откроется, если введен хороший код и на каком-нибудь месте цифра кода совпала с соответствующей цифрой пароля. Можно ли гарантированно открыть сейф быстрее чем за 7 попыток?

@@ -6,8 +6,8 @@ appearances:
     primary: true
   - at: tot/2024-fall/so1
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -17,6 +17,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2024-fall official paper
+    url: https://turgor.ru/problems/46/os-46-baz-avt.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+В ряд лежат 100 камней: чёрный, белый, чёрный, белый, ... , чёрный, белый. Одной операцией либо выбирают два чёрных камня, между которыми лежат только белые камни, и перекрашивают все эти белые камни в чёрный цвет, либо выбирают два белых камня, между которыми лежат только чёрные камни, и перекрашивают все эти чёрные камни в белый цвет. Можно ли за несколько таких операций получить ряд, в котором идут сначала 50 чёрных камней, а потом 50 белых?

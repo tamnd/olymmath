@@ -6,8 +6,8 @@ appearances:
     primary: true
   - at: tot/2015-fall/so3
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -17,6 +17,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2015-fall official paper
+    url: https://turgor.ru/problems/37/os-37-baz-avt.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Трое играют в «камень-ножницы-бумагу». В каждом раунде каждый наугад показывает «камень», «ножницы» или «бумагу». «Камень» побеждает «ножницы», «ножницы» побеждают «бумагу», «бумага» побеждает «камень». Если в раунде было показано ровно два различных элемента (и значит, один из них показали дважды), то игроки (или игрок), показавшие победивший элемент, получают по 1 баллу; иначе баллы никому не начисляются. После нескольких раундов оказалось, что все элементы были показаны одинаковое количество раз. Докажите, что в этот момент сумма набранных всеми баллов делилась на 3.

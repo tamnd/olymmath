@@ -6,8 +6,8 @@ appearances:
     primary: true
   - at: tot/2014-fall/sa2
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -17,6 +17,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2014-fall official paper
+    url: https://turgor.ru/problems/36/os-36-sl-avt.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+На кольцевой дороге через равные промежутки расположены 25 постов, на каждом стоит полицейский. Полицейские пронумерованы в каком-то порядке числами от 1 до 25. Требуется, чтобы они перешли по дороге так, чтобы снова на каждом посту был полицейский, но по часовой стрелке за номером 1 стоял номер 2, за номером 2 стоял номер 3, ... , за номером 25 стоял номер 1. Докажите, что если организовать переход так, чтобы суммарное пройденное расстояние было наименьшим, то кто-то из полицейских останется на своём посту.

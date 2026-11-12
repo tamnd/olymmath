@@ -5,8 +5,8 @@ appearances:
   - at: tot/2018-fall/ja3
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2018-fall official paper
+    url: https://turgor.ru/problems/40/os-40-sl-avt.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Требуется записать число вида $77 \ldots 7$, используя только семёрки (их можно писать и по одной, и по нескольку штук подряд), причём разрешены только сложение, вычитание, умножение, деление и возведение в степень, а также скобки. Для числа 77 самая короткая запись — это просто 77. А существует ли число вида $77 \ldots 7$, которое можно записать по этим правилам, используя меньшее количество семёрок, чем в его десятичной записи?

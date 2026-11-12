@@ -5,8 +5,8 @@ appearances:
   - at: tot/2025-spring/ja6
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,20 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2025-spring official paper
+    url: https://turgor.ru/problems/46/vs-46-sl-avt.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Равносторонний треугольник разрезан на белые и чёрные треугольники. Известно, что все белые треугольники — прямоугольные и равны друг другу, а все чёрные — равнобедренные и тоже равны друг другу. Обязательно ли кратны $30^\circ$ все углы
+а) у белых треугольников;
+б) у чёрных треугольников?

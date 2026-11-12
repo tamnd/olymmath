@@ -5,8 +5,8 @@ appearances:
   - at: tot/2011-fall/sa6
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2011-fall official paper
+    url: https://turgor.ru/problems/33/os33sl-avt.pdf
+    page: 2
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Докажите, что при натуральном $n > 1$ число $1^1 + 3^3 + 5^5 + \ldots + (2^n - 1)^{2n - 1}$ делится на $2^n$, но не делится на $2^{n + 1}$. (В сумме участвует каждое нечетное число $k$ от 1 до $2^n - 1$, возведенное в степень $k$.)

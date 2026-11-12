@@ -5,8 +5,8 @@ appearances:
   - at: tot/2012-spring/so1
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2012-spring official paper
+    url: https://turgor.ru/problems/33/vs33baz-avt.pdf
+    page: 2
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Из каждой вершины выпуклого многогранника выходят ровно три ребра, причем хотя бы два из этих трех ребер равны. Докажите, что многогранник имеет хотя бы три равных ребра.

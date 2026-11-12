@@ -6,8 +6,8 @@ appearances:
     primary: true
   - at: tot/2003-fall/sa3
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -17,6 +17,17 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2003-fall official page
+    url: https://turgor.ru/problems/25/index.php
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/html (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Дана коробка (прямоугольный параллелепипед), по поверхности (но не внутри) которой ползает муравей. Изначально муравей сидит в углу. Верно ли, что среди всех точек поверхности на наибольшем расстоянии от муравья находится противоположный угол? (Расстоянием между точками, с точки зрения муравья, является длина кратчайшего пути между этими точками, проходящего по поверхности параллелепипеда.)

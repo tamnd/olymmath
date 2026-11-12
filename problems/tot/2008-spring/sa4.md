@@ -5,8 +5,8 @@ appearances:
   - at: tot/2008-spring/sa4
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,17 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2008-spring official page
+    url: https://turgor.ru/problems/29/index.php
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/html (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Петя и Вася нарисовали по выпуклому четырёхугольнику без параллельных сторон. Каждый провёл в своём четырёхугольнике одну из диагоналей и вычислил углы, образованные этой диагональю со сторонами своего четырёхугольника. Петя получил числа $\alpha$, $\alpha$, $\beta$ и $\gamma$ (в некотором порядке), и Вася — тоже эти числа (возможно, в другом порядке). Докажите, что диагонали четырёхугольника Пети пересекаются под теми же углами, что и диагонали четырехугольника Васи.

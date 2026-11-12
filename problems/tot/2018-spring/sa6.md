@@ -5,8 +5,8 @@ appearances:
   - at: tot/2018-spring/sa6
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2018-spring official paper
+    url: https://turgor.ru/problems/39/vs-39-sl-avt.pdf
+    page: 2
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Четырехугольник $ABCD$ вписан в окружность. Лучи $BA$ и $CD$ пересекаются в точке $P$. Прямая, проходящая через $P$ и параллельная касательной к окружности в точке $D$, пересекает в точках $U$ и $V$ касательные, проведённые к окружности в точках $A$ и $B$. Докажите, что окружности, описанные около треугольника $CUV$ и четырёхугольника $ABCD$, касаются.

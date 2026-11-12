@@ -5,8 +5,8 @@ appearances:
   - at: tot/2023-fall/sa6
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2023-fall official paper
+    url: https://turgor.ru/problems/45/os-45-sl-avt.pdf
+    page: 2
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Таблица $2 \times 2024$ заполнена целыми числами, причём в первой строке стоят числа из набора $\{1,\ldots, 2023\}$. Оказалось, что какие бы два столбца мы ни выбрали, разность их чисел из первой строки делится на разность их чисел из второй строки. Известно, что все числа во второй строке попарно различны. Обязательно ли тогда все числа в первой строке равны между собой?

@@ -5,8 +5,8 @@ appearances:
   - at: tot/2009-spring/so4
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,17 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2009-spring official page
+    url: https://turgor.ru/problems/30/index.php
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/html (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+В ряд выписаны несколько нулей и единиц. Рассмотрим пары цифр в этом ряду (не только соседних), где левая цифра равна 1, а правая 0. Пусть среди этих пар ровно $M$ таких, что между единицей и нулем этой пары стоит четное число цифр (возможно, ни одной), и ровно $N$ — таких, что между единицей и нулем этой пары стоит нечетное число цифр. Докажите, что $M$ больше или равно $N$.

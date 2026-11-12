@@ -6,8 +6,8 @@ appearances:
     primary: true
   - at: tot/2012-spring/sa1
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -17,6 +17,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2012-spring official paper
+    url: https://turgor.ru/problems/33/vs33sl-avt.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+В бригаде сторожей у каждого есть разряд (натуральное число). Сторож $N$-го разряда $N$ суток дежурит, потом $N$ суток спит, снова $N$ суток дежурит, $N$ — спит, и так далее. Известно, что разряды любых двух сторожей различаются хотя бы в три раза. Может ли такая бригада осуществлять ежедневное дежурство? (Приступить к дежурству сторожа могут не обязательно одновременно, в один день могут дежурить несколько сторожей.)

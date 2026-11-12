@@ -5,8 +5,8 @@ appearances:
   - at: tot/2016-spring/ja7
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,19 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2016-spring official paper
+    url: https://turgor.ru/problems/37/vs-37-sl-avt.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+а) Есть $2n + 1$ батареек ($n > 2$). Известно, что хороших среди них на одну больше, чем плохих, но какие именно батарейки хорошие, а какие плохие, неизвестно. В фонарик вставляются две батарейки, при этом он светит, только если обе — хорошие. За какое наименьшее число таких попыток можно гарантированно добиться, чтобы фонарик светил?
+б) Та же задача, но батареек $2n$ ($n > 2$), причём хороших и плохих поровну.

@@ -5,8 +5,8 @@ appearances:
   - at: tot/2013-spring/so5
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2013-spring official paper
+    url: https://turgor.ru/problems/34/vs34baz-avt.pdf
+    page: 2
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Назовем приведенный квадратный трехчлен с целыми коэффициентами сносным, если его корни — целые числа, а коэффициенты не превосходят по модулю 2013. Вася сложил все сносные квадратные трехчлены. Докажите, что у него получился трехчлен, не имеющий действительных корней.

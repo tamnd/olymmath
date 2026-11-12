@@ -5,8 +5,8 @@ appearances:
   - at: tot/2024-fall/ja1
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2024-fall official paper
+    url: https://turgor.ru/problems/46/os-46-sl-avt.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Барон Мюнхгаузен взял несколько карточек и написал на каждой по натуральному числу (числа могут повторяться). Барон утверждает, что использовал только две различные цифры, зато когда он для каждой пары карточек нашёл сумму чисел на них, то среди первых цифр этих сумм встретились все цифры от 1 до 9. Могут ли слова барона быть правдой?

@@ -5,8 +5,8 @@ appearances:
   - at: tot/2024-spring/so3
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2024-spring official paper
+    url: https://turgor.ru/problems/45/vs-45-baz-avt.pdf
+    page: 2
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Если Вася делит пирог или кусок пирога на две части, то всегда делает их равными по массе. А если делит на большее число частей, то может сделать их какими угодно, но обязательно все разной массы. За несколько таких дележей Вася разрезал пирог на $N$ частей. При каждом ли $N \ge 10$ все части могли получиться равными по массе? (Объединять части нельзя.)

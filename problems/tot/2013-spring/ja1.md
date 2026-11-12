@@ -6,8 +6,8 @@ appearances:
     primary: true
   - at: tot/2013-spring/sa1
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -17,6 +17,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2013-spring official paper
+    url: https://turgor.ru/problems/34/vs34sl-avt.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+На доске написано несколько натуральных чисел. Сумма любых двух из них — натуральная степень двойки. Какое наибольшее число различных может быть среди чисел на доске?

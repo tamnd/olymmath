@@ -5,8 +5,8 @@ appearances:
   - at: tot/2009-spring/ja1
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,17 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2009-spring official page
+    url: https://turgor.ru/problems/30/index.php
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/html (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Вася и Петя играют в следующую игру. На доске написаны два числа: $1/2009$ и $1/2008$. На каждом ходу Вася называет любое число $x$, а Петя увеличивает одно из чисел на доске (какое захочет) на $x$. Вася выигрывает, если в какой-то момент одно из чисел на доске станет равным 1. Сможет ли Вася выиграть, как бы ни действовал Петя?

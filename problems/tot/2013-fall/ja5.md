@@ -5,8 +5,8 @@ appearances:
   - at: tot/2013-fall/ja5
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2013-fall official paper
+    url: https://turgor.ru/problems/35/os35-sl-avt.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+В окружность вписан 101-угольник. Из каждой его вершины опустили перпендикуляр на прямую, содержащую противоположную сторону. Докажите, что хотя бы у одного из перпендикуляров основание попадёт на сторону (а не на её продолжение).

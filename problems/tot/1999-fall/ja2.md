@@ -5,8 +5,8 @@ appearances:
   - at: tot/1999-fall/ja2
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,19 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 1999-fall official page
+    url: https://turgor.ru/problems/21/index.php
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/html (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Пусть $ABC$ — остроугольный треугольник, $C'$ и $A'$ — произвольные точки на сторонах $AB$ и $BC$ соответственно, $B'$ — середина стороны $AC$.
+а) Докажите, что площадь треугольника $A'B'C'$ не больше половины площади треугольника $ABC$.
+б) Докажите, что площадь треугольника $A'B'C'$ равна четверти площади треугольника $ABC$ тогда и только тогда, когда хотя бы одна из точек $A'$, $C'$ совпадает с серединой соответствующей стороны.

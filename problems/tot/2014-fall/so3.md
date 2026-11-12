@@ -5,8 +5,8 @@ appearances:
   - at: tot/2014-fall/so3
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2014-fall official paper
+    url: https://turgor.ru/problems/36/os-36-baz-avt.pdf
+    page: 2
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Даны 15 целых чисел, среди которых нет одинаковых. Петя записал на доску все возможные суммы по 7 из этих чисел, а Вася — все возможные суммы по 8 из этих чисел. Могло ли случиться, что они выписали на доску одни и те же наборы чисел? (Если какое-то число повторяется несколько раз в наборе у Пети, то и у Васи оно должно повторяться столько же раз.)

@@ -5,8 +5,8 @@ appearances:
   - at: tot/2011-fall/ja6
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2011-fall official paper
+    url: https://turgor.ru/problems/33/os33sl-avt.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+По прямому шоссе со скоростью 60 км/ч едет машина. Недалеко от дороги стоит 100-метровый забор, параллельный дороге. Каждую секунду пассажир автомобиля измеряет угол, под которым виден забор. Докажите, что сумма всех измеренных им углов меньше 1100 градусов.

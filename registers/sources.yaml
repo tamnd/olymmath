@@ -910,12 +910,14 @@
   origin: H1
   url: https://www.turgor.ru/en/problems/
   access: html
+  terms: "No licence and no terms of use on the site (the home, about, contact and problems pages, read on 2026-11-12). Agent decision, not a person's review: Z2, the spec default for competition statements."
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
   wave: 1
-  state: planned
+  state: active
+  notes: "robots.txt (checked on 2026-11-12) disallows only the forum paths, /17* and *_dw/*, and allows /problems/. The page of tournament N is /problems/N/index.php; the fall tour of the year Y is in tournament Y-1978 and the spring tour of Y in tournament Y-1979. Old pages give the papers as text; newer ones link a PDF for each level (os-N-baz-avt.pdf for the base level, os-N-sl-avt.pdf for the hard level, vs for spring), and tournament 30 links the TeX file os30os.tex of its fall hard papers. om fill tot reads the TeX file first, then the PDFs, then the text of the page."
 
 - id: geometry-ru
   name: geometry.ru Sharygin olympiad

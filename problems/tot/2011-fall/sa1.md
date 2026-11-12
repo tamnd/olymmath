@@ -5,8 +5,8 @@ appearances:
   - at: tot/2011-fall/sa1
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2011-fall official paper
+    url: https://turgor.ru/problems/33/os33sl-avt.pdf
+    page: 2
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Петя отметил на плоскости несколько точек (больше двух), все расстояния между которыми различны. Пару отмеченных точек $A,B$ назовём необычной, если $A$ — самая дальняя от $B$ отмеченная точка, а $B$ — ближайшая к $A$ отмеченная точка (не считая самой точки $A$). Какое наибольшее возможное количество необычных пар могло получиться у Пети?

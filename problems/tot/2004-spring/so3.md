@@ -5,8 +5,8 @@ appearances:
   - at: tot/2004-spring/so3
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,17 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2004-spring official page
+    url: https://turgor.ru/problems/25/index.php
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/html (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Периметр выпуклого четырехугольника равен 2004, одна из диагоналей равна 1001. Может ли вторая диагональ быть равна 1? Равна 2? Равна 1001?

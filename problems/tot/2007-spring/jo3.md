@@ -5,8 +5,8 @@ appearances:
   - at: tot/2007-spring/jo3
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,17 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2007-spring official page
+    url: https://turgor.ru/problems/28/index.php
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/html (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Какое наименьшее число ладей нужно поставить на шахматную доску $8 \times 8$ , чтобы все белые клетки были под боем этих ладей? (Под боем ладьи считаются все клетки строки и столбца, в которых находится ладья.)

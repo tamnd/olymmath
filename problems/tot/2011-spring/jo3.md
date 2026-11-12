@@ -6,8 +6,8 @@ appearances:
     primary: true
   - at: tot/2011-spring/so2
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -17,6 +17,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2011-spring official paper
+    url: https://turgor.ru/problems/32/vs32baz-avt.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Длина взрослого червяка 1 метр. Если червяк взрослый, его можно разрезать на две части в любом отношении длин. При этом получаются два новых червяка, которые сразу начинают расти со скоростью 1 метр в час каждый. Когда длина червяка достигает метра, он становится взрослым и прекращает расти. Можно ли из одного взрослого червяка получить 10 взрослых червяков быстрее чем за час?

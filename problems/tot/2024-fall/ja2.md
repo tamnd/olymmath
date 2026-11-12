@@ -5,8 +5,8 @@ appearances:
   - at: tot/2024-fall/ja2
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2024-fall official paper
+    url: https://turgor.ru/problems/46/os-46-sl-avt.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Петя и Вася по очереди проводят дороги на плоскости, начинает Петя. Дорога — это горизонтальная или вертикальная прямая, по которой можно двигаться только в одну сторону (выбранную при создании дороги). Всегда ли Вася может действовать так, чтобы после любого его хода можно было проехать по правилам от любого перекрёстка дорог до любого другого, как бы ни действовал Петя?

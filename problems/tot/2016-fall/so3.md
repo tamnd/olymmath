@@ -5,8 +5,8 @@ appearances:
   - at: tot/2016-fall/so3
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2016-fall official paper
+    url: https://turgor.ru/problems/38/os-38-baz-avt.pdf
+    page: 2
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Сто медвежат нашли в лесу ягоды: самый младший успел схватить 1 ягоду, медвежонок постарше — 2 ягоды, следующий — 4 ягоды, и так далее, самому старшему досталось $2^{99}$ ягод. Лиса предложила им поделить ягоды «по справедливости». Она может подойти к двум медвежатам и распределить их ягоды поровну между ними, а если при этом возникает лишняя ягода, то лиса её съедает. Такие действия она продолжает до тех пор, пока у всех медвежат не станет ягод поровну. Какое наибольшее количество ягод может съесть лиса?

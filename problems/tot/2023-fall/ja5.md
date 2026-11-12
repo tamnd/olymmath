@@ -5,8 +5,8 @@ appearances:
   - at: tot/2023-fall/ja5
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2023-fall official paper
+    url: https://turgor.ru/problems/45/os-45-sl-avt.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+У Васи есть 13 одинаковых на вид гирь, но 12 из них весят одинаково, а одна фальшивая — весит больше остальных. Также у него есть двое чашечных весов — одни правильные, а другие показывают верный результат (какая чаша тяжелее), если массы на чашах различаются, а в случае равенства могут показать что угодно (какие именно весы правильные, Вася не знает). Перед каждым взвешиванием Вася может сам выбирать весы. Докажите, что Вася может гарантированно найти фальшивую гирю за 3 взвешивания.

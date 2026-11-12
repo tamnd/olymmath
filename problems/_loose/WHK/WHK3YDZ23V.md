@@ -1,0 +1,26 @@
+---
+tag: WHK3YDZ23V
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2018 Tournament Of Towns
+    url: https://artofproblemsolving.com/community/c6h2026391
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=29059
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: tot
+    source: hf-ai-mo-aops
+    label: 2018 Tournament Of Towns
+---
+Aladdin has several gold ingots, and sometimes he asks the Genie to give him more. The Genie first adds a thousand ingots, but then takes half of the total number. Could it be possible that after asking the Genie for gold ten times, the number of Aladdin's gold ingots increased, assuming that each time the Genie took half, he took an integer number of ingots? (5 points)
+
+Alexandr Perepechko

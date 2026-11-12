@@ -1,0 +1,26 @@
+---
+tag: X6NGFMYNKS
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 1998 Tournament Of Towns
+    url: https://artofproblemsolving.com/community/c6h2097759
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=28440
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: tot
+    source: hf-ai-mo-aops
+    label: 1998 Tournament Of Towns
+---
+Pinocchio claims that he can take some non-right-angled triangles , all of which are similar to one another and some of which may be congruent to one another, and put them together to form a rectangle. Is Pinocchio lying?
+
+(A Fedotov)

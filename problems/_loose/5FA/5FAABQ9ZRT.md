@@ -16,6 +16,10 @@ statements:
     kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: cu-mo/2004
+    source: hf-ai-mo-aops
+    label: 2004 Cuba MO
 ---
 An angle $\angle XOY = \alpha$ and points $ A$ and $ B$ on $OY$ are given such that $OA = a$ and $OB = b$ ( $a> b$ ). A circle passes through points $ A$ and $ B$ and is tangent to $OX$ .
 a) Calculate the radius of this circle in terms of $a, b$ and $\alpha$ .

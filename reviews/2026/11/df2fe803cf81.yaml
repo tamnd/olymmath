@@ -1,0 +1,8 @@
+id: df2fe803cf81
+kind: match
+records:
+    - 69RJ2SWAG7
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. Row 39391 was joined into this record, which holds row 38591. The same problem: the breakable numbers are the composite numbers, and one row asks to find them while the other states the answer and asks for a proof. The conditions are the same.'

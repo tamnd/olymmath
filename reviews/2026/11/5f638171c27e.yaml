@@ -1,0 +1,8 @@
+id: 5f638171c27e
+kind: sample
+records:
+    - H20V6P00SB
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The text states one complete problem and no solution. The import found no text near it in the content.'

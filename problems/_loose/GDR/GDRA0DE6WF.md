@@ -1,0 +1,24 @@
+---
+tag: GDRA0DE6WF
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 1989 Bundeswettbewerb Mathematik
+    url: https://artofproblemsolving.com/community/c6h2929146
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=39345
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: de-bundeswettbewerb/1989
+    source: hf-ai-mo-aops
+    label: 1989 Bundeswettbewerb Mathematik
+---
+For a given positive integer $n$ , let $f(x) =x^{n}$ . Is it possible for the decimal number $$ 0.f(1)f(2)f(3)\ldots $$ to be rational? (Example: for $n=2$ , we are considering $0.1491625\ldots$ )

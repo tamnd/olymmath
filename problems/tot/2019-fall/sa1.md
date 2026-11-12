@@ -24,6 +24,15 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2019 Tournament Of Towns
+    url: https://artofproblemsolving.com/community/c6h1961584
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=29069
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 ---

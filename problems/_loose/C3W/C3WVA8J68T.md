@@ -1,0 +1,28 @@
+---
+tag: C3WVA8J68T
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2017 Iran MO (3rd round)
+    url: https://artofproblemsolving.com/community/c6h1492532
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=44385
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ir-mo/2017
+    source: hf-ai-mo-aops
+    label: 2017 Iran MO (3rd round)
+---
+Let $k$ be a positive integer. Find all functions $f:\mathbb{N}\to \mathbb{N}$ satisfying the following two conditions:
+
+• For infinitely many prime numbers $p$ there exists a positve integer $c$ such that $f(c)=p^k$ .
+
+• For all positive integers $m$ and $n$ , $f(m)+f(n)$ divides $f(m+n)$ .

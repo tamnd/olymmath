@@ -1,0 +1,9 @@
+id: c12202c382d3
+kind: pair
+records:
+    - KMV41079CS
+    - T9NQ7EYSP1
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 28218 to row 28211, but they are two problems: one asks how many squares up to 1000000 are terms, the other asks to prove that infinitely many terms are squares. Row 28218 is now its own loose record.'

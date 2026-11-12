@@ -1,0 +1,8 @@
+id: 5badf591b123
+kind: sample
+records:
+    - R7D0MZBDZ4
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The translation is rough, but the data and the question are clear, so it is one complete problem. The import found no text near it in the content.'

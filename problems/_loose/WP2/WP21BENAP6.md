@@ -1,0 +1,24 @@
+---
+tag: WP21BENAP6
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 1988 Tournament Of Towns
+    url: https://artofproblemsolving.com/community/c6h2115066
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=28044
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: tot
+    source: hf-ai-mo-aops
+    label: 1988 Tournament Of Towns
+---
+Two isosceles trapezoids are inscribed in a circle in such a way that each side of each trapezoid is parallel to a certain side of the other trapezoid . Prove that the diagonals of one trapezoid are equal to the diagonals of the other.

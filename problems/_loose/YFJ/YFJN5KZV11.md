@@ -1,0 +1,24 @@
+---
+tag: YFJN5KZV11
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 1961 Czech and Slovak Olympiad III A
+    url: https://artofproblemsolving.com/community/c6h3340172
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=37589
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: cz-sk-mo/1961
+    source: hf-ai-mo-aops
+    label: 1961 Czech and Slovak Olympiad III A
+---
+Let a right isosceles triangle $APQ$ with the hypotenuse $AP$ be given in plane. Construct such a square $ABCD$ that the lines $BC, CD$ contain points $P, Q,$ respectively. Compute the length of side $AB = b$ in terms of $AQ=a$ .

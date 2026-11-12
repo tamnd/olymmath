@@ -1,0 +1,24 @@
+---
+tag: TH8ZK6NJBB
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 1999 Croatia National Olympiad
+    url: https://artofproblemsolving.com/community/c6h2564354
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=37242
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: hr-mo/1999
+    source: hf-ai-mo-aops
+    label: 1999 Croatia National Olympiad
+---
+A triangle $ABC$ is inscribed in a rectangle $APQR$ so that points $B$ and $C$ lie on segments $PQ$ and $QR$ , respectively. If $\alpha,\beta,\gamma$ are the angles of the triangle, prove that $$ \cot\alpha\cdot S_{BCQ}=\cot\beta\cdot S_{ACR}+\cot\gamma\cdot S_{ABP}. $$

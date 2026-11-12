@@ -1,0 +1,24 @@
+---
+tag: W3961AJJDF
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2005 China Team Selection Test
+    url: https://artofproblemsolving.com/community/c6h98968
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=35856
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: cn-tst/2005
+    source: hf-ai-mo-aops
+    label: 2005 China Team Selection Test
+---
+Triangle $ABC$ is inscribed in circle $\omega$ . Circle $\gamma$ is tangent to $AB$ and $AC$ at points $P$ and $Q$ respectively. Also circle $\gamma$ is tangent to circle $\omega$ at point $S$ . Let the intesection of $AS$ and $PQ$ be $T$ . Prove that $\angle{BTP}=\angle{CTQ}$ .

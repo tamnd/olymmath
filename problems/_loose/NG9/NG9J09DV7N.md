@@ -1,0 +1,24 @@
+---
+tag: NG9J09DV7N
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 25th Philippine MO Area Stage
+    url: https://artofproblemsolving.com/community/c6h3513782
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=50753
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ph-pmo
+    source: hf-ai-mo-aops
+    label: 25th Philippine MO Area Stage
+---
+Determine the sum of all positive integers $n$ for which $2[\tau(n)]^2=3n$ , where $\tau(n)$ is the number of positive divisors of $n$ .

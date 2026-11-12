@@ -1,0 +1,26 @@
+---
+tag: QMMXT64KE5
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 1999 Tournament Of Towns
+    url: https://artofproblemsolving.com/community/c6h2097536
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=28481
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: tot
+    source: hf-ai-mo-aops
+    label: 1999 Tournament Of Towns
+---
+A rook is allowed to move one cell either horizontally or vertically. After $64$ moves the rook visited all cells of the $8 \times 8$ chessboard and returned back to the initial cell. Prove that the number of moves in the vertical direction and the number of moves in the horizontal direction cannot be equal.
+
+(A Shapovalov, R Sadykov)

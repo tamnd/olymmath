@@ -1,0 +1,8 @@
+id: cca947e3c11d
+kind: match
+records:
+    - 83TKYYM15P
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import made the row of loose record 8B9X2RG584 a new record, but the agent found that it is 83TKYYM15P: the same Tournament of Towns problem as the loose record of batch 1, with the same data and question in other words. The row of 2003 was set again from the earlier year, so the record now has both rows and both unplaced entries. The agent moved the row to a second statement of 83TKYYM15P and removed the loose record.'

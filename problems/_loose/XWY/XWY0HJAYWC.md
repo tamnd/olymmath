@@ -1,0 +1,30 @@
+---
+tag: XWY0HJAYWC
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2021 Argentina National Olympiad
+    url: https://artofproblemsolving.com/community/c6h2830135
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=29845
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ar-oma/2021
+    source: hf-ai-mo-aops
+    label: 2021 Argentina National Olympiad
+---
+Martu wants to build a set of cards with the following properties:
+
+• Each card has a positive integer on it.
+• The number on each card is equal to one of $5$ possible numbers.
+• If any two cards are taken and added together, it is always possible to find two other cards in the set such that the sum is the same.
+
+Determine the fewest number of cards Martu's set can have and give an example for that number.

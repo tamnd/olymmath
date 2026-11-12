@@ -1,0 +1,28 @@
+---
+tag: 1H84G6VGAQ
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2022 Abelkonkurransen Finale
+    url: https://artofproblemsolving.com/community/c6h3275835
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=49564
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: no-abel/2022
+    source: hf-ai-mo-aops
+    label: 2022 Abelkonkurransen Finale
+---
+Find all functions $f:\mathbb R^+ \to \mathbb R^+$ satisfying
+\begin{align*}
+f\left(\frac{1}{x}\right) \geq 1 - \frac{\sqrt{f(x)f\left(\frac{1}{x}\right)}}{x} \geq x^2 f(x),
+\end{align*}
+for all positive real numbers $x$ .

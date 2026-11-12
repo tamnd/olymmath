@@ -1,0 +1,8 @@
+id: 38aa1e284a5f
+kind: match
+records:
+    - NYSWC2S8ZM
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. Row 31266 was joined into this record, which holds row 31258. The same problem in two translations, with the same data and question.'

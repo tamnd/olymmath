@@ -1,0 +1,8 @@
+id: f008dce83e1e
+kind: match
+records:
+    - JR0TDF5YS5
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. Row 41133 was joined into this record, which holds row 30747. The same problem in other words: some term of A, 2A, 4A, ... is an integer.'

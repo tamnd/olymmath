@@ -20,5 +20,8 @@ unplaced:
   - at: xk-mo/2016
     source: hf-ai-mo-aops
     label: 2016 Kosovo National Mathematical Olympiad
+  - at: gr-hms/2024
+    source: hf-ai-mo-aops
+    label: 2024 Greece Junior Math Olympiad
 ---
 Find all triples $(x,y,z)$ of integers such that satisfied: $x^2+y^2+z^2+xy+yz+zx=6$

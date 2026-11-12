@@ -1,0 +1,8 @@
+id: 0f47dfa10e96
+kind: match
+records:
+    - es-ome/1968/p5
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import made the row of loose record ZG3DPC6RKT a new record, but the agent found that it is es-ome/1968/p5: The two texts state the same problem with the same data and question, but they write it in other words or other formulas, so no signal of the import was high enough. The problem was set again in the 1953 Polish MO finals; the statement name keeps the label of the row. The agent moved the row to a second statement of es-ome/1968/p5 and removed the loose record.'

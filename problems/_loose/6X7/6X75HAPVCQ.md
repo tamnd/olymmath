@@ -15,5 +15,9 @@ statements:
     kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: br-obm/2021
+    source: hf-ai-mo-aops
+    label: 2021 Brazil National Olympiad
 ---
 A triple of positive integers $(a,b,c)$ is *brazilian* if $$ a|bc+1 $$ $$ b|ac+1 $$ $$ c|ab+1 $$ Determine all the brazilian triples.

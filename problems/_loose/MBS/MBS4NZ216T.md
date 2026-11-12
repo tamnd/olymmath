@@ -1,0 +1,24 @@
+---
+tag: MBS4NZ216T
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 1991 French Mathematical Olympiad
+    url: https://artofproblemsolving.com/community/c6h2561160
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=39094
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: fr-tst/1991
+    source: hf-ai-mo-aops
+    label: 1991 French Mathematical Olympiad
+---
+Let $p$ be a nonnegative integer and let $n=2^p$ . Consider all subsets $A$ of the set $\{1,2,\ldots,n\}$ with the property that, whenever $x\in A$ , $2x\notin A$ . Find the maximum number of elements that such a set $A$ can have.

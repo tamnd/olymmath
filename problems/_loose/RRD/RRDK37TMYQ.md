@@ -20,5 +20,8 @@ unplaced:
   - at: jbmo-sl/2000
     source: hf-ai-mo-aops
     label: 2000 JBMO ShortLists
+  - at: cr-mo/2016
+    source: hf-ai-mo-aops
+    label: 2016 Costa Rica - Final Round
 ---
 Find all positive integers $a,b$ for which $a^4+4b^4$ is a prime number.

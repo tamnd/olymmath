@@ -1,0 +1,8 @@
+id: 9d63256505ee
+kind: match
+records:
+    - baltic-way/2020/p11
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The row 18617 and the text of baltic-way/2020/p11 write the formulas in other ways, so the import linked them by the words rule (words 1.00, formulas 0.81). The agent read both texts: they are the same problem with the same data. The row is a second statement of the record.'

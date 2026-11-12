@@ -1,0 +1,24 @@
+---
+tag: DSB496DDGK
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2018 Peru Iberoamerican Team Selection Test
+    url: https://artofproblemsolving.com/community/c6h2302070
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=50498
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: pe-ibero-tst/2018
+    source: hf-ai-mo-aops
+    label: 2018 Peru Iberoamerican Team Selection Test
+---
+Find all positive integers $a, b$ , and $c$ such that the numbers $$ \frac{a+1}{b}, \frac{b+1}{c} \text{and} \frac{c+1}{a} $$ are positive integers.

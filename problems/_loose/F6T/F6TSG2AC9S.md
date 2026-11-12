@@ -1,0 +1,26 @@
+---
+tag: F6TSG2AC9S
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 1994 Irish Math Olympiad
+    url: https://artofproblemsolving.com/community/c6h285864
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=44743
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ie-irmo/1994
+    source: hf-ai-mo-aops
+    label: 1994 Irish Math Olympiad
+---
+If a square is partitioned into $ n$ convex polygons, determine the maximum possible number of edges in the obtained figure.
+
+(You may wish to use the following theorem of Euler: If a polygon is partitioned into $ n$ polygons with $ v$ vertices and $ e$ edges in the resulting figure, then $ v-e+n=1$ .)

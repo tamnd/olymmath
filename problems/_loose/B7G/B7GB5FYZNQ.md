@@ -1,0 +1,24 @@
+---
+tag: B7GB5FYZNQ
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2018 Malaysia National Olympiad
+    url: https://artofproblemsolving.com/community/c6h2596375
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=46996
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: my-omk/2018
+    source: hf-ai-mo-aops
+    label: 2018 Malaysia National Olympiad
+---
+Prove that the number $ 9^{(a_1 + a_2)(a_2 + a_3)(a_3 + a_4)...(a_{98} + a_{99})(a_{99} + a_1)}$ - $1$ is divisible by $10$ , for any choice of positive integers $a_1, a_2, a_3, . . . , a_{99}$ .

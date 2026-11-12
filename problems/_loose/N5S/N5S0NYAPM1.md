@@ -1,0 +1,24 @@
+---
+tag: N5S0NYAPM1
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2014 Costa Rica - Final Round
+    url: https://artofproblemsolving.com/community/c6h2683898
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=37036
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: cr-mo/2014
+    source: hf-ai-mo-aops
+    label: 2014 Costa Rica - Final Round
+---
+Find all possible pairs of integers $ a$ and $ b$ such that $ab = 160 + 90 (a,b)$ , where $(a, b)$ is the greatest common divisor of $ a$ and $ b$ .

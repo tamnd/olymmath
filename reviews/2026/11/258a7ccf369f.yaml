@@ -1,0 +1,8 @@
+id: 258a7ccf369f
+kind: match
+records:
+    - baltic-way/2011/p12
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import made the row of loose record JKSMWYE1DK a new record, but the agent found that it is baltic-way/2011/p12: The two texts state the same problem with the same data and question, but they write it in other words or other formulas, so no signal of the import was high enough. The problem was set again in the 2012 Kosovo olympiad; the statement name keeps the label of the row. The agent moved the row to a second statement of baltic-way/2011/p12 and removed the loose record.'

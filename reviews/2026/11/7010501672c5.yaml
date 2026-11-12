@@ -1,0 +1,9 @@
+id: 7010501672c5
+kind: pair
+records:
+    - NVBQM5C8NM
+    - AGM53PYNMQ
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 28120 to row 28110, but they are two problems: one has 103 coins and the other 61 coins. Row 28120 is now its own loose record.'

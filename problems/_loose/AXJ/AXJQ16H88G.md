@@ -1,0 +1,24 @@
+---
+tag: AXJQ16H88G
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2020-21 IOQM India
+    url: https://artofproblemsolving.com/community/c6h2420142
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=42290
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: in-prmo-ioqm/2020
+    source: hf-ai-mo-aops
+    label: 2020-21 IOQM India
+---
+Let A $BC$ be a triangle with $AB = 5, AC = 4, BC = 6$ . The internal angle bisector of $C$ intersects the side $AB$ at $D$ . Points $M$ and $N$ are taken on sides $BC$ and $AC$ , respectively, such that $DM\parallel AC$ and $DN \parallel BC$ . If $(MN)^2 =\frac{p}{q}$ where $p$ and $q$ are relatively prime positive integers then what is the sum of the digits of $|p - q|$ ?

@@ -16,5 +16,9 @@ statements:
     kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: pe-ibero-tst/2009
+    source: hf-ai-mo-aops
+    label: 2009 Peru Iberoamerican Team Selection Test
 ---
 Let $ABC$ be an acute triangle with $AB <BC$ . Let $BH$ be an altitude with $H$ on $AC$ , $I$ the incenter of triangle $ABC$ and $M$ the midpoint of $AC$ . Line $MI$ intersects $BH$ at point $N$ . Prove that $BN <IM$ .

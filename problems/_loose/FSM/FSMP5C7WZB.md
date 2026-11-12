@@ -1,0 +1,24 @@
+---
+tag: FSMP5C7WZB
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2014 Cuba MO
+    url: https://artofproblemsolving.com/community/c6h3403850
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=37533
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: cu-mo/2014
+    source: hf-ai-mo-aops
+    label: 2014 Cuba MO
+---
+Let $a$ and $b$ be real numbers. It is known that the graph of the parabola $y =ax^2 +b$ cuts the graph of the curve $y = x+1/x$ in exactly three points. Prove that $3ab < 1$ .

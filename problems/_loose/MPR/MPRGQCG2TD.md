@@ -1,0 +1,24 @@
+---
+tag: MPRGQCG2TD
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2008 China National Olympiad
+    url: https://artofproblemsolving.com/community/c6h379748
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=35623
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: cn-mo/2008
+    source: hf-ai-mo-aops
+    label: 2008 China National Olympiad
+---
+Find the smallest integer $n$ satisfying the following condition: regardless of how one colour the vertices of a regular $n$ -gon with either red, yellow or blue, one can always find an isosceles trapezoid whose vertices are of the same colour.

@@ -1,0 +1,29 @@
+---
+tag: X0TRCYVKZS
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2008 Hong Kong TST
+    url: https://artofproblemsolving.com/community/c6h246419
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=40746
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: hk-pc/2008
+    source: hf-ai-mo-aops
+    label: 2008 Hong Kong TST
+  - at: hk-pc/2009
+    source: hf-ai-mo-aops
+    label: 2009 Hong Kong TST
+---
+In a school there are $ 2008$ students. Students are members of certain committees. A committee has at most $ 1004$ members and every two students join a common committee.
+(i) Determine the smallest possible number of committees in the school.
+(ii) If it is further required that the union of any two committees consists of at most $ 1800$ students, will your answer in (i) still hold?

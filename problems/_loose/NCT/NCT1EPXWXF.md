@@ -1,0 +1,24 @@
+---
+tag: NCT1EPXWXF
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2010 Bosnia And Herzegovina - Regional Olympiad
+    url: https://artofproblemsolving.com/community/c6h1714011
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=31785
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ba-mo/2010
+    source: hf-ai-mo-aops
+    label: 2010 Bosnia And Herzegovina - Regional Olympiad
+---
+In table of dimensions $2n \times 2n$ there are positive integers not greater than $10$ , such that numbers lying in unit squares with common vertex are coprime. Prove that there exist at least one number which occurs in table at least $\frac{2n^2}{3}$ times

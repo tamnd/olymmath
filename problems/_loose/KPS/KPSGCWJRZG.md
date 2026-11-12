@@ -1,0 +1,24 @@
+---
+tag: KPSGCWJRZG
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2018 Bosnia And Herzegovina - Regional Olympiad
+    url: https://artofproblemsolving.com/community/c6h1709528
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=31911
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ba-mo/2018
+    source: hf-ai-mo-aops
+    label: 2018 Bosnia And Herzegovina - Regional Olympiad
+---
+Let $ABCD$ be a cyclic quadrilateral and let $k_1$ and $k_2$ be circles inscribed in triangles $ABC$ and $ABD$ . Prove that external common tangent of those circles (different from $AB$ ) is parallel with $CD$

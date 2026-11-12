@@ -1,0 +1,24 @@
+---
+tag: 1MH7ENXPB8
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 1995 Greece National Olympiad
+    url: https://artofproblemsolving.com/community/c6h446965
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=40517
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: gr-hms/1995
+    source: hf-ai-mo-aops
+    label: 1995 Greece National Olympiad
+---
+Find all positive integers $n$ such that $-5^4 + 5^5 + 5^n$ is a perfect square. Do the same for $2^4 + 2^7 + 2^n.$

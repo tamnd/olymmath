@@ -1,0 +1,24 @@
+---
+tag: W3TV17FCRG
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 1995 French Mathematical Olympiad
+    url: https://artofproblemsolving.com/community/c6h2537908
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=39114
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: fr-tst/1995
+    source: hf-ai-mo-aops
+    label: 1995 French Mathematical Olympiad
+---
+Suppose $A_1,A_2,A_3,B_1,B_2,B_3$ are points in the plane such that for each $i,j\in\{1,2,3\}$ it holds that $A_iB_j=i+j$ . What can be said about these six points?

@@ -6,21 +6,21 @@ This report is made by `om coverage`. The register gives the expected positions 
 
 | Expected | C0 | C1 | C2 | Candidate | No candidate | Located seed rows |
 |---:|---:|---:|---:|---:|---:|---:|
-| 34330 | 77.0% | 10.9% | 9.4% | 545 (1.6%) | 7343 (21.4%) | 155597 |
+| 36671 | 76.6% | 11.0% | 8.8% | 575 (1.6%) | 8006 (21.8%) | 155362 |
 
 ## Sources
 
 | Source | Rows | Located | With a position | Not a competition |
 |---|---:|---:|---:|---:|
-| hf-ai-mo-aops | 80661 | 49397 (61.2%) | 0 | 21659 |
+| hf-ai-mo-aops | 80661 | 49362 (61.2%) | 0 | 21689 |
 | hf-aime-1983-2026 | 1065 | 1065 (100.0%) | 1065 | 0 |
 | hf-amc12-full | 1199 | 1199 (100.0%) | 1199 | 0 |
 | hf-amo-bench | 50 | 50 (100.0%) | 50 | 0 |
-| hf-aops-wiki | 43005 | 33588 (78.1%) | 27736 | 6191 |
+| hf-aops-wiki | 43005 | 33600 (78.1%) | 27736 | 6191 |
 | hf-hrm8k | 8011 | 730 (9.1%) | 0 | 7281 |
 | hf-indonesian-olympiad | 2204 | 30 (1.4%) | 0 | 0 |
 | hf-liveaopsbench | 5328 | 0 (0.0%) | 0 | 5328 |
-| hf-mathnet | 55634 | 41042 (73.8%) | 0 | 6858 |
+| hf-mathnet | 55634 | 40830 (73.4%) | 0 | 7070 |
 | hf-mathodyssey | 148 | 148 (100.0%) | 148 | 0 |
 | hf-nemotron-imo-bench | 200 | 200 (100.0%) | 200 | 0 |
 | hf-numina-olympiads | 13087 | 11033 (84.3%) | 10793 | 2054 |
@@ -153,7 +153,10 @@ The order is the order of the register. A competition with no shape in the regis
 | be-omb | Belgian Mathematical Olympiad (francophone) | no shape | - | - | - | 0 | 0 | 0 |
 | lu-mo | Luxembourg national mathematics olympiad | no shape | - | - | - | 0 | 0 | 0 |
 | ch-smo | Swiss Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 562 |
-| at-oemo | Austrian Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 1469 |
+| at-oemo | Austrian Mathematical Olympiad | 264 | 71.2% | 0.0% | 0.0% | 8 | 68 | 634 |
+| at-oemo-beg | Austrian Mathematical Olympiad, Beginners' Competition | 96 | 41.7% | 0.0% | 0.0% | 0 | 56 | 157 |
+| at-oemo-reg | Austrian Mathematical Olympiad, Regional Competition | 108 | 88.9% | 0.0% | 0.0% | 0 | 12 | 244 |
+| at-oemo-fed1 | Austrian Mathematical Olympiad, Federal Competition Part 1 | 96 | 99.0% | 0.0% | 0.0% | 1 | 0 | 228 |
 | dk-georgmohr | Georg Mohr Contest | 180 | 100.0% | 16.7% | 16.7% | 0 | 0 | 175 |
 | no-abel | Abel Competition | 132 | 43.2% | 0.0% | 0.0% | 0 | 75 | 492 |
 | se-skolornas | Swedish Mathematical Competition | 378 | 92.1% | 0.0% | 0.0% | 1 | 29 | 761 |
@@ -174,7 +177,7 @@ The order is the order of the register. A competition with no shape in the regis
 | hu-oktv | Hungarian National Secondary School Competition | no shape | - | - | - | 0 | 0 | 0 |
 | hu-komal | KöMaL Problem Contests | no shape | - | - | - | 0 | 0 | 0 |
 | ro-nmo | Romanian National Mathematical Olympiad | 408 | 67.9% | 0.0% | 0.0% | 0 | 131 | 2684 |
-| ro-tst | Romanian IMO Team Selection Test | no shape | - | - | - | 0 | 0 | 1614 |
+| ro-tst | Romanian IMO Team Selection Test | 132 | 98.5% | 0.0% | 0.0% | 0 | 2 | 1614 |
 | bg-mo | Bulgarian Mathematical Olympiad | 384 | 82.0% | 0.0% | 0.0% | 17 | 52 | 1398 |
 | rs-smo | Serbian Mathematical Olympiad | 108 | 87.0% | 29.6% | 29.6% | 14 | 0 | 566 |
 | hr-mo | Croatia national mathematics olympiad | no shape | - | - | - | 0 | 0 | 1599 |
@@ -184,7 +187,7 @@ The order is the order of the register. A competition with no shape in the regis
 | me-mo | Montenegro national mathematics olympiad | no shape | - | - | - | 0 | 0 | 0 |
 | al-mo | Albania national mathematics olympiad | no shape | - | - | - | 0 | 0 | 0 |
 | xk-mo | Kosovo national mathematics olympiad | 52 | 98.1% | 0.0% | 0.0% | 0 | 1 | 492 |
-| ru-allrussian | All-Russian Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 5415 |
+| ru-allrussian | All-Russian Mathematical Olympiad | 744 | 75.5% | 42.2% | 0.0% | 0 | 182 | 5415 |
 | ru-moscow | Moscow Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 833 |
 | ru-spb | St Petersburg Mathematical Olympiad | 315 | 74.6% | 0.0% | 0.0% | 0 | 80 | 710 |
 | ru-239-open | 239 Lyceum Open Olympiad | no shape | - | - | - | 0 | 0 | 324 |
@@ -194,7 +197,7 @@ The order is the order of the register. A competition with no shape in the regis
 | ru-lomonosov | Lomonosov Tournament | no shape | - | - | - | 0 | 0 | 0 |
 | ru-euler | Euler Olympiad | no shape | - | - | - | 0 | 0 | 14 |
 | ru-oral-geometry | Moscow Oral Geometry Olympiad | no shape | - | - | - | 0 | 0 | 276 |
-| ua-umo | Ukrainian Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 2058 |
+| ua-umo | Ukrainian Mathematical Olympiad | 208 | 65.4% | 0.0% | 0.0% | 0 | 72 | 2058 |
 | by-mo | Belarus Mathematical Olympiad | 48 | 100.0% | 0.0% | 0.0% | 0 | 0 | 1389 |
 | md-mo | Moldova national mathematics olympiad | 40 | 100.0% | 0.0% | 0.0% | 0 | 0 | 589 |
 | ge-mo | Georgia national mathematics olympiad | no shape | - | - | - | 0 | 0 | 0 |
@@ -202,7 +205,7 @@ The order is the order of the register. A competition with no shape in the regis
 | az-mo | Azerbaijan national mathematics olympiad | no shape | - | - | - | 0 | 0 | 74 |
 | cn-league | China National High School Mathematics League | no shape | - | - | - | 0 | 0 | 1217 |
 | cn-mo | Chinese Mathematical Olympiad | 246 | 72.8% | 0.0% | 0.0% | 24 | 43 | 696 |
-| cn-tst | China Team Selection Test | no shape | - | - | - | 0 | 0 | 1727 |
+| cn-tst | China Team Selection Test | 216 | 84.3% | 0.0% | 0.0% | 12 | 22 | 1727 |
 | cn-gmo | China Girls' Mathematical Olympiad | 200 | 83.0% | 0.0% | 0.0% | 2 | 32 | 598 |
 | cn-wmo | China Western Mathematical Olympiad | 208 | 62.5% | 0.0% | 0.0% | 11 | 67 | 518 |
 | cn-smo | China Southeast Mathematical Olympiad | 176 | 51.7% | 0.0% | 0.0% | 52 | 33 | 579 |
@@ -232,7 +235,7 @@ The order is the order of the register. A competition with no shape in the regis
 | in-inmo | Indian National Mathematical Olympiad | 246 | 98.4% | 2.4% | 2.4% | 1 | 3 | 1201 |
 | in-rmo | Indian Regional Mathematical Olympiad | 353 | 75.6% | 36.3% | 36.3% | 0 | 86 | 404 |
 | in-prmo-ioqm | PRMO and IOQM | no shape | - | - | - | 0 | 0 | 372 |
-| in-tst | India Team Selection Test | no shape | - | - | - | 0 | 0 | 770 |
+| in-tst | India Team Selection Test | 15 | 80.0% | 0.0% | 0.0% | 1 | 2 | 770 |
 | bd-bdmo | Bangladesh Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 276 |
 | pk-mo | Pakistan national mathematics olympiad | no shape | - | - | - | 0 | 0 | 0 |
 | lk-mo | Sri Lanka national mathematics olympiad | no shape | - | - | - | 0 | 0 | 0 |
@@ -242,8 +245,9 @@ The order is the order of the register. A competition with no shape in the regis
 | kg-mo | Kyrgyzstan national mathematics olympiad | no shape | - | - | - | 0 | 0 | 90 |
 | tj-mo | Tajikistan national mathematics olympiad | no shape | - | - | - | 0 | 0 | 0 |
 | tm-mo | Turkmenistan national mathematics olympiad | no shape | - | - | - | 0 | 0 | 23 |
-| ir-mo | Iran Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 2389 |
-| ir-tst | Iran Team Selection Test | no shape | - | - | - | 0 | 0 | 625 |
+| ir-mo | Iran Mathematical Olympiad | no shape | - | - | - | 0 | 0 | 2065 |
+| ir-mo-r2 | Iran Mathematical Olympiad, second round | 258 | 9.3% | 0.0% | 0.0% | 0 | 234 | 295 |
+| ir-tst | Iran Team Selection Test | 204 | 89.7% | 0.0% | 0.0% | 8 | 13 | 625 |
 | tr-mo | Turkish Mathematical Olympiad | 198 | 88.4% | 32.3% | 32.3% | 8 | 15 | 1195 |
 | tr-mo-r1 | Turkish Mathematical Olympiad, first round | 600 | 100.0% | 85.7% | 85.7% | 0 | 0 | 0 |
 | il-gillis | Israel National Olympiad | no shape | - | - | - | 0 | 0 | 288 |
@@ -303,7 +307,7 @@ The order is the order of the register. A competition with no shape in the regis
 
 ## Unknown competitions
 
-These labels do not resolve through the alias table (1333 keys). There are 1587 labels with 22766 rows. The full list is in `unknown-competitions.tsv`. To resolve a label, add a line to `registers/competition-aliases.tsv`, or add the competition to the register.
+These labels do not resolve through the alias table (1344 keys). There are 1587 labels with 22759 rows. The full list is in `unknown-competitions.tsv`. To resolve a label, add a line to `registers/competition-aliases.tsv`, or add the competition to the register.
 
 | Source | Label | Rows |
 |---|---|---:|

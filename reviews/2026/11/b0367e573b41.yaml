@@ -1,0 +1,8 @@
+id: b0367e573b41
+kind: match
+records:
+    - X9DH47T65X
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. Row 38734 was joined into this record, which holds row 30235. The same problem in other words: n^n-n is divisible by 24 for odd n.'

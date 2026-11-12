@@ -20,6 +20,9 @@ unplaced:
   - at: in-tst/2012
     source: hf-ai-mo-aops
     label: 2012 India IMO Training Camp
+  - at: cu-mo/2013
+    source: hf-ai-mo-aops
+    label: 2013 Cuba MO
 ---
 Let $a\ge b$ and $c\ge d$ be real numbers. Prove that the equation
 $$(x+a)(x+d)+(x+b)(x+c)=0$$

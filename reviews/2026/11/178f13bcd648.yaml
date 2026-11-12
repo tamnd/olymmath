@@ -1,0 +1,9 @@
+id: 178f13bcd648
+kind: pair
+records:
+    - 7MNHFD855R
+    - Y4VC00HNCC
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 28162 to row 28153, but they are two problems: one has 32 boxers and 15 days, the other 16 boxers and 10 days. Row 28162 is now its own loose record.'

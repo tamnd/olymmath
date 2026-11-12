@@ -1,0 +1,24 @@
+---
+tag: YZASPSX565
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2008 Moldova National Olympiad
+    url: https://artofproblemsolving.com/community/c6h377120
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=48346
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: md-mo/2008
+    source: hf-ai-mo-aops
+    label: 2008 Moldova National Olympiad
+---
+Let $ (a_{n})_{n\ge 1} $ be a sequence such that: $ a_{1}=1; a_{n+1}=\frac{n}{a_{n}+1}.$ Find $ [a_{2008}] $

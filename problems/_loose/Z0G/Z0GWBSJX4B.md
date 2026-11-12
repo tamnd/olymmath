@@ -1,0 +1,24 @@
+---
+tag: Z0GWBSJX4B
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 1999 Iran MO (2nd round)
+    url: https://artofproblemsolving.com/community/c6h369932
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=44057
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ir-mo-r2/1999
+    source: hf-ai-mo-aops
+    label: 1999 Iran MO (2nd round)
+---
+We have a $100\times100$ garden and we've plant $10000$ trees in the $1\times1$ squares (exactly one in each.). Find the maximum number of trees that we can cut such that on the segment between each two cut trees, there exists at least one uncut tree.

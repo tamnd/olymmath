@@ -1,0 +1,27 @@
+---
+tag: G99T2QDN9E
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 1996 China National Olympiad
+    url: https://artofproblemsolving.com/community/c6h346777
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=35548
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: cn-mo/1996
+    source: hf-ai-mo-aops
+    label: 1996 China National Olympiad
+---
+Suppose that the function $f:\mathbb{R}\to\mathbb{R}$ satisfies
+$$f(x^3 + y^3)=(x+y)(f(x)^2-f(x)f(y)+f(y)^2)$$
+for all $x,y\in\mathbb{R}$ .
+Prove that $f(1996x)=1996f(x)$ for all $x\in\mathbb{R}$ .

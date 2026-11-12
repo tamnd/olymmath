@@ -1,0 +1,24 @@
+---
+tag: 64ASKJT5VS
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 1993 National High School Mathematics League
+    url: https://artofproblemsolving.com/community/c6h2017169
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=36125
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: cn-league/1993
+    source: hf-ai-mo-aops
+    label: 1993 National High School Mathematics League
+---
+Equation $(1-\text{i})x^2+(\lambda+\text{i})x+(1+\text{i}\lambda)=0(\lambda\in\mathbb{R})$ has two imaginary roots, then the range value of $\lambda$ is________.

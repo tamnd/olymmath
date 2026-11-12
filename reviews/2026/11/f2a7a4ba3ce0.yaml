@@ -1,0 +1,8 @@
+id: f2a7a4ba3ce0
+kind: match
+records:
+    - CJR0H9WH55
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. Row 44760 was joined into this record, which holds row 39285. The same problem: n = 1 is the same as no solution with a and n greater than 1.'

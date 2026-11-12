@@ -1,0 +1,24 @@
+---
+tag: PKM6E52FE1
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 1990 French Mathematical Olympiad
+    url: https://artofproblemsolving.com/community/c6h2565121
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=39087
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: fr-tst/1990
+    source: hf-ai-mo-aops
+    label: 1990 French Mathematical Olympiad
+---
+A game consists of pieces of the shape of a regular tetrahedron of side $1$ . Each face of each piece is painted in one of $n$ colors, and by this, the faces of one piece are not necessarily painted in different colors. Determine the maximum possible number of pieces, no two of which are identical.

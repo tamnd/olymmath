@@ -1,0 +1,26 @@
+---
+tag: 9GBH5GRWJB
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2017 Costa Rica - Final Round
+    url: https://artofproblemsolving.com/community/c6h2676068
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=37095
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: cr-mo/2017
+    source: hf-ai-mo-aops
+    label: 2017 Costa Rica - Final Round
+---
+Let the regular hexagon $ABCDEF$ be inscribed in a circle with center $O$ , $N$ be such a point Let $E-N-C$ , $M$ a point such that $A- M-C$ and $R$ a point on the circumference, such that $D-N- R$ . If $\angle EFR = 90^o$ , $\frac{AM}{AC}=\frac{CN}{EC}$ and $AC=\sqrt3$ , calculate $AM$ .
+
+Notation: $A-B-C$ means than points $A,B,C$ are collinear in that order i.e. $ B$ lies between $ A$ and $C$ .

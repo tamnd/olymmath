@@ -16,6 +16,10 @@ statements:
     kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: pe-ibero-tst/2017
+    source: hf-ai-mo-aops
+    label: 2017 Peru Iberoamerican Team Selection Test
 ---
 For each positive integer $k$ , let $S(k)$ the sum of digits of $k$ in decimal system.
 Show that there is an integer $k$ , with no $9$ in it's decimal representation, such that: $$ S(2^{24^{2017}}k)=S(k) $$

@@ -1,0 +1,24 @@
+---
+tag: Q8DQ3E9FJY
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2021 Iran MO (3rd Round)
+    url: https://artofproblemsolving.com/community/c6h2679805
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=44423
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ir-mo/2021
+    source: hf-ai-mo-aops
+    label: 2021 Iran MO (3rd Round)
+---
+Is it possible to arrange a permutation of Integers on the integer lattice infinite from both sides such that each row is increasing from left to right and each column increasing from up to bottom?

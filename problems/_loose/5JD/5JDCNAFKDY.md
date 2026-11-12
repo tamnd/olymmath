@@ -1,0 +1,24 @@
+---
+tag: 5JDCNAFKDY
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 1984 Iran MO (2nd round)
+    url: https://artofproblemsolving.com/community/c6h384239
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=43963
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ir-mo-r2/1984
+    source: hf-ai-mo-aops
+    label: 1984 Iran MO (2nd round)
+---
+Find number of terms when we expand $(a+b+c)^{99}$ (in the general case).

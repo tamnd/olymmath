@@ -1,0 +1,28 @@
+---
+tag: NS9RYPFSG7
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2000 Iran MO (3rd Round)
+    url: https://artofproblemsolving.com/community/c6h65858
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=44174
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ir-mo/2000
+    source: hf-ai-mo-aops
+    label: 2000 Iran MO (3rd Round)
+---
+Let us denote $\prod = \{(x, y) | y > 0\}$ . We call a *semicircle* in $\prod$ with
+center on the $x-\text{axis}$ a *semi-line*. Two intersecting *semi-lines*determine
+four *semi-angles*. A bisector of a *semi-angle*is a *semi-line*that bisects
+the *semi-angle*. Prove that in every *semi-triangle*(determined by three
+*semi-lines*) the bisectors are concurrent.

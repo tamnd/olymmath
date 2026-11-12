@@ -1,0 +1,26 @@
+---
+tag: 52MZFZ0GD5
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 1987 Tournament Of Towns
+    url: https://artofproblemsolving.com/community/c6h2068547
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=28020
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: tot
+    source: hf-ai-mo-aops
+    label: 1987 Tournament Of Towns
+---
+Three triangles (blue, green and red) have a common interior point $M$ . Prove that it is possible to choose one vertex from each triangle so that point $M$ is located inside the triangle formed by these selected vertices.
+
+(Imre Barani, Hungary)

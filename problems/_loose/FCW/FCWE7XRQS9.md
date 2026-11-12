@@ -20,5 +20,11 @@ unplaced:
   - at: jbmo-sl/2000
     source: hf-ai-mo-aops
     label: 2000 JBMO ShortLists
+  - at: de-bundeswettbewerb/1998
+    source: hf-ai-mo-aops
+    label: 1998 Bundeswettbewerb Mathematik
+  - at: gr-hms/2002
+    source: hf-ai-mo-aops
+    label: 2002 Greece Junior Math Olympiad
 ---
 Find all the triples $(x,y,z)$ of positive integers such that $xy+yz+zx-xyz=2$ .

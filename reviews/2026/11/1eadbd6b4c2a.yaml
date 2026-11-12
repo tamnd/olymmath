@@ -1,0 +1,9 @@
+id: 1eadbd6b4c2a
+kind: pair
+records:
+    - BEDDHC8Y96
+    - GW9DXE88SG
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 36621 to row 36617, but they are two problems: the forbidden patterns of points differ: four points in one, five points in the other. Row 36621 is now its own loose record.'

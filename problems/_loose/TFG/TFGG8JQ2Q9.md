@@ -1,0 +1,24 @@
+---
+tag: TFGG8JQ2Q9
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 1984 National High School Mathematics League
+    url: https://artofproblemsolving.com/community/c6h2013385
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=35983
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: cn-league/1984
+    source: hf-ai-mo-aops
+    label: 1984 National High School Mathematics League
+---
+If $F(\frac{1-x}{1+x})=x$ , then $\text{(A)}F(-2-x)=-2-F(x) \text{(B)}F(-x)=F(\frac{1+x}{1-x})$ $\text{(C)}F(\frac{1}{x})=F(x) \text{(D)}F(F(-x))=-x$

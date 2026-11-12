@@ -1,0 +1,24 @@
+---
+tag: 56NZ75SRNX
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 1998 National High School Mathematics League
+    url: https://artofproblemsolving.com/community/c6h2025487
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=36212
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: cn-league/1998
+    source: hf-ai-mo-aops
+    label: 1998 National High School Mathematics League
+---
+Arithmetic sequence with all items real, and the common difference is $4$ . If the sum of the square of the first item and all items else is not more than $100$ , then there are________items at most.

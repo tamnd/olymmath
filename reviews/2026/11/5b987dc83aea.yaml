@@ -1,0 +1,8 @@
+id: 5b987dc83aea
+kind: match
+records:
+    - NXM12TBGZB
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. Row 31269 was joined into this record, which holds row 31261. The same equation and question; one row sets the equation on its own line.'

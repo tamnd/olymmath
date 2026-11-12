@@ -1,0 +1,25 @@
+---
+tag: EE9Z6V55RY
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 1981 Bundeswettbewerb Mathematik
+    url: https://artofproblemsolving.com/community/c6h474511
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=39286
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: de-bundeswettbewerb/1981
+    source: hf-ai-mo-aops
+    label: 1981 Bundeswettbewerb Mathematik
+---
+A **bijective** mapping from a plane to itself maps every circle to a circle.
+Prove that it maps every line to a line.

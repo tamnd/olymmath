@@ -1,0 +1,24 @@
+---
+tag: 4SZ23S5CXE
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 25th Philippine MO Area Stage
+    url: https://artofproblemsolving.com/community/c6h3513780
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=50752
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ph-pmo
+    source: hf-ai-mo-aops
+    label: 25th Philippine MO Area Stage
+---
+Suppose that $p$ is a prime number which divides infinitely many numbers of the form $10^{n!}+2023$ where $n$ is a positive integer. What is the sum of all possible values of $p$ ?

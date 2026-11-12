@@ -20,5 +20,8 @@ unplaced:
   - at: isl/1993
     source: hf-ai-mo-aops
     label: 1993 IMO Shortlist
+  - at: ir-mo/1996
+    source: hf-ai-mo-aops
+    label: 1996 Iran MO (3rd Round)
 ---
 Prove that $$ \frac{a}{b+2c+3d} +\frac{b}{c+2d+3a} +\frac{c}{d+2a+3b}+ \frac{d}{a+2b+3c} \geq \frac{2}{3} $$ for all positive real numbers $a,b,c,d$ .

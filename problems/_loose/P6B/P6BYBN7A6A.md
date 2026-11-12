@@ -15,5 +15,9 @@ statements:
     kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: br-obm/2021
+    source: hf-ai-mo-aops
+    label: 2021 Brazil National Olympiad
 ---
 Let $ABC$ be a triangle with $\angle ABC=90^{\circ}$ . The square $BDEF$ is inscribed in $\triangle ABC$ , such that $D,E,F$ are in the sides $AB,CA,BC$ respectively. The inradius of $\triangle EFC$ and $\triangle EDA$ are $c$ and $b$ , respectively. Four circles $\omega_1,\omega_2,\omega_3,\omega_4$ are drawn inside the square $BDEF$ , such that the radius of $\omega_1$ and $\omega_3$ are both equal to $b$ and the radius of $\omega_2$ and $\omega_4$ are both equal to $a$ . The circle $\omega_1$ is tangent to $ED$ , the circle $\omega_3$ is tangent to $BF$ , $\omega_2$ is tangent to $EF$ and $\omega_4$ is tangent to $BD$ , each one of these circles are tangent to the two closest circles and the circles $\omega_1$ and $\omega_3$ are tangents. Determine the ratio $\frac{c}{a}$ .

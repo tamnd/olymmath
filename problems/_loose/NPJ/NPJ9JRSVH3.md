@@ -20,6 +20,9 @@ unplaced:
   - at: imo/1980
     source: hf-ai-mo-aops
     label: 1980 IMO
+  - at: ba-mo/2016
+    source: hf-ai-mo-aops
+    label: 2016 Junior Regional Olympiad - FBH
 ---
 Find all pairs of solutions $(x,y)$ :
 

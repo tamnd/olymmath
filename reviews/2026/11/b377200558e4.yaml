@@ -1,0 +1,8 @@
+id: b377200558e4
+kind: match
+records:
+    - nemotron-imo-bench/2026/g7
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import made the row of loose record H46PSRFGHV a new record, but the agent found that it is nemotron-imo-bench/2026/g7: The two texts state the same problem with the same data and question, but they write it in other words or other formulas, so no signal of the import was high enough. The row is the 2024 Kurschak problem that the benchmark record also holds. The agent moved the row to a second statement of nemotron-imo-bench/2026/g7 and removed the loose record.'

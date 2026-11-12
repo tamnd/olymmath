@@ -1,0 +1,24 @@
+---
+tag: V9K28DBHQ4
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2002 Estonia National Olympiad
+    url: https://artofproblemsolving.com/community/c6h2031425
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=38706
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ee-mo/2002
+    source: hf-ai-mo-aops
+    label: 2002 Estonia National Olympiad
+---
+The greatest common divisor $d$ and the least common multiple $u$ of positive integers $m$ and $n$ satisfy the equality $3m + n = 3u + d$ . Prove that $m$ is divisible by $n$ .

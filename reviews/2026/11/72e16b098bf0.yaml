@@ -1,0 +1,8 @@
+id: 72e16b098bf0
+kind: match
+records:
+    - imc/2006/p12
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The row 23340 names this edition, and the import linked it by the edition rule (edition text match 0.77, next 0.05). The agent read both texts: they are the same problem, in other words or another language. The row is a second statement, not a new appearance.'

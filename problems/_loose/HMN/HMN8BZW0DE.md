@@ -1,0 +1,26 @@
+---
+tag: HMN8BZW0DE
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2016 Costa Rica - Final Round
+    url: https://artofproblemsolving.com/community/c6h2677999
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=37071
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: cr-mo/2016
+    source: hf-ai-mo-aops
+    label: 2016 Costa Rica - Final Round
+---
+Consider $\vartriangle ABC$ right at $B, F$ a point such that $B - F - C$ and $AF$ bisects $\angle BAC$ , $I$ a point such that $A - I - F$ and CI bisect $\angle ACB$ , and $E$ a point such that $A- E - C$ and $AF \perp EI$ . If $AB = 4$ and $\frac{AI}{IF}={4}{3}$ , determine $AE$ .
+
+Notation: $A-B-C$ means than points $A,B,C$ are collinear in that order i.e. $ B$ lies between $ A$ and $C$ .

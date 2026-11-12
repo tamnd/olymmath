@@ -1,0 +1,8 @@
+id: 02a6833f8c7b
+kind: match
+records:
+    - jbmo-sl/2011/a5
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The row 26017 names this edition, and the import linked it by the edition rule (edition keyword match 0.66, next 0.14). The agent read both texts: they are the same problem, in other words or another language. The row is a second statement, not a new appearance.'

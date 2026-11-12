@@ -1,0 +1,25 @@
+---
+tag: ZZMJY9KZRA
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2022 Malaysia IMONST 2
+    url: https://artofproblemsolving.com/community/c6h3103985
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=46966
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: my-omk/2022
+    source: hf-ai-mo-aops
+    label: 2022 Malaysia IMONST 2
+---
+Let $a, b, r,$ and $s$ be positive integers ( $a \ge 2$ ), where $a$ and $b$ have no common prime factor.
+Prove that if $a^r + b^r$ is divisible by $a^s + b^s$ , then $r$ is divisible by $s$ .

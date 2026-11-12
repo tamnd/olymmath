@@ -1,0 +1,9 @@
+id: cc834308119e
+kind: pair
+records:
+    - G3PS9JP0KY
+    - 46XDNQNX5P
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 40544 to row 37408, but they are two problems: the inequalities to prove differ: 10(a^2+b^2+c^2-bc^3) >= 2ab+5ac in one, 5(a^2+b^2+c^2-bc^3) >= ab in the other. Row 40544 is now its own loose record.'

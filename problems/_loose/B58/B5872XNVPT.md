@@ -1,0 +1,24 @@
+---
+tag: B5872XNVPT
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 1991 Iran MO (2nd round)
+    url: https://artofproblemsolving.com/community/c6h380219
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=44016
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ir-mo-r2/1991
+    source: hf-ai-mo-aops
+    label: 1991 Iran MO (2nd round)
+---
+Three groups $A, B$ and $C$ of mathematicians from different countries have invited to a ceremony. We have formed meetings such that three mathematicians participate in every meeting and there is exactly one mathematician from each group in every meeting. Also every two mathematicians have participated in exactly one meeting with each other.**(a)** Prove that if this is possible, then number of mathematicians of the groups is equal.**(b)** Prove that if there exist $3$ mathematicians in each group, then that work is possible.**(c)** Prove that if number mathematicians of the groups be equal, then that work is possible.

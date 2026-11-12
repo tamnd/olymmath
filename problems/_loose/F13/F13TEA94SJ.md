@@ -1,0 +1,24 @@
+---
+tag: F13TEA94SJ
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2018 Kyrgyzstan National Olympiad
+    url: https://artofproblemsolving.com/community/c6h1828627
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=46582
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: kg-mo/2018
+    source: hf-ai-mo-aops
+    label: 2018 Kyrgyzstan National Olympiad
+---
+Wrestlers from towns ***A*** and ***B*** participated in competition. Number of wrestlers from ***A*** is 9 more than the number of wrestlers from ***B***. Every wrestler wrestles with others and took 1 point if he won, 0 otherwise. Total point of team ***A*** is 9 more than total point of team ***B***. What is the maximum possible value of points of team ***B***?

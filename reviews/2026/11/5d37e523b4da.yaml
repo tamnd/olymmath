@@ -1,0 +1,8 @@
+id: 5d37e523b4da
+kind: match
+records:
+    - 2DT0XXC3AK
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. Row 37592 was joined into this record, which holds row 37266. The same problem in other words: 2x^2-x-36 is the square of a prime.'

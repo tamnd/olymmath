@@ -1,0 +1,27 @@
+---
+tag: H3WMHND8P6
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2008 Hong Kong TST
+    url: https://artofproblemsolving.com/community/c6h246421
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=40748
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: hk-pc/2008
+    source: hf-ai-mo-aops
+    label: 2008 Hong Kong TST
+  - at: hk-pc/2009
+    source: hf-ai-mo-aops
+    label: 2009 Hong Kong TST
+---
+Show that the equation $ y^{37} = x^3 +11\pmod p$ is solvable for every prime $ p$ , where $ p\le 100$ .

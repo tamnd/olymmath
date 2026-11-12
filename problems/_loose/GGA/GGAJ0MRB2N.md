@@ -1,0 +1,26 @@
+---
+tag: GGAJ0MRB2N
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2006 Irish Math Olympiad
+    url: https://artofproblemsolving.com/community/c6h111971
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=44853
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ie-irmo/2006
+    source: hf-ai-mo-aops
+    label: 2006 Irish Math Olympiad
+---
+Prove that a square of side 2.1 units can be completely covered by seven squares of side 1 unit.
+
+Extra: Try to prove that 7 is the minimal amount.

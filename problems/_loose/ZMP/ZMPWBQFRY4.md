@@ -1,0 +1,24 @@
+---
+tag: ZMPWBQFRY4
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2009 Greece Junior Math Olympiad
+    url: https://artofproblemsolving.com/community/c6h2032749
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=40373
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: gr-hms/2009
+    source: hf-ai-mo-aops
+    label: 2009 Greece Junior Math Olympiad
+---
+If the number $K = \frac{9n^2+31}{n^2+7}$ is integer, find the possible values of $n \in Z$ .

@@ -1,0 +1,25 @@
+---
+tag: PNPCB0W03G
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2022 Olympic Revenge
+    url: https://artofproblemsolving.com/community/c6h2889890
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=32903
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: olympic-revenge/2022
+    source: hf-ai-mo-aops
+    label: 2022 Olympic Revenge
+---
+A pair $(a,b)$ of positive integers is good if $\gcd(a,b)=1$ and for each pair of sets $A,B$ of positive integers such that $A,B$ are, respectively, complete residues system modulo $a,b$ , there are $x \in A, y \in B$ such that $\gcd(x+y,ab)=1$ . For each pair of positive integers $a,k$ , let $f(N)$ the number of $b \leq N$ such $b$ has $k$ distinct prime factors and $(a,b)$ is good. Prove that
+$$\liminf_{n \to \infty} f(n)/\frac{n}{(\log n)^k}\ge e^{k}$$

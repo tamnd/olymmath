@@ -1,0 +1,24 @@
+---
+tag: BG91ZN7NSX
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2002 National High School Mathematics League
+    url: https://artofproblemsolving.com/community/c6h2028848
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=36277
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: cn-league/2002
+    source: hf-ai-mo-aops
+    label: 2002 National High School Mathematics League
+---
+Function $f(x)=\frac{x}{1-2^x}-\frac{x}{2}$ is $\text{(A)}$ an even function, not an odd function. $\text{(B)}$ an odd function, not an even function. $\text{(C)}$ an even function, also an odd function. $\text{(D)}$ neither an even function, nor an odd function.

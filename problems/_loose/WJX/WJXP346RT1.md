@@ -1,0 +1,24 @@
+---
+tag: WJXP346RT1
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 1998 Greece Junior Math Olympiad
+    url: https://artofproblemsolving.com/community/c6h1127424
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=40329
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: gr-hms/1998
+    source: hf-ai-mo-aops
+    label: 1998 Greece Junior Math Olympiad
+---
+If $a_1, a_2,...., a_{n-1}, a_n$ , are positive integers, prove that: $\frac{\prod_{i=1}^n(a_i^2+3a_i+1)}{a_1a_2....a_{n-1}a_n}\ge 2^{2n}$

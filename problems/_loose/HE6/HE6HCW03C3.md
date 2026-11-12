@@ -1,0 +1,24 @@
+---
+tag: HE6HCW03C3
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2017 Iran MO (3rd round)
+    url: https://artofproblemsolving.com/community/c6h1511897
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=44398
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ir-mo/2017
+    source: hf-ai-mo-aops
+    label: 2017 Iran MO (3rd round)
+---
+There's a tape with $n^2$ cells labeled by $1,2,\ldots,n^2$ . Suppose that $x,y$ are two distinct positive integers less than or equal to $n$ . We want to color the cells of the tape such that any two cells with label difference of $x$ or $y$ have different colors. Find the minimum number of colors needed to do so.

@@ -1,0 +1,24 @@
+---
+tag: XMB6Q36VD2
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2003 France Team Selection Test
+    url: https://artofproblemsolving.com/community/c6h523060
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=39052
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: fr-tst/2003
+    source: hf-ai-mo-aops
+    label: 2003 France Team Selection Test
+---
+$10$ cities are connected by one-way air routes in a way so that each city can be reached from any other by several connected flights. Let $n$ be the smallest number of flights needed for a tourist to visit every city and return to the starting city. Clearly $n$ depends on the flight schedule. Find the largest $n$ and the corresponding flight schedule.

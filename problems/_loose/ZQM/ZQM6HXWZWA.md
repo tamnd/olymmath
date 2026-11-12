@@ -1,0 +1,24 @@
+---
+tag: ZQM6HXWZWA
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2018 Romania National Olympiad
+    url: https://artofproblemsolving.com/community/c6h1626001
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=16932
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ro-nmo/2018
+    source: hf-ai-mo-aops
+    label: 2018 Romania National Olympiad
+---
+Let $ABC$ be a triangle, $O$ its circumcenter and $R=1$ its circumradius. Let $G_1,G_2,G_3$ be the centroids of the triangles $OBC, OAC$ and $OAB.$ Prove that the triangle $ABC$ is equilateral if and only if $$ AG_1+BG_2+CG_3=4 $$

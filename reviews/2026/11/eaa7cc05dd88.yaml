@@ -1,0 +1,8 @@
+id: eaa7cc05dd88
+kind: sample
+records:
+    - 4F502N41C5
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. One complete problem. The agent checked a near loose record with 10 numbers and factorials: there the sum is 1000, here 300, so they are two problems.'

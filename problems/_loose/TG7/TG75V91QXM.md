@@ -1,0 +1,26 @@
+---
+tag: TG75V91QXM
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2019 Online Math Open Problems
+    url: https://artofproblemsolving.com/community/c6h1814877
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=18148
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: omo/2019
+    source: hf-ai-mo-aops
+    label: 2019 Online Math Open Problems
+---
+There exists a unique prime $p > 5$ for which the decimal expansion of $\tfrac{1}{p}$ repeats with a period of exactly 294. Given that $p > 10^{50}$ , compute the remainder when $p$ is divided by $10^9$ .
+
+*Proposed by Ankan Bhattacharya*

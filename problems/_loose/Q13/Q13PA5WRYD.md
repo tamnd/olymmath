@@ -1,0 +1,25 @@
+---
+tag: Q13PA5WRYD
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2010 Kazakhstan National Olympiad
+    url: https://artofproblemsolving.com/community/c6h365272
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=5174
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: kz-mo/2010
+    source: hf-ai-mo-aops
+    label: 2010 Kazakhstan National Olympiad
+---
+Call $A \in \mathbb{N}^0$ be $number of year$ if all digits of $A$ equals $0$ , $1$ or $2$ (in decimal representation).
+Prove that exist infinity $N \in \mathbb{N}$ , such that $N$ can't presented as $A^2+B$ where $A \in \mathbb{N}^0 ; B$ - $number of year$ .

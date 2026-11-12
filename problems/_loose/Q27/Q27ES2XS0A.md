@@ -1,0 +1,24 @@
+---
+tag: Q27ES2XS0A
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2016 CMIMC
+    url: https://artofproblemsolving.com/community/c6h1221818
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=13779
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: cmimc/2016
+    source: hf-ai-mo-aops
+    label: 2016 CMIMC
+---
+For how many distinct ordered triples $(a,b,c)$ of boolean variables does the expression $a \lor (b \land c)$ evaluate to true?

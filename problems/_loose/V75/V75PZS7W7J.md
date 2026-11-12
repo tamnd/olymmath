@@ -1,0 +1,24 @@
+---
+tag: V75PZS7W7J
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2012 India IMO Training Camp
+    url: https://artofproblemsolving.com/community/c6h35309
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=7991
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: in-tst/2012
+    source: hf-ai-mo-aops
+    label: 2012 India IMO Training Camp
+---
+A quadrilateral $ABCD$ without parallel sides is circumscribed around a circle with centre $O$ . Prove that $O$ is a point of intersection of middle lines of quadrilateral $ABCD$ (i.e. barycentre of points $A, B, C, D$ ) iff $OA\cdot OC=OB\cdot OD$ .

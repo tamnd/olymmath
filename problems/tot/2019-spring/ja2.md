@@ -25,6 +25,15 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-ai-mo-aops
+    name: Kvant 2019
+    url: https://artofproblemsolving.com/community/c6h2094695
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=26513
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 ---

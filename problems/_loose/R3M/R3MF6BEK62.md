@@ -1,0 +1,25 @@
+---
+tag: R3MF6BEK62
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2022 Bulgarian Spring Math Competition
+    url: https://artofproblemsolving.com/community/c6h2810699
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=68
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: bg-spring/2022
+    source: hf-ai-mo-aops
+    label: 2022 Bulgarian Spring Math Competition
+---
+In every cell of a table with $n$ rows and $m$ columns is written one of the letters $a$ , $b$ , $c$ . Every two rows of the table have the same letter in at most $k\geq 0$ positions and every two columns coincide at most $k$ positions. Find $m$ , $n$ , $k$ if
+$$\frac{2mn+6k}{3(m+n)}\geq k+1$$

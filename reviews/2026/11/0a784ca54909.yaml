@@ -1,0 +1,8 @@
+id: 0a784ca54909
+kind: match
+records:
+    - amc12/2009b/p11
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The row 3150 and the text of amc12/2009b/p11 write the formulas in other ways, so the import linked them by the words rule (words 1.00, formulas 1.00). The agent read both texts: they are the same problem with the same data. The row is a second statement of the record.'

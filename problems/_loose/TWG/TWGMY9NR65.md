@@ -1,0 +1,24 @@
+---
+tag: TWGMY9NR65
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2020 Switzerland - Final Round
+    url: https://artofproblemsolving.com/community/c6h2368475
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=19466
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ch-smo/2020
+    source: hf-ai-mo-aops
+    label: 2020 Switzerland - Final Round
+---
+Let $ABCD$ be an isosceles trapezoid with bases $AD> BC$ . Let $X$ be the intersection of the bisectors of $\angle BAC$ and $BC$ . Let $E$ be the intersection of $ DB$ with the parallel to the bisector of $\angle CBD$ through $X$ and let $F$ be the intersection of $DC$ with the parallel to the bisector of $\angle DCB$ through $X$ . Show that quadrilateral $AEFD$ is cyclic.

@@ -1,0 +1,24 @@
+---
+tag: J4GWXQEXBS
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2019 India PRMO
+    url: https://artofproblemsolving.com/community/c6h1893429
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=17797
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: in-prmo-ioqm/2019
+    source: hf-ai-mo-aops
+    label: 2019 India PRMO
+---
+Let $ABC$ be a triangle and let $\Omega$ be its circumcircle. The internal bisectors of angles $A, B$ and $C$ intersect $\Omega$ at $A_1, B_1$ and $C_1$ , respectively, and the internal bisectors of angles $A_1, B_1$ and $C_1$ of the triangles $A_1 A_2 A_ 3$ intersect $\Omega$ at $A_2, B_2$ and $C_2$ , respectively. If the smallest angle of the triangle $ABC$ is $40^{\circ}$ , what is the magnitude of the smallest angle of the triangle $A_2 B_2 C_2$ in degrees?

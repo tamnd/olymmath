@@ -1,0 +1,26 @@
+---
+tag: PSN6CR41XN
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2013 NIMO Problems
+    url: https://artofproblemsolving.com/community/c6h522306
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=9946
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: nimo/2013
+    source: hf-ai-mo-aops
+    label: 2013 NIMO Problems
+---
+Let $f$ be a function from positive integers to positive integers where $f(n) = \frac{n}{2}$ if $n$ is even and $f(n) = 3n+1$ if $n$ is odd. If $a$ is the smallest positive integer satisfying $$ \underbrace{f(f(\cdots f}_{2013\ f\text{'s}} (a)\cdots)) = 2013, $$ find the remainder when $a$ is divided by $1000$ .
+
+*Based on a proposal by Ivan Koswara*

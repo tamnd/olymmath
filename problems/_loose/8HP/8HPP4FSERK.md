@@ -1,0 +1,24 @@
+---
+tag: 8HPP4FSERK
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2012 India PRMO
+    url: https://artofproblemsolving.com/community/c6h1857508
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=8014
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: in-prmo-ioqm/2012
+    source: hf-ai-mo-aops
+    label: 2012 India PRMO
+---
+Let $S_n = n^2 + 20n + 12$ , $n$ a positive integer. What is the sum of all possible values of $n$ for which $S_n$ is a perfect square?

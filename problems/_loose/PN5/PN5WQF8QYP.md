@@ -1,0 +1,29 @@
+---
+tag: PN5WQF8QYP
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2011 China National Olympiad
+    url: https://artofproblemsolving.com/community/c6h386977
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=6312
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: cn-mo/2011
+    source: hf-ai-mo-aops
+    label: 2011 China National Olympiad
+---
+Let $A$ be a set consist of finite real numbers, $A_1,A_2,\cdots,A_n$ be nonempty sets of $A$ , such that **(a)** The sum of the elements of $A$ is $0,$ **(b)** For all $x_i \in A_i(i=1,2,\cdots,n)$ ,we have $x_1+x_2+\cdots+x_n>0$ .
+
+Prove that there exist $1\le k\le n,$ and $1\le i_1<i_2<\cdots<i_k\le n$ , such that
+$$|A_{i_1}\bigcup A_{i_2} \bigcup \cdots \bigcup A_{i_k}|<\frac{k}{n}|A|.$$
+
+Where $|X|$ denote the numbers of the elements in set $X$ .

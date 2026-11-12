@@ -1,0 +1,24 @@
+---
+tag: W7FHDZ6TN7
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2019 Tuymaada Olympiad
+    url: https://artofproblemsolving.com/community/c6h1880214
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=18423
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: tuymaada/2019
+    source: hf-ai-mo-aops
+    label: 2019 Tuymaada Olympiad
+---
+A trapezoid $ABCD$ with $BC // AD$ is given. The points $B'$ and $C'$ are symmetrical to $B$ and $C$ with respect to $CD$ and $AB$ , respectively. Prove that the midpoint of the segment joining the circumcentres of $ABC'$ and $B'CD$ is equidistant from $A$ and $D$ .

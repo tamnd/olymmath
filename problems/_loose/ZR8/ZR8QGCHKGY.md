@@ -1,0 +1,24 @@
+---
+tag: ZR8QGCHKGY
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2005 Rioplatense Mathematical Olympiad, Level 3
+    url: https://artofproblemsolving.com/community/c6h420374
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=27540
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: rioplatense/2005
+    source: hf-ai-mo-aops
+    label: 2005 Rioplatense Mathematical Olympiad, Level 3
+---
+In trapezoid $ABCD$ , the sum of the lengths of the bases $AB$ and $CD$ is equal to the length of the diagonal $BD$ . Let $M$ denote the midpoint of $BC$ , and let $E$ denote the reflection of $C$ about the line $DM$ . Prove that $\angle AEB=\angle ACD$ .

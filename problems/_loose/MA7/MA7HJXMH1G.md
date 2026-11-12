@@ -1,0 +1,24 @@
+---
+tag: MA7HJXMH1G
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2010 Iran MO (2nd Round)
+    url: https://artofproblemsolving.com/community/c6h347464
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=5086
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ir-mo-r2/2010
+    source: hf-ai-mo-aops
+    label: 2010 Iran MO (2nd Round)
+---
+Let $a,b$ be two positive integers and $a>b$ .We know that $\gcd(a-b,ab+1)=1$ and $\gcd(a+b,ab-1)=1$ . Prove that $(a-b)^2+(ab+1)^2$ is not a perfect square.

@@ -1,0 +1,26 @@
+---
+tag: 6FDGS0YTXP
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 1980 Tournament Of Towns
+    url: https://artofproblemsolving.com/community/c6h1897971
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=27865
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: tot
+    source: hf-ai-mo-aops
+    label: 1980 Tournament Of Towns
+---
+On the circumference of a circle there are red and blue points. One may add a red point and change the colour of both its neighbours (to the other colour) or remove a red point and change the colour of both its previous neighbours. Initially there are two red points. Prove that there is no sequence of allowed operations which leads to the configuration consisting of two blue points.
+
+(K Kazarnovskiy, Moscow)

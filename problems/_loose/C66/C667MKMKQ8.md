@@ -1,0 +1,28 @@
+---
+tag: C667MKMKQ8
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2013 Online Math Open Problems
+    url: https://artofproblemsolving.com/community/c6h560345
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=10101
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: omo/2013
+    source: hf-ai-mo-aops
+    label: 2013 Online Math Open Problems
+---
+Let $n$ denote the product of the first $2013$ primes. Find the sum of all primes $p$ with $20 \le p \le 150$ such that
+(i) $\frac{p+1}{2}$ is even but is not a power of $2$ , and
+(ii) there exist pairwise distinct positive integers $a,b,c$ for which $$ a^n(a-b)(a-c) + b^n(b-c)(b-a) + c^n(c-a)(c-b) $$ is divisible by $p$ but not $p^2$ .
+
+*Proposed by Evan Chen*

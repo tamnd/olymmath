@@ -1,0 +1,26 @@
+---
+tag: B1T8BYA2VB
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: Kvant 2019
+    url: https://artofproblemsolving.com/community/c6h3036193
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=26537
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: journal-kvant/2019
+    source: hf-ai-mo-aops
+    label: Kvant 2019
+---
+We have 2019 boxes. Initially, they are all empty. At one operation, we can add exactly 100 stones to some 100 boxes and exactly one stone in each of several other (perhaps none) boxes. What is the smallest possible number of moves after which all boxes will have the same (positive) number of stones.
+
+*Proposed by P. Kozhevnikov*

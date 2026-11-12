@@ -1,0 +1,24 @@
+---
+tag: QJAJWGJNS3
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2019 Hong Kong TST
+    url: https://artofproblemsolving.com/community/c6h1831646
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=17702
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: hk-pc/2019
+    source: hf-ai-mo-aops
+    label: 2019 Hong Kong TST
+---
+We choose 100 points in the coordinate plane. Let $N$ be the number of triples $(A,B,C)$ of distinct chosen points such that $A$ and $B$ have the same $y$ -coordinate, and $B$ and $C$ have the same $x$ -coordinate. Find the greatest value that $N$ can attain considering all possible ways to choose the points.

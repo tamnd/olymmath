@@ -1,0 +1,24 @@
+---
+tag: CSQPAJV3PX
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2010 Lithuania National Olympiad
+    url: https://artofproblemsolving.com/community/c6h468994
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=5216
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: lt-mo/2010
+    source: hf-ai-mo-aops
+    label: 2010 Lithuania National Olympiad
+---
+Arrange arbitrarily $1,2,\ldots ,25$ on a circumference. We consider all $25$ sums obtained by adding $5$ consecutive numbers. If the number of distinct residues of those sums modulo $5$ is $d$ $(0\le d\le 5)$ ,find all possible values of $d$ .

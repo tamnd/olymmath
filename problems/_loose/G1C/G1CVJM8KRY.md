@@ -1,0 +1,24 @@
+---
+tag: G1CVJM8KRY
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2011 Uzbekistan National Olympiad
+    url: https://artofproblemsolving.com/community/c6h416162
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=7461
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: uz-mo/2011
+    source: hf-ai-mo-aops
+    label: 2011 Uzbekistan National Olympiad
+---
+In acute triangle $ABC$ $AD$ is bisector. $O$ is circumcenter, $H$ is orthocenter. If $AD=AC$ and $AC\perp OH$ . Find all of the value of $\angle ABC$ and $\angle ACB$ .

@@ -1,0 +1,26 @@
+---
+tag: CPKRBA5APJ
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2013 Online Math Open Problems
+    url: https://artofproblemsolving.com/community/c6h516616
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=10038
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: omo/2013
+    source: hf-ai-mo-aops
+    label: 2013 Online Math Open Problems
+---
+Let $A$ , $B$ , and $C$ be distinct points on a line with $AB=AC=1$ . Square $ABDE$ and equilateral triangle $ACF$ are drawn on the same side of line $BC$ . What is the degree measure of the acute angle formed by lines $EC$ and $BF$ ?
+
+*Ray Li*

@@ -1,0 +1,25 @@
+---
+tag: BSNB9RSEXN
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2019 Brazil National Olympiad
+    url: https://artofproblemsolving.com/community/c6h1957969
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=17403
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: br-obm/2019
+    source: hf-ai-mo-aops
+    label: 2019 Brazil National Olympiad
+---
+Let $a, b$ and $k$ be positive integers with $k> 1$ such that $lcm (a, b) + gcd (a, b) = k (a + b)$ .
+Prove that $a + b \geq 4k$

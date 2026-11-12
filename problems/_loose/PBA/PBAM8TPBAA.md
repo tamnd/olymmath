@@ -1,0 +1,24 @@
+---
+tag: PBAM8TPBAA
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2021 Bangladeshi National Mathematical Olympiad
+    url: https://artofproblemsolving.com/community/c6h2522647
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=19826
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: bd-bdmo/2021
+    source: hf-ai-mo-aops
+    label: 2021 Bangladeshi National Mathematical Olympiad
+---
+$g(x):\mathbb{Z}\rightarrow\mathbb{Z}$ is a function that satisfies $$ g(x)+g(y)=g(x+y)-xy. $$ If $g(23)=0$ , what is the sum of all possible values of $g(35)$ ?

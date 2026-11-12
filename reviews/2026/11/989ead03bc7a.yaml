@@ -1,0 +1,9 @@
+id: 989ead03bc7a
+kind: pair
+records:
+    - J1M1W2MGS9
+    - DQCR420C5Z
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 18392 to this row, but the second condition differs: one asks that the sequence be periodic from some point, the other that it be bounded. Row 18392 is now its own loose record.'

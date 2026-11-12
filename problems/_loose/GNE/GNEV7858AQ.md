@@ -1,0 +1,24 @@
+---
+tag: GNEV7858AQ
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2011 India IMO Training Camp
+    url: https://artofproblemsolving.com/community/c6h412958
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=6575
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: in-tst/2011
+    source: hf-ai-mo-aops
+    label: 2011 India IMO Training Camp
+---
+Suppose $a_1,\ldots,a_n$ are non-integral real numbers for $n\geq 2$ such that ${a_1}^k+\ldots+{a_n}^k$ is an integer for all integers $1\leq k\leq n$ . Prove that none of $a_1,\ldots,a_n$ is rational.

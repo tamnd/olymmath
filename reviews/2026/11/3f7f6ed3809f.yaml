@@ -1,0 +1,8 @@
+id: 3f7f6ed3809f
+kind: match
+records:
+    - isl/2015/g5
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The row 12629 (E 0.572, T 0.638, keyword match 0.833) and the text of isl/2015/g5 state the same problem with the same data and the same question. The row became a second statement of the record.'

@@ -1,0 +1,9 @@
+id: f0b2e6bd02f5
+kind: pair
+records:
+    - 8ZB5WWR923
+    - TJ1HB2R3NF
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 27677 to this row, but D is chosen in other ways: on the bisector of angle ACB in one, the midpoint of the arc AB in the other. Row 27677 is now its own loose record.'

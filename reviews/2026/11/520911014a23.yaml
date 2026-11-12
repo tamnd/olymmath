@@ -1,0 +1,8 @@
+id: 520911014a23
+kind: match
+records:
+    - hmmt/2009/c10
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The row 3502 (E 0.899, T 0.869, keyword match 0.958) and the text of hmmt/2009/c10 state the same problem with the same data and the same question. The row became a second statement of the record.'

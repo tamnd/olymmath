@@ -1,0 +1,8 @@
+id: 66d6dbe0fd19
+kind: sample
+records:
+    - 3XFS75FART
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The text asks for x^2/8 + 2 where x is its own answer. It is a joke problem, but it is one clear problem as set. The import found no text near it.'

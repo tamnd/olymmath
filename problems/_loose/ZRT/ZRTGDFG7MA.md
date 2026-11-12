@@ -1,0 +1,24 @@
+---
+tag: ZRTGDFG7MA
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2010 Tournament Of Towns
+    url: https://artofproblemsolving.com/community/c6h391335
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=5952
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: tot
+    source: hf-ai-mo-aops
+    label: 2010 Tournament Of Towns
+---
+At a circular track, $10$ cyclists started from some point at the same time in the same direction with different constant speeds. If any two cyclists are at some point at the same time again, we say that they meet. No three or more of them have met at the same time. Prove that by the time every two cyclists have met at least once, each cyclist has had at least $25$ meetings.

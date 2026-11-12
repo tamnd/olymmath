@@ -1,0 +1,8 @@
+id: 15a647b86e8b
+kind: sample
+records:
+    - 16DAYA5HAY
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. One complete problem. The list has a stray \item from the source, which does not change the problem. The import found no text near it.'

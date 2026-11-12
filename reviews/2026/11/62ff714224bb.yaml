@@ -1,0 +1,8 @@
+id: 62ff714224bb
+kind: match
+records:
+    - VGAQF9R9P0
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record JSVGGX29Q1 a new record, but the agent found that it is VGAQF9R9P0: both ask for the roots of the same alternating sum of binomial terms; the row writes the last factor as (x-n), a slip for (x-n+1). The agent moved the row to a second statement of VGAQF9R9P0 and removed the loose record.'

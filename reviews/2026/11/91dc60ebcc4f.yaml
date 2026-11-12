@@ -1,0 +1,8 @@
+id: 91dc60ebcc4f
+kind: match
+records:
+    - SCV1RKKFM6
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 11782 (E 0.993, T 0.857, keyword match 1.000) and the text of SCV1RKKFM6 state the same problem with the same data and the same question.  The record already has a statement from this source, so the row adds no new statement and makes no new record.'

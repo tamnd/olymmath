@@ -1,0 +1,21 @@
+---
+tag: DENM0N6EZB
+kind: problem
+type: answer
+answer: \varphi\approx10928^{\}16^{\\}
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=44332
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+From the given origin $O$, draw 4 rays so that all 6 angles between them are congruent to each other.

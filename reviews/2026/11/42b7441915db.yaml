@@ -1,0 +1,8 @@
+id: 42b7441915db
+kind: match
+records:
+    - 2F4QFYXV3P
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 42236 was joined into this record, which holds row 39867. The two rows state the same claim about an even number not divisible by 4, word for word.'

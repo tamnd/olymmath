@@ -1,0 +1,23 @@
+---
+tag: 8PJBP8R7HT
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=40720
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Find two coprime numbers $a$ and $b$ that satisfy the equation:
+
+$$
+\frac{5a + 7b}{6a + 5b} = \frac{29}{28}
+$$

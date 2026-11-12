@@ -1,0 +1,8 @@
+id: 8184d7c0f40a
+kind: match
+records:
+    - GE1DPZH843
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 3636 (E 0.954, T 0.849, keyword match 1.000) and the text of GE1DPZH843 state the same problem with the same data and the same question.  The record already has a statement from this source, so the row adds no new statement and makes no new record.'

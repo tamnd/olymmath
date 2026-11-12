@@ -1,0 +1,9 @@
+id: f3fb54a42f5e
+kind: pair
+records:
+    - 6GQY6VGKPF
+    - oimu/2008/p5
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 38108 of NuminaMath 1.5 to this record, but they are two problems: the row states the Cauchy inequality, the record asks for which n the difference of the two sides can equal n. The agent removed the row from the record. Row 38108 states the same Cauchy inequality as row 34929, so the agent made both rows statements of one loose record.'

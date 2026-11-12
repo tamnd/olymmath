@@ -1,0 +1,19 @@
+---
+tag: YDMW6TGC7G
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=40248
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Is it possible for one side of a triangle to equal half of another and a third of the third side?

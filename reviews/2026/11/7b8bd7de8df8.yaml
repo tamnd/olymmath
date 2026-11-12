@@ -1,0 +1,8 @@
+id: 7b8bd7de8df8
+kind: match
+records:
+    - M6XNZ30B0M
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 42814 was joined into this record, which holds row 42736. The two rows state the same problem with the same numbers (11 or 15 items, 8 rubles left, 12 rubles 24 kopecks short); one buys pens, the other notebooks, so the answer is the same.'

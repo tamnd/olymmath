@@ -1,0 +1,8 @@
+id: 8477387717d8
+kind: match
+records:
+    - W21NAK56CZ
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 42511 was joined into this record, which holds row 34777. The two rows state the same claim that sqrt 2, sqrt 3 and sqrt 5 are not in one arithmetic progression.'

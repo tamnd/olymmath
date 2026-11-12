@@ -1,0 +1,8 @@
+id: b767f9858b72
+kind: match
+records:
+    - 4Y8JRK060E
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 25065 and the text of 4Y8JRK060E write the formulas in other ways, so the import linked them by the words rule (words 0.98, formulas 1.00). The agent read both texts: they are the same problem with the same data. The record already has a statement from this source, so the row adds no new statement and makes no new record.'

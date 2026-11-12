@@ -1,0 +1,8 @@
+id: 89fcb6e27dc7
+kind: match
+records:
+    - FT1JM0ECVC
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 42310 was joined into this record, which holds row 39868. The two rows state the same claim (n^2-1 is divisible by 24 for a prime n other than 2 and 3), word for word.'

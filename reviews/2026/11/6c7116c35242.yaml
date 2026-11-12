@@ -1,0 +1,9 @@
+id: 6c7116c35242
+kind: pair
+records:
+    - 5S0EZQBSRS
+    - K7BS1161S0
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 34958 to row 34841 of NuminaMath 1.5, but they are two problems: the row asks to solve the inequality, the record asks to prove that it holds for every alpha. Row 34958 is now its own loose record.'

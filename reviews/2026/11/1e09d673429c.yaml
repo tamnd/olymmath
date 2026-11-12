@@ -1,0 +1,8 @@
+id: 1e09d673429c
+kind: sample
+records:
+    - RGH19M1YJG
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text states one claim to prove about a^5 + 2b^5 and 11 and no solution. The word ''prove'' is left out, as the book does, but the task is clear.'

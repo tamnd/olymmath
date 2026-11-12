@@ -1,0 +1,8 @@
+id: 854809bfbdee
+kind: match
+records:
+    - JMNHF4AW5F
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 42330 was joined into this record, which holds row 37504. The two rows state the same divisibility of 3^(2n+2)+2^(6n+1) by 11; one says any integer n, the other any natural n.'

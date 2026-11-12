@@ -1,0 +1,8 @@
+id: 1b2145620039
+kind: match
+records:
+    - HVX31ZM6N9
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record V29383WHGM a new record, but the agent found that it is HVX31ZM6N9: both reflect a point in O1, O2 and O3 and then again in the same points, and ask to prove that it comes back to where it started. The agent moved the row to a second statement of HVX31ZM6N9 and removed the loose record.'

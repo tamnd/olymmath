@@ -1585,12 +1585,14 @@
   origin: H1
   url: https://www.oktatas.hu/
   access: pdf
+  terms: "No licence stated. The footer says \"© 2012. Minden jog fenntartva!\" (all rights reserved). Agent decision, not a person's review: Z2, the spec default for competition statements, as for tubitak."
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
   wave: 1
-  state: planned
+  state: active
+  notes: "The Oktatási Hivatal has one page for each category of the OKTV in mathematics, under https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek_/oktv_kereteben/versenyfeladatok_javitasi_utmutatok/tartalomjegyzek/ (matematika_I, matematika_II and matematika_III). Each page links the paper (feladatlap) and the marking guide (javítási-értékelési útmutató) of each round of the school years 2004/2005 to 2020/2021. The site blocks the default user agent of curl and does not answer from some networks. robots.txt (checked on 2026-11-12) is \"User-agent: *\" with \"Allow: /\"."
 
 - id: dms-rs
   name: Mathematical Society of Serbia

@@ -1,0 +1,42 @@
+year: 2008
+official:
+  - lang: Hungarian
+    code: hu
+    url: https://www.oktatas.hu/pub_bin/dload/kozoktatas/tanulmanyi_versenyek/oktv/oktv_2007_2008/oktv0708_mat1_d_flut.pdf
+    paper: cat1-final
+    source: oktatas-oktv
+  - lang: Hungarian
+    code: hu
+    url: https://www.oktatas.hu/pub_bin/dload/kozoktatas/tanulmanyi_versenyek/oktv/oktv_2007_2008/mat1_flap1f_oktv0708.pdf
+    paper: cat1-round1
+    source: oktatas-oktv
+  - lang: Hungarian
+    code: hu
+    url: https://www.oktatas.hu/pub_bin/dload/kozoktatas/tanulmanyi_versenyek/oktv/oktv_2007_2008/mat1_flap2f_oktv0708.pdf
+    paper: cat1-round2
+    source: oktatas-oktv
+  - lang: Hungarian
+    code: hu
+    url: https://www.oktatas.hu/pub_bin/dload/kozoktatas/tanulmanyi_versenyek/oktv/oktv_2007_2008/oktv0708_mat2_d_flut.pdf
+    paper: cat2-final
+    source: oktatas-oktv
+  - lang: Hungarian
+    code: hu
+    url: https://www.oktatas.hu/pub_bin/dload/kozoktatas/tanulmanyi_versenyek/oktv/oktv_2007_2008/mat2_flap1f_oktv0708.pdf
+    paper: cat2-round1
+    source: oktatas-oktv
+  - lang: Hungarian
+    code: hu
+    url: https://www.oktatas.hu/pub_bin/dload/kozoktatas/tanulmanyi_versenyek/oktv/oktv_2007_2008/mat2_flap2f_oktv0708.pdf
+    paper: cat2-round2
+    source: oktatas-oktv
+  - lang: Hungarian
+    code: hu
+    url: https://www.oktatas.hu/pub_bin/dload/kozoktatas/tanulmanyi_versenyek/oktv/oktv_2007_2008/oktv0708_mat3_d_flut.pdf
+    paper: cat3-final
+    source: oktatas-oktv
+  - lang: Hungarian
+    code: hu
+    url: https://www.oktatas.hu/pub_bin/dload/kozoktatas/tanulmanyi_versenyek/oktv/oktv_2007_2008/mat3_flap1f_0708.pdf
+    paper: cat3-round1
+    source: oktatas-oktv

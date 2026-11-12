@@ -1,0 +1,7 @@
+id: a431a2cf6324
+kind: merge
+records: [XXV09M0FZX, 24ZQRRXHVP]
+decision: accept
+by: agent
+date: "2026-11-12"
+note: "Agent decision, not a person's review. The German IMO selection 2001 paper has this problem as problem 4. An agent read the German text and the shortlist text of isl/2000/a2 and found the same problem. Note: identical: fractional parts in (1/3,2/3]"

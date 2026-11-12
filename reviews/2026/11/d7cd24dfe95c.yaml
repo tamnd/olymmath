@@ -1,0 +1,7 @@
+id: d7cd24dfe95c
+kind: merge
+records: [6F68PMS8A1, A4H44GYZJ8]
+decision: accept
+by: agent
+date: "2026-11-12"
+note: "Agent decision, not a person's review. The German IMO selection 2002 paper has this problem as problem 6. An agent read the German text and the shortlist text of isl/2001/n1 and found the same problem. Note: leading digits of (n+k)!, identical"

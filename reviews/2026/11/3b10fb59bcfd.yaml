@@ -1,0 +1,7 @@
+id: 3b10fb59bcfd
+kind: merge
+records: [PH8EVTKS75, BXGY9CG6CH]
+decision: accept
+by: agent
+date: "2026-11-12"
+note: "Agent decision, not a person's review. The German IMO selection 2020 paper has this problem as problem 3. An agent read the German text and the shortlist text of isl/2019/n8 and found the same problem. Note: identical statement, a,b renamed m,n"

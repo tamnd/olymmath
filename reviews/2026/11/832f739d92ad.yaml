@@ -1,0 +1,7 @@
+id: 832f739d92ad
+kind: merge
+records: [4ZKYBPQ188, 57CAGFCCB3]
+decision: accept
+by: agent
+date: "2026-11-12"
+note: "Agent decision, not a person's review. The German IMO selection 2022 paper has this problem as problem 6. An agent read the German text and the shortlist text of isl/2021/g3 and found the same problem. Note: Version 1; \"non-degenerate\" only makes the usual convention explicit"

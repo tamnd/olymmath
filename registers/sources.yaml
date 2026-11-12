@@ -860,6 +860,22 @@
   state: active
   notes: The papers of the two rounds of each year are in German, with four problems each. The listing page is https://www.mathe-wettbewerbe.de/aufgaben.
 
+- id: aimo-awb
+  name: German IMO selection (Auswahlwettbewerb)
+  kind: official
+  origin: H1
+  url: https://www.mathe-wettbewerbe.de/aufgaben
+  access: pdf
+  terms: "The pages and the papers state no licence. The imprint of Bildung & Begabung has only a disclaimer. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), as for the source bundeswettbewerb on the same site, so the content holds the statement of each problem with the name of the organizer and a link to the paper."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: 23 papers of the German IMO selection, for the IMO 2000 to 2022
+  wave: 1
+  state: active
+  notes: The task page of the Bundeswettbewerb Mathematik also links the papers of the selection for the IMO 2000 to 2022, as aufgaben_awb_00.pdf to aufgaben_awb_20.pdf and 2021_IMO_Auswahlklausuren_HP.pdf. One file holds all the tests (Auswahlklausuren) of its year. Each test takes 180 minutes and numbers its problems from 1. The files of the solutions (loes_awkl, Lsg) are not used. The robots.txt disallows only some query and system paths, not the folder of the files (checked on 2026-11-12). om papers aimo-awb records the papers.
+
 - id: mccme-vmo
   name: All-Russian olympiad archive
   kind: official

@@ -897,12 +897,14 @@
   origin: H1
   url: https://mmo.mccme.ru/
   access: html
+  terms: "The year pages state no licence. The MCCME books of the olympiad say that their electronic version is free for non-commercial use and ask for a link to the source (read on 2026-11-12). Agent decision, not a person's review: Z2, the spec default for competition statements, with a link to the page or the PDF of each problem."
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
   wave: 1
-  state: planned
+  state: active
+  notes: The year pages, such as /2005/mmo2005.htm and /2019/, give the papers of each grade in HTML. The papers of 2009 to 2018 are only PDFs (var.pdf and a file for the second day of grade 11), and their text layer loses letters and formulas, so a model read their texts from the page images. The robots.txt of mmo.mccme.ru gives 404, so all paths are allowed (checked on 2026-11-12).
 
 - id: turgor
   name: Tournament of Towns

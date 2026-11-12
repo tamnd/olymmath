@@ -1,0 +1,9 @@
+id: 7894c8551023
+kind: pair
+records:
+    - M10WTG569K
+    - ZFHSF22AZ9
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import linked row 8480 of NuminaMath 1.5 to loose record ZFHSF22AZ9, which holds a row from the same dataset, so the row added no statement. They are two problems: the row asks for g(2022) with g(x-y)=2022(g(x)+g(y))-2021xy, the record for g(2021) with g(x-y)=g(x)+g(y)-2022(x+y). The agent made row 8480 its own loose record and dropped the dataset answer, which it did not check.'

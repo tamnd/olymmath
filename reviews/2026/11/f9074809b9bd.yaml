@@ -1,0 +1,9 @@
+id: f9074809b9bd
+kind: pair
+records:
+    - B14HFBHE4E
+    - cn-gmo/2006/p8
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import linked row 20105 of NuminaMath 1.5 to cn-gmo/2006/p8, but they are two problems: the row allows any p>2 not divisible by 3, the record only primes greater than 3. Row 20105 is now its own loose record.'

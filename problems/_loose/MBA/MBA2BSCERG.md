@@ -1,0 +1,28 @@
+---
+tag: MBA2BSCERG
+kind: problem
+type: answer
+answer: "60"
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=15462
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Several stones are arranged in 5 piles. It is known that
+
+- in the fifth pile, there are six times more stones than in the third;
+- in the second pile, there are twice as many stones as in the third and fifth combined;
+- in the first pile, there are three times fewer stones than in the fifth, and ten fewer than in the fourth;
+- in the fourth pile, there are half as many stones as in the second.
+
+How many stones are there in total in these five piles?

@@ -1,0 +1,9 @@
+id: 1ffc5e21f844
+kind: pair
+records:
+    - YW17716DB0
+    - igo/2015/e2
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import linked row 18341 of NuminaMath 1.5 to igo/2015/e2, but they are two problems: the row asks to prove that MN is perpendicular to AC, the record asks for the angles B and C. Row 18341 is now its own loose record.'

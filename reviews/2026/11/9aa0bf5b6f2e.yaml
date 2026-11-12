@@ -1,0 +1,8 @@
+id: 9aa0bf5b6f2e
+kind: sample
+records:
+    - MZ0VABKY2N
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The text states one construction problem (7 rose bushes in 5 rows of three) and no solution. The dataset answer was the word ''notfound'', so the agent removed the answer.'

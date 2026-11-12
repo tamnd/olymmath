@@ -1,0 +1,9 @@
+id: 1757c1a71e69
+kind: pair
+records:
+    - APWRECE0Z2
+    - DNFR9YXHRE
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 15554 to row 13927 of NuminaMath 1.5, but they are two problems: one asks for six lines with six intersection points, the other for five lines with five points. Row 15554 is now its own loose record.'

@@ -1,0 +1,8 @@
+id: ed3290582577
+kind: sample
+records:
+    - W7B9M3VMAP
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The text states one complete problem and no solution. The dataset answer had lost its spaces and commas, so the agent rewrote it as 7x4 and 1x21, or 1x33 and 1x16. Both pairs use 49 squares and their perimeters differ by a factor of 2.'

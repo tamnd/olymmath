@@ -1,0 +1,8 @@
+id: e4696a8ac5c3
+kind: sample
+records:
+    - MNRYC04RX0
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The text states one complete problem and no solution; the agent cut a solution that followed it. The answer (2;2), (-2;2) is right: both pairs satisfy the equation.'

@@ -1,0 +1,9 @@
+id: 8b37c21c80b3
+kind: pair
+records:
+    - 7CWR2CKX6N
+    - ESVT109QWP
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import linked row 16483 of NuminaMath 1.5 to ESVT109QWP, but they are two problems: the row asks for the sum of 1/(1+a+ab) and the others, the record asks for the values of the sum with 1+a, 1+b, 1+c on top. Row 16483 is now its own loose record.'

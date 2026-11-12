@@ -1,0 +1,19 @@
+---
+tag: JBVP2CW04J
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=16388
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Do there exist positive numbers $a, b, c, d$ such that the numbers $d$ and $\sqrt{d}$ are the roots of the equations $a x+b=c$ and $\sqrt{a} x+\sqrt{b}=\sqrt{c}$, respectively?

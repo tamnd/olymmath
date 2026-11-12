@@ -15,10 +15,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-numina-olympiads
+    url: https://huggingface.co/datasets/project-numina/olympiads
+    capture: hf-numina-olympiads/default/train/0000.parquet#row=11061
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: jbmo-sl/2005
+    source: hf-numina-olympiads
+    label: JBMO-SL
 ---
-NT4. Find all the three digit numbers $\overline{a b c}$ such that
+Find all the three digit numbers $\overline{a b c}$ such that
 
 $$
 \overline{a b c}=a b c(a+b+c)

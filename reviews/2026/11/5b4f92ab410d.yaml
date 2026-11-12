@@ -1,0 +1,9 @@
+id: 5b4f92ab410d
+kind: pair
+records:
+    - GPPHREXNX1
+    - NDY3T04AG0
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import linked row 16785 of NuminaMath 1.5 to NDY3T04AG0, but they are two problems: the row asks for a, b, c so that all three lines pass through (1;3), the record asks to prove a fact about the third line. Row 16785 is now its own loose record.'

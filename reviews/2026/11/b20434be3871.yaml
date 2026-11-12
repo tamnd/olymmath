@@ -1,0 +1,8 @@
+id: b20434be3871
+kind: sample
+records:
+    - 80XWMQ5F6M
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The text states one complete problem and no solution. The answer 66 is right: the weights are 66, 65, 61 and 58 kg. It replaces sample record 7GVBVMD7VX, which the agent removed because the size of the grid is missing from the text.'

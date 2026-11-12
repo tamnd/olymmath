@@ -1,0 +1,8 @@
+id: 71260fd5f5a0
+kind: sample
+records:
+    - 2TEN3RXA46
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The text states one complete problem and no solution. The answer 17 is right: 3 times 3 plus 17 times 5 is 94.'

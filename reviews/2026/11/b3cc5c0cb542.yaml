@@ -1,0 +1,9 @@
+id: b3cc5c0cb542
+kind: pair
+records:
+    - M2BB0VPCD6
+    - JKD00RZNZ3
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import linked row 16665 of NuminaMath 1.5 to JKD00RZNZ3, but they are two problems: the row has a trapezoid and asks to prove that BMC is isosceles, the record has a cyclic quadrilateral and asks to prove that O is the incenter of BMC. Row 16665 is now its own loose record.'

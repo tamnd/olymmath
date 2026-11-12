@@ -1,0 +1,21 @@
+---
+tag: 9S1HE9GW9E
+kind: problem
+type: answer
+answer: "11"
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=17468
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+In the fishing, 11 experienced fishermen and $n$ children participated. Together they caught $n^{2}+$ $5 n+22$ fish, with all experienced fishermen catching the same amount, and all children catching the same amount, but each 10 less than an experienced fisherman. Who was there more of at the fishing - experienced fishermen or children?

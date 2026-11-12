@@ -1,0 +1,9 @@
+id: 3deceeec19ab
+kind: pair
+records:
+    - 2CAGRTXEKH
+    - ZE46JPJFVZ
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 17188 to row 13967 of NuminaMath 1.5, but they are two problems: the given statements differ, and only one asks how many sophists live on the island. Row 17188 is now its own loose record.'

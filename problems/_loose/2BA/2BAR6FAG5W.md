@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-numina-olympiads
+    url: https://huggingface.co/datasets/project-numina/olympiads
+    capture: hf-numina-olympiads/default/train/0000.parquet#row=11029
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: jbmo-sl/2003
+    source: hf-numina-olympiads
+    label: JBMO-SL
 ---
-GEO 5. Let three congruent circles intersect in one point $M$ and $A_{1}, A_{2}$ and $A_{3}$ be the other intersection points for those circles. Prove that $M$ is a.orthocenter for a triangle $A_{1} A_{2} A_{3}$.
+Let three congruent circles intersect in one point $M$ and $A_{1}, A_{2}$ and $A_{3}$ be the other intersection points for those circles. Prove that $M$ is a.orthocenter for a triangle $A_{1} A_{2} A_{3}$.

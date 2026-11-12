@@ -1,0 +1,9 @@
+id: 6781e414fb66
+kind: pair
+records:
+    - K6FFZZDCZ3
+    - STTCSMFD8G
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import linked row 13368 of NuminaMath 1.5 to STTCSMFD8G, but they are two problems: the row has 3*2^x+1 and the record has 2^x+1. Row 13368 is now its own loose record.'

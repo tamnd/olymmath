@@ -1,0 +1,9 @@
+id: 1dcc777bd482
+kind: pair
+records:
+    - 63TCGTTSG6
+    - 8CPXXMJK2F
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 16347 to row 15023 of NuminaMath 1.5, but they are two problems: one is about sets of natural numbers, the other about sets of real numbers. Row 16347 is now its own loose record.'

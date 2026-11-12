@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-numina-olympiads
+    url: https://huggingface.co/datasets/project-numina/olympiads
+    capture: hf-numina-olympiads/default/train/0000.parquet#row=11028
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: jbmo-sl/2003
+    source: hf-numina-olympiads
+    label: JBMO-SL
 ---
 Let $G$ be the centroid of the the triangle $A B C$. Reflect point $A$ across $C$ at $A^{\prime}$. Prove that $G, B, C, A^{\prime}$ are on the same circle if and only if $G A$ is perpendicular to $G C$.

@@ -1,0 +1,9 @@
+id: 08d5ddf0fc55
+kind: pair
+records:
+    - AX99QAJ9BQ
+    - RWMW85VV7S
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 19648 to row 19505 of NuminaMath 1.5, but they are two problems: one asks to prove that GCD(x,y,z)(y-x) is a square, the other that GCD(x,y,z)xyz is a square. Row 19648 is now its own loose record.'

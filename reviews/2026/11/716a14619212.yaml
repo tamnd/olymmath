@@ -1,0 +1,9 @@
+id: 716a14619212
+kind: pair
+records:
+    - 6VXJY9Z3KX
+    - 99JY6HCJ5H
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 15210 to row 13404 of NuminaMath 1.5, but they are two problems: one puts five elephants on the left and four on the right, the other three and two. Row 15210 is now its own loose record.'

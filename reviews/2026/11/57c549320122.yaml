@@ -1,0 +1,9 @@
+id: 57c549320122
+kind: pair
+records:
+    - 11V4Y0XAKS
+    - B1Y9BXKNBY
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 21345 to row 21344 of NuminaMath 1.5, but they are two problems: one asks for prime n and natural k, the other for natural n and composite k. Row 21345 is now its own loose record.'

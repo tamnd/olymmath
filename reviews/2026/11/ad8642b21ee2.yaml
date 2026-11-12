@@ -1,0 +1,8 @@
+id: ad8642b21ee2
+kind: sample
+records:
+    - APWRECE0Z2
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The text states one construction problem (six lines with six intersection points) and no solution. The import had joined it to the problem with five lines, and the agent split it. The agent removed a lone ''#'' line at the end.'

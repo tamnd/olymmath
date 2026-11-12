@@ -1,0 +1,8 @@
+id: 6b45b06e3fd6
+kind: sample
+records:
+    - AVRK5VHBEY
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The text states one complete problem and no solution. The answer 6 is right: the graph K3,3 works and fewer people cannot.'

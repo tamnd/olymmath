@@ -1,0 +1,9 @@
+id: fe7805e28ab9
+kind: pair
+records:
+    - S5H1PBF244
+    - by-mo/1995/p6
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import linked row 17240 of NuminaMath 1.5 to by-mo/1995/p6, but they are two problems: the row gives a common root and asks for p+q, the record asks to prove that one of the equations has a real root. Row 17240 is now its own loose record.'

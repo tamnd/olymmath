@@ -1,0 +1,9 @@
+id: 8e35d6b47524
+kind: pair
+records:
+    - M10WTG569K
+    - MJEM34YBTE
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. Rows 8480 and 8484 of NuminaMath 1.5 are two problems: the equations g(x-y)=2022(g(x)+g(y))-2021xy and g(x-y)=2021(g(x)+g(y))-2022xy differ, and so do the points 2022 and 2021.'

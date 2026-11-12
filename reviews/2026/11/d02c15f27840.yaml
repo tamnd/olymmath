@@ -1,0 +1,9 @@
+id: d02c15f27840
+kind: pair
+records:
+    - N6BV1YY31W
+    - F56HPH1VDB
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 15996 to row 15324 of NuminaMath 1.5, but they are two problems: one has y-1, z-1, x-1 on the right, the other has y+1, z+1, x+1. Row 15996 is now its own loose record.'

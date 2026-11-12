@@ -1,0 +1,9 @@
+id: 959df33da219
+kind: pair
+records:
+    - 2XT3SAWPPE
+    - PJ267PKNT2
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 14492 to row 14355 of NuminaMath 1.5, but they are two problems: the story is the same but the people differ (sages and jesters around a table, tigers and monkeys around a stump), and the question about n may have a different answer. Row 14492 is now its own loose record.'

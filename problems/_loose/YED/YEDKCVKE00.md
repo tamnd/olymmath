@@ -1,0 +1,21 @@
+---
+tag: YEDKCVKE00
+kind: problem
+type: answer
+answer: "10:33"
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=18224
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+A cyclist is riding on a track at a constant speed. It is known that at $11:22$ he had traveled 1.4 times the distance he had traveled by $11:08$. When did he start?

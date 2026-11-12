@@ -1,0 +1,9 @@
+id: b5a7b66c2644
+kind: pair
+records:
+    - 749TPF8H9K
+    - 48MJCET379
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 19075 to row 19065 of NuminaMath 1.5, but they are two problems: one is the equation 2021 x^(2020/202) - 1 = 2020x, the other is the inequality with the same sides. Row 19075 is now its own loose record.'

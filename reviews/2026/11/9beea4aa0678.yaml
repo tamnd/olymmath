@@ -1,0 +1,9 @@
+id: 9beea4aa0678
+kind: pair
+records:
+    - 9ZNP6Y6B37
+    - CKFTZ4YN32
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import linked row 12620 of NuminaMath 1.5 to CKFTZ4YN32, but they are two problems: the row asks if each of the three quadratics can have a root, the record asks for the largest total number of real roots. Row 12620 is now its own loose record.'

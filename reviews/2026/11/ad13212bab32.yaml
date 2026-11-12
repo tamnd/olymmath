@@ -1,0 +1,9 @@
+id: ad13212bab32
+kind: pair
+records:
+    - B54G1FF4MH
+    - A23F4NP3RQ
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import linked row 6170 of NuminaMath 1.5 to loose record A23F4NP3RQ, which holds a row from the same dataset, so the row added no statement. They are two problems: the row has x^4+3x^3+x^2+ax+b and the record x^4-x^3+x^2+ax+b. The agent made row 6170 its own loose record and dropped the dataset answer, which it did not check.'

@@ -1,0 +1,8 @@
+id: b7133bdf2a25
+kind: match
+records:
+    - ZZ5FWW6024
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. Row 15124 was joined into this record, which holds row 13312. The two rows state the same problem; one writes a^3+b^3+12ab and the other a^3+12ab+b^3, which is the same expression.'

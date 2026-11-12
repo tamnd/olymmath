@@ -1,0 +1,9 @@
+id: c6c8d000debf
+kind: pair
+records:
+    - X9YMQ60EEC
+    - YBDRATQ64V
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import linked row 4572 of NuminaMath 1.5 to loose record YBDRATQ64V, which holds a row from the same dataset, so the row added no statement. They are two problems: the row asks to write 2016 as a product of three palindromes, the record asks to prove a claim about 20162016...2016. The agent made row 4572 its own loose record and dropped the dataset answer, which it did not check.'

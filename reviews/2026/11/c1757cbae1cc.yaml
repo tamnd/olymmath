@@ -1,0 +1,9 @@
+id: c1757cbae1cc
+kind: pair
+records:
+    - HJBBBFGD87
+    - PHGHGT79C6
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import linked row 5888 of NuminaMath 1.5 to loose record PHGHGT79C6, which holds a row from the same dataset, so the row added no statement. They are two problems: the row asks for the circumradius of triangle CNM, the record for the length of AN. The agent made row 5888 its own loose record and dropped the dataset answer, which it did not check.'

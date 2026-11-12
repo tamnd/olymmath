@@ -1,0 +1,19 @@
+---
+tag: PN89E2B0ZJ
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=13399
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Do there exist positive numbers $a, b, c$ such that the numbers $d$ and $\sqrt{d}$ are respectively roots of the equations $a x^{2}+b x-c=0$ and $\sqrt{a} x^{2}+\sqrt{b} x-\sqrt{c}=0 ?$

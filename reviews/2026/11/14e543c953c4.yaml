@@ -1,0 +1,7 @@
+id: 14e543c953c4
+kind: merge
+records: [QDN6N1GRJ9, Q32GRZ3A6E]
+decision: accept
+by: agent
+date: "2026-11-12"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem Q32GRZ3A6E, labeled 2017 Romania National Olympiad, and the official SSMR paper at ro-nmo/2017/p81 state the same problem with the same data and the same question. The loose problem became a second statement of ro-nmo/2017/p81."

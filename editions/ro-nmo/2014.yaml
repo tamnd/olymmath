@@ -12,3 +12,34 @@ papers:
     problems: [p111, p112, p113, p114]
   - name: Grade 12
     problems: [p121, p122, p123, p124]
+official:
+  - lang: Romanian
+    code: ro
+    url: https://ssmr.ro/files/onm2014/faza_nationala/subiecte/subiecte_7.pdf
+    paper: grade7
+    source: ssmr-onm
+  - lang: Romanian
+    code: ro
+    url: https://ssmr.ro/files/onm2014/faza_nationala/subiecte/subiecte_8.pdf
+    paper: grade8
+    source: ssmr-onm
+  - lang: Romanian
+    code: ro
+    url: https://ssmr.ro/files/onm2014/faza_nationala/subiecte/subiecte_9.pdf
+    paper: grade9
+    source: ssmr-onm
+  - lang: Romanian
+    code: ro
+    url: https://ssmr.ro/files/onm2014/faza_nationala/subiecte/subiecte_10.pdf
+    paper: grade10
+    source: ssmr-onm
+  - lang: Romanian
+    code: ro
+    url: https://ssmr.ro/files/onm2014/faza_nationala/subiecte/subiecte_11.pdf
+    paper: grade11
+    source: ssmr-onm
+  - lang: Romanian
+    code: ro
+    url: https://ssmr.ro/files/onm2014/faza_nationala/subiecte/subiecte_12.pdf
+    paper: grade12
+    source: ssmr-onm

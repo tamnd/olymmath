@@ -1586,6 +1586,22 @@
   state: active
   notes: The secondary school page of the DMS links the paper of the Serbian MO for 2008 to 2014, 2016 to 2019 and 2022 to 2024. The files of the solutions (resenja) and the results (rezultati) are not used. The papers of 2008 to 2011 and 2013 number the problems of each day 1 to 3, so only the first day splits by number. The robots.txt only disallows /wp-admin/ (checked on 2026-11-03). om papers dms-rs records the papers.
 
+- id: ssmr-onm
+  name: Romanian Mathematical Society (SSMR)
+  kind: official
+  origin: H1
+  url: https://ssmr.ro/onm2016
+  access: pdf
+  terms: "The copyright note of the SSMR (https://ssmr.ro/node/463, read on 2026-11-12) says that the SSMR holds the rights to the problems of the contests that it organizes, and that any commercial use needs its written consent. It gives no open licence. Agent decision, not a person's review: the statements are Z2, as for dms-rs, so the content holds the statement of each problem with the name of the organizer and a link to the paper."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: 42 papers of the national round of ro-nmo, grades 7 to 12, for 2013 to 2017, 2019 and 2021
+  wave: 1
+  state: active
+  notes: The SSMR has a page for each olympiad (ssmr.ro/onm2013 and on) that links the paper of each grade of the national round. The page of 2015 links only the earlier rounds, so the source uses onm2015.ssmr.ro/subiecte, which links the solutions of each grade. They state each problem first. The Hungarian versions (_HU), the county round and the selection tests (juniori, seniori) are not used. The robots.txt of ssmr.ro and of onm2015.ssmr.ro asks for a crawl delay of 10 seconds and disallows only the Drupal system paths, not /files/ (checked on 2026-11-12). om papers ssmr-onm records the papers.
+
 - id: math-bas-bg
   name: Bulgarian Academy of Sciences (BCMI)
   kind: official

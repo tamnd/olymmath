@@ -2322,8 +2322,8 @@
     - {from: 2013, to: 2017, per_year: 24, layout: [{paper: grade7, name: Grade 7, positions: [p71, p72, p73, p74]}, {paper: grade8, name: Grade 8, positions: [p81, p82, p83, p84]}, {paper: grade9, name: Grade 9, positions: [p91, p92, p93, p94]}, {paper: grade10, name: Grade 10, positions: [p101, p102, p103, p104]}, {paper: grade11, name: Grade 11, positions: [p111, p112, p113, p114]}, {paper: grade12, name: Grade 12, positions: [p121, p122, p123, p124]}]}
     - {from: 2019, to: 2019, per_year: 24, layout: [{paper: grade7, name: Grade 7, positions: [p71, p72, p73, p74]}, {paper: grade8, name: Grade 8, positions: [p81, p82, p83, p84]}, {paper: grade9, name: Grade 9, positions: [p91, p92, p93, p94]}, {paper: grade10, name: Grade 10, positions: [p101, p102, p103, p104]}, {paper: grade11, name: Grade 11, positions: [p111, p112, p113, p114]}, {paper: grade12, name: Grade 12, positions: [p121, p122, p123, p124]}]}
     - {from: 2021, to: 2021, per_year: 24, layout: [{paper: grade7, name: Grade 7, positions: [p71, p72, p73, p74]}, {paper: grade8, name: Grade 8, positions: [p81, p82, p83, p84]}, {paper: grade9, name: Grade 9, positions: [p91, p92, p93, p94]}, {paper: grade10, name: Grade 10, positions: [p101, p102, p103, p104]}, {paper: grade11, name: Grade 11, positions: [p111, p112, p113, p114]}, {paper: grade12, name: Grade 12, positions: [p121, p122, p123, p124]}]}
-  sources: [imomath, hf-mathnet]
-  description: The national olympiad of Romania for grades 7 to 12. No official archive has been found.
+  sources: [imomath, hf-mathnet, ssmr-onm]
+  description: The national olympiad of Romania for grades 7 to 12. The Romanian Mathematical Society (SSMR) links the papers of the national round from 2013 on its pages ssmr.ro/onmYYYY.
 
 - code: ro-tst
   name: Romanian IMO Team Selection Test

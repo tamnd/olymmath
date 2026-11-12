@@ -638,3 +638,17 @@ de-tst/2022/p4	isl/2021/a1	none	0.051	none	text	394679129043	0.401
 de-tst/2022/p5	isl/2021/n1	none	0.084	none	text	0cc87cc89f20	0.502
 de-tst/2022/p6	isl/2021/g3	none	0.004	none	text	832f739d92ad	0.000
 de-tst/2011/p4	isl/2010/a4	none	0.167	none	text	3f82ba724345	0.382
+fr-tst/2021/p8	fr-tst/2021/p7	none	1.000	none	text	057f7baead39	1.000
+fr-tst/2021/p18	fr-tst/2021/p14	none	0.600	none	text	1a8086acea79	0.767
+fr-tst/2022/p9	fr-tst/2022/p8	none	1.000	none	text	b81ffcdfe6f7	1.000
+fr-tst/2022/p26	fr-tst/2022/p25	none	1.000	none	text	bae1f9527400	1.000
+fr-tst/2022/p33	fr-tst/2022/p32	none	1.000	none	text	f8b66b0e4b18	1.000
+fr-tst/2023/p9	fr-tst/2023/p8	none	1.000	none	text	13ee76a65f95	1.000
+fr-tst/2023/p19	fr-tst/2023/p15	none	0.906	none	text	5527d57b1acb	0.941
+fr-tst/2024/p9	fr-tst/2024/p8	none	1.000	none	text	7b62c277df11	1.000
+fr-tst/2024/p33	fr-tst/2024/p32	none	1.000	none	text	429ab9f92982	1.000
+fr-tst/2025/p9	fr-tst/2025/p8	none	1.000	none	text	89282b13bea7	1.000
+fr-tst/2025/p26	fr-tst/2025/p25	none	1.000	none	text	161ede1546f5	1.000
+fr-tst/2026/p9	fr-tst/2026/p8	none	0.889	none	text	eba3014500ab	0.997
+fr-tst/2026/p26	fr-tst/2026/p25	none	0.958	none	text	735a1ddb4d5d	1.000
+fr-tst/2026/p33	fr-tst/2026/p32	none	0.714	none	text	10968ed5c5d1	0.918

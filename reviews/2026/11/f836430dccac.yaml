@@ -1,0 +1,8 @@
+id: f836430dccac
+kind: sample
+records:
+    - RWJ26KX1N6
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. I compared the text of fr-tst/2023/p25 with page 2 of the official PDF, as an image, word by word and formula by formula. The text, the formulas and the order of the paragraphs agree with the paper. The paper writes "Démonter". The text keeps the wording of the paper.'

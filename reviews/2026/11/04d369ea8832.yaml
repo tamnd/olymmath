@@ -1,0 +1,8 @@
+id: 04d369ea8832
+kind: sample
+records:
+    - 95K8KWMDD7
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. I compared the text of fr-tst/2023/p22 with page 2 of the official PDF, as an image, word by word and formula by formula. The text, the formulas and the order of the paragraphs agree with the paper.'

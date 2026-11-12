@@ -1,0 +1,38 @@
+year: 2024
+papers:
+  - name: Test 1
+    problems: [p1, p2, p3, p4]
+  - name: Test 2
+    problems: [p5, p6, p7, p8, p9, p10, p11]
+  - name: Test 3
+    problems: [p12, p13, p14, p15, p16, p17, p18, p19, p20, p21]
+  - name: Test 4
+    problems: [p22, p23, p24, p25, p26, p27, p28]
+  - name: Test 5
+    problems: [p29, p30, p31, p32, p33, p34, p35]
+official:
+  - lang: French
+    code: fr
+    url: https://maths-olympiques.fr/wp-content/uploads/2025/01/Enonce-Test-1.pdf
+    paper: test1
+    source: maths-olympiques
+  - lang: French
+    code: fr
+    url: https://maths-olympiques.fr/wp-content/uploads/2025/01/Enonce-Test-2.pdf
+    paper: test2
+    source: maths-olympiques
+  - lang: French
+    code: fr
+    url: https://maths-olympiques.fr/wp-content/uploads/2025/01/Enonce-Test-3.pdf
+    paper: test3
+    source: maths-olympiques
+  - lang: French
+    code: fr
+    url: https://maths-olympiques.fr/wp-content/uploads/2025/01/Enonce-Test-4.pdf
+    paper: test4
+    source: maths-olympiques
+  - lang: French
+    code: fr
+    url: https://maths-olympiques.fr/wp-content/uploads/2025/01/Enonce-Test-5.pdf
+    paper: test5
+    source: maths-olympiques

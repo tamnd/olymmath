@@ -1,0 +1,9 @@
+id: 37844757cc38
+kind: placement
+records:
+    - smt/2013/v1
+    - smt/2013/e21
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The loose AoPS record SPRCY5PAG0 has the same statement as the problem at smt/2013/v1 in the official paper of the round (page 1). I compared the texts. So the record now has this position and the official text. The same problem is also at smt/2013/e21 in another round of this year, so the record has that appearance too.'

@@ -1480,11 +1480,77 @@
   group: usa
   level: high-school
   country: US
-  url: https://sumo.stanford.edu/smt
+  url: https://www.stanfordmathtournament.org/
   edition_form: year
+  official_solutions: true
   languages: [en]
-  sources: [hf-matharena]
-  description: A student-run tournament with about 150 problems a year. Its archive is not confirmed.
+  # Agent decision, not a person's review: the layout follows the problem files of each round on the archive of the tournament. Each round numbers its problems from 1, so each round is its own paper with its own letter. The team round of 2018 has 15 problems with an answer and then 5 proof problems that number again from 1 (tp1 to tp5). The power round is left out, because it is one long problem with many numbered parts. The integration bee of 2025 is left out too. The archive gives no guts round for 2011 to 2014 and 2018 to 2019, and the link of the guts round of 2020 gives no PDF. SMT was not held at Stanford in 2015 to 2017.
+  eras:
+    - from: 2011
+      to: 2014
+      per_year: 80
+      layout:
+        - {paper: algebra, name: Algebra, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]}
+        - {paper: calculus, name: Calculus, positions: [k1, k2, k3, k4, k5, k6, k7, k8, k9, k10]}
+        - {paper: geometry, name: Geometry, positions: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10]}
+        - {paper: advanced, name: Advanced Topics, positions: [v1, v2, v3, v4, v5, v6, v7, v8, v9, v10]}
+        - {paper: general, name: General, positions: [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13, e14, e15, e16, e17, e18, e19, e20, e21, e22, e23, e24, e25]}
+        - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15]}
+    - from: 2018
+      to: 2018
+      per_year: 85
+      layout:
+        - {paper: algebra, name: Algebra, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]}
+        - {paper: calculus, name: Calculus, positions: [k1, k2, k3, k4, k5, k6, k7, k8, k9, k10]}
+        - {paper: discrete, name: Discrete, positions: [d1, d2, d3, d4, d5, d6, d7, d8, d9, d10]}
+        - {paper: geometry, name: Geometry, positions: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10]}
+        - {paper: general, name: General, positions: [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13, e14, e15, e16, e17, e18, e19, e20, e21, e22, e23, e24, e25]}
+        - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15, tp1, tp2, tp3, tp4, tp5]}
+    - from: 2019
+      to: 2020
+      per_year: 80
+      layout:
+        - {paper: algebra, name: Algebra, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]}
+        - {paper: calculus, name: Calculus, positions: [k1, k2, k3, k4, k5, k6, k7, k8, k9, k10]}
+        - {paper: discrete, name: Discrete, positions: [d1, d2, d3, d4, d5, d6, d7, d8, d9, d10]}
+        - {paper: geometry, name: Geometry, positions: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10]}
+        - {paper: general, name: General, positions: [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13, e14, e15, e16, e17, e18, e19, e20, e21, e22, e23, e24, e25]}
+        - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15]}
+    - from: 2021
+      to: 2021
+      per_year: 113
+      layout:
+        - {paper: algebra, name: Algebra, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]}
+        - {paper: combo, name: Combinatorics, positions: [c1, c2, c3, c4, c5, c6, c7, c8, c9, c10]}
+        - {paper: nt, name: Number Theory, positions: [n1, n2, n3, n4, n5, n6, n7, n8, n9, n10]}
+        - {paper: geometry, name: Geometry, positions: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10]}
+        - {paper: general, name: General, positions: [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13, e14, e15, e16, e17, e18, e19, e20, e21, e22]}
+        - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15]}
+        - {paper: guts, name: Guts, positions: [u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11, u12, u13, u14, u15, u16, u17, u18, u19, u20, u21, u22, u23, u24, u25, u26, u27, u28, u29, u30, u31, u32, u33, u34, u35, u36]}
+    - from: 2022
+      to: 2024
+      per_year: 107
+      layout:
+        - {paper: algebra, name: Algebra, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]}
+        - {paper: calculus, name: Calculus, positions: [k1, k2, k3, k4, k5, k6, k7, k8, k9, k10]}
+        - {paper: discrete, name: Discrete, positions: [d1, d2, d3, d4, d5, d6, d7, d8, d9, d10]}
+        - {paper: geometry, name: Geometry, positions: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10]}
+        - {paper: general, name: General, positions: [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13, e14, e15, e16, e17, e18, e19, e20, e21, e22, e23, e24, e25]}
+        - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15]}
+        - {paper: guts, name: Guts, positions: [u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11, u12, u13, u14, u15, u16, u17, u18, u19, u20, u21, u22, u23, u24, u25, u26, u27]}
+    - from: 2025
+      to: 2025
+      per_year: 112
+      layout:
+        - {paper: algebra, name: Algebra, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]}
+        - {paper: calculus, name: Calculus, positions: [k1, k2, k3, k4, k5, k6, k7, k8, k9, k10]}
+        - {paper: discrete, name: Discrete, positions: [d1, d2, d3, d4, d5, d6, d7, d8, d9, d10]}
+        - {paper: geometry, name: Geometry, positions: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10]}
+        - {paper: general, name: General, positions: [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13, e14, e15, e16, e17, e18, e19, e20, e21, e22, e23, e24, e25]}
+        - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15]}
+        - {paper: guts, name: Guts, positions: [u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11, u12, u13, u14, u15, u16, u17, u18, u19, u20, u21, u22, u23, u24, u25, u26, u27, u28, u29, u30, u31, u32]}
+  sources: [stanford-smt, hf-matharena]
+  description: A student-run tournament of Stanford University. Its archive has the problems and the solutions of each round for 2011 to 2014 and 2018 to 2025.
 
 - code: arml
   name: American Regions Mathematics League

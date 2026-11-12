@@ -1,0 +1,8 @@
+id: a20e08037702
+kind: placement
+records:
+    - smt/2013/g10
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The loose AoPS record 7113927G5G has the same statement as the problem at smt/2013/g10 in the official paper of the round (page 1). I compared the texts. So the record now has this position and the official text.'

@@ -1,0 +1,8 @@
+id: 4997e51bce7f
+kind: placement
+records:
+    - smt/2022/a9
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The loose AoPS record 9RBT0TQ7GN has the same statement as the problem at smt/2022/a9 in the official paper of the round (page 1). I compared the texts. So the record now has this position and the official text.'

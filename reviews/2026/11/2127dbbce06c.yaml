@@ -1,0 +1,9 @@
+id: 2127dbbce06c
+kind: placement
+records:
+    - smt/2024/g6
+    - smt/2024/e23
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The loose AoPS record CK3ZVCT13H has the same statement as the problem at smt/2024/g6 in the official paper of the round (page 1). I compared the texts. So the record now has this position and the official text. The same problem is also at smt/2024/e23 in another round of this year, so the record has that appearance too.'

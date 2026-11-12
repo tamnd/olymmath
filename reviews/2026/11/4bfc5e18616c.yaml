@@ -1,0 +1,8 @@
+id: 4bfc5e18616c
+kind: placement
+records:
+    - smt/2018/g3
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The loose AoPS record 7PGZ24Q69D has the same statement as the problem at smt/2018/g3 in the official paper of the round (page 1). I compared the texts. So the record now has this position and the official text.'

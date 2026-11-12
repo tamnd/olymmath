@@ -1,0 +1,8 @@
+id: 0eaef3a8e967
+kind: placement
+records:
+    - smt/2022/g3
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The loose AoPS record P53D77ER58 has the same statement as the problem at smt/2022/g3 in the official paper of the round (page 1). I compared the texts. So the record now has this position and the official text.'

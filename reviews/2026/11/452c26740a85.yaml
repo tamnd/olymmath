@@ -1,0 +1,8 @@
+id: 452c26740a85
+kind: sample
+records:
+    - smt/2018/e5
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Checked by hand against page 1 of the 2018 general PDF. The points and the question match.'

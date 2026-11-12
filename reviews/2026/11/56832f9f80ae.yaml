@@ -1,0 +1,8 @@
+id: 56832f9f80ae
+kind: placement
+records:
+    - smt/2024/g8
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The loose AoPS record N6HZSVQE6P has the same statement as the problem at smt/2024/g8 in the official paper of the round (page 1). I compared the texts. So the record now has this position and the official text.'

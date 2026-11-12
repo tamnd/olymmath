@@ -1,0 +1,8 @@
+id: d2d120855401
+kind: sample
+records:
+    - smt/2022/d6
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Checked by hand against the 2022 discrete PDF. The recurrence and k = 18 match.'

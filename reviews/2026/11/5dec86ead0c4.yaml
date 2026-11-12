@@ -1,0 +1,8 @@
+id: 5dec86ead0c4
+kind: placement
+records:
+    - smt/2013/t4
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The loose AoPS record NT0EBDNVWB has the same statement as the problem at smt/2013/t4 in the official paper of the round (page 1). I compared the texts. So the record now has this position and the official text.'

@@ -1,0 +1,52 @@
+year: 2023
+papers:
+  - name: Algebra
+    problems: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]
+  - name: Calculus
+    problems: [k1, k2, k3, k4, k5, k6, k7, k8, k9, k10]
+  - name: Discrete
+    problems: [d1, d2, d3, d4, d5, d6, d7, d8, d9, d10]
+  - name: Geometry
+    problems: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10]
+  - name: General
+    problems: [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13, e14, e15, e16, e17, e18, e19, e20, e21, e22, e23, e24, e25]
+  - name: Team
+    problems: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15]
+  - name: Guts
+    problems: [u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11, u12, u13, u14, u15, u16, u17, u18, u19, u20, u21, u22, u23, u24, u25, u26, u27]
+official:
+  - lang: English
+    code: en
+    url: https://www.stanfordmathtournament.org/pdfs/smt2023/team-problems.pdf
+    paper: team
+    source: stanford-smt
+  - lang: English
+    code: en
+    url: https://www.stanfordmathtournament.org/pdfs/smt2023/algebra-problems.pdf
+    paper: algebra
+    source: stanford-smt
+  - lang: English
+    code: en
+    url: https://www.stanfordmathtournament.org/pdfs/smt2023/calculus-problems.pdf
+    paper: calculus
+    source: stanford-smt
+  - lang: English
+    code: en
+    url: https://www.stanfordmathtournament.org/pdfs/smt2023/discrete-problems.pdf
+    paper: discrete
+    source: stanford-smt
+  - lang: English
+    code: en
+    url: https://www.stanfordmathtournament.org/pdfs/smt2023/geometry-problems.pdf
+    paper: geometry
+    source: stanford-smt
+  - lang: English
+    code: en
+    url: https://www.stanfordmathtournament.org/pdfs/smt2023/general-problems.pdf
+    paper: general
+    source: stanford-smt
+  - lang: English
+    code: en
+    url: https://www.stanfordmathtournament.org/pdfs/smt2023/guts-problems.pdf
+    paper: guts
+    source: stanford-smt

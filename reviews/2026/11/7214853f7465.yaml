@@ -1,0 +1,8 @@
+id: 7214853f7465
+kind: sample
+records:
+    - smt/2014/k6
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Checked by hand against the page image of the 2014 calculus PDF. The limit matches.'

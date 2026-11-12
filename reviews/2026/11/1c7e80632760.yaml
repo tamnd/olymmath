@@ -1,0 +1,8 @@
+id: 1c7e80632760
+kind: placement
+records:
+    - smt/2020/g2
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The loose AoPS record T4HM1FD3W9 has the same statement as the problem at smt/2020/g2 in the official paper of the round (page 1). I compared the texts. So the record now has this position and the official text.'

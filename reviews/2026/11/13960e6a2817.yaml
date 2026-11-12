@@ -1,0 +1,9 @@
+id: 13960e6a2817
+kind: placement
+records:
+    - smt/2012/a5
+    - smt/2012/e24
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The loose AoPS record SKW3NCZM4C has the same statement as the problem at smt/2012/a5 in the official paper of the round (page 1). I compared the texts. So the record now has this position and the official text. The same problem is also at smt/2012/e24 in another round of this year, so the record has that appearance too.'

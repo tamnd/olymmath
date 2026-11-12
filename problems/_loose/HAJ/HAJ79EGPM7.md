@@ -1,0 +1,26 @@
+---
+tag: HAJ79EGPM7
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2009 AMC 10
+    url: https://artofproblemsolving.com/community/c6h261150
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=3160
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: amc10
+    source: hf-ai-mo-aops
+    label: 2009 AMC 10
+---
+Which of the following is equal to $ \dfrac{\frac{1}{3}-\frac{1}{4}}{\frac{1}{2}-\frac{1}{3}}$ ?
+
+$ \textbf{(A)}\ \frac{1}{4} \textbf{(B)}\ \frac{1}{3} \textbf{(C)}\ \frac{1}{2} \textbf{(D)}\ \frac{2}{3} \textbf{(E)}\ \frac{3}{4}$

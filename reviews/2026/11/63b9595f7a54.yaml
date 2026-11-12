@@ -1,0 +1,9 @@
+id: 63b9595f7a54
+kind: pair
+records:
+    - RPM1VKEWM4
+    - TNMY4PRB4D
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 14372 to this row, but they are two problems on the same sequence: one asks if 2001 and 2006 are terms, the other asks for the 4 terms after 2016. Row 14372 is now its own loose record.'

@@ -1,0 +1,24 @@
+---
+tag: 8C3CKXZNZV
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2022 IOQM India
+    url: https://artofproblemsolving.com/community/c6h2796894
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=327
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: in-prmo-ioqm/2022
+    source: hf-ai-mo-aops
+    label: 2022 IOQM India
+---
+For any real number $t$ , let $\lfloor t \rfloor$ denote the largest integer $\le t$ . Suppose that $N$ is the greatest integer such that $$ \left \lfloor \sqrt{\left \lfloor \sqrt{\left \lfloor \sqrt{N} \right \rfloor}\right \rfloor}\right \rfloor = 4 $$ Find the sum of digits of $N$ .

@@ -1,0 +1,8 @@
+id: aef6190a40d1
+kind: match
+records:
+    - amc12/2019b/p8
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import made the row of loose record GMPKYNSSTR a new record, but the agent found that it is amc12/2019b/p8: The two texts state the same problem with the same data and question, but they write the formulas in other ways, so no signal of the import was high enough. The agent moved the row to a second statement of amc12/2019b/p8 and removed the loose record.'

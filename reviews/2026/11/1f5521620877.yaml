@@ -1,0 +1,8 @@
+id: 1f5521620877
+kind: match
+records:
+    - XYBYS5HVC5
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. Row 26639 was joined into this record, which holds row 1514. The same problem about (n+m)(n+2m)...(n+km) divisible by k!.'

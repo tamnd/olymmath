@@ -1,0 +1,24 @@
+---
+tag: 7XNAH6P94S
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2018 Iran MO (3rd Round)
+    url: https://artofproblemsolving.com/community/c6h1702975
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=16665
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ir-mo/2018
+    source: hf-ai-mo-aops
+    label: 2018 Iran MO (3rd Round)
+---
+Find all functions $f: \mathbb{R}^{\ge 0} \to \mathbb{R}^{\ge 0}$ such that: $f(x^3+xf(xy))=f(xy)+x^2f(x+y) \forall x,y \in \mathbb{R}^{\ge 0}$

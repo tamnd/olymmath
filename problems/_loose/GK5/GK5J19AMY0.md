@@ -1,0 +1,24 @@
+---
+tag: GK5J19AMY0
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2017 Caucasus Mathematical Olympiad
+    url: https://artofproblemsolving.com/community/c6h1611849
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=21981
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: caucasus/2017
+    source: hf-ai-mo-aops
+    label: 2017 Caucasus Mathematical Olympiad
+---
+$10$ distinct numbers are given. Professor Odd had calculated all possible products of $1$ , $3$ , $5$ , $7$ , $9$ numbers among given numbers, and wrote down the sum of all these products. Similarly, Professor Even had calculated all possible products of $2$ , $4$ , $6$ , $8$ , $10$ numbers among given numbers, and wrote down the sum of all these products. It appears that Odd's sum is greater than Even's sum by $1$ . Prove that one of $10$ given numbers is equal to $1$ .

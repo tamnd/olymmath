@@ -1,0 +1,26 @@
+---
+tag: VYS8CS33GN
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2014 Online Math Open Problems
+    url: https://artofproblemsolving.com/community/c6h585513
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=11638
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: omo/2014
+    source: hf-ai-mo-aops
+    label: 2014 Online Math Open Problems
+---
+Let $L_n$ be the least common multiple of the integers $1,2,\dots,n$ . For example, $L_{10} = 2{,}520$ and $L_{30} = 2{,}329{,}089{,}562{,}800$ . Find the remainder when $L_{31}$ is divided by $100{,}000$ .
+
+*Proposed by Evan Chen*

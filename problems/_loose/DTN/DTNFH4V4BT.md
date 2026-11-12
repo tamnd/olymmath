@@ -1,0 +1,24 @@
+---
+tag: DTNFH4V4BT
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2010 Spain Mathematical Olympiad
+    url: https://artofproblemsolving.com/community/c6h391111
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=5712
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: es-ome/2010
+    source: hf-ai-mo-aops
+    label: 2010 Spain Mathematical Olympiad
+---
+A *pucelana* sequence is an increasing sequence of $16$ consecutive odd numbers whose sum is a perfect cube. How many pucelana sequences are there with $3$ -digit numbers only?

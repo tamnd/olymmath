@@ -1,0 +1,24 @@
+---
+tag: E0Q1YVEJQZ
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2013 All-Russian Olympiad
+    url: https://artofproblemsolving.com/community/c6h544389
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=9081
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ru-allrussian/2013
+    source: hf-ai-mo-aops
+    label: 2013 All-Russian Olympiad
+---
+Find all positive $k$ such that product of the first $k$ odd prime numbers, reduced by 1 is exactly degree of natural number (which more than one).

@@ -1,0 +1,8 @@
+id: 8c9d4cec4bdd
+kind: match
+records:
+    - hmmt/2017/a7
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The row 15402 (E 0.874, T 0.800, keyword match 0.885) and the text of hmmt/2017/a7 state the same problem with the same data and the same question. The row became a second statement of the record.'

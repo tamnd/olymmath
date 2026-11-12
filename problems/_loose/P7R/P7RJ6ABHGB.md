@@ -1,0 +1,28 @@
+---
+tag: P7RJ6ABHGB
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: Kvant 2020
+    url: https://artofproblemsolving.com/community/c6h3029522
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=26577
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: journal-kvant/2020
+    source: hf-ai-mo-aops
+    label: Kvant 2020
+---
+- The sum of several numbers is equal to one. Can the sum of their cubes be greater than one?
+
+- The same question as before, for numbers not exceeding one.
+
+- Can it happen that the series $a_1+a_2+\cdots$ converges, but the series $a_1^3+a_2^3+\cdots$ diverges?

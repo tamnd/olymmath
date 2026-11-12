@@ -1,0 +1,8 @@
+id: ebdcc11d13fc
+kind: match
+records:
+    - imc/2003/p10
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import made the row of loose record T2CE6G97YH a new record, but the agent found that it is imc/2003/p10: The two texts state the same problem with the same data and question, but they write the formulas in other ways, so no signal of the import was high enough. The agent moved the row to a second statement of imc/2003/p10 and removed the loose record.'

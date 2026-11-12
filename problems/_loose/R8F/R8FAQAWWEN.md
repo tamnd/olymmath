@@ -1,0 +1,25 @@
+---
+tag: R8FAQAWWEN
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2011 Morocco National Olympiad
+    url: https://artofproblemsolving.com/community/c6h403662
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=6833
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ma-mo/2011
+    source: hf-ai-mo-aops
+    label: 2011 Morocco National Olympiad
+---
+One integer was removed from the set $S=\left \{ 1,2,3,...,n \right \}$ of the integers from $1$ to $n$ . The arithmetic mean of the other integers of $S$ is equal to $\frac{163}{4}$ .
+What integer was removed ?

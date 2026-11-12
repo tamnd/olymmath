@@ -1,0 +1,24 @@
+---
+tag: XD9RG8SG5R
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2012 All-Russian Olympiad
+    url: https://artofproblemsolving.com/community/c6h481935
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=7579
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ru-allrussian/2012
+    source: hf-ai-mo-aops
+    label: 2012 All-Russian Olympiad
+---
+In a city's bus route system, any two routes share exactly one stop, and every route includes at least four stops. Prove that the stops can be classified into two groups such that each route includes stops from each group.

@@ -1,0 +1,26 @@
+---
+tag: M8ZWV6KCKX
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2020 Online Math Open Problems
+    url: https://artofproblemsolving.com/community/c6h2378332
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=19297
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: omo/2020
+    source: hf-ai-mo-aops
+    label: 2020 Online Math Open Problems
+---
+Let $m$ and $n$ be positive integers such that $\gcd(m,n)=1$ and $$ \sum_{k=0}^{2020} (-1)^k {{2020}\choose{k}} \cos(2020\cos^{-1}(\tfrac{k}{2020}))=\frac{m}{n}. $$ Suppose $n$ is written as the product of a collection of (not necessarily distinct) prime numbers. Compute the sum of the members of this collection. (For example, if it were true that $n=12=2\times 2\times 3$ , then the answer would be $2+2+3=7$ .)
+
+*Proposed by Ankit Bisain*

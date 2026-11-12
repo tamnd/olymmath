@@ -1,0 +1,8 @@
+id: 95eda80aff8b
+kind: match
+records:
+    - JTA3XQENVG
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. Row 22239 was joined into this record, which holds row 1507. The same equation x^3 y + x + y = xy + 2xy^2 in nonnegative integers.'

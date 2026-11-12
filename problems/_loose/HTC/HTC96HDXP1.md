@@ -1,0 +1,26 @@
+---
+tag: HTC96HDXP1
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2011 China National Olympiad
+    url: https://artofproblemsolving.com/community/c6h386803
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=6310
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: cn-mo/2011
+    source: hf-ai-mo-aops
+    label: 2011 China National Olympiad
+---
+Let $a_i,b_i,i=1,\cdots,n$ are nonnegitive numbers,and $n\ge 4$ ,such that $a_1+a_2+\cdots+a_n=b_1+b_2+\cdots+b_n>0$ .
+
+Find the maximum of $\frac{\sum_{i=1}^n a_i(a_i+b_i)}{\sum_{i=1}^n b_i(a_i+b_i)}$

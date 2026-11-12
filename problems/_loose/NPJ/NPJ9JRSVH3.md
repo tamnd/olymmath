@@ -1,0 +1,26 @@
+---
+tag: NPJ9JRSVH3
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 1980 IMO
+    url: https://artofproblemsolving.com/community/c6h5570
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=23567
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: imo/1980
+    source: hf-ai-mo-aops
+    label: 1980 IMO
+---
+Find all pairs of solutions $(x,y)$ :
+
+$$ x^3 + x^2y + xy^2 + y^3 = 8(x^2 + xy + y^2 + 1). $$

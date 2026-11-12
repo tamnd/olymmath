@@ -1,0 +1,24 @@
+---
+tag: 3NQVBQYFE6
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2018 Canadian Mathematical Olympiad Qualification
+    url: https://artofproblemsolving.com/community/c6h1623824
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=16312
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ca-cmoqr/2018
+    source: hf-ai-mo-aops
+    label: 2018 Canadian Mathematical Olympiad Qualification
+---
+A palindrome is a number that remains the same when its digits are reversed. Let $n$ be a product of distinct primes not divisible by $10$ . Prove that infinitely many multiples of $n$ are palindromes.

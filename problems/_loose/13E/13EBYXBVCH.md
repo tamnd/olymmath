@@ -1,0 +1,24 @@
+---
+tag: 13EBYXBVCH
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2024 Sharygin Geometry Olympiad
+    url: https://artofproblemsolving.com/community/c6h3271003
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=2113
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: sharygin/2024
+    source: hf-ai-mo-aops
+    label: 2024 Sharygin Geometry Olympiad
+---
+Let $ABCD$ ( $AD \parallel BC$ ) be a trapezoid circumscribed around a circle $\omega$ , which touches the sides $AB, BC, CD, $ and $AD$ at points $P, Q, R, S$ respectively. The line passing through $P$ and parallel to the bases of the trapezoid meets $QR$ at point $X$ . Prove that $AB, QS$ and $DX$ concur.

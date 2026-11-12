@@ -1,0 +1,9 @@
+id: bc5c06f1ebdd
+kind: pair
+records:
+    - 97VP7TDT8E
+    - Q1H71CFSD7
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 18676 to this row, but the hypotheses differ: one has A1B2 perpendicular to A2B1, the other A1B2 = A2B1. Row 18676 is now its own loose record.'

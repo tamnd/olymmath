@@ -1,0 +1,24 @@
+---
+tag: 9HQXYVBF92
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2012 Abels Math Contest (Norwegian MO) Final
+    url: https://artofproblemsolving.com/community/c6h1909924
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=7518
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: no-abel/2012
+    source: hf-ai-mo-aops
+    label: 2012 Abels Math Contest (Norwegian MO) Final
+---
+Find the last three digits in the product $1 \cdot 3\cdot 5\cdot 7 \cdot . . . \cdot 2009 \cdot 2011$ .

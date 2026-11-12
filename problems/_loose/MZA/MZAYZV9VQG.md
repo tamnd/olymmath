@@ -1,0 +1,24 @@
+---
+tag: MZAYZV9VQG
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2019 Abels Math Contest (Norwegian MO) Final
+    url: https://artofproblemsolving.com/community/c6h1909142
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=17171
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: no-abel/2019
+    source: hf-ai-mo-aops
+    label: 2019 Abels Math Contest (Norwegian MO) Final
+---
+Three circles are pairwise tangent, with none of them lying inside another. The centres of the circles are the corners of a triangle with circumference $1$ . What is the smallest possible value for the sum of the areas of the circles?

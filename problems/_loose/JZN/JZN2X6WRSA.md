@@ -1,0 +1,24 @@
+---
+tag: JZN2X6WRSA
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2014 Singapore Senior Math Olympiad
+    url: https://artofproblemsolving.com/community/c6h592209
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=11938
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: sg-smo/2014
+    source: hf-ai-mo-aops
+    label: 2014 Singapore Senior Math Olympiad
+---
+In the isoceles triangle $ABC$ with $AB=AC$ , $D$ and $E$ are points on $AB$ and $AC$ respectively such that $AD=CE$ and $DE=BC$ . Suppose $\angle AED=18^{\circ}$ . Find the size of $\angle BDE$ in degrees.

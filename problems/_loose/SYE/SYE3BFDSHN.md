@@ -1,0 +1,26 @@
+---
+tag: SYE3BFDSHN
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2018 Danube Mathematical Competition
+    url: https://artofproblemsolving.com/community/c6h1879712
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=22654
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: danube/2018
+    source: hf-ai-mo-aops
+    label: 2018 Danube Mathematical Competition
+---
+Find all the pairs $(n, m)$ of positive integers which fulfil simultaneously the conditions:
+i) the number $n$ is composite;
+ii) if the numbers $d_1, d_2, ..., d_k, k \in N^*$ are all the proper divisors of $n$ , then the numbers $d_1 + 1, d_2 + 1, . . . , d_k + 1$ are all the proper divisors of $m$ .

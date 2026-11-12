@@ -1,0 +1,8 @@
+id: e8162724c20e
+kind: match
+records:
+    - isl/2006/c1
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The row 25519 (E 0.897, T 0.842, keyword match 0.738) and the text of isl/2006/c1 state the same problem with the same data and the same question. The row became a second statement of the record.'

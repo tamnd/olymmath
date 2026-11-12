@@ -1,0 +1,8 @@
+id: 4f75c2c14a5f
+kind: match
+records:
+    - nordic/2007/p2
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The row 27318 names this edition, and the import linked it by the edition rule (edition text match 0.91, next 0.01). The agent read both texts: they are the same problem, in other words or another language. The row is a second statement, not a new appearance.'

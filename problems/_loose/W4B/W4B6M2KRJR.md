@@ -1,0 +1,24 @@
+---
+tag: W4B6M2KRJR
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2018 Caucasus Mathematical Olympiad
+    url: https://artofproblemsolving.com/community/c6h1610175
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=16350
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: caucasus/2018
+    source: hf-ai-mo-aops
+    label: 2018 Caucasus Mathematical Olympiad
+---
+Two graphs $G_1$ and $G_2$ of quadratic polynomials intersect at points $A$ and $B$ . Let $O$ be the vertex of $G_1$ . Lines $OA$ and $OB$ intersect $G_2$ again at points $C$ and $D$ . Prove that $CD$ is parallel to the $x$ -axis.

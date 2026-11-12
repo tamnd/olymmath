@@ -1,0 +1,8 @@
+id: a103ba677cbc
+kind: sample
+records:
+    - si-mo/2001/p41
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. Sample against the official DMFA paper. Page 5 of the 2001 paper, read as an image, is the paper of grade 4. Its problem 1 (bc >= ef) is the same problem as the AoPS text of the record."

@@ -1,0 +1,8 @@
+id: 1400ec64c1db
+kind: placement
+records:
+    - si-mo/2005/p42
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem N6VRCR894F, labeled 2005 Slovenia National Olympiad, states the same problem with the same data as problem 2 for grade 4 in the official DMFA paper of 2005 (page 5). The record moved from the loose problems to si-mo/2005/p42."

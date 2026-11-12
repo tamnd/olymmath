@@ -1641,6 +1641,22 @@
   state: active
   notes: The SSMR has a page for each olympiad (ssmr.ro/onm2013 and on) that links the paper of each grade of the national round. The page of 2015 links only the earlier rounds, so the source uses onm2015.ssmr.ro/subiecte, which links the solutions of each grade. They state each problem first. The Hungarian versions (_HU), the county round and the selection tests (juniori, seniori) are not used. The robots.txt of ssmr.ro and of onm2015.ssmr.ro asks for a crawl delay of 10 seconds and disallows only the Drupal system paths, not /files/ (checked on 2026-11-12). om papers ssmr-onm records the papers.
 
+- id: dmfa-massa
+  name: Society of Mathematicians, Physicists and Astronomers of Slovenia (DMFA)
+  kind: official
+  origin: H1
+  url: https://www.dmfa.si/Tekmovanja/MaSSA/ArhivNalog.aspx
+  access: pdf
+  terms: "Each paper (read on 2026-11-13) says that the DMFA allows a student to save, print and use the file for personal use and for preparation at the school of the student. Any other reproduction or distribution is forbidden, and no other web site may publish the file (only www.dmfa.si). It gives no open licence. So the content links to the papers and holds no text of them."
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: unknown
+  size: 24 papers of the national round of si-mo (Drzavno), 2001 to 2025 except 2020, each with the four grades and the solutions
+  wave: 1
+  state: active
+  notes: The archive page links one file for each round and year through GetPDF.ashx?src=MaSSA_Drzavno_YYYY.pdf. The selection round (Odbirno), the regional round (Podrocno) and the school round (Solsko) are not used. The site has no robots.txt (404 on 2026-11-13). The text layer of the papers of 2001, 2002, 2004 and 2005 does not hold the letters, so the pages of these papers were read as images. om papers dmfa-massa records the papers.
+
 - id: math-bas-bg
   name: Bulgarian Academy of Sciences (BCMI)
   kind: official

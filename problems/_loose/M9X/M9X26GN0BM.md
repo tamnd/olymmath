@@ -14,11 +14,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-numina-olympiads
+    url: https://huggingface.co/datasets/project-numina/olympiads
+    capture: hf-numina-olympiads/default/train/0000.parquet#row=4073
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: hmmt/2011
     source: hf-ai-mo-aops
     label: 2011 Harvard-MIT Mathematics Tournament
+  - at: hmmt/2011
+    source: hf-numina-olympiads
+    label: HMMT February
 ---
 Let $a \star b = ab + a + b$ for all integers $a$ and $b$ . Evaluate $1 \star ( 2 \star ( 3 \star (4 \star \ldots ( 99 \star 100 ) \ldots )))$ .

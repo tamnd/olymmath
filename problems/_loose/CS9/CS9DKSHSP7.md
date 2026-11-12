@@ -1,0 +1,23 @@
+---
+tag: CS9DKSHSP7
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numina-olympiads
+    url: https://huggingface.co/datasets/project-numina/olympiads
+    capture: hf-numina-olympiads/default/train/0000.parquet#row=10911
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ibero/1999
+    source: hf-numina-olympiads
+    label: IberoAmerican_MO
+---
+Find all positive integers $n<1000$ such that the cube of the sum of the digits of $n$ equals $n^{2}$.

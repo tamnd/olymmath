@@ -1,0 +1,28 @@
+---
+tag: QF59YEN2R6
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=3457
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Find all values of the parameter $a$, for each of which the system of equations
+
+$$
+\left\{\begin{array}{l}
+x^{2}+y^{2}=26(y \sin 2 a-x \cos 2 a) \\
+x^{2}+y^{2}=26(y \cos 3 a-x \sin 3 a)
+\end{array}\right.
+$$
+
+has two solutions $\left(x_{1} ; y_{1}\right)$ and $\left(x_{2} ; y_{2}\right)$ such that the distance between the points $P\left(x_{1} ; y_{1}\right)$ and $Q\left(x_{2} ; y_{2}\right)$ is 10.

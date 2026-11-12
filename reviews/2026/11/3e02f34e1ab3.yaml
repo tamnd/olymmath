@@ -1,0 +1,8 @@
+id: 3e02f34e1ab3
+kind: match
+records:
+    - A9P4WS9J6G
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. Row 6392 was joined into this record, which holds row 5918. The two rows state the same problem in other words: for 7 girls a girl sits to the left, for 12 a boy, and for 75% of the boys a girl sits to the right.'

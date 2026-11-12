@@ -1,0 +1,9 @@
+id: 1301d8945814
+kind: pair
+records:
+    - M4X7FJD3NS
+    - balkan-sl/2015/n2
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import linked row 1756 of NuminaMath 1.5 to balkan-sl/2015/n2, but they are two problems: the row asks to prove that n divides a_n, the record asks to prove that n^2 divides a_n for infinitely many n. Row 1756 is now its own loose record.'

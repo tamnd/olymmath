@@ -1,0 +1,9 @@
+id: 133381e9e0f1
+kind: pair
+records:
+    - 7DY1M8Q5Z3
+    - ENV6NG31JB
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 3443 to row 3429 of NuminaMath 1.5, but they are two problems: the parabola and the line differ: y=4/3 x^2 against y=3/4 x^2. Row 3443 is now its own loose record.'

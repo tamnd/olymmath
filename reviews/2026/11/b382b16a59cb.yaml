@@ -1,0 +1,8 @@
+id: b382b16a59cb
+kind: match
+records:
+    - NW243K5WAY
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. Row 7400 was joined into this record, which holds row 7098. The two rows state the same problem; only the points (30 against 20) differ.'

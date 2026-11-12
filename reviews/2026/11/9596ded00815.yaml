@@ -1,0 +1,9 @@
+id: 9596ded00815
+kind: pair
+records:
+    - E8AX8G05F8
+    - 39XZNBCMWW
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 2464 to row 2456 of NuminaMath 1.5, but they are two problems: one asks for the probability of A_8, the other of A_10. Row 2459 (A_9) is now its own record too. Row 2464 is now its own loose record.'

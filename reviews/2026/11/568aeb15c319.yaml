@@ -1,0 +1,9 @@
+id: 568aeb15c319
+kind: pair
+records:
+    - 3VVNX5MXQY
+    - WE6C64BZNH
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 3424 to row 3068 of NuminaMath 1.5, but they are two problems: the trinomials have other coefficients (x^2-ax+2 against x^2-2ax+3 and so on). Row 3424 is now its own loose record.'

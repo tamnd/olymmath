@@ -1,0 +1,9 @@
+id: a776e1032e66
+kind: pair
+records:
+    - PNHGGYEEQK
+    - B0BA19BN2G
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 8676 to row 8626 of NuminaMath 1.5, but they are two problems: one asks for a number divisible by 2021, the other by 2022. Row 8658 has the 2021 text and goes with row 8676. Row 8676 is now its own loose record.'

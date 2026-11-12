@@ -1,0 +1,9 @@
+id: 5c230888f07b
+kind: pair
+records:
+    - 5Z7K09PZE5
+    - XZX8AAKQK0
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 7807 to row 7801 of NuminaMath 1.5, but they are two problems: the condition and the inequality differ: b^2 >= a^2+c^2 with a sum of squares on the right, against b^2 <= ac with a product on the right. Row 7807 is now its own loose record.'

@@ -1,0 +1,9 @@
+id: 973880f5de91
+kind: pair
+records:
+    - 1BZBQ68M9Y
+    - B9HS9Q4FKY
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 8459 to row 8454 of NuminaMath 1.5, but they are two problems: one asks about 2023 below the 15th row, the other about 2021 below the 13th row. Row 8459 is now its own loose record.'

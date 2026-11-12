@@ -1,0 +1,9 @@
+id: 5d16b87f2ea5
+kind: pair
+records:
+    - F8KTS1J94F
+    - XSV3Z53HWY
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 9235 to row 9215 of NuminaMath 1.5, but they are two problems: the inequalities differ: sin(x+pi/6) against sin(x+pi/3). Row 9235 is now its own loose record.'

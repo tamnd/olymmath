@@ -1,0 +1,9 @@
+id: cffe71df9e9a
+kind: pair
+records:
+    - X0N3VQ8VV7
+    - ir-mo/2003/p18
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import linked row 1300 of NuminaMath 1.5 to ir-mo/2003/p18, but they are two problems: the row proves that an equifacial tetrahedron has acute faces, the record proves that equal circumradii of the faces give equal opposite edges. Row 1300 is now its own loose record.'

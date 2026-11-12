@@ -1,0 +1,8 @@
+id: 0747b8993eae
+kind: match
+records:
+    - RBX3GRZVR2
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. Row 7264 was joined into this record, which holds row 7172. The two rows state the same problem; only the points (30 against 20) differ.'

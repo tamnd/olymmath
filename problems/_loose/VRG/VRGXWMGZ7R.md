@@ -14,11 +14,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-numina-olympiads
+    url: https://huggingface.co/datasets/project-numina/olympiads
+    capture: hf-numina-olympiads/default/train/0000.parquet#row=4119
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: hmmt/2011
     source: hf-ai-mo-aops
     label: 2011 Harvard-MIT Mathematics Tournament
+  - at: hmmt/2011
+    source: hf-numina-olympiads
+    label: HMMT February
 ---
 Let $ABCDEF$ be a convex equilateral hexagon such that lines $BC$ , $AD$ , and $EF$ are parallel. Let $H$ be the orthocenter of triangle $ABD$ . If the smallest interior angle of the hexagon is $4$ degrees, determine the smallest angle of the triangle $HAD$ in degrees.

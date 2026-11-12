@@ -1,0 +1,9 @@
+id: e65fe1efdb79
+kind: pair
+records:
+    - 3CPJ5KC53F
+    - 364PD4FRE6
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 8277 to row 8271 of NuminaMath 1.5, but they are two problems: one subtracts the digit sum of the square, the other adds it. Row 8412 has the same text as row 8277 and goes with it. Row 8277 is now its own loose record.'

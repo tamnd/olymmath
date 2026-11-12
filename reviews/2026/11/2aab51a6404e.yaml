@@ -1,0 +1,9 @@
+id: 2aab51a6404e
+kind: pair
+records:
+    - YBDRATQ64V
+    - PEMEKA7XBW
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 4586 to row 4439 of NuminaMath 1.5, but they are two problems: one asks to prove that every number 2016...2016 is a product of two palindromes, the other asks for all ways to write 2016 itself so. Row 4586 is now its own loose record.'

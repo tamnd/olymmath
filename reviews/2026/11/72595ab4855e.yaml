@@ -1,0 +1,9 @@
+id: 72595ab4855e
+kind: pair
+records:
+    - WW0XV637G3
+    - 8BB4HEV9YX
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 10599 to row 10338 of NuminaMath 1.5, but they are two problems: the equations differ: x+|x|=4 sqrt(a(x-3)+2) against x+|x|=2 sqrt(3+2ax-4a). Row 10599 is now its own loose record.'

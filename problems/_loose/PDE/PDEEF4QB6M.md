@@ -1,0 +1,21 @@
+---
+tag: PDEEF4QB6M
+kind: problem
+type: answer
+answer: "3"
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=8629
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Non-zero numbers $a$ and $b$ are roots of the quadratic equation $x^{2}-5 p x+2 p^{3}=0$. The equation $x^{2}-a x+b=0$ has a unique root. Find $p$. Justify your solution.

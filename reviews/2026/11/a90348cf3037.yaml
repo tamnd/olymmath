@@ -1,0 +1,9 @@
+id: a90348cf3037
+kind: pair
+records:
+    - RB97YZTS9F
+    - R47YRCCNMC
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 10518 to row 10496 of NuminaMath 1.5, but they are two problems: the given data differ: the area of triangle AEC against AE = sqrt 3 and the area of another triangle. Row 10518 is now its own loose record.'

@@ -1,0 +1,21 @@
+---
+tag: VV3KQ2R58Y
+kind: problem
+type: answer
+answer: "8999999934"
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=5488
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Given a square 1x1. Cut it into 5 rectangles so that all 10 numbers corresponding to the width and height of each rectangle are distinct rational numbers.

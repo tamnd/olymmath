@@ -1,0 +1,8 @@
+id: 4d0d49ad7045
+kind: match
+records:
+    - jbmo-sl/2013/g4
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The row 74 (E 0.945, T 0.976, keyword match 0.887) and the text of jbmo-sl/2013/g4 state the same problem with the same data and the same question. The row became a second statement of the record.'

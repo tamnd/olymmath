@@ -1,0 +1,9 @@
+id: d180e9a61ab6
+kind: pair
+records:
+    - 7H62W6FW2P
+    - 11D6F6FK8R
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 2166 to row 2162 of NuminaMath 1.5, but they are two problems: the line differs ((x-8)sin a-(y+2)cos a=0 against x sin a-(y-6)cos a=0) and one asks for four solutions, the other for two. Row 2166 is now its own loose record.'

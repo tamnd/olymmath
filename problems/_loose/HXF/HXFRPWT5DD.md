@@ -1,0 +1,21 @@
+---
+tag: HXFRPWT5DD
+kind: problem
+type: answer
+answer: BC=bifAisbetweenCF,BC=ifFisbetweenAC
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=5006
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+The continuation of the bisector $C D$ of triangle $A B C$ intersects the circumcircle of this triangle at point $E$. The circumcircle of triangle $A D E$ intersects the line $A C$ at point $F$, different from $A$. Find $B C$, if $A C=b, A F=a$.

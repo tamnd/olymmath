@@ -1,0 +1,9 @@
+id: 1ca071d4b579
+kind: pair
+records:
+    - PESZ7WRXZW
+    - TXHABM589K
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 10652 to row 10642 of NuminaMath 1.5, but they are two problems: the lines differ: 2y-2=a(x-1) against y-1=a(x-1), so the answers in a differ. Row 10652 is now its own loose record.'

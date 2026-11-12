@@ -1,0 +1,8 @@
+id: a4679bcd02d7
+kind: match
+records:
+    - 4DRRSAYDB5
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. Row 6358 was joined into this record, which holds row 6118. The two rows state the same problem; row 6358 has a translator note left at the end.'

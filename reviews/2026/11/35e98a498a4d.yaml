@@ -1,0 +1,9 @@
+id: 35e98a498a4d
+kind: pair
+records:
+    - EAC8G3SSSQ
+    - 8PHPDSZTFQ
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 6878 to row 4280 of NuminaMath 1.5, but they are two problems: one asks how much the perimeter falls if the length is cut by 20% and the width by 10%, the other tells a flower bed story where the second cut follows the first and asks for the fall from the original size. Row 6878 is now its own loose record.'

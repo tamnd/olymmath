@@ -1,0 +1,8 @@
+id: 2911bf5e09b9
+kind: sample
+records:
+    - CRXJBHVTAQ
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The text states one complete problem (find f(2013) from f(x-y)=f(x)+f(y)-2xy) and no solution. The answer 2013^2 = 4052169 is right. The import found no text near it in the content. It replaces sample record PMMYF8R40X, which the agent rejected and removed because a solution follows the statement.'

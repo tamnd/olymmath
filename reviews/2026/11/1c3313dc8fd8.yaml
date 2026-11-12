@@ -1,0 +1,9 @@
+id: 1c3313dc8fd8
+kind: pair
+records:
+    - 5EYKPVHPA3
+    - B2WCG00TMZ
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import linked row 771 of NuminaMath 1.5 to B2WCG00TMZ, but they are two problems: the row asks to prove that a trapezoid with sides a, b, c, d exists, the record is about quadrilaterals with perpendicular diagonals. Row 771 is now its own loose record. The row keeps its unplaced entry pl-om/1978.'

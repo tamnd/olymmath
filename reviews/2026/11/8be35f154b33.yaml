@@ -1,0 +1,9 @@
+id: 8be35f154b33
+kind: pair
+records:
+    - FCZBHDZD2C
+    - PXX74X3AE3
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 8735 to row 8680 of NuminaMath 1.5, but they are two problems: the given arcs differ: AC1, AB, BC, A1B1 against AC1, AB, CA1, A1B1, with other measures. Row 8735 is now its own loose record.'

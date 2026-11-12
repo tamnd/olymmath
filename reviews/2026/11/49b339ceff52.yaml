@@ -1,0 +1,9 @@
+id: 49b339ceff52
+kind: pair
+records:
+    - NYDZKHGEB1
+    - GGG55ABNZB
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 8323 to row 8318 of NuminaMath 1.5, but they are two problems: the conditions differ: angle APB obtuse with midpoints of AD and BC, against triangle APD acute with midpoints of AB and CD. Row 8323 is now its own loose record.'

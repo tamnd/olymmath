@@ -866,12 +866,14 @@
   origin: H1
   url: https://olympiads.mccme.ru/vmo/
   access: html
+  terms: "No licence and no terms of use are stated on the archive pages (read on 2026-11-12). Agent decision, not a person's review: Z2, the spec default for competition statements."
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
   wave: 1
-  state: planned
+  state: active
+  notes: "The robots.txt of olympiads.mccme.ru gives 404, so all paths are allowed (checked on 2026-11-12). The index vmo.html links the problems of the final round for each year. om fill reads the web page 31/zadachi.htm for 2005 and the PDF sheets for 2006 (32/sheets.pdf), 2007 (33/sheets1.pdf and 33/sheets2.pdf), 2008 (34/1.pdf and 34/2.pdf) and 2012 to 2014 (YYYY/final/sheets1.PDF and sheets2.PDF). The two days of a grade number their problems from 1 to 8 with no restart, so the mark G.N gives pGN. The archive has no problems of the final round for 1993 to 2002 and 2004, so those records keep no text."
 
 - id: mccme-mmo
   name: Moscow MO archive

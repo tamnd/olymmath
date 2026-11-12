@@ -1872,8 +1872,15 @@
   group: national
   level: high-school
   country: DE
+  url: https://www.mathe-wettbewerbe.de/aufgaben
+  # Agent decision, not a person's review: the papers of aimo-awb hold the two public tests (Auswahlklausuren) of the selection for each IMO from 2000 to 2022, with three problems each. The year of an edition is the year of the IMO. Each test numbers its problems from 1, so positions run through the year in the order of the tests: problem N of test 2 is p(3+N). The selection can have more tests, but these papers do not hold them, so they have no position.
+  eras:
+    - {from: 2000, to: 2022, per_year: 6, layout: [{paper: test1, name: Test 1, positions: [p1, p2, p3]}, {paper: test2, name: Test 2, positions: [p4, p5, p6]}]}
+  edition_form: year
+  official_solutions: true
   languages: [de]
-  description: The tests that choose the German team for the IMO. No source has been found.
+  sources: [aimo-awb]
+  description: The tests that choose the German team for the IMO. The organizer publishes two tests of three problems for each year from 2000 to 2022.
 
 - code: fr-tst
   name: French Olympiad Training and Selection

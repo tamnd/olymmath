@@ -1,0 +1,7 @@
+id: a2647fadf801
+kind: merge
+records: [V4CX17ATW0, DP183V68N6]
+decision: accept
+by: agent
+date: "2026-11-12"
+note: "Agent decision, not a person's review. The German IMO selection 2021 paper has this problem as problem 2. An agent read the German text and the shortlist text of isl/2020/n2 and found the same problem. Note: identical p-Landia bridges problem"

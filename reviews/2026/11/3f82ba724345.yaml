@@ -1,0 +1,7 @@
+id: 3f82ba724345
+kind: merge
+records: [TXEF1TTR6E, A4SZ5V9G39]
+decision: accept
+by: agent
+date: "2026-11-12"
+note: "Agent decision, not a person's review. The German IMO selection 2011 paper has this problem as problem 4. An agent read the German text and the shortlist text of isl/2010/a4 and found the same problem. Note: identical sequence x_{2k}=-x_k, partial sums nonnegative"

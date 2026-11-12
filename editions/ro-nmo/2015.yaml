@@ -12,3 +12,34 @@ papers:
     problems: [p111, p112, p113, p114]
   - name: Grade 12
     problems: [p121, p122, p123, p124]
+official:
+  - lang: Romanian
+    code: ro
+    url: https://onm2015.ssmr.ro/files/onm2015/subiecte/07_2015_solutii.pdf
+    paper: grade7
+    source: ssmr-onm
+  - lang: Romanian
+    code: ro
+    url: https://onm2015.ssmr.ro/files/onm2015/subiecte/08_2015_solutii.pdf
+    paper: grade8
+    source: ssmr-onm
+  - lang: Romanian
+    code: ro
+    url: https://onm2015.ssmr.ro/files/onm2015/subiecte/09_2015_solutii.pdf
+    paper: grade9
+    source: ssmr-onm
+  - lang: Romanian
+    code: ro
+    url: https://onm2015.ssmr.ro/files/onm2015/subiecte/10_2015_solutii.pdf
+    paper: grade10
+    source: ssmr-onm
+  - lang: Romanian
+    code: ro
+    url: https://onm2015.ssmr.ro/files/onm2015/subiecte/11_2015_solutii.pdf
+    paper: grade11
+    source: ssmr-onm
+  - lang: Romanian
+    code: ro
+    url: https://onm2015.ssmr.ro/files/onm2015/subiecte/12_2015_solutii.pdf
+    paper: grade12
+    source: ssmr-onm

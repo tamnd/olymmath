@@ -1,0 +1,26 @@
+---
+tag: Q1ZZBWFNGC
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: AHSME
+    url: https://artofproblemsolving.com/community/c6h60751
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=66190
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ahsme
+    source: hf-ai-mo-aops
+    label: AHSME
+---
+If $\sqrt{x+2}=2$ , then $(x+2)^2$ equals
+
+$\text{(A)}\ \sqrt{2} \text{(B)}\ 2 \text{(C)}\ 4 \text{(D)}\ 8 \text{(E)}\ 16$

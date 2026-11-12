@@ -1,0 +1,26 @@
+---
+tag: G7MG6NGBQ3
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2021 CMIMC
+    url: https://artofproblemsolving.com/community/c6h2471701
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=70584
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: cmimc/2021
+    source: hf-ai-mo-aops
+    label: 2021 CMIMC
+---
+A $2\sqrt5$ by $4\sqrt5$ rectangle is rotated by an angle $\theta$ about one of its diagonals. If the total volume swept out by the rotating rectangle is $62\pi$ , find the measure of $\theta$ in degrees.
+
+*Proposed by Connor Gordon*

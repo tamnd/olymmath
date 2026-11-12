@@ -1,0 +1,9 @@
+id: 8b95b7461647
+kind: pair
+records:
+    - WRQHY9X145
+    - 5CG6BTHCSH
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 61351 (2004 Thailand) to row 61173 (2005 Taiwan TST), but the conditions differ: at most 16 divisors against fewer than 16, so p = 3 is an answer of one and not the other. Row 61351 is now its own loose record.'

@@ -1,0 +1,30 @@
+---
+tag: PB2JPQXAH6
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: AHSME
+    url: https://artofproblemsolving.com/community/c6h56224
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=66277
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ahsme
+    source: hf-ai-mo-aops
+    label: AHSME
+---
+If $\sin 2x \sin 3x = \cos 2x \cos 3x$ , then one value for $x$ is
+
+A. $18^\circ$
+B. $30^\circ$
+C. $36^\circ$
+D. $45^\circ$
+E. $60^\circ$

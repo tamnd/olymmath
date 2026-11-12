@@ -20,5 +20,8 @@ unplaced:
   - at: de-tst/2005
     source: hf-ai-mo-aops
     label: 2005 Germany Team Selection Test
+  - at: ch-smo/2005
+    source: hf-ai-mo-aops
+    label: 2005 Switzerland - Final Round
 ---
 Let $a$ , $b$ , $c$ , $d$ and $n$ be positive integers such that $7\cdot 4^n = a^2+b^2+c^2+d^2$ . Prove that the numbers $a$ , $b$ , $c$ , $d$ are all $\geq 2^{n-1}$ .

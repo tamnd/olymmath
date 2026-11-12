@@ -1,0 +1,8 @@
+id: 98cded2e660c
+kind: match
+records:
+    - ru-allrussian/2005/p104
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import made the row of loose record C9TW4NXGH3 a new record, but the agent found that it is ru-allrussian/2005/p104: The row names this edition and states the same problem as this record in other words, often another translation, so the text signals were too low and the edition rule did not link it. The agent moved the row to a second statement of ru-allrussian/2005/p104 and removed the loose record.'

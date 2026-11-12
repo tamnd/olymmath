@@ -1,0 +1,24 @@
+---
+tag: EQG79QTTN2
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2001 AMC 8
+    url: https://artofproblemsolving.com/community/c6h412197
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=67581
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: amc8/2001
+    source: hf-ai-mo-aops
+    label: 2001 AMC 8
+---
+Casey's shop class is making a golf trophy. He has to paint 300 dimples on a golf ball. If it takes him 2 seconds to paint one dimple, how many minutes will he need to do his job? $ \text{(A)}\ 4 \text{(B)}\ 6 \text{(C)}\ 8 \text{(D)}\ 10 \text{(E)}\ 12 $

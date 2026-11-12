@@ -1,0 +1,26 @@
+---
+tag: 788KTWYDSS
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2021 CMIMC
+    url: https://artofproblemsolving.com/community/c6h2471730
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=70600
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: cmimc/2021
+    source: hf-ai-mo-aops
+    label: 2021 CMIMC
+---
+Suppose you have a $6$ sided dice with $3$ faces colored red, $2$ faces colored blue, and $1$ face colored green. You roll this dice $20$ times and record the color that shows up on top. What is the expected value of the product of the number of red faces, blue faces, and green faces?
+
+*Proposed by Daniel Li*

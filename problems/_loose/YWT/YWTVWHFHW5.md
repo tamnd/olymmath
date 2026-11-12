@@ -1,0 +1,24 @@
+---
+tag: YWTVWHFHW5
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2024 Turkey MO (2nd Round)
+    url: https://artofproblemsolving.com/community/c6h3463950
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=62509
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: tr-mo/2024
+    source: hf-ai-mo-aops
+    label: 2024 Turkey MO (2nd Round)
+---
+Let $m,n\ge2$ be positive integers. On an $m\times n$ chessboard, some unit squares are occupied by rooks such that each rook attacked by odd number of other rooks. Determine the maximum number of rooks that can be placed on the chessboard.

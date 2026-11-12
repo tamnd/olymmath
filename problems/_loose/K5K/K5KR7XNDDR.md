@@ -1,0 +1,26 @@
+---
+tag: K5KR7XNDDR
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2015 Online Math Open Problems
+    url: https://artofproblemsolving.com/community/c6h1077901
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=78508
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: omo/2015
+    source: hf-ai-mo-aops
+    label: 2015 Online Math Open Problems
+---
+A geometric progression of positive integers has $n$ terms; the first term is $10^{2015}$ and the last term is an odd positive integer. How many possible values of $n$ are there?
+
+*Proposed by Evan Chen*

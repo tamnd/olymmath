@@ -1,0 +1,27 @@
+---
+tag: TJ4BJEZ571
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2023 Princeton University Math Competition
+    url: https://artofproblemsolving.com/community/c6h3234685
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=73414
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: pumac/2023
+    source: hf-ai-mo-aops
+    label: 2023 Princeton University Math Competition
+---
+For a binary string $S$ (i.e. a string of 0 's and 1's) that contains at least one 0 , we produce a binary string $f(S)$ as follows:
+- If the substring 110 occurs in $S$ , replace each instance of 110 with 01 to produce $f(S)$ ;
+- Otherwise, replace the leftmost occurrence of 0 in $S$ by 1 to produce $f(S)$ .
+Given binary string $S$ of length $n$ , we define the lifetime of $S$ to be the number of times $f$ can be applied to $S$ until the resulting string contains no more 0 's. For example, $$

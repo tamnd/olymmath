@@ -1,0 +1,8 @@
+id: 941db2346454
+kind: match
+records:
+    - jbmo-sl/2004/g3
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import made the row of loose record GCW9QWRS6G a new record, but the agent found that it is jbmo-sl/2004/g3: The row names this edition and states the same problem as this record in other words, often another translation, so the text signals were too low and the edition rule did not link it. The agent moved the row to a second statement of jbmo-sl/2004/g3 and removed the loose record.'

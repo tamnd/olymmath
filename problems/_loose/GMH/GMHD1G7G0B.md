@@ -1,0 +1,26 @@
+---
+tag: GMHD1G7G0B
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: AHSME
+    url: https://artofproblemsolving.com/community/c6h255775
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=65129
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ahsme
+    source: hf-ai-mo-aops
+    label: AHSME
+---
+If $ f(x)=\frac{x(x-1)}{2}$ , then $ f(x+2)$ equals:
+$ \textbf{(A)}\ f(x)+f(2) \textbf{(B)}\ (x+2)f(x) \textbf{(C)}\ x(x+2)f(x) \textbf{(D)}\ \frac{xf(x)}{x+2}
+\textbf{(E)}\ \frac{(x+2)f(x+1)}{x}$

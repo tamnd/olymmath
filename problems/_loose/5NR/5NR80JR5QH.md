@@ -1,0 +1,34 @@
+---
+tag: 5NR80JR5QH
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 1977 All Soviet Union Mathematical Olympiad
+    url: https://artofproblemsolving.com/community/c6h1869897
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=55277
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ru-allrussian/1977
+    source: hf-ai-mo-aops
+    label: 1977 All Soviet Union Mathematical Olympiad
+---
+Let us call "fine" the $2n$ -digit number if it is exact square itself and the two numbers represented by its first $n$ digits (first digit may not be zero) and last $n$ digits (first digit may be zero, but it may not be zero itself) are exact squares also.
+
+a) Find all two- and four-digit fine numbers.
+
+b) Is there any six-digit fine number?
+
+c) Prove that there exists $20$ -digit fine number.
+
+d) Prove that there exist at least ten $100$ -digit fine numbers.
+
+e) Prove that there exists $30$ -digit fine number.

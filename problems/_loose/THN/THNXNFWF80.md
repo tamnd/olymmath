@@ -20,5 +20,8 @@ unplaced:
   - at: ma-mo/2011
     source: hf-ai-mo-aops
     label: 2011 Morocco National Olympiad
+  - at: sg-smo/2006
+    source: hf-ai-mo-aops
+    label: 2006 Singapore Senior Math Olympiad
 ---
 Two circles are tangent to each other internally at a point $\ T $ . Let the chord $\ AB $ of the larger circle be tangent to the smaller circle at a point $\ P $ . Prove that the line $\ TP $ bisects $\ \angle ATB $ .

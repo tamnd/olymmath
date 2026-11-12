@@ -1,0 +1,24 @@
+---
+tag: 91RWF9HACM
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2020 BMT Fall
+    url: https://artofproblemsolving.com/community/c6h2753743
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=70291
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: bmt/2020
+    source: hf-ai-mo-aops
+    label: 2020 BMT Fall
+---
+In an $6 \times 6$ grid of lattice points, how many ways are there to choose $ 4$ points that are vertices of a nondegenerate quadrilateral with at least one pair of opposite sides parallel to the sides of the grid?

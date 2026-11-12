@@ -20,6 +20,9 @@ unplaced:
   - at: ma-mo/2011
     source: hf-ai-mo-aops
     label: 2011 Morocco National Olympiad
+  - at: sg-smo/2010
+    source: hf-ai-mo-aops
+    label: 2010 Singapore Junior Math Olympiad
 ---
 When dividing an integer $m$ by a positive integer $n$ , $(0< n\leq 100)$ , a student finds $\frac{m}{n}= 0,167a_{1}a_{2}...$ .
 Prove that the student made a mistake while computing.

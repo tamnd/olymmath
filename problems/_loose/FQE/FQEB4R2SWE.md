@@ -1,0 +1,24 @@
+---
+tag: FQEB4R2SWE
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: AHSME
+    url: https://artofproblemsolving.com/community/c6h23010
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=66332
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ahsme
+    source: hf-ai-mo-aops
+    label: AHSME
+---
+The 120 permutations of the AHSME are arranged in dictionary order as if each were an ordinary five-letter word. The last letter of the 85th word in this list is: $ \textbf{(A)}\ \text{A} \textbf{(B)}\ \text{H} \textbf{(C)}\ \text{S} \textbf{(D)}\ \text{M} \textbf{(E)}\ \text{E} $

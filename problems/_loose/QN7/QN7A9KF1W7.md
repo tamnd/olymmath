@@ -1,0 +1,26 @@
+---
+tag: QN7A9KF1W7
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2009 Thailand Mathematical Olympiad
+    url: https://artofproblemsolving.com/community/c6h2237709
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=61465
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: th-tmo/2009
+    source: hf-ai-mo-aops
+    label: 2009 Thailand Mathematical Olympiad
+---
+A class contains $80$ boys and $80$ girls. On each weekday (Monday to Friday) of the week before final exams, the teacher has $16$ books for the students to borrow, where a book can only be borrowed for one day at a time, and each student can only borrow once during the entire week. Show that there are two days and two books such that one of the following two statements is true:
+(i) Both books were not borrowed on both days
+(ii) Both books were borrowed on both days, and the four students who borrowed the books on these days are either all boys or all girls.

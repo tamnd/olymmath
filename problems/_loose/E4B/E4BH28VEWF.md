@@ -1,0 +1,24 @@
+---
+tag: E4BH28VEWF
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2000 Harvard-MIT Mathematics Tournament
+    url: https://artofproblemsolving.com/community/c6h609812
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=71356
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: hmmt/2000
+    source: hf-ai-mo-aops
+    label: 2000 Harvard-MIT Mathematics Tournament
+---
+If $X=1+x+x^2+x^3+\cdots$ and $Y=1+y+y^2+y^3+\cdots$ , what is $1+xy+x^2y^2+x^3y^3+\cdots$ in terms of $X$ and $Y$ only?

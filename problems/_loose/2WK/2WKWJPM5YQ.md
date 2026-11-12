@@ -1,0 +1,24 @@
+---
+tag: 2WKWJPM5YQ
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: Russian TST 2022
+    url: https://artofproblemsolving.com/community/c6h3036684
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=57248
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ru-tst/2022
+    source: hf-ai-mo-aops
+    label: Russian TST 2022
+---
+Let $a{}$ and $b{}$ be positive integers. Prove that for any real number $x{}$ $$\sum_{j=0}^a\binom{a}{j}\big(2\cos((2j-a)x)\big)^b=\sum_{j=0}^b\binom{b}{j}\big(2\cos((2j-b)x)\big)^a.$$

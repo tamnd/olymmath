@@ -1,0 +1,8 @@
+id: 2c95d2ab0f38
+kind: match
+records:
+    - putnam/1997/b4
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The row 68637 names this edition, and the import linked it by the edition rule (edition keyword match 0.70, next 0.23). The agent read both texts: they are the same problem, in other words or another language. The row is a second statement, not a new appearance. The row writes (1+x+x^2)^n for (1+x+x^2)^m, a typo; the rest is the same.'

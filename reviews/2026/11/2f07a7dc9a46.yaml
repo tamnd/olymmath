@@ -1,0 +1,8 @@
+id: 2f07a7dc9a46
+kind: match
+records:
+    - 7QVZP96H0J
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. Row 54415 was joined into this record, which holds row 54400. The two rows state the same problem in other words: the same bound n^8 and the same condition on sums.'

@@ -1,0 +1,8 @@
+id: 8d0a928279cd
+kind: match
+records:
+    - hmmt/1999/g8
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The row 71239 and the text of hmmt/1999/g8 write the formulas in other ways, so the import linked them by the words rule (words 1.00, formulas 0.83). The agent read both texts: they are the same problem with the same data. The row is a second statement of the record.'

@@ -16,5 +16,9 @@ statements:
     kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ro-tst/1989
+    source: hf-ai-mo-aops
+    label: 1989 Romania Team Selection Test
 ---
 Let $ABCD$ be a parallelogram. Let $M$ and $N$ be points of the plane such that $C$ is interior to segment $AM$ and $D$ is interior to segment $BN$ . Suppose that the lines $NA$ and $NC$ cut the lines $MB, MD$ at points $E,F, G$ and $H$ . Show that points $E,F, G$ , and $H$ lie on a circle if and only if $ABCD$ is a rhombus.

@@ -1,0 +1,25 @@
+---
+tag: Y9C8R6AK5J
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 1995 All-Russian Olympiad
+    url: https://artofproblemsolving.com/community/c6h559096
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=55661
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ru-allrussian/1995
+    source: hf-ai-mo-aops
+    label: 1995 All-Russian Olympiad
+---
+Prove that if all angles of a convex $n$ -gon are equal, then there are at least two of its sides that are not longer than their adjacent sides.
+*A. Berzin'sh, O. Musin*

@@ -1,0 +1,27 @@
+---
+tag: PMQ1NVRH23
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: AHSME
+    url: https://artofproblemsolving.com/community/c6h60779
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=66195
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ahsme
+    source: hf-ai-mo-aops
+    label: AHSME
+---
+If $\frac{x}{x-1}=\frac{y^2+2y-1}{y^2-2y-2}$ , then $x$ equals
+
+$\text{(A)}\ y^2+2y-1 \text{(B)}\ y^2+2y-2 \text{(C)}\ y^2+2y+2$
+$\text{(D)}\ y^2+2y+1 \text{(E)}\ -y^2-2y+1$

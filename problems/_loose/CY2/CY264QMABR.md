@@ -20,5 +20,8 @@ unplaced:
   - at: de-tst/2009
     source: hf-ai-mo-aops
     label: 2009 Germany Team Selection Test
+  - at: ru-allrussian/2008
+    source: hf-ai-mo-aops
+    label: 2008 All-Russian Olympiad
 ---
 Initially, on a board there a positive integer. If board contains the number $x,$ then we may additionally write the numbers $2x+1$ and $\frac{x}{x+2}.$ At some point 2008 is written on the board. Prove, that this number was there from the beginning.

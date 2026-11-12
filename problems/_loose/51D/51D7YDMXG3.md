@@ -20,5 +20,8 @@ unplaced:
   - at: bg-egmo-tst/2023
     source: hf-ai-mo-aops
     label: 2023 Bulgaria EGMO TST
+  - at: pl-om/1997
+    source: hf-ai-mo-aops
+    label: 1997 Polish MO Finals
 ---
 The positive integers $x_1$ , $x_2$ , $\ldots$ , $x_5$ , $x_6 = 144$ and $x_7$ are such that $x_{n+3} = x_{n+2}(x_{n+1}+x_n)$ for $n=1,2,3,4$ . Determine the value of $x_7$ .

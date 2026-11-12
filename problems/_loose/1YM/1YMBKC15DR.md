@@ -1,0 +1,24 @@
+---
+tag: 1YMBKC15DR
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 1947 Moscow Mathematical Olympiad
+    url: https://artofproblemsolving.com/community/c6h2491850
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=56626
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ru-moscow/1947
+    source: hf-ai-mo-aops
+    label: 1947 Moscow Mathematical Olympiad
+---
+Position the $4$ points on plane so that when measuring of all pairwise distances between them, it turned out only two different numbers. Find all such locations.

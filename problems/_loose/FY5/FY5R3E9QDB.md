@@ -1,0 +1,24 @@
+---
+tag: FY5R3E9QDB
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: AHSME
+    url: https://artofproblemsolving.com/community/c6h67198
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=66220
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ahsme
+    source: hf-ai-mo-aops
+    label: AHSME
+---
+The sum of all but one of the interior angles of a convex polygon equals $2570^\circ$ . The remaining angle is $\textbf{(A)} \ 90^\circ \textbf{(B)} \ 105^\circ \textbf{(C)} \ 120^\circ \textbf{(D)} \ 130^\circ \textbf{(E)} \ 144^\circ$

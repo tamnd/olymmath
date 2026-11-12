@@ -20,6 +20,9 @@ unplaced:
   - at: tot
     source: hf-ai-mo-aops
     label: 1996 Tournament Of Towns
+  - at: ru-moscow/1996
+    source: hf-ai-mo-aops
+    label: 1996 Moscow Mathematical Olympiad
 ---
 Eight students were asked to solve $8$ problems (the same set of problems for each of the students).
 

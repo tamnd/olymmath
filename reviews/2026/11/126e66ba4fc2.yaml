@@ -1,0 +1,9 @@
+id: 126e66ba4fc2
+kind: pair
+records:
+    - DDFGNB1NGX
+    - 5GH9EQ0VBP
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 73169 (2008 PUMaC) to row 73119 (2007 PUMaC), but they are two problems: one alternates paint and paint remover and asks for a limit, the other paints every time and asks when half the faces are painted. Row 73169 is now its own loose record.'

@@ -20,6 +20,9 @@ unplaced:
   - at: lt-mo/2012
     source: hf-ai-mo-aops
     label: 2012 Lithuania National Olympiad
+  - at: vn-vmo/2004
+    source: hf-ai-mo-aops
+    label: 2004 Vietnam National Olympiad
 ---
 Solve the system of equations $$ \begin{cases} x^3 +x(y-z)^2 =2
 y^3 +y(z-x)^2 =30 z^3 +z(x-y)^2 =16 \end{cases} $$

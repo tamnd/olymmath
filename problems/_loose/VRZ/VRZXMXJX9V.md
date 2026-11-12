@@ -20,5 +20,8 @@ unplaced:
   - at: cu-mo/2007
     source: hf-ai-mo-aops
     label: 2007 Cuba MO
+  - at: si-mo/2005
+    source: hf-ai-mo-aops
+    label: 2005 Slovenia National Olympiad
 ---
 Find all the real numbers $x, y$ such that $x^3 - y^3 = 7(x - y)$ and $x^3 + y^3 = 5(x + y).$

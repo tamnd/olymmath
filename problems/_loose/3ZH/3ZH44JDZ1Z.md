@@ -1,0 +1,28 @@
+---
+tag: 3ZH44JDZ1Z
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2006 Stanford Mathematics Tournament
+    url: https://artofproblemsolving.com/community/c6h426351
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=73930
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: smt/2006
+    source: hf-ai-mo-aops
+    label: 2006 Stanford Mathematics Tournament
+---
+Let $a,b,c$ be real numbers satisfying:
+$$ab-a=b+119$$
+$$bc-b=c+59$$
+$$ca-c=a+71$$
+Determine all possible values of $a+b+c$ .

@@ -1,0 +1,26 @@
+---
+tag: 2DSQDT8MXJ
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 1947 Moscow Mathematical Olympiad
+    url: https://artofproblemsolving.com/community/c6h1879055
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=56622
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ru-moscow/1947
+    source: hf-ai-mo-aops
+    label: 1947 Moscow Mathematical Olympiad
+---
+a) $101$ numbers are selected from the set $1, 2, . . . , 200$ . Prove that among the numbers selected there is a pair in which one number is divisible by the other.
+
+b) One number less than $16$ , and $99$ other numbers are selected from the set $1, 2, . . . , 200$ . Prove that among the selected numbers there are two such that one divides the other.

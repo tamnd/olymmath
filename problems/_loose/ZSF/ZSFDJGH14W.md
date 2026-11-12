@@ -1,0 +1,24 @@
+---
+tag: ZSFDJGH14W
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2005 Taiwan National Olympiad
+    url: https://artofproblemsolving.com/community/c6h80328
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=61050
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: tw-tst/2005
+    source: hf-ai-mo-aops
+    label: 2005 Taiwan National Olympiad
+---
+If positive integers $p,q,r$ are such that the quadratic equation $px^2-qx+r=0$ has two distinct real roots in the open interval $(0,1)$ , find the minimum value of $p$ .

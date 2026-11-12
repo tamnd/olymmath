@@ -1,0 +1,24 @@
+---
+tag: VR11AZP8EA
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2024 Stanford Mathematics Tournament
+    url: https://artofproblemsolving.com/community/c6h3646942
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=74210
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: smt/2024
+    source: hf-ai-mo-aops
+    label: 2024 Stanford Mathematics Tournament
+---
+Triangle $ABC$ has side lengths $AB = 24$ and $BC = 23$ , and is inscribed in the circle $\omega$ . The radius of $\omega$ is $15$ and point $P$ lies on minor arc $BC$ of $\omega$ . Let $M$ be the midpoint of $AB$ . Line $PM$ intersects $\omega$ at $F \ne P$ . Let $T$ be the intersection of the tangents to $\omega$ passing through $A$ and $B$ . Let $TF$ intersect $AB$ at $K$ , and $\omega$ at $L\ne F$ . Finally, let $FC$ intersect $BP$ at $Q$ , and let $TQ$ intersect $BC$ at $N$ . If $TL = 25$ , compute the area of $\vartriangle KMN$ .

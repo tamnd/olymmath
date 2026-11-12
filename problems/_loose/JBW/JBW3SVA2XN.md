@@ -20,5 +20,8 @@ unplaced:
   - at: cr-mo/2018
     source: hf-ai-mo-aops
     label: 2018 Costa Rica - Final Round
+  - at: pl-om/1965
+    source: hf-ai-mo-aops
+    label: 1965 Polish MO Finals
 ---
 Let $a$ and $b$ be positive integers such that $2a^2 + a = 3b^2 + b$ . Prove that $a-b$ is a perfect square.

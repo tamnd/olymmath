@@ -2930,8 +2930,14 @@
   edition_form: year
   official_solutions: true
   languages: [en]
+  # Agent decision, not a person's review: the layout counts the problems of the written national stage in the official papers on pmo.ph. The problems are numbered 1 to N in one sequence, also when the stage has two days. The qualifying stage, the area stage and the oral phase are not counted. The site has no national paper for 2014, 2015 and 2025.
+  eras:
+    - {from: 2008, to: 2008, per_year: 4}
+    - {from: 2009, to: 2016, per_year: 5}
+    - {from: 2017, to: 2020, per_year: 4}
+    - {from: 2021, to: 2026, per_year: 8}
   sources: [pmo-ph]
-  description: The national olympiad of the Philippines. The site has the 10th to the 24th olympiads with solutions.
+  description: The national olympiad of the Philippines. The site has the written national stage of the 10th to the 26th and the 28th olympiads, most with solutions.
 
 - code: my-omk
   name: Malaysian Mathematical Olympiad

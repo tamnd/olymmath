@@ -1721,12 +1721,15 @@
   origin: H1
   url: https://pmo.ph/
   access: pdf
+  terms: "The site has no terms page (https://pmo.ph/terms-and-conditions/ gives 404 on 2026-11-13) and the papers give no licence. The robots.txt content signal says search=yes, ai-train=no and use=reference. So the content holds the statements with a link to the paper and does not copy the solutions."
   zone:
     statement: Z2
-    solution: Z2
-  ai_train: unknown
+    solution: Z3
+  ai_train: 'no'
+  size: 16 papers of the written national stage, 2008 to 2026 except 2014, 2015 and 2025
   wave: 1
-  state: planned
+  state: active
+  notes: "The home page and https://pmo.ph/downloads/ link one PDF for each stage and year. The robots.txt (read on 2026-11-13) allows all paths for all agents except /wp-admin/ and gives no crawl delay. The written national stage is used. The qualifying stage, the area stage and the oral phase are not used. om papers pmo-ph records the papers."
 
 - id: omk
   name: Olimpiad Matematik Kebangsaan (PERSAMA)

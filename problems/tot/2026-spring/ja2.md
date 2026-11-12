@@ -5,8 +5,8 @@ appearances:
   - at: tot/2026-spring/ja2
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2026-spring official paper
+    url: https://turgor.ru/problems/47/vs-47-sl-avt.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Дано квадратное уравнение $ax^2 + bx + c = 0$ с целыми ненулевыми коэффициентами $a$, $b$ и $c$, имеющее целый корень. Может ли оказаться, что, какой бы из этих трёх коэффициентов ни увеличить на 1, снова получится квадратное уравнение, имеющее целый корень?

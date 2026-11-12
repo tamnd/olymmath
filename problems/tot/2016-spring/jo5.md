@@ -5,8 +5,8 @@ appearances:
   - at: tot/2016-spring/jo5
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2016-spring official paper
+    url: https://turgor.ru/problems/37/vs-37-baz-avt.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+На листе бумаги синим карандашом нарисовали треугольник, а затем провели в нём красным карандашом медиану, биссектрису и высоту (возможно, не все из разных вершин), лежащие внутри треугольника. Получили разбиение треугольника на части. Мог ли среди этих частей оказаться равносторонний треугольник с красными сторонами?

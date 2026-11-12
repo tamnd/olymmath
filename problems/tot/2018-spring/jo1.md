@@ -5,8 +5,8 @@ appearances:
   - at: tot/2018-spring/jo1
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,20 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2018-spring official paper
+    url: https://turgor.ru/problems/39/vs-39-baz-avt.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+На доске $6 \times 6$ расставили 6 не угрожающих друг другу ладей. Затем каждое не занятое ладьей поле покрасили по такому правилу: если ладьи, угрожающие этому полю, находятся от него на одинаковом расстоянии, то это поле закрашивают в красный цвет, а если на разном — то в синий цвет. Могли ли все не занятые поля оказаться
+а) красными;
+б) синими?

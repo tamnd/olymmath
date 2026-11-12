@@ -5,8 +5,8 @@ appearances:
   - at: tot/2017-fall/sa6
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2017-fall official paper
+    url: https://turgor.ru/problems/39/os-39-sl-avt.pdf
+    page: 2
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Дан треугольник $ABC$. Пусть $I$ — центр вневписанной окружности, касающейся стороны $AB$, а $A_1$ и $B_1$ — точки касания двух других вневписанных окружностей со сторонами $BC$ и $AC$ соответственно. Пусть $M$ — середина отрезка $IC$, а отрезки $AA_1$ и $BB_1$ пересекаются в точке $N$. Докажите, что точки $N$, $B_1$, $A$ и $M$ лежат на одной окружности.

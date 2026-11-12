@@ -5,8 +5,8 @@ appearances:
   - at: tot/2009-fall/ja3
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2009-fall official paper
+    url: https://turgor.ru/problems/31/os31sl.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Найдите все такие натуральные числа $a$ и $b$, что $(a + b^2)(b + a^2)$ является целой степенью двойки.

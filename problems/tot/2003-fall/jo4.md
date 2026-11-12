@@ -5,8 +5,8 @@ appearances:
   - at: tot/2003-fall/jo4
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,17 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2003-fall official page
+    url: https://turgor.ru/problems/25/index.php
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/html (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+$N$ точек плоскости, никакие три из которых не лежат на одной прямой, попарно соединили отрезками (каждую с каждой). Часть отрезков покрасили красным, остальные — синим. Красные отрезки образовали замкнутую несамопересекающуюся ломаную, и синие отрезки — тоже. Найдите все $N$, при которых это могло получиться.

@@ -5,8 +5,8 @@ appearances:
   - at: tot/2014-spring/so2
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2014-spring official paper
+    url: https://turgor.ru/problems/35/vs-35-baz-avt.pdf
+    page: 2
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+В выпуклом четырехугольнике $ABCD$ диагонали перпендикулярны. На сторонах $AD$ и $CD$ отмечены соответственно точки $M$ и $N$ так, что углы $ABN$ и $CBM$ прямые. Докажите, что прямые $AC$ и $MN$ параллельны.

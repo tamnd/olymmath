@@ -5,8 +5,8 @@ appearances:
   - at: tot/2008-fall/ja5
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,17 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2008-fall official page
+    url: https://turgor.ru/problems/30/os30os.tex
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/tex (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Даны положительные числа $a_1$, $a_2$, ..., $a_n$. Известно, что $a_1+a_2+\dots+a_n\leq\frac12$. Докажите, что $(1+a_1)\cdot(1+a_2)\cdot\dots\cdot(1+a_n)<2$.

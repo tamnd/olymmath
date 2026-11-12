@@ -5,8 +5,8 @@ appearances:
   - at: tot/2017-fall/sa2
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2017-fall official paper
+    url: https://turgor.ru/problems/39/os-39-sl-avt.pdf
+    page: 2
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Дан правильный шестиугольник с центром $O$. Провели шесть равных окружностей с центрами в вершинах шестиугольника такие, что точка $O$ находится внутри окружностей. Угол величины $\alpha$ с вершиной $O$ высекает на этих окружностях шесть дуг. Докажите, что суммарная величина этих дуг равна $6\alpha$.

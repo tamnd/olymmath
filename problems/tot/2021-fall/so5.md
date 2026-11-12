@@ -5,8 +5,8 @@ appearances:
   - at: tot/2021-fall/so5
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2021-fall official paper
+    url: https://turgor.ru/problems/43/os-43-baz-avt.pdf
+    page: 2
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Дан отрезок $[0;1]$. За ход разрешается разбить любой из имеющихся отрезков точкой на два новых отрезка и записать на доску произведение длин этих двух новых отрезков. Докажите, что ни в какой момент сумма чисел на доске не превысит $1/2$.

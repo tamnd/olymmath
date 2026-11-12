@@ -5,8 +5,8 @@ appearances:
   - at: tot/2003-fall/ja5
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,17 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2003-fall official page
+    url: https://turgor.ru/problems/25/index.php
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/html (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Дан квадрат $ABCD$, внутри которого лежит точка $O$. Докажите, что сумма углов $OAB$, $OBC$, $OCD$ и $ODA$ отличается от 180 градусов не больше, чем на 45 градусов.

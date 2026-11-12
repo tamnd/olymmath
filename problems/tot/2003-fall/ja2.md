@@ -6,8 +6,8 @@ appearances:
     primary: true
   - at: tot/2003-fall/sa1
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -17,6 +17,17 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2003-fall official page
+    url: https://turgor.ru/problems/25/index.php
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/html (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Имеется несколько юношей, каждый из которых знаком с некоторыми девушками. Две свахи знают, кто с кем знаком. Одна сваха заявляет: "Я могу одновременно женить всех брюнетов так, чтобы каждый из них женился на знакомой ему девушке!". Вторая сваха говорит: "А я могу устроить судьбу всех блондинок: каждая выйдет замуж за знакомого юношу!". Этот диалог услышал любитель математики, который сказал: "В таком случае можно сделать и то, и другое!". Прав ли он?

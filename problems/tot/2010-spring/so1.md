@@ -5,8 +5,8 @@ appearances:
   - at: tot/2010-spring/so1
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,17 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2010-spring official page
+    url: https://turgor.ru/problems/31/index.php
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/html (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Из Южной Америки в Россию 2010 кораблей везут бананы, лимоны и ананасы. Число бананов на каждом корабле равно числу лимонов на остальных кораблях вместе взятых, а число лимонов на каждом корабле равно числу ананасов на остальных кораблях вместе взятых. Докажите, что общее число фруктов делится на 31.

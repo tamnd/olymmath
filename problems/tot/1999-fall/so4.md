@@ -5,8 +5,8 @@ appearances:
   - at: tot/1999-fall/so4
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,19 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 1999-fall official page
+    url: https://turgor.ru/problems/21/index.php
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/html (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Можно ли отметить на числовой оси 50 отрезков (быть может, перекрывающихся), так что выполняются два условия:
+а) длины отрезков — 1, 2, 3, ... , 50;
+б) концы отрезков — это все целые точки от 1 до 100 включительно?

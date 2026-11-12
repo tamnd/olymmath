@@ -5,8 +5,8 @@ appearances:
   - at: tot/1999-fall/jo5
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,17 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 1999-fall official page
+    url: https://turgor.ru/problems/21/index.php
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/html (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Имеются плашки (вырезанные из картона прямоугольники) размера $2 \times 1$. На каждой плашке нарисована одна диагональ. Есть плашки двух сортов, так как диагональ можно расположить двумя способами, причем плашек каждого сорта имеется достаточно много. Можно ли выбрать 18 плашек и сложить из них квадрат $6 \times 6$ так, чтобы концы диагоналей нигде не совпали?

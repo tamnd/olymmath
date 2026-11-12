@@ -5,8 +5,8 @@ appearances:
   - at: tot/2019-fall/sa7
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2019-fall official paper
+    url: https://turgor.ru/problems/41/os-41-sl-avt.pdf
+    page: 2
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Некоторые из чисел 1, 2, 3, ... , $n$ покрашены в красный цвет так, что выполняется условие: если для красных чисел $a$, $b$, $c$ (не обязательно различных) $a(b - c)$ делится на $n$, то $b = c$. Докажите, что красных чисел не больше, чем $\phi(n)$ (количество натуральных чисел, не превосходящих $n$ и взаимно простых с $n$).

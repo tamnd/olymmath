@@ -5,8 +5,8 @@ appearances:
   - at: tot/2011-spring/jo5
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,20 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2011-spring official paper
+    url: https://turgor.ru/problems/32/vs32baz-avt.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Дракон заточил в темницу рыцаря и выдал ему 100 разных монет, половина из которых волшебные (какие именно — знает только дракон). Каждый день рыцарь раскладывает все монеты на две кучки (не обязательно равные). Если в кучках окажется поровну волшебных монет или поровну обычных, дракон отпустит рыцаря. Сможет ли рыцарь гарантированно освободиться не позже, чем
+а) на 50-й день?
+б) на 25-й день?

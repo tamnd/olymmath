@@ -5,8 +5,8 @@ appearances:
   - at: tot/2013-fall/sa2
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,19 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2013-fall official paper
+    url: https://turgor.ru/problems/35/os35-sl-avt.pdf
+    page: 2
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Найдите все $n$, для которых верно утверждение:
+для любых двух многочленов $P(x)$ и $Q(x)$ степени $n$ найдутся такие одночлены $ax^k$ и $bx^\ell$, где $0 \le k,\ell \le n$, что графики многочленов $P(x) + ax^k$ и $Q(x) + bx^\ell$ не будут иметь общих точек.

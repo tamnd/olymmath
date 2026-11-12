@@ -5,8 +5,8 @@ appearances:
   - at: tot/2026-spring/so5
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,20 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2026-spring official paper
+    url: https://turgor.ru/problems/47/vs-47-baz-avt.pdf
+    page: 2
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Квадрат $N \times N$ разбит на $N^2$ единичных квадратов. Одна из вершин единичных квадратов радиоактивна. Имеется также прибор, который про любой из этих единичных квадратов определяет, есть ли среди его вершин радиоактивная. Найдите радиоактивную вершину за наименьшее число проверок, если
+а) $N = 7$;
+б) $N = 8$.

@@ -5,8 +5,8 @@ appearances:
   - at: tot/2011-fall/sa4
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,20 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2011-fall official paper
+    url: https://turgor.ru/problems/33/os33sl-avt.pdf
+    page: 2
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/pdftohtml (om-rutex/1)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Существует ли выпуклый $N$-угольник, все стороны которого равны, а все вершины лежат на параболе $y = x^2$, если
+а) $N = 2011$;
+б) $N = 2012$?

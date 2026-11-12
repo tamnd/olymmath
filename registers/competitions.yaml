@@ -2294,6 +2294,10 @@
   level: high-school
   country: HU
   url: https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek_/oktv_kereteben/versenyfeladatok_javitasi_utmutatok/tartalomjegyzek/matematika_II
+  # Agent decision, not a person's review. The layout covers the finals (round 3) only. Positions are p<category><round><number>. In 2020 and 2021 only category III had a final.
+  eras:
+    - {from: 2006, to: 2019, per_year: 9, layout: [{paper: cat1-final, name: "Category I, final", positions: [p131, p132, p133]}, {paper: cat2-final, name: "Category II, final", positions: [p231, p232, p233]}, {paper: cat3-final, name: "Category III, final", positions: [p331, p332, p333]}]}
+    - {from: 2020, to: 2021, per_year: 3, layout: [{paper: cat3-final, name: "Category III, final", positions: [p331, p332, p333]}]}
   edition_form: year
   official_solutions: true
   languages: [hu]

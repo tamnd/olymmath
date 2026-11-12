@@ -1,0 +1,42 @@
+year: 2019
+official:
+  - lang: Hungarian
+    code: hu
+    url: https://www.oktatas.hu/pub_bin/dload/kozoktatas/tanulmanyi_versenyek/oktv/oktv2018_2019_donto/mat1_flap_d_oktv_1819.pdf
+    paper: cat1-final
+    source: oktatas-oktv
+  - lang: Hungarian
+    code: hu
+    url: https://www.oktatas.hu/pub_bin/dload/kozoktatas/tanulmanyi_versenyek/oktv/oktv2018_2019_1ford/mat1_flap1f_oktv_1819.pdf
+    paper: cat1-round1
+    source: oktatas-oktv
+  - lang: Hungarian
+    code: hu
+    url: https://www.oktatas.hu/pub_bin/dload/kozoktatas/tanulmanyi_versenyek/oktv/oktv2018_2019_2ford/mat1_flap2f_oktv_1819.pdf
+    paper: cat1-round2
+    source: oktatas-oktv
+  - lang: Hungarian
+    code: hu
+    url: https://www.oktatas.hu/pub_bin/dload/kozoktatas/tanulmanyi_versenyek/oktv/oktv2018_2019_donto/mat2_flap_d_oktv_1819.pdf
+    paper: cat2-final
+    source: oktatas-oktv
+  - lang: Hungarian
+    code: hu
+    url: https://www.oktatas.hu/pub_bin/dload/kozoktatas/tanulmanyi_versenyek/oktv/oktv2018_2019_1ford/mat2_flap1f_oktv_1819.pdf
+    paper: cat2-round1
+    source: oktatas-oktv
+  - lang: Hungarian
+    code: hu
+    url: https://www.oktatas.hu/pub_bin/dload/kozoktatas/tanulmanyi_versenyek/oktv/oktv2018_2019_2ford/mat2_flap2f_oktv_1819.pdf
+    paper: cat2-round2
+    source: oktatas-oktv
+  - lang: Hungarian
+    code: hu
+    url: https://www.oktatas.hu/pub_bin/dload/kozoktatas/tanulmanyi_versenyek/oktv/oktv2018_2019_donto/mat3_flap_d_oktv_1819.pdf
+    paper: cat3-final
+    source: oktatas-oktv
+  - lang: Hungarian
+    code: hu
+    url: https://www.oktatas.hu/pub_bin/dload/kozoktatas/tanulmanyi_versenyek/oktv/oktv2018_2019_1ford/mat3_flap1f_oktv_1819.pdf
+    paper: cat3-round1
+    source: oktatas-oktv

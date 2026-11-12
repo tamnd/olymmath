@@ -1,0 +1,22 @@
+year: 2005
+official:
+  - lang: Hungarian
+    code: hu
+    url: https://www.oktatas.hu/pub_bin/dload/kozoktatas/tanulmanyi_versenyek/oktv/oktv_2004_2005/matematika1_fela.pdf
+    paper: cat1-round1
+    source: oktatas-oktv
+  - lang: Hungarian
+    code: hu
+    url: https://www.oktatas.hu/pub_bin/dload/kozoktatas/tanulmanyi_versenyek/oktv/oktv_2004_2005/mat1_2foktv0405_fl.pdf
+    paper: cat1-round2
+    source: oktatas-oktv
+  - lang: Hungarian
+    code: hu
+    url: https://www.oktatas.hu/pub_bin/dload/kozoktatas/tanulmanyi_versenyek/oktv/oktv_2004_2005/mat2_2foktv0405_fl.pdf
+    paper: cat2-round2
+    source: oktatas-oktv
+  - lang: Hungarian
+    code: hu
+    url: https://www.oktatas.hu/pub_bin/dload/kozoktatas/tanulmanyi_versenyek/oktv/oktv_2004_2005/matematika3_fela.pdf
+    paper: cat3-round1
+    source: oktatas-oktv

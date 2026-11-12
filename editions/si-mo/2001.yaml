@@ -1,0 +1,15 @@
+year: 2001
+papers:
+  - name: Grade 1
+    problems: [p11, p12, p13, p14]
+  - name: Grade 2
+    problems: [p21, p22, p23, p24]
+  - name: Grade 3
+    problems: [p31, p32, p33, p34]
+  - name: Grade 4
+    problems: [p41, p42, p43, p44]
+official:
+  - lang: Slovenian
+    code: sl
+    url: https://www.dmfa.si/Tekmovanja/GetPDF.ashx?src=MaSSA_Drzavno_2001.pdf
+    source: dmfa-massa

@@ -1,0 +1,8 @@
+id: fd71268be875
+kind: sample
+records:
+    - si-mo/2011/p32
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. Sample against the official DMFA paper. Page 4 of the 2011 paper is the paper of grade 3, and its problem 2 (polynomials with integer coefficients) is at this position."

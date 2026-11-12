@@ -1,0 +1,8 @@
+id: f2e3fae97d51
+kind: placement
+records:
+    - si-mo/2001/p13
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem MTK4WW99E6, labeled 2001 Slovenia National Olympiad, states the same problem with the same data as problem 3 for grade 1 in the official DMFA paper of 2001 (page 2). The record moved from the loose problems to si-mo/2001/p13."

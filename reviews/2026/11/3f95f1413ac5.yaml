@@ -1,0 +1,8 @@
+id: 3f95f1413ac5
+kind: sample
+records:
+    - si-mo/2021/b41
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. Sample against the official DMFA paper. Page 15 of the 2021 paper holds B1 of grade 4 (the sequence with a1 = 3)."

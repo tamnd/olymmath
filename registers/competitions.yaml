@@ -2393,8 +2393,17 @@
   group: national
   level: high-school
   country: SI
-  sources: [aops-collections, imogeometry-blog, hf-mathnet]
-  description: The national olympiad of Slovenia. No primary source has been found yet.
+  organizer: Society of Mathematicians, Physicists and Astronomers of Slovenia (DMFA)
+  url: https://www.dmfa.si/Tekmovanja/MaSSA/ArhivNalog.aspx
+  edition_form: year
+  languages: [sl]
+  # Agent decision, not a person's review: the national round (Drzavno) has one paper for each of the four grades (letnik) of high school, and the DMFA archive has one file for each year from 2001 with all four papers. Each paper numbers its problems from 1. Up to 2015 each grade has four problems, so problem N of grade G is pG followed by N. From 2016 each grade has three problems in part A (multiple choice, A1 to A3) and three in part B (B1 to B3), so A2 of grade 3 is a32 and B2 of grade 3 is b32. The paper of 2025 numbers part A as 1, 2 and 3, but its answer table names them A1 to A3. The paper of grade 1 of 2019 names its last problem B2 by mistake; it is B3. 2020 has no paper in the archive.
+  eras:
+    - {from: 2001, to: 2015, per_year: 16, layout: [{paper: grade1, name: Grade 1, positions: [p11, p12, p13, p14]}, {paper: grade2, name: Grade 2, positions: [p21, p22, p23, p24]}, {paper: grade3, name: Grade 3, positions: [p31, p32, p33, p34]}, {paper: grade4, name: Grade 4, positions: [p41, p42, p43, p44]}]}
+    - {from: 2016, to: 2019, per_year: 24, layout: [{paper: grade1, name: Grade 1, positions: [a11, a12, a13, b11, b12, b13]}, {paper: grade2, name: Grade 2, positions: [a21, a22, a23, b21, b22, b23]}, {paper: grade3, name: Grade 3, positions: [a31, a32, a33, b31, b32, b33]}, {paper: grade4, name: Grade 4, positions: [a41, a42, a43, b41, b42, b43]}]}
+    - {from: 2021, to: 2025, per_year: 24, layout: [{paper: grade1, name: Grade 1, positions: [a11, a12, a13, b11, b12, b13]}, {paper: grade2, name: Grade 2, positions: [a21, a22, a23, b21, b22, b23]}, {paper: grade3, name: Grade 3, positions: [a31, a32, a33, b31, b32, b33]}, {paper: grade4, name: Grade 4, positions: [a41, a42, a43, b41, b42, b43]}]}
+  sources: [dmfa-massa, aops-collections, imogeometry-blog, hf-mathnet]
+  description: The national olympiad of Slovenia for the four grades of high school. The DMFA links the papers of the national round from 2001 on its archive page, but its terms do not allow publication on other sites, so the records link to the papers.
 
 - code: ba-mo
   name: Bosnia and Herzegovina national mathematics olympiad

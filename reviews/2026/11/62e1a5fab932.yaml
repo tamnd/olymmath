@@ -1,0 +1,8 @@
+id: 62e1a5fab932
+kind: sample
+records:
+    - TB6YMKHZ1P
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text states one problem (simplify a chain of 200 minus signs) and no solution. The agent cut the hint and the note for teachers that followed it.'

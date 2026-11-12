@@ -1,0 +1,8 @@
+id: 9b8600f29033
+kind: sample
+records:
+    - NZMWDX1WX1
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text states one complete problem about an integer triangle and no solution. The agent cut the book number ''Ex. 119.'' at the start.'

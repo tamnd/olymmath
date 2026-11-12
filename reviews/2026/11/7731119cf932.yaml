@@ -1,0 +1,9 @@
+id: 7731119cf932
+kind: pair
+records:
+    - 5QPAV6ECY6
+    - W8EJBZ4VB3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 40791 to row 40779 of NuminaMath 1.5, but they are two problems: the row says 7t+3 is never a perfect cube, the record says it is never a perfect square. Row 40791 is now its own loose record.'

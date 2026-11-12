@@ -1,0 +1,8 @@
+id: 1975817c0b9b
+kind: match
+records:
+    - A0N09P4Q2P
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 42239 was joined into this record, which holds row 39870. The two rows state the same claim (every natural number is 3n, 3n+1 or 3n+2); one says ''Prove that''.'

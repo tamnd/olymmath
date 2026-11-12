@@ -1,0 +1,9 @@
+id: 4d9560a5cf89
+kind: pair
+records:
+    - 2E99SK3QQ1
+    - imo/1973/p3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 38129 of NuminaMath 1.5 to this record, but they are two problems: the row asks to solve the quartic, the record asks for the least a^2+b^2 when it has a real root. The agent removed the row from the record, and row 38129 is now its own loose record.'

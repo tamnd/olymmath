@@ -1,0 +1,32 @@
+---
+tag: 9YYSJD5Y8G
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=42578
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Prove that
+
+$$
+\frac{\log _{a} P}{\log _{a b} P}=1+\log _{a} b
+$$
+
+for
+
+$$
+\begin{gathered}
+a>0, b>0, a b \neq 1 \\
+a \neq 1
+\end{gathered}
+$$

@@ -1,0 +1,8 @@
+id: 2ebb21d4a319
+kind: sample
+records:
+    - J7PDTMXRMN
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text states one claim to prove about squares of primes modulo 30 and no solution. The word ''prove'' is left out, as the book does, but the task is clear.'

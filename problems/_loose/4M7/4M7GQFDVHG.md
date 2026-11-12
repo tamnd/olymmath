@@ -1,0 +1,21 @@
+---
+tag: 4M7GQFDVHG
+kind: problem
+type: answer
+answer: "978174"
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=39408
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Find the greatest and the least three-digit numbers, each of which is divisible by 6 and has the digit 7 in its representation.

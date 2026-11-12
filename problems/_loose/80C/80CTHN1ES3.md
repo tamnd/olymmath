@@ -18,4 +18,4 @@ statements:
 status:
   statement: captured
 ---
-Prove that if the medians drawn from vertices $B$ and $C$ of triangle $ABC$ are perpendicular, then $\operatorname{ctg} B + \operatorname{ctg} C \geqslant \geqslant 2 / 3$.
+Prove that if the medians drawn from vertices $B$ and $C$ of triangle $ABC$ are perpendicular, then $\operatorname{ctg} B + \operatorname{ctg} C \geqslant 2 / 3$.

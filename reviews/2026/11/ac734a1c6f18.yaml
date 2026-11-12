@@ -1,0 +1,9 @@
+id: ac734a1c6f18
+kind: pair
+records:
+    - 6GQY6VGKPF
+    - us-tst/2004/p1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 34929 of NuminaMath 1.5 to this record, but they are two problems: the row states the Cauchy inequality, the record a different inequality with the terms minus 1. The agent removed the row from the record, and row 34929 is now its own loose record.'

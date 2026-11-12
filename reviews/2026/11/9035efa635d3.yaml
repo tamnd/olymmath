@@ -1,0 +1,9 @@
+id: 9035efa635d3
+kind: pair
+records:
+    - VCJXX03EBP
+    - KNZ5QCGKJC
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 42493 to row 42466 of NuminaMath 1.5, but they are two problems: the row asks for the bound at least 9 for any positive numbers, the record for the strict bound for unequal numbers. Row 42493 is now its own loose record.'

@@ -1891,6 +1891,10 @@
   edition_form: year
   official_solutions: true
   languages: [fr]
+  # Agent decision, not a person's review: the page of past tests of the POFM lists five tests for each school year. From 2020-2021 the files are named Test 1 to Test 5, and the edition is the second year of the school year (2024-2025 is 2025). Each paper numbers its exercises from 1 across its Junior, Senior and EGMO groups, so the positions run across the year in the order of the tests: exercise N of test 2 of 2025 is p(4+N). The counts come from the papers. Test 1 has 3 exercises in 2021 and 4 later, test 3 has 10, and the others have 7. A problem that two groups of one test share has both positions. The years before 2021 name their files by the month and some months have a file for each group or day, so they have no layout.
+  eras:
+    - {from: 2021, to: 2021, per_year: 34, layout: [{paper: test1, name: Test 1, positions: [p1, p2, p3]}, {paper: test2, name: Test 2, positions: [p4, p5, p6, p7, p8, p9, p10]}, {paper: test3, name: Test 3, positions: [p11, p12, p13, p14, p15, p16, p17, p18, p19, p20]}, {paper: test4, name: Test 4, positions: [p21, p22, p23, p24, p25, p26, p27]}, {paper: test5, name: Test 5, positions: [p28, p29, p30, p31, p32, p33, p34]}]}
+    - {from: 2022, to: 2026, per_year: 35, layout: [{paper: test1, name: Test 1, positions: [p1, p2, p3, p4]}, {paper: test2, name: Test 2, positions: [p5, p6, p7, p8, p9, p10, p11]}, {paper: test3, name: Test 3, positions: [p12, p13, p14, p15, p16, p17, p18, p19, p20, p21]}, {paper: test4, name: Test 4, positions: [p22, p23, p24, p25, p26, p27, p28]}, {paper: test5, name: Test 5, positions: [p29, p30, p31, p32, p33, p34, p35]}]}
   sources: [maths-olympiques, hf-numina-olympiads]
   description: The French olympiad training programme (POFM), the Coupe Animath and the French IMO selection tests.
 

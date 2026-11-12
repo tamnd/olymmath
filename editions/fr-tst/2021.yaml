@@ -1,0 +1,38 @@
+year: 2021
+papers:
+  - name: Test 1
+    problems: [p1, p2, p3]
+  - name: Test 2
+    problems: [p4, p5, p6, p7, p8, p9, p10]
+  - name: Test 3
+    problems: [p11, p12, p13, p14, p15, p16, p17, p18, p19, p20]
+  - name: Test 4
+    problems: [p21, p22, p23, p24, p25, p26, p27]
+  - name: Test 5
+    problems: [p28, p29, p30, p31, p32, p33, p34]
+official:
+  - lang: French
+    code: fr
+    url: https://maths-olympiques.fr/wp-content/uploads/2020/11/Énoncé-Test-1.pdf
+    paper: test1
+    source: maths-olympiques
+  - lang: French
+    code: fr
+    url: https://maths-olympiques.fr/wp-content/uploads/2021/01/Énoncé-Test-2.pdf
+    paper: test2
+    source: maths-olympiques
+  - lang: French
+    code: fr
+    url: https://maths-olympiques.fr/wp-content/uploads/2021/12/Enoncé-Test-3-2020.pdf
+    paper: test3
+    source: maths-olympiques
+  - lang: French
+    code: fr
+    url: https://maths-olympiques.fr/wp-content/uploads/2021/12/Énoncé-Test-4.pdf
+    paper: test4
+    source: maths-olympiques
+  - lang: French
+    code: fr
+    url: https://maths-olympiques.fr/wp-content/uploads/2021/12/Sujet-test-5-2021.pdf
+    paper: test5
+    source: maths-olympiques

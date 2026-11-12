@@ -1,0 +1,8 @@
+id: 48ff1260d44c
+kind: sample
+records:
+    - WAWB1D4XE9
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. I compared the text of fr-tst/2021/p30 with page 2 of the official PDF, as an image, word by word and formula by formula. The text, the formulas and the order of the paragraphs agree with the paper. The OCR read the name of the test as POEM. I changed it to POFM, as in the paper.'

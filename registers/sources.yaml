@@ -1483,12 +1483,15 @@
   origin: H1
   url: https://maths-olympiques.fr/
   access: pdf
+  terms: "The site has no page of terms or legal notice, and the pages and the papers give no licence (read on 2026-11-13). The POFM is a programme of the association Animath. So the content holds the statements with a link to the paper and does not copy the solutions (Corrigé)."
   zone:
     statement: Z2
-    solution: Z2
+    solution: Z3
   ai_train: unknown
+  size: 30 test papers of the POFM, five for each school year from 2020-2021 to 2025-2026
   wave: 1
-  state: planned
+  state: active
+  notes: "The page of past tests (?page_id=479) links the papers and the solutions of each school year from 2011-2012. Only the files numbered Test 1 to Test 5 (from 2020-2021) are used. The site has no robots.txt: the path /robots.txt redirects to /robots.txt/, which gives the home page (checked on 2026-11-13). The text layer of the papers loses the exponents and some symbols, so the formulas were checked against the page images. om papers maths-olympiques records the papers."
 
 - id: olimpiadi-unibo
   name: Olimpiadi della Matematica (Bologna)

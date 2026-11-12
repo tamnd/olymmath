@@ -2439,6 +2439,11 @@
   country: RU
   url: https://olympiads.mccme.ru/vmo/
   first_year: 1961
+  # Agent decision, not a person's review: from 1993 the final round has eight problems for each of the grades 9, 10 and 11, four on each of two days. The AoPS wiki titles name the grade and the problem, as in "All Russian 2021/9.4", "Russian Olympiad 2004 problem 10.6" or "All Russian 2014 Grade 9 Day 2 P4", where a day counts its problems from 1. The position of problem N of grade G is pG followed by N, as the records of 1993 to 2014 already use. 2007 has no era, because problems.ru also gives it a grade 8 paper, and 2020 has none, because the final round was not held.
+  eras:
+    - {from: 1993, to: 2006, per_year: 24, layout: [{paper: grade9, name: Grade 9, days: 2, positions: [p91, p92, p93, p94, p95, p96, p97, p98]}, {paper: grade10, name: Grade 10, days: 2, positions: [p101, p102, p103, p104, p105, p106, p107, p108]}, {paper: grade11, name: Grade 11, days: 2, positions: [p111, p112, p113, p114, p115, p116, p117, p118]}]}
+    - {from: 2008, to: 2019, per_year: 24, layout: [{paper: grade9, name: Grade 9, days: 2, positions: [p91, p92, p93, p94, p95, p96, p97, p98]}, {paper: grade10, name: Grade 10, days: 2, positions: [p101, p102, p103, p104, p105, p106, p107, p108]}, {paper: grade11, name: Grade 11, days: 2, positions: [p111, p112, p113, p114, p115, p116, p117, p118]}]}
+    - {from: 2021, to: 2025, per_year: 24, layout: [{paper: grade9, name: Grade 9, days: 2, positions: [p91, p92, p93, p94, p95, p96, p97, p98]}, {paper: grade10, name: Grade 10, days: 2, positions: [p101, p102, p103, p104, p105, p106, p107, p108]}, {paper: grade11, name: Grade 11, days: 2, positions: [p111, p112, p113, p114, p115, p116, p117, p118]}]}
   edition_form: year
   official_solutions: true
   languages: [ru]

@@ -1,0 +1,12 @@
+year: 2001
+papers:
+  - name: Day 1
+    problems: [p1, p2, p3]
+  - name: Day 2
+    problems: [p4, p5, p6]
+  - name: Day 3
+    problems: [p7, p8, p9]
+  - name: Day 4
+    problems: [p10, p11, p12]
+  - name: Day 5
+    problems: [p13, p14, p15]

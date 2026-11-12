@@ -270,8 +270,8 @@ IMO-Selektion	-
 Vorrundenprüfung	-
 Federal Competition For Advanced Students, P2	at-oemo
 Federal Competition For Advanced Students, Part 2	at-oemo
-Regional Competition For Advanced Students	at-oemo
-Austria Beginners' Competition	at-oemo
+Regional Competition For Advanced Students	at-oemo-reg
+Austria Beginners' Competition	at-oemo-beg
 Denmark MO - Mohr Contest	dk-georgmohr
 Abels Math Contest (Norwegian MO)	no-abel
 Abels Math Contest (Norwegian MO) Final	no-abel
@@ -370,8 +370,8 @@ China NSMO	-
 China Western MO	cn-wmo
 China Girls MO	cn-gmo
 Iran MO (3rd Round)	ir-mo
-Iran MO (2nd round)	ir-mo
-Iran MO (2nd Round)	ir-mo
+Iran MO (2nd round)	ir-mo-r2
+Iran MO (2nd Round)	ir-mo-r2
 Iranian Mathematical Olympiad	ir-mo
 Iran TST	ir-tst
 Pre-Preparation Course Examination	-
@@ -673,16 +673,16 @@ HKIMO Preliminary Selection Contest	hk-pc
 Hong Kong Preliminary Selection Contest	hk-pc
 IMO Preliminary Selection Contest — Hong Kong	hk-pc
 HongKong 2022-23 IMO Selection Tests	hk-pc
-Federal Competition For Advanced Students, Part 1	at-oemo
-Federal Competition For Advanced Students, P1	at-oemo
-Austria Federal Comp. for Adv. Students Part 1	at-oemo
-Federal Competition For Advanced Students	at-oemo
-Austrian MO National Competition	at-oemo
-Austria Regional Competition For Advanced Students	at-oemo
-Austrian MO Regional Competition	at-oemo
-Austria 2010	at-oemo
-AustriaMO2011	at-oemo
-AUT_ABooklet_2023	at-oemo
+Federal Competition For Advanced Students, Part 1	at-oemo-fed1
+Federal Competition For Advanced Students, P1	at-oemo-fed1
+Austria Federal Comp. for Adv. Students Part 1	at-oemo-fed1
+Federal Competition For Advanced Students	at-oemo-fed1
+Austrian MO National Competition	-
+Austria Regional Competition For Advanced Students	at-oemo-reg
+Austrian MO Regional Competition	at-oemo-reg
+Austria 2010	-
+AustriaMO2011	-
+AUT_ABooklet_2023	-
 Uzbekistan NMO	uz-mo
 Uzbekistan National Olympiad	uz-mo
 Kyrgyzstan NMO	kg-mo
@@ -897,3 +897,6 @@ Dutch BxMO TST	nl-bxmo-tst
 Kosovo Team Selection Test	xk-tst
 Kosovo TST	xk-tst
 Malaysia NMO	my-omk
+# Agent decision, not a person's review (2026-11-12): at-oemo is now the final round of the Austrian olympiad, and its earlier rounds have their own codes, as the official papers at oemo.at show. A label with no part, "Federal Competition For Advanced Students", holds the papers of part 1 in 2015 and 2017, as the official papers show. "Austrian MO National Competition" holds both parts of the federal competition in one collection with no numbers, and the booklets of hf-mathnet hold several rounds, so their rows give no position.
+Austrian Junior Regional Competition	at-oemo-beg
+Austrian Junior Regional	at-oemo-beg

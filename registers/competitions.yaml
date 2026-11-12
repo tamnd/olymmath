@@ -2046,11 +2046,56 @@
   country: AT
   url: https://www.oemo.at/OeMO/aufgaben/
   first_year: 1970
+  # Agent decision, not a person's review: the official papers of the final round (Bundeswettbewerb für Fortgeschrittene, Teil 2) from 2015 to 2023 have two days (Tag 1, Tag 2) of three problems, numbered 1 to 6. The AoPS wiki numbers some years 1 to 6 and some years 1 to 3 on each day, with titles such as "Austrian MO 2008 P5" or "round3 day2 problem3", and the AoPS collections of 1983 to 2023 have six problems in each year. Problem N of day 2 sits at p(3+N).
+  eras:
+    - {from: 1983, per_year: 6, layout: [{paper: day1, name: Day 1, positions: [p1, p2, p3]}, {paper: day2, name: Day 2, positions: [p4, p5, p6]}]}
   edition_form: year
   official_solutions: true
   languages: [de, en]
   sources: [oemo]
-  description: The Austrian olympiad in several rounds. The site has the problems in German and English with solutions, and 2026 was the 57th.
+  description: The final round of the Austrian olympiad, the federal competition part 2 (Bundeswettbewerb für Fortgeschrittene, Teil 2), with two days of three problems. The earlier rounds are at-oemo-beg, at-oemo-reg and at-oemo-fed1. The site has the problems in German and English with solutions, and 2026 was the 57th.
+
+- code: at-oemo-beg
+  name: Austrian Mathematical Olympiad, Beginners' Competition
+  names: {de: Österreichische Mathematik-Olympiade, Landeswettbewerb für Anfängerinnen und Anfänger}
+  group: national
+  level: high-school
+  country: AT
+  url: https://www.oemo.at/OeMO/aufgaben/
+  edition_form: year
+  per_year: 4
+  official_solutions: true
+  languages: [de, en]
+  sources: [oemo]
+  description: The beginners' round of the Austrian olympiad (Landeswettbewerb für Anfängerinnen und Anfänger), for younger students, with four problems. Agent decision, not a person's review, to keep it as its own competition. The AoPS labels "Austria Beginners' Competition" (2000 to 2018) and "Austrian Junior Regional Competition" (2019 to 2023) both hold its papers, as the official papers of 2018 and 2019 show.
+
+- code: at-oemo-reg
+  name: Austrian Mathematical Olympiad, Regional Competition
+  names: {de: Österreichische Mathematik-Olympiade, Gebietswettbewerb für Fortgeschrittene}
+  group: national
+  level: high-school
+  country: AT
+  url: https://www.oemo.at/OeMO/aufgaben/
+  edition_form: year
+  per_year: 4
+  official_solutions: true
+  languages: [de, en]
+  sources: [oemo]
+  description: The regional round of the Austrian olympiad for advanced students (Gebietswettbewerb für Fortgeschrittene), held in the spring, with four problems. Agent decision, not a person's review, to keep it as its own competition, with its shape taken from the official papers of 2015 to 2023.
+
+- code: at-oemo-fed1
+  name: Austrian Mathematical Olympiad, Federal Competition Part 1
+  names: {de: Österreichische Mathematik-Olympiade, Bundeswettbewerb für Fortgeschrittene, Teil 1}
+  group: national
+  level: high-school
+  country: AT
+  url: https://www.oemo.at/OeMO/aufgaben/
+  edition_form: year
+  per_year: 4
+  official_solutions: true
+  languages: [de, en]
+  sources: [oemo]
+  description: The first part of the federal competition of the Austrian olympiad (Bundeswettbewerb für Fortgeschrittene, Teil 1), with four problems. Its best students go on to the final round (at-oemo). Agent decision, not a person's review, to keep it as its own competition, with its shape taken from the official papers of 2015 to 2023.
 
 - code: dk-georgmohr
   name: Georg Mohr Contest
@@ -2394,6 +2439,11 @@
   country: RU
   url: https://olympiads.mccme.ru/vmo/
   first_year: 1961
+  # Agent decision, not a person's review: from 1993 the final round has eight problems for each of the grades 9, 10 and 11, four on each of two days. The AoPS wiki titles name the grade and the problem, as in "All Russian 2021/9.4", "Russian Olympiad 2004 problem 10.6" or "All Russian 2014 Grade 9 Day 2 P4", where a day counts its problems from 1. The position of problem N of grade G is pG followed by N, as the records of 1993 to 2014 already use. 2007 has no era, because problems.ru also gives it a grade 8 paper, and 2020 has none, because the final round was not held.
+  eras:
+    - {from: 1993, to: 2006, per_year: 24, layout: [{paper: grade9, name: Grade 9, days: 2, positions: [p91, p92, p93, p94, p95, p96, p97, p98]}, {paper: grade10, name: Grade 10, days: 2, positions: [p101, p102, p103, p104, p105, p106, p107, p108]}, {paper: grade11, name: Grade 11, days: 2, positions: [p111, p112, p113, p114, p115, p116, p117, p118]}]}
+    - {from: 2008, to: 2019, per_year: 24, layout: [{paper: grade9, name: Grade 9, days: 2, positions: [p91, p92, p93, p94, p95, p96, p97, p98]}, {paper: grade10, name: Grade 10, days: 2, positions: [p101, p102, p103, p104, p105, p106, p107, p108]}, {paper: grade11, name: Grade 11, days: 2, positions: [p111, p112, p113, p114, p115, p116, p117, p118]}]}
+    - {from: 2021, to: 2025, per_year: 24, layout: [{paper: grade9, name: Grade 9, days: 2, positions: [p91, p92, p93, p94, p95, p96, p97, p98]}, {paper: grade10, name: Grade 10, days: 2, positions: [p101, p102, p103, p104, p105, p106, p107, p108]}, {paper: grade11, name: Grade 11, days: 2, positions: [p111, p112, p113, p114, p115, p116, p117, p118]}]}
   edition_form: year
   official_solutions: true
   languages: [ru]
@@ -2522,6 +2572,14 @@
   group: national
   level: high-school
   country: UA
+  # Agent decision, not a person's review: in these years the AoPS wiki titles name the grade, as in "Ukraine 1998 Grade 10 P3", "2021 Ukraine NMO 10.2" or "Ukraine 1997 grade 9" with the number in the number column. The final round has eight problems for each of the grades 8 to 11 (9 to 11 before 1999). The position of problem N of grade G is pG followed by N, as ru-spb uses. A title that names two grades, as in "10.4 and 11.3", is read by the number column. 2009 and 2014 have titles with no grade and no shape.
+  eras:
+    - {from: 1997, to: 1998, per_year: 24, layout: [{paper: grade9, name: Grade 9, positions: [p91, p92, p93, p94, p95, p96, p97, p98]}, {paper: grade10, name: Grade 10, positions: [p101, p102, p103, p104, p105, p106, p107, p108]}, {paper: grade11, name: Grade 11, positions: [p111, p112, p113, p114, p115, p116, p117, p118]}]}
+    - {from: 1999, to: 1999, per_year: 32, layout: [{paper: grade8, name: Grade 8, positions: [p81, p82, p83, p84, p85, p86, p87, p88]}, {paper: grade9, name: Grade 9, positions: [p91, p92, p93, p94, p95, p96, p97, p98]}, {paper: grade10, name: Grade 10, positions: [p101, p102, p103, p104, p105, p106, p107, p108]}, {paper: grade11, name: Grade 11, positions: [p111, p112, p113, p114, p115, p116, p117, p118]}]}
+    - {from: 2005, to: 2005, per_year: 32, layout: [{paper: grade8, name: Grade 8, positions: [p81, p82, p83, p84, p85, p86, p87, p88]}, {paper: grade9, name: Grade 9, positions: [p91, p92, p93, p94, p95, p96, p97, p98]}, {paper: grade10, name: Grade 10, positions: [p101, p102, p103, p104, p105, p106, p107, p108]}, {paper: grade11, name: Grade 11, positions: [p111, p112, p113, p114, p115, p116, p117, p118]}]}
+    - {from: 2018, to: 2018, per_year: 32, layout: [{paper: grade8, name: Grade 8, positions: [p81, p82, p83, p84, p85, p86, p87, p88]}, {paper: grade9, name: Grade 9, positions: [p91, p92, p93, p94, p95, p96, p97, p98]}, {paper: grade10, name: Grade 10, positions: [p101, p102, p103, p104, p105, p106, p107, p108]}, {paper: grade11, name: Grade 11, positions: [p111, p112, p113, p114, p115, p116, p117, p118]}]}
+    - {from: 2021, to: 2021, per_year: 32, layout: [{paper: grade8, name: Grade 8, positions: [p81, p82, p83, p84, p85, p86, p87, p88]}, {paper: grade9, name: Grade 9, positions: [p91, p92, p93, p94, p95, p96, p97, p98]}, {paper: grade10, name: Grade 10, positions: [p101, p102, p103, p104, p105, p106, p107, p108]}, {paper: grade11, name: Grade 11, positions: [p111, p112, p113, p114, p115, p116, p117, p118]}]}
+    - {from: 2023, to: 2023, per_year: 32, layout: [{paper: grade8, name: Grade 8, positions: [p81, p82, p83, p84, p85, p86, p87, p88]}, {paper: grade9, name: Grade 9, positions: [p91, p92, p93, p94, p95, p96, p97, p98]}, {paper: grade10, name: Grade 10, positions: [p101, p102, p103, p104, p105, p106, p107, p108]}, {paper: grade11, name: Grade 11, positions: [p111, p112, p113, p114, p115, p116, p117, p118]}]}
   edition_form: year
   languages: [uk]
   sources: [imomath, imogeometry-blog]
@@ -3066,6 +3124,9 @@
   group: national
   level: high-school
   country: IN
+  # Agent decision, not a person's review: the AoPS wiki titles of 2001 name the day of the selection test, as in "India TST 2001 Day 4 P2", five days of three problems, which agrees with the 15 problems of the AoPS collection. In the other years the titles mix the test days with the practice tests of the camp, which also have days, so those years have no shape.
+  eras:
+    - {from: 2001, to: 2001, per_year: 15, layout: [{paper: day1, name: Day 1, positions: [p1, p2, p3]}, {paper: day2, name: Day 2, positions: [p4, p5, p6]}, {paper: day3, name: Day 3, positions: [p7, p8, p9]}, {paper: day4, name: Day 4, positions: [p10, p11, p12]}, {paper: day5, name: Day 5, positions: [p13, p14, p15]}]}
   edition_form: year
   languages: [en]
   sources: [aops-collections]
@@ -3151,7 +3212,18 @@
   official_solutions: true
   languages: [fa, en]
   sources: [aops-collections, imomath]
-  description: The Iranian olympiad in three rounds. English booklets with solutions circulate, but there is no official archive.
+  description: The Iranian olympiad in three rounds. This code holds the third round, the summer camp exams, and the second round is ir-mo-r2. English booklets with solutions circulate, but there is no official archive.
+
+- code: ir-mo-r2
+  name: Iran Mathematical Olympiad, second round
+  group: national
+  level: high-school
+  country: IR
+  edition_form: year
+  per_year: 6
+  languages: [fa, en]
+  sources: [aops-collections]
+  description: The second round of the Iranian olympiad, with two days of three problems numbered 1 to 6. Its best students go on to the third round (ir-mo). Agent decision, not a person's review, to keep it as its own competition, because the third round numbers the problems of each exam from 1 and the two rounds shared one code.
 
 - code: ir-tst
   name: Iran Team Selection Test

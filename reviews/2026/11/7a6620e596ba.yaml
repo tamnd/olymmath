@@ -1,0 +1,9 @@
+id: 7a6620e596ba
+kind: pair
+records:
+    - 7VGKBSTCKC
+    - imc/2026/p1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 54241 of NuminaMath 1.5 to this record, but they are two problems: the row solves cos(cos(cos(cos x))) = sin(sin(sin(sin x))) with four levels, the record shows that cos(cos x) = sin(sin x) has no solution. The agent removed the row from the record, and row 54241 is now its own loose record.'

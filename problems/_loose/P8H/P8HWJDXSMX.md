@@ -1,0 +1,19 @@
+---
+tag: P8HWJDXSMX
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=63227
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+It is difficult. On the sides $A B$ and $A D$ of the parallelogram $A B C D$, points $E$ and $F$ are taken respectively, and the segment $E F$ is parallel to the diagonal $B D$. Prove that the areas of triangles $B C E$ and $C D F$ are equal.

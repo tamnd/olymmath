@@ -1,0 +1,25 @@
+---
+tag: ZMJ0EE5C7T
+kind: problem
+type: answer
+answer: "8e-16"
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=47444
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Calculate the definite integral:
+
+$$
+\int_{1}^{e^{2}} \frac{\ln ^{2} x}{\sqrt{x}} d x
+$$

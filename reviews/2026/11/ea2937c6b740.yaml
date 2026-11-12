@@ -1,0 +1,8 @@
+id: ea2937c6b740
+kind: match
+records:
+    - ru-moscow/1992/p116
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 56914 (E 0.870, T 0.817, keyword match 0.855) and the text of ru-moscow/1992/p116 state the same problem with the same data and the same question.  The record already has a statement from this source, so the row adds no new statement and makes no new record.'

@@ -1,0 +1,9 @@
+id: 4a1d64759a19
+kind: pair
+records:
+    - M9AXKSAWXJ
+    - ma-mo/2005/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 45314 of NuminaMath 1.5 to this record, but they are two problems: the row asks whether x^2 + y^2 + z^2 = 2xyz has a solution in non-negative integers, the record asks for all solutions in positive integers. The agent removed the row from the record, and row 45314 is now its own loose record.'

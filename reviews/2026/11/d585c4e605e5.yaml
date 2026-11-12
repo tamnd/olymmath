@@ -1,0 +1,9 @@
+id: d585c4e605e5
+kind: pair
+records:
+    - 5CWJNSZ9DS
+    - 16R5VSTY5N
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 56065 to row 56009 of NuminaMath 1.5, but they are two problems: in the row Ivan checks three doors in a row per attempt, in the record any three doors. Row 56065 is now its own loose record.'

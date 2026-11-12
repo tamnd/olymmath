@@ -1,0 +1,8 @@
+id: 8b8da04def21
+kind: sample
+records:
+    - 91HY8V2JSR
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text states one problem about 20 crosses and 20 zeros and no solution. The agent cut a stray formula block with only a bracket at the start.'

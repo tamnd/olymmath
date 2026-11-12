@@ -1,0 +1,21 @@
+---
+tag: H8XXTQ12ST
+kind: problem
+type: answer
+answer: \frac{41}{42}
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=54951
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+$a, b, c$ are natural numbers and $1 / a+1 / b+1 / c<1$. Prove that $1 / a+1 / b+1 / c \leq 41 / 42$.

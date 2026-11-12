@@ -1,0 +1,8 @@
+id: 6d898353a477
+kind: match
+records:
+    - DSE482WVK0
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 22225 (E 0.920, T 0.844, keyword match 0.618) and the text of DSE482WVK0 state the same problem with the same data and the same question.  The record already has a statement from this source, so the row adds no new statement and makes no new record.'

@@ -1,0 +1,8 @@
+id: 81ca2a644133
+kind: match
+records:
+    - GWFCFXG70P
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 61404 of NuminaMath 1.5 is linked to this record. The first statement says ''isosceles'' where row 61404 says ''non-isosceles''; the rest is the same figure and the same claim, so one text has a slip in this word, most likely the translation of the first. The agent kept the link and made row 61404 the main statement, with ABC for the cut ''AB''.'

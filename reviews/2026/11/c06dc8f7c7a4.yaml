@@ -1,0 +1,8 @@
+id: c06dc8f7c7a4
+kind: match
+records:
+    - RGGBT6TQAR
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 60640 (E 0.925, T 0.812, keyword match 0.844) and the text of RGGBT6TQAR state the same problem with the same data and the same question.  The record already has a statement from this source, so the row adds no new statement and makes no new record.'

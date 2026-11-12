@@ -1,0 +1,9 @@
+id: 3f6bd4f82c2b
+kind: pair
+records:
+    - E4B0GFCMAT
+    - 2CNMN32C0K
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 58125 of NuminaMath 1.5 to this record, but they are two problems: the row allows only a two-sided ruler, the record names no tool, so it is another construction. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 58125 is now its own loose record.'

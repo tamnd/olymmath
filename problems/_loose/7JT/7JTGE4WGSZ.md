@@ -1,0 +1,19 @@
+---
+tag: 7JTGE4WGSZ
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=57030
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+In a row, the numbers $1,2,3, \ldots, n$ are written. In one move, it is allowed to swap any two numbers. Can the order of the numbers be the same as the initial one after 1989 such operations?

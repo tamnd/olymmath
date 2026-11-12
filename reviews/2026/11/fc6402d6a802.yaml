@@ -1,0 +1,8 @@
+id: fc6402d6a802
+kind: match
+records:
+    - R7V783N67R
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 58255 was joined into this record, which holds row 55337. The two rows state the same claim (a non-regular inscribed polygon that a rotation maps to itself has a composite number of sides). The record text has no topic tags.'

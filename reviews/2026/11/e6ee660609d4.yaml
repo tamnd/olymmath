@@ -1,0 +1,9 @@
+id: e6ee660609d4
+kind: pair
+records:
+    - GC8A9WTKX8
+    - 60TQSFSS98
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 47250 to row 47235 of NuminaMath 1.5, but they are two problems: the row has the surface x^2 + y^2/4 - z^2 = 1, the record x^2/4 + y^2 - z^2 = 1. Row 47250 is now its own loose record.'

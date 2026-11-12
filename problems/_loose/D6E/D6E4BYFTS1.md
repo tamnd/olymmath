@@ -1,0 +1,29 @@
+---
+tag: D6E4BYFTS1
+kind: problem
+type: answer
+answer: (\frac{1}{81};-3),(27;4)
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=48442
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+$\left\{\begin{array}{l}y-\log _{3} x=1 \\ x^{y}=3^{12}\end{array}\right.$
+
+The system of equations is:
+$$
+\left\{\begin{array}{l}
+y - \log_{3} x = 1 \\
+x^{y} = 3^{12}
+\end{array}\right.
+$$

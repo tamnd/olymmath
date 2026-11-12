@@ -1,0 +1,19 @@
+---
+tag: PS6RVD9QPW
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=56897
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+A chess king stands in the lower left corner of a chessboard. Two players take turns. In one move, it can be moved one square to the right, one square up, or one square diagonally "up-right." The player who places the king in the upper right corner of the board wins. Who wins with correct play?

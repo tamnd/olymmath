@@ -1,0 +1,8 @@
+id: f944d35b55ac
+kind: match
+records:
+    - sharygin/2014/p6
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 61673 (E 0.934, T 0.377, keyword match 1.000) and the text of sharygin/2014/p6 state the same problem with the same data and the same question.  The row became a second statement of the record.'

@@ -1,0 +1,9 @@
+id: 080d2e26c768
+kind: pair
+records:
+    - T4BA491TS7
+    - D03A63CGMP
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined rows 55236 and 56977 to row 55190 of NuminaMath 1.5, but they are two problems: in rows 55236 and 56977 Petya cuts two or three wires per turn, in row 55190 one or three. Rows 55236 and 56977 state the same problem, so the agent made them two statements of one loose record.'

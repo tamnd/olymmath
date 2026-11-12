@@ -1,0 +1,8 @@
+id: 82273d410b1f
+kind: match
+records:
+    - XE8KZPMHG4
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 58350 was joined into this record, which holds row 53944. The two rows state the same problem (a square punctured at 1965 points and cut into triangles); only the translation differs.'

@@ -1,0 +1,8 @@
+id: 1b465d33d351
+kind: match
+records:
+    - MQ5TCW6CJB
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 58976 and the text of MQ5TCW6CJB write the formulas in other ways, so the import linked them by the words rule (words 0.97, formulas 0.96). The agent read both texts: they are the same problem with the same data. The row is a second statement of the record.'

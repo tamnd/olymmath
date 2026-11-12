@@ -1,0 +1,25 @@
+---
+tag: W9V1FP9AHK
+kind: problem
+type: answer
+answer: 16\pi
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=47520
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Calculate the areas of figures bounded by the graphs of the functions:
+
+$$
+y=x^{2} \cdot \sqrt{16-x^{2}}, y=0 ;(0 \leq x \leq 4)
+$$

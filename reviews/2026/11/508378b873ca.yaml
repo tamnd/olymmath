@@ -1,0 +1,8 @@
+id: 508378b873ca
+kind: match
+records:
+    - jbmo/2019/p1
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 153 of NuminaMath 1.5 is the shortlist form of this problem: it allows non-negative x, y, z where the record has positive ones, and the answer is the same. It is the same problem.'

@@ -1,0 +1,24 @@
+---
+tag: H4MN6QH2FN
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2008 Switzerland - Final Round
+    url: https://artofproblemsolving.com/community/c6h2984885
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=60519
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ch-smo/2008
+    source: hf-ai-mo-aops
+    label: 2008 Switzerland - Final Round
+---
+Determine all odd natural numbers of the form $$ \frac{p + q}{p - q}, $$ where $p > q$ are prime numbers.

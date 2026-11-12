@@ -1,0 +1,26 @@
+---
+tag: 5Z9Y5NCQ2N
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2009 Oral Moscow Geometry Olympiad
+    url: https://artofproblemsolving.com/community/c6h2275578
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=57079
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ru-oral-geometry/2009
+    source: hf-ai-mo-aops
+    label: 2009 Oral Moscow Geometry Olympiad
+---
+In the triangle $ABC$ , $AA_1$ and $BB_1$ are altitudes. On the side $AB$ , points $M$ and $K$ are selected so that $B_1K \parallel BC$ and $A_1M \parallel AC$ . Prove that the angle $AA_1K$ is equal to the angle $BB_1M$ .
+
+(D. Prokopenko)

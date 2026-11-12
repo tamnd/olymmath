@@ -1,0 +1,24 @@
+---
+tag: FZSSHXRP0G
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2023 Saint Petersburg Mathematical Olympiad
+    url: https://artofproblemsolving.com/community/c6h3132901
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=57484
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ru-spb/2023
+    source: hf-ai-mo-aops
+    label: 2023 Saint Petersburg Mathematical Olympiad
+---
+A few (at least $5$ ) integers are put on a circle, such that each of them is divisible by the sum of its neighbors. If the sum of all numbers is positive, what is its minimal value?

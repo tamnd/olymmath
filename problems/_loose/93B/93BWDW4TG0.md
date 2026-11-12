@@ -20,5 +20,8 @@ unplaced:
   - at: smt/2013
     source: hf-ai-mo-aops
     label: 2013 Stanford Mathematics Tournament
+  - at: smt/2002
+    source: hf-ai-mo-aops
+    label: 2002 Stanford Mathematics Tournament
 ---
 Compute the largest root of $x^4-x^3-5x^2+2x+6$ .

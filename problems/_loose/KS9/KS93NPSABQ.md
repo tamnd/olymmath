@@ -20,6 +20,9 @@ unplaced:
   - at: mk-mo/2007
     source: hf-ai-mo-aops
     label: 2007 Junior Macedonian Mathematical Olympiad
+  - at: tr-mo/1998
+    source: hf-ai-mo-aops
+    label: 1998 Turkey MO (2nd round)
 ---
 Let $a$ , $b$ , $c$ be real numbers such that $0 < a \le b \le c$ . Prove that $(a + 3b)(b + 4c)(c + 2a) \ge 60abc$ .
 

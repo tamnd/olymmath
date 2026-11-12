@@ -1,0 +1,8 @@
+id: fde0de219766
+kind: sample
+records:
+    - V91WBHBRGC
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The text states one complete problem. The row names 2021 AMC 10 Spring but not A or B, so the record keeps only the competition, and the content has no text for 2021 A problem 1.'

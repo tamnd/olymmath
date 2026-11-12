@@ -1,0 +1,9 @@
+id: e740385b7bfa
+kind: pair
+records:
+    - D17510D1JG
+    - VGCSE7F4E7
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 59400 to row 59234 (both 2015 Singapore), but the data differ: 1681 children against 30 children. Row 59400 is now its own loose record.'

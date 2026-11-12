@@ -1,0 +1,26 @@
+---
+tag: GYFSWTM6AM
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2006 AMC 10
+    url: https://artofproblemsolving.com/community/c6h75352
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=64461
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: amc10
+    source: hf-ai-mo-aops
+    label: 2006 AMC 10
+---
+What is the tens digit in the sum $ 7! + 8! + 9! + \cdots + 2006!$ ?
+
+$ \textbf{(A) } 1 \textbf{(B) } 3 \textbf{(C) } 4 \textbf{(D) } 6 \textbf{(E) } 9$

@@ -20,6 +20,9 @@ unplaced:
   - at: ill/1990
     source: hf-ai-mo-aops
     label: 1990 IMO Longlists
+  - at: vn-vmo/1991
+    source: hf-ai-mo-aops
+    label: 1991 Vietnam National Olympiad
 ---
 Let $x,y,z$ be positive reals and $x \geq y \geq z$ . Prove that
 $$\frac{x^2y}{z}+\frac{y^2z}{x}+\frac{z^2x}{y} \geq x^2+y^2+z^2$$

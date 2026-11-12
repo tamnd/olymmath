@@ -1,0 +1,24 @@
+---
+tag: ZNZ6C90TVN
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2023 Stanford Mathematics Tournament
+    url: https://artofproblemsolving.com/community/c6h3065268
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=74161
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: smt/2023
+    source: hf-ai-mo-aops
+    label: 2023 Stanford Mathematics Tournament
+---
+Find the smallest positive integer $n$ such that there exists a prime $p$ where $p$ and $p + 10$ both divide $n$ and the sum of the digits of $n$ is $p$ .

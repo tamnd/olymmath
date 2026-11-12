@@ -1,0 +1,24 @@
+---
+tag: J6S11ZSPS4
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: AHSME
+    url: https://artofproblemsolving.com/community/c6h64309
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=66439
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ahsme
+    source: hf-ai-mo-aops
+    label: AHSME
+---
+A triangle is inscribed in a circle. The vertices of the triangle divide the circle into three arcs of lengths $3$ , $4$ , and $5$ . What is the area of the triangle? $\textbf{(A)}\ 6 \textbf{(B)}\ \frac{18}{\pi^2} \textbf{(C)}\ \frac{9}{\pi^2}\left(\sqrt{3}-1\right) \textbf{(D)}\ \frac{9}{\pi^2}\left(\sqrt{3}+1\right) \textbf{(E)}\ \frac{9}{\pi^2}\left(\sqrt{3}+3\right)$

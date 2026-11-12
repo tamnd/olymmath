@@ -1,0 +1,24 @@
+---
+tag: VGAQF9R9P0
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 1953 Moscow Mathematical Olympiad
+    url: https://artofproblemsolving.com/community/c6h1892278
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=56742
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ru-moscow/1953
+    source: hf-ai-mo-aops
+    label: 1953 Moscow Mathematical Olympiad
+---
+Find roots of the equation $$ 1 -\frac{x}{1}+ \frac{x(x - 1)}{2!} -... +\frac{ (-1)^nx(x-1)...(x - n + 1)}{n!}= 0 $$

@@ -20,5 +20,8 @@ unplaced:
   - at: ar-oma/2014
     source: hf-ai-mo-aops
     label: 2014 Argentina National Olympiad Level 2
+  - at: ro-tst/2024
+    source: hf-ai-mo-aops
+    label: 2024 Romania Team Selection Tests
 ---
 Let $A{}$ be a point in the Cartesian plane. At each step, Ann tells Bob a number $0< a\leqslant 1$ and he then moves $A{}$ in one of the four cardinal directions, at his choice, by a distance of $a{}$ . This process cotinues as long as Ann wishes. Amongst every $100$ consecutive moves, each of the four possible moves should have been made at least once. Ann's goal is to force Bob to eventually choose a point at a distance greater than $100$ from the initial position of $A{}$ . Can Ann achieve her goal?

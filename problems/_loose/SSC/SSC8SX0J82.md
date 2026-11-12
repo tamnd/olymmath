@@ -1,0 +1,24 @@
+---
+tag: SSC8SX0J82
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: AHSME
+    url: https://artofproblemsolving.com/community/c6h443538
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=66515
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ahsme
+    source: hf-ai-mo-aops
+    label: AHSME
+---
+If $x > y > 0$ , then $\frac{x^{y}y^{x}}{y^{y}x^{x}} = $ $ \textbf{(A)}\ (x - y)^{y/x} \textbf{(B)}\ \left(\frac{x}{y}\right)^{x-y} \textbf{(C)}\ 1 \textbf{(D)}\ \left(\frac{x}{y}\right)^{y-x} \textbf{(E)}\ (x - y)^{x/y} $

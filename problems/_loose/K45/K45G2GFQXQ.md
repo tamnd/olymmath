@@ -1,0 +1,24 @@
+---
+tag: K45G2GFQXQ
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2023 Princeton University Math Competition
+    url: https://artofproblemsolving.com/community/c6h3210583
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=73409
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: pumac/2023
+    source: hf-ai-mo-aops
+    label: 2023 Princeton University Math Competition
+---
+Let $\triangle T B D$ be a triangle with $T B=6, B D=8$ , and $D T=7$ . Let $I$ be the incenter of $\triangle T B D$ , and let $T I$ intersect the circumcircle of $\triangle T B D$ at $M \neq T$ . Let lines $T B$ and $M D$ intersect at $Y$ , and let lines $T D$ and $M B$ intersect at $X$ . Let the circumcircles of $\triangle Y B M$ and $\triangle X D M$ intersect at $Z \neq M$ . If the area of $\triangle Y B Z$ is $x$ and the area of $\triangle X D Z$ is $y$ , then the ratio $\frac{x}{y}$ can be expressed as $\frac{p}{q}$ , where $p$ and $q$ are relatively prime positive integers. Find $p+q$ .

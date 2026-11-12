@@ -1,0 +1,24 @@
+---
+tag: HEJ2G5QA09
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2023 239 Open Mathematical Olympiad
+    url: https://artofproblemsolving.com/community/c6h3043721
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=54984
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ru-239-open/2023
+    source: hf-ai-mo-aops
+    label: 2023 239 Open Mathematical Olympiad
+---
+We call a natural number *almost a square* if it can be represented as a product of two numbers that differ by no more than one percent of the larger of them. Prove that there are infinitely many consecutive quadruples of almost squares.

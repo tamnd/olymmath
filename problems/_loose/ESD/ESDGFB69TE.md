@@ -1,0 +1,31 @@
+---
+tag: ESDGFB69TE
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2019 Switzerland - Final Round
+    url: https://artofproblemsolving.com/community/c6h1795104
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=60576
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ch-smo/2019
+    source: hf-ai-mo-aops
+    label: 2019 Switzerland - Final Round
+---
+An integer $n\ge2$ is called *resistant*, if it is coprime to the sum of all its divisors (including $1$ and $n$ ).
+Determine the maximum number of consecutive resistant numbers.
+
+For instance:
+* $n=5$ has sum of divisors $S=6$ and hence is resistant.
+* $n=6$ has sum of divisors $S=12$ and hence is not resistant.
+* $n=8$ has sum of divisors $S=15$ and hence is resistant.
+* $n=18$ has sum of divisors $S=39$ and hence is not resistant.

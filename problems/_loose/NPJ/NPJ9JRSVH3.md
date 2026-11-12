@@ -23,6 +23,9 @@ unplaced:
   - at: ba-mo/2016
     source: hf-ai-mo-aops
     label: 2016 Junior Regional Olympiad - FBH
+  - at: pl-om/1981
+    source: hf-ai-mo-aops
+    label: 1981 Polish MO Finals
 ---
 Find all pairs of solutions $(x,y)$ :
 

@@ -1,0 +1,8 @@
+id: acced7bd658d
+kind: match
+records:
+    - vn-vmo/1994/p6
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import made the row of loose record KPSBHREG3R a new record, but the agent found that it is vn-vmo/1994/p6: The two texts state the same problem with the same data and question, but they write it in other words or other formulas, so no signal of the import was high enough. The agent moved the row to a second statement of vn-vmo/1994/p6 and removed the loose record.'

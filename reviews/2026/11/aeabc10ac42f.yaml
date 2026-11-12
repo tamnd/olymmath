@@ -1,0 +1,8 @@
+id: aeabc10ac42f
+kind: match
+records:
+    - ru-allrussian/1962/p13
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The row 55052 names this edition, and the import linked it by the edition rule (edition keyword match 0.79, next 0.13). The agent read both texts: they are the same problem, in other words or another language. The row is a second statement, not a new appearance. The row ends with all numbers nonnegative, which is a slip in that translation: the record says negative or zero, which is right for this convex sequence.'

@@ -1,0 +1,24 @@
+---
+tag: NNZNBJ0M2C
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2017 Romania Team Selection Test
+    url: https://artofproblemsolving.com/community/c6h1610594
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=54641
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ro-tst/2017
+    source: hf-ai-mo-aops
+    label: 2017 Romania Team Selection Test
+---
+Determine all intergers $n\geq 2$ such that $a+\sqrt{2}$ and $a^n+\sqrt{2}$ are both rational for some real number $a$ depending on $n$

@@ -1,0 +1,25 @@
+---
+tag: 8A5GGXYYGJ
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2008 Princeton University Math Competition
+    url: https://artofproblemsolving.com/community/c6h1927093
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=73196
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: pumac/2008
+    source: hf-ai-mo-aops
+    label: 2008 Princeton University Math Competition
+---
+The seven dwarves are at work on day when they find a large pile of diamonds. They want to split the diamonds evenly among them, but find that they would need to take away one diamond to split into seven equal piles. They are still arguing about this when they get home, so Snow White sends them to bed without supper. In the middle of the night, Sneezy wakes up and decides that he should get the extra diamond. So he puts one diamond aside, splits the remaining ones in to seven equal piles, and takes his pile along with the extra diamond. Then, he runs off with the diamonds. His sneeze wakes up Grumpy, who, thinking along the same lines, removes one diamond, divides the remainder into seven equal piles, and runs off. Finally, Sleepy, for the first time in his life, wakes up before sunrise and performs the same operation. When the remaining four dwarves arise, they find that the remaining diamonds can be split into $5$ equal piles. Doc suggests that Snow White should get a share, so they have no problem splitting the remaining diamonds. Happy, Dopey, Bashful, Doc, and Snow White live happily ever after.
+What's the smallest possible number of diamonds that the dwarves could have started out with?

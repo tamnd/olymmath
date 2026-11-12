@@ -20,6 +20,9 @@ unplaced:
   - at: np-mo/2018
     source: hf-ai-mo-aops
     label: 2018 Nepal National Olympiad
+  - at: ro-nmo/2006
+    source: hf-ai-mo-aops
+    label: 2006 Romania National Olympiad
 ---
 **Problem Section #2
 b) Find the maximal value of $(x^3+1)(y^3+1)$ , where $x,y \in \mathbb{R}$ , $x+y=1$ .

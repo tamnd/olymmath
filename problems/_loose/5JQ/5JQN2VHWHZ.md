@@ -1,0 +1,24 @@
+---
+tag: 5JQN2VHWHZ
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2019 BMT Spring
+    url: https://artofproblemsolving.com/community/c6h2752195
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=70191
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: bmt/2019
+    source: hf-ai-mo-aops
+    label: 2019 BMT Spring
+---
+$2019$ people (all of whom are perfect logicians), labeled from $1$ to $2019$ , partake in a paintball duel. First, they decide to stand in a circle, in order, so that Person $1$ has Person $2$ to his left and person $2019$ to his right. Then, starting with Person $1$ and moving to the left, every person who has not been eliminated takes a turn shooting. On their turn, each person can choose to either shoot one non-eliminated person of his or her choice (which eliminates that person from the game), or deliberately miss. The last person standing wins. If, at any point, play goes around the circle once with no one getting eliminated (that is, if all the people playing decide to miss), then automatic paint sprayers will turn on, and end the game with everyone losing. Each person will, on his or her turn, always pick a move that leads to a win if possible, and, if there is still a choice in what move to make, will prefer shooting over missing, and shooting a person closer to his or her left over shooting someone farther from their left. What is the number of the person who wins this game? Put " $0$ " if no one wins.

@@ -1,0 +1,24 @@
+---
+tag: ZQF1NFNYG7
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 1936 Moscow Mathematical Olympiad
+    url: https://artofproblemsolving.com/community/c6h1877168
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=56507
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ru-moscow/1936
+    source: hf-ai-mo-aops
+    label: 1936 Moscow Mathematical Olympiad
+---
+Find a four-digit perfect square whose first digit is the same as the second, and the third is the same as the fourth.

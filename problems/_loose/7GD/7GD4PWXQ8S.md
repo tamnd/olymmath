@@ -1,0 +1,24 @@
+---
+tag: 7GD4PWXQ8S
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2000 All-Russian Olympiad
+    url: https://artofproblemsolving.com/community/c6h514287
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=55751
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ru-allrussian/2000
+    source: hf-ai-mo-aops
+    label: 2000 All-Russian Olympiad
+---
+Some pairs of cities in a certain country are connected by roads, at least three roads going out of each city. Prove that there exists a round path consisting of roads whose number is not divisible by $3$ .

@@ -1,0 +1,29 @@
+---
+tag: RNM7Q04RFX
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2015 Online Math Open Problems
+    url: https://artofproblemsolving.com/community/c6h1077927
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=78529
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: omo/2015
+    source: hf-ai-mo-aops
+    label: 2015 Online Math Open Problems
+---
+Find the number of ordered pairs $(P(x),Q(x))$ of polynomials with integer coefficients such that
+$$
+P(x)^2+Q(x)^2=\left(x^{4096}-1\right)^2.
+$$
+
+*Proposed by Michael Kural*

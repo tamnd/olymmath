@@ -1,0 +1,8 @@
+id: 02d3c2f4e933
+kind: match
+records:
+    - putnam/1995/a4
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The row 68608 and the text of putnam/1995/a4 write the formulas in other ways, so the import linked them by the words rule (words 0.95, formulas 0.75). The agent read both texts: they are the same problem with the same data. The row is a second statement of the record.'

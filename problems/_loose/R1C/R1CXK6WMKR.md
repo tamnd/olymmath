@@ -1,0 +1,24 @@
+---
+tag: R1CXK6WMKR
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2020 BMT Fall
+    url: https://artofproblemsolving.com/community/c6h2753722
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=70274
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: bmt/2020
+    source: hf-ai-mo-aops
+    label: 2020 BMT Fall
+---
+At Zoom University, people's faces appear as circles on a rectangular screen. The radius of one's face is directly proportional to the square root of the area of the screen it is displayed on. Haydn's face has a radius of $2$ on a computer screen with area $36$ . What is the radius of his face on a $16 \times 9$ computer screen?

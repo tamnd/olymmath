@@ -1,0 +1,24 @@
+---
+tag: 3CS6KNS7W6
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 1957 Moscow Mathematical Olympiad
+    url: https://artofproblemsolving.com/community/c6h2496105
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=56854
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: ru-moscow/1957
+    source: hf-ai-mo-aops
+    label: 1957 Moscow Mathematical Olympiad
+---
+Solve the system: $$ \begin{cases} \dfrac{2x_1^2}{1+x_1^2}=x_2 \dfrac{2x_2^2}{1+x_2^2}=x_3 \dfrac{2x_3^2}{1+x_3^2}=x_1\end{cases} $$

@@ -1,0 +1,8 @@
+id: 64842da7f2e3
+kind: match
+records:
+    - A6082CZZ72
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. Row 54476 was joined into this record, which holds row 53863. The two rows state the same problem in other words: which m x n rectangles can be tiled with L-trominoes.'

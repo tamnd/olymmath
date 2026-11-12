@@ -1,0 +1,9 @@
+id: faf95cb73f31
+kind: pair
+records:
+    - DEGKC9MKEB
+    - P6X28MDWQ7
+decision: different
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The import joined row 54943 to row 54933 (both 2018 239 Open), but the bounds differ: 180 - 4a/3 against 180 - 3a/2. Row 54943 is now its own loose record.'

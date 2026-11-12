@@ -1,0 +1,26 @@
+---
+tag: DYZK3XN1QR
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2023 ELMO Shortlist
+    url: https://artofproblemsolving.com/community/c6h3100557
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=69325
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: elmo-sl/2023
+    source: hf-ai-mo-aops
+    label: 2023 ELMO Shortlist
+---
+Let $f:\mathbb R\to\mathbb R$ be a function such that for all real numbers $x\neq1$, $$f(x-f(x))+f(x)=\frac{x^2-x+1}{x-1}.$$ Find all possible values of $f(2023)$.
+
+*Proposed by Linus Tang*

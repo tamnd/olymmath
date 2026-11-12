@@ -1,0 +1,8 @@
+id: 8d75a943f44f
+kind: match
+records:
+    - nordic/2009/p4
+decision: accept
+by: agent
+date: "2026-11-12"
+note: 'Agent decision, not a person''s review. The row 3904 (E 0.903, T 0.500, keyword match 1.000) and the text of nordic/2009/p4 state the same problem with the same data and the same question. The row became a second statement of the record.'

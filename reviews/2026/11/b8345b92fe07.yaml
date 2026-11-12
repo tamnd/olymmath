@@ -1,0 +1,9 @@
+id: b8345b92fe07
+kind: pair
+records:
+    - N1Q38HCCD3
+    - HQXD9Y26F6
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 46583 to row 46114 of NuminaMath 1.5, but they are two problems: the row has the denominator pi - 3x, the record sin(pi - 3x). Row 46583 is now its own loose record.'

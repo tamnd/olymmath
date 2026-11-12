@@ -1,0 +1,9 @@
+id: e6faf755b3d6
+kind: pair
+records:
+    - FWS8J4ZBDY
+    - 6X78V8RHQH
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 52610 to row 52609 of NuminaMath 1.5, but they are two problems: the row asks whether ABCD is a square, the record whether it is a rectangle. Row 52610 is now its own loose record.'

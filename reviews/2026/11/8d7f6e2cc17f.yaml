@@ -1,0 +1,8 @@
+id: 8d7f6e2cc17f
+kind: match
+records:
+    - GY8F50F2DY
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 55083 of NuminaMath 1.5 is linked to this record. The row writes the first derivative as a_{n+1} a_n, where the record has a_{n+1} - a_n; the minus sign was lost in the row. The rest is the same, so the link stays.'

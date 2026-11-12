@@ -1,0 +1,21 @@
+---
+tag: 85X4DDNRE6
+kind: problem
+type: answer
+answer: Bill
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=56797
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+An investigation is underway regarding a stolen mustang. There are three suspects - Bill, Joe, and Sam. In court, Sam stated that Joe stole the mustang. Bill and Joe also gave testimonies, but no one remembered what they said, and all the records were lost. During the trial, it was revealed that only one of the defendants stole the mustang, and only that person gave truthful testimony. So, who stole the mustang?

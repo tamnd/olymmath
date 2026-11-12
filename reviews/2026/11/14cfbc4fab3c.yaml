@@ -1,0 +1,9 @@
+id: 14cfbc4fab3c
+kind: pair
+records:
+    - BQHR4GA9KW
+    - hu-komal/2016/c1361
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 49518 of NuminaMath 1.5 to this record, but they are two problems: the row asks for a quadratic whose roots are the sum and the product of the roots of another, the record has a, b, c in arithmetic progression and asks for the integer roots. The agent removed the row from the record, and row 49518 is now its own loose record.'

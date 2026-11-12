@@ -1,0 +1,9 @@
+id: eadb199602df
+kind: pair
+records:
+    - S9FMN6KMPS
+    - XEJBNEC7BS
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 54340 to row 53275 of NuminaMath 1.5, but they are two problems: the row claims the inequality for all x, y, z, the record only for positive values. Row 54340 is now its own loose record.'

@@ -1,0 +1,8 @@
+id: 6d8e1ccb194f
+kind: match
+records:
+    - 6T8NW1N2DM
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 61571 was joined into this record, which holds row 53723. The two rows ask the same question (cut a unit square into two parts and cover a circle of diameter greater than 1); ''some circle'' against ''a circle''.'

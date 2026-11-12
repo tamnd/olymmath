@@ -1,0 +1,8 @@
+id: ee23d47be758
+kind: match
+records:
+    - RMB46TK87Y
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made a record from row 53721 of NuminaMath 1.5 and joined rows 54270, 54276 and 54653 to it. All four rows are a note about an image with the normal density formula, not a problem. The agent removed the record and listed the rows in registers/loose-removed.tsv.'

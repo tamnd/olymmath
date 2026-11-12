@@ -1,0 +1,21 @@
+---
+tag: KCG7GKWBM4
+kind: problem
+type: answer
+answer: Notnecessarily
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=60903
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Two isosceles triangles have equal bases and radii of their circumscribed circles. Must these triangles be equal?

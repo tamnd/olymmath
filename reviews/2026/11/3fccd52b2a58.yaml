@@ -1,0 +1,8 @@
+id: 3fccd52b2a58
+kind: match
+records:
+    - 7P355Y2PAV
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 53093 of NuminaMath 1.5 is linked to this record. The two texts differ in one sign: the first statement has a + b + c + d at most 1, row 53093 at least 1. With ''at most 1'' the claim is false (take all four numbers small), so it is a slip of the same problem. The agent kept the link and made row 53093 the main statement, without its author line.'

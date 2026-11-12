@@ -1,0 +1,8 @@
+id: 47240df87ae3
+kind: match
+records:
+    - C5HP0CQJE1
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 58940 of NuminaMath 1.5 is part b) of this problem (a convex hexagon with opposite sides pairwise parallel and the triangles ACE and BDF). The record already has a statement from this source, so the row adds no statement. The import first linked it to hu-komal/2026/c1886, a hexagon with equal angles; that link was undone.'

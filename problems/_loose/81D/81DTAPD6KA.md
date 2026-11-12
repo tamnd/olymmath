@@ -1,0 +1,19 @@
+---
+tag: 81DTAPD6KA
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=59745
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Show how to cut a $5 \times 5$ square into "corners" one cell wide so that all "corners" consist of a different number of cells. (The lengths of the "sides" of the corner can be either the same or different.)

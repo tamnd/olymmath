@@ -1,0 +1,23 @@
+---
+tag: NTKZ8Q0RWX
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=45410
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Suppose that $B C$ is the largest side of triangle $A B C$. Let point $O$ be chosen somewhere inside the triangle and lines $A O, B O, C O$ intersect the opposite sides at points $A^{\prime}, B^{\prime}, C^{\prime}$ respectively. Prove that
+
+$$
+O A^{\prime}+O B^{\prime}+O C^{\prime}<B C
+$$

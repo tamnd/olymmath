@@ -1,0 +1,22 @@
+---
+tag: PPPM3AAT8E
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=54280
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+On a line, there are 50 segments. Prove that at least one of the following statements is true:
+
+- some 8 of these segments have a common point;
+- some 8 of these segments are such that no two of them intersect.

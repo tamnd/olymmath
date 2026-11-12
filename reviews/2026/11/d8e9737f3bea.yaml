@@ -1,0 +1,8 @@
+id: d8e9737f3bea
+kind: match
+records:
+    - 88DB23PEAD
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 62714 was joined into this record, which holds row 54814. The two rows state the same problem about the right-angled broken line and s_n / l_n > 1958; one has the slip epsilon_n for s_n.'

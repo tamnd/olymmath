@@ -1,0 +1,9 @@
+id: 16fb4e18f317
+kind: pair
+records:
+    - W9J9WDZR75
+    - 2RJFBQFTTP
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 46286 to row 46274 of NuminaMath 1.5, but they are two problems: the row integrates sin^2 x cos^6 x, the record sin^6 x cos^2 x. Row 46286 is now its own loose record.'

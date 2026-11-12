@@ -1,0 +1,9 @@
+id: 9719fe7006e9
+kind: pair
+records:
+    - F31XKMVHPG
+    - tot/2005-fall/sa1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked rows 42488 and 42625 of NuminaMath 1.5 to this record, but they are two problems: the rows ask to prove that the cyclic sum a1/a2 + ... + an/a1 is at least n, the record asks for which n the sum can be an integer when the a_i are distinct. The agent removed row 42488 from the record (row 42625 had added no statement). Both rows state the same inequality, so the agent made them two statements of one loose record. Row 42488 wrote a strict sign, which is false when all the numbers are equal, so the record says ''at least n''.'

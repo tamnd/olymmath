@@ -1,0 +1,8 @@
+id: 92aa74d3246a
+kind: sample
+records:
+    - W1ZT1R2JMM
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text is a part of a solution (counting rook placements), not a problem. The agent removed the record.'

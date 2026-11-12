@@ -1,0 +1,25 @@
+---
+tag: CE675CE8GC
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=29173
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+(GDR, 70). Prove that for any value of $n \in \mathbf{Z}^{+}$, the polynomial
+
+$$
+f_{n}(x)=1+x+\frac{x^{2}}{2!}+\ldots+\frac{x^{n}}{n!}
+$$
+
+cannot have more than one real root.

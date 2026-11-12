@@ -1,0 +1,25 @@
+---
+tag: 6ZVE2GFFXM
+kind: problem
+type: answer
+answer: "8242405980"
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=21906
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Calculate the value of the expression:
+
+$$
+1 \cdot 2 \cdot(1+2)-2 \cdot 3 \cdot(2+3)+3 \cdot 4 \cdot(3+4)-\cdots+2019 \cdot 2020 \cdot(2019+2020)
+$$

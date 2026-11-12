@@ -1,0 +1,19 @@
+---
+tag: C226CSHDGT
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=23660
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Given a circle and two points $A$ and $B$ on it. Let $N$ be an arbitrary point on the line $A B$. Construct two circles, each passing through the point $N$ and tangent to the given circle: one at point $A$, and the other at point $B$. Denote by $M$ the second point of intersection of these circles. Find the geometric locus of points $M$.

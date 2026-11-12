@@ -1,0 +1,9 @@
+id: d2f8f35ec015
+kind: pair
+records:
+    - FVCWQNRJZD
+    - K8HNMR16TV
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 18620 of NuminaMath 1.5 to this record, but they are two problems: the row asks about three equal areas and an equilateral triangle, the record about two equal areas and an isosceles triangle. Row 18620 is now its own loose record.'

@@ -1,0 +1,23 @@
+---
+tag: 6JFKCEQBGG
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=24728
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Construct schemes for 7 arithmetic functions $f_{2}(x), f_{3}(x), f_{1}(x)$, if
+
+$$
+f(x)=\frac{3 x-1}{x+1}
+$$

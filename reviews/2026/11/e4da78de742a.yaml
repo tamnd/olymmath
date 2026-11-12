@@ -1,0 +1,8 @@
+id: e4da78de742a
+kind: match
+records:
+    - balkan-sl/2019/n2
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 394 names this edition, and the import linked it by the edition rule (edition keyword match 0.62, next 0.07). The agent read both texts: they are the same problem, in other words or another language.  The record already has a statement from this source, so the row adds no new statement and makes no new record.'

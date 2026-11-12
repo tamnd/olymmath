@@ -1,0 +1,9 @@
+id: e78d00b191dc
+kind: pair
+records:
+    - JS10REB4SM
+    - ro-tst/2008/p3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 27383 of NuminaMath 1.5 to this record, but they are two problems: the row asks to prove a bound that does not exceed 1, the record a bound of at least 1. The agent also removed the row from the record. Row 27383 is now its own loose record.'

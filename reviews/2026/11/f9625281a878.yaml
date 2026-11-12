@@ -1,0 +1,8 @@
+id: f9625281a878
+kind: match
+records:
+    - D51T5MM0D4
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 22308 was joined into this record, which holds row 21974. The two rows state the same problem (cars at 80 km/h, 10 m apart, slow down to 60 km/h); one speaks of two cars, the other of a column, and the answer is the same.'

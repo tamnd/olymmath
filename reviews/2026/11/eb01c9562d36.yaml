@@ -1,0 +1,9 @@
+id: eb01c9562d36
+kind: pair
+records:
+    - 2F8J62WEB0
+    - ru-allrussian/1994/p117
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 24524 of NuminaMath 1.5 to this record, but they are two problems: the row is about centres of mass, the record about a regular tetrahedron. The agent also removed the row from the record. Row 24524 is now its own loose record.'

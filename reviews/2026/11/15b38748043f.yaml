@@ -1,0 +1,8 @@
+id: 15b38748043f
+kind: match
+records:
+    - TQGTQAC6JX
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 5561 (E 0.991, T 0.865, keyword match 0.500) and the text of TQGTQAC6JX state the same problem with the same data and the same question.  The record already has a statement from this source, so the row adds no new statement and makes no new record.'

@@ -1,0 +1,21 @@
+---
+tag: P682ASTRPM
+kind: problem
+type: answer
+answer: "1"
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=27287
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Using a compass and a ruler, divide an angle of $19^{\circ}$ into 19 equal parts.

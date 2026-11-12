@@ -1,0 +1,8 @@
+id: d5737883ec7c
+kind: match
+records:
+    - 6V01122TYS
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 22431 was joined into this record, which holds row 22196. The two rows state the same equation a^2+3b^2+2=3ab and ask the same question; one says ''Are there'', the other ''Do there exist''.'

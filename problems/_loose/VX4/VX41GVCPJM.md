@@ -1,0 +1,21 @@
+---
+tag: VX41GVCPJM
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=27404
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+a) Prove that $m_{a}^{2}+m_{b}^{2}+m_{c}^{2} \leqslant 27 R^{2} / 4$.
+
+b) Prove that $m_{a}+m_{b}+m_{c} \leqslant 9 R / 2$.

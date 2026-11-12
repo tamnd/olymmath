@@ -1,0 +1,9 @@
+id: ae2f38732c65
+kind: pair
+records:
+    - HSP1BW2BFQ
+    - F2Q312DJ2T
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 27049 to row 26959 of NuminaMath 1.5, but they are two problems: they share the inscribed circle that touches the sides at A1, B1, C1, but ask to prove different things. Row 27049 is now its own loose record.'

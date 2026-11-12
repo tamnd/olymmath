@@ -1,0 +1,9 @@
+id: f74c403bee23
+kind: pair
+records:
+    - 4B30BP0ZFY
+    - MW0NZ3PK4W
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 32381 to row 32345 of NuminaMath 1.5, but they are two problems: they share the setting but differ in the data or in the question, as neighbouring problems of one book often do. Row 32381 is now its own loose record.'

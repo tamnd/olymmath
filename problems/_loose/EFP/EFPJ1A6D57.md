@@ -1,0 +1,21 @@
+---
+tag: EFPJ1A6D57
+kind: problem
+type: answer
+answer: \frac{}{}-
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=33552
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Two proofreaders A and B, after reading the proof, found $a$ and $b$ typos, respectively, of which $c$ turned out to be common. Assuming that the proofreaders worked independently of each other, give a "reasonable" estimate of the number of remaining undetected typos.

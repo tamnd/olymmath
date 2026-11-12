@@ -1,0 +1,9 @@
+id: b50f1543ef54
+kind: pair
+records:
+    - 7K7WYH4F0G
+    - B54G1FF4MH
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 6536 of NuminaMath 1.5 to this record, but they are two problems: the polynomials differ (x^4+x^3+2x^2+ax+b in the row, x^4+3x^3+x^2+ax+b in the record), so the answers differ. Row 6536 is now its own loose record.'

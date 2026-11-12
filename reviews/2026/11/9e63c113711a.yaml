@@ -1,0 +1,9 @@
+id: 9e63c113711a
+kind: pair
+records:
+    - 2YJSMDV5K7
+    - 25JA9300WT
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 30107 of NuminaMath 1.5 to this record, but they are two problems: the row asks a different question about different data. The agent also removed the row from the record. Row 30107 is now its own loose record.'

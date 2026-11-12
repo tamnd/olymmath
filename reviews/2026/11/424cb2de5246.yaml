@@ -1,0 +1,9 @@
+id: 424cb2de5246
+kind: pair
+records:
+    - G5VS7ZRMV1
+    - GWBM606NJ7
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 13610 of NuminaMath 1.5 to this record, but they are two problems: the equation in the row equals 3, the one in the record equals 1. Row 13610 is now its own loose record.'

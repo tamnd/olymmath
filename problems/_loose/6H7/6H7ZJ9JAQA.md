@@ -1,0 +1,23 @@
+---
+tag: 6H7ZJ9JAQA
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=25240
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Two points $A$ and $B$ are fixed on a circle, while point $M$ runs through the entire circle. From the midpoint $K$ of segment $M B$, a perpendicular $K P$ is dropped onto the line $M A$.
+
+a) Prove that all lines $K P$ pass through one point,
+
+b) Find the set of points $P$.

@@ -1,0 +1,8 @@
+id: aa8856b6b8cd
+kind: match
+records:
+    - MDEPEGNXAG
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 15162 was joined into this record, which holds row 14206. The two rows state the same problem about the bisector BF; only the TeX spacing differs.'

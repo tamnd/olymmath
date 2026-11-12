@@ -1,0 +1,8 @@
+id: 00886c951d51
+kind: sample
+records:
+    - TQJ32M69PJ
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text states one complete problem about the sum of the medians and no solution. The import found no text near it in the content.'

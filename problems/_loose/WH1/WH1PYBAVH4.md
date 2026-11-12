@@ -1,0 +1,19 @@
+---
+tag: WH1PYBAVH4
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=27686
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+On the lines $B C, C A, A B$, points $A_{1}$ and $A_{2}, B_{1}$ and $B_{2}, C_{1}$ and $C_{2}$ are taken such that $A_{1} B_{2} \| A B, B_{1} C_{2} \| B C$ and $C_{1} A_{2} \| C A$. Let $l_{a}$ be the line connecting the points of intersection of the lines $B B_{1}$ and $C C_{2}, B B_{2}$ and $C C_{1}$; lines $l_{b}$ and $l_{c}$ are defined similarly. Prove that the lines $l_{a}, l_{b}$ and $l_{c}$ intersect at one point (or are parallel).

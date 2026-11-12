@@ -1,0 +1,21 @@
+---
+tag: KDWZ5MK3YF
+kind: problem
+type: answer
+answer: k_{x}(\tau)=De^{-\alpha|\tau|}
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=32551
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Find the correlation function of a stationary random function, given its spectral density $\delta_{x}(\omega)=D \alpha / \pi\left(\alpha^{2}+\omega^{2}\right)$.

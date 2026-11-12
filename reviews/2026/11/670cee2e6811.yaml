@@ -1,0 +1,8 @@
+id: 670cee2e6811
+kind: sample
+records:
+    - 1VK72PTJ4C
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text is only an answer (''# 7.1. Answer. All 9 balls cannot be arranged.''), not a problem. The agent removed the record.'

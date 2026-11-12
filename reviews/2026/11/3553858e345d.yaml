@@ -1,0 +1,9 @@
+id: 3553858e345d
+kind: pair
+records:
+    - 6790TP8AS3
+    - es-ome/2023/p3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 14402 of NuminaMath 1.5 to this record, but they are two problems: the row is about consecutive numbers a, b, c, d, the record about quadruples where ac+bd divides a number. The agent also removed the row from the record. Row 14402 is now its own loose record.'

@@ -1,0 +1,8 @@
+id: cc70fd4c07d5
+kind: match
+records:
+    - HMKQX72KZK
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 2239 (E 0.874, T 0.856, keyword match 1.000) and the text of HMKQX72KZK state the same problem with the same data and the same question.  The record already has a statement from this source, so the row adds no new statement and makes no new record.'

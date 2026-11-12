@@ -1,0 +1,9 @@
+id: ba643834f7ca
+kind: pair
+records:
+    - E01DYQ41MF
+    - CWT0M4AR5M
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 22350 to row 22275 of NuminaMath 1.5, but they are two problems: one lets a move swap chips with two or five chips between them, the other only with exactly two. Row 22350 is now its own loose record.'

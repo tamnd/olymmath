@@ -1,0 +1,19 @@
+---
+tag: W2AMDBACGQ
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=24184
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+On a sphere, two intersecting circles $S_{1}$ and $S_{2}$ are given. Consider a cone (or cylinder) that is tangent to the given sphere along the circle $S_{1}$. Prove that the circles $S_{1}$ and $S_{2}$ are perpendicular if and only if the plane of the circle $S_{2}$ passes through the vertex of this cone (or is parallel to the axis of the cylinder).

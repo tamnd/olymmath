@@ -1,0 +1,8 @@
+id: dd6e7ad7fbac
+kind: sample
+records:
+    - GCRGS21JED
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text is broken: the formula after ''if $0'' lost its middle part, so the problem cannot be read. The agent removed the record.'

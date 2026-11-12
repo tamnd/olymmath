@@ -1,0 +1,8 @@
+id: f791543abbe4
+kind: match
+records:
+    - 7GDMFX4FBC
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 11670 (E 0.977, T 0.699, keyword match 1.000) and the text of 7GDMFX4FBC state the same problem with the same data and the same question.  The record already has a statement from this source, so the row adds no new statement and makes no new record.'

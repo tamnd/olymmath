@@ -1,0 +1,9 @@
+id: 73ac2f91e843
+kind: pair
+records:
+    - 8V74X283Q4
+    - HF78CAXVGZ
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 27529 to row 23845 of NuminaMath 1.5, but they are two problems: one asks about all polygons inscribed in a circle, the other only about triangles. Row 27529 is now its own loose record.'

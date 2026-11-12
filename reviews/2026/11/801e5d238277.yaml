@@ -1,0 +1,9 @@
+id: 801e5d238277
+kind: pair
+records:
+    - VHMC0730CY
+    - imo/1970/p4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 26255 of NuminaMath 1.5 to this record, but they are two problems: the row asks for a number coprime with the other four among five consecutive numbers, the record asks to split six numbers into two sets with equal products. The agent also removed the row from the record. Row 26255 is now its own loose record.'

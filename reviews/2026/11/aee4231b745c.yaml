@@ -1,0 +1,9 @@
+id: aee4231b745c
+kind: pair
+records:
+    - 5KWTD37P8Z
+    - imo/1964/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 28909 of NuminaMath 1.5 to this record, but they are two problems: the row is about positive numbers, the record about the sides of a triangle. The agent also removed the row from the record. Row 28909 is now its own loose record.'

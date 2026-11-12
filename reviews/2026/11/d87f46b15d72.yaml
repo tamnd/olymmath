@@ -1,0 +1,9 @@
+id: d87f46b15d72
+kind: pair
+records:
+    - H8C077T5AT
+    - br-obm/2004/p1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 24931 of NuminaMath 1.5 to this record, but they are two problems: in the row equal inradii give a rectangle, in the record a common point gives a rhombus. The agent also removed the row from the record. Row 24931 is now its own loose record.'

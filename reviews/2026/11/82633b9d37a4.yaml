@@ -1,0 +1,8 @@
+id: 82633b9d37a4
+kind: match
+records:
+    - XQMCJDMM6Y
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 24584 was joined into this record, which holds row 24233. The two rows state the same problem (a triangle from the products of opposite edges of a tetrahedron, with area 6VR); one row splits it into two sentences.'

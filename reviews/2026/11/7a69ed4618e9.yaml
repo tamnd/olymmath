@@ -1,0 +1,9 @@
+id: 7a69ed4618e9
+kind: pair
+records:
+    - SV43N69QHA
+    - hu-komal/2008/b4111
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 29568 of NuminaMath 1.5 to this record, but they are two problems: the row asks for which values the polynomials factor, in two parts, and the record asks a different question. The agent also removed the row from the record. Row 29568 is now its own loose record.'

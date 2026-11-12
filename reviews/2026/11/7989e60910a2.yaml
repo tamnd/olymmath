@@ -1,0 +1,9 @@
+id: 7989e60910a2
+kind: pair
+records:
+    - 7B8KSTF5YQ
+    - YA122WZ3KC
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 23892 of NuminaMath 1.5 to this record, but they are two problems: the row asks about numbers that are not divisible, the record about numbers that are divisible. The agent also removed the row from the record. Row 23892 is now its own loose record.'

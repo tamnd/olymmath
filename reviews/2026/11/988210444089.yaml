@@ -1,0 +1,9 @@
+id: 988210444089
+kind: pair
+records:
+    - QT2Y7K3236
+    - WH1PYBAVH4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 28241 to row 27686 of NuminaMath 1.5, but they are two problems: the points are given in different ways: by a circle that cuts the sides, or by three pairs of parallel segments. Row 28241 is now its own loose record.'

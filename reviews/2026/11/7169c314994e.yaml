@@ -1,0 +1,9 @@
+id: 7169c314994e
+kind: pair
+records:
+    - JJC0S0AWDM
+    - ma-mo/2005/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 26283 of NuminaMath 1.5 to this record, but they are two problems: the row asks to prove that the only integer solution is 0, the record asks to find positive solutions. The agent also removed the row from the record. Row 26283 is now its own loose record.'

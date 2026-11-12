@@ -1,0 +1,8 @@
+id: 730548c7d96f
+kind: match
+records:
+    - 6RWPS8706R
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 29880 was joined into this record, which holds row 24546. The two rows state the same problem (plane angles of a trihedral angle whose sections are all acute triangles); one says ''by a plane'', the other does not.'

@@ -1,0 +1,8 @@
+id: d827a6cb408d
+kind: match
+records:
+    - G2328YPH7V
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 26343 and the text of G2328YPH7V write the formulas in other ways, so the import linked them by the words rule (words 0.85, formulas 0.89). The agent read both texts: they are the same problem with the same data. The row is a second statement of the record.'

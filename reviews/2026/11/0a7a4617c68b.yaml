@@ -1,0 +1,9 @@
+id: 0a7a4617c68b
+kind: pair
+records:
+    - BKZ457TV83
+    - YH3BVFR85R
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 22041 of NuminaMath 1.5 to this record, but they are two problems: the row has sin^2 x+1 where the record has 2 sin^2 x+1. Row 22041 is now its own loose record.'

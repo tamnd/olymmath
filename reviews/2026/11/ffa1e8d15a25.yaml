@@ -1,0 +1,9 @@
+id: ffa1e8d15a25
+kind: pair
+records:
+    - SS13GQMYAW
+    - imc/2015/p6
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 30971 of NuminaMath 1.5 to this record, but they are two problems: the row asks to prove that the sum of 1/sqrt(n) diverges, the record that the sum of 1/(sqrt(n)(n+1)) is less than 2. The agent also removed the row from the record. Row 30971 is now its own loose record.'

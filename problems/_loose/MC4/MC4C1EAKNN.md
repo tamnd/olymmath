@@ -1,0 +1,21 @@
+---
+tag: MC4C1EAKNN
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=26971
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+a) Indicate two right-angled triangles from which a triangle can be formed, the lengths of the sides and the area of which are integers.
+
+b) Prove that if the area of a triangle is an integer and the lengths of the sides are consecutive natural numbers, then this triangle can be formed from two right-angled triangles with integer sides.

@@ -1,0 +1,25 @@
+---
+tag: RJKZZHEZ28
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=28790
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+(CSSR, 71). Prove that for any prime number $p>2$ the numerator $m$ of the fraction
+
+$$
+\frac{m}{n}=1+\frac{1}{2}+\frac{1}{3}+\cdots+\frac{1}{p-1} (m, n \in \mathbf{N})
+$$
+
+is divisible by $p$.

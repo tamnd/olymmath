@@ -1,0 +1,9 @@
+id: bb14c7918712
+kind: pair
+records:
+    - 272DFB80XG
+    - RCVJC35XEW
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 28396 to row 28395 of NuminaMath 1.5, but they are two problems: one asks for the least sum of squared distances to the vertices, the other for the least sum of plain distances. Row 28396 is now its own loose record.'

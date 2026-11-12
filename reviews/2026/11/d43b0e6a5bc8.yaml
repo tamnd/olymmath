@@ -1,0 +1,9 @@
+id: d43b0e6a5bc8
+kind: pair
+records:
+    - 5C7RD5NHM0
+    - RCVJC35XEW
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 28397 to row 28395 of NuminaMath 1.5, but they are two problems: one asks about squared distances to the sides, the other about distances to the vertices. Row 28397 is now its own loose record.'

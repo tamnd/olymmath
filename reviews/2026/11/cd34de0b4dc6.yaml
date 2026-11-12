@@ -1,0 +1,9 @@
+id: cd34de0b4dc6
+kind: pair
+records:
+    - R7FVY2HHHS
+    - 5H3Y6XCG3A
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 26581 to row 26580 of NuminaMath 1.5, but they are two problems: they ask to prove different things: that the triangle is equilateral, or only that AB=BC. Row 26581 is now its own loose record.'

@@ -1,1 +1,7 @@
 year: 2022
+official:
+  - lang: Russian
+    code: ru
+    url: https://www.pdmi.ras.ru/~olymp/2022/problems/c_911_22.pdf
+    paper: grade9
+    source: pdmi-olymp

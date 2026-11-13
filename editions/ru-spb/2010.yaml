@@ -6,3 +6,9 @@ papers:
     problems: [p101, p102, p103, p104, p105, p106, p107]
   - name: Grade 11
     problems: [p111, p112, p113, p114, p115, p116, p117]
+official:
+  - lang: Russian
+    code: ru
+    url: https://www.pdmi.ras.ru/~olymp/2010/problems.html
+    paper: grade9
+    source: pdmi-olymp

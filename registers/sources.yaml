@@ -1232,13 +1232,16 @@
   kind: official
   origin: H1
   url: https://www.pdmi.ras.ru/~olymp/
-  access: html
+  access: pdf
+  terms: "The pages of the jury (read on 2026-11-13) give no licence, no copyright notice and no limit on use. Agent decision, not a person's review: Z2, the spec default for competition statements, so the content holds the statement of each problem with a link to the paper."
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
+  size: The papers of the city round (II тур) for grades 9 to 11 of 2008 to 2022, one file a year with one page for each grade
   wave: 1
-  state: planned
+  state: active
+  notes: "The page YEAR/problems.html of each olympiad links the papers of the district round, the city round for grades 6 to 8 and the city round for grades 9 to 11, as LaTeX, PostScript and PDF. For 2008 to 2012 the PDF is in a zip file (91108pdf.zip and so on), so the records link to the problems page of the year. From 2013 the PDF is c_911_YY.pdf. Page 1 of each paper is grade 9, page 2 grade 10 and page 3 grade 11, and each grade numbers its problems 1 to 7. Many problems are in two or three grades. The PDFs of 2008 to 2011 have no usable text layer, so their pages were read as images. The site has no robots.txt (404 on 2026-11-13), so all paths are allowed."
 
 - id: oma
   name: Olimpíada Matemática Argentina

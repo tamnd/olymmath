@@ -1,0 +1,9 @@
+id: f4e4f63b76b8
+kind: pair
+records:
+    - VK7RKDKQRD
+    - YFRRHY4YNS
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 132076 of NuminaMath 1.5 to this record, but they are two problems: the row equation is 4x^2-4tx-1=0, the record is 4x^2-4tx+1=0 (sign of the constant term differs). The agent removed the row from the record, and row 132076 is now its own loose record.'

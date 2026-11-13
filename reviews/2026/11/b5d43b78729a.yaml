@@ -1,0 +1,9 @@
+id: b5d43b78729a
+kind: pair
+records:
+    - 7FQXA24QBC
+    - cz-sk-mo/1955/p4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 140119 of NuminaMath 1.5 to this record, but they are two problems: the row assumes a>b>c and asks to prove two real roots, one on each side of b, the record only asks to show a real root exists for distinct a, b, c. The agent removed the row from the record, and row 140119 is now its own loose record.'

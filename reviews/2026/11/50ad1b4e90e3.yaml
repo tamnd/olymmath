@@ -1,0 +1,8 @@
+id: 50ad1b4e90e3
+kind: match
+records:
+    - cn-mo/1993/p1
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 128563 of NuminaMath 1.5 to this record, but the start of the problem is lost: the condition that n is odd and the claim on the 2n integers are missing, so the row is not a clear problem of its own. The agent took the row out and listed it in registers/loose-removed.tsv.'

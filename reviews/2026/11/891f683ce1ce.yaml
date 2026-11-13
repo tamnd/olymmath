@@ -1,0 +1,8 @@
+id: 891f683ce1ce
+kind: match
+records:
+    - ill/1985/p58
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record FKHDBB8KEZ a new record, but the agent found that it is ill/1985/p58: the text names this competition and its year (or its number in the series), and the two texts state the same problem; same. The agent moved the row to a second statement of ill/1985/p58 and removed the loose record.'

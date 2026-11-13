@@ -1,0 +1,8 @@
+id: 27940ce9e294
+kind: match
+records:
+    - 6WE0VVFQVY
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 82694 of NuminaMath 1.5 to the loose record DS0KNAM09A, but the row puts no condition on a and b, and that record asks for positive reals. The row states the problem of this record, so the agent moved it here as a second statement.'

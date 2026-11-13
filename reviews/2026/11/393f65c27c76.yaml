@@ -1,0 +1,8 @@
+id: 393f65c27c76
+kind: match
+records:
+    - 2107J3KCKJ
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 98126 of NuminaMath 1.5 to this record, but the text is cut off: it gives only the conditions on the sets A_i and no question, so the row is not a clear problem of its own. The agent took the row out and listed it in registers/loose-removed.tsv.'

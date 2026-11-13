@@ -16,4 +16,4 @@ statements:
 status:
   statement: captured
 ---
-(solved by Juliette Fournier). Let $P$ be a non-constant polynomial with integer coefficients. Show that there exists an infinite number of prime numbers $p$ for which there is at least one natural number $x$ such that $p$ divides $P(x)$.
+Let $P$ be a non-constant polynomial with integer coefficients. Show that there exists an infinite number of prime numbers $p$ for which there is at least one natural number $x$ such that $p$ divides $P(x)$.

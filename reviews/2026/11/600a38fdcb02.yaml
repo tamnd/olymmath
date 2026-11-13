@@ -1,0 +1,9 @@
+id: 600a38fdcb02
+kind: pair
+records:
+    - 8AW0KANGF3
+    - ill/1985/p29
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 137033 of NuminaMath 1.5 to this record, but they are two problems: the record has a second part b) counting bases B <= 1985 with a stable number, the row has only part a). The agent removed the row from the record, and row 137033 is now its own loose record.'

@@ -1,0 +1,9 @@
+id: 223f1637e9dc
+kind: pair
+records:
+    - 418M6ZF0M1
+    - cono-sur/1992/p4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 83167 of NuminaMath 1.5 to this record, but they are two problems: the row asks for all integer solutions, the record asks to prove there are no positive integer solutions. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 83167 is now in its own loose record.'

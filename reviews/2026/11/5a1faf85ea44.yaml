@@ -1,0 +1,8 @@
+id: 5a1faf85ea44
+kind: match
+records:
+    - putnam/1955/b4
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 140198 of NuminaMath 1.5 the loose record 6V32P163S1. The text names this competition and its year (or its number in the series), and it states the same problem as this record; same. The record already has a statement from this source, so the agent removed the loose record and listed the row in registers/loose-removed.tsv.'

@@ -1,0 +1,19 @@
+---
+tag: 42GQHXX4Z0
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=127790
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Choose one of the following shapes, and arrange them to form a $5 \times 5$ grid. (Draw the arrangement method in the blank grid. Shapes can be rotated, but not flipped)

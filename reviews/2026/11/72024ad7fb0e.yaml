@@ -1,0 +1,9 @@
+id: 72024ad7fb0e
+kind: pair
+records:
+    - TKHVAASYXG
+    - ERE0D69BTY
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 101614 of NuminaMath 1.5 to this record, but they are two problems: the row has the product equal to 1 and asks for the value of x+y, the record has the product at least 1 and asks for the minimum of x+y. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 101614 is now in its own loose record.'

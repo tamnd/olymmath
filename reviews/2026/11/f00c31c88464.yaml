@@ -1,0 +1,9 @@
+id: f00c31c88464
+kind: pair
+records:
+    - XW012C4Y66
+    - FPHJC7B94H
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 95660 of NuminaMath 1.5 to this record, but they are two problems: the row asks for the eccentricity range where a point has focal distance product equal to the focal length squared, the record asks for the maximum area of an inscribed parallelogram through the foci. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 95660 is now in its own loose record.'

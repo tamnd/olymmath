@@ -18,4 +18,4 @@ statements:
 status:
   statement: captured
 ---
-(solved by Amélie Héliou). If $n$ is an integer, we denote $d(n)$ as the number of positive divisors of $n$. Find all integers $n$ such that $n=d(n)^{2}$.
+If $n$ is an integer, we denote $d(n)$ as the number of positive divisors of $n$. Find all integers $n$ such that $n=d(n)^{2}$.

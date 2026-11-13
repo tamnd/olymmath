@@ -1,0 +1,9 @@
+id: ad0da79e135b
+kind: pair
+records:
+    - KH8SR75Q9M
+    - bg-mo/2003/p6
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 136702 of NuminaMath 1.5 to this record, but they are two problems: the row requires an integer root of P(x)=2^n for every integer n, the record only for every positive integer n. The project only links the texts of this competition, so the import adds no row to it, and the problem was lost. Row 136702 is now in its own loose record.'

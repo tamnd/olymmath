@@ -1,0 +1,8 @@
+id: b59276cbd00f
+kind: match
+records:
+    - ahsme/1983/p14
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 127946 of NuminaMath 1.5 the loose record 7Z585N1T4Y. The text names this competition and its year (or its number in the series), and it is the problem of this record, but the book number ''3 . 8'' has gone into the product (33 . 83^1001 where 3^1001 is meant), so the row is not a clear copy. The agent removed the loose record and listed the row in registers/loose-removed.tsv, and the record keeps its own texts.'

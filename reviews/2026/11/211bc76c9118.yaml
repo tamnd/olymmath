@@ -1,0 +1,8 @@
+id: 211bc76c9118
+kind: sample
+records:
+    - 61E8KF5C8K
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text is a part of the discussion of a proof in a book, not a problem. The agent removed the record and listed the row in registers/loose-removed.tsv.'

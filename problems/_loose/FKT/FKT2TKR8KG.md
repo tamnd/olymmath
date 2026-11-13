@@ -1,0 +1,21 @@
+---
+tag: FKT2TKR8KG
+kind: problem
+type: answer
+answer: (2001-)(2002-n)
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=135986
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+(2002 Vietnam Mathematical Olympiad) Given positive integers $m, n, m<2001, n<2002$, there are $2001 \times 2002$ different real numbers. Place these numbers into a $2001 \times 2002$ rectangular chessboard (the chessboard has 2001 rows and 2002 columns), so that each cell contains one number, and each number is placed in one cell. A cell is called a "bad cell" if the number in it is less than at least $m$ numbers in its column and less than at least $n$ numbers in its row. For each placement, let $S$ be the number of "bad cells". Find the minimum value of $S$.

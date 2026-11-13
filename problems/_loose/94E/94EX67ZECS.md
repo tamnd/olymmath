@@ -1,0 +1,22 @@
+---
+tag: 94EX67ZECS
+kind: problem
+type: answer
+answer: "1944"
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=140304
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Find the smallest (greater than 1) natural number such that it is at least 600 times larger than each of its prime divisors?
+(Leningrad Mathematical Olympiad, 1989)

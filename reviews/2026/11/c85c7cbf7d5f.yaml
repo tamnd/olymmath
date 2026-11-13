@@ -1,0 +1,9 @@
+id: c85c7cbf7d5f
+kind: pair
+records:
+    - JGRQM8RNTQ
+    - 4WTAZQSA26
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 135973 of NuminaMath 1.5 to this record, but they are two problems: the row adds log_3 a and asks for the range of a, the record adds log_a 3 and asks for the value of a. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 135973 is now in its own loose record.'

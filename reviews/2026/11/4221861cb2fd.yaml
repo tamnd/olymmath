@@ -1,0 +1,9 @@
+id: 4221861cb2fd
+kind: pair
+records:
+    - 498S5KPE38
+    - se-skolornas/1988/p5
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 139113 of NuminaMath 1.5 to this record, but they are two problems: the row also asks to find the maximum value of a, the record only asks to show such a > 1 exists. The agent removed the row from the record, and row 139113 is now its own loose record.'

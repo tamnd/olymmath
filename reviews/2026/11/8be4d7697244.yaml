@@ -1,0 +1,9 @@
+id: 8be4d7697244
+kind: pair
+records:
+    - D8KM180JK0
+    - 3464A9H9X2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 127399 of NuminaMath 1.5 to this record, but they are two problems: the row proves the number of divisors of n^2 is odd, the record proves the sum of the divisors of n^2 is odd. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 127399 is now in its own loose record.'

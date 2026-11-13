@@ -1,0 +1,8 @@
+id: 12a5c401612b
+kind: match
+records:
+    - VTM69K6ADB
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made this record from row 132665 of NuminaMath 1.5 and joined row 140560 to it. The two rows state the same identity, but row 132665 has a slip (C_{2m+1}^n where C_{2n+1}^n is meant). The agent made row 140560 the text of the record and listed row 132665 in registers/loose-removed.tsv.'

@@ -1,0 +1,8 @@
+id: 3f7b54cf2587
+kind: match
+records:
+    - J0GGGRPXDD
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 133037 was joined into this record, which holds row 126871. The two rows state the same theorem of Steiner (two circles through P and Q, and the orthocenters H1 and H2); one names the theorem.'

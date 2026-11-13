@@ -16,4 +16,4 @@ statements:
 status:
   statement: captured
 ---
-(solved by Rémi Varloot). An iceberg has the shape of a convex polyhedron floating on the sea. Is it possible that at least $90 \%$ of the volume of the iceberg is below the water level and at least $50 \%$ of its surface is above?
+An iceberg has the shape of a convex polyhedron floating on the sea. Is it possible that at least $90 \%$ of the volume of the iceberg is below the water level and at least $50 \%$ of its surface is above?

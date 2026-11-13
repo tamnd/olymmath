@@ -1,0 +1,9 @@
+id: b64267c0d8b3
+kind: pair
+records:
+    - WR4MZQTV1B
+    - 2R88H9TC1X
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 83196 of NuminaMath 1.5 to this record, but they are two problems: the row asks for all integer pairs, the record asks how many non-negative integer solutions there are. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 83196 is now in its own loose record.'

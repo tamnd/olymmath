@@ -1,0 +1,8 @@
+id: 8e0a1d247e3f
+kind: match
+records:
+    - ru-allrussian/1961/p3
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record Q1Y0NN07K5 a new record, but the agent found that it is ru-allrussian/1961/p3: the text names this competition and its year (or its number in the series), and the two texts state the same problem; same. The agent moved the row to a second statement of ru-allrussian/1961/p3 and removed the loose record.'

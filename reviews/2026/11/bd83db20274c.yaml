@@ -1,0 +1,9 @@
+id: bd83db20274c
+kind: pair
+records:
+    - 8EF5RSYQKT
+    - 6T4BHF4ETA
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 82752 of NuminaMath 1.5 to this record, but they are two problems: the row asks to solve over the integers, the record only asks whether solutions in natural numbers exist. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 82752 is now in its own loose record.'

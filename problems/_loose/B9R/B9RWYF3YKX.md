@@ -16,4 +16,4 @@ statements:
 status:
   statement: captured
 ---
-(solved by Alexandre Nolin). Is there a triangle whose perimeter is less than 1 centimeter, while the radius of its circumscribed circle exceeds 1 kilometer?
+Is there a triangle whose perimeter is less than 1 centimeter, while the radius of its circumscribed circle exceeds 1 kilometer?

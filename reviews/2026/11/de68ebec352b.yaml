@@ -1,0 +1,9 @@
+id: de68ebec352b
+kind: pair
+records:
+    - E98HJW4VA2
+    - EV12DPBA3F
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 78810 of NuminaMath 1.5 to this record, but they are two problems: the row has a^2+b^2+c^2=2007, the record has 2007 times an extra factor n'' on the right side. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 78810 is now in its own loose record.'

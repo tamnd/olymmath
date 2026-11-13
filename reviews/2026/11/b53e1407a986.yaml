@@ -1,0 +1,9 @@
+id: b53e1407a986
+kind: pair
+records:
+    - N8C6TBDETJ
+    - isl/2007/n6
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 131202 of NuminaMath 1.5 to this record, but they are two problems: the row asks for a prime factor of the form 8kn-1, the record asks for a positive divisor of that form. The agent removed the row from the record, and row 131202 is now its own loose record.'

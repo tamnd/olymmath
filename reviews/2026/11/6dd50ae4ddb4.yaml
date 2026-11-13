@@ -1,0 +1,8 @@
+id: 6dd50ae4ddb4
+kind: match
+records:
+    - GMFYDKX2RM
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 139855 was joined into this record, which holds row 127831. The two rows ask for the same primes p with 2p^4 - p^2 + 16 a perfect square (Leningrad 1980); only the place of the source note differs.'

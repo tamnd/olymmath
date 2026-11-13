@@ -1,0 +1,9 @@
+id: 420416a9273e
+kind: pair
+records:
+    - NJKA8DVPEC
+    - ca-cmo/2020/p1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 14174 of NuminaMath 1.5 to this record, but they are two problems: the row counts natural powers of 3, the record counts integer powers of three (which include 1 and negative powers). The project only links the texts of this competition, so the import adds no row to it, and the problem was lost. Row 14174 is now in its own loose record.'

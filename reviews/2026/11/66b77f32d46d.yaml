@@ -1,0 +1,9 @@
+id: 66b77f32d46d
+kind: pair
+records:
+    - X2C4CD2HJ8
+    - baltic-way/1996/p6
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 70382 of NuminaMath 1.5 to this record, but they are two problems: the row asks whether a+b+c+d can be prime, the record asks to prove it is not prime. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 70382 is now in its own loose record.'

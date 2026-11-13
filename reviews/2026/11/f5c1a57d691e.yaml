@@ -1,0 +1,8 @@
+id: f5c1a57d691e
+kind: match
+records:
+    - HVED5WH0DP
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made this record from row 124249 of NuminaMath 1.5 and joined row 137137 to it. Row 124249 is two problems in one: the problem of imo/1998/p5 and a ''sister problem'' about the excenter. Both rows state imo/1998/p5, which already has a statement from this source. The agent removed the record and listed the two rows in registers/loose-removed.tsv.'

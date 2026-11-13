@@ -15,5 +15,9 @@ statements:
     kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: pl-om/1965
+    source: hf-numinamath-1-5
+    label: XVI OM - II - Task 5
 ---
 Try to prove that any square can be divided into any number of squares greater than 5, but it cannot be exactly divided into 5 squares.

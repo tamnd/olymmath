@@ -16,4 +16,4 @@ statements:
 status:
   statement: captured
 ---
-(solved by Jean-François Martin). Choose a point inside a $2n$-sided regular polygon and connect it to all the vertices of the polygon. The $2n$ triangles thus obtained are colored black and white alternately. Show that the total area of the black triangles is equal to that of the white triangles.
+Choose a point inside a $2n$-sided regular polygon and connect it to all the vertices of the polygon. The $2n$ triangles thus obtained are colored black and white alternately. Show that the total area of the black triangles is equal to that of the white triangles.

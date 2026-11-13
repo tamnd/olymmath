@@ -1,0 +1,22 @@
+---
+tag: WSDQC89WSW
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=132110
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+The function $f^{-1}(x)$ is the inverse function of $f(x)=\log _{2}\left(2^{x}+1\right)$.
+(1) If the equation $f^{-1}(x)=m+f(x)$ has a solution for $x$ in $[1,2]$, find the range of real number $m$;
+(2) If the inequality $f^{-1}(x)>m+f(x)$ has a solution for $x$ in $[1,2]$, find the range of real number $m$;
+(3) If the inequality $f^{-1}(x)>m+f(x)$ holds for any $x \in[1,2]$, find the range of real number $m$.

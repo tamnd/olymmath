@@ -1,0 +1,8 @@
+id: c900c8eaea3d
+kind: match
+records:
+    - ahsme/1991/p28
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 136111 of NuminaMath 1.5 the loose record XF1K5HS21F. The text names this competition and its year (or its number in the series), and it is the problem of this record, but the rules of the operation are lost (they were in a table), so the row is not a clear copy. The agent removed the loose record and listed the row in registers/loose-removed.tsv, and the record keeps its own texts.'

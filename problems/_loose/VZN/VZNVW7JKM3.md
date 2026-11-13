@@ -1,0 +1,21 @@
+---
+tag: VZNVW7JKM3
+kind: problem
+type: answer
+answer: "69"
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=136423
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Piplu is learning long division, and he finds that when a three-digit number is divided by 19, the quotient is $a$, and the remainder is $b$ ($a, b$ are natural numbers), then the maximum value of $a+b$ is . $ $

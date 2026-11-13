@@ -1,0 +1,8 @@
+id: 23f080c2e26c
+kind: match
+records:
+    - QKGMZPKP1N
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 134572 was joined into this record, which holds row 126986. The two rows are the same text (the distance from the pole to the line rho sin(theta + pi/4) = sqrt(2)/2); only the blank at the end differs.'

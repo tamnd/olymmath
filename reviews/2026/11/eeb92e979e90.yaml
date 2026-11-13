@@ -1,0 +1,8 @@
+id: eeb92e979e90
+kind: match
+records:
+    - aime/1983/p8
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 130361 of NuminaMath 1.5 the loose record V7K00P8X0R. The text names this competition and its year (or its number in the series), and it is the problem of this record, but a number is miscopied (C(2000, 100) where C(200, 100) is meant), so the row is not a clear copy. The agent removed the loose record and listed the row in registers/loose-removed.tsv, and the record keeps its own texts.'

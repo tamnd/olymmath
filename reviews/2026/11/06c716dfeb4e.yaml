@@ -1,0 +1,8 @@
+id: 06c716dfeb4e
+kind: match
+records:
+    - M84YEX7C86
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. This loose record of an earlier batch names a shortlist code and a country (''G42 (21-3, USSR)''), and its text is the problem of imo/1979/p3 (two circles and two points that move on them). The import drops such rows, and the import linked row 118696, with the same code, to it. The agent removed the record and listed both rows in registers/loose-removed.tsv.'

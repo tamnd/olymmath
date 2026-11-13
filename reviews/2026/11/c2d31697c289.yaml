@@ -1,0 +1,8 @@
+id: c2d31697c289
+kind: match
+records:
+    - ru-moscow/1990/p81
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 125919 of NuminaMath 1.5 to this record, but an index is miscopied (a_3 + a_6 + a_4 where the record has a_3 + a_6 + a_9), so the row is not a clear problem of its own. The agent took the row out and listed it in registers/loose-removed.tsv.'

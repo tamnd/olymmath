@@ -16,4 +16,4 @@ statements:
 status:
   statement: captured
 ---
-(solved by Adrien Laroche). A point $P$ is contained within a convex polyhedron. For each face $F$ of the polyhedron, we consider the orthogonal projection $P_{F}$ of $P$ onto the plane of this face. Show that there exists at least one face $F$ such that $P_{F}$ lies on the face $F$ itself, and not on its extension.
+A point $P$ is contained within a convex polyhedron. For each face $F$ of the polyhedron, we consider the orthogonal projection $P_{F}$ of $P$ onto the plane of this face. Show that there exists at least one face $F$ such that $P_{F}$ lies on the face $F$ itself, and not on its extension.

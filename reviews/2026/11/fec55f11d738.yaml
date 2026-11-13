@@ -1,0 +1,9 @@
+id: fec55f11d738
+kind: pair
+records:
+    - VR4W7Z1TJZ
+    - memo/2018/t4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 135617 of NuminaMath 1.5 to this record, but they are two problems: the row bound is fewer than k+1 non-zero terms, the record bound is fewer than 2k. The agent removed the row from the record, and row 135617 is now its own loose record.'

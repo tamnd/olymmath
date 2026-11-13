@@ -1,0 +1,9 @@
+id: c3022dd0f6ea
+kind: pair
+records:
+    - WB1795S3VF
+    - 88VK34ERSD
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 113293 of NuminaMath 1.5 to this record, but they are two problems: the row uses the altitudes of an equilateral triangle and speaks of the largest area, the record uses the medians of an arbitrary triangle (a generalization). The record already had a statement from this source, so the row added no statement and the problem was lost. Row 113293 is now in its own loose record.'

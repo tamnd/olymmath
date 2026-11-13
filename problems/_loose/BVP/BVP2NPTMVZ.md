@@ -16,4 +16,4 @@ statements:
 status:
   statement: captured
 ---
-(solved by Aloüs Augustin). What are the lengths of the diagonals of a quadrilateral whose side lengths are $1, 3, 4$ and 10?
+What are the lengths of the diagonals of a quadrilateral whose side lengths are $1, 3, 4$ and 10?

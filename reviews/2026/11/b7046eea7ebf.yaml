@@ -1,0 +1,8 @@
+id: b7046eea7ebf
+kind: match
+records:
+    - balkan/1999/p2
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 140857 of NuminaMath 1.5 the loose record 62AM6NEN2M. The text names this competition and its year (or its number in the series), and it states the same problem as this record; same, the row range 0..p-1 vs the record 0<m,n<p. The record already has a statement from this source, so the agent removed the loose record and listed the row in registers/loose-removed.tsv.'

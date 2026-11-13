@@ -1,0 +1,9 @@
+id: b8869a0e87b0
+kind: pair
+records:
+    - CWRSD4196D
+    - cn-smo/2005/p8
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 137778 of NuminaMath 1.5 to this record, but they are two problems: the row assumes alpha<beta<gamma and proves sum tan^2 >= 3/(cbrt(9)-1), the record proves sum tan^2 >= 3sqrt(3)/2. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 137778 is now in its own loose record.'

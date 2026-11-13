@@ -1,0 +1,8 @@
+id: 89be7744c3a2
+kind: sample
+records:
+    - ECBSQQ90N6
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text states one problem (two secants through P and the power of a point) and no solution. The agent cut the topic tag ''(power of a point inside)'' at the start.'

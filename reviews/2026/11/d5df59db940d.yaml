@@ -1,0 +1,9 @@
+id: d5df59db940d
+kind: pair
+records:
+    - 3ZJPZWZT44
+    - es-ome/2017/p3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 86323 of NuminaMath 1.5 to this record, but they are two problems: the row writes 1/p - 2S_q as m/n, the record writes 1/2 - 2S_q. The agent removed the row from the record, and row 86323 is now its own loose record.'

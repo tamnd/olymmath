@@ -1,0 +1,8 @@
+id: 7b3fca75b2f5
+kind: match
+records:
+    - usamo/1992/p1
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record X9GGQV63P5 a new record, but the agent found that it is usamo/1992/p1: the row names USAMO 1992 and states its first problem. The agent moved the row to a second statement of usamo/1992/p1 and removed the loose record.'

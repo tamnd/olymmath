@@ -1,0 +1,8 @@
+id: b957b52dff66
+kind: match
+records:
+    - nl-nwo/1986/p3
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 83256 of NuminaMath 1.5 to this record, but the row has no sign condition on a,b,c,d (false for reals), the record has a,b,c,d >= 0, and the row is not a clear problem of its own: false without the sign condition. The agent took the row out and listed it in registers/loose-removed.tsv.'

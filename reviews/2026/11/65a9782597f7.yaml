@@ -1,0 +1,9 @@
+id: 65a9782597f7
+kind: pair
+records:
+    - N6JWP8N93Z
+    - GF3XPGWH8P
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 84588 of NuminaMath 1.5 to this record, but they are two problems: the row asks for natural a, b, c, the record for positive integers, if natural includes 0 (French source style) the row gains solutions such as (0,3,6) and (4,0,5). The record already had a statement from this source, so the row added no statement and the problem was lost. Row 84588 is now its own loose record.'

@@ -1,0 +1,8 @@
+id: d916115545ab
+kind: match
+records:
+    - 7R8MEK17D4
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 83315 was joined into this record, which holds row 81392. The two rows state the same inequality ((a^2 + 1)(b^3 + 2)(c^6 + 5) >= 36 when abc = 1); only the sign is written in another way.'

@@ -1,0 +1,9 @@
+id: 696bb3b36881
+kind: pair
+records:
+    - D8P8D0TCHB
+    - WF5YPB4FF3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 92866 of NuminaMath 1.5 to this record, but they are two problems: the row asks for the real root of sin x = lg x, the record asks for the number of real roots. The agent removed the row from the record, and row 92866 is now its own loose record.'

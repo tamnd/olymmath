@@ -1,0 +1,9 @@
+id: 347f54acdb28
+kind: pair
+records:
+    - GYCFB4N0ES
+    - ill/1987/p32
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 83285 of NuminaMath 1.5 to this record, but they are two problems: the row solves for x, y, z natural numbers, the record solves for x, y, z any integers. The agent removed the row from the record, and row 83285 is now its own loose record.'

@@ -1,0 +1,9 @@
+id: cdce277a4a68
+kind: pair
+records:
+    - FFCA1PAP1D
+    - KF5BP2YJEV
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 88602 of NuminaMath 1.5 to this record, but they are two problems: the row equation is f(x^2+f(y)) = y - x^2, the record is f(x^2+f(y)) = y + f(x)^2, a different functional equation. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 88602 is now its own loose record.'

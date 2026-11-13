@@ -1,0 +1,9 @@
+id: e384055e3e72
+kind: pair
+records:
+    - 3EXNCP192Z
+    - ill/1984/p25
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 82743 of NuminaMath 1.5 to this record, but they are two problems: the row says five consecutive integers (0 is allowed, and 0 is a square), the record says five consecutive positive integers. The agent removed the row from the record, and row 82743 is now its own loose record.'

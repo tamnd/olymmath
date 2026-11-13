@@ -1,0 +1,8 @@
+id: 33a4cb65bc47
+kind: match
+records:
+    - balkan/1997/p2
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record M3WD92RB7G a new record, but the agent found that it is balkan/1997/p2: the row names the Balkan olympiad of 1997 and states this problem (n <= 2^m for m separating subsets). The agent moved the row to a second statement of balkan/1997/p2 and removed the loose record.'

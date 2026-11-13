@@ -1,0 +1,9 @@
+id: 9bd2e0421c76
+kind: pair
+records:
+    - 1S9WRTZW2D
+    - RTPM6BWC0R
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 90119 of NuminaMath 1.5 to this record, but they are two problems: the row asks whether a positive integer n with n(n+1) a square exists (no), the record asks for all integers n (answer n=0 and n=-1). The record already had a statement from this source, so the row added no statement and the problem was lost. Row 90119 is now its own loose record.'

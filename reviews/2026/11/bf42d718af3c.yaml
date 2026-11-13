@@ -1,0 +1,8 @@
+id: bf42d718af3c
+kind: match
+records:
+    - jbmo-sl/2006/p9
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record D5VFQBNDJ4 a new record, but the agent found that it is jbmo-sl/2006/p9: the row names JBMO 2006 Shortlist G1, which is this record, and states its problem. The agent moved the row to a second statement of jbmo-sl/2006/p9 and removed the loose record.'

@@ -1,0 +1,9 @@
+id: 7562866661c3
+kind: pair
+records:
+    - G6HCB6RBGH
+    - H9H6XF6A7X
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 68008 of NuminaMath 1.5 to this record, but they are two problems: the row proves a^4+b^4+c^4 >= abc(a+b+c) for all real a, b, c, the record only for positive a, b, c (positive vs all reals). The record already had a statement from this source, so the row added no statement and the problem was lost. Row 68008 is now its own loose record.'

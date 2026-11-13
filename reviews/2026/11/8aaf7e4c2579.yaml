@@ -1,0 +1,8 @@
+id: 8aaf7e4c2579
+kind: sample
+records:
+    - RNH30M6DF9
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text names its own position, IMO 2017 Problem 1, and it is the text of imo/2017/p1. The agent moved the row to a statement of imo/2017/p1 and removed the loose record.'

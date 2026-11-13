@@ -1,0 +1,8 @@
+id: 9135cba4dda3
+kind: match
+records:
+    - P72X7PXKV2
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 84597 of NuminaMath 1.5 to this record, but the row asks for an integer alpha in [0,1] (only 0 or 1, which makes the claim false), the record asks for a rational alpha, and the row is not a clear problem of its own: false as stated (an integer for a rational number). The agent took the row out and listed it in registers/loose-removed.tsv.'

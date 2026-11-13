@@ -1,0 +1,9 @@
+id: 00a776b6c764
+kind: pair
+records:
+    - 5EP25HCBZW
+    - RB5G3NZ0GF
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 84519 of NuminaMath 1.5 to this record, but they are two problems: the row proves 2(x^2+y^2) >= (x+y)^2 only for positive reals, the record for any x and y (positive vs all reals). The record already had a statement from this source, so the row added no statement and the problem was lost. Row 84519 is now its own loose record.'

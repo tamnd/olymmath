@@ -1,0 +1,8 @@
+id: 8ac56d8cf490
+kind: match
+records:
+    - isl/2015/g7
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record EGKKWPSY1R a new record, but the agent found that it is isl/2015/g7: the row names the IMO Shortlist 2015, G7, and states its problem. The agent moved the row to a second statement of isl/2015/g7 and removed the loose record.'

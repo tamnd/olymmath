@@ -1,0 +1,9 @@
+id: 60618a69d112
+kind: pair
+records:
+    - FMNS5AE7MA
+    - hu-komal/2011/b4355
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 88014 of NuminaMath 1.5 to this record, but they are two problems: different numerators: the row (x^3+y^3)/(x^2+xy+y^2) and so on, the record (z^3+y^3)/(x^2+xy+y^2), (x^3+z^3)/(y^2+yz+z^2), (y^3+x^3)/(z^2+zx+x^2). The agent removed the row from the record, and row 88014 is now its own loose record.'

@@ -1,0 +1,8 @@
+id: 7e8020d25698
+kind: match
+records:
+    - 9D4ZF3S75N
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The record held rows 92538 and 94353 of NuminaMath 1.5, with row 92538 as its main text. Row 92538 has no question: it ends with ''the four-digit number formed by x1, y1, x2, y2 is S''. Row 94353 states the same problem with its question, so the agent made it the main text and the capture of the record, and listed row 92538 in registers/loose-removed.tsv.'

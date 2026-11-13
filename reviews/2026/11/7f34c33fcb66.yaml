@@ -1,0 +1,8 @@
+id: 7f34c33fcb66
+kind: match
+records:
+    - ZHE0DW9A3W
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 81479 of NuminaMath 1.5 to 7H91NSV7FE, but they are two problems: the row proves a^2+b^2+c^2 >= ab+bc+ca only for positive reals, the record states it with no restriction (all reals). Row 81479 states the same problem as row 80243, which the agent also took out of 7H91NSV7FE, so the two rows are two statements of this loose record.'

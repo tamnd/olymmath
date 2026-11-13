@@ -1,0 +1,8 @@
+id: c7855a5d5aec
+kind: match
+records:
+    - 99NMRBYBAE
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 83606 was joined into this record, which holds row 82164. The two rows ask the same question (a polyhedron with triangle faces and one pentagon, all vertices of even degree).'

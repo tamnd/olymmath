@@ -1,0 +1,8 @@
+id: d4fe35e7cfd9
+kind: match
+records:
+    - imo/2008/p1
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record ED53M80Y3N a new record, but the agent found that it is imo/2008/p1: the row names IMO 2008 and states the problem of the circles through the orthocenter. The agent moved the row to a second statement of imo/2008/p1 and removed the loose record.'

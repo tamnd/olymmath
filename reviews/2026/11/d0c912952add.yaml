@@ -1,0 +1,9 @@
+id: d0c912952add
+kind: pair
+records:
+    - 9BTHH0Z5KF
+    - 22NFT5S736
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 41500 of NuminaMath 1.5 to this record, but they are two problems: the row proves sqrt(a), sqrt(b), sqrt(c) form a triangle when a, b, c do, the record proves square roots of three distinct primes cannot be in one arithmetic progression. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 41500 is now its own loose record.'

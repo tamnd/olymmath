@@ -1,0 +1,9 @@
+id: 1c50d8c12f2c
+kind: pair
+records:
+    - R2XKNP9RKD
+    - za-samo/1997/p4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 91213 of NuminaMath 1.5 to this record, but they are two problems: the row has f(m+f(n))=f(m)-n and asks to show no f exists, the record has f(m)+n and asks for all f. The agent removed the row from the record, and row 91213 is now its own loose record.'

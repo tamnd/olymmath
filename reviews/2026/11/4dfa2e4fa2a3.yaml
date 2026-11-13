@@ -1,0 +1,8 @@
+id: 4dfa2e4fa2a3
+kind: match
+records:
+    - 2TPTVSM2W7
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 93774 of NuminaMath 1.5 to this record, but the row is cut off: it states the equation lg^2 x - [lg x] - 2 = 0 but the question (number of real roots) is missing, and the row is not a clear problem of its own: the question is cut off. The agent took the row out and listed it in registers/loose-removed.tsv.'

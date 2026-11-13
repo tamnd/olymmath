@@ -1,0 +1,8 @@
+id: 0cd1e4f1022f
+kind: match
+records:
+    - SF6SX7RPJB
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made this record from rows 82434 and 83067 of NuminaMath 1.5. Both are a request to show ''the last four formulas above'', which depends on a text that is not given. The agent removed the record and listed the rows in registers/loose-removed.tsv.'

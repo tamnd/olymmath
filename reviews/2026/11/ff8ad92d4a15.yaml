@@ -1,0 +1,9 @@
+id: ff8ad92d4a15
+kind: pair
+records:
+    - 4NKYRJR8KV
+    - C5HP0CQJE1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 58940 of NuminaMath 1.5 to this record, but they are two problems: the record has an extra part a) proving area of ACE is at least half the hexagon, a separate inequality that the row lacks, the row only asks that ACE and BDF have equal area. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 58940 is now its own loose record.'

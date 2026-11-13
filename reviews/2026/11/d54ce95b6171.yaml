@@ -1,0 +1,8 @@
+id: d54ce95b6171
+kind: match
+records:
+    - N7KT24J1Y2
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 84160 of NuminaMath 1.5 was joined into this record, which holds row 81645. The two texts state the same problem; the record also asks for the quadruple where the minimum is reached, which is a small extra question of the same problem, so the join stays.'

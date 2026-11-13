@@ -1,0 +1,8 @@
+id: 3393acae92c8
+kind: match
+records:
+    - jbmo-sl/2002/p11
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record XDS7F8MFX5 a new record, but the agent found that it is jbmo-sl/2002/p11: the row names the JBMO 2002 Shortlist and states the problem of this record. The agent moved the row to a second statement of jbmo-sl/2002/p11 and removed the loose record.'

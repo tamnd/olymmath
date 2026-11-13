@@ -1,0 +1,9 @@
+id: b9367035ea8b
+kind: pair
+records:
+    - MRYQVY0QD5
+    - imo/2017/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 82401 of NuminaMath 1.5 to this record, but they are two problems: the row is continuous f(x+y)=f(x)f(y), the record is f(f(x)f(y))+f(x+y)=f(xy). The agent removed the row from the record, and row 82401 is now its own loose record.'

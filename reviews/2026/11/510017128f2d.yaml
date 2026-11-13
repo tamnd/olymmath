@@ -1,0 +1,9 @@
+id: 510017128f2d
+kind: pair
+records:
+    - MX2EKAHBDF
+    - nl-nwo/2017/p1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 85658 of NuminaMath 1.5 to this record, but they are two problems: part (a) differs: the row says every even-steven integer > 9 is a sum of two oddball integers, the record says every oddball integer > 9 is. The agent removed the row from the record, and row 85658 is now its own loose record.'

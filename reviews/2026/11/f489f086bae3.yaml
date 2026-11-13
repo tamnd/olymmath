@@ -1,0 +1,9 @@
+id: f489f086bae3
+kind: pair
+records:
+    - PED476TRWD
+    - CFHHZN20ZE
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 61054 of NuminaMath 1.5 to this record, but they are two problems: the row asks whether ABC must be equilateral if the bisectors are also bisectors of A''B''C'', the record proves the cevian triangle has at most a quarter of the area of ABC. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 61054 is now its own loose record.'

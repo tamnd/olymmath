@@ -1,0 +1,8 @@
+id: 7ff5bec35be8
+kind: match
+records:
+    - usamo/1994/p1
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record GWGQ708CHY a new record, but the agent found that it is usamo/1994/p1: the row names USAMO 1994 and states its first problem. The agent moved the row to a second statement of usamo/1994/p1 and removed the loose record.'

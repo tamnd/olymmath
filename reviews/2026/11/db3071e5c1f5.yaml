@@ -1,0 +1,8 @@
+id: db3071e5c1f5
+kind: match
+records:
+    - YKMEGN1HM7
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 82984 was joined into this record, which holds row 81783. The two rows state the same claim (a prime divisor q of 1 + p + ... + p^(p-1) is 1 mod p); one writes the sum in the other order.'

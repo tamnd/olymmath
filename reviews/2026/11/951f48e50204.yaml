@@ -1,0 +1,8 @@
+id: 951f48e50204
+kind: match
+records:
+    - SBEPN85RYY
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 82081 was joined into this record, which holds row 82002. The two rows state the same claim (n! divides u_{n+1} - u_n for the tower u_{k+1} = a^{u_k}); only the translation differs.'

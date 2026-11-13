@@ -1,0 +1,23 @@
+---
+tag: 1ZW9RZXMZZ
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=83107
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+We denote $F_{n}$ as the $n^{\text{th}}$ term of the Fibonacci sequence defined by $F_{0} = F_{1} = 1$ and $F_{n+2} = F_{n} + F_{n+1}$.
+
+a) Show that $\operatorname{GCD}(F_{n}, F_{n+1}) = 1$.
+
+b) Assuming that $F_{n+m} = F_{m} F_{n+1} + F_{m-1} F_{n}$, show that $F_{\operatorname{GCD}(m, n)} = \operatorname{GCD}(F_{m}, F_{n})$.

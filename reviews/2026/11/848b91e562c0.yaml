@@ -1,0 +1,8 @@
+id: 848b91e562c0
+kind: match
+records:
+    - PQPY8SPNDC
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 86352 of NuminaMath 1.5 is linked to this record. The row asks that the sum of any three consecutive numbers be at most 13, 14 or 15, the record lost the words ''at most''. It is the same problem, so the link stays.'

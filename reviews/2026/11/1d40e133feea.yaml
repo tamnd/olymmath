@@ -1,0 +1,9 @@
+id: 1d40e133feea
+kind: pair
+records:
+    - NDF6DKAYJ0
+    - rs-smo/2024/p1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 93439 of NuminaMath 1.5 to this record, but they are two problems: the row asks that the differences d_{i+1}-d_i be all the divisors of some integer, the record asks that they form a geometric progression (with k >= 4). The agent removed the row from the record, and row 93439 is now its own loose record.'

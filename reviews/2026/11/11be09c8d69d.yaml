@@ -1,0 +1,9 @@
+id: 11be09c8d69d
+kind: pair
+records:
+    - 4YMMKCR8Q2
+    - ir-tst/2018/p17
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 82114 of NuminaMath 1.5 to this record, but they are two problems: the row needs the sum to be strictly greater than S/2 and does not ask for distinct numbers, the record asks for at least S/2 with distinct numbers. The agent removed the row from the record, and row 82114 is now its own loose record.'

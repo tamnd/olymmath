@@ -1,0 +1,9 @@
+id: 5c7a17a064e2
+kind: pair
+records:
+    - QZ68Q6ABNZ
+    - 1JHX2DW9GR
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 81644 of NuminaMath 1.5 to this record, but they are two problems: the row proves the inequality for natural n only, the record for every integer n including negative n, which needs a separate argument. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 81644 is now its own loose record.'

@@ -1,0 +1,9 @@
+id: 953ec220b7e4
+kind: pair
+records:
+    - YJQ0PFXCE3
+    - xk-tst/2017/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 89693 of NuminaMath 1.5 to this record, but they are two problems: the row has f(f(n))=f(n+1)-f(n) for all n, the record has f(f(n-1))=f(n+1)-f(n) for n >= 2. The agent removed the row from the record, and row 89693 is now its own loose record.'

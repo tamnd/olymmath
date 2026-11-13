@@ -1,0 +1,8 @@
+id: 625d0d528669
+kind: match
+records:
+    - 6GDDZXFWG6
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 86376 of NuminaMath 1.5 is linked to this record. The row asks whether f_A(n) is constant for all n > N, the record writes n < N, a slip that makes the question trivial. It is the same problem, so the link stays.'

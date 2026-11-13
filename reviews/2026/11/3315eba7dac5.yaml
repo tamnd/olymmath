@@ -1,0 +1,9 @@
+id: 3315eba7dac5
+kind: pair
+records:
+    - 2G7BXGF4EA
+    - ill/1972/p1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 83864 of NuminaMath 1.5 to this record, but they are two problems: the row has y^2 on the right side (natural numbers), the record has y^4 (integer solutions). The agent removed the row from the record, and row 83864 is now its own loose record.'

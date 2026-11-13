@@ -1,0 +1,8 @@
+id: 33d0fe481999
+kind: match
+records:
+    - 1WSNTT59KH
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 83592 was joined into this record, which holds row 81383. The two rows ask for the same functions on the subsets of a finite set E; one writes P and the other P(E).'

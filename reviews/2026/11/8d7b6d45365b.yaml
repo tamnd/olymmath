@@ -1,0 +1,8 @@
+id: 8d7b6d45365b
+kind: match
+records:
+    - EDDF5ZZ2KX
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 179676 was joined into this record, which holds row 178558. The two rows are the same text (the integral from 0 to pi/2 of (sin^2 x + sin x)/(sin x + cos x + 1)).'

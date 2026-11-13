@@ -1,0 +1,25 @@
+---
+tag: 2KXS5J2ASR
+kind: problem
+type: answer
+answer: 0<<28
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=186177
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Determine all real numbers $m$ that satisfy the condition that for every real number $x$, the following inequality (1) holds:
+
+$$
+x^{2}+(m+2) x+8 m+1>0
+$$

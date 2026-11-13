@@ -1,0 +1,9 @@
+id: 4e1c23d7c6ce
+kind: pair
+records:
+    - 6ZW89D3GKR
+    - ill/1966/p11
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 187513 of NuminaMath 1.5 to this record, but they are two problems: the row asks to prove no z has two representations x!+y!, the record asks whether such a z exists. The agent removed the row from the record, and row 187513 is now in a new loose record.'

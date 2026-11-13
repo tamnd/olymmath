@@ -1,0 +1,8 @@
+id: 2253a1efd66a
+kind: match
+records:
+    - 189WQBSGGA
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 188652 was joined into this record, which holds row 188184. The two rows state the same problem (the sum of six consecutive natural numbers with no multiple of 7 is divisible by 21 and not by 42, and a sum that is a four-digit square); only the wording differs.'

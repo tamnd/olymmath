@@ -1,0 +1,9 @@
+id: 6be40b88187f
+kind: pair
+records:
+    - 6110C68ENA
+    - mx-omm/1988/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 184478 of NuminaMath 1.5 to this record, but they are two problems: the row proves one direction for all integers, the record asks an if and only if for positive integers. The agent removed the row from the record, and row 184478 is now in a new loose record.'

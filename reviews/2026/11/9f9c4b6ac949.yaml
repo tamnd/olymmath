@@ -1,0 +1,9 @@
+id: 9f9c4b6ac949
+kind: pair
+records:
+    - 9EP3R8AMVR
+    - ibero/1989/p3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 187467 of NuminaMath 1.5 to this record, but they are two problems: the row bounds the absolute value of the sum by 1 for any positive reals, the record bounds the sum by 1/16 for triangle sides. The agent removed the row from the record, and row 187467 is now in a new loose record.'

@@ -1,0 +1,9 @@
+id: 90481559edca
+kind: pair
+records:
+    - WH3YWNC77Q
+    - it-cesenatico/2004/p3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 181643 of NuminaMath 1.5 to this record, but they are two problems: the row asks for sums of two positive squares, the record allows any squares (zero included, which makes part (a) trivial). The agent removed the row from the record, and row 181643 is now in a new loose record.'

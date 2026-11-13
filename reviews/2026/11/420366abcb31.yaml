@@ -1,0 +1,9 @@
+id: 420366abcb31
+kind: pair
+records:
+    - 30ZA83FA5C
+    - lt-mo/2004/p94
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 43548 of NuminaMath 1.5 to this record, but they are two problems: the row asks to compute the sum for xyz=1, the record gives positive x,y,z and asks to prove the sum equals 1. The agent removed the row from the record, and row 43548 is now in a new loose record.'

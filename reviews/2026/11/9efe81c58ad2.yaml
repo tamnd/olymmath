@@ -1,0 +1,9 @@
+id: 9efe81c58ad2
+kind: pair
+records:
+    - HAJ1JV6WRM
+    - V9E3T0XKW5
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 165506 of NuminaMath 1.5 to this record, but they are two problems: the row claims n^4+a is never prime, the record claims it is never a perfect square. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 165506 is now in its own loose record.'

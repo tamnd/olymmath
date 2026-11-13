@@ -1,0 +1,8 @@
+id: 3023162fbc95
+kind: match
+records:
+    - 82BWJAXK3S
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 184816 of NuminaMath 1.5 into this record, which holds row 184333, but the row is cut off in the middle of the rule for the remaining cards, so the question is lost. The row is not a clear problem, so the record keeps only row 184333. The agent listed row 184816 in registers/loose-removed.tsv. The heading of the record (''Task 4 - 340844=340944'') is garbled, so the agent cut it.'

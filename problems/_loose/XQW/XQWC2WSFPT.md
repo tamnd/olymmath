@@ -1,0 +1,25 @@
+---
+tag: XQWC2WSFPT
+kind: problem
+type: answer
+answer: "228"
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=186642
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+a) How many minutes are 3 hours and 48 minutes?
+
+b) How many kilograms are $3 \mathrm{~kg}$ and $6000 \mathrm{~g}$ ?
+
+c) How many meters are $9 \mathrm{~m}$ and $800 \mathrm{~cm}$ ?

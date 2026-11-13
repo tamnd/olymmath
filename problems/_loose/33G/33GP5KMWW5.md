@@ -1,0 +1,27 @@
+---
+tag: 33GP5KMWW5
+kind: problem
+type: answer
+answer: (b,)=(-8,12)or(b,)=(-3,2)or(b,)=(1,0)
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=177667
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Let $b$ and $c$ be real numbers such that the equation $x^{2}+b x+c=$ 0 has two distinct real roots $x_{1}$ and $x_{2}$ with $x_{1}=x_{2}^{2}+x_{2}$.
+
+a) Find $b$ and $c$ if $b+c=4$.
+
+б) Find $b$ and $c$ if they are coprime integers.
+
+Stoyan Atanasov

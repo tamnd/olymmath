@@ -1,0 +1,8 @@
+id: 335abda92ee2
+kind: sample
+records:
+    - NAYAJ7WHK7
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text states one problem and no solution. The agent cut the points label ''(7p)'' at the start. The answer in the source is garbled (letters are lost or the TeX is broken), so the agent removed the answer from the record.'

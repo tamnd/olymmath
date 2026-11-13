@@ -1,0 +1,9 @@
+id: 19d9959b6ba6
+kind: pair
+records:
+    - A5XWD9GZYG
+    - GC0SS9MYCZ
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 187961 of NuminaMath 1.5 to this record, but they are two problems: the row asks to solve the equation with = for x, the record asks to prove the inequality >= holds for all positive x. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 187961 is now in its own loose record.'

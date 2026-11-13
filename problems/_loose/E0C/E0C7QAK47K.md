@@ -1,0 +1,23 @@
+---
+tag: E0C7QAK47K
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=186706
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+## Compare.
+
+a) $a=2305, b=2503$
+b) $d=7001 \mathrm{~g}, e=7 \mathrm{~kg}$
+c) $g=3 \mathrm{~m} 5 \mathrm{~cm}, h=350 \mathrm{~cm}$

@@ -1,0 +1,8 @@
+id: 7d5ededf4ab3
+kind: match
+records:
+    - SN0AJRJT1G
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 188910 was joined into this record, which holds row 188609. The two rows state the same problem (the telephone poles 80 m apart on a 1600 m street, moved to 50 m apart); only the reason for the move is told in other words.'

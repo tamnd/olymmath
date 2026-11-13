@@ -1,0 +1,23 @@
+---
+tag: SE63W0KMV5
+kind: problem
+type: answer
+answer: 480;720;1800;3;7;1
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=186791
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+How many seconds are $8 \mathrm{~min} ; 12 \mathrm{~min} ; 30 \mathrm{~min}$ ?
+
+How many hours are $180 \mathrm{~min} ; 420 \mathrm{~min} ; 60 \mathrm{~min}$ ?

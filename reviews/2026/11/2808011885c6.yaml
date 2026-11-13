@@ -1,0 +1,8 @@
+id: 2808011885c6
+kind: match
+records:
+    - mk-mo/2022/p1
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 188294 (E 0.839, T 0.519, keyword match 1.000) and the text of mk-mo/2022/p1 state the same problem with the same data and the same question. The row became a second statement of the record.'

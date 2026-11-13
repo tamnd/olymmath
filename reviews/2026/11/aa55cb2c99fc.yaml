@@ -1,0 +1,8 @@
+id: aa55cb2c99fc
+kind: match
+records:
+    - 42RD7W8HRW
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 178135 was joined into this record, which holds row 177922. The two rows are the same text (the centroids G1, G2, G3 of the faces BCD, ACD, ABD: the plane G1G2G3 is parallel to ABC and AG1, BG2, CG3 meet).'

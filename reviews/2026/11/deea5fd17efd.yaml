@@ -1,0 +1,9 @@
+id: deea5fd17efd
+kind: pair
+records:
+    - 49GNF6NTRZ
+    - M70ZFKP6P0
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 182466 of NuminaMath 1.5 into this record, which holds row 182455, but they are two problems: the row has beta = 2 alpha, the record has alpha = 2 beta. The row added no statement, so the problem was lost. Row 182466 is now in a new loose record.'

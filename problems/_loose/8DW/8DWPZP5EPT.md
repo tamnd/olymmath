@@ -1,0 +1,23 @@
+---
+tag: 8DWPZP5EPT
+kind: problem
+type: answer
+answer: 20\frac{
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=181751
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+A tractor with a trailer, loaded with prefabricated parts, drives from the company to a construction site. An average speed of $15 \frac{\mathrm{km}}{\mathrm{h}}$ is achieved. After unloading, an average speed of $30 \frac{\mathrm{km}}{\mathrm{h}}$ is achieved on the return trip to the company (the same distance).
+
+What is the average speed for the entire journey (to and from)?

@@ -1,0 +1,9 @@
+id: 461513978abb
+kind: pair
+records:
+    - SW8RTGVN1P
+    - RQQ95B68NC
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 187855 of NuminaMath 1.5 to this record, but they are two problems: the row proves a^2, b^2, c^2 in AP implies the reciprocal sums are in AP, the record asks the converse. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 187855 is now in its own loose record.'

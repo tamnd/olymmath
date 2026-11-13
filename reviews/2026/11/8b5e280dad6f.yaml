@@ -1,0 +1,9 @@
+id: 8b5e280dad6f
+kind: pair
+records:
+    - V49P2NMCEK
+    - se-skolornas/2001/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 176423 of NuminaMath 1.5 to this record, but they are two problems: the row claims the number is an integer, the record claims it is rational. The agent removed the row from the record, and row 176423 is now in a new loose record.'

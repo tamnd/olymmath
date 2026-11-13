@@ -1908,9 +1908,17 @@
   first_year: 1979
   edition_form: year
   per_year: 6
-  # Agent decision, not a person's review: the XIV OBM in 1992 had eight problems at level 3. MathNet and the AoPS wiki ("Brazil MO 1992 P7", "P8") give problems 7 and 8.
+  # Agent decision, not a person's review: the XIV OBM in 1992 had eight problems at level 3. MathNet and the AoPS wiki ("Brazil MO 1992 P7", "P8") give problems 7 and 8. In 1979, 1985, 1987 to 1991 and 1993 the AoPS wiki numbers the problems of the year 1 to 5 with no gap and no repeated number, and the content has the same five positions, so these years have five problems. obm.org.br has no paper of these years.
   overrides:
+    1979: [p1, p2, p3, p4, p5]
+    1985: [p1, p2, p3, p4, p5]
+    1987: [p1, p2, p3, p4, p5]
+    1988: [p1, p2, p3, p4, p5]
+    1989: [p1, p2, p3, p4, p5]
+    1990: [p1, p2, p3, p4, p5]
+    1991: [p1, p2, p3, p4, p5]
     1992: [p1, p2, p3, p4, p5, p6, p7, p8]
+    1993: [p1, p2, p3, p4, p5]
   official_solutions: true
   languages: [pt]
   sources: [obm, hf-mathnet]

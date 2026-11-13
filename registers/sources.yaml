@@ -1807,6 +1807,22 @@
   state: active
   notes: The page of past papers is https://bilimolimpiyatlari.tubitak.gov.tr/tr/gecmis-sinav-sorulari. Its mathematics second-round papers (İkinci Aşama, six problems, the papers of tr-mo) are one PDF file each for 2020 to 2025, and zip files for 2004-2007, 2008-2011, 2012-2015 and 2017-2019 that hold one PDF file for each year, such as 2004-min.pdf. The page has no paper for 2016. The year of a paper is the year in which it was held, in December. robots.txt (checked on 2026-11-04) allows all paths.
 
+- id: mattetavling
+  name: Skolornas matematiktävling (Svenska matematikersamfundet)
+  kind: official
+  origin: H1
+  url: https://www.mattetavling.se/finaluppgifter
+  access: pdf
+  terms: "The site has no terms page (/terms and /villkor give 404 on 2026-11-13) and the papers give no licence. Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: 20 papers of the final, 2006 to 2025
+  wave: 1
+  state: active
+  notes: "The page Tidigare finaluppgifter links one PDF for the final of each year under /s/, such as /s/Final_2122.pdf. A school year label such as 2021/2022 names the final held in November 2021. The robots.txt (read on 2026-11-13) puts all agents in one group, which allows /s/ and disallows /static/, /api/ and some query forms. It gives no crawl delay."
+
 - id: pmo-ph
   name: Philippine Mathematical Olympiad
   kind: official

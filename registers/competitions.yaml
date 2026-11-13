@@ -1877,7 +1877,7 @@
   languages: [en, fr]
   copyright: Copyright CEMC.
   sources: [cemc]
-  description: A contest of ten problems run by the CEMC at the University of Waterloo. About ten years of papers are online.
+  description: A contest of ten problems run by the CEMC at the University of Waterloo. The CEMC has the papers of 2016 to 2026 online. Its materials are under CC BY-NC 4.0, so the records are links only.
 
 - code: mx-omm
   name: Mexican Mathematical Olympiad

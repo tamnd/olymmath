@@ -791,12 +791,16 @@
   origin: H1
   url: https://cemc.uwaterloo.ca/
   access: pdf
+  licence: CC BY-NC 4.0
+  terms: "The copyright notice on https://cemc.uwaterloo.ca/online-ordering-terms-and-conditions (read on 2026-11-13) says that the materials of the CEMC are licensed under CC BY-NC 4.0. The non-commercial terms do not fit the CC BY-SA site licence, so the papers are Z3, as for MathArena (spec 11.2). The records link to the paper and hold no text."
   zone:
-    statement: Z2
-    solution: Z2
+    statement: Z3
+    solution: Z3
   ai_train: unknown
+  size: 11 papers of the Euclid contest, 2016 to 2026
   wave: 1
-  state: planned
+  state: active
+  notes: "The page https://cemc.uwaterloo.ca/resources/past-contests with contest_category=24 lists the Euclid papers of 2016 to 2026, such as /sites/default/files/documents/2025/2025EuclidContest.pdf. The robots.txt (read on 2026-11-13) has one group for all agents. It disallows /core/, /profiles/, /admin/, /search/ and some other Drupal paths, and allows /sites/. It gives no crawl delay."
 
 - id: cms
   name: Canadian Mathematical Society

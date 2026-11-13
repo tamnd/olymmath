@@ -1,0 +1,9 @@
+id: defd5253df2c
+kind: pair
+records:
+    - 1J2Q4Z1FV2
+    - 9EEBVP3AJQ
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 63545 of NuminaMath 1.5 to this record, but they are two problems: the row has 0 < a, the record 0 <= a. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 63545 is now in its own loose record.'

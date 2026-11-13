@@ -1,0 +1,9 @@
+id: b6141e9c91ed
+kind: pair
+records:
+    - QBZYKPYP7B
+    - cz-sk-mo/1997/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 235427 of NuminaMath 1.5 to this record, but they are two problems: the record restricts to odd n, the row allows all n >= 3. The agent removed the row from the record, and row 235427 is now in a new loose record.'

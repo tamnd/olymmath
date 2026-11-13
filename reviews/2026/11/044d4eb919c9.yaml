@@ -1,0 +1,8 @@
+id: 044d4eb919c9
+kind: sample
+records:
+    - E7FCEZSA4K
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text states one complete problem and no solution. The source lost the name of the function, so the agent wrote ''define f(n) as the number of'', as the last sentence uses f(n). The answer in the source only repeats the claim, so the agent removed the answer from the record.'

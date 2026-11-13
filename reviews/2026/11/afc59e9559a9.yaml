@@ -1,0 +1,8 @@
+id: afc59e9559a9
+kind: sample
+records:
+    - S054T084GN
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text states one complete problem and no solution. The floor brackets were the wrong way round, and part b) had ''c n'' where the bound of part a) is c/n, so the agent corrected both.'

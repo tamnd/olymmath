@@ -1,0 +1,9 @@
+id: aca9ea77ff30
+kind: pair
+records:
+    - GGS8M31ZVG
+    - NB0SMT9CVS
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 247298 of NuminaMath 1.5 into this record, which holds row 231228, but they are two problems: the row takes a, b as any integers, the record as positive integers. The row added no statement, so the problem was lost. Row 247298 is now in a new loose record.'

@@ -1,0 +1,19 @@
+---
+tag: 8C9THYJBZ8
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=251142
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Let $r$ be the inradius of an acute triangle. Prove that the sum of the distances from the orthocenter to the sides of the triangle does not exceed $3r$

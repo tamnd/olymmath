@@ -1,0 +1,9 @@
+id: 0c960956f4b3
+kind: pair
+records:
+    - 90V4MF97HZ
+    - 69RJ2SWAG7
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 236691 of NuminaMath 1.5 to this record, but they are two problems: the row asks to find all breakable n, the record asks to prove n is composite if and only if such a,b,x,y exist. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 236691 is now in its own loose record.'

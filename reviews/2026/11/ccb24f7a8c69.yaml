@@ -1,0 +1,9 @@
+id: ccb24f7a8c69
+kind: pair
+records:
+    - KK1CZ1C1B9
+    - bmt/2022/k3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 241911 of NuminaMath 1.5 to this record, but they are two problems: the row integrand has the extra term e^{e^{e^x}} in the exponent, the record has only x + e^x + e^{e^x}. The agent removed the row from the record, and row 241911 is now in a new loose record.'

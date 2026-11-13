@@ -1,0 +1,9 @@
+id: 2893bac53b28
+kind: pair
+records:
+    - A03WWMK7K8
+    - H8C077T5AT
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 64363 of NuminaMath 1.5 to this record, but they are two problems: the row assumes a convex quadrilateral, the record any quadrilateral. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 64363 is now in its own loose record.'

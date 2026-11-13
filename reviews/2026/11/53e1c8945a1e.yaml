@@ -1,0 +1,8 @@
+id: 53e1c8945a1e
+kind: match
+records:
+    - KA39548AHN
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 229781 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row''s start is garbled and never says one person stands at each integer at the beginning. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

@@ -1,0 +1,9 @@
+id: 105c94d74572
+kind: pair
+records:
+    - JCE3W46AJR
+    - cn-league/2004/p3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 234876 of NuminaMath 1.5 to this record, but they are two problems: the row uses the set {m,...,m+n-1}, the record uses {m,...,m+n+1}. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 234876 is now in its own loose record.'

@@ -1,0 +1,9 @@
+id: 10f696f95861
+kind: pair
+records:
+    - V1T708ENXR
+    - cn-mo/2008/p3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 97922 of NuminaMath 1.5 to this record, but they are two problems: the row assumes sum i x_i >= sum i y_i, the record sum i x_i = sum i y_i. The agent removed the row from the record, and row 97922 is now in a new loose record.'

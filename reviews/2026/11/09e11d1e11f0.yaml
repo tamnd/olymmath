@@ -1,0 +1,9 @@
+id: 09e11d1e11f0
+kind: pair
+records:
+    - XJCZJDNNTN
+    - ru-allrussian/1961/p12
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 248381 of NuminaMath 1.5 to this record, but they are two problems: the row drops the condition that the circle is placed inside the rectangle. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 248381 is now in its own loose record.'

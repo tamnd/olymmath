@@ -1,0 +1,8 @@
+id: 064d2bdbd255
+kind: match
+records:
+    - ro-nmo/2007/p84
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 247704 (E 1.000, T 0.823, keyword match 1.000) and the text of ro-nmo/2007/p84 state the same problem with the same data and the same question. The row became a second statement of the record.'

@@ -1,0 +1,9 @@
+id: 5bc8f9661fdc
+kind: pair
+records:
+    - 3BN4D8MKPN
+    - jp-jmo/1997/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 237402 of NuminaMath 1.5 to this record, but they are two problems: the row has nonzero reals, the record positive reals. The agent removed the row from the record, and row 237402 is now in a new loose record.'

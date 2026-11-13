@@ -1,0 +1,8 @@
+id: c751a6708e01
+kind: match
+records:
+    - es-ome/2006/p2
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 252144 (E 0.644, T 0.525, keyword match 0.833) and the text of es-ome/2006/p2 state the same problem with the same data and the same question. The row became a second statement of the record.'

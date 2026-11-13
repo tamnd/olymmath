@@ -1,0 +1,9 @@
+id: 149ebb0a994b
+kind: pair
+records:
+    - QYD7HJAZM1
+    - si-mo/2005/p12
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 252673 of NuminaMath 1.5 to this record, but they are two problems: the row asks for exactly six divisors, the record for fewer than 11 divisors. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 252673 is now in its own loose record.'

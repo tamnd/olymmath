@@ -1,0 +1,8 @@
+id: 1cde5180b105
+kind: match
+records:
+    - cn-mo/2004/p5
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 129947 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row drops that the a_i are positive integers and miscopies x^2 as x_i^2 in the left sum. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

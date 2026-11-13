@@ -1,0 +1,8 @@
+id: c63d7c58c160
+kind: match
+records:
+    - in-inmo/2000/p3
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 239184 of NuminaMath 1.5 to this record, but the row is another version of it: the row asks to prove a=b=c, the record to prove a+b+c=0 or a=b=c. The project only links the texts of in-inmo, so the agent made no loose record of the row. The agent listed the row in registers/loose-removed.tsv.'

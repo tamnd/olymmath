@@ -1,0 +1,9 @@
+id: bceacbf8fc0d
+kind: pair
+records:
+    - YQBVAX0Z19
+    - pumac/2008/na9
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 247282 of NuminaMath 1.5 to this record, but they are two problems: the row asks to solve (find all solutions), the record asks only for the number of solutions. The agent removed the row from the record, and row 247282 is now in a new loose record.'

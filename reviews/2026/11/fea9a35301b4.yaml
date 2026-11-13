@@ -1,0 +1,9 @@
+id: fea9a35301b4
+kind: pair
+records:
+    - KJE16NYEKQ
+    - hmnt/2015/u11
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 231838 of NuminaMath 1.5 to this record, but they are two problems: another problem: the row proves abc = 0 given a^n+b^n=c^n for three consecutive n, the record asks for all integers n with positive solutions. The agent removed the row from the record, and row 231838 is now in a new loose record.'

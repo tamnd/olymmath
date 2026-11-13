@@ -1,0 +1,9 @@
+id: 8a2d80f759b1
+kind: pair
+records:
+    - 5K86827XBT
+    - J7QFM3JY4Z
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 189799 of NuminaMath 1.5 to this record, but they are two problems: the row requires a,b,c pairwise distinct, the record has no such condition and its second equation reads ax+bx+cz=h. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 189799 is now in its own loose record.'

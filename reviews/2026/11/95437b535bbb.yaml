@@ -1,0 +1,9 @@
+id: 95437b535bbb
+kind: pair
+records:
+    - VH42SCR23P
+    - P9VVCB45RQ
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 237358 of NuminaMath 1.5 to this record, but they are two problems: the row claims line AM passes through the midpoint of AD, the record claims line EM does. The agent removed the row from the record, and row 237358 is now in a new loose record.'

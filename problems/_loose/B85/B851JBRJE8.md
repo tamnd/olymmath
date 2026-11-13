@@ -1,0 +1,21 @@
+---
+tag: B851JBRJE8
+kind: problem
+type: answer
+answer: 22, 24, 26, 28
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=246029
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Four consecutive even numbers are removed from the set $$A=\{ 1, 2, 3, \cdots, n \}.$$ If the arithmetic mean of the remaining numbers is $51.5625$, which four numbers were removed?

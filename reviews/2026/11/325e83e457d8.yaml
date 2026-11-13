@@ -1,0 +1,9 @@
+id: 325e83e457d8
+kind: pair
+records:
+    - 8G22N0C7RZ
+    - kurschak/1976/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 237904 of NuminaMath 1.5 to this record, but they are two problems: the row has 55 tickets, the record 5^5 tickets. The agent removed the row from the record, and row 237904 is now in a new loose record.'

@@ -1,0 +1,9 @@
+id: b6698de8dd21
+kind: pair
+records:
+    - D71B4DYX2Z
+    - rioplatense/2013/p1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 250215 of NuminaMath 1.5 to this record, but they are two problems: the row asks to prove (1-a)(1-b) >= cd, the record (1-a)(1-b)(1-c)(1-d) >= abcd for positive reals. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 250215 is now in its own loose record.'

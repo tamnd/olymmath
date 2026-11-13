@@ -1,0 +1,8 @@
+id: c5d26ff6cf27
+kind: match
+records:
+    - ru-allrussian/2007/p86
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 244624 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row garbles the second angle condition as angle KC instead of angle IKC. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

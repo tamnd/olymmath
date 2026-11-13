@@ -1,0 +1,9 @@
+id: 3b29324cea02
+kind: pair
+records:
+    - TM7JZ7QRK3
+    - be-vwo/1988/p1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 239516 of NuminaMath 1.5 to this record, but they are two problems: the row adds a separate second problem (b) about 2n+1 segments on a line that the record does not have. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 239516 is now in its own loose record.'

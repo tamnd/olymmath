@@ -1,0 +1,9 @@
+id: f4ee625eee48
+kind: pair
+records:
+    - 7JG52B1J95
+    - XMC0SHEJDD
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 39843 of NuminaMath 1.5 to this record, but they are two problems: the row says an arbitrary hexagon, the record restricts to a convex hexagon (editor note). The record already had a statement from this source, so the row added no statement and the problem was lost. Row 39843 is now in its own loose record.'

@@ -1,0 +1,8 @@
+id: 2c0670e1bd0c
+kind: match
+records:
+    - ca-cmo/2010/p5
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 239034 of NuminaMath 1.5 to this record, but the row is another version of it: the row adds that P,Q are monic and concludes for every integer n other than 0, the record has no monic condition and concludes for every n with Q(n) not 0. The project only links the texts of ca-cmo, so the agent made no loose record of the row. The agent listed the row in registers/loose-removed.tsv.'

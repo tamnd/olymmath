@@ -1,0 +1,9 @@
+id: 6fc3696f23ee
+kind: pair
+records:
+    - 4ADPRG62SW
+    - hu-komal/2015/k447
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 237205 of NuminaMath 1.5 to this record, but they are two problems: the row asks for rational x, y, the record for natural x, y. The agent removed the row from the record, and row 237205 is now in a new loose record.'

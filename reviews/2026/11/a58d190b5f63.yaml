@@ -1,0 +1,8 @@
+id: a58d190b5f63
+kind: match
+records:
+    - jbmo/2012/p1
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 250931 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row drops the +6 on the left side, so the stated inequality is false (fails at a=b=c=1/3). The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

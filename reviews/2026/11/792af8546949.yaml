@@ -1,0 +1,9 @@
+id: 792af8546949
+kind: pair
+records:
+    - JTE4X8VBQD
+    - aime/2007a/p14
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 255702 of NuminaMath 1.5 to this record, but they are two problems: the row starts the sequence at a_1=a_2=3, the record at a_0=a_1=3, so the asked terms a_2006, a_2007 are shifted by one index. The agent removed the row from the record, and row 255702 is now in a new loose record.'

@@ -1,0 +1,19 @@
+---
+tag: PVJGW9PQY0
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=237648
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Anne multiplies each two-digit number by $588$ in turn, and writes down the so-obtained products. How many perfect squares does she write down?

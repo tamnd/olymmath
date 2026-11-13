@@ -1,0 +1,9 @@
+id: 81b748c36966
+kind: pair
+records:
+    - 5CNGN9W0MS
+    - hu-komal/2018/b4971
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 236025 of NuminaMath 1.5 to this record, but they are two problems: another problem: the row proves the sum is composite for some prime p, the record asks for primes p with p^2 dividing the sum. The agent removed the row from the record, and row 236025 is now in a new loose record.'

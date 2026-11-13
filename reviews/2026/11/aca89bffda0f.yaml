@@ -1,0 +1,9 @@
+id: aca89bffda0f
+kind: pair
+records:
+    - E52H4GZ0TY
+    - cn-smo/2020/p4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 220995 of NuminaMath 1.5 to this record, but they are two problems: the row has the product equal to n^17, the record has it equal to 2^n. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 220995 is now in its own loose record.'

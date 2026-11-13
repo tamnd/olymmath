@@ -1,0 +1,8 @@
+id: e6c34ae19ea2
+kind: match
+records:
+    - gaic-math/2024/p36
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 234343 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row writes the sum as (a_i x + b)^2 with a single b instead of b_i. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

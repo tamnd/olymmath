@@ -1,0 +1,9 @@
+id: c323d1a804f7
+kind: pair
+records:
+    - F5J5XDTVB5
+    - jbmo-sl/2004/a2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 237267 of NuminaMath 1.5 to this record, but they are two problems: the row bounds the sum by 0, the record bounds it by (x+y+z)^2 and asks for equality. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 237267 is now in its own loose record.'

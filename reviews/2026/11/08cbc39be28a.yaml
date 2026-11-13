@@ -1,0 +1,9 @@
+id: 08cbc39be28a
+kind: pair
+records:
+    - 5SEMA33FAD
+    - jbmo-sl/2005/a3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 232002 of NuminaMath 1.5 to this record, but they are two problems: the row asks for the maximum of a+b+c, the record for the maximum area of a triangle with sides a,b,c. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 232002 is now in its own loose record.'

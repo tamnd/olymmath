@@ -1,0 +1,9 @@
+id: b0f5ec153bf8
+kind: pair
+records:
+    - ZRQD9S7KD7
+    - DXBRSJVYPM
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 246106 of NuminaMath 1.5 to this record, but they are two problems: the record requires an acute triangle, the row does not. The agent removed the row from the record, and row 246106 is now in a new loose record.'

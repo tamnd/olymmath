@@ -1,0 +1,9 @@
+id: af44230ce6aa
+kind: pair
+records:
+    - YNDAQ9HHPH
+    - ZKF0W5XFFA
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 248687 of NuminaMath 1.5 to this record, but they are two problems: the row asks for integer solutions, the record for prime solutions. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 248687 is now in its own loose record.'

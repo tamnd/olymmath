@@ -1,0 +1,21 @@
+---
+tag: 1ZT1J8T9SB
+kind: problem
+type: answer
+answer: "709"
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=142497
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+The page numbers of a book used a total of 2019 digits, so the book has $ $ pages.

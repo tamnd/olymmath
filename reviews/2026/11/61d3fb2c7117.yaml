@@ -1,0 +1,9 @@
+id: 61d3fb2c7117
+kind: pair
+records:
+    - MJS7AY00R8
+    - 5FWDTN171C
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 246413 of NuminaMath 1.5 into this record, which holds row 245674, but they are two problems: the row asks for pairs of different integers, the record for different positive integers. The row added no statement, so the problem was lost. Row 246413 is now in a new loose record.'

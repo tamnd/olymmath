@@ -1,0 +1,9 @@
+id: e2b892618005
+kind: pair
+records:
+    - 8B75KJ3SS7
+    - caps/1995/p4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 230993 of NuminaMath 1.5 to this record, but they are two problems: the row asks to prove a second product equals 1, the record asks for the minimum of x+y when the product is p. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 230993 is now in its own loose record.'

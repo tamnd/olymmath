@@ -1,0 +1,9 @@
+id: fe075b7e7416
+kind: pair
+records:
+    - DGSCGRXRQW
+    - es-ome/2011/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 254674 of NuminaMath 1.5 to this record, but they are two problems: the row allows nonnegative a,b,c, the record has positive reals and also asks when equality holds. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 254674 is now in its own loose record.'

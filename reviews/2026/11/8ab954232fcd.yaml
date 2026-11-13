@@ -1,0 +1,9 @@
+id: 8ab954232fcd
+kind: pair
+records:
+    - MQY2W92GYE
+    - 7P3H7SPVXV
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 239694 of NuminaMath 1.5 to this record, but they are two problems: the row asks for positive integer triples, the record solves in all integers. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 239694 is now in its own loose record.'

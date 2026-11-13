@@ -1,0 +1,8 @@
+id: c591849b23a9
+kind: match
+records:
+    - XVY1DAZNXS
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 238709 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row says "infinitely many open subsets" where the record says "infinite open subsets", so the sets are no longer infinite and the claim is trivial (empty sets V_i work). The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

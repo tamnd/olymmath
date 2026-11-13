@@ -1,0 +1,9 @@
+id: 4e8ad8001cba
+kind: pair
+records:
+    - TVEKQETW4B
+    - ie-irmo/2006/p5
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 239555 of NuminaMath 1.5 to this record, but they are two problems: the record adds the condition f(1)=1, the row lacks it. The agent removed the row from the record, and row 239555 is now in a new loose record.'

@@ -1,0 +1,9 @@
+id: e1aa780a55c0
+kind: pair
+records:
+    - 2M5H0HWB5E
+    - hmnt/2008/u31
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 231082 of NuminaMath 1.5 to this record, but they are two problems: another problem: the row proves p^2-pq+q^2 is prime, the record asks for the sum of all such primes p. The agent removed the row from the record, and row 231082 is now in a new loose record.'

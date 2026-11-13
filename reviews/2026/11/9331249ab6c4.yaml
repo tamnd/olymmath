@@ -1,0 +1,9 @@
+id: 9331249ab6c4
+kind: pair
+records:
+    - FFA8GP8H1X
+    - bmt/2021/ge24
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 243085 of NuminaMath 1.5 to this record, but they are two problems: the row asks for the number of solutions, the record for the sum of all possible values of x+y+z. The agent removed the row from the record, and row 243085 is now in a new loose record.'

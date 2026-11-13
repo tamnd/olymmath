@@ -1,0 +1,9 @@
+id: 23eb72509fb2
+kind: pair
+records:
+    - PWCWB9S3XK
+    - 5QC8HQQ81C
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 83029 of NuminaMath 1.5 to this record, but they are two problems: the row is about three consecutive integers, the record about three consecutive natural numbers. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 83029 is now in its own loose record.'

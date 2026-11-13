@@ -1,0 +1,9 @@
+id: 39525d05c12a
+kind: pair
+records:
+    - BKRB7H6SHM
+    - usamo/1977/p3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 203508 of NuminaMath 1.5 to this record, but they are two problems: the row takes any two roots a,b of the quartic, the record only the two real roots. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 203508 is now in its own loose record.'

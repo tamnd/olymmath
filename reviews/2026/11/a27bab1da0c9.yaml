@@ -1,0 +1,8 @@
+id: a27bab1da0c9
+kind: match
+records:
+    - VE31HGF2Z2
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 255118 was joined into this record, which holds row 254470. The two rows state the same problem (the parallelogram AO_2CO_1 and CX = CY); only the wording and the author line differ.'

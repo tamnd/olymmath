@@ -1,0 +1,9 @@
+id: 698d3ba60831
+kind: pair
+records:
+    - J9GP3EVMKN
+    - jbmo-sl/2017/a1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 232672 of NuminaMath 1.5 to this record, but they are two problems: the row has the condition >= 7 for any reals, the record has = 7 for positive reals. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 232672 is now in its own loose record.'

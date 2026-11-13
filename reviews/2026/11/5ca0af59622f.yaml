@@ -1,0 +1,9 @@
+id: 5ca0af59622f
+kind: pair
+records:
+    - VBPR08AFTS
+    - QZ68Q6ABNZ
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 79282 of NuminaMath 1.5 to this record, but they are two problems: the row gives positive reals a, b and no condition on n, the record gives natural n and no condition on a, b. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 79282 is now in its own loose record.'

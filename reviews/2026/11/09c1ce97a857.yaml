@@ -1,0 +1,8 @@
+id: 09c1ce97a857
+kind: match
+records:
+    - amc12/2015b/p1
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made rows 202246 and 214113 of NuminaMath 1.5 one new loose record (2YVQ0G8DRJ), and the two rows are the same text. The audit found that they are a copy of this problem (the value of 2-(-2)^{-2}, with the same five choices). The record already has a statement from this source, so the rows add no statement. The agent removed the loose record and listed the two rows in registers/loose-removed.tsv.'

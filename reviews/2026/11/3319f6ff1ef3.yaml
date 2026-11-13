@@ -1,0 +1,9 @@
+id: 3319f6ff1ef3
+kind: pair
+records:
+    - 9W8THRTGNX
+    - hmmt/2022/u28
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 244174 of NuminaMath 1.5 to this record, but they are two problems: the row asks for the value of the series, the record asks for the nearest integer to 100 times the series. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 244174 is now in its own loose record.'

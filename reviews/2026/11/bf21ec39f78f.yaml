@@ -1,0 +1,8 @@
+id: bf21ec39f78f
+kind: match
+records:
+    - bg-mo/1995/p6
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 246004 of NuminaMath 1.5 to this record, but the row is another version of it: the row takes x,y complex, the record takes x,y distinct reals. The project only links the texts of bg-mo, so the agent made no loose record of the row. The agent listed the row in registers/loose-removed.tsv.'

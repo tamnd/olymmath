@@ -1,0 +1,9 @@
+id: 950eae23945c
+kind: pair
+records:
+    - 8P3MCRKWVP
+    - ZW1TPB5GFS
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 236297 of NuminaMath 1.5 to this record, but they are two problems: the row is the inequality f(x)+f(x+y) <= f(xy)+f(y), the record is the equation f(xy)+f(x+y)=f(x)f(y)+f(x)+f(y). The record already had a statement from this source, so the row added no statement and the problem was lost. Row 236297 is now in its own loose record.'

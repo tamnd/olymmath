@@ -1,0 +1,8 @@
+id: 80eb831ea99a
+kind: match
+records:
+    - 98YF9A995S
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 249698 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row drops that the difference is not zero, and with difference zero the task cannot be done. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

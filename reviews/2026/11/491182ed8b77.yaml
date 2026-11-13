@@ -1,0 +1,9 @@
+id: 491182ed8b77
+kind: pair
+records:
+    - KQWVVZ0294
+    - 7R26E4Q7NF
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 190372 of NuminaMath 1.5 to this record, but they are two problems: the row claims the result for every integer m, the record for positive integers m. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 190372 is now in its own loose record.'

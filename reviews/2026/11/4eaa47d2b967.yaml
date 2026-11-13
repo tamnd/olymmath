@@ -1,0 +1,9 @@
+id: 4eaa47d2b967
+kind: pair
+records:
+    - 4945HQ58S3
+    - pumac/2009/ga7
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 230632 of NuminaMath 1.5 to this record, but they are two problems: the row has BD=2 and no angle BCD, the record BD=6 and angle BCD=165 degrees. The agent removed the row from the record, and row 230632 is now in a new loose record.'

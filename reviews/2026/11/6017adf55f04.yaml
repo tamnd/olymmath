@@ -1,0 +1,8 @@
+id: 6017adf55f04
+kind: match
+records:
+    - 10ENYZY21G
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The agent read row 102708 of NuminaMath 1.5 and this record again, because the first review found a difference: the row states the Bretschneider (or Bernstein) formula for a convex quadrilateral and the record for any quadrilateral; it is the same theorem, as in the review of the same rows of batch 17. The agent kept the link. The record already had a statement from this source, so the row adds no new statement.'

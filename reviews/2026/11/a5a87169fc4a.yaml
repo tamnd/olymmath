@@ -1,0 +1,9 @@
+id: a5a87169fc4a
+kind: pair
+records:
+    - X31RW274V4
+    - G652WMPJJW
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 244957 of NuminaMath 1.5 to this record, but they are two problems: the row asks to prove all stones weigh the same, the record only that all weights have the same parity. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 244957 is now in its own loose record.'

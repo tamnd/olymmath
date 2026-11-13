@@ -1,0 +1,9 @@
+id: 5079f4ed1e63
+kind: pair
+records:
+    - 1STP819C7X
+    - 9TARR6SK19
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 158783 of NuminaMath 1.5 to this record, but they are two problems: the row colors points with x+y=n, the record points with x+y<n. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 158783 is now in its own loose record.'

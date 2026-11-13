@@ -1,0 +1,8 @@
+id: 56122df1322b
+kind: match
+records:
+    - 7CY9MGJEMB
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 247379 was joined into this record, which holds row 239645. The two rows state the same problem (n red vertices of a regular 2n-gon, and the sorted red-red and blue-blue distances); only the spelling of colour differs.'

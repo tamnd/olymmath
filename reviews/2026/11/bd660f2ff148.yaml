@@ -1,0 +1,9 @@
+id: bd660f2ff148
+kind: pair
+records:
+    - TEYFM6VA5Q
+    - ZNS50ZXXJR
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 243822 of NuminaMath 1.5 to this record, but they are two problems: the row lets b be any integer (b=0 makes it trivial), the record needs a natural b. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 243822 is now in its own loose record.'

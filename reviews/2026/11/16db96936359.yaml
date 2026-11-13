@@ -1,0 +1,9 @@
+id: 16db96936359
+kind: pair
+records:
+    - RZWNQHS8AK
+    - nl-nwo/1988/p3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 240120 of NuminaMath 1.5 to this record, but they are two problems: the row asks to find all integers n for which the identity holds, the record asks to prove it for odd n. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 240120 is now in its own loose record.'

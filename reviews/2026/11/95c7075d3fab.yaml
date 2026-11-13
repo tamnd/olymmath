@@ -1,0 +1,8 @@
+id: 95c7075d3fab
+kind: placement
+records:
+    - pumac/2013/na8
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem MHBNE3MX6A, labeled 2013 Princeton University Math Competition, states the same problem as problem 8 of Number Theory A in the official PUMaC paper of 2013 (page 1). The record moved from the loose problems to pumac/2013/na8."

@@ -1,0 +1,8 @@
+id: d84573e1f5bb
+kind: placement
+records:
+    - pumac/2020/na4
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem 1YZ8NAYZZ9, labeled 2020 Princeton University Math Competition, states the same problem as problem 4 of Number Theory A in the official PUMaC paper of 2020 (page 1). The same problem is problem 6 of Number Theory B, so the record also has an appearance at pumac/2020/nb6. The record moved from the loose problems to pumac/2020/na4."

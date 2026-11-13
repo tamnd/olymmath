@@ -1,0 +1,8 @@
+id: 9ed1f380f320
+kind: placement
+records:
+    - pumac/2011/ca3
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem WRM0630AP0, labeled 2011 Princeton University Math Competition, states the same problem as problem 3 of Combinatorics A in the official PUMaC paper of 2011 (page 1). The same problem is problem 5 of Combinatorics B, so the record also has an appearance at pumac/2011/cb5. The record moved from the loose problems to pumac/2011/ca3."

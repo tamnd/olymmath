@@ -1,0 +1,8 @@
+id: 98e7c0558cbb
+kind: placement
+records:
+    - pumac/2020/t12
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem 48YM972Y8M, labeled 2020 Princeton University Math Competition, states the same problem as problem 12 of Team in the official PUMaC paper of 2020 (page 2). The record moved from the loose problems to pumac/2020/t12."

@@ -1,0 +1,8 @@
+id: 9011dbb1838e
+kind: placement
+records:
+    - pumac/2012/aa1
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem 3CBWGRDE5H, labeled 2012 Princeton University Math Competition, states the same problem as problem 1 of Algebra A in the official PUMaC paper of 2012 (page 1). The record moved from the loose problems to pumac/2012/aa1."

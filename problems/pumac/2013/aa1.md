@@ -1,0 +1,33 @@
+---
+tag: NQ11AW7GFF
+kind: problem
+appearances:
+  - at: pumac/2013/aa1
+    primary: true
+  - at: pumac/2013/ab1
+canonical:
+  statement: S2
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: pumac-archive
+    name: Princeton University Mathematics Competition 2013 official paper
+    url: https://pumac.princeton.edu/s/PUMaC2013_AlgebraA.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2013 Princeton University Math Competition
+    url: https://artofproblemsolving.com/community/c6h563683
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=10139
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Suppose $a,b,c>0$ are integers such that $$abc-bc-ac-ab+a+b+c=2013.$$ Find the number of possibilities for the ordered triple $(a,b,c)$ .

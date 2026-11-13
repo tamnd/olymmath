@@ -1,0 +1,8 @@
+id: d82a7ca23a29
+kind: placement
+records:
+    - pumac/2024/nb2
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem MPADM54GXZ, labeled 2024 Princeton University Math Competition, states the same problem as problem 2 of Number Theory B in the official PUMaC paper of 2024 (page 1). The record moved from the loose problems to pumac/2024/nb2."

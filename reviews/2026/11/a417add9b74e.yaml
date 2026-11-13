@@ -1,0 +1,8 @@
+id: a417add9b74e
+kind: placement
+records:
+    - pumac/2017/nb1
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem VJR4ST21N5, labeled 2017 Princeton University Math Competition, states the same problem as problem 1 of Number Theory B in the official PUMaC paper of 2017 (page 1). The record moved from the loose problems to pumac/2017/nb1."

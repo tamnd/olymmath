@@ -1,0 +1,8 @@
+id: 7d9c8b15de33
+kind: placement
+records:
+    - pumac/2015/ca5
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem E1NHPE9DTR, labeled 2015 Princeton University Math Competition, states the same problem as problem 5 of Combinatorics A in the official PUMaC paper of 2015 (page 1). The same problem is problem 7 of Combinatorics B, so the record also has an appearance at pumac/2015/cb7. The record moved from the loose problems to pumac/2015/ca5."

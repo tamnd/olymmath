@@ -1,0 +1,80 @@
+year: 2007
+papers:
+  - name: Algebra A
+    problems: [aa1, aa2, aa3, aa4, aa5, aa6, aa7, aa8, aa9, aa10]
+  - name: Algebra B
+    problems: [ab1, ab2, ab3, ab4, ab5, ab6, ab7, ab8, ab9, ab10]
+  - name: Combinatorics A
+    problems: [ca1, ca2, ca3, ca4, ca5, ca6, ca7, ca8, ca9, ca10]
+  - name: Combinatorics B
+    problems: [cb1, cb2, cb3, cb4, cb5, cb6, cb7, cb8, cb9, cb10]
+  - name: Geometry A
+    problems: [ga1, ga2, ga3, ga4, ga5, ga6, ga7, ga8, ga9, ga10]
+  - name: Geometry B
+    problems: [gb1, gb2, gb3, gb4, gb5, gb6, gb7, gb8, gb9, gb10]
+  - name: Number Theory A
+    problems: [na1, na2, na3, na4, na5, na6, na7, na8, na9, na10]
+  - name: Number Theory B
+    problems: [nb1, nb2, nb3, nb4, nb5, nb6, nb7, nb8, nb9, nb10]
+  - name: Individual Finals A
+    problems: [fa1, fa2, fa3]
+  - name: Individual Finals B
+    problems: [fb1, fb2, fb3]
+  - name: Team
+    problems: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10]
+official:
+  - lang: English
+    code: en
+    url: https://pumac.princeton.edu/s/PUMaC2007_AlgebraB.pdf
+    paper: algebra-b
+    source: pumac-archive
+  - lang: English
+    code: en
+    url: https://pumac.princeton.edu/s/PUMaC2007_CombinatoricsB.pdf
+    paper: combinatorics-b
+    source: pumac-archive
+  - lang: English
+    code: en
+    url: https://pumac.princeton.edu/s/PUMaC2007_GeometryB.pdf
+    paper: geometry-b
+    source: pumac-archive
+  - lang: English
+    code: en
+    url: https://pumac.princeton.edu/s/NumberTheoryB-e2ng.pdf
+    paper: number-theory-b
+    source: pumac-archive
+  - lang: English
+    code: en
+    url: https://pumac.princeton.edu/s/PUMaC2007_FinalsB.pdf
+    paper: finals-b
+    source: pumac-archive
+  - lang: English
+    code: en
+    url: https://pumac.princeton.edu/s/TeamAB.pdf
+    paper: team
+    source: pumac-archive
+  - lang: English
+    code: en
+    url: https://pumac.princeton.edu/s/PUMaC2007_AlgebraA.pdf
+    paper: algebra-a
+    source: pumac-archive
+  - lang: English
+    code: en
+    url: https://pumac.princeton.edu/s/PUMaC2007_CombinatoricsA.pdf
+    paper: combinatorics-a
+    source: pumac-archive
+  - lang: English
+    code: en
+    url: https://pumac.princeton.edu/s/PUMaC2007_GeometryA.pdf
+    paper: geometry-a
+    source: pumac-archive
+  - lang: English
+    code: en
+    url: https://pumac.princeton.edu/s/PUMaC2007_NumberTheoryA.pdf
+    paper: number-theory-a
+    source: pumac-archive
+  - lang: English
+    code: en
+    url: https://pumac.princeton.edu/s/PUMaC2007_FinalsA.pdf
+    paper: finals-a
+    source: pumac-archive

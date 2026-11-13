@@ -1,0 +1,8 @@
+id: 8fbad070e0ac
+kind: placement
+records:
+    - pumac/2011/ga3
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem F8GNVVJHV5, labeled 2011 Princeton University Math Competition, states the same problem as problem 3 of Geometry A in the official PUMaC paper of 2011 (page 1). The record moved from the loose problems to pumac/2011/ga3."

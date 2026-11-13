@@ -1,0 +1,8 @@
+id: cf7577ad279d
+kind: sample
+records:
+    - pumac/2020/aa5
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The text and the math match the official PUMaC 2020 paper (Algebra A, page 1), checked against the page image. The text states one complete problem and no solution."

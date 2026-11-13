@@ -1,0 +1,8 @@
+id: c4d3d29023bf
+kind: placement
+records:
+    - pumac/2020/ca6
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem RD8RRBD06R, labeled 2020 Princeton University Math Competition, states the same problem as problem 6 of Combinatorics A in the official PUMaC paper of 2020 (page 1). The same problem is problem 8 of Combinatorics B, so the record also has an appearance at pumac/2020/cb8. The record moved from the loose problems to pumac/2020/ca6."

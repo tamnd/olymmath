@@ -1,0 +1,8 @@
+id: 7dad4b140d0b
+kind: placement
+records:
+    - pumac/2017/t13
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem 6JJZW8VFJJ, labeled 2017 Princeton University Math Competition, states the same problem as problem 13 of Team in the official PUMaC paper of 2017 (page 2). The record moved from the loose problems to pumac/2017/t13."

@@ -1,0 +1,8 @@
+id: 2693d0877a63
+kind: placement
+records:
+    - pumac/2007/ga10
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem QX6EKFKPYA, labeled 2007 Princeton University Math Competition, states the same problem as problem 10 of Geometry A in the official PUMaC paper of 2007 (page 2). The record moved from the loose problems to pumac/2007/ga10."

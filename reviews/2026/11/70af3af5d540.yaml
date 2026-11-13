@@ -1,0 +1,8 @@
+id: 70af3af5d540
+kind: placement
+records:
+    - pumac/2013/ga7
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem PD449XTK03, labeled 2013 Princeton University Math Competition, states the same problem as problem 7 of Geometry A in the official PUMaC paper of 2013 (page 1). The record moved from the loose problems to pumac/2013/ga7."

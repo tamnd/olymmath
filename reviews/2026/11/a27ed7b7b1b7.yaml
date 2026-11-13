@@ -1,0 +1,8 @@
+id: a27ed7b7b1b7
+kind: placement
+records:
+    - pumac/2023/gb2
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem 7GSBR02PEX, labeled 2023 Princeton University Math Competition, states the same problem as problem 2 of Geometry B in the official PUMaC paper of 2023 (page 1). The record moved from the loose problems to pumac/2023/gb2."

@@ -1,0 +1,33 @@
+---
+tag: H5FQCYJB0X
+kind: problem
+appearances:
+  - at: pumac/2009/ca6
+    primary: true
+  - at: pumac/2009/cb7
+canonical:
+  statement: S2
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: pumac-archive
+    name: Princeton University Mathematics Competition 2009 official paper
+    url: https://pumac.princeton.edu/s/PUMaC2009_CombinatoricsA.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2009 Princeton University Math Competition
+    url: https://artofproblemsolving.com/community/c6h428103
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=3973
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+We have a $6 \times 6$ square, partitioned into 36 unit squares. We select some of these unit squares and draw some of their diagonals, subject to the condition that no two diagonals we draw have any common points. What is the maximal number of diagonals that we can draw?

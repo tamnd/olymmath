@@ -1,0 +1,32 @@
+---
+tag: Z5QFMDBENS
+kind: problem
+appearances:
+  - at: pumac/2011/aa2
+    primary: true
+canonical:
+  statement: S2
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: pumac-archive
+    name: Princeton University Mathematics Competition 2011 official paper
+    url: https://pumac.princeton.edu/s/PUMaC2011_AlgebraA.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2011 Princeton University Math Competition
+    url: https://artofproblemsolving.com/community/c6h1920814
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=7017
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+A function $S(m, n)$ satisfies the initial conditions $S(1, n) = n$ , $S(m, 1) = 1$ , and the recurrence $S(m, n) = S(m - 1, n)S(m, n - 1)$ for $m\geq 2, n\geq 2$ . Find the largest integer $k$ such that $2^k$ divides $S(7, 7)$ .

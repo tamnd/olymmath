@@ -1,0 +1,8 @@
+id: 2099d5203d58
+kind: placement
+records:
+    - pumac/2023/t6
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem N7KHD8XXPF, labeled 2023 Princeton University Math Competition, states the same problem as problem 6 of Team in the official PUMaC paper of 2023 (page 1). The record moved from the loose problems to pumac/2023/t6."

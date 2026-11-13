@@ -1,0 +1,32 @@
+---
+tag: A69KBK9FEV
+kind: problem
+appearances:
+  - at: pumac/2013/fa3
+    primary: true
+canonical:
+  statement: S2
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: pumac-archive
+    name: Princeton University Mathematics Competition 2013 official paper
+    url: https://pumac.princeton.edu/s/PUMaC2013_FinalsA.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2013 Princeton University Math Competition
+    url: https://artofproblemsolving.com/community/c6h563011
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=10138
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+A graph consists of a set of vertices, some of which are connected by (undirected) edges. A *star* of a graph is a set of edges with a common endpoint. A *matching* of a graph is a set of edges such that no two have a common endpoint. Show that if the number of edges of a graph $G$ is larger than $2(k-1)^2$ , then $G$ contains a matching of size $k$ or a star of size $k$ .

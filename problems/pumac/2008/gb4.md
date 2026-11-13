@@ -1,0 +1,32 @@
+---
+tag: S4FJQ7QGZ5
+kind: problem
+appearances:
+  - at: pumac/2008/gb4
+    primary: true
+canonical:
+  statement: S2
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: pumac-archive
+    name: Princeton University Mathematics Competition 2008 official paper
+    url: https://pumac.princeton.edu/s/PUMaC2008_GeometryB.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2008 Princeton University Math Competition
+    url: https://artofproblemsolving.com/community/c6h1914067
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=73146
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+A cube is divided into $27$ unit cubes. A sphere is inscribed in each of the corner unit cubes, and another sphere is placed tangent to these $8$ spheres. What is the smallest possible value for the radius of the last sphere?

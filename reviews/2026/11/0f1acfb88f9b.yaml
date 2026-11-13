@@ -1,0 +1,8 @@
+id: 0f1acfb88f9b
+kind: placement
+records:
+    - pumac/2009/na1
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem N0SPBGDDJT, labeled 2009 Princeton University Math Competition, states the same problem as problem 1 of Number Theory A in the official PUMaC paper of 2009 (page 1). The same problem is problem 3 of Number Theory B, so the record also has an appearance at pumac/2009/nb3. The record moved from the loose problems to pumac/2009/na1."

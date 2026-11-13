@@ -1,0 +1,8 @@
+id: 17da1387998b
+kind: placement
+records:
+    - pumac/2011/ga2
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem MMXQP4ADGY, labeled 2011 Princeton University Math Competition, states the same problem as problem 2 of Geometry A in the official PUMaC paper of 2011 (page 1). The same problem is problem 6 of Geometry B, so the record also has an appearance at pumac/2011/gb6. The record moved from the loose problems to pumac/2011/ga2."

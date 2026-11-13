@@ -1,0 +1,8 @@
+id: 59fb0e17f523
+kind: placement
+records:
+    - pumac/2015/aa8
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem WJV1ZH5JM8, labeled 2015 Princeton University Math Competition, states the same problem as problem 8 of Algebra A in the official PUMaC paper of 2015 (page 1). The record moved from the loose problems to pumac/2015/aa8."

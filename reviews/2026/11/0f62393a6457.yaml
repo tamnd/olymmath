@@ -1,0 +1,8 @@
+id: 0f62393a6457
+kind: placement
+records:
+    - pumac/2024/ga3
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem ZZPEQXB8QE, labeled 2024 Princeton University Math Competition, states the same problem as problem 3 of Geometry A in the official PUMaC paper of 2024 (page 1). The same problem is problem 5 of Geometry B, so the record also has an appearance at pumac/2024/gb5. The record moved from the loose problems to pumac/2024/ga3."

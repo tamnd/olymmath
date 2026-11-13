@@ -1,0 +1,8 @@
+id: d62d3751d495
+kind: sample
+records:
+    - pumac/2008/na10
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The text and the math match the official PUMaC 2008 paper (Number Theory A, page 1), checked against the page image. The record leaves out the point value in parentheses. The text states one complete problem and no solution."

@@ -1,0 +1,8 @@
+id: bcb44231831c
+kind: placement
+records:
+    - pumac/2008/ga7
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem YDVWYCBWZ9, labeled 2008 Princeton University Math Competition, states the same problem as problem 7 of Geometry A in the official PUMaC paper of 2008 (page 1). The same problem is problem 9 of Geometry B, so the record also has an appearance at pumac/2008/gb9. The record moved from the loose problems to pumac/2008/ga7."

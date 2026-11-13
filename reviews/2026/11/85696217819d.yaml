@@ -1,0 +1,8 @@
+id: 85696217819d
+kind: placement
+records:
+    - pumac/2015/aa3
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem M650JZDG1Q, labeled 2015 Princeton University Math Competition, states the same problem as problem 3 of Algebra A in the official PUMaC paper of 2015 (page 1). The same problem is problem 5 of Algebra B, so the record also has an appearance at pumac/2015/ab5. The record moved from the loose problems to pumac/2015/aa3."

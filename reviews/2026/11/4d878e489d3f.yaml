@@ -1,0 +1,8 @@
+id: 4d878e489d3f
+kind: placement
+records:
+    - pumac/2013/aa2
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem DKKXP12J27, labeled 2013 Princeton University Math Competition, states the same problem as problem 2 of Algebra A in the official PUMaC paper of 2013 (page 1). The same problem is problem 5 of Algebra B, so the record also has an appearance at pumac/2013/ab5. The record moved from the loose problems to pumac/2013/aa2."

@@ -1,0 +1,8 @@
+id: 45c49d7bddbf
+kind: placement
+records:
+    - pumac/2021/na8
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem 6A5WDA6A0A, labeled 2021 Princeton University Math Competition, states the same problem as problem 8 of Number Theory A in the official PUMaC paper of 2021 (page 1). The record moved from the loose problems to pumac/2021/na8."

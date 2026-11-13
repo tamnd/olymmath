@@ -1,0 +1,8 @@
+id: 9bb49392c269
+kind: placement
+records:
+    - pumac/2013/ga5
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem XQBNATTGFJ, labeled 2013 Princeton University Math Competition, states the same problem as problem 5 of Geometry A in the official PUMaC paper of 2013 (page 1). The record moved from the loose problems to pumac/2013/ga5."

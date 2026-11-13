@@ -1,0 +1,8 @@
+id: bd04073f31d5
+kind: placement
+records:
+    - pumac/2024/t12
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem K104G6T92B, labeled 2024 Princeton University Math Competition, states the same problem as problem 12 of Team in the official PUMaC paper of 2024 (page 2). The record moved from the loose problems to pumac/2024/t12."

@@ -2094,10 +2094,13 @@
     - {paper: paper1, name: Paper 1, positions: [p1, p2, p3, p4, p5]}
     - {paper: paper2, name: Paper 2, positions: [p6, p7, p8, p9, p10]}
   per_year: 10
+  # Agent decision, not a person's review: the compendium of Mark Dukes (UCD) gives the first olympiad of 30 April 1988 with 12 problems in Paper 1 and the problems 13 to 15 in Paper 2. Each later year has five problems in each paper. Most years number Paper 2 from 6 to 10, but 2000 and 2004 number it from 1 to 5, so those problems are placed by their paper.
+  eras:
+    - {from: 1988, to: 1988, per_year: 15, layout: [{paper: paper1, name: Paper 1, positions: [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12]}, {paper: paper2, name: Paper 2, positions: [p13, p14, p15]}]}
   languages: [en]
   copyright: None stated.
-  sources: [irmo-official]
-  description: The national olympiad of Ireland with ten problems. A single file holds the problems from 1988 to 2023.
+  sources: [irmo-official, ucd-irmo]
+  description: The national olympiad of Ireland with ten problems in two papers. The compendium of Mark Dukes at UCD holds the papers from 1988 to 2026.
 
 - code: de-mo
   name: German Mathematical Olympiad

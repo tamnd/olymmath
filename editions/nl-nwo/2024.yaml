@@ -1,0 +1,10 @@
+year: 2024
+official:
+  - lang: English
+    code: en
+    url: https://www.wiskundeolympiade.nl/phocadownload/opgaven/finale/2024/ProblemsKlas6.pdf
+    source: wiskundeolympiade
+  - lang: Dutch
+    code: nl
+    url: https://www.wiskundeolympiade.nl/phocadownload/opgaven/finale/2024/OpgavenKlas6.pdf
+    source: wiskundeolympiade

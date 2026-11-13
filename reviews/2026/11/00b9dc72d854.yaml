@@ -1,0 +1,9 @@
+id: 00b9dc72d854
+kind: pair
+records:
+    - ERD7PT5K6V
+    - de-bundeswettbewerb/2013/p7
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 78673 of NuminaMath 1.5 to this record, but they are two problems: the two are converse claims: the row assumes AD, BE, CF concurrent and proves AB CD EF = BC DE FA, the record assumes the product equality and proves that the lines are concurrent. The agent removed the row from the record, and row 78673 is now its own loose record.'

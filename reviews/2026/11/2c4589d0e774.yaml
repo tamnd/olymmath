@@ -1,0 +1,8 @@
+id: 2c4589d0e774
+kind: sample
+records:
+    - JE6Z6DZSAX
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text states one problem (the quadratic residues modulo a prime p) and no solution. It writes the equation as c^2 = pk + a, with unknowns c and k; the question is clear.'

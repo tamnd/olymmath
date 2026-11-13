@@ -1,0 +1,8 @@
+id: 17b3ac52da0a
+kind: match
+records:
+    - YH2VZJZK9Y
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 72101 was joined into this record, which holds row 67831. The two rows ask to prove the same claim (sin(n^2) does not tend to zero); one writes the index in a roman font.'

@@ -1,0 +1,9 @@
+id: ddac6c0a6a96
+kind: pair
+records:
+    - R9S5G96GCG
+    - 80FMKSRED5
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 77817 of NuminaMath 1.5 to this record, but they are two problems: the row asks for all prime pairs (p, q) with p^2(p^3 - 1) = q(q + 1), the record only asks whether such primes exist. The agent removed the row from the record, and row 77817 is now its own loose record.'

@@ -1,0 +1,8 @@
+id: a982b189556f
+kind: match
+records:
+    - baltic-way/2005/p10
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 72790 of NuminaMath 1.5 is linked to this record. The row has a lost ''n numbers'', so n is never used, but the record text has the same flaw, so the two are the same text of the same problem and the link stays.'

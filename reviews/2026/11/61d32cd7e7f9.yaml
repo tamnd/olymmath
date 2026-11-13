@@ -1,0 +1,8 @@
+id: 61d32cd7e7f9
+kind: match
+records:
+    - D19VB6RQA0
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made this record from rows 74159 and 74932 of NuminaMath 1.5. All of them are texts whose figure symbols are garbled, so part a) cannot be read. The agent removed the record and listed the rows in registers/loose-removed.tsv.'

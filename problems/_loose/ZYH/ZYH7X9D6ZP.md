@@ -1,0 +1,25 @@
+---
+tag: ZYH7X9D6ZP
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=80929
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Let $\mathfrak{n} \geqslant 1$ be an integer. We denote by $\mathfrak{S}_{\mathfrak{n}}$ the set of permutations of the set $\{1,2, \ldots, n\}$. For $\sigma \in \mathfrak{S}_{\mathfrak{n}}$, we also denote cyc $(\sigma)$ the number of cycles of $\sigma$. Let $\mathrm{P}_{\mathfrak{n}}(x)$ be the following polynomial:
+
+$$
+\mathrm{P}_{\mathrm{n}}(\mathrm{x})=\sum_{\sigma \in \mathfrak{S}_{n}} x^{\mathrm{cyc}(\sigma)}
+$$
+
+Show that $P_{n}$ has all its roots real and that they are negative integers.

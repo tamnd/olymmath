@@ -15,5 +15,9 @@ statements:
     kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: pl-om/1953
+    source: hf-numinamath-1-5
+    label: IV OM - I - Problem 6
 ---
 Prove that if a plane figure has exactly two axes of symmetry, then these axes are perpendicular.

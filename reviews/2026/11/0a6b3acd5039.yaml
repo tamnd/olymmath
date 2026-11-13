@@ -1,0 +1,9 @@
+id: 0a6b3acd5039
+kind: pair
+records:
+    - YWYBAXNCJJ
+    - th-tmo/2012/p12
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 70513 of NuminaMath 1.5 to this record, but they are two problems: the row proves a/b + b/c + c/a >= 3 for positive numbers, the record shows that for positive integers, if a/b + b/c + c/a is an integer then abc is a cube. The agent removed the row from the record, and row 70513 is now its own loose record.'

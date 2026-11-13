@@ -1,0 +1,8 @@
+id: 2630004d9334
+kind: match
+records:
+    - W7TE99NYDZ
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 80173 was joined into this record, which holds row 78763. The two rows state the same problem (2n points, n blue and n red, n segments that do not cross); only the word order differs.'

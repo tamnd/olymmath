@@ -1,0 +1,9 @@
+id: bf2484dc2b36
+kind: pair
+records:
+    - E81B630V3Z
+    - D76PT6BT1G
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 64169 of NuminaMath 1.5 to this record, but they are two problems: the row needs a sum greater than 100, the record a sum of at least 100. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 64169 is now its own loose record.'

@@ -1,0 +1,9 @@
+id: 60e098c85969
+kind: pair
+records:
+    - 7H91NSV7FE
+    - 39MP61E78J
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined rows 79791 and 80399 of NuminaMath 1.5 to row 78973, but they are two problems: the rows prove a^2 + b^2 + c^2 >= ab + bc + ca for all real a, b, c, the record only for positive ones. Rows 79791 and 80399 state the same problem, so they are two statements of one loose record, which is now its own loose record.'

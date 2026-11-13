@@ -1,0 +1,9 @@
+id: 6643bad86ddc
+kind: pair
+records:
+    - VPNAQKTVEG
+    - VNGXPMW8JF
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 11738 of NuminaMath 1.5 to this record, but they are two problems: the row asks whether nine wallets are enough, the record asks for the least number of wallets. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 11738 is now its own loose record.'

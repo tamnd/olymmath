@@ -1,0 +1,8 @@
+id: 121dcabcd797
+kind: sample
+records:
+    - WNEREB9Q70
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text states one problem (the height of a stack of 60 packages of paper) with five choices, and no solution. The choices were out of order; the agent put them in the order (a) to (e).'

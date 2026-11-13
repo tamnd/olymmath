@@ -1,0 +1,9 @@
+id: 3ba658ffd2c8
+kind: pair
+records:
+    - ATGYFNHD64
+    - 798GR6DQMR
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 71705 of NuminaMath 1.5 to row 68386, but they are two problems: the row asks to prove x^2 + y^2 + 1 >= xy + x + y for positive x and y, the record for any x and y. Row 71705 is now its own loose record.'

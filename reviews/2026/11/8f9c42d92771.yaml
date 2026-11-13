@@ -1,0 +1,8 @@
+id: 8f9c42d92771
+kind: match
+records:
+    - PA1FF83W48
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 71893 (E 1.000, T 0.976, keyword match 1.000) and the text of PA1FF83W48 state the same problem with the same data and the same question.  The record already has a statement from this source, so the row adds no new statement and makes no new record.'

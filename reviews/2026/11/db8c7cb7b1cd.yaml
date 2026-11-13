@@ -1,0 +1,8 @@
+id: db8c7cb7b1cd
+kind: match
+records:
+    - RZ02TFJ5V9
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made this record from rows 61247, 62133 and 63200 of NuminaMath 1.5. All of them are parts of solutions (''reduces to constructing a right triangle''), not problems. The agent removed the record and listed the rows in registers/loose-removed.tsv.'

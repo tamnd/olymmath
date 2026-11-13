@@ -1,0 +1,9 @@
+id: 2d892b265268
+kind: pair
+records:
+    - 7PN4WG0BR8
+    - putnam/1962/a5
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 80388 of NuminaMath 1.5 to this record, but they are two problems: the row asks to show that the sum of C(n, k) is 2^n, the record to evaluate the sum of C(n, k) k^2. Rows 79921, 80388 and 80550 state the same identity, so they are three statements of one loose record, and row 80388 is one of them. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 80388 is now its own loose record.'

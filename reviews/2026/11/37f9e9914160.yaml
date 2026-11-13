@@ -1,0 +1,9 @@
+id: 37f9e9914160
+kind: pair
+records:
+    - 6A0PCS4CXM
+    - usamo/2008/p1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 79988 of NuminaMath 1.5 to this record, but they are two problems: the row needs k_0, ..., k_n to be distinct primes, the record pairwise coprime integers. The agent removed the row from the record, and row 79988 is now its own loose record.'

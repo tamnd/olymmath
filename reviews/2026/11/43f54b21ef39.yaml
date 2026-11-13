@@ -1,0 +1,9 @@
+id: 43f54b21ef39
+kind: pair
+records:
+    - 5T2HE6BHKQ
+    - kg-mo/2009/p7
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 71764 of NuminaMath 1.5 to this record, but they are two problems: the row has three parts (each number at most the sum of the other two, a^2 + b^2 + c^2 <= 2(ab + bc + ca), and the converse), the record only the question of part b. The agent removed the row from the record, and row 71764 is now its own loose record.'

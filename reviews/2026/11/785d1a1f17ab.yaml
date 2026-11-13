@@ -1,0 +1,8 @@
+id: 785d1a1f17ab
+kind: sample
+records:
+    - EC58R0YGQS
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text asks for a proof of the Simson line theorem by a route other than the Steiner line. It is one task and no solution; the theorem is a standard one, so the text is complete.'

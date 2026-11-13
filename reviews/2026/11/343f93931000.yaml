@@ -1,0 +1,8 @@
+id: 343f93931000
+kind: match
+records:
+    - C6VQ99CYG2
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 80224 was joined into this record, which holds row 78271. The two rows state the same problem (P and Q on BC with AB = BP and AC = CQ, and angle BAC + 2 PAQ = 180 degrees); only the spacing of the formulas differs.'

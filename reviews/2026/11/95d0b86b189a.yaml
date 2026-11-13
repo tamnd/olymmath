@@ -1,0 +1,9 @@
+id: 95d0b86b189a
+kind: pair
+records:
+    - YJF2YJ6KF5
+    - TMYNA6AMQM
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 71592 of NuminaMath 1.5 to this record, but they are two problems: the row drops the positivity of the unknowns that the record assumes and that makes the answer unique. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 71592 is now its own loose record.'

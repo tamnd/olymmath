@@ -1,0 +1,9 @@
+id: b915d27b472b
+kind: pair
+records:
+    - KGJFGTNGSC
+    - cn-gmo/2020/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 77792 of NuminaMath 1.5 to this record, but they are two problems: the row takes positive reals x_i, the record any real x_i. The agent removed the row from the record, and row 77792 is now its own loose record.'

@@ -1,0 +1,26 @@
+---
+tag: FK942BXT1K
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=79097
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Let $ABC$ be a right triangle at $C$ and let $D$ be the foot of the altitude from $C$. Show the following relations:
+
+$$
+\begin{aligned}
+AC^{2} & =AB \cdot AD \\
+CD^{2} & =AD \cdot DB
+\end{aligned}
+$$

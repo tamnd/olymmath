@@ -1,0 +1,8 @@
+id: 4ecea85f1edc
+kind: match
+records:
+    - M0G0AQT6M7
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The record held rows 78694, 80029 and 80452 of NuminaMath 1.5, with row 78694 as its main text. Row 78694 says A, D, M, N are concyclic, which is false (angle MAN is 90 - A/2 degrees, not 90); rows 80029 and 80452 say A, I, M, N. The agent made row 80029 the main text and the capture of the record, and listed row 78694 in registers/loose-removed.tsv. Row 80452 states the same problem as row 80029, so the join stays.'

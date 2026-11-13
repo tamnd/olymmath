@@ -1,0 +1,8 @@
+id: e5453bf9a735
+kind: match
+records:
+    - MY7XX91H95
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 73896 of NuminaMath 1.5 is linked to this record. The row asks to show that the cube root difference M is an integer, the record that it is rational. M equals 1, and the proof of one shows the other, so the link stays.'

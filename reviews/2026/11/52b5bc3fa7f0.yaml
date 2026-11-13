@@ -1,0 +1,9 @@
+id: 52b5bc3fa7f0
+kind: pair
+records:
+    - TWY58J7ZX3
+    - Q5XN3SMBG8
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 78851 of NuminaMath 1.5 to this record, but they are two problems: the row needs 2f(x) = f(x + y) + f(x + 2y) for all real y, the record only for non-negative y. The agent removed the row from the record, and row 78851 is now its own loose record.'

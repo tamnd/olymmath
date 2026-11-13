@@ -1,0 +1,19 @@
+---
+tag: TYA9S517GE
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=80855
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Show that the equations $x^{2}=2 y^{2}$ and $x^{4}+3 y^{4}+27 z^{4}=9 t^{4} n^{\prime}$ have no non-trivial solutions.

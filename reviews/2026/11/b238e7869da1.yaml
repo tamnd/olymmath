@@ -1,0 +1,8 @@
+id: b238e7869da1
+kind: match
+records:
+    - Z9A7DGZMGZ
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 62744 (E 0.973, T 0.804, keyword match 1.000) and the text of Z9A7DGZMGZ state the same problem with the same data and the same question.  The record already has a statement from this source, so the row adds no new statement and makes no new record.'

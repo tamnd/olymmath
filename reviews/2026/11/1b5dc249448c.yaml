@@ -1,0 +1,9 @@
+id: 1b5dc249448c
+kind: pair
+records:
+    - DS0KNAM09A
+    - 6WE0VVFQVY
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 80256 of NuminaMath 1.5 to row 79794, but they are two problems: the row takes a and b positive, the record any real a and b. Row 80256 is now its own loose record.'

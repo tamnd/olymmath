@@ -1,0 +1,9 @@
+id: 09d24c26ac4b
+kind: pair
+records:
+    - 33XTXWTYPB
+    - mx-omm/2020/p6
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 77581 of NuminaMath 1.5 to this record, but they are two problems: the row takes positive reals and n >= 1, the record non-zero reals and n >= 2. The agent removed the row from the record, and row 77581 is now its own loose record.'

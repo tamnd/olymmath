@@ -1,0 +1,8 @@
+id: 73a042ce3746
+kind: match
+records:
+    - 5N3E5C7XWK
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 75217 was joined into this record, which holds row 75216. The two rows state the same problem (the isosceles trapezoid, the incenter I and the excenter J, IJ parallel to AB), with the same author.'

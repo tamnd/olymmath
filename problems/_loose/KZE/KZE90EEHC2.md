@@ -1,0 +1,21 @@
+---
+tag: KZE90EEHC2
+kind: problem
+type: answer
+answer: 16,20,20
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=66296
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+In an isosceles triangle, the radius of the inscribed circle is $2 / 7$ of the height, and the perimeter of this triangle is 56. Find its sides.

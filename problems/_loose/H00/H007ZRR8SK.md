@@ -1,0 +1,22 @@
+---
+tag: H007ZRR8SK
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=78347
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+We have colored all the points in the Euclidean plane either red or blue. Show that at least one of the following statements is true:
+
+- There exist two red points that are 1 unit apart.
+- There exist four blue points $B_{1}, B_{2}, B_{3}, B_{4}$ such that the distance between $B_{i}$ and $B_{j}$ is equal to $|i-j|$ for all $1 \leqslant i, j \leqslant 4$.

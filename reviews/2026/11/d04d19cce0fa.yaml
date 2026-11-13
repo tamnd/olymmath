@@ -1,0 +1,8 @@
+id: d04d19cce0fa
+kind: match
+records:
+    - MVTY2BM8NY
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 59091 of NuminaMath 1.5 to this record. The row is cut off before its question, so it is not one clear problem. It added no statement; the agent listed it in registers/loose-removed.tsv.'

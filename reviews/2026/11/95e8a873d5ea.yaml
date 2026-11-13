@@ -1,0 +1,8 @@
+id: 95e8a873d5ea
+kind: sample
+records:
+    - PDZMYM8KTA
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text states one problem (P of degree n with P(k) = k/(k+1), find P(n+1)) and no solution. The agent cut a statement of Viete''s formulas from the book that followed the problem.'

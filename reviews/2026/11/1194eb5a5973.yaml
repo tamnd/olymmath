@@ -1,0 +1,8 @@
+id: 1194eb5a5973
+kind: sample
+records:
+    - E45D7VMH30
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text states one problem about the maximum of n^2 / 1.001^n over the natural numbers, and no solution. The import text asked ''for what natural K'', a slip of the translation for n; the agent wrote n.'

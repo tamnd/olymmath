@@ -1,0 +1,8 @@
+id: f50aa6bd1765
+kind: match
+records:
+    - baltic-way/2008/p16
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 72543 (E 1.000, T 0.983, keyword match 1.000) and the text of baltic-way/2008/p16 state the same problem with the same data and the same question.  The row became a second statement of the record.'

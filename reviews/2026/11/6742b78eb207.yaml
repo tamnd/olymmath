@@ -1,0 +1,8 @@
+id: 6742b78eb207
+kind: match
+records:
+    - WZKZJ6XRNS
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 77029 was joined into this record, which holds row 75976. The two rows state the same inequality with x, y, z in [-1, 1] and xy + yz + zx = 1, and both ask for the equality case; only the translation differs.'

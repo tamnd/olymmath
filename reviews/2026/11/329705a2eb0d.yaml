@@ -1,0 +1,9 @@
+id: 329705a2eb0d
+kind: pair
+records:
+    - NWZ5E6YDDF
+    - G7DC56525C
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 80261 of NuminaMath 1.5 to row 78622, but they are two problems: the row has no positivity condition and asks for the equality cases, the record is for positive x, y, z and does not ask for them. Row 80261 is now its own loose record.'

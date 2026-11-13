@@ -1,0 +1,8 @@
+id: e358f3f0747d
+kind: match
+records:
+    - 984Z0WH4YZ
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 80405 of NuminaMath 1.5 was joined into this record, which holds row 79515. The two texts state the same inequality; the row also asks for the cases of equality, which is a small extra question of the same problem, so the join stays.'

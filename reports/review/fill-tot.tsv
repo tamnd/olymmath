@@ -6,23 +6,18 @@ tot/2000-fall/sa4	N8DGGTK9DY	98505	https://turgor.ru/problems/22/index.php	0.92	
 tot/2000-fall/so4	VCTV158JNS	98494	https://turgor.ru/problems/22/index.php	0.69	jo3	0.11	the official text is flagged: layout
 tot/2000-spring/ja6	QZJKG3PW37	98480	https://turgor.ru/problems/21/index.php	0.56	sa6	0.50	another official text of the edition agrees nearly as well
 tot/2000-spring/sa1	3P6Y0VPT7A	98481	https://turgor.ru/problems/21/index.php	1.00	jo4	0.08	the official text is flagged: layout
-tot/2000-spring/sa6	7EE9JVX6V7	98486	https://turgor.ru/problems/21/index.php	0.91	ja6	0.80	the official problem has a picture
+tot/2000-spring/sa6	7EE9JVX6V7	98486	https://turgor.ru/problems/21/index.php	0.91	ja6	0.80	the official text is flagged: hyphen
 tot/2000-spring/so3	4BGX55CTP1	98473	https://turgor.ru/problems/21/index.php	0.57	ja2	0.07	the official text is flagged: math
 tot/2004-fall/so2	W4YSRRPRSC	65552	https://turgor.ru/problems/26/index.php	0.66	jo2	0.59	another official text of the edition agrees nearly as well
-tot/2004-spring/ja5	SQRJ3F1XF1	105177	https://turgor.ru/problems/25/index.php	0.47	sa2	0.32	the official text at the position does not agree with the problems.ru text
 tot/2004-spring/jo2	JJTTFKFNMD	65401	https://turgor.ru/problems/25/index.php	0.39	so2	0.17	the official text at the position does not agree with the problems.ru text
 tot/2004-spring/jo4	QWQVGZ672M	65403	https://turgor.ru/problems/25/index.php	0.36	so2	0.42	the official text at the position does not agree with the problems.ru text
 tot/2004-spring/so2	QWQVGZ672M	65403	https://turgor.ru/problems/25/index.php	0.42	jo4	0.36	the official text at the position does not agree with the problems.ru text
 tot/2006-fall/ja5	RFRZB35SBY	109192	https://turgor.ru/problems/28/index.php	0.88	ja6	0.10	the official text is flagged: layout
 tot/2006-fall/ja6	ZB1E5GG7G3	109193	https://turgor.ru/problems/28/index.php	0.53	sa7	0.16	the official text is flagged: layout
 tot/2008-fall/so2	710TWWFBT4	111649	https://turgor.ru/problems/30/index.php	0.75	-	0.00	the official text is flagged: math, layout
-tot/2008-spring/so5	R8WWH64Z7M	64603	https://turgor.ru/problems/29/index.php	0.74	jo1	0.04	the official problem has a picture
+tot/2008-spring/so5	R8WWH64Z7M	64603	https://turgor.ru/problems/29/index.php	0.74	jo1	0.04	the official text is flagged: layout
 tot/2009-fall/jo1	8628P7EBE7	116238	https://turgor.ru/problems/31/index.php	1.00	sa2	0.14	the official text is flagged: layout
-tot/2009-spring/ja4	AVA71SXK8X	111918	https://turgor.ru/problems/30/index.php	0.29	so3	0.09	the official text at the position does not agree with the problems.ru text
-tot/2009-spring/ja7	G69QM7AEGX	111922	https://turgor.ru/problems/30/index.php	0.10	sa7	0.10	the official text at the position does not agree with the problems.ru text
 tot/2009-spring/jo2	ARDFH6YTJ6	64510	https://turgor.ru/problems/30/index.php	0.96	jo3	0.07	the official text is flagged: layout
-tot/2009-spring/sa2	AVA71SXK8X	111918	https://turgor.ru/problems/30/index.php	0.29	so3	0.09	the official text at the position does not agree with the problems.ru text
-tot/2009-spring/sa5	G69QM7AEGX	111922	https://turgor.ru/problems/30/index.php	0.10	sa7	0.10	the official text at the position does not agree with the problems.ru text
 tot/2009-spring/so1	ARDFH6YTJ6	64510	https://turgor.ru/problems/30/index.php	0.96	jo3	0.07	the official text is flagged: layout
 tot/2009-spring/so3	Y92ZN3RDYE	64516	https://turgor.ru/problems/30/index.php	1.00	ja4	0.13	the official text is flagged: math
 tot/2010-spring/ja1	VQPNQH9WMS	116423	https://turgor.ru/problems/31/index.php	0.88	sa2	0.85	another official text of the edition agrees nearly as well
@@ -32,33 +27,10 @@ tot/2010-spring/sa2	VQPNQH9WMS	116423	https://turgor.ru/problems/31/index.php	0.
 tot/2010-spring/so3	BJZ97EDKZ8	116413	https://turgor.ru/problems/31/index.php	0.82	sa1	0.04	the official text is flagged: hyphen
 tot/2010-spring/so5	VAZBWJ38T7	116415	https://turgor.ru/problems/31/index.php	0.89	sa1	0.08	the official text is flagged: hyphen
 tot/2012-spring/sa3	8ZXPC673JC	116726	https://turgor.ru/problems/33/vs33sl-avt.pdf	1.00	so4	0.11	the official text is flagged: layout
-tot/2012-spring/sa4	SYCK1FNW28	116727	https://turgor.ru/problems/33/vs33sl-avt.pdf	0.96	ja1	0.11	the official problem has a picture
-tot/2013-fall/ja6	QN1J3ESSNX	64453	https://turgor.ru/problems/35/os35-sl-avt.pdf	1.00	jo3	0.14	the official problem has a picture
 tot/2013-spring/sa3	S7SKQ9JMRY	32895	https://turgor.ru/problems/34/vs34sl-avt.pdf	0.71	ja5	0.66	another official text of the edition agrees nearly as well
-tot/2015-fall/ja1	SHHNEAEAPB	65461	https://turgor.ru/problems/37/os-37-sl-avt.pdf	0.80	ja2	0.06	the official problem has a picture
-tot/2015-spring/ja7	P7ZSDRV3QS	65175	https://turgor.ru/problems/36/vs-36-sl-avt.pdf	0.69	sa6	0.61	another official text of the edition agrees nearly as well
-tot/2015-spring/jo4	86M1NMXMP5	65152	https://turgor.ru/problems/36/vs-36-baz-avt.pdf	1.00	jo1	0.05	the official problem has a picture
-tot/2015-spring/so4	TEBXJ46KW9	65156	https://turgor.ru/problems/36/vs-36-baz-avt.pdf	0.96	jo2	0.21	the official problem has a picture
-tot/2016-fall/ja3	W8FHE5K7E5	65872	https://turgor.ru/problems/38/os-38-sl-avt.pdf	0.77	jo4	0.07	the official problem has a picture
-tot/2016-spring/ja3	Y9M1YQTBYZ	65727	https://turgor.ru/problems/37/vs-37-sl-avt.pdf	1.00	sa5	0.06	the official problem has a picture
-tot/2016-spring/sa2	Y9M1YQTBYZ	65727	https://turgor.ru/problems/37/vs-37-sl-avt.pdf	1.00	sa5	0.06	the official problem has a picture
-tot/2017-spring/ja2	8KE0FWYJYV	66110	https://turgor.ru/problems/38/vs-38-sl-avt.pdf	0.80	jo4	0.05	the official problem has a picture
-tot/2017-spring/so1	X33CFF9AEB	66104	https://turgor.ru/problems/38/vs-38-baz-avt.pdf	0.92	ja4	0.04	the official problem has a picture
-tot/2018-spring/jo3	5R4VSVRKH6	66692	https://turgor.ru/problems/39/vs-39-baz-avt.pdf	0.90	sa3	0.07	the official problem has a picture
 tot/2019-fall/sa4	KXKRVDXNSP	66837	https://turgor.ru/problems/41/os-41-sl-avt.pdf	0.15	jo4	0.05	the official text at the position does not agree with the problems.ru text
-tot/2019-fall/so3	ABRWDV27MB	66824	https://turgor.ru/problems/41/os-41-baz-avt.pdf	0.85	ja5	0.09	the official problem has a picture
-tot/2020-spring/jo5	6CHNVA5NBT	66845	https://turgor.ru/problems/41/vs-41-baz-avt.pdf	1.00	sa7	0.10	the official problem has a picture
 tot/2023-spring/jo4	Y7CN9B4DZY	67257	https://turgor.ru/problems/44/vs-44-baz-avt.pdf	0.94	so2	0.84	another official text of the edition agrees nearly as well
-tot/2023-spring/so2	21YCFS5J3S	67260	https://turgor.ru/problems/44/vs-44-baz-avt.pdf	0.95	jo4	0.84	the official problem has a picture
-tot/2024-spring/ja4	8A9E9ZD9HF	67428	https://turgor.ru/problems/45/vs-45-sl-avt.pdf	1.00	jo3	0.05	the official problem has a picture
-tot/2024-spring/ja5	RKHM5EVATQ	67304	https://turgor.ru/problems/45/vs-45-sl-avt.pdf	0.86	jo4	0.08	the official problem has a picture
-tot/2024-spring/jo3	Y2T3ZRNY09	67420	https://turgor.ru/problems/45/vs-45-baz-avt.pdf	1.00	so2	0.11	the official problem has a picture
-tot/2024-spring/sa7	YF0D2QGEQE	67435	https://turgor.ru/problems/45/vs-45-sl-avt.pdf	1.00	jo2	0.10	the official problem has a picture
-tot/2024-spring/so2	46YTZKVHHY	67424	https://turgor.ru/problems/45/vs-45-baz-avt.pdf	1.00	jo3	0.11	the official problem has a picture
-tot/2025-spring/ja3	8CFMA9RTTN	67451	https://turgor.ru/problems/46/vs-46-sl-avt.pdf	0.97	sa5	0.19	the official problem has a picture
-tot/2025-spring/jo3	WNS8CNX419	67500	https://turgor.ru/problems/46/vs-46-baz-avt.pdf	1.00	sa2	0.09	the official problem has a picture
-tot/2025-spring/sa3	XCD9F6XJPR	67446	https://turgor.ru/problems/46/vs-46-sl-avt.pdf	0.71	sa4	0.07	the official problem has a picture
+tot/2023-spring/so2	21YCFS5J3S	67260	https://turgor.ru/problems/44/vs-44-baz-avt.pdf	0.95	jo4	0.84	the official text is flagged: layout
 tot/2026-spring/ja5	536VH0QFSR	67613	https://turgor.ru/problems/47/vs-47-sl-avt.pdf	0.50	so1	0.12	the official text is flagged: layout
-tot/2026-spring/sa1	DWH7T4351T	67647	https://turgor.ru/problems/47/vs-47-sl-avt.pdf	1.00	sa4	0.08	the official problem has a picture
 tot/2026-spring/sa4	GQQ9Q4N2FJ	67618	https://turgor.ru/problems/47/vs-47-sl-avt.pdf	0.44	sa1	0.07	the official text at the position does not agree with the problems.ru text
 tot/2026-spring/sa7	FHTNX1VTPD	67623	https://turgor.ru/problems/47/vs-47-sl-avt.pdf	0.46	sa2	0.09	the official text at the position does not agree with the problems.ru text

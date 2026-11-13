@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="71pt" height="72pt" viewBox="0 0 71 72">
+<path fill="none" stroke-width="1.594" stroke="#000" stroke-miterlimit="10" d="M -0.001 31.181 L -0.001 62.361 L 62.361 62.361 L 62.361 -0.001 L 31.182 -0.001 L 31.182 31.181 L -0.001 31.181 " transform="matrix(1, 0, 0, -1, 4.435, 66.721)"/>
+<path fill="none" stroke-width="1.594" stroke="#000" stroke-miterlimit="10" d="M 15.592 31.181 L 15.592 46.771 L 46.772 46.771 L 46.772 15.592 L 31.182 15.592 " transform="matrix(1, 0, 0, -1, 4.435, 66.721)"/>
+<path fill="none" stroke-width="1.594" stroke="#000" stroke-miterlimit="10" d="M 31.182 46.771 L 31.182 62.361 " transform="matrix(1, 0, 0, -1, 4.435, 66.721)"/>
+<path fill="none" stroke-width="1.594" stroke="#000" stroke-miterlimit="10" d="M 46.772 31.181 L 62.361 31.181 " transform="matrix(1, 0, 0, -1, 4.435, 66.721)"/>
+<path fill="none" stroke-width="0.199" stroke="#000" stroke-dasharray="0.199 0.996" stroke-miterlimit="10" d="M -0.001 46.771 L 15.592 46.771 L 15.592 62.361 " transform="matrix(1, 0, 0, -1, 4.435, 66.721)"/>
+<path fill="none" stroke-width="0.199" stroke="#000" stroke-dasharray="0.199 0.996" stroke-miterlimit="10" d="M 46.772 -0.001 L 46.772 15.592 L 62.361 15.592 " transform="matrix(1, 0, 0, -1, 4.435, 66.721)"/>
+<path fill="none" stroke-width="0.199" stroke="#000" stroke-dasharray="0.199 0.996" stroke-miterlimit="10" d="M 31.182 46.771 L 31.182 31.181 L 46.772 31.181 " transform="matrix(1, 0, 0, -1, 4.435, 66.721)"/>
+<path fill="none" stroke-width="0.199" stroke="#000" stroke-dasharray="0.199 0.996" stroke-miterlimit="10" d="M 46.772 62.361 L 46.772 46.771 L 62.361 46.771 " transform="matrix(1, 0, 0, -1, 4.435, 66.721)"/>
+</svg>

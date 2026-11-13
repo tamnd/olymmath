@@ -1591,6 +1591,22 @@
   state: active
   notes: The archive page of olimpiadas.spm.pt links the papers of each olympiad, in a folder named by its school year, such as "XXXI OPM(2012-13)". The final of category B has two days of three problems, numbered 1 to 6. The finals of 2020 and 2021 had one day of four problems. The archive has no folder for the XXII OPM (2003-04). The site has no robots.txt (checked on 2026-11-03). om papers spm-opm records the papers.
 
+- id: abelkonkurransen
+  name: Abelkonkurransen (Matematikksenteret)
+  kind: official
+  origin: H1
+  url: https://www.matematikksenteret.no/konkurranser/abelkonkurransen/oppgaver-og-l%C3%B8sninger
+  access: pdf
+  terms: No licence stated. The page Oppgaver og løsninger (read on 2026-11-13) links the papers but gives no terms of use.
+  zone:
+    statement: Z2
+    solution: Z3
+  ai_train: unknown
+  size: One PDF of the final round for each year from 1993 to 2026, in Norwegian, and in English from 1993 to 1999 and from 2008
+  wave: 1
+  state: active
+  notes: Matematikksenteret (the Norwegian centre for mathematics education) runs the Abel competition. The page links the papers of the final round at /sites/default/files/attachments/Abelkonkurransen/abel-oppgaver/, and the final of 2026 at /sites/default/files/images/Abelkonkurransen/Abelkonkurransen2526/. A file name gives the school year, so abel_0708 is the final of March 2008, and Abel2020 is the final of March 2021. robots.txt (checked on 2026-11-13) disallows only /core/, /profiles/, /admin/, /search/, /user/ and some README files, so the paper paths are allowed. The English papers (_en) are official translations. The papers of 2000 to 2005 are in Norwegian only, and the papers of 2002 and 2003 are scans. The agent read the text layer with pdftotext where it was good, read a render of each page, and wrote the math in TeX by hand. Where a paper shows a figure, om figure cropped it from the PDF.
+
 - id: hms
   name: Hellenic Mathematical Society
   kind: official

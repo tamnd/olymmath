@@ -2399,10 +2399,11 @@
   group: national
   level: high-school
   country: "NO"
+  url: https://www.matematikksenteret.no/konkurranser/abelkonkurransen
   per_year: 4
   languages: ["no"]
-  sources: [kalva]
-  description: The national olympiad of Norway.
+  sources: [abelkonkurransen, kalva]
+  description: The national olympiad of Norway. Its final round has four problems, most of them in two parts. Matematikksenteret has the paper of the final for each year from 1993, with an English translation for most years.
 
 - code: se-skolornas
   name: Swedish Mathematical Competition

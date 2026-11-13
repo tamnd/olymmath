@@ -1,1 +1,10 @@
 year: 1995
+official:
+  - lang: Norwegian
+    code: "no"
+    url: https://www.matematikksenteret.no/sites/default/files/attachments/Abelkonkurransen/abel-oppgaver/abel_9495_f_prob_nb.pdf
+    source: abelkonkurransen
+  - lang: English
+    code: en
+    url: https://www.matematikksenteret.no/sites/default/files/attachments/Abelkonkurransen/abel-oppgaver/abel_9495_f_prob_en.pdf
+    source: abelkonkurransen

@@ -1,0 +1,8 @@
+id: 85e249a124a4
+kind: placement
+records:
+    - pumac/2024/aa7
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem GEEMS6TSNF, labeled 2024 Princeton University Math Competition, states the same problem as problem 7 of Algebra A in the official PUMaC paper of 2024 (page 1). The record moved from the loose problems to pumac/2024/aa7."

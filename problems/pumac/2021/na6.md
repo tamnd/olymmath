@@ -1,0 +1,33 @@
+---
+tag: 53496MCHXY
+kind: problem
+appearances:
+  - at: pumac/2021/na6
+    primary: true
+  - at: pumac/2021/nb8
+canonical:
+  statement: S2
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: pumac-archive
+    name: Princeton University Mathematics Competition 2021 official paper
+    url: https://pumac.princeton.edu/s/PuMaC_Number_Theory_A_2021-1.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2021 Princeton University Math Competition
+    url: https://artofproblemsolving.com/community/c6h2834930
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=73324
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Let $f(n) = \sum^n_{i=1}\frac{gcd(i,n)}{n}$ . Find the sum of all positive integers $ n$ for which $f(n) = 6$ .

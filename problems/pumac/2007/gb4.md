@@ -1,0 +1,32 @@
+---
+tag: 8PEV23R98J
+kind: problem
+appearances:
+  - at: pumac/2007/gb4
+    primary: true
+canonical:
+  statement: S2
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: pumac-archive
+    name: Princeton University Mathematics Competition 2007 official paper
+    url: https://pumac.princeton.edu/s/PUMaC2007_GeometryB.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2007 Princeton University Math Competition
+    url: https://artofproblemsolving.com/community/c6h506067
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=73097
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+$ABCDE$ is a regular pentagon (with vertices in that order) inscribed in a circle of radius $1$ . Find $AB \cdot AC$ .

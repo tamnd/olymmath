@@ -1,0 +1,8 @@
+id: b5d20eefcfc2
+kind: placement
+records:
+    - pumac/2013/ca4
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem EBCQ9JY7W9, labeled 2013 Princeton University Math Competition, states the same problem as problem 4 of Combinatorics A in the official PUMaC paper of 2013 (page 1). The same problem is problem 8 of Combinatorics B, so the record also has an appearance at pumac/2013/cb8. The record moved from the loose problems to pumac/2013/ca4."

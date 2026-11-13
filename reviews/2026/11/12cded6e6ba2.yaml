@@ -1,0 +1,8 @@
+id: 12cded6e6ba2
+kind: placement
+records:
+    - pumac/2010/nb8
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem RVA3K9ARF3, labeled 2010 Princeton University Math Competition, states the same problem as problem 8 of Number Theory B in the official PUMaC paper of 2010 (page 1). The record moved from the loose problems to pumac/2010/nb8."

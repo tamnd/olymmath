@@ -1,0 +1,8 @@
+id: c38b28b0f27a
+kind: placement
+records:
+    - pumac/2009/aa6
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem STV25XE1Q7, labeled 2009 Princeton University Math Competition, states the same problem as problem 6 of Algebra A in the official PUMaC paper of 2009 (page 1). The same problem is problem 8 of Algebra B, so the record also has an appearance at pumac/2009/ab8. The record moved from the loose problems to pumac/2009/aa6."

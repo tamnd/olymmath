@@ -1,0 +1,8 @@
+id: e91c9c7a6f0c
+kind: placement
+records:
+    - pumac/2020/na8
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem JG5PSXWZ5S, labeled 2020 Princeton University Math Competition, states the same problem as problem 8 of Number Theory A in the official PUMaC paper of 2020 (page 1). The record moved from the loose problems to pumac/2020/na8."

@@ -1,0 +1,8 @@
+id: 753f120e70b2
+kind: placement
+records:
+    - pumac/2022/ca1
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem 5ZTMBRJD70, labeled 2022 Princeton University Math Competition, states the same problem as problem 1 of Combinatorics A in the official PUMaC paper of 2022 (page 1). The same problem is problem 3 of Combinatorics B, so the record also has an appearance at pumac/2022/cb3. The record moved from the loose problems to pumac/2022/ca1."

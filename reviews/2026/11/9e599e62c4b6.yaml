@@ -1,0 +1,8 @@
+id: 9e599e62c4b6
+kind: placement
+records:
+    - pumac/2007/cb4
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem T8GZXEX0QG, labeled 2007 Princeton University Math Competition, states the same problem as problem 4 of Combinatorics B in the official PUMaC paper of 2007 (page 1). The record moved from the loose problems to pumac/2007/cb4."

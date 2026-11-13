@@ -1,0 +1,8 @@
+id: 185cff5de06e
+kind: placement
+records:
+    - pumac/2011/na4
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem VD7952746V, labeled 2011 Princeton University Math Competition, states the same problem as problem 4 of Number Theory A in the official PUMaC paper of 2011 (page 1). The same problem is problem 6 of Number Theory B, so the record also has an appearance at pumac/2011/nb6. The record moved from the loose problems to pumac/2011/na4."

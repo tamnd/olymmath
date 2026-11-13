@@ -1,0 +1,8 @@
+id: 092f66f2ea58
+kind: placement
+records:
+    - pumac/2015/aa7
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem CC3KJJ84ZS, labeled 2015 Princeton University Math Competition, states the same problem as problem 7 of Algebra A in the official PUMaC paper of 2015 (page 1). The same problem is problem 8 of Algebra B, so the record also has an appearance at pumac/2015/ab8. The record moved from the loose problems to pumac/2015/aa7."

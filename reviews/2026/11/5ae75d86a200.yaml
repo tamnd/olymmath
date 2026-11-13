@@ -1,0 +1,8 @@
+id: 5ae75d86a200
+kind: placement
+records:
+    - pumac/2022/gb2
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem K5FY1RFXD9, labeled 2022 Princeton University Math Competition, states the same problem as problem 2 of Geometry B in the official PUMaC paper of 2022 (page 1). The record moved from the loose problems to pumac/2022/gb2."

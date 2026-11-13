@@ -1,0 +1,8 @@
+id: ba4caa32d2d9
+kind: placement
+records:
+    - pumac/2023/ga8
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem 5XNXEBG8F3, labeled 2023 Princeton University Math Competition, states the same problem as problem 8 of Geometry A in the official PUMaC paper of 2023 (page 1). The record moved from the loose problems to pumac/2023/ga8."

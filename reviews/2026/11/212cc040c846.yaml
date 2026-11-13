@@ -1,0 +1,8 @@
+id: 212cc040c846
+kind: placement
+records:
+    - pumac/2011/gb4
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem PG11X8CAD1, labeled 2011 Princeton University Math Competition, states the same problem as problem 4 of Geometry B in the official PUMaC paper of 2011 (page 1). The record moved from the loose problems to pumac/2011/gb4."

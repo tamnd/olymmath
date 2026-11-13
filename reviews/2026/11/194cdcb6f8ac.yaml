@@ -1,0 +1,8 @@
+id: 194cdcb6f8ac
+kind: placement
+records:
+    - pumac/2021/aa7
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem 1A1C28FKSP, labeled 2021 Princeton University Math Competition, states the same problem as problem 7 of Algebra A in the official PUMaC paper of 2021 (page 1). The record moved from the loose problems to pumac/2021/aa7."

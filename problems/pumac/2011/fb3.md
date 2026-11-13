@@ -1,0 +1,32 @@
+---
+tag: J7VZBGBNGC
+kind: problem
+appearances:
+  - at: pumac/2011/fb3
+    primary: true
+canonical:
+  statement: S2
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: pumac-archive
+    name: Princeton University Mathematics Competition 2011 official paper
+    url: https://pumac.princeton.edu/s/PUMaC2011_FinalsB.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2011 Princeton University Math Competition
+    url: https://artofproblemsolving.com/community/c6h1920882
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=7065
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+In a $k$ -player tournament for $k > 1$ , every player plays every other player exactly once. Find with proof the smallest value of $k$ such that it is possible that for any two players, there was a third player who beat both of them.

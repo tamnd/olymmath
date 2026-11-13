@@ -1,0 +1,8 @@
+id: a384d5ab360f
+kind: placement
+records:
+    - pumac/2008/t3
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem P1F060AW5E, labeled 2008 Princeton University Math Competition, states the same problem as problem 3 of Team in the official PUMaC paper of 2008 (page 1). The record moved from the loose problems to pumac/2008/t3."

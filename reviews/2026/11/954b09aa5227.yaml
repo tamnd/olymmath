@@ -1,0 +1,8 @@
+id: 954b09aa5227
+kind: placement
+records:
+    - pumac/2024/aa5
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem Y27525E4RM, labeled 2024 Princeton University Math Competition, states the same problem as problem 5 of Algebra A in the official PUMaC paper of 2024 (page 1). The same problem is problem 7 of Algebra B, so the record also has an appearance at pumac/2024/ab7. The record moved from the loose problems to pumac/2024/aa5."

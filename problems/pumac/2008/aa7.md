@@ -1,0 +1,32 @@
+---
+tag: 4AX6HD9241
+kind: problem
+appearances:
+  - at: pumac/2008/aa7
+    primary: true
+canonical:
+  statement: S2
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: pumac-archive
+    name: Princeton University Mathematics Competition 2008 official paper
+    url: https://pumac.princeton.edu/s/PUMaC2008_AlgebraA.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2008 Princeton University Math Competition
+    url: https://artofproblemsolving.com/community/c6h1921059
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=73156
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Suppose $x^9 = 1$ but $x^3 \ne 1$ . Find a polynomial of minimal degree equal to $\frac{1}{1+x}$ .

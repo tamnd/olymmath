@@ -1,0 +1,8 @@
+id: ead08edf4179
+kind: placement
+records:
+    - pumac/2017/aa5
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem Z2F76NX10X, labeled 2017 Princeton University Math Competition, states the same problem as problem 5 of Algebra A in the official PUMaC paper of 2017 (page 1). The same problem is problem 7 of Algebra B, so the record also has an appearance at pumac/2017/ab7. The record moved from the loose problems to pumac/2017/aa5."

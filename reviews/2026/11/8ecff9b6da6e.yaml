@@ -1,0 +1,8 @@
+id: 8ecff9b6da6e
+kind: placement
+records:
+    - pumac/2010/aa6
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem KQB0KW11Y9, labeled 2010 Princeton University Math Competition, states the same problem as problem 6 of Algebra A in the official PUMaC paper of 2010 (page 1). The record moved from the loose problems to pumac/2010/aa6."

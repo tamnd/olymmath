@@ -1,0 +1,8 @@
+id: 564b8f458c9a
+kind: placement
+records:
+    - pumac/2023/na6
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem RT32T5ES9C, labeled 2023 Princeton University Math Competition, states the same problem as problem 6 of Number Theory A in the official PUMaC paper of 2023 (page 1). The same problem is problem 8 of Number Theory B, so the record also has an appearance at pumac/2023/nb8. The record moved from the loose problems to pumac/2023/na6."

@@ -1444,10 +1444,129 @@
   group: usa
   level: high-school
   country: US
+  url: https://pumac.princeton.edu/archives
   edition_form: year
+  # Agent decision, not a person's review: each subject test of PUMaC has an A paper and a B paper, and each one is its own paper here, with the positions aa1 to aa8 for Algebra A, ab1 to ab8 for Algebra B, and so on (c for Combinatorics, g for Geometry, n for Number Theory, f for the Individual Finals, t for the Team Round). The counts come from the problem PDFs of the official archive. The A and B papers share some problems at other numbers, so one record can have an appearance in each division. The Power Round (long proofs in many parts, with no clear numbering) and the Live Round (2016 to 2019) are left out. The Team Rounds of 2009 to 2012 are crossword and sudoku puzzles with no numbered problems, so these years have no team positions. The archive has no papers of 2006, so 2006 has no layout. The numbers of the Team Round problems in 2017 and 2018 start at an example problem 0, which is not a position.
+  layout:
+    - {paper: algebra-a, name: Algebra A, positions: [aa1, aa2, aa3, aa4, aa5, aa6, aa7, aa8]}
+    - {paper: algebra-b, name: Algebra B, positions: [ab1, ab2, ab3, ab4, ab5, ab6, ab7, ab8]}
+    - {paper: combinatorics-a, name: Combinatorics A, positions: [ca1, ca2, ca3, ca4, ca5, ca6, ca7, ca8]}
+    - {paper: combinatorics-b, name: Combinatorics B, positions: [cb1, cb2, cb3, cb4, cb5, cb6, cb7, cb8]}
+    - {paper: geometry-a, name: Geometry A, positions: [ga1, ga2, ga3, ga4, ga5, ga6, ga7, ga8]}
+    - {paper: geometry-b, name: Geometry B, positions: [gb1, gb2, gb3, gb4, gb5, gb6, gb7, gb8]}
+    - {paper: number-theory-a, name: Number Theory A, positions: [na1, na2, na3, na4, na5, na6, na7, na8]}
+    - {paper: number-theory-b, name: Number Theory B, positions: [nb1, nb2, nb3, nb4, nb5, nb6, nb7, nb8]}
+    - {paper: finals-a, name: Individual Finals A, positions: [fa1, fa2, fa3]}
+    - {paper: finals-b, name: Individual Finals B, positions: [fb1, fb2, fb3]}
+    - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15]}
+  per_year: 85
+  eras:
+    - {from: 2006, to: 2006}
+    - from: 2007
+      to: 2008
+      per_year: 96
+      layout:
+        - {paper: algebra-a, name: Algebra A, positions: [aa1, aa2, aa3, aa4, aa5, aa6, aa7, aa8, aa9, aa10]}
+        - {paper: algebra-b, name: Algebra B, positions: [ab1, ab2, ab3, ab4, ab5, ab6, ab7, ab8, ab9, ab10]}
+        - {paper: combinatorics-a, name: Combinatorics A, positions: [ca1, ca2, ca3, ca4, ca5, ca6, ca7, ca8, ca9, ca10]}
+        - {paper: combinatorics-b, name: Combinatorics B, positions: [cb1, cb2, cb3, cb4, cb5, cb6, cb7, cb8, cb9, cb10]}
+        - {paper: geometry-a, name: Geometry A, positions: [ga1, ga2, ga3, ga4, ga5, ga6, ga7, ga8, ga9, ga10]}
+        - {paper: geometry-b, name: Geometry B, positions: [gb1, gb2, gb3, gb4, gb5, gb6, gb7, gb8, gb9, gb10]}
+        - {paper: number-theory-a, name: Number Theory A, positions: [na1, na2, na3, na4, na5, na6, na7, na8, na9, na10]}
+        - {paper: number-theory-b, name: Number Theory B, positions: [nb1, nb2, nb3, nb4, nb5, nb6, nb7, nb8, nb9, nb10]}
+        - {paper: finals-a, name: Individual Finals A, positions: [fa1, fa2, fa3]}
+        - {paper: finals-b, name: Individual Finals B, positions: [fb1, fb2, fb3]}
+        - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10]}
+    - from: 2009
+      to: 2010
+      per_year: 64
+      layout:
+        - {paper: algebra-a, name: Algebra A, positions: [aa1, aa2, aa3, aa4, aa5, aa6, aa7, aa8]}
+        - {paper: algebra-b, name: Algebra B, positions: [ab1, ab2, ab3, ab4, ab5, ab6, ab7, ab8]}
+        - {paper: combinatorics-a, name: Combinatorics A, positions: [ca1, ca2, ca3, ca4, ca5, ca6, ca7, ca8]}
+        - {paper: combinatorics-b, name: Combinatorics B, positions: [cb1, cb2, cb3, cb4, cb5, cb6, cb7, cb8]}
+        - {paper: geometry-a, name: Geometry A, positions: [ga1, ga2, ga3, ga4, ga5, ga6, ga7, ga8]}
+        - {paper: geometry-b, name: Geometry B, positions: [gb1, gb2, gb3, gb4, gb5, gb6, gb7, gb8]}
+        - {paper: number-theory-a, name: Number Theory A, positions: [na1, na2, na3, na4, na5, na6, na7, na8]}
+        - {paper: number-theory-b, name: Number Theory B, positions: [nb1, nb2, nb3, nb4, nb5, nb6, nb7, nb8]}
+    - from: 2011
+      to: 2012
+      per_year: 70
+      layout:
+        - {paper: algebra-a, name: Algebra A, positions: [aa1, aa2, aa3, aa4, aa5, aa6, aa7, aa8]}
+        - {paper: algebra-b, name: Algebra B, positions: [ab1, ab2, ab3, ab4, ab5, ab6, ab7, ab8]}
+        - {paper: combinatorics-a, name: Combinatorics A, positions: [ca1, ca2, ca3, ca4, ca5, ca6, ca7, ca8]}
+        - {paper: combinatorics-b, name: Combinatorics B, positions: [cb1, cb2, cb3, cb4, cb5, cb6, cb7, cb8]}
+        - {paper: geometry-a, name: Geometry A, positions: [ga1, ga2, ga3, ga4, ga5, ga6, ga7, ga8]}
+        - {paper: geometry-b, name: Geometry B, positions: [gb1, gb2, gb3, gb4, gb5, gb6, gb7, gb8]}
+        - {paper: number-theory-a, name: Number Theory A, positions: [na1, na2, na3, na4, na5, na6, na7, na8]}
+        - {paper: number-theory-b, name: Number Theory B, positions: [nb1, nb2, nb3, nb4, nb5, nb6, nb7, nb8]}
+        - {paper: finals-a, name: Individual Finals A, positions: [fa1, fa2, fa3]}
+        - {paper: finals-b, name: Individual Finals B, positions: [fb1, fb2, fb3]}
+    - from: 2013
+      to: 2013
+      per_year: 86
+      layout:
+        - {paper: algebra-a, name: Algebra A, positions: [aa1, aa2, aa3, aa4, aa5, aa6, aa7, aa8]}
+        - {paper: algebra-b, name: Algebra B, positions: [ab1, ab2, ab3, ab4, ab5, ab6, ab7, ab8]}
+        - {paper: combinatorics-a, name: Combinatorics A, positions: [ca1, ca2, ca3, ca4, ca5, ca6, ca7, ca8]}
+        - {paper: combinatorics-b, name: Combinatorics B, positions: [cb1, cb2, cb3, cb4, cb5, cb6, cb7, cb8]}
+        - {paper: geometry-a, name: Geometry A, positions: [ga1, ga2, ga3, ga4, ga5, ga6, ga7, ga8]}
+        - {paper: geometry-b, name: Geometry B, positions: [gb1, gb2, gb3, gb4, gb5, gb6, gb7, gb8]}
+        - {paper: number-theory-a, name: Number Theory A, positions: [na1, na2, na3, na4, na5, na6, na7, na8]}
+        - {paper: number-theory-b, name: Number Theory B, positions: [nb1, nb2, nb3, nb4, nb5, nb6, nb7, nb8]}
+        - {paper: finals-a, name: Individual Finals A, positions: [fa1, fa2, fa3]}
+        - {paper: finals-b, name: Individual Finals B, positions: [fb1, fb2, fb3]}
+        - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15, t16]}
+    - from: 2015
+      to: 2015
+      per_year: 86
+      layout:
+        - {paper: algebra-a, name: Algebra A, positions: [aa1, aa2, aa3, aa4, aa5, aa6, aa7, aa8]}
+        - {paper: algebra-b, name: Algebra B, positions: [ab1, ab2, ab3, ab4, ab5, ab6, ab7, ab8]}
+        - {paper: combinatorics-a, name: Combinatorics A, positions: [ca1, ca2, ca3, ca4, ca5, ca6, ca7, ca8]}
+        - {paper: combinatorics-b, name: Combinatorics B, positions: [cb1, cb2, cb3, cb4, cb5, cb6, cb7, cb8]}
+        - {paper: geometry-a, name: Geometry A, positions: [ga1, ga2, ga3, ga4, ga5, ga6, ga7, ga8]}
+        - {paper: geometry-b, name: Geometry B, positions: [gb1, gb2, gb3, gb4, gb5, gb6, gb7, gb8]}
+        - {paper: number-theory-a, name: Number Theory A, positions: [na1, na2, na3, na4, na5, na6, na7, na8]}
+        - {paper: number-theory-b, name: Number Theory B, positions: [nb1, nb2, nb3, nb4, nb5, nb6, nb7, nb8]}
+        - {paper: finals-a, name: Individual Finals A, positions: [fa1, fa2, fa3]}
+        - {paper: finals-b, name: Individual Finals B, positions: [fb1, fb2, fb3]}
+        - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15, t16]}
+    - from: 2017
+      to: 2017
+      per_year: 87
+      layout:
+        - {paper: algebra-a, name: Algebra A, positions: [aa1, aa2, aa3, aa4, aa5, aa6, aa7, aa8]}
+        - {paper: algebra-b, name: Algebra B, positions: [ab1, ab2, ab3, ab4, ab5, ab6, ab7, ab8]}
+        - {paper: combinatorics-a, name: Combinatorics A, positions: [ca1, ca2, ca3, ca4, ca5, ca6, ca7, ca8]}
+        - {paper: combinatorics-b, name: Combinatorics B, positions: [cb1, cb2, cb3, cb4, cb5, cb6, cb7, cb8]}
+        - {paper: geometry-a, name: Geometry A, positions: [ga1, ga2, ga3, ga4, ga5, ga6, ga7, ga8]}
+        - {paper: geometry-b, name: Geometry B, positions: [gb1, gb2, gb3, gb4, gb5, gb6, gb7, gb8]}
+        - {paper: number-theory-a, name: Number Theory A, positions: [na1, na2, na3, na4, na5, na6, na7, na8]}
+        - {paper: number-theory-b, name: Number Theory B, positions: [nb1, nb2, nb3, nb4, nb5, nb6, nb7, nb8]}
+        - {paper: finals-a, name: Individual Finals A, positions: [fa1, fa2, fa3]}
+        - {paper: finals-b, name: Individual Finals B, positions: [fb1, fb2, fb3]}
+        - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15, t16, t17]}
+    - from: 2018
+      to: 2018
+      per_year: 86
+      layout:
+        - {paper: algebra-a, name: Algebra A, positions: [aa1, aa2, aa3, aa4, aa5, aa6, aa7, aa8]}
+        - {paper: algebra-b, name: Algebra B, positions: [ab1, ab2, ab3, ab4, ab5, ab6, ab7, ab8]}
+        - {paper: combinatorics-a, name: Combinatorics A, positions: [ca1, ca2, ca3, ca4, ca5, ca6, ca7, ca8]}
+        - {paper: combinatorics-b, name: Combinatorics B, positions: [cb1, cb2, cb3, cb4, cb5, cb6, cb7, cb8]}
+        - {paper: geometry-a, name: Geometry A, positions: [ga1, ga2, ga3, ga4, ga5, ga6, ga7, ga8]}
+        - {paper: geometry-b, name: Geometry B, positions: [gb1, gb2, gb3, gb4, gb5, gb6, gb7, gb8]}
+        - {paper: number-theory-a, name: Number Theory A, positions: [na1, na2, na3, na4, na5, na6, na7, na8]}
+        - {paper: number-theory-b, name: Number Theory B, positions: [nb1, nb2, nb3, nb4, nb5, nb6, nb7, nb8]}
+        - {paper: finals-a, name: Individual Finals A, positions: [fa1, fa2, fa3]}
+        - {paper: finals-b, name: Individual Finals B, positions: [fb1, fb2, fb3]}
+        - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15, t16]}
   official_solutions: true
   languages: [en]
-  description: A student-run tournament with about 150 problems a year. Its official archive site is not confirmed.
+  sources: [pumac-archive, hf-ai-mo-aops]
+  description: A student-run tournament at Princeton University, with tests in algebra, combinatorics, geometry and number theory in two divisions, an individual final, a team round and a power round.
 
 - code: bmt
   name: Berkeley Math Tournament

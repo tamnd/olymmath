@@ -1,0 +1,8 @@
+id: 3de5568911c9
+kind: placement
+records:
+    - pumac/2008/na8
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem VPHQ8GW2W5, labeled 2008 Princeton University Math Competition, states the same problem as problem 8 of Number Theory A in the official PUMaC paper of 2008 (page 1). The same problem is problem 9 of Number Theory B, so the record also has an appearance at pumac/2008/nb9. The record moved from the loose problems to pumac/2008/na8."

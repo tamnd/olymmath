@@ -1,0 +1,8 @@
+id: 756e9112bbea
+kind: placement
+records:
+    - pumac/2013/t12
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem G096XCX82S, labeled 2013 Princeton University Math Competition, states the same problem as problem 12 of Team in the official PUMaC paper of 2013 (page 2). The record moved from the loose problems to pumac/2013/t12."

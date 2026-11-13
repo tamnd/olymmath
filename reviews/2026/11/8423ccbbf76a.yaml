@@ -1,0 +1,8 @@
+id: 8423ccbbf76a
+kind: placement
+records:
+    - pumac/2012/ca4
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem PZKYHH5AMY, labeled 2012 Princeton University Math Competition, states the same problem as problem 4 of Combinatorics A in the official PUMaC paper of 2012 (page 1). The same problem is problem 6 of Combinatorics B, so the record also has an appearance at pumac/2012/cb6. The record moved from the loose problems to pumac/2012/ca4."

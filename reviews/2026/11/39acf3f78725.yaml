@@ -1,0 +1,8 @@
+id: 39acf3f78725
+kind: placement
+records:
+    - pumac/2023/ab1
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem RDKCSVPHRJ, labeled 2023 Princeton University Math Competition, states the same problem as problem 1 of Algebra B in the official PUMaC paper of 2023 (page 1). The record moved from the loose problems to pumac/2023/ab1."

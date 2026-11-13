@@ -1,0 +1,8 @@
+id: 2d9a4ef02b6f
+kind: placement
+records:
+    - pumac/2007/fa3
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem DEW2MYGYKG, labeled 2007 Princeton University Math Competition, states the same problem as problem 3 of Individual Finals A in the official PUMaC paper of 2007 (page 1). The record moved from the loose problems to pumac/2007/fa3."

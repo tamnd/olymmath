@@ -1,0 +1,8 @@
+id: 99f149ac5799
+kind: sample
+records:
+    - pumac/2012/fa2
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The text and the math match the official PUMaC 2012 paper (Individual Finals A, page 1), checked against the page image. The text states one complete problem and no solution."

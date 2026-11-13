@@ -1,0 +1,8 @@
+id: 4f7cae445db8
+kind: placement
+records:
+    - pumac/2023/na7
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem 2VZQWZDSD6, labeled 2023 Princeton University Math Competition, states the same problem as problem 7 of Number Theory A in the official PUMaC paper of 2023 (page 1). The record moved from the loose problems to pumac/2023/na7."

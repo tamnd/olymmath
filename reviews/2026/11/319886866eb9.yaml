@@ -1,0 +1,8 @@
+id: 319886866eb9
+kind: sample
+records:
+    - pumac/2025/ca8
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The text and the math match the official PUMaC 2025 paper (Combinatorics A, page 2), checked against the page image. The text states one complete problem and no solution. The figure is cut from the same page."

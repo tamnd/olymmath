@@ -1,0 +1,8 @@
+id: 8407c6c7ee07
+kind: placement
+records:
+    - pumac/2022/t1
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem BSNREVYPPQ, labeled 2022 Princeton University Math Competition, states the same problem as problem 1 of Team in the official PUMaC paper of 2022 (page 1). The record moved from the loose problems to pumac/2022/t1."

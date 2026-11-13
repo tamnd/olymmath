@@ -1,0 +1,8 @@
+id: 997e46a4b917
+kind: placement
+records:
+    - pumac/2007/t9
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem X781WWD7DX, labeled 2007 Princeton University Math Competition, states the same problem as problem 9 of Team in the official PUMaC paper of 2007 (page 1). The record moved from the loose problems to pumac/2007/t9."

@@ -1,0 +1,8 @@
+id: 2af8bf77d805
+kind: placement
+records:
+    - pumac/2010/ga8
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem SBA4N57325, labeled 2010 Princeton University Math Competition, states the same problem as problem 8 of Geometry A in the official PUMaC paper of 2010 (page 2). The record moved from the loose problems to pumac/2010/ga8."

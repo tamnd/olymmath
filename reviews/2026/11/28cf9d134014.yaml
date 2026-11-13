@@ -1,0 +1,8 @@
+id: 28cf9d134014
+kind: placement
+records:
+    - pumac/2010/na6
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem 55JQP5J6C0, labeled 2010 Princeton University Math Competition, states the same problem as problem 6 of Number Theory A in the official PUMaC paper of 2010 (page 1). The same problem is problem 7 of Number Theory B, so the record also has an appearance at pumac/2010/nb7. The record moved from the loose problems to pumac/2010/na6."

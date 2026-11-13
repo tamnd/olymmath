@@ -1,0 +1,33 @@
+---
+tag: CQBX3295Z0
+kind: problem
+appearances:
+  - at: pumac/2015/ga5
+    primary: true
+  - at: pumac/2015/gb7
+canonical:
+  statement: S2
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: pumac-archive
+    name: Princeton University Mathematics Competition 2015 official paper
+    url: https://pumac.princeton.edu/s/PUMaC2015_GeometryA.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2015 Princeton University Math Competition
+    url: https://artofproblemsolving.com/community/c6h1600575
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=12979
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Let $P, A, B, C$ be points on circle $O$ such that $C$ does not lie on arc $\widehat{BAP}$ , $\overline{P A} = 21, \overline{P B} = 56, \overline{P C} = 35$ and $m \angle BP C = 60^\circ$ . Now choose point $D$ on the circle such that $C$ does not lie on arc $\widehat{BDP}$ and $\overline{BD} = 39$ . What is $AD$ ?

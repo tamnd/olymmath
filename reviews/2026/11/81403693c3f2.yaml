@@ -1,0 +1,8 @@
+id: 81403693c3f2
+kind: placement
+records:
+    - pumac/2009/aa7
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem FQ1NGZSNM3, labeled 2009 Princeton University Math Competition, states the same problem as problem 7 of Algebra A in the official PUMaC paper of 2009 (page 1). The record moved from the loose problems to pumac/2009/aa7."

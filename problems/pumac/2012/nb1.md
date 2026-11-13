@@ -1,0 +1,32 @@
+---
+tag: 1NQ5DWWFT2
+kind: problem
+appearances:
+  - at: pumac/2012/nb1
+    primary: true
+canonical:
+  statement: S2
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: pumac-archive
+    name: Princeton University Mathematics Competition 2012 official paper
+    url: https://pumac.princeton.edu/s/PUMaC2012_NumberTheoryB.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+  - id: S2
+    lang: en
+    source: hf-ai-mo-aops
+    name: 2012 Princeton University Math Competition
+    url: https://artofproblemsolving.com/community/c6h1927421
+    capture: hf-ai-mo-aops/data/train-00000-of-00001.parquet#row=8590
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+When some number $a^2$ is written in base $b$ , the result is $144_b$ . $a$ and $b$ also happen to be integer side lengths of a right triangle. If $a$ and $b$ are both less than $20$ , find the sum of all possible values of $a$ .

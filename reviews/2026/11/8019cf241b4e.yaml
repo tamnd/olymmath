@@ -1,0 +1,8 @@
+id: 8019cf241b4e
+kind: placement
+records:
+    - pumac/2011/ca5
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem FXJM1TS2NG, labeled 2011 Princeton University Math Competition, states the same problem as problem 5 of Combinatorics A in the official PUMaC paper of 2011 (page 1). The record moved from the loose problems to pumac/2011/ca5."

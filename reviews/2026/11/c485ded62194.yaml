@@ -1,0 +1,8 @@
+id: c485ded62194
+kind: placement
+records:
+    - pumac/2024/na6
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem 7NWCWCAKQX, labeled 2024 Princeton University Math Competition, states the same problem as problem 6 of Number Theory A in the official PUMaC paper of 2024 (page 1). The same problem is problem 8 of Number Theory B, so the record also has an appearance at pumac/2024/nb8. The record moved from the loose problems to pumac/2024/na6."

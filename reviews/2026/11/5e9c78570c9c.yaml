@@ -1,0 +1,8 @@
+id: 5e9c78570c9c
+kind: placement
+records:
+    - pumac/2020/fa3
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem 1P451HRTGW, labeled 2020 Princeton University Math Competition, states the same problem as problem 3 of Individual Finals A in the official PUMaC paper of 2020 (page 1). The record moved from the loose problems to pumac/2020/fa3."

@@ -1,0 +1,8 @@
+id: 38f8c9f47e19
+kind: placement
+records:
+    - pumac/2020/aa4
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS text of the loose problem 1PZCS1RTB8, labeled 2020 Princeton University Math Competition, states the same problem as problem 4 of Algebra A in the official PUMaC paper of 2020 (page 1). The same problem is problem 6 of Algebra B, so the record also has an appearance at pumac/2020/ab6. The record moved from the loose problems to pumac/2020/aa4."

@@ -1,0 +1,26 @@
+---
+tag: M3560EQGEV
+kind: problem
+type: answer
+answer: "1"
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=133533
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+If the equation with respect to $x$
+$$
+x^{2}-34 x+34 k-1=0
+$$
+
+has at least one positive integer root, find the value of the positive integer $k$ that satisfies the condition.

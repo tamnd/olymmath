@@ -1,0 +1,8 @@
+id: 1e7d4b01f133
+kind: match
+records:
+    - cn-mo/1989/p3
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 137859 of NuminaMath 1.5 the loose record 81FPCJJNKG. The text names this competition and its year (or its number in the series), and it is the problem of this record, but the text is cut off before the definition of f, so the row is not a clear copy. The agent removed the loose record and listed the row in registers/loose-removed.tsv, and the record keeps its own texts.'

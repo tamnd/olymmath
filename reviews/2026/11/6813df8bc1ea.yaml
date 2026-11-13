@@ -1,0 +1,8 @@
+id: 6813df8bc1ea
+kind: match
+records:
+    - ill/1989/p64
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record 2HMS88E4VT a new record, but the agent found that it is ill/1989/p64: the text names this competition and its year (or its number in the series), and the two texts state the same problem; same, positive vs natural numbers. The agent moved the row to a second statement of ill/1989/p64 and removed the loose record.'

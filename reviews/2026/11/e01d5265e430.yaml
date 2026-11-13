@@ -1,0 +1,8 @@
+id: e01d5265e430
+kind: match
+records:
+    - ru-allrussian/1965/p6
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record HJTRT1325P a new record, but the agent found that it is ru-allrussian/1965/p6: the text names this competition and its year (or its number in the series), and the two texts state the same problem; same. The agent moved the row to a second statement of ru-allrussian/1965/p6 and removed the loose record.'

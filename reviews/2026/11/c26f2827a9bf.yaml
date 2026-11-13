@@ -1,0 +1,9 @@
+id: c26f2827a9bf
+kind: pair
+records:
+    - ZANPWX7MKQ
+    - putnam/1949/a5
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 128916 of NuminaMath 1.5 to this record, but they are two problems: the row asks only for the number of roots in the second quadrant, the record asks for the number in each quadrant. The agent removed the row from the record, and row 128916 is now its own loose record.'

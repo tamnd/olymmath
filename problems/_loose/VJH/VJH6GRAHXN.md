@@ -1,0 +1,22 @@
+---
+tag: VJH6GRAHXN
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=138611
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Prove: If $0 \leqslant x<1$, then
+$$
+\frac{2}{\pi} \cdot \frac{x}{1-x} \leqslant \tan \frac{\pi x}{2} \leqslant \frac{\pi}{2} \cdot \frac{x}{1-x} .
+$$

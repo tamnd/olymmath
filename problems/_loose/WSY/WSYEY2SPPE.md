@@ -16,4 +16,4 @@ statements:
 status:
   statement: captured
 ---
-(solved by Christopher Wells). Show that there exists an integer divisible by $2^{100}$ and not containing the digit 0.
+Show that there exists an integer divisible by $2^{100}$ and not containing the digit 0.

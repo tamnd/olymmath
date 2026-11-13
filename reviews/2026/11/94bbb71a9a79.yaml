@@ -1,0 +1,8 @@
+id: 94bbb71a9a79
+kind: match
+records:
+    - Y43T763MYM
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 141090 (E 1.000, T 0.762, keyword match 1.000) and the text of Y43T763MYM state the same problem with the same data and the same question.  The record already has a statement from this source, so the row adds no new statement and makes no new record.'

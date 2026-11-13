@@ -18,7 +18,7 @@ statements:
 status:
   statement: captured
 ---
-(solved by François Caddet, Marc Coiffier, and Jean-Alix David). Let $\left(a_{n}\right)$ be defined by $a_{1}=3$, $a_{2}=2$, and for $n \geqslant 1, a_{n+2}$ is the remainder of the Euclidean division of $a_{n}+a_{n+1}$ by 100. Calculate the remainder of the Euclidean division of:
+Let $\left(a_{n}\right)$ be defined by $a_{1}=3$, $a_{2}=2$, and for $n \geqslant 1, a_{n+2}$ is the remainder of the Euclidean division of $a_{n}+a_{n+1}$ by 100. Calculate the remainder of the Euclidean division of:
 
 $$
 a_{1}^{2}+a_{2}^{2}+\cdots+a_{2007}^{2}

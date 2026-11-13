@@ -18,7 +18,7 @@ statements:
 status:
   statement: captured
 ---
-(solved by Thomas Williams). Let $\lambda$ be the positive root of the equation $t^{2}-1998 t-1=0$. Let the sequence $\left(x_{n}\right)$ be defined by $x_{0}=1$ and, for all $n \geqslant 0$, by:
+Let $\lambda$ be the positive root of the equation $t^{2}-1998 t-1=0$. Let the sequence $\left(x_{n}\right)$ be defined by $x_{0}=1$ and, for all $n \geqslant 0$, by:
 
 $$
 x_{n+1}=\left[\lambda x_{n}\right]

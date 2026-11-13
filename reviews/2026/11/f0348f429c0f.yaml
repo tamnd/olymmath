@@ -1,0 +1,9 @@
+id: f0348f429c0f
+kind: pair
+records:
+    - MR0GVA9KM0
+    - 10Q9WSENRJ
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 14907 of NuminaMath 1.5 to this record, but they are two problems: the row has each person think of an integer, the record a natural number. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 14907 is now in its own loose record.'

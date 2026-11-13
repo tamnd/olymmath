@@ -1,0 +1,8 @@
+id: 29f7e5c05574
+kind: match
+records:
+    - ill/1990/p77
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 137836 of NuminaMath 1.5 to this record, but an exponent is miscopied ((ab + bc + ca)^2 where the record has the cube), and the two sides are then not of the same degree, so the row is not a clear problem of its own. The agent took the row out and listed it in registers/loose-removed.tsv.'

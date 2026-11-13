@@ -1,0 +1,8 @@
+id: 26068e3d6d59
+kind: match
+records:
+    - gaic-math/2024/p32
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 139418 of NuminaMath 1.5 is linked to this record. The two texts differ: the row asks for all real p, the record for the sum of all possible values of p. The cubic and the condition on its roots are the same, and the sum follows from the list of all p, so it is the same problem and the link stays. The record already has a statement from this source, so the row adds no statement.'

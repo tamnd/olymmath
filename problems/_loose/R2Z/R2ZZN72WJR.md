@@ -18,7 +18,7 @@ statements:
 status:
   statement: captured
 ---
-(solved by Dmitry Ivanov). Find all pairs of integers ( $x, y$ ) such that:
+Find all pairs of integers ( $x, y$ ) such that:
 
 $$
 x^{3}=y^{3}+2 y^{2}+1 .

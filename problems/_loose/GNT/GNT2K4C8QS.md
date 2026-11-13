@@ -16,4 +16,4 @@ statements:
 status:
   statement: captured
 ---
-(solved by Ambroise Marigot). Show that there exists an integer divisible by $2^{100}$ and consisting only of the digits 8 and 9.
+Show that there exists an integer divisible by $2^{100}$ and consisting only of the digits 8 and 9.

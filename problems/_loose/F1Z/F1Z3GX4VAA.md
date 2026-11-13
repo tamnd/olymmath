@@ -16,4 +16,4 @@ statements:
 status:
   statement: captured
 ---
-(solved by Maxime Martelli and Rémi Varloot). The sequence $\left(x_{n}\right)$ is defined recursively as follows: $x_{1}=10^{2007}+1$ and for all $n \geqslant 2, x_{n}$ is the number $11 x_{n-1}$ from which the leftmost digit has been removed. Show that the sequence $\left(x_{n}\right)$ is bounded.
+The sequence $\left(x_{n}\right)$ is defined recursively as follows: $x_{1}=10^{2007}+1$ and for all $n \geqslant 2, x_{n}$ is the number $11 x_{n-1}$ from which the leftmost digit has been removed. Show that the sequence $\left(x_{n}\right)$ is bounded.

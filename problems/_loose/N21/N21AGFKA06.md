@@ -18,4 +18,4 @@ statements:
 status:
   statement: captured
 ---
-(solved by Alice Héliou). The sum of twenty consecutive integers is 1030. What is the smallest of these integers?
+The sum of twenty consecutive integers is 1030. What is the smallest of these integers?

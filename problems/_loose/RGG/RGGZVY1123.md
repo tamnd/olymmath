@@ -1,0 +1,21 @@
+---
+tag: RGGZVY1123
+kind: problem
+type: answer
+answer: <
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=138283
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Compare the size: $2^{1600} \times 3^{1000}-2^{1000} \times 3^{1400}$ (Please fill in " $", ">"$ or "=")

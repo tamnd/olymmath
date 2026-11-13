@@ -1,0 +1,8 @@
+id: 5610c90c7e78
+kind: match
+records:
+    - KSS1Z4QBSW
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 134124 and the text of KSS1Z4QBSW write the formulas in other ways, so the import linked them by the words rule (words 0.83, formulas 1.00). The agent read both texts: they are the same problem with the same data. The record already has a statement from this source, so the row adds no new statement and makes no new record.'

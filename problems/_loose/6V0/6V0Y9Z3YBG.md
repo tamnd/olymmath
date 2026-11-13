@@ -1,0 +1,19 @@
+---
+tag: 6V0Y9Z3YBG
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=134944
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+(29th Russian Mathematical Olympiad) A natural number is called a "perfect number" if it equals the sum of all its positive divisors excluding itself, for example, $6=1+2+3$. If a perfect number greater than 28 is divisible by 7, prove that it must be divisible by 49.

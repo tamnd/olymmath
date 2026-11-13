@@ -16,4 +16,4 @@ statements:
 status:
   statement: captured
 ---
-(solved by Pierre Camilleri). Show that in any polyhedron, there are always two faces with the same number of sides.
+Show that in any polyhedron, there are always two faces with the same number of sides.

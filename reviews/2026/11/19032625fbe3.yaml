@@ -1,0 +1,8 @@
+id: 19032625fbe3
+kind: match
+records:
+    - cn-mo/1987/p3
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 138709 of NuminaMath 1.5 the loose record AV4RQVMV03. The text names this competition and its year (or its number in the series), and it is the problem of this record, but the text adds a condition (n >= 6) and is cut off, so the row is not a clear copy. The agent removed the loose record and listed the row in registers/loose-removed.tsv, and the record keeps its own texts.'

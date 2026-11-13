@@ -1,0 +1,9 @@
+id: 955e4dc10acd
+kind: pair
+records:
+    - WRX81GXC91
+    - DH38X04AW1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 136501 of NuminaMath 1.5 to this record, but they are two problems: the row asks for the surface area of the sphere, the record asks for the distance from O to plane ABC. The agent removed the row from the record, and row 136501 is now its own loose record.'

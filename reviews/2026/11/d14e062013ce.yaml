@@ -1,0 +1,8 @@
+id: d14e062013ce
+kind: match
+records:
+    - E7PS0BM2E5
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made this record from row 129285 of NuminaMath 1.5 and joined another row to it. In both rows the text is cut off before its question. The agent removed the record and listed the rows in registers/loose-removed.tsv.'

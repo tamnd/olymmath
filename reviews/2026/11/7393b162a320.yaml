@@ -1,0 +1,9 @@
+id: 7393b162a320
+kind: pair
+records:
+    - 70K3VQ0J7T
+    - gaic-math/2024/p32
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 141590 of NuminaMath 1.5 to this record, but they are two problems: the row requires two roots to be natural numbers and asks for all p, the record requires all three roots natural and asks for the sum of p. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 141590 is now in its own loose record.'

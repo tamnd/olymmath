@@ -1,0 +1,8 @@
+id: 34e0311498a7
+kind: match
+records:
+    - ill/1987/p32
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 138356 of NuminaMath 1.5 to this record, but the text is garbled: z is lost from the equation and the question is a fragment, so the row is not a clear problem of its own. The agent took the row out and listed it in registers/loose-removed.tsv.'

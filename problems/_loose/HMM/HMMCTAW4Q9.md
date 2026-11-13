@@ -18,4 +18,4 @@ statements:
 status:
   statement: captured
 ---
-(solved by Grégoire de Lambert, Luc Lehericy and Jean-François Martin). Find a polynomial in two variables $P$ such that the set of values taken by $P(x, y)$ when $x$ and $y$ range over the real numbers is exactly the strictly positive real numbers.
+Find a polynomial in two variables $P$ such that the set of values taken by $P(x, y)$ when $x$ and $y$ range over the real numbers is exactly the strictly positive real numbers.

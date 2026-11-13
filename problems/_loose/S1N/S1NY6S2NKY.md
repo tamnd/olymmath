@@ -1,0 +1,24 @@
+---
+tag: S1NY6S2NKY
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=133837
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+In the magic orchard, there are only "Prince Trees" and "Princess Trees". Each "Prince Tree" has 8 red apples and 4 green apples, and each "Princess Tree" has 10 red apples and 5 green apples. There are a total of 164 red apples in the orchard. How many green apples are there?
+A. 60
+B. 62
+C. 72
+D. 82
+E. 100

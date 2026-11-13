@@ -1,0 +1,8 @@
+id: 895d133c2ca4
+kind: match
+records:
+    - C3ZJM19YA6
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 134086 was joined into this record, which holds row 125937. The two rows ask for the same range of m for f(x) = 9^x - m 3^x + m + 1. Choice B differs (m < -2 against m < 2), but the other choices and the answer (C) are the same, so it is the same problem.'

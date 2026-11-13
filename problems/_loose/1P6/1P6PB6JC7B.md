@@ -18,7 +18,7 @@ statements:
 status:
   statement: captured
 ---
-(solved by Victor Quach). Find all real solutions of the equation:
+Find all real solutions of the equation:
 
 $$
 4 x^{2}-40[x]+51=0

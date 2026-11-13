@@ -1,0 +1,9 @@
+id: f04b24ba5158
+kind: pair
+records:
+    - 18ZJYV4DZS
+    - 90KWD2SQSJ
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 141455 of NuminaMath 1.5 to this record, but they are two problems: the row requires a to be positive, the record lets a be any real, the condition f''(4)=0 forces a=-9/2, so the row has no valid a. The agent removed the row from the record, and row 141455 is now its own loose record.'

@@ -1,0 +1,9 @@
+id: 85ac63c29660
+kind: pair
+records:
+    - 4360NS2PPY
+    - smt/2013/a10
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 133077 of NuminaMath 1.5 to this record, but they are two problems: the row excludes z = 1 and asks for the value, the record allows z = 1 and asks for all possible values. The agent removed the row from the record, and row 133077 is now its own loose record.'

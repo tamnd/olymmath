@@ -1,0 +1,9 @@
+id: f4222aa052f8
+kind: pair
+records:
+    - A2AFBXP61Z
+    - HQYDS2THHY
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 89186 of NuminaMath 1.5 to this record, but they are two problems: the row asks to prove no odd x, y, z exist, the record asks whether they exist. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 89186 is now in its own loose record.'

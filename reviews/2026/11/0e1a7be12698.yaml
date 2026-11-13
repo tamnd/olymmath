@@ -1,0 +1,8 @@
+id: 0e1a7be12698
+kind: match
+records:
+    - 6XNDWBFYY2
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. This loose record of an earlier batch is a part of a solution (''by transitivity, as in Theorem 2.2.3''), not a problem. The import also linked row 128714, another part of a solution, to it. The agent removed the record and listed both rows in registers/loose-removed.tsv.'

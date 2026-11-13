@@ -1,0 +1,9 @@
+id: 69a3ad27ac02
+kind: pair
+records:
+    - 7P43SV4GSR
+    - baltic-way/1995/p6
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 131618 of NuminaMath 1.5 to this record, but they are two problems: the row last term (d-b)/(d+a) and bound >= 1, the record last term (d+b)/(d+a) and bound >= 4. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 131618 is now in its own loose record.'

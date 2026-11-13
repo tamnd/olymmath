@@ -16,4 +16,4 @@ statements:
 status:
   statement: captured
 ---
-(solved by Emmanuel Lecouturier). A binary operation * satisfies $(a \star b) \star c=$ $a+b+c$ for all real numbers $a, b$ and $c$. Show that $\star$ is the usual addition.
+A binary operation * satisfies $(a \star b) \star c=$ $a+b+c$ for all real numbers $a, b$ and $c$. Show that $\star$ is the usual addition.

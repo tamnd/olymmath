@@ -1,0 +1,9 @@
+id: 041045c24a08
+kind: pair
+records:
+    - BY7A8V1JWW
+    - 24P3S18JP5
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 83852 of NuminaMath 1.5 to this record, but they are two problems: the row asks to prove there are no integer solutions, the record asks to solve the equation in integers. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 83852 is now in its own loose record.'

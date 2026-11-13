@@ -1,0 +1,8 @@
+id: 5414a47054af
+kind: match
+records:
+    - ahsme/1950/p42
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 134479 of NuminaMath 1.5 the loose record 90Q8EPFEEX. The text names this competition and its year (or its number in the series), and it is the problem of this record, but the tower of powers and the choices are garbled, so the row is not a clear copy. The agent removed the loose record and listed the row in registers/loose-removed.tsv, and the record keeps its own texts.'

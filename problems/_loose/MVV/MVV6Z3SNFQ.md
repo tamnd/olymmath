@@ -16,4 +16,4 @@ statements:
 status:
   statement: captured
 ---
-(solved by Marcus Hanzig). We denote $\{x\}$ as the fractional part of a real number $x$. Show that $\{n \sqrt{3}\} > \frac{1}{n \sqrt{3}}$ for all positive integers $n$. Does there exist a constant $c > 1$ such that $\{n \sqrt{3}\} > \frac{c}{n \sqrt{3}}$ for all positive integers $n$?
+We denote $\{x\}$ as the fractional part of a real number $x$. Show that $\{n \sqrt{3}\} > \frac{1}{n \sqrt{3}}$ for all positive integers $n$. Does there exist a constant $c > 1$ such that $\{n \sqrt{3}\} > \frac{c}{n \sqrt{3}}$ for all positive integers $n$?

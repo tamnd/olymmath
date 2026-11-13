@@ -1,0 +1,9 @@
+id: f283be8cd66f
+kind: pair
+records:
+    - MZ757H9VV2
+    - VTMPT0XTZ7
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 138985 of NuminaMath 1.5 to this record, but they are two problems: inequality direction differs: the row has (x^2+y^2+z^2)^2 <= n(x^4+y^4+z^4), the record has >=. The agent removed the row from the record, and row 138985 is now its own loose record.'

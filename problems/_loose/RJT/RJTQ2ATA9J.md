@@ -18,4 +18,4 @@ statements:
 status:
   statement: captured
 ---
-(solved by Gaspard Ferey). Let $A$ and $B$ be two points in the plane and (d) a line that does not intersect the segment $[A B]$. Determine (geometrically) the point $M$ on (d) for which the angle $\widehat{A M B}$ is maximal.
+Let $A$ and $B$ be two points in the plane and (d) a line that does not intersect the segment $[A B]$. Determine (geometrically) the point $M$ on (d) for which the angle $\widehat{A M B}$ is maximal.

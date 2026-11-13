@@ -18,4 +18,4 @@ statements:
 status:
   statement: captured
 ---
-(solved by Sébastien Miquel). The natural number $A$ has the following property: the number $1+2+\cdots+A$ is written (in base 10) as the number $A$ followed by three other digits. Find $A$.
+The natural number $A$ has the following property: the number $1+2+\cdots+A$ is written (in base 10) as the number $A$ followed by three other digits. Find $A$.

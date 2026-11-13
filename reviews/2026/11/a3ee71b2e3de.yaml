@@ -1,0 +1,9 @@
+id: a3ee71b2e3de
+kind: pair
+records:
+    - Q1EY0S11R9
+    - jbmo/2007/p4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 79320 of NuminaMath 1.5 to this record, but they are two problems: the row asks to find all primes p making 7p+3^p-4 a perfect square, the record asks to prove it is never a perfect square. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 79320 is now in its own loose record.'

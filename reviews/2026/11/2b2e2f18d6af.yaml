@@ -1,0 +1,8 @@
+id: 2b2e2f18d6af
+kind: match
+records:
+    - aime/1986/p5
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 126046 of NuminaMath 1.5 the loose record TV5KQYF6BC. The text names this competition and its year (or its number in the series), and it is the problem of this record, but the text has a solution after the question, so the row is not a clear copy. The agent removed the loose record and listed the row in registers/loose-removed.tsv, and the record keeps its own texts.'

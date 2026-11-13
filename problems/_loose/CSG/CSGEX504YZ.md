@@ -18,4 +18,4 @@ statements:
 status:
   statement: captured
 ---
-(solved by François Caddet and Jean-Alix David). Is 1000000027 a prime number?
+Is 1000000027 a prime number?

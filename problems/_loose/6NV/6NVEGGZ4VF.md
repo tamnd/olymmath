@@ -16,4 +16,4 @@ statements:
 status:
   statement: captured
 ---
-(solved by Thomas Williams). Show that the number $\underbrace{11 \ldots 111}_{3^{n}}$ is divisible by $3^{n}$, but not by $3^{n+1}$.
+Show that the number $\underbrace{11 \ldots 111}_{3^{n}}$ is divisible by $3^{n}$, but not by $3^{n+1}$.

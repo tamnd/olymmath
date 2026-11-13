@@ -1,0 +1,8 @@
+id: d9696fe59df1
+kind: match
+records:
+    - ahsme/1979/p13
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 132600 of NuminaMath 1.5 the loose record C51RWJVC1S. The text names this competition and its year (or its number in the series), and it is the problem of this record, but the inequality and the question are lost, so the row is not a clear copy. The agent removed the loose record and listed the row in registers/loose-removed.tsv, and the record keeps its own texts.'

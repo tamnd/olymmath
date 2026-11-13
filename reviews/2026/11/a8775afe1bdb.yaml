@@ -1,0 +1,8 @@
+id: a8775afe1bdb
+kind: match
+records:
+    - cn-gmo/2004/p2
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 125757 (E 0.975, T 0.596, keyword match 0.967) and the text of cn-gmo/2004/p2 state the same problem with the same data and the same question.  The record already has a statement from this source, so the row adds no new statement and makes no new record.'

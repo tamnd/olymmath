@@ -1,0 +1,9 @@
+id: 1d59e0267a3f
+kind: pair
+records:
+    - MPDYZ305VB
+    - FK4VNAJ8RS
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 139908 of NuminaMath 1.5 to this record, but they are two problems: the row asks for cos of the angle ABC, the record for the size of the angle C. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 139908 is now in its own loose record.'

@@ -1,0 +1,9 @@
+id: 9cf0fbba55f8
+kind: pair
+records:
+    - E548GD9VQ5
+    - ie-irmo/1991/p7
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 124369 of NuminaMath 1.5 to this record, but they are two problems: the row lower bound is 1/(n+1)^3, the record lower bound is 1/(n^3+1). The agent removed the row from the record, and row 124369 is now its own loose record.'

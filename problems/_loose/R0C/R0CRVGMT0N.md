@@ -18,7 +18,7 @@ statements:
 status:
   statement: captured
 ---
-(solved by Mathieu Aria, Jeanne Nguyen and Thomas Williams). Let $n \geqslant 3$ and $x_{1}, \ldots, x_{n-1}$ be non-negative integers. We assume:
+Let $n \geqslant 3$ and $x_{1}, \ldots, x_{n-1}$ be non-negative integers. We assume:
 
 $$
 \begin{aligned}

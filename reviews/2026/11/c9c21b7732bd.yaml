@@ -1,0 +1,9 @@
+id: c9c21b7732bd
+kind: pair
+records:
+    - WH9DPY0VAX
+    - YACWWZQD2D
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 131688 of NuminaMath 1.5 to this record, but they are two problems: the row has CD = sqrt(3), the record has CD = 3, which changes the volume (1/2 vs sqrt(3)/2). The agent removed the row from the record, and row 131688 is now its own loose record.'

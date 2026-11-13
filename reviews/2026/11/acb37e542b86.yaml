@@ -1,0 +1,8 @@
+id: acb37e542b86
+kind: match
+records:
+    - 85G4VRP703
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made this record from row 130051 of NuminaMath 1.5 and joined another row to it. In both rows the symbols of the operation are lost. The agent removed the record and listed the rows in registers/loose-removed.tsv.'

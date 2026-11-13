@@ -1,0 +1,9 @@
+id: 65898a7d47ad
+kind: pair
+records:
+    - 4DN1RYRB84
+    - cn-mo/1996/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 130017 of NuminaMath 1.5 to this record, but they are two problems: the row upper bound is n/2, the record upper bound is pi/2. The agent removed the row from the record, and row 130017 is now its own loose record.'

@@ -1,0 +1,8 @@
+id: ab9395f0f7e0
+kind: match
+records:
+    - ahsme/1996/p22
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 124588 of NuminaMath 1.5 the loose record 9PSK5NXV3Q. The text names this competition and its year (or its number in the series), and it states the same problem as this record; same. The record already has a statement from this source, so the agent removed the loose record and listed the row in registers/loose-removed.tsv.'

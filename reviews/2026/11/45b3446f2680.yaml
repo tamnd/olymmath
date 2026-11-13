@@ -1,0 +1,9 @@
+id: 45b3446f2680
+kind: pair
+records:
+    - 53HBXWGB4T
+    - de-bundeswettbewerb/2006/p6
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 135422 of NuminaMath 1.5 to this record, but they are two problems: the row codomain is Q+, the record codomain is R. The agent removed the row from the record, and row 135422 is now its own loose record.'

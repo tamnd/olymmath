@@ -1,0 +1,9 @@
+id: e6cbe71047ad
+kind: pair
+records:
+    - 1BQ35S3V4N
+    - FEXHVKARSZ
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 138602 of NuminaMath 1.5 to this record, but they are two problems: the row asks for the maximum number of black dots on the surface, the record asks for the least number. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 138602 is now in its own loose record.'

@@ -1,0 +1,9 @@
+id: 5e549f31e496
+kind: pair
+records:
+    - ABWF3PMTD0
+    - cn-wmo/2004/p8
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 96693 of NuminaMath 1.5 to this record, but they are two problems: the row says any real numbers a, b, c, the record says positive real numbers. The agent removed the row from the record, and row 96693 is now its own loose record.'

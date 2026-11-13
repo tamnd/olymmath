@@ -1,0 +1,8 @@
+id: ac10fe5a1ece
+kind: match
+records:
+    - 2107J3KCKJ
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 98126 of NuminaMath 1.5 was joined into this record, which holds row 97979. Row 98126 is cut off before its question, so it is not a problem of its own. The record keeps the complete text of row 97979.'

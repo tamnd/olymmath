@@ -1,0 +1,9 @@
+id: 3515ba836177
+kind: pair
+records:
+    - EB44487KZX
+    - ill/1988/p46
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 98235 of NuminaMath 1.5 to this record, but they are two problems: the row has N_i(x) = x/e and allows i <= j, the record has N_i(x) >= x/e and i < j. The agent removed the row from the record, and row 98235 is now its own loose record.'

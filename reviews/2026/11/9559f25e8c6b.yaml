@@ -1,0 +1,8 @@
+id: 9559f25e8c6b
+kind: match
+records:
+    - TEJNV6DCNN
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 77015 (E 0.954, T 0.278, keyword match 0.958) and the text of TEJNV6DCNN state the same problem with the same data and the same question.  The record already has a statement from this source, so the row adds no new statement and makes no new record.'

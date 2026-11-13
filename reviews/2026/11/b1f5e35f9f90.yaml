@@ -1,0 +1,9 @@
+id: b1f5e35f9f90
+kind: pair
+records:
+    - VW3JEXZZPH
+    - C3BXBTX89D
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 82726 of NuminaMath 1.5 to this record, but they are two problems: the row has the two distributive laws (A and (B or C), A or (B and C)), the record has a different second part (a negation identity) and a mis-stated first one. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 82726 is now in its own loose record.'

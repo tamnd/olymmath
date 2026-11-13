@@ -1,0 +1,9 @@
+id: a157e5d685b8
+kind: pair
+records:
+    - A7DF5PG16E
+    - ill/1990/p22
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 107862 of NuminaMath 1.5 to this record, but they are two problems: the row asks for divisibility by 31, the record asks for divisibility by 13. The agent removed the row from the record, and row 107862 is now its own loose record.'

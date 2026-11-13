@@ -1,0 +1,9 @@
+id: 3090a9c70c0c
+kind: pair
+records:
+    - ER1B24C0PJ
+    - Y6B5VB3B39
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 83641 of NuminaMath 1.5 to this record, but they are two problems: the row uses n^4+a*n, the record uses n^4+a (different expression). The record already had a statement from this source, so the row added no statement and the problem was lost. Row 83641 is now in its own loose record.'

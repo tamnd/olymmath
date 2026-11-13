@@ -1,0 +1,8 @@
+id: 3e819dce0eef
+kind: match
+records:
+    - WJ3EPXAC87
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 103601 of NuminaMath 1.5 to this record, but the text is garbled, all its choices are labelled (A) and two of them are missing, so the row is not a clear problem of its own. The agent took the row out and listed it in registers/loose-removed.tsv.'

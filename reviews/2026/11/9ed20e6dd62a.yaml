@@ -1,0 +1,9 @@
+id: 9ed20e6dd62a
+kind: pair
+records:
+    - T2ACAZNXFG
+    - 799BFJ14CY
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 78834 of NuminaMath 1.5 to this record, but they are two problems: the row proves a function is uniquely a sum of an even and an odd function, the record asks if a strictly convex graph has four points forming a parallelogram. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 78834 is now in its own loose record.'

@@ -1,0 +1,8 @@
+id: 2971ecb93780
+kind: match
+records:
+    - B72FW9ZN3M
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 106421 was joined into this record, which holds row 99887. The two rows are the same text (the graphs of the line ax - y + b = 0 and the curve bx^2 + ay^2 = ab); only the word ''answer'' differs.'

@@ -1,0 +1,9 @@
+id: b170918f0f2a
+kind: pair
+records:
+    - 74VEK48H9B
+    - XMPHJ5M43P
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 104803 of NuminaMath 1.5 to this record, but they are two problems: the row requires |z| <= 2 for all theta, the record requires |z| >= 2 for all theta. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 104803 is now in its own loose record.'

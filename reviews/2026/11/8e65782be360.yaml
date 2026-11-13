@@ -1,0 +1,9 @@
+id: 8e65782be360
+kind: pair
+records:
+    - SXXX5RG7TS
+    - jbmo-sl/2014/a3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 99668 of NuminaMath 1.5 to this record, but they are two problems: the row: a+b+c=1, sum (a+1/a)^2 >= 100/3, the record: abc=1, sum (a+1/b)^2 >= 3(a+b+c+1). The record already had a statement from this source, so the row added no statement and the problem was lost. Row 99668 is now in its own loose record.'

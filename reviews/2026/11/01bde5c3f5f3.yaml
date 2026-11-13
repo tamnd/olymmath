@@ -1,0 +1,8 @@
+id: 01bde5c3f5f3
+kind: match
+records:
+    - isl/1994/g3
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record D92NH7M7CJ a new record, but the agent found that it is isl/1994/g3: the text names this competition and its year (or its number in the series), and the two texts state the same problem; only the wording or the translation differs. The agent moved the row to a second statement of isl/1994/g3 and removed the loose record.'

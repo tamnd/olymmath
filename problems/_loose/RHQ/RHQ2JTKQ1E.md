@@ -1,0 +1,19 @@
+---
+tag: RHQ2JTKQ1E
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=100637
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Draw a closed broken line on squared paper, such that each vertex of the broken line is a node on the squared paper, and the lengths of all sides of the broken line are equal. Prove that the number of sides of the broken line must be even.

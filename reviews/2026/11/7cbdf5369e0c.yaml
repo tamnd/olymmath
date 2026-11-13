@@ -1,0 +1,8 @@
+id: 7cbdf5369e0c
+kind: match
+records:
+    - TP087S49XT
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 68102 (E 0.990, T 0.486, keyword match 1.000) and the text of TP087S49XT state the same problem with the same data and the same question.  The record already has a statement from this source, so the row adds no new statement and makes no new record.'

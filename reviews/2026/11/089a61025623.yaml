@@ -1,0 +1,8 @@
+id: 089a61025623
+kind: match
+records:
+    - usamo/1987/p3
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record 8H6243Q5YN a new record, but the agent found that it is usamo/1987/p3: the text names this competition and its year (or its number in the series), and the two texts state the same problem; the row has x - f(x) for x f(x), likely slip. The agent moved the row to a second statement of usamo/1987/p3 and removed the loose record.'

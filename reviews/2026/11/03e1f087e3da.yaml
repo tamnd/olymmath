@@ -1,0 +1,8 @@
+id: 03e1f087e3da
+kind: match
+records:
+    - tot/2002-spring/jo2
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 59944 and the text of tot/2002-spring/jo2 write the formulas in other ways, so the import linked them by the words rule (words 0.80, formulas 1.00). The agent read both texts: they are the same problem with the same data. The record already has a statement from this source, so the row adds no new statement and makes no new record.'

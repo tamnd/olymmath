@@ -1,0 +1,21 @@
+---
+tag: WWZWV1CF57
+kind: problem
+type: answer
+answer: "1003"
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=105947
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+The positive integer $n$ makes every $n$-element subset of the set $\{1,2,3, \cdots, 2008\}$ have 2 elements (which can be the same), whose sum is a positive integer constant of 2, then the minimum value of $n$ is $ $

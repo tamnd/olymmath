@@ -1,0 +1,32 @@
+---
+tag: HFCHQ8HABB
+kind: problem
+type: answer
+answer: 2-\frac{1}{2^{n-1}}-\frac{n}{2^{n}}
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=94495
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+$n^{2}(n \geqslant 4)$ positive numbers are arranged in $n$ rows and $n$ columns
+$$
+\begin{array}{l}
+a_{11} a_{12} a_{13} a_{14} \cdots a_{1 n} \\
+a_{21} a_{22} a_{23} a_{24} \cdots a_{2 n} \\
+a_{31} a_{32} a_{33} a_{34} \cdots a_{3 n} \\
+\cdots \cdots \cdots \cdots \cdots \\
+a_{n 1} a_{n 2} a_{n 3} a_{n 4} \cdots a_{n n}
+\end{array}
+$$
+
+where the numbers in each row form an arithmetic sequence, and the numbers in each column form a geometric sequence, with all common ratios being equal. Given $a_{24}=1, a_{42}=\frac{1}{8}, a_{43}=\frac{3}{16}$, find $a_{11}+a_{22}+a_{23}+\cdots+a_{n n}$.

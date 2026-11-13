@@ -1,0 +1,9 @@
+id: d08f0ed5779b
+kind: pair
+records:
+    - 5XDYAQ32BR
+    - gaic-math/2024/p72
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 108038 of NuminaMath 1.5 to this record, but they are two problems: the row condition is |f(i)-i| <= 2, the record condition is |f(i)-i| = 2. The agent removed the row from the record, and row 108038 is now its own loose record.'

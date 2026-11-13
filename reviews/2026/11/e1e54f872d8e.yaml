@@ -1,0 +1,8 @@
+id: e1e54f872d8e
+kind: match
+records:
+    - A6HK125PJ7
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 106256 was joined into this record, which holds row 105587. The two rows ask for the same number of ways to put 8 girls and 25 boys in a circle; one asks it as a question, the other as a blank.'

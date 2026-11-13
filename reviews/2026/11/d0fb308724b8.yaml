@@ -1,0 +1,8 @@
+id: d0fb308724b8
+kind: sample
+records:
+    - YY3NWBNYD3
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text ends with the note ''20th American High School Mathematics Examination, 1969'', and it is the text of ahsme/1969/p20 (the number of digits of a product). The import did not find it. That record already has a statement from this source, so the agent removed the loose record and listed the row in registers/loose-removed.tsv.'

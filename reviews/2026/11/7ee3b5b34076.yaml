@@ -1,0 +1,9 @@
+id: 7ee3b5b34076
+kind: pair
+records:
+    - R89HRXCMRS
+    - mk-mo/2007/p1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 253087 of NuminaMath 1.5 to this record, but they are two problems: the row has abc=1 and 1+3/(a+b+c) >= 6/(ab+bc+ca), the record has no condition and the two sums swapped. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 253087 is now in its own loose record.'

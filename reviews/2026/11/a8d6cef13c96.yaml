@@ -1,0 +1,8 @@
+id: a8d6cef13c96
+kind: match
+records:
+    - 66S8HD43ND
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 248826 and the text of 66S8HD43ND write the formulas in other ways, so the import linked them by the words rule (words 0.89, formulas 0.90). The agent read both texts: they are the same problem with the same data. The row is a second statement of the record.'

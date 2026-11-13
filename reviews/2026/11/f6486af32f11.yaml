@@ -1,0 +1,8 @@
+id: f6486af32f11
+kind: match
+records:
+    - isl/1995/n1
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 240823 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row fixes both n and k, so the claim of infinitely many squares of the form n*2^k-7 is not a clear problem. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

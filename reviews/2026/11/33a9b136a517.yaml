@@ -1,0 +1,9 @@
+id: 33a9b136a517
+kind: pair
+records:
+    - M5ABV68NYM
+    - amc12/2023b/p12
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 258590 of NuminaMath 1.5 to this record, but they are two problems: the answer choices differ (row: sqrt10, 3sqrt2, 2sqrt6, 6, 5sqrt2, record: 2, 5, sqrt5, sqrt10, 5sqrt2), likely the AMC 10 version. The agent removed the row from the record, and row 258590 is now in a new loose record.'

@@ -1,0 +1,9 @@
+id: d5e734bb2583
+kind: pair
+records:
+    - NWVA2BB5SV
+    - nemotron-imo-bench/2026/n37
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 251074 of NuminaMath 1.5 to this record, but they are two problems: the record asks for progressions of positive integers, the row gives no positivity condition on the terms. The agent removed the row from the record, and row 251074 is now in a new loose record.'

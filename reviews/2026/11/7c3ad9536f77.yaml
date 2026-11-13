@@ -1,0 +1,8 @@
+id: 7c3ad9536f77
+kind: match
+records:
+    - schweitzer/2005/p1
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 238576 of NuminaMath 1.5 to this record, but the row is not a clear copy: the codomain of f is garbled to ** where the record has [b], so b never enters the definition. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

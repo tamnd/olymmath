@@ -1,0 +1,9 @@
+id: de38185c741e
+kind: pair
+records:
+    - WZ6B3BK0V2
+    - ie-irmo/2005/p10
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 248228 of NuminaMath 1.5 to this record, but they are two problems: the row has non-zero m,n of like parity, the record needs m,n odd. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 248228 is now in its own loose record.'

@@ -1,0 +1,22 @@
+---
+tag: TGZE2B7DF6
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=250855
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+A chessboard has 64 cells painted black and white in the usual way.
+A bishop path is a sequence of distinct cells such that two consecutive cells have
+exactly one common point. At least how many bishop paths can the set of all white
+cells be divided into?

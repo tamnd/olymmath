@@ -1,0 +1,9 @@
+id: db87fbfd6c01
+kind: pair
+records:
+    - WH7Z9HB262
+    - de-bundeswettbewerb/2000/p1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 236734 of NuminaMath 1.5 to this record, but they are two problems: the row asks about numbers with 1999 digits, the record about 2000 digits. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 236734 is now in its own loose record.'

@@ -1,0 +1,19 @@
+---
+tag: VNC53S8HZR
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=245397
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Given a chord $PQ$ of a circle and $M$ the midpoint of the chord, let $AB$ and $CD$ be two chords that pass through $M$. $AC$ and $BD$ are drawn until $PQ$ is intersected at points $X$ and $Y$ respectively. Show that $X$ and $Y$ are equidistant from $M$.

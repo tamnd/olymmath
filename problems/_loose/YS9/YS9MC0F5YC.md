@@ -1,0 +1,23 @@
+---
+tag: YS9MC0F5YC
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=250787
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+The total number of languages used in KAUST is $n$. For each positive integer $k \le n$, let $A_k$ be the set of all those people in KAUST who can speak at least $k$ languages; and let $B_k$ be the set of all people $P$ in KAUST with the property that, for any $k$ pairwise different languages (used in KAUST), $P$ can speak at least one of these $k$ languages. Prove that
+(a) If $2k \ge n + 1$ then $A_k \subseteq B_k$
+(b) If $2k \le n + 1$ then $A_k \supseteq B_k.$
+
+Nguyễn Duy Thái Sơn

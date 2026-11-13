@@ -1,0 +1,8 @@
+id: 8b7cd54f4777
+kind: match
+records:
+    - bg-mo/2019/p2
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 242992 of NuminaMath 1.5 to this record, but the row is another version of it: the row asks to prove that angle OHC is 90 degrees, the record asks to determine angle OHC. The project only links the texts of bg-mo, so the agent made no loose record of the row. The agent listed the row in registers/loose-removed.tsv.'

@@ -1,0 +1,8 @@
+id: e1cc16396e65
+kind: match
+records:
+    - ZBG7E58TMT
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 243241 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row''s right side is miscopied as sqrt(bc)sqrt(ca), a plus sign is lost. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

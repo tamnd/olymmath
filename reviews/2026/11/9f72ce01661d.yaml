@@ -1,0 +1,8 @@
+id: 9f72ce01661d
+kind: match
+records:
+    - aime/1986/p13
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 255325 of NuminaMath 1.5 to this record, but the row is not a clear copy: the example sequence is miscopied (HHTTHHHHTHHTTTT does not have two HH, three HT, four TH, five TT), the record has TTTHHTHTTTHHTTH. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

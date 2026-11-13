@@ -1,0 +1,9 @@
+id: 8df0544c8e49
+kind: pair
+records:
+    - FRS3MMGVGT
+    - th-tmo/2012/p12
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 235015 of NuminaMath 1.5 to this record, but they are two problems: the row has integers with a/b+b/c+c/a equal to 3, the record has positive integers with the sum any integer. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 235015 is now in its own loose record.'

@@ -1,0 +1,9 @@
+id: 9db5b86fb834
+kind: pair
+records:
+    - WMH69D0YGC
+    - smt/2013/k3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 231788 of NuminaMath 1.5 to this record, but they are two problems: the row has denominator e^{ax}-2bx-1 and asks how many pairs, the record has e^{ax}-bx-1 and asks to find all pairs. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 231788 is now in its own loose record.'

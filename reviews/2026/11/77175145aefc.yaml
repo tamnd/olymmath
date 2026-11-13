@@ -1,0 +1,8 @@
+id: 77175145aefc
+kind: match
+records:
+    - BWTHSF3E58
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 239475 was joined into this record, which holds row 238973. The two rows state the same problem (the monic polynomial of degree 4 with p(k)=k for k=1,...,4, and the value p(5)); the same four choices are given as a list in one row and with letters in the other.'

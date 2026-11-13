@@ -1,0 +1,8 @@
+id: 10be0976da36
+kind: sample
+records:
+    - CGCTE24TKZ
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text states one complete problem and no solution. It is a proof problem, and the answer in the source only repeats the claim, so the agent removed the answer from the record.'

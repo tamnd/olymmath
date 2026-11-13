@@ -1,0 +1,9 @@
+id: bc43cb13ca72
+kind: pair
+records:
+    - 9519M8ZZQ0
+    - VYVY635D0G
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 237219 of NuminaMath 1.5 to this record, but they are two problems: the row asks for integer solutions x,y, the record for all values of x+y over reals. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 237219 is now in its own loose record.'

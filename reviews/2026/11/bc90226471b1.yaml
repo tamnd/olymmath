@@ -1,0 +1,9 @@
+id: bc90226471b1
+kind: pair
+records:
+    - B6JWMJ562M
+    - ua-umo/2021/p111
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 254624 of NuminaMath 1.5 to this record, but they are two problems: the row has divisibility by 10 for positive n, the record has divisibility by 2021 for every integer n. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 254624 is now in its own loose record.'

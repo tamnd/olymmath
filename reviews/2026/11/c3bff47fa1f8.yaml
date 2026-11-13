@@ -1,0 +1,9 @@
+id: c3bff47fa1f8
+kind: pair
+records:
+    - 83QBN8MJ13
+    - jp-jmo/2000/p3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 243332 of NuminaMath 1.5 to this record, but they are two problems: the row asks for a strict inequality <, the record for <=. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 243332 is now in its own loose record.'

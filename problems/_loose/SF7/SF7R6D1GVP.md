@@ -1,0 +1,19 @@
+---
+tag: SF7R6D1GVP
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=244368
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Let $ a_1,a_2,...,a_{2003}\geq 0$, such that $ a_1+a_2+...+a_{2003}=2$ and $ a_1a_2+a_2a_3+...+a_{2003}a_1=1$. Determine the minimum and maximum value of $ a_1^2+a_2^2+...+a_{2003}^2$.

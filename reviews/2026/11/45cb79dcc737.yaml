@@ -1,0 +1,9 @@
+id: 45cb79dcc737
+kind: pair
+records:
+    - JA2FMYWEN5
+    - PAXHEV943A
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 249420 of NuminaMath 1.5 to this record, but they are two problems: the row has any n-gon, the record a convex n-gon (the count depends on convexity). The agent removed the row from the record, and row 249420 is now in a new loose record.'

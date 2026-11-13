@@ -1,0 +1,9 @@
+id: b966e7e5423e
+kind: pair
+records:
+    - 1Q5P4QM02V
+    - austrian-polish/1979/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 251271 of NuminaMath 1.5 to this record, but they are two problems: the row has constant term (-1)^n n(n+1), the record (-1)^n (n+1). The agent removed the row from the record, and row 251271 is now in a new loose record.'

@@ -1,0 +1,9 @@
+id: 49078df5e905
+kind: pair
+records:
+    - C625TVEB2Y
+    - ru-spb/2022/p113
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 250269 of NuminaMath 1.5 to this record, but they are two problems: the row says the player who writes a polynomial with no real roots loses, the record says the one who writes a polynomial that does have real roots loses. The agent removed the row from the record, and row 250269 is now in a new loose record.'

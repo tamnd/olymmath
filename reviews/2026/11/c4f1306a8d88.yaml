@@ -1,0 +1,9 @@
+id: c4f1306a8d88
+kind: pair
+records:
+    - M38N4VTPBB
+    - pamo/2006/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 242497 of NuminaMath 1.5 to this record, but they are two problems: the row asks which positive integers the six-term sum takes for pairwise coprime positive a,b,c, the record has two three-term sums both integers for non-zero integers. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 242497 is now in its own loose record.'

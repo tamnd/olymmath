@@ -1,0 +1,9 @@
+id: ccf33d4cef71
+kind: pair
+records:
+    - MBJE1VF75D
+    - ie-irmo/2007/p1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 241099 of NuminaMath 1.5 to this record, but they are two problems: the row has q divides p+6, the record q divides p+7. The agent removed the row from the record, and row 241099 is now in a new loose record.'

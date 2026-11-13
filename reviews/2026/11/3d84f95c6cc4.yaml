@@ -1,0 +1,8 @@
+id: 3d84f95c6cc4
+kind: sample
+records:
+    - Z3V1B8EVCS
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text states one complete construction problem and no solution. The answer in the source is only the letter E, which is not an answer to a construction, so the agent removed the answer from the record.'

@@ -1,0 +1,9 @@
+id: 0a9f82ae419e
+kind: pair
+records:
+    - 2NT6QTM3EV
+    - AAPK44G9ZD
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 18018 of NuminaMath 1.5 to this record, but they are two problems: the record requires two distinct roots, the row has no distinctness condition. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 18018 is now in its own loose record.'

@@ -1,0 +1,8 @@
+id: 21ea68e6db34
+kind: match
+records:
+    - amc8/1988/p11
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 258685 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row lost the question (sqrt 164 is) and has only the answer choices. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

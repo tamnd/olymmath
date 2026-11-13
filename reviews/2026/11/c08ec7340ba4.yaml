@@ -1,0 +1,9 @@
+id: c08ec7340ba4
+kind: pair
+records:
+    - FN2M00T14Q
+    - es-ome/1997/p4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 234868 of NuminaMath 1.5 to this record, but they are two problems: the row takes p an odd prime and k a positive integer, the record p any prime and k any integer. The agent removed the row from the record, and row 234868 is now in a new loose record.'

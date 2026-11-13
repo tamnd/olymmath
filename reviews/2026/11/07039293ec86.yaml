@@ -1,0 +1,9 @@
+id: 07039293ec86
+kind: pair
+records:
+    - P9DBQ7MW9R
+    - cn-mo/2008/p6
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 128750 of NuminaMath 1.5 to this record, but they are two problems: the row takes n > 1, the record n any positive integer (n = 1 allowed). The agent removed the row from the record, and row 128750 is now in a new loose record.'

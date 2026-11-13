@@ -1,0 +1,9 @@
+id: 7386f19d4d7f
+kind: pair
+records:
+    - 60SNZQMHNH
+    - gaic-math/2024/p26
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 234882 of NuminaMath 1.5 to this record, but they are two problems: the row orders M from small to large, the record in descending order. The agent removed the row from the record, and row 234882 is now in a new loose record.'

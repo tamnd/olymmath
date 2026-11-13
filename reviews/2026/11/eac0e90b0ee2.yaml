@@ -1,0 +1,8 @@
+id: eac0e90b0ee2
+kind: match
+records:
+    - amc10/2021-fall-a/p20
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 256235 of NuminaMath 1.5 to this record, but the row is not a clear copy: the answer choices are miscopied: the row has (D) 10 and (E) 12, the record (D) 12 and (E) 16. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

@@ -1,0 +1,9 @@
+id: 70bcdadadb48
+kind: pair
+records:
+    - BD8JFK900R
+    - RQH8V0CD3B
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 234857 of NuminaMath 1.5 to this record, but they are two problems: the row drops the condition that the side lengths l,m,n are integers. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 234857 is now in its own loose record.'

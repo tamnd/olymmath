@@ -1,0 +1,9 @@
+id: 2980fcdb9721
+kind: pair
+records:
+    - 5EWQCMWFG3
+    - 6CNV88SPMR
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 249426 of NuminaMath 1.5 to this record, but they are two problems: the record asks for solutions in C, the row gives no domain (real by default, where there are no solutions for nonzero b). The agent removed the row from the record, and row 249426 is now in a new loose record.'

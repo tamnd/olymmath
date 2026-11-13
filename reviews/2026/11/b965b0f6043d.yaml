@@ -1,0 +1,9 @@
+id: b965b0f6043d
+kind: pair
+records:
+    - QD10Y2VVQ2
+    - pl-om/2001/p3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 246640 of NuminaMath 1.5 to this record, but they are two problems: the row claims arbitrarily many repeated values, the record more than 2000 (and the record says A, B real). The agent removed the row from the record, and row 246640 is now in a new loose record.'

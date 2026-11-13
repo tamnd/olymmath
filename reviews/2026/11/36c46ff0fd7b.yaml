@@ -1,0 +1,9 @@
+id: 36c46ff0fd7b
+kind: pair
+records:
+    - GTXEJQYXH3
+    - hu-komal/2017/c1426
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 233721 of NuminaMath 1.5 to this record, but they are two problems: another problem: the row asks the maximum sum of squares of roots with coefficients 2,0,1,7, the record proves roots of an arithmetic-coefficient quartic are not all integers. The agent removed the row from the record, and row 233721 is now in a new loose record.'

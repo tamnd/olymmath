@@ -1,0 +1,21 @@
+---
+tag: DF4AKB8A89
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=239414
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Let $\{u_n\}_{n \ge 1}$ be a sequence of real numbers defined as $u_1 = 1$ and
+$$ u_{n+1} = u_n + \frac{1}{u_n} \text{ for all $n \ge 1$.}$$
+Prove that $u_n \le \frac{3\sqrt{n}}{2}$ for all $n$.

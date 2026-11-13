@@ -1,0 +1,19 @@
+---
+tag: X47Z38KKEG
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=246980
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Let $ ABCD$ be a cyclic quadrilater. Denote $ P=AD\cap BC$ and $ Q=AB \cap CD$. Let $ E$ be the fourth vertex of the parallelogram $ ABCE$ and $ F=CE\cap PQ$. Prove that $ D,E,F$ and $ Q$ lie on the same circle.

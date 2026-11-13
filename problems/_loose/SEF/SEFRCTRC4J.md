@@ -1,0 +1,19 @@
+---
+tag: SEFRCTRC4J
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=232941
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Let $ A,B,C,D$ be four points on a circle (occurring in clockwise order), with $ AB<AD$ and $ BC>CD$. The bisectors of angles $ BAD$ and $ BCD$ meet the circle at $ X$ and $ Y$, respectively. Consider the hexagon formed by these six points on the circle. If four of the six sides of the hexagon have equal length, prove that $ BD$ must be a diameter of the circle.

@@ -1,0 +1,8 @@
+id: 37db16a08ccd
+kind: match
+records:
+    - amc12/2023b/p24
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The agent read row 258591 of NuminaMath 1.5 and this record again, because the first review found a difference: the row says integers and the record positive integers; the lcm conditions and the question are the same, and so is the answer. The agent kept the link. The record already had a statement from this source, so the row adds no new statement.'

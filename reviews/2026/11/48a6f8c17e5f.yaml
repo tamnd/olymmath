@@ -1,0 +1,9 @@
+id: 48a6f8c17e5f
+kind: pair
+records:
+    - CQK9H00D3B
+    - 8W4QYVTT8Y
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 250950 of NuminaMath 1.5 to this record, but they are two problems: the row asks to prove the triangle exists and its area does not depend on a, the record to prove it has a height at most 1/2. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 250950 is now in its own loose record.'

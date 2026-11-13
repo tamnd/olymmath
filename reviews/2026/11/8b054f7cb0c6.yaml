@@ -1,0 +1,8 @@
+id: 8b054f7cb0c6
+kind: match
+records:
+    - xk-mo/2022/p122
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 242822 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row defines a_n and b_n but has lost the question (prove a_n = b_n). The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

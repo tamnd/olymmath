@@ -1,0 +1,9 @@
+id: 6ae87b1a046a
+kind: pair
+records:
+    - MPC5EZFTEN
+    - hu-komal/2020/b5113
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 245685 of NuminaMath 1.5 to this record, but they are two problems: the row has a, b coprime and c coprime to a or b with distinct x, y, z, the record a, b, c pairwise coprime. The agent removed the row from the record, and row 245685 is now in a new loose record.'

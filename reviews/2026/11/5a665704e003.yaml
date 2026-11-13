@@ -1,0 +1,8 @@
+id: 5a665704e003
+kind: match
+records:
+    - kr-kmo/2021/p2
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 242591 of NuminaMath 1.5 to this record, but the row is another version of it: the row proves A(st,s,t)=A(s(t-1),s,t)=A((s-1)t,s,t), the record proves A(m,s,t)=A(m,t,s). The project only links the texts of kr-kmo, so the agent made no loose record of the row. The agent listed the row in registers/loose-removed.tsv.'

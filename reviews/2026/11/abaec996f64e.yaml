@@ -1,0 +1,9 @@
+id: abaec996f64e
+kind: pair
+records:
+    - 2X2PMVZR6Y
+    - SK27XE4T04
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 79559 of NuminaMath 1.5 to this record, but they are two problems: the record assumes a convex pentagon, the row any pentagon. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 79559 is now in its own loose record.'

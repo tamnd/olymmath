@@ -1,0 +1,9 @@
+id: 7314b82ab440
+kind: pair
+records:
+    - CCTAYTF63W
+    - NAKV2BZNY9
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 247268 of NuminaMath 1.5 to this record, but they are two problems: the row has O anywhere in the plane and asks to prove an isosceles trapezoid, the record has O inside and asks for the shape. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 247268 is now in its own loose record.'

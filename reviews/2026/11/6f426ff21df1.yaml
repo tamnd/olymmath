@@ -1,0 +1,8 @@
+id: 6f426ff21df1
+kind: match
+records:
+    - V0RS192F1Z
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 242863 was joined into this record, which holds row 236263. The two rows state the same problem (the functions f from R to R with f(2^x+2y) = 2^y f(f(x)) f(y)); only the wording differs.'

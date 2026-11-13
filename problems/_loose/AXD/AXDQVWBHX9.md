@@ -1,0 +1,19 @@
+---
+tag: AXDQVWBHX9
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=251133
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Prove that the number $\left\lfloor\left(5+\sqrt{35}\right)^{2n-1}\right\rfloor$ is divisible by $10^n$ for each $n\in\mathbb N$.

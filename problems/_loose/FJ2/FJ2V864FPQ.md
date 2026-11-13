@@ -1,0 +1,27 @@
+---
+tag: FJ2V864FPQ
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=254057
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Let $E$ be the midpoint of the side $[BC]$ of $\triangle ABC$ with $|AB|=7$, $|BC|=6$, and $|AC|=5$. The line, which passes through $E$ and is perpendicular to the angle bisector of $\angle A$, intersects $AB$ at $D$. What is $|AD|$?
+
+$
+\textbf{(A)}\ 5
+\textbf{(B)}\ 6
+\textbf{(C)}\ \frac 92
+\textbf{(D)}\ 3\sqrt 2
+\textbf{(E)}\ \text{None of above}
+$

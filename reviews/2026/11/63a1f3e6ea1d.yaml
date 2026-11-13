@@ -1,0 +1,8 @@
+id: 63a1f3e6ea1d
+kind: match
+records:
+    - th-tmo/2008/p14
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 253391 of NuminaMath 1.5 to this record, but the row is not a clear copy: the sign of the last term is miscopied as (-1)^{2n+1} where the record has (-1)^n. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

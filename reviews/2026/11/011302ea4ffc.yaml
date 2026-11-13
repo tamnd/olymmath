@@ -1,0 +1,9 @@
+id: 011302ea4ffc
+kind: pair
+records:
+    - Q8M5CWPPTF
+    - hu-komal/2005/b3829
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 141815 of NuminaMath 1.5 to this record, but they are two problems: the row assumes a1+...+an=1 and bounds the sum by 1/2, the record has no sum condition and bounds it by half of a1+...+an (equivalent only by scaling). The record already had a statement from this source, so the row added no statement and the problem was lost. Row 141815 is now in its own loose record.'

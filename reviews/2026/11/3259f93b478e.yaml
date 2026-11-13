@@ -1,0 +1,8 @@
+id: 3259f93b478e
+kind: match
+records:
+    - dk-georgmohr/2005/p2
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 235609 (E 0.873, T 0.796, keyword match 0.900) and the text of dk-georgmohr/2005/p2 state the same problem with the same data and the same question. The row became a second statement of the record.'

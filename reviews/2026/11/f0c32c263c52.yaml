@@ -1,0 +1,8 @@
+id: f0c32c263c52
+kind: match
+records:
+    - 7VCEX3PANH
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 242972 was joined into this record, which holds row 241436. The two rows state the same problem (the functions f from R to R with f(xy+f(x)) = xf(y)+f(x)); only the wording differs.'

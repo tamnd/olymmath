@@ -1,0 +1,8 @@
+id: 133b9931cb91
+kind: match
+records:
+    - 8ZCD3DV3X4
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 239477 was joined into this record, which holds row 238975. The two rows state the same problem (the number of finite sequences of 1s and 2s with sum 10); the same four choices are given as a list in one row and with letters in the other.'

@@ -1,0 +1,8 @@
+id: 832704fb198e
+kind: match
+records:
+    - bg-mo/2020/p5
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 220166 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row lost the condition that not all segments may be recolored red (a gap is left), which makes the claim trivial. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

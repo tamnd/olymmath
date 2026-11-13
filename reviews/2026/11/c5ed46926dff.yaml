@@ -1,0 +1,9 @@
+id: c5ed46926dff
+kind: pair
+records:
+    - 4GP0KWP7BE
+    - JB88W4Q8Z5
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 71194 of NuminaMath 1.5 to this record, but they are two problems: the row asks to prove the cyclic sum a1/a2+...+an/a1 >= n for positive numbers, the record asks for which n distinct naturals make that sum a natural number. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 71194 is now in its own loose record.'

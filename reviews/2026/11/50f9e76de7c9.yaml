@@ -1,0 +1,9 @@
+id: 50f9e76de7c9
+kind: pair
+records:
+    - XADSRAY4QX
+    - hmmt/1999/t6
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 190113 of NuminaMath 1.5 to this record, but they are two problems: the row asks to prove the expression equals 1, the record asks to simplify it. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 190113 is now in its own loose record.'

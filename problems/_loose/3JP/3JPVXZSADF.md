@@ -1,0 +1,33 @@
+---
+tag: 3JPVXZSADF
+kind: problem
+type: answer
+answer: 2 \ln 2 - 1
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=209418
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+For a positive integer $n$, let
+
+$$S_n=\int_0^1 \frac{1-(-x)^n}{1+x}dx,\ \ T_n=\sum_{k=1}^n \frac{(-1)^{k-1}}{k(k+1)}$$
+
+Answer the following questions:
+
+(1) Show the following inequality.
+
+$$\left|S_n-\int_0^1 \frac{1}{1+x}dx\right|\leq \frac{1}{n+1}$$
+
+(2) Express $T_n-2S_n$ in terms of $n$.
+
+(3) Find the limit $\lim_{n\to\infty} T_n.$

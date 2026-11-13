@@ -1,0 +1,9 @@
+id: 4f3d7ad85959
+kind: pair
+records:
+    - 9C0EM0E419
+    - pumac/2011/fa1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 209189 of NuminaMath 1.5 to this record, but they are two problems: row equation 3^x-5^y=4z^2, record 3^x-5^y=z^2. The agent removed the row from the record, and row 209189 is now in a new loose record.'

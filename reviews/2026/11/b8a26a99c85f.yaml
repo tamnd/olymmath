@@ -1,0 +1,8 @@
+id: b8a26a99c85f
+kind: match
+records:
+    - 6FX9Z7N6K3
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 218000 was joined into this record, which holds row 193994. The two rows state the same problem (the strings of length n and their substrings, with the same parts); only the TeX and the emphasis differ.'

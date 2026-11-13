@@ -1,0 +1,8 @@
+id: 1042a3206362
+kind: match
+records:
+    - RD093NMPAB
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 192644 was joined into this record, which holds row 191593. The two rows state the same problem (the value of 1^10 + (-1)^8 + (-1)^7 + 1^5); the same five answer choices are given in another order.'

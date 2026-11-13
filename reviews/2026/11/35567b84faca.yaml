@@ -1,0 +1,8 @@
+id: 35567b84faca
+kind: match
+records:
+    - 5ZGHP2170D
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 201135 and the text of 5ZGHP2170D write the formulas in other ways, so the import linked them by the words rule (words 1.00, formulas 1.00). The agent read both texts: they are the same problem with the same data. The row is a second statement of the record.'

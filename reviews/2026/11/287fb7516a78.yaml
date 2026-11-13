@@ -1,0 +1,8 @@
+id: 287fb7516a78
+kind: match
+records:
+    - amc12/2022b/p6
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 201749 of NuminaMath 1.5 a new loose record (YNX3PYQSGW), but the agent found that it is amc12/2022b/p6: the same 100 sets, the same question and the same five choices. The record already has a statement from this source, so the row adds no statement. The agent removed the loose record and listed the row in registers/loose-removed.tsv.'

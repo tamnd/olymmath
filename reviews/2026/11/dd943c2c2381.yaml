@@ -1,0 +1,9 @@
+id: dd943c2c2381
+kind: pair
+records:
+    - 21TB03MAF7
+    - rioplatense/2018/p4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 223493 of NuminaMath 1.5 to this record, but they are two problems: the row requires the incenter I to lie on segment EF, the record has no such condition. The agent removed the row from the record, and row 223493 is now in a new loose record.'

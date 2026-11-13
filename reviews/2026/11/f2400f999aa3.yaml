@@ -1,0 +1,9 @@
+id: f2400f999aa3
+kind: pair
+records:
+    - SGQM4VT1D7
+    - seemous/2022/p4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 190879 of NuminaMath 1.5 to this record, but they are two problems: the row asks for positive real a, the record for all real a. The agent removed the row from the record, and row 190879 is now in a new loose record.'

@@ -1,0 +1,22 @@
+---
+tag: ZD71C80DGQ
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=209401
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Let $f(x)=\cos ^ 4 x+3\sin ^ 4 x$.
+Evaluate $\int_0^{\frac{\pi}{2}} |f'(x)|dx$.
+
+*2011 Tokyo University of Science entrance exam/Management*

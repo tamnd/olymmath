@@ -1,0 +1,27 @@
+---
+tag: KTW8QTFBRV
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=226520
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+let $ ABC $ an equilateral triangle with circum circle $ w $
+
+let $ P $ a point on arc $ BC $ ( point $ A $ is on the other side )
+
+pass a tangent line $ d $ through point $ P $ such that $ P \cap AB = F $ and $ AC \cap d = L $
+
+let $ O $ the center of the circle $ w $
+
+prove that $ \angle LOF > 90^{0} $

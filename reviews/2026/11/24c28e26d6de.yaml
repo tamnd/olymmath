@@ -1,0 +1,8 @@
+id: 24c28e26d6de
+kind: match
+records:
+    - hmmt/2015/a3
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 214467 of NuminaMath 1.5 to this record, but the row is not a clear copy: the record requires c to be an integer, the row drops this, so c is no longer determined. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

@@ -1,0 +1,8 @@
+id: 0f91a3db0e8e
+kind: match
+records:
+    - at-oemo-reg/2020/p3
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 190912 and the text of at-oemo-reg/2020/p3 write the formulas in other ways, so the import linked them by the words rule (words 0.83, formulas 0.92). The agent read both texts: they are the same problem with the same data. The row is a second statement of the record.'

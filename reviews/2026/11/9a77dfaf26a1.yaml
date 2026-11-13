@@ -1,0 +1,9 @@
+id: 9a77dfaf26a1
+kind: pair
+records:
+    - 8MYH1NV0V9
+    - baltic-way/2005/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 223073 of NuminaMath 1.5 to this record, but they are two problems: the row takes acute angles (strictly positive), the record allows 0 <= angles < 90 degrees. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 223073 is now in its own loose record.'

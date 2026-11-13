@@ -1,0 +1,20 @@
+---
+tag: VXC6X6FKV5
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=215673
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Let $S$ be a set of $N \ge 3$ points in the plane. Assume that no $3$ points in $S$ are collinear. The segments with both endpoints in $S$ are colored in two colors.
+Prove that there is a set of $N - 1$ segments of the same color which don't intersect except in their endpoints such that no subset of them forms a polygon with positive area.

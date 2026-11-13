@@ -1,0 +1,8 @@
+id: 9e0f6ee2986f
+kind: match
+records:
+    - hmmt/2015/g4
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 214478 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row miscopies the second construction (perpendiculars to BC from A and D meeting AD), so A'' and D'' are not well defined. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

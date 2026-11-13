@@ -1,0 +1,9 @@
+id: f73cdfd54c40
+kind: pair
+records:
+    - TFQEQ2G0TR
+    - ahsme/1999/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 199090 of NuminaMath 1.5 to this record, but they are two problems: the answer choices differ (row has isosceles, record has convex, in another order), so the answer letter differs. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 199090 is now in its own loose record.'

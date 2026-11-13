@@ -1,0 +1,9 @@
+id: 2c50baa39476
+kind: pair
+records:
+    - SCHBA224NA
+    - N5MEP0CPSB
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 223831 of NuminaMath 1.5 into this record, which holds row 189477, but they are two problems: the row claims E is the incenter or an excenter of AHF, the record only the incenter. The row added no statement, so the problem was lost. Row 223831 is now in a new loose record.'

@@ -1,0 +1,8 @@
+id: 04b22ca61073
+kind: match
+records:
+    - 2M7B0BZV8T
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 214407 was joined into this record, which holds row 189490. The two rows state the same problem (the k-content mathematicians who are put into two rooms); only the TeX and the articles differ.'

@@ -1,0 +1,9 @@
+id: a14244acb8b6
+kind: pair
+records:
+    - P77AW33QPE
+    - olympic-revenge/2020/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 219743 of NuminaMath 1.5 to this record, but they are two problems: the row fixes four distinct n-transpositions, the record three n-shufflings (the row text is also cut off before its question). The agent removed the row from the record, and row 219743 is now in a new loose record.'

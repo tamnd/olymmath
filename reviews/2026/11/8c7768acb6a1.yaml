@@ -1,0 +1,8 @@
+id: 8c7768acb6a1
+kind: match
+records:
+    - QQCNVM1BNA
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 193437 was joined into this record, which holds row 193414. The two rows are the same text (the sum of all the digits of the integers from 1 to 2008, with the example for 98 to 101).'

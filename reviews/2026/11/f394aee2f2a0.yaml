@@ -1,0 +1,9 @@
+id: f394aee2f2a0
+kind: pair
+records:
+    - AE9PAGCG7W
+    - ca-cmo/2000/p4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 219299 of NuminaMath 1.5 to this record, but they are two problems: the row drops the condition that the quadrilateral is convex. The project only links the texts of this competition, so the import adds no row to it, and the problem was lost. Row 219299 is now in its own loose record.'

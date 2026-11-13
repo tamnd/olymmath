@@ -1,0 +1,8 @@
+id: 7e4d25d945e9
+kind: match
+records:
+    - 9K3B7ETM8N
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 192139 was joined into this record, which holds row 191605. The two rows state the same problem (the position of 3142 in the list of the 24 numbers made from the digits 1, 2, 3, 4); only the hyphens and spaces differ.'

@@ -1,0 +1,26 @@
+---
+tag: KZCZZ4B4F8
+kind: problem
+type: answer
+answer: "5"
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=192208
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+The product $8 \times 48 \times 81$ is divisible by $6^{k}$. The largest possible integer value of $k$ is
+(A) 7
+(B) 6
+(C) 5
+(D) 4
+(E) 3

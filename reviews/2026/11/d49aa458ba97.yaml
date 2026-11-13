@@ -1,0 +1,9 @@
+id: d49aa458ba97
+kind: pair
+records:
+    - 1BNZN037N6
+    - in-rmo/2015/c2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 180499 of NuminaMath 1.5 to this record, but they are two problems: the row has an arithmetic progression of integers, the record of positive integers. The project only links the texts of this competition, so the import adds no row to it, and the problem was lost. Row 180499 is now in its own loose record.'

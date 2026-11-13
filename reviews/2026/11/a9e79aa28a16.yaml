@@ -1,0 +1,9 @@
+id: a9e79aa28a16
+kind: pair
+records:
+    - E7SPEF2TZC
+    - hmmt/2014/u10
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 213063 of NuminaMath 1.5 to this record, but they are two problems: the row counts all families F, the record only nonempty families, so the count differs. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 213063 is now in its own loose record.'

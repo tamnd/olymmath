@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-numina-olympiads
+    url: https://huggingface.co/datasets/project-numina/olympiads
+    capture: hf-numina-olympiads/default/train/0000.parquet#row=10848
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ibero/1987
+    source: hf-numina-olympiads
+    label: IberoAmerican_MO
 ---
 In the triangle $\mathrm{ABC}$, the midpoints of $\mathrm{AC}$ and $\mathrm{AB}$ are $\mathrm{M}$ and $\mathrm{N}$ respectively. $\mathrm{BM}$ and $\mathrm{CN}$ meet at $P$. Show that if it is possible to inscribe a circle in the quadrilateral AMPN (touching every side), then $\mathrm{ABC}$ is isosceles.

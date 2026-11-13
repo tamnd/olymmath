@@ -1,0 +1,9 @@
+id: 985aad8c1513
+kind: pair
+records:
+    - S72X1KBK8Q
+    - F1RKMWND9E
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 205045 of NuminaMath 1.5 into this record, which holds row 205041, but they are two problems: the row asks to prove the lateral sides share a common point, the record the diagonals. The row added no statement, so the problem was lost. Row 205045 is now in a new loose record.'

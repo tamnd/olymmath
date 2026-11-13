@@ -1,0 +1,8 @@
+id: 5c5b3d540d7c
+kind: match
+records:
+    - isl/2017/n3
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 159870 of NuminaMath 1.5 to this record, but the row is not a clear copy: the index convention is miscopied as a_i - a_{i-n} instead of a_i = a_{i-n}, so the cyclic indexing is not stated. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

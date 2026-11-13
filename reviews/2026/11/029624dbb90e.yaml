@@ -1,0 +1,9 @@
+id: 029624dbb90e
+kind: pair
+records:
+    - VP11J3RB9T
+    - hmmt/2002/e8
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 221741 of NuminaMath 1.5 to this record, but they are two problems: another problem on the same 3x3 grid: the row asks to prove a monochromatic right isosceles triangle exists under 2-colouring, the record asks to count triangles of positive area. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 221741 is now in its own loose record.'

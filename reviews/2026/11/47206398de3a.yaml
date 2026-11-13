@@ -1,0 +1,9 @@
+id: 47206398de3a
+kind: pair
+records:
+    - Y77EGTQ7BS
+    - de-tst/2007/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 207586 of NuminaMath 1.5 to this record, but they are two problems: the row asks for non-negative integers m,n,p,q, the record for positive integers. The agent removed the row from the record, and row 207586 is now in a new loose record.'

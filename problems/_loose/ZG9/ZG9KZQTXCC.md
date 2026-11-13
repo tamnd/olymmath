@@ -1,0 +1,19 @@
+---
+tag: ZG9KZQTXCC
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=219301
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+There are $n$ kids. From each two at least one of them has sent an SMS to the other. For each kid $A$, among the kids on which $A$ has sent an SMS, exactly 10% of them have sent an SMS to $A$. Determine the number of possible three-digit values of $n$.

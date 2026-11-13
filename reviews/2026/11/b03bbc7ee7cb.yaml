@@ -1,0 +1,9 @@
+id: b03bbc7ee7cb
+kind: pair
+records:
+    - T3QCZCBZST
+    - JB66W3VFW3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 216186 of NuminaMath 1.5 into this record, which holds row 205198, but they are two problems: the row asks whether a divisor-friendly bijection exists, the record asks for all divisor-respecting functions with the extra condition d(F(n)) <= d(n). The row added no statement, so the problem was lost. Row 216186 is now in a new loose record.'

@@ -1,0 +1,8 @@
+id: 8da3776f85ad
+kind: match
+records:
+    - amc12/2012a/p21
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 209674 of NuminaMath 1.5 a new loose record (YWF50PWBH7), but the agent found that it is amc12/2012a/p21: the same two equations, the same question and the same five choices. The agent moved the row to a new statement of amc12/2012a/p21 and removed the loose record.'

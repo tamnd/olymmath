@@ -1,0 +1,9 @@
+id: 8516273d29f1
+kind: pair
+records:
+    - 9ZW8EDEGPC
+    - cn-tst/2023/p8
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 204317 of NuminaMath 1.5 to this record, but they are two problems: the record requires the circles to be tangent to and inside omega, the row only says tangent to omega. The agent removed the row from the record, and row 204317 is now in a new loose record.'

@@ -1,0 +1,9 @@
+id: cfe9acf0fba1
+kind: pair
+records:
+    - YD3Q4MBC1S
+    - putnam/1954/a7
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 168938 of NuminaMath 1.5 to this record, but they are two problems: the row asks whether the equation is solvable in integers, the record asks to prove it has no integer solutions. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 168938 is now in its own loose record.'

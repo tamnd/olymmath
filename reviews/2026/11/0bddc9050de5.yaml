@@ -1,0 +1,9 @@
+id: 0bddc9050de5
+kind: pair
+records:
+    - 5T59DVGKF2
+    - baltic-way/2014/p3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 213989 of NuminaMath 1.5 to this record, but they are two problems: another inequality: the row has sqrt(a^3+1) in the denominators, the record sqrt(a^3+b). The record already had a statement from this source, so the row added no statement and the problem was lost. Row 213989 is now in its own loose record.'

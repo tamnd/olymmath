@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-numina-olympiads
+    url: https://huggingface.co/datasets/project-numina/olympiads
+    capture: hf-numina-olympiads/default/train/0000.parquet#row=10875
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ibero/1992
+    source: hf-numina-olympiads
+    label: IberoAmerican_MO
 ---
 Let $f(x)=a_{1} /\left(x+a_{1}\right)+a_{2} /\left(x+a_{2}\right)+\ldots+a_{n} /\left(x+a_{n}\right)$, where $a_{i}$ are unequal positive reals. Find the sum of the lengths of the intervals in which $f(x) \geq 1$.

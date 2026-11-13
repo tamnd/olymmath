@@ -1,0 +1,9 @@
+id: 921163c77105
+kind: pair
+records:
+    - 86QFXGBZ60
+    - imc/2006/p8
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 224338 of NuminaMath 1.5 to this record, but they are two problems: the record requires f([a,b]) to be a closed interval, the row any interval. The agent removed the row from the record, and row 224338 is now in a new loose record.'

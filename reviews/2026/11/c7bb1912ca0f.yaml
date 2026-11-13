@@ -1,0 +1,9 @@
+id: c7bb1912ca0f
+kind: pair
+records:
+    - 7YF87D4YRW
+    - WXS2YM9ZYP
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 227724 of NuminaMath 1.5 to this record, but they are two problems: the row asks to prove one diagonal bisects the other, the record asks to find all such quadrilaterals. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 227724 is now in its own loose record.'

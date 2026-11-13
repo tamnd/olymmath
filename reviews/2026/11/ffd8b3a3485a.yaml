@@ -1,0 +1,8 @@
+id: ffd8b3a3485a
+kind: match
+records:
+    - hmnt/2017/e6
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 217180 (E 0.900, T 0.349, keyword match 0.750) and the text of hmnt/2017/e6 state the same problem with the same data and the same question. The row became a second statement of the record.'

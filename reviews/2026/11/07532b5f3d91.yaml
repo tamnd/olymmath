@@ -1,0 +1,9 @@
+id: 07532b5f3d91
+kind: pair
+records:
+    - 5SMQ8PW0T9
+    - hu-komal/2012/k329
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 207866 of NuminaMath 1.5 to this record, but they are two problems: the record takes x positive and asks for the single value, the row has no sign condition and asks for all possible values. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 207866 is now in its own loose record.'

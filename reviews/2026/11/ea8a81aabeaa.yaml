@@ -1,0 +1,9 @@
+id: ea8a81aabeaa
+kind: pair
+records:
+    - TY788YT9M2
+    - at-oemo-fed1/2021/p1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 191035 of NuminaMath 1.5 to this record, but they are two problems: row has positive reals and asks for equality case, record has a,b,c>=0 (different source). The agent removed the row from the record, and row 191035 is now in a new loose record.'

@@ -1,0 +1,9 @@
+id: 8f04f5a5fd0b
+kind: pair
+records:
+    - DXX2GMX9FN
+    - hu-komal/2012/a574
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 214849 of NuminaMath 1.5 to this record, but they are two problems: the row asks to prove the sum is >= 1+2k^2/n (with k<n), the record asks for strict >. The agent removed the row from the record, and row 214849 is now in a new loose record.'

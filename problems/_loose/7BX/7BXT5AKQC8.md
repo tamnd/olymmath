@@ -1,0 +1,19 @@
+---
+tag: 7BXT5AKQC8
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=208410
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Triangle $ABC$ and a function $f:\mathbb{R}^+\to\mathbb{R}$ have the following property: for every line segment $DE$ from the interior of the triangle with midpoint $M$, the inequality $f(d(D))+f(d(E))\le 2f(d(M))$, where $d(X)$ is the distance from point $X$ to the nearest side of the triangle ($X$ is in the interior of $\triangle ABC$). Prove that for each line segment $PQ$ and each point interior point $N$ the inequality $|QN|f(d(P))+|PN|f(d(Q))\le |PQ|f(d(N))$ holds.

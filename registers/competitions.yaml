@@ -2282,9 +2282,11 @@
   group: national
   level: high-school
   country: BE
+  url: https://www.vwo.be/vwo/
   per_year: 4
   languages: [nl]
-  description: The olympiad of Flanders. Its site and archive are not confirmed.
+  sources: [vwo]
+  description: The olympiad of Flanders, for the secondary schools of the Dutch-speaking part of Belgium. Its final round has four problems. The site of Vlaamse Wiskunde Olympiade vzw has the paper of the final for each year from 2003.
 
 - code: be-omb
   name: Belgian Mathematical Olympiad (francophone)

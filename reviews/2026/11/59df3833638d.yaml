@@ -1,0 +1,9 @@
+id: 59df3833638d
+kind: pair
+records:
+    - 22NFT5S736
+    - 6STPDTRSBW
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 69838 of NuminaMath 1.5 to this record, but they are two problems: the row is about square roots of distinct primes that are not in an arithmetic progression, the record about square roots of the sides of a triangle. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 69838 is now its own loose record.'

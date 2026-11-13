@@ -1,0 +1,9 @@
+id: 41551fdd3e80
+kind: pair
+records:
+    - BVMX15M2YT
+    - cz-sk-mo/2010/p1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 76030 of NuminaMath 1.5 to this record, but they are two problems: the row asks for positive integers a and b, the record for all integers, and a negative b gives more solutions. The agent removed the row from the record, and row 76030 is now its own loose record.'

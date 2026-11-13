@@ -1,0 +1,8 @@
+id: 877fa2564bf3
+kind: match
+records:
+    - baltic-way/1993/p14
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 72932 of NuminaMath 1.5 is linked to this record. The row has a remark from the solution after the problem, but the record text has the same flaw, so the two are the same text of the same problem and the link stays.'

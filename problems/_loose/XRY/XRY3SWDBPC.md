@@ -1,0 +1,25 @@
+---
+tag: XRY3SWDBPC
+kind: problem
+type: answer
+answer: \frac{18}{x+y+z}
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=80244
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Let $x, y, z$ be strictly positive. Show that
+
+$$
+\frac{1}{x+y}+\frac{4}{y+z}+\frac{9}{x+z} \geqslant \frac{18}{x+y+z}
+$$

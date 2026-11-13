@@ -1,0 +1,29 @@
+---
+tag: VSZZW3N9G1
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=79990
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Let $a>b>c \geqslant 3$ be natural numbers. Given that:
+
+$$
+\begin{aligned}
+& a \mid b c+b+c \\
+& b \mid c a+c+a \\
+& c \mid a b+a+b
+\end{aligned}
+$$
+
+show that $a, b$, and $c$ are not all prime numbers.

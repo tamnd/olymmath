@@ -1,0 +1,9 @@
+id: f21d8d0ed257
+kind: pair
+records:
+    - 838S6EMHBT
+    - CT7HK9W9W4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 81117 of NuminaMath 1.5 to row 78789, but they are two problems: the row asks for integer triples with zero and negative values allowed (it has (0, 0, 0)), the record for positive integers. Row 81117 is now its own loose record.'

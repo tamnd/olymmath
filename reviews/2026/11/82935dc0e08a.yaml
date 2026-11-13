@@ -1,0 +1,8 @@
+id: 82935dc0e08a
+kind: sample
+records:
+    - 13XXAN9RXN
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text states one problem (3-digit x whose square ends with x) and no solution. The import text named the number n in the question and x in the condition; the agent wrote x in both.'

@@ -1,0 +1,21 @@
+---
+tag: J10KGCSNGH
+kind: problem
+type: answer
+answer: 6745\mathrm{~}
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=74730
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Janete walks along a triangular path $\triangle A B C$, with side $A B$ measuring $1992 \mathrm{~m}$. She spends 24 minutes to walk this side $A B$ and, afterwards, at the same speed, she walks the other side $B C$ followed by the hypotenuse $C A$ in 2 hours and 46 minutes. What is the length of side $B C$?

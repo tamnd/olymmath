@@ -1,0 +1,9 @@
+id: ec5059c48e9c
+kind: pair
+records:
+    - D6TWHMFXHT
+    - 7RR3KRS4RZ
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 81000 of NuminaMath 1.5 to row 79170, but they are two problems: the row defines Q as the meet of PM and BD, the record as the meet of PM and AC. Row 81000 is now its own loose record.'

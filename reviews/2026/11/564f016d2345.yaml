@@ -1,0 +1,8 @@
+id: 564f016d2345
+kind: match
+records:
+    - jbmo/2007/p4
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 79320 of NuminaMath 1.5 is linked to this record. The row asks for all primes p for which 7p + 3^p - 4 is a square, the record asks to prove that it is never a square. The answer to the row is ''none'', so it is the same problem and the link stays.'

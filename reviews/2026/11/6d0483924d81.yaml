@@ -1,0 +1,8 @@
+id: 6d0483924d81
+kind: sample
+records:
+    - KYGZ1A5ZBG
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text states one problem (the bisector of a triangle with sides 3 and 6 and an angle of 60 degrees) and no solution. The agent cut the topic tag ''Angles between bisectors'' at the start.'

@@ -1,0 +1,8 @@
+id: 7a26f33b6753
+kind: sample
+records:
+    - N0RWMM395J
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text states one problem (a system of two sine equations with 0 <= x, y <= pi) and no solution. The agent cut the stray ''; ;'' between the two conditions.'

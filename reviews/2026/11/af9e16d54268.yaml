@@ -1,0 +1,8 @@
+id: af9e16d54268
+kind: match
+records:
+    - kr-kmo/1996/p5
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 81036 of NuminaMath 1.5 matches this record: both ask for the integer triples with x^2 + y^2 + z^2 = 2xyz. The project only links the texts of this competition, so the import adds no row to it and makes no new record of the row.'

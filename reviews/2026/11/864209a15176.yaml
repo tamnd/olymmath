@@ -1,0 +1,9 @@
+id: 864209a15176
+kind: pair
+records:
+    - JQDVE74AHQ
+    - apmo/1996/p5
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 81156 of NuminaMath 1.5 to this record, but they are two problems: the row bounds the sum of sqrt(a + b - c) by sqrt(3(sqrt(ab) + sqrt(bc) + sqrt(ca))), the record by sqrt a + sqrt b + sqrt c. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 81156 is now its own loose record.'

@@ -1,0 +1,9 @@
+id: b85c19267dc3
+kind: pair
+records:
+    - J47FF2EWTD
+    - baltic-way/2020/p4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 80468 of NuminaMath 1.5 to this record, but they are two problems: the row has f(f(x) + y) on the left, the record f(f(x) + x + y). The record already had a statement from this source, so the row added no statement and the problem was lost. Row 80468 is now its own loose record.'

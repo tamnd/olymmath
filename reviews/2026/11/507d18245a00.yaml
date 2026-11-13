@@ -1,0 +1,9 @@
+id: 507d18245a00
+kind: pair
+records:
+    - EBFVBGN58T
+    - in-inmo/1990/p5
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 81265 of NuminaMath 1.5 to this record, but they are two problems: the row asks only to show that a/(b+c) + b/(c+a) + c/(a+b) < 2 for the sides of a triangle, the record asks for both bounds 3/2 and 2 and whether equality can hold. The project only links the texts of this competition, so the import adds no row to it, and the problem was lost. Row 81265 is now its own loose record.'

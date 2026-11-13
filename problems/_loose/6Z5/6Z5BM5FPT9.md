@@ -1,0 +1,21 @@
+---
+tag: 6Z5BM5FPT9
+kind: problem
+type: answer
+answer: 870,983
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=74085
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Find the law that forms the sequence 425, 470, 535, 594, 716, $802, \ldots$ and give its next two terms.

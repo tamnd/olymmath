@@ -1,0 +1,9 @@
+id: 2eed5f0cc3d4
+kind: pair
+records:
+    - Y3TP2P1GNY
+    - CPE0CHE7H7
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined rows 73814 and 74917 of NuminaMath 1.5 to row 73259, but they are two problems: in the rows the eggs get 10% cheaper and the apples 2% dearer, in the record the eggs 2% cheaper and the apples 10% dearer. Rows 73814 and 74917 state the same problem, so they are two statements of one loose record, which is now its own loose record.'

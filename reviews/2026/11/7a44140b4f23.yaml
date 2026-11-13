@@ -1,0 +1,9 @@
+id: 7a44140b4f23
+kind: pair
+records:
+    - JXXHEBPXF3
+    - 7B8KSTF5YQ
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 26205 of NuminaMath 1.5 to this record, but they are two problems: the row counts the x for which 2^x - x^2 is divisible by 7, the record the x for which it is not. Rows 26205, 38533 and 72072 state the same problem, so they are three statements of one loose record, and row 26205 is one of them. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 26205 is now its own loose record.'

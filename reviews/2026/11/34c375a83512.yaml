@@ -1,0 +1,9 @@
+id: 34c375a83512
+kind: pair
+records:
+    - MR1Y7TYV5N
+    - tot/2000-fall/so2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 68916 of NuminaMath 1.5 to this record, but they are two problems: the divisibility is reversed: the row says one of a, b, c, d does not divide ad - bc, the record says one of them is not divisible by ad - bc. The agent removed the row from the record, and row 68916 is now its own loose record.'

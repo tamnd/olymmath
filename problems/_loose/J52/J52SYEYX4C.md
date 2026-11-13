@@ -1,0 +1,21 @@
+---
+tag: J52SYEYX4C
+kind: problem
+type: answer
+answer: 12\sqrt{5}
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=67434
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+In a right triangle $A B C$ with a right angle at $B$, the bisector of angle $A$ intersects side $B C$ at point $D$. It is known that $B D=4, D C=6$. Find the area of triangle $A D C$.

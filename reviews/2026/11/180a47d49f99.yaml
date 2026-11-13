@@ -1,0 +1,9 @@
+id: 180a47d49f99
+kind: pair
+records:
+    - 2Y4GF3CNT3
+    - B1E2XJ94J3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 80121 of NuminaMath 1.5 to row 79056, but they are two problems: the row takes a, b, c in N with zero allowed, which gives the extra solution 11^0 + 3^1 = 2^2, the record takes positive integers. Row 80121 is now its own loose record.'

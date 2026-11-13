@@ -1,0 +1,9 @@
+id: 9fcdc9f1cf87
+kind: pair
+records:
+    - GBA9NC2A82
+    - in-inmo/2013/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 77439 of NuminaMath 1.5 to this record, but they are two problems: the row allows every prime p, the record only primes p >= 5. The project only links the texts of this competition, so the import adds no row to it, and the problem was lost. Row 77439 is now its own loose record.'

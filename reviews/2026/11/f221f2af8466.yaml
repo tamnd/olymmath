@@ -1,0 +1,8 @@
+id: f221f2af8466
+kind: match
+records:
+    - HK49WSE118
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 71440 of NuminaMath 1.5 to this record. The row allows non-negative real a_i, the record non-negative integers, and the row also lost the fraction in its bound. The agent removed the row from the record and listed it in registers/loose-removed.tsv.'

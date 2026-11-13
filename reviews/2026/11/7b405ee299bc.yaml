@@ -1,0 +1,8 @@
+id: 7b405ee299bc
+kind: match
+records:
+    - A6ZAZJF5K2
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 69556 was joined into this record, which holds row 67747. The two rows are the same text (the number of natural solutions of [x/10] = [x/11] + 1). The agent wrote the fractions x/10 and x/11 in a plain form, as the import text had a broken superscript.'

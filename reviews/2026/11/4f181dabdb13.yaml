@@ -1,0 +1,9 @@
+id: 4f181dabdb13
+kind: pair
+records:
+    - TA96QPEDB5
+    - M9AXKSAWXJ
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 35436 of NuminaMath 1.5 to this record, but they are two problems: the row proves that x^2 + y^2 + z^2 = 2xyz has no solution in natural numbers, the record asks about non-negative integers, where (0, 0, 0) works. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 35436 is now its own loose record.'

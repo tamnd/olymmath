@@ -1,0 +1,19 @@
+---
+tag: FMX48D37NT
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=79464
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Determine for which of these conditions a painting can be hung on nails such that the painting falls when the condition is met.

@@ -1,0 +1,9 @@
+id: 9ad670fc3c1a
+kind: pair
+records:
+    - DZR8BX04NC
+    - 62AFFWKBCB
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 79287 of NuminaMath 1.5 to row 78696, but they are two problems: the row has an extra part a) (A, B, P, Q concyclic), the record asks only that PQT is isosceles. Row 79287 is now its own loose record.'

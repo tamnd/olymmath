@@ -1,0 +1,9 @@
+id: 15280b5ecc07
+kind: pair
+records:
+    - TFJ53B9X58
+    - isl/2010/n3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 79627 of NuminaMath 1.5 to this record, but they are two problems: the row drops the condition of rational coefficients, and over the reals the answer is 2, not 5. The agent removed the row from the record, and row 79627 is now its own loose record.'

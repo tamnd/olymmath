@@ -1,0 +1,8 @@
+id: d046ad4e430b
+kind: match
+records:
+    - H04AYYEJAE
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 74940 of NuminaMath 1.5 was first joined into this record. The row says March 13, 2007 was a Tuesday, the record a Wednesday. March 13, 2007 was a Tuesday, and the weekday changes the answer, so the agent made row 74940 its own record. This record keeps row 73730 as it is written.'

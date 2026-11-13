@@ -1,0 +1,9 @@
+id: d7a93a77c000
+kind: pair
+records:
+    - PE6BF6AXV2
+    - VG66VQPGPF
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 43627 of NuminaMath 1.5 to this record, but they are two problems: the row has points spaced equally on two lines and collinear midpoints, the record the midpoints of cevians of a triangle that are not collinear. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 43627 is now its own loose record.'

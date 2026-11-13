@@ -1,0 +1,8 @@
+id: f1b144a7427f
+kind: match
+records:
+    - 6YEY6209G4
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 78121 was joined into this record, which holds row 78116. The two rows are the same text (Alice colors 2 to 8 and then 2 to 31 so that a multiple and its divisor differ). The agent marked the first part with ''1)'', as the second part is marked ''2)''.'

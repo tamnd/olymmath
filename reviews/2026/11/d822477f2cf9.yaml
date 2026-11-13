@@ -1,0 +1,9 @@
+id: d822477f2cf9
+kind: pair
+records:
+    - 60GE88C853
+    - ill/1979/p66
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 74383 of NuminaMath 1.5 to this record, but they are two problems: the row asks for one value of n, the record for all natural n that make 2^8 + 2^11 + 2^n a square. The agent removed the row from the record, and row 74383 is now its own loose record.'

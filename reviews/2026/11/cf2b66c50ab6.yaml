@@ -1,0 +1,8 @@
+id: cf2b66c50ab6
+kind: match
+records:
+    - XG61K23GXE
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made this record from rows 64080 and 72276 of NuminaMath 1.5. All of them are texts that begin in the middle of a sentence. The agent removed the record and listed the rows in registers/loose-removed.tsv.'

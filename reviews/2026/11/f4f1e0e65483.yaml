@@ -1,0 +1,8 @@
+id: f4f1e0e65483
+kind: match
+records:
+    - hmmt/1999/t6
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 70144 of NuminaMath 1.5 is linked to this record. The row asks to prove that the cube roots of 2 + sqrt 5 and 2 - sqrt 5 add up to 1, the record asks for the value of that sum. It is the same problem, so the link stays.'

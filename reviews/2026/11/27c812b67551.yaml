@@ -1,0 +1,8 @@
+id: 27c812b67551
+kind: match
+records:
+    - VDYFRAGFE9
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 78618 of NuminaMath 1.5 was joined into this record, which holds row 78175. The two texts state the same inequality; the record also asks for which x, y equality holds, which is a small extra question of the same problem, so the join stays.'

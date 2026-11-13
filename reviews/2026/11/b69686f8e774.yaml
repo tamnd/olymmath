@@ -1,0 +1,9 @@
+id: b69686f8e774
+kind: pair
+records:
+    - 2YANJHS9WA
+    - cz-sk-mo/2020/p5
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 75838 of NuminaMath 1.5 to this record, but they are two problems: the row chooses D inside the triangle, the record puts D on side BC. The agent removed the row from the record, and row 75838 is now its own loose record.'

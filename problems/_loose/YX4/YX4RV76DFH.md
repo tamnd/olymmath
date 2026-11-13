@@ -1,0 +1,19 @@
+---
+tag: YX4RV76DFH
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=80001
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+In an assembly of $n$ people, it is known that among any group of 4 people, there are either 3 who know each other pairwise, or 3 who do not know each other pairwise. Show that the assembly can be divided into two groups such that every pair of people in the first group knows each other, and no pair of people in the second group knows each other.

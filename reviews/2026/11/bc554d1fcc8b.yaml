@@ -1,0 +1,9 @@
+id: bc554d1fcc8b
+kind: pair
+records:
+    - GF3XPGWH8P
+    - jbmo/2009/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 79976 of NuminaMath 1.5 to this record, but they are two problems: the row asks for positive integers a, b, c, the record for non-negative ones, which allows a = 0 or b = 0, as in (0, 3, 6). The agent removed the row from the record, and row 79976 is now its own loose record.'

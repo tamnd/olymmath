@@ -1,0 +1,9 @@
+id: 1fdf4bde6894
+kind: pair
+records:
+    - 34X3N1Q1HS
+    - hu-komal/2006/c854
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 34881 of NuminaMath 1.5 to this record, but they are two problems: the row asks for the sum of the odd cubes, the record asks to prove that the sum of the odd cubes over the sum of the odd numbers is 2n^2 - 1. The agent removed the row from the record, and row 34881 is now its own loose record.'

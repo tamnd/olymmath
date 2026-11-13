@@ -1,0 +1,9 @@
+id: 80da641d51c3
+kind: pair
+records:
+    - W8J6MG5WP8
+    - AXA5MAMTW7
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 66451 of NuminaMath 1.5 to this record, but they are two problems: the row is about a trihedral angle, the record about any convex polyhedral angle. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 66451 is now its own loose record.'

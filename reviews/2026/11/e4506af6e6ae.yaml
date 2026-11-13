@@ -1,0 +1,9 @@
+id: e4506af6e6ae
+kind: pair
+records:
+    - BJ0555CGX1
+    - ADVDKJ1MEG
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 79803 of NuminaMath 1.5 to this record, but they are two problems: the row is for positive reals with a non-strict sign and asks for the equality cases, the record is for all reals with a strict sign. The agent removed the row from the record, and row 79803 is now its own loose record.'

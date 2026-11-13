@@ -1,0 +1,8 @@
+id: 003cc15d3f75
+kind: match
+records:
+    - ER4HBSAEW9
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 81128 of NuminaMath 1.5 was joined into this record, which holds row 78767. The row asks for integers a, b with 3a^2 = b^2 + 1, the record for positive integers. Modulo 3 the equation has no solution at all, so the answer is the same and the join stays.'

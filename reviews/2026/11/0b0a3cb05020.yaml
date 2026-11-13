@@ -1,0 +1,9 @@
+id: 0b0a3cb05020
+kind: pair
+records:
+    - Y8SJSNV475
+    - ru-moscow/2011/p112
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 68960 of NuminaMath 1.5 to this record, but they are two problems: the row asks to find the smallest positive roots of the two polynomials, the record to compare them. The agent removed the row from the record, and row 68960 is now its own loose record.'

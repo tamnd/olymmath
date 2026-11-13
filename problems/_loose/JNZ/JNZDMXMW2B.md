@@ -1,0 +1,23 @@
+---
+tag: JNZDMXMW2B
+kind: problem
+type: answer
+answer: "4"
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=70429
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+A kangaroo jumps along a straight line. Pushing off with its left foot, it jumps 3 meters, with its right foot - 5 meters, and with both feet - 7 meters.
+
+How can it cover exactly 200 meters in 30 jumps?

@@ -1,0 +1,9 @@
+id: a7236b4e8959
+kind: pair
+records:
+    - C6HEDVCSH8
+    - za-samo/2010/p4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 71827 of NuminaMath 1.5 to this record, but they are two problems: the hypothesis and the claim are swapped: the row assumes the sum of x_i / sqrt(i) is 1 and proves the sum of x_i^2 is at most 1, the record assumes the sum of x_i^2 is 1 and proves the other sum is at least 1. The agent removed the row from the record, and row 71827 is now its own loose record.'

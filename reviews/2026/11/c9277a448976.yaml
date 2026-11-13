@@ -1,0 +1,8 @@
+id: c9277a448976
+kind: match
+records:
+    - hu-komal/2011/b4389
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 170470 and the text of hu-komal/2011/b4389 write the formulas in other ways, so the import linked them by the words rule (words 0.83, formulas 1.00). The agent read both texts: they are the same problem with the same data. The row is a second statement of the record.'

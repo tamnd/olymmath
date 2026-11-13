@@ -1,0 +1,8 @@
+id: 3de81871b4e1
+kind: match
+records:
+    - hu-komal/2013/b4548
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 171596 (E 0.988, T 0.242, keyword match 1.000) and the text of hu-komal/2013/b4548 state the same problem with the same data and the same question. The row became a second statement of the record.'

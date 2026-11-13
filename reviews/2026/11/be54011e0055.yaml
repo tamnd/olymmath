@@ -1,0 +1,9 @@
+id: be54011e0055
+kind: pair
+records:
+    - TVQWAV7R72
+    - RATRGHXRQ4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 167888 of NuminaMath 1.5 to this record, but they are two problems: the row has sides at most 1 and a diagonal not greater than 2, the record strict less than 1 and less than 2. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 167888 is now in its own loose record.'

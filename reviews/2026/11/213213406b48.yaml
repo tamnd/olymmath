@@ -1,0 +1,9 @@
+id: 213213406b48
+kind: pair
+records:
+    - WQG3BXRQM8
+    - se-skolornas/1982/p4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 166121 of NuminaMath 1.5 to this record, but they are two problems: the row asks for the possible values of n, the record asks for m. The agent removed the row from the record, and row 166121 is now in a new loose record.'

@@ -1,0 +1,8 @@
+id: eb4fb976fc44
+kind: match
+records:
+    - cn-mo/2006/p2
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 113848 of NuminaMath 1.5 to this record, but the row is not a clear copy: garbled math prefix "1022 pi" fused into the opening, the row reads "1022 pi positive integers". The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

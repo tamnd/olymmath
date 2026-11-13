@@ -1,0 +1,8 @@
+id: 33294acf71b7
+kind: match
+records:
+    - R0E6BE4MN2
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 175868 was joined into this record, which holds row 173864. The two rows state the same problem (the circumscribed circle of the triangle with the sides y = x+1, y = -x/2 - 2, y = 3x - 9); only the wording differs.'

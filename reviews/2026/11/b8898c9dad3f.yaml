@@ -1,0 +1,9 @@
+id: b8898c9dad3f
+kind: pair
+records:
+    - CW1K3FFBT4
+    - hmnt/2015/u11
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 172600 of NuminaMath 1.5 to this record, but they are two problems: the row proves a triangle with a^n+b^n=c^n, n>2, is acute, the record asks for all integers n with positive integer solutions. The agent removed the row from the record, and row 172600 is now in a new loose record.'

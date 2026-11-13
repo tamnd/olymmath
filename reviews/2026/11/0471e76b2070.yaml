@@ -1,0 +1,9 @@
+id: 0471e76b2070
+kind: pair
+records:
+    - 6MKRQTPTYM
+    - QH39HDEB7C
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 168896 of NuminaMath 1.5 to this record, but they are two problems: the row takes integers x, y and asks for two squares, the record takes natural numbers and also asks that x-y be a square. The agent removed the row from the record, and row 168896 is now in a new loose record.'

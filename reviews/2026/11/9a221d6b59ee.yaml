@@ -1,0 +1,9 @@
+id: 9a221d6b59ee
+kind: pair
+records:
+    - 68HT7XSAAK
+    - imo/1975/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 166808 of NuminaMath 1.5 to this record, but they are two problems: the row claims infinitely many a_m for some p not equal to q, the record for every p with q > p. The agent removed the row from the record, and row 166808 is now in a new loose record.'

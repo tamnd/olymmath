@@ -1,0 +1,9 @@
+id: 56bc34d40f1e
+kind: pair
+records:
+    - 3A4A5SMDDB
+    - DCZ2KS5KE0
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 153935 of NuminaMath 1.5 to this record, but they are two problems: the row asks to find the smallest such integer, the record asks to prove it is odd. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 153935 is now in its own loose record.'

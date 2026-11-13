@@ -1,0 +1,9 @@
+id: af60be103f86
+kind: pair
+records:
+    - 7H4VN59MWF
+    - hu-komal/2006/b3890
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 171268 of NuminaMath 1.5 to this record, but they are two problems: the row says each speaks at most 4 languages, the record at least 4. The agent removed the row from the record, and row 171268 is now in a new loose record.'

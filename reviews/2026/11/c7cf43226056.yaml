@@ -1,0 +1,8 @@
+id: c7cf43226056
+kind: match
+records:
+    - FXK87BX92N
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 77118 of NuminaMath 1.5 to this record, but the row is not a clear copy: the definition formula is miscopied as a_1=3 a a_n=..., the word and between a_1=3 and a_n=... became a factor a. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

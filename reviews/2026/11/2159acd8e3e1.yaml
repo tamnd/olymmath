@@ -1,0 +1,9 @@
+id: 2159acd8e3e1
+kind: pair
+records:
+    - AY6GVZ442C
+    - 5SV7AH74VH
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 43114 of NuminaMath 1.5 to the loose record 5SV7AH74VH of an earlier batch, but they are two problems: the row asks by what factor the side of a square must grow to double its area, the record is a sentence about the word ball. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 43114 is now in its own loose record, and the agent removed 5SV7AH74VH because it is not a problem.'

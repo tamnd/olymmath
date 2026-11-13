@@ -1,0 +1,19 @@
+---
+tag: 4FS2PREP4N
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=173037
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Given two lines and a point. Construct a square such that its $A$ vertex is at the given point, and vertices $B$ and $C$ lie on the given lines.

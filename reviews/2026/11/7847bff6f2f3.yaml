@@ -1,0 +1,8 @@
+id: 7847bff6f2f3
+kind: match
+records:
+    - 5H6HAFC9X9
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 15892 of NuminaMath 1.5 to this record, but the row is not a clear copy: the question is garbled: it asks for the maximum number of consecutive semi-prime numbers that can be semi-prime, the words consecutive natural numbers are lost. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

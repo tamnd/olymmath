@@ -1,0 +1,8 @@
+id: 40635c5ae93a
+kind: sample
+records:
+    - TPT3BVD5M4
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text is physics and has no question. It is not a mathematics problem. The agent removed the record and listed the row in registers/loose-removed.tsv.'

@@ -1,0 +1,9 @@
+id: fa7804c11a84
+kind: pair
+records:
+    - WA7MVHCXRD
+    - W21NAK56CZ
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 166819 of NuminaMath 1.5 to this record, but they are two problems: the row asks about a geometric sequence, the record about an arithmetic progression. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 166819 is now in its own loose record.'

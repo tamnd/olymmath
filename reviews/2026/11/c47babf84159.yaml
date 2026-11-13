@@ -1,0 +1,9 @@
+id: c47babf84159
+kind: pair
+records:
+    - VZZZ3KNZ9Q
+    - ZPZW6D6F2R
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 81826 of NuminaMath 1.5 to this record, but they are two problems: the row has f(2f(x)+f(y))=2x+f(y), the record has f(x^2+f(y))=2x-f(y), another functional equation. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 81826 is now in its own loose record.'

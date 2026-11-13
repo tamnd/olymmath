@@ -1,0 +1,9 @@
+id: 94ee55ab23e9
+kind: pair
+records:
+    - FRAY8TZB12
+    - R710S5277N
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 176021 of NuminaMath 1.5 into this record, which holds row 173396, but they are two problems: the row asks to show an identity, the record asks to simplify another expression (with x + sqrt(y) under each root). The row added no statement, so the problem was lost. Row 176021 is now in a new loose record.'

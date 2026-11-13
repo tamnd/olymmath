@@ -1,0 +1,9 @@
+id: 01340e960924
+kind: pair
+records:
+    - MJRZCK05E9
+    - ie-irmo/1997/p4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 85284 of NuminaMath 1.5 to this record, but they are two problems: the row has positive reals and the bound sqrt(3)abc, the record nonnegative reals and the bound abc. The agent removed the row from the record, and row 85284 is now in a new loose record.'

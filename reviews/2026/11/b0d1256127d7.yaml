@@ -1,0 +1,9 @@
+id: b0d1256127d7
+kind: pair
+records:
+    - KFH5MZBQM4
+    - DGGTFY08DX
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 175127 of NuminaMath 1.5 into this record, which holds row 174501, but they are two problems: the row is about two consecutive numbers, the record about three consecutive numbers. The row added no statement, so the problem was lost. Row 175127 is now in a new loose record.'

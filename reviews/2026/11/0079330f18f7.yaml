@@ -1,0 +1,8 @@
+id: 0079330f18f7
+kind: match
+records:
+    - ill/1977/p21
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 165640 of NuminaMath 1.5 to this record, but the row is not a clear copy: the first denominator is miscopied with x_2^3 in place of x_3^2. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

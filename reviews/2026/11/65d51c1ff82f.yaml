@@ -1,0 +1,8 @@
+id: 65d51c1ff82f
+kind: match
+records:
+    - hu-komal/2008/b4089
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 170709 of NuminaMath 1.5 states the same problem as this record (solve the equation x^4 - 7x^3 + 13x^2 - 7x + 1 = 0), with the same equation. The import made it the new loose record K4RF6K5DC7. The audit found the pair, so the agent moved the row to this record as a new statement and removed K4RF6K5DC7.'

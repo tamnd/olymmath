@@ -1,0 +1,19 @@
+---
+tag: GGB9HX52CC
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=171471
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+$\mathrm{Az} A B C D$ tetrahedron, draw planes through its vertices parallel to the opposite faces. These four planes define a new tetrahedron. Prove that $A, B, C$ and $D$ are the centroids of the faces of the newly formed tetrahedron.

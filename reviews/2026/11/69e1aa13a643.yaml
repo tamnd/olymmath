@@ -1,0 +1,9 @@
+id: 69e1aa13a643
+kind: pair
+records:
+    - X2C9QTHGBG
+    - ZFEBXREJBM
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 166481 of NuminaMath 1.5 into this record, which holds row 164752, but they are two problems: the row asks for which angles gamma the inequality holds in any triangle, the record proves it for a right-angled triangle. The row added no statement, so the problem was lost. Row 166481 is now in a new loose record.'

@@ -1,0 +1,19 @@
+---
+tag: GGVD8DF6DG
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=165338
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+In triangle $ABC$, point $D$ is an arbitrary point on side $BC$. The projection of $D$ onto the altitude from $B$ is $E$, and the projection of $D$ onto the altitude from $C$ is $F$. Prove that the sum $AB \cdot CF + AC \cdot BE$ is equal to twice the area of the triangle.

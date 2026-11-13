@@ -1,0 +1,9 @@
+id: e0849da4a6a8
+kind: pair
+records:
+    - XAWH340AW4
+    - usamo/1977/p3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 165571 of NuminaMath 1.5 to this record, but they are two problems: the row takes any two different roots, the record the two real roots. The agent removed the row from the record, and row 165571 is now in a new loose record.'

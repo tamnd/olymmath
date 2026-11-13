@@ -1,0 +1,8 @@
+id: 51337dbb71e7
+kind: match
+records:
+    - 7P2TMW2K02
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 175860 of NuminaMath 1.5 into this record, which holds row 175835, but the row puts B on plane Q and also in plane P, a slip for the point C of the partner. The row is not a clear problem, so the record keeps only row 175835. The agent listed row 175860 in registers/loose-removed.tsv.'

@@ -1,0 +1,9 @@
+id: 35496fec7c0f
+kind: pair
+records:
+    - AARF4F2J3F
+    - BMNAZ5QDW8
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 174891 of NuminaMath 1.5 to this record, but they are two problems: the row asks to prove the number is an integer, the record asks to compute it given that it is an integer. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 174891 is now in its own loose record.'

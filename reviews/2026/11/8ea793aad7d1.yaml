@@ -1,0 +1,9 @@
+id: 8ea793aad7d1
+kind: pair
+records:
+    - XNWWZF73NH
+    - N6SZM5CQE4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 154109 of NuminaMath 1.5 to this record, but they are two problems: the row asks for all n, the record for the least n. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 154109 is now in its own loose record.'

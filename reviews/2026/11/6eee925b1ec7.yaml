@@ -1,0 +1,8 @@
+id: 6eee925b1ec7
+kind: sample
+records:
+    - N04JSXV68Y
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text states one complete problem and no solution. The import found no text near it in the content. The answer in the source is garbled (letters are lost or the TeX is broken), so the agent removed the answer from the record.'

@@ -1,0 +1,9 @@
+id: df0455ee3b35
+kind: pair
+records:
+    - 8MEDNP3WTV
+    - 7Y0KM84JYS
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 165109 of NuminaMath 1.5 to this record, but they are two problems: the row asks to show no other 4 or 5 consecutive integers work, the record to prove n distinct cubes sum to a cube for every odd n. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 165109 is now in its own loose record.'

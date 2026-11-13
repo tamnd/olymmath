@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0001.parquet#row=282
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ph-pmo
     source: hf-ai-mo-aops
     label: 23rd Philippine MO Qualifying Stage
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines 23rd Philippine Mathematical Olympiad Qualifying Stage
 ---
 How many functions $f$ are there from the set $S=\{0,1,2,\dots,2020\}$ to itself such that, for all $a,b,c\in S$ , all three of the following conditions are satisfied:
 (i) If $f(a)=a$ , then $a=0$ ;

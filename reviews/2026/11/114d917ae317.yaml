@@ -1,0 +1,9 @@
+id: 114d917ae317
+kind: pair
+records:
+    - MWRD18FZET
+    - S7X8K3FDGD
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Romania/train/0000.parquet#row=321 to this record, but they are two problems: in part b the row claims property (P) for every finite group of odd order, the record only for commutative ones. The agent removed the row from the record, and the row is now in a new loose record.'

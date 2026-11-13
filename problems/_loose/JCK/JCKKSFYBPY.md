@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0002.parquet#row=1
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: danube/2017
     source: hf-ai-mo-aops
     label: 2017 Danube Mathematical Olympiad
+  - at: danube
+    source: hf-mathnet
+    label: Romania The Danube Mathematical Competition
 ---
 Let $n\geq 3$ be a positive integer. Consider an $n\times n$ square. In each cell of the square, one of the numbers from the set $M=\{1,2,\ldots,2n-1\}$ is to be written. One such filling is called *good* if, for every index $1\leq i\leq n,$ row no. $i$ and column no. $i,$ together, contain all the elements of $M$ .
 

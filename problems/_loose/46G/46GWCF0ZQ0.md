@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Estonia/train/0000.parquet#row=94
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ee-mo
+    source: hf-mathnet
+    label: Estonia Estonian Math Competitions
 ---
 A hiking club wants to hike around a lake along an exactly circular route. On the shoreline they determine two points, which are the most distant from each other, and start to walk along the circle, which has these two points as the endpoints of its diameter. Can they be sure that, independent of the shape of the lake, they do not have to swim across the lake on any part of their route?

@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Belarus/train/0000.parquet#row=152
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: by-mo/2012
+    source: hf-mathnet
+    label: Belarus Belorusija 2012
 ---
 Given $0 < a < b < c$ prove that $$ a^{20}b^{12} + b^{20}c^{12 }+ c^{20}a^{12} <b^{20}a^{12}+ a^{20}c^{12} + c^{20}b^{12} $$
 

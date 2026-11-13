@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Singapore/train/0000.parquet#row=59
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: sg-smo/2016
     source: hf-ai-mo-aops
     label: 2016 Singapore Senior Math Olympiad
+  - at: sg-smo
+    source: hf-mathnet
+    label: Singapore Singapur
 ---
 Let $n$ be a positive integer. Determine the minimum number of lines that can be drawn on the plane so that they intersect in exactly $n$ distinct points.

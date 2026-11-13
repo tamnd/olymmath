@@ -1,0 +1,8 @@
+id: c1cdfef1a6b4
+kind: match
+records:
+    - baltic-way/2019/p16
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The agent read the MathNet row Baltic_Way/train/0001.parquet#row=290 and this record again, because the first review found a difference: the row asks for the number of pairs and the record asks to prove that this number is a perfect square; it is the same problem in another wording. The agent kept the link.'

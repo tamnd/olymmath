@@ -14,12 +14,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/United_States/train/0009.parquet#row=142
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: amc10
     source: hf-ai-mo-aops
     label: 2024 AMC 10
+  - at: amc10
+    source: hf-mathnet
+    label: United States AMC 10 B
 ---
 A group of $100$ students from different countries meet at a mathematics competition. Each student speaks the same number of languages, and, for every pair of students $A$ and $B$ , student $A$ speaks some language that student $B$ does not speak, and student $B$ speaks some language that student $A$ does not speak. What is the least possible total number of languages spoken by all the students? $
 \textbf{(A) }9 \textbf{(B) }10 \textbf{(C) }12 \textbf{(D) }51 \textbf{(E) }100 $

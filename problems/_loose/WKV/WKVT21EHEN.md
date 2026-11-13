@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Hong_Kong/train/0000.parquet#row=311
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: hk-pc/2017
     source: hf-ai-mo-aops
     label: 2017 Hong Kong TST
+  - at: hk-pc
+    source: hf-mathnet
+    label: Hong Kong HKG TST
 ---
 Decide if there is a permutation $a_1,a_2,\cdots,a_{6666}$ of the numbers $1,2,\cdots,6666$ with the property that the sum $k+a_k$ is a perfect square for all $k=1,2,\cdots,6666$

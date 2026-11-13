@@ -1,0 +1,8 @@
+id: 8fa11202ad0a
+kind: match
+records:
+    - isl/2010/g3
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Taiwan/train/0000.parquet#row=4 to this record, but the row is not a clear copy: row formula garbled: max of a single sum X1X2/P1P2 + ... + XnX1/PnP1 instead of max of the list of ratios. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

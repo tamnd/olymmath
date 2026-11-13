@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Iran/train/0000.parquet#row=226
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ir-mo/2019
     source: hf-ai-mo-aops
     label: 2019 Iran MO (3rd Round)
+  - at: ir-mo
+    source: hf-mathnet
+    label: Iran 37th Iranian Mathematical Olympiad
 ---
 We are given a natural number $d$ . Find all open intervals of maximum length $I \subseteq R$ such that for all real numbers $a_0,a_1,...,a_{2d-1}$ inside interval $I$ , we have that the polynomial $P(x)=x^{2d}+a_{2d-1}x^{2d-1}+...+a_1x+a_0$ has no real roots.

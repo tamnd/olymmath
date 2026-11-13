@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Hong_Kong/train/0000.parquet#row=356
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: hk-pc/2019
     source: hf-ai-mo-aops
     label: 2019 Hong Kong TST
+  - at: hk-pc
+    source: hf-mathnet
+    label: Hong Kong HKG TST
 ---
 Let $ABC$ be an acute-angled triangle such that $\angle{ACB} = 45^{\circ}$ . Let $G$ be the point of intersection of the three medians and let $O$ be the circumcentre. Suppose $OG=1$ and $OG \parallel BC$ . Determine the length of the segment $BC$ .

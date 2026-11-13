@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0002.parquet#row=250
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ro-nmo/2018
     source: hf-ai-mo-aops
     label: 2018 Romania National Olympiad
+  - at: ro-nmo
+    source: hf-mathnet
+    label: Romania 69th Romanian Mathematical Olympiad - Final Round
 ---
 Find the natural number $n$ for which $$ \sqrt{\frac{20^n- 18^n}{19}} $$ is a rational number.

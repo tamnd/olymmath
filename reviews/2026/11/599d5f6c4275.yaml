@@ -1,0 +1,8 @@
+id: 599d5f6c4275
+kind: match
+records:
+    - TVX6CXT7HV
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The agent read the MathNet row Bulgaria/train/0001.parquet#row=52 and this record again, because the first review found a difference: the row has 6xa^2 and the record 6x^2a; only the row gives a cubic that factors, so the record has the slip. The agent kept the link.'

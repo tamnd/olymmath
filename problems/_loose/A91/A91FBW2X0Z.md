@@ -28,6 +28,9 @@ unplaced:
   - at: ir-mo/2019
     source: hf-ai-mo-aops
     label: 2019 Iran MO (3rd Round)
+  - at: ir-mo
+    source: hf-mathnet
+    label: Iran 37th Iranian Mathematical Olympiad
 ---
 Call a polynomial $P(x)=a_nx^n+a_{n-1}x^{n-1}+\dots a_1x+a_0$ with integer coefficients primitive if and only if $\gcd(a_n,a_{n-1},\dots a_1,a_0) =1$ .
 

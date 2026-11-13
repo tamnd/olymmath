@@ -1,0 +1,8 @@
+id: c1063b0984c6
+kind: match
+records:
+    - VMF77YPWW2
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import joined the MathNet row Brazil/train/0001.parquet#row=380 into this record, which held the MathNet row Brazil/train/0001.parquet#row=372. The two rows state the same problem, but the text of the record stopped before the claim. The agent made the clear text of the joined row the statement of the record, and listed the other row in registers/loose-removed.tsv.'

@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/United_States/train/0003.parquet#row=306
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hmmt
+    source: hf-mathnet
+    label: United States Harvard-MIT Math Tournament
 ---
 Let $T$ be a graph with one vertex $v_{n}$ for every integer $n$. An edge connects $v_{a}$ and $v_{b}$ if $|a-b|$ is a power of two. What is the chromatic number of $T$ ? Prove your answer.

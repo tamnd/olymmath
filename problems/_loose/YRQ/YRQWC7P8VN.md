@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Singapore/train/0000.parquet#row=58
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: sg-smo/2016
     source: hf-ai-mo-aops
     label: 2016 Singapore Junior Math Olympiad
+  - at: sg-smo
+    source: hf-mathnet
+    label: Singapore Singapur
 ---
 Let $a_1,a_2,...,a_9$ be a sequence of numbers satisfying $0 < p \le a_i \le q$ for each $i = 1,2,..., 9$ .
 Prove that $\frac{a_1}{a_9}+\frac{a_2}{a_8}+...+\frac{a_9}{a_1} \le 1 + \frac{4(p^2+q^2)}{pq}$

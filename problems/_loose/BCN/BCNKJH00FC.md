@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Iran/train/0000.parquet#row=227
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ir-mo/2019
     source: hf-ai-mo-aops
     label: 2019 Iran MO (3rd Round)
+  - at: ir-mo
+    source: hf-mathnet
+    label: Iran 37th Iranian Mathematical Olympiad
 ---
 Consider a triangle $ABC$ with circumcenter $O$ and incenter $I$ . Incircle touches sides $BC,CA$ and $AB$ at $D, E$ and $F$ . $K$ is a point such that $KF$ is tangent to circumcircle of $BFD$ and $KE$ is tangent to circumcircle of $CED$ . Prove that $BC,OI$ and $AK$ are concurrent.

@@ -1,0 +1,9 @@
+id: 11f9c39e2c91
+kind: pair
+records:
+    - F9KVTBS4BA
+    - XA08AGP65J
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Ireland/train/0000.parquet#row=305 to this record, but they are two problems: the row asks to prove the inequality and find equality cases, the record only asks to compare the two expressions. The agent removed the row from the record, and the row is now in a new loose record.'

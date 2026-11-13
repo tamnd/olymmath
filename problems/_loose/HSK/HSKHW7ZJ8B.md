@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Croatia/train/0001.parquet#row=109
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hr-mo
+    source: hf-mathnet
+    label: Croatia Mathematical competitions in Croatia
 ---
 Let $A B C D$ be a rectangle such that $|A B|:|A D|=2: 3$ and let point $E$ be on side $\overline{A D}$ such that $|A E|=|A B|$. Point $F$ is chosen on ray $A B$ so that triangle $A F E$ and quadrilateral $C D E F$ have equal areas. Determine the ratio $|A B|:|B F|$.

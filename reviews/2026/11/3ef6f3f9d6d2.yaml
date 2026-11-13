@@ -1,0 +1,9 @@
+id: 3ef6f3f9d6d2
+kind: pair
+records:
+    - 2CTVG0RW0J
+    - 8DVFVAWB96
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Romania/train/0002.parquet#row=376 to this record, but they are two problems: the row asks to determine the triples of integers at most 5, the record asks how many triples of non-zero naturals at most 5. The agent removed the row from the record, and the row is now in a new loose record.'

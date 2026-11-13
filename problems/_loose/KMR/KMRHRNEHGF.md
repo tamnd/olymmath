@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: de
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Switzerland/train/0000.parquet#row=122
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ch-smo/2007
     source: hf-ai-mo-aops
     label: 2007 Switzerland - Final Round
+  - at: ch-smo
+    source: hf-mathnet
+    label: Switzerland SMO Finalrunde
 ---
 Let $a, b, c$ be three integers such that $a + b + c$ is divisible by $13$ . Prove that $$ a^{2007}+b^{2007}+c^{2007}+2 \cdot 2007abc $$ is divisible by $13$ .

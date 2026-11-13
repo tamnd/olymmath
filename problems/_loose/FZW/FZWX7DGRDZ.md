@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/India/train/0000.parquet#row=151
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: in-tst/2013
     source: hf-ai-mo-aops
     label: 2013 India IMO Training Camp
+  - at: in-tst/2013
+    source: hf-mathnet
+    label: India Indija TS 2013
 ---
 Find all functions $f$ from the set of real numbers to itself satisfying
 $$ f(x(1+y)) = f(x)(1 + f(y)) $$

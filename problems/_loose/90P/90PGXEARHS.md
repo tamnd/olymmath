@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=322
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc/2015
+    source: hf-mathnet
+    label: Saudi Arabia SAMC 2015
 ---
 Hamza and Majid play a game on a horizontal $3 \times 2015$ white board. They alternate turns, with Hamza going first. A legal move for Hamza consists of painting three unit squares forming a horizontal $1 \times 3$ rectangle. A legal move for Majid consists of painting three unit squares forming a vertical $3\times 1$ rectangle. No one of the two players is allowed to repaint already painted squares. The last player to make a legal move wins. Which of the two players, Hamza or Majid, can guarantee a win no matter what strategy his opponent chooses and what is his strategy to guarantee a win?
 

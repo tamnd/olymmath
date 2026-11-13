@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/China/train/0001.parquet#row=72
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: cn-league/2012
     source: hf-ai-mo-aops
     label: 2012 China Second Round Olympiad
+  - at: cn-league
+    source: hf-mathnet
+    label: China China Mathematical Competition
 ---
 Let $F$ be the focus of parabola $y^2=2px(p>0)$ , with directrix $l$ and two points $A,B$ on it. Knowing that $\angle AFB=\frac{\pi}{3}$ , find the maximal value of $\frac{|MN|}{|AB|}$ , where $M$ is the midpoint of $AB$ and $N$ is the projection of $M$ to $l$ .

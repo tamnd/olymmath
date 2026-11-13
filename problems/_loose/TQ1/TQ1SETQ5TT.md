@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Iran/train/0000.parquet#row=96
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ir-mo-r2/2014
     source: hf-ai-mo-aops
     label: 2014 Iran MO (2nd Round)
+  - at: ir-mo
+    source: hf-mathnet
+    label: Iran Iranian Mathematical Olympiad
 ---
 A subset $S$ of positive real numbers is called *powerful* if for any two distinct elements $a, b$ of $S$ , at least one of $a^{b}$ or $b^{a}$ is also an element of $S$ . **a)** Give an example of a four elements powerful set.**b)** Prove that every finite powerful set has at most four elements.

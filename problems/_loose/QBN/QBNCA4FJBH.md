@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ukraine/train/0000.parquet#row=125
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ua-umo/2009
     source: hf-ai-mo-aops
     label: 2009 Ukraine National Mathematical Olympiad
+  - at: ua-umo
+    source: hf-mathnet
+    label: Ukraine 49th Mathematical Olympiad in Ukraine
 ---
 In the triangle $ABC$ given that $\angle ABC = 120^\circ .$ The bisector of $\angle B$ meet $AC$ at $M$ and external bisector of $\angle BCA$ meet $AB$ at $P.$ Segments $MP$ and $BC$ intersects at $K$ . Prove that $\angle AKM = \angle KPC .$

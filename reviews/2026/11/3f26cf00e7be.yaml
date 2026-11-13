@@ -1,0 +1,8 @@
+id: 3f26cf00e7be
+kind: match
+records:
+    - cn-smo/2010/p4
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row China/train/0000.parquet#row=350 to this record, but the row is not a clear copy: the row has ab = a^k + b^k where the record has ab divides a^k + b^k. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

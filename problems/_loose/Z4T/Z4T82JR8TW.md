@@ -14,12 +14,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0003.parquet#row=286
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ro-nmo/2024
     source: hf-ai-mo-aops
     label: 2024 Romania National Olympiad
+  - at: ro-nmo
+    source: hf-mathnet
+    label: Romania 74th Romanian Mathematical Olympiad
 ---
 We consider the inscriptible pentagon $ABCDE$ in which $AB=BC=CD$ and the centroid of the pentagon coincides with the circumcenter. Prove that the pentagon $ABCDE$ is regular.
 

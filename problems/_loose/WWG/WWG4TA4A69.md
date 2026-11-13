@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Balkan_Mathematical_Olympiad/train/0000.parquet#row=193
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: balkan-sl/2022
     source: hf-ai-mo-aops
     label: 2022 Balkan MO Shortlist
+  - at: balkan-sl/2022
+    source: hf-mathnet
+    label: Balkan Mathematical Olympiad BMO 2022 shortlist
 ---
 Let $ABC$ be a triangle with circumcircle $\omega$ , circumcenter $O{}$ , and orthocenter $H{}$ . Let $K{}$ be the midpoint of $AH{}$ . The perpendicular to $OK{}$ at $K{}$ intersects $AB{}$ and $AC{}$ at $P{}$ and $Q{}$ , respectively. The lines $BK$ and $CK$ intersect $\omega$ again at $X{}$ and $Y{}$ , respectively. Prove that the second intersection of the circumcircles of triangles $KPY$ and $KQX$ lies on $\omega$ .
 

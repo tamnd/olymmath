@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Singapore/train/0000.parquet#row=64
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: sg-smo/2016
     source: hf-ai-mo-aops
     label: 2016 Singapore Junior Math Olympiad
+  - at: sg-smo
+    source: hf-mathnet
+    label: Singapore Singapur
 ---
 A group of tourists get on $10$ buses in the outgoing trip. The same group of tourists get on $8$ buses in the return trip. Assuming each bus carries at least $1$ tourist, prove that there are at least $3$ tourists such that each of them has taken a bus in the return trip that has more people than the bus he has taken in the outgoing trip.

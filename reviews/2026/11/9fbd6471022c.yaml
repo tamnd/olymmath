@@ -1,0 +1,8 @@
+id: 9fbd6471022c
+kind: match
+records:
+    - tstst/2011/p6
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row United_States/train/0004.parquet#row=416 to this record, but the row is not a clear copy: the last term is miscopied: the row has 2 sqrt(2abc) in the numerator, the record 2 sqrt(2) abc. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

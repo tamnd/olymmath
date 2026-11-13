@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0002.parquet#row=256
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ro-nmo/2018
     source: hf-ai-mo-aops
     label: 2018 Romania National Olympiad
+  - at: ro-nmo
+    source: hf-mathnet
+    label: Romania 69th Romanian Mathematical Olympiad - Final Round
 ---
 For any $k \in \mathbb{Z},$ define $$ F_k=X^4+2(1-k)X^2+(1+k)^2. $$ Find all values $k \in \mathbb{Z}$ such that $F_k$ is irreducible over $\mathbb{Z}$ and reducible over $\mathbb{Z}_p,$ for any prime $p.$ *Marius Vladoiu*

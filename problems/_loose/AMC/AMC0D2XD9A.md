@@ -14,11 +14,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Belarus/train/0001.parquet#row=32
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: by-mo/2016
     source: hf-ai-mo-aops
     label: 2016 Belarusian National Olympiad
+  - at: by-mo
+    source: hf-mathnet
+    label: Belarus 66th Belarusian Mathematical Olympiad
 ---
 Prove that there are at most finitely many prime numbers $p$ such that the equation $$ a^3 + b^3 = 2016pab $$ has a solution in natural numbers $a, b$ that are not multiples of $p$ .

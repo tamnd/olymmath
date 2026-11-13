@@ -15,8 +15,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ukraine/train/0001.parquet#row=340
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ua-umo
+    source: hf-mathnet
+    label: Ukraine 62nd Ukrainian National Mathematical Olympiad, Third Round, First Tour
 ---
 Let $AL$ be the inner bisector of triangle $ABC$. The circle centered at $B$ with radius $BL$ meets the ray $AL$ at points $L$ and $E$, and the circle centered at $C$ with radius $CL$ meets the ray $AL$ at points $L$ and $D$. Show that $AL^2 = AE\times AD$.
 

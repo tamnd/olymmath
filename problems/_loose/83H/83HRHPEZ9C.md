@@ -14,12 +14,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/IMO/train/0000.parquet#row=354
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: de-tst/2025
     source: hf-ai-mo-aops
     label: 2025 Germany Team Selection Test
+  - at: isl/2024
+    source: hf-mathnet
+    label: IMO IMO2024 Shortlisted Problems
 ---
 Let $n$ be a positive integer. The integers $1, 2, 3,\,\ldots, n^2$ are to be written in the cells of an $n\times n$ board such that each integer is written in exactly one cell and each cell contains exactly one integer. For every integer $d$ with $d\mid n$ , the $d$ -*division* of the board is the division of the board into $(n/d)^2$ nonoverlapping sub-boards, each of size $d\times d$ , such that each cell is contained in exactly one $d\times d$ sub-board.
 

@@ -14,12 +14,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/United_States/train/0009.parquet#row=325
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: amc10
     source: hf-ai-mo-aops
     label: 2024 AMC 10
+  - at: amc10
+    source: hf-mathnet
+    label: United States AMC 10 A
 ---
 In how many ways can $6$ juniors and $6$ seniors form $3$ disjoint teams of $4$ people so that each team has $2$ juniors and $2$ seniors? $
 \textbf{(A) }720 \textbf{(B) }1350 \textbf{(C) }2700 \textbf{(D) }3280 \textbf{(E) }8100 $

@@ -1,0 +1,8 @@
+id: 418eeed08f6c
+kind: match
+records:
+    - vn-tst/2003/p1
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Vietnam/train/0000.parquet#row=24 to this record, but the row is not a clear copy: the binomial coefficients in the row''s formula for S are miscopied (choose p, q, p, q where the record has n, q, q, n). The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

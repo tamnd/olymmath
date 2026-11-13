@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Iran/train/0000.parquet#row=311
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ir-mo/2022
     source: hf-ai-mo-aops
     label: 2022 Iran MO (3rd Round)
+  - at: ir-mo
+    source: hf-mathnet
+    label: Iran 40th Iranian Mathematical Olympiad
 ---
 We call polynomial $S(x)\in\mathbb{R}[x]$ sadeh whenever it's divisible by $x$ but not divisible by $x^2$ .
 For the polynomial $P(x)\in\mathbb{R}[x]$ we know that there exists a sadeh polynomial $Q(x)$ such that $P(Q(x))-Q(2x)$ is divisible by $x^2$ . Prove that there exists sadeh polynomial $R(x)$ such that $P(R(x))-R(2x)$ is divisible by $x^{1401}$ .

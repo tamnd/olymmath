@@ -14,12 +14,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Russia/train/0000.parquet#row=367
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ru-allrussian/2025
     source: hf-ai-mo-aops
     label: 2025 All-Russian Olympiad
+  - at: ru-allrussian
+    source: hf-mathnet
+    label: Russia LI Всероссийская математическая олимпиада школьников
 ---
 $777$ pairwise distinct complex numbers are written on a board. It turns out that there are exactly 760 ways to choose two numbers $a$ and $b$ from the board such that:
 $$

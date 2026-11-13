@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Russia/train/0000.parquet#row=49
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ru-allrussian
+    source: hf-mathnet
+    label: Russia Russian mathematical olympiad
 ---
 Numbers $a, b$ and $c$ are such that $(a+b)(b+c)(c+a)=a b c,\left(a^{3}+b^{3}\right)\left(b^{3}+c^{3}\right)\left(c^{3}+a^{3}\right)=a^{3} b^{3} c^{3}$. Prove that $a b c=0$.

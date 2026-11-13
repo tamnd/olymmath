@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ukraine/train/0000.parquet#row=140
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ma-mo/2011
     source: hf-ai-mo-aops
     label: 2011 Morocco National Olympiad
+  - at: ua-umo/2010
+    source: hf-mathnet
+    label: Ukraine 50th Mathematical Olympiad in Ukraine, Third Round (January 23, 2010)
 ---
 Find all positive integers n such that : $-2^{0}+2^{1}-2^{2}+2^{3}-2^{4}+...-(-2)^{n}=4^{0}+4^{1}+4^{2}+...+4^{2010}$

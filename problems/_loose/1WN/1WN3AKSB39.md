@@ -21,11 +21,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ibero-American_Mathematical_Olympiad/train/0000.parquet#row=71
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ibero/1998
     source: hf-numina-olympiads
     label: IberoAmerican_MO
+  - at: ibero
+    source: hf-mathnet
+    label: Ibero-American Mathematical Olympiad Iberoamerican Mathematical Olympiad
 ---
 $\mathrm{P}_{1}, \mathrm{P}_{2}, \ldots, \mathrm{P}_{\mathrm{n}}$ are points in the plane and $\mathrm{r}_{1}, \mathrm{r}_{2}, \ldots, \mathrm{r}_{\mathrm{n}}$ are real numbers such that the distance between $P_{i}$ and $P_{j}$ is $r_{i}+r_{j}$ (for $i$ not equal to $j$ ). Find the largest $n$ for which this is possible.

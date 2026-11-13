@@ -1,0 +1,9 @@
+id: 48a74c86e120
+kind: pair
+records:
+    - H6HGFR2ABA
+    - fr-tst/2025/p13
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Romania/train/0003.parquet#row=234 to this record, but they are two problems: the row takes a, b, c real with ab+bc+ca = 3, the record strictly positive reals. The agent removed the row from the record, and the row is now in a new loose record.'

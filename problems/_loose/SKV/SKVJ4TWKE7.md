@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ukraine/train/0001.parquet#row=355
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ua-umo
+    source: hf-mathnet
+    label: Ukraine 62nd Ukrainian National Mathematical Olympiad
 ---
 Which number is larger: $A = \frac{1}{9} : \sqrt[3]{\frac{1}{2023}}$, or $B = \log_{2023} 91125$?

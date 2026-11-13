@@ -14,11 +14,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Balkan_Mathematical_Olympiad/train/0000.parquet#row=227
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: balkan-sl/2024
     source: hf-ai-mo-aops
     label: 2024 Balkan MO Shortlist
+  - at: balkan
+    source: hf-mathnet
+    label: Balkan Mathematical Olympiad 41st Balkan Mathematical Olympiad
 ---
 Let $ABC$ be an acute triangle and let $P$ be an interior point for it such that $\angle APB = \angle BPC = \angle CPA$ . Prove that $$ \frac{PA^2 + PB^2 + PC^2}{2S} + \frac{4}{\sqrt{3}} \leq \frac{1}{\sin \alpha} + \frac{1}{\sin \beta} + \frac{1}{\sin \gamma}. $$ When does equality hold?

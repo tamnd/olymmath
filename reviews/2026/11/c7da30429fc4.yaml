@@ -1,0 +1,9 @@
+id: c7da30429fc4
+kind: pair
+records:
+    - XJVTFRPRDD
+    - memo/2012/i1
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Balkan_Mathematical_Olympiad/train/0000.parquet#row=163 to this record, but they are two problems: other functional equation: row f(xf(x+y)) = yf(x)+1, record f(x+f(y)) = yf(xy+1). The agent removed the row from the record, and the row is now in a new loose record.'

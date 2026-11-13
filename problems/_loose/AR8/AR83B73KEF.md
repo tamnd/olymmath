@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Argentina/train/0001.parquet#row=18
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: rioplatense/2010
     source: hf-ai-mo-aops
     label: 2010 Rioplatense Mathematical Olympiad, Level 3
+  - at: rioplatense
+    source: hf-mathnet
+    label: Argentina Mathematical Olympiad Rioplatense
 ---
 Acute triangle $ABP$ , where $AB > BP$ , has altitudes $BH$ , $PQ$ , and $AS$ . Let $C$ denote the intersection of lines $QS$ and $AP$ , and let $L$ denote the intersection of lines $HS$ and $BC$ . If $HS = SL$ and $HL$ is perpendicular to $BC$ , find the value of $\frac{SL}{SC}$ .

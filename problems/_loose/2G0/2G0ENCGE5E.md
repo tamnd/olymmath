@@ -17,6 +17,10 @@ statements:
     kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ro-nmo
+    source: hf-mathnet
+    label: Romania 66th ROMANIAN MATHEMATICAL OLYMPIAD
 ---
 In a regular tetrahedron $ABCD$, planes parallel to the faces of the tetrahedron are constructed such that each edge is divided into 6 congruent segments. These planes determine a set of 80 intersection points on the faces, edges, and inside the tetrahedron, denoted by $V$.
 

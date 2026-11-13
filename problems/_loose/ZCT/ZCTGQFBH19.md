@@ -21,11 +21,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ibero-American_Mathematical_Olympiad/train/0000.parquet#row=66
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ibero/1997
     source: hf-numina-olympiads
     label: IberoAmerican_MO
+  - at: ibero
+    source: hf-mathnet
+    label: Ibero-American Mathematical Olympiad Iberoamerican Mathematical Olympiad
 ---
 $\mathrm{ABC}$ is an acute-angled triangle with orthocenter $\mathrm{H} . \mathrm{AE}$ and $\mathrm{BF}$ are altitudes. $\mathrm{AE}$ is reflected in the angle bisector of angle $\mathrm{A}$ and $\mathrm{BF}$ is reflected in the angle bisector of angle $\mathrm{B}$. The two reflections intersect at $\mathrm{O}$. The rays $\mathrm{AE}$ and $\mathrm{AO}$ meet the circumcircle of $\mathrm{ABC}$ at $\mathrm{M}$ and $\mathrm{N}$ respectively. $\mathrm{P}$ is the intersection of $\mathrm{BC}$ and $\mathrm{HN}, \mathrm{R}$ is the intersection of $\mathrm{BC}$ and $\mathrm{OM}$, and $\mathrm{S}$ is the intersection of HR and OP. Show that AHSO is a parallelogram.

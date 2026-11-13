@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=254
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia SAMC
 ---
 Let $ABC$ be a triangle, $I$ its incenter, and $\omega$ a circle of center $I$. Points $A',B', C'$ are on $\omega$ such that rays $IA', IB', IC',$ starting from $I$ intersect perpendicularly sides $BC, CA, AB$, respectively. Prove that lines $AA', BB', CC'$ are concurrent.

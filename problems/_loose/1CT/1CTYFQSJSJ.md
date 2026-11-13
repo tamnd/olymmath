@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Greece/train/0000.parquet#row=145
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: gr-hms/2018
     source: hf-ai-mo-aops
     label: 2018 Greece Junior Math Olympiad
+  - at: gr-hms
+    source: hf-mathnet
+    label: Greece Hellenic Mathematical Olympiad
 ---
 Let $a$ and $b$ be positive integers with $b$ odd, such that the number $$ \frac{(a+b)^2+4a}{ab} $$ is an integer. Prove that $a$ is a perfect square.

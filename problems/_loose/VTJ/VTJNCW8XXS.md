@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/China/train/0000.parquet#row=346
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: cn-tst/2010
     source: hf-ai-mo-aops
     label: 2010 China Team Selection Test
+  - at: cn-tst
+    source: hf-mathnet
+    label: China China National Team Selection Test
 ---
 Let $G=G(V,E)$ be a simple graph with vertex set $V$ and edge set $E$ . Suppose $|V|=n$ . A map $f: V\rightarrow\mathbb{Z}$ is called good, if $f$ satisfies the followings:
 (1) $\sum_{v\in V} f(v)=|E|$ ;

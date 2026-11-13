@@ -1,0 +1,8 @@
+id: 1ba43f5cc251
+kind: sample
+records:
+    - WYWZGYKEHT
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The text states one complete problem and no solution. The source gives the problem twice, in English and in Russian, so the agent kept the English text and set the language of the statement to en.'

@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Czech_Republic/train/0000.parquet#row=77
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: cz-sk-mo
+    source: hf-mathnet
+    label: Czech Republic Czech and Slovak Mathematical Olympiad
 ---
 In any triangle $ABC$, where the median $z$ from vertex $C$ is not perpendicular to side $CA$ or side $CB$, let $X$ and $Y$ be the intersections of the perpendicular bisector of this median with the lines $CA$ and $CB$. Find all such triangles $ABC$ for which the points $A, B, X, Y$ lie on the same circle.
 

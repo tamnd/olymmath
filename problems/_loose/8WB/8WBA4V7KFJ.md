@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Croatia/train/0001.parquet#row=88
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hr-mo
+    source: hf-mathnet
+    label: Croatia Croatian Mathematical Olympiad
 ---
 Circles $k_1$ and $k_2$ intersect at points $M$ and $N$. The line $\ell$ intersects the circle $k_1$ at points $A$ and $C$, the circle $K_2$ at points $B$ and $D$ so that the points $A,B,C$ and $D$ lie on the line $\ell$ are in that order. Let $X$ a point on the line $MN$ such that the point $M$ is located between the points $X$ and $N$. Let $P$ be the intersection of lines $AX$ and $BM$, and $Q$ be the intersection of lines $DX$ and $CM$. If $K$ is the midpoint of segment $AD$ and $L$ is the midpoint of segment $BC$, prove that the lines $XK$ and $ML$ intersect on the line $PQ$.

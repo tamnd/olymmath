@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0001.parquet#row=272
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ph-pmo
     source: hf-ai-mo-aops
     label: 23rd Philippine MO Qualifying Stage
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines 23rd Philippine Mathematical Olympiad Qualifying Stage
 ---
 Consider all real numbers $c$ such that $|x-8|+|4-x^2|=c$ has exactly three real solutions. The sum of all such $c$ can be expressed as a fraction $a/b$ in lowest terms. What is $a+b$ ?

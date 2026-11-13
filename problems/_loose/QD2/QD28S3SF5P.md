@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Turkey/train/0000.parquet#row=303
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: tr-mo
+    source: hf-mathnet
+    label: Turkey 31st Turkish Mathematical Olympiad
 ---
 On a triangle $ABC$, points $D$, $E$, $F$ are given on the segments $BC$, $AC$, $AB$ respectively such that $DE \parallel AB$, $DF \parallel AC$ and $\frac{BD}{DC}=\frac{AB^2}{AC^2}$ holds. Let the circumcircle of $AEF$ meet $AD$ at $R$ and the line that is tangent to the circumcircle of $ABC$ at $A$ at $S$ again. Let the line $EF$ intersect $BC$ at $L$ and $SR$ at $T$. Prove that $SR$ bisects $AB$ if and only if $BS$ bisects $TL$.

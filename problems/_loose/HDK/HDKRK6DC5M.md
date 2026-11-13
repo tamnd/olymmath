@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0000.parquet#row=254
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ro-tst/2011
     source: hf-ai-mo-aops
     label: 2011 Romania Team Selection Test
+  - at: ro-tst
+    source: hf-mathnet
+    label: Romania 62nd NMO SELECTION TESTS FOR THE BALKAN AND INTERNATIONAL MATHEMATICAL OLYMPIADS
 ---
 Given a positive integer number $n$ , determine the maximum number of edges a simple graph on $n$ vertices may have such that it contain no cycles of even length.

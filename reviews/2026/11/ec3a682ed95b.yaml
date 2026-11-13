@@ -1,0 +1,9 @@
+id: ec3a682ed95b
+kind: pair
+records:
+    - 3ZF5K3VRPJ
+    - lt-mo/2024/p91
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Hong_Kong/train/0000.parquet#row=422 to this record, but they are two problems: the row asks only for the largest real root, the record asks to solve the equation. The agent removed the row from the record, and the row is now in a new loose record.'

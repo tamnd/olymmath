@@ -14,11 +14,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Hong_Kong/train/0000.parquet#row=414
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: hk-pc/2022
     source: hf-ai-mo-aops
     label: 2022 Hong Kong TST
+  - at: hk-pc
+    source: hf-mathnet
+    label: Hong Kong IMO HK TST
 ---
 Let $ABCD$ be a cyclic quadrilateral with circumcenter $O.$ Diagonals $AC$ and $BD$ meet at $E.$ $F$ and $G$ are points on segments $AB$ and $CD$ respectively. Suppose $AF=15,$ $FB=13,$ $BE=30,$ $ED=13,$ $DG=7.5,$ and $GC=6.5.$ Let $P$ be a point such that $PF\perp AB$ and $PG\perp CD.$ Find $\frac{PE}{PO}.$

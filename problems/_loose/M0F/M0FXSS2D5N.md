@@ -30,6 +30,14 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S4
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/JBMO/train/0000.parquet#row=197
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
@@ -39,6 +47,9 @@ unplaced:
   - at: jbmo-sl/2009
     source: hf-numina-olympiads
     label: JBMO-SL
+  - at: jbmo-sl/2009
+    source: hf-mathnet
+    label: JBMO 2009 Shortlist JBMO
 ---
 Determine all prime numbers $p_1, p_2,..., p_{12}, p_{13}, p_1 \le p_2 \le ... \le p_{12} \le p_{13}$ , such
 that $p_1^2+ p_2^2+ ... + p_{12}^2 = p_{13}^2$ and one of them is equal to $2p_1 + p_9$ .

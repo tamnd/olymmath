@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0000.parquet#row=151
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines Tenth Philippine Mathematical Olympiad
 ---
 It is given that $\triangle A B C \sim \triangle D E F$. If the area of $\triangle A B C$ is $\frac{3}{2}$ times that of $\triangle D E F$ and $A B=B C=A C=2$, what is the perimeter of $\triangle D E F ?$

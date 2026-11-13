@@ -1,0 +1,8 @@
+id: b1162f812084
+kind: match
+records:
+    - bg-mo/1984/p5
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row United_States/train/0007.parquet#row=181 to this record, but the row is another version of the problem, with other data or another condition. The project only links the texts of bg-mo, so the agent made no loose record of the row. The agent listed the row in registers/loose-removed.tsv.'

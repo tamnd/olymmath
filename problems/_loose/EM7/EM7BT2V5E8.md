@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0001.parquet#row=66
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines Philippine Mathematical Olympiad
 ---
 The symbol $\div$ is well-known nowadays to indicate division between two numbers. But during the late medieval period, it had a completely different purpose - it was used to mark words or passages which were spurious, corrupt, or doubtful. The actual name for this "division sign" comes from the ancient Greek word for a sharpened stick or pointed pillar. What is it?

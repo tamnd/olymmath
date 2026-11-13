@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/New_Zealand/train/0000.parquet#row=7
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: nz-nzmo/2019
     source: hf-ai-mo-aops
     label: 2019 New Zealand MO
+  - at: nz-nzmo
+    source: hf-mathnet
+    label: New Zealand New Zealand Mathematical Olympiad
 ---
 Show that for all positive integers $k$ , there exists a positive integer n such that $n2^k -7$ is a perfect square.

@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/China/train/0000.parquet#row=288
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: cn-wmo/2009
     source: hf-ai-mo-aops
     label: 2009 China Western Mathematical Olympiad
+  - at: cn-wmo
+    source: hf-mathnet
+    label: China China Western Mathematical Olympiad
 ---
 Given an integer $n\ge\ 3$ , find the least positive integer $k$ , such that there exists a set $A$ with $k$ elements, and $n$ distinct reals $x_{1},x_{2},\ldots,x_{n}$ such that $x_{1}+x_{2}, x_{2}+x_{3},\ldots, x_{n-1}+x_{n}, x_{n}+x_{1}$ all belong to $A$ .

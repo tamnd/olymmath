@@ -21,11 +21,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ibero-American_Mathematical_Olympiad/train/0000.parquet#row=31
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ibero/1991
     source: hf-numina-olympiads
     label: IberoAmerican_MO
+  - at: ibero
+    source: hf-mathnet
+    label: Ibero-American Mathematical Olympiad Iberoamerican Mathematical Olympiad
 ---
 Let $p(m, n)$ be the polynomial $2 m^{2}-6 m n+5 n^{2}$. The range of $p$ is the set of all integers $k$ such that $\mathrm{k}=\mathrm{p}(\mathrm{m}, \mathrm{n})$ for some integers $\mathrm{m}$, $\mathrm{n}$. Find which members of $\{1,2, \ldots, 100\}$ are in the range of $p$. Show that if $h$ and $k$ are in the range of $p$, then so is $h k$.

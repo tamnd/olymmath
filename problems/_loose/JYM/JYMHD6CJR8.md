@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Croatia/train/0001.parquet#row=43
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hr-mo
+    source: hf-mathnet
+    label: Croatia Croatia Mathematical Competitions
 ---
 In the quadrilateral $A B C D$, it is given that $|A B|=6,|B C|=9,|C D|=18$ and $|A D|=5$. Determine the length of the diagonal $\overline{A C}$ if it is known that this length is a natural number.

@@ -15,8 +15,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0003.parquet#row=322
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ro-nmo
+    source: hf-mathnet
+    label: Romania 74th Romanian Mathematical Olympiad
 ---
 Consider the functions $f,g:\mathbb{R}\to\mathbb{R}$ such that $f{}$ is continous. For any real numbers $a<b<c$ there exists a sequence $(x_n)_{n\geqslant 1}$ which converges to $b{}$ and for which the limit of $g(x_n)$ as $n{}$ tends to infinity exists and satisfies $$f(a)<\lim_{n\to\infty}g(x_n)<f(c).$$
 

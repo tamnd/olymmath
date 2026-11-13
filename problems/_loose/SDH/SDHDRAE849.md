@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/New_Zealand/train/0000.parquet#row=8
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: nz-nzmo/2019
     source: hf-ai-mo-aops
     label: 2019 New Zealand MO
+  - at: nz-nzmo
+    source: hf-mathnet
+    label: New Zealand New Zealand Mathematical Olympiad
 ---
 An equilateral triangle is partitioned into smaller equilateral triangular pieces. Prove that two of the pieces are the same size.

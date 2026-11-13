@@ -1,0 +1,8 @@
+id: fa7be870455e
+kind: match
+records:
+    - 1M88SY27ZQ
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Slovenia/train/0000.parquet#row=242 to this record, but the row is not a clear copy: the row asks for the smallest n with n^2 a cube and n^3 a square, which is 1, so the conditions of the original are lost. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

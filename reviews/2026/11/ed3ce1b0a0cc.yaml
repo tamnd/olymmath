@@ -1,0 +1,9 @@
+id: ed3ce1b0a0cc
+kind: pair
+records:
+    - 4EV8RBYY3E
+    - 97CAVDV7X8
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Baltic_Way/train/0001.parquet#row=375 to this record, but they are two problems: the row asks for every non-negative integer n, the record for every positive integer n. The agent removed the row from the record, and the row is now in a new loose record.'

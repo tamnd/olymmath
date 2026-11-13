@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Soviet_Union/train/0001.parquet#row=154
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ru-allrussian/1987
     source: hf-ai-mo-aops
     label: 1987 All Soviet Union Mathematical Olympiad
+  - at: ru-allrussian
+    source: hf-mathnet
+    label: Soviet Union 21st ASU
 ---
 Prove that for every natural $n$ the following inequality is held: $$ (2n + 1)^n \ge (2n)^n + (2n - 1)^n $$

@@ -30,6 +30,14 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S4
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/JBMO/train/0000.parquet#row=195
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
@@ -39,6 +47,9 @@ unplaced:
   - at: jbmo-sl/2009
     source: hf-numina-olympiads
     label: JBMO-SL
+  - at: jbmo-sl/2009
+    source: hf-mathnet
+    label: JBMO 2009 Shortlist JBMO
 ---
 A group of $n > 1$ pirates of different age owned total of $2009$ coins. Initially each pirate (except the youngest one) had one coin more than the next younger.
 a) Find all possible values of $n$ .

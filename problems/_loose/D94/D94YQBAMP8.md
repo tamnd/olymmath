@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Hong_Kong/train/0000.parquet#row=10
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: hk-pc/2018
     source: hf-ai-mo-aops
     label: 2018 Hong Kong TST
+  - at: hk-pc
+    source: hf-mathnet
+    label: Hong Kong 1997-2023 IMO HK TST
 ---
 In triangle $ABC$ with incentre $I$ , let $M_A,M_B$ and $M_C$ by the midpoints of $BC, CA$ and $AB$ respectively, and $H_A,H_B$ and $H_C$ be the feet of the altitudes from $A,B$ and $C$ to the respective sides. Denote by $\ell_b$ the line being tangent tot he circumcircle of triangle $ABC$ and passing through $B$ , and denote by $\ell_b'$ the reflection of $\ell_b$ in $BI$ . Let $P_B$ by the intersection of $M_AM_C$ and $\ell_b$ , and let $Q_B$ be the intersection of $H_AH_C$ and $\ell_b'$ . Defined $\ell_c,\ell_c',P_C,Q_C$ analogously. If $R$ is the intersection of $P_BQ_B$ and $P_CQ_C$ , prove that $RB=RC$ .

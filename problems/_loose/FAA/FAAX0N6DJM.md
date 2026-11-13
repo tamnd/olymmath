@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=244
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia SAMC
 ---
 Let $S = \{f(a, b) | a, b = 1,2,3, 4$ and $a \ne b\}$, and consider all nonzero polynomials $p(X,Y )$ with integer coefficients such that $p(a, b) = 0$ for every element $(a,b)$ in $S$.
 (a) What is the minimal degree of such polynomial $p(X, Y )$ ?

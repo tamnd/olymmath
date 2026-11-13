@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0000.parquet#row=188
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ro-tst
+    source: hf-mathnet
+    label: Romania 62nd NMO SELECTION TESTS FOR THE BALKAN AND INTERNATIONAL MATHEMATICAL OLYMPIADS
 ---
 Given a positive integer number $k$, define the function $f$ on the set of all positive integer numbers to itself by
 $$f(n)=\begin{cases}1, &\text{if }n\le k+1\\ f(f(n-1))+f(n-f(n-1)), &\text{if }n>k+1\end{cases}$$

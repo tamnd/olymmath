@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ireland/train/0000.parquet#row=262
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ie-irmo
+    source: hf-mathnet
+    label: Ireland Irish
 ---
 $x \geq 0$ and $y$ are real numbers for which $y^2 \geq x(x + 1)$. Prove that:
 

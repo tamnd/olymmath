@@ -1,0 +1,8 @@
+id: ff92b529ec15
+kind: match
+records:
+    - cn-mo/2010/p6
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row China/train/0000.parquet#row=357 to this record, but the row is not a clear copy: row has squares a_i^2 and b_i^2 where the record (and the original) has n-th powers a_i^n and b_i^n, miscopied formula. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

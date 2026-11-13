@@ -1,0 +1,8 @@
+id: 8b0e2d4c19a7
+kind: match
+records:
+    - ZCQZQ7WA2A
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The MathNet row Saudi_Arabia/train/0000.parquet#row=307 first became a new loose record, but om audit found that it has the same text as this record (T 0.976, only the TeX of the subscripts differs). The agent made the row a statement of this record and removed the new record.'

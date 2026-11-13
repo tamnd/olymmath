@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Iran/train/0000.parquet#row=290
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ir-mo/2021
     source: hf-ai-mo-aops
     label: 2021 Iran MO (3rd Round)
+  - at: ir-mo
+    source: hf-mathnet
+    label: Iran Iranian Mathematical Olympiad
 ---
 Find all functions $f:\mathbb{N} \to \mathbb{N}$ such that for any two positive integers $a$ and $b$ we have $$ f^a(b) + f^b(a) \mid 2(f(ab) +b^2 -1) $$ Where $f^n(m)$ is defined in the standard iterative manner.

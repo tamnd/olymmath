@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Slovenia/train/0000.parquet#row=262
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: cu-mo/2010
     source: hf-ai-mo-aops
     label: 2010 Cuba MO
+  - at: si-mo
+    source: hf-mathnet
+    label: Slovenia National Math Olympiad
 ---
 Determine all the integers $a$ and $b$ , such that $\sqrt{2010 + 2 \sqrt{2009}}$ be a solution of the equation $x^2 + ax + b = 0$ . Prove that for such $a$ and $b$ the number $\sqrt{2010 - 2 \sqrt{2009}}$ is not a solution to the given equation.

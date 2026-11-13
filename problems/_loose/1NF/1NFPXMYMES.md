@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Slovenia/train/0000.parquet#row=309
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: si-mo/2010
     source: hf-ai-mo-aops
     label: 2010 Slovenia National Olympiad
+  - at: si-mo
+    source: hf-mathnet
+    label: Slovenia National Math Olympiad
 ---
 Let $ABC$ be an acute triangle. A line parallel to $BC$ intersects the sides $AB$ and $AC$ at $D$ and $E$ , respectively. The circumcircle of the triangle $ADE$ intersects the segment $CD$ at $F \ (F \neq D).$ Prove that the triangles $AFE$ and $CBD$ are similar.

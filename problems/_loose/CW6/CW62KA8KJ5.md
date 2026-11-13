@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/New_Zealand/train/0000.parquet#row=3
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: nz-nzmo/2019
     source: hf-ai-mo-aops
     label: 2019 New Zealand MO
+  - at: nz-nzmo
+    source: hf-mathnet
+    label: New Zealand New Zealand Mathematical Olympiad
 ---
 Let $X$ be the intersection of the diagonals $AC$ and $BD$ of convex quadrilateral $ABCD$ . Let $P$ be the intersection of lines $AB$ and $CD$ , and let $Q$ be the intersection of lines $PX$ and $AD$ . Suppose that $\angle ABX = \angle XCD = 90^o$ . Prove that $QP$ is the angle bisector of $\angle BQC$ .

@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Brazil/train/0001.parquet#row=123
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: br-obm
+    source: hf-mathnet
+    label: Brazil XXV OBM
 ---
 Given a circle and a point $A$ inside the circle, but not at its center. Find points $B$, $C$, $D$ on the circle which maximise the area of the quadrilateral $ABCD$.

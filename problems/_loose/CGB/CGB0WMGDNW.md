@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Croatia/train/0001.parquet#row=227
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hr-mo/2018
+    source: hf-mathnet
+    label: Croatia Croatia_2018
 ---
 Let $ABC$ be an acute-angled triangle such that $|BC| > |AC|$. The perpendicular bisector of segment $\overline{AB}$ intersects side $\overline{BC}$ at point $P$, and line $AC$ at point $Q$. Point $R$ is the foot of the perpendicular from point $P$ to side $\overline{AC}$, and point $S$ is the foot of the perpendicular from point $Q$ to line $BC$.
 

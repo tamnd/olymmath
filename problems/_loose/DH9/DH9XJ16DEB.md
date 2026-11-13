@@ -14,11 +14,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Silk_Road_Mathematics_Competition/train/0000.parquet#row=57
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: silk-road/2025
     source: hf-ai-mo-aops
     label: 2025 Silk Road
+  - at: silk-road
+    source: hf-mathnet
+    label: Silk Road Mathematics Competition SILK ROAD MATHEMATICAL COMPETITION
 ---
 Altitudes of an acute scalene triangle $ABC$ meet at point $H$ . Points $M $ and $N$ are the midpoints of the segments $AB$ and $CH$ , respectively. $R$ is the foot of the perpendicular from $H$ to line $CM$ . $T$ is the second intersection of the line $MN$ with the circumcircle of triangle $CNR$ . Let $P$ be the circumcenter of the triangle formed by the lines $CM$ , $AH$ and $BH$ . Prove that the lines $HP$ and $CT$ are perpendicular.

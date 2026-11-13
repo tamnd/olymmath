@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Baltic_Way/train/0001.parquet#row=243
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: baltic-way-sl
+    source: hf-mathnet
+    label: Baltic Way Baltic Way shortlist
 ---
 Let $s(k)$ denotes sum of digits of positive integer $k$. Prove that there are infinitely many positive integers $n$, which are not divisible by $10$ and satisfies:
 $$s(n^2) < s(n) - 5$$

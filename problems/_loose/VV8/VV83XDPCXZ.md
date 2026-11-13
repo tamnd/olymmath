@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Greece/train/0000.parquet#row=239
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: gr-hms
+    source: hf-mathnet
+    label: Greece Hellenic Mathematical Olympiad
 ---
 Prove that there are infinite triples of positive integers $(x,y,z)$ such that
 $$x^2+y^2+z^2+xy+yz+zx=6xyz.$$

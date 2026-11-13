@@ -1,0 +1,9 @@
+id: a25372e90826
+kind: pair
+records:
+    - 781HPXRMPV
+    - 2G0ENCGE5E
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Romania/train/0001.parquet#row=219 to this record, but they are two problems: the row adds the condition that the plane of three points of W contains no face, the record has only the not parallel condition. The agent removed the row from the record, and the row is now in a new loose record.'

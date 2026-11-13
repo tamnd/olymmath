@@ -1,0 +1,8 @@
+id: fed1f32df706
+kind: match
+records:
+    - at-oemo-fed1/2013/p1
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Austria/train/0000.parquet#row=53 to this record, but the row is not a clear copy: exponent miscopied: the row has (n^2+1)^{2k}, the record (n^2+1)^{2^k}. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

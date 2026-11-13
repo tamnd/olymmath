@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Croatia/train/0001.parquet#row=4
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hr-mo
+    source: hf-mathnet
+    label: Croatia Mathematica competitions in Croatia
 ---
 Let $ABC$ be an acute-angled triangle where $|AC| > |BC|$. Let $H$ be the orthocenter of the triangle, $N$ the foot of the altitude from vertex $B$, and $P$ the midpoint of segment $\overline{AB}$. The circumcircles of triangles $ABC$ and $CHN$ intersect at points $C$ and $D$. Prove that points $B, D, N$, and $P$ lie on the same circle.

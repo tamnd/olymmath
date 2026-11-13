@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0000.parquet#row=157
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines Tenth Philippine Mathematical Olympiad
 ---
 The area of a trapezoid is three times that of an equilateral triangle. If the heights of the trapezoid and the triangle are both equal to $8 \sqrt{3}$, what is the length of the median of the trapezoid?

@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=50
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia Saudi Arabia Mathematical Competitions
 ---
 The shape of a military base is an equilateral triangle of side $10$ kilometers. Security constraints make cellular phone com­munication possible only within $2.5$ kilometers. Each of $17$ soldiers patrols the base randomly and tries to contact all others. Prove that at each moment at least two soldiers can communicate.

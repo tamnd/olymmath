@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Slovenia/train/0000.parquet#row=220
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: si-mo
+    source: hf-mathnet
+    label: Slovenia National Math Olympiad
 ---
 Let $\left(a_{n}\right)$ be a non-constant arithmetic sequence with the first term $a_{1}=1$. The terms $a_{2}, a_{5}, a_{11}$ form a geometric sequence. Calculate the sum of the first 2009 terms of the sequence $\left(a_{n}\right)$.

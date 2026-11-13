@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Singapore/train/0000.parquet#row=42
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: sg-smo/2015
     source: hf-ai-mo-aops
     label: 2015 Singapore Senior Math Olympiad
+  - at: sg-smo/2015
+    source: hf-mathnet
+    label: Singapore Singapur 2015
 ---
 In an acute-angled triangle $ABC$ , $M$ is a point on the side $BC$ , the line $AM$ meets the circumcircle $\omega$ of $ABC$ at the point $Q$ distinct from $A$ . The tangent to $\omega$ at $Q$ intersects the line through $M$ perpendicular to the diameter $AK$ of $\omega$ at the point $P$ . Let $L$ be the point on $\omega$ distinct from $Q$ such that $PL$ is tangent to $\omega$ at $L$ . Prove that $L,M$ and $K$ are collinear.

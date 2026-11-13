@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Spain/train/0001.parquet#row=178
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: imac/2014
     source: hf-ai-mo-aops
     label: 2014 IMAC Arhimede
+  - at: imac
+    source: hf-mathnet
+    label: Spain International Mathematical Arhimede Contest
 ---
 If $a, b, c, d$ are positive numbers, prove that $$ \sum_{cyclic}\frac{a-\sqrt[3]{bcd}}{a+3(b+c+d)}\ge 0 $$

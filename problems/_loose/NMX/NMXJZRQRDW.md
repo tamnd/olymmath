@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Argentina/train/0001.parquet#row=83
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ar-oma/2013
     source: hf-ai-mo-aops
     label: 2013 Argentina National Olympiad
+  - at: ar-oma
+    source: hf-mathnet
+    label: Argentina NATIONAL XXX OMA
 ---
 Let $x\geq 5, y\geq 6, z\geq 7$ such that $x^2+y^2+z^2\geq 125$ . Find the minimum value of $x+y+z$ .

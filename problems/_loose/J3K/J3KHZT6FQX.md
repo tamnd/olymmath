@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0002.parquet#row=261
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ro-tst/2018
     source: hf-ai-mo-aops
     label: 2018 Romania Team Selection Tests
+  - at: ro-tst
+    source: hf-mathnet
+    label: Romania 69th NMO Selection Tests for BMO and IMO
 ---
 Given an non-negative integer $k$ , show that there are infinitely many positive integers $n$ such that the product of any $n$ consecutive integers is divisible by $(n+k)^2+1$ .

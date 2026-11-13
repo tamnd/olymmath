@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0001.parquet#row=332
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ro-tst
+    source: hf-mathnet
+    label: Romania 67th NMO Selection Tests for BMO and IMO
 ---
 Given a positive integer $k$ and an integer $a\equiv 3 \pmod{8}$, show that $a^m+a+2$ is divisible by $2^k$ for some positive integer $m$.

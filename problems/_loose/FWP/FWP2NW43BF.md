@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/China/train/0001.parquet#row=138
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: cn-mo
+    source: hf-mathnet
+    label: China China Mathematical Olympiad
 ---
 For a positive integer $n$ and an integer $i(0 \leqslant i \leqslant n)$, let $\mathrm{C}_{n}^{i} \equiv c(n, i)(\bmod 2)(c(n, i) \in\{0,1\})$.
 Denote $f(n, q)=\sum_{i=0}^{n} c(n, i) q^{i}$.

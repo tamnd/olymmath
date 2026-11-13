@@ -30,6 +30,14 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S4
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/United_States/train/0004.parquet#row=267
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
@@ -39,6 +47,9 @@ unplaced:
   - at: hmmt/2011
     source: hf-numina-olympiads
     label: HMMT February
+  - at: hmmt
+    source: hf-mathnet
+    label: United States Harvard-MIT Mathematics Tournament
 ---
 Let $H$ be a regular hexagon of side length $x$ . Call a hexagon in the same plane a "distortion" of $H$ if
 and only if it can be obtained from $H$ by translating each vertex of $H$ by a distance strictly less than $1$ . Determine the smallest value of $x$ for which every distortion of $H$ is necessarily convex.

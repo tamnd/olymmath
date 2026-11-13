@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ukraine/train/0000.parquet#row=128
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ua-umo/2009
     source: hf-ai-mo-aops
     label: 2009 Ukraine National Mathematical Olympiad
+  - at: ua-umo
+    source: hf-mathnet
+    label: Ukraine 49th Mathematical Olympiad in Ukraine
 ---
 **а)** Prove that for any positive integer $n$ there exist a pair of positive integers $(m, k)$ such that
 $${k + m^k + n^{m^k}} = 2009^n.$$**b)** Prove that there are infinitely many positive integers $n$ for which there is only one such pair.

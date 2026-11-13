@@ -30,6 +30,14 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S4
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/United_States/train/0004.parquet#row=215
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
@@ -39,5 +47,8 @@ unplaced:
   - at: hmmt/2011
     source: hf-numina-olympiads
     label: HMMT February
+  - at: hmmt
+    source: hf-mathnet
+    label: United States Harvard-MIT Mathematics Tournament
 ---
 Let $\left\{ a_n \right\}$ and $\left\{ b_n \right\}$ be sequences defined recursively by $a_0 =2$ ; $b_0 = 2$ , and $a_{n+1} = a_n \sqrt{1+a_n^2+b_n^2}-b_n$ ; $b_{n+1} = b_n\sqrt{1+a_n^2+b_n^2} + a_n$ . Find the ternary (base 3) representation of $a_4$ and $b_4$ .

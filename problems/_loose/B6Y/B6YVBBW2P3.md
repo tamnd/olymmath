@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/North_Macedonia/train/0000.parquet#row=79
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: mk-mo
+    source: hf-mathnet
+    label: North Macedonia Macedonian Mathematical Competitions
 ---
 If $n$ is an odd natural number, then 48 is a divisor of $n^{3}+3 n^{2}-n-3$. Prove it!

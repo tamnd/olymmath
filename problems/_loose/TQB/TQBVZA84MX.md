@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Slovenia/train/0000.parquet#row=271
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: si-mo/2010
     source: hf-ai-mo-aops
     label: 2010 Slovenia National Olympiad
+  - at: si-mo
+    source: hf-mathnet
+    label: Slovenia National Math Olympiad
 ---
 Find all prime numbers $p, q$ and $r$ such that $p>q>r$ and the numbers $p-q, p-r$ and $q-r$ are also prime.

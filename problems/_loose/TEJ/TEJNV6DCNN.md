@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Czech_Republic/train/0000.parquet#row=24
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: cz-sk-mo
+    source: hf-mathnet
+    label: Czech Republic 63rd Czech and Slovak Mathematical Olympiad
 ---
 Let $M$ be the midpoint of side $AB$ of any triangle $ABC$. Prove that the equality $|\angle ABC| + |\angle ACM| = 90^{\circ}$ holds if and only if triangle $ABC$ is isosceles with base $AB$ or right-angled with hypotenuse $AB$.

@@ -15,8 +15,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Vietnam/train/0000.parquet#row=33
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: vn-vmo/2003
+    source: hf-mathnet
+    label: Vietnam 2003 Vietnamese Mathematical Olympiad
 ---
 Find the largest positive integer $n$, such that the system of equations
 $$

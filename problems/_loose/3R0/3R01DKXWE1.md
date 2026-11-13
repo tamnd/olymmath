@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Austria/train/0000.parquet#row=40
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: at-oemo/2012
     source: hf-ai-mo-aops
     label: 2012 Federal Competition For Advanced Students, Part 2
+  - at: at-oemo
+    source: hf-mathnet
+    label: Austria Austrian Mathematical Olympiad
 ---
 Solve over $\mathbb{Z}$ :
 $$ x^4y^3(y-x)=x^3y^4-216 $$

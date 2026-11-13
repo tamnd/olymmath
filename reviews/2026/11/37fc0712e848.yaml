@@ -1,0 +1,8 @@
+id: 37fc0712e848
+kind: match
+records:
+    - QKY8A5265C
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The MathNet row JBMO/train/0000.parquet#row=134 and the text of QKY8A5265C state the same problem with the same data and the same question, in other words (E 1.000, T 0.611, keyword match 1.000). The row became a second statement of the record.'

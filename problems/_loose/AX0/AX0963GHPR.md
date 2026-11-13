@@ -21,11 +21,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ibero-American_Mathematical_Olympiad/train/0000.parquet#row=15
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ibero/1988
     source: hf-numina-olympiads
     label: IberoAmerican_MO
+  - at: ibero
+    source: hf-mathnet
+    label: Ibero-American Mathematical Olympiad Iberoamerican Mathematical Olympiad
 ---
 Let $\mathrm{k}^{3}=2$ and let $\mathrm{x}, \mathrm{y}, \mathrm{z}$ be any rational numbers such that $\mathrm{x}+\mathrm{y} \mathrm{k}+\mathrm{z} \mathrm{k}^{2}$ is non-zero. Show that there are rational numbers $\mathrm{u}, \mathrm{v}, \mathrm{w}$ such that $\left(\mathrm{x}+\mathrm{yk}+\mathrm{z} \mathrm{k}^{2}\right)\left(\mathrm{u}+\mathrm{v} \mathrm{k}+\mathrm{w}^{2}\right)=1$.

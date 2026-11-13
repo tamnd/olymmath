@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: fr
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/France/train/0001.parquet#row=181
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: fr-tst
+    source: hf-mathnet
+    label: France PRÉPARATION OLYMPIQUE FRANÇAISE DE MATHÉMATIQUES
 ---
 Determine all pairs of integers $(x, y)$ such that $x^{2}+73=y^{2}$.

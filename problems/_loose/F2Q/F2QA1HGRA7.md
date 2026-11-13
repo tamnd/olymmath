@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Croatia/train/0000.parquet#row=107
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hr-mo
+    source: hf-mathnet
+    label: Croatia Mathematica competitions in Croatia
 ---
 Given is a parallelogram $A B C D$ with an acute angle at vertex $A$. On the line $A B$, a point $G$, different from $B$, is chosen such that $|B C|=|C G|$, and on the line $B C$, a point $H$, different from $B$, is chosen such that $|A B|=|A H|$. Prove that triangle $D G H$ is isosceles.

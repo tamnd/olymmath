@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ukraine/train/0001.parquet#row=391
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ua-umo
+    source: hf-mathnet
+    label: Ukraine 62nd Ukrainian National Mathematical Olympiad
 ---
 Let's call a pair of positive integers $\overline{a_1a_2\ldots a_k}$ and $\overline{b_1b_2\ldots b_k}$ $k$-similar if all digits $a_1, a_2, \ldots, a_k , b_1 , b_2, \ldots, b_k$ are distinct, and there exist distinct positive integers $m, n$, for which the following equality holds:
 

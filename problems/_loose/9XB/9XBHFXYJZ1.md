@@ -15,8 +15,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: es
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Spain/train/0001.parquet#row=275
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: es-ome
+    source: hf-mathnet
+    label: Spain FASE LOCAL DE LA OLIMPIADA MATEMÁTICA ESPAÑOLA.
 ---
 Determine all real values of $(x, y, z)$ for which
 

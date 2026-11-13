@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=430
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia SAUDI ARABIAN MATHEMATICAL COMPETITIONS
 ---
 Let $(O)$ be a circle, and $BC$ be a chord of $(O)$ such that $BC$ is not a diameter. Let $A$ be a point on the larger arc $BC$ of $(O)$, and let $E, F$ be the feet of the perpendiculars from $B$ and $C$ to $AC$ and $AB$, respectively.
 1. Prove that the tangents to $(AEF)$ at $E$ and $F$ intersect at a fixed point $M$ when $A$ moves on the larger arc $BC$ of $(O)$.

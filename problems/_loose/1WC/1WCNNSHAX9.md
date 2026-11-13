@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Slovenia/train/0000.parquet#row=400
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: si-mo
+    source: hf-mathnet
+    label: Slovenia National Math Olympiad
 ---
 Let there be a square $A B C D$ and points $E$ and $F$ outside the square such that triangles $B E C$ and $C F D$ are equilateral. Let $G$ be the intersection of lines $B E$ and $F D$, and $H$ be a point such that quadrilateral $C E H F$ is a rhombus. Prove that points $G, E, H$, and $F$ lie on the same circle.

@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Belarus/train/0000.parquet#row=130
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: by-mo/2012
+    source: hf-mathnet
+    label: Belarus Belorusija 2012
 ---
 Determine the greatest possible value of n that satisfies the following condition:
 for any choice of $n$ subsets $M_1, ...,M_n$ of the set $M = \{1,2,...,n\}$ satisfying the conditions

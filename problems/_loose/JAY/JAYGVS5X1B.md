@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Greece/train/0000.parquet#row=225
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: gr-hms/2024
     source: hf-ai-mo-aops
     label: 2024 Greece National Olympiad
+  - at: gr-hms
+    source: hf-mathnet
+    label: Greece Hellenic Mathematical Olympiad
 ---
 Let $a, b, c$ be reals such that some two of them have difference greater than $\frac{1}{2 \sqrt{2}}$ . Prove that there exists an integer $x$ , such that $$ x^2-4(a+b+c)x+12(ab+bc+ca)<0. $$

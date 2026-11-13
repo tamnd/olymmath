@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ukraine/train/0000.parquet#row=159
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ma-mo/2011
     source: hf-ai-mo-aops
     label: 2011 Morocco National Olympiad
+  - at: ua-umo/2010
+    source: hf-mathnet
+    label: Ukraine 50th Mathematical Olympiad in Ukraine, Third Round (January 23, 2010)
 ---
 Solve in $\mathbb{R}$ the equation : $(x+1)^5 + (x+1)^4(x-1) + (x+1)^3(x-1)^2 +$ $ (x+1)^2(x-1)^3 + (x+1)(x-1)^4 + (x-1)^5 =$ $ 0$ .

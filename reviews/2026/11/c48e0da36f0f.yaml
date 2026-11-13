@@ -1,0 +1,8 @@
+id: c48e0da36f0f
+kind: match
+records:
+    - cn-gmo/2004/p5
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The agent read the MathNet row China/train/0000.parquet#row=95 and this record again, because the first review found a difference: the first review read a line break before u + v + w as the TeX command for nu; the source text is correct. The agent kept the link.'

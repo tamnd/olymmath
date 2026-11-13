@@ -21,11 +21,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ibero-American_Mathematical_Olympiad/train/0000.parquet#row=101
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ibero/2003
     source: hf-numina-olympiads
     label: IberoAmerican_MO
+  - at: ibero
+    source: hf-mathnet
+    label: Ibero-American Mathematical Olympiad Iberoamerican Mathematical Olympiad
 ---
 The sequences $\mathrm{a}_{0}, \mathrm{a}_{1}, \mathrm{a}_{2}, \ldots$ and $\mathrm{b}_{0}, \mathrm{~b}_{1}, \mathrm{~b}_{2}, \ldots$ are defined by $\mathrm{a}_{0}=1, \mathrm{~b}_{0}=4, \mathrm{a}_{\mathrm{n}+1}=\mathrm{a}_{\mathrm{n}}{ }^{2001}+\mathrm{b}_{\mathrm{n}}$, $b_{n+1}=b_{n}^{2001}+a_{n}$. Show that no member of either sequence is divisible by 2003.

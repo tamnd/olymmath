@@ -1,0 +1,9 @@
+id: fcc6964f686f
+kind: pair
+records:
+    - YMEW7FMZN7
+    - JTA3XQENVG
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Argentina/train/0000.parquet#row=161 to this record, but they are two problems: the row asks for all integer pairs, the record only for non-negative integers. The agent removed the row from the record, and the row is now in a new loose record.'

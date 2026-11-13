@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0001.parquet#row=167
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines 21st PMO Area Stage
 ---
 In $\triangle A B C$, the length of $A B$ is 12 and its incircle $O$ has radius 4. Let $D$ be the point of tangency of circle $O$ with $A B$. If $A D: A B=1: 3$, find the area of $\triangle A B C$.

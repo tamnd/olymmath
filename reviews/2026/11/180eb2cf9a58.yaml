@@ -1,0 +1,8 @@
+id: 180eb2cf9a58
+kind: match
+records:
+    - ru-allrussian/2019/p106
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Russia/train/0000.parquet#row=328 to this record, but the row is not a clear copy: the row has angle CQD = 90 degrees, a miscopy of angle CQB = 90 degrees in the record. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

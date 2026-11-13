@@ -1,0 +1,8 @@
+id: 4283b2393018
+kind: match
+records:
+    - GEHG2GB1Q4
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The agent read the MathNet row China/train/0001.parquet#row=114 and this record again, because the first review found a difference: the record calls R the inradius and r the circumradius; with this the claim cannot hold, so the record has a slip in the names and it is the same problem. The agent kept the link.'

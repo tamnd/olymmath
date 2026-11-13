@@ -1,0 +1,9 @@
+id: cecf0288c813
+kind: pair
+records:
+    - 2ZAE3PVS0F
+    - AGB70D2D9F
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Hong_Kong/train/0000.parquet#row=320 to this record, but they are two problems: the row''s hypothesis is m^n = n^m mod l, the record''s is m^m = n^n mod l. The agent removed the row from the record, and the row is now in a new loose record.'

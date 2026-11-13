@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Singapore/train/0000.parquet#row=112
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: sg-smo/2023
     source: hf-ai-mo-aops
     label: 2023 Sinapore MO Open
+  - at: sg-smo
+    source: hf-mathnet
+    label: Singapore Singapore Mathematical Olympiad (SMO)
 ---
 Determine all real numbers $x$ between $0$ and $180$ such that it is possible to partition an equilateral triangle into finitely many triangles, each of which has an angle of $x^{o}$ .

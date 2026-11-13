@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Soviet_Union/train/0001.parquet#row=244
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ru-allrussian
+    source: hf-mathnet
+    label: Soviet Union 25th ASU
 ---
 $ABCD$ is a square. The points $X$ on the side $AB$ and $Y$ on the side $AD$ are such that $AX\cdot AY = 2 BX\cdot DY$. The lines $CX$ and $CY$ meet the diagonal $BD$ in two points. Show that these points lie on the circumcircle of $AXY$.

@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Baltic_Way/train/0001.parquet#row=329
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: baltic-way/2020
+    source: hf-mathnet
+    label: Baltic Way Baltic Way 2020
 ---
 Five points $A,B,C,P,Q$ are chosen so that $A,B,C$ aren't collinear. The following length conditions hold: $\frac{AP}{BP}=\frac{AQ}{BQ}=\frac{21}{20}$ and $\frac{BP}{CP}=\frac{BQ}{CQ}=\frac{20}{19}$. Prove that line $PQ$ goes through the circumcentre of $\triangle ABC$.

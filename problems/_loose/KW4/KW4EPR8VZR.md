@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Bulgaria/train/0001.parquet#row=213
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: bg-winter/2024
     source: hf-ai-mo-aops
     label: 2024 Bulgarian Winter Tournament
+  - at: bg-winter
+    source: hf-mathnet
+    label: Bulgaria 2 Bulgarian Winter Tournament
 ---
 Let $ABC$ be a triangle, satisfying $2AC=AB+BC$ . If $O$ and $I$ are its circumcenter and incenter, show that $\angle OIB=90^{\circ}$ .

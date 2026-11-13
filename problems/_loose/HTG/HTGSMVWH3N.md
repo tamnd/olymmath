@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Japan/train/0000.parquet#row=317
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: jp-jmo
+    source: hf-mathnet
+    label: Japan Japan Mathematical Olympiad
 ---
 The following value is a rational number. Express it in the form of an irreducible fraction.
 $$\sqrt{\frac{123!-122!}{122!-121!}}$$

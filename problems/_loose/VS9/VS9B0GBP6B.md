@@ -21,11 +21,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/JBMO/train/0000.parquet#row=148
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: jbmo-sl/2007
     source: hf-numina-olympiads
     label: JBMO-SL
+  - at: jbmo-sl/2007
+    source: hf-mathnet
+    label: JBMO 2007 Shortlist JBMO
 ---
 Prove that the equation $x^{2006}-4 y^{2006}-2006=4 y^{2007}+2007 y$ has no solution in the set of the positive integers.

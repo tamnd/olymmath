@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0001.parquet#row=140
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: danube/2015
     source: hf-ai-mo-aops
     label: 2015 Danube Mathematical Competition
+  - at: danube/2015
+    source: hf-mathnet
+    label: Romania 2015 Danube Mathematical Competition
 ---
 Let $ABCD$ be a cyclic quadrangle, let the diagonals $AC$ and $BD$ cross at $O$ , and let $I$ and $J$ be the incentres of the triangles $ABC$ and $ABD$ , respectively. The line $IJ$ crosses the segments $OA$ and $OB$ at $M$ and $N$ , respectively. Prove that the triangle $OMN$ is isosceles.

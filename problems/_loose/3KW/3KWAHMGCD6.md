@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Slovenia/train/0000.parquet#row=308
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: si-mo
+    source: hf-mathnet
+    label: Slovenia National Math Olympiad
 ---
 Let $H$ be the orthocenter of an acute triangle $ABC$ and $D$ a point inside the triangle $ABH$. The line through $D$ parallel to $AH$ intersects sides $BC$ and $AB$ at points $K$ and $L$. The line through $D$ parallel to $BH$ intersects segments $AC$ and $AB$ at points $M$ and $N$.
 

@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Baltic_Way/train/0001.parquet#row=181
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: baltic-way/2016
+    source: hf-mathnet
+    label: Baltic Way Baltic Way 2016
 ---
 Find all quadruples $(a, b, c, d)$ of real numbers that simultaneously satisfy the following equations:
 $$\begin{cases} a^3 + c^3 = 2 \\ a^2b + c^2d = 0 \\ b^3 + d^3 = 1 \\ ab^2 + cd^2 = -6.\end{cases}$$

@@ -1,0 +1,9 @@
+id: c3726a35e7d9
+kind: pair
+records:
+    - D617T9G07A
+    - C98KSCA8Z2
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row North_Macedonia/train/0000.parquet#row=12 to this record, but they are two problems: the row puts positive integers in the cells, the record any integers. The agent removed the row from the record, and the row is now in a new loose record.'

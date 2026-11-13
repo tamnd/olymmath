@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/New_Zealand/train/0000.parquet#row=31
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: nz-nzmo/2021
     source: hf-ai-mo-aops
     label: 2021 New Zealand MO
+  - at: nz-nzmo
+    source: hf-mathnet
+    label: New Zealand NZMO Round Two
 ---
 Let $AB$ be a chord of circle $\Gamma$ . Let $O$ be the centre of a circle which is tangent to $AB$ at $C$ and internally tangent to $\Gamma$ at $P$ . Point $C$ lies between $A$ and $B$ . Let the circumcircle of triangle $POC$ intersect $\Gamma$ at distinct points $P$ and $Q$ . Prove that $\angle{AQP}=\angle{CQB}$ .

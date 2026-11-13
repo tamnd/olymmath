@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Greece/train/0000.parquet#row=130
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: gr-hms/2018
     source: hf-ai-mo-aops
     label: 2018 Greece Junior Math Olympiad
+  - at: gr-hms
+    source: hf-mathnet
+    label: Greece Hellenic Mathematical Olympiad
 ---
 a) Does there exist a real number $x$ such that $x+\sqrt{3}$ and $x^2+\sqrt{3}$ are both rationals?
 b) Does there exist a real number $y$ such that $y+\sqrt{3}$ and $y^3+\sqrt{3}$ are both rationals?

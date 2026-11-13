@@ -1,0 +1,9 @@
+id: dd3b89f68f4a
+kind: pair
+records:
+    - 2Q5ZDVNWQH
+    - BK1Q8K8TR0
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Baltic_Way/train/0001.parquet#row=119 to this record, but they are two problems: the row asks about P with real coefficients for all real x, the record about P with integer coefficients for all integers x. The agent removed the row from the record, and the row is now in a new loose record.'

@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Iran/train/0000.parquet#row=120
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ir-tst/2016
     source: hf-ai-mo-aops
     label: 2016 Iran Team Selection Test
+  - at: ir-mo
+    source: hf-mathnet
+    label: Iran Iranian Mathematical Olympiad
 ---
 Let $P$ and $P '$ be two unequal regular $n-$ gons and $A$ and $A'$ two points inside $P$ and $ P '$ , respectively.Suppose $\{ d_1 , d_2 , \cdots d_n \}$ are the distances from $A $ to the vertices of $P$ and $\{ d'_1 , d'_2 , \cdots d'_n \}$ are defines similarly for $P',A'$ . Is it possible for $\{ d'_1 , d'_2 , \cdots d'_n \}$ to be a permutation of $\{ d_1 , d_2 , \cdots d_n \}$ ?

@@ -13,6 +13,14 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Middle_European_Mathematical_Olympiad_MEMO/train/0000.parquet#row=113
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 ---

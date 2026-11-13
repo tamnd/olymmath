@@ -1,0 +1,9 @@
+id: 4453a8684a56
+kind: pair
+records:
+    - 9M73CW880X
+    - sharygin/2021/p2
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Saudi_Arabia/train/0001.parquet#row=195 to this record, but they are two problems: other claim: the row asks to prove C1O1 is tangent to the circumcircle of ABC, the record asks to prove C1O1 is perpendicular to AO. The agent removed the row from the record, and the row is now in a new loose record.'

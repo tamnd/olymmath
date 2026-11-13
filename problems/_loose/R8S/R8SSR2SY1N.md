@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0000.parquet#row=398
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: danube/2013
     source: hf-ai-mo-aops
     label: 2013 Danube Mathematical Competition
+  - at: danube
+    source: hf-mathnet
+    label: Romania The Danube Mathematical Competition
 ---
 Show that, for every integer $r \ge 2$ , there exists an $r$ -chromatic simple graph (no loops, nor multiple edges) which has no cycle of less than $6$ edges

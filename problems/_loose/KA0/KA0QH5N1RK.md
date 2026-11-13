@@ -30,6 +30,14 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S4
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/JBMO/train/0000.parquet#row=293
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
@@ -39,5 +47,8 @@ unplaced:
   - at: jbmo-sl/2015
     source: hf-numina-olympiads
     label: JBMO-SL
+  - at: jbmo
+    source: hf-mathnet
+    label: JBMO Junior Balkan Mathematical Olympiad
 ---
 What is the greatest number of integers that can be selected from a set of $2015$ consecutive numbers so that no sum of any two selected numbers is divisible by their difference?

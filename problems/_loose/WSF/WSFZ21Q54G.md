@@ -14,11 +14,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0000.parquet#row=237
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ro-nmo/2011
     source: hf-ai-mo-aops
     label: 2011 Romania National Olympiad
+  - at: ro-nmo
+    source: hf-mathnet
+    label: Romania 62nd ROMANIAN MATHEMATICAL OLYMPIAD
 ---
 Consider $\vartriangle ABC$ where $\angle ABC= 60 ^o$ . Points $M$ and $D$ are on the sides $(AC)$ , respectively $(AB)$ , such that $\angle BCA = 2 \angle MBC$ , and $BD = MC$ . Determine $\angle DMB$ .

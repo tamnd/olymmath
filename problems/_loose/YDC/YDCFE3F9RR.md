@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Singapore/train/0000.parquet#row=75
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: sg-smo/2017
     source: hf-ai-mo-aops
     label: 2017 Singapore Senior Math Olympiad
+  - at: sg-smo
+    source: hf-mathnet
+    label: Singapore Singapore Mathematical Olympiad (SMO)
 ---
 There are $2017$ distinct points in the plane. For each pair of these points, construct the midpoint of the segment joining the pair of points. What is the minimum number of distinct midpoints among all possible ways of placing the points?

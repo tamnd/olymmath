@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Turkey/train/0000.parquet#row=63
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: tr-mo
+    source: hf-mathnet
+    label: Turkey 17th Turkish Mathematical Olympiad
 ---
 Let $\Gamma$ be the circumcircle of a triangle $ABC,$ and let $D$ and $E$ be two points different from the vertices on the sides $AB$ and $AC,$ respectively. Let $A'$ be the second point where $\Gamma$ intersects the bisector of the angle $BAC,$ and let $P$ and $Q$ be the second points where $\Gamma$ intersects the lines $A'D$ and $A'E,$ respectively. Let $R$ and $S$ be the second points of intersection of the lines $AA'$ and the circumcircles of the triangles $APD$ and $AQE,$ respectively.
 Show that the lines $DS, \: ER$ and the tangent line to $\Gamma$ through $A$ are concurrent.

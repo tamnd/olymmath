@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Mongolia/train/0001.parquet#row=122
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: mn-mo/2023
     source: hf-ai-mo-aops
     label: 2023 Mongolian Mathematical Olympiad
+  - at: mn-mo
+    source: hf-mathnet
+    label: Mongolia Mongolian Mathematical Olympiad
 ---
 Find all functions $f : \mathbb{R} \to \mathbb{R}$ and $h : \mathbb{R}^2 \to \mathbb{R}$ such that $$f(x+y-z)^2=f(xy)+h(x+y+z, xy+yz+zx)$$ for all real numbers $x,y,z$ .

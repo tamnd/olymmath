@@ -1,0 +1,9 @@
+id: 5d3aac1d18d1
+kind: pair
+records:
+    - HDPJKP55VE
+    - apmo/1991/p3
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Argentina/train/0001.parquet#row=182 to this record, but they are two problems: row: both sums equal 1, find the minimum, record: equal sums, prove the sum is at least half. The agent removed the row from the record, and the row is now in a new loose record.'

@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0000.parquet#row=144
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines Tenth Philippine Mathematical Olympiad
 ---
 Container $A$ contained a mixture that is $40 \%$ acid, while container $B$ contained a mixture that is $60 \%$ acid. A chemist took some amount from each container, and mixed them. To produce 100 liters of mixture that is $17 \%$ acid, she needed to pour 70 liters of pure water to the mixture she got from containers $A$ and $B$. How many liters did she take from container $A$ ?

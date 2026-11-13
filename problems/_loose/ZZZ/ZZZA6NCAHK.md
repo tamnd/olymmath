@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Argentina/train/0001.parquet#row=22
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ar-oma/2010
     source: hf-ai-mo-aops
     label: 2010 Argentina National Olympiad
+  - at: ar-oma
+    source: hf-mathnet
+    label: Argentina National Olympiad of Argentina
 ---
 Find the sum of all products $a_1a_2...a_{50}$ , where $a_1,a_2,...,a_{50}$ are distinct positive integers, less than or equal to $101$ , and such that no two of them add up to $101$ .

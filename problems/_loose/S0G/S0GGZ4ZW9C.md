@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Singapore/train/0000.parquet#row=8
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: sg-smo/2010
     source: hf-ai-mo-aops
     label: 2010 Singapore Junior Math Olympiad
+  - at: sg-smo
+    source: hf-mathnet
+    label: Singapore Singapore Mathematical Olympiad (SMO)
 ---
 Let $a_1, a_2, ..., a_n$ be positive integers, not necessarily distinct but with at least five distinct values. Suppose that for any $1 \le i < j \le n$ , there exist $k,\ell$ , both different from $i$ and $j$ such that $a_i + a_j = a_k + a_{\ell}$ . What is the smallest possible value of $n$ ?

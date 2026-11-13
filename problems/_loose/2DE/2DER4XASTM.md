@@ -21,11 +21,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ibero-American_Mathematical_Olympiad/train/0000.parquet#row=100
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ibero/2003
     source: hf-numina-olympiads
     label: IberoAmerican_MO
+  - at: ibero
+    source: hf-mathnet
+    label: Ibero-American Mathematical Olympiad Iberoamerican Mathematical Olympiad
 ---
 $\mathrm{ABCD}$ is a square. $\mathrm{P}, \mathrm{Q}$ are points on the sides $\mathrm{BC}, \mathrm{CD}$ respectively, distinct from the endpoints such that $\mathrm{BP}=\mathrm{CQ}$. $\mathrm{X}, \mathrm{Y}$ are points on $\mathrm{AP}, \mathrm{AQ}$ respectively. Show that there is a triangle with side lengths $B X, X Y, Y D$.

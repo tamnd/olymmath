@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Slovenia/train/0000.parquet#row=247
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: si-mo
+    source: hf-mathnet
+    label: Slovenia National Math Olympiad
 ---
 For a cyclic quadrilateral $ABCD$, the circle circumscribed around it is intersected by the angle bisectors of $\angle CAD$ and $\angle ADB$ at points $P$ and $Q$, respectively. The lines $AP$ and $DQ$ intersect at $R$, and the lines $CQ$ and $BP$ intersect at $S$. Prove that the lines $PQ$ and $RS$ are perpendicular.

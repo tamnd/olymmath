@@ -14,11 +14,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/South_Africa/train/0000.parquet#row=295
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: za-samo/2024
     source: hf-ai-mo-aops
     label: 2024 South Africa National Olympiad
+  - at: za-samo
+    source: hf-mathnet
+    label: South Africa The South African Mathematical Olympiad Third Round
 ---
 Each of the lattice points $(x,y)$ (where $x$ and $y$ are integers) in the plane can be coloured black or white. A single strike by an $L$ -shaped punch changes the colour of the four lattice points $(a,b)$ , $(a+1,b)$ , $(a,b+1)$ and $(a,b+2)$ . All lattice points are initially coloured white. Prove that after any number of strikes, the number of black lattice points will be either zero or greater than or equal to four.

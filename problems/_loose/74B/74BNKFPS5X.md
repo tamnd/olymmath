@@ -15,8 +15,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: pt
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Brazil/train/0002.parquet#row=380
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: br-obm
+    source: hf-mathnet
+    label: Brazil Brazilian Mathematical Olympiad
 ---
 Let $f: \mathbb{R} \rightarrow \mathbb{R}$ be an odd function, that is, a function that satisfies $-f(x)=f(-x)$ for all $x \in \mathbb{R}$. Suppose that $f(x+5)=f(x)$ for all $x \in \mathbb{R}$ and that $f(1 / 3)=1$. Determine the value of the sum:
 

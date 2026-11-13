@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0003.parquet#row=178
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ro-nmo/2023
     source: hf-ai-mo-aops
     label: 2023 Romania National Olympiad
+  - at: ro-nmo
+    source: hf-mathnet
+    label: Romania THE 73rd ROMANIAN MATHEMATICAL OLYMPIAD - FINAL ROUND
 ---
 Let $ABC$ be a triangle with $\angle BAC = 90^{\circ}$ and $\angle ACB = 54^{\circ}.$ We construct bisector $BD (D \in AC)$ of angle $ABC$ and consider point $E \in (BD)$ such that $DE = DC.$ Show that $BE = 2 \cdot AD.$

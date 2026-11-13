@@ -1,0 +1,8 @@
+id: f48f7db43c49
+kind: match
+records:
+    - ru-allrussian/1985/p6
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Soviet_Union/train/0001.parquet#row=116 to this record, but the row is not a clear copy: the row lost the absolute value: it counts integers x with p(x) < 50 instead of |p(x)| < 50. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

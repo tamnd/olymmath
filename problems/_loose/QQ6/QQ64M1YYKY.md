@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/North_Macedonia/train/0000.parquet#row=212
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: mk-mo
+    source: hf-mathnet
+    label: North Macedonia Macedonian Junior Mathematical Olympiad
 ---
 Given a trapezoid $A B C D$ such that $\overline{A B}=\overline{A C}=\overline{B D}$. Let $M$ be the midpoint of side $C D$. Determine the angles of the trapezoid if $\measuredangle M B C=\measuredangle C A B$.

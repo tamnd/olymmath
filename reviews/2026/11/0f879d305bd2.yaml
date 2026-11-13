@@ -1,0 +1,8 @@
+id: 0f879d305bd2
+kind: match
+records:
+    - caps/2016/p5
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Czech-Polish-Slovak_Mathematical_Match/train/0000.parquet#row=56 to this record, but the row is not a clear copy: the row has 3^{2n} where the record has 3^{2^n}, exponent miscopied. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

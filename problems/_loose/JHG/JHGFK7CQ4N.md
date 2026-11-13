@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=82
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia Saudi Arabia Mathematical Competitions
 ---
 Consider a triangle $ABC$. Let $A_1$ be the symmetric point of $A$ with respect to the line $BC$, $B_1$ the symmetric point of $B$ with respect to the line $CA$, and $C_1$ the symmetric point of $C$ with respect to the line $AB$. Determine the possible set of angles of triangle $ABC$ for which $A_1B_1C_1$ is equilateral.

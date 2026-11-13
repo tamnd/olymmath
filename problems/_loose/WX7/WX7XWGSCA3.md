@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Slovenia/train/0001.parquet#row=155
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: si-mo/2015
+    source: hf-mathnet
+    label: Slovenia National Math Olympiad 2015 – Final Round
 ---
 Let $P$ be the midpoint of side $AB$ of triangle $ABC$. The reflection of the half-line $PC$ across the line $AB$ intersects the circumcircle of triangle $ABC$ at point $D$. Let $E$ be the second intersection of the line $CP$ with the circumcircle of triangle $ABC$. Prove that $|AE|=|BD|$.

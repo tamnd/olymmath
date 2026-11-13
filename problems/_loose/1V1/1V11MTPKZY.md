@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/India/train/0000.parquet#row=187
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: in-tst/2016
     source: hf-ai-mo-aops
     label: 2016 India IMO Training Camp
+  - at: in-tst/2016
+    source: hf-mathnet
+    label: India Indija TS 2016
 ---
 Let $ABC$ be an acute triangle with circumcircle $\Gamma$ . Let $A_1,B_1$ and $C_1$ be respectively the midpoints of the arcs $BAC,CBA$ and $ACB$ of $\Gamma$ . Show that the inradius of triangle $A_1B_1C_1$ is not less than the inradius of triangle $ABC$ .

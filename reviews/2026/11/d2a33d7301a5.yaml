@@ -1,0 +1,9 @@
+id: d2a33d7301a5
+kind: pair
+records:
+    - K2RCXQ82CY
+    - 23EZ4RE3W6
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Romania/train/0001.parquet#row=165 to this record, but they are two problems: the row takes p, q and the roots as integers, the record as natural numbers. The agent removed the row from the record, and the row is now in a new loose record.'

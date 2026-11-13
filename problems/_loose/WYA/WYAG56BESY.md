@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Croatia/train/0001.parquet#row=89
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hr-mo
+    source: hf-mathnet
+    label: Croatia Croatian Mathematical Olympiad
 ---
 In an acute-angled triangle $ABC$ is $AB > BC$ , and the points $A_1$ and $C_1$ are the feet of the altitudes of from the vertices $A$ and $C$. Let $D$ be the second intersection of the circumcircles of triangles $ABC$ and $A_1BC_1$ (different of $B$). Let $Z$ be the intersection of the tangents to the circumcircle of the triangle ABC at the points $A$ and $C$ , and let the lines $ZA$ and $A_1C_1$ intersect at the point $X$, and the lines $ZC$ and $A_1C_1$ intersect at the point $Y$. Prove that the point $D$ lies on the circumcircle of the triangle $XYZ$.

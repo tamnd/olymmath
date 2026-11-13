@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/China/train/0001.parquet#row=46
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: cn-smo
+    source: hf-mathnet
+    label: China China Southeastern Mathematical Olympiad
 ---
 Let $P_{1}, P_{2}, \cdots, P_{n}$ be $n$ fixed points on a plane, and let $M$ be any point on the line segment $A B$ in that plane. Denote $\left|P_{i} M\right|$ as the distance between point $P_{i}$ and $M$, $i=1,2,3, \cdots, n$. Prove:
 $$

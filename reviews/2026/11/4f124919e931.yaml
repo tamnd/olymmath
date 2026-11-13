@@ -1,0 +1,9 @@
+id: 4f124919e931
+kind: pair
+records:
+    - BT29WPFXT4
+    - 8PM3YZWWW4
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import joined the MathNet row all/train/0028.parquet#row=275 into this record, which holds the MathNet row Saudi_Arabia/train/0001.parquet#row=265, but they are two problems: the row is an iff statement for any triangle (AE = AF iff AB = AC or angle A = 90), the record assumes angle A = 90 and proves AE = AF. The row added no statement, so the problem was lost. The row is now in a new loose record.'

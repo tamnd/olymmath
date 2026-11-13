@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Singapore/train/0000.parquet#row=81
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: sg-smo/2017
     source: hf-ai-mo-aops
     label: 2017 Singapore Junior Math Olympiad
+  - at: sg-smo
+    source: hf-mathnet
+    label: Singapore Singapore Mathematical Olympiad (SMO)
 ---
 Let $a, b, c$ be nonzero integers, with $1$ as their only positive common divisor, such that $\frac{1}{a}+\frac{1}{b}+\frac{1}{c}= 0$ . Find the number of such triples $(a, b, c)$ with $50 \ge |a| \ge |b| \ge |c| 1$ .

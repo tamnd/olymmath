@@ -1,0 +1,9 @@
+id: 4720287caaed
+kind: pair
+records:
+    - K83FBH0C6X
+    - VC6F12KMPP
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row all/train/0050.parquet#row=433 to this record, but they are two problems: another problem: row has p,q prime with two distinct integer roots, record has p a multiple of q with at least one integer root. The record already had a statement from this source, so the row added no statement and the problem was lost. The row is now in its own loose record.'

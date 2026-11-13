@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Iran/train/0000.parquet#row=45
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ir-mo/2012
     source: hf-ai-mo-aops
     label: 2012 Iran MO (3rd Round)
+  - at: ir-mo
+    source: hf-mathnet
+    label: Iran Iranian Mathematical Olympiad
 ---
 Prove that for each $n \in \mathbb N$ there exist natural numbers $a_1<a_2<...<a_n$ such that $\phi(a_1)>\phi(a_2)>...>\phi(a_n)$ .
 

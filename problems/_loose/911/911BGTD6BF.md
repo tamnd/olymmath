@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Croatia/train/0000.parquet#row=16
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hr-mo/2011
+    source: hf-mathnet
+    label: Croatia CroatianCompetitions2011
 ---
 How many natural numbers less than 2011 are divisible by at least one of the numbers 2 and 7, but are not divisible by the number 5?

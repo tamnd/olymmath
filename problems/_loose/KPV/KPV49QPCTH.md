@@ -21,11 +21,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/United_States/train/0004.parquet#row=191
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: hmmt/2011
     source: hf-numina-olympiads
     label: HMMT February
+  - at: hmmt
+    source: hf-mathnet
+    label: United States Harvard-MIT Mathematics Tournament
 ---
 Let $n$ be an odd positive integer, and suppose that $n$ people sit on a committee that is in the process of electing a president. The members sit in a circle, and every member votes for the person either to his/her immediate left, or to his/her immediate right. If one member wins more votes than all the other members do, he/she will be declared to be the president; otherwise, one of the the members who won at least as many votes as all the other members did will be randomly selected to be the president. If Hermia and Lysander are two members of the committee, with Hermia sitting to Lysander's left and Lysander planning to vote for Hermia, determine the probability that Hermia is elected president, assuming that the other $n-1$ members vote randomly.

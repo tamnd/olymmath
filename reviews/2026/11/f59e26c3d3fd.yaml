@@ -1,0 +1,9 @@
+id: f59e26c3d3fd
+kind: pair
+records:
+    - HJVR38F8FA
+    - hu-komal/2016/b4839
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Baltic_Way/train/0001.parquet#row=252 to this record, but they are two problems: the row asks to prove there are only finitely many solutions, the record asks to solve n! = 2^a - 2^b. The agent removed the row from the record, and the row is now in a new loose record.'

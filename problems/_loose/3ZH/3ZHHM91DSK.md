@@ -13,8 +13,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Slovenia/train/0001.parquet#row=235
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: si-mo/2016
+    source: hf-mathnet
+    label: Slovenia Slovenija 2016
+  - at: si-mo
+    source: hf-mathnet
+    label: Slovenia 60. matematično tekmovanje srednješolcev Slovenije
 ---
 Determine all pairs of real numbers $a$ and $b$ that satisfy the inequality
 

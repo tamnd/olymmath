@@ -14,12 +14,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/IMO/train/0000.parquet#row=360
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: de-tst/2025
     source: hf-ai-mo-aops
     label: 2025 Germany Team Selection Test
+  - at: isl/2024
+    source: hf-mathnet
+    label: IMO IMO2024 Shortlisted Problems
 ---
 Let $ABCD$ be a cyclic quadrilateral such that $AC<BD<AD$ and $\angle DBA<90^\circ$ . Point $E$ lies on the line through $D$ parallel to $AB$ such that $E$ and $C$ lie on opposite sides of line $AD$ , and $AC=DE$ . Point $F$ lies on the line through $A$ parallel to $CD$ such that $F$ and $C$ lie on opposite sides of line $AD$ , and $BD=AF$ .
 

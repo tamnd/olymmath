@@ -28,5 +28,8 @@ unplaced:
   - at: cn-tst/2013
     source: hf-ai-mo-aops
     label: 2013 China Team Selection Test
+  - at: cn-tst
+    source: hf-mathnet
+    label: China China National Team Selection Test
 ---
 Let $k\ge 2$ be an integer and let $a_1 ,a_2 ,\cdots ,a_n,b_1 ,b_2 ,\cdots ,b_n$ be non-negative real numbers. Prove that$$\left(\frac{n}{n-1}\right)^{n-1}\left(\frac{1}{n} \sum_{i=1}^{n} a_i^2\right)+\left(\frac{1}{n} \sum_{i=1}^{n} b_i\right)^2\ge\prod_{i=1}^{n}(a_i^{2}+b_i^{2})^{\frac{1}{n}}.$$

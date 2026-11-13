@@ -1,0 +1,8 @@
+id: 2fa059c88e4d
+kind: match
+records:
+    - R8VM2DRSW8
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The agent read the MathNet row Turkey/train/0000.parquet#row=168 and this record again, because the first review found a difference: the row has (x+a-1) and the record (x+a+1); only the row gives an equation that factors as the problem intends, so the record has the slip. The agent kept the link.'

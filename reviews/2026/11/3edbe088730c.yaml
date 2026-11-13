@@ -1,0 +1,9 @@
+id: 3edbe088730c
+kind: pair
+records:
+    - TGBZPZQ9CA
+    - fi-mo/2013/p5
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Hong_Kong/train/0000.parquet#row=305 to this record, but they are two problems: the row has q^7, the record q^5. The agent removed the row from the record, and the row is now in a new loose record.'

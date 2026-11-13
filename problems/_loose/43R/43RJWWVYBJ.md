@@ -14,12 +14,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ireland/train/0000.parquet#row=449
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ie-irmo/2024
     source: hf-ai-mo-aops
     label: 2024 Irish Math Olympiad
+  - at: ie-irmo/2024
+    source: hf-mathnet
+    label: Ireland IRL_ABooklet_2024
 ---
 Let $a,b,c$ be positive real numbers with $a \leq c$ and $b \leq c$ . Prove that $$ (a +10b)(b +22c)(c +7a) \geq 2024
 abc. $$

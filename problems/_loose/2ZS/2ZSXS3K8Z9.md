@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Austria/train/0000.parquet#row=233
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: at-oemo-reg/2024
     source: hf-ai-mo-aops
     label: 2024 Austrian MO Regional Competition
+  - at: at-oemo
+    source: hf-mathnet
+    label: Austria Austrian Mathematical Olympiad
 ---
 Let $n$ be a positive integer. Prove that $a(n) = n^5 +5^n$ is divisible by $11$ if and only if $b(n) = n^5 · 5^n +1$ is divisible by $11$ .
 

@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Hong_Kong/train/0000.parquet#row=353
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: hk-pc/2019
     source: hf-ai-mo-aops
     label: 2019 Hong Kong TST
+  - at: hk-pc
+    source: hf-mathnet
+    label: Hong Kong HKG TST
 ---
 Find an integral solution of the equation
 $$ \left \lfloor \frac{x}{1!} \right \rfloor + \left \lfloor \frac{x}{2!} \right \rfloor + \left \lfloor \frac{x}{3!} \right \rfloor + \dots + \left \lfloor \frac{x}{10!} \right \rfloor = 2019. $$

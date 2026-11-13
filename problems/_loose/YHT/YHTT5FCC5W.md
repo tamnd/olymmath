@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Singapore/train/0000.parquet#row=60
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: sg-smo/2016
     source: hf-ai-mo-aops
     label: 2016 Singapore Senior Math Olympiad
+  - at: sg-smo
+    source: hf-mathnet
+    label: Singapore Singapur
 ---
 For any integer $n \ge 1$ , show that $$ \sum_{k=1}^{n} \frac{2^k}{\sqrt{k+0.5}} \le 2^{n+1}\sqrt{n+1}-\frac{4n^{3/2}}{3} $$

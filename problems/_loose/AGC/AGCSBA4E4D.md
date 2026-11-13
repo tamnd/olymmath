@@ -15,6 +15,10 @@ statements:
     kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: si-mo
+    source: hf-mathnet
+    label: Slovenia National Math Olympiad
 ---
 The diagonal $BD$ of quadrilateral $ABCD$ divides the quadrilateral into an acute triangle $ABD$ and an equilateral triangle $BCD$. Let $O$ be the center of the circumcircle of triangle $ABD$. Prove:
 

@@ -1,0 +1,8 @@
+id: a3b8dacafbab
+kind: match
+records:
+    - ru-allrussian/1972/p15
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Soviet_Union/train/0000.parquet#row=155 to this record, but the row is not a clear copy: row says "15n teams", the problem number 15 merged into the statement, record has n teams. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

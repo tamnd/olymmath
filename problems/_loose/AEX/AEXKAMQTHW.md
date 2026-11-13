@@ -28,5 +28,8 @@ unplaced:
   - at: ar-oma/2012
     source: hf-ai-mo-aops
     label: 2012 Argentina National Olympiad
+  - at: ar-oma
+    source: hf-mathnet
+    label: Argentina XXIX Olimpíada Matemática Argentina National Round
 ---
 In the triangle $ABC$ the incircle is tangent to the sides $AB$ and $AC$ at $D$ and $E$ respectively. The line $DE$ intersects the circumcircle at $P$ and $Q$ , with $P$ in the small arc $AB$ and $Q$ in the small arc $AC$ . If $P$ is the midpoint of the arc $AB$ , find the angle A and the ratio $\frac{PQ}{BC}$ .

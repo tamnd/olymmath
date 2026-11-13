@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/JBMO/train/0000.parquet#row=239
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: jbmo-sl/2012
     source: hf-ai-mo-aops
     label: 2012 JBMO ShortLists
+  - at: jbmo-sl
+    source: hf-mathnet
+    label: JBMO JBMO Shortlist
 ---
 Determine all triples $(m , n , p)$ satisfying :
 $$n^{2p}=m^2+n^2+p+1$$

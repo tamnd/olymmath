@@ -1,0 +1,8 @@
+id: ec8242d8ffb9
+kind: match
+records:
+    - us-tst/2023/p6
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The MathNet row United_States/train/0009.parquet#row=111 and the text of us-tst/2023/p6 state the same problem with the same data and the same question, in other words (E 0.851, T 0.598, keyword match 0.628). The row became a second statement of the record.'

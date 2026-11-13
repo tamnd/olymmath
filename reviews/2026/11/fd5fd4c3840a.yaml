@@ -1,0 +1,9 @@
+id: fd5fd4c3840a
+kind: pair
+records:
+    - 6MGVYPJ4NX
+    - XMPHJ5M43P
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row China/train/0000.parquet#row=179 to this record, but they are two problems: the row requires |z| <= 2 for all theta, the record |z| >= 2. The agent removed the row from the record, and the row is now in a new loose record.'

@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/New_Zealand/train/0000.parquet#row=40
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: nz-nzmo/2022
     source: hf-ai-mo-aops
     label: 2022 New Zealand MO
+  - at: nz-nzmo
+    source: hf-mathnet
+    label: New Zealand New Zealand Mathematical Olympiad
 ---
 Let $S$ be a set of $10$ positive integers. Prove that one can find two disjoint subsets $A =\{a_1, ..., a_k\}$ and $B = \{b_1, ... , b_k\}$ of $S$ with $|A| = |B|$ such that the sums $x =\frac{1}{a_1}+ ... +\frac{1}{a_k}$ and $y =\frac{1}{b_1}+ ... +\frac{1}{b_k}$ differ by less than $0.01$ , i.e., $|x - y| < 1/100$ .

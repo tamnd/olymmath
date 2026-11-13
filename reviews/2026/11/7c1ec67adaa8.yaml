@@ -1,0 +1,8 @@
+id: 7c1ec67adaa8
+kind: match
+records:
+    - B4NKJMJ2AM
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The agent read the MathNet row China/train/0000.parquet#row=254 and this record again, because the first review found a difference: in part (2) the row has <= and the record >=; the sequence is bounded for small a b^{m-1}, so the record has the slip. The agent kept the link.'

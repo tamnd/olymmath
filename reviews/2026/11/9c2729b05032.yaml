@@ -1,0 +1,8 @@
+id: 9c2729b05032
+kind: match
+records:
+    - A91FBW2X0Z
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Iran/train/0000.parquet#row=240 to this record, but the row is not a clear copy: the row has lost its start (the definition opens mid-sentence with a stray formula) and ends with a stray $$. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

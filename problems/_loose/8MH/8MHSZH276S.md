@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/South_Africa/train/0000.parquet#row=71
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ch-smo/2005
     source: hf-ai-mo-aops
     label: 2005 Switzerland - Final Round
+  - at: za-samo
+    source: hf-mathnet
+    label: South Africa South-Afrika 2011-2013
 ---
 Find all functions $f : R^+ \to R^+$ such that for all $x, y > 0$ $$ f(yf(x))(x + y) = x^2(f(x) + f(y)). $$

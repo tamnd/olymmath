@@ -22,7 +22,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0002.parquet#row=68
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ro-tst
+    source: hf-mathnet
+    label: Romania THE 68th NMO SELECTION TESTS FOR THE BALKAN AND INTERNATIONAL MATHEMATICAL OLYMPIADS
 ---
 Let $ABCD$ be a convex quadrilateral and let $P$ and $Q$ be variable points inside this quadrilateral so that $\angle APB=\angle CPD=\angle AQB=\angle CQD$ . Prove that the lines $PQ$ obtained in this way all pass through a fixed point , or they are all parallel.

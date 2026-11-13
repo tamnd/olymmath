@@ -15,8 +15,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Slovenia/train/0000.parquet#row=456
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: si-mo/2012
+    source: hf-mathnet
+    label: Slovenia National Math Olympiad 2012
 ---
 Which points lie on the graph of the linear function $y=b x+1$, where $b$ is some non-zero real number?
 (A) $(0,1)$ and $\left(\frac{1}{b}, 0\right)$

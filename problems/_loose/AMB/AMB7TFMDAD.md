@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0001.parquet#row=166
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia Saudi Arabian Mathematical Competitions
 ---
 Determine if there exists pairwise distinct positive integers $a_1$, $a_2$,$ ...$, $a_{101}$, $b_1$, $b_2$,$ ...$, $b_{101}$ satisfying the following property: for each non-empty subset $S$ of $\{1, 2, ..., 101\}$ the sum $\sum_{i \in S} a_i$ divides $100! + \sum_{i \in S} b_i$.

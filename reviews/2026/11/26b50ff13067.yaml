@@ -1,0 +1,9 @@
+id: 26b50ff13067
+kind: pair
+records:
+    - 1MV5NHE5GG
+    - 1S9WRTZW2D
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row United_States/train/0000.parquet#row=51 to this record, but they are two problems: the row asks to find all n with n(n+1) a square, the record asks only whether such n exists. The agent removed the row from the record, and the row is now in a new loose record.'

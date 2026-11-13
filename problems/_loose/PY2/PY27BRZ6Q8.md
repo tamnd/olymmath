@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Vietnam/train/0000.parquet#row=256
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: vn-vmo/2024
     source: hf-ai-mo-aops
     label: 2024 Vietnam National Olympiad
+  - at: vn-vmo
+    source: hf-mathnet
+    label: Vietnam Vietnamese MO
 ---
 For each positive integer $n$ , let $\tau (n)$ be the number of positive divisors of $n$ .
 

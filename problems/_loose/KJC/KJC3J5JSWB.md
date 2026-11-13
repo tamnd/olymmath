@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/China/train/0000.parquet#row=334
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: cn-smo
+    source: hf-mathnet
+    label: China China Southeastern Mathematical Olympiad
 ---
 For the set $A=\left\{a_{1}, a_{2}, \cdots, a_{m}\right\}$, denote $P(A)=a_{1} a_{2} \cdots a_{m}$. Let $A_{1}, A_{2}, \cdots A_{n}\left(n=\mathrm{C}_{2010}^{99}\right)$ be all the 99-element subsets of the set $\{1,2, \cdots, 2010\}$. Prove that: $2011 \mid \sum_{i=1}^{n} P\left(A_{i}\right)$.

@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=111
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc/2012
+    source: hf-mathnet
+    label: Saudi Arabia Saudi Arabia Mathematical Competitions 2012
 ---
 In $\triangle A B C$, points $D$ and $E$ lie on side $B C$ and $A C$ respectively such that $A D \perp B C$ and $D E \perp A C$. The circumcircle of $\triangle A B D$ meets segment $B E$ at point $F$ (other than $B)$. Ray $A F$ meets segment $D E$ at point $P$. Prove that $D P / P E=C D / D B$.

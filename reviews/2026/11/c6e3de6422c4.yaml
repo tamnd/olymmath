@@ -1,0 +1,9 @@
+id: c6e3de6422c4
+kind: pair
+records:
+    - Q3PWS8BMPK
+    - 8H8THG652D
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row JBMO/train/0000.parquet#row=95 to this record, but they are two problems: the row asks for the ratio y/x, the record asks to solve the system. The agent removed the row from the record, and the row is now in a new loose record.'

@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Japan/train/0000.parquet#row=333
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: jp-jmo
+    source: hf-mathnet
+    label: Japan Japan Mathematical Olympiad
 ---
 Quadrilateral $ABCD$ inscribed in a circle, with $AB=7$ and $BC=18$. The angle bisector of $\angle CDA$ intersects side $BC$ at point $E$, and a point $F$ on segment $DE$ satisfies $\angle AED=\angle FCD$. If $BE=5$ and $EF=3$, find the length of segment $DF$.

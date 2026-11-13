@@ -30,6 +30,14 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S4
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/JBMO/train/0000.parquet#row=180
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
@@ -39,5 +47,8 @@ unplaced:
   - at: jbmo-sl/2008
     source: hf-numina-olympiads
     label: JBMO-SL
+  - at: jbmo-sl/2008
+    source: hf-mathnet
+    label: JBMO 2008 Shortlist JBMO
 ---
 Find all integers $n$ such that $n^4 + 8n + 11$ is a product of two or more consecutive integers.

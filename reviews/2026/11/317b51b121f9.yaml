@@ -1,0 +1,9 @@
+id: 317b51b121f9
+kind: pair
+records:
+    - 691SWSYPPY
+    - imac/2010/p2
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row India/train/0000.parquet#row=143 to this record, but they are two problems: the row has f(x+y+xy) = f(x)+f(y)+f(xy) and asks to prove additivity, the record has f(x+y) = f(x)+f(y)+f(xy) and asks for all f. The agent removed the row from the record, and the row is now in a new loose record.'

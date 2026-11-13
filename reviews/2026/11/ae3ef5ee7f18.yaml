@@ -1,0 +1,8 @@
+id: ae3ef5ee7f18
+kind: match
+records:
+    - isl/2006/n2
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Germany/train/0000.parquet#row=44 to this record, but the row is not a clear copy: row takes the (2n)-th digit of x where the record (and ISL 2006 N2) takes the (2^n)-th digit, miscopied. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

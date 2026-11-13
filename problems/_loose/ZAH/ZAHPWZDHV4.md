@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Balkan_Mathematical_Olympiad/train/0000.parquet#row=191
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: balkan-sl/2022
     source: hf-ai-mo-aops
     label: 2022 Balkan MO Shortlist
+  - at: balkan-sl/2022
+    source: hf-mathnet
+    label: Balkan Mathematical Olympiad BMO 2022 shortlist
 ---
 Let $ABC$ a triangle and let $\omega$ be its circumcircle. Let $E{}$ be the midpoint of the minor arc $BC$ of $\omega$ , and $M{}$ the midpoint of $BC$ . Let $V$ be the other point of intersection of $AM$ with $\omega$ , $F{}$ the point of intersection of $AE$ with $BC$ , $X{}$ the other point of intersection of the circumcircle of $FEM$ with $\omega$ , $X'$ the reflection of $V{}$ with respect to $M{}$ , $A'{}$ the foot of the perpendicular from $A{}$ to $BC$ and $S{}$ the other point of intersection of $XA'$ with $\omega$ . If $Z \in \omega$ with $Z\neq X$ is such that $AX = AZ$ , then prove that $S, X'$ and $Z{}$ are collinear.

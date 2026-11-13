@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Iran/train/0000.parquet#row=48
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ir-mo/2012
     source: hf-ai-mo-aops
     label: 2012 Iran MO (3rd Round)
+  - at: ir-mo
+    source: hf-mathnet
+    label: Iran Iranian Mathematical Olympiad
 ---
 We call the three variable polynomial $P$ cyclic if $P(x,y,z)=P(y,z,x)$ . Prove that cyclic three variable polynomials $P_1,P_2,P_3$ and $P_4$ exist such that for each cyclic three variable polynomial $P$ , there exists a four variable polynomial $Q$ such that $P(x,y,z)=Q(P_1(x,y,z),P_2(x,y,z),P_3(x,y,z),P_4(x,y,z))$ .
 

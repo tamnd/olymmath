@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0001.parquet#row=281
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ph-pmo
     source: hf-ai-mo-aops
     label: 23rd Philippine MO Qualifying Stage
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines 23rd Philippine Mathematical Olympiad Qualifying Stage
 ---
 Let $\triangle ABC$ be an isosceles triangle with a right angle at $A$ , and suppose that the diameter of its circumcircle $\Omega$ is $40$ . Let $D$ and $E$ be the points on the arc $BC$ not containing $A$ such that $D$ lies between $B$ and $E$ , and $AD$ and $AE$ trisect $\angle BAC$ . Let $I_1$ and $I_2$ be the incenters of $\triangle ABE$ and $\triangle ACD$ respectively. The length of $I_1I_2$ can be expressed in the form $a+b\sqrt{2}+c\sqrt{3}+d\sqrt{6}$ where $a$ , $b$ , $c$ , and $d$ are integers. Find $a+b+c+d$ .

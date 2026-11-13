@@ -14,11 +14,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Belarus/train/0001.parquet#row=73
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: by-mo/2016
     source: hf-ai-mo-aops
     label: 2016 Belarusian National Olympiad
+  - at: by-mo
+    source: hf-mathnet
+    label: Belarus 66th Belarusian Mathematical Olympiad
 ---
 Given a polynomial $p(x) = a_{2n+1}x^{2n+1}+a_{2n}x^{2n}+...+a_1x+a_0$ of odd degree, all coefficients $a_0$ , $a_1$ , $...$ , $a_{2n}$ , $a_{2n+1}$ of which are positive. Prove that its coefficients can be permuted so that the resulting polynomial has only one real root.

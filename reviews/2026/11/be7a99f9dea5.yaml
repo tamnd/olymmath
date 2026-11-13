@@ -1,0 +1,9 @@
+id: be7a99f9dea5
+kind: pair
+records:
+    - 197J91XBS9
+    - 6E2055704X
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Romania/train/0001.parquet#row=81 to this record, but they are two problems: the row has AE perpendicular to AF and DF perpendicular to BE, the record has AE perpendicular to DF and AF perpendicular to BE. The agent removed the row from the record, and the row is now in a new loose record.'

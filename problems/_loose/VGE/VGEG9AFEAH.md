@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Russia/train/0000.parquet#row=174
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ru-allrussian
+    source: hf-mathnet
+    label: Russia XL Russian mathematical olympiad
 ---
 Point $M$ is the midpoint of side $AC$ of triangle $ABC$. Points $P$ and $Q$ are chosen on segments $AM$ and $CM$ respectively such that $PQ = AC / 2$. The circumcircle of triangle $ABQ$ intersects side $BC$ at point $X \neq B$, and the circumcircle of triangle $BCP$ intersects side $AB$ at point $Y \neq B$. Prove that quadrilateral $BXM Y$ is cyclic.
 

@@ -1,0 +1,8 @@
+id: d70aacc0757d
+kind: match
+records:
+    - hmmt/2009/u33
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row United_States/train/0003.parquet#row=349 to this record, but the row is not a clear copy: row start lost: missing "let m be a positive integer" and the definition of d(n) as the number of divisors. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/India/train/0000.parquet#row=136
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: in-tst/2012
     source: hf-ai-mo-aops
     label: 2012 India IMO Training Camp
+  - at: in-tst/2012
+    source: hf-mathnet
+    label: India Indija TS 2012
 ---
 Let $ABC$ be an isosceles triangle with $AB=AC$ . Let $D$ be a point on the segment $BC$ such that $BD=2DC$ . Let $P$ be a point on the segment $AD$ such that $\angle BAC=\angle BPD$ . Prove that $\angle BAC=2\angle DPC$ .

@@ -14,12 +14,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Russia/train/0000.parquet#row=381
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ru-allrussian/2025
     source: hf-ai-mo-aops
     label: 2025 All-Russian Olympiad
+  - at: ru-allrussian
+    source: hf-mathnet
+    label: Russia LI Всероссийская математическая олимпиада школьников
 ---
 On the sides of triangle $ ABC $, points $ D_1, D_2, E_1, E_2, F_1, F_2 $ are chosen such that when going around the triangle, the points occur in the order $ A, F_1, F_2, B, D_1, D_2, C, E_1, E_2 $. It is given that
 $$

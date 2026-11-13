@@ -1,0 +1,8 @@
+id: 4af2e2ce3f16
+kind: match
+records:
+    - 8N42J6SYJG
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The agent read the MathNet row Saudi_Arabia/train/0000.parquet#row=392 and this record again, because the first review found a difference: the row has ''does not divide b+2016'' and the record ''divides b+2016''; with the record wording the third condition contradicts the second, so the record has the slip. The agent kept the link.'

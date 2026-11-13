@@ -1,0 +1,8 @@
+id: 3f755aa95560
+kind: match
+records:
+    - HBZ9PBMD0W
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Russia/train/0000.parquet#row=340 to this record, but the row is not a clear copy: the row formula is garbled: 2^n sqrt(a) instead of the 2^n-th root of a. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

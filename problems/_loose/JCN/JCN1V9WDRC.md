@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Bulgaria/train/0001.parquet#row=228
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: bg-winter/2024
     source: hf-ai-mo-aops
     label: 2024 Bulgarian Winter Tournament
+  - at: bg-winter
+    source: hf-mathnet
+    label: Bulgaria Bulgarian Winter Tournament
 ---
 There are $11$ points equally spaced on a circle. Some of the segments having endpoints among these vertices are drawn and colored in two colors, so that each segment meets at an internal for it point at most one other segment from the same color. What is the greatest number of segments that could be drawn?

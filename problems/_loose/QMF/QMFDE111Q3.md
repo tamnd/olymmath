@@ -15,6 +15,10 @@ statements:
     kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hr-mo
+    source: hf-mathnet
+    label: Croatia Mathematical competitions in Croatia
 ---
 If $x, y, z$ and $w$ are positive real numbers such that
 

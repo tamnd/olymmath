@@ -22,6 +22,14 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/India/train/0000.parquet#row=139
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
@@ -31,6 +39,9 @@ unplaced:
   - at: cu-mo/2013
     source: hf-ai-mo-aops
     label: 2013 Cuba MO
+  - at: in-tst/2012
+    source: hf-mathnet
+    label: India Indija TS 2012
 ---
 Let $a\ge b$ and $c\ge d$ be real numbers. Prove that the equation
 $$(x+a)(x+d)+(x+b)(x+c)=0$$

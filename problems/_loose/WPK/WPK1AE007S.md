@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0001.parquet#row=128
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines 20th Philippine Mathematical Olympiad
 ---
 Suppose there are 3 distinct green balls, 4 distinct red balls, and 5 distinct blue balls in an urn. The balls are to be grouped into pairs such that the balls in any pair have different colors. How many sets of six pairs can be formed?

@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Estonia/train/0001.parquet#row=24
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ee-mo
+    source: hf-mathnet
+    label: Estonia Estonian Mathematical Olympiad
 ---
 Medians $AD, BE$, and $CF$ of triangle $ABC$ intersect at point $M$. Is it possible that the circles with radii $MD, ME$, and $MF$
 a) all have areas smaller than the area of triangle $ABC$,

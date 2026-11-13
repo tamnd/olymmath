@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Croatia/train/0001.parquet#row=42
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hr-mo
+    source: hf-mathnet
+    label: Croatia Croatia Mathematical Competitions
 ---
 At the beginning, the grasshopper is at the origin of the number line, at number 0, and then it jumps in the same direction. For a natural number $k$, the grasshopper reaches number 1 in its first jump, and each subsequent jump is exactly $k$ times longer than the previous one. At the position of every multiple of 2015, there is a hole.
 

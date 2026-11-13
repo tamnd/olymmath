@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Russia/train/0000.parquet#row=175
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ru-allrussian
+    source: hf-mathnet
+    label: Russia XL Russian mathematical olympiad
 ---
 Triangle $ABC$ is inscribed in circle $\Omega$ with center $O$. The circle constructed on $AO$ as its diameter intersects the circumcircle of triangle $OBC$ at point $S \neq O$. The tangents to $\Omega$ at points $B$ and $C$ intersect at point $P$. Prove that points $A, S$, and $P$ lie on the same line.

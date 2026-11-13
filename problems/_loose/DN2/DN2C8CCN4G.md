@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Middle_European_Mathematical_Olympiad_MEMO/train/0000.parquet#row=19
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: memo
+    source: hf-mathnet
+    label: Middle European Mathematical Olympiad (MEMO) MEMO
 ---
 Let $A, B, C, D, E$ be points such that $A B C D$ is a cyclic quadrilateral and $A B D E$ is a parallelogram. The diagonals $A C$ and $B D$ intersect at $S$ and the rays $A B$ and $D C$ intersect at $F$. Prove that $\angle A F S=\angle E C D$.

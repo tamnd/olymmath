@@ -21,11 +21,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ibero-American_Mathematical_Olympiad/train/0000.parquet#row=93
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ibero/2002
     source: hf-numina-olympiads
     label: IberoAmerican_MO
+  - at: ibero
+    source: hf-mathnet
+    label: Ibero-American Mathematical Olympiad Iberoamerican Mathematical Olympiad
 ---
 $\mathrm{ABC}$ is a triangle. $\mathrm{BD}$ is the an angle bisector. $\mathrm{E}, \mathrm{F}$ are the feet of the perpendiculars from $\mathrm{A}$, $C$ respectively to the line $B D . M$ is the foot of the perpendicular from $D$ to the line $B C$. Show that $\angle \mathrm{DME}=\angle \mathrm{DMF}$.

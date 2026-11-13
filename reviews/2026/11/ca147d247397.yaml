@@ -1,0 +1,9 @@
+id: ca147d247397
+kind: pair
+records:
+    - HK782Z39HZ
+    - 552AB6M52N
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Saudi_Arabia/train/0001.parquet#row=283 to this record, but they are two problems: the row asks for all n with a_n a perfect square, the record asks to prove there are infinitely many squares in the sequence. The agent removed the row from the record, and the row is now in a new loose record.'

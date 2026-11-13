@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/United_States/train/0005.parquet#row=81
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: hmmt/2013
     source: hf-ai-mo-aops
     label: 2013 Harvard-MIT Mathematics Tournament
+  - at: hmmt/2013
+    source: hf-mathnet
+    label: United States HMMT 2013
 ---
 For an even positive integer $n$ Kevin has a tape of length $4n$ with marks at $-2n,-2n+1,\ldots,2n-1,2n$ . He then randomly picks $n$ points in the set $-n,-n+1,-n+2,\ldots,n-1,n$ and places a stone on each of these points. We call a stone 'stuck' if it is on $2n$ or $-2n$ , or either all the points to the right, or all the points to the left, all contain stones. Then, every minute, Kevin shifts the unstruck stones in the following manner:
 

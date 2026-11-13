@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Mongolia/train/0000.parquet#row=70
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: mn-mo
+    source: hf-mathnet
+    label: Mongolia 46th Mongolian Mathematical Olympiad
 ---
 A group of the pupils in a class are called *dominant* if any other pupil from the class has a friend in the group. If it is known that there exist at least 100 dominant groups, prove that there exists at least one more dominant group.
 

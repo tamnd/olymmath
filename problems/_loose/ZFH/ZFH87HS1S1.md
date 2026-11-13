@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ireland/train/0000.parquet#row=429
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ie-irmo/2023
     source: hf-ai-mo-aops
     label: 2023 Irish Math Olympiad
+  - at: ie-irmo/2023
+    source: hf-mathnet
+    label: Ireland IRL_ABooklet_2023
 ---
 Caitlin and Donal play a game called *Basketball Shoot-Out*. The game consists of $10$ rounds. In each round, Caitlin and Donal both throw a ball simultaneously at each other's basket. If a player's ball falls into the basket, that player scores one point; otherwise, they score zero points. The scoreboard shows the complete sequence of points scored by each player in each of the $10$ rounds of the game.
 

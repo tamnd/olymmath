@@ -15,8 +15,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: es
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Spain/train/0001.parquet#row=187
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: es-ome
+    source: hf-mathnet
+    label: Spain
 ---
 Find all functions $f: \mathbb{Z} \rightarrow \mathbb{Z}$ that satisfy $f(n)+f(n+1)=2n+1$ for any integer $n$ and additionally
 

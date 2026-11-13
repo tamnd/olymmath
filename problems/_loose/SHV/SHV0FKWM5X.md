@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Czech_Republic/train/0000.parquet#row=170
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: cz-sk-mo
+    source: hf-mathnet
+    label: Czech Republic 72nd Czech and Slovak Mathematical Olympiad
 ---
 In a convex quadrilateral $A B C D,|A B|=|B C|=|C D|$. Let furthermore, for the intersection $P$ of its diagonals $|\angle A P D|<90^{\circ}$. Let $R$ and $S$ be reflections of $A$ and $D$ with respect to $B D$ and $A C$, respectively. Prove that the lines $B C$ and $R S$ are parallel.
 

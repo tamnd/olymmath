@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/United_States/train/0004.parquet#row=197
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: hmmt/2011
     source: hf-ai-mo-aops
     label: 2011 Harvard-MIT Mathematics Tournament
+  - at: hmmt
+    source: hf-mathnet
+    label: United States Harvard-MIT Mathematics Tournament
 ---
 Collinear points $A$ , $B$ , and $C$ are given in the Cartesian plane such that $A= (a, 0)$ lies along the x-axis, $B$ lies along the line $y=x$ , $C$ lies along the line $y=2x$ , and $\frac{AB}{BC}=2$ . If $D= (a, a)$ , and the circumcircle of triangle $ADC$ intersects the line $y=x$ again at $E$ , and ray $AE$ intersects $y=2x$ at $F$ , evaluate $\frac{AE}{EF}$ .

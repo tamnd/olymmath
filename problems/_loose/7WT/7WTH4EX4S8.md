@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Hong_Kong/train/0000.parquet#row=387
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: hk-pc/2023
     source: hf-ai-mo-aops
     label: 2023 Hong Kong Team Selection Test
+  - at: hk-pc/2022
+    source: hf-mathnet
+    label: Hong Kong HongKong 2022-23 IMO Selection Tests
 ---
 Mandy needs to wake up early for attending a mathematics contest. She has set an alarm in her smartphone every 15 minutes since 5:30 am. If an alarm is not pressed off by her or her mother (or anything else), it will ring for a while, stop for a while, then will ring again 9 minutes later as the first ring, and so on (e.g. if the first alarm is not pressed off, it will ring again at 5:39 am). Also each alarm will work independently. Now suppose each ring-tone lasts for $x$ minutes, and the smartphone has eventually rung for 50 minutes before Mandy wakes up at 6:30 am (assume no one has pressed off any alarm before that). Find the value of $x$ .

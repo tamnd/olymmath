@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Baltic_Way/train/0001.parquet#row=135
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: baltic-way
+    source: hf-mathnet
+    label: Baltic Way Baltic Way
 ---
 Points $X$ , $Y$, $Z$ lie on a line $k$ in this order. Let $\omega_1$, $\omega_2$, $\omega_3$ be three circles of diameters $XZ$, $XY$ , $YZ$ , respectively. Line $\ell$ passing through point $Y$ intersects $\omega_1$ at points $A$ and $D$, $\omega_2$ at $B$ and $\omega_3$ at $C$ in such manner that points $A, B, Y, X, D$ lie on $\ell$ in this order. Prove that $AB =CD$.

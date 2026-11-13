@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Greece/train/0000.parquet#row=9
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: gr-hms/2007
     source: hf-ai-mo-aops
     label: 2007 Greece Junior Math Olympiad
+  - at: gr-hms
+    source: hf-mathnet
+    label: Greece 24th Hellenic Mathematical Olympiad
 ---
 For an integer $n$ , denote $A =\sqrt{n^{2}+24}$ and $B =\sqrt{n^{2}-9}$ . Find all values of $n$ for which $A-B$ is an integer.

@@ -22,11 +22,25 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Hong_Kong/train/0000.parquet#row=403
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: hk-pc/2023
     source: hf-ai-mo-aops
     label: 2023 Hong Kong Team Selection Test
+  - at: hk-pc/2022
+    source: hf-mathnet
+    label: Hong Kong HongKong 2022-23 IMO Selection Tests
+  - at: hk-pc
+    source: hf-mathnet
+    label: Hong Kong IMO HK TST
 ---
 Let $n$ be a positive integer. Show that if p is prime dividing $5^{4n}-5^{3n}+5^{2n}-5^{n}+1$ , then $p\equiv 1 \;(\bmod 4)$ .

@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0001.parquet#row=188
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ro-nmo
+    source: hf-mathnet
+    label: Romania 66th ROMANIAN MATHEMATICAL OLYMPIAD
 ---
 Point $P$ is inside triangle $A B C$, and lines $A P, B P, C P$ intersect sides $B C, A C, A B$ at $A_{1}, B_{1}$, and $C_{1}$, respectively. It is known that
 

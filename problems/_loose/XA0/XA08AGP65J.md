@@ -15,5 +15,9 @@ statements:
     kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ie-irmo/2020
+    source: hf-mathnet
+    label: Ireland IRL_ABooklet_2020
 ---
 Let $x, y, z \in \mathbf{R}^{\prime}$, compare $x^{3}+y^{3}+z^{3}+3 x y z$ with $x^{2}(y+z)+y^{2}(z+x)+z^{2}(x+y)$.

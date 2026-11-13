@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Slovenia/train/0000.parquet#row=399
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: si-mo
+    source: hf-mathnet
+    label: Slovenia National Math Olympiad
 ---
 Let there be a triangle $A B C$ and points $D$ on side $A B$, $E$ on side $B C$, and $F$ on side $A C$, such that line $C D$ is perpendicular to side $A B$, line $D E$ is perpendicular to side $B C$, and line $D F$ is perpendicular to side $A C$. Prove that points $A, B, E$, and $F$ lie on the same circle.

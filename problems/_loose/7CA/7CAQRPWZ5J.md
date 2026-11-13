@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Croatia/train/0001.parquet#row=90
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hr-mo
+    source: hf-mathnet
+    label: Croatia Croatian Mathematical Olympiad
 ---
 Let $I$ be the center of the inscribed circle of triangle $ABC$, and let point $D$ be on side $\overline{AC}$ such that $|AB|=|DB|$. The inscribed circle of triangle $BCD$ touches the lines $AC$ and $BD$ at points $E$ and $F$, respectively. Prove that the line $EF$ bisects the segment $\overline{DI}$.

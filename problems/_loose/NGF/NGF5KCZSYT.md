@@ -21,11 +21,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/JBMO/train/0000.parquet#row=116
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: jbmo-sl/2004
     source: hf-numina-olympiads
     label: JBMO-SL
+  - at: jbmo
+    source: hf-mathnet
+    label: JBMO Junior Balkan Mathematical Olympiad
 ---
 Find all positive integers $n, n \geq 3$, such that $n \mid(n-2)$ !.

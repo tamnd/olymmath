@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=326
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia SAUDI ARABIAN MATHEMATICAL COMPETITIONS
 ---
 Define the sequence $a_1, a_2,...$ as follows: $a_1 = 1$, and for every $n \ge 2$, $a_n = n - 2$ if $a_{n-1} = 0$ and $a_n = a_{n-1} - 1$, otherwise. Find the number of $1 \le k \le 2016$ such that there are non-negative integers $r, s$ and a positive integer $n$ satisfying $k = r + s$ and $a_{n+r} = a_n + s$.

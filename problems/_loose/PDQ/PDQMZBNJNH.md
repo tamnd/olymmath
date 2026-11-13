@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/South_Africa/train/0000.parquet#row=74
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ir-mo/2000
     source: hf-ai-mo-aops
     label: 2000 Iran MO (3rd Round)
+  - at: za-samo
+    source: hf-mathnet
+    label: South Africa South-Afrika 2011-2013
 ---
 Let $n$ points be given on a circle, and let $nk + 1$ chords between these points be drawn, where $2k+1 < n$ . Show that it is possible to select $k+1$ of the chords so that no two of them intersect.

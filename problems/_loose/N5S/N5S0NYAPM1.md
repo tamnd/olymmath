@@ -28,5 +28,8 @@ unplaced:
   - at: cr-mo/2014
     source: hf-ai-mo-aops
     label: 2014 Costa Rica - Final Round
+  - at: by-mo
+    source: hf-mathnet
+    label: Belarus 60th Belarusian Mathematical Olympiad
 ---
 Find all possible pairs of integers $ a$ and $ b$ such that $ab = 160 + 90 (a,b)$ , where $(a, b)$ is the greatest common divisor of $ a$ and $ b$ .

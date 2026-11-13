@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/North_Macedonia/train/0000.parquet#row=105
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: mk-mo
+    source: hf-mathnet
+    label: North Macedonia Macedonian Mathematical Competitions
 ---
 Let $a_{n}=1+2+\ldots+n$, for every $n \in \mathbb{N}$. If for $a_{m}$ and $a_{n}$ it holds that $2 a_{m}=a_{n}$, then $a_{2 m-n}$ is a perfect square. Prove!

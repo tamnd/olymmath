@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0001.parquet#row=142
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia Saudi Arabian Mathematical Competitions
 ---
 In a circle $O$, there are six points, $ A$, $ B$, $C$, $D$, $E$, $F$ in a counterclockwise order such that $BD \perp CF$ , and $CF$, $BE$, $AD$ are concurrent. Let the perpendicular from $B$ to $AC$ be $M$, and the perpendicular from $D$ to $CE$ be $N$. Prove that $AE \parallel MN$.

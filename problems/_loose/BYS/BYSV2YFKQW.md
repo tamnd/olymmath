@@ -15,8 +15,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/United_States/train/0002.parquet#row=5
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hmmt
+    source: hf-mathnet
+    label: United States Harvard-MIT Mathematics Tournament
 ---
 A partition of a number $n$ is a sequence of positive integers, arranged in descending order, whose sum is $n$. For example, $n=4$ has 5 partitions: $1+1+1+1=2+$ $1+1=2+2=3+1=4$. Given two different partitions of the same number, $n=a_{1}+a_{2}+\cdots+a_{k}=b_{1}+b_{2}+\cdots+b_{l}$, where $k \leq l$, the first partition is said to dominate the second if all of the following inequalities hold:
 $$

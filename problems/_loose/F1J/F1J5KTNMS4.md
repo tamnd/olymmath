@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Czech_Republic/train/0000.parquet#row=100
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: cz-sk-mo
+    source: hf-mathnet
+    label: Czech Republic 65th Czech and Slovak Mathematical Olympiad
 ---
 Mathematics clubs are very popular in certain city. Any two of them have at least one common member. Prove, that one can distribute rulers and compasses to the citizens in such a way that only one citizen gets both (compass and ruler) and any club has to his disposal both, compass and ruler, from its members.
 

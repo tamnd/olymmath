@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ukraine/train/0001.parquet#row=314
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ua-umo
+    source: hf-mathnet
+    label: Ukraine 62nd Ukrainian National Mathematical Olympiad, Third Round, Second Tour
 ---
 In triangle $ABC$ the median $BM$ is equal to half of the side $BC$. Show that $\angle ABM = \angle BCA + \angle BAC$.
 

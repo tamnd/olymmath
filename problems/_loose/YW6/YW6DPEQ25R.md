@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0001.parquet#row=79
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia SAUDI ARABIAN MATHEMATICAL COMPETITIONS
 ---
 For $n \ge 3$, it is given an $2n \times 2n$ board with black and white squares. It is known that all border squares are black and no $2 \times 2$ subboard has all four squares of the same color. Prove that there exists a $2 \times 2$ subboard painted like a chessboard, i.e. with two opposite black corners and two opposite white corners.

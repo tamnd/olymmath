@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Estonia/train/0000.parquet#row=204
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ee-mo
+    source: hf-mathnet
+    label: Estonia Estonian Math Competitions
 ---
 Let $m$ be an integer, $m \ge 2$. Each student in a school is practising $m$ hobbies the most. Among any $m$ students there exist two students who have a common hobby. Find the smallest number of students for which there must exist a hobby which is practised by at least $3$ students .

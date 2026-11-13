@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0002.parquet#row=450
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ro-nmo/2019
+    source: hf-mathnet
+    label: Romania 2019 ROMANIAN MATHEMATICAL OLYMPIAD
 ---
 Consider the right isosceles triangle $ABC$, with $m(\widehat{A}) = 90^\circ$, and point $D \in (AB)$ such that $AD = \frac{1}{3} AB$. In the half-plane determined by the line $AB$ and the point $C$, consider point $E$ for which $m(\angle BDE) = 60^\circ$ and $m(\angle DBE) = 75^\circ$. The lines $BC$ and $DE$ intersect at point $G$, and the parallel through point $G$ to the line $AC$ intersects the line $BE$ at point $H$.
 

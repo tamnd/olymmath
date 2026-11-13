@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Iran/train/0000.parquet#row=243
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ir-mo-r2/2019
     source: hf-ai-mo-aops
     label: 2019 Iran MO (2nd Round)
+  - at: ir-mo
+    source: hf-mathnet
+    label: Iran 37th Iranian Mathematical Olympiad
 ---
 Consider lattice points of a $6*7$ grid.We start with two points $A,B$ .We say two points $X,Y$ connected if one can reflect several times WRT points $A,B$ and reach from $X$ to $Y$ .Over all choices of $A,B$ what is the minimum number of connected components?

@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=117
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc/2012
+    source: hf-mathnet
+    label: Saudi Arabia Saudi Arabia Mathematical Competitions 2012
 ---
 A square of side 1 is decomposed into 9 equal squares of sides 1/3 and the one in the center is painted in black. The remaining eight squares are analogously divided into nine squares each and the square in the center is painted in black. Prove that after 1000 steps the total area of black region exceeds 0.999**

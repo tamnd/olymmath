@@ -15,5 +15,9 @@ statements:
     kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: jbmo
+    source: hf-mathnet
+    label: JBMO OJBM
 ---
 Find the maximum possible value of $a + b + c ,$ if $a,b,c$ are positive real numbers such that $a^2 + b^2 + c^2 = a^3 + b^3 + c^3 .$

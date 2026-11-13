@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Mongolia/train/0000.parquet#row=189
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: in-tst/2015
     source: hf-ai-mo-aops
     label: 2015 India IMO Training Camp
+  - at: mn-mo
+    source: hf-mathnet
+    label: Mongolia Mongolian Mathematical Olympiad
 ---
 Every cell of a $3\times 3$ board is coloured either by red or blue. Find the number of all colorings in which there are no $2\times 2$ squares in which all cells are red.

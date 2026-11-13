@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: mk
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/North_Macedonia/train/0000.parquet#row=117
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: mk-mo
+    source: hf-mathnet
+    label: North Macedonia Републички натпревар по математика за средно образование
 ---
 Does there exist a non-constant sequence of natural numbers $a_{1}, a_{2}, \ldots, a_{n}, \ldots$, such that for every natural number $k \geq 2$ the equality $a_{k}=\frac{2 a_{k-1} a_{k+1}}{a_{k-1}+a_{k+1}}$ is satisfied?

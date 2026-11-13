@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Argentina/train/0001.parquet#row=246
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: rioplatense/2023
     source: hf-ai-mo-aops
     label: 2023 Rioplatense Mathematical Olympiad
+  - at: rioplatense
+    source: hf-mathnet
+    label: Argentina Rioplatense Mathematical Olympiad
 ---
 Let $ABCD$ be a convex quadrilateral, such that $AB = CD$ , $\angle BCD = 2 \angle BAD$ , $\angle ABC = 2 \angle ADC$ and $\angle BAD \neq \angle ADC$ . Determine the measure of the angle between the diagonals $AC$ and $BD$ .

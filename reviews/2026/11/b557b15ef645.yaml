@@ -1,0 +1,8 @@
+id: b557b15ef645
+kind: match
+records:
+    - ZPSRN138CE
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Argentina/train/0001.parquet#row=107 to this record, but the row is not a clear copy: the question is garbled: "Find triangle ABC" instead of asking for angle ABC. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

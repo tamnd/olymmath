@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ukraine/train/0000.parquet#row=94
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ua-umo/2009
     source: hf-ai-mo-aops
     label: 2009 Ukraine National Mathematical Olympiad
+  - at: ua-umo
+    source: hf-mathnet
+    label: Ukraine 49th Mathematical Olympiad in Ukraine
 ---
 Point $O$ is inside triangle $ABC$ such that $\angle AOB = \angle BOC = \angle COA = 120^\circ .$ Prove that
 $$\frac{AO^2}{BC}+\frac{BO^2}{CA}+\frac{CO^2}{AB} \geq \frac{AO+BO+CO}{\sqrt 3}.$$

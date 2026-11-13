@@ -1,0 +1,8 @@
+id: 77d10493a5dd
+kind: match
+records:
+    - es-ome/2012/p3
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Spain/train/0001.parquet#row=81 to this record, but the row is not a clear copy: the row asks for every x in {1,...,n} although it set x < n, the record uses x in {1,...,n-1}, the row also drops "balls". The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

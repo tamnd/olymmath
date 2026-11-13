@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Austria/train/0000.parquet#row=36
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: at-oemo/2012
     source: hf-ai-mo-aops
     label: 2012 Federal Competition For Advanced Students, Part 2
+  - at: at-oemo
+    source: hf-mathnet
+    label: Austria Austrian Mathematical Olympiad
 ---
 Determine the maximum value of $m$ , such that the inequality
 

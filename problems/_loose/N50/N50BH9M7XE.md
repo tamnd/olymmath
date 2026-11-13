@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Slovenia/train/0001.parquet#row=183
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: si-mo/2015
+    source: hf-mathnet
+    label: Slovenia National Math Olympiad 2015 – First Round
 ---
 Let $a_{1}, a_{2}, a_{3}, \ldots$ be an arithmetic sequence. For any natural number $k$, we denote $S_{k}=$ $a_{1}+a_{2}+\ldots+a_{k}$. Prove that for any natural numbers $m$ and $n$,
 

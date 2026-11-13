@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Switzerland/train/0000.parquet#row=457
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ch-smo
+    source: hf-mathnet
+    label: Switzerland Swiss Mathematical Olympiad
 ---
 Let $n$ be a positive integer. Kimiko starts with $n$ piles of pebbles each containing a single pebble. She can take an equal number of pebbles from two existing piles and combine the removed pebbles to create a new pile. Determine, in terms of $n$, the smallest number of nonempty piles Kimiko can end up with.

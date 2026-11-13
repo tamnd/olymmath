@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Estonia/train/0000.parquet#row=207
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ee-mo
+    source: hf-mathnet
+    label: Estonia Estonian Math Competitions
 ---
 Let $O$ be the circumcentre of the acute triangle $ABC$. Let $c_1$ and $c_2$ be the circumcircles of triangles $ABO$ and $ACO$. Let $P$ and $Q$ be points on $c_1$ and $c_2$ respectively, such that OP is a diameter of $c_1$ and $OQ$ is a diameter of $c_2$. Let $T$ be the intesection of the tangent to $c_1$ at $P$ and the tangent to $c_2$ at $Q$. Let $D$ be the second intersection of the line $AC$ and the circle $c_1$. Prove that the points $D, O$ and $T$ are collinear

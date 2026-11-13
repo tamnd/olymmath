@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Argentina/train/0001.parquet#row=260
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: cono-sur
+    source: hf-mathnet
+    label: Argentina Cono Sur Mathematical Olympiad
 ---
 A list of $n$ positive integers $a_1, a_2,a_3,\ldots,a_n$ is said to be *good* if it checks simultaneously:
 $\bullet a_1<a_2<a_3<\cdots<a_n,$

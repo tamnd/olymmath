@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Moldova/train/0000.parquet#row=45
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: md-mo
+    source: hf-mathnet
+    label: Moldova Olimpiada Republicană la Matematică
 ---
 Let $a, b$ and $c$ be the lengths of the sides of an arbitrary triangle with a perimeter equal to 1.
 

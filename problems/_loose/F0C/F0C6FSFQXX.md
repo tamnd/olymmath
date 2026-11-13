@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: fr
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/France/train/0001.parquet#row=19
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: fr-tst
+    source: hf-mathnet
+    label: France PRÉPARATION OLYMPIQUE FRANÇAISE DE MATHÉMATIQUES
 ---
 Determine the maximum value of $\sqrt{x}+\sqrt{2 y+2}+\sqrt{3 z+6}$ when $x, y, z$ are strictly positive real numbers satisfying $x+y+z=3$.

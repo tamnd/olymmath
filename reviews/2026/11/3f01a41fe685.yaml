@@ -1,0 +1,9 @@
+id: 3f01a41fe685
+kind: pair
+records:
+    - 1ZW01XSNC7
+    - 2H12HWK6X0
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import joined the MathNet row all/train/0024.parquet#row=2 into this record, which holds the MathNet row Slovenia/train/0000.parquet#row=281, but they are two problems: the row requires positive integers, the record allows all integers (with positive integers there is no solution). The row added no statement, so the problem was lost. The row is now in a new loose record.'

@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Czech_Republic/train/0000.parquet#row=23
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: cz-sk-mo
+    source: hf-mathnet
+    label: Czech Republic 62nd Czech and Slovak Mathematical Olympiad
 ---
 Each of $n$ Robin Hoods $(n \geqslant 3)$ robbed some coins. Together they have earned 100n coins. They have decided to cut the loot in a following way: in one step one Robin can take his two coins and give to some other two Hoods, one coin each. Find all positive integers $n \geqslant 3$ for which they can split the loot in equal parts (100 coins each).
 

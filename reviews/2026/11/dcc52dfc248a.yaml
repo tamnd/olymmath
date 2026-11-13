@@ -1,0 +1,8 @@
+id: dcc52dfc248a
+kind: match
+records:
+    - cn-wmo/2011/p8
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row China/train/0001.parquet#row=50 to this record, but the row is not a clear copy: row has n | a^n + b^(n-1), the record (and the original) n | a^n + b^(n+1), miscopied exponent. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

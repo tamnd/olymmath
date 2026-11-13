@@ -15,5 +15,9 @@ statements:
     kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: mk-mo
+    source: hf-mathnet
+    label: North Macedonia Macedonian Mathematical Olympiad
 ---
 Given a $3 \times 3$ square divided into 9 smaller squares, and in each small square, an integer is written such that the sums of the elements in each row, each column, and each diagonal are equal. Prove that this sum cannot be equal to 2008.

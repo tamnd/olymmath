@@ -14,11 +14,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0003.parquet#row=330
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ro-nmo/2024
     source: hf-ai-mo-aops
     label: 2024 Romania National Olympiad
+  - at: ro-nmo
+    source: hf-mathnet
+    label: Romania 74th Romanian Mathematical Olympiad
 ---
 Let $a$ be a given positive integer. We consider the sequence $(x_n)_{n \ge 1}$ defined by $x_n=\frac{1}{1+na},$ for every positive integer $n.$ Prove that for any integer $k \ge 3,$ there exist positive integers $n_1<n_2<\ldots<n_k$ such that the numbers $x_{n_1},x_{n_2},\ldots,x_{n_k}$ are consecutive terms in an arithmetic progression.

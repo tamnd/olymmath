@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=269
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia SAMC
 ---
 Let $ABC$ be a triangle, $D$ the midpoint of side $BC$ and $E$ the intersection point of the bisector of angle $\angle BAC$ with side $BC$. The perpendicular bisector of $AE$ intersects the bisectors of angles $\angle CBA$ and $\angle CDA$ at $M$ and $N$, respectively. The bisectors of angles $\angle CBA$ and $\angle CDA$ intersect at $P$ . Prove that points $A, M, N, P$ are concyclic.

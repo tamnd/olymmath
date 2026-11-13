@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Russia/train/0000.parquet#row=45
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ru-allrussian
+    source: hf-mathnet
+    label: Russia Russian mathematical olympiad
 ---
 Rational numbers $a$ and $b$ satisfy the equation $a^{3} b+a b^{3}+2 a^{2} b^{2}+2 a+2 b+1=0$. Prove that $\sqrt{1-a b}$ is a rational number.

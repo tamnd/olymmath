@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/China/train/0001.parquet#row=195
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: cn-league
+    source: hf-mathnet
+    label: China China Mathematical Competition
 ---
 Let set $A=\{1,2, m\}$, where $m$ is a real number. Let $B=\left\{a^{2} \mid a \in A\right\}, C=A \cup B$. If the sum of all elements in $C$ is 6, then the product of all elements in $\mathrm{C}$ is $ $

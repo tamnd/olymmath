@@ -1,0 +1,8 @@
+id: 2cba7404133b
+kind: match
+records:
+    - VCGWANTY3Y
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The agent read the MathNet row Romania/train/0002.parquet#row=208 and this record again, because the first review found a difference: the first review read a line break before e^{f(x)} as the TeX command for not equal; the source text is correct. The agent kept the link.'

@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0001.parquet#row=45
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: danube/2014
     source: hf-ai-mo-aops
     label: 2014 Danube Mathematical Competition
+  - at: danube/2014
+    source: hf-mathnet
+    label: Romania THE 2014 DANUBE MATHEMATICAL COMPETITION
 ---
 Given any integer $n \ge 2$ , show that there exists a set of $n$ pairwise coprime composite integers in arithmetic progression.

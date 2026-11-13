@@ -15,8 +15,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Netherlands/train/0000.parquet#row=253
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: nl-nwo-r2
+    source: hf-mathnet
+    label: Netherlands Second Round
 ---
 The digit sum of a number is obtained by adding the digits of the number. The digit sum of 1303, for example, is $1+3+0+3=7$.
 

@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Greece/train/0000.parquet#row=91
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: gr-hms/2014
     source: hf-ai-mo-aops
     label: 2014 Greece National Olympiad
+  - at: gr-hms
+    source: hf-mathnet
+    label: Greece 31st Hellenic Mathematical Olympiad
 ---
 Find all the integers $n$ for which $\frac{8n-25}{n+5}$ is cube of a rational number.

@@ -1,0 +1,8 @@
+id: 6539ce1ade4a
+kind: match
+records:
+    - A2X06D0VW2
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The agent read the MathNet row Soviet_Union/train/0000.parquet#row=207 and this record again, because the first review found a difference: the row has >= and the record a strict >; the inequality has equality at a = b = c, so the record has the slip. The agent kept the link.'

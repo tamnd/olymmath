@@ -1,0 +1,8 @@
+id: 8324671ad9b1
+kind: match
+records:
+    - imo/2012/p4
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Mongolia/train/0000.parquet#row=131 to this record, but the row is not a clear copy: row left side garbled as (a)^2+(b)^2+(c)^2 instead of f(a)^2+f(b)^2+f(c)^2. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

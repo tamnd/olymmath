@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0001.parquet#row=268
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ph-pmo
     source: hf-ai-mo-aops
     label: 23rd Philippine MO Qualifying Stage
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines 23rd Philippine Mathematical Olympiad Qualifying Stage
 ---
 Alice tosses two biased coins, each of which has a probability $p$ of obtaining a head, simultaneously and repeatedly until she gets two heads. Suppose that this happens on the $r$ th toss for some integer $r\geq1$ . Given that there is $36\%$ chance that $r$ is even, what is the value of $p$ ? $\text{(a) }\dfrac{\sqrt{7}}{4} \text{(b) }\dfrac{2}{3} \text{(c) }\dfrac{\sqrt{2}}{2} \text{(d) }\dfrac{3}{4}$

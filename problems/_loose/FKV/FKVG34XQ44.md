@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/China/train/0000.parquet#row=154
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: cn-league/2006
     source: hf-ai-mo-aops
     label: 2006 China Second Round Olympiad
+  - at: cn-league
+    source: hf-mathnet
+    label: China China Mathematical Competition
 ---
 Suppose $f(x)=x^2+a$ . Define $f^1(x)=f(x)$ , $f^n(x)=f(f^{n-1}(x))$ , $n=2, 3, \cdots$ , and let $M=\{a\in\mathbb{R}| |f^n(0)|\le 2, \text{for any } n\in\mathbb{N}\} $ . Prove that $M=[-2, \frac{1}{4}]$ .

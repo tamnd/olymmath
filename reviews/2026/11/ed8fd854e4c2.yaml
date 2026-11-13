@@ -1,0 +1,9 @@
+id: ed8fd854e4c2
+kind: pair
+records:
+    - Y6HX0RZQM6
+    - jbmo-sl/2004/a2
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row France/train/0001.parquet#row=386 to this record, but they are two problems: row right side is 0, record right side is (x+y+z)^2 with equality case. The agent removed the row from the record, and the row is now in a new loose record.'

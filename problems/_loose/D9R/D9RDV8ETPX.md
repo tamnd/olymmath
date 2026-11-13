@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=440
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia SAUDI ARABIAN MATHEMATICAL COMPETITIONS
 ---
 Let $ABC$ be a triangle with $A$ is an obtuse angle. Denote $BE$ as the internal angle bisector of triangle $ABC$ with $E \in AC$ and suppose that $\angle AEB = 45^o$. The altitude $AD$ of triangle $ABC$ intersects $BE$ at $F$. Let $O_1, O_2$ be the circumcenter of triangles $FED, EDC$. Suppose that $EO_1, EO_2$ meet $BC$ at $G, H$ respectively. Prove that $\frac{GH}{GB}= \tan \frac{a}{2}$

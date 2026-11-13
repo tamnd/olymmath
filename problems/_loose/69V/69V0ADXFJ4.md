@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/JBMO/train/0000.parquet#row=295
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: jbmo-sl/2015
     source: hf-ai-mo-aops
     label: 2015 JBMO Shortlist
+  - at: jbmo
+    source: hf-mathnet
+    label: JBMO Junior Balkan Mathematical Olympiad
 ---
 Check if there exists positive integers $ a, b$ and prime number $p$ such that $a^3-b^3=4p^2$

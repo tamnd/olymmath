@@ -1,0 +1,9 @@
+id: 02be17d66dcf
+kind: pair
+records:
+    - Y4Y205YVWA
+    - MFQ428445K
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row JBMO/train/0000.parquet#row=294 to this record, but they are two problems: part b): row says divisible by 41 if and only if k divides n, record only "if". The agent removed the row from the record, and the row is now in a new loose record.'

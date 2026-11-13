@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Singapore/train/0000.parquet#row=105
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: sg-smo/2023
     source: hf-ai-mo-aops
     label: 2023 Singapore Junior Math Olympiad
+  - at: sg-smo
+    source: hf-mathnet
+    label: Singapore Singapore Mathematical Olympiad (SMO)
 ---
 In a convex quadrilateral $ABCD$ , the diagonals intersect at $O$ , and $M$ and $N$ are points on the segments $OA$ and $OD$ respectively. Suppose $MN$ is parallel to $AD$ and $NC$ is parallel to $AB$ . Prove that $\angle ABM=\angle NCD$ .

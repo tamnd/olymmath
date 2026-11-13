@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=59
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia Saudi Arabia Mathematical Competitions
 ---
 Let $ABCD$ be a square of center $O$. The parallel to $AD$ through $O$ intersects $AB$ and $CD$ at $M$ and $N$ and a parallel to $AB$ intersects diagonal $AC$ at $P$. Prove that $$OP^4 + \left(\frac{MN}{2} \right)^4 = MP^2 \cdot NP^2$$

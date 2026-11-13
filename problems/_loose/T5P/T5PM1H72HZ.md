@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/JBMO/train/0000.parquet#row=355
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: jbmo-sl/2020
     source: hf-ai-mo-aops
     label: 2020 JBMO Shortlist
+  - at: jbmo
+    source: hf-mathnet
+    label: JBMO Junior Balkan Mathematical Olympiad
 ---
 Prove that there doesn't exist any prime $p$ such that every power of $p$ is a palindrome (a palindrome is a number that is read the same from the left as it is from the right; in particular, a number that ends in one or more zeros cannot be a palindrome).

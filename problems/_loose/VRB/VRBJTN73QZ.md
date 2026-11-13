@@ -21,12 +21,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/JBMO/train/0000.parquet#row=135
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: jbmo-sl/2005
     source: hf-numina-olympiads
     label: JBMO-SL
+  - at: jbmo
+    source: hf-mathnet
+    label: JBMO OJBM
 ---
 Let $p$ be an odd prime. Prove that $p$ divides the integer
 

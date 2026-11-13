@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: fr
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/France/train/0001.parquet#row=24
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: fr-tst
+    source: hf-mathnet
+    label: France Préparation Olympique Française de Mathématiques
 ---
 In the plane, we have 16 distinct points, denoted by $A_{i, j}$ for $\mathfrak{i}, \mathrm{j} \in\{1,2,3,4\}$. These points satisfy the following alignment and cocyclicity relations:
 

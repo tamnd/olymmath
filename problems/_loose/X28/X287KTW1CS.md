@@ -21,11 +21,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/JBMO/train/0000.parquet#row=149
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: jbmo-sl/2007
     source: hf-numina-olympiads
     label: JBMO-SL
+  - at: jbmo-sl/2007
+    source: hf-mathnet
+    label: JBMO 2007 Shortlist JBMO
 ---
 Let $n>1$ be a positive integer and $p$ a prime number such that $n \mid(p-1)$ and $p \mid\left(n^{6}-1\right)$. Prove that at least one of the numbers $p-n$ and $p+n$ is a perfect square.

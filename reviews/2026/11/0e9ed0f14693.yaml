@@ -1,0 +1,8 @@
+id: 0e9ed0f14693
+kind: match
+records:
+    - at-oemo-reg/2016/p4
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Austria/train/0000.parquet#row=115 to this record, but the row is not a clear copy: row hypothesis is garbled as angle AC > angle AB, the record has AC > AB. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

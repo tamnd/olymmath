@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Croatia/train/0000.parquet#row=226
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hr-mo
+    source: hf-mathnet
+    label: Croatia Mathematica competitions in Croatia
 ---
 Let $H$ be the orthocenter of an acute triangle $ABC$. The line through $A$ perpendicular to $AC$ and the line through $B$ perpendicular to $BC$ intersect at $D$. The circle with center $C$ passing through $H$ intersects the circumcircle of triangle $ABC$ at points $E$ and $F$. Prove that $|DE|=|DF|=|AB|$.

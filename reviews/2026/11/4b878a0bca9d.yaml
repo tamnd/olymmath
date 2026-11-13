@@ -1,0 +1,9 @@
+id: 4b878a0bca9d
+kind: pair
+records:
+    - X7PYAHZNPD
+    - EHKZ68YEM5
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row China/train/0001.parquet#row=134 to this record, but they are two problems: the row takes the a_i, b_i to be non-negative integers, the record non-negative real numbers. The agent removed the row from the record, and the row is now in a new loose record.'

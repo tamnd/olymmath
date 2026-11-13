@@ -1,0 +1,7 @@
+id: f3a84db99879
+kind: merge
+records: [NWWTKQF1DF, SWMAGBA9GM]
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The official Moscow MO paper https://mmo.mccme.ru/2018/var.pdf gives one problem at ru-moscow/2018/p86 (page 1) and ru-moscow/2018/p115 (page 2): equilateral triangles on the sides of a convex hexagon ABCDEF, B1D1F1 is equilateral, prove that A1C1E1 is equilateral. The two texts differ only in one word for equilateral. problems.ru has two pages for it, 66471 and 66488, so the record keeps both links."

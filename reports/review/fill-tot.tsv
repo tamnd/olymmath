@@ -1,36 +1,15 @@
 # The link-only records that om fill did not fill: the position, the problem, the problems.ru number, the official page, the word signal of the official text at the position with the problems.ru text, the best other position of the edition and its signal, and the reason. The problems.ru text is a key in memory only and is not kept.
 tot/1999-spring/ja1	W9BM0P86H5	105050	https://turgor.ru/problems/20/index.php	0.20	ja3	0.03	the official text at the position does not agree with the problems.ru text
 tot/1999-spring/ja2	12FW9B4KXF	108151	https://turgor.ru/problems/20/index.php	0.33	ja5	0.18	the official text at the position does not agree with the problems.ru text
-tot/2000-fall/ja7	1J9X63J2VG	98501	https://turgor.ru/problems/22/index.php	1.00	so2	0.07	the official text is flagged: math
-tot/2000-fall/sa4	N8DGGTK9DY	98505	https://turgor.ru/problems/22/index.php	0.92	so2	0.13	the official text is flagged: layout
-tot/2000-fall/so4	VCTV158JNS	98494	https://turgor.ru/problems/22/index.php	0.69	jo3	0.11	the official text is flagged: layout
-tot/2000-spring/ja6	QZJKG3PW37	98480	https://turgor.ru/problems/21/index.php	0.56	sa6	0.50	another official text of the edition agrees nearly as well
-tot/2000-spring/sa1	3P6Y0VPT7A	98481	https://turgor.ru/problems/21/index.php	1.00	jo4	0.08	the official text is flagged: layout
-tot/2000-spring/sa6	7EE9JVX6V7	98486	https://turgor.ru/problems/21/index.php	0.91	ja6	0.80	the official text is flagged: hyphen
-tot/2000-spring/so3	4BGX55CTP1	98473	https://turgor.ru/problems/21/index.php	0.57	ja2	0.07	the official text is flagged: math
 tot/2004-fall/so2	W4YSRRPRSC	65552	https://turgor.ru/problems/26/index.php	0.66	jo2	0.59	another official text of the edition agrees nearly as well
-tot/2004-spring/jo2	JJTTFKFNMD	65401	https://turgor.ru/problems/25/index.php	0.39	so2	0.17	the official text at the position does not agree with the problems.ru text
-tot/2004-spring/jo4	QWQVGZ672M	65403	https://turgor.ru/problems/25/index.php	0.36	so2	0.42	the official text at the position does not agree with the problems.ru text
-tot/2004-spring/so2	QWQVGZ672M	65403	https://turgor.ru/problems/25/index.php	0.42	jo4	0.36	the official text at the position does not agree with the problems.ru text
-tot/2006-fall/ja5	RFRZB35SBY	109192	https://turgor.ru/problems/28/index.php	0.88	ja6	0.10	the official text is flagged: layout
-tot/2006-fall/ja6	ZB1E5GG7G3	109193	https://turgor.ru/problems/28/index.php	0.53	sa7	0.16	the official text is flagged: layout
-tot/2008-fall/so2	710TWWFBT4	111649	https://turgor.ru/problems/30/index.php	0.75	-	0.00	the official text is flagged: math, layout
-tot/2008-spring/so5	R8WWH64Z7M	64603	https://turgor.ru/problems/29/index.php	0.74	jo1	0.04	the official text is flagged: layout
-tot/2009-fall/jo1	8628P7EBE7	116238	https://turgor.ru/problems/31/index.php	1.00	sa2	0.14	the official text is flagged: layout
-tot/2009-spring/jo2	ARDFH6YTJ6	64510	https://turgor.ru/problems/30/index.php	0.96	jo3	0.07	the official text is flagged: layout
-tot/2009-spring/so1	ARDFH6YTJ6	64510	https://turgor.ru/problems/30/index.php	0.96	jo3	0.07	the official text is flagged: layout
-tot/2009-spring/so3	Y92ZN3RDYE	64516	https://turgor.ru/problems/30/index.php	1.00	ja4	0.13	the official text is flagged: math
+tot/2004-spring/jo2	JJTTFKFNMD	65401	https://turgor.ru/problems/25/index.php	0.39	jo4	0.17	the official text at the position does not agree with the problems.ru text
+tot/2004-spring/jo4	QWQVGZ672M	65403	https://turgor.ru/problems/25/index.php	0.42	jo2	0.09	the official text at the position does not agree with the problems.ru text
+tot/2004-spring/so2	QWQVGZ672M	65403	https://turgor.ru/problems/25/index.php	0.42	jo2	0.09	the official text at the position does not agree with the problems.ru text
 tot/2010-spring/ja1	VQPNQH9WMS	116423	https://turgor.ru/problems/31/index.php	0.88	sa2	0.85	another official text of the edition agrees nearly as well
-tot/2010-spring/jo2	ABHFRCZETG	116407	https://turgor.ru/problems/31/index.php	0.97	ja1	0.04	the official text is flagged: hyphen
-tot/2010-spring/jo3	6SPHJQBWP2	116408	https://turgor.ru/problems/31/index.php	0.85	jo5	0.10	the official text is flagged: hyphen
 tot/2010-spring/sa2	VQPNQH9WMS	116423	https://turgor.ru/problems/31/index.php	0.85	ja1	0.88	another official text of the edition agrees nearly as well
-tot/2010-spring/so3	BJZ97EDKZ8	116413	https://turgor.ru/problems/31/index.php	0.82	sa1	0.04	the official text is flagged: hyphen
-tot/2010-spring/so5	VAZBWJ38T7	116415	https://turgor.ru/problems/31/index.php	0.89	sa1	0.08	the official text is flagged: hyphen
-tot/2012-spring/sa3	8ZXPC673JC	116726	https://turgor.ru/problems/33/vs33sl-avt.pdf	1.00	so4	0.11	the official text is flagged: layout
 tot/2013-spring/sa3	S7SKQ9JMRY	32895	https://turgor.ru/problems/34/vs34sl-avt.pdf	0.71	ja5	0.66	another official text of the edition agrees nearly as well
 tot/2019-fall/sa4	KXKRVDXNSP	66837	https://turgor.ru/problems/41/os-41-sl-avt.pdf	0.15	jo4	0.05	the official text at the position does not agree with the problems.ru text
 tot/2023-spring/jo4	Y7CN9B4DZY	67257	https://turgor.ru/problems/44/vs-44-baz-avt.pdf	0.94	so2	0.84	another official text of the edition agrees nearly as well
 tot/2023-spring/so2	21YCFS5J3S	67260	https://turgor.ru/problems/44/vs-44-baz-avt.pdf	0.95	jo4	0.84	the official text is flagged: layout
-tot/2026-spring/ja5	536VH0QFSR	67613	https://turgor.ru/problems/47/vs-47-sl-avt.pdf	0.50	so1	0.12	the official text is flagged: layout
 tot/2026-spring/sa4	GQQ9Q4N2FJ	67618	https://turgor.ru/problems/47/vs-47-sl-avt.pdf	0.44	sa1	0.07	the official text at the position does not agree with the problems.ru text
 tot/2026-spring/sa7	FHTNX1VTPD	67623	https://turgor.ru/problems/47/vs-47-sl-avt.pdf	0.46	sa2	0.09	the official text at the position does not agree with the problems.ru text

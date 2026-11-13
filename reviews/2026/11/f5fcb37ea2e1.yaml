@@ -1,0 +1,8 @@
+id: f5fcb37ea2e1
+kind: doubt
+records:
+    - ru-moscow/2017/p93
+decision: flagged
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The record 8KE0FWYJYV joins ru-moscow/2017/p93 and tot/2017-spring/ja2 and shows the official Tournament of Towns text. The official Moscow MO paper https://mmo.mccme.ru/2017/var.pdf has a shorter variant of the problem at 9.3, and its problems.ru key agrees with that text only weakly (0.34). A person must decide if the two positions are one problem or must be split."

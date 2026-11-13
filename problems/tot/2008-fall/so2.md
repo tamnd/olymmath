@@ -5,8 +5,8 @@ appearances:
   - at: tot/2008-fall/so2
     primary: true
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -16,6 +16,19 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2008-fall official page
+    url: https://turgor.ru/problems/30/index.php
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: native/html (claude-opus-5-5)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Решите систему уравнений ($n>2$)
+$$\sqrt{x_1}+\sqrt{x_2+\ldots+x_n}=\sqrt{x_2}+\sqrt{x_3+\ldots+x_n+x_1}=\ldots=\sqrt{x_n}+\sqrt{x_1+\ldots+x_{n-1}},$$
+$$x_1-x_2=1.$$

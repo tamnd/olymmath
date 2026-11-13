@@ -1,0 +1,8 @@
+id: 9803ed74fc3f
+kind: official
+records:
+    - tot/2000-spring/ja6
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The official page https://turgor.ru/problems/21/index.php gives at tot/2000-spring/ja6 the problem on wrong games in a round-robin chess tournament: prove that they are less than 3/4 of all games. The problems.ru key of the position agrees with this text (signal 0.56, containment 0.96). om fill held it back only because the senior problem sa6 adds a part b) to the same problem and agrees nearly as well. So the record has the junior text of the official page."

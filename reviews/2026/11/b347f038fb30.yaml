@@ -1,0 +1,9 @@
+id: b347f038fb30
+kind: pair
+records:
+    - 8H8T9A15GH
+    - iom/2020/p3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 119574 of NuminaMath 1.5 to this record, but they are two problems: the row asks for a lucky set with sum < n*2^(n-1) and has no second part, the record (a) has bound n*2^n and (b) asks to prove every lucky set has sum > n*2^(n-1). The agent removed the row from the record, and row 119574 is now its own loose record.'

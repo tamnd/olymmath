@@ -1,0 +1,9 @@
+id: dc8821bcff3c
+kind: pair
+records:
+    - 7EHTJ1M33F
+    - 6JBRSB7BQE
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 121115 of NuminaMath 1.5 into this record, but they are two problems: the row asks for two vertices of a right triangle in one subset, the other row asks for all three vertices. Row 121115 is now its own loose record.'

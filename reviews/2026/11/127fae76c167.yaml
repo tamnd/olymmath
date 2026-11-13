@@ -1,0 +1,8 @@
+id: 127fae76c167
+kind: match
+records:
+    - 43ZQ548H80
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 109527 was joined into this record, which holds row 108289. The two rows state the same theorem on monotone subsequences of mn + 1 terms; only the wording differs.'

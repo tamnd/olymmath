@@ -1,0 +1,8 @@
+id: f5b174e2e8c8
+kind: match
+records:
+    - ABWF3PMTD0
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 112451 of NuminaMath 1.5 to cn-wmo/2004/p8, but the row has any real a, b, c and that record positive reals. This loose record states the same problem as the row (any real numbers, the bound 3 sqrt 2 / 2), so the agent moved the row here as a second statement.'

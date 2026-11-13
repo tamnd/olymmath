@@ -1,0 +1,8 @@
+id: 0787385c2766
+kind: match
+records:
+    - ahsme/1952/p21
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 110899 of NuminaMath 1.5 the loose record CTD4T6H8QV. The text names this competition and its year (or its number in the series), and it states the same problem as this record (star from regular n-gon, angle at points). The record already has a statement from this source, so the agent removed the loose record and listed the row in registers/loose-removed.tsv.'

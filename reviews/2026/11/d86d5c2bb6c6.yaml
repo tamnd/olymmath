@@ -1,0 +1,9 @@
+id: d86d5c2bb6c6
+kind: pair
+records:
+    - S36BTJT3R3
+    - kr-fkmo/1999/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 111892 of NuminaMath 1.5 to this record, but they are two problems: the row condition |f(m+n)-f(m)-1| <= n/m for rationals m,n, the record |f(m+n)-f(m)| <= n/m for positive integers. The project only links the texts of this competition, so the import adds no row to it, and the problem was lost. Row 111892 is now in its own loose record.'

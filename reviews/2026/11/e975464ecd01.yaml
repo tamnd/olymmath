@@ -1,0 +1,9 @@
+id: e975464ecd01
+kind: pair
+records:
+    - 2Q1JS3GEPZ
+    - egmo/2017/p5
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 112916 of NuminaMath 1.5 to this record, but they are two problems: the row part (2) is for every odd positive integer m, the record part (b) is for every positive integer m. The agent removed the row from the record, and row 112916 is now its own loose record.'

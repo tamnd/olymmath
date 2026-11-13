@@ -1,0 +1,8 @@
+id: a20294f56bf6
+kind: match
+records:
+    - ill/1990/p73
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 114115 of NuminaMath 1.5 the loose record PM0W3RQ2MB. The text names this competition and its year (or its number in the series), and it is the same problem as this record (f on Q, f(1+x+...+x^n)=1, the row drops condition (iii) and f(x)!=1). The text of the row has a slip or a lost part, so the agent did not add it as a statement. The agent removed the loose record and listed the row in registers/loose-removed.tsv.'

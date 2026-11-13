@@ -1,0 +1,8 @@
+id: 6d265963bd50
+kind: match
+records:
+    - cn-mo/1989/p5
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record VBG5CJ9S11 a new record, but the agent found that it is cn-mo/1989/p5: the text names this competition and its year (or its number in the series), and the two texts state the same problem (1989 points in 30 groups, maximize triangles). The agent moved the row to a second statement of cn-mo/1989/p5 and removed the loose record.'

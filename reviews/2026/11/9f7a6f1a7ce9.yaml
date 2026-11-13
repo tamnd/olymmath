@@ -1,0 +1,8 @@
+id: 9f7a6f1a7ce9
+kind: match
+records:
+    - imo/1993/p1
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record R58Q4S301T a new record, but the agent found that it is imo/1993/p1: the text names this competition and its year (or its number in the series), and the two texts state the same problem (x^n+5x^(n-1)+3 irreducible). The agent moved the row to a second statement of imo/1993/p1 and removed the loose record.'

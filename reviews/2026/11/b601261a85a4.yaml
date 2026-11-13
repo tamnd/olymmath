@@ -1,0 +1,9 @@
+id: b601261a85a4
+kind: pair
+records:
+    - 49N7VVECVC
+    - it-cesenatico/2015/p4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 119632 of NuminaMath 1.5 to this record, but they are two problems: the row: real a, b, find the value of a+b, the record: find all integer pairs (a, b). The agent removed the row from the record, and row 119632 is now its own loose record.'

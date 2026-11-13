@@ -1,0 +1,8 @@
+id: 970da83adbff
+kind: match
+records:
+    - usamo/2003/p2
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 116092 of NuminaMath 1.5 the loose record T5BBA7J4AD. The text names this competition and its year (or its number in the series), and it states the same problem as this record (convex polygon rational diagonals dissection). The record already has a statement from this source, so the agent removed the loose record and listed the row in registers/loose-removed.tsv.'

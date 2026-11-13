@@ -1,0 +1,9 @@
+id: ccd77b960762
+kind: pair
+records:
+    - K5GB1ZWVEQ
+    - th-tmo/2007/p17
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 108877 of NuminaMath 1.5 to this record, but they are two problems: the row asks for all integers n (negatives included), the record asks for the product of the positive integers n. The agent removed the row from the record, and row 108877 is now its own loose record.'

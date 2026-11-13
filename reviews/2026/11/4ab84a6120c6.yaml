@@ -1,0 +1,8 @@
+id: 4ab84a6120c6
+kind: match
+records:
+    - ill/1982/p51
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 117594 of NuminaMath 1.5 to this record, but a condition and an exponent are garbled, so the row is not a clear problem of its own. The agent took the row out and listed it in registers/loose-removed.tsv.'

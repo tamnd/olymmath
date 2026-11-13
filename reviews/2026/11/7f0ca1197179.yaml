@@ -1,0 +1,9 @@
+id: 7f0ca1197179
+kind: pair
+records:
+    - 84EM6N0TTC
+    - gaic-math/2024/p40
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 111989 of NuminaMath 1.5 to this record, but they are two problems: the row has an extra part (1) prove p(n) <= n and asks for all n, the record asks only for the sum of all n with 10p(n)=n^2+4n-2005. The agent removed the row from the record, and row 111989 is now its own loose record.'

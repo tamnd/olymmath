@@ -1,0 +1,8 @@
+id: c43911e2d46b
+kind: match
+records:
+    - balkan/1999/p2
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 118859 of NuminaMath 1.5 the loose record B82M5XZKAX. The text names this competition and its year (or its number in the series), and it is the same problem as this record (p = 2 mod 3, y^2-x^3-1 multiples of p (the row has solution and garbled 3|(p-2))). The text of the row has a slip or a lost part, so the agent did not add it as a statement. The agent removed the loose record and listed the row in registers/loose-removed.tsv.'

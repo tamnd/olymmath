@@ -1,0 +1,9 @@
+id: ec33c565d023
+kind: pair
+records:
+    - RVTQC54VBJ
+    - ill/1988/p45
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 109371 of NuminaMath 1.5 to this record, but they are two problems: recurrence differs: the row g(n+2)=g(n)+g(n+1), the record g(n+2)=g(n)+g(n+1)+1. The agent removed the row from the record, and row 109371 is now its own loose record.'

@@ -1,0 +1,19 @@
+---
+tag: 5CF7FMQPYH
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=117806
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Now use $m$ colors to paint the $n$ sides of a regular $n$-sided polygon, with each side painted one color. Find the number $N$ of II-type patterns of the colored regular $n$-sided polygon.

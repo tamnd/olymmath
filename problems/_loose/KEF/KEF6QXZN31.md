@@ -1,0 +1,23 @@
+---
+tag: KEF6QXZN31
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=119542
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Prove the following identities:
+(1) $1+2+\cdots+n=\frac{1}{2} n(n+1)$;
+(2) $1 \cdot 2+2 \cdot 3+\cdots+n(n+1)=\frac{1}{3} n(n+1)(n+2)$;
+(3) $1^{2}+2^{2}+\cdots+n^{2}=\frac{1}{6} n(n+1)(2 n+1)$;
+(4) $1^{3}+2^{3}+\cdots+n^{3}=\frac{1}{4} n^{2}(n+1)^{2}$.

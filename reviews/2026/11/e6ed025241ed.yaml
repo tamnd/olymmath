@@ -1,0 +1,8 @@
+id: e6ed025241ed
+kind: match
+records:
+    - isl/1994/g1
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 112956 of NuminaMath 1.5 the loose record BR5MDRHBKD. The text names this competition and its year (or its number in the series), and it is the same problem as this record (semicircle tangents, EF bisects CFD, the row omits that F is the foot from E). The text of the row has a slip or a lost part, so the agent did not add it as a statement. The agent removed the loose record and listed the row in registers/loose-removed.tsv.'

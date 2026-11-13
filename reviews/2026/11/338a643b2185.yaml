@@ -1,0 +1,8 @@
+id: 338a643b2185
+kind: sample
+records:
+    - NY94BWNXSM
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text is a definition (star-shaped), not a problem. The agent removed the record and listed the row in registers/loose-removed.tsv.'

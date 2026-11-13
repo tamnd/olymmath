@@ -1,0 +1,19 @@
+---
+tag: J8AS64NJR8
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=108677
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Let $k$ be an integer, $M_{k}=\left\{m \mid 2 k^{2}+k \leqslant m \leqslant 2 k^{2}+3 k, m \in \mathbf{Z}\right\}$ Is it possible to divide $M_{k}$ into two subsets $A$ and $B$, such that $\sum_{x \in A} x^{2}=\sum_{x \in B} x^{2}$.

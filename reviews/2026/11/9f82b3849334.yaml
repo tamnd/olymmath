@@ -1,0 +1,9 @@
+id: 9f82b3849334
+kind: pair
+records:
+    - 1BSGPF6FR8
+    - E59XPGJ9QP
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 44503 of NuminaMath 1.5 to this record, but they are two problems: the row asks when a cylinder can be inscribed in a right prism, the record when a prism can be inscribed in a sphere. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 44503 is now in its own loose record.'

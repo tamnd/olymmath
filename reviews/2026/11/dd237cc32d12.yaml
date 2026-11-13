@@ -1,0 +1,8 @@
+id: dd237cc32d12
+kind: match
+records:
+    - imo/2002/p2
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record TWJR3MCW3Y a new record, but the agent found that it is imo/2002/p2: the text names this competition and its year (or its number in the series), and the two texts state the same problem (i is incenter of CEF). The agent moved the row to a second statement of imo/2002/p2 and removed the loose record.'

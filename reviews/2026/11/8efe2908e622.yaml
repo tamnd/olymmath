@@ -1,0 +1,8 @@
+id: 8efe2908e622
+kind: match
+records:
+    - ahsme/1973/p18
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 109455 of NuminaMath 1.5 the loose record DWFV9RJ51V. The text names this competition and its year (or its number in the series), and it states the same problem as this record (24 divides p^2-1). The record already has a statement from this source, so the agent removed the loose record and listed the row in registers/loose-removed.tsv.'

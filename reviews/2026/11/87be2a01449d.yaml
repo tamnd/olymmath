@@ -1,0 +1,8 @@
+id: 87be2a01449d
+kind: match
+records:
+    - ill/1985/p18
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record 1F2HSRBZR9 a new record, but the agent found that it is ill/1985/p18: the text names this competition and its year (or its number in the series), and the two texts state the same problem (tangent circles, BC=6DE, arithmetic sides and AB=2AC). The agent moved the row to a second statement of ill/1985/p18 and removed the loose record.'

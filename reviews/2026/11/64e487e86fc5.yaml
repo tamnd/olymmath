@@ -1,0 +1,8 @@
+id: 64e487e86fc5
+kind: match
+records:
+    - cn-gmo/2004/p7
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 114662 of NuminaMath 1.5 to this record, but the start of the problem is lost: the text starts in the middle of a sentence, so the row is not a clear problem of its own. The agent took the row out and listed it in registers/loose-removed.tsv.'

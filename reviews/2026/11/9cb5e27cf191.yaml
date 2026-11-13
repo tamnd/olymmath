@@ -1,0 +1,8 @@
+id: 9cb5e27cf191
+kind: match
+records:
+    - C4XR16R1Q8
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 118534 was joined into this record, which holds row 108811. The two rows ask for the same least k among 1, ..., 99 with the same choices; only the wording differs.'

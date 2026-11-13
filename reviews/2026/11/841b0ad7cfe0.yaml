@@ -1,0 +1,8 @@
+id: 841b0ad7cfe0
+kind: match
+records:
+    - isl/2006/n3
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record DF34ANJTVE a new record, but the agent found that it is isl/2006/n3: the text names this competition and its year (or its number in the series), and the two texts state the same problem (f(n) average of floors, increases and decreases infinitely often). The agent moved the row to a second statement of isl/2006/n3 and removed the loose record.'

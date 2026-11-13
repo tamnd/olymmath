@@ -1,0 +1,8 @@
+id: 48220d0c4edd
+kind: match
+records:
+    - putnam/1983/b4
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record V2R8X5BG08 a new record, but the agent found that it is putnam/1983/b4: the text names this competition and its year (or its number in the series), and the two texts state the same problem (f(n)=n+floor(sqrt n) iterates hit a square). The agent moved the row to a second statement of putnam/1983/b4 and removed the loose record.'

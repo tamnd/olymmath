@@ -1,0 +1,21 @@
+---
+tag: 154YGAXKW1
+kind: problem
+type: answer
+answer: "0"
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=117916
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Let $a, b, c$ satisfy $a+b+c=a^{3}+b^{3}+c^{3}=0, n$ be any real number, then $a^{2 n+1}+b^{2 n+1}+c^{2 n+1}=$

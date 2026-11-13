@@ -1,0 +1,9 @@
+id: bfe366e2a10a
+kind: pair
+records:
+    - K1H8W5ZVMC
+    - P1MHP18W9C
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 112593 of NuminaMath 1.5 into this record, but they are two problems: the row requires f to be a positive function, the other row drops the positivity condition. Row 112593 is now its own loose record.'

@@ -1,0 +1,9 @@
+id: 70dcb939dd25
+kind: pair
+records:
+    - PE3VREAJ2V
+    - pumac/2009/na4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 112950 of NuminaMath 1.5 to this record, but they are two problems: the row asks for positive integer solutions (x,y), the record asks for the sum of all integers x with integer y. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 112950 is now in its own loose record.'

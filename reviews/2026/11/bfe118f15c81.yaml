@@ -1,0 +1,9 @@
+id: bfe118f15c81
+kind: pair
+records:
+    - VJP73VMDN1
+    - jbmo/2003/p4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 108512 of NuminaMath 1.5 to this record, but they are two problems: the row first term is (1+x^2)/(1+z^2), the record is (1+x^2)/(1+y+z^2). The record already had a statement from this source, so the row added no statement and the problem was lost. Row 108512 is now in its own loose record.'

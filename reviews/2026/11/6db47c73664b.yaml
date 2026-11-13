@@ -1,0 +1,8 @@
+id: 6db47c73664b
+kind: match
+records:
+    - ill/1988/p63
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record KX44S54QKJ a new record, but the agent found that it is ill/1988/p63: the text names this competition and its year (or its number in the series), and the two texts state the same problem (sum x_i^2 - 4/(4p+1)(sum x_i)^2 = 1). The agent moved the row to a second statement of ill/1988/p63 and removed the loose record.'

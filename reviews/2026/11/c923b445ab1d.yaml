@@ -1,0 +1,8 @@
+id: c923b445ab1d
+kind: match
+records:
+    - isl/1996/g8
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record 1AFP3VPRMH a new record, but the agent found that it is isl/1996/g8: the text names this competition and its year (or its number in the series), and the two texts state the same problem (circumradii R1+R3>R2+R4 iff A+C>B+D). The agent moved the row to a second statement of isl/1996/g8 and removed the loose record.'

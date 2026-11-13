@@ -1,0 +1,8 @@
+id: 3912c1d61c6f
+kind: match
+records:
+    - ahsme/1975/p17
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 121014 of NuminaMath 1.5 the loose record T49Z96D7B7. The text names this competition and its year (or its number in the series), and it states the same problem as this record (train/bus commuting, find x). The record already has a statement from this source, so the agent removed the loose record and listed the row in registers/loose-removed.tsv.'

@@ -1,0 +1,8 @@
+id: 1d2ffbbfdd42
+kind: match
+records:
+    - ahsme/1969/p30
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 99803 of NuminaMath 1.5 the loose record Q7EM2Z6A3V. The text names this competition and its year (or its number in the series), and it states the same problem as this record (isosceles right triangle s=AP^2+BP^2 vs 2CP^2, choices truncated in both). The record already has a statement from this source, so the agent removed the loose record and listed the row in registers/loose-removed.tsv.'

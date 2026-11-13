@@ -1,0 +1,19 @@
+---
+tag: HWAAR4YXS1
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=114015
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Consider the sequence $\left\{x_{n}\right\}$ satisfying $x_{1}=2, x_{n+1}=\left[\frac{3}{2} x_{n}\right], n=1,2, \cdots$, and let $y_{n}=(-1)^{x_{n}}$. Prove that $\left\{y_{n}\right\}$ is not a periodic sequence.

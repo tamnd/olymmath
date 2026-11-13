@@ -1,0 +1,8 @@
+id: 8aa127ceba99
+kind: match
+records:
+    - aime/1992/p11
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 116437 of NuminaMath 1.5 to this record, but the start of the problem is lost: the lines l1 and l2 are never defined, so the row is not a clear problem of its own. The agent took the row out and listed it in registers/loose-removed.tsv.'

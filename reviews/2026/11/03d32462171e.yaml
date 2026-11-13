@@ -1,0 +1,8 @@
+id: 03d32462171e
+kind: match
+records:
+    - 867NKXATJG
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 117988 was joined into this record, which holds row 113302. The two rows ask for the same function f(t), the common area of the regions M and N, with the same four choices; only the wording differs.'

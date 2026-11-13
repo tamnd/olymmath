@@ -1,0 +1,8 @@
+id: b8c335464bce
+kind: match
+records:
+    - APGZWW82WP
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 115367 of NuminaMath 1.5 is linked to this record. The two texts differ: the row has the point A(a, 0) and the record A(-a, 0), which is the same problem by symmetry. It is the same problem, so the link stays.'

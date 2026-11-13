@@ -1,0 +1,8 @@
+id: ddd93a3ca165
+kind: match
+records:
+    - 6AE2S2V8S5
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 39745 and the text of 6AE2S2V8S5 write the formulas in other ways, so the import linked them by the words rule (words 0.85, formulas 1.00). The agent read both texts: they are the same problem with the same data. The record already has a statement from this source, so the row adds no new statement and makes no new record.'

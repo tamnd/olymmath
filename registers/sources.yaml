@@ -2379,3 +2379,19 @@
   wave: 1
   state: active
   notes: Each tournament has an archive page, such as /archives/bmt-2019/, with one row for each round and links to the problems, the answers and the solutions. The papers of 2012 to 2017 have names such as IS2014.pdf, the papers of 2018 have names such as ALSP18.pdf, and the papers from 2019 have names such as algebra-problems.pdf. The robots.txt of berkeley.mt allows all paths and gives no crawl delay (checked on 2026-11-13). The power round and the tiebreakers are not used. om papers berkeley-mt records the papers.
+
+- id: smm
+  name: Union of Mathematicians of Macedonia (СММ)
+  kind: official
+  origin: H1
+  url: https://smm.org.mk/natprevari/natprevari-za-sredno-obrazovanie/
+  access: pdf
+  terms: "The site has no page of terms and gives no licence (read on 2026-11-13). The footer says © 2019, and the papers give no copyright line. Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: the papers of the Macedonian Mathematical Olympiad (ММО) from 2020 to 2026, and the papers of the other secondary school rounds
+  wave: 1
+  state: active
+  notes: "The page of secondary school competitions links one PDF for each round and year under /wp-content/uploads/. For the ММО the file of 2024 holds the problems only, and the other files hold the problems with solutions and the points. The robots.txt of smm.org.mk disallows only /wp-admin/ (checked on 2026-11-13). The old site old.smm.org.mk serves an empty page, so the papers before 2020 are not on the site."

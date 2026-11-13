@@ -6,8 +6,8 @@ appearances:
     primary: true
   - at: tot/2016-spring/sa2
 canonical:
-  statement: S1
-  rule: curated
+  statement: S2
+  rule: official-original
 statements:
   - id: S1
     lang: ru
@@ -17,6 +17,18 @@ statements:
     origin: H2
     zone: Z3
     kind: transcription
+  - id: S2
+    lang: ru
+    source: turgor
+    name: Tournament of Towns 2016-spring official paper
+    url: https://turgor.ru/problems/37/vs-37-sl-avt.pdf
+    page: 1
+    origin: H1
+    zone: Z2
+    kind: official
+    extraction: vision/claude@2.1.322 (claude-opus-5-5)
+    confidence: 0.9
 status:
-  statement: sourced
+  statement: captured
 ---
+Дан квадрат со стороной 10. Разрежьте его на 100 равных четырехугольников, каждый из которых вписан в окружность диаметра $\sqrt{3}$.

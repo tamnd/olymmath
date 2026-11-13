@@ -3211,9 +3211,11 @@
   first_year: 2004
   per_year: 10
   # Agent decision, not a person's review: the early olympiads had more problems. The AoPS wiki numbers 21 problems in 2004 and 2005 (for example "2004 Thailand MO day 1 p21"), 18 in 2006 and 2007, and 12 in 2011 to 2013 (for example "Thailand MO 2013 p12"), and the content has the same positions.
+  # Agent decision, not a person's review: from 2004 to 2010 the AoPS wiki also has a second day of six problems that it numbers from 1, as in "Thailand MO 2004 day 2 p1    1st POSN MO", next to the problems of day 1, as in "2004 Thailand MO day 1 p1". Day 1 has 21 problems in 2004 and 2005, 18 in 2006 and 2007, and 10 from 2008 to 2010. All the records of these years before this change are problems of day 1 at the position of their number in day 1. The problems of day 2 follow on after day 1, so problem N of day 2 of 2004 is at p(21+N).
   eras:
-    - {from: 2004, to: 2005, per_year: 21}
-    - {from: 2006, to: 2007, per_year: 18}
+    - {from: 2004, to: 2005, per_year: 27, layout: [{paper: day1, name: Day 1, positions: [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18, p19, p20, p21]}, {paper: day2, name: Day 2, positions: [p22, p23, p24, p25, p26, p27]}]}
+    - {from: 2006, to: 2007, per_year: 24, layout: [{paper: day1, name: Day 1, positions: [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18]}, {paper: day2, name: Day 2, positions: [p19, p20, p21, p22, p23, p24]}]}
+    - {from: 2008, to: 2010, per_year: 16, layout: [{paper: day1, name: Day 1, positions: [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10]}, {paper: day2, name: Day 2, positions: [p11, p12, p13, p14, p15, p16]}]}
     - {from: 2011, to: 2013, per_year: 12}
   languages: [th]
   sources: [hf-mathnet]

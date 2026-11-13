@@ -1,0 +1,8 @@
+id: 87ecd3ee33ce
+kind: match
+records:
+    - EQQD5DAJR3
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 100434 was joined into this record, which holds row 94626. The two rows ask for the same parabola through (1, 0) and (4, 0) and tangent to y = 2x; only the end of the sentence differs.'

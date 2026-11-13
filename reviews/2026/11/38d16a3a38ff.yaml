@@ -1,0 +1,8 @@
+id: 38d16a3a38ff
+kind: match
+records:
+    - bg-mo/1984/p1
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 78678 (E 0.888, T 0.259, keyword match 0.776) and the text of bg-mo/1984/p1 state the same problem with the same data and the same question.  The record already has a statement from this source, so the row adds no new statement and makes no new record.'

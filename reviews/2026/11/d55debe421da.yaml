@@ -1,0 +1,8 @@
+id: d55debe421da
+kind: match
+records:
+    - P08AYPD85T
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made this record from row 94768 of NuminaMath 1.5 and joined another row to it. Both rows are a question whose shapes to choose from are in a missing figure. The agent removed the record and listed the row in registers/loose-removed.tsv.'

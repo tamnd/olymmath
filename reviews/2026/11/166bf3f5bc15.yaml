@@ -1,0 +1,9 @@
+id: 166bf3f5bc15
+kind: pair
+records:
+    - A62JFTXR6S
+    - gaic-math/2024/p32
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 108047 of NuminaMath 1.5 to this record, but they are two problems: the row: cubic has two natural-number roots, the record: all three roots natural. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 108047 is now in its own loose record.'

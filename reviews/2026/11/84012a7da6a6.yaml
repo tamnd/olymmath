@@ -1,0 +1,9 @@
+id: 84012a7da6a6
+kind: pair
+records:
+    - YG2A36RM4C
+    - KRYAN2VST8
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 57394 of NuminaMath 1.5 to this record, but they are two problems: the row asks to prove at least 1000 nines in a_10, the record asks for more than 1000 nines. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 57394 is now in its own loose record.'

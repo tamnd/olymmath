@@ -1,0 +1,9 @@
+id: f32ce8bd797a
+kind: pair
+records:
+    - BB3CYJW80X
+    - ua-umo/2005/p96
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 98163 of NuminaMath 1.5 to this record, but they are two problems: the row asks to compute the sum, the record asks to prove the sum is < 1/2. The agent removed the row from the record, and row 98163 is now its own loose record.'

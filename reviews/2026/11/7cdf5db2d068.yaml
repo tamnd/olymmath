@@ -1,0 +1,9 @@
+id: 7cdf5db2d068
+kind: pair
+records:
+    - 3XX3B8AMEX
+    - PGNE6MZJ4H
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 96561 of NuminaMath 1.5 to this record, but they are two problems: the row says 6 roses and 3 carnations cost less than 24 yuan, the record says more than 24 yuan. The agent removed the row from the record, and row 96561 is now its own loose record.'

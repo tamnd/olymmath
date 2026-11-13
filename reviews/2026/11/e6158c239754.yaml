@@ -1,0 +1,8 @@
+id: e6158c239754
+kind: sample
+records:
+    - KQ2VRED5SJ
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text names its position, the 2003 US olympiad, and it is the text of usamo/2003/p3 (the sequences t(A)). The agent moved the row to a statement of usamo/2003/p3 and removed the loose record.'

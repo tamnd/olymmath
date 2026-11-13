@@ -1,0 +1,9 @@
+id: c513a4aae7d9
+kind: pair
+records:
+    - WJ9PJJFJ6T
+    - cn-mo/1992/p1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 106796 of NuminaMath 1.5 to this record, but they are two problems: the row assumes |lambda| >= 1, the record assumes |lambda| > 1. The agent removed the row from the record, and row 106796 is now its own loose record.'

@@ -1,0 +1,8 @@
+id: 4430625964c0
+kind: match
+records:
+    - NF7FHYK0Y4
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 15072 and the text of NF7FHYK0Y4 write the formulas in other ways, so the import linked them by the words rule (words 0.93, formulas 1.00). The agent read both texts: they are the same problem with the same data. The record already has a statement from this source, so the row adds no new statement and makes no new record.'

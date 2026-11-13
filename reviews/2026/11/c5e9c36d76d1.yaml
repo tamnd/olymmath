@@ -1,0 +1,8 @@
+id: c5e9c36d76d1
+kind: match
+records:
+    - ahsme/1968/p27
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 97206 of NuminaMath 1.5 is linked to this record. The two texts differ: two of the answer choices differ, but the sum and its value (1, choice B) are the same. It is the same problem, so the link stays.'

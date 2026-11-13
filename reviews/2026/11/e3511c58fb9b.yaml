@@ -1,0 +1,9 @@
+id: e3511c58fb9b
+kind: pair
+records:
+    - YHR8HYTVBJ
+    - G5T624K4SS
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 97882 of NuminaMath 1.5 to this record, but they are two problems: the row asks to prove there are no positive integer solutions of x^4+y^2=z^4, the record asks to find all integer solutions. The agent removed the row from the record, and row 97882 is now its own loose record.'

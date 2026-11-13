@@ -1,0 +1,8 @@
+id: d6529275ca01
+kind: match
+records:
+    - putnam/1955/a6
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 96879 of NuminaMath 1.5 is linked to this record. The two texts differ: the row asks for integer solutions, the record for a rational root, which by the rational root theorem is the same question. It is the same problem, so the link stays.'

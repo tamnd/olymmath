@@ -1,0 +1,25 @@
+---
+tag: 4DRASERAWV
+kind: problem
+type: answer
+answer: "2"
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=104629
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Let the maximum value of the function $f(x)=\sqrt{2-x}+\sqrt{3 x+12}$ be $M$, and the minimum value be $m$. Then the value of $\frac{M}{m}$ is ( ).
+(A) $\frac{\sqrt{6}}{2}$
+(B) $\sqrt{2}$
+(C) $\sqrt{3}$
+(D) 2

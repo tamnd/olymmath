@@ -1,0 +1,9 @@
+id: c7a294775513
+kind: pair
+records:
+    - D7ETB0A39A
+    - ru-moscow/1998/p81
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 90562 of NuminaMath 1.5 to this record, but they are two problems: the row adds a second question (largest n with 28x+30y+31z=n unsolvable in positive integers), the record asks only about n=365. The agent removed the row from the record, and row 90562 is now its own loose record.'

@@ -1,0 +1,8 @@
+id: 3285ac7cec9b
+kind: match
+records:
+    - usamo/1998/p5
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record YHQRF1FFD5 a new record, but the agent found that it is usamo/1998/p5: the text names this competition and its year (or its number in the series), and the two texts state the same problem; only the wording or the translation differs. The agent moved the row to a second statement of usamo/1998/p5 and removed the loose record.'

@@ -1,0 +1,9 @@
+id: 7150eb2b9568
+kind: pair
+records:
+    - NZH2T96J85
+    - AWRGW4XG6V
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 81828 of NuminaMath 1.5 to this record, but they are two problems: the row equation is f(f(x)+f(y))=f(f(x))+y, the record equation is f(x+f(y))=f(x)+y. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 81828 is now in its own loose record.'

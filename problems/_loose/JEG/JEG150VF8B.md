@@ -1,0 +1,21 @@
+---
+tag: JEG150VF8B
+kind: problem
+type: answer
+answer: \frac{7395}{112504}
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=105893
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Calculate: $\frac{145}{273} \times 2 \frac{173}{245} \div 21 \frac{13}{15}=$

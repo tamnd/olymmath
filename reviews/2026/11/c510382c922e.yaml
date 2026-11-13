@@ -1,0 +1,9 @@
+id: c510382c922e
+kind: pair
+records:
+    - K7QX5TMCZE
+    - MRYQVY0QD5
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 84165 of NuminaMath 1.5 to this record, but they are two problems: the row is f(x+y)=f(x)-f(y) for all functions, the record is continuous f with f(x+y)=f(x)f(y). The record already had a statement from this source, so the row added no statement and the problem was lost. Row 84165 is now in its own loose record.'

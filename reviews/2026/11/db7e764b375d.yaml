@@ -1,0 +1,9 @@
+id: db7e764b375d
+kind: pair
+records:
+    - A35P06F9W3
+    - 2620PHSPH8
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 66974 of NuminaMath 1.5 to this record, but they are two problems: the row states r+R <= h for a non-obtuse triangle (right triangles allowed), the record only for an acute-angled triangle. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 66974 is now in its own loose record.'

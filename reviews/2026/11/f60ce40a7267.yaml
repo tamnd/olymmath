@@ -1,0 +1,9 @@
+id: f60ce40a7267
+kind: pair
+records:
+    - WCAA29SFZF
+    - V31DC23Q6M
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 88290 of NuminaMath 1.5 to this record, but they are two problems: the row takes a and b real numbers greater than 1, the record takes natural numbers greater than 1. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 88290 is now in its own loose record.'

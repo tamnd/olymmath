@@ -1,0 +1,9 @@
+id: 1b6d8d8952c7
+kind: pair
+records:
+    - GGMSXZH1ZG
+    - R4VTRV32VF
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 102946 of NuminaMath 1.5 to this record, but they are two problems: the row asks how many different values the expression takes, the record asks for its maximum and minimum values. The agent removed the row from the record, and row 102946 is now its own loose record.'

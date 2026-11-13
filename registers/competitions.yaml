@@ -2411,11 +2411,19 @@
   group: national
   level: high-school
   country: SE
+  url: https://www.mattetavling.se/finaluppgifter
   edition_form: year
   per_year: 6
+  # Agent decision, not a person's review: the finals of 1962, 1964, 1965, 1966 and 1968 had five problems. The papers of these years at https://www.math.chalmers.se/~sam/ (final62.pdf and the others) have problems 1 to 5 only, and Kalva has the same five.
+  overrides:
+    1962: [p1, p2, p3, p4, p5]
+    1964: [p1, p2, p3, p4, p5]
+    1965: [p1, p2, p3, p4, p5]
+    1966: [p1, p2, p3, p4, p5]
+    1968: [p1, p2, p3, p4, p5]
   languages: [sv]
-  sources: [kalva]
-  description: The national olympiad of Sweden.
+  sources: [mattetavling, kalva]
+  description: The national olympiad of Sweden. Its final has six problems in five hours. Svenska matematikersamfundet has the paper of the final for each year from 2006.
 
 - code: fi-mo
   name: Finnish national mathematics olympiad

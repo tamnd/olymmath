@@ -1,0 +1,9 @@
+id: 7036fd022e47
+kind: pair
+records:
+    - 2FMDFBXS7C
+    - austrian-polish/1985/p1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 162025 of NuminaMath 1.5 to this record, but they are two problems: the row asks to find the value of the product, the record asks to prove it equals 9. The agent removed the row from the record, and row 162025 is now its own loose record.'

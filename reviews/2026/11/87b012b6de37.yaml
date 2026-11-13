@@ -1,0 +1,9 @@
+id: 87b012b6de37
+kind: pair
+records:
+    - DCZ2KS5KE0
+    - GRYJV9P7SH
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 153929 of NuminaMath 1.5 to this record, but they are two problems: row asks to prove the least such number is odd, record asks to find it. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 153929 is now in its own loose record.'

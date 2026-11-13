@@ -1,0 +1,8 @@
+id: 3636f09f6c11
+kind: match
+records:
+    - cn-mo/2012/p4
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record E7S23Y31D3 a new record, but the agent found that it is cn-mo/2012/p4: The text names this competition and its year (or its number in the series), and the two texts state the same problem (maximum of sum of min f(x_i), f(x_j) with f=(x+a)(x+b)). The agent moved the row to a second statement of cn-mo/2012/p4 and removed the loose record.'

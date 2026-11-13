@@ -1,0 +1,9 @@
+id: 460f789bb9ee
+kind: pair
+records:
+    - JHPFSHVCG6
+    - NYNJZ88K72
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 80828 of NuminaMath 1.5 to this record, but they are two problems: the row puts P on the minor arc AB, the record on the arc AB not containing C (these differ when angle C is obtuse). The record already had a statement from this source, so the row added no statement and the problem was lost. Row 80828 is now in its own loose record.'

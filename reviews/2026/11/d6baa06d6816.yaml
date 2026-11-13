@@ -1,0 +1,8 @@
+id: d6baa06d6816
+kind: match
+records:
+    - cn-mo/1993/p1
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 123625 of NuminaMath 1.5 to this record, but the row is not a clear copy: term garbled as b_i+b_i+k instead of b_i+b_{i+k}. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

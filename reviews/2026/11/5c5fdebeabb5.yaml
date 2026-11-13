@@ -1,0 +1,9 @@
+id: 5c5fdebeabb5
+kind: pair
+records:
+    - WR0TQXPC2C
+    - at-oemo-fed1/2011/p1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 162128 of NuminaMath 1.5 to this record, but they are two problems: the row solves in natural numbers, the record asks for all integer triples. The agent removed the row from the record, and row 162128 is now its own loose record.'

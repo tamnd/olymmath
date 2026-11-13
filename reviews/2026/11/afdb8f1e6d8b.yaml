@@ -1,0 +1,8 @@
+id: afdb8f1e6d8b
+kind: match
+records:
+    - hmnt/2008/u1
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 151039 (E 1.000, T 0.870, keyword match 0.815) and the text of hmnt/2008/u1 state the same problem with the same data and the same question. The row became a second statement of the record.'

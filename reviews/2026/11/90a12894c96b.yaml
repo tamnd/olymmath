@@ -1,0 +1,8 @@
+id: 90a12894c96b
+kind: match
+records:
+    - isl/2003/g4
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 145407 of NuminaMath 1.5 the loose record PSP6Q0QW45. The text names this competition and its year (or its number in the series), and it states the same problem as this record (four circles tangent at P, AB*BC/(AD*DC) = PB^2/PD^2). The record already has a statement from this source, so the agent removed the loose record and listed the row in registers/loose-removed.tsv.'

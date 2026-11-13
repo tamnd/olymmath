@@ -1,0 +1,8 @@
+id: 7a7653485ba7
+kind: match
+records:
+    - putnam/1966/b2
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record 71PCEQN1ZT a new record, but the agent found that it is putnam/1966/b2: The text names this competition and its year (or its number in the series), and the two texts state the same problem (ten consecutive integers, one coprime to the other nine). The agent moved the row to a second statement of putnam/1966/b2 and removed the loose record.'

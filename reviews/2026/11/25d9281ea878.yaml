@@ -1,0 +1,9 @@
+id: 25d9281ea878
+kind: pair
+records:
+    - CBY847YM0R
+    - nl-nwo/1986/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 134284 of NuminaMath 1.5 to this record, but they are two problems: row left side starts with 1/(1*2), record with 1/(2*3). The record already had a statement from this source, so the row added no statement and the problem was lost. Row 134284 is now in its own loose record.'

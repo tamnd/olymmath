@@ -1,0 +1,8 @@
+id: 2f64f16b270c
+kind: match
+records:
+    - isl/2019/g5
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 159894 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row prints CD=DE and the area equality with - instead of =. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

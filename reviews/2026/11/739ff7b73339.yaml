@@ -1,0 +1,8 @@
+id: 739ff7b73339
+kind: match
+records:
+    - DSP3KSWJTX
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 158465 of NuminaMath 1.5 into this record, which holds row 158351, but the row lost its start, the definition of s(n) as the greatest integer is missing. The row is not a clear problem, so the record keeps only row 158351. The agent listed row 158465 in registers/loose-removed.tsv.'

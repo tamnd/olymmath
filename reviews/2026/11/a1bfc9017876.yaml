@@ -1,0 +1,9 @@
+id: a1bfc9017876
+kind: pair
+records:
+    - Z7HE9HMGM4
+    - putnam/1948/b3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 135461 of NuminaMath 1.5 to this record, but they are two problems: row also claims equality with [sqrt(4n+1)] and [sqrt(4n+3)], record only with [sqrt(4n+2)]. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 135461 is now in its own loose record.'

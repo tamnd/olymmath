@@ -1,0 +1,8 @@
+id: 6d88cbbd5148
+kind: match
+records:
+    - 5TVMEVK447
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 114563 of NuminaMath 1.5 to this record, but the row is not a clear copy: the divisibility symbol is garbled (5 \ a_n), so the claim that 5 does not divide a_n is lost. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

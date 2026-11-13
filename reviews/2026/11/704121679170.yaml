@@ -1,0 +1,8 @@
+id: 704121679170
+kind: match
+records:
+    - KDFJWTJ3D7
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 122983 of NuminaMath 1.5 to this record, but the row is not a clear copy: choice D in the row is garbled (12 over a symbol instead of 12/5). The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

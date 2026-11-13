@@ -1,0 +1,8 @@
+id: e5c08f0dc37d
+kind: match
+records:
+    - aime/1987/p11
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record QNS2P8WA63 a new record, but the agent found that it is aime/1987/p11: The text names this competition and its year (or its number in the series), and the two texts state the same problem (largest k with 3^11 a sum of k consecutive positive integers). The agent moved the row to a second statement of aime/1987/p11 and removed the loose record.'

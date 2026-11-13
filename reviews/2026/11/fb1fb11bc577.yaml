@@ -1,0 +1,8 @@
+id: fb1fb11bc577
+kind: match
+records:
+    - hmmt/2005/u17
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 152333 of NuminaMath 1.5 to this record, but the row is not a clear copy: row lost the outer root of the nested radical and reads as 2 times the inner expression. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

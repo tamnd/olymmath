@@ -1,0 +1,9 @@
+id: d18af725e8bc
+kind: pair
+records:
+    - 5JHM587SN9
+    - rs-smo/2009/p1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 161080 of NuminaMath 1.5 to this record, but they are two problems: the row says the triangle is isosceles, the record says scalene. The agent removed the row from the record, and row 161080 is now its own loose record.'

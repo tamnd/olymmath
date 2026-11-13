@@ -1,0 +1,9 @@
+id: 3abb5e575145
+kind: pair
+records:
+    - hmmt/2010/f6
+    - hmmt/2010/f4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 151199 of NuminaMath 1.5 to this record, but they are two problems: the record''s main text is the half-disk union problem (same as hmmt/2010/g3), the row''s trapezoid problem matches only the record''s S2. The record already had a statement from this source, so the row added no statement and the problem was lost. The audit then found that the row is the problem of hmmt/2010/f6, so the agent moved row 151199 to hmmt/2010/f6 as a new statement.'

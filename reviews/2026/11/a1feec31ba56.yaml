@@ -1,0 +1,8 @@
+id: a1feec31ba56
+kind: match
+records:
+    - 1QC5864Z37
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 144308 was joined into this record, which holds row 142642. The two rows state the same condition for the two inequalities in cos and sin of theta_1 to theta_4; only the wording differs.'

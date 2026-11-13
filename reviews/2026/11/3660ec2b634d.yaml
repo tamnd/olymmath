@@ -1,0 +1,8 @@
+id: 3660ec2b634d
+kind: match
+records:
+    - 5KPKF8EAB1
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 158464 of NuminaMath 1.5 into this record, which holds row 158349, but the row lost its start (the circle C and tangent line l are missing), it begins mid sentence with "to C". The row is not a clear problem, so the record keeps only row 158349. The agent listed row 158464 in registers/loose-removed.tsv.'

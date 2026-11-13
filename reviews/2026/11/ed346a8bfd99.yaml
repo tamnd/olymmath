@@ -1,0 +1,8 @@
+id: ed346a8bfd99
+kind: match
+records:
+    - imo/2000/p6
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 144467 of NuminaMath 1.5 the loose record D7KKCN2A6Y. The text names this competition and its year (or its number in the series), and it is the problem of this record, but the row has a slip or a lost part (reflections of orthic triangle sides in incircle contact triangle sides form a triangle with vertices on the incircle, row truncated). The agent removed the loose record and listed the row in registers/loose-removed.tsv, and the record keeps its own texts.'

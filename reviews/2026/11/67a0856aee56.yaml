@@ -1,0 +1,9 @@
+id: 67a0856aee56
+kind: pair
+records:
+    - CJRJR9PYEJ
+    - hu-komal/2019/c1534
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 160885 of NuminaMath 1.5 to this record, but they are two problems: the row asks for the value of x^2+y^2, the record asks for all real pairs (x,y). The agent removed the row from the record, and row 160885 is now its own loose record.'

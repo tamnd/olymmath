@@ -1,0 +1,8 @@
+id: 2b94b3aff7c3
+kind: match
+records:
+    - cn-smo/2007/p3
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 106834 of NuminaMath 1.5 to this record, but the row is not a clear copy: the sum is garbled: S_n^2 and last term [a_n^2] instead of S_{n^2} with terms up to a_{n^2}. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

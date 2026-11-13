@@ -1,0 +1,9 @@
+id: 3a6eab20a035
+kind: pair
+records:
+    - PWYBPZ09A6
+    - 71EP4BMXF8
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 93104 of NuminaMath 1.5 to this record, but they are two problems: the row requires p itself to be prime, the record asks for natural p with only p+10 and p+14 prime. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 93104 is now in its own loose record.'

@@ -1,0 +1,8 @@
+id: e1571b6ca456
+kind: match
+records:
+    - Z26E0D7B2V
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 162475 was joined into this record, which holds row 161524. The two rows state the same problem (P_0(x) = x^3 - 4x, prove that x^2016 divides P_2016(x)).'

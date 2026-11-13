@@ -1,0 +1,9 @@
+id: f720a7ecb482
+kind: pair
+records:
+    - JTE7Q15JYN
+    - hu-komal/2009/a487
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 161986 of NuminaMath 1.5 to this record, but they are two problems: the row has x+y+z=3, the record has xyz>=1. The agent removed the row from the record, and row 161986 is now its own loose record.'

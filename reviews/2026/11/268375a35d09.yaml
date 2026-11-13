@@ -1,0 +1,8 @@
+id: 268375a35d09
+kind: match
+records:
+    - RR6PWXYSYC
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 141938 of NuminaMath 1.5 states the same problem as this record (the smallest natural a for a quadratic trinomial with integer coefficients and two distinct positive roots less than 1), with the same words. The record already has a statement from this source, so the agent removed the loose record MQ2HPWX114 of the row and listed it in registers/loose-removed.tsv.'

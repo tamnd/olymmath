@@ -1,0 +1,8 @@
+id: e8488130da4a
+kind: match
+records:
+    - ahsme/1983/p16
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 146547 of NuminaMath 1.5 the loose record C6ZFC91BG5. The text names this competition and its year (or its number in the series), and it states the same problem as this record (1983rd digit of 0.123...999, same choices). The record already has a statement from this source, so the agent removed the loose record and listed the row in registers/loose-removed.tsv.'

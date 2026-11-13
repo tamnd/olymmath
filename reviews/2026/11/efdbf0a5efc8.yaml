@@ -1,0 +1,9 @@
+id: efdbf0a5efc8
+kind: pair
+records:
+    - C5K392FCYY
+    - ee-mo/2005/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 163195 of NuminaMath 1.5 to this record, but they are two problems: the row goes from 7 dividing a^2+b^2+c^2 to 7 dividing a^4+b^4+c^4, the record states the converse, and the row uses naturals where the record uses integers. The agent removed the row from the record, and row 163195 is now its own loose record.'

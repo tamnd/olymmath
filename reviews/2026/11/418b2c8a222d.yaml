@@ -1,0 +1,9 @@
+id: 418b2c8a222d
+kind: pair
+records:
+    - K3Y9FVZ0V1
+    - 8QPXVZRYM1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 127085 of NuminaMath 1.5 to this record, but they are two problems: second inequality has constant 5k in the row, 5 in the record. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 127085 is now in its own loose record.'

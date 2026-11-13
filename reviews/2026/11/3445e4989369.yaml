@@ -1,0 +1,9 @@
+id: 3445e4989369
+kind: pair
+records:
+    - STGD798Y5P
+    - rmm/2010/p3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 161751 of NuminaMath 1.5 to this record, but they are two problems: the row assumes a convex quadrilateral, the record any quadrilateral with no parallel sides. The agent removed the row from the record, and row 161751 is now its own loose record.'

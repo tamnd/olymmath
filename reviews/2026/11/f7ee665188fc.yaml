@@ -1,0 +1,9 @@
+id: f7ee665188fc
+kind: pair
+records:
+    - 1PVBKYFXF8
+    - BCGCRVXWZF
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 126897 of NuminaMath 1.5 to this record, but they are two problems: row claims one difference exceeds sqrt2/2, record claims one does not exceed it, row condition also garbled (-1 instead of =1). The record already had a statement from this source, so the row added no statement and the problem was lost. Row 126897 is now in its own loose record.'

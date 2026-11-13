@@ -1,0 +1,9 @@
+id: 1d45cd5f79b9
+kind: pair
+records:
+    - 2ZCGWEW6TT
+    - usamo/1997/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 157145 of NuminaMath 1.5 to this record, but they are two problems: the row requires D, E, F noncollinear, the record has no such condition. The agent removed the row from the record, and row 157145 is now its own loose record.'

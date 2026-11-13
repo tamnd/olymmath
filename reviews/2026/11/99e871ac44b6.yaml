@@ -1,0 +1,8 @@
+id: 99e871ac44b6
+kind: match
+records:
+    - AXN40NQXQG
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 147266 of NuminaMath 1.5 to this record, but the row is not a clear copy: row question garbled (how many cars should not be added) instead of the maximum number added. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

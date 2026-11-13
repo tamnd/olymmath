@@ -1,0 +1,8 @@
+id: 0cd25bf3a9b1
+kind: match
+records:
+    - cn-wmo/2003/p2
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 101529 of NuminaMath 1.5 to this record, but the row is not a clear copy: sum upper limit miscopied as 2n+1 (record 2n-1), uses undefined terms. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

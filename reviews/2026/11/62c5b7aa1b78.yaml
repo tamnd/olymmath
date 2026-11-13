@@ -1,0 +1,9 @@
+id: 62c5b7aa1b78
+kind: pair
+records:
+    - 7R9GNM7ET8
+    - F8ZVNKXKBY
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 132769 of NuminaMath 1.5 to this record, but they are two problems: the row claims a strict < with log_a 2, the record claims <= with log_2 a. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 132769 is now in its own loose record.'

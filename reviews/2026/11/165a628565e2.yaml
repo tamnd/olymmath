@@ -1,0 +1,9 @@
+id: 165a628565e2
+kind: pair
+records:
+    - QSYWMVF1E0
+    - benelux/2021/p4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 80094 of NuminaMath 1.5 to this record, but they are two problems: the row asks to show p=2 under an assumption (plus bonus), the record asks to determine all primes p. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 80094 is now in its own loose record.'

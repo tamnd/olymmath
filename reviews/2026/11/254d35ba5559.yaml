@@ -1,0 +1,8 @@
+id: 254d35ba5559
+kind: match
+records:
+    - MVM42MD3MH
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 162779 of NuminaMath 1.5 to this record, but the row is not a clear copy: row question garbled, mixes find all m,n with prove m divides n. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

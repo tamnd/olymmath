@@ -1,0 +1,9 @@
+id: 279efc754989
+kind: pair
+records:
+    - hmmt/2003/e9
+    - hmmt/2003/e5
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 152205 of NuminaMath 1.5 to this record, but they are two problems: the record''s main text is the semicircle room area problem, the row''s 2003-gon obtuse triangulation problem matches only the record''s S2. The record already had a statement from this source, so the row added no statement and the problem was lost. The audit then found that the row is the problem of hmmt/2003/e9, so the agent moved row 152193 to hmmt/2003/e9 as a new statement and listed row 152205 in registers/loose-removed.tsv.'

@@ -1,0 +1,8 @@
+id: 91842fd5323e
+kind: match
+records:
+    - 1Q46QQMJR7
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 139138 of NuminaMath 1.5 to this record, but the question of the row is garbled (the volume has the index '': MK''). The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

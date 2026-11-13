@@ -1,0 +1,8 @@
+id: e8cf8c7830a4
+kind: match
+records:
+    - imo/2005/p6
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record H62CN9ZYA2 a new record, but the agent found that it is imo/2005/p6: The text names this competition and its year (or its number in the series), and the two texts state the same problem (6 problems, each pair solved by more than 2/5, at least 2 solved exactly 5). The agent moved the row to a second statement of imo/2005/p6 and removed the loose record.'

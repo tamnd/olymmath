@@ -1,0 +1,8 @@
+id: c0657b1c4629
+kind: match
+records:
+    - putnam/1989/a1
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 142045 of NuminaMath 1.5 the loose record DWEHF4B2PP. The text names this competition and its year (or its number in the series), and it states the same problem as this record (primes formed by alternating 1s and 0s starting and ending with 1). The record already has a statement from this source, so the agent removed the loose record and listed the row in registers/loose-removed.tsv.'

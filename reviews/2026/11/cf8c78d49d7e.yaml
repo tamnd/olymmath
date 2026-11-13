@@ -1,0 +1,8 @@
+id: cf8c78d49d7e
+kind: match
+records:
+    - isl/2019/a7
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 159907 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row prints the functional equation and the set X_v with - instead of =. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

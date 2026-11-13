@@ -1,0 +1,8 @@
+id: 96250563a0d2
+kind: match
+records:
+    - ahsme/1968/p27
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 97206 of NuminaMath 1.5 to this record, but the row is not a clear copy: answer choices garbled: row has C 6 and E 2, record has C 2 and E -2. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

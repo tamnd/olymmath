@@ -1,0 +1,9 @@
+id: ab94b9fe9e39
+kind: pair
+records:
+    - K0T3HGX3VS
+    - Q7NCC4CXHZ
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 160471 of NuminaMath 1.5 to this record, but they are two problems: the row proves the product is >= 1, the record claims strict > 1. The agent removed the row from the record, and row 160471 is now its own loose record.'

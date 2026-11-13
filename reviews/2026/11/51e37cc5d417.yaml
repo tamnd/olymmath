@@ -1,0 +1,8 @@
+id: 51e37cc5d417
+kind: match
+records:
+    - isl/1995/n1
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 119098 of NuminaMath 1.5 to this record, but the row is not a clear copy: quantifier broken: the row fixes both n and k, so n is no longer the free variable and the claim makes no sense. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

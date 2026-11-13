@@ -1,0 +1,8 @@
+id: 395a191867d9
+kind: match
+records:
+    - SSD1740R9X
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 157271 and the text of SSD1740R9X write the formulas in other ways, so the import linked them by the words rule (words 0.96, formulas 0.85). The agent read both texts: they are the same problem with the same data. The row is a second statement of the record.'

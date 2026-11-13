@@ -1,0 +1,8 @@
+id: e62b691fd1d5
+kind: match
+records:
+    - cn-mo/1992/p4
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 101720 of NuminaMath 1.5 to this record, but the row is not a clear copy: condition garbled: the row says O, P, Q coincide pairwise instead of being pairwise distinct. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

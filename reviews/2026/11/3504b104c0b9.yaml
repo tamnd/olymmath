@@ -1,0 +1,8 @@
+id: 3504b104c0b9
+kind: sample
+records:
+    - K2W8BNRGRS
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text is not a clear problem: the circles omega_i are not defined, so the start of the problem is lost. The agent removed the record and listed the row in registers/loose-removed.tsv.'

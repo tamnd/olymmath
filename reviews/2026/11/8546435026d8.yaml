@@ -1,0 +1,9 @@
+id: 8546435026d8
+kind: pair
+records:
+    - 7R3GEB58XG
+    - dk-georgmohr/1995/p4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 153213 of NuminaMath 1.5 to this record, but they are two problems: the row asks for the sum of all real roots, the record asks to solve the equation. The agent removed the row from the record, and row 153213 is now its own loose record.'

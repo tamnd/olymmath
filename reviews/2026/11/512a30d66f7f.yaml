@@ -1,0 +1,8 @@
+id: 512a30d66f7f
+kind: match
+records:
+    - isl/2021/a1
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 159939 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row loses the conditions a<b<c and c+2a>3b. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

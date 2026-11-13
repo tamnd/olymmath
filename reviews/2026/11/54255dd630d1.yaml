@@ -1,0 +1,9 @@
+id: 54255dd630d1
+kind: pair
+records:
+    - 59T0R5HGQ0
+    - imo/1993/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 158467 of NuminaMath 1.5 to this record, but they are two problems: the row has C, D on the same side of AB, the record has D inside an acute triangle ABC. The agent removed the row from the record, and row 158467 is now its own loose record.'

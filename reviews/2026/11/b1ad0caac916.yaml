@@ -1,0 +1,8 @@
+id: b1ad0caac916
+kind: match
+records:
+    - QZ9JQ8YEM3
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 117600 was joined into this record, which holds row 106915. The two rows are the same text (the mean of the sums of the largest and smallest numbers of the subsets of {1, ..., 1000}); one writes alpha_X for a_X.'

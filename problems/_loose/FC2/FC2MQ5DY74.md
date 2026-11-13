@@ -1,0 +1,21 @@
+---
+tag: FC2MQ5DY74
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=162248
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Let $n \geq 2$ be an integer. Elwyn is given an $n \times n$ table filled with real numbers (each cell of the table contains exactly one number). We define a rook set as a set of $n$ cells of the table situated in $n$ distinct rows as well as in $n$ distinct columns. Assume that, for every rook set, the sum of $n$ numbers in the cells forming the set is nonnegative.
+
+By a move, Elwyn chooses a row, a column, and a real number $a$, and then he adds $a$ to each number in the chosen row, and subtracts $a$ from each number in the chosen column (thus, the number at the intersection of the chosen row and column does not change). Prove that Elwyn can perform a sequence of moves so that all numbers in the table become nonnegative.

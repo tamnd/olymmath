@@ -1,0 +1,9 @@
+id: b9a7cf5fd82d
+kind: pair
+records:
+    - T1RWCCFMDD
+    - ill/1989/p61
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 144441 of NuminaMath 1.5 to this record, but they are two problems: the row has k>=1, the record has 0<k<=1. The agent removed the row from the record, and row 144441 is now its own loose record.'

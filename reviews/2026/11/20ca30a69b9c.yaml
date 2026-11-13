@@ -1,0 +1,8 @@
+id: 20ca30a69b9c
+kind: match
+records:
+    - ahsme/1983/p5
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 144062 of NuminaMath 1.5 the loose record 694KBR59N4. The text names this competition and its year (or its number in the series), and it states the same problem as this record (right angle at C, sin A = 2/3, find tan B, same choices). The record already has a statement from this source, so the agent removed the loose record and listed the row in registers/loose-removed.tsv.'

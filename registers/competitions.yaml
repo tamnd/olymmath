@@ -3521,7 +3521,7 @@
   edition_form: year
   per_year: 6
   languages: [fa, en]
-  sources: [aops-collections]
+  sources: [aops-collections, amoozz-ir]
   description: The second round of the Iranian olympiad, with two days of three problems numbered 1 to 6. Its best students go on to the third round (ir-mo). Agent decision, not a person's review, to keep it as its own competition, because the third round numbers the problems of each exam from 1 and the two rounds shared one code.
 
 - code: ir-tst

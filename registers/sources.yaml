@@ -1527,6 +1527,22 @@
   state: active
   notes: "The papers of the final (Gara Nazionale) are listed at https://olimpiadi.dm.unibo.it/le-gare/gara-nazionale/: zip files for 1997 to 2015 and 2018, and PDF files for the other years. Some files hold the solutions with the problems. robots.txt (checked on 2026-11-04) disallows only /wp-admin/, /wp-login.php and /xmlrpc.php."
 
+- id: amoozz-ir
+  name: Zehn-e Ziba olympiad school, papers of the Iranian Mathematical Olympiad
+  kind: curated
+  origin: H2
+  url: https://amoozz.ir/article/310
+  access: pdf
+  terms: "The download pages of amoozz.ir (read on 2026-11-13) give no licence and no copyright notice. The files are copies of the papers of the Young Scholars Club (YSC), and the booklet of 2025 says that all rights to the questions belong to the YSC. No licence is stated. Agent decision, not a person's review: Z2, the spec default for competition statements, so the content holds the statement of each problem with a link to the file."
+  zone:
+    statement: Z2
+    solution: Z3
+  ai_train: unknown
+  size: One PDF for each second round of the Iranian Mathematical Olympiad from 1984 to 2025, most with the solutions
+  wave: 1
+  state: active
+  notes: "The file of the Iranian year YYYY is https://s1.amoozz.ir/olympiad2/riazi2/riazi-YY-m2.pdf with the last two digits up to 1399 and all four digits from 1400, as riazi-91-m2.pdf and riazi-1404-m2.pdf. The exam is in Farvardin or Ordibehesht, so the Iranian year YYYY is the year YYYY+621 of the edition: the 30th olympiad of 1391 is ir-mo-r2/2012. The papers number the six problems of the two days from 1 to 6. The files before 1391 are copies of the book Mathematical Olympiad in Iran with a watermark, and riazi-65-m2.pdf holds the first round, so they are not read yet. The robots.txt of amoozz.ir allows all paths, and s1.amoozz.ir has no robots.txt (checked on 2026-11-13). The official site of the YSC is not used."
+
 - id: rsme-ome
   name: RSME Olimpiada Matemática Española
   kind: official

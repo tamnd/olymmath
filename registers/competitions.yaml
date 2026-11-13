@@ -2702,9 +2702,13 @@
   group: national
   level: high-school
   country: MK
+  url: https://smm.org.mk/natprevari/natprevari-za-sredno-obrazovanie/
   per_year: 5
-  sources: [aops-collections, imogeometry-blog, hf-mathnet]
-  description: The national olympiad of North Macedonia. No primary source has been found yet.
+  overrides:
+    2020: [p1, p2, p3, p4]
+  languages: [mk]
+  sources: [smm, aops-collections, imogeometry-blog, hf-mathnet]
+  description: The national olympiad of North Macedonia (Македонска математичка олимпијада, ММО). The Union of Mathematicians of Macedonia (smm) gives the official papers from 2020. The 27th ММО of 2020 had four problems, as its official paper of solutions shows.
 
 - code: me-mo
   name: Montenegro national mathematics olympiad

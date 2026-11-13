@@ -1,0 +1,8 @@
+id: 9dabd349da5d
+kind: match
+records:
+    - isl/1991/p26
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record E8T57WH2VW a new record, but the agent found that it is isl/1991/p26: the text names this competition and its year (or its number in the series), and the two texts state the same problem (sum b_i A_i <= p/(n-1)^(n-1)). The agent moved the row to a second statement of isl/1991/p26 and removed the loose record.'

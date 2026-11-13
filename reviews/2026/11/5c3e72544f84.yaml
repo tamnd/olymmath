@@ -1,0 +1,9 @@
+id: 5c3e72544f84
+kind: pair
+records:
+    - 6SRPSXQQD4
+    - K6FFZZDCZ3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 117385 of NuminaMath 1.5 to this record, but they are two problems: the row asks positive integer solutions of 3*2^x+1=y^2, the record asks all integer solutions (adds x=0 and negative y). The record already had a statement from this source, so the row added no statement and the problem was lost. Row 117385 is now in its own loose record.'

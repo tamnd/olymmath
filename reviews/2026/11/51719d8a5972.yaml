@@ -1,0 +1,8 @@
+id: 51719d8a5972
+kind: match
+records:
+    - ahsme/1967/p13
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 113185 of NuminaMath 1.5 the loose record GXCSE422BN. The text names this competition and its year (or its number in the series), and it states the same problem as this record (construct triangle from a, B, h_c). The record already has a statement from this source, so the agent removed the loose record and listed the row in registers/loose-removed.tsv.'

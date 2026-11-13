@@ -1,0 +1,9 @@
+id: 750e6cac1bf9
+kind: pair
+records:
+    - QXV24YZVEZ
+    - ill/1987/p14
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 109744 of NuminaMath 1.5 to this record, but they are two problems: the row has factor (1-t_n)^2 and numerators t_k^k, the record has factor (1-t_n^2) and numerators t_k. The agent removed the row from the record, and row 109744 is now its own loose record.'

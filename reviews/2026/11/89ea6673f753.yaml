@@ -1,0 +1,8 @@
+id: 89ea6673f753
+kind: match
+records:
+    - X3F8Y0WC5G
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 89261 (E 0.991, T 0.320, keyword match 0.882) and the text of X3F8Y0WC5G state the same problem with the same data and the same question.  The record already has a statement from this source, so the row adds no new statement and makes no new record.'

@@ -1,0 +1,9 @@
+id: 318ad1a7dd6a
+kind: pair
+records:
+    - BZY6BGMFPX
+    - 609ZJEXGH2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 114801 of NuminaMath 1.5 into this record, but they are two problems: the row relation z1 z2 + conj(A) z1 + A z2 = 0, the other row uses z1 conj(z2) + conj(A) z1 + A conj(z2) = 0. Row 114801 is now its own loose record.'

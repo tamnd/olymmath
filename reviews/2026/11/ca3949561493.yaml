@@ -1,0 +1,8 @@
+id: ca3949561493
+kind: match
+records:
+    - 66E3G489YM
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. This record from an earlier batch lost the definition of a_n (the integer nearest to sqrt n), so only the sum is left. Row 25448 of NuminaMath 1.5 has the complete problem and is now the loose record S5Z6NMV9Y7. The agent removed this record and listed its row in registers/loose-removed.tsv.'

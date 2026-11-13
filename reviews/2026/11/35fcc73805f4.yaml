@@ -1,0 +1,8 @@
+id: 35fcc73805f4
+kind: match
+records:
+    - imo/1962/p1
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record 77V9ZFGKYC a new record, but the agent found that it is imo/1962/p1: the text names this competition and its year (or its number in the series), and the two texts state the same problem (last digit 6 moved to front gives 4n). The agent moved the row to a second statement of imo/1962/p1 and removed the loose record.'

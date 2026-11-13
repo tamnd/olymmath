@@ -1,0 +1,9 @@
+id: 71900367c421
+kind: pair
+records:
+    - PQQFKYP7PR
+    - br-obm/1992/p1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 118395 of NuminaMath 1.5 to this record, but they are two problems: the row asks about the roots of x^3+px+q=0 when p>=0, the record asks to prove p<0 given three distinct real roots. The agent removed the row from the record, and row 118395 is now its own loose record.'

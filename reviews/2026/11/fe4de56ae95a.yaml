@@ -1,0 +1,8 @@
+id: fe4de56ae95a
+kind: match
+records:
+    - ill/1985/p44
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record WBA5F4D3X9 a new record, but the agent found that it is ill/1985/p44: the text names this competition and its year (or its number in the series), and the two texts state the same problem (regular n-gon with lattice vertices). The agent moved the row to a second statement of ill/1985/p44 and removed the loose record.'

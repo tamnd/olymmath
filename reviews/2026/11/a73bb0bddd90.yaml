@@ -1,0 +1,9 @@
+id: a73bb0bddd90
+kind: pair
+records:
+    - X8FK4XHEZQ
+    - pumac/2010/nb5
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 97749 of NuminaMath 1.5 to this record, but they are two problems: different problems: the row proves two of x, y, z are equal from x/y+y/z+z/x=z/y+y/x+x/z, the record has positive integers with x/y+y/z+z/x=2 and asks for the sum of x values. The agent removed the row from the record, and row 97749 is now its own loose record.'

@@ -1,0 +1,8 @@
+id: b75aada7196f
+kind: match
+records:
+    - ahsme/1968/p19
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 119675 of NuminaMath 1.5 the loose record 9FZD8CPF1S. The text names this competition and its year (or its number in the series), and it is the same problem as this record (10 dollars into dimes and quarters, the row drops "at least one of each"). The text of the row has a slip or a lost part, so the agent did not add it as a statement. The agent removed the loose record and listed the row in registers/loose-removed.tsv.'

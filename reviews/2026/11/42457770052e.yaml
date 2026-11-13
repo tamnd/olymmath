@@ -1,0 +1,9 @@
+id: 42457770052e
+kind: pair
+records:
+    - S5Z6NMV9Y7
+    - 66E3G489YM
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 25448 of NuminaMath 1.5 to this record, but they are two problems: the record lost the definition of a_n (integer closest to sqrt n) and keeps only the sum 1/a_1+...+1/a_1980, the row is the full problem. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 25448 is now in its own loose record.'

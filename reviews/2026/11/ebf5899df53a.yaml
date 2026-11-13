@@ -1,0 +1,8 @@
+id: ebf5899df53a
+kind: match
+records:
+    - ahsme/1951/p12
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 118961 of NuminaMath 1.5 the loose record X92JTB3Y8J. The text names this competition and its year (or its number in the series), and it states the same problem as this record (clock angle at 2:15). The record already has a statement from this source, so the agent removed the loose record and listed the row in registers/loose-removed.tsv.'

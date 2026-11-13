@@ -1,0 +1,8 @@
+id: 40a96ead0d2e
+kind: match
+records:
+    - ill/1990/p65
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record GV9A8MTFTB a new record, but the agent found that it is ill/1990/p65: the text names this competition and its year (or its number in the series), and the two texts state the same problem (multiple below k^4 with at most four digits ("10.101" is a label artifact)). The agent moved the row to a second statement of ill/1990/p65 and removed the loose record.'

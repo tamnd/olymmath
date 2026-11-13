@@ -1,0 +1,9 @@
+id: be66f420b677
+kind: pair
+records:
+    - Y8ENSDVFTF
+    - sg-smo/2017/p3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 114642 of NuminaMath 1.5 to this record, but they are two problems: the row requires n >= 2, the record has no such condition, so n=1 gives a trivial answer. The agent removed the row from the record, and row 114642 is now its own loose record.'

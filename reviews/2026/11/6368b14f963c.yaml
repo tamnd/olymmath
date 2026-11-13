@@ -1,0 +1,8 @@
+id: 6368b14f963c
+kind: match
+records:
+    - usamo/1990/p3
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record 9PTCFQ8SEX a new record, but the agent found that it is usamo/1990/p3: the text names this competition and its year (or its number in the series), and the two texts state the same problem (n..n+32 into circles of 14 and 19 with coprime neighbours). The agent moved the row to a second statement of usamo/1990/p3 and removed the loose record.'

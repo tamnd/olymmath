@@ -1,0 +1,8 @@
+id: 6352c235a34f
+kind: match
+records:
+    - ill/1990/p23
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 118822 of NuminaMath 1.5 to this record, but the definition of f_1(k) is lost, so the row is not a clear problem of its own. The agent took the row out and listed it in registers/loose-removed.tsv.'

@@ -1,0 +1,9 @@
+id: 9167d6dd0ff1
+kind: pair
+records:
+    - JKFY50YNHD
+    - gaic-math/2024/p14
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 112153 of NuminaMath 1.5 to this record, but they are two problems: the row requires each q_i prime, the record requires each q_i a prime power. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 112153 is now in its own loose record.'

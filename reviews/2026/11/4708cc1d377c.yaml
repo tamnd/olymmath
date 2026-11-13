@@ -1,0 +1,9 @@
+id: 4708cc1d377c
+kind: pair
+records:
+    - XPK1Z16HPX
+    - md-mo/2002/p112
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 114553 of NuminaMath 1.5 to this record, but they are two problems: lower bound differs: the row n/2, the record n/(2*sqrt(2)). The agent removed the row from the record, and row 114553 is now its own loose record.'

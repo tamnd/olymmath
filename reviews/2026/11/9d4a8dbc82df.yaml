@@ -1,0 +1,8 @@
+id: 9d4a8dbc82df
+kind: match
+records:
+    - gaic-math/2024/p32
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 107324 of NuminaMath 1.5 is linked to this record. The two texts differ: the row asks for all p and the record for the sum of all p, which is only the form of the answer. It is the same problem, so the link stays.'

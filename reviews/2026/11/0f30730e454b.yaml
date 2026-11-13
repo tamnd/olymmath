@@ -1,0 +1,8 @@
+id: 0f30730e454b
+kind: match
+records:
+    - 1402T3MRNM
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 120154 of NuminaMath 1.5 was joined into this record, which holds row 111413. Row 120154 has a part of a solution at the end, so it is not a clean text. The record keeps the text of row 111413.'

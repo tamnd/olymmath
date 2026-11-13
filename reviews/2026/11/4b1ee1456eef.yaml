@@ -1,0 +1,8 @@
+id: 4b1ee1456eef
+kind: match
+records:
+    - cn-mo/2000/p6
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record W4CE5X0QC7 a new record, but the agent found that it is cn-mo/2000/p6: the text names this competition and its year (or its number in the series), and the two texts state the same problem (5 questions 4 options 2000 sheets, minimum n). The agent moved the row to a second statement of cn-mo/2000/p6 and removed the loose record.'

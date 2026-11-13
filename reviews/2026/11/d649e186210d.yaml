@@ -1,0 +1,8 @@
+id: d649e186210d
+kind: match
+records:
+    - Z1RAJSB239
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 14687 (E 1.000, T 0.873, keyword match 1.000) and the text of Z1RAJSB239 state the same problem with the same data and the same question.  The record already has a statement from this source, so the row adds no new statement and makes no new record.'

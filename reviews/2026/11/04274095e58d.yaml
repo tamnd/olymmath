@@ -1,0 +1,9 @@
+id: 04274095e58d
+kind: pair
+records:
+    - KQ2AED92A3
+    - MVQGHJGTJ8
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 71657 of NuminaMath 1.5 to this record, but they are two problems: the row has the sage write a natural number on each card, the record allows any positive number. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 71657 is now in its own loose record.'

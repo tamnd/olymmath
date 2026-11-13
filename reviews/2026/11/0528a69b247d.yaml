@@ -1,0 +1,9 @@
+id: 0528a69b247d
+kind: pair
+records:
+    - QPYYWQVD1A
+    - A86968BP39
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 112208 of NuminaMath 1.5 to this record, but they are two problems: the row minimizes |12^m-5^m| with one exponent, the record minimizes |12^m-5^n| with two independent exponents. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 112208 is now in its own loose record.'

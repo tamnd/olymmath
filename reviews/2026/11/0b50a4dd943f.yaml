@@ -1,0 +1,9 @@
+id: 0b50a4dd943f
+kind: pair
+records:
+    - C6V7D7BG1V
+    - RXJB1X0QEG
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 121514 of NuminaMath 1.5 to this record, but they are two problems: the row asks for the hyperbola giving the largest intersection quadrilateral, the record counts inscribed isosceles right triangles with right angle at B. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 121514 is now in its own loose record.'

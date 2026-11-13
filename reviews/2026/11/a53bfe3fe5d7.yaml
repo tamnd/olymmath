@@ -1,0 +1,9 @@
+id: a53bfe3fe5d7
+kind: pair
+records:
+    - WMEYPJNEY4
+    - TBAYC2WDN3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 118326 of NuminaMath 1.5 to this record, but they are two problems: the row asks for the values of A and B that minimize M, the record asks only for the minimum value of M. The agent removed the row from the record, and row 118326 is now its own loose record.'

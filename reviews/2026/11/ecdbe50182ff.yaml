@@ -1,0 +1,9 @@
+id: ecdbe50182ff
+kind: pair
+records:
+    - 927CZ9VVC0
+    - tot/2005-fall/sa1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 112650 of NuminaMath 1.5 to this record, but they are two problems: the row proves a1/a2+...+an/a1 >= n for positive numbers, the record asks for which n distinct positive integers make this sum an integer. The agent removed the row from the record, and row 112650 is now its own loose record.'

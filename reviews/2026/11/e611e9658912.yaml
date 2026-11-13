@@ -1,0 +1,8 @@
+id: e611e9658912
+kind: match
+records:
+    - ahsme/1973/p4
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 112138 of NuminaMath 1.5 the loose record KR6NGQ2TBM. The text names this competition and its year (or its number in the series), and it states the same problem as this record (two 30-60-90 triangles, common area). The record already has a statement from this source, so the agent removed the loose record and listed the row in registers/loose-removed.tsv.'

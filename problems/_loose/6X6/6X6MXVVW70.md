@@ -1,0 +1,21 @@
+---
+tag: 6X6MXVVW70
+kind: problem
+type: answer
+answer: "89"
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=111285
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+In the integers from 1 to 120, how many are composite numbers and how many are prime numbers?

@@ -1,0 +1,8 @@
+id: 46bf57c77b3c
+kind: match
+records:
+    - isl/1997/p15
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record SDGHMDH3YN a new record, but the agent found that it is isl/1997/p15: the text names this competition and its year (or its number in the series), and the two texts state the same problem (aP with square and cube contains sixth power). The agent moved the row to a second statement of isl/1997/p15 and removed the loose record.'

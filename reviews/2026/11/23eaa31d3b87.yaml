@@ -1,0 +1,9 @@
+id: 23eaa31d3b87
+kind: pair
+records:
+    - FPHJC7B94H
+    - RXJB1X0QEG
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 120125 of NuminaMath 1.5 to this record, but they are two problems: the row asks the maximum area of an inscribed parallelogram through the foci, the record counts inscribed isosceles right triangles with right angle at B. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 120125 is now in its own loose record.'

@@ -1,0 +1,8 @@
+id: 9cba0474f968
+kind: match
+records:
+    - YYN25QWV3X
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 58303 (E 0.753, T 0.769, keyword match 0.812) and the text of YYN25QWV3X state the same problem with the same data and the same question.  The record already has a statement from this source, so the row adds no new statement and makes no new record.'

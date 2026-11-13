@@ -1,0 +1,9 @@
+id: 238d7fb59c7b
+kind: pair
+records:
+    - 881Y97DDJ3
+    - memo/2018/t8
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 117746 of NuminaMath 1.5 to this record, but they are two problems: the row part (2) asks to prove infinitely many positive integers are not Silesian, the record (b) asks only that not every positive integer is Silesian. The agent removed the row from the record, and row 117746 is now its own loose record.'

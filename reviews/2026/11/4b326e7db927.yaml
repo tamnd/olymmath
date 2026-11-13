@@ -1,0 +1,8 @@
+id: 4b326e7db927
+kind: placement
+records:
+    - bmt/2023/u13
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS title \"2023 BMT\" gives no round. The text of the record matches problem 13 of the Guts round in the official BMT 2023 paper (https://berkeley.mt/archives/bmt-2023/guts-problems.pdf, page 6), so the record is at bmt/2023/u13."

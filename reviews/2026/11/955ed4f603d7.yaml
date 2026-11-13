@@ -1,0 +1,8 @@
+id: 955ed4f603d7
+kind: sample
+records:
+    - FRTHE8J4JJ
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. I compared the record at bmt/2024/a10 with the official BMT 2024 PDF by hand. The TeX matches problem 10 of the Algebra round, checked against the page image: the product over 0 <= a, b, c < 5 with sec(2 pi (b - a)/5) and the modulus 101.'

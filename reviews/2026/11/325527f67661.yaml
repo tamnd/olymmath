@@ -1,0 +1,8 @@
+id: 325527f67661
+kind: placement
+records:
+    - bmt/2024/d9
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS title \"2024 BMT\" gives no round. The text of the record matches problem 9 of the Discrete round in the official BMT 2024 paper (https://berkeley.mt/archives/bmt-2024/discrete-problems.pdf, page 2), so the record is at bmt/2024/d9."

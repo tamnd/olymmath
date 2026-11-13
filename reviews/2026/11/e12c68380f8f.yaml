@@ -1,0 +1,8 @@
+id: e12c68380f8f
+kind: placement
+records:
+    - bmt/2019/i1
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS title \"2019 BMT Spring\" gives no round. The text of the record matches problem 1 of the Individual round in the official BMT 2019 paper (https://berkeley.mt/archives/bmt-2019/individual-problems.pdf, page 1), so the record is at bmt/2019/i1."

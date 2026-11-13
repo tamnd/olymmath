@@ -1,0 +1,8 @@
+id: bc5458a1cd74
+kind: sample
+records:
+    - H2YMTDZ83V
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. I compared the record at bmt/2019/t3 with the official BMT 2019 PDF by hand. The AoPS text matches problem 3 of the Team round: radius 5, height 1 and water height 15/2. The words and numbers agree with the PDF.'

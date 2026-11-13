@@ -1,0 +1,45 @@
+year: 2025
+papers:
+  - name: General
+    problems: [ge1, ge2, ge3, ge4, ge5, ge6, ge7, ge8, ge9, ge10, ge11, ge12, ge13, ge14, ge15, ge16, ge17, ge18, ge19, ge20, ge21, ge22, ge23, ge24, ge25]
+  - name: Algebra
+    problems: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]
+  - name: Calculus
+    problems: [k1, k2, k3, k4, k5, k6, k7, k8, k9, k10]
+  - name: Discrete
+    problems: [d1, d2, d3, d4, d5, d6, d7, d8, d9, d10]
+  - name: Geometry
+    problems: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10]
+  - name: Guts
+    problems: [u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11, u12, u13, u14, u15, u16, u17, u18, u19, u20, u21, u22, u23, u24, u25, u26, u27]
+official:
+  - lang: English
+    code: en
+    url: https://berkeley.mt/archives/bmt-2025/general-problems.pdf
+    paper: general
+    source: berkeley-mt
+  - lang: English
+    code: en
+    url: https://berkeley.mt/archives/bmt-2025/algebra-problems.pdf
+    paper: algebra
+    source: berkeley-mt
+  - lang: English
+    code: en
+    url: https://berkeley.mt/archives/bmt-2025/calculus-problems.pdf
+    paper: calculus
+    source: berkeley-mt
+  - lang: English
+    code: en
+    url: https://berkeley.mt/archives/bmt-2025/discrete-problems.pdf
+    paper: discrete
+    source: berkeley-mt
+  - lang: English
+    code: en
+    url: https://berkeley.mt/archives/bmt-2025/geometry-problems.pdf
+    paper: geometry
+    source: berkeley-mt
+  - lang: English
+    code: en
+    url: https://berkeley.mt/archives/bmt-2025/guts-problems.pdf
+    paper: guts
+    source: berkeley-mt

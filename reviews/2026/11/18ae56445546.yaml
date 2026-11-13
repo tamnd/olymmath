@@ -1,0 +1,8 @@
+id: 18ae56445546
+kind: sample
+records:
+    - S042AETR3E
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. I compared the record at bmt/2025/u16 with the official BMT 2025 PDF by hand. The TeX matches problem 16 of the Guts round, checked against the page image at 200 dpi: the lunatic operation, the underlined digits and the bound 2025.'

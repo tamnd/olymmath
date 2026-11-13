@@ -1,0 +1,45 @@
+year: 2020
+papers:
+  - name: Individual
+    problems: [i1, i2, i3, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13, i14, i15, i16, i17, i18, i19, i20, i21, i22, i23, i24, i25]
+  - name: Team
+    problems: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15, t16, t17, t18, t19, t20, t21, t22, t23, t24, t25, t26, t27]
+  - name: Algebra
+    problems: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]
+  - name: Calculus
+    problems: [k1, k2, k3, k4, k5, k6, k7, k8, k9, k10]
+  - name: Discrete
+    problems: [d1, d2, d3, d4, d5, d6, d7, d8, d9, d10]
+  - name: Geometry
+    problems: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10]
+official:
+  - lang: English
+    code: en
+    url: https://berkeley.mt/archives/bmt-2020/algebra-problems.pdf
+    paper: algebra
+    source: berkeley-mt
+  - lang: English
+    code: en
+    url: https://berkeley.mt/archives/bmt-2020/calculus-problems.pdf
+    paper: calculus
+    source: berkeley-mt
+  - lang: English
+    code: en
+    url: https://berkeley.mt/archives/bmt-2020/discrete-problems.pdf
+    paper: discrete
+    source: berkeley-mt
+  - lang: English
+    code: en
+    url: https://berkeley.mt/archives/bmt-2020/geometry-problems.pdf
+    paper: geometry
+    source: berkeley-mt
+  - lang: English
+    code: en
+    url: https://berkeley.mt/archives/bmt-2020/individual-problems.pdf
+    paper: individual
+    source: berkeley-mt
+  - lang: English
+    code: en
+    url: https://berkeley.mt/archives/bmt-2020/team-problems.pdf
+    paper: team
+    source: berkeley-mt

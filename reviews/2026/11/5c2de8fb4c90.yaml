@@ -1,0 +1,8 @@
+id: 5c2de8fb4c90
+kind: sample
+records:
+    - QSZGS8SB48
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. I compared the record at bmt/2014/g7 with the official BMT 2014 PDF by hand. The AoPS text matches problem 7 of the Geometry round: parallelogram ABCD, BF = EG and BC = 3. The AoPS text has no final full stop; the meaning is the same.'

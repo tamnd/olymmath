@@ -1,0 +1,8 @@
+id: 6596408090b6
+kind: placement
+records:
+    - bmt/2016/i15
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS title \"2016 BMT Spring\" gives no round. The text of the record matches problem 15 of the Individual round in the official BMT 2016 paper (https://berkeley.mt/archives/bmt-2016/IS2016.pdf, page 2), so the record is at bmt/2016/i15."

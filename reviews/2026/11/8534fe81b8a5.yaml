@@ -1,0 +1,8 @@
+id: 8534fe81b8a5
+kind: placement
+records:
+    - bmt/2022/d5
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS title \"2022 BMT\" gives no round. The text of the record matches problem 5 of the Discrete round in the official BMT 2022 paper (https://berkeley.mt/archives/bmt-2022/discrete-problems.pdf, page 1), so the record is at bmt/2022/d5. The same problem is also problem 22 of the General round, so the record has a second appearance there."

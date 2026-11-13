@@ -2240,3 +2240,19 @@
   state: planned
   terms: The dataset card gives CC BY-NC-SA 4.0. Read on 2026-11-04. The data stays in the work directory of om calibrate and out of git.
   notes: Pass or fail judgements of model proofs by human judges, for the calibration of the grading jury (om calibrate -set opc). Link only.
+
+- id: berkeley-mt
+  name: Berkeley Math Tournament archive
+  kind: official
+  origin: H1
+  url: https://berkeley.mt/archives/
+  access: pdf
+  terms: "The site has no terms page, and the papers give no licence (read on 2026-11-13). The FAQ page says that past tests and solutions are on the resources page for students. Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: 72 round papers of the tournaments of 2012 to 2025, about 1,000 problems
+  wave: 1
+  state: active
+  notes: Each tournament has an archive page, such as /archives/bmt-2019/, with one row for each round and links to the problems, the answers and the solutions. The papers of 2012 to 2017 have names such as IS2014.pdf, the papers of 2018 have names such as ALSP18.pdf, and the papers from 2019 have names such as algebra-problems.pdf. The robots.txt of berkeley.mt allows all paths and gives no crawl delay (checked on 2026-11-13). The power round and the tiebreakers are not used. om papers berkeley-mt records the papers.

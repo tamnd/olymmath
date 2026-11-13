@@ -1,0 +1,8 @@
+id: 513ad8d53e6c
+kind: sample
+records:
+    - 5YGNPHGTQT
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. I compared the record at bmt/2019/g6 with the official BMT 2019 PDF by hand. The AoPS text matches problem 6 of the Geometry round: AB/3 = BE/4 = EA/5 and the ratio of PM to the perimeter. The AoPS text adds triangle signs and overlines; the meaning is the same.'

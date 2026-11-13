@@ -1,0 +1,8 @@
+id: f3517ad8d923
+kind: placement
+records:
+    - bmt/2022/g9
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS title \"2022 BMT\" gives no round. The text of the record matches problem 9 of the Geometry round in the official BMT 2022 paper (https://berkeley.mt/archives/bmt-2022/geometry-problems.pdf, page 2), so the record is at bmt/2022/g9."

@@ -1,0 +1,8 @@
+id: 61f9bd1034b4
+kind: placement
+records:
+    - bmt/2020/i8
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS title \"2020 BMT Fall\" gives no round. The text of the record matches problem 8 of the Individual round in the official BMT 2020 paper (https://berkeley.mt/archives/bmt-2020/individual-problems.pdf, page 1), so the record is at bmt/2020/i8."

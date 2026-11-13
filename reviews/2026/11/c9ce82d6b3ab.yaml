@@ -1,0 +1,8 @@
+id: c9ce82d6b3ab
+kind: placement
+records:
+    - bmt/2021/g3
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS title \"2021 BMT\" gives no round. The text of the record matches problem 3 of the Geometry round in the official BMT 2021 paper (https://berkeley.mt/archives/bmt-2021/geometry-problems.pdf, page 1), so the record is at bmt/2021/g3. The same problem is also problem 18 of the General round, so the record has a second appearance there."

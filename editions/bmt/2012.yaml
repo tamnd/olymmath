@@ -1,0 +1,22 @@
+year: 2012
+papers:
+  - name: Individual
+    problems: [i1, i2, i3, i4, i5, i6, i7, i8, i9, i10]
+  - name: Team
+    problems: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10]
+official:
+  - lang: English
+    code: en
+    url: https://berkeley.mt/archives/bmt-2012/IS2012.pdf
+    paper: individual
+    source: berkeley-mt
+  - lang: English
+    code: en
+    url: https://berkeley.mt/archives/bmt-2012/TS2012.pdf
+    paper: team
+    source: berkeley-mt
+  - lang: English
+    code: en
+    url: https://berkeley.mt/archives/bmt-2012/TorS2012.pdf
+    paper: tournament
+    source: berkeley-mt

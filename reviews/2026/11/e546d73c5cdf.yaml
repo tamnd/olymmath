@@ -1,0 +1,8 @@
+id: e546d73c5cdf
+kind: placement
+records:
+    - bmt/2021/u5
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS title \"2021 BMT\" gives no round. The text of the record matches problem 5 of the Guts round in the official BMT 2021 paper (https://berkeley.mt/archives/bmt-2021/guts-problems.pdf, page 3), so the record is at bmt/2021/u5."

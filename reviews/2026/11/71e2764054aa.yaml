@@ -1,0 +1,8 @@
+id: 71e2764054aa
+kind: sample
+records:
+    - VE3DXRMDJT
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. I compared the record at bmt/2018/nt2 with the official BMT 2018 PDF by hand. The AoPS text matches problem 2 of the Number Theory round on page 1 of the official PDF: (p + 1/q)/(q + 1/p) = 17 and the question on (p + q)/n.'

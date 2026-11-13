@@ -1,0 +1,8 @@
+id: 63b49a7792a9
+kind: placement
+records:
+    - bmt/2018/t11
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS title \"2018 BMT Spring\" gives no round. The text of the record matches problem 11 of the Team round in the official BMT 2018 paper (https://berkeley.mt/archives/bmt-2018/TESP18.pdf, page 2), so the record is at bmt/2018/t11."

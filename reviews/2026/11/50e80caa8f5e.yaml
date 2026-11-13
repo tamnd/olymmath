@@ -1,0 +1,8 @@
+id: 50e80caa8f5e
+kind: placement
+records:
+    - bmt/2015/t7
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS title \"2015 BMT Spring\" gives no round. The text of the record matches problem 7 of the Team round in the official BMT 2015 paper (https://berkeley.mt/archives/bmt-2015/TS2015.pdf, page 1), so the record is at bmt/2015/t7."

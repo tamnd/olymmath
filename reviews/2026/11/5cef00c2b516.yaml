@@ -1,0 +1,8 @@
+id: 5cef00c2b516
+kind: sample
+records:
+    - F4Z7RC4Y85
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. I compared the record at bmt/2022/k6 with the official BMT 2022 PDF by hand. The TeX matches problem 6 of the Calculus round, checked against the page image at 220 dpi: three nested square roots from 0 to pi/3.'

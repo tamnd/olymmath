@@ -1,0 +1,8 @@
+id: 600a3a6e262f
+kind: sample
+records:
+    - CNCDGCDQQ1
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. I compared the record at bmt/2012/t8 with the official BMT 2012 PDF by hand. The TeX matches problem 8 of the Team round, checked against the page image at 220 dpi: the iterated totient, the four example lines for 13 and f(2012).'

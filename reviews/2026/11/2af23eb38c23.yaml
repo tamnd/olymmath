@@ -1,0 +1,8 @@
+id: 2af23eb38c23
+kind: sample
+records:
+    - JE1KA3HZ5N
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. I compared the record at bmt/2021/u20 with the official BMT 2021 PDF by hand. The TeX matches problem 20 of the Guts round, checked against the page image: the incircle, the A-excircle, the points P, Q, P'', Q'' and the area bound 1.'

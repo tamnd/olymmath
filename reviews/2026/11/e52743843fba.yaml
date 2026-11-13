@@ -1,0 +1,8 @@
+id: e52743843fba
+kind: sample
+records:
+    - PDX7GEDQKX
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. I compared the record at bmt/2022/u7 with the official BMT 2022 PDF by hand. The AoPS text matches problem 7 of the Guts round: a regular hexagon in a circle of radius 1 and the short diagonals.'

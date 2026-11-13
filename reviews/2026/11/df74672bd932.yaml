@@ -1,0 +1,8 @@
+id: df74672bd932
+kind: sample
+records:
+    - HQDCE7KBWJ
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. I compared the record at bmt/2024/u9 with the official BMT 2024 PDF by hand. The TeX matches problem 9 of the Guts round, checked against the page image at 220 dpi: the up-arrow recursion with b - 1 arrows under the brace and log*_2(2 up^3 4).'

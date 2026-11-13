@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="104pt" height="93pt" viewBox="0 0 104 93">
+<defs>
+<clipPath id="clip-0">
+<path clip-rule="nonzero" d="M 2.625 2.871 L 101.316 2.871 L 101.316 89 L 2.625 89 Z M 2.625 2.871 "/>
+</clipPath>
+<clipPath id="clip-1">
+<path clip-rule="nonzero" d="M 34 86 L 38 86 L 38 89.664 L 34 89.664 Z M 34 86 "/>
+</clipPath>
+<clipPath id="clip-2">
+<path clip-rule="nonzero" d="M 66 86 L 70 86 L 70 89.664 L 66 89.664 Z M 66 86 "/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip-0)">
+<path fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke="#000" stroke-miterlimit="10" d="M 493.476 865.38 L 2.5 14.989 L 984.453 14.989 Z M 493.476 865.38 " transform="matrix(0.1, 0, 0, -0.1, 2.625, 89.663)"/>
+</g>
+<path fill="none" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" stroke="#000" stroke-miterlimit="10" d="M 329.804 581.942 L 329.804 581.942 " transform="matrix(0.1, 0, 0, -0.1, 2.625, 89.663)"/>
+<path fill="none" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" stroke="#000" stroke-miterlimit="10" d="M 166.171 298.465 L 166.171 298.465 " transform="matrix(0.1, 0, 0, -0.1, 2.625, 89.663)"/>
+<path fill="none" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" stroke="#000" stroke-miterlimit="10" d="M 657.148 581.942 L 657.148 581.942 " transform="matrix(0.1, 0, 0, -0.1, 2.625, 89.663)"/>
+<path fill="none" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" stroke="#000" stroke-miterlimit="10" d="M 820.781 298.465 L 820.781 298.465 " transform="matrix(0.1, 0, 0, -0.1, 2.625, 89.663)"/>
+<g clip-path="url(#clip-1)">
+<path fill="none" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" stroke="#000" stroke-miterlimit="10" d="M 329.804 14.989 L 329.804 14.989 " transform="matrix(0.1, 0, 0, -0.1, 2.625, 89.663)"/>
+</g>
+<g clip-path="url(#clip-2)">
+<path fill="none" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" stroke="#000" stroke-miterlimit="10" d="M 657.148 14.989 L 657.148 14.989 " transform="matrix(0.1, 0, 0, -0.1, 2.625, 89.663)"/>
+</g>
+</svg>

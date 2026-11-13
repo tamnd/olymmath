@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56pt" height="57pt" viewBox="0 0 56 57">
+<path fill="none" stroke-width="0.797" stroke="#000" stroke-miterlimit="10" d="M -25.513 -25.513 L -25.513 -8.505 L -8.505 -8.505 L -8.505 -25.513 Z M -25.513 -25.513 " transform="matrix(1, 0, 0, -1, 28.076, 28.377)"/>
+<path fill="none" stroke-width="0.797" stroke="#000" stroke-miterlimit="10" d="M -8.505 -25.513 L -8.505 -8.505 L 8.506 -8.505 L 8.506 -25.513 Z M -8.505 -25.513 " transform="matrix(1, 0, 0, -1, 28.076, 28.377)"/>
+<path fill="none" stroke-width="0.797" stroke="#000" stroke-miterlimit="10" d="M 8.506 -25.513 L 8.506 -8.505 L 25.513 -8.505 L 25.513 -25.513 Z M 8.506 -25.513 " transform="matrix(1, 0, 0, -1, 28.076, 28.377)"/>
+<path fill="none" stroke-width="0.797" stroke="#000" stroke-miterlimit="10" d="M -17.009 -8.505 L -17.009 8.505 L -0.001 8.505 L -0.001 -8.505 Z M -17.009 -8.505 " transform="matrix(1, 0, 0, -1, 28.076, 28.377)"/>
+<path fill="none" stroke-width="0.797" stroke="#000" stroke-miterlimit="10" d="M 17.009 -8.505 L 17.009 8.505 L -0.001 8.505 L -0.001 -8.505 Z M 17.009 -8.505 " transform="matrix(1, 0, 0, -1, 28.076, 28.377)"/>
+<path fill="none" stroke-width="0.797" stroke="#000" stroke-miterlimit="10" d="M -8.505 8.505 L -8.505 25.513 L 8.506 25.513 L 8.506 8.505 Z M -8.505 8.505 " transform="matrix(1, 0, 0, -1, 28.076, 28.377)"/>
+</svg>

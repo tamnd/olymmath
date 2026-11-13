@@ -2464,12 +2464,23 @@
 
 - code: lt-mo
   name: Lithuanian Mathematical Olympiad
+  names: {lt: Lietuvos mokinių matematikos olimpiada}
   group: national
   level: high-school
   country: LT
-  per_year: 4
+  organizer: Vilnius University, Faculty of Mathematics and Informatics
+  url: https://mif.vu.lt/matematikos-olimpiados/lmmo/
+  first_year: 1952
+  # Agent decision, not a person's review: the papers of the national round on the VU MIF page (read on 2026-11-13) have one paper for grades 9 and 10 and one paper for grades 11 and 12 each year from 2003, with four problems each, and each paper numbers its problems from 1. The position of problem N of the paper of grades G and G+1 is pG followed by N, as ru-spb uses, so p93 is problem 3 of grades 9 and 10 and p113 is problem 3 of grades 11 and 12. A problem that is in both papers is one problem with two appearances. The page has no paper and no results for 2020. The format of the years before 2003 is not known.
+  gaps: [2020]
+  eras:
+    - {from: 1952, to: 2002}
+    - {from: 2003, per_year: 8, layout: [{paper: grades9-10, name: Grades 9 and 10, positions: [p91, p92, p93, p94]}, {paper: grades11-12, name: Grades 11 and 12, positions: [p111, p112, p113, p114]}]}
+  edition_form: year
+  official_solutions: true
   languages: [lt]
-  description: The national olympiad of Lithuania. Its archive is not confirmed.
+  sources: [vu-mif-lmmo]
+  description: The national olympiad of Lithuania, held since 1952. Its national round has one paper for grades 9 and 10 and one paper for grades 11 and 12. The VU MIF page has the papers, the solutions and the results from 2003.
 
 - code: gr-hms
   name: Greek Mathematical Olympiad

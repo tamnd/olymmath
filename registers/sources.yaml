@@ -1471,6 +1471,22 @@
   state: active
   notes: "The file is https://maths.ucd.ie/~dukes/Irish_Maths_Olympiad_Compendium.pdf. Each year starts on a new page and each paper starts on a new page. The robots.txt of maths.ucd.ie disallows only /tl and /cgi-bin/ (checked on 2026-11-13). The official site www.irmo.ie links an older copy, but its CloudFront gives 403 to the agent, also for robots.txt, so the agent does not read it."
 
+- id: vu-mif-lmmo
+  name: Lietuvos mokinių matematikos olimpiada (VU MIF)
+  kind: official
+  origin: H1
+  url: https://mif.vu.lt/matematikos-olimpiados/lmmo/
+  access: pdf
+  terms: "The page (read on 2026-11-13) gives no licence. Its footer says \"© Visos teisės saugomos VU MIF STSC\" (all rights reserved). Agent decision, not a person's review: Z2, the spec default for competition statements, so the content holds the statement of each problem with a link to the paper."
+  zone:
+    statement: Z2
+    solution: Z3
+  ai_train: unknown
+  size: One PDF of the problems of the national round for each year from 2003 to 2026 except 2020, with the solutions and the results
+  wave: 1
+  state: active
+  notes: "The page links the files on www4352.vu.lt/matematikos-olimpiados/wp-content/uploads/. The problems are YYYYLMOuzd.pdf for 2003 to 2024 and LMMO2025.pdf and LMMO2026.pdf, the solutions are YYYYLMO.pdf and LMMO2025s.pdf and LMMO2026s.pdf. Each file has the paper of grades 9 and 10 and the paper of grades 11 and 12, with four problems each. The text layer of some files (2008 to 2011) has a broken encoding of the Lithuanian letters, so a vision lane read a render of each paper, and the agent checked the words and the numbers of each paper against the text layer and the render. In 2011 and 2024 both papers share a page, so the lane read a crop of each paper. The robots.txt of mif.vu.lt (checked on 2026-11-13) disallows only Joomla system paths and some timetable paths. www4352.vu.lt has no robots.txt (404 on 2026-11-13), so all paths are allowed."
+
 - id: oemo
   name: Österreichische Mathematik-Olympiade
   kind: official

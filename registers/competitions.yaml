@@ -2260,7 +2260,7 @@
   official_solutions: true
   languages: [nl, en]
   sources: [wiskundeolympiade, hf-mathnet]
-  description: The final round of the Dutch olympiad with about five problems. The archive has problems and solutions from 2001, with English texts for recent years.
+  description: The final round of the Dutch olympiad with about five problems. The archive has problems and solutions from 2001, with English texts for recent years. From 2014 the final has one paper for each grade (klas 4, 5 and 6), and each paper numbers its problems from 1. The positions p1 to p5 of 2014 and later hold the klas 6 paper. The records of 2014 to 2022 were compared with ProblemsKlas6.pdf on 2026-11-13, and each one matches the problem of the same number.
 
 - code: nl-nwo-r2
   name: Dutch Mathematical Olympiad Second Round

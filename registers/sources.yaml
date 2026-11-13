@@ -1152,10 +1152,12 @@
   zone:
     statement: Z2
     solution: Z2
+  terms: "The site has no page of terms and gives no licence (read on 2026-11-13). The papers carry the line © Stichting Nederlandse Wiskunde Olympiade. Agent decision, not a person's review: Z2, the spec default for competition statements."
   ai_train: unknown
+  size: the papers of the final from 2001 to 2026, in Dutch and from 2010 also in English
   wave: 1
-  state: planned
-  notes: Also holds BxMO material.
+  state: active
+  notes: "Also holds BxMO material. The robots.txt of www.wiskundeolympiade.nl blocks only the Joomla system paths such as /administrator/ and /components/, so the papers under /files/ and /phocadownload/ are allowed (checked on 2026-11-13). From 2014 the final has one paper for each grade (klas 4 from 2017, klas 5 and klas 6). Each paper numbers its problems from 1, and the lower grades get easier versions of some problems. The content takes the klas 6 paper (ProblemsKlas6.pdf)."
 
 - id: igo-official
   name: IGO official site

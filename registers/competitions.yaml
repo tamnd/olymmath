@@ -2525,8 +2525,8 @@
     - {from: 2020, to: 2020}
   official_solutions: true
   languages: [pl]
-  sources: [om-sem, imomath, hf-mathnet]
-  description: The Polish olympiad in three rounds, first held in 1949/50. The site has the 47th to the 77th olympiads.
+  sources: [om-sem, archom, imomath, hf-mathnet]
+  description: The Polish olympiad in three rounds, first held in 1949/50. The site om.sem.edu.pl has the papers of the 47th to the 77th olympiads. The archive of the Polish Mathematical Society (archom) has the problems of the final round of the 2nd to the 46th olympiads on HTML pages.
 
 - code: pl-omj
   name: Polish Junior Mathematical Olympiad

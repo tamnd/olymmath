@@ -1482,6 +1482,22 @@
   state: active
   notes: The page Aufgaben und Lösungen links one PDF for each round and year at /OeMO/aufgaben/ROUND/YEAR. BWF is the final round (Bundeswettbewerb, Finale, at-oemo) of 2015 to 2026, with Tag 1 (problems 1 to 3) and Tag 2 (problems 4 to 6) in one file. LWA is the beginners' round (Landeswettbewerb für Anfängerinnen und Anfänger, later named Junior-Regionalwettbewerb, at-oemo-beg) of 2014 to 2026, with four problems. robots.txt (checked on 2026-11-13, served from static.oemo.at) disallows only the agent Datanyze. om ocr -lanes native read the text layer, and the agent wrote the math in TeX by hand. Where a paper shows a figure, om figure cropped it from the PDF and the record shows it.
 
+- id: vwo
+  name: Vlaamse Wiskunde Olympiade
+  kind: official
+  origin: H1
+  url: https://www.vwo.be/vwo/wedstrijdvragen-per-jaargang-en-ronde/
+  access: pdf
+  terms: "The page Wedstrijdvragen per jaargang en ronde (read on 2026-11-13) says: All olympiad problem sets are copyrighted by Vlaamse Wiskunde Olympiade vzw. Sharing without changes is allowed for non-commercial purposes and study books, provided that attribution is given to Vlaamse Wiskunde Olympiade vzw."
+  zone:
+    statement: Z2
+    solution: Z3
+  ai_train: unknown
+  size: One PDF of the final round for each year from 2003 to 2026, in Dutch
+  wave: 1
+  state: active
+  notes: The page links the paper of the final round (finale) of each year at /vwo/wp-content/uploads/. The paper of the school year 2023-2024 is the final of 2024, and so on. Each final has four problems. robots.txt (checked on 2026-11-13) is not found (404), so no path is disallowed. The agent read the text layer with pdftotext, checked it against a render of each page, and wrote the math in TeX by hand. Each record gives the attribution to Vlaamse Wiskunde Olympiade vzw by its source and URL. Where a paper shows a figure, om figure cropped it from the PDF.
+
 - id: imosuisse
   name: IMO Suisse archive
   kind: official

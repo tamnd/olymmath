@@ -1,0 +1,9 @@
+id: 129a87d51a9c
+kind: pair
+records:
+    - KK1EK9YF8A
+    - in-rmo/2016/c2
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 263393 of NuminaMath 1.5 to this record, but they are two problems: the row asks to simplify the cyclic sum, the record asks to prove it is >= 3 for distinct positive reals with abc=1. The project only links the texts of this competition, so the import adds no row to it, and the problem was lost. Row 263393 is now in its own loose record.'

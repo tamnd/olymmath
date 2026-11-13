@@ -1,0 +1,8 @@
+id: 6f457cdbd148
+kind: match
+records:
+    - es-ome/1964/p2
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 149198 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row is garbled: the interval 6000<x<P with derivative 1 is lost ("6000P is constant"). The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

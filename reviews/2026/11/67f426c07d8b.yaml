@@ -1,0 +1,8 @@
+id: 67f426c07d8b
+kind: match
+records:
+    - tr-mo/2019/p6
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 149212 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row is garbled: the defect definition and the question run together ("such that 02 whose defect"). The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

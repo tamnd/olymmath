@@ -1,0 +1,8 @@
+id: d8d9e361fa96
+kind: match
+records:
+    - 93JA8FNVWY
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 149158 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row is garbled at "r3n": the definition of r<R, of S and integer points, and the start of part a) are lost. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

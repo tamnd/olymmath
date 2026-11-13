@@ -1,0 +1,9 @@
+id: 3cfb7729ae84
+kind: pair
+records:
+    - 47MB6B9C9P
+    - ro-tst/1999/p5
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 190311 of NuminaMath 1.5 to this record, but they are two problems: the row has real x_i with sum > n and claims sum of squares > sum, the record has distinct positive integers and claims sum of squares >= (2n+1)/3 times the sum. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 190311 is now in its own loose record.'

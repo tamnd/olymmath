@@ -1,0 +1,9 @@
+id: 0dbbf3c83bc1
+kind: pair
+records:
+    - 7W3MV9730B
+    - V2NQXAE7JR
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 74149 of NuminaMath 1.5 to this record, but they are two problems: the row asks for integer factors (negative pair allowed), the record for positive integer factors. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 74149 is now in its own loose record.'

@@ -1,0 +1,9 @@
+id: 6fc0707661d3
+kind: pair
+records:
+    - E8YV741BF7
+    - T2ACAZNXFG
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 269140 of NuminaMath 1.5 to this record, but they are two problems: the row asks about a strictly increasing function with only irrational values, the record asks to split a function into even and odd parts. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 269140 is now in its own loose record.'

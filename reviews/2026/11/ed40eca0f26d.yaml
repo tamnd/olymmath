@@ -1,0 +1,8 @@
+id: ed40eca0f26d
+kind: match
+records:
+    - cn-mo/2020/p4
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 148454 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row is garbled at "(1\le iCn": the "at least half of the triples" condition and "l>Cn" are lost. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

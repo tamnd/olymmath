@@ -1,0 +1,9 @@
+id: 5893b6c462ce
+kind: pair
+records:
+    - Y5YYAZQ51T
+    - J3B8XJK38K
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 232442 of NuminaMath 1.5 to this record, but they are two problems: the row asks for all integers x,y,z, the record for natural numbers. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 232442 is now in its own loose record.'

@@ -1,0 +1,9 @@
+id: 078298485dc7
+kind: pair
+records:
+    - H49FCX1TPT
+    - pumac/2007/t7
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 263062 of NuminaMath 1.5 to this record, but they are two problems: the row has the condition CP=PQ, the record CQ=PQ. The agent removed the row from the record, and row 263062 is now in a new loose record.'

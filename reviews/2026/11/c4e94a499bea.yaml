@@ -1,0 +1,8 @@
+id: c4e94a499bea
+kind: sample
+records:
+    - ZDZ7EWA2MQ
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The text states one complete problem and no solution. The text names CCA Math Bonanza, which has no records in the content yet, so the import found no record for it and the row stays a loose record.'

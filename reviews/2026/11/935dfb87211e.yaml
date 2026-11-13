@@ -1,0 +1,9 @@
+id: 935dfb87211e
+kind: pair
+records:
+    - J4H8S5E31K
+    - ro-tst/1987/p9
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 125216 of NuminaMath 1.5 to this record, but they are two problems: the row has general weights x_i x_j and no hypotheses, the record has the fixed weights i j for all real alpha_i. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 125216 is now in its own loose record.'

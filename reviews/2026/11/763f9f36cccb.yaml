@@ -1,0 +1,8 @@
+id: 763f9f36cccb
+kind: match
+records:
+    - amc12/2023a/p16
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The row 149322 (E 1.000, T 1.000, keyword match 0.893) and the text of amc12/2023a/p16 state the same problem with the same data and the same question. The row became a second statement of the record.'

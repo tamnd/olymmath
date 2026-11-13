@@ -1,0 +1,8 @@
+id: e85eded1d95f
+kind: match
+records:
+    - bg-mo/1993/p2
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The agent read row 239975 of NuminaMath 1.5 and this record again, because the first review found a difference: the row says that the area of PQR is greater than the area of ABC; the second statement of the record has the same strict wording, so it is the same problem. The agent kept the link. The record already had a statement from this source, so the row adds no new statement.'

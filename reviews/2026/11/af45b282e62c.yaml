@@ -1,0 +1,8 @@
+id: af45b282e62c
+kind: match
+records:
+    - imo/1959/p1
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The agent read row 78886 of NuminaMath 1.5 and this record again, because the first review found a difference: the row says ''any integer n'' and the record ''any natural number n''; the fraction is irreducible for every integer n, so it is the same problem in a common wording. The agent kept the link. The record already had a statement from this source, so the row adds no new statement.'

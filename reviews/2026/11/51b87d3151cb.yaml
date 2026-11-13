@@ -1,0 +1,8 @@
+id: 51b87d3151cb
+kind: match
+records:
+    - bg-mo/2005/p1
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 260447 of NuminaMath 1.5 to this record, but the row is another version of it: the row allows all integers x,y,z (unordered), the record asks for positive integers. The project only links the texts of bg-mo, so the agent made no loose record of the row. The agent listed the row in registers/loose-removed.tsv.'

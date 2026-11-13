@@ -1,0 +1,9 @@
+id: e104e0c41251
+kind: pair
+records:
+    - TBDFCPNHZE
+    - 84BXB4GKGA
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 9587 of NuminaMath 1.5 to this record, but they are two problems: the row asks for solutions in natural numbers, the record for non-negative integers (x=0 gives solutions). The record already had a statement from this source, so the row added no statement and the problem was lost. Row 9587 is now in its own loose record.'

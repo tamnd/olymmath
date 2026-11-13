@@ -1,0 +1,8 @@
+id: fe1aecae20c6
+kind: match
+records:
+    - cn-mo/1999/p4
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The agent read row 110384 of NuminaMath 1.5 and this record again, because the first review found a difference: the row says ''a given integer m'' and the record ''a positive integer m''; the claim holds for every integer m, so it is the same problem. The agent kept the link. The record already had a statement from this source, so the row adds no new statement.'

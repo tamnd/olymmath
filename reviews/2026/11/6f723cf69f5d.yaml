@@ -1,0 +1,8 @@
+id: 6f723cf69f5d
+kind: match
+records:
+    - cn-wmo/2016/p8
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 148201 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row is garbled at "2\leq m k": the conditions m<n, gcd(m,n)=1, the request for the smallest k and the subset sum condition are lost. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

@@ -1,0 +1,8 @@
+id: 0f0eddee11fd
+kind: match
+records:
+    - BH8KQVB6BT
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import joined row 149817 of NuminaMath 1.5 into this record, which holds row 268972, but the row lost the dot product formulas, so the condition on the vector field cannot be read. The row is not a clear problem, so the record keeps only row 268972. The agent listed row 149817 in registers/loose-removed.tsv.'

@@ -1,0 +1,9 @@
+id: 88f7bf29f166
+kind: pair
+records:
+    - PWTKAYGY4P
+    - ill/1982/p14
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 268028 of NuminaMath 1.5 to this record, but they are two problems: the row asks for roots in arithmetic progression, the record for four distinct real roots in geometric progression. The agent removed the row from the record, and row 268028 is now in a new loose record.'

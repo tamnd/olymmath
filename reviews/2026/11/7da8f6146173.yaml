@@ -1,0 +1,9 @@
+id: 7da8f6146173
+kind: pair
+records:
+    - RF6JWKWD80
+    - 84BXB4GKGA
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 122794 of NuminaMath 1.5 to this record, but they are two problems: the row asks for all integer solutions, the record for non-negative integer solutions (negative z adds solutions). The record already had a statement from this source, so the row added no statement and the problem was lost. Row 122794 is now in its own loose record.'

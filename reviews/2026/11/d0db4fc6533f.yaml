@@ -1,0 +1,9 @@
+id: d0db4fc6533f
+kind: pair
+records:
+    - JXQTXYX7JN
+    - aime/2002a/p5
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 266454 of NuminaMath 1.5 to this record, but they are two problems: the row counts points equidistant from 3 vertices of a 12-gon, the record counts squares with at least two vertices among the 12-gon vertices. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 266454 is now in its own loose record.'

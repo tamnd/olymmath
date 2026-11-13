@@ -1,0 +1,8 @@
+id: b799d7d0ad1f
+kind: match
+records:
+    - 7TTC3971T4
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. Row 144890 was joined into this record, which holds row 144884. The two rows state the same problem (the pretty pairs (x, y) with exactly x-y common divisors); only the wording differs.'

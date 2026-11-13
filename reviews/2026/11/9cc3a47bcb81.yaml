@@ -1,0 +1,9 @@
+id: 9cc3a47bcb81
+kind: pair
+records:
+    - PGQPHQ4HXG
+    - hmmt/2024/t1
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 268603 of NuminaMath 1.5 to this record, but they are two problems: the row has positive integers a_i, the record all integers. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 268603 is now in its own loose record.'

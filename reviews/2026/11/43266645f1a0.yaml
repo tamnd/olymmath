@@ -1,0 +1,8 @@
+id: 43266645f1a0
+kind: match
+records:
+    - cn-mo/2006/p5
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 142835 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row splits the inequality: the product of the (1/a_i - 1) factors falls outside the displayed formula, so the right side is broken. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

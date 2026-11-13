@@ -1,0 +1,9 @@
+id: 542c1b34d6e1
+kind: pair
+records:
+    - F2X7JRM9JA
+    - putnam/1953/a7
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 68067 of NuminaMath 1.5 to this record, but they are two problems: the row asks when the positive roots can be the side lengths of a triangle, the record asks when they are the cosines of the angles of a triangle. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 68067 is now in its own loose record.'

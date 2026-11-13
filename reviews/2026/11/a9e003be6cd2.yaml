@@ -1,0 +1,8 @@
+id: a9e003be6cd2
+kind: match
+records:
+    - WY9N3XS1AQ
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The agent read row 59805 of NuminaMath 1.5 and this record again, because the first review found a difference: the row says an acute triangle and the record any triangle; the claim holds for every triangle, so it is the same problem. The agent kept the link. The record already had a statement from this source, so the row adds no new statement.'

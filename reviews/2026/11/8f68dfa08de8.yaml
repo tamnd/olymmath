@@ -1,0 +1,8 @@
+id: 8f68dfa08de8
+kind: match
+records:
+    - MZ60F8PZ98
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. Row 147353 was joined into this record, which holds row 147111. The two rows state the same problem (the value of k for which the line through (3,2k+1) and (8,4k-5) is parallel to the x-axis); the choices are the same values under other letters.'

@@ -1,0 +1,8 @@
+id: b85e4799292a
+kind: match
+records:
+    - hmnt/2009/t5
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 145185 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row has lost its start: only the question about the ball bouncing remains, with no setup (the record text also lacks it). The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

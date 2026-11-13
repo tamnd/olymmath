@@ -1,0 +1,8 @@
+id: 76e5afa3f1fa
+kind: match
+records:
+    - usamo/2023/p3
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The agent read row 147833 of NuminaMath 1.5 and this record again, because the first review found a difference: the row asks for the maximum value of k(C), which is the original wording of the problem, and the record text says ''all possible values''; it is the same problem. The agent kept the link. The record already had a statement from this source, so the row adds no new statement.'

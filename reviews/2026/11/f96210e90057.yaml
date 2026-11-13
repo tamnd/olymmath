@@ -1,0 +1,9 @@
+id: f96210e90057
+kind: pair
+records:
+    - W29NGW73M7
+    - 5K86827XBT
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 173133 of NuminaMath 1.5 to this record, but they are two problems: the record requires a, b, c pairwise distinct, the row has no condition on a, b, c. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 173133 is now in its own loose record.'

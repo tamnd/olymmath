@@ -1,0 +1,8 @@
+id: 5fedcde25104
+kind: match
+records:
+    - putnam/2023/b4
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 149388 of NuminaMath 1.5 to this record, but the row is not a clear copy: condition (d) is garbled in the row ("when t_kt_n"), the ranges for f'''' and the case t>t_n are lost. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

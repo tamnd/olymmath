@@ -1,0 +1,8 @@
+id: 660692dda8ed
+kind: doubt
+records:
+    - hmmt/2004/c4
+decision: flagged
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. This record holds the texts of two problems: the main text is the coin flip problem of Andrea, and the statement under the marker S2 is the problem of 8 marked squares away from the corners. The rows 146774 and 149475 of NuminaMath 1.5 state the second problem, and the import linked them here; they add no statement, because the record already has a statement from this source. The agent did not split the record. A person must decide how to split it and where the second problem belongs.'

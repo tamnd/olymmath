@@ -1,0 +1,8 @@
+id: 03ace66b7486
+kind: match
+records:
+    - 4X57AWH0WY
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. Row 261506 was joined into this record, which holds row 261445. The two rows state the same problem (two dice, one number three times the other, and the probability to win at least once in three games); only the name of the player differs.'

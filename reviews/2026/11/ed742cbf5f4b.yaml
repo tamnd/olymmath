@@ -1,0 +1,8 @@
+id: ed742cbf5f4b
+kind: match
+records:
+    - hmnt/2012/h5
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The agent read row 262565 of NuminaMath 1.5 and this record again, because the first review found a difference: the row has the tower 7^6^5^4^3^2^1 and the record lost the 4; the row is the original wording and the record has a slip. The agent kept the link. The record already had a statement from this source, so the row adds no new statement.'

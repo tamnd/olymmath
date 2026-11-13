@@ -1,0 +1,8 @@
+id: 41b73fa25bf0
+kind: match
+records:
+    - isl/2020/n5
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The row 148531 and the text of isl/2020/n5 write the formulas in other ways, so the import linked them by the words rule (words 0.91, formulas 0.79). The agent read both texts: they are the same problem with the same data. The row is a second statement of the record.'

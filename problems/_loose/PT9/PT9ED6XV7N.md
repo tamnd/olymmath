@@ -1,0 +1,19 @@
+---
+tag: PT9ED6XV7N
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=264499
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Aidan owns a plot of land that is in the shape of a triangle with side lengths $5$,$10$, and $5\sqrt3$ feet. Aidan wants to plant radishes such that there are no two radishes that are less than $1$ foot apart. Determine the maximum number of radishes Aidan can plant

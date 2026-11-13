@@ -1,0 +1,19 @@
+---
+tag: AH1D1CA0BM
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=266448
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Three red books, three white books, and three blue books are randomly stacked to form three piles of three books each. The probability that no book is the same color as the book immediately on top of it is $\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m + n$.

@@ -1,0 +1,20 @@
+---
+tag: GJEA587EC1
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=268091
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Prove that:$a+b+c+d \geq \frac{2}{3}(ab+bc+ca+ad+ac+bd)$
+where $a;b;c;d$ are positive real numbers satisfying $2(ab+bc+cd+da+ac+bd)+abc+bcd+cda+dab=16$

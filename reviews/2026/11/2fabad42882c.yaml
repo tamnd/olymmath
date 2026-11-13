@@ -1,0 +1,8 @@
+id: 2fabad42882c
+kind: match
+records:
+    - A91V9SYY9E
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. Row 266056 was joined into this record, which holds row 266048. The two rows state the same problem (the ticket prices, 100 more child tickets, 1475 dollars, and the takings with the prices reversed); only ''how many dollars'' and ''how much money'' differ.'

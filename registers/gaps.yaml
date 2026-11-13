@@ -1,0 +1,154 @@
+# The gap register (spec 14.3). Each entry gives the reason why expected positions of a competition have no record.
+# years: years or ranges of years. No years is every year. positions: no positions is every position of the years.
+# reason: link-only (the project links the competition only, by rule), robots (robots.txt blocks the source) or no-source (no allowed source gives the position).
+# An entry counts only the expected positions with no record. A position with a seed candidate stays open when the reason is no-source.
+# om coverage prints C0 against the allowed positions: the expected positions minus the positions of these entries.
+
+# Link-only by rule. The official sites give no list of problems to link for these positions.
+- competition: au-amo
+  reason: link-only
+  note: The project rules keep au-amo link-only. The AMT sells the papers in books, and only the papers of 2016 to 2020 are online (source amt), so the other years have no page to link.
+- competition: in-rmo
+  reason: link-only
+  note: The project rules keep in-rmo link-only. HBCSE has the papers from 2001 only. Before that, the RMO was regional with several papers. No official paper of the other positions was found to link.
+- competition: in-inmo
+  reason: link-only
+  note: The project rules keep in-inmo link-only. No official paper of these positions was found to link.
+- competition: uk-bmo1
+  reason: link-only
+  note: The project rules keep uk-bmo link-only. The UKMT papers start in 1973, so 1965 to 1972 have no paper to link.
+- competition: uk-bmo2
+  reason: link-only
+  note: The project rules keep uk-bmo link-only. No official BMO2 paper of these positions was found to link.
+- competition: kr-kmo
+  reason: link-only
+  note: The project rules keep kr-kmo link-only. No official paper of these positions was found to link.
+- competition: kr-fkmo
+  reason: link-only
+  note: The project rules keep kr-fkmo link-only. No official paper of these positions was found to link.
+
+# robots.txt blocks the source.
+- competition: de-mo
+  reason: robots
+  note: robots.txt of mathematik-olympiaden.de disallows all paths (source mathematik-olympiaden, checked 2026-11-02).
+- competition: bg-mo
+  reason: robots
+  note: robots.txt of math.bas.bg disallows ClaudeBot (source math-bas-bg, checked 2026-11-04).
+- competition: ca-cmo
+  reason: robots
+  note: robots.txt of cms.math.ca disallows /competitions/cmo/problem-sets (source cms, checked 2026-11-11).
+- competition: ca-cjmo
+  reason: robots
+  note: robots.txt of cms.math.ca disallows the CMS problem-set paths (source cms, checked 2026-11-11).
+- competition: pl-om
+  years: ["1950"]
+  reason: robots
+  note: The PTM archive (source archom) keeps the 1950 paper under /sites/, and robots.txt disallows /sites/.
+
+# No allowed source gives the position.
+- competition: pl-om
+  years: ["1965"]
+  positions: [p6]
+  reason: no-source
+  note: The PTM archive (source archom) has no statement of 1965 problem 6.
+- competition: de-bundeswettbewerb
+  years: ["1970-1999"]
+  reason: no-source
+  note: No official papers of 1970 to 1999 were found. The AoPS rows of these years have no problem numbers, and the AoPS pages need a browser.
+- competition: ro-nmo
+  years: ["2000", "2003-2011"]
+  reason: no-source
+  note: SSMR has no papers of 2000 and 2003 to 2011 (source ssmr-onm). The AoPS rows of these years give no grade and position for these problems.
+- competition: ua-umo
+  reason: no-source
+  note: No official archive was found. The AoPS rows restart the numbers per grade and day, and they give no grade, so they give no position.
+- competition: tw-tst
+  reason: no-source
+  note: No official source was found. Taiwan has several tests a year, and the AoPS rows restart the numbers per test with no test name.
+- competition: vn-vmo
+  reason: no-source
+  note: No official archive was found. The old years have no other source, and the AoPS rows of the later years restart the numbers per day with no day.
+- competition: vn-tst
+  reason: no-source
+  note: No official archive was found. The AoPS wiki titles of 2000, 2010, 2017, 2020, 2024 and 2025 give no day, and the rows restart the numbers per day.
+- competition: cn-mo
+  reason: no-source
+  note: No allowed official source was found. The AoPS rows of these positions have no problem number or no day.
+- competition: cn-tst
+  reason: no-source
+  note: No allowed official source was found. The AoPS rows restart the numbers per test, and their titles mix tests, days and quizzes.
+- competition: cn-gmo
+  reason: no-source
+  note: No allowed official source was found. The AoPS rows of these positions have no problem number.
+- competition: cn-wmo
+  reason: no-source
+  note: No allowed official source was found. The AoPS rows of these positions have no problem number or no day.
+- competition: cn-smo
+  reason: no-source
+  note: No allowed official source was found. The AoPS rows of these positions have no problem number, or they restart the numbers per grade and day.
+- competition: th-tmo
+  reason: no-source
+  note: No official archive was found. The AoPS rows restart the numbers per day or paper, or they have no number.
+- competition: sg-smo
+  reason: no-source
+  note: The SMS site (source sms-smo) is down. The AoPS rows of these positions have no number, and some AoPS topics hold two years.
+- competition: tr-mo
+  years: ["1996-2002"]
+  reason: no-source
+  note: The TÜBİTAK papers of these years are not online. The AoPS rows give no text or no position for these positions.
+- competition: tr-mo
+  years: ["2016"]
+  reason: no-source
+  note: TÜBİTAK has no paper of 2016 (source tubitak).
+- competition: mx-omm
+  years: ["2021"]
+  positions: [p3]
+  reason: no-source
+  note: The OMM site has no national file from 2018 on, and the Tzaloa issue of 2021 has no problem 3 (source omm).
+- competition: mx-omm
+  years: ["2023"]
+  reason: no-source
+  note: The OMM site has no national file from 2018 on, and Tzaloa has no 2023 national paper (source omm). nacionales.ommenlinea.org has only the 2026 contest.
+- competition: mx-omm
+  years: ["2026"]
+  reason: no-source
+  note: The 2026 contest is held on 16-21 November 2026, so no paper is out yet.
+- competition: ca-euclid
+  years: ["1976"]
+  reason: no-source
+  note: No official paper of 1976 is online. The AoPS rows of 1976 have no numbers.
+- competition: jp-jjmo
+  years: ["2021"]
+  reason: no-source
+  note: The imojp site has no JJMO papers of 2021 (source imojp).
+
+# Other nationals.
+- competition: cz-sk-mo
+  years: ["1958-1990"]
+  reason: no-source
+  note: The papers of 1958 to 1990 are not on the official site (source matematickaolympiada), and no other allowed source gives the positions.
+- competition: at-oemo
+  years: ["1984-2013"]
+  reason: no-source
+  note: These years have no paper on the official site (source oemo). The AoPS rows restart the numbers per round.
+- competition: at-oemo-beg
+  years: ["2000-2013"]
+  reason: no-source
+  note: These years have no paper on the official site (source oemo).
+- competition: es-ome
+  years: ["1975-1983", "1998", "2000", "2026"]
+  reason: no-source
+  note: The RSME site has no files of 1975 to 1983, 1998, 2000 and 2026 (source rsme-ome).
+- competition: pe-mo
+  reason: no-source
+  note: No primary source of the Peru olympiad was found. The AoPS rows of these positions give no position.
+- competition: id-osn
+  reason: no-source
+  note: No official archive of the OSN was found. The AoPS rows of these positions have no number, or one AoPS topic lands on two years.
+- competition: fi-mo
+  years: ["2025"]
+  reason: no-source
+  note: The only source of fi-mo is kalva, which has no 2025 paper. No official paper of 2025 was found.
+- competition: za-samo
+  reason: no-source
+  note: The site and archive of the South African olympiad are not confirmed, so no allowed source gives these positions.

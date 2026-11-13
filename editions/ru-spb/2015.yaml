@@ -1,1 +1,7 @@
 year: 2015
+official:
+  - lang: Russian
+    code: ru
+    url: https://www.pdmi.ras.ru/~olymp/2015/problems/c_911_15.pdf
+    paper: grade9
+    source: pdmi-olymp

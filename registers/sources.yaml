@@ -1606,6 +1606,22 @@
   state: active
   notes: The papers of the three stages of each olympiad are in Polish. The third stage is the final, with six problems. om papers records them, and the rows of the final are placed with them.
 
+- id: archom
+  name: Archiwum Olimpiady Matematycznej
+  kind: official
+  origin: H1
+  url: https://archom.ptm.org.pl/
+  access: html
+  terms: No licence stated. The footer of each page (read on 2026-11-13) says "© Prawa autorskie Polskie Towarzystwo Matematyczne". The site gives no terms of use.
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: The problems of the three rounds of the 1st to the 77th olympiads, one HTML page for each problem
+  wave: 1
+  state: active
+  notes: The archive of the Polish Mathematical Society (PTM) gives each problem of the olympiad on its own page at /?q=node/ID, in Polish, with the formulas as TeX in the alt text of images. The final round (zawody stopnia trzeciego) of the Nth olympiad is pl-om of the year 1949 + N, and its Zadanie N is problem N. robots.txt (checked on 2026-11-13) sets Crawl-delay 10 and disallows /sites/, so the PDF of the 1st olympiad (1950) is not fetched. The agent read each page and checked the TeX by hand. The page of problem 6 of the 16th olympiad (1965) has no statement.
+
 - id: omj
   name: Polish Junior Mathematical Olympiad
   kind: official

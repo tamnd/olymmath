@@ -385,11 +385,8 @@ at-oemo/1970/p4	at-oemo-reg/1970/p4
 at-oemo/2005/p4	at-oemo-reg/2005/p4
 at-oemo/2007/p4	at-oemo-reg/2007/p4
 at-oemo/2012/p4	at-oemo-reg/2012/p4
-at-oemo/2023/p1	at-oemo-fed1/2023/p1
-at-oemo/2023/p2	at-oemo-fed1/2023/p2
-at-oemo/2023/p3	at-oemo-fed1/2023/p3
-at-oemo/2023/p4	at-oemo-fed1/2023/p4
 # Agent decision, not a person's review (2026-11-12): at-oemo/2000/p4, 2001/p4, 2002/p4, 2003/p4, 2006/p4 and 2008/p4 held a problem of the regional round, which is now at the same position of at-oemo-reg. These positions now hold problem 1 of day 2 of the final round, so they have no redirect.
+# Agent decision, not a person's review (2026-11-13): at-oemo/2023/p1 to p4 held part 1 of the federal competition, which is now at at-oemo-fed1. These positions now hold problems 1 to 4 of the final round from the official paper, so they have no redirect.
 # Agent decision, not a person's review (2026-11-12): ir-mo-r2 now holds the second round of the Iranian olympiad, which shared the code ir-mo with the third round.
 ir-mo/2017/p4	ir-mo-r2/2017/p4
 # Agent decision, not a person's review (2026-11-12): ru-allrussian now has grade eras from 1993, so these records move from a flat number to the position of their grade, found in the official final round papers at olympiads.mccme.ru/vmo or in the AoPS wiki titles.

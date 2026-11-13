@@ -1456,12 +1456,15 @@
   origin: H1
   url: https://www.oemo.at/OeMO/aufgaben/
   access: pdf
+  terms: No licence stated. The Impressum (read on 2026-11-13) names the people responsible for the content and gives no terms of use. The papers have no copyright line.
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
+  size: One paper for each round and year from 2014 or 2015 to 2026, in German
   wave: 1
-  state: planned
+  state: active
+  notes: The page Aufgaben und Lösungen links one PDF for each round and year at /OeMO/aufgaben/ROUND/YEAR. BWF is the final round (Bundeswettbewerb, Finale, at-oemo) of 2015 to 2026, with Tag 1 (problems 1 to 3) and Tag 2 (problems 4 to 6) in one file. LWA is the beginners' round (Landeswettbewerb für Anfängerinnen und Anfänger, later named Junior-Regionalwettbewerb, at-oemo-beg) of 2014 to 2026, with four problems. robots.txt (checked on 2026-11-13, served from static.oemo.at) disallows only the agent Datanyze. om ocr -lanes native read the text layer, and the agent wrote the math in TeX by hand. Where a paper shows a figure, om figure cropped it from the PDF and the record shows it.
 
 - id: imosuisse
   name: IMO Suisse archive

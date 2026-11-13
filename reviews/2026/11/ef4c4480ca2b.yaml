@@ -1,0 +1,9 @@
+id: ef4c4480ca2b
+kind: pair
+records:
+    - S6QNXXH4SH
+    - us-tst/2000/p1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 204259 of NuminaMath 1.5 to this record, but they are two problems: the row is for positive reals, the record for nonnegative reals. The agent removed the row from the record, and row 204259 is now in a new loose record.'

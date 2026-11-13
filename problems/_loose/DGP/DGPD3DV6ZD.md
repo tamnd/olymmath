@@ -1,0 +1,22 @@
+---
+tag: DGPD3DV6ZD
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=220671
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Prove that there are infinitely many different triangles in coordinate plane satisfying:
+1) their vertices are lattice points
+2) their side lengths are consecutive integers
+**Remark**: Triangles that can be obtained by rotation or translation or shifting the coordinate system are considered as equal triangles

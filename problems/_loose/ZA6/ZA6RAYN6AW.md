@@ -1,0 +1,19 @@
+---
+tag: ZA6RAYN6AW
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=206455
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Compute $ \int_0^1 x^{2n+1}e^{-x^2}dx\ (n=1,\ 2,\ \cdots)$ , then use this result, prove that $ \sum_{n=0}^{\infty} \frac{1}{n!}=e$.

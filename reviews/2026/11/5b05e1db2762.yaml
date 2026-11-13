@@ -1,0 +1,9 @@
+id: 5b05e1db2762
+kind: pair
+records:
+    - KA7WZ9WBPC
+    - cz-sk-mo/2009/p3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 211089 of NuminaMath 1.5 to this record, but they are two problems: the row gives x=3 and asks to prove it is minimal, the record asks to find the least x. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 211089 is now in its own loose record.'

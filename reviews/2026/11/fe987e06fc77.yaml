@@ -1,0 +1,9 @@
+id: fe987e06fc77
+kind: pair
+records:
+    - WXEFQEPJG2
+    - MXMXBCD8AW
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 229302 of NuminaMath 1.5 to this record, but they are two problems: row asks whether a non-constant P exists, record asks to find all P. The agent removed the row from the record, and row 229302 is now in a new loose record.'

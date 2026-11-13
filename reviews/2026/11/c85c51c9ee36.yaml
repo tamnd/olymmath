@@ -1,0 +1,9 @@
+id: c85c51c9ee36
+kind: pair
+records:
+    - K30YR80HYH
+    - pumac/2012/na8
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 210652 of NuminaMath 1.5 to this record, but they are two problems: the exponent differs: the row has m^(2n-1), the record m^(2^n-1). The agent removed the row from the record, and row 210652 is now in a new loose record.'

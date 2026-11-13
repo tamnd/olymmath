@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-numina-olympiads
+    url: https://huggingface.co/datasets/project-numina/olympiads
+    capture: hf-numina-olympiads/default/train/0000.parquet#row=10857
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ibero/1988
+    source: hf-numina-olympiads
+    label: IberoAmerican_MO
 ---
 Let $S$ be the collection of all sets of $n$ distinct positive integers, with no three in arithmetic progression. Show that there is a member of $S$ which has the largest sum of the inverses of its elements (you do not have to find it or to show that it is unique).

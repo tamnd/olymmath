@@ -1,0 +1,9 @@
+id: 6aa1dde94617
+kind: pair
+records:
+    - WSGKC1W7KT
+    - tr-mo/2014/p6
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 216407 of NuminaMath 1.5 to this record, but they are two problems: the row counts ordered triples, the record just triples. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 216407 is now in its own loose record.'

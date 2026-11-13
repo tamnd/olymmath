@@ -1,0 +1,21 @@
+---
+tag: AFFTVEFMTS
+kind: problem
+type: answer
+answer: "9"
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=208937
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Initially, on the blackboard are written all natural numbers from $1$ to $20$. A move consists of selecting $2$ numbers $a<b$ written on the blackboard such that their difference is at least $2$, erasing these numbers and writting $a+1$ and $b-1$ instead. What is the maximum numbers of moves one can perform?

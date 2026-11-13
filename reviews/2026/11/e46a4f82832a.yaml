@@ -1,0 +1,9 @@
+id: e46a4f82832a
+kind: pair
+records:
+    - 76JNPTAW8B
+    - T29M9DR851
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 89434 of NuminaMath 1.5 to this record, but they are two problems: the row asks for all integer pairs (m, n), the record only for non-negative m and n (negative n gives extra solutions). The record already had a statement from this source, so the row added no statement and the problem was lost. Row 89434 is now in its own loose record.'

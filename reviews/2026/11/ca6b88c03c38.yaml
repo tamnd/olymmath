@@ -1,0 +1,8 @@
+id: ca6b88c03c38
+kind: match
+records:
+    - tot/2001-spring/ja7
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 228585 (E 0.991, T 0.928, keyword match 1.000) and the text of tot/2001-spring/ja7 state the same problem with the same data and the same question. The row became a second statement of the record.'

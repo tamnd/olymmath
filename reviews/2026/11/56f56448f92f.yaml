@@ -1,0 +1,9 @@
+id: 56f56448f92f
+kind: pair
+records:
+    - F67AZC95D8
+    - nl-nwo/1994/p5
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 223588 of NuminaMath 1.5 to this record, but they are two problems: the row asks for all r such that the bound holds, the record asks to prove the bound 2. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 223588 is now in its own loose record.'

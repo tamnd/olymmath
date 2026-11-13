@@ -1,0 +1,9 @@
+id: d9d62ccad0ca
+kind: pair
+records:
+    - 25CE5DP5G7
+    - putnam/2005/a5
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 208051 of NuminaMath 1.5 to this record, but they are two problems: row integrand ln(x+2)/(x+1), record ln(x+1)/(x^2+1). The agent removed the row from the record, and row 208051 is now in a new loose record.'

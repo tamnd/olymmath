@@ -1,0 +1,8 @@
+id: cc4516713550
+kind: match
+records:
+    - uz-mo/2014/p2
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 209624 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row equation is miscopied: the parentheses around f(x^2)+f(y^2)-f(xy) are lost and it says for all x only. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

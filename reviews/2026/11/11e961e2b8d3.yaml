@@ -1,0 +1,9 @@
+id: 11e961e2b8d3
+kind: pair
+records:
+    - GBT04V846W
+    - es-ome/2003/p5
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 227310 of NuminaMath 1.5 to this record, but they are two problems: the row asks what the possible areas are, the record asks how many possible areas there are. The agent removed the row from the record, and row 227310 is now in a new loose record.'

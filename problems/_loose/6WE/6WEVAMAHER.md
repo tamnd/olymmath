@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-numina-olympiads
+    url: https://huggingface.co/datasets/project-numina/olympiads
+    capture: hf-numina-olympiads/default/train/0000.parquet#row=10873
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ibero/1991
+    source: hf-numina-olympiads
+    label: IberoAmerican_MO
 ---
 Given three non-collinear points $\mathrm{M}, \mathrm{N}, \mathrm{H}$ show how to construct a triangle which has $\mathrm{H}$ as orthocenter and $\mathrm{M}$ and $\mathrm{N}$ as the midpoints of two sides.

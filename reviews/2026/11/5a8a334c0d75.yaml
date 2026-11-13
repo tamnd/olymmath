@@ -1,0 +1,9 @@
+id: 5a8a334c0d75
+kind: pair
+records:
+    - 6WCS67WFXH
+    - R2QHF55J0E
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 201776 of NuminaMath 1.5 to this record, but they are two problems: row says sequence of positive integers, record lacks this condition. The agent removed the row from the record, and row 201776 is now in a new loose record.'

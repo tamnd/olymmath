@@ -1,0 +1,9 @@
+id: 771f2ce12ded
+kind: pair
+records:
+    - K77JY57XTG
+    - R738DXVFHT
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 207214 of NuminaMath 1.5 to this record, but they are two problems: another equation: the row has x f(x^2) on the right, the record x^2 f(x). The record already had a statement from this source, so the row added no statement and the problem was lost. Row 207214 is now in its own loose record.'

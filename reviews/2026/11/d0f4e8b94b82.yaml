@@ -1,0 +1,9 @@
+id: d0f4e8b94b82
+kind: pair
+records:
+    - P3MX6CAMG9
+    - M5ZKWVZVDR
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 84633 of NuminaMath 1.5 to this record, but they are two problems: the record adds the condition x <= y and asks for nonnegative integers, the row asks for natural numbers with no ordering, so the solution sets differ. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 84633 is now in its own loose record.'

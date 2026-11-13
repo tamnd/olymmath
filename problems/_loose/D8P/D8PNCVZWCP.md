@@ -1,0 +1,20 @@
+---
+tag: D8PNCVZWCP
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=203861
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+$a)$ Prove that $2x^3-3x^2+1\geq 0,~(\forall)x\geq0.$
+$b)$ Let $x,y,z\geq 0$ such that $\frac{2}{1+x^3}+\frac{2}{1+y^3}+\frac{2}{1+z^3}=3.$ Prove that $\frac{1-x}{1-x+x^2}+\frac{1-y}{1-y+y^2}+\frac{1-z}{1-z+z^2}\geq 0.$

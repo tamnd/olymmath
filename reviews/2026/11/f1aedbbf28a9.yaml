@@ -1,0 +1,9 @@
+id: f1aedbbf28a9
+kind: pair
+records:
+    - NCR0QHST8V
+    - bg-mo/2007/p4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 221899 of NuminaMath 1.5 to this record, but they are two problems: the row requires the two summands to be distinct, the record does not. The project only links the texts of this competition, so the import adds no row to it, and the problem was lost. Row 221899 is now in its own loose record.'

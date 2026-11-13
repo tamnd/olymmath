@@ -1,0 +1,9 @@
+id: 6c11145308ea
+kind: pair
+records:
+    - DRM3J3VXNV
+    - apmo/1991/p3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 229555 of NuminaMath 1.5 to this record, but they are two problems: the row normalises both sums to 1 and asks for the minimum, the record has equal sums and asks to prove the bound of half the sum. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 229555 is now in its own loose record.'

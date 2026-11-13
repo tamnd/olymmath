@@ -1,0 +1,9 @@
+id: f9c5df24cb5b
+kind: pair
+records:
+    - MBXFFPJFB4
+    - imc/2008/p12
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 224360 of NuminaMath 1.5 to this record, but they are two problems: the record requires a real Hilbert space, the row does not say real. The agent removed the row from the record, and row 224360 is now in a new loose record.'

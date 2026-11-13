@@ -1,0 +1,9 @@
+id: dfc91ffe6398
+kind: pair
+records:
+    - ED49BJCK83
+    - oimu/2008/p5
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 221252 of NuminaMath 1.5 to this record, but they are two problems: row is an inequality to prove for reals, record asks for n with positive integer solutions of an equation. The agent removed the row from the record, and row 221252 is now in a new loose record.'

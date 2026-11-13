@@ -1,0 +1,22 @@
+---
+tag: CDY4TR9GM2
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=220696
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Prove that for all $n\in \mathbb{N}$ there exist natural numbers $a_1,a_2,...,a_n$ such that:
+$(i)a_1>a_2>...>a_n$
+$(ii)a_i|a^2_{i+1},\forall i\in\{1,2,...,n-1\}$
+$(iii)a_i\nmid a_j,\forall i,j\in \{1,2,...,n\},i\neq j$

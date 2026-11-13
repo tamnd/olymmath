@@ -1,0 +1,21 @@
+---
+tag: TGDWHJ9GSV
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=205424
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Let $ a_1, a_2, ..., a_{300}$ be nonnegative real numbers, with $ \sum_{i=1}^{300} a_i = 1$.
+
+Find the maximum possible value of $ \sum_{i \neq j, i|j} a_ia_j$.

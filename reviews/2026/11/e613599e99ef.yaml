@@ -1,0 +1,9 @@
+id: e613599e99ef
+kind: pair
+records:
+    - 28WYJ96EHJ
+    - hu-komal/2023/b5335
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 190082 of NuminaMath 1.5 to this record, but they are two problems: row: prove the expression equals 4 for reals with xyz=1, record: find its value for positive numbers. The agent removed the row from the record, and row 190082 is now in a new loose record.'

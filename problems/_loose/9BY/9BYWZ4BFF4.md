@@ -1,0 +1,26 @@
+---
+tag: 9BYWZ4BFF4
+kind: problem
+type: answer
+answer: "10"
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=191836
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+If $10 \%$ of $s$ is $t$, then $s$ equals
+(A) $0.1 t$
+(B) $0.9 t$
+(C) $9 t$
+(D) $10 t$
+(E) $90 t$

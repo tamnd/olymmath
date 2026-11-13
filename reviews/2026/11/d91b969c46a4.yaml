@@ -1,0 +1,9 @@
+id: d91b969c46a4
+kind: pair
+records:
+    - 8ZCQ53NCZZ
+    - hmmt/2017/u32
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 217173 of NuminaMath 1.5 to this record, but they are two problems: the row asks for the maximum, the record for the minimum. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 217173 is now in its own loose record.'

@@ -1,0 +1,21 @@
+---
+tag: NFCAG1243M
+kind: problem
+type: answer
+answer: \frac{18}{25}
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=190008
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Prove that through the point $A(4,3)$ two lines can be drawn which cut off triangles of equal area, 27, from the first quadrant. Then find the angle between these two lines.

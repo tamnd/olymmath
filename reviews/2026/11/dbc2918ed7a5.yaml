@@ -1,0 +1,8 @@
+id: dbc2918ed7a5
+kind: sample
+records:
+    - 8A9XC674NW
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text states one complete problem and no solution. It is a proof problem, and the answer in the source only repeats the inequality, so the agent removed the answer from the record.'

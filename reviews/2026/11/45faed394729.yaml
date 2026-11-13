@@ -1,0 +1,9 @@
+id: 45faed394729
+kind: pair
+records:
+    - 2CW2VR4K43
+    - nemotron-imo-bench/2026/c12
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 206928 of NuminaMath 1.5 to this record, but they are two problems: the row fixes n=2^(k+1) with k>1, the record allows any n>2^k. The agent removed the row from the record, and row 206928 is now in a new loose record.'

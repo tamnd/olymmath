@@ -1,0 +1,9 @@
+id: da21940d22ad
+kind: pair
+records:
+    - RXAPQ73HRA
+    - Y3WKDFWDE9
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 199330 of NuminaMath 1.5 to this record, but they are two problems: the row says operations are grouped from right to left, the record says left to right. The agent removed the row from the record, and row 199330 is now in a new loose record.'

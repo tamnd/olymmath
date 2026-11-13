@@ -1,0 +1,8 @@
+id: d9cfe03ff4cd
+kind: match
+records:
+    - xk-tst/2016/p1
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 216150 of NuminaMath 1.5 to this record, but the row is not a clear copy: the nested radical in the row is garbled (the sqrt of 16x closes early), so the equation is not clear. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

@@ -1,0 +1,9 @@
+id: bb25919edb66
+kind: pair
+records:
+    - 9HS3QY7XXM
+    - nemotron-imo-bench/2026/c19
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 219990 of NuminaMath 1.5 to this record, but they are two problems: the row asks to prove S > x^n+x-1, the record S >= x^n+x-1. The agent removed the row from the record, and row 219990 is now in a new loose record.'

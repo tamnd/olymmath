@@ -1,0 +1,9 @@
+id: a906e5d2e33c
+kind: pair
+records:
+    - 3WFYX68MW4
+    - DVY414PHF8
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 116779 of NuminaMath 1.5 to this record, but they are two problems: the row restricts to odd primes p, the record states it for every prime. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 116779 is now in its own loose record.'

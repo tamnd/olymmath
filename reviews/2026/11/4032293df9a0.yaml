@@ -1,0 +1,9 @@
+id: 4032293df9a0
+kind: pair
+records:
+    - A9635SD748
+    - A5XWD9GZYG
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 72211 of NuminaMath 1.5 to this record, but they are two problems: the row asks to prove an inequality for positive x, the record asks to solve the equation with = in place of >=. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 72211 is now in its own loose record.'

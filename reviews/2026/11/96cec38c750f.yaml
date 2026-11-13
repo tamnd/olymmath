@@ -1,0 +1,8 @@
+id: 96cec38c750f
+kind: match
+records:
+    - baltic-way/1999/p3
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 222951 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row drops the cyclic term a_n a_1 from the sum, so its inequality is not the one in the record. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

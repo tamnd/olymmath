@@ -1,0 +1,9 @@
+id: b30fb6f396a6
+kind: pair
+records:
+    - ZND69G9773
+    - 8YX2VBMAHX
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 212508 of NuminaMath 1.5 into this record, which holds row 208052, but they are two problems: different integrands: the row has a quotient of powers over a product with log factors, the record a product of powers over (x+a)(x+b). The row added no statement, so the problem was lost. Row 212508 is now in a new loose record.'

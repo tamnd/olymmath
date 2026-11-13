@@ -1,0 +1,9 @@
+id: abd94aee9d11
+kind: pair
+records:
+    - XM23ZJ19RX
+    - MKKATW3V3V
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 204205 of NuminaMath 1.5 to this record, but they are two problems: the row drops the condition that the triangle is acute. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 204205 is now in its own loose record.'

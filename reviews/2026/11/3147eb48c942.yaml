@@ -1,0 +1,8 @@
+id: 3147eb48c942
+kind: match
+records:
+    - VN3A2DHZTW
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 229542 of NuminaMath 1.5 to this record, but the row is not a clear copy: row miscopies ''3-digit'' as ''other than 3 digits''. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

@@ -1,0 +1,9 @@
+id: a7af03d4f8be
+kind: pair
+records:
+    - 35MWZ5P5FW
+    - ca-cmo/2002/p5
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 219287 of NuminaMath 1.5 to this record, but they are two problems: the record defines N to include 0, the row leaves N undefined (usually positive integers). The project only links the texts of this competition, so the import adds no row to it, and the problem was lost. Row 219287 is now in its own loose record.'

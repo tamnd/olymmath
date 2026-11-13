@@ -1,0 +1,19 @@
+---
+tag: 8JW2PX0FK3
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=229471
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Show that the number $\begin{matrix} \\ N= \end{matrix} \underbrace{44 \ldots 4}_{n} \underbrace{88 \ldots 8}_{n} - 1\underbrace{33 \ldots3 }_{n-1}2$ is a perfect square for all positive integers $n$.

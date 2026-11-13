@@ -1,0 +1,9 @@
+id: b28b2ac17406
+kind: pair
+records:
+    - CNZT4J2TY5
+    - usamo/2003/p6
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 203606 of NuminaMath 1.5 to this record, but they are two problems: the row has the six numbers summing to 2003, the record to 2003^2003. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 203606 is now in its own loose record.'

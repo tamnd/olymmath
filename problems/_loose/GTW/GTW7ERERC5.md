@@ -1,0 +1,28 @@
+---
+tag: GTW7ERERC5
+kind: problem
+type: answer
+answer: 1011^4
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=226494
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Let $S$ be the set of **lattice** points whose both coordinates are positive integers no larger than $2022$. i.e., $S=\{(x, y) \mid x, y\in \mathbb{N}, 1\leq x, y\leq 2022\}$. We put a card with one gold side and one black side on each point in $S$. We call a rectangle *"good"* if:
+
+(i) All of its sides are parallel to the axes and have positive integer coordinates no larger than $2022$.
+(ii) The cards on its top-left and bottom-right corners are showing gold, and the cards on its top-right and bottom-left corners are showing black.
+
+Each *"move"* consists of choosing a good rectangle and flipping all cards simultaneously on its four corners. Find the maximum possible number of moves one can perform, or show that one can perform infinitely many moves.
+
+*Proposed by CSJL*

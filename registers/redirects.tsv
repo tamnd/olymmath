@@ -405,3 +405,14 @@ lt-mo/2006/p1	lt-mo/2006/p111
 lt-mo/2006/p2	lt-mo/2006/p112
 lt-mo/2006/p4	lt-mo/2006/p94
 lt-mo/2010/p3	lt-mo/2010/p93
+# Agent decision, not a person's review (2026-11-14): the next 8 Crux records were a correction that a later issue printed again. The problem has its record in the issue that first printed it.
+journal-crux/2009/p3393	journal-crux/2008/p3393
+journal-crux/2012/p3690	journal-crux/2011/p3690
+journal-crux/2012/p3693	journal-crux/2011/p3693
+journal-crux/2013/p3783	journal-crux/2012/p3783
+journal-crux/2013/p3792	journal-crux/2012/p3792
+journal-crux/2013/p3793	journal-crux/2012/p3793
+journal-crux/2015/p3960	journal-crux/2014/p3960
+journal-crux/2016/p4085	journal-crux/2015/p4085
+# Agent decision, not a person's review (2026-11-14): the page images show that Crux problem 3282 is in Vol. 33, No. 7 (Nov 2007). Vol. 34, No. 4 only printed a correction of it.
+journal-crux/2008/p3282	journal-crux/2007/p3282

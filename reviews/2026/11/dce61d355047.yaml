@@ -1,0 +1,9 @@
+id: dce61d355047
+kind: pair
+records:
+    - CMB52XDRMX
+    - QX8BH3TDCS
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 38286 of NuminaMath 1.5 to this record, but they are two problems: the row asks to prove the equality cannot hold for natural m, n, the record asks to find integers m, n for which it holds. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 38286 is now in its own loose record.'

@@ -1,0 +1,19 @@
+---
+tag: BPAXN9916G
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=266238
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+The expression $\left(1 + \sqrt[6]{26 + 15\sqrt3} -\sqrt[6]{26 - 15\sqrt3}\right)^6= m + n\sqrt{p}$ , where $m, n$, and $p$ are positive integers, and $p$ is not divisible by the square of any prime. Find $m + n + p$.

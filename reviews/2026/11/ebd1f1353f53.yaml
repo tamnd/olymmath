@@ -1,0 +1,9 @@
+id: ebd1f1353f53
+kind: pair
+records:
+    - YTFYJTG0M4
+    - in-inmo/2002/p2
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 265541 of NuminaMath 1.5 to this record, but they are two problems: the row asks to factor a^3+b^3+c^3-3abc, the record asks for its least positive value over positive integers. The project only links the texts of this competition, so the import adds no row to it, and the problem was lost. Row 265541 is now in its own loose record.'

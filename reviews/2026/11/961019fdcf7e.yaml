@@ -1,0 +1,8 @@
+id: 961019fdcf7e
+kind: doubt
+records:
+    - hmmt/2004/c2
+decision: flagged
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. This record holds the texts of two problems: the main text is the chessboard marking problem, and the statement under the marker S2 is the coin flip problem of Andrea. The rows 146767 and 146776 of NuminaMath 1.5 state the second problem, and the import linked them here; they add no statement, because the record already has a statement from this source. The agent did not split the record. A person must decide how to split it and where the second problem belongs.'

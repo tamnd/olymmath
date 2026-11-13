@@ -1,0 +1,9 @@
+id: e7502eae35d2
+kind: pair
+records:
+    - 187CW19GF2
+    - B4KMX3NAFT
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import joined row 267619 of NuminaMath 1.5 into this record, which holds row 267595, but they are two problems: the row asks for the greatest value of xy+yz+zx, the record for the smallest value of xy-yz-zx. The row added no statement, so the problem was lost. Row 267619 is now in a new loose record.'

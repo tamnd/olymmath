@@ -1,0 +1,8 @@
+id: 50db9e7cd193
+kind: match
+records:
+    - 4SEV2H83QH
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. Row 147302 was joined into this record, which holds row 147177. The two rows state the same problem (400 and 600 students with the ratios 3:2 and 2:3, and the ratio of boys to girls in all); only the name of the first school differs, and the choices are the same.'

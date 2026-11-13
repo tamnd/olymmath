@@ -1,0 +1,19 @@
+---
+tag: QTQ6WX279F
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=265121
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Alice and Bob are builders; Charlie is a destroyer. Alice can build a car in $20$ hours and Bob can build a car in $10$ hours, while Charlie destroys a car in $40$ hours. If Alice and Bob are working together on a car Charlie is destroying, how many hours will it take for Alice and Bob to finish building the car?

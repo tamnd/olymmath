@@ -1,0 +1,8 @@
+id: e3923ac1f66b
+kind: match
+records:
+    - hmnt/2020/u23
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The row 146197 (E 0.997, T 0.961, keyword match 0.886) and the text of hmnt/2020/u23 state the same problem with the same data and the same question. The row became a second statement of the record.'

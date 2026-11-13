@@ -1,0 +1,8 @@
+id: e3241f0e8b33
+kind: match
+records:
+    - YV59GKX08P
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The row 146587 and the text of YV59GKX08P write the formulas in other ways, so the import linked them by the words rule (words 1.00, formulas 1.00). The agent read both texts: they are the same problem with the same data. The record already has a statement from this source, so the row adds no new statement and makes no new record.'

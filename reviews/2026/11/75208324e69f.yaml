@@ -1,0 +1,8 @@
+id: 75208324e69f
+kind: match
+records:
+    - putnam/2004/a2
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The row 260056 (E 0.939, T 0.774, keyword match 1.000) and the text of putnam/2004/a2 state the same problem with the same data and the same question. The row became a second statement of the record.'

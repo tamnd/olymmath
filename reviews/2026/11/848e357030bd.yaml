@@ -1,0 +1,8 @@
+id: 848e357030bd
+kind: match
+records:
+    - vn-vmo/1969/p4
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 149772 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row''s second question is garbled ("If OO''^2 R^2 + R''^2."): the condition and the minimization of PO+PO'' are lost. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

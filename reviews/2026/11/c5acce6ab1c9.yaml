@@ -1,0 +1,8 @@
+id: c5acce6ab1c9
+kind: match
+records:
+    - putnam/1979/b5
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The agent read row 259769 of NuminaMath 1.5 and this record again, because the first review found a difference: the row has A(C) <= 4 and the record A(C) < 4; the row is the original wording and the record has a slip. The agent kept the link. The record already had a statement from this source, so the row adds no new statement.'

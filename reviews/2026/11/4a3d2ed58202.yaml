@@ -1,0 +1,9 @@
+id: 4a3d2ed58202
+kind: pair
+records:
+    - D27VZ1EWAF
+    - 6139X4RMPK
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 147072 of NuminaMath 1.5 to this record, but they are two problems: the row asks for the minimum of |(x+y)/(1+xy)|, the record for the minimum and maximum of |(x+y)/(1+x conj(y))|. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 147072 is now in its own loose record.'

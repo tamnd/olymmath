@@ -1,0 +1,9 @@
+id: 066640412183
+kind: pair
+records:
+    - FME6XHBJFT
+    - isl/2016/n1
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 149197 of NuminaMath 1.5 to this record, but they are two problems: the row requires n >= 2017, the record n >= 2016. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 149197 is now in its own loose record.'

@@ -1,0 +1,9 @@
+id: 5dcffac47d3d
+kind: pair
+records:
+    - EF4ZJHJ728
+    - M38N4VTPBB
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 231351 of NuminaMath 1.5 to this record, but they are two problems: the row proves a cyclic ratio inequality for a>=b>=c, the record asks which integers equal a six-term ratio sum for coprime a,b,c. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 231351 is now in its own loose record.'

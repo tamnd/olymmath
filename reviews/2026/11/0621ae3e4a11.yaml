@@ -1,0 +1,8 @@
+id: 0621ae3e4a11
+kind: doubt
+records:
+    - hmmt/2001/a10
+decision: flagged
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. This record holds the texts of two problems: the main text is the equation (2x+1)(3x+1)(5x+1)(30x+1)=10, and the statement under the marker S4 is the problem of the Connect Four shapes of Boris. The rows 146554, 146565 and 149776 of NuminaMath 1.5 state the second problem, and the import linked them here; they add no statement, because the record already has a statement from this source. The agent did not split the record. A person must decide how to split it and where the second problem belongs.'

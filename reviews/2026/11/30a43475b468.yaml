@@ -1,0 +1,9 @@
+id: 30a43475b468
+kind: pair
+records:
+    - 1NB99MPR8F
+    - smt/2012/k1
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 263593 of NuminaMath 1.5 to this record, but they are two problems: the row integrates (x-5)+(x-5)^2+(x-3)^2, the record (x-5)+(x-5)^2+(x-5)^3. The agent removed the row from the record, and row 263593 is now in a new loose record.'

@@ -1,0 +1,21 @@
+---
+tag: BTM6CT5XFA
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=264892
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+A circle with area $\tfrac{36}{\pi}$ has the same perimeter as a square with what side length?
+
+$\textbf{(A) }\frac{9}{\pi} \textbf{(B) }3 \textbf{(C) }\pi \textbf{(D) }6 \textbf{(E) }\pi^2$

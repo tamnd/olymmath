@@ -1,0 +1,9 @@
+id: f9eda6bcd765
+kind: pair
+records:
+    - C3C6ZJ3E02
+    - SD2Y39PRPX
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 242843 of NuminaMath 1.5 to this record, but they are two problems: the row takes any fixed rational q, the record a positive rational q. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 242843 is now in its own loose record.'

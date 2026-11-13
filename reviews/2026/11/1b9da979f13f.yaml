@@ -1,0 +1,8 @@
+id: 1b9da979f13f
+kind: match
+records:
+    - hmmt/2024/u36
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 146540 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row refers to "the following diagram" for the positions of P1 to P7 but has no image, the record carries the diagram, without it the row gives no data to solve. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

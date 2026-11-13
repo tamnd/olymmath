@@ -1,0 +1,8 @@
+id: 3e618a20ed7a
+kind: sample
+records:
+    - KS5JT63HHF
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The text states one complete problem and no solution. The source had a stray mark ''[/*]'' at the end of a list item, so the agent removed it.'

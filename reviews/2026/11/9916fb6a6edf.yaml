@@ -1,0 +1,9 @@
+id: 9916fb6a6edf
+kind: pair
+records:
+    - CPJ688AH34
+    - TFJ53B9X58
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 147903 of NuminaMath 1.5 to this record, but they are two problems: the row requires rational coefficients, the record states no coefficient field (over the reals the answer is 2). The record already had a statement from this source, so the row added no statement and the problem was lost. Row 147903 is now in its own loose record.'

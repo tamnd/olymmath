@@ -1,0 +1,8 @@
+id: 456b4c36e0ac
+kind: match
+records:
+    - ZX76VC9K9P
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The agent read row 189815 of NuminaMath 1.5 and this record again, because the first review found a difference: the row says non-negative a, b and the record positive a, b; the inequality and its equality case are the same, so it is the same problem in another wording. The agent kept the link. The record already had a statement from this source, so the row adds no new statement.'

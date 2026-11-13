@@ -1,0 +1,23 @@
+---
+tag: AYJ4D11ZNY
+kind: problem
+type: answer
+answer: "392"
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=264654
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Let *Revolution*$(x) = x^3 +Ux^2 +Sx + A$, where $U$, $S$, and $A$ are all integers and $U +S + A +1 = 1773$. Given that *Revolution* has exactly two distinct nonzero integer roots $G$ and $B$, find the minimum value of $|GB|$.
+
+*Proposed by Jacob Xu*

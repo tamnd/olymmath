@@ -1,0 +1,8 @@
+id: 3f5b9edb27f3
+kind: match
+records:
+    - S42CWXH74H
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The agent read row 212952 of NuminaMath 1.5 and this record again, because the first review found a difference: the row says a ring with unity and the record a ring; the claim and its proof are the same, so it is the same problem. The agent kept the link. The record already had a statement from this source, so the row adds no new statement.'

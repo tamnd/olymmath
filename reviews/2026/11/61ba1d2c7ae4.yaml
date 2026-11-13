@@ -1,0 +1,8 @@
+id: 61ba1d2c7ae4
+kind: match
+records:
+    - V7YVEFGCJD
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. Row 147399 was joined into this record, which holds row 147167. The two rows are the same text (13 red, 5 blue, 1 white and 9 green gumballs, and 3 of the same colour); only the TeX differs.'

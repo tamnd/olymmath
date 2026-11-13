@@ -1,0 +1,19 @@
+---
+tag: NJDT2EJ0WZ
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=261523
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+If $f(i, j, k) = f(i - 1, j + k , 2i - 1)$ and $f(0, j, k) = j + k$, evaluate $f(n, 0, 0)$.

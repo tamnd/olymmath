@@ -1,0 +1,9 @@
+id: bcd0644da526
+kind: pair
+records:
+    - EZ0VFWWV5J
+    - 92DR1JACSK
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import joined row 267648 of NuminaMath 1.5 into this record, which holds row 267635, but they are two problems: the row has the fraction (ax+b)/(cx+d) and integers A,B,C,D, the record has (ax+b)/x and integers A,B,C. The row added no statement, so the problem was lost. Row 267648 is now in a new loose record.'

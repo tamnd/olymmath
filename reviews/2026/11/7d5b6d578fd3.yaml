@@ -1,0 +1,8 @@
+id: 7d5b6d578fd3
+kind: match
+records:
+    - 1V5H56NXEM
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 262131 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row has lost its opening sentence, so the condition that a,b,c,d are positive integers is missing and the answer is not fixed. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

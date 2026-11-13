@@ -1,0 +1,9 @@
+id: 64f72a5a2b35
+kind: pair
+records:
+    - 6YRR7HQJ8X
+    - pumac/2010/nb5
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 147914 of NuminaMath 1.5 to this record, but they are two problems: the row asks for the number of possible x values, the record for the sum of all possible x values. The agent removed the row from the record, and row 147914 is now in a new loose record.'

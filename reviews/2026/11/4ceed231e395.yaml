@@ -1,0 +1,8 @@
+id: 4ceed231e395
+kind: match
+records:
+    - hmmt/2004/c2
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 262209 of NuminaMath 1.5 to this record, but the row states the coin flip problem (stop at HH or TH, the probability of HH), which is the first text of hmmt/2004/c4, and that record already has a statement from this source. The agent took the row out of this record, made no loose record of it, and listed it in registers/loose-removed.tsv.'

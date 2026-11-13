@@ -1,0 +1,9 @@
+id: f56e61a2b44f
+kind: pair
+records:
+    - W9S4JGX6AX
+    - SBPBE04K2F
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import joined row 268395 of NuminaMath 1.5 into this record, which holds row 268360, but they are two problems: the row has right side (f(x))^2, the record has (f(x))^2 - f(y). The row added no statement, so the problem was lost. Row 268395 is now in a new loose record.'

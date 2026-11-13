@@ -1,0 +1,8 @@
+id: fcf521685ec3
+kind: match
+records:
+    - putnam/1979/b6
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The agent read row 259770 of NuminaMath 1.5 and this record again, because the first review found a difference: the row has r <= the sum of the |x_k| and the record r < the sum; the row is the original wording and the record has a slip. The agent kept the link. The record already had a statement from this source, so the row adds no new statement.'

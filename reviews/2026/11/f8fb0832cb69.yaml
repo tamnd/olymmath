@@ -1,0 +1,8 @@
+id: f8fb0832cb69
+kind: match
+records:
+    - imo/1967/p3
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 157391 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row miscopies the key definition as "c_x for s(s+1)" instead of c_s = s(s+1). The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

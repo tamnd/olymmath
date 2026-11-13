@@ -1,0 +1,9 @@
+id: ef54b94fee71
+kind: pair
+records:
+    - 5ETMCMHMC4
+    - WC3P2MMWCA
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 250626 of NuminaMath 1.5 to this record, but they are two problems: the row has odd m,n with m^2+1-n^2 dividing n^2-1 and asks for a proof, the record has positive m,n of the same parity with n^2-1 dividing |m^2+1-n^2| and asks whether it holds. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 250626 is now in its own loose record.'

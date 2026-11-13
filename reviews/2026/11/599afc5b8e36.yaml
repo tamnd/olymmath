@@ -1,0 +1,8 @@
+id: 599afc5b8e36
+kind: match
+records:
+    - hmic/2022/p2
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The row 262465 and the text of hmic/2022/p2 write the formulas in other ways, so the import linked them by the words rule (words 0.93, formulas 1.00). The agent read both texts: they are the same problem with the same data. The row is a second statement of the record.'

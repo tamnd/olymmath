@@ -1,0 +1,8 @@
+id: 1dafc13352b4
+kind: match
+records:
+    - putnam/1984/b2
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked row 149357 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row domain is garbled ("for 00"), the conditions 0<u<sqrt2 and v>0 are lost. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

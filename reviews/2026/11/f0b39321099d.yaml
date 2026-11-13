@@ -1,0 +1,7 @@
+id: f0b39321099d
+kind: merge
+records: [MV35TV9F2W, NWWTKQF1DF]
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The official Moscow MO paper https://mmo.mccme.ru/2018/var.pdf (page 1) gives the same problem at ru-moscow/2018/p95 and ru-moscow/2018/p104: a good arrangement of n ones and m zeros on a circle. So p104 is now an appearance of MV35TV9F2W. The same paper gives a different problem at ru-moscow/2018/p86, a convex hexagon with equilateral triangles on its sides. The text of problems.ru page 66471 agrees with p86 and not with p104. Review f3a84db99879 joins p86 with p115. The merge in review 59b8c603c749 was wrong: problems.ru gave one page for p86 and p104, but the paper has two problems."

@@ -1,0 +1,12 @@
+year: 2025
+papers:
+  - name: Paper 1
+    problems: [p1, p2, p3, p4, p5]
+  - name: Paper 2
+    problems: [p6, p7, p8, p9, p10]
+official:
+  - lang: English
+    code: en
+    url: https://maths.ucd.ie/~dukes/Irish_Maths_Olympiad_Compendium.pdf
+    paper: paper1
+    source: ucd-irmo

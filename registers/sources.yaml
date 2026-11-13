@@ -1450,6 +1450,22 @@
   wave: 1
   state: planned
 
+- id: ucd-irmo
+  name: The Irish Mathematical Olympiads Compendium (Mark Dukes, UCD)
+  kind: curated
+  origin: H2
+  url: https://maths.ucd.ie/~dukes/irmo.html
+  access: pdf
+  terms: "The compendium (read on 2026-11-13, the version of October 2026) gives no licence and no copyright notice. Its preface says that Mark Dukes keeps it and that the latest version is always at maths.ucd.ie/~dukes/irmo.html. Agent decision, not a person's review: Z2, the spec default for competition statements, so the content holds the statement of each problem with a link to the file."
+  zone:
+    statement: Z2
+    solution: Z3
+  ai_train: unknown
+  size: One PDF of 90 pages with the two papers of each Irish Mathematical Olympiad from 1988 to 2026, hints for some problems and an index
+  wave: 1
+  state: active
+  notes: "The file is https://maths.ucd.ie/~dukes/Irish_Maths_Olympiad_Compendium.pdf. Each year starts on a new page and each paper starts on a new page. The robots.txt of maths.ucd.ie disallows only /tl and /cgi-bin/ (checked on 2026-11-13). The official site www.irmo.ie links an older copy, but its CloudFront gives 403 to the agent, also for robots.txt, so the agent does not read it."
+
 - id: oemo
   name: Österreichische Mathematik-Olympiade
   kind: official

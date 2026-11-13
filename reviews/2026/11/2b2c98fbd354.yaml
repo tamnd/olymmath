@@ -1,0 +1,9 @@
+id: 2b2c98fbd354
+kind: pair
+records:
+    - TAK7G7HYEE
+    - imo/2017/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 81652 of NuminaMath 1.5 to this record, but they are two problems: different functional equations: the row f(f(x)f(y))=f(x)y, the record f(f(x)f(y))+f(x+y)=f(xy). The agent removed the row from the record, and row 81652 is now its own loose record.'

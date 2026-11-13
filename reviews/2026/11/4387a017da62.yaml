@@ -1,0 +1,9 @@
+id: 4387a017da62
+kind: pair
+records:
+    - NHR6C5PS8T
+    - 9T7XA92FHP
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 66350 of NuminaMath 1.5 to this record, but they are two problems: the row gives the ratio lateral edge to base side for the prism, the record gives it for the pyramid. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 66350 is now its own loose record.'

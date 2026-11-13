@@ -1,0 +1,8 @@
+id: 98a28043e795
+kind: match
+records:
+    - apmo/2008/p4
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 90976 of NuminaMath 1.5 to this record, but the row part (a) is garbled: "the three sets L:={n | f(n)f(n+1)}" lost the < sign and the sets E and G, and the row is not a clear problem of its own: the formulas of part (a) are garbled. The agent took the row out and listed it in registers/loose-removed.tsv.'

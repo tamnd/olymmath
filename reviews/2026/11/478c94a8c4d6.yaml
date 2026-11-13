@@ -1,0 +1,8 @@
+id: 478c94a8c4d6
+kind: match
+records:
+    - ru-moscow/2023/p96
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 67709 of NuminaMath 1.5 to this record, but the row bound is a_2023 <= 1001,000 (garbled), the record bound is a_2023 <= 100 000, and the row is not a clear problem of its own: a garbled number. The agent took the row out and listed it in registers/loose-removed.tsv.'

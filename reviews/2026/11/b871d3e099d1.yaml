@@ -1,0 +1,9 @@
+id: b871d3e099d1
+kind: pair
+records:
+    - SDWTF9FZ09
+    - tw-tst/1998/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 91853 of NuminaMath 1.5 to this record, but they are two problems: the row asks for solutions greater than 2000, the record asks for solutions greater than 1998. The agent removed the row from the record, and row 91853 is now its own loose record.'

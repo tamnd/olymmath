@@ -1,0 +1,9 @@
+id: 9f22ac339eea
+kind: pair
+records:
+    - RZKNVB7QK6
+    - EKJV72FGAZ
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 84449 of NuminaMath 1.5 to this record, but they are two problems: the row assumes the points X_i lie on the circle Gamma, the record assumes they lie inside Gamma (on vs inside). The record already had a statement from this source, so the row added no statement and the problem was lost. Row 84449 is now its own loose record.'

@@ -1,0 +1,8 @@
+id: 7ec1c1fe2cdc
+kind: match
+records:
+    - isl/2012/a3
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 79525 of NuminaMath 1.5 is linked to this record. The numbers of the two texts differ: the row proves the bound with >= and no lower limit on n, the record with > and n >= 3. It is the same problem in a weaker or a fuller form, so the link stays.'

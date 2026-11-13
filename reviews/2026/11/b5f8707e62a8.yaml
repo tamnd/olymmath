@@ -1,0 +1,9 @@
+id: b5f8707e62a8
+kind: pair
+records:
+    - BB6CAJQ9AN
+    - amo-bench/2025/p26
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 90165 of NuminaMath 1.5 to this record, but they are two problems: the row asks to show there are infinitely many solutions of x^999+y^1000=z^1001, the record asks for the number of positive integer solutions. The agent removed the row from the record, and row 90165 is now its own loose record.'

@@ -1,0 +1,19 @@
+---
+tag: YV9JZC41N5
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=85212
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Let ABC be a fixed equilateral triangle. For each arbitrary line l passing through vertex B, consider the points $D_{l}$ and $E_{l}$, which are the feet of the perpendiculars dropped from point $A$ and $C$, respectively, to the line $l$. Determine the geometric locus of the points $P_{l}$, which form an equilateral triangle $P_{l} D_{l} E_{l}$.

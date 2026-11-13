@@ -1,0 +1,8 @@
+id: b9722682f3b5
+kind: sample
+records:
+    - WSXB25F2X4
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text states one problem (which m by n rectangles can be tiled by squares of side 2 and 3) and no solution. The text began with a small letter; the agent wrote a capital.'

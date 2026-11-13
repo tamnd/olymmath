@@ -1,0 +1,8 @@
+id: d65e355cedc3
+kind: match
+records:
+    - M0NMG96Y5T
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 35884 (E 0.525, T 0.805, keyword match 0.043) and the text of M0NMG96Y5T state the same problem with the same data and the same question.  The record already has a statement from this source, so the row adds no new statement and makes no new record.'

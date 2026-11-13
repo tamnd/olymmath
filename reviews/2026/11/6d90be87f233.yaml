@@ -1,0 +1,9 @@
+id: 6d90be87f233
+kind: pair
+records:
+    - 6VHA7D2YDN
+    - vtrmc/2018/p3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 85025 of NuminaMath 1.5 to this record, but they are two problems: the row asks to find the functions with f(f(n))=n+1, the record asks to prove that no such function exists. The agent removed the row from the record, and row 85025 is now its own loose record.'

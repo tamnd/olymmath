@@ -1,0 +1,21 @@
+---
+tag: KNMEZ1XFD9
+kind: problem
+type: answer
+answer: 35\mathrm{~}/\mathrm{}
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=87029
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+A cyclist covered a certain distance in 1 hour and 24 minutes at a constant speed of $30 \mathrm{~km} / \mathrm{h}$. At what speed did he travel on the return trip if he traveled 12 minutes less?

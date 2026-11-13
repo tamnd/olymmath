@@ -1,0 +1,8 @@
+id: 8a99790412fc
+kind: match
+records:
+    - PJBN31QP18
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 82429 of NuminaMath 1.5 was joined into this record, which holds row 81638. The two texts state the same problem; the record also asks for the cases of equality, which is a small extra question of the same problem, so the join stays.'

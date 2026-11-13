@@ -1,0 +1,8 @@
+id: c4dc31a4ca76
+kind: sample
+records:
+    - PS7NT24MSH
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text states one problem (the least n with 144 divisors, ten of them consecutive) and no solution. The agent cut a line of the book after it that sends the reader to a puzzle.'

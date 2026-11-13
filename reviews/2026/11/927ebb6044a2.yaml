@@ -1,0 +1,9 @@
+id: 927ebb6044a2
+kind: pair
+records:
+    - 5S5J2XC2TH
+    - 3ZBJ81MH40
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 85686 of NuminaMath 1.5 to row 85685, but they are two problems: in part (a) the row says every odd-balanced number, the record every even-balanced number. Row 85686 is now its own loose record.'

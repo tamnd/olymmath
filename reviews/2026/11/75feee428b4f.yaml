@@ -1,0 +1,9 @@
+id: 75feee428b4f
+kind: pair
+records:
+    - MVQGHJGTJ8
+    - BWXEQNM15D
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 71658 of NuminaMath 1.5 to this record, but they are two problems: the row lets the cards hold any positive numbers, the record requires natural numbers on the cards. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 71658 is now its own loose record.'

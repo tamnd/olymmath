@@ -1,0 +1,9 @@
+id: 800bf612ed01
+kind: pair
+records:
+    - NS9ER8BV0J
+    - ca-cmoqr/2017/p3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 85030 of NuminaMath 1.5 to this record, but they are two problems: different functional equations: the row (x-y)f(x+y)-(x+y)f(x-y)=4xy(x^2-y^2), the record (x+y)f(x-y)=f(x^2-y^2). The agent removed the row from the record, and row 85030 is now its own loose record.'

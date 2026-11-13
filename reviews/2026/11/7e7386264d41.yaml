@@ -1,0 +1,9 @@
+id: 7e7386264d41
+kind: pair
+records:
+    - QV2DW5KF49
+    - ch-smo/2022/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 85363 of NuminaMath 1.5 to this record, but they are two problems: the row list ends at (2^n-1)^(2^n-1), so it covers all odd numbers below 2^n, the record list ends at (2n-1)^(2n-1). The agent removed the row from the record, and row 85363 is now its own loose record.'

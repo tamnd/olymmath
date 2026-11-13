@@ -1,0 +1,9 @@
+id: 0fbc5a04e75e
+kind: pair
+records:
+    - N5C8FG7WS5
+    - hu-komal/2011/b4376
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 88530 of NuminaMath 1.5 to this record, but they are two problems: the row takes x, y > 0, the record allows non-negative x, y. The agent removed the row from the record, and row 88530 is now its own loose record.'

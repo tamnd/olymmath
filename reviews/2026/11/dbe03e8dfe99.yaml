@@ -1,0 +1,8 @@
+id: dbe03e8dfe99
+kind: match
+records:
+    - 1S9WRTZW2D
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 90452 of NuminaMath 1.5 to RTPM6BWC0R, but they are two problems: the row asks for positive integers n (none), the record asks for all integers n, which adds the solutions n=0 and n=-1. Row 90452 states the same problem as row 90119, which the agent also took out of RTPM6BWC0R, so the two rows are two statements of this loose record.'

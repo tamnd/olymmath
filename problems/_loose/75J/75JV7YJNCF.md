@@ -1,0 +1,19 @@
+---
+tag: 75JV7YJNCF
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=89801
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+In triangle $ABC$ with centroid $T$ and circumcenter $O$, it is given that $OT \perp AT$. Let $A'$ be the second intersection point of line $AT$ and the circumcircle of triangle $ABC$. Let point $D$ be the intersection of lines $BA'$ and $AC$, and point $E$ be the intersection of lines $CA'$ and $AB$. Prove that the circumcenter of triangle $ADE$ lies on the circumcircle of triangle $ABC$.

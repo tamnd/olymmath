@@ -1,0 +1,9 @@
+id: 5fa81ada230b
+kind: pair
+records:
+    - 2PNYS4YNXS
+    - jbmo-sl/2012/a3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 81669 of NuminaMath 1.5 to this record, but they are two problems: the row has denominators a^2+bc, b^2+ca, c^2+ab, the record has a^2+ab, b^2+bc, c^2+ca, so the inequalities differ. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 81669 is now its own loose record.'

@@ -1,0 +1,8 @@
+id: b277c14eaa91
+kind: match
+records:
+    - nl-nwo/1986/p3
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 80401 of NuminaMath 1.5 is linked to this record. The numbers of the two texts differ: the row also asks for the cases of equality. It is the same problem in a weaker or a fuller form, so the link stays.'

@@ -1,0 +1,9 @@
+id: 2e47fb415ba9
+kind: pair
+records:
+    - NMGXQQGR8M
+    - cz-sk-mo/1993/p1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 87362 of NuminaMath 1.5 to this record, but they are two problems: the row asks to prove that no n exists, the record asks to find all n such that 6^n-1 divides 7^n-1. The agent removed the row from the record, and row 87362 is now its own loose record.'

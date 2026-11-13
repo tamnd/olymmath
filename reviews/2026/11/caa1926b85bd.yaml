@@ -1,0 +1,9 @@
+id: caa1926b85bd
+kind: pair
+records:
+    - BBPKT738KE
+    - QNZK0W49D3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 88447 of NuminaMath 1.5 to this record, but they are two problems: the row requires x and y to be odd, the record only asks for positive integers x, y. The agent removed the row from the record, and row 88447 is now its own loose record.'

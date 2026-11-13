@@ -1,0 +1,8 @@
+id: aba640e17023
+kind: match
+records:
+    - EKT7Q1CQ4E
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 83512 was joined into this record, which holds row 82875. The two rows state the same inequality (the sum of a_k / k^2 is at least the sum of 1/k for distinct positive integers a_k).'

@@ -1,0 +1,8 @@
+id: 369406576f06
+kind: match
+records:
+    - imo/1992/p3
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record X3Z3Y4S37V a new record, but the agent found that it is imo/1992/p3: the row names IMO 1992 and asks for the least n of colored edges among 9 points that forces a one-color triangle; it says ''in the plane, no three on a line'' where the record says ''in space, no four in a plane'', but the edges form the same complete graph and the answer is the same. The agent moved the row to a second statement of imo/1992/p3 and removed the loose record.'

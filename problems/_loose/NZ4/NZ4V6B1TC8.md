@@ -1,0 +1,25 @@
+---
+tag: NZ4V6B1TC8
+kind: problem
+type: answer
+answer: \begin{pmatrix}
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=88413
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Depending on the prime number $p$, determine all pairs $(m, n)$ of natural numbers that satisfy the equation
+
+$$
+m^{2}=n^{2}-4 n p+3 p^{2}
+$$

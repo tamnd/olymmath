@@ -1,0 +1,9 @@
+id: 01ea93fda4a9
+kind: pair
+records:
+    - EX5KYM7FA8
+    - X79C5FNYQF
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 82271 of NuminaMath 1.5 to row 82040, but they are two problems: the row asks for positive integers m, n, the record for m, n in N, where m = 0, n = 1 gives one more solution. Row 82271 is now its own loose record.'

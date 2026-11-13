@@ -1,0 +1,9 @@
+id: c188c914836c
+kind: pair
+records:
+    - 1CMYCHNKG3
+    - 39MP61E78J
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 84674 of NuminaMath 1.5 to this record, but they are two problems: the row proves a^2+b^2+c^2 >= ab+bc+ca for any real numbers, the record only for positive reals (positive vs all reals). The record already had a statement from this source, so the row added no statement and the problem was lost. Row 84674 is now its own loose record.'

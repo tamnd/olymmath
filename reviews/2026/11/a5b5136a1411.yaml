@@ -1,0 +1,9 @@
+id: a5b5136a1411
+kind: pair
+records:
+    - 32APA9AMBK
+    - hu-komal/2019/b5043
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 84569 of NuminaMath 1.5 to this record, but they are two problems: unrelated problems: the row is about 7 numbers from 1..12 with two summing to 13, the record is about subsets of 1..13 whose mean is an integer. The agent removed the row from the record, and row 84569 is now its own loose record.'

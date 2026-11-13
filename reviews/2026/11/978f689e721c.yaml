@@ -1,0 +1,9 @@
+id: 978f689e721c
+kind: pair
+records:
+    - F4VCEN6XTC
+    - SDMQNV946R
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 83718 of NuminaMath 1.5 to this record, but they are two problems: the row proves the inequality only for x > 0, the record claims it for every real x other than 0. The agent removed the row from the record, and row 83718 is now its own loose record.'

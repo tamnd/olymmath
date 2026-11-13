@@ -1,0 +1,21 @@
+---
+tag: 1RTXC1C1KV
+kind: problem
+type: answer
+answer: "448"
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=86795
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+How many consecutive decimals (starting from the decimal point) need to be added from the decimal representation of the fraction $\frac{11}{21}$ to get a result of 2016?

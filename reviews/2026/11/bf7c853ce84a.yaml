@@ -1,0 +1,8 @@
+id: bf7c853ce84a
+kind: match
+records:
+    - apmo/2007/p2
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 87384 of NuminaMath 1.5 to this record, but the row calls the triangle right-angled, the record says acute-angled (angle A = 60 in both), and the row is not a clear problem of its own: a slip of the translation (right-angled for acute-angled). The agent took the row out and listed it in registers/loose-removed.tsv.'

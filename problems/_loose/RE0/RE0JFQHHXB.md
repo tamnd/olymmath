@@ -1,0 +1,21 @@
+---
+tag: RE0JFQHHXB
+kind: problem
+type: answer
+answer: (p+q)^2
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=94232
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+In trapezoid $A B C D$, $A D$ $/ / B C$ (Figure 3.25), $A C$ intersects $B D$ at $E$, given $S_{\triangle E B C}=p^{2}, S_{\triangle E D A}=q^{2}$, prove: the area of trapezoid $A B C D$ is $(p+q)^{2}$.

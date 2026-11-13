@@ -1,0 +1,9 @@
+id: 27066e4292e3
+kind: pair
+records:
+    - MGVZFJF3Z1
+    - E43DA46G6D
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 69942 of NuminaMath 1.5 to this record, but they are two problems: the row requires each person to get at least one elephant, the record lacks this condition, and allowing zero changes the maximum. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 69942 is now its own loose record.'

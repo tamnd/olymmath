@@ -1,0 +1,8 @@
+id: 4a5547352375
+kind: match
+records:
+    - usamo/2003/p2
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made the row of loose record FM43RQ5HQH a new record, but the agent found that it is usamo/2003/p2: the row names USAMO 2003 and states the problem of the convex polygon with rational sides and diagonals. The agent moved the row to a second statement of usamo/2003/p2 and removed the loose record.'

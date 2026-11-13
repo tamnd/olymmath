@@ -1,0 +1,9 @@
+id: face69c76d7a
+kind: pair
+records:
+    - 533Y8DE6VS
+    - isl/2008/g3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 91424 of NuminaMath 1.5 to this record, but they are two problems: the row puts E anywhere on the line PQ, the record puts E on the segment PQ. The agent removed the row from the record, and row 91424 is now its own loose record.'

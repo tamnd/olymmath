@@ -1,0 +1,9 @@
+id: cd561ec99cab
+kind: pair
+records:
+    - S9131XZE83
+    - pl-om/2011/p1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 153784 of NuminaMath 1.5 to this record, but they are two problems: the row counts permutations with k dividing 2(a_1+...+a_k), the record asks for which n a permutation with k dividing a_1+...+a_k exists. The agent removed the row from the record, and row 153784 is now its own loose record.'

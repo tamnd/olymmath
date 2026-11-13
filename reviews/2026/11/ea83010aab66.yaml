@@ -1,0 +1,8 @@
+id: ea83010aab66
+kind: match
+records:
+    - isl/2015/n6
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 159817 of NuminaMath 1.5 to this record, but the row is not a clear copy: the definition of f^n became a minus and Z_{>0} in condition (i) is garbled. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

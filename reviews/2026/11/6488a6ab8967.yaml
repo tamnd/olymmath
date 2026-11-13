@@ -1,0 +1,9 @@
+id: 6488a6ab8967
+kind: pair
+records:
+    - 46TYD6E6HT
+    - Y0Y5MYX0NM
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 157250 of NuminaMath 1.5 to this record, but they are two problems: row allows nonnegative coefficients, record requires nonnegative integer coefficients. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 157250 is now in its own loose record.'

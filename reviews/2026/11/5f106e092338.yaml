@@ -1,0 +1,8 @@
+id: 5f106e092338
+kind: match
+records:
+    - Y0HNPJGYXJ
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Rows 104538 and 107094 of NuminaMath 1.5 state the same problem as this record (the negative values of a for which the inequality in sin^2 x and cos x holds for all real x), with the same words. The record already has a statement from this source, so the agent removed the loose record WPAGNBF4VY of the two rows and listed them in registers/loose-removed.tsv.'

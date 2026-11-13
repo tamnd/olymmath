@@ -1,0 +1,8 @@
+id: 198127fb2aed
+kind: match
+records:
+    - isl/2019/c1
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 159908 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row prints the binomial sum condition =2^k as -2^k. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

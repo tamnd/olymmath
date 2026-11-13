@@ -1,0 +1,8 @@
+id: 77e0aff4ed4b
+kind: match
+records:
+    - isl/2020/c5
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 159914 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row prints the definition of N with - instead of =. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

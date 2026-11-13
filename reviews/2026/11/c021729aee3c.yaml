@@ -1,0 +1,8 @@
+id: c021729aee3c
+kind: match
+records:
+    - DSCFMJGTTV
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 146052 of NuminaMath 1.5 to this record, but the row is not a clear copy: row lost its start (infinite sequence of positive reals). The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

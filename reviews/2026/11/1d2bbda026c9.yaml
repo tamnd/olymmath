@@ -1,0 +1,8 @@
+id: 1d2bbda026c9
+kind: match
+records:
+    - ahsme/1950/p31
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 142274 of NuminaMath 1.5 the loose record VWHF59M2V6. The text names this competition and its year (or its number in the series), and it states the same problem as this record (4 pairs black socks, colours interchanged, bill up 50 percent, same choices). The record already has a statement from this source, so the agent removed the loose record and listed the row in registers/loose-removed.tsv.'

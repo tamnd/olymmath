@@ -1,0 +1,9 @@
+id: 94f92088b752
+kind: pair
+records:
+    - T5PQW6VNXW
+    - T6G871QC90
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 143348 of NuminaMath 1.5 to this record, but they are two problems: row roots in open interval (2n-1,2n+1), record in half-open (2n-1,2n+1]. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 143348 is now in its own loose record.'

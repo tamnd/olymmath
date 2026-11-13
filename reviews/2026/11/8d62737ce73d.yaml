@@ -1,0 +1,8 @@
+id: 8d62737ce73d
+kind: match
+records:
+    - 8Y734XMB8R
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 146757 was joined into this record, which holds row 142625. The two rows are the same text (A, B, C, D each say three sentences about one positive integer); only the tense differs.'

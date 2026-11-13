@@ -1,0 +1,8 @@
+id: 4fb9d83edd66
+kind: match
+records:
+    - hmmt/2015/g5
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 151558 of NuminaMath 1.5 to this record, but the row is not a clear copy: row lost the inequality f(r) < L r^2 for all r, question is garbled. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

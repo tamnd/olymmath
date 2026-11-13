@@ -1,0 +1,8 @@
+id: cfb5e3b2d26f
+kind: match
+records:
+    - NRM1J6MF48
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 94374 of NuminaMath 1.5 to this record, but the row is not a clear copy: formula garbled: the conclusion reads m = 11'' n instead of m = 11^l n. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

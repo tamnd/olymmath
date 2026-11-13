@@ -1,0 +1,8 @@
+id: c98a103b8ba8
+kind: match
+records:
+    - isl/2014/g3
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 159780 of NuminaMath 1.5 to this record, but the row is not a clear copy: the condition BR=MR became BR-MR. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

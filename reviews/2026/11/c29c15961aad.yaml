@@ -1,0 +1,8 @@
+id: c29c15961aad
+kind: match
+records:
+    - isl/2015/a5
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 159821 of NuminaMath 1.5 to this record, but the row is not a clear copy: functional equation garbled, the equals sign became a minus. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

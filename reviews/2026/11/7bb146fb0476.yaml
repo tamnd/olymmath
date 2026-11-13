@@ -1,0 +1,9 @@
+id: 7bb146fb0476
+kind: pair
+records:
+    - V8R4KNZ6PY
+    - 33NGQ11TBT
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 127825 of NuminaMath 1.5 to this record, but they are two problems: row has distance at most 1, record distance less than 1. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 127825 is now in its own loose record.'

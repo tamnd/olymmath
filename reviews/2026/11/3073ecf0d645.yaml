@@ -1,0 +1,9 @@
+id: 3073ecf0d645
+kind: pair
+records:
+    - FSQE5T33X4
+    - ABWF3PMTD0
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 138984 of NuminaMath 1.5 to this record, but they are two problems: row asks positive reals, record any real numbers. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 138984 is now in its own loose record.'

@@ -1,0 +1,9 @@
+id: be9de9900ad6
+kind: pair
+records:
+    - BAZDDARK0C
+    - usajmo/2024/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 156982 of NuminaMath 1.5 to this record, but they are two problems: the record requires rectangles with sides parallel to the axes, the row lacks this condition. The agent removed the row from the record, and row 156982 is now its own loose record.'

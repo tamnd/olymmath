@@ -1,0 +1,8 @@
+id: cbe261813892
+kind: match
+records:
+    - VJP73VMDN1
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 105561 of NuminaMath 1.5 to this record of an earlier batch. The two rows state the same inequality, but the text of the record (row 108512) has a slip: the first denominator is 1 + z^2 where 1 + y + z^2 is meant. The agent made row 105561 the text of the record and listed row 108512 in registers/loose-removed.tsv.'

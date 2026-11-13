@@ -1,0 +1,8 @@
+id: 839f5eabc271
+kind: match
+records:
+    - isl/2016/a2
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 159827 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row''s inequality reads a_k/a_i instead of a_k/a_l. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

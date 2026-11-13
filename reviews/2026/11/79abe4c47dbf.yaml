@@ -1,0 +1,9 @@
+id: 79abe4c47dbf
+kind: pair
+records:
+    - J786J4Q87G
+    - WHG8EX4GRB
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 154111 of NuminaMath 1.5 to this record, but they are two problems: row asks only for three real roots, record asks to solve the equation fully. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 154111 is now in its own loose record.'

@@ -1,0 +1,8 @@
+id: 8aa57284f176
+kind: match
+records:
+    - isl/2019/g8
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 159897 (E 0.994, T 0.973, keyword match 1.000) and the text of isl/2019/g8 state the same problem with the same data and the same question. The row became a second statement of the record.'

@@ -1,0 +1,9 @@
+id: ba769932f192
+kind: pair
+records:
+    - AAPBY692S0
+    - NWXKPNM7QA
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 4793 of NuminaMath 1.5 to this record, but they are two problems: the row asks for all natural n with the triangle property, the record asks for the minimum k. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 4793 is now in its own loose record.'

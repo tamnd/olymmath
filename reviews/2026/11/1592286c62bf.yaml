@@ -1,0 +1,8 @@
+id: 1592286c62bf
+kind: match
+records:
+    - usamo/1992/p1
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 147080 of NuminaMath 1.5 the loose record Q9Y3ZG0576. The text names this competition and its year (or its number in the series), and it states the same problem as this record (digit sum of 9*99*9999*...*(10^(2^n)-1)). The record already has a statement from this source, so the agent removed the loose record and listed the row in registers/loose-removed.tsv.'

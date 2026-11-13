@@ -1,0 +1,8 @@
+id: 268a1e491f0c
+kind: match
+records:
+    - isl/2010/c4
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 159749 of NuminaMath 1.5 to this record, but the row is not a clear copy: the constant 2010^{2010^{2010}} is garbled in both places. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

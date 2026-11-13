@@ -1,0 +1,8 @@
+id: d1498ba77c9e
+kind: match
+records:
+    - isl/2015/n4
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 159815 of NuminaMath 1.5 to this record, but the formulas of the row are garbled (''god'' for gcd, and minus signs where equals signs are meant). The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

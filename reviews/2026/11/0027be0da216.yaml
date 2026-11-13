@@ -1,0 +1,8 @@
+id: 0027be0da216
+kind: match
+records:
+    - P5D262PSY1
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 141903 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row says "the point" is inside the ellipse without saying which point, the record says the origin. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

@@ -1,0 +1,9 @@
+id: 463a1f2bdb22
+kind: pair
+records:
+    - DJ0V94NS9D
+    - sg-smo/2002/p2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 144372 of NuminaMath 1.5 to this record, but they are two problems: the row has a_i, b_i in [1,2], the record in [1001,2002] (equivalent by scaling, but other data). The agent removed the row from the record, and row 144372 is now its own loose record.'

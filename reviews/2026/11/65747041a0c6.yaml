@@ -1,0 +1,8 @@
+id: 65747041a0c6
+kind: match
+records:
+    - usamo/2003/p5
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 142217 of NuminaMath 1.5 the loose record H3WCBY1DZK. The text names this competition and its year (or its number in the series), and it states the same problem as this record (cyclic sum (2a+b+c)^2/(2a^2+(b+c)^2) at most 8). The record already has a statement from this source, so the agent removed the loose record and listed the row in registers/loose-removed.tsv.'

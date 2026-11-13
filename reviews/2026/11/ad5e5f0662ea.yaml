@@ -1,0 +1,9 @@
+id: ad5e5f0662ea
+kind: pair
+records:
+    - 4X316VK9D3
+    - caps/1995/p4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 163009 of NuminaMath 1.5 to this record, but they are two problems: the row has the product equal to 1 and asks for x+y, the record has product p > 1 and asks for the minimum of x+y. The agent removed the row from the record, and row 163009 is now its own loose record.'

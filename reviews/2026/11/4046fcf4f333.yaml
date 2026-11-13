@@ -1,0 +1,9 @@
+id: 4046fcf4f333
+kind: pair
+records:
+    - PVNTNQ32VJ
+    - NPJ9JRSVH3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 144184 of NuminaMath 1.5 to this record, but they are two problems: the row asks for integer solutions, the record asks for all solution pairs with no integer condition. The agent removed the row from the record, and row 144184 is now its own loose record.'

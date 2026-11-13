@@ -1,0 +1,8 @@
+id: 5d90dbb542b1
+kind: match
+records:
+    - isl/2015/n4
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 159815 of NuminaMath 1.5 to this record, but the row is not a clear copy: gcd became god and the equals signs in b_{n+1} and a_{n+t}=a_n became minus signs. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

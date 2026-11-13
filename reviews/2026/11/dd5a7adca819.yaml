@@ -1,0 +1,8 @@
+id: dd5a7adca819
+kind: match
+records:
+    - hmmt/2010/f6
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 151199 of NuminaMath 1.5 states the same problem as this record (the isosceles trapezoid with AB = 10, BC = 15, CD = 28, DA = 15, find the minimal EC), with the same words after the label "[4]". The import had linked it to hmmt/2010/f4, whose S2 has this text. The agent moved the row to this record as a new statement.'

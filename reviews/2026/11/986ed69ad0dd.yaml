@@ -1,0 +1,8 @@
+id: 986ed69ad0dd
+kind: match
+records:
+    - 8HZWKY3R3V
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 158494 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row''s conditions are miscopied as x1 xi1 > z1^2 and x2 xi2 > z2^2 instead of x1 y1 and x2 y2. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

@@ -1,0 +1,9 @@
+id: ff763cd71d4d
+kind: pair
+records:
+    - 1BEXRRMMHH
+    - isl/2012/a3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 79525 of NuminaMath 1.5 to this record, but they are two problems: the row claims >= n^n with no n>=3, the record claims strict > n^n for n>=3. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 79525 is now in its own loose record.'

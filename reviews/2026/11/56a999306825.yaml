@@ -1,0 +1,8 @@
+id: 56a999306825
+kind: match
+records:
+    - APGZWW82WP
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 115367 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row has A(a,0) instead of A(-a,0), a stray H, and |OP| 2 instead of |OP|^2. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

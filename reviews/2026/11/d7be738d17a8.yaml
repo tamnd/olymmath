@@ -1,0 +1,8 @@
+id: d7be738d17a8
+kind: match
+records:
+    - hmmt/2003/e9
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Rows 152193 and 152205 of NuminaMath 1.5 state the same problem as this record (the triangulation of a 2003-gon inscribed in a circle and the smallest number of obtuse triangles), with the same words. The import had linked them to hmmt/2003/e5, whose S2 has this text. The agent moved row 152193 to this record as a new statement and listed row 152205 in registers/loose-removed.tsv.'

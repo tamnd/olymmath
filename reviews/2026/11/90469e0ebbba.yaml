@@ -1,0 +1,8 @@
+id: 90469e0ebbba
+kind: match
+records:
+    - usamo/1989/p1
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 143298 of NuminaMath 1.5 the loose record FRKZ4W0M44. The text names this competition and its year (or its number in the series), and it is the problem of this record, but the row has a slip or a lost part (s_n, T_n, U_n harmonic sums, row has S_1999 slip for S_1989). The agent removed the loose record and listed the row in registers/loose-removed.tsv, and the record keeps its own texts.'

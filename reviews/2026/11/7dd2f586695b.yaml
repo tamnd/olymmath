@@ -1,0 +1,8 @@
+id: 7dd2f586695b
+kind: match
+records:
+    - 5NKQ4BH3WH
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 159256 of NuminaMath 1.5 into this record, which holds row 159192, but the row lost its start, it begins with "inations." and never names who took the examinations. The row is not a clear problem, so the record keeps only row 159192. The agent listed row 159256 in registers/loose-removed.tsv.'

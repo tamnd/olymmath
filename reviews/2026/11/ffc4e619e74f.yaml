@@ -1,0 +1,9 @@
+id: ffc4e619e74f
+kind: pair
+records:
+    - E97TCAAJ6Z
+    - memo/2009/t2
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 161982 of NuminaMath 1.5 to this record, but they are two problems: the row requires a, b, c distinct, the record does not (then a=b=c gives extra values). The agent removed the row from the record, and row 161982 is now its own loose record.'

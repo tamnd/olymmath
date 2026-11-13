@@ -1,0 +1,8 @@
+id: 96fc37da07d6
+kind: match
+records:
+    - simon-marais/2020/b3
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 154794 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row is cut off before the claim to prove (ends at "no ma"). The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

@@ -1,0 +1,9 @@
+id: 81deb69d9616
+kind: pair
+records:
+    - V3TT302A7N
+    - lusophon/2019/p4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 142240 of NuminaMath 1.5 to this record, but they are two problems: the row asks for the number of solutions with a blank, the record asks to find all (a,b), the row also miscopies the right side as (a+1)(a+1)(ab+1). The agent removed the row from the record, and row 142240 is now its own loose record.'

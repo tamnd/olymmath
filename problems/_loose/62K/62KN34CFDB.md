@@ -1,0 +1,21 @@
+---
+tag: 62KN34CFDB
+kind: problem
+type: answer
+answer: "24"
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=142915
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Xiaoliang's family bought 72 eggs, and they also have a hen that lays one egg every day. If Xiaoliang's family eats 4 eggs every day, then these eggs will last them for $ $ days.

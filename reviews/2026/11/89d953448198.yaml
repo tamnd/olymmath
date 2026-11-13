@@ -1,0 +1,8 @@
+id: 89d953448198
+kind: match
+records:
+    - HCAJFKHNW9
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 162505 was joined into this record, which holds row 160985. The two rows state the same problem (the constant C(n) for the n real numbers with sum 0); only the wording differs.'

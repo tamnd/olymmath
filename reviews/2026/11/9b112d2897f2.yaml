@@ -1,0 +1,8 @@
+id: 9b112d2897f2
+kind: match
+records:
+    - aime/1994/p13
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 143999 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row''s root list and target sum are garbled (r2..r5 all barred, 1/(r5 r5), misplaced bar on r3). The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

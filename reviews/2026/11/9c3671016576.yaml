@@ -1,0 +1,9 @@
+id: 9c3671016576
+kind: pair
+records:
+    - GEEC0NHRW0
+    - F8ZVNKXKBY
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 104482 of NuminaMath 1.5 to this record, but they are two problems: the row has log_a 2 + 1/8, the record has log_2 a + 1/8 (record likely a typo). The record already had a statement from this source, so the row added no statement and the problem was lost. Row 104482 is now in its own loose record.'

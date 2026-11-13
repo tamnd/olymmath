@@ -1,0 +1,8 @@
+id: 0c56b2d6fbdb
+kind: match
+records:
+    - D7XMRAACR4
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 128643 of NuminaMath 1.5 to this record, but the row is not a clear copy: row division condition miscopied as 0<=r<=n (record has 0<=q<n), so F_n is not well defined. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

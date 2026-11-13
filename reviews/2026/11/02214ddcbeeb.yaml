@@ -1,0 +1,9 @@
+id: 02214ddcbeeb
+kind: pair
+records:
+    - SJ2HJZ50EW
+    - CCQRQJG6P0
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 81839 of NuminaMath 1.5 to this record, but they are two problems: the row drops the condition that p and q are prime. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 81839 is now in its own loose record.'

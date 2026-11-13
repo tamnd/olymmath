@@ -1,0 +1,9 @@
+id: 8074015b0b43
+kind: pair
+records:
+    - NPJFGQR6JQ
+    - hmmt/1999/t6
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 70144 of NuminaMath 1.5 to this record, but they are two problems: the row asks to prove the sum equals 1, the record asks to simplify the number. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 70144 is now in its own loose record.'

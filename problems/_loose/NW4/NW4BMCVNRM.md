@@ -1,0 +1,19 @@
+---
+tag: NW4BMCVNRM
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=162864
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Let there be a square $A B C D$ and points $E$ and $F$ outside the square such that triangles $B E C$ and $C F D$ are equilateral. Prove that triangle $A E F$ is also equilateral.

@@ -1,0 +1,8 @@
+id: 4cf51b8b6436
+kind: match
+records:
+    - isl/2017/n1
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 159868 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row prints a_n=a as a_n-a, so the question is garbled. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

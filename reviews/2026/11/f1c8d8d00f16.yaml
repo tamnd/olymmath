@@ -1,0 +1,8 @@
+id: f1c8d8d00f16
+kind: match
+records:
+    - putnam/1971/a5
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import made row 140921 of NuminaMath 1.5 the loose record TTC716XDBC. The text names this competition and its year (or its number in the series), and it states the same problem as this record (35 unattainable scores including 58, row asks for a and b, rec for a+b, same determination). The record already has a statement from this source, so the agent removed the loose record and listed the row in registers/loose-removed.tsv.'

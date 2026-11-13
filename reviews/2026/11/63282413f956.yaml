@@ -1,0 +1,8 @@
+id: 63282413f956
+kind: match
+records:
+    - isl/2022/a1
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 159971 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row miscopies the index as a_21022 instead of a_2022. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

@@ -1,0 +1,8 @@
+id: 65663acce0f6
+kind: match
+records:
+    - isl/2020/a3
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 159921 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row''s condition reads (a+c)(b+d)-ac+bd instead of (a+c)(b+d)=ac+bd. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

@@ -1,0 +1,9 @@
+id: 9d595a25b3d1
+kind: pair
+records:
+    - Y0HNPJGYXJ
+    - ZNSDCNMBAQ
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 104538 of NuminaMath 1.5 to this record, but they are two problems: the row asks only for the negative values of a, the record for all real a. The record already had a statement from this source, so the row added no statement and the problem was lost. The audit then found that rows 104538 and 107094 state the same problem as the loose record Y0HNPJGYXJ (row 91834, the negative values of a), which has a statement from this source, so the agent listed the two rows in registers/loose-removed.tsv.'

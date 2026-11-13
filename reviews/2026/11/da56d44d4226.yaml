@@ -1,0 +1,9 @@
+id: da56d44d4226
+kind: pair
+records:
+    - R738DXVFHT
+    - zhautykov/2015/p3
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 162135 of NuminaMath 1.5 to this record, but they are two problems: the row''s equation is f(x^3+y^3)=x^2f(x)+yf(y^2), the record''s is f(x^3+y^3+xy)=x^2f(x)+y^2f(y)+f(xy). The record already had a statement from this source, so the row added no statement and the problem was lost. Row 162135 is now in its own loose record.'

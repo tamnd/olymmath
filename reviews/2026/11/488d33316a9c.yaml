@@ -1,0 +1,8 @@
+id: 488d33316a9c
+kind: match
+records:
+    - hmmt/2010/k3
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 151177 (E 1.000, T 0.940, keyword match 0.863) and the text of hmmt/2010/k3 state the same problem with the same data and the same question. The row became a second statement of the record.'

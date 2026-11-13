@@ -1,0 +1,9 @@
+id: bc895bc0f33b
+kind: pair
+records:
+    - GK3PX45HS3
+    - elmo/2019/p5
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 156895 of NuminaMath 1.5 to this record, but they are two problems: the row lets S be a set of integers, the record requires positive integers. The agent removed the row from the record, and row 156895 is now its own loose record.'

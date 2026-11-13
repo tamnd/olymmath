@@ -1,0 +1,8 @@
+id: d2d428c6d7bb
+kind: match
+records:
+    - ie-irmo/1995/p7
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 112424 of NuminaMath 1.5 to this record, but the row is not a clear copy: the start is lost: the hypothesis on the roots of x^3+ax^2+bx+c and the complex a, b, c are missing. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

@@ -1,0 +1,9 @@
+id: ddd46b2b3ccc
+kind: pair
+records:
+    - 4QH4C5B98E
+    - QWBT8HMT8H
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 171743 of NuminaMath 1.5 into this record, which holds row 170861, but they are two problems: the row asks for all pairs (a, b), the record asks to prove that there are infinitely many pairs. The row added no statement, so the problem was lost. Row 171743 is now in a new loose record.'

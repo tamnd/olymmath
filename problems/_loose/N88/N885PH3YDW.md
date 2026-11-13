@@ -1,0 +1,19 @@
+---
+tag: N885PH3YDW
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=168347
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+In the square $A B C D$, the midpoint of side $B C$ is $M$. Let the perpendicular projection of vertex $A$ onto line $D M$ be $P$. Prove that $B P=A B$.

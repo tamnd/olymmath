@@ -1,0 +1,9 @@
+id: f40728cdb8fb
+kind: pair
+records:
+    - CJ5XDNJ0KM
+    - hu-komal/2024/b5377
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 168349 of NuminaMath 1.5 to this record, but they are two problems: the row proves one inequality with +ac for all reals, the record asks for the set of p for positive reals. The agent removed the row from the record, and row 168349 is now in a new loose record.'

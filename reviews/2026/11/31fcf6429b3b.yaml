@@ -1,0 +1,9 @@
+id: 31fcf6429b3b
+kind: pair
+records:
+    - RW40FFV5HZ
+    - 5SV7AH74VH
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 173176 of NuminaMath 1.5 to the loose record 5SV7AH74VH of an earlier batch, but they are two problems: the row is a logarithm question, the record is an unrelated text about the word ball. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 173176 is now in its own loose record, and the agent removed 5SV7AH74VH because it is not a problem.'

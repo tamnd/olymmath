@@ -1,0 +1,9 @@
+id: ae434a740c59
+kind: pair
+records:
+    - 6YG0EQD0PV
+    - br-obm/1992/p1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 174940 of NuminaMath 1.5 to this record, but they are two problems: the row solves the cubic given that two roots have product 1, the record proves p<0 for three distinct real roots. The agent removed the row from the record, and row 174940 is now in a new loose record.'

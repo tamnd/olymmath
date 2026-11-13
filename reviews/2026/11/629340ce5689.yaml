@@ -1,0 +1,9 @@
+id: 629340ce5689
+kind: pair
+records:
+    - 71KB5B61B7
+    - FT1JM0ECVC
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 172922 of NuminaMath 1.5 to this record, but they are two problems: the row has any n not divisible by 2 or 3, the record a prime n other than 2 and 3. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 172922 is now in its own loose record.'

@@ -1,0 +1,9 @@
+id: bea5998621f7
+kind: pair
+records:
+    - XN5587ZAAD
+    - KQB3HFTJSX
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 171754 of NuminaMath 1.5 to this record, but they are two problems: the row asks how many positive solutions, the record asks to prove the number of natural solutions is odd. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 171754 is now in its own loose record.'

@@ -1,0 +1,19 @@
+---
+tag: KZH0J8BNY2
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=174846
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+We draw squares on the sides of a right-angled triangle. Calculate the area of the hexagon defined by the outer (not coinciding with the vertices of the triangle) vertices of the squares, if we know the hypotenuse of our right-angled triangle $(c)$, as well as the sum of the legs $(d)$.

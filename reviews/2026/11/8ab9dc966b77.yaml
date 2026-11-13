@@ -1,0 +1,9 @@
+id: 8ab9dc966b77
+kind: pair
+records:
+    - 9EEWA5N2Z3
+    - in-inmo/1987/p6
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 164524 of NuminaMath 1.5 to this record, but they are two problems: the row asks to show a >= 5 when both roots lie in (0,1), the record asks to prove roots are irrational when the coefficients are odd. The project only links the texts of this competition, so the import adds no row to it, and the problem was lost. Row 164524 is now in its own loose record.'

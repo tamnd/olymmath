@@ -1,0 +1,21 @@
+---
+tag: DGDYW6GMCJ
+kind: problem
+type: answer
+answer: \frac{2^{2}}{b^{2}}
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=174668
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+What is the parameter of the parabola $y^{2}=2 p x$ if the parabola touches the line $a x+b y+c^{2}=0$?

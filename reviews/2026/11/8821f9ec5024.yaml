@@ -1,0 +1,9 @@
+id: 8821f9ec5024
+kind: pair
+records:
+    - SWJ3Y7WAY5
+    - hu-komal/2026/c1886
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 166938 of NuminaMath 1.5 to this record, but they are two problems: the row assumes opposite sides parallel, the record equal internal angles. The agent removed the row from the record, and row 166938 is now in a new loose record.'

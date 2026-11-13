@@ -1,0 +1,9 @@
+id: f81e5cdf92a1
+kind: pair
+records:
+    - N754M502VS
+    - hu-komal/2015/b4730
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 169540 of NuminaMath 1.5 to this record, but they are two problems: the row claims the radical axes meet on the tangent, the record the lines joining the centres. The agent removed the row from the record, and row 169540 is now in a new loose record.'

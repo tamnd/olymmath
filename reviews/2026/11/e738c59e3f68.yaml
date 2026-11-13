@@ -1,0 +1,8 @@
+id: e738c59e3f68
+kind: match
+records:
+    - TRYNMTT5RK
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 175706 was joined into this record, which holds row 172024. The two rows state the same problem (for primes a, b > 7, (a^2-1)(b^2-1)(a^6-b^6) is divisible by 290304); only the wording differs.'

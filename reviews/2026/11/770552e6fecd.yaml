@@ -1,0 +1,9 @@
+id: 770552e6fecd
+kind: pair
+records:
+    - HT69XE6PTE
+    - in-tst/2002/p13
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 170182 of NuminaMath 1.5 to this record, but they are two problems: the row only has P on BC, the record has P the midpoint of BC. The agent removed the row from the record, and row 170182 is now in a new loose record.'

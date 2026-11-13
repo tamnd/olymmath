@@ -1,0 +1,8 @@
+id: 59f3d8472445
+kind: match
+records:
+    - 1CCX6HMMMT
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 168289 was joined into this record, which holds row 167173. The two rows state the same problem (the radii of the incircles and excircles of AMC, BMC and ABC, prove r1/rho1 * r2/rho2 = r/rho); only the wording differs.'

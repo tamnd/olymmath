@@ -1,0 +1,8 @@
+id: 9328aca17c65
+kind: match
+records:
+    - ie-irmo/1993/p9
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 101923 of NuminaMath 1.5 to this record, but the row is not a clear copy: the problem number is fused into the opening formula, so the row starts "24x is a real number". The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

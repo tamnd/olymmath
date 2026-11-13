@@ -1,0 +1,8 @@
+id: 84a522686146
+kind: match
+records:
+    - TCTEFXEK74
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 175485 was joined into this record, which holds row 172954. The two rows state the same problem (the tangent lines of the circle x^2 + y^2 - 10x - 12y + 45 = 0 parallel to y = 3x); only the wording differs.'

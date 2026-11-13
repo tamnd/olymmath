@@ -1,0 +1,9 @@
+id: 77988ccc84fc
+kind: pair
+records:
+    - AQT7N9HN37
+    - hu-komal/2020/b5113
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 169008 of NuminaMath 1.5 to this record, but they are two problems: the row has c coprime to a and b and asks for one solution, the record has a, b, c pairwise coprime and asks for infinitely many solutions. The agent removed the row from the record, and row 169008 is now in a new loose record.'

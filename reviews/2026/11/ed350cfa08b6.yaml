@@ -1,0 +1,9 @@
+id: ed350cfa08b6
+kind: pair
+records:
+    - 7MWZ30D6X5
+    - E66WH0277T
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 167803 of NuminaMath 1.5 into this record, which holds row 167500, but they are two problems: the row gives the angle of the side edges with the base and asks for the angle between the side edges, the record uses the side faces. The row added no statement, so the problem was lost. Row 167803 is now in a new loose record.'

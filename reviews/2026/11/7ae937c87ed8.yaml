@@ -1,0 +1,9 @@
+id: 7ae937c87ed8
+kind: pair
+records:
+    - BQYGY6FSCM
+    - VXCAPG3WK4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 175567 of NuminaMath 1.5 into this record, which holds row 173509, but they are two problems: the row has the right side 1 in the first equation, the record in the last equation. The row added no statement, so the problem was lost. Row 175567 is now in a new loose record.'

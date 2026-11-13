@@ -1,0 +1,19 @@
+---
+tag: 5YNJ9HN2TP
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=174141
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+We will prove that the sum of the first $k$ tetrahedral numbers is: $S_{k}=g_{1}+g_{2}+\ldots+g_{k}=\binom{k+3}{4} k=1,2,3, \ldots$

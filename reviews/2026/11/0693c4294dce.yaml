@@ -1,0 +1,9 @@
+id: 0693c4294dce
+kind: pair
+records:
+    - X429K1R00V
+    - hu-komal/2015/b4692
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 170207 of NuminaMath 1.5 to this record, but they are two problems: the row says a right-angled triangle, the record an acute-angled triangle. The agent removed the row from the record, and row 170207 is now in a new loose record.'

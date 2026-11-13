@@ -1,0 +1,8 @@
+id: c7954b9502fa
+kind: match
+records:
+    - ru-allrussian/2006/p92
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 112967 of NuminaMath 1.5 to this record, but the row is not a clear copy: the opening "Prove" is garbled into a fake name "Deng Ming:", so the row reads as a bare claim. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

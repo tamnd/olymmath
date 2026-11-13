@@ -1,0 +1,9 @@
+id: f88b7b7a6391
+kind: pair
+records:
+    - 3A4A5SMDDB
+    - DCZ2KS5KE0
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 70781 of NuminaMath 1.5 to this record, but they are two problems: the row asks to find the smallest natural number not of the form, the record asks to prove that this number is odd (and uses non-negative exponents). The record already had a statement from this source, so the row added no statement and the problem was lost. Row 70781 is now in its own loose record.'

@@ -1,0 +1,9 @@
+id: 921d23ef61a6
+kind: pair
+records:
+    - CRDA7K4SZB
+    - hu-komal/2020/b5095
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 169340 of NuminaMath 1.5 to this record, but they are two problems: the record requires a, b, c distinct, the row does not. The agent removed the row from the record, and row 169340 is now in a new loose record.'

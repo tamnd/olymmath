@@ -1,0 +1,8 @@
+id: dff1bb23271c
+kind: match
+records:
+    - 4XQZ8T9Q2P
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 169235 of NuminaMath 1.5 into this record, which held row 164550. The two rows state the same problem, but the text of the record has a slip (CD = ED = 11 where CD = EF = 11 is meant), the row has the clear data. The agent made row 169235 the text of the record and listed row 164550 in registers/loose-removed.tsv.'

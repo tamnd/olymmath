@@ -1,0 +1,9 @@
+id: 7968225b1cb1
+kind: pair
+records:
+    - YPNM3MQD0R
+    - MH0FTTCHKR
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 166514 of NuminaMath 1.5 to this record, but they are two problems: the row proves at least 60 members, the record more than 60. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 166514 is now in its own loose record.'

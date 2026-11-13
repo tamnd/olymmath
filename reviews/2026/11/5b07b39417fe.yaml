@@ -1,0 +1,9 @@
+id: 5b07b39417fe
+kind: pair
+records:
+    - ZE40KEY774
+    - hu-komal/2009/c984
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 164914 of NuminaMath 1.5 to this record, but they are two problems: the row asks about the angles of a triangle with sides a, b, c, the record has a, b, c in an arithmetic progression and asks for the common difference. The agent removed the row from the record, and row 164914 is now in a new loose record.'

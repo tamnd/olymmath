@@ -1,0 +1,9 @@
+id: 7ff3c98f1f0f
+kind: pair
+records:
+    - 2EZ67QPQHX
+    - be-vwo/2006/p4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 169511 of NuminaMath 1.5 to this record, but they are two problems: other functional equation: row f((x-1)/x)+f(1/(1-x))=2-2x, record f(x)+f(1/(1-x))=1+1/(x(1-x)). The agent removed the row from the record, and row 169511 is now in a new loose record.'

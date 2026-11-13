@@ -1,0 +1,8 @@
+id: 6345c0f67a62
+kind: match
+records:
+    - ie-irmo/1994/p5
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 134049 of NuminaMath 1.5 to this record, but the row is not a clear copy: the exponents of both bounds are garbled (2^{2n-1} and 2^{2^2} instead of 2^{2^{n-1}} and 2^{2^n}). The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

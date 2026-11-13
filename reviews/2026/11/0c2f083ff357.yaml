@@ -1,0 +1,8 @@
+id: 0c2f083ff357
+kind: sample
+records:
+    - VVECT4H240
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text states one problem and no solution. The source gives the Hungarian original before the English text; the agent cut the Hungarian part. The answer in the source is garbled (letters are lost or the TeX is broken), so the agent removed the answer from the record.'

@@ -1,0 +1,8 @@
+id: 2d5d4f1b0c5e
+kind: match
+records:
+    - D00YYPWPF8
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 173831 of NuminaMath 1.5 into this record, which held row 173268. The two rows state the same problem, but the text of the record has the sign of 5 - 3 sqrt(3) wrong and broken TeX, the row has the clear expression with 3 sqrt(3) - 5. The agent made row 173831 the text of the record and listed row 173268 in registers/loose-removed.tsv.'

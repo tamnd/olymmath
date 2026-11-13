@@ -1,0 +1,19 @@
+---
+tag: H5DQ1QN91R
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=167279
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+In the right-angled triangle $ABC$, at some point $D$ on the leg $BC$, the perpendicular to $AD$ intersects the hypotenuse $AB$ at $E$, and the perpendicular from $E$ to $BC$ meets $BC$ at $F$. For which choice of point $D$ will $F$ be closest to $C$?

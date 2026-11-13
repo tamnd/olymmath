@@ -1,0 +1,8 @@
+id: 28a265b30c4b
+kind: match
+records:
+    - imo/1990/p1
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 168652 of NuminaMath 1.5 to this record, but the row is not a clear copy: the condition is garbled: the row has the circle DEM tangent to BC and AC instead of the tangent at E meeting BC and AC, and a stray point H. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

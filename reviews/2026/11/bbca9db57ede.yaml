@@ -1,0 +1,8 @@
+id: bbca9db57ede
+kind: match
+records:
+    - HRSWVTS5GC
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 67257 of NuminaMath 1.5 to this record, but the row is not a clear copy: the row starts with a stray "Consider A." and the rotation angle is garbled as 360%/7 instead of 360 degrees/7. The record already had a statement from this source, so the row added no statement. The agent listed the row in registers/loose-removed.tsv.'

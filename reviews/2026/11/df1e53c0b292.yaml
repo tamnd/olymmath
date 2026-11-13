@@ -1,0 +1,9 @@
+id: df1e53c0b292
+kind: pair
+records:
+    - MJRZCK05E9
+    - ie-irmo/1997/p4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 161371 of NuminaMath 1.5 to this record, but they are two problems: the row asks to prove a^2+b^2+c^2 >= sqrt(3)abc for positive reals, the record proves only >= abc for nonnegative reals. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 161371 is now in its own loose record.'

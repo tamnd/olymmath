@@ -1,1 +1,6 @@
 year: 2000
+official:
+  - lang: Norwegian
+    code: "no"
+    url: https://www.matematikksenteret.no/sites/default/files/attachments/Abelkonkurransen/abel-oppgaver/abel_9900_f_prob_nb.pdf
+    source: abelkonkurransen

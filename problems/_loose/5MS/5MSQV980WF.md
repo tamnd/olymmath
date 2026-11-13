@@ -22,6 +22,14 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ukraine/train/0001.parquet#row=143
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:

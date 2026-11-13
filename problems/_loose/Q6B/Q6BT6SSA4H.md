@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=301
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc/2015
+    source: hf-mathnet
+    label: Saudi Arabia SAMC 2015
 ---
 In his bag, Salman has a number of stones. The weight of each stone is not greater than $0.5$ kg and the total weight of the stones is not greater than $2.5$ kg. Prove that Salman can divide his stones into $4$ groups, each group has a total weight not greater than $1$ kg
 

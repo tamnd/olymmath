@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Argentina/train/0001.parquet#row=24
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ar-oma/2010
     source: hf-ai-mo-aops
     label: 2010 Argentina National Olympiad
+  - at: ar-oma
+    source: hf-mathnet
+    label: Argentina National Olympiad of Argentina
 ---
 $21$ numbers are written in a row. $u,v,w$ are three consecutive numbers so $v=\frac{2uw}{u+w}$ . The first number is $\frac{1}{100}$ , the last one is $\frac{1}{101}$ . Find the $15$ th number.

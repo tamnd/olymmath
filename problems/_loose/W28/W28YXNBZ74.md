@@ -21,11 +21,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ibero-American_Mathematical_Olympiad/train/0000.parquet#row=77
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ibero/1999
     source: hf-numina-olympiads
     label: IberoAmerican_MO
+  - at: ibero
+    source: hf-mathnet
+    label: Ibero-American Mathematical Olympiad Iberoamerican Mathematical Olympiad
 ---
 $\mathrm{O}$ is the circumcenter of the acute-angled triangle $\mathrm{ABC}$. The altitudes are $\mathrm{AD}, \mathrm{BE}$ and $\mathrm{CF}$. The line $\mathrm{EF}$ cuts the circumcircle at $\mathrm{P}$ and $\mathrm{Q}$. Show that $\mathrm{OA}$ is perpendicular to $\mathrm{PQ}$. If $\mathrm{M}$ is the midpoint of $\mathrm{BC}$, show that $\mathrm{AP}^{2}=2 \mathrm{AD} \cdot \mathrm{OM}$.

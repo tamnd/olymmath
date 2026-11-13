@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Slovenia/train/0000.parquet#row=341
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: si-mo/2010
     source: hf-ai-mo-aops
     label: 2010 Slovenia National Olympiad
+  - at: si-mo
+    source: hf-mathnet
+    label: Slovenia National Math Olympiad
 ---
 Let $ABCD$ be a square with the side of $20$ units. Amir divides this square into $400$ unit squares. Reza then picks $4$ of the vertices of these unit squares. These vertices lie inside the square $ABCD$ and define a rectangle with the sides parallel to the sides of the square $ABCD.$ There are exactly $24$ unit squares which have at least one point in common with the sides of this rectangle. Find all possible values for the area of a rectangle with these properties.

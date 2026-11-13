@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: fr
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/France/train/0000.parquet#row=201
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: fr-tst
+    source: hf-mathnet
+    label: France Olympiades Françaises de Mathématiques
 ---
 Do there exist non-negative rational numbers $x, y$ and $z$ such that:
 

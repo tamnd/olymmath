@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0001.parquet#row=139
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia Saudi Arabian Mathematical Competitions
 ---
 Let $ABC$ be a triangle with $AB < AC$ and incircle $(I)$ tangent to $BC$ at $D$. Take $K$ on $AD$ such that $CD = CK$. Suppose that $AD$ cuts $(I)$ at $G$ and $BG$ cuts $CK$ at $L$. Prove that K is the midpoint of $CL$.

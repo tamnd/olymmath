@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Soviet_Union/train/0001.parquet#row=163
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ru-allrussian
+    source: hf-mathnet
+    label: Soviet Union 22nd ASU
 ---
 $A, B, C$ are the angles of a triangle. Show that $2\frac{\sin A}{A} + 2\frac{\sin B}{B} + 2\frac{\sin C}{C} \le \left(\frac{1}{B} + \frac{1}{C}\right) \sin A + \left(\frac{1}{C} + \frac{1}{A}\right) \sin B + \left(\frac{1}{A} + \frac{1}{B}\right) \sin C$

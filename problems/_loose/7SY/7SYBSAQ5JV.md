@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Soviet_Union/train/0000.parquet#row=5
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ru-allrussian
+    source: hf-mathnet
+    label: Soviet Union 1st ASU
 ---
 (a) Given a quadruple ( $\mathrm{a}, \mathrm{b}, \mathrm{c}, \mathrm{d}$ ) of positive reals, transform to the new quadruple ( $\mathrm{ab}, \mathrm{bc}, \mathrm{cd}$, da). Repeat arbitarily many times. Prove that you can never return to the original quadruple unless $\mathrm{a}=\mathrm{b}=\mathrm{c}=\mathrm{d}=1$.
 

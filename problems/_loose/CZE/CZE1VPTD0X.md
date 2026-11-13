@@ -14,11 +14,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/China/train/0001.parquet#row=322
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: cn-tst/2024
     source: hf-ai-mo-aops
     label: 2024 China Team Selection Test
+  - at: cn-tst
+    source: hf-mathnet
+    label: China The 65th IMO China National Team Selection Test
 ---
 $n>1$ is an integer. Let real number $x>1$ satisfy $$ x^{101}-nx^{100}+nx-1=0. $$ Prove that for any real $0<a<b<1$ , there exists a positive integer $m$ so that $a<\{x^m\}<b.$ *Proposed by Chenjie Yu*

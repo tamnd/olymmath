@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Russia/train/0000.parquet#row=288
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ru-allrussian
+    source: hf-mathnet
+    label: Russia XLIII Russian mathematical olympiad
 ---
 Let $P(x)$ be a polynomial of degree $n \geqslant 2$ with non-negative coefficients, and let $a, b$, and $c$ be the lengths of the sides of some acute triangle. Prove that the numbers $\sqrt[n]{P(a)}, \sqrt[n]{P(b)}$, and $\sqrt[n]{P(c)}$ are also the lengths of the sides of some acute triangle.
 

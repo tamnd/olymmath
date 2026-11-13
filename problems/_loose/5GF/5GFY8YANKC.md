@@ -21,12 +21,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=130
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: jbmo-sl/2003
     source: hf-numina-olympiads
     label: JBMO-SL
+  - at: sa-samc/2012
+    source: hf-mathnet
+    label: Saudi Arabia Saudi Arabia Mathematical Competitions 2012
 ---
 Let $a, b, c$ be rational numbers such that
 

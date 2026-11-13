@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: pt
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Moldova/train/0000.parquet#row=137
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: md-mo
+    source: hf-mathnet
+    label: Moldova Olimpiada Republicană la Matematică
 ---
 Let the functions $I:(0 ;+\infty) \rightarrow \mathbb{R}, I(a)=\int_{-a}^{a} \frac{d x}{\left(e^{x}+1\right)(|x|+a)}$. Show that $I$ is a constant function.

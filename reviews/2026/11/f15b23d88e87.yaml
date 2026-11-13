@@ -1,0 +1,8 @@
+id: f15b23d88e87
+kind: match
+records:
+    - imo/1995/p2
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Hong_Kong/train/0000.parquet#row=166 to this record, but the row is not a clear copy: row has 1/(a^2(b+c)) where the record (and IMO 1995) has 1/(a^3(b+c)), miscopied exponent. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

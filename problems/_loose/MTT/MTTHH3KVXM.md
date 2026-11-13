@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/China/train/0001.parquet#row=311
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: cn-gmo/2023
     source: hf-ai-mo-aops
     label: 2023 China Girls Math Olympiad
+  - at: cn-gmo
+    source: hf-mathnet
+    label: China 22nd Chinese Girls' Mathematical Olympiad
 ---
 Let $p$ be an odd prime. Suppose that positive integers $a,b,m,r$ satisfy $p\nmid ab$ and $ab > m^2$ . Prove that there exists at most one pair of coprime positive integers $(x,y)$ such that $ax^2+by^2=mp^r$ .

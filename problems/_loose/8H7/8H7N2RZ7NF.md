@@ -14,12 +14,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/IMO/train/0000.parquet#row=352
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: de-tst/2025
     source: hf-ai-mo-aops
     label: 2025 Germany Team Selection Test
+  - at: isl/2024
+    source: hf-mathnet
+    label: IMO IMO2024 Shortlisted Problems
 ---
 Let $p \ne q$ be coprime positive integers. Determine all infinite sequences $a_1$ , $a_2$ , $\dots$ of positive integers such that the following conditions hold for all $n \ge 1$ :
 \begin{align*}

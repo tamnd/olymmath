@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0002.parquet#row=9
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: danube/2017
     source: hf-ai-mo-aops
     label: 2017 Danube Mathematical Olympiad
+  - at: danube
+    source: hf-mathnet
+    label: Romania The Danube Mathematical Competition
 ---
 Consider an acute triangle $ABC$ in which $A_1, B_1,$ and $C_1$ are the feet of the altitudes from $A, B,$ and $C,$ respectively, and $H$ is the orthocenter. The perpendiculars from $H$ onto $A_1C_1$ and $A_1B_1$ intersect lines $AB$ and $AC$ at $P$ and $Q,$ respectively. Prove that the line perpendicular to $B_1C_1$ that passes through $A$ also contains the midpoint of the line segment $PQ$ .

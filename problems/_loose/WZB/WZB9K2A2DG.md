@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0003.parquet#row=23
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: rmm
+    source: hf-mathnet
+    label: Romania Romanian Master of Mathematics
 ---
 A lattice point in the Cartesian plane is a point whose coordinates are both integral. A lattice polygon is a polygon whose vertices are lattice points. Let $\Gamma$ be a convex lattice polygon. Prove that $\Gamma$ is contained in a convex lattice polygon $\Delta$ exactly one vertex of which is not a vertex of $\Gamma$, and the vertices of $\Gamma$ all lie on the boundary of $\Delta$.
 

@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0001.parquet#row=59
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines Philippine Mathematical Olympiad
 ---
 Let $A, B, C$ be positive integers such that the number $1212017 A B C$ is divisible by 45 . Find the difference between the largest and the smallest possible values of the two-digit number $A B$.

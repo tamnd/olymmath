@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Estonia/train/0001.parquet#row=106
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ee-mo
+    source: hf-mathnet
+    label: Estonia Estonian Math Competitions
 ---
 a) There are $2n$ rays marked in a plane, with $n$ being a natural number. Given that no two marked rays have the same direction and no two marked rays have a common initial point, prove that there exists a line that passes through none of the initial points of the marked rays and intersects with exactly $n$ marked rays.
 

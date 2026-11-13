@@ -14,11 +14,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/China/train/0001.parquet#row=325
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: cn-tst/2024
     source: hf-ai-mo-aops
     label: 2024 China Team Selection Test
+  - at: cn-tst
+    source: hf-mathnet
+    label: China The 65th IMO China National Team Selection Test
 ---
 $m>1$ is an integer such that $[2m-\sqrt{m}+1, 2m]$ contains a prime. Prove that for any pairwise distinct positive integers $a_1$ , $a_2$ , $\dots$ , $a_m$ , there is always $1\leq i,j\leq m$ such that $\frac{a_i}{(a_i, a_j)}\geq m$ .

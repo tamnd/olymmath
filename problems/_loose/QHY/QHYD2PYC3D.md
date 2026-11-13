@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0001.parquet#row=98
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines Philippine Mathematical Olympiad Area Stage
 ---
 A semicircle $\Gamma$ has diameter $A B=25$. Point $P$ lies on $A B$ with $A P=16$ and $C$ is on the semicircle such that $P C \perp A B$. A circle $\omega$ is drawn so that it is tangent to segment $P C$, segment $P B$, and $\Gamma$. What is the radius of $\omega$ ?

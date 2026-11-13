@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Japan/train/0000.parquet#row=195
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: jp-jjmo
+    source: hf-mathnet
+    label: Japan Japan Junior Mathematical Olympiad
 ---
 Given an acute-angled triangle $ABC$ with $\angle BAC=30^o$.Inside the triangle $ABC$, take point $X$ so that $\angle XBC=\angle XCB=30^o$.On the straight lines $BX$ and $CX$, points $P$ and $Q$ are taken $AP=BP$ and $AQ=CQ$, respectively. Let $M$ be the midpoint of $BC$. In this case, show that $\angle PMQ=90^o$.

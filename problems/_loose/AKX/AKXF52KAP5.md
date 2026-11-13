@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/China/train/0000.parquet#row=10
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: cn-league/2002
     source: hf-ai-mo-aops
     label: 2002 National High School Mathematics League
+  - at: cn-league
+    source: hf-mathnet
+    label: China China Mathematical Competition
 ---
 Real numbers $x,y$ satisfy that $(x+5)^2+(y-12)^2=14^2$ , then the minumum value of $x^2+y^2$ is $\text{(A)}2 \text{(B)}1 \text{(C)}\sqrt3 \text{(D)}\sqrt2 $

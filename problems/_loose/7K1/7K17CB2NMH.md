@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=421
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia SAUDI ARABIAN MATHEMATICAL COMPETITIONS
 ---
 Find all prime numbers $p$ such that $\frac{3^{p-1} - 1}{p}$ is a perfect square.

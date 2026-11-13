@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0000.parquet#row=101
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines Area Stage
 ---
 The polynomial function $p(x)$ has the form $x^{10}-4 x^{9}+\ldots+a x+k$ where $a, k \in \mathbb{R}$. If $p(x)$ has integral zeros, find the minimum possible positive value of $k$.

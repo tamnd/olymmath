@@ -1,0 +1,8 @@
+id: c948a2b368bd
+kind: match
+records:
+    - ir-tst/2012/p16
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Iran/train/0000.parquet#row=27 to this record, but the row is not a clear copy: row condition garbled ("p-1 < j" for p-1 | j), set f(1)..f(p-1) instead of f(0)..f(p-1), powers list garbled. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

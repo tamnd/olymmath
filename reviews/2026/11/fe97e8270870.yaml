@@ -1,0 +1,9 @@
+id: fe97e8270870
+kind: pair
+records:
+    - NA3YRKZFKE
+    - isl/1997/p10
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Hong_Kong/train/0000.parquet#row=69 to this record, but they are two problems: row asks to prove the statement for k >= 4, record asks to find all k for which it holds. The agent removed the row from the record, and the row is now in a new loose record.'

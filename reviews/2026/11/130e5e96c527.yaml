@@ -1,0 +1,8 @@
+id: 130e5e96c527
+kind: match
+records:
+    - JP327075D2
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The MathNet row all/train/0000.parquet#row=126 was joined into this record, which holds the MathNet row Mongolia/train/0000.parquet#row=113. The agent read both texts: they state the same problem, in other words.'

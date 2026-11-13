@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Slovenia/train/0000.parquet#row=292
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: si-mo
+    source: hf-mathnet
+    label: Slovenia National Math Olympiad
 ---
 For non-zero real numbers $x, y$, and $z$, it holds that $3x + 2y = z$ and $\frac{3}{x} + \frac{1}{y} = \frac{2}{z}$. Prove that the value of the expression $5x^2 - 4y^2 - z^2$ is always an integer.

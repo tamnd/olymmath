@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0001.parquet#row=152
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia Saudi Arabian Mathematical Competitions
 ---
 Find all positive integer $n\ge 3$ such that it is possible to mark the vertices of a regular $n$- gon with the number from 1 to n so that for any three vertices $A, B$ and $C$ with $AB = AC$, the number in $A$ is greater or smaller than both numbers in $B, C$.

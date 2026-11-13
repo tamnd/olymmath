@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0002.parquet#row=447
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ro-nmo/2019
+    source: hf-mathnet
+    label: Romania 2019 ROMANIAN MATHEMATICAL OLYMPIAD
 ---
 Let $f:[0, \infty) \longrightarrow[0, \infty)$ be a continuous function, with $f(0)>0$ and with the property that for any $0 \leq x<y$ the inequalities $x-y<f(y)-f(x) \leq 0$ hold. Show that:
 

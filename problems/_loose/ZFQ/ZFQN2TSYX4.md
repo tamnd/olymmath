@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=355
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia SAUDI ARABIAN MATHEMATICAL COMPETITIONS
 ---
 Let $n \ge 1$ be a fixed positive integer. We consider all the sets $S$ which consist of sub-sequences of the sequence $0, 1,2, ..., n$ satisfying the following conditions:
 i) If $(a_i)_{i=0}^k$ belongs to $S$, then $a_0 = 0$, $a_k = n$ and $a_{i+1} - a_i \le 2$ for all $0 \le i \le k - 1$.

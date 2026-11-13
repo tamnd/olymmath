@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Croatia/train/0000.parquet#row=252
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hr-mo
+    source: hf-mathnet
+    label: Croatia Mathematica competitions in Croatia
 ---
 Let $m, n$, and $k$ be natural numbers and let $p_{1}, p_{2}, \ldots, p_{n}$ be the numbers $1,2, \ldots, n$ in some order. If for every $i \in\{1,2, \ldots, n\}$ it holds that
 

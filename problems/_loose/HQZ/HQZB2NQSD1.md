@@ -14,12 +14,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Iran/train/0000.parquet#row=399
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ir-tst/2025
     source: hf-ai-mo-aops
     label: 2025 Iran Team Selection Test
+  - at: ir-mo
+    source: hf-mathnet
+    label: Iran Iranian Mathematical Olympiad
 ---
 In a scalene triangle $ABC$ , points $Y$ and $X$ lie on $AC$ and $BC$ respectively such that $BC \perp XY$ . Points $Z$ and $T$ are the reflections of $X$ and $Y$ with respect to the midpoints of sides $BC$ and $AC$ , respectively. Point $P$ lies on segment $ZT$ such that the circumcenter of triangle $XZP$ coincides with the circumcenter of triangle $ABC$ .
 Prove that the nine-point circle of triangle $ABC$ passes through the midpoint of segment $XP$ .

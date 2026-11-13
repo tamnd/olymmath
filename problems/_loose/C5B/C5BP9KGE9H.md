@@ -14,11 +14,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Balkan_Mathematical_Olympiad/train/0000.parquet#row=217
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ro-tst/2023
     source: hf-ai-mo-aops
     label: 2023 Romania Team Selection Test
+  - at: balkan-sl/2023
+    source: hf-mathnet
+    label: Balkan Mathematical Olympiad BMO 2023 Short List
 ---
 Find all positive integers, such that there exist positive integers $a, b, c$ , satisfying $\gcd(a, b, c)=1$ and $n=\gcd(ab+c, ac-b)=a+b+c$ .

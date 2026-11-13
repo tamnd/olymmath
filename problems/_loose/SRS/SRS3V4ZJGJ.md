@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/North_Macedonia/train/0000.parquet#row=321
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: jbmo
+    source: hf-mathnet
+    label: North Macedonia Junior Balkan Mathematical Olympiad
 ---
 A trapezoid $ABCD$ ($AB || CF$,$AB > CD$) is circumscribed.The incircle of the triangle $ABC$ touches the lines $AB$ and $AC$ at the points $M$ and $N$,respectively.Prove that the incenter of the trapezoid $ABCD$ lies on the line $MN$.

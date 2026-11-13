@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/China/train/0000.parquet#row=343
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: cn-tst/2010
     source: hf-ai-mo-aops
     label: 2010 China Team Selection Test
+  - at: cn-tst
+    source: hf-mathnet
+    label: China China National Team Selection Test
 ---
 Let $n_1,n_2, \cdots, n_{26}$ be pairwise distinct positive integers satisfying
 (1) for each $n_i$ , its digits belong to the set $\{1,2\}$ ;

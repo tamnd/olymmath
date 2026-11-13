@@ -1,0 +1,8 @@
+id: 76dc80398242
+kind: match
+records:
+    - vn-vmo/2022/p7
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Vietnam/train/0000.parquet#row=230 to this record, but the row is not a clear copy: row part b miscopied: I_aM parallel to AI (degenerate, since I_a lies on AI) where the record has I_aM parallel to AD. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

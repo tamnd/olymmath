@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0001.parquet#row=58
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: jbmo-sl/2018
     source: hf-ai-mo-aops
     label: 2018 JBMO Shortlist
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia SAUDI ARABIAN MATHEMATICAL COMPETITIONS
 ---
 Find all ordered pairs of positive integers $(m,n)$ such that : $125*2^n-3^m=271$

@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/China/train/0001.parquet#row=127
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: cn-tst/2013
     source: hf-ai-mo-aops
     label: 2013 China Team Selection Test
+  - at: cn-tst
+    source: hf-mathnet
+    label: China China National Team Selection Test
 ---
 Let $p$ be a prime number and $a, k$ be positive integers such that $p^a<k<2p^a$ . Prove that there exists a positive integer $n$ such that $$n<p^{2a}, C_n^k\equiv n\equiv k\pmod {p^a}.$$

@@ -15,8 +15,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0001.parquet#row=241
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines 22nd Philippine Mathematical Olympiad
 ---
 One of the biggest mathematical breakthroughs in 2019 was progress on an 82 -year old problem by the renowned mathematician and Fields medalist Terence Tao.
 Consider the function

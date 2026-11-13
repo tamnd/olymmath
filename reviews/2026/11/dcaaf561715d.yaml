@@ -1,0 +1,8 @@
+id: dcaaf561715d
+kind: match
+records:
+    - M2GWJ3GK6G
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Saudi_Arabia/train/0000.parquet#row=335 to this record, but the row is not a clear copy: row says FG parallel to AE, so H is never defined, the record has FH parallel to AE. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

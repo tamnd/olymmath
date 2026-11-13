@@ -15,8 +15,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0000.parquet#row=276
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines Philippines Mathematical Olympiad
 ---
 For each positive integer $n$, let $S_{n}$ be the sum of the infinite geometric series whose first term is $n$ and whose common ratio is $\frac{1}{n+1}$. Determine the least value of $n$ such that
 $$

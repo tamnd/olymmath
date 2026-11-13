@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Iran/train/0000.parquet#row=304
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ir-mo-r2/2021
     source: hf-ai-mo-aops
     label: 2021 Iran MO (2nd Round)
+  - at: ir-mo
+    source: hf-mathnet
+    label: Iran Iranian Mathematical Olympiad
 ---
 Is it possible to arrange 1400 positive integer ( not necessarily distinct ) ,at least one of them being 2021 , around a circle such that any number on this circle equals to the sum of gcd of the two previous numbers and two next numbers? for example , if $a,b,c,d,e$ are five consecutive numbers on this circle , $c=\gcd(a,b)+\gcd(d,e)$

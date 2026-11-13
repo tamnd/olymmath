@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0002.parquet#row=455
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: danube/2019
     source: hf-ai-mo-aops
     label: 2019 Danube Mathematical Competition
+  - at: danube
+    source: hf-mathnet
+    label: Romania The DANUBE Mathematical Competition
 ---
 Let $ ABCD $ be a cyclic quadrilateral, $ M $ midpoint of $ AC $ and $ N $ midpoint of $ BD. $ If $ \angle AMB =\angle AMD, $ prove that $ \angle ANB =\angle BNC. $

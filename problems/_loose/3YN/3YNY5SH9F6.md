@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: fr
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Italy/train/0001.parquet#row=20
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: it-cesenatico
+    source: hf-mathnet
+    label: Italy Progetto Olimpiadi di Matematica - GARA di SECONDO LIVELLO
 ---
 How many ordered pairs $(x, y)$ of integers satisfy the equation $y^{4}-8 y^{2}+7=8 x^{2}-2 x^{2} y^{2}-x^{4} ?$

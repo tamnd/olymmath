@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0001.parquet#row=78
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines Philippine Mathematical Olympiad Area Stage
 ---
 A spider and a fly are on diametrically opposite vertices of a web in the shape of a regular hexagon. The fly is stuck and cannot move. On the other hand, the spider can walk freely along the edges of the hexagon. Each time the spider reaches a vertex, it randomly chooses between two adjacent edges with equal probability, and proceeds to walk along that edge. On average, how many edge lengths will the spider walk before getting to the fly?

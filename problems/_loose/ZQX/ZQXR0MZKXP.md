@@ -15,8 +15,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Netherlands/train/0000.parquet#row=256
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: nl-nwo-r2
+    source: hf-mathnet
+    label: Netherlands Second Round
 ---
 Given is the sequence of numbers $a_{0}, a_{1}, a_{2}, \ldots, a_{2020}$. It is given that $a_{0}=0$. Moreover, for every $k=1,2, \ldots, 2020$ it holds that
 

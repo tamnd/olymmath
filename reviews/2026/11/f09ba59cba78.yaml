@@ -1,0 +1,9 @@
+id: f09ba59cba78
+kind: pair
+records:
+    - 13R1A0TDZM
+    - TQTFD18TDH
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import joined the MathNet row all/train/0005.parquet#row=123 into this record, which holds the MathNet row Ukraine/train/0001.parquet#row=227, but they are two problems: the row asks about {a/b + b/c + c/a} = 0 for three distinct integers, the record proves {a/b} + {b/a} = 0 is impossible for two. The row added no statement, so the problem was lost. The row is now in a new loose record.'

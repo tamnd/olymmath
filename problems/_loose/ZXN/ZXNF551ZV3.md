@@ -15,8 +15,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0002.parquet#row=385
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ro-tst/2019
+    source: hf-mathnet
+    label: Romania SELECTION TESTS FOR THE 2019 BMO AND IMO
 ---
 Determine all positive integers $n$, such that $n^{n+1}+n-1$
 

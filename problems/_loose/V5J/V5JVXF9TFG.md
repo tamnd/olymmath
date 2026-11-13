@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=274
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia SAMC
 ---
 Let $\vartriangle ABC$ be an acute triangle, with $\angle A> \angle B \ge \angle C$. Let $D, E$ and $F$ be the tangency points between the incircle of triangle and sides $BC, CA, AB$, respectively. Let $J$ be a point on $(BD)$, $K$ a point on $(DC)$, $L$ a point on $(EC)$ and $M$ a point on $(FB)$, such that $AF = FM = JD = DK = LE = EA$. Let $P$ be the intersection point between $AJ$ and $KM$ and let $Q$ be the intersection point between $AK$ and $JL$. Prove that $PJKQ$ is cyclic.

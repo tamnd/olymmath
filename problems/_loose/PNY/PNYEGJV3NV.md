@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Hong_Kong/train/0000.parquet#row=274
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hk-pc
+    source: hf-mathnet
+    label: Hong Kong 1997-2023 IMO HK TST
 ---
 Given triangle $ABC$ with $\angle A = a$. Let $AL$ be the bisector of the triangle $ABC$. Let the incircle of $\vartriangle ABC$ touch the sides $AB$ and $BC$ at points $P$ and $Q$ respectively. Let $X$ be the intersection point of the lines $AQ$ and $LP$. Prove that the lines $BX$ and $AL$ are perpendicular.
 

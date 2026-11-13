@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0001.parquet#row=172
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia Saudi Arabian Mathematical Competitions
 ---
 Let $ABC$ be a non isosceles triangle with incenter $I$ . The circumcircle of the triangle $ABC$ has radius $R$. Let $AL$ be the external angle bisector of $\angle BAC $with $L \in BC$. Let $K$ be the point on perpendicular bisector of $BC$ such that $IL \perp IK$.Prove that $OK=3R$.

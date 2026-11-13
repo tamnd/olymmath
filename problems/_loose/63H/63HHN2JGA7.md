@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0001.parquet#row=94
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia SAUDI ARABIAN MATHEMATICAL COMPETITIONS
 ---
 Suppose that $a, b, c,d$ are pairwise distinct positive integers such that $a+b = c+d = p$ for some odd prime $p > 3$ . Prove that $abcd$ is not a perfect square.

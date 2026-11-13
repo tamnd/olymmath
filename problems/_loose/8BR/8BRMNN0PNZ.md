@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: fr
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/France/train/0001.parquet#row=182
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: fr-tst
+    source: hf-mathnet
+    label: France PRÉPARATION OLYMPIQUE FRANÇAISE DE MATHÉMATIQUES
 ---
 Let $a, b, c \geqslant 1$ be integers such that $a^{b} \mid b^{c}$ and $a^{c} \mid c^{b}$. Show that $a^{2} \mid b c$.

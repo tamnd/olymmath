@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Hong_Kong/train/0000.parquet#row=318
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: hk-pc/2017
     source: hf-ai-mo-aops
     label: 2017 Hong Kong TST
+  - at: hk-pc
+    source: hf-mathnet
+    label: Hong Kong HKG TST
 ---
 In a committee there are $n$ members. Each pair of members are either friends or enemies. Each committee member has exactly three enemies. It is also known that for each committee member, an enemy of his friend is automatically his own enemy. Find all possible value(s) of $n$

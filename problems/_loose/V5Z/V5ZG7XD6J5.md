@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0001.parquet#row=313
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ph-pmo
     source: hf-ai-mo-aops
     label: 24th Philippine MO Qualifying Stage
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines 24th Philippine Mathematical Olympiad
 ---
 Find the sum of all positive integers $n$ , $1\leq n\leq 5000$ , for which $$ n^2+2475n+2454+(-1)^n $$ is divisible by $2477$ . (Note that $2477$ is a prime number.)

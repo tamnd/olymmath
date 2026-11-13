@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Czech_Republic/train/0000.parquet#row=112
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: cz-sk-mo
+    source: hf-mathnet
+    label: Czech Republic 67th Czech and Slovak Mathematical Olympiad
 ---
 Prove that if the sum of two given real numbers $a, b$ is greater than 2, the system of inequalities
 

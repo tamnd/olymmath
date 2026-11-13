@@ -14,12 +14,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0003.parquet#row=326
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ro-nmo/2024
     source: hf-ai-mo-aops
     label: 2024 Romania National Olympiad
+  - at: ro-nmo
+    source: hf-mathnet
+    label: Romania 74th Romanian Mathematical Olympiad
 ---
 Let $\mathbb{L}$ be a finite field with $q$ elements. Prove that:
 

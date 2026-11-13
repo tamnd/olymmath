@@ -1,0 +1,9 @@
+id: c08d8257716b
+kind: pair
+records:
+    - EQD7F1Z6QS
+    - balkan-sl/2011/a3
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Balkan_Mathematical_Olympiad/train/0000.parquet#row=17 to this record, but they are two problems: another problem: the row asks for the minimum of a different sum, the record asks to prove a bound on sum 1/(x_i^k+1) with a parameter k. The agent removed the row from the record, and the row is now in a new loose record.'

@@ -1,0 +1,8 @@
+id: e969f6829aeb
+kind: match
+records:
+    - pamo/2013/p2
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Brazil/train/0001.parquet#row=138 to this record, but the row is not a clear copy: the row''s functional equation is garbled (f(x) on both sides where the original has f(x+y)). The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

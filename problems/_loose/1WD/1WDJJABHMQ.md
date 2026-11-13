@@ -14,11 +14,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Balkan_Mathematical_Olympiad/train/0000.parquet#row=226
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: balkan-sl/2024
     source: hf-ai-mo-aops
     label: 2024 Balkan MO Shortlist
+  - at: balkan
+    source: hf-mathnet
+    label: Balkan Mathematical Olympiad 41st Balkan Mathematical Olympiad
 ---
 Let $n\geq 3$ be an integer. Alice and Bob play the following game on the vertices of a regular $n$ -gon. Alice places her token on a vertex of the n-gon. Afterwards Bob places his token on another vertex of the n-gon. Then, with Alice playing first, they move their tokens alternately as follows for $2n$ rounds: In Alice's turn on the $k$ -th round, she moves her token $k$ positions clockwise or anticlockwise. In Bob's turn on the $k$ -th round, he moves his token $1$ position clockwise or anticlockwise. If at the end of any person's turn the two tokens are on the same vertex, then Alice wins the game, otherwise Bob wins. Decide for each value of $n$ which player has a winning strategy.

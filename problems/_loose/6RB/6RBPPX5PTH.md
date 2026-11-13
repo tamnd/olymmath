@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Mongolia/train/0000.parquet#row=71
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: mn-mo
+    source: hf-mathnet
+    label: Mongolia 46th Mongolian Mathematical Olympiad
 ---
 Let $ABC$ be a scalene triangle. The inscribed circle of $ABC$ touches the sides $BC$, $CA$, and $AB$ at the points $A_1$, $B_1$, $C_1$ respectively. Let $I$ be the incenter, $O$ be the circumcenter, and lines $OI$ and $BC$ meet at point $D$. The perpendicular line from $A_1$ to $B_1 C_1$ intersects $AD$ at point $E$. Prove that $B_1 C_1$ passes through the midpoint of $EA_1$.

@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Greece/train/0000.parquet#row=213
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: gr-hms/2023
     source: hf-ai-mo-aops
     label: 2023 Greece Junior Math Olympiad
+  - at: gr-hms
+    source: hf-mathnet
+    label: Greece 40th Hellenic Mathematical Olympiad
 ---
 Solve in real numbers the system: $$ \begin{cases} a+b+c=0 ab^3+bc^3+ca^3=0 \end{cases} $$

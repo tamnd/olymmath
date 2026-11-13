@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=93
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia Saudi Arabia Mathematical Competitions
 ---
 Let $P$ be a point in the interior of triangle $ABC$. Lines $AP$, $BP$, $CP$ intersect sides $BC$, $CA$, $AB$ at $L$, $M$, $N$, respec­tively. Prove that $$AP \cdot BP \cdot CP \ge 8PL \cdot PM \cdot PN.$$

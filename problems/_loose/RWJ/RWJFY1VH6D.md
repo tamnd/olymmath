@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Argentina/train/0001.parquet#row=23
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: rioplatense/2010
     source: hf-ai-mo-aops
     label: 2010 Rioplatense Mathematical Olympiad, Level 3
+  - at: rioplatense
+    source: hf-mathnet
+    label: Argentina Mathematical Olympiad Rioplatense
 ---
 Let $r_2, r_3,\ldots, r_{1000}$ denote the remainders when a positive odd integer is divided by $2,3,\ldots,1000$ , respectively. It is known that the remainders are pairwise distinct and one of them is $0$ . Find all values of $k$ for which it is possible that $r_k = 0$ .

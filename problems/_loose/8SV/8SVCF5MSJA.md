@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0001.parquet#row=154
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia Saudi Arabian Mathematical Competitions
 ---
 Let $ABC$ be an acute, non-isosceles triangle inscribed in (O) and $BB'$, $CC'$ are altitudes. Denote $E, F$ as the intersections of $BB'$, $CC'$ with $(O)$ and $D, P, Q$ are projections of $A$ on $BC$, $CE$, $BF$. Prove that the perpendicular bisectors of $PQ$ bisects two segments $AO$, $BC$.

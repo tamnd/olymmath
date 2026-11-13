@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0003.parquet#row=164
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ro-nmo/2023
     source: hf-ai-mo-aops
     label: 2023 Romania National Olympiad
+  - at: ro-nmo
+    source: hf-mathnet
+    label: Romania THE 73rd ROMANIAN MATHEMATICAL OLYMPIAD - FINAL ROUND
 ---
 In an art museum, $n$ paintings are exhibited, where $n \geq 33.$ In total, $15$ colors are used for these paintings such that any two paintings have at least one common color, and no two paintings have exactly the same colors. Determine all possible values of $n \geq 33$ such that regardless of how we color the paintings with the given properties, we can choose four distinct paintings, which we can label as $T_1, T_2, T_3,$ and $T_4,$ such that any color that is used in both $T_1$ and $T_2$ can also be found in either $T_3$ or $T_4$ .

@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Hong_Kong/train/0000.parquet#row=451
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: hk-pc/2023
     source: hf-ai-mo-aops
     label: 2023 Hong Kong Team Selection Test
+  - at: hk-pc
+    source: hf-mathnet
+    label: Hong Kong IMO HK TST
 ---
 A point $P$ lies inside an equilateral triangle $ABC$ such that $AP=15$ and $BP=8$ . Find the maximum possible value of the sum of areas of triangles $ABP$ and $BCP$ .

@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Austria/train/0000.parquet#row=114
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: at-oemo-beg/2016
     source: hf-ai-mo-aops
     label: 2016 Austria Beginners' Competition
+  - at: at-oemo-beg
+    source: hf-mathnet
+    label: Austria Beginners' Competition
 ---
 Let $ABCDE$ be a convex pentagon with ﬁve equal sides and right angles at $C$ and $D$ . Let $P$ denote the intersection point of the diagonals $AC$ and $BD$ . Prove that the segments $PA$ and $PD$ have the same length.
 

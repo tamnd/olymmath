@@ -21,11 +21,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ibero-American_Mathematical_Olympiad/train/0000.parquet#row=0
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ibero/1985
     source: hf-numina-olympiads
     label: IberoAmerican_MO
+  - at: ibero
+    source: hf-mathnet
+    label: Ibero-American Mathematical Olympiad Iberoamerican Mathematical Olympiad
 ---
 Find all integer solutions to: $a+b+c=24, a^{2}+b^{2}+c^{2}=210, a b c=440$.

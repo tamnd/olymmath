@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Greece/train/0000.parquet#row=98
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: gr-hms/2014
     source: hf-ai-mo-aops
     label: 2014 Greece Junior Math Olympiad
+  - at: gr-hms
+    source: hf-mathnet
+    label: Greece 31st Hellenic Mathematical Olympiad
 ---
 We color the numbers $1, 2, 3,....,20$ with two colors white and black in such a way that both colors are used. Find the number of ways, we can perform this coloring if the product of white numbers and the product of black numbers have greatest common divisor equal to $1$ .

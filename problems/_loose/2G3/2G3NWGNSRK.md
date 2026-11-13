@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Slovenia/train/0000.parquet#row=215
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: si-mo
+    source: hf-mathnet
+    label: Slovenia National Math Olympiad
 ---
 Find all natural numbers $m$ and $n$ for which $m^{2}+n^{5}=252$.

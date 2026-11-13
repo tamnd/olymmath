@@ -1,0 +1,9 @@
+id: e13edbebc495
+kind: pair
+records:
+    - 832VCKQQZY
+    - vn-vmo/1979/p1
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Spain/train/0001.parquet#row=240 to this record, but they are two problems: the row asks to determine the x>1 for which a triangle exists, the record asks to prove a triangle exists for all x>1. The agent removed the row from the record, and the row is now in a new loose record.'

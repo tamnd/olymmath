@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Argentina/train/0001.parquet#row=225
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: rioplatense/2022
     source: hf-ai-mo-aops
     label: 2022 Rioplatense Mathematical Olympiad
+  - at: rioplatense
+    source: hf-mathnet
+    label: Argentina XXIX Rioplatense Mathematical Olympiad
 ---
 Prove that there exists infinitely many positive integers $n$ for which the equation $$ x^2+y^{11}-z^{2022!}=n $$ has no solution $(x,y,z)$ over the integers.

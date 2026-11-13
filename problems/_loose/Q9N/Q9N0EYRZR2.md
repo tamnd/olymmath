@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=289
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc/2015
+    source: hf-mathnet
+    label: Saudi Arabia SAMC 2015
 ---
 Let $a, b, c$ be positive real numbers such that $a + b + c = 1$. Prove that $$2 \left( \frac{ab}{a + b} +\frac{bc}{b + c} +\frac{ca}{c+ a}\right)+ 1 \ge 6(ab + bc + ca)$$
 

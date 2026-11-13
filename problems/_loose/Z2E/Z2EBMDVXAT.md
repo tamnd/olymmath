@@ -30,11 +30,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S4
+    lang: de
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Switzerland/train/0000.parquet#row=201
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ch-smo/2009
     source: hf-ai-mo-aops
     label: 2009 Switzerland - Final Round
+  - at: ch-smo
+    source: hf-mathnet
+    label: Switzerland SMO Finalrunde
 ---
 Let $a, b, c, d$ be positive real numbers. Prove the following inequality and determine all cases in which the equality holds : $$ \frac{a - b}{b + c}+\frac{b - c}{c + d}+\frac{c - d}{d + a}+\frac{d - a}{a + b} \ge 0. $$

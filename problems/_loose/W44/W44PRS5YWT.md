@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/China/train/0001.parquet#row=236
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: cn-league
+    source: hf-mathnet
+    label: China China Mathematical Competition
 ---
 Let the rational number $r=\frac{p}{q} \in(0,1)$, where $p, q$ are coprime positive integers, and $pq$ divides 3600. The number of such rational numbers $r$ is $ $ .

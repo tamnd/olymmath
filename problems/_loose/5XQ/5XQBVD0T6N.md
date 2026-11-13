@@ -30,6 +30,14 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S4
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/JBMO/train/0000.parquet#row=7
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
@@ -39,5 +47,8 @@ unplaced:
   - at: jbmo-sl/2017
     source: hf-numina-olympiads
     label: JBMO-SL
+  - at: jbmo
+    source: hf-mathnet
+    label: JBMO
 ---
 Solve in nonnegative integers the equation $5^t + 3^x4^y = z^2$ .

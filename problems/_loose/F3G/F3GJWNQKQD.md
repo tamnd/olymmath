@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0001.parquet#row=224
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ro-nmo
+    source: hf-mathnet
+    label: Romania 66th ROMANIAN MATHEMATICAL OLYMPIAD
 ---
 Matrices $A \in \mathcal{M}_{m, n}(\mathbb{C}), B \in \mathcal{M}_{n, m}(\mathbb{C})$, where $m \geq n \geq 2$, have the property that there exist $k \in \mathbb{N}^{*}$ and $a_{0}, a_{1}, \ldots, a_{k} \in \mathbb{C}$ such that
 

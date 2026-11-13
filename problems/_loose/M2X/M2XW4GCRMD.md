@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Argentina/train/0001.parquet#row=27
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ar-oma/2010
     source: hf-ai-mo-aops
     label: 2010 Argentina National Olympiad
+  - at: ar-oma
+    source: hf-mathnet
+    label: Argentina National Olympiad of Argentina
 ---
 In a row the numbers $1,2,...,2010$ have been written. Two players, taking turns, write $+$ or $\times$ between two consecutive numbers whenever possible. The first player wins if the algebraic sum obtained is divisible by $3$ ; otherwise, the second player wins. Find a winning strategy for one of the players.

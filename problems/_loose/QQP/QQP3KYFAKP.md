@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Greece/train/0000.parquet#row=180
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: gr-hms/2019
     source: hf-ai-mo-aops
     label: 2019 Greece Junior Math Olympiad
+  - at: gr-hms
+    source: hf-mathnet
+    label: Greece 36th Hellenic Mathematical Olympiad
 ---
 Determine all positive integers equal to 13 times the sum of their digits.

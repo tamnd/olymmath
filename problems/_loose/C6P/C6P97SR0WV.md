@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Switzerland/train/0000.parquet#row=432
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ch-smo
+    source: hf-mathnet
+    label: Switzerland IMO Selection
 ---
 Given a (simple) graph $G$ with $n \geq 2$ vertices $v_1, v_2, \dots, v_n$ and $m \geq 1$ edges, Joël and Robert play the following game with $m$ coins:
 [list=i]

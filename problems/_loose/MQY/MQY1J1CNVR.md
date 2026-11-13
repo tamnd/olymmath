@@ -22,11 +22,25 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: fr
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/France/train/0000.parquet#row=282
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: danube/2014
     source: hf-ai-mo-aops
     label: 2014 Danube Mathematical Competition
+  - at: fr-tst
+    source: hf-mathnet
+    label: France Olympiades Françaises de Mathématiques
+  - at: danube/2014
+    source: hf-mathnet
+    label: Romania THE 2014 DANUBE MATHEMATICAL COMPETITION
 ---
 Determine the natural number $a =\frac{p+q}{r}+\frac{q+r}{p}+\frac{r+p}{q}$ where $p, q$ and $r$ are prime positive numbers.

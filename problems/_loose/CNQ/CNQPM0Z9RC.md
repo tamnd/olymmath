@@ -15,8 +15,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0001.parquet#row=5
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines 18th PMO National Stage Oral Phase
 ---
 Last January 7, 2016, a team from the University of Central Missouri headed by Curtis Cooper discovered the largest prime number known so far:
 $$

@@ -30,6 +30,14 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S4
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/United_States/train/0004.parquet#row=150
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
@@ -39,5 +47,8 @@ unplaced:
   - at: hmmt/2011
     source: hf-numina-olympiads
     label: HMMT February
+  - at: hmmt
+    source: hf-mathnet
+    label: United States Harvard-MIT Mathematics Tournament
 ---
 Let $ABCD$ be a square of side length $13$ . Let $E$ and $F$ be points on rays $AB$ and $AD$ respectively, so that the area of square $ABCD$ equals the area of triangle $AEF$ . If $EF$ intersects $BC$ at $X$ and $BX = 6$ , determine $DF$ .

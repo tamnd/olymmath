@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0001.parquet#row=337
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ph-pmo
     source: hf-ai-mo-aops
     label: 25th Philippine MO Area Stage
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines 25th Philippine Mathematical Olympiad Area Stage
 ---
 For each positive integer $n$ , define the function $f_n(x)=|n-x|$ . How many real solutions are there to $$(f_1\circ f_2\circ \cdots\circ f_{24}\circ f_{25})(x)=0?$$

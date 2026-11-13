@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Vietnam/train/0000.parquet#row=250
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: vn-vmo/2024
     source: hf-ai-mo-aops
     label: 2024 Vietnam National Olympiad
+  - at: vn-vmo
+    source: hf-mathnet
+    label: Vietnam Vietnamese MO
 ---
 Find all polynomials $P(x), Q(x)$ with real coefficients such that for all real numbers $a$ , $P(a)$ is a root of the equation $x^{2023}+Q(a)x^2+(a^{2024}+a)x+a^3+2025a=0.$

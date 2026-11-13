@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0000.parquet#row=261
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines Philippines Mathematical Olympiad
 ---
 Considered to be the most prolific mathematician of all time, he published, in totality, the most number of mathematical pages in history. Undertaken by the Swiss Society of Natural Sciences, the project of publishing his collected works is still going on and will require more than 75 volumes. Who is this great mathematician Switzerland has produced?

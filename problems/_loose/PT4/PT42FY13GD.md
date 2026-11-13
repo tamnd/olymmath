@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Iran/train/0000.parquet#row=250
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ir-mo/2020
     source: hf-ai-mo-aops
     label: 2020 Iran MO (3rd Round)
+  - at: ir-mo
+    source: hf-mathnet
+    label: Iran 38th Iranian Mathematical Olympiad
 ---
 find all functions from the reals to themselves. such that for every real $x,y$ . $$ f(y-f(x))=f(x)-2x+f(f(y)) $$

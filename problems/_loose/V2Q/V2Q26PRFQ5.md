@@ -15,6 +15,10 @@ statements:
     kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hr-mo/2011
+    source: hf-mathnet
+    label: Croatia CroatianCompetitions2011
 ---
 For a natural number $n$, we consider the set
 

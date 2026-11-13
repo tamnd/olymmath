@@ -21,11 +21,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ibero-American_Mathematical_Olympiad/train/0000.parquet#row=68
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ibero/1998
     source: hf-numina-olympiads
     label: IberoAmerican_MO
+  - at: ibero
+    source: hf-mathnet
+    label: Ibero-American Mathematical Olympiad Iberoamerican Mathematical Olympiad
 ---
 There are 98 points on a circle. Two players play alternately as follows. Each player joins two points which are not already joined. The game ends when every point has been joined to at least one other. The winner is the last player to play. Does the first or second player have a winning strategy?

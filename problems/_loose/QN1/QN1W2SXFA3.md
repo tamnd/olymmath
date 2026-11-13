@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0001.parquet#row=280
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ph-pmo
     source: hf-ai-mo-aops
     label: 23rd Philippine MO Qualifying Stage
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines 23rd Philippine Mathematical Olympiad Qualifying Stage
 ---
 Alice and Bob are playing a game with dice. They each roll a die six times, and take the sums of the outcomes of their own rolls. The player with the higher sum wins. If both players have the same sum, then nobody wins. Alice's first three rolls are $6$ , $5$ , and $6$ , while Bob's first three rolls are $2$ , $1$ , and $3$ . The probability that Bob wins can be written as a fraction $a/b$ in lowest terms. What is $ a + b $?

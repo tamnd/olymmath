@@ -1,0 +1,8 @@
+id: 44787e5514d1
+kind: match
+records:
+    - at-oemo/2011/p5
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Austria/train/0000.parquet#row=34 to this record, but the row is not a clear copy: exponents miscopied: the row has x_j^{2k} and x_j^{2k+1}, the record x_j^{2^k} and x_j^{2^{k+1}}. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

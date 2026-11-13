@@ -1,0 +1,9 @@
+id: 45d620399dbd
+kind: pair
+records:
+    - S1WJJS789V
+    - 7CWR2CKX6N
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row United_States/train/0006.parquet#row=468 to this record, but they are two problems: the row takes a, b, c positive reals, the record only abc = 1 with no sign condition. The agent removed the row from the record, and the row is now in a new loose record.'

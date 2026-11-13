@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/China/train/0000.parquet#row=324
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: cn-tst/2010
     source: hf-ai-mo-aops
     label: 2010 China Team Selection Test
+  - at: cn-tst
+    source: hf-mathnet
+    label: China China National Team Selection Test
 ---
 Given acute triangle $ABC$ with $AB>AC$ , let $M$ be the midpoint of $BC$ . $P$ is a point in triangle $AMC$ such that $\angle MAB=\angle PAC$ . Let $O,O_1,O_2$ be the circumcenters of $\triangle ABC,\triangle ABP,\triangle ACP$ respectively. Prove that line $AO$ passes through the midpoint of $O_1 O_2$ .

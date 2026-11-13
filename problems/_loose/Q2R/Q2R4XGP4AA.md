@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=23
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: de-bundeswettbewerb/1979
     source: hf-ai-mo-aops
     label: 1979 Bundeswettbewerb Mathematik
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia SAMC
 ---
 The squares $OABC$ and $OA_1B_1C_1$ are situated in the same plane and are directly oriented. Prove that the lines $AA_1$ , $BB_1$ , and $CC_1$ are concurrent.

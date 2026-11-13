@@ -1,0 +1,9 @@
+id: a29f3b4c47e0
+kind: pair
+records:
+    - ZT89AFZMEW
+    - memo/2017/i1
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Netherlands/train/0001.parquet#row=14 to this record, but they are two problems: other functional equation: row f(x+yf(x+y)) = y^2+f(x)f(y), record f(x^2+f(x)f(y)) = xf(x+y). The agent removed the row from the record, and the row is now in a new loose record.'

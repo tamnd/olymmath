@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=62
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia Saudi Arabia Mathematical Competitions
 ---
 Set $A$ consists of $7$ consecutive positive integers less than $2011$, while set $B$ consists of $11$ consecutive positive integers. If the sum of the numbers in $A$ is equal to the sum of the numbers in $B$ , what is the maximum possible element that $A$ could contain?

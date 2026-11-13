@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Slovenia/train/0001.parquet#row=390
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: si-mo
+    source: hf-mathnet
+    label: Slovenia 63. matematično tekmovanje srednješolcev Slovenije, Državno tekmovanje
 ---
 Find all pairs of real numbers $x$ and $y$ that solve the system of equations
 

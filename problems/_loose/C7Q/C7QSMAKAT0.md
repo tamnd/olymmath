@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Slovenia/train/0000.parquet#row=340
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: si-mo/2010
     source: hf-ai-mo-aops
     label: 2010 Slovenia National Olympiad
+  - at: si-mo
+    source: hf-mathnet
+    label: Slovenia National Math Olympiad
 ---
 For what positive integers $n \geq 3$ does there exist a polygon with $n$ vertices (not necessarily convex) with property that each of its sides is parallel to another one of its sides?

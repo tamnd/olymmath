@@ -14,11 +14,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Balkan_Mathematical_Olympiad/train/0000.parquet#row=219
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: balkan-sl/2024
     source: hf-ai-mo-aops
     label: 2024 Balkan MO Shortlist
+  - at: balkan
+    source: hf-mathnet
+    label: Balkan Mathematical Olympiad 41st Balkan Mathematical Olympiad
 ---
 Prove that there is a positive integer such that the decimal representation of $$ \sum_{k=1}^{\lfloor n/3 \rfloor} \binom{n}{3k}8^k $$ has all of its last $2023$ digits equal to $8$ .

@@ -1,0 +1,8 @@
+id: 7104e9cc42c3
+kind: match
+records:
+    - baltic-way/2015/p2
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Baltic_Way/train/0001.parquet#row=169 to this record, but the row is not a clear copy: the product is miscopied: it ends at (1-a_{n-1}^n) instead of (1-a_n^n). The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

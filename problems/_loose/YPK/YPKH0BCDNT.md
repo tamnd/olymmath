@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Croatia/train/0000.parquet#row=78
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hr-mo/2011
+    source: hf-mathnet
+    label: Croatia Hrvatska 2011
 ---
 Let $P_{1}, P_{2}, \ldots, P_{2 n}$ be a permutation of the vertices of a regular $2 n$-gon.
 

@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0001.parquet#row=331
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ph-pmo
     source: hf-ai-mo-aops
     label: 25th Philippine MO Area Stage
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines 25th Philippine Mathematical Olympiad Area Stage
 ---
 In square $ABCD$ , $P$ lies on ray $AD$ past $D$ and lines $PC$ and $AB$ meet at $Q$ . Point $X$ is the foot of the perpendicular from $B$ to $DQ$ , and the circumcircle of triangle $APX$ meets line $AB$ again at $Y$ . Suppose that $DP=\frac{16}{3}$ and $BQ=27$ . The length of $BY$ can be written in the form $p/q$ , where $p$ and $q$ are relatively prime positive integers. Find $p+q$ .

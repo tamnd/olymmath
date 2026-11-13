@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ireland/train/0000.parquet#row=289
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ie-irmo/2020
     source: hf-ai-mo-aops
     label: 2020 Irish Math Olympiad
+  - at: ie-irmo/2020
+    source: hf-mathnet
+    label: Ireland IRL_ABooklet_2020
 ---
 A round table has $2 N$ chairs around it. Due to social distancing guidelines, no two people are allowed to sit next to each other. How many different ways are there to choose seats around the table on which $N-1$ guests can be seated?

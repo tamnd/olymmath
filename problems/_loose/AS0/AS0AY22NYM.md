@@ -14,12 +14,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/United_States/train/0009.parquet#row=192
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: amc10
     source: hf-ai-mo-aops
     label: 2024 AMC 10
+  - at: amc10
+    source: hf-mathnet
+    label: United States AMC 10 A
 ---
 Let $S$ be a subset of $\{1, 2, 3, \dots, 2024\}$ such that the following two conditions hold:
 - If $x$ and $y$ are distinct elements of $S$ , then $|x-y| > 2$ - If $x$ and $y$ are distinct odd elements of $S$ , then $|x-y| > 6$ .

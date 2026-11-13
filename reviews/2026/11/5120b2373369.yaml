@@ -1,0 +1,9 @@
+id: 5120b2373369
+kind: pair
+records:
+    - 7D6SFX1TVJ
+    - baltic-way/2016/p1
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Singapore/train/0000.parquet#row=14 to this record, but they are two problems: the row asks for coprime pairs (p, q), the record for pairs of primes. The agent removed the row from the record, and the row is now in a new loose record.'

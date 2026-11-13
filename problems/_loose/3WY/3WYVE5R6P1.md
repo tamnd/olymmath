@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0003.parquet#row=84
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ro-nmo/2023
     source: hf-ai-mo-aops
     label: 2023 Romania National Olympiad
+  - at: ro-nmo
+    source: hf-mathnet
+    label: Romania THE 73rd ROMANIAN MATHEMATICAL OLYMPIAD - FINAL ROUND
 ---
 The non-zero natural number n is a perfect square. By dividing $2023$ by $n$ , we obtain the remainder $223- \frac{3}{2} \cdot n$ . Find the quotient of the division.

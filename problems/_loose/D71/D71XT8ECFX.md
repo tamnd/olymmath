@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=8
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia SAMC
 ---
 In triangle $ABC$ the circumcircle has radius $R$ and center $O$ and the incircle has radius $r$ and center $I\ne O$ . Let $G$ denote the centroid of triangle $ABC$. Prove that $IG \perp BC$ if and only if $AB = AC$ or $AB + AC = 3BC$.

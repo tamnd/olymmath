@@ -1,0 +1,9 @@
+id: 4ab5b797b89d
+kind: pair
+records:
+    - MEDTTXY1TG
+    - K9GKQH4ZNA
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Greece/train/0000.parquet#row=174 to this record, but they are two problems: the row allows any integers x, y, z (trivial with x = 0), the record requires positive integers. The agent removed the row from the record, and the row is now in a new loose record.'

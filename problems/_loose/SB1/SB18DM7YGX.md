@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Netherlands/train/0001.parquet#row=101
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: nl-nwo-r2
+    source: hf-mathnet
+    label: Netherlands Second Round
 ---
 Alicia writes $a$ different integers on a piece of paper and Britt writes $b$ different integers on another piece of paper. Alicia has at least one number that Britt does not have, and Britt has at least one number that Alicia does not have. Vera counts how many different numbers are on the two pieces of paper together; call this number $v$. Daan counts how many of the numbers that Alicia has written are also written by Britt; call this number $d$. For example, if Alicia writes the numbers 1, 2, and 5, and Britt writes the numbers 2, 5, 7, and 8, then $a=3$ and $b=4$ while $v=5$ and $d=2$.
 

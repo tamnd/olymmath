@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0002.parquet#row=44
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: danube/2016
     source: hf-ai-mo-aops
     label: 2016 Danube Mathematical Olympiad
+  - at: danube
+    source: hf-mathnet
+    label: Romania THE DANUBE MATHEMATICAL COMPETITION
 ---
 Let $S=x_1x_2+x_3x_4+\cdots+x_{2015}x_{2016},$ where $x_1,x_2,\ldots,x_{2016}\in\{\sqrt{3}-\sqrt{2},\sqrt{3}+\sqrt{2}\}.$ Can $S$ be equal to $2016?$ *Cristian Lazăr*

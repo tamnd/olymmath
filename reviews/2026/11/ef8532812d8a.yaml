@@ -1,0 +1,8 @@
+id: ef8532812d8a
+kind: match
+records:
+    - 5T0J879MST
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Argentina/train/0001.parquet#row=264 to this record, but the row is not a clear copy: the row says the circle with diameter AB meets line AB again at P, a miscopy of diameter AD as in the record. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

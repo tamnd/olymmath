@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=25
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia SAMC
 ---
 a) Prove that for each positive integer $n$ there is a unique positive integer $a_n$ such that $$(1 + \sqrt5)^n =\sqrt{a_n} + \sqrt{a_n+4^n} . $$
 b) Prove that $a_{2010}$ is divisible by $5\cdot 4^{2009}$ and find the quotient

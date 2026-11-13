@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0001.parquet#row=125
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia Saudi Arabian Mathematical Competitions
 ---
 Let $ABC$ be an acute, non-isosceles triangle with $AD$,$BE$, $CF$ are altitudes and $d$ is the tangent line of the circumcircle of triangle $ABC$ at $A$. The line through $H$ and parallel to $EF$ cuts $DE$, $DF$ at $Q, P$ respectively. Prove that $d$ is tangent to the ex-circle respect to vertex $D$ of triangle $DPQ$.

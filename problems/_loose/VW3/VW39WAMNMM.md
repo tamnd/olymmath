@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Belarus/train/0001.parquet#row=91
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: by-mo
+    source: hf-mathnet
+    label: Belarus Belarusian Mathematical Olympiad
 ---
 Let $x,y,z,t$ be positive numbers.Prove that
 $\frac{xyzt}{(x+y)(z+t)}\leq\frac{(x+z)^2(y+t)^2}{4(x+y+z+t)^2}.$

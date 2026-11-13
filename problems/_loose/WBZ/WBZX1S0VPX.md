@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=426
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia SAUDI ARABIAN MATHEMATICAL COMPETITIONS
 ---
 Let $ABCD$ be a convex quadrilateral. Ray $AD$ meets ray $BC$ at $P$. Let $O,O'$ be the circumcenters of triangles $PCD, PAB$, respectively, $H,H'$ be the orthocenters of triangles $PCD, PAB$, respectively. Prove that circumcircle of triangle $DOC$ is tangent to circumcircle of triangle $AO'B$ if and only if circumcircle of triangle $DHC$ is tangent to circumcircle of triangle $AH'B$.

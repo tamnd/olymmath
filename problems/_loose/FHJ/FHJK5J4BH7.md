@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Croatia/train/0001.parquet#row=131
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hr-mo
+    source: hf-mathnet
+    label: Croatia Mathematical competitions in Croatia
 ---
 Let $a$ and $b$ be natural numbers of different parity. Prove that the number $(a+3b)(5a+7b)$ is not a square of a natural number.

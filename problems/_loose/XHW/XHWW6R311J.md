@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: fr
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/France/train/0000.parquet#row=138
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: fr-tst
+    source: hf-mathnet
+    label: France Olympiades Françaises de Mathématiques
 ---
 Let $x_{1}, x_{2}, \ldots, x_{5}$ be real numbers such that
 

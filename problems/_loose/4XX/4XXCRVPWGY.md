@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0001.parquet#row=21
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: danube/2014
     source: hf-ai-mo-aops
     label: 2014 Danube Mathematical Competition
+  - at: danube/2014
+    source: hf-mathnet
+    label: Romania THE 2014 DANUBE MATHEMATICAL COMPETITION
 ---
 Let $S$ be a set of positive integers such that $\lfloor \sqrt{x}\rfloor =\lfloor \sqrt{y}\rfloor $ for all $x, y \in S$ . Show that the products $xy$ , where $x, y \in S$ , are pairwise distinct.

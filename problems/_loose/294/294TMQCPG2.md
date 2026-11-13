@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0001.parquet#row=168
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines 20th Philippine Mathematical Olympiad
 ---
 Suppose that $\left\{a_{n}\right\}_{n \geq 1}$ is an increasing arithmetic sequence of integers such that $a_{a_{20}}=17$ (where the subscript is $a_{20}$ ). Determine the value of $a_{2017}$.

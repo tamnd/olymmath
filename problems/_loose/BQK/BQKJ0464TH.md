@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ibero-American_Mathematical_Olympiad/train/0000.parquet#row=27
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ibero
+    source: hf-mathnet
+    label: Ibero-American Mathematical Olympiad Iberoamerican Mathematical Olympiad
 ---
 The number 1 or the number -1 is assigned to each vertex of a cube. Then each face is given the product of its four vertices. What are the possible totals for the resulting 14 numbers?

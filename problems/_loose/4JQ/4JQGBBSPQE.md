@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Hong_Kong/train/0000.parquet#row=368
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: hk-pc/2020
     source: hf-ai-mo-aops
     label: 2020 Hong Kong TST
+  - at: hk-pc
+    source: hf-mathnet
+    label: Hong Kong IMO HK TST
 ---
 Find the total number of primes $p<100$ such that $\lfloor (2+\sqrt{5})^p \rfloor-2^{p+1}$ is divisible by $p$ . Here $\lfloor x \rfloor$ denotes the greatest integer less than or equal to $x$ .

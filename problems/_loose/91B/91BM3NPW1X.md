@@ -13,7 +13,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Croatia/train/0001.parquet#row=214
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hr-mo/2018
+    source: hf-mathnet
+    label: Croatia Croatia_2018
+  - at: by-mo
+    source: hf-mathnet
+    label: Belarus Belarusian Mathematical Olympiad
 ---
 Given is an isosceles triangle $ABC$ such that $|AB|=|AC|$. Let $M$ and $N$ be the midpoints of segments $\overline{AB}$ and $\overline{BC}$, respectively. Let $P$ be the intersection of line $AN$ with the circumcircle of triangle $AMC$, different from $A$. The line through point $P$ parallel to $BC$ intersects the circumcircle of triangle $ABC$ at points $B_{1}$ and $C_{1}$. Prove that triangle $AB_{1}C_{1}$ is equilateral.

@@ -14,11 +14,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Russia/train/0000.parquet#row=361
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ru-allrussian/2025
     source: hf-ai-mo-aops
     label: 2025 All-Russian Olympiad
+  - at: ru-allrussian
+    source: hf-mathnet
+    label: Russia LI Всероссийская математическая олимпиада школьников
 ---
 Inside triangle $ABC$, point $P$ is marked. Point $Q$ is on segment $AB$, and point $R$ is on segment $AC$ such that the circumcircles of triangles $BPQ$ and $CPR$ are tangent to line $AP$. Lines are drawn through points $B$ and $C$ passing through the center of the circumcircle of triangle $BPC$, and through points $Q$ and $R$ passing through the center of the circumcircle of triangle $PQR$. Prove that there exists a circle tangent to all four drawn lines.

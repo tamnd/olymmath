@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Argentina/train/0001.parquet#row=19
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ar-oma/2010
     source: hf-ai-mo-aops
     label: 2010 Argentina National Olympiad
+  - at: ar-oma
+    source: hf-mathnet
+    label: Argentina National Olympiad of Argentina
 ---
 Let $ABC$ be a triangle with $\angle C = 90^o$ and $AC = 1$ . The median $AM$ intersects the incircle at the points $P$ and $Q$ , with $P$ between $A$ and $Q$ , such that $AP = QM$ . Find the length of $PQ$ .

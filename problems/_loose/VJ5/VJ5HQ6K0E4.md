@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ireland/train/0000.parquet#row=11
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ie-irmo/2008
     source: hf-ai-mo-aops
     label: 2008 Irish Math Olympiad
+  - at: ie-irmo
+    source: hf-mathnet
+    label: Ireland Irish Mathematical Olympiad
 ---
 Let $ p_1, p_2, p_3$ and $ p_4$ be four different prime numbers satisying the equations
 

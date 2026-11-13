@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0001.parquet#row=80
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ro-nmo
+    source: hf-mathnet
+    label: Romania 65th Romanian Mathematical Olympiad
 ---
 Let $(G, \cdot)$ be a group that has no elements of order 4 and $f: G \rightarrow G$ be a group homomorphism that has the property $f(x) \in \{x, x^{-1}\}$ for all $x \in G$. Show that $f(x) = x$ for all $x \in G$, or $f(x) = x^{-1}$ for all $x \in G$.

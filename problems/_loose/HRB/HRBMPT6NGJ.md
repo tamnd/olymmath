@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Croatia/train/0001.parquet#row=159
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hr-mo
+    source: hf-mathnet
+    label: Croatia Mathematical competitions in Croatia
 ---
 Let $z_{1}$ and $z_{2}$ be complex numbers such that $\left|z_{1}\right|=\left|z_{2}\right|=1$ and let $a$ and $b$ be real numbers for which $a+b=1$. Prove that
 

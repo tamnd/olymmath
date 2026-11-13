@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Baltic_Way/train/0001.parquet#row=164
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: baltic-way-sl/2015
+    source: hf-mathnet
+    label: Baltic Way Baltic Way 2015 Shortlisted Problems
 ---
 Prove that for positive $x, y, z$ the inequality
 

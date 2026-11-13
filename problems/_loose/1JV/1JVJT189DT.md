@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0001.parquet#row=183
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines Philippines Mathematical Olympiad
 ---
 A sequence $\left\{a_{n}\right\}_{n \geq 1}$ of positive integers satisfies the recurrence relation $a_{n+1}=n\left\lfloor a_{n} / n\right\rfloor+1$ for all integers $n \geq 1$. If $a_{4}=34$, find the sum of all the possible values of $a_{1}$.

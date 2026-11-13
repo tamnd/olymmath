@@ -17,6 +17,10 @@ statements:
     kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ro-nmo
+    source: hf-mathnet
+    label: Romania 70th ROMANIAN MATHEMATICAL OLYMPIAD
 ---
 Determine for how many triples $(m, n, p)$ of non-zero natural numbers less than or equal to 5 the number
 

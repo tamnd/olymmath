@@ -14,11 +14,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Balkan_Mathematical_Olympiad/train/0000.parquet#row=228
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: balkan-sl/2024
     source: hf-ai-mo-aops
     label: 2024 Balkan MO Shortlist
+  - at: balkan
+    source: hf-mathnet
+    label: Balkan Mathematical Olympiad 41st Balkan Mathematical Olympiad
 ---
 Let $A, B, C, D$ be fixed points on this order on a line. Let $\omega$ be a variable circle through $C$ and $D$ and suppose it meets the perpendicular bisector of $CD$ at the points $X$ and $Y$ . Let $Z$ and $T$ be the other points of intersection of $AX$ and $BY$ with $\omega$ . Prove that $ZT$ passes through a fixed point independent of $\omega$ .

@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Croatia/train/0001.parquet#row=67
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hr-mo
+    source: hf-mathnet
+    label: Croatia Croatia Mathematical Competitions
 ---
 Let $a=\sqrt[2015]{2015}$ and let $\left(a_{n}\right)$ be a sequence such that $a_{1}=a$ and $a_{n+1}=a^{a_{n}}$ for $n \geqslant 1$.
 

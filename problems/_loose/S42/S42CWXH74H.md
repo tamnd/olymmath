@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0001.parquet#row=51
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ro-nmo
+    source: hf-mathnet
+    label: Romania 65th Romanian Mathematical Olympiad
 ---
 Let $(A,+, \cdot)$ be a ring with the property: for any $x \in A$, $x+x^{2}+x^{3}=x^{4}+x^{5}+x^{6}$.
 

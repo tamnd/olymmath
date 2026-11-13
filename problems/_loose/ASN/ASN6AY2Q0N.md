@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/China/train/0000.parquet#row=33
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: cn-mo
+    source: hf-mathnet
+    label: China China Mathematical Olympiad
 ---
 Let points $I$ and $H$ be the incenter and orthocenter of acute $\triangle ABC$, respectively. Points $B_{1}$ and $C_{1}$ are the midpoints of sides $AC$ and $AB$, respectively. It is known that ray $B_{1}I$ intersects side $AB$ at point $B_{2}\left(B_{2} \neq B\right)$, and ray $C_{1}I$ intersects the extension of $AC$ at point $C_{2}$. $B_{2}C_{2}$ intersects $BC$ at $K$, and $A_{1}$ is the circumcenter of $\triangle BHC$. Prove that $A$, $I$, and $A_{1}$ are collinear if and only if the areas of $\triangle BKB_{2}$ and $\triangle CKC_{2}$ are equal.

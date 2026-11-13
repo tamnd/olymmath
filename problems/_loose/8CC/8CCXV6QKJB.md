@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0000.parquet#row=224
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines 13th Philippine Mathematical Olympiad
 ---
 $x^{2}+4 x+8=0$ has roots $a$ and $b$. Find a quadratic polynomial with integer coefficients whose roots are $\frac{1}{a}$ and $\frac{1}{b}$.

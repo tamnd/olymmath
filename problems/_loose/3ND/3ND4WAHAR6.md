@@ -21,11 +21,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ibero-American_Mathematical_Olympiad/train/0000.parquet#row=49
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ibero/1994
     source: hf-numina-olympiads
     label: IberoAmerican_MO
+  - at: ibero
+    source: hf-mathnet
+    label: Ibero-American Mathematical Olympiad Iberoamerican Mathematical Olympiad
 ---
 $\mathrm{n}$ and $\mathrm{r}$ are positive integers. Find the smallest $\mathrm{k}$ for which we can construct $\mathrm{r}$ subsets $\mathrm{A}_{1}, \mathrm{~A}_{2}$, $\ldots, A_{r}$ of $\{0,1,2, \ldots, n-1\}$ each with $k$ elements such that each integer $0 \leq m<n$ can be written as a sum of one element from each of the $r$ subsets.

@@ -1,0 +1,9 @@
+id: 2bd211e8184c
+kind: pair
+records:
+    - SFNN0VR51B
+    - EJF5KN9RG8
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Turkey/train/0000.parquet#row=292 to this record, but they are two problems: the row requires a sequence of positive reals, the record any strictly increasing sequence (positivity missing). The agent removed the row from the record, and the row is now in a new loose record.'

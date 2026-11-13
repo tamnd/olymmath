@@ -1,0 +1,8 @@
+id: 853df8ef596e
+kind: match
+records:
+    - 9DHP31SG4P
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The agent read the MathNet row China/train/0000.parquet#row=77 and this record again, because the first review found a difference: the row has a_{n+1} and the record a_{n-1} in the recurrence; the row is the known wording and the record has the slip. The agent kept the link.'

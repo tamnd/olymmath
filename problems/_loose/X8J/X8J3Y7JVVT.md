@@ -14,11 +14,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0000.parquet#row=168
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: cl-mo/2023
     source: hf-ai-mo-aops
     label: 2023 Chile National Olympiad
+  - at: ro-nmo
+    source: hf-mathnet
+    label: Romania 62nd ROMANIAN MATHEMATICAL OLYMPIAD
 ---
 Inside a square with side $60$ , $121$ points are drawn. Prove them are three points that are vertices of a triangle of area not exceeding $30$ .

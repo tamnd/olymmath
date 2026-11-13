@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Argentina/train/0001.parquet#row=251
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: rioplatense/2023
     source: hf-ai-mo-aops
     label: 2023 Rioplatense Mathematical Olympiad
+  - at: rioplatense
+    source: hf-mathnet
+    label: Argentina Rioplatense Mathematical Olympiad
 ---
 Let $ABCD$ be a convex quadrilateral with $AB>AD$ and $\angle B=\angle D=90^{\circ}$ . Let $P$ be a point in the side $AB$ such that $AP=AD$ . The lines $PD$ and $BC$ cut in the point $Q$ . The perpendicular line to $AC$ passing by $Q$ cuts $AB$ in the point $R$ . Let $S$ be the foot of perpendicular of $D$ to the line $AC$ . Prove that $\angle PSQ=\angle RCP$ .

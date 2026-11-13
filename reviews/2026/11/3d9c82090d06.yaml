@@ -1,0 +1,8 @@
+id: 3d9c82090d06
+kind: match
+records:
+    - baltic-way/2000/p16
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Mongolia/train/0000.parquet#row=156 to this record, but the row is not a clear copy: the formula is garbled: a^3 in place of a^2, and the second root is nested inside the first instead of being added. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

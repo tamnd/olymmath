@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Slovenia/train/0000.parquet#row=487
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: si-mo/2013
+    source: hf-mathnet
+    label: Slovenia National Math Olympiad 2013 - Final Round
 ---
 For a real number $a$, let $[a]$ denote the greatest integer not greater than $a$. Find all integers $y$ for which there exists a real number $x$ such that $\left[\frac{x+23}{8}\right]=[\sqrt{x}]=y$.

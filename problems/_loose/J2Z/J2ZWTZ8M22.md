@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/India/train/0000.parquet#row=156
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: in-tst/2013
     source: hf-ai-mo-aops
     label: 2013 India IMO Training Camp
+  - at: in-tst/2013
+    source: hf-mathnet
+    label: India Indija TS 2013
 ---
 In a triangle $ABC$ , with $AB \ne BC$ , $E$ is a point on the line $AC$ such that $BE$ is perpendicular to $AC$ . A circle passing through $A$ and touching the line $BE$ at a point $P \ne B$ intersects the line $AB$ for the second time at $X$ . Let $Q$ be a point on the line $PB$ different from $P$ such that $BQ = BP$ . Let $Y$ be the point of intersection of the lines $CP$ and $AQ$ . Prove that the points $C, X, Y, A$ are concyclic if and only if $CX$ is perpendicular to $AB$ .

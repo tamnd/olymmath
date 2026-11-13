@@ -1,0 +1,8 @@
+id: d15600c49e12
+kind: match
+records:
+    - ie-irmo/2018/p7
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The agent read the MathNet row Ireland/train/0000.parquet#row=287 and this record again, because the first review found a difference: the record also asks for a lower bound that the row lacks; the row is the main part of the same problem, a small extra. The agent kept the link.'

@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Belarus/train/0001.parquet#row=59
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: by-mo
+    source: hf-mathnet
+    label: Belarus 66th Belarusian Mathematical Olympiad
 ---
 Solve the equation for primes $p$ and $q$: $$p^3-q^3=pq^3-1.$$

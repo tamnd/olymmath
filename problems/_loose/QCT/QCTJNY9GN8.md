@@ -14,11 +14,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Bulgaria/train/0001.parquet#row=238
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: bg-spring/2024
     source: hf-ai-mo-aops
     label: 2024 Bulgarian Spring Mathematical Competition
+  - at: bg-spring
+    source: hf-mathnet
+    label: Bulgaria Bulgarian Spring Tournament
 ---
 Given is a convex $2024$ -gon $A_1A_2\ldots A_{2024}$ and $1000$ points inside it, so that no three points are collinear. Some pairs of the points are connected with segments so that the interior of the polygon is divided into triangles. Every point is assigned one number among $\{1, -1, 2, - 2\}$ , so that the sum of the numbers written in $A_i$ and $A_{i+1012}$ is zero for all $i=1,2, \ldots, 1012$ . Prove that there is a triangle, such that the sum of the numbers in some two of its vertices is zero.

@@ -14,12 +14,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/IMO/train/0000.parquet#row=348
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: isl/2024
     source: hf-ai-mo-aops
     label: 2024 ISL
+  - at: isl/2024
+    source: hf-mathnet
+    label: IMO IMO2024 Shortlisted Problems
 ---
 Decide whether for every sequence $(a_n)$ of positive real numbers,
 

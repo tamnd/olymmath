@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Iran/train/0000.parquet#row=291
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ir-mo/2021
     source: hf-ai-mo-aops
     label: 2021 Iran MO (3rd Round)
+  - at: ir-mo
+    source: hf-mathnet
+    label: Iran Iranian Mathematical Olympiad
 ---
 Given an acute triangle $ABC$ let $M$ be the midpoint of $AB$ . Point $K$ is given on the other side of line $AC$ from that of point $B$ such that $\angle KMC = 90 ^ \circ $ and $\angle KAC = 180^\circ - \angle ABC$ . The tangent to circumcircle of triangle $ABC$ at $A$ intersects line $CK$ at $E$ . Prove that the reflection of line $BC$ with respect to $CM$ passes through the midpoint of line segment $ME$ .

@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Czech_Republic/train/0000.parquet#row=35
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: cz-sk-mo
+    source: hf-mathnet
+    label: Czech Republic 62nd Czech and Slovak Mathematical Olympiad
 ---
 Determine all triples of real numbers $a, b, c$ that satisfy the conditions
 

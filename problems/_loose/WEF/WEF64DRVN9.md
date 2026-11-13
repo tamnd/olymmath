@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0003.parquet#row=292
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ro-nmo
+    source: hf-mathnet
+    label: Romania 74th Romanian Mathematical Olympiad
 ---
 Let $ABC$ be a triangle inscribed in the circle $\mathcal{C}(O,1)$. Denote by $s(M)=OH_1^2+OH_2^2+OH_3^2,$ $(\forall) M \in\mathcal{C}\setminus \left\{A,B,C\right\},$ where $H_1,H_2,H_3,$ are the orthocenters of the triangles $MAB,~MBC$ and $MCA.$
 $a)$ Prove that if $ABC$ is equilateral$,$ then $s(M)=6,(\forall) M \in\mathcal{C}\setminus \left\{A,B,C\right\},$

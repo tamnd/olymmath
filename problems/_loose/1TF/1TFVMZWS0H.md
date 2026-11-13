@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/China/train/0000.parquet#row=128
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: cn-wmo
+    source: hf-mathnet
+    label: China China Western Mathematical Olympiad
 ---
 Given real numbers $x_{1}, x_{2}, \cdots, x_{n}(n>2)$ satisfying $\left|\sum_{i=1}^{n} x_{i}\right|>1,\left|x_{i}\right| \leqslant 1(i=1,2, \cdots, n)$. Prove: There exists a positive integer $k$, such that $\left|\sum_{i=1}^{k} x_{i}-\sum_{i=k+1}^{n} x_{i}\right| \leqslant 1$.

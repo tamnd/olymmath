@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Argentina/train/0001.parquet#row=222
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: rioplatense/2022
     source: hf-ai-mo-aops
     label: 2022 Rioplatense Mathematical Olympiad
+  - at: rioplatense
+    source: hf-mathnet
+    label: Argentina XXIX Rioplatense Mathematical Olympiad
 ---
 Let $ABCD$ be a parallelogram and $M$ is the intersection of $AC$ and $BD$ . The point $N$ is inside of the $\triangle AMB$ such that $\angle AND=\angle BNC$ . Prove that $\angle MNC=\angle NDA$ and $\angle MND=\angle NCB$ .

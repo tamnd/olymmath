@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Czech_Republic/train/0000.parquet#row=50
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: cz-sk-mo
+    source: hf-mathnet
+    label: Czech Republic 63rd Czech and Slovak Mathematical Olympiad
 ---
 We are given a segment $A B$ in the plane. Consider a triangle $X Y Z$ with the following properties: the vertex $X$ is an interior point of the segment $A B$, the triangles $X B Y$ and $X Z A$ are similar $(\triangle X B Y \sim \triangle X Z A)$ and the points $A, B$, $Y, Z$ lie on a circle in this order. Find the locus of midpoints of the sides $Y Z$ of all such triangles $X Y Z$.
 

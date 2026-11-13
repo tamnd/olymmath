@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Hong_Kong/train/0000.parquet#row=350
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: hk-pc/2019
     source: hf-ai-mo-aops
     label: 2019 Hong Kong TST
+  - at: hk-pc
+    source: hf-mathnet
+    label: Hong Kong HKG TST
 ---
 Let $\Gamma_1$ and $\Gamma_2$ be two circles with different radii, with $\Gamma_1$ the smaller one. The two circles meet at distinct points $A$ and $B$ . $C$ and $D$ are two points on the circles $\Gamma_1$ and $\Gamma_2$ , respectively, and such that $A$ is the midpoint of $CD$ . $CB$ is extended to meet $\Gamma_2$ at $F$ , while $DB$ is extended to meet $\Gamma_1$ at $E$ . The perpendicular bisector of $CD$ and the perpendicular bisector of $EF$ meet at $P$ .
 

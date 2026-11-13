@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Soviet_Union/train/0000.parquet#row=248
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ru-allrussian
+    source: hf-mathnet
+    label: Soviet Union ASU
 ---
 Inside the quadrilateral $A B C D$, a point $M$ is marked such that $A B M D$ is a parallelogram. Prove that if $\angle C B M=\angle C D M$, then $\angle A C D=\angle B C M$.

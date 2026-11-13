@@ -1,0 +1,9 @@
+id: 94e42ed79cc7
+kind: pair
+records:
+    - BQM4KE3XEJ
+    - 22PF222TA6
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import joined the MathNet row all/train/0050.parquet#row=170 into this record, which holds the MathNet row Belarus/train/0000.parquet#row=111, but they are two problems: the row drops the condition that last place has k points and adds a second question on the maximum points of last place. The row added no statement, so the problem was lost. The row is now in a new loose record.'

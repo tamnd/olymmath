@@ -15,5 +15,9 @@ statements:
     kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: baltic-way-sl/2021
+    source: hf-mathnet
+    label: Baltic Way Baltic Way 2021 Shortlist
 ---
 Let $A$ be a set of $20$ distinct positive integers which are all no greater than $397$. Prove that for any positive integer $n$ it is possible to pick four (not necessarily distinct) elements $x_1, x_2, x_3, x_4$ of $A$ satisfying $x_1 \neq x_2$ and $$(x_1-x_2)n\equiv x_3-x_4 \pmod{397}.$$

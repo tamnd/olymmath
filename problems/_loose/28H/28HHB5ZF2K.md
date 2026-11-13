@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0000.parquet#row=291
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines Philippine Mathematical Olympiad
 ---
 Let $p$ and $q$ be positive integers such that $p q=2^{3} \cdot 5^{5} \cdot 7^{2} \cdot 11$ and $\frac{p}{q}=2 \cdot 5 \cdot 7^{2} \cdot 11$. Find the number of positive integer divisors of $p$.

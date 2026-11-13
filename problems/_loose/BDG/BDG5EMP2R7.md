@@ -30,6 +30,14 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S4
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/United_States/train/0004.parquet#row=314
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
@@ -39,5 +47,8 @@ unplaced:
   - at: hmmt/2011
     source: hf-numina-olympiads
     label: HMMT February
+  - at: hmmt
+    source: hf-mathnet
+    label: United States Harvard-MIT Mathematics Tournament
 ---
 Let $ABCDEF$ be a regular hexagon of area $1$ . Let $M$ be the midpoint of $DE$ . Let $X$ be the intersection of $AC$ and $BM$ , let $Y$ be the intersection of $BF$ and $AM$ , and let $Z$ be the intersection of $AC$ and $BF$ . If $[P]$ denotes the area of a polygon $P$ for any polygon $P$ in the plane, evaluate $[BXC] + [AYF] + [ABZ] - [MXZY]$ .

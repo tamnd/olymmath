@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=51
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia Saudi Arabia Mathematical Competitions
 ---
 Let $I$ be the incenter of a triangle $ABC$ and let $A', B', C'$ be midpoints of sides $BC$, $CA$, $AB$, respectively. If $IA'= IB'= IC'$ , then prove that triangle $ABC$ is equilateral.

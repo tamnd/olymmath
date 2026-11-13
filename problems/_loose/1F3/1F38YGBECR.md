@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Croatia/train/0001.parquet#row=36
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hr-mo
+    source: hf-mathnet
+    label: Croatia Croatia Mathematical Competitions
 ---
 Let $ABC$ be an acute-angled triangle where $|AC| > |AB|$. Let $N$ be the foot of the altitude from $A$ to side $\overline{BC}$. Let point $P$ be on the extension of segment $\overline{AB}$ beyond vertex $B$, and let point $Q$ be on the extension of segment $\overline{AC}$ beyond vertex $C$ such that $BPQC$ is a cyclic quadrilateral.
 

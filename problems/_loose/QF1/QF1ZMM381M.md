@@ -13,11 +13,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ibero-American_Mathematical_Olympiad/train/0000.parquet#row=59
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ibero/1996
     source: hf-numina-olympiads
     label: IberoAmerican_MO
+  - at: ibero
+    source: hf-mathnet
+    label: Ibero-American Mathematical Olympiad Iberoamerican Mathematical Olympiad
 ---
 $\mathrm{n}>2$ is an integer. Consider the pairs (a, b) of relatively prime positive integers, such that $\mathrm{a}<$ $\mathrm{b} \leq \mathrm{n}$ and $\mathrm{a}+\mathrm{b}>\mathrm{n}$. Show that the sum of $1 / a b$ taken over all such pairs is $1 / 2$.

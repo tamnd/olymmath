@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/China/train/0000.parquet#row=170
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: cn-wmo
+    source: hf-mathnet
+    label: China China Western Mathematical Olympiad
 ---
 Let $S=\{n \mid n-1, n, n+1$ can all be expressed as the sum of two positive integers squared $\}$. Prove: if $n \in S$, then $n^{2} \in S$.

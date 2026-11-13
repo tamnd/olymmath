@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=363
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia SAUDI ARABIAN MATHEMATICAL COMPETITIONS
 ---
 Let $ABC$ be a triangle and $I$ its incenter. The point $D$ is on segment $BC$ and the circle $\omega$ is tangent to the circumcirle of triangle $ABC$ but is also tangent to $DC, DA$ at $E, F$, respectively. Prove that $E, F$ and $I$ are collinear.

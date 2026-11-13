@@ -31,5 +31,8 @@ unplaced:
   - at: cono-sur/2007
     source: hf-ai-mo-aops
     label: 2007 Cono Sur Olympiad
+  - at: cono-sur
+    source: hf-mathnet
+    label: Argentina XVIII Olimpiada Matemática del Cono Sur
 ---
 Find all non-negative integers $x, y$ such that$$x^3y+x+y=xy+2xy^2$$

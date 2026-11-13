@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Iran/train/0000.parquet#row=293
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ir-mo/2021
     source: hf-ai-mo-aops
     label: 2021 Iran MO (3rd Round)
+  - at: ir-mo
+    source: hf-mathnet
+    label: Iran Iranian Mathematical Olympiad
 ---
 If $a, b, c$ and $d$ are complex non-zero numbers such that $$ 2|a-b|\leq |b|, 2|b-c|\leq |c|, 2|c-d| \leq |d| , 2|d-a|\leq |a|. $$ Prove that $$ \frac{7}{2} <\left| \frac{b}{a} + \frac{c}{b} + \frac{d}{c} + \frac{a}{d} \right| . $$

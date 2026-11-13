@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=231
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia SAMC
 ---
 Tarik and Sultan are playing the following game. Tarik thinks of a number that is greater than $100$. Then Sultan is telling a number greater than $1$. If Tarik's number is divisible by Sultan's number, Sultan wins, otherwise Tarik subtracts Sultan's number from his number and Sultan tells his next number. Sultan is forbidden to repeat his numbers. If Tarik's number becomes negative, Sultan loses. Does Sultan have a winning strategy?

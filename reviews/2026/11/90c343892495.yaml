@@ -1,0 +1,9 @@
+id: 90c343892495
+kind: pair
+records:
+    - TVY463DWPX
+    - R78AK4RFJY
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Russia/train/0000.parquet#row=325 to this record, but they are two problems: the row allows any real numbers, the record requires non-zero numbers (the all-zero sequence breaks the row claim). The agent removed the row from the record, and the row is now in a new loose record.'

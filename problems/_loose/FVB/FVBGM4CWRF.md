@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ukraine/train/0000.parquet#row=141
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ua-umo/2010
+    source: hf-mathnet
+    label: Ukraine 50th Mathematical Olympiad in Ukraine, Fourth Round (March 23, 2010)
 ---
 The given parabola $y=ax^2+bx+c$ doesn't intersect the $X$-axis and passes from the points $A(-2,1)$ and $B(2,9)$. Find all the possible values of the $x$ coordinates of the vertex of this parabola.

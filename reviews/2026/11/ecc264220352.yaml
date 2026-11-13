@@ -1,0 +1,9 @@
+id: ecc264220352
+kind: pair
+records:
+    - BEX41F5EA0
+    - se-skolornas/1982/p2
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Baltic_Way/train/0001.parquet#row=206 to this record, but they are two problems: another problem: row asks for coprime positive integers with ab+bc+ca equal to the product, record proves abc >= the product for positive reals. The agent removed the row from the record, and the row is now in a new loose record.'

@@ -1,0 +1,9 @@
+id: 39cb865f74ea
+kind: pair
+records:
+    - HHP0E7RG4K
+    - H86FR44968
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Ukraine/train/0000.parquet#row=270 to this record, but they are two problems: row has coefficients of S non-negative, record has coefficients of S integers. The agent removed the row from the record, and the row is now in a new loose record.'

@@ -15,6 +15,10 @@ statements:
     kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: baltic-way
+    source: hf-mathnet
+    label: Baltic Way Baltic Way
 ---
 Prove that there does not exist a polynomial $P (x)$ with integer coefficients and a natural number $m$ such that
 $$x^m + x + 2 = P(P(x))$$

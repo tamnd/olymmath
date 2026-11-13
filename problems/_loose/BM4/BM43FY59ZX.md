@@ -15,8 +15,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=37
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia SAMC
 ---
 Let $ABC$ be a right angled triangle with $\angle A = 90^o$and $BC = a$, $AC = b$, $AB = c$. Let $d$ be a line passing trough the incenter of triangle and intersecting the sides $AB$ and $AC$ in $P$ and $Q$, respectively.
 (a) Prove that $$b \cdot \left( \frac{PB}{PA}\right)+ c \cdot \left( \frac{QC}{QA}\right) =a$$

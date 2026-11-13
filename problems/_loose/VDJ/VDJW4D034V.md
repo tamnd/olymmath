@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Russia/train/0000.parquet#row=204
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ru-allrussian/2014
     source: hf-ai-mo-aops
     label: 2014 All-Russian Olympiad
+  - at: ru-allrussian
+    source: hf-mathnet
+    label: Russia XL Russian mathematical olympiad
 ---
 If the polynomials $f(x)$ and $g(x)$ are written on a blackboard then we can also write down the polynomials $f(x)\pm g(x)$ , $f(x)g(x)$ , $f(g(x))$ and $cf(x)$ , where $c$ is an arbitrary real constant. The polynomials $x^3-3x^2+5$ and $x^2-4x$ are written on the blackboard. Can we write a nonzero polynomial of form $x^n-1$ after a finite number of steps?

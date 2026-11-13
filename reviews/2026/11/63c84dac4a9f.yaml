@@ -1,0 +1,8 @@
+id: 63c84dac4a9f
+kind: match
+records:
+    - T65M10G94K
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Mongolia/train/0000.parquet#row=1 to this record, but the row is not a clear copy: row hypothesis is t > sqrt(k) m, which makes the sum empty, the record has t > sqrt(km). The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

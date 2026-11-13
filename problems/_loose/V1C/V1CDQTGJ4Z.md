@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/China/train/0000.parquet#row=2
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: cn-league/2002
     source: hf-ai-mo-aops
     label: 2002 National High School Mathematics League
+  - at: cn-league
+    source: hf-mathnet
+    label: China China Mathematical Competition
 ---
 The increasing interval of $f(x)=\log_{\frac{1}{2}}(x^2-2x-3)$ is $\text{(A)}(-\infty,-1) \text{(B)}(-\infty,1) \text{(C)}(1,+\infty) \text{(D)}(3,+\infty)$

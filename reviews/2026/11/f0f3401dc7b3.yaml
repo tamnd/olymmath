@@ -1,0 +1,8 @@
+id: f0f3401dc7b3
+kind: match
+records:
+    - hmmt/2012/u10
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The MathNet row United_States/train/0004.parquet#row=335 and the text of hmmt/2012/u10 are the same text; they differ only in the TeX spacing (E 1.000, T 1.000). The row became a second statement of the record.'

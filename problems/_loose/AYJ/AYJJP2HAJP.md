@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/United_States/train/0004.parquet#row=272
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: hmmt/2011
     source: hf-ai-mo-aops
     label: 2011 Harvard-MIT Mathematics Tournament
+  - at: hmmt
+    source: hf-mathnet
+    label: United States Harvard-MIT Mathematics Tournament
 ---
 Nathaniel and Obediah play a game in which they take turns rolling a fair six-sided die and keep a
 running tally of the sum of the results of all rolls made. A player wins if, after he rolls, the number on the running tally is a multiple of 7. Play continues until either player wins, or else indenitely. If Nathaniel goes first, determine the probability that he ends up winning.

@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ukraine/train/0000.parquet#row=122
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ua-umo/2009
     source: hf-ai-mo-aops
     label: 2009 Ukraine National Mathematical Olympiad
+  - at: ua-umo
+    source: hf-mathnet
+    label: Ukraine 49th Mathematical Olympiad in Ukraine
 ---
 Find all positive integer solutions of equation $n^3 - 2 = k! .$

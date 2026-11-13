@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: pt
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Brazil/train/0001.parquet#row=332
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: br-obm
+    source: hf-mathnet
+    label: Brazil Brazilian Mathematical Olympiad
 ---
 Place the numbers $663,664,665,666,667,668,669,670$ and 671, without repeating, in a $3 \times 3$ table, in such a way that the sum in each row, in each column, and in each diagonal is 2001. If this is not possible, justify your answer.

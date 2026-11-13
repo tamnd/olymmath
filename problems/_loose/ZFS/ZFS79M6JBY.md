@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Slovenia/train/0000.parquet#row=235
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ma-tst/2012
     source: hf-ai-mo-aops
     label: 2012 Morocco TST
+  - at: si-mo
+    source: hf-mathnet
+    label: Slovenia National Math Olympiad
 ---
 Find all positive integer $n$ and prime number $p$ such that $p^2+7^n$ is a perfect square

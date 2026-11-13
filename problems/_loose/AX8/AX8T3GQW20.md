@@ -15,8 +15,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Belarus/train/0001.parquet#row=196
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: by-mo
+    source: hf-mathnet
+    label: Belarus 69th Belarusian Mathematical Olympiad
 ---
 Let the sequence $(a_n)$ be constructed in the following way:
 $$

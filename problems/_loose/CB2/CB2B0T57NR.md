@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0000.parquet#row=252
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines 13th Philippine Mathematical Olympiad
 ---
 Let $a, b, c$ be three, not necessarily distinct, numbers chosen randomly form the set $\{3,4,5,6,7,8\}$. Find the probability that $a b+c$ is even.

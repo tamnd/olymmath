@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/China/train/0001.parquet#row=7
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: cn-league
+    source: hf-mathnet
+    label: China China Mathematical Competition
 ---
 The number of positive integer solutions $(x, y, z)$ to the equation $x+y+z=2010$ that satisfy $x \leqslant y \leqslant z$ is $ $ .

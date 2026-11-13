@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Iran/train/0000.parquet#row=73
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: hk-pc/2016
     source: hf-ai-mo-aops
     label: 2016 Hong Kong TST
+  - at: ir-mo
+    source: hf-mathnet
+    label: Iran Iranian Mathematical Olympiad
 ---
 Suppose that $I$ is the incenter of triangle $ABC$ . The perpendicular to line $AI$ from point $I$ intersects sides $AC$ and $AB$ at points $B'$ and $C'$ respectively. Points $B_1$ and $C_1$ are placed on half lines $BC$ and $CB$ respectively, in such a way that $AB=BB_1$ and $AC=CC_1$ . If $T$ is the second intersection point of the circumcircles of triangles $AB_1C'$ and $AC_1B'$ , prove that the circumcenter of triangle $ATI$ lies on the line $BC$

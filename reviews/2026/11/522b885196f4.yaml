@@ -1,0 +1,9 @@
+id: 522b885196f4
+kind: pair
+records:
+    - 6WHS6HTD8D
+    - 1G9V13GERW
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Croatia/train/0001.parquet#row=34 to this record, but they are two problems: the row asks for positive integers m, n, the record allows nonnegative m, n (n = 0 adds a solution). The agent removed the row from the record, and the row is now in a new loose record.'

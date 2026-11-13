@@ -20,5 +20,8 @@ unplaced:
   - at: cn-tst/2024
     source: hf-ai-mo-aops
     label: 2024 China Team Selection Test
+  - at: cn-tst
+    source: hf-mathnet
+    label: China The 65th IMO China National Team Selection Test
 ---
 For a positive integer $n$ and a subset $S$ of $\{1, 2, \dots, n\}$ , let $S$ be " $n$ -good" if and only if for any $x$ , $y\in S$ (allowed to be same), if $x+y\leq n$ , then $x+y\in S$ . Let $r_n$ be the smallest real number such that for any positive integer $m\leq n$ , there is always a $m$ -element " $n$ -good" set, so that the sum of its elements is not more than $m\cdot r_n$ . Prove that there exists a real number $\alpha$ such that for any positive integer $n$ , $|r_n-\alpha n|\leq 2024.$

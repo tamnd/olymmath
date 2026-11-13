@@ -1,0 +1,8 @@
+id: cd2877a63efb
+kind: match
+records:
+    - ru-allrussian/1988/p11
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The MathNet row Soviet_Union/train/0001.parquet#row=164 and the text of ru-allrussian/1988/p11 are the same text; they differ only in the TeX spacing (E 1.000, T 1.000). The row became a second statement of the record.'

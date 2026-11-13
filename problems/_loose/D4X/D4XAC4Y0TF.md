@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Croatia/train/0000.parquet#row=258
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hr-mo
+    source: hf-mathnet
+    label: Croatia Mathematica competitions in Croatia
 ---
 Given is an isosceles triangle $ABC$ with base $\overline{AB}$. Points $P$ on side $\overline{AC}$ and $Q$ on side $\overline{BC}$ are chosen such that $|AP| + |BQ| = |PQ|$. The parallel to line $BC$ through the midpoint of segment $\overline{PQ}$ intersects segment $\overline{AB}$ at point $N$. The circumcircle of triangle $PNQ$ intersects line $AC$ at points $P$ and $K$, and line $BC$ at points $Q$ and $L$. If point $R$ is the intersection of lines $PL$ and $QK$, prove that line $PQ$ is perpendicular to line $CR$.

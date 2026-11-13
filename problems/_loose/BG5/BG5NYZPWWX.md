@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Slovenia/train/0001.parquet#row=244
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: si-mo/2016
+    source: hf-mathnet
+    label: Slovenia Slovenija 2016
 ---
 For triangle $A B C$, it holds that $|A B|=2|A C|$, and $D$ is a point on the ray $C A$ such that $|C D|=$ $3|A C|$. Prove that the perpendicular from point $C$ to line $B D$ bisects segment $A B$.

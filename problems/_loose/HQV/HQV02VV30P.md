@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0001.parquet#row=147
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia Saudi Arabian Mathematical Competitions
 ---
 Let $ABC$ be a non-isosceles triangle with altitudes $AD$, $BE$, $CF$ with orthocenter $H$. Suppose that $DF \cap HB = M$, $DE \cap HC = N$ and $T$ is the circumcenter of triangle $HBC$. Prove that $AT\perp MN$.

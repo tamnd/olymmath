@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Argentina/train/0001.parquet#row=25
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: rioplatense/2010
     source: hf-ai-mo-aops
     label: 2010 Rioplatense Mathematical Olympiad, Level 3
+  - at: rioplatense
+    source: hf-mathnet
+    label: Argentina Mathematical Olympiad Rioplatense
 ---
 Find the minimum and maximum values of $ S=\frac{a}{b}+\frac{c}{d} $ where $a$ , $b$ , $c$ , $d$ are positive integers satisfying $a + c = 20202$ and $b + d = 20200$ .

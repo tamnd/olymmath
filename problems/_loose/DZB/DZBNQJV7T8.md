@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Hong_Kong/train/0000.parquet#row=365
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: hk-pc/2020
     source: hf-ai-mo-aops
     label: 2020 Hong Kong TST
+  - at: hk-pc
+    source: hf-mathnet
+    label: Hong Kong IMO HK TST
 ---
 Two circles $\Gamma$ and $\Omega$ intersect at two distinct points $A$ and $B$ . Let $P$ be a point on $\Gamma$ . The tangent at $P$ to $\Gamma$ meets $\Omega$ at the points $C$ and $D$ , where $D$ lies between $P$ and $C$ , and $ABCD$ is a convex quadrilateral. The lines $CA$ and $CB$ meet $\Gamma$ again at $E$ and $F$ respectively. The lines $DA$ and $DB$ meet $\Gamma$ again at $S$ and $T$ respectively. Suppose the points $P,E,S,F,B,T,A$ lie on $\Gamma$ in this order. Prove that $PC,ET,SF$ are parallel.

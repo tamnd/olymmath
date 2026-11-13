@@ -15,5 +15,9 @@ statements:
     kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: cn-league
+    source: hf-mathnet
+    label: China China Mathematical Competition
 ---
 Prove: The equation $2 x^{3}+5 x-2=0$ has exactly one real root $r$, and there exists a unique strictly increasing sequence of positive integers $\left\{a_{n}\right\}$, such that $\frac{2}{5}=r^{a_{1}}+r^{a_{2}}+r^{a_{3}}+\cdots$.

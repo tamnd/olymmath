@@ -14,12 +14,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/IMO/train/0000.parquet#row=357
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: isl/2024
     source: hf-ai-mo-aops
     label: 2024 ISL
+  - at: isl/2024
+    source: hf-mathnet
+    label: IMO IMO2024 Shortlisted Problems
 ---
 Let $n$ and $T$ be positive integers. James has $4n$ marbles with weights $1$ , $2$ , $\dots$ , $4n$ . He places them on a balance scale, so that both sides have equal weight. Andrew may move a marble from one side of the scale to the other, so that the absolute difference in weights of the two sides remains at most $T$ .
 

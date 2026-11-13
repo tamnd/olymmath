@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Switzerland/train/0000.parquet#row=431
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ch-smo
+    source: hf-mathnet
+    label: Switzerland IMO Selection
 ---
 Let $ABCD$ be a convex quadrilateral such that the circle with diameter $AB$ is tangent to the line $CD$, and the circle with diameter $CD$ is tangent to the line $AB$. Prove that the two intersection points of these circles and the point $AC \cap BD$ are collinear.

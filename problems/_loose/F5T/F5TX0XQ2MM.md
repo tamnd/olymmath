@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Mongolia/train/0001.parquet#row=6
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: mn-mo
+    source: hf-mathnet
+    label: Mongolia Mongolian National Mathematical Olympiad
 ---
 Let $a$ and $b$ be real numbers such that $a + b = 1$. Prove the inequality
 $$\sqrt{1+5a^2} + 5\sqrt{2+b^2} \geq 9.$$

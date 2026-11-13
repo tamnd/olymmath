@@ -21,11 +21,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ibero-American_Mathematical_Olympiad/train/0000.parquet#row=35
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ibero/1992
     source: hf-numina-olympiads
     label: IberoAmerican_MO
+  - at: ibero
+    source: hf-mathnet
+    label: Ibero-American Mathematical Olympiad Iberoamerican Mathematical Olympiad
 ---
 $\mathrm{ABC}$ is an equilateral triangle with side 2 . Show that any point $\mathrm{P}$ on the incircle satisfies $\mathrm{PA}^{2}$ $+\mathrm{PB}^{2}+\mathrm{PC}^{2}=5$. Show also that the triangle with side lengths $\mathrm{PA}, \mathrm{PB}, \mathrm{PC}$ has area $(\sqrt{3}) / 4$.

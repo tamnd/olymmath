@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: pt
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Brazil/train/0000.parquet#row=155
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: br-obm
+    source: hf-mathnet
+    label: Brazil Nível 2
 ---
 Show that $M=\sqrt[3]{\sqrt{5}+2}-\sqrt[3]{\sqrt{5}-2}$ is an integer.

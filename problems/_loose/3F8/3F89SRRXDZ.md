@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Czech_Republic/train/0000.parquet#row=30
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: cz-sk-mo
+    source: hf-mathnet
+    label: Czech Republic 62nd Czech and Slovak Mathematical Olympiad
 ---
 Given a parallelogram $A B C D$ with center $S$, denote by $O$ the incenter of triangle $A B D$ and by $T$ the point of contact of the incircle of triangle $A B D$ with the diagonal $B D$. Prove that lines $O S$ and $C T$ are parallel. (Jaromír Šimša)

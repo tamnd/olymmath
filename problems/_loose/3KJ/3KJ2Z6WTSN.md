@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Spain/train/0001.parquet#row=79
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: es-ome/2012
+    source: hf-mathnet
+    label: Spain Spanija 2012
 ---
 Let $a, b$ and $c$ be the lengths of the sides of a triangle $ABC$. If
 

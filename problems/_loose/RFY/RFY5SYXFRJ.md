@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0001.parquet#row=172
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines 20th Philippine Mathematical Olympiad
 ---
 Let $N$ be the smallest positive integer such that $N / 15$ is a perfect square, $N / 10$ is a perfect cube, and $N / 6$ is a perfect fifth power. Find the number of positive divisors of $N / 30$.

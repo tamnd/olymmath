@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Greece/train/0000.parquet#row=95
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: gr-hms/2014
     source: hf-ai-mo-aops
     label: 2014 Greece Junior Math Olympiad
+  - at: gr-hms
+    source: hf-mathnet
+    label: Greece 31st Hellenic Mathematical Olympiad
 ---
 Solve in real number the system $x^3=\frac{z}{y}-\frac{2y}{z}, y^3=\frac{x}{z}-\frac{2z}{x}, z^3=\frac{y}{x}-\frac{2x}{y}$

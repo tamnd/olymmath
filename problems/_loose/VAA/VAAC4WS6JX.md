@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/China/train/0001.parquet#row=162
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: cn-league
+    source: hf-mathnet
+    label: China China Mathematical Competition
 ---
 Let the set $X=\{1,2, \cdots, 20\}, A$ be a subset of $X$, the number of elements in $A$ is at least 2, and all elements of $A$ can be arranged as consecutive positive integers. Then the number of such sets $A$ is $ $.

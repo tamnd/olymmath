@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Soviet_Union/train/0000.parquet#row=12
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ru-allrussian
+    source: hf-mathnet
+    label: Soviet Union 2nd ASU
 ---
 $x, y, z$ - arbitrary pairwise distinct integers. Prove that $(x-y)^{5}+(y-z)^{5}+(z-x)^{5}$ is divisible by $5(y-z)(z-x)(x-y)$.

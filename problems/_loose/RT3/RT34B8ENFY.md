@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Slovenia/train/0001.parquet#row=50
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: si-mo/2013
+    source: hf-mathnet
+    label: Slovenia National Math Olympiad 2013 - First Round
 ---
 Prove that for any real numbers $a$ and $b$, the inequality
 

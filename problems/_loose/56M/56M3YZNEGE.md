@@ -1,0 +1,19 @@
+---
+tag: 56M3YZNEGE
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: es
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Spain/train/0001.parquet#row=215
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Sea $ABC$ un triángulo acutángulo cuya circunferencia circunscrita es $\Gamma$. Las tangentes a $\Gamma$ por $B$ y $C$ se cortan en $P$. Sobre el arco $AC$ que no contiene a $B$ se toma un punto $M$, distinto de $A$ y $C$, tal que la recta $AM$ corta a la recta $BC$ en $K$. Sean $R$ el punto simétrico de $P$ con respecto a la recta $AM$ y $Q$ el punto de intersección de las rectas $RA$ y $PM$. Sean $J$ el punto medio de $BC$ y $L$ el punto donde la recta paralela por $A$ a la recta $PR$ corta a la recta $PJ$. Demustrar que los puntos $L$, $J$, $A$, $Q$ y $K$ están sobre una misma circunferencia.

@@ -1,0 +1,9 @@
+id: 0ffac8fde60a
+kind: pair
+records:
+    - AGH2KMMPB7
+    - AGCSBA4E4D
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Slovenia/train/0000.parquet#row=258 to this record, but they are two problems: in the row O is the orthocentre of ABD, in the record O is the circumcentre of ABD. The agent removed the row from the record, and the row is now in a new loose record.'

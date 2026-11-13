@@ -1,0 +1,8 @@
+id: 4a2ef7b3202c
+kind: match
+records:
+    - hmmt/2001/a10
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The agent read the MathNet row United_States/train/0001.parquet#row=240 and this record again, because the first review found a difference: the row is the same text as a statement that the record already has; the record holds the texts of two problems, which the review of batch 19 flagged for a person. The agent kept the link.'

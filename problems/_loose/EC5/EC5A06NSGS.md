@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ireland/train/0000.parquet#row=307
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ie-irmo/2020
     source: hf-ai-mo-aops
     label: 2020 Irish Math Olympiad
+  - at: ie-irmo/2020
+    source: hf-mathnet
+    label: Ireland IRL_ABooklet_2020
 ---
 A trapezium $A B C D,$ in which $A B$ is parallel to $D C,$ is inscribed in a circle of radius $R$ and centre $O .$ The non-parallel sides $D A$ and $C B$ are extended to meet at $P$ while diagonals $A C$ and $B D$ intersect at $E .$ Prove that $|O E| \cdot|O P|=R^{2}$ .

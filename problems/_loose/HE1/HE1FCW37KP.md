@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0001.parquet#row=49
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ro-nmo
+    source: hf-mathnet
+    label: Romania 65th Romanian Mathematical Olympiad
 ---
 Let $p$ and $n$ be non-zero natural numbers, where $p \geq 2$, and let $a$ be a real number such that $1 \leq a < a+n \leq p$. Show that the set $\left\{\left[\log _{2} x\right]+\left[\log _{3} x\right]+\cdots+\left[\log _{p} x\right] \mid x \in \mathbb{R}, a \leq x \leq a+n\right\}$ has exactly $n+1$ elements.

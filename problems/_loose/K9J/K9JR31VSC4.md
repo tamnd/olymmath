@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0001.parquet#row=79
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines Philippine Mathematical Olympiad
 ---
 (Easy/Average) The segments $A P$ and $A Q$ are tangent to circle $O$ at points $P$ and $Q$, respectively. Moreover, $Q E$ is perpendicular to diameter $P D$ of length 4 . If $P E=3.6$ and $A P=6$, what is the length of $Q E$ ?

@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Vietnam/train/0000.parquet#row=255
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: vn-vmo/2024
     source: hf-ai-mo-aops
     label: 2024 Vietnam National Olympiad
+  - at: vn-vmo
+    source: hf-mathnet
+    label: Vietnam Vietnamese MO
 ---
 For each polynomial $P(x)$ , define $$ P_1(x)=P(x), \forall x \in \mathbb{R}, $$ $$ P_2(x)=P(P_1(x)), \forall x \in \mathbb{R}, $$ $$ ... $$ $$ P_{2024}(x)=P(P_{2023}(x)), \forall x \in \mathbb{R}. $$ Let $a>2$ be a real number. Is there a polynomial $P$ with real coefficients such that for all $t \in (-a, a)$ , the equation $P_{2024}(x)=t$ has $2^{2024}$ distinct real roots?

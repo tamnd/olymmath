@@ -30,6 +30,14 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S4
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/United_States/train/0004.parquet#row=275
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
@@ -39,5 +47,8 @@ unplaced:
   - at: hmmt/2011
     source: hf-numina-olympiads
     label: HMMT February
+  - at: hmmt
+    source: hf-mathnet
+    label: United States Harvard-MIT Mathematics Tournament
 ---
 Let $ABC$ be a triangle such that $AB = 7$ , and let the angle bisector of $\angle BAC$ intersect line $BC$ at $D$ . If there exist points $E$ and $F$ on sides $AC$ and $BC$ , respectively, such that lines $AD$ and $EF$ are parallel and divide triangle $ABC$ into three parts of equal area, determine the number of possible integral values for $BC$ .

@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0002.parquet#row=209
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ro-nmo/2018
     source: hf-ai-mo-aops
     label: 2018 Romania National Olympiad
+  - at: ro-nmo
+    source: hf-mathnet
+    label: Romania 69th Romanian Mathematical Olympiad - Final Round
 ---
 Let $a, b, c, d$ be natural numbers such that $a + b + c + d = 2018$ . Find the minimum value of the expression: $$ E = (a-b)^2 + 2(a-c)^2 + 3(a-d)^2+4(b-c)^2 + 5(b-d)^2 + 6(c-d)^2. $$

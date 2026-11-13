@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/North_Macedonia/train/0000.parquet#row=266
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: mk-mo
+    source: hf-mathnet
+    label: North Macedonia Junior Macedonian Mathematical Olympiad
 ---
 Determine all numbers $p, q$, and $r$, such that $p$ and $r$ are prime, $q$ is a positive integer, and they satisfy the equation:
 

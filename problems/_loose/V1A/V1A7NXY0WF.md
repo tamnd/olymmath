@@ -14,12 +14,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/United_States/train/0009.parquet#row=145
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: amc10
     source: hf-ai-mo-aops
     label: 2024 AMC 10
+  - at: amc10
+    source: hf-mathnet
+    label: United States AMC 10 A
 ---
 Two transformations are said to *commute* if applying the first followed by the second gives the same result as applying the second followed by the first. Consider these four transformations of the coordinate plane:
 

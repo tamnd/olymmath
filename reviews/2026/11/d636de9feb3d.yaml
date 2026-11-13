@@ -1,0 +1,8 @@
+id: d636de9feb3d
+kind: match
+records:
+    - VDW3ZGA4C1
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The MathNet row Brazil/train/0001.parquet#row=386 was joined into this record, which holds the MathNet row Brazil/train/0001.parquet#row=171. The agent read both texts: they state the same problem, in other words.'

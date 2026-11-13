@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/JBMO/train/0000.parquet#row=23
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: md-mo/2003
     source: hf-ai-mo-aops
     label: 2003 Moldova National Olympiad
+  - at: md-mo
+    source: hf-mathnet
+    label: JBMO THE 47-th MATHEMATIAL OLYMPIAD OF REPUBLIC OF MOLDOVA
 ---
 Find all integers n for which number $ \log_{2n-1}(n^2+2)$ is rational.

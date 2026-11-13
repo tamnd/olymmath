@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/South_Africa/train/0000.parquet#row=76
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ir-mo/2000
     source: hf-ai-mo-aops
     label: 2000 Iran MO (3rd Round)
+  - at: za-samo
+    source: hf-mathnet
+    label: South Africa South-Afrika 2011-2013
 ---
 Prove that for every natural number $ n$ there exists a polynomial $ p(x)$ with
 integer coefficients such that $ p(1),p(2),...,p(n)$ are distinct powers of $ 2$ .

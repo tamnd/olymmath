@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Singapore/train/0000.parquet#row=86
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: sg-smo/2018
     source: hf-ai-mo-aops
     label: 2018 Singapore Junior Math Olympiad
+  - at: sg-smo
+    source: hf-mathnet
+    label: Singapore Singapore Mathematical Olympiad
 ---
 In $\vartriangle ABC, AB=AC=14 \sqrt2 , D$ is the midpoint of $CA$ and $E$ is the midpoint of $BD$ . Suppose $\vartriangle CDE$ is similar to $\vartriangle ABC$ . Find the length of $BD$ .

@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/India/train/0000.parquet#row=35
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: in-tst/2006
     source: hf-ai-mo-aops
     label: 2006 India IMO Training Camp
+  - at: in-tst/2006
+    source: hf-mathnet
+    label: India Indija TS 2006
 ---
 Let $n$ be a positive integer divisible by $4$ . Find the number of permutations $\sigma$ of $(1,2,3,\cdots,n)$ which satisfy the condition $\sigma(j)+\sigma^{-1}(j)=n+1$ for all $j \in \{1,2,3,\cdots,n\}$ .

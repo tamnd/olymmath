@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0002.parquet#row=232
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ro-nmo/2018
     source: hf-ai-mo-aops
     label: 2018 Romania National Olympiad
+  - at: ro-nmo
+    source: hf-mathnet
+    label: Romania 69th Romanian Mathematical Olympiad - Final Round
 ---
 On the sides $[AB]$ and $[BC]$ of the parallelogram $ABCD$ are constructed the equilateral triangles $ABE$ and $BCF,$ so that the points $D$ and $E$ are on the same side of the line $AB$ , and $F$ and $D$ on different sides of the line $BC$ . If the points $E,D$ and $F$ are collinear, then prove that $ABCD$ is rhombus.

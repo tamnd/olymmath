@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=291
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc/2015
+    source: hf-mathnet
+    label: Saudi Arabia SAMC 2015
 ---
 Let be given the sequence $(x_n)$ defined by $x_1 = 1$ and $x_{n+1} = 3x_n + \lfloor x_n \sqrt5 \rfloor$ for all $n = 1,2,3,...,$ where $\lfloor x \rfloor$ denotes the greatest integer that does not exceed $x$. Prove that for any positive integer $n$ we have $$x_nx_{n+2} - x^2_{n+1} = 4^{n-1}$$
 

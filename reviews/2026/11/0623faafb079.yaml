@@ -1,0 +1,9 @@
+id: 0623faafb079
+kind: pair
+records:
+    - HW4HXDY8GT
+    - pamo/2008/p1
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Romania/train/0002.parquet#row=444 to this record, but they are two problems: other functional inequality: row f(x+y) <= f(x^2+y), record f(x+y) <= f(x)+f(y) <= x+y. The agent removed the row from the record, and the row is now in a new loose record.'

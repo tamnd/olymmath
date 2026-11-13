@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Hong_Kong/train/0000.parquet#row=254
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: aime
     source: hf-ai-mo-aops
     label: 2008 AIME Problems
+  - at: hk-pc
+    source: hf-mathnet
+    label: Hong Kong IMO HK TST
 ---
 Find the largest integer $ n$ satisfying the following conditions:
 (i) $ n^2$ can be expressed as the difference of two consecutive cubes;

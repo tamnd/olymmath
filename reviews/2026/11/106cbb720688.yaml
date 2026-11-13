@@ -1,0 +1,8 @@
+id: 106cbb720688
+kind: match
+records:
+    - QVET0KGCTB
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import joined the MathNet row Russia/train/0000.parquet#row=29 into this record, which holds the MathNet row Russia/train/0000.parquet#row=14, but the row''s formula is garbled to x^2 + y^2 so n never appears, the record has x^(2^n) + y^(2^n). The row is not a clear problem, so the agent listed it in registers/loose-removed.tsv.'

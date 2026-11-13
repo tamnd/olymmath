@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=442
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia SAUDI ARABIAN MATHEMATICAL COMPETITIONS
 ---
 Let $ABC$ be an acute, non isosceles triangle and $(O)$ be its circumcircle (with center $O$). Denote by $G$ the centroid of the triangle $ABC$, by $H$ the foot of the altitude from $A$ onto the side $BC$ and by $I$ the midpoint of $AH$. The line $IG$ intersects $BC$ at $K$.
 1. Prove that $CK = BH$.

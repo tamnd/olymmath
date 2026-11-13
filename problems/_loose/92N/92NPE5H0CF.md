@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Iran/train/0000.parquet#row=233
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ir-mo/2019
     source: hf-ai-mo-aops
     label: 2019 Iran MO (3rd Round)
+  - at: ir-mo
+    source: hf-mathnet
+    label: Iran 37th Iranian Mathematical Olympiad
 ---
 Find all functions $f:\mathbb{N} \to \mathbb{N}$ so that for any distinct positive integers $x,y,z$ the value of $x+y+z$ is a perfect square if and only if $f(x)+f(y)+f(z)$ is a perfect square.

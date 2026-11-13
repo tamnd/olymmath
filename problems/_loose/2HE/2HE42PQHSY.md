@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=74
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia Saudi Arabia Mathematical Competitions
 ---
 Find all triples $(a, b, c)$ of integers such that $a+ b + c = 2010 \cdot 2011 $ and the solutions to the equation $$2011x^3 +ax^2 +bx+c = 0$$ are all nonzero integers.

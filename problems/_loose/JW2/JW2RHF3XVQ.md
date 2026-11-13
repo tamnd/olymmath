@@ -15,6 +15,10 @@ statements:
     kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ua-umo
+    source: hf-mathnet
+    label: Ukraine 62nd Ukrainian National Mathematical Olympiad, Third Round, First Tour
 ---
 Let $H$ and $O$ be the orthocenter and the circumcenter of the triangle $ABC$. Line $OH$ intersects the sides $AB, AC$ at points $X, Y$ correspondingly, so that $H$ belongs to the segment $OX$. It turned out that $XH = HO = OY$. Find $\angle BAC$.
 

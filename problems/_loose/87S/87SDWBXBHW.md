@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0001.parquet#row=310
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ph-pmo
     source: hf-ai-mo-aops
     label: 24th Philippine MO Qualifying Stage
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines 24th Philippine Mathematical Olympiad
 ---
 You roll a fair $12$ -sided die repeatedly. The probability that all the primes show up at least once before seeing any of the other numbers can be expressed as a fraction $p/q$ in lowest terms. What is $p+q$ ?

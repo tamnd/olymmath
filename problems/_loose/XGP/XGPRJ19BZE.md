@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Hong_Kong/train/0000.parquet#row=16
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hk-pc
+    source: hf-mathnet
+    label: Hong Kong IMO HK TST
 ---
 In $\triangle A B C$, the angle bisectors of $\angle A, \angle B, \angle C$ intersect the circumcircle at points $P, Q, R$. Prove that $A P+B Q+C R>B C+C A+A B$.

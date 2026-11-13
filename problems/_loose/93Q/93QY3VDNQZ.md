@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Croatia/train/0000.parquet#row=155
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hr-mo
+    source: hf-mathnet
+    label: Croatia Mathematica competitions in Croatia
 ---
 Let $p_{1}$ and $q_{1}$ be integers such that the equation $x^{2} + p_{1} x + q_{1} = 0$ has two integer solutions. For each $n \in \mathbb{N}$, we define the numbers $p_{n+1}$ and $q_{n+1}$ by the formulas
 

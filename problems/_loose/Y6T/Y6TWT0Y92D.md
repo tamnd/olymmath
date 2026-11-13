@@ -21,11 +21,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ibero-American_Mathematical_Olympiad/train/0000.parquet#row=64
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ibero/1997
     source: hf-numina-olympiads
     label: IberoAmerican_MO
+  - at: ibero
+    source: hf-mathnet
+    label: Ibero-American Mathematical Olympiad Iberoamerican Mathematical Olympiad
 ---
 $n>1$ is an integer. $D_{n}$ is the set of lattice points $(x, y)$ with $|x|,|y|<=n$. If the points of $D_{n}$ are colored with three colors (one for each point), show that there are always two points with the same color such that the line containing them does not contain any other points of $\mathrm{D}_{\mathrm{n}}$. Show that it is possible to color the points of $\mathrm{D}_{\mathrm{n}}$ with four colors (one for each point) so that if any line contains just two points of $\mathrm{D}_{\mathrm{n}}$ then those two points have different colors.

@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/China/train/0000.parquet#row=177
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: cn-league/2006
     source: hf-ai-mo-aops
     label: 2006 China Second Round Olympiad
+  - at: cn-league
+    source: hf-mathnet
+    label: China China Mathematical Competition
 ---
 Let $f(x)=\sin^4x-\sin x\cos x+cos^4 x$ . Find the range of $f(x)$ .

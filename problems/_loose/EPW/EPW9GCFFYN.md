@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=87
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia Saudi Arabia Mathematical Competitions
 ---
 Let $n$ be a positive integer. Prove that at least one of the integers $[2^n \cdot \sqrt2]$, $[2^{n+1} \cdot \sqrt2]$, $...$, $[2^{2n} \cdot \sqrt2]$ is even, where $[a]$ denotes the integer part of $a$.

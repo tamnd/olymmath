@@ -1,0 +1,9 @@
+id: d623087361c2
+kind: pair
+records:
+    - 9D0EFW9YRR
+    - PRM07595DE
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import joined the MathNet row Belarus/train/0000.parquet#row=186 into this record, which holds the MathNet row Belarus/train/0000.parquet#row=185, but they are two problems: the row asks to prove infinitely many n with no positive integer solutions, the record infinitely many n with solutions. The row added no statement, so the problem was lost. The row is now in a new loose record.'

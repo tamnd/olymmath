@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Russia/train/0000.parquet#row=34
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ru-euler
+    source: hf-mathnet
+    label: Russia Euler olympiad
 ---
 (S. Berlov) In a convex quadrilateral $ABCD$, the following relations are satisfied: $AB=BD; \angle ABD=\angle DBC$. On the diagonal $BD$, there is a point $K$ such that $BK=BC$. Prove that $\angle KAD=\angle KCD$.

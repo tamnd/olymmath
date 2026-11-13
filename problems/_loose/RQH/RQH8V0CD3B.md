@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/China/train/0000.parquet#row=43
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: cn-league
+    source: hf-mathnet
+    label: China China Mathematical Competition (Extra Test)
 ---
 Let the three sides of a triangle be integers $l, m, n$, and $l>m>n$. It is known that $\left\{\frac{3^{l}}{10^{4}}\right\}=\left\{\frac{3^{m}}{10^{4}}\right\}=\left\{\frac{3^{n}}{10^{4}}\right\}$, where $\{x\}=x-[x]$, and $[x]$ represents the greatest integer not exceeding $x$. Find the minimum perimeter of such a triangle.

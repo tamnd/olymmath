@@ -1,0 +1,8 @@
+id: 8b66b49203a4
+kind: match
+records:
+    - jp-jmo/2004/p2
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Silk_Road_Mathematics_Competition/train/0000.parquet#row=14 to this record, but the row is another version of the problem, with other data or another condition. The project only links the texts of jp-jmo, so the agent made no loose record of the row. The agent listed the row in registers/loose-removed.tsv.'

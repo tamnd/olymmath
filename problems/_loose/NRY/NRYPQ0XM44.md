@@ -14,12 +14,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/United_States/train/0009.parquet#row=216
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: amc10
     source: hf-ai-mo-aops
     label: 2024 AMC 10
+  - at: amc10
+    source: hf-mathnet
+    label: United States AMC 10 A
 ---
 A bee is moving in three-dimensional space. A fair six-sided die with faces labeled $A^+, A^-, B^+, B^-, C^+$ , and $C^-$ is rolled. Suppose the bee occupies the point $(a, b, c)$ . If the die shows $A^+$ , then the bee moves to the point $(a+1, b, c)$ and if the die shows $A^-$ , then the bee moves to the point $(a-1, b, c)$ . Analogous moves are made with the other four outcomes. Suppose the bee starts at the point $(0, 0, 0)$ and the die is rolled four times. What is the probability that the bee traverses four distinct edges of some unit cube? $
 \textbf{(A) }\frac{1}{54} \textbf{(B) }\frac{7}{54} \textbf{(C) }\frac{1}{6} \textbf{(D) }\frac{5}{18} \textbf{(E) }\frac{2}{5} $

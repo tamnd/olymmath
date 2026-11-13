@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Iran/train/0000.parquet#row=36
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ir-mo-r2/2011
     source: hf-ai-mo-aops
     label: 2011 Iran MO (2nd Round)
+  - at: ir-mo
+    source: hf-mathnet
+    label: Iran Iranian Mathematical Olympiad
 ---
 find the smallest natural number $n$ such that there exists $n$ real numbers in the interval $(-1,1)$ such that their sum equals zero and the sum of their squares equals $20$ .

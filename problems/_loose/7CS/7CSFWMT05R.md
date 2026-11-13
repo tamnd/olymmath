@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0000.parquet#row=332
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines 17th Philippine Mathematical Olympiad Area Stage
 ---
 Points $A, M, N$ and $B$ are collinear, in that order, and $A M=4, M N=2, N B=3$. If point $C$ is not collinear with these four points, and $A C=6$, prove that $C N$ bisects $\angle B C M$.

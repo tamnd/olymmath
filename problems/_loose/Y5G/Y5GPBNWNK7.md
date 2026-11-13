@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/China/train/0001.parquet#row=158
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: cn-league
+    source: hf-mathnet
+    label: China China Mathematical Competition
 ---
 Let positive real numbers $a, b, c$ satisfy $a^{2}+4 b^{2}+9 c^{2}=4 b+12 c-2$, find the minimum value of $\frac{1}{a}+\frac{2}{b}+\frac{3}{c}$.

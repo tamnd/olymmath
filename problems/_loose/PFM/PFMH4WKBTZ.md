@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0001.parquet#row=312
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ph-pmo
     source: hf-ai-mo-aops
     label: 24th Philippine MO Qualifying Stage
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines 24th Philippine Mathematical Olympiad
 ---
 Let $ABC$ be a triangle such that the altitude from $A$ , the median from $B$ , and the internal angle bisector from $C$ meet at a single point. If $BC=10$ and $CA=15$ , find $AB^2$ .

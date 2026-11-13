@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/North_Macedonia/train/0000.parquet#row=307
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: mk-mo
+    source: hf-mathnet
+    label: North Macedonia Macedonian Junior Mathematical Olympiad
 ---
 Prove that for positive real numbers $a, b, c$ the inequality
 

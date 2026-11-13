@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/United_States/train/0001.parquet#row=84
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: hmmt/1999
     source: hf-ai-mo-aops
     label: 1999 Harvard-MIT Mathematics Tournament
+  - at: hmmt
+    source: hf-mathnet
+    label: United States Harvard-MIT Math Tournament
 ---
 For any finite set $S$ , let $f(S)$ be the sum of the elements of $S$ (if $S$ is empty then $f(S)=0$ ). Find the sum over all subsets $E$ of $S$ of $\dfrac{f(E)}{f(S)}$ for $S=\{1,2,\cdots,1999\}$ .

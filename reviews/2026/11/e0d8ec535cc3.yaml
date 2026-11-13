@@ -1,0 +1,8 @@
+id: e0d8ec535cc3
+kind: match
+records:
+    - NS8CVREJY6
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Romania/train/0000.parquet#row=27 to this record, but the row is not a clear copy: the row has lost its start: the hypothesis that a, b, c are positive integers is missing. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

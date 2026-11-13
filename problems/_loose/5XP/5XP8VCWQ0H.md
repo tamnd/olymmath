@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Brazil/train/0000.parquet#row=141
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: br-obm
+    source: hf-mathnet
+    label: Brazil
 ---
 Prove that the sum of the lengths of the legs of a right triangle never exceeds $\sqrt{2}$ times the length of the hypotenuse of the triangle.

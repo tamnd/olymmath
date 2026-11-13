@@ -14,12 +14,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/IMO/train/0000.parquet#row=367
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: de-tst/2025
     source: hf-ai-mo-aops
     label: 2025 Germany Team Selection Test
+  - at: isl/2024
+    source: hf-mathnet
+    label: IMO IMO2024 Shortlisted Problems
 ---
 Determine all sequences $a_1, a_2, \dots$ of positive integers such that for any pair of positive integers $m\leqslant n$ , the arithmetic and geometric means
 $$ \frac{a_m + a_{m+1} + \cdots + a_n}{n-m+1} \text{and} (a_ma_{m+1}\cdots a_n)^{\frac{1}{n-m+1}}$$are both integers.

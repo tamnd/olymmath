@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: es
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Spain/train/0000.parquet#row=102
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: es-ome
+    source: hf-mathnet
+    label: Spain
 ---
 Consider a triangle $ABC$ with $\angle BAC = 45^{\circ}$ and $\angle ACB = 30^{\circ}$. If $M$ is the midpoint of side $BC$, prove that $\angle AMB = 45^{\circ}$ and that $BC \cdot AC = 2 \cdot AM \cdot AB$.

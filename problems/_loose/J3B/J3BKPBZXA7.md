@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Singapore/train/0000.parquet#row=69
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: sg-smo/2017
     source: hf-ai-mo-aops
     label: 2017 Singapore Junior Math Olympiad
+  - at: sg-smo
+    source: hf-mathnet
+    label: Singapore Singapore Mathematical Olympiad (SMO)
 ---
 A square is cut into several rectangles, none of which is a square, so that the sides of each rectangle are parallel to the sides of the square. For each rectangle with sides $a, b,a<b$ , compute the ratio $a/b$ . Prove that sum of these ratios is at least $1$ .

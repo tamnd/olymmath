@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ireland/train/0000.parquet#row=135
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: cu-mo/2014
     source: hf-ai-mo-aops
     label: 2014 Cuba MO
+  - at: ie-irmo
+    source: hf-mathnet
+    label: Ireland Ireland
 ---
 Let $ABC$ be an isosceles triangle with $AB = AC$ . Points $D$ , $E$ and $F$ are on sides $BC$ , $CA $ and $AB$ respectively, such that $\angle FDE =\angle ABC$ and $FE$ is not parallel to $BC$ . Prove that $BC$ is tangent to the circumcircle of the triangle $DEF$ , if and only if, $D$ is the midpoint of $BC$ .

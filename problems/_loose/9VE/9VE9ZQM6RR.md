@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ukraine/train/0000.parquet#row=110
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ua-umo
+    source: hf-mathnet
+    label: Ukraine 49th Mathematical Olympiad in Ukraine
 ---
 On the chord $A B$ of a circle, a point $P$ is marked such that $A P=2 P B$. The chord $D E$ is perpendicular to $A B$ and passes through point $P$. Prove that the midpoint of segment $A P$ is the orthocenter of triangle $A E D$.

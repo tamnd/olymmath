@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Belarus/train/0001.parquet#row=28
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: by-mo
+    source: hf-mathnet
+    label: Belarus 66th Belarusian Mathematical Olympiad
 ---
 Let $a,b,c,d,x,y$ denote the lengths of the sides $AB, BC,CD,DA$ and the diagonals $AC,BD$ of a cyclic quadrilateral $ABCD$ respectively.
 Prove that $$(\frac{1}{a}+\frac{1}{c})^2+(\frac{1}{b}+\frac{1}{d})^2 \geq 8 ( \frac{1}{x^2}+\frac{1}{y^2})$$

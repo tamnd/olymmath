@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Balkan_Mathematical_Olympiad/train/0000.parquet#row=135
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: balkan-sl/2019
+    source: hf-mathnet
+    label: Balkan Mathematical Olympiad BMO 2019 Shortlist
 ---
 Anna and Bob play a game on the set of all points of the form $(m, n)$ where $m, n$ are integers with $|m|,|n| \leqslant 2019$. Let us call the lines $x= \pm 2019$ and $y= \pm 2019$ the boundary lines of the game. The points of these lines are called the boundary points. The neighbours of point $(m, n)$ are the points $(m+1, n),(m-1, n),(m, n+1),(m, n-1)$.
 

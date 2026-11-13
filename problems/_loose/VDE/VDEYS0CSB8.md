@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: de
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Switzerland/train/0000.parquet#row=140
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ch-smo/2007
     source: hf-ai-mo-aops
     label: 2007 Switzerland - Final Round
+  - at: ch-smo
+    source: hf-mathnet
+    label: Switzerland SMO Finalrunde
 ---
 Let $a, b, c$ be nonnegative real numbers with arithmetic mean $m =\frac{a+b+c}{3}$ . Provethat $$ \sqrt{a+\sqrt{b + \sqrt{c}}} +\sqrt{b+\sqrt{c + \sqrt{a}}} +\sqrt{c +\sqrt{a + \sqrt{b}}}\le 3\sqrt{m+\sqrt{m + \sqrt{m}}}. $$

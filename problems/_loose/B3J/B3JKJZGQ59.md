@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0001.parquet#row=202
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines Philippines Mathematical Olympiad
 ---
 A student writes the six complex roots of the equation $z^{6}+2=0$ on the blackboard. At every step, he randomly chooses two numbers $a$ and $b$ from the board, erases them, and replaces them with $3 a b-3 a-3 b+4$. At the end of the fifth step, only one number is left. Find the largest possible value of this number.

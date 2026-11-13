@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=230
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia SAMC
 ---
 Let $a_1, a_2,...,a_{2n}$ be positive real numbers such that $a_i + a_{n+i} = 1$, for all $i = 1,...,n$. Prove that there exist two different integers $1 \le j, k \le 2n$ for which $$\sqrt{a^2_j-a^2_k} < \frac{1}{\sqrt{n} +\sqrt{n - 1}}$$

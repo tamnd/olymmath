@@ -1,0 +1,8 @@
+id: 9c4bc45cf5b6
+kind: match
+records:
+    - th-tmo/2016/p6
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Thailand/train/0000.parquet#row=62 to this record, but the row is not a clear copy: the exponent is miscopied: the row has m^(4n+1) - 1, the record m^(4^n+1) - 1. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

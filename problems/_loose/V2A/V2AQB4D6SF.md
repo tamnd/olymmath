@@ -14,12 +14,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Balkan_Mathematical_Olympiad/train/0000.parquet#row=220
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: balkan-sl/2024
     source: hf-ai-mo-aops
     label: 2024 Balkan MO Shortlist
+  - at: balkan
+    source: hf-mathnet
+    label: Balkan Mathematical Olympiad 41st Balkan Mathematical Olympiad
 ---
 Find all triples $(a, b, c)$ of positive real numbers that satisfy the system:
 $$

@@ -21,8 +21,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: de
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Switzerland/train/0000.parquet#row=289
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ch-smo
+    source: hf-mathnet
+    label: Switzerland SMO - Finalrunde
 ---
 Bepaal alle functies $f: \mathbb{R} \rightarrow \mathbb{R}$ zodat
 

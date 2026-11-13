@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Hong_Kong/train/0000.parquet#row=364
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: hk-pc/2020
     source: hf-ai-mo-aops
     label: 2020 Hong Kong TST
+  - at: hk-pc
+    source: hf-mathnet
+    label: Hong Kong IMO HK TST
 ---
 Given a list of integers $2^1+1, 2^2+1, \ldots, 2^{2019}+1$ , Adam chooses two different integers from the list and computes their greatest common divisor. Find the sum of all possible values of this greatest common divisor.

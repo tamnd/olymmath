@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/China/train/0001.parquet#row=166
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: cn-league
+    source: hf-mathnet
+    label: China China Mathematical Competition
 ---
 Let the 9-element set $A=\{a+b \mathrm{i} \mid a, b \in\{1,2,3\}\}$, where $\mathrm{i}$ is the imaginary unit. $\alpha=\left(z_{1}, z_{2}, \cdots, z_{9}\right)$ is a permutation of all elements in $A$, satisfying $\left|z_{1}\right| \leqslant\left|z_{2}\right| \leqslant \cdots \leqslant\left|z_{9}\right|$, then the number of such permutations $\alpha$ is $ $

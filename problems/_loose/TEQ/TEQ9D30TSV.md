@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Bulgaria/train/0001.parquet#row=211
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: bg-winter/2024
     source: hf-ai-mo-aops
     label: 2024 Bulgarian Winter Tournament
+  - at: bg-winter
+    source: hf-mathnet
+    label: Bulgaria 2 Bulgarian Winter Tournament
 ---
 Let $n$ be a positive integer and let $\mathcal{A}$ be a family of non-empty subsets of $\{1, 2, \ldots, n \}$ such that if $A \in \mathcal{A}$ and $A$ is subset of a set $B\subseteq \{1, 2, \ldots, n\}$ , then $B$ is also in $\mathcal{A}$ . Show that the function $$ f(x):=\sum_{A \in \mathcal{A}} x^{|A|}(1-x)^{n-|A|} $$ is strictly increasing for $x \in (0,1)$ .

@@ -1,0 +1,8 @@
+id: 3e126ba2d0a9
+kind: match
+records:
+    - 4Z0234EG7K
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Romania/train/0002.parquet#row=218 to this record, but the row is not a clear copy: row miscopies the target: 5 log_b c where the record has 5 log_c b. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

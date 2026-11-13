@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/New_Zealand/train/0000.parquet#row=18
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: nz-nzmo/2020
     source: hf-ai-mo-aops
     label: 2020 New Zealand MO
+  - at: nz-nzmo
+    source: hf-mathnet
+    label: New Zealand New Zealand Mathematical Olympiad
 ---
 There are $13$ marked points on the circumference of a circle with radius $13$ . Prove that we can choose three of the marked points which form a triangle with area less than $13$ .

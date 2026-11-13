@@ -15,8 +15,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Netherlands/train/0001.parquet#row=99
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: nl-nwo-r2
+    source: hf-mathnet
+    label: Netherlands Second Round
 ---
 The candy store sells chocolates in the flavors white, milk, and dark. You can buy them in three different colored boxes. The three colored boxes have the following contents:
 

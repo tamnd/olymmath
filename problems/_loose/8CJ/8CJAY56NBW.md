@@ -13,6 +13,14 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: zh
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Taiwan/train/0000.parquet#row=83
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 ---

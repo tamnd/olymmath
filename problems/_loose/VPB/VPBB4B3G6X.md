@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Hong_Kong/train/0000.parquet#row=319
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: hk-pc/2017
     source: hf-ai-mo-aops
     label: 2017 Hong Kong TST
+  - at: hk-pc
+    source: hf-mathnet
+    label: Hong Kong HKG TST
 ---
 Suppose all of the 200 integers lying in between (and including) 1 and 200 are written on a blackboard. Suppose we choose exactly 100 of these numbers and circle each one of them. By the *score* of such a choice, we mean the square of the difference between the sum of the circled numbers and the sum of the non-circled numbers. What is the average scores over all possible choices for 100 numbers?

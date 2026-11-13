@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Balkan_Mathematical_Olympiad/train/0000.parquet#row=185
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: balkan-sl/2022
     source: hf-ai-mo-aops
     label: 2022 Balkan MO Shortlist
+  - at: balkan-sl/2022
+    source: hf-mathnet
+    label: Balkan Mathematical Olympiad BMO 2022 shortlist
 ---
 There are 100 positive integers written on a board. At each step, Alex composes 50 fractions using each number written on the board exactly once, brings these fractions to their irreducible form, and then replaces the 100 numbers on the board with the new numerators and denominators to create 100 new numbers.
 

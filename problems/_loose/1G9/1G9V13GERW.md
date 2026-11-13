@@ -15,5 +15,9 @@ statements:
     kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hr-mo
+    source: hf-mathnet
+    label: Croatia Croatia Mathematical Competitions
 ---
 Find all triples $(p,m,n)$ satisfying the equation $p^m-n^3=8$ where $p$ is a prime number and $m,n$ are nonnegative integers.

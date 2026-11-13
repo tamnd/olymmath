@@ -14,11 +14,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Singapore/train/0000.parquet#row=121
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: sg-smo/2024
     source: hf-ai-mo-aops
     label: 2024 Singapore Senior Math Olympiad
+  - at: sg-smo
+    source: hf-mathnet
+    label: Singapore Singapore Mathematical Olympiad (SMO)
 ---
 Find the smallest positive integer $n$ for which there exist integers $x_{1} < x_{2} <...< x_{n}$ such that every integer from $1000$ to $2000$ can be written as a sum of some of the integers from $x_1,x_2,..,x_n$ without repetition.

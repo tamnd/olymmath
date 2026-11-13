@@ -1,0 +1,8 @@
+id: 3669c9638199
+kind: match
+records:
+    - cn-gmo/2009/p6
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row China/train/0000.parquet#row=315 to this record, but the row is not a clear copy: the row says chord AB of Gamma2 is tangent to Gamma2 (should be Gamma1), garbled condition. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

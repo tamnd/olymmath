@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Greece/train/0000.parquet#row=31
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: gr-hms/2009
     source: hf-ai-mo-aops
     label: 2009 Greece Junior Math Olympiad
+  - at: gr-hms
+    source: hf-mathnet
+    label: Greece 26th Hellenic Mathematical Olympiad
 ---
 Consider the numbers $$ A= \frac{1}{4}\cdot \frac{3}{6}\cdot \frac{5}{8}\cdot ...\frac{595}{598}\cdot \frac{597}{600} $$ and $$ B= \frac{2}{5}\cdot \frac{4}{7}\cdot \frac{6}{9}\cdot ...\frac{596}{599}\cdot \frac{598}{601} $$ . Prove that:
 (a) $A < B$ ,

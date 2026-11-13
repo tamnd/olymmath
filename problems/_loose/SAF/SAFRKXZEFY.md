@@ -21,11 +21,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ibero-American_Mathematical_Olympiad/train/0000.parquet#row=20
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ibero/1989
     source: hf-numina-olympiads
     label: IberoAmerican_MO
+  - at: ibero
+    source: hf-mathnet
+    label: Ibero-American Mathematical Olympiad Iberoamerican Mathematical Olympiad
 ---
 The function $\mathrm{f}$ on the positive integers satisfies $\mathrm{f}(1)=1, \mathrm{f}(2 \mathrm{n}+1)=\mathrm{f}(2 \mathrm{n})+1$ and $\mathrm{f}(2 \mathrm{n})=3$ $f(n)$. Find the set of all $m$ such that $m=f(n)$ for some $n$.

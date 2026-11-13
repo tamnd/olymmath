@@ -1,0 +1,8 @@
+id: 7f1e4f4da28e
+kind: match
+records:
+    - usamo/2008/p3
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row United_States/train/0003.parquet#row=153 to this record, but the row is not a clear copy: the row defines S_n by |x| + floor(y + 1/2) < n, a miscopy of |x| + |y + 1/2| < n in the record. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

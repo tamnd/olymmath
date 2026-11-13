@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Baltic_Way/train/0001.parquet#row=308
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ir-mo-r2/2006
     source: hf-ai-mo-aops
     label: 2006 Iran MO (2nd round)
+  - at: baltic-way/2020
+    source: hf-mathnet
+    label: Baltic Way Baltic Way 2020
 ---
 Determine all polynomials $P(x,y)$ with real coefficients such that
 $$P(x+y,x-y)=2P(x,y) \forall x,y\in\mathbb{R}.$$

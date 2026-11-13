@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Iran/train/0000.parquet#row=216
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ir-mo/2019
     source: hf-ai-mo-aops
     label: 2019 Iran MO (3rd Round)
+  - at: ir-mo
+    source: hf-mathnet
+    label: Iran 37th Iranian Mathematical Olympiad
 ---
 $a,b$ and $c$ are positive real numbers so that $\sum_{\text{cyc}} (a+b)^2=2\sum_{\text{cyc}} a +6abc$ . Prove that $$ \sum_{\text{cyc}} (a-b)^2\leq\left|2\sum_{\text{cyc}} a -6abc\right|. $$

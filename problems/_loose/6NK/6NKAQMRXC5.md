@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: fr
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/France/train/0000.parquet#row=338
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: fr-tst
+    source: hf-mathnet
+    label: France Olympiades Françaises de Mathématiques
 ---
 Find all integers $m \geqslant 1$ and $n \geqslant 1$ such that $\frac{5^{m}+2^{n+1}}{5^{m}-2^{n+1}}$ is the square of an integer.

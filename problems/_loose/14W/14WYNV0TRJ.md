@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Hong_Kong/train/0000.parquet#row=457
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: hk-pc/2023
     source: hf-ai-mo-aops
     label: 2023 Hong Kong Team Selection Test
+  - at: hk-pc
+    source: hf-mathnet
+    label: Hong Kong IMO HK TST
 ---
 Let $x$ , $y$ , $z$ be real numbers such that $x+y+z \ne 0$ . Find the minimum value of $\frac{|x|+|x+4y|+|y+7z|+2|z|}{|x+y+z|}$

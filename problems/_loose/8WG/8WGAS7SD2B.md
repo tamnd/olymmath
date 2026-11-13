@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/South_Africa/train/0000.parquet#row=33
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: za-samo
+    source: hf-mathnet
+    label: South Africa South-Afrika 2011-2013
 ---
 Let $a$ be a natural number greater than 1. Prove that the number
 

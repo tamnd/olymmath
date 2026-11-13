@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=443
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia SAUDI ARABIAN MATHEMATICAL COMPETITIONS
 ---
 Let $p$ be a prime number and a table of size $(p^2+ p+1)\times (p^2+p + 1)$ which is divided into unit cells. The way to color some cells of this table is called nice if there are no four colored cells that form a rectangle (the sides of rectangle are parallel to the sides of given table).
 1. Let $k$ be the number of colored cells in some nice coloring way. Prove that $k \le (p + 1)(p^2 + p + 1)$. Denote this number as $k_{max}$.

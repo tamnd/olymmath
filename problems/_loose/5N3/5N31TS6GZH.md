@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ukraine/train/0000.parquet#row=188
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ma-mo/2011
     source: hf-ai-mo-aops
     label: 2011 Morocco National Olympiad
+  - at: ua-umo/2010
+    source: hf-mathnet
+    label: Ukraine 50th Mathematical Olympiad in Ukraine, Fourth Round (March 24, 2010)
 ---
 Let $ABCD$ be a convex quadrilateral with angles $\angle ABC$ and $\angle BCD$ not less than $120^{\circ}$ . Prove that
 $$AC + BD> AB+BC+CD$$

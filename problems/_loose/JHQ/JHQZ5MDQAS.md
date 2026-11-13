@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Estonia/train/0000.parquet#row=28
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ee-mo/2010
+    source: hf-mathnet
+    label: Estonia Estonija 2010
 ---
 For arbitrary positive integers $a, b$, denote $a @ b =\frac{a-b}{gcd(a,b)}$
 Let $n$ be a positive integer. Prove that the following conditions are equivalent:

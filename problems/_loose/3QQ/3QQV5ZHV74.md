@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Slovenia/train/0000.parquet#row=461
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: si-mo/2012
+    source: hf-mathnet
+    label: Slovenia National Math Olympiad 2012
 ---
 Let $A B$ be the longest side of the cyclic quadrilateral $A B C D$. Let the angle bisectors of $\angle D C B$ and $\angle A D C$ intersect the circumcircle of quadrilateral $A B C D$ again at points $E$ and $F$. Denote by $G$ the intersection of lines $C E$ and $D F$, and by $H$ the intersection of lines $A E$ and $B F$. Prove that lines $E F$ and $G H$ intersect at a right angle.

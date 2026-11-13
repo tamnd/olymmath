@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Slovenia/train/0000.parquet#row=458
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: si-mo/2012
+    source: hf-mathnet
+    label: Slovenia National Math Olympiad 2012
 ---
 Let $A B C$ be a right triangle with a right angle at $C$. Given points $K, L$, and $M$ on the sides $C A, A B$, and $B C$ respectively, such that the angle $\angle M L K$ is right and $|K C|=|K L|$. Prove that the angle bisectors of $\angle A K L$ and $\angle L M B$ are parallel.

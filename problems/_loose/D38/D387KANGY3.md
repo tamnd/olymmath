@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Slovenia/train/0000.parquet#row=420
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: si-mo/2012
+    source: hf-mathnet
+    label: Slovenia National Math Olympiad 2012
 ---
 Let $p$ be a polynomial of degree 2, at least one of whose coefficients is not an integer. Suppose that for every integer $n$, the number $p(n)$ is also an integer. Prove that the polynomial $q(x)=p(x)-\frac{1}{2} x(x+1)$ has only integer coefficients.

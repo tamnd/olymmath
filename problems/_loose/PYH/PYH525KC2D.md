@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: pt
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Brazil/train/0001.parquet#row=276
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: br-obm
+    source: hf-mathnet
+    label: Brazil Brazilian Mathematical Olympiad
 ---
 If $n$ is a natural number, we denote by $n!$ the product of all integers from 1 to $n$. For example: $5! = 1 \times 2 \times 3 \times 4 \times 5$ and 13! $=$ $1 \times 2 \times 3 \times 4 \times 5 \times \ldots \times 12 \times 13$. By convention, $0! = 1$. Find three different integers $a, b$, and $c$, between 0 and 9 such that the three-digit number $abc$ is equal to $a! + b! + c!$.

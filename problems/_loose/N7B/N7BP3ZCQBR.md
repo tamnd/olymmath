@@ -15,8 +15,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=105
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia Saudi Arabia Mathematical Competitions
 ---
 Let $p \ge 3$ be a prime. For $j = 1,2 ,... ,p - 1$, let $r_j$ be the remainder when the integer $\frac{j^{p-1}-1}{p}$ is divided by $p$.
 Prove that $$r_1 + 2r_2 + ... + (p - 1)r_{p-1} \equiv \frac{p+1}{2} (\mod p)$$

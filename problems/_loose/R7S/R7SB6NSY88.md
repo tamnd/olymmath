@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0001.parquet#row=28
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ro-nmo
+    source: hf-mathnet
+    label: Romania 65th Romanian Mathematical Olympiad
 ---
 Let $f:[0,1] \rightarrow \mathbb{R}$ be a differentiable function, with a continuous derivative, and let $s_{n}=\sum_{k=1}^{n} f\left(\frac{k}{n}\right)$.
 

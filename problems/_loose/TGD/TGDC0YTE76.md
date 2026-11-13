@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/North_Macedonia/train/0000.parquet#row=225
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: mk-mo
+    source: hf-mathnet
+    label: North Macedonia XV Junior Macedonian Mathematical Olympiad
 ---
 For the natural number $n$, we denote by $S(n)$ the sum of its digits. Example: for $n=2456$ we have
 

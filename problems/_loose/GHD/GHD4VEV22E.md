@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0001.parquet#row=80
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines Philippine Mathematical Olympiad
 ---
 In a tournament, 2017 teams participate. To save time, in each round, instead of a one-on-one battle, three teams (randomly chosen) participate; the game for each round is designed so that exactly one of the three teams survives in the tournament (unless of course it happens that only two teams are remaining, in which case a one-on-one battle does ensue). How many battles must there be to declare a champion?

@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Singapore/train/0000.parquet#row=52
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: sg-smo/2015
     source: hf-ai-mo-aops
     label: 2015 Singapore Junior Math Olympiad
+  - at: sg-smo/2015
+    source: hf-mathnet
+    label: Singapore Singapur 2015
 ---
 Find all positive integers $k$ such that $k^k +1$ is divisible by $30$ . Justify your answer.

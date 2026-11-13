@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/China/train/0000.parquet#row=152
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: cn-league/2006
     source: hf-ai-mo-aops
     label: 2006 China Second Round Olympiad
+  - at: cn-league
+    source: hf-mathnet
+    label: China China Mathematical Competition
 ---
 Given an integer $n\ge 2$ , define $M_0 (x_0, y_0)$ to be an intersection point of the parabola $y^2=nx-1$ and the line $y=x$ . Prove that for any positive integer $m$ , there exists an integer $k\ge 2$ such that $(x^m_0, y^m_0)$ is an intersection point of $y^2=mx-1$ and the line $y=x$ .

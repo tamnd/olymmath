@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0001.parquet#row=283
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ph-pmo
     source: hf-ai-mo-aops
     label: 23rd Philippine MO Qualifying Stage
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines 23rd Philippine Mathematical Olympiad Qualifying Stage
 ---
 A sequence $\{a_n\}$ of real numbers is defined by $a_1=1$ and for all integers $n\geq1$ , $$a_{n+1}=\dfrac{a_n\sqrt{n^2+n}}{\sqrt{n^2+n+2a_n^2}}.$$ Compute the sum of all positive integers $n<1000$ for which $a_n$ is a rational number.

@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Iran/train/0000.parquet#row=320
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ir-mo/2022
     source: hf-ai-mo-aops
     label: 2022 Iran MO (3rd Round)
+  - at: ir-mo
+    source: hf-mathnet
+    label: Iran 40th Iranian Mathematical Olympiad
 ---
 In the triangle $ABC$ , variable points $D, E, F$ are on the sides[lines] $BC, CA, AB$ respectively so the triangle $DFE$ is similar to the triangle $ABC$ in this order. Circumcircles of $BDF$ and $CDE$ intersect respectively the circumcircle of $ABC$ at $P$ and $Q$ for the second time. Prove that the circumcircle of $DPQ$ passes through a fixed point.

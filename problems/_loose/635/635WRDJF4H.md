@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Croatia/train/0001.parquet#row=2
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hr-mo
+    source: hf-mathnet
+    label: Croatia Mathematica competitions in Croatia
 ---
 Given is a triangle $ABC$ where $|AB| > |AC|$. Let $P$ be the midpoint of side $\overline{BC}$, and $S$ the point where the angle bisector of $\angle BAC$ intersects that side. The line parallel to $AS$ through point $P$ intersects lines $AB$ and $AC$ at points $X$ and $Y$, respectively. Let $Z$ be a point such that $Y$ is the midpoint of segment $\overline{XZ}$, and let lines $BY$ and $CZ$ intersect at point $D$.
 

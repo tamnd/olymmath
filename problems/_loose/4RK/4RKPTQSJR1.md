@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0000.parquet#row=245
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines 13th Philippine Mathematical Olympiad
 ---
 A tournament consists of matches between exactly three players, each, respectively, garnering 2 points, 1 point, and a zero score. The ones who obtained no score are eliminated and the rest are grouped into threes to engage again in matches, with possibly one or two players having a bye. If there are 999 players in the tournament, how many matches would have been played by the time a champion, the one who earned two points in the last match, is declared?

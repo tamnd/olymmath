@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Soviet_Union/train/0001.parquet#row=187
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ru-allrussian
+    source: hf-mathnet
+    label: Soviet Union 23rd ASU
 ---
 $ABCD$ is a convex quadrilateral. $X$ lies on the segment $AB$ with $\frac{AX}{XB} = \frac{m}{n}$. $Y$ lies on the segment $CD$ with $\frac{CY}{YD} = \frac{m}{n}$. $AY$ and $DX$ intersect at $P$, and $BY$ and $CX$ intersect at $Q$. Show that $\frac{S_{XQYP}}{S_{ABCD}} < \frac{mn}{m^2 + mn + n^2}$.

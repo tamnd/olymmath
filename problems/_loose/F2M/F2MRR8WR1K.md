@@ -28,5 +28,8 @@ unplaced:
   - at: ir-mo/2022
     source: hf-ai-mo-aops
     label: 2022 Iran MO (3rd Round)
+  - at: ir-mo
+    source: hf-mathnet
+    label: Iran 40th Iranian Mathematical Olympiad
 ---
 Find all functions $f:\mathbb{N}\to\mathbb{N}$ such that for all $x,y\in\mathbb{N}$ : $$ 0\le y+f(x)-f^{f(y)}(x)\le1 $$ that here $$ f^n(x)=\underbrace{f(f(\ldots(f}_{n}(x))\ldots) $$

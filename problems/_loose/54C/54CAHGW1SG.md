@@ -14,11 +14,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0002.parquet#row=157
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ro-nmo/2018
     source: hf-ai-mo-aops
     label: 2018 Romania National Olympiad
+  - at: ro-nmo
+    source: hf-mathnet
+    label: Romania 69th Romanian Mathematical Olympiad - Final Round
 ---
 Prove that there are infinitely many sets of four positive integers so that the sum of the squares of any three elements is a perfect square.

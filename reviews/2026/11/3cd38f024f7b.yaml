@@ -1,0 +1,8 @@
+id: 3cd38f024f7b
+kind: match
+records:
+    - 152PEHJHB6
+decision: accept
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The agent read the MathNet row Romania/train/0000.parquet#row=206 and this record again, because the first review found a difference: the row has strict inequalities and ab >= (x+z)(y+t), and the record has >= and <=; the row is the known wording and the record has the slip. The agent kept the link.'

@@ -14,12 +14,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/United_States/train/0009.parquet#row=301
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: amc10
     source: hf-ai-mo-aops
     label: 2024 AMC 10
+  - at: amc10
+    source: hf-mathnet
+    label: United States AMC 10 B
 ---
 What is the remainder when $7^{2024}+7^{2025}+7^{2026}$ is divided by $19$ ? $
 \textbf{(A) }0 \textbf{(B) }1 \textbf{(C) }7 \textbf{(D) }11 \textbf{(E) }18 $

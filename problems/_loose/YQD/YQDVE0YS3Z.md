@@ -15,8 +15,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Netherlands/train/0001.parquet#row=102
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: nl-nwo-r2
+    source: hf-mathnet
+    label: Netherlands Second Round
 ---
 We call a positive integer sunny if it consists of four digits and if, moreover, each of the two outer digits is exactly 1 greater than the digit next to it. The numbers 8723 and 1001 are, for example, sunny, but 1234 and 87245 are not.
 

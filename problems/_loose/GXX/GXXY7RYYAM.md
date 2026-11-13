@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0003.parquet#row=91
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ro-nmo/2023
     source: hf-ai-mo-aops
     label: 2023 Romania National Olympiad
+  - at: ro-nmo
+    source: hf-mathnet
+    label: Romania THE 73rd ROMANIAN MATHEMATICAL OLYMPIAD - FINAL ROUND
 ---
 Let $(G, \cdot)$ a finite group with order $n \in \mathbb{N}^{*},$ where $n \geq 2.$ We will say that group $(G, \cdot)$ is arrangeable if there is an ordering of its elements, such that
 

@@ -14,11 +14,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Belarus/train/0001.parquet#row=271
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: by-mo/2022
     source: hf-ai-mo-aops
     label: 2022 Belarusian National Olympiad
+  - at: by-mo/2022
+    source: hf-mathnet
+    label: Belarus Belarus2022
 ---
 Prove the inequality $$ \frac{1}{1!}+\frac{1}{2!}+\frac{1}{3!}+\ldots+\frac{1}{2022!}>\frac{1^2}{2!}+\frac{2^2}{3!}+\frac{3^2}{4!}+\ldots+\frac{2022^2}{2023!} $$ .

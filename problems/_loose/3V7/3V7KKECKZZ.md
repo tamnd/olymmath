@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Croatia/train/0001.parquet#row=192
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hr-mo/2018
+    source: hf-mathnet
+    label: Croatia Croatia_2018
 ---
 Branko writes down a sequence of quadratic polynomials with real coefficients. In each step, after the previously written polynomial $a x^{2}+b x+c$, he writes down the polynomial $c x^{2}+b x+a$ or the polynomial $a(x+d)^{2}+b(x+d)+c$ for some real number $d$.
 

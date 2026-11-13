@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Estonia/train/0000.parquet#row=209
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ee-mo
+    source: hf-mathnet
+    label: Estonia Estonian Math Competitions
 ---
 Let $n$ be a positive integer such that there exists a positive integer that is less than $\sqrt{n}$ and does not divide $n$. Let $(a_1, . . . , a_n)$ be an arbitrary permutation of $1, . . . , n$. Let $a_{i1} < . . . < a_{ik}$ be its maximal increasing subsequence and let $a_{j1} > . . . > a_{jl}$ be its maximal decreasing subsequence.
 Prove that tuples $(a_{i1}, . . . , a_{ik})$ and $(a_{j1}, . . . , a_{jl} )$ altogether contain at least one number that does not divide $n$.

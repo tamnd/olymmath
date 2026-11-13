@@ -30,6 +30,14 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S4
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/United_States/train/0004.parquet#row=171
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
@@ -39,5 +47,8 @@ unplaced:
   - at: hmmt/2011
     source: hf-numina-olympiads
     label: HMMT February
+  - at: hmmt
+    source: hf-mathnet
+    label: United States Harvard-MIT Mathematics Tournament
 ---
 Let $ABCD$ be a cyclic quadrilateral, and suppose that $BC = CD = 2$ . Let $I$ be the incenter of triangle $ABD$ . If $AI = 2$ as well, find the minimum value of the length of diagonal $BD$ .

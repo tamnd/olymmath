@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0001.parquet#row=290
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ph-pmo
     source: hf-ai-mo-aops
     label: 23rd Philippine MO Qualifying Stage
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines 23rd Philippine Mathematical Olympiad Qualifying Stage
 ---
 In rolling three fair twelve-sided dice simultaneously, what is the probability that the resulting numbers can be arranged to form a geometric sequence? $\text{(a) }\dfrac{1}{72} \text{(b) }\dfrac{5}{288} \text{(c) }\dfrac{1}{48} \text{(d) }\dfrac{7}{288}$

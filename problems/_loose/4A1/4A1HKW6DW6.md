@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0003.parquet#row=77
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ro-nmo/2023
     source: hf-ai-mo-aops
     label: 2023 Romania National Olympiad
+  - at: ro-nmo
+    source: hf-mathnet
+    label: Romania THE 73rd ROMANIAN MATHEMATICAL OLYMPIAD - FINAL ROUND
 ---
 Solve the following equation for real values of $x$ :
 

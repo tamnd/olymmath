@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Hong_Kong/train/0000.parquet#row=440
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: hk-pc/2023
     source: hf-ai-mo-aops
     label: 2023 Hong Kong Team Selection Test
+  - at: hk-pc
+    source: hf-mathnet
+    label: Hong Kong IMO HK TST
 ---
 Giiven $\Delta ABC$ , $\angle CAB=75^{\circ}$ and $\angle ACB=45^{\circ}$ . $BC$ is extended to $T$ so that $BC=CT$ . Let $M$ be the midpoint of the segment $AT$ . Find $\angle BMC$ .

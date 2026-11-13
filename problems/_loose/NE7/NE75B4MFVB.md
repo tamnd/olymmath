@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/China/train/0000.parquet#row=305
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: cn-mo
+    source: hf-mathnet
+    label: China Chinese Mathematical Olympiad
 ---
 Given an integer $n \geqslant 3$, real numbers $a_{1}, a_{2}, \cdots, a_{n}$ satisfy $\min _{1 \leqslant i<j \leqslant n} \mid a_{i}-$ $a_{j} \mid=1$. Find the minimum value of $\sum_{k=1}^{n}\left|a_{k}\right|^{3}$.

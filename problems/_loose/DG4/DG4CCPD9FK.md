@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Vietnam/train/0000.parquet#row=253
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: vn-vmo/2024
     source: hf-ai-mo-aops
     label: 2024 Vietnam National Olympiad
+  - at: vn-vmo
+    source: hf-mathnet
+    label: Vietnam Vietnamese MO
 ---
 Let $ABC$ be an acute triangle with circumcenter $O$ . Let $A'$ be the center of the circle passing through $C$ and tangent to $AB$ at $A$ , let $B'$ be the center of the circle passing through $A$ and tangent to $BC$ at $B$ , let $C'$ be the center of the circle passing through $B$ and tangent to $CA$ at $C$ .
 

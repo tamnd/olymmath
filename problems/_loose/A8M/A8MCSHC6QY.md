@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: es
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Spain/train/0001.parquet#row=172
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: es-ome
+    source: hf-mathnet
+    label: Spain L Olimpiada Matemática Española
 ---
 Find the integer solutions of the equation
 

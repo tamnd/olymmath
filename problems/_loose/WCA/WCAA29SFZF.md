@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Croatia/train/0000.parquet#row=64
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hr-mo/2011
+    source: hf-mathnet
+    label: Croatia CroatianCompetitions2011
 ---
 Let $a$ and $b$ be real numbers greater than 1 such that the numbers $\log _{b} a, \log _{2 b}(2 a)$ and $\log _{4 b}(4 a)$, in that order, are consecutive terms of an arithmetic sequence.
 

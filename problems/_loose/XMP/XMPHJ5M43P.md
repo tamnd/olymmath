@@ -28,5 +28,8 @@ unplaced:
   - at: cn-league/2006
     source: hf-ai-mo-aops
     label: 2006 China Second Round Olympiad
+  - at: cn-league
+    source: hf-mathnet
+    label: China China Mathematical Competition
 ---
 Let complex number $z = (a+\cos\theta)+(2a-\sin \theta)i$ . Find the range of real number $a$ if $|z|\ge 2$ for any $\theta\in \mathbb{R}$ .

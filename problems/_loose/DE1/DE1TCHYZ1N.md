@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=298
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc/2015
+    source: hf-mathnet
+    label: Saudi Arabia SAMC 2015
 ---
 Given $2015$ subsets $A_1, A_2,...,A_{2015}$ of the set $\{1, 2,..., 1000\}$ such that $|A_i| \ge 2$ for every $i \ge 1$ and $|A_i \cap A_j| \ge 1$ for every $1 \le i < j \le 2015$. Prove that $k = 3$ is the smallest number of colors such that we can always color the elements of the set $\{1, 2,..., 1000\}$ by $k$ colors with the property that the subset $A_i$ has at least two elements of different colors for every $i \ge 1$.
 

@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Iran/train/0000.parquet#row=299
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ir-mo/2021
     source: hf-ai-mo-aops
     label: 2021 Iran MO (3rd Round)
+  - at: ir-mo
+    source: hf-mathnet
+    label: Iran Iranian Mathematical Olympiad
 ---
 Given triangle $ABC$ variable points $X$ and $Y$ are chosen on segments $AB$ and $AC$ , respectively. Point $Z$ on line $BC$ is chosen such that $ZX=ZY$ . The circumcircle of $XYZ$ cuts the line $BC$ for the second time at $T$ . Point $P$ is given on line $XY$ such that $\angle PTZ = 90^ \circ$ . Point $Q$ is on the same side of line $XY$ with $A$ furthermore $\angle QXY = \angle ACP$ and $\angle QYX = \angle ABP$ . Prove that the circumcircle of triangle $QXY$ passes through a fixed point (as $X$ and $Y$ vary).

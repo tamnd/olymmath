@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Singapore/train/0000.parquet#row=88
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: sg-smo/2018
     source: hf-ai-mo-aops
     label: 2018 Singapore MO Open
+  - at: sg-smo
+    source: hf-mathnet
+    label: Singapore Singapore Mathematical Olympiad
 ---
 Let $n$ be a positive integer. Show that there exists an integer $m$ such that
 $$

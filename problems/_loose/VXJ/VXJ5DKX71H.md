@@ -30,6 +30,14 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S4
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/United_States/train/0004.parquet#row=212
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
@@ -39,5 +47,8 @@ unplaced:
   - at: hmmt/2011
     source: hf-numina-olympiads
     label: HMMT February
+  - at: hmmt
+    source: hf-mathnet
+    label: United States Harvard-MIT Mathematics Tournament
 ---
 Let $\omega_1$ and $\omega_2$ be two circles that intersect at points $A$ and $B$ . Let line $l$ be tangent to $\omega_1$ at $P$ and to $\omega_2$ at $Q$ such that $A$ is closer to $PQ$ than $B$ . Let points $R$ and $S$ lie along rays $PA$ and $QA$ , respectively, so that $PQ = AR = AS$ and $R$ and $S$ are on opposite sides of $A$ as $P$ and $Q$ . Let $O$ be the circumcenter of triangle $ASR$ , and $C$ and $D$ be the midpoints of major arcs $AP$ and $AQ$ , respectively. If $\angle APQ$ is $45$ degrees and $\angle AQP$ is $30$ degrees, determine $\angle COD$ in degrees.

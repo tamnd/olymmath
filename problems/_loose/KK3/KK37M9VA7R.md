@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0000.parquet#row=84
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines 18th PMO Area Stage
 ---
 The points $(3, m),\left(x_{1}, y_{1}\right)$ and $\left(x_{2}, y_{2}\right)$ are on the graph of the function $f(x)=\log _{a} x$. If $y_{1}+y_{2}=2 m$, find the value of $x_{1} x_{2}$.

@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Estonia/train/0000.parquet#row=27
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ee-mo/2010
+    source: hf-mathnet
+    label: Estonia Estonija 2010
 ---
 Circle $c$ passes through vertices $A$ and $B$ of an isosceles triangle $ABC$, whereby line $AC$ is tangent to it. Prove that circle $c$ passes through the circumcenter or the incenter or the orthocenter of triangle $ABC$.

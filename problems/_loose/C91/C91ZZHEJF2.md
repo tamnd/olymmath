@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Slovenia/train/0000.parquet#row=280
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: si-mo/2010
     source: hf-ai-mo-aops
     label: 2010 Slovenia National Olympiad
+  - at: si-mo
+    source: hf-mathnet
+    label: Slovenia National Math Olympiad
 ---
 For a real number $t$ and positive real numbers $a,b$ we have
 $$2a^2-3abt+b^2=2a^2+abt-b^2=0$$

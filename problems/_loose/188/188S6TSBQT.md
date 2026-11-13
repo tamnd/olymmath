@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=287
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc/2015
+    source: hf-mathnet
+    label: Saudi Arabia SAMC 2015
 ---
 Let $ABC$ be a triangle and $D$ a point on the side $BC$. The tangent line to the circumcircle of the triangle $ABD$ at the point $D$ intersects the side $AC$ at $E$. The tangent line to the circumcircle of the triangle $ACD$ at the the point $D$ intersects the side $AB$ at $F$. Prove that the point $A$ and the circumcenters of the triangles $ABC$ and $DEF$ are collinear.
 

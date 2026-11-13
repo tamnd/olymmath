@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Hong_Kong/train/0000.parquet#row=11
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: hk-pc/2008
     source: hf-ai-mo-aops
     label: 2008 Hong Kong TST
+  - at: hk-pc
+    source: hf-mathnet
+    label: Hong Kong 1997-2023 IMO HK TST
 ---
 Two circles $ C_1,C_2$ with different radii are given in the plane, they touch each other externally at $ T$ . Consider any points $ A\in C_1$ and $ B\in C_2$ , both different from $ T$ , such that $ \angle ATB = 90^{\circ}$ .
 

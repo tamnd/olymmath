@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ukraine/train/0000.parquet#row=376
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ua-umo
+    source: hf-mathnet
+    label: Ukraine 55rd Ukrainian National Mathematical Olympiad - Third Round (Second Tour)
 ---
 Equal segments $A B$ and $C D$ intersect at point $O$ and are divided by it in the ratio $A O: O B=C O: O D=1: 2$. Lines $A D$ and $B C$ intersect at point $M$.
 

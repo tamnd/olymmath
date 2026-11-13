@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Singapore/train/0000.parquet#row=103
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: sg-smo/2023
     source: hf-ai-mo-aops
     label: 2023 Sinapore MO Open
+  - at: sg-smo
+    source: hf-mathnet
+    label: Singapore Singapore Mathematical Olympiad (SMO)
 ---
 In a scalene triangle $ABC$ with centroid $G$ and circumcircle $\omega$ centred at $O$ , the extension of $AG$ meets $\omega$ at $M$ ; lines $AB$ and $CM$ intersect at $P$ ; and lines $AC$ and $BM$ intersect at $Q$ . Suppose the circumcentre $S$ of the triangle $APQ$ lies on $\omega$ and $A, O, S$ are collinear. Prove that $\angle AGO = 90^{o}$ .

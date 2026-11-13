@@ -21,11 +21,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Ibero-American_Mathematical_Olympiad/train/0000.parquet#row=65
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ibero/1997
     source: hf-numina-olympiads
     label: IberoAmerican_MO
+  - at: ibero
+    source: hf-mathnet
+    label: Ibero-American Mathematical Olympiad Iberoamerican Mathematical Olympiad
 ---
 Let $o(n)$ be the number of $2 n$-tuples $\left(a_{1}, a_{2}, \ldots, a_{n}, b_{1}, b_{2}, \ldots, b_{n}\right)$ such that each $a_{i}, b_{j}=0$ or 1 and $a_{1} b_{1}+a_{2} b_{2}+\ldots+a_{n} b_{n}$ is odd. Similarly, let e(n) be the number for which the sum is even. Show that $o(n) / e(n)=\left(2^{n}-1\right) /\left(2^{n}+1\right)$.

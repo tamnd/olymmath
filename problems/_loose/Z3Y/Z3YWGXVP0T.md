@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/China/train/0001.parquet#row=209
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: cn-league
+    source: hf-mathnet
+    label: China China Mathematical Competition
 ---
 Let the function $f(x)$ have the domain $D=(-\infty, 0) \bigcup(0,+\infty)$, and for any $x \in D$, it holds that $f(x)=\frac{f(1) \cdot x^{2}+f(2) \cdot x-1}{x}$, then the sum of all zeros of $f(x)$ is $ $ .

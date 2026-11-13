@@ -1,0 +1,9 @@
+id: 4db86acab8da
+kind: pair
+records:
+    - YZT3QWAYFH
+    - M0YQ4FJKKD
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import joined the MathNet row all/train/0015.parquet#row=493 into this record, which holds the MathNet row Spain/train/0001.parquet#row=115, but they are two problems: the row asks for a cubic whose roots are the squares of the roots, the record proves the power sums of the roots are equal. The row added no statement, so the problem was lost. The row is now in a new loose record.'

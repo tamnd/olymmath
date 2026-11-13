@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=429
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia SAUDI ARABIAN MATHEMATICAL COMPETITIONS
 ---
 Let $BC$ be a chord of a circle $(O)$ such that $BC$ is not a diameter. Let $AE$ be the diameter perpendicular to $BC$ such that $A$ belongs to the larger arc $BC$ of $(O)$. Let $D$ be a point on the larger arc $BC$ of $(O)$ which is different from $A$. Suppose that $AD$ intersects $BC$ at $S$ and $DE$ intersects $BC$ at $T$. Let $F$ be the midpoint of $ST$ and $I$ be the second intersection point of the circle $(ODF)$ with the line $BC$.
 1. Let the line passing through $I$ and parallel to $OD$ intersect $AD$ and $DE$ at $M$ and $N$, respectively. Find the maximum value of the area of the triangle $MDN$ when $D$ moves on the larger arc $BC$ of $(O)$ (such that $D \ne A$).

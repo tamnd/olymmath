@@ -15,8 +15,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: pt
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Brazil/train/0002.parquet#row=16
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: br-obm
+    source: hf-mathnet
+    label: Brazil Brazilian Mathematical Olympiad
 ---
 Let $a$ and $b$ be real numbers such that there exist distinct real numbers $m$, $n$, and $p$, satisfying the equalities below:
 

@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=67
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc
+    source: hf-mathnet
+    label: Saudi Arabia Saudi Arabia Mathematical Competitions
 ---
 In triangle $ABC$, let $I_a$ $,I_b$, $I_c$ be the centers of the excircles tangent to sides $BC$, $CA$, $AB$, respectively. Let $P$ and $Q$ be the tangency points of the excircle of center $I_a$ with lines $AB$ and $AC$. Line $PQ$ intersects $I_aB$ and $I_aC$ at $D$ and $E$. Let $A_1$ be the intersection of $DC$ and $BE$. In an analogous way we define points $B_1$ and $C_1$. Prove that $AA_1$, $BB_1$ , $CC_1$ are concurrent.

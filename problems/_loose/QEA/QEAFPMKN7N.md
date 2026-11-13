@@ -15,8 +15,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/United_States/train/0005.parquet#row=396
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hmmt
+    source: hf-mathnet
+    label: United States HMMT February
 ---
 Let $S=\{1,2,4,8,16,32,64,128,256\}$. A subset $P$ of $S$ is called squarely if it is nonempty and the sum of its elements is a perfect square. A squarely set $Q$ is called super squarely if it is not a proper subset of any squarely set. Find the number of super squarely sets.
 (A set $A$ is said to be a proper subset of a set $B$ if $A$ is a subset of $B$ and $A \neq B$.)

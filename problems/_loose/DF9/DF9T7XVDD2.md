@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0001.parquet#row=221
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ro-nmo
+    source: hf-mathnet
+    label: Romania 66th ROMANIAN MATHEMATICAL OLYMPIAD
 ---
 Let $\left(x_{n}\right)_{n \geq 1}$ be a sequence of real numbers in the interval $[1, \infty)$. Suppose that the sequence $\left(y_{n}^{(k)}\right)_{n \geq 1}$, defined by $y_{n}^{(k)}=\left[x_{n}^{k}\right], n \geq 1$, is convergent for any $k \in \overline{\mathbb{N}}^{*}$. Prove that the sequence $\left(x_{n}\right)_{n \geq 1}$ is convergent. (By $[a]$ we denote the integer part of the real number $a$.)

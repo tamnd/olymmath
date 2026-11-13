@@ -15,8 +15,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Philippines/train/0001.parquet#row=200
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ph-pmo
+    source: hf-mathnet
+    label: Philippines Philippine Mathematical Olympiad, National Orals
 ---
 (Average) For the upcoming semester, 100 math majors can take up to two out of five math electives. Suppose 22 will not take any math elective in the coming semester. Also,
 - 7 will take Algebraic Number Theory and Galois Theory

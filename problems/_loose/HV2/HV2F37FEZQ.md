@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/United_States/train/0005.parquet#row=110
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: us-tst/2013
     source: hf-ai-mo-aops
     label: 2013 USA Team Selection Test
+  - at: us-tst
+    source: hf-mathnet
+    label: United States IMO Team Selection Test
 ---
 Two incongruent triangles $ABC$ and $XYZ$ are called a pair of *pals* if they satisfy the following conditions:
 (a) the two triangles have the same area;

@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/China/train/0000.parquet#row=17
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: cn-league/2002
     source: hf-ai-mo-aops
     label: 2002 National High School Mathematics League
+  - at: cn-league
+    source: hf-mathnet
+    label: China China Mathematical Competition
 ---
 Function $f(x)=\frac{x}{1-2^x}-\frac{x}{2}$ is $\text{(A)}$ an even function, not an odd function. $\text{(B)}$ an odd function, not an even function. $\text{(C)}$ an even function, also an odd function. $\text{(D)}$ neither an even function, nor an odd function.

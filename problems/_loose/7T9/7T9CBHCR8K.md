@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0002.parquet#row=90
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: danube/2016
     source: hf-ai-mo-aops
     label: 2016 Danube Mathematical Olympiad
+  - at: danube
+    source: hf-mathnet
+    label: Romania THE DANUBE MATHEMATICAL COMPETITION
 ---
 Determine all positive integers $n>1$ such that for any divisor $d$ of $n,$ the numbers $d^2-d+1$ and $d^2+d+1$ are prime.
 

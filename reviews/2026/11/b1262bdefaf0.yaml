@@ -1,0 +1,8 @@
+id: b1262bdefaf0
+kind: match
+records:
+    - KBRVMF0HKJ
+decision: reject
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Belarus/train/0000.parquet#row=244 to this record, but the row is not a clear copy: row recurrence lost the nested indices: a_n = a_{n-1}+a_{n+1} instead of a_n = a_{a_{n-1}}+a_{a_{n+1}}. The agent took the row out of the record. The agent listed the row in registers/loose-removed.tsv.'

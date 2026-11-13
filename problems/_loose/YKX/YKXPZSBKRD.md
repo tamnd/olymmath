@@ -15,5 +15,9 @@ statements:
     kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ee-mo
+    source: hf-mathnet
+    label: Estonia Selected Problems from the Final Round of National Olympiad
 ---
 Find all four-element sets of positive integers $\{w,x,y,z\}$ such that $w^x+w^y=w^z$.

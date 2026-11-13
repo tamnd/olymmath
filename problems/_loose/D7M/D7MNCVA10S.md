@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Estonia/train/0000.parquet#row=100
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ee-mo
+    source: hf-mathnet
+    label: Estonia Estonian Math Competitions
 ---
 Let $ABC$ be a triangle with median AK. Let $O$ be the circumcenter of the triangle $ABK$.
 a) Prove that if $O$ lies on a midline of the triangle $ABC$, but does not coincide with its endpoints, then $ABC$ is a right triangle.

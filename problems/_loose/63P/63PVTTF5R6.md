@@ -14,11 +14,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Russia/train/0000.parquet#row=368
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ru-allrussian/2025
     source: hf-ai-mo-aops
     label: 2025 All-Russian Olympiad
+  - at: ru-allrussian
+    source: hf-mathnet
+    label: Russia LI Всероссийская математическая олимпиада школьников
 ---
 A right prism $ABCA_1B_1C_1$ is given. It is known that triangles $A_1BC$, $AB_1C$, $ABC_1$, and $ABC$ are all acute. Prove that the orthocenters of these triangles, together with the centroid of triangle $ABC$, lie on the same sphere.

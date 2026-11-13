@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Slovenia/train/0001.parquet#row=51
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: si-mo
+    source: hf-mathnet
+    label: Slovenia National Math Olympiad in Slovenia
 ---
 Let $x_{1}$ and $x_{2}$ be the distinct roots of the polynomial $p(x)=x^{2}+a x+b, x_{1}^{2}-\frac{1}{2}$ and $x_{2}^{2}-\frac{1}{2}$ are the roots of the polynomial $q(x)=x^{2}+\left(a^{2}-\frac{1}{2}\right) x+b^{2}-\frac{1}{2}$. Determine $a$ and $b$.

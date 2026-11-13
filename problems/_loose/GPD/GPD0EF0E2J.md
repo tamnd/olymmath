@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Saudi_Arabia/train/0000.parquet#row=304
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: sa-samc/2015
+    source: hf-mathnet
+    label: Saudi Arabia SAMC 2015
 ---
 Let $(a_n)_{n\ge0}$ be a sequence of positive integers such that $a^2_n$ divides $a_{n-1}a_{n+1}$, for all $n \ge 1$. Prove that if there exists an integer $k \ge 2$ such that $a_k$ and $a_1$ are relatively prime, then $a_1$ divides $a_0$.
 

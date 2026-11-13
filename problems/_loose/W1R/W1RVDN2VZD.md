@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Iran/train/0000.parquet#row=213
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ir-mo/2019
     source: hf-ai-mo-aops
     label: 2019 Iran MO (3rd Round)
+  - at: ir-mo
+    source: hf-mathnet
+    label: Iran 37th Iranian Mathematical Olympiad
 ---
 Given a cyclic quadrilateral $ABCD$ . There is a point $P$ on side $BC$ such that $\angle PAB=\angle PDC=90^\circ$ . The medians of vertexes $A$ and $D$ in triangles $PAB$ and $PDC$ meet at $K$ and the bisectors of $\angle PAB$ and $\angle PDC$ meet at $L$ . Prove that $KL\perp BC$ .

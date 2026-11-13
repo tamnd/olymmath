@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/New_Zealand/train/0000.parquet#row=25
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: nz-nzmo/2021
     source: hf-ai-mo-aops
     label: 2021 New Zealand MO
+  - at: nz-nzmo
+    source: hf-mathnet
+    label: New Zealand NZMO Round Two
 ---
 Let $ABCD$ be a convex quadrilateral such that $AB + BC = 2021$ and $AD = CD$ . We are also given that $\angle ABC = \angle CDA = 90^o$ . Determine the length of the diagonal $BD$ .

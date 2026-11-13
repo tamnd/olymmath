@@ -13,8 +13,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Estonia/train/0000.parquet#row=102
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ee-mo
+    source: hf-mathnet
+    label: Estonia Estonian Math Competitions
 ---
 For a given positive integer $n$ one has to choose positive integers $a_0, a_1,...$ so that the following conditions hold:
 (1) $a_i = a_{i+n}$ for any $i$,

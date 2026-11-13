@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/China/train/0000.parquet#row=254
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: cn-wmo/2008
     source: hf-ai-mo-aops
     label: 2008 China Western Mathematical Olympiad
+  - at: cn-wmo
+    source: hf-mathnet
+    label: China China Western Mathematical Olympiad
 ---
 Given an integer $ m\geq 2$ , and two real numbers $ a,b$ with $ a > 0$ and $ b\neq 0$ . The sequence $ \{x_n\}$ is such that $ x_1 = b$ and $ x_{n + 1} = ax^{m}_{n} + b$ , $ n = 1,2,...$ . Prove that
 (1)when $ b < 0$ and m is even, the sequence is bounded if and only if $ ab^{m - 1}\geq - 2$ ;

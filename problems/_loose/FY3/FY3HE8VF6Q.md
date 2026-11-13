@@ -13,7 +13,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Japan/train/0000.parquet#row=160
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: jp-jmo
+    source: hf-mathnet
+    label: Japan Japan Mathematical Olympiad
 ---
 Determine all functions $f : \mathbb R \to \mathbb R$ such that $$f(f(x)- f(y)) = f(f(x)) - 2x^2f(y) + f\left(y^2\right),$$ for all reals $x, y$.

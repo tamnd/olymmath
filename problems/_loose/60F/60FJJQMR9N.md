@@ -15,8 +15,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Croatia/train/0001.parquet#row=97
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: hr-mo
+    source: hf-mathnet
+    label: Croatia Mathematical competitions in Croatia
 ---
 Gargamel has caught $N$ Smurfs and distributed them into three bags. When Papa Smurf was moved from the first bag to the second, Grouchy from the second to the third, and Smurfette from the third to the first, the average height of the Smurfs in the first bag decreased by 8 millimeters, while the average heights of the Smurfs in the second and third bags increased by 5 millimeters and 8 millimeters, respectively.
 

@@ -1,0 +1,9 @@
+id: 9c2f7a88d2b7
+kind: pair
+records:
+    - 70FNGNA91A
+    - hu-komal/2021/b5201
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Romania/train/0003.parquet#row=456 to this record, but they are two problems: row asks all integers n >= 2, record only composite n. The agent removed the row from the record, and the row is now in a new loose record.'

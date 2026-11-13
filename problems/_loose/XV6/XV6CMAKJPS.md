@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: de
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Switzerland/train/0000.parquet#row=372
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ch-smo/2018
     source: hf-ai-mo-aops
     label: 2018 Switzerland - Final Round
+  - at: ch-smo
+    source: hf-mathnet
+    label: Switzerland SMO - Finalrunde
 ---
 Let $a,b,c,d,e$ be positive real numbers. Find the largest possible value for the expression $$ \frac{ab+bc+cd+de}{2a^2+b^2+2c^2+d^2+2e^2}. $$

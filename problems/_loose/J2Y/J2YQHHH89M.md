@@ -22,11 +22,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/United_States/train/0007.parquet#row=160
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: hmnt/2019
     source: hf-ai-mo-aops
     label: 2019 HMNT
+  - at: hmnt/2019
+    source: hf-mathnet
+    label: United States HMMT November 2019
 ---
 Compute the sum of all positive real numbers $x \le 5$ satisfying $$ x =\frac{ \lceil x^2 \rceil + \lceil x \rceil \cdot \lfloor x \rfloor}{ \lceil x\rceil + \lfloor x \rfloor} $$

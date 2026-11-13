@@ -15,8 +15,20 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0000.parquet#row=142
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ro-nmo
+    source: hf-mathnet
+    label: Romania Romanian Mathematical Olympiad
 ---
 Let $ f: [0,1]\rightarrow \mathbb{R}$ a derivable function such that $ f(0)=f(1)$, $ \int_0^1f(x)dx=0$ and $ f^{\prime}(x) \neq 1\ ,\ (\forall)x\in [0,1]$.
 

@@ -1,0 +1,9 @@
+id: 01b6247c30d7
+kind: pair
+records:
+    - RQ89VQ5QVS
+    - br-obm/2006/p3
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Vietnam/train/0000.parquet#row=183 to this record, but they are two problems: the row''s equation has f(xf(y) - f(x)), the record''s has f(xf(y) + f(x)). The agent removed the row from the record, and the row is now in a new loose record.'

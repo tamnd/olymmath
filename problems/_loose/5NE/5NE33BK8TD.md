@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0002.parquet#row=237
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: ro-nmo/2018
     source: hf-ai-mo-aops
     label: 2018 Romania National Olympiad
+  - at: ro-nmo
+    source: hf-mathnet
+    label: Romania 69th Romanian Mathematical Olympiad - Final Round
 ---
 Let $f,g : \mathbb{R} \to \mathbb{R}$ be two quadratics such that, for any real number $r,$ if $f(r)$ is an integer, then $g(r)$ is also an integer.
 Prove that there are two integers $m$ and $n$ such that $$ g(x)=mf(x)+n, \: \forall x \in \mathbb{R} $$

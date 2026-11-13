@@ -15,7 +15,19 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S2
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Romania/train/0001.parquet#row=69
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
+unplaced:
+  - at: ro-nmo
+    source: hf-mathnet
+    label: Romania 65th Romanian Mathematical Olympiad
 ---
 Determine the natural numbers $a$ for which there exist exactly 2014 natural numbers $b$ that satisfy the relation $2 \leq \frac{a}{b} \leq 5$.

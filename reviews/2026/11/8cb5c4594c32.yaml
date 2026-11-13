@@ -1,0 +1,9 @@
+id: 8cb5c4594c32
+kind: pair
+records:
+    - 6TV9WVZH5C
+    - isl/2023/c2
+decision: different
+by: agent
+date: "2026-11-14"
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Greece/train/0000.parquet#row=237 to this record, but they are two problems: row bounds terms by 2^k for general k, record by 2^2023. The agent removed the row from the record, and the row is now in a new loose record.'

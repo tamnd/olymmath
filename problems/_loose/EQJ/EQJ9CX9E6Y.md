@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Taiwan/train/0001.parquet#row=225
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: tw-tst/2024
     source: hf-ai-mo-aops
     label: 2024 Taiwan Mathematics Olympiad
+  - at: tw-tst
+    source: hf-mathnet
+    label: Taiwan Taiwan Mathematical Olympiad
 ---
 Suppose $O$ is the circumcenter of $\Delta ABC$ , and $E, F$ are points on segments $CA$ and $AB$ respectively with $E, F \neq A$ . Let $P$ be a point such that $PB = PF$ and $PC = PE$ .
 Let $OP$ intersect $CA$ and $AB$ at points $Q$ and $R$ respectively. Let the line passing through $P$ and perpendicular to $EF$ intersect $CA$ and $AB$ at points $S$ and $T$ respectively. Prove that points $Q, R, S$ , and $T$ are concyclic.

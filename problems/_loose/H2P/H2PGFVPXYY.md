@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: en
+    source: hf-mathnet
+    url: https://huggingface.co/datasets/ShadenA/MathNet
+    capture: hf-mathnet/Austria/train/0000.parquet#row=97
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: at-oemo-beg/2015
     source: hf-ai-mo-aops
     label: 2015 Austria Beginners' Competition
+  - at: at-oemo
+    source: hf-mathnet
+    label: Austria Austrian Mathematical Olympiad
 ---
 Let $k_1$ and $k_2$ be internally tangent circles with common point $X$ . Let $P$ be a point lying neither on one of the two circles nor on the line through the two centers. Let $N_1$ be the point on $k_1$ closest to $P$ and $F_1$ the point on $k_1$ that is farthest from $P$ . Analogously, let $N_2$ be the point on $k_2$ closest to $P$ and $F_2$ the point on $k_2$ that is farthest from $P$ .
 

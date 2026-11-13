@@ -1533,12 +1533,15 @@
   origin: H1
   url: https://www.rsme.es/olimpiada-matematica-espanola/
   access: pdf
+  terms: "The site of the RSME (read on 2026-11-13) shows only the line Copyright © 2025 RSME. It gives no licence and no limit on use, and its legal notice is about cookies only. Agent decision, not a person's review: Z2, the spec default for competition statements, so the content holds the statement of each problem with a link to the file."
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
+  size: One PDF for each final round from 2008 to 2025, with the six problems and their solutions
   wave: 1
-  state: planned
+  state: active
+  notes: "The page https://rsme.es/olimpiada-matematica-espanola/problemas-propuestos-y-resultados/ lists the files. The files of 2008 to 2022 are sol2008.pdf to sol2022.pdf under /wp-content/uploads/2022/03 or 2022/04, the files of 2023 and 2024 are Problemas-2023.pdf and Problemas-2024.pdf under /wp-content/uploads/2025/01, and the file of 2025 is LXIOME_fase-nacional_26.pdf under /wp-content/uploads/2025/11. Each file numbers the problems from 1 to 6 through the two sessions. The robots.txt of rsme.es blocks only DotBot (checked on 2026-11-13)."
 
 - id: spm-opm
   name: Olimpíadas Portuguesas de Matemática

@@ -1,9 +1,9 @@
 id: 67a7e2a0fe4e
 kind: pair
 records:
-    - TNYPKWBHQA
+    - nordic/2024/p3
     - imo/2017/p2
 decision: different
 by: agent
 date: "2026-11-14"
-note: 'Agent decision, not a person''s review. The import linked the MathNet row Nordic_Mathematical_Olympiad/train/0000.parquet#row=1 to this record, but they are two problems: different functional equations. The agent removed the row from the record, and the row is now in a new loose record.'
+note: 'Agent decision, not a person''s review. The import linked the MathNet row Nordic_Mathematical_Olympiad/train/0000.parquet#row=1 to this record, but they are two problems: different functional equations. The agent removed the row from the record, and the row is now a statement of nordic/2024/p3, which has the same text.'

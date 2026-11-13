@@ -1,9 +1,9 @@
 id: 093e97b4d392
 kind: pair
 records:
-    - DFZB1R0QJQ
+    - jbmo-sl/2005/a3
     - 5SEMA33FAD
 decision: different
 by: agent
 date: "2026-11-14"
-note: 'Agent decision, not a person''s review. The import linked the MathNet row JBMO/train/0000.parquet#row=121 to this record, but they are two problems: the row asks for the maximum area of a triangle with sides a, b, c, the record for the maximum of a+b+c. The agent removed the row from the record, and the row is now in a new loose record.'
+note: 'Agent decision, not a person''s review. The import linked the MathNet row JBMO/train/0000.parquet#row=121 to this record, but they are two problems: the row asks for the maximum area of a triangle with sides a, b, c, the record for the maximum of a+b+c. The agent removed the row from the record, and the row is now a statement of jbmo-sl/2005/a3, which has the same text.'

@@ -1,0 +1,21 @@
+---
+tag: 8V0W5M0SAE
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=179010
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Let $A$ be a square matrix of order $n$ that satisfies the relation $A^{3}=A+I_{n}$. Show that $\operatorname{det} A>0$.
+
+(Mathematical Gazette)

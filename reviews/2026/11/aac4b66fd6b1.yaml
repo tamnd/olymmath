@@ -1,0 +1,9 @@
+id: aac4b66fd6b1
+kind: pair
+records:
+    - 1X7DN3YDFG
+    - in-rmo/2016/c4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 180519 of NuminaMath 1.5 to this record, but they are two problems: the row says each 20 countries share at least one common language, the record says exactly one. The project only links the texts of this competition, so the import adds no row to it, and the problem was lost. Row 180519 is now in its own loose record.'

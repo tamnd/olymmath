@@ -1,0 +1,9 @@
+id: 27fda7c009b9
+kind: pair
+records:
+    - 1GWT6AANHS
+    - ca-cmo/2017/p1
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 189329 of NuminaMath 1.5 to this record, but they are two problems: the row gives the sum of squares equal to 2 and asks to compute another sum, the record asks to prove the sum of squares is greater than 2 for non-negative reals. The project only links the texts of this competition, so the import adds no row to it, and the problem was lost. Row 189329 is now in its own loose record.'

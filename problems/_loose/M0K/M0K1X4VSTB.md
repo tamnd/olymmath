@@ -1,0 +1,23 @@
+---
+tag: M0K1X4VSTB
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=178005
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Let $ABCD$ be a square and points $E \in (BC), F \in (CD)$ such that
+
+$[BE] \equiv [CF]$. If $AC \cap BF = \{G\}, AE \cap BD = \{H\}$, show that:
+a) $AE \perp BF$.
+b) $GH \perp AB$.

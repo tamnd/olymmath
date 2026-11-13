@@ -1,0 +1,9 @@
+id: 3a37e474e8a0
+kind: pair
+records:
+    - PAYQHPCP8Y
+    - usamo/1973/p4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 176493 of NuminaMath 1.5 to this record, but they are two problems: the row proves xyz=0 when the power sums equal 1, the record asks for all complex solutions when the power sums equal 3. The agent removed the row from the record, and row 176493 is now in a new loose record.'

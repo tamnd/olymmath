@@ -1,0 +1,9 @@
+id: b9fe68147114
+kind: pair
+records:
+    - XW58MGWMN6
+    - AARF4F2J3F
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 34595 of NuminaMath 1.5 to this record, but they are two problems: the row asks to calculate the value of the sum, the record asks to prove that it is an integer. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 34595 is now in its own loose record.'

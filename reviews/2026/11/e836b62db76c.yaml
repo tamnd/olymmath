@@ -1,0 +1,9 @@
+id: e836b62db76c
+kind: pair
+records:
+    - XWBHZ2E2WA
+    - RDG1TFBC6E
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 188481 of NuminaMath 1.5 into this record, which holds row 187682, but they are two problems: the row only says no three of the m points are collinear, the record says no three of the points and hexagon vertices together are collinear. The row added no statement, so the problem was lost. Row 188481 is now in a new loose record.'

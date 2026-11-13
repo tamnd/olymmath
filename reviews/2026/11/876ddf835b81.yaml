@@ -1,0 +1,9 @@
+id: 876ddf835b81
+kind: pair
+records:
+    - T7SFX2K18D
+    - 5FG7T1KCMD
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 177272 of NuminaMath 1.5 to this record, but they are two problems: the row solves the equation, the record adds a parameter c and asks for the range of c with real solutions. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 177272 is now in its own loose record.'

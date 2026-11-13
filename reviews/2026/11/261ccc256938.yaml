@@ -1,0 +1,8 @@
+id: 261ccc256938
+kind: match
+records:
+    - 23EZ4RE3W6
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. Row 179870 was joined into this record, which holds row 178279. The two rows state the same problem (sqrt(2p - q) and sqrt(2p + q) natural gives q even, and the count of p for q = 4030); one row has a label ''Task.'' at the start.'

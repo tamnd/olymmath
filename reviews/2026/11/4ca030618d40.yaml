@@ -1,0 +1,9 @@
+id: 4ca030618d40
+kind: pair
+records:
+    - 7PRK4DWWCP
+    - in-rmo/2019/p5
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 180386 of NuminaMath 1.5 to this record, but they are two problems: the row allows any triangle, the record requires an acute-angled triangle. The project only links the texts of this competition, so the import adds no row to it, and the problem was lost. Row 180386 is now in its own loose record.'

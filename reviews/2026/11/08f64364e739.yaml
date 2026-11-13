@@ -1,0 +1,9 @@
+id: 08f64364e739
+kind: pair
+records:
+    - D2AQJBB4EK
+    - cono-sur/1992/p4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 110199 of NuminaMath 1.5 to this record, but they are two problems: the row covers all integers not all zero, the record only positive integers. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 110199 is now in its own loose record.'

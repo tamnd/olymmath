@@ -1,0 +1,9 @@
+id: c24c8a671278
+kind: pair
+records:
+    - MBBV2XHVV5
+    - HRZ2S1TGGA
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 188227 of NuminaMath 1.5 to this record, but they are two problems: the row proves a product of areas identity for the diagonal intersection, the record has an interior point giving four equal areas and asks to prove a diagonal bisects the other. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 188227 is now in its own loose record.'

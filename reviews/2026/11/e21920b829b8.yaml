@@ -1,0 +1,8 @@
+id: e21920b829b8
+kind: match
+records:
+    - ro-nmo/2014/p82
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 179899 and the text of ro-nmo/2014/p82 write the formulas in other ways, so the import linked them by the words rule (words 0.97, formulas 0.83). The agent read both texts: they are the same problem with the same data. The row is a second statement of the record.'

@@ -1,0 +1,9 @@
+id: 46031724b016
+kind: pair
+records:
+    - NWP0X2277P
+    - in-rmo/2014/d5
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 180380 of NuminaMath 1.5 to this record, but they are two problems: the row has the incircle of ACD touching BC at F and an acute triangle, the record has it touching AC at F and any triangle. The project only links the texts of this competition, so the import adds no row to it, and the problem was lost. Row 180380 is now in its own loose record.'

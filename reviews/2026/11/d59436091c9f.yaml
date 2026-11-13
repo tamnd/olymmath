@@ -1,0 +1,8 @@
+id: d59436091c9f
+kind: sample
+records:
+    - 5DJ5WDQTBT
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The text states one problem and no solution. In the source two indexes are garbled (''a_{1} 1'' and ''a_{1} 5''); the agent wrote them as a_{11} and a_{15}, as the rest of the text needs.'

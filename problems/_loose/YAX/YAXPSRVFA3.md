@@ -1,0 +1,25 @@
+---
+tag: YAXPSRVFA3
+kind: problem
+type: answer
+answer: 60,150
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=188880
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+The vertex $A$ of triangle $A B C$ is the intersection of the linear function $y=\frac{3}{4} x+12$ with the $x$-axis, and vertex $B$ is the intersection of the linear function $y=-\frac{4}{3} x+12$ with the $x$-axis. Vertex $C$ is the intersection point of the graphs of these two linear functions.
+
+a) Prove that triangle $A B C$ is a right triangle
+
+b) Calculate the perimeter and area of triangle $A B C$.

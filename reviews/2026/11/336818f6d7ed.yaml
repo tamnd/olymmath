@@ -1,0 +1,8 @@
+id: 336818f6d7ed
+kind: match
+records:
+    - memo/2023/i3
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 176879 and the text of memo/2023/i3 write the formulas in other ways, so the import linked them by the words rule (words 1.00, formulas 0.87). The agent read both texts: they are the same problem with the same data. The row is a second statement of the record.'

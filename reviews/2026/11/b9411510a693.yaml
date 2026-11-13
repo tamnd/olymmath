@@ -1,0 +1,8 @@
+id: b9411510a693
+kind: match
+records:
+    - memo/2013/t6
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The row 176830 (E 0.986, T 0.949, keyword match 0.915) and the text of memo/2013/t6 state the same problem with the same data and the same question. The row became a second statement of the record.'

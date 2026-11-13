@@ -1,0 +1,9 @@
+id: 076bca2653a7
+kind: pair
+records:
+    - 14Z4K08KXJ
+    - 3691GJAM8P
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 176938 of NuminaMath 1.5 to this record, but they are two problems: the row has quadratics f, g with g(x) integer for positive x forcing f(x) integer, the record lacks g and the quadratic setup and its condition is f(x) integer for integer x. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 176938 is now in its own loose record.'

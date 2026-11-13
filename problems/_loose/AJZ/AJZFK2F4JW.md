@@ -1,0 +1,28 @@
+---
+tag: AJZFK2F4JW
+kind: problem
+type: answer
+answer: (3,-2)(-2,3)
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=186008
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Determine all ordered pairs $(x ; y)$ of non-zero real numbers $x, y$ that satisfy the following system of equations:
+
+$$
+\begin{aligned}
+(x+y)^{2}+3(x+y) & =4 \\
+\frac{1}{x}+\frac{1}{y} & =-\frac{1}{6}
+\end{aligned}
+$$

@@ -1,0 +1,21 @@
+---
+tag: DMAJJPG9BH
+kind: problem
+type: answer
+answer: 4k,k\in\mathbb{N}^{*}
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=177858
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+Find the non-zero natural numbers $n \in \mathbb{N}^{*}$, for which the sum $S=2^{n}+4^{n}+6^{n}+\ldots+1888^{n}$ is divisible by 10.

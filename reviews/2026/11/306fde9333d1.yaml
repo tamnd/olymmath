@@ -1,0 +1,9 @@
+id: 306fde9333d1
+kind: pair
+records:
+    - AZGT4QYDRR
+    - HAQ5A4F96M
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 140883 of NuminaMath 1.5 to this record, but they are two problems: the row says the smallest positive period is 2pi, the record only says the period is 2pi. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 140883 is now in its own loose record.'

@@ -1,0 +1,8 @@
+id: 172a36f1214f
+kind: match
+records:
+    - AQFKX0QJ08
+decision: reject
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import joined row 185480 of NuminaMath 1.5 into this record, which holds row 184788, but the row says that the regular n-gon has the side s_n, a miscopy of s, so the claim is not clear. The row is not a clear problem, so the record keeps only row 184788. The agent listed row 185480 in registers/loose-removed.tsv.'

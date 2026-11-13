@@ -1,0 +1,9 @@
+id: febf30efdb30
+kind: pair
+records:
+    - MGVWM6ZPDP
+    - RJYRZBFMGB
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 180238 of NuminaMath 1.5 to this record, but they are two problems: part (a): the row asks to prove the three numbers cannot all be even squares (with a stray ''for any f''), the record asks whether such a,b,c exist. The agent removed the row from the record, and row 180238 is now in a new loose record.'

@@ -1,0 +1,9 @@
+id: e8f938be7c83
+kind: pair
+records:
+    - JB88W4Q8Z5
+    - F31XKMVHPG
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 177059 of NuminaMath 1.5 to this record, but they are two problems: the row asks for which n distinct naturals make the cyclic sum a natural number, the record asks to prove the cyclic sum is at least n. The record already had a statement from this source, so the row added no statement and the problem was lost. Row 177059 is now in its own loose record.'

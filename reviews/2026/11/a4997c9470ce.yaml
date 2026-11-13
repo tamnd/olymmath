@@ -1,0 +1,9 @@
+id: a4997c9470ce
+kind: pair
+records:
+    - DGQJMK4EJY
+    - ie-irmo/1997/p4
+decision: different
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. The import linked row 92201 of NuminaMath 1.5 to this record, but they are two problems: the row takes positive reals, the record nonnegative reals. The agent removed the row from the record, and row 92201 is now in a new loose record.'

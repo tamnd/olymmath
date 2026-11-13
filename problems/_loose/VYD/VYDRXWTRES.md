@@ -1,0 +1,20 @@
+---
+tag: VYDRXWTRES
+kind: problem
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: en
+    source: hf-numinamath-1-5
+    url: https://huggingface.co/datasets/project-numina/NuminaMath-1.5
+    capture: hf-numinamath-1-5/data/train-00000-of-00003.parquet#row=187221
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+---
+$\mathrm{p}$ is an odd prime. The integers $\mathrm{a}, \mathrm{b}, \mathrm{c}, \mathrm{d}$ are not multiples of $\mathrm{p}$ and for any integer $\mathrm{n}$ not a multiple of $\mathrm{p}$, we
+have $\{\mathrm{na} / \mathrm{p}\}+\{\mathrm{nb} / \mathrm{p}\}+\{\mathrm{nc} / \mathrm{p}\}+\{\mathrm{nd} / \mathrm{p}\}=2$, where \{\} denotes the fractional part. Show that we can find two of $a, b, c, d$ whose sum is divisible by $p$.

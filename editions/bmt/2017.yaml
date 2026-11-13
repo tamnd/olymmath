@@ -1,0 +1,31 @@
+year: 2017
+papers:
+  - name: Individual
+    problems: [i1, i2, i3, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13, i14, i15, i16, i17, i18, i19, i20]
+  - name: Team
+    problems: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15]
+  - name: Analysis
+    problems: [an1, an2, an3, an4, an5, an6, an7, an8, an9, an10]
+  - name: Discrete
+    problems: [d1, d2, d3, d4, d5, d6, d7, d8, d9, d10]
+official:
+  - lang: English
+    code: en
+    url: https://berkeley.mt/archives/bmt-2017/IS2017.pdf
+    paper: individual
+    source: berkeley-mt
+  - lang: English
+    code: en
+    url: https://berkeley.mt/archives/bmt-2017/TS2017.pdf
+    paper: team
+    source: berkeley-mt
+  - lang: English
+    code: en
+    url: https://berkeley.mt/archives/bmt-2017/AnaS2017.pdf
+    paper: analysis
+    source: berkeley-mt
+  - lang: English
+    code: en
+    url: https://berkeley.mt/archives/bmt-2017/DisS2017.pdf
+    paper: discrete
+    source: berkeley-mt

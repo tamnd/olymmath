@@ -1,0 +1,8 @@
+id: d7749f95310c
+kind: sample
+records:
+    - PTH6SP8WZW
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. I compared the record at bmt/2025/a5 with the official BMT 2025 PDF by hand. The TeX matches problem 5 of the Algebra round, checked against the page image: the three cube equations with 2, 16 and 54.'

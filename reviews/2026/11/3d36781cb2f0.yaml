@@ -1,0 +1,8 @@
+id: 3d36781cb2f0
+kind: placement
+records:
+    - bmt/2021/a3
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS title \"2021 BMT\" gives no round. The text of the record matches problem 3 of the Algebra round in the official BMT 2021 paper (https://berkeley.mt/archives/bmt-2021/algebra-problems.pdf, page 1), so the record is at bmt/2021/a3."

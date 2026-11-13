@@ -1,0 +1,8 @@
+id: 4e2612951d93
+kind: placement
+records:
+    - bmt/2014/i5
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS title \"2014 BMT Spring\" gives no round. The text of the record matches problem 5 of the Individual round in the official BMT 2014 paper (https://berkeley.mt/archives/bmt-2014/IS2014.pdf, page 1), so the record is at bmt/2014/i5."

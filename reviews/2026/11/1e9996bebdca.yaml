@@ -1,0 +1,8 @@
+id: 1e9996bebdca
+kind: sample
+records:
+    - Q5EXJJSMXT
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. I compared the record at bmt/2013/gp1 with the official BMT 2013 PDF by hand. The AoPS text matches proof problem P1 of the Geometry round: a convex polygon of perimeter 1 and a circle of radius 1/4.'

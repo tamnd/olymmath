@@ -1455,10 +1455,91 @@
   group: usa
   level: high-school
   country: US
-  url: https://berkeley.mt
+  url: https://berkeley.mt/archives/
+  first_year: 2012
   edition_form: year
   languages: [en]
-  description: A student-run tournament with about 150 problems a year. Its archive is not confirmed.
+  description: A student-run tournament at UC Berkeley. Each year has subject rounds, an individual or general round, a team or guts round and a power round.
+  sources: [berkeley-mt]
+  # Agent decision, not a person's review: each round of a year is its own paper, as on the archive pages of berkeley.mt. The number of problems of each round was counted in the round PDF. A position is the prefix of the round and the number of the problem in the round: i individual, t team, an analysis, d discrete, g geometry, a algebra, k calculus, c combinatorics, nt number theory, ge general, u guts. The subject tests of 2013 to 2015 (analysis, discrete and geometry) have ten short-answer problems and two proof problems, P1 and P2, with the positions an1 to an10, anp1 and anp2, and so on. The guts round of 2021 to 2025 and the team round of 2020 have nine sets of three problems, numbered 1 to 27. The power round is not in the layout, because its parts and sub-parts have no fixed numbers. The tiebreakers are not in the layout. The tournament round of 2012 is not in the layout, because its numbers restart in each of its sub-rounds.
+  layout:
+    - {paper: general, name: General, positions: [ge1, ge2, ge3, ge4, ge5, ge6, ge7, ge8, ge9, ge10, ge11, ge12, ge13, ge14, ge15, ge16, ge17, ge18, ge19, ge20, ge21, ge22, ge23, ge24, ge25]}
+    - {paper: algebra, name: Algebra, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]}
+    - {paper: calculus, name: Calculus, positions: [k1, k2, k3, k4, k5, k6, k7, k8, k9, k10]}
+    - {paper: discrete, name: Discrete, positions: [d1, d2, d3, d4, d5, d6, d7, d8, d9, d10]}
+    - {paper: geometry, name: Geometry, positions: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10]}
+    - {paper: guts, name: Guts, positions: [u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11, u12, u13, u14, u15, u16, u17, u18, u19, u20, u21, u22, u23, u24, u25, u26, u27]}
+  per_year: 92
+  eras:
+    - from: 2012
+      to: 2012
+      per_year: 20
+      layout:
+        - {paper: individual, name: Individual, positions: [i1, i2, i3, i4, i5, i6, i7, i8, i9, i10]}
+        - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10]}
+    - from: 2013
+      to: 2013
+      per_year: 66
+      layout:
+        - {paper: individual, name: Individual, positions: [i1, i2, i3, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13, i14, i15, i16, i17, i18, i19, i20]}
+        - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10]}
+        - {paper: analysis, name: Analysis, positions: [an1, an2, an3, an4, an5, an6, an7, an8, an9, an10, anp1, anp2]}
+        - {paper: discrete, name: Discrete, positions: [d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, dp1, dp2]}
+        - {paper: geometry, name: Geometry, positions: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10, gp1, gp2]}
+    - from: 2014
+      to: 2015
+      per_year: 64
+      layout:
+        - {paper: individual, name: Individual, positions: [i1, i2, i3, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13, i14, i15, i16, i17, i18, i19, i20]}
+        - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15, t16, t17, t18, t19, t20]}
+        - {paper: analysis, name: Analysis, positions: [an1, an2, an3, an4, an5, an6, an7, an8, an9, an10, anp1, anp2]}
+        - {paper: geometry, name: Geometry, positions: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10, gp1, gp2]}
+    - from: 2016
+      to: 2016
+      per_year: 65
+      layout:
+        - {paper: individual, name: Individual, positions: [i1, i2, i3, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13, i14, i15, i16, i17, i18, i19, i20]}
+        - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15]}
+        - {paper: analysis, name: Analysis, positions: [an1, an2, an3, an4, an5, an6, an7, an8, an9, an10]}
+        - {paper: discrete, name: Discrete, positions: [d1, d2, d3, d4, d5, d6, d7, d8, d9, d10]}
+        - {paper: geometry, name: Geometry, positions: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10]}
+    - from: 2017
+      to: 2017
+      per_year: 55
+      layout:
+        - {paper: individual, name: Individual, positions: [i1, i2, i3, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13, i14, i15, i16, i17, i18, i19, i20]}
+        - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15]}
+        - {paper: analysis, name: Analysis, positions: [an1, an2, an3, an4, an5, an6, an7, an8, an9, an10]}
+        - {paper: discrete, name: Discrete, positions: [d1, d2, d3, d4, d5, d6, d7, d8, d9, d10]}
+    - from: 2018
+      to: 2018
+      per_year: 65
+      layout:
+        - {paper: algebra, name: Algebra, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]}
+        - {paper: calculus, name: Calculus, positions: [k1, k2, k3, k4, k5, k6, k7, k8, k9, k10]}
+        - {paper: combinatorics, name: Combinatorics, positions: [c1, c2, c3, c4, c5, c6, c7, c8, c9, c10]}
+        - {paper: geometry, name: Geometry, positions: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10]}
+        - {paper: number-theory, name: Number Theory, positions: [nt1, nt2, nt3, nt4, nt5, nt6, nt7, nt8, nt9, nt10]}
+        - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15]}
+    - from: 2019
+      to: 2019
+      per_year: 65
+      layout:
+        - {paper: individual, name: Individual, positions: [i1, i2, i3, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13, i14, i15, i16, i17, i18, i19, i20]}
+        - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15]}
+        - {paper: algebra, name: Algebra, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]}
+        - {paper: discrete, name: Discrete, positions: [d1, d2, d3, d4, d5, d6, d7, d8, d9, d10]}
+        - {paper: geometry, name: Geometry, positions: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10]}
+    - from: 2020
+      to: 2020
+      per_year: 92
+      layout:
+        - {paper: individual, name: Individual, positions: [i1, i2, i3, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13, i14, i15, i16, i17, i18, i19, i20, i21, i22, i23, i24, i25]}
+        - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15, t16, t17, t18, t19, t20, t21, t22, t23, t24, t25, t26, t27]}
+        - {paper: algebra, name: Algebra, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]}
+        - {paper: calculus, name: Calculus, positions: [k1, k2, k3, k4, k5, k6, k7, k8, k9, k10]}
+        - {paper: discrete, name: Discrete, positions: [d1, d2, d3, d4, d5, d6, d7, d8, d9, d10]}
+        - {paper: geometry, name: Geometry, positions: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10]}
 
 - code: cmimc
   name: Carnegie Mellon Informatics and Mathematics Competition

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90pt" height="77pt" viewBox="0 0 90 77">
+<path fill="rgb(89.999%, 89.999%, 89.999%)" stroke-width="0.797" stroke="#000" stroke-miterlimit="10" d="M -14.173 42.522 L -14.173 70.865 L 14.173 70.865 L 14.173 42.522 Z M -14.173 42.522 " transform="matrix(1, 0, 0, -1, 16.623, 74.233)"/>
+<path fill="rgb(89.999%, 89.999%, 89.999%)" stroke-width="0.797" stroke="#000" stroke-miterlimit="10" d="M 42.521 42.522 L 42.521 70.865 L 70.865 70.865 L 70.865 42.522 Z M 42.521 42.522 " transform="matrix(1, 0, 0, -1, 16.623, 74.233)"/>
+<path fill="rgb(89.999%, 89.999%, 89.999%)" d="M 16.621 74.234 L 16.621 17.539 L 73.316 17.539 L 73.316 74.234 Z M 16.621 74.234 "/>
+<path fill="none" stroke-width="0.797" stroke="#000" stroke-miterlimit="10" d="M -0.001 -0.001 L 56.693 -0.001 " transform="matrix(1, 0, 0, -1, 16.623, 74.233)"/>
+<path fill="none" stroke-width="0.797" stroke="#000" stroke-miterlimit="10" d="M 56.693 -0.001 L 56.693 42.522 " transform="matrix(1, 0, 0, -1, 16.623, 74.233)"/>
+<path fill="none" stroke-width="0.797" stroke="#000" stroke-miterlimit="10" d="M -0.001 -0.001 L -0.001 42.522 " transform="matrix(1, 0, 0, -1, 16.623, 74.233)"/>
+<path fill="none" stroke-width="0.797" stroke="#000" stroke-dasharray="2.988 2.988" stroke-miterlimit="10" d="M -0.001 42.522 L 14.173 42.522 " transform="matrix(1, 0, 0, -1, 16.623, 74.233)"/>
+<path fill="none" stroke-width="0.797" stroke="#000" stroke-dasharray="2.988 2.988" stroke-miterlimit="10" d="M 14.173 42.522 L 14.173 56.693 " transform="matrix(1, 0, 0, -1, 16.623, 74.233)"/>
+<path fill="none" stroke-width="0.797" stroke="#000" stroke-dasharray="2.988 2.988" stroke-miterlimit="10" d="M 42.521 56.693 L 42.521 42.522 " transform="matrix(1, 0, 0, -1, 16.623, 74.233)"/>
+<path fill="none" stroke-width="0.797" stroke="#000" stroke-dasharray="2.988 2.988" stroke-miterlimit="10" d="M 42.521 42.522 L 56.693 42.522 " transform="matrix(1, 0, 0, -1, 16.623, 74.233)"/>
+<path fill="none" stroke-width="0.797" stroke="#000" stroke-dasharray="2.988 2.988" stroke-miterlimit="10" d="M -0.001 56.693 L 14.173 56.693 " transform="matrix(1, 0, 0, -1, 16.623, 74.233)"/>
+<path fill="none" stroke-width="0.797" stroke="#000" stroke-dasharray="2.988 2.988" stroke-miterlimit="10" d="M -0.001 42.522 L -0.001 56.693 " transform="matrix(1, 0, 0, -1, 16.623, 74.233)"/>
+<path fill="none" stroke-width="0.797" stroke="#000" stroke-dasharray="2.988 2.988" stroke-miterlimit="10" d="M 42.521 56.693 L 56.693 56.693 " transform="matrix(1, 0, 0, -1, 16.623, 74.233)"/>
+<path fill="none" stroke-width="0.797" stroke="#000" stroke-dasharray="2.988 2.988" stroke-miterlimit="10" d="M 56.693 42.522 L 56.693 56.693 " transform="matrix(1, 0, 0, -1, 16.623, 74.233)"/>
+<path fill="none" stroke-width="0.797" stroke="#000" stroke-miterlimit="10" d="M 14.173 56.693 L 42.521 56.693 " transform="matrix(1, 0, 0, -1, 16.623, 74.233)"/>
+<path fill="#000" d="M 39.656 35.257 C 39.656 33.496 38.863 32.066 37.882 32.066 C 36.906 32.066 36.113 33.496 36.113 35.257 C 36.113 37.015 36.906 38.445 37.882 38.445 C 38.863 38.445 39.656 37.015 39.656 35.257 Z M 39.656 35.257 "/>
+<path fill="#000" d="M 53.828 35.257 C 53.828 33.496 53.035 32.066 52.054 32.066 C 51.078 32.066 50.285 33.496 50.285 35.257 C 50.285 37.015 51.078 38.445 52.054 38.445 C 53.035 38.445 53.828 37.015 53.828 35.257 Z M 53.828 35.257 "/>
+<path fill="#fff" stroke-width="0.797" stroke="#000" stroke-miterlimit="10" d="M 36.849 21.260 C 36.849 24.393 33.044 26.928 28.345 26.928 C 23.650 26.928 19.841 24.393 19.841 21.260 C 19.841 18.127 23.650 15.592 28.345 15.592 C 33.044 15.592 36.849 18.127 36.849 21.260 Z M 36.849 21.260 " transform="matrix(1, 0, 0, -1, 16.623, 74.233)"/>
+<path fill="#000" d="M 46.742 50.136 C 46.742 49.433 45.949 48.863 44.968 48.863 C 43.992 48.863 43.199 49.433 43.199 50.136 C 43.199 50.843 43.992 51.414 44.968 51.414 C 45.949 51.414 46.742 50.843 46.742 50.136 Z M 46.742 50.136 "/>
+<path fill="none" stroke-width="0.797" stroke="#000" stroke-miterlimit="10" d="M 28.345 22.678 L 28.345 19.842 " transform="matrix(1, 0, 0, -1, 16.623, 74.233)"/>
+<path fill="none" stroke-width="0.797" stroke="#000" stroke-miterlimit="10" d="M 28.345 19.842 C 26.220 17.717 24.802 17.717 23.384 19.135 " transform="matrix(1, 0, 0, -1, 16.623, 74.233)"/>
+<path fill="none" stroke-width="0.797" stroke="#000" stroke-miterlimit="10" d="M 28.345 19.842 C 30.474 17.717 31.888 17.717 33.306 19.135 " transform="matrix(1, 0, 0, -1, 16.623, 74.233)"/>
+</svg>

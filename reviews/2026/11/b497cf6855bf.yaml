@@ -1,0 +1,8 @@
+id: b497cf6855bf
+kind: placement
+records:
+    - bmt/2016/d3
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS title \"2016 BMT Spring\" gives no round. The text of the record matches problem 3 of the Discrete round in the official BMT 2016 paper (https://berkeley.mt/archives/bmt-2016/DisS2016.pdf, page 1), so the record is at bmt/2016/d3."

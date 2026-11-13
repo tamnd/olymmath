@@ -1,0 +1,8 @@
+id: 6b72f282866c
+kind: sample
+records:
+    - JMX4J979WA
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. I compared the record at bmt/2015/g5 with the official BMT 2015 PDF by hand. The AoPS text matches problem 5 of the Geometry round: A = (1, 0), B = (0, 1), C = (0, 0) and the three parallelograms. The words and numbers agree with the PDF.'

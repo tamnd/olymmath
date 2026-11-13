@@ -1,0 +1,8 @@
+id: 2b303f027a7f
+kind: sample
+records:
+    - HEJEKKE5QJ
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. I compared the record at bmt/2020/g5 with the official BMT 2020 PDF by hand. The TeX matches problem 5 of the Geometry round, checked against the page image: the four recursive points with 1/2020 and 2019 and the sum a^2 b/c. The figure is in its place in the text.'

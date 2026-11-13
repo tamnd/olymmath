@@ -1,0 +1,8 @@
+id: ab0934e98516
+kind: placement
+records:
+    - bmt/2012/t9
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS title \"2012 BMT Spring\" gives no round. The text of the record matches problem 9 of the Team round in the official BMT 2012 paper (https://berkeley.mt/archives/bmt-2012/TS2012.pdf, page 2), so the record is at bmt/2012/t9."

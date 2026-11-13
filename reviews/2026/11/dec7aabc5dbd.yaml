@@ -1,0 +1,8 @@
+id: dec7aabc5dbd
+kind: sample
+records:
+    - 3KKV2B7NEQ
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. I compared the record at bmt/2013/i17 with the official BMT 2013 PDF by hand. The AoPS text matches problem 17 of the Individual round: the recurrence x_n as the mean of the N terms before it, x_k = 1 and the other first terms 0.'

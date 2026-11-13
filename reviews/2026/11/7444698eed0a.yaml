@@ -1,0 +1,8 @@
+id: 7444698eed0a
+kind: placement
+records:
+    - bmt/2013/i17
+decision: accept
+by: agent
+date: "2026-11-13"
+note: "Agent decision, not a person's review. The AoPS title \"2013 BMT Spring\" gives no round. The text of the record matches problem 17 of the Individual round in the official BMT 2013 paper (https://berkeley.mt/archives/bmt-2013/IS2013.pdf, page 2), so the record is at bmt/2013/i17."

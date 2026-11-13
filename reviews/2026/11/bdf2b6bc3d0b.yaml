@@ -1,0 +1,8 @@
+id: bdf2b6bc3d0b
+kind: sample
+records:
+    - 1H40Z6RSDW
+decision: accept
+by: agent
+date: "2026-11-13"
+note: 'Agent decision, not a person''s review. I compared the record at bmt/2022/a6 with the official BMT 2022 PDF by hand. The AoPS text matches problem 6 of the Algebra round: the five differences 1, 16, 81, 256 and 625 and the question on f(15) - f(-3).'

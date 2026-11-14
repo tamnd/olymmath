@@ -2,199 +2,527 @@
   {
     "source": "hf-mathnet",
     "rows": 55634,
-    "matched": 14264,
-    "by_key": 0,
-    "near": 7854,
-    "new": 33516,
-    "new_located": 23504
+    "placed": {
+      "matched": 13495,
+      "by_key": 0,
+      "by_link": 5802,
+      "variant": 2859,
+      "near": 7008,
+      "new": 32272,
+      "new_problems": 15839,
+      "new_texts": 16162,
+      "new_located": 21484
+    },
+    "all": {
+      "matched": 34973,
+      "by_key": 0,
+      "by_link": 15228,
+      "variant": 5025,
+      "near": 8413,
+      "new": 7223,
+      "new_problems": 3771,
+      "new_texts": 3828,
+      "new_located": 5081,
+      "why": {
+        "broken TeX": 94,
+        "economics or finance": 2,
+        "formulas lost": 18,
+        "held for a review": 1958,
+        "link-only competition": 236,
+        "needs a figure": 1418,
+        "not a statement": 74,
+        "passed the checks": 573,
+        "physics or chemistry": 2,
+        "refers to another problem": 4,
+        "removed by a review": 344,
+        "request": 4,
+        "several problems": 6,
+        "solution only": 2,
+        "table of contents": 2,
+        "too short": 10,
+        "unknown language": 2476
+      }
+    }
   },
   {
     "source": "hf-numina-olympiads",
     "rows": 13087,
-    "matched": 10326,
-    "by_key": 10117,
-    "near": 532,
-    "new": 2229,
-    "new_located": 682
+    "placed": {
+      "matched": 10747,
+      "by_key": 10380,
+      "by_link": 65,
+      "variant": 0,
+      "near": 456,
+      "new": 1884,
+      "new_problems": 1559,
+      "new_texts": 1601,
+      "new_located": 439
+    },
+    "all": {
+      "matched": 11939,
+      "by_key": 10380,
+      "by_link": 566,
+      "variant": 0,
+      "near": 655,
+      "new": 493,
+      "new_problems": 425,
+      "new_texts": 434,
+      "new_located": 78,
+      "why": {
+        "a shortlist or longlist row": 232,
+        "has a position": 68,
+        "held for a review": 8,
+        "needs a figure": 84,
+        "passed the checks": 5,
+        "several problems": 2,
+        "too short": 1,
+        "unknown language": 93
+      }
+    }
   },
   {
     "source": "hf-numina-olympiads-ref",
     "rows": 13087,
-    "matched": 10428,
-    "by_key": 10116,
-    "near": 709,
-    "new": 1950,
-    "new_located": 583
+    "placed": {
+      "matched": 10724,
+      "by_key": 10379,
+      "by_link": 0,
+      "variant": 22,
+      "near": 612,
+      "new": 1729,
+      "new_problems": 1437,
+      "new_texts": 1475,
+      "new_located": 446
+    },
+    "all": {
+      "matched": 11677,
+      "by_key": 10379,
+      "by_link": 0,
+      "variant": 91,
+      "near": 790,
+      "new": 529,
+      "new_problems": 453,
+      "new_texts": 461,
+      "new_located": 76,
+      "why": {
+        "dataset not read by the loose import": 529
+      }
+    }
   },
   {
     "source": "hf-ai-mo-aops",
     "rows": 80661,
-    "matched": 17109,
-    "by_key": 0,
-    "near": 10512,
-    "new": 53040,
-    "new_located": 27931
-  },
-  {
-    "source": "hf-numinamath-1-5",
-    "rows": 315736,
-    "matched": 32015,
-    "by_key": 0,
-    "near": 41185,
-    "new": 242536,
-    "new_located": 0
-  },
-  {
-    "source": "hf-omni-math",
-    "rows": 4428,
-    "matched": 2707,
-    "by_key": 0,
-    "near": 395,
-    "new": 1326,
-    "new_located": 711
-  },
-  {
-    "source": "hf-olympiadbench",
-    "rows": 2133,
-    "matched": 554,
-    "by_key": 0,
-    "near": 271,
-    "new": 1308,
-    "new_located": 0
+    "placed": {
+      "matched": 27151,
+      "by_key": 0,
+      "by_link": 8833,
+      "variant": 0,
+      "near": 8996,
+      "new": 44514,
+      "new_problems": 43032,
+      "new_texts": 44513,
+      "new_located": 18951
+    },
+    "all": {
+      "matched": 59461,
+      "by_key": 0,
+      "by_link": 24681,
+      "variant": 0,
+      "near": 8419,
+      "new": 12781,
+      "new_problems": 12363,
+      "new_texts": 12781,
+      "new_located": 3513,
+      "why": {
+        "a grading scheme or a note": 1,
+        "a task of informatics": 1,
+        "broken TeX": 317,
+        "economics or finance": 8,
+        "formulas lost": 49,
+        "link-only competition": 410,
+        "links to a page": 108,
+        "names a link-only competition": 2,
+        "needs a figure": 1923,
+        "not a statement": 26,
+        "passed the checks": 8582,
+        "physics or chemistry": 101,
+        "refers to another problem": 100,
+        "request": 47,
+        "several problems": 960,
+        "solution only": 31,
+        "table of contents": 24,
+        "too long": 51,
+        "too short": 24,
+        "unknown language": 16
+      }
+    }
   },
   {
     "source": "hf-aops-wiki",
     "rows": 43005,
-    "matched": 20485,
-    "by_key": 15700,
-    "near": 4212,
-    "new": 18308,
-    "new_located": 11178
-  },
-  {
-    "source": "hf-liveaopsbench",
-    "rows": 5328,
-    "matched": 228,
-    "by_key": 0,
-    "near": 759,
-    "new": 4341,
-    "new_located": 0
+    "placed": {
+      "matched": 25510,
+      "by_key": 18446,
+      "by_link": 0,
+      "variant": 0,
+      "near": 3480,
+      "new": 14015,
+      "new_problems": 11663,
+      "new_texts": 11974,
+      "new_located": 6946
+    },
+    "all": {
+      "matched": 37717,
+      "by_key": 18446,
+      "by_link": 0,
+      "variant": 0,
+      "near": 2919,
+      "new": 2369,
+      "new_problems": 1787,
+      "new_texts": 1931,
+      "new_located": 1193,
+      "why": {
+        "dataset not read by the loose import": 2369
+      }
+    }
   },
   {
     "source": "hf-aime-1983-2026",
     "rows": 1065,
-    "matched": 1061,
-    "by_key": 1060,
-    "near": 1,
-    "new": 3,
-    "new_located": 3
+    "placed": {
+      "matched": 1060,
+      "by_key": 1060,
+      "by_link": 0,
+      "variant": 0,
+      "near": 2,
+      "new": 3,
+      "new_problems": 3,
+      "new_texts": 3,
+      "new_located": 3
+    },
+    "all": {
+      "matched": 1060,
+      "by_key": 1060,
+      "by_link": 0,
+      "variant": 0,
+      "near": 3,
+      "new": 2,
+      "new_problems": 2,
+      "new_texts": 2,
+      "new_located": 2,
+      "why": {
+        "dataset not read by the loose import": 2
+      }
+    }
   },
   {
     "source": "hf-amc12-full",
     "rows": 1199,
-    "matched": 1184,
-    "by_key": 1184,
-    "near": 0,
-    "new": 15,
-    "new_located": 15
+    "placed": {
+      "matched": 1189,
+      "by_key": 1189,
+      "by_link": 0,
+      "variant": 0,
+      "near": 0,
+      "new": 10,
+      "new_problems": 7,
+      "new_texts": 10,
+      "new_located": 10
+    },
+    "all": {
+      "matched": 1189,
+      "by_key": 1189,
+      "by_link": 0,
+      "variant": 0,
+      "near": 1,
+      "new": 9,
+      "new_problems": 6,
+      "new_texts": 9,
+      "new_located": 9,
+      "why": {
+        "dataset not read by the loose import": 9
+      }
+    }
   },
   {
     "source": "hf-putnam-1995-2025",
     "rows": 372,
-    "matched": 372,
-    "by_key": 372,
-    "near": 0,
-    "new": 0,
-    "new_located": 0
+    "placed": {
+      "matched": 372,
+      "by_key": 372,
+      "by_link": 0,
+      "variant": 0,
+      "near": 0,
+      "new": 0,
+      "new_problems": 0,
+      "new_texts": 0,
+      "new_located": 0
+    },
+    "all": {
+      "matched": 372,
+      "by_key": 372,
+      "by_link": 0,
+      "variant": 0,
+      "near": 0,
+      "new": 0,
+      "new_problems": 0,
+      "new_texts": 0,
+      "new_located": 0
+    }
   },
   {
     "source": "hf-putnam-axiom",
     "rows": 100,
-    "matched": 86,
-    "by_key": 76,
-    "near": 4,
-    "new": 10,
-    "new_located": 10
+    "placed": {
+      "matched": 86,
+      "by_key": 76,
+      "by_link": 0,
+      "variant": 0,
+      "near": 5,
+      "new": 9,
+      "new_problems": 7,
+      "new_texts": 9,
+      "new_located": 9
+    },
+    "all": {
+      "matched": 87,
+      "by_key": 76,
+      "by_link": 0,
+      "variant": 0,
+      "near": 6,
+      "new": 7,
+      "new_problems": 5,
+      "new_texts": 7,
+      "new_located": 7,
+      "why": {
+        "dataset not read by the loose import": 7
+      }
+    }
   },
   {
     "source": "hf-putnamgap",
     "rows": 1051,
-    "matched": 1037,
-    "by_key": 1036,
-    "near": 0,
-    "new": 14,
-    "new_located": 14
+    "placed": {
+      "matched": 1036,
+      "by_key": 1036,
+      "by_link": 0,
+      "variant": 0,
+      "near": 1,
+      "new": 14,
+      "new_problems": 13,
+      "new_texts": 14,
+      "new_located": 14
+    },
+    "all": {
+      "matched": 1036,
+      "by_key": 1036,
+      "by_link": 0,
+      "variant": 0,
+      "near": 1,
+      "new": 14,
+      "new_problems": 13,
+      "new_texts": 14,
+      "new_located": 14,
+      "why": {
+        "dataset not read by the loose import": 14
+      }
+    }
   },
   {
     "source": "hf-olymmath-ruc",
     "rows": 400,
-    "matched": 23,
-    "by_key": 0,
-    "near": 61,
-    "new": 316,
-    "new_located": 0
+    "placed": {
+      "matched": 12,
+      "by_key": 0,
+      "by_link": 0,
+      "variant": 8,
+      "near": 55,
+      "new": 325,
+      "new_problems": 198,
+      "new_texts": 325,
+      "new_located": 0
+    },
+    "all": {
+      "matched": 86,
+      "by_key": 0,
+      "by_link": 0,
+      "variant": 31,
+      "near": 119,
+      "new": 164,
+      "new_problems": 98,
+      "new_texts": 164,
+      "new_located": 0,
+      "why": {
+        "dataset not read by the loose import": 164
+      }
+    }
   },
   {
     "source": "hf-amo-bench",
     "rows": 50,
-    "matched": 49,
-    "by_key": 49,
-    "near": 0,
-    "new": 1,
-    "new_located": 1
+    "placed": {
+      "matched": 49,
+      "by_key": 49,
+      "by_link": 0,
+      "variant": 0,
+      "near": 0,
+      "new": 1,
+      "new_problems": 1,
+      "new_texts": 1,
+      "new_located": 1
+    },
+    "all": {
+      "matched": 49,
+      "by_key": 49,
+      "by_link": 0,
+      "variant": 0,
+      "near": 0,
+      "new": 1,
+      "new_problems": 1,
+      "new_texts": 1,
+      "new_located": 1,
+      "why": {
+        "dataset not read by the loose import": 1
+      }
+    }
   },
   {
     "source": "hf-nemotron-imo-bench",
     "rows": 200,
-    "matched": 198,
-    "by_key": 194,
-    "near": 0,
-    "new": 2,
-    "new_located": 2
-  },
-  {
-    "source": "hf-polymath",
-    "rows": 9000,
-    "matched": 1600,
-    "by_key": 0,
-    "near": 1252,
-    "new": 6148,
-    "new_located": 0
+    "placed": {
+      "matched": 198,
+      "by_key": 194,
+      "by_link": 0,
+      "variant": 0,
+      "near": 0,
+      "new": 2,
+      "new_problems": 2,
+      "new_texts": 2,
+      "new_located": 2
+    },
+    "all": {
+      "matched": 198,
+      "by_key": 194,
+      "by_link": 0,
+      "variant": 0,
+      "near": 1,
+      "new": 1,
+      "new_problems": 1,
+      "new_texts": 1,
+      "new_located": 1,
+      "why": {
+        "dataset not read by the loose import": 1
+      }
+    }
   },
   {
     "source": "hf-mathodyssey",
     "rows": 148,
-    "matched": 148,
-    "by_key": 148,
-    "near": 0,
-    "new": 0,
-    "new_located": 0
+    "placed": {
+      "matched": 148,
+      "by_key": 148,
+      "by_link": 0,
+      "variant": 0,
+      "near": 0,
+      "new": 0,
+      "new_problems": 0,
+      "new_texts": 0,
+      "new_located": 0
+    },
+    "all": {
+      "matched": 148,
+      "by_key": 148,
+      "by_link": 0,
+      "variant": 0,
+      "near": 0,
+      "new": 0,
+      "new_problems": 0,
+      "new_texts": 0,
+      "new_located": 0
+    }
   },
   {
     "source": "hf-tubitak",
     "rows": 0,
-    "matched": 0,
-    "by_key": 0,
-    "near": 0,
-    "new": 0,
-    "new_located": 0
+    "placed": {
+      "matched": 0,
+      "by_key": 0,
+      "by_link": 0,
+      "variant": 0,
+      "near": 0,
+      "new": 0,
+      "new_problems": 0,
+      "new_texts": 0,
+      "new_located": 0
+    },
+    "all": {
+      "matched": 0,
+      "by_key": 0,
+      "by_link": 0,
+      "variant": 0,
+      "near": 0,
+      "new": 0,
+      "new_problems": 0,
+      "new_texts": 0,
+      "new_located": 0
+    }
   },
   {
     "source": "hf-indonesian-olympiad",
     "rows": 2204,
-    "matched": 19,
-    "by_key": 0,
-    "near": 123,
-    "new": 2062,
-    "new_located": 24
+    "placed": {
+      "matched": 13,
+      "by_key": 0,
+      "by_link": 0,
+      "variant": 2,
+      "near": 98,
+      "new": 2091,
+      "new_problems": 2034,
+      "new_texts": 2091,
+      "new_located": 25
+    },
+    "all": {
+      "matched": 25,
+      "by_key": 0,
+      "by_link": 0,
+      "variant": 16,
+      "near": 195,
+      "new": 1968,
+      "new_problems": 1915,
+      "new_texts": 1968,
+      "new_located": 25,
+      "why": {
+        "dataset not read by the loose import": 1968
+      }
+    }
   },
   {
     "source": "hf-hrm8k",
     "rows": 8011,
-    "matched": 883,
-    "by_key": 0,
-    "near": 869,
-    "new": 6259,
-    "new_located": 661
+    "placed": {
+      "matched": 808,
+      "by_key": 0,
+      "by_link": 0,
+      "variant": 97,
+      "near": 909,
+      "new": 6197,
+      "new_problems": 5933,
+      "new_texts": 6194,
+      "new_located": 650
+    },
+    "all": {
+      "matched": 1006,
+      "by_key": 0,
+      "by_link": 0,
+      "variant": 223,
+      "near": 1473,
+      "new": 5309,
+      "new_problems": 5095,
+      "new_texts": 5306,
+      "new_located": 586,
+      "why": {
+        "dataset not read by the loose import": 5309
+      }
+    }
   }
 ]

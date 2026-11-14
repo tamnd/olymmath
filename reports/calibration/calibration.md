@@ -55,3 +55,37 @@ The run used the local claude client with its own login, one call at a time. The
 The kappa of 0.8 is met on the Open Proof Corpus only. Overall it is 0.735, so the jury is not ready for grades at scale. Until a better rubric or jury meets the target, a person should check the grades of this jury.
 
 Agent decision, not a person's review (by: agent). The scale notes, the pass at 5 for the Open Proof Corpus, the dev split and the jury are the agent's. The texts and the human grades of the sets stay out of git. Only these aggregate numbers are here.
+
+## A trial that did not help (2026-11-15)
+
+This trial tried to close the gap to 0.8 (olymmath-agent #253). It did not, so the method of the table at the top stays as it is.
+
+The dev split had 60 other proofs: 25 of IMO-GradingBench, 25 of ProofBench and 10 of the Open Proof Corpus, drawn with the seed 7002 after the 150 test proofs were left out. On the dev split the two Claude jurors were too strict. All 8 dev errors on pass or fail were proofs that the humans passed and the jury failed. The jurors agreed with each other on most of these proofs.
+
+Two changes were tried on the dev split:
+
+1. A grader prompt that grades as the human graders of a competition do. It replaced the strict rules with these: "Give 7 to a proof that is complete and correct in its main line. Do not take points off for a routine detail left out, a configuration or case issue that a standard argument settles, or a small slip that does not change the argument. Take points off only for an error or a gap that the argument needs and that a strong student cannot fix at once."
+2. A tie-break juror (`om calibrate -tiebreak cli:claude/claude-opus-5-5`). When the last scores of the two jurors are in different buckets, it reads the notes of both and gives its own score. The jury score is then the median of the three.
+
+| Method on the dev split | IMO-GradingBench | ProofBench | Open Proof Corpus | All sets, pass or fail |
+|---|---|---|---|---|
+| The current method | 0.608 | 0.393 | 0.545 | 0.679 |
+| The new prompt | 0.725 | 0.447 | 0.545 | 0.722 |
+| The new prompt and the tie-break juror | 0.662 | 0.337 | 0.737 | 0.770 |
+
+The new prompt with the tie-break juror beat the current method on the dev split by 0.091, so it graded the 150 test proofs once.
+
+| Set | Kappa now | 95% interval now | Kappa of the trial | 95% interval of the trial |
+|---|---|---|---|---|
+| IMO-GradingBench | 0.585 | 0.397 to 0.752 | 0.523 | 0.345 to 0.699 |
+| ProofBench | 0.496 | 0.287 to 0.687 | 0.420 | 0.227 to 0.610 |
+| Open Proof Corpus | 0.840 | 0.674 to 0.960 | 0.919 | 0.797 to 1.000 |
+| All sets, pass or fail | 0.735 | 0.617 to 0.844 | 0.687 | 0.557 to 0.806 |
+
+On the test proofs the trial is worse overall. Only the Open Proof Corpus gained. The tie-break juror took the side of the Opus juror on all 29 split juries, so it acted like an Opus juror alone. The dev gain did not carry over to the test proofs. With 60 dev proofs, a few proofs change the kappa by more than 0.05.
+
+The run of the test proofs had 150 first calls of each juror, 7 second-round calls of each juror and 29 tie-break calls. Opus used 2,402 s and 224,005 output tokens for its first calls, and Sonnet 1,373 s and 137,607 output tokens.
+
+The prompt of om stays strict (grade/1), and the tie-break is off by default. The flag stays for a jury of two model families, when the codex client has an allowance again.
+
+Agent decision, not a person's review (by: agent). The trial, the dev split and the choice to keep the current method are the agent's.

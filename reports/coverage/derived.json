@@ -2,56 +2,297 @@
   {
     "source": "hf-numinamath-1-5",
     "rows": 315736,
-    "matched": 39256,
-    "by_key": 0,
-    "variant": 2245,
-    "near": 45895,
-    "new": 228340,
-    "new_problems": 181617,
-    "new_located": 0
+    "placed": {
+      "matched": 41980,
+      "by_key": 0,
+      "by_link": 24846,
+      "variant": 1908,
+      "near": 35186,
+      "new": 236662,
+      "new_problems": 186940,
+      "new_texts": 236647,
+      "new_located": 0
+    },
+    "all": {
+      "matched": 200261,
+      "by_key": 0,
+      "by_link": 154487,
+      "variant": 10781,
+      "near": 44833,
+      "new": 59861,
+      "new_problems": 51464,
+      "new_texts": 59861,
+      "new_located": 0,
+      "why": {
+        "a grading scheme or a note": 29,
+        "a shortlist or longlist row": 762,
+        "a task of informatics": 37,
+        "a template": 100,
+        "a theorem of a book": 210,
+        "broken TeX": 1050,
+        "economics or finance": 233,
+        "formulas lost": 978,
+        "has a position": 74,
+        "held for a review": 7039,
+        "links to a page": 243,
+        "names a link-only competition": 81,
+        "names its position": 1450,
+        "needs a figure": 14714,
+        "not a statement": 2238,
+        "not an olympiad set": 19271,
+        "passed the checks": 2364,
+        "physics or chemistry": 626,
+        "refers to another problem": 3007,
+        "removed by a review": 1524,
+        "request": 118,
+        "several problems": 1143,
+        "solution only": 983,
+        "stub": 17,
+        "table of contents": 88,
+        "too long": 118,
+        "too short": 836,
+        "unknown language": 528
+      }
+    }
   },
   {
     "source": "hf-omni-math",
     "rows": 4428,
-    "matched": 2595,
-    "by_key": 0,
-    "variant": 229,
-    "near": 405,
-    "new": 1199,
-    "new_problems": 1139,
-    "new_located": 590
+    "placed": {
+      "matched": 2586,
+      "by_key": 0,
+      "by_link": 0,
+      "variant": 223,
+      "near": 384,
+      "new": 1235,
+      "new_problems": 1168,
+      "new_texts": 1217,
+      "new_located": 604
+    },
+    "all": {
+      "matched": 3051,
+      "by_key": 0,
+      "by_link": 0,
+      "variant": 323,
+      "near": 501,
+      "new": 553,
+      "new_problems": 539,
+      "new_texts": 550,
+      "new_located": 368,
+      "why": {
+        "dataset not read by the loose import": 553
+      }
+    }
   },
   {
     "source": "hf-olympiadbench",
     "rows": 2133,
-    "matched": 534,
-    "by_key": 0,
-    "variant": 24,
-    "near": 294,
-    "new": 1281,
-    "new_problems": 994,
-    "new_located": 0
+    "placed": {
+      "matched": 523,
+      "by_key": 0,
+      "by_link": 0,
+      "variant": 23,
+      "near": 199,
+      "new": 1388,
+      "new_problems": 1082,
+      "new_texts": 1388,
+      "new_located": 0
+    },
+    "all": {
+      "matched": 711,
+      "by_key": 0,
+      "by_link": 0,
+      "variant": 92,
+      "near": 438,
+      "new": 892,
+      "new_problems": 667,
+      "new_texts": 892,
+      "new_located": 0,
+      "why": {
+        "dataset not read by the loose import": 892
+      }
+    }
+  },
+  {
+    "source": "hf-openmathreasoning",
+    "rows": 5112697,
+    "placed": {
+      "matched": 296869,
+      "by_key": 0,
+      "by_link": 0,
+      "variant": 29204,
+      "near": 779663,
+      "new": 4006961,
+      "new_problems": 223648,
+      "new_texts": 402688,
+      "new_located": 0
+    },
+    "all": {
+      "matched": 440847,
+      "by_key": 0,
+      "by_link": 0,
+      "variant": 113767,
+      "near": 1264652,
+      "new": 3293431,
+      "new_problems": 193194,
+      "new_texts": 342185,
+      "new_located": 0,
+      "why": {
+        "dataset not read by the loose import": 3293431
+      }
+    }
+  },
+  {
+    "source": "hf-nemotron-math-proofs",
+    "rows": 1376663,
+    "placed": {
+      "matched": 24413,
+      "by_key": 0,
+      "by_link": 0,
+      "variant": 0,
+      "near": 109488,
+      "new": 1242762,
+      "new_problems": 423298,
+      "new_texts": 530046,
+      "sample": 477626,
+      "sample_problems": 381435,
+      "new_located": 0
+    },
+    "all": {
+      "matched": 50774,
+      "by_key": 0,
+      "by_link": 0,
+      "variant": 0,
+      "near": 199928,
+      "new": 1125961,
+      "new_problems": 395451,
+      "new_texts": 489024,
+      "sample": 473893,
+      "sample_problems": 383215,
+      "new_located": 0,
+      "why": {
+        "dataset not read by the loose import": 1125961
+      }
+    }
+  },
+  {
+    "source": "hf-nemotron-math-v2",
+    "rows": 14171678,
+    "placed": {
+      "matched": 300168,
+      "by_key": 0,
+      "by_link": 0,
+      "variant": 27944,
+      "near": 1172760,
+      "new": 12670806,
+      "new_problems": 228576,
+      "new_texts": 292838,
+      "new_located": 0
+    },
+    "all": {
+      "matched": 482672,
+      "by_key": 0,
+      "by_link": 0,
+      "variant": 136864,
+      "near": 2119236,
+      "new": 11432906,
+      "new_problems": 212259,
+      "new_texts": 266863,
+      "new_located": 0,
+      "why": {
+        "dataset not read by the loose import": 11432906
+      }
+    }
+  },
+  {
+    "source": "hf-aops-instruct",
+    "rows": 1198115,
+    "placed": {
+      "matched": 90086,
+      "by_key": 0,
+      "by_link": 0,
+      "variant": 0,
+      "near": 172756,
+      "new": 935273,
+      "new_problems": 586712,
+      "new_texts": 737629,
+      "sample": 346201,
+      "sample_problems": 275369,
+      "new_located": 0
+    },
+    "all": {
+      "matched": 176402,
+      "by_key": 0,
+      "by_link": 0,
+      "variant": 0,
+      "near": 269729,
+      "new": 751984,
+      "new_problems": 486789,
+      "new_texts": 601779,
+      "sample": 327643,
+      "sample_problems": 265036,
+      "new_located": 0,
+      "why": {
+        "dataset not read by the loose import": 751984
+      }
+    }
   },
   {
     "source": "hf-liveaopsbench",
     "rows": 5328,
-    "matched": 261,
-    "by_key": 0,
-    "variant": 54,
-    "near": 845,
-    "new": 4168,
-    "new_problems": 4094,
-    "new_located": 0
+    "placed": {
+      "matched": 255,
+      "by_key": 0,
+      "by_link": 0,
+      "variant": 52,
+      "near": 823,
+      "new": 4198,
+      "new_problems": 4124,
+      "new_texts": 4194,
+      "new_located": 0
+    },
+    "all": {
+      "matched": 677,
+      "by_key": 0,
+      "by_link": 0,
+      "variant": 125,
+      "near": 1250,
+      "new": 3276,
+      "new_problems": 3224,
+      "new_texts": 3272,
+      "new_located": 0,
+      "why": {
+        "dataset not read by the loose import": 3276
+      }
+    }
   },
   {
     "source": "hf-polymath",
     "rows": 9000,
-    "matched": 1448,
-    "by_key": 0,
-    "variant": 89,
-    "near": 1283,
-    "new": 6180,
-    "new_problems": 4291,
-    "new_located": 0
+    "placed": {
+      "matched": 1347,
+      "by_key": 0,
+      "by_link": 0,
+      "variant": 79,
+      "near": 1152,
+      "new": 6422,
+      "new_problems": 4427,
+      "new_texts": 6420,
+      "new_located": 0
+    },
+    "all": {
+      "matched": 1725,
+      "by_key": 0,
+      "by_link": 0,
+      "variant": 145,
+      "near": 1653,
+      "new": 5477,
+      "new_problems": 4034,
+      "new_texts": 5475,
+      "new_located": 0,
+      "why": {
+        "dataset not read by the loose import": 5477
+      }
+    }
   }
 ]

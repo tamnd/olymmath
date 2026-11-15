@@ -1,0 +1,7 @@
+id: 3bc6a25f13a4
+kind: merge
+records: [1HS3B8GVFZ, 6X04SGCWX1]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem 6X04SGCWX1, from AI-MO AoPS and NuminaMath-1.5, and the record of amc10/2012a/p11 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; amc10/2012a/p11 keeps its answer D. The loose problem became a second statement of amc10/2012a/p11."

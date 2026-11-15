@@ -1,0 +1,7 @@
+id: 572f040af51c
+kind: merge
+records: [3GZNJ5609E, CN1MM36B98]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem CN1MM36B98, from AI-MO AoPS and NuminaMath-1.5, and the record of amc8/2004/p1 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; amc8/2004/p1 keeps its answer B. The loose problem became a second statement of amc8/2004/p1."

@@ -1,0 +1,7 @@
+id: 2416bd351d88
+kind: merge
+records: [HFQ0A9Q5WN, EPXDCDV6JZ]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem EPXDCDV6JZ, from AI-MO AoPS and NuminaMath-1.5, and the record of ahsme/1965/p3 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; ahsme/1965/p3 keeps its answer C. The loose problem became a second statement of ahsme/1965/p3."

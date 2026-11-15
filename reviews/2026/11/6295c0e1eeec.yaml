@@ -1,0 +1,9 @@
+id: 6295c0e1eeec
+kind: merge
+records:
+    - amc12/2005a/p3
+    - amc10/2005a/p4
+decision: accept
+by: agent
+date: "2026-11-15"
+note: 'Agent decision, not a person''s review. amc10/2005a/p4 and amc12/2005a/p3 are one problem of the shared AMC 10 and AMC 12 papers of the edition. The two texts of the record, from hf-amc12-full and from the AMC 10 source, have the same statement and the same five choices, and the answers agree as choice letters. The texts differ only in figure code, wiki links and TeX form, which is why the text signals are low.'

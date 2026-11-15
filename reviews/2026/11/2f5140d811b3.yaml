@@ -1,0 +1,7 @@
+id: 2f5140d811b3
+kind: merge
+records: [8RYA4ZDW4C, 8MWPQ6NZFG]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem 8MWPQ6NZFG, from AI-MO AoPS and NuminaMath-1.5, and the record of ahsme/1958/p36 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; ahsme/1958/p36 keeps its answer D. The loose problem became a second statement of ahsme/1958/p36."

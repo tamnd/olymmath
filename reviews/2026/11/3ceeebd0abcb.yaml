@@ -1,0 +1,7 @@
+id: 3ceeebd0abcb
+kind: merge
+records: [X8JSX3XKJE, M7ZM8VN74R]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem M7ZM8VN74R, from AI-MO AoPS and NuminaMath-1.5, and the record of amc10/2002a/p23 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; amc10/2002a/p23 keeps its answer D. The loose problem became a second statement of amc10/2002a/p23."

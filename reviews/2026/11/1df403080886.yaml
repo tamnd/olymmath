@@ -1,0 +1,7 @@
+id: 1df403080886
+kind: merge
+records: [CB08V1E5X1, ZM9GPWGK46]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem ZM9GPWGK46, from NuminaMath-1.5, and the record of amc10/2012a/p9 state the same problem with the same data and the same question (signal T 1.000). The loose answer $\\frac{1}{3}$ is the value of choice D, the answer of amc10/2012a/p9. The loose problem became a second statement of amc10/2012a/p9."

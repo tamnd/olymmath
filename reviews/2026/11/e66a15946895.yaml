@@ -1,0 +1,7 @@
+id: e66a15946895
+kind: merge
+records: [H3D06CBECC, BKGM2Z9607]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem BKGM2Z9607, from NuminaMath-1.5, and the record of amc10/2012a/p15 state the same problem with the same data and the same question (signal T 1.000). The loose answer $\\frac{1}{5}$ is the value of choice B, the answer of amc10/2012a/p15. The loose problem became a second statement of amc10/2012a/p15."

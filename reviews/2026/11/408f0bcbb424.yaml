@@ -1,0 +1,7 @@
+id: 408f0bcbb424
+kind: merge
+records: [S6PE9F9MJ0, 4BY8BZGV6B]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem 4BY8BZGV6B, from AI-MO AoPS and NuminaMath-1.5, and the record of amc10/2018a/p14 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; amc10/2018a/p14 keeps its answer A. The loose problem became a second statement of amc10/2018a/p14."

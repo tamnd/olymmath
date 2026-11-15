@@ -1,0 +1,7 @@
+id: 1d17ad50abae
+kind: merge
+records: [2H7X8SBC2H, RVEWK198A6]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem RVEWK198A6, from AI-MO AoPS and NuminaMath-1.5, and the record of ahsme/1955/p38 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; ahsme/1955/p38 keeps its answer B. The loose problem became a second statement of ahsme/1955/p38."

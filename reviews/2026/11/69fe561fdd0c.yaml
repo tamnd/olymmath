@@ -1,0 +1,7 @@
+id: 69fe561fdd0c
+kind: merge
+records: [P8A2CJ9B2A, CV8ADJ235P]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem CV8ADJ235P, from NuminaMath-1.5, and the record of amc12/2021-fall-a/p19 state the same problem with the same data and the same question (signal T 1.000). The loose answer gives choice B with the value $13$, the answer of amc12/2021-fall-a/p19. The loose problem became a second statement of amc12/2021-fall-a/p19."

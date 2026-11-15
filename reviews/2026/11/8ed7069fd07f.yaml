@@ -1,0 +1,7 @@
+id: 8ed7069fd07f
+kind: merge
+records: [Z9ZPRF0PBQ, RA4248X0DP]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem RA4248X0DP, from NuminaMath-1.5, and the record of ahsme/1994/p29 state the same problem with the same data and the same question (signal T 1.000). The loose answer $\\frac{1}{2}\\csc{\\frac{1}{4}}$ is the value of choice A, the answer of ahsme/1994/p29. The loose problem became a second statement of ahsme/1994/p29."

@@ -1,0 +1,9 @@
+id: 02af6c69cca0
+kind: pair
+records:
+    - amc12/2002b/p3
+    - amc10/2002b/p6
+decision: same
+by: agent
+date: "2026-11-15"
+note: 'Agent decision, not a person''s review. AMC 10 and AMC 12 of the same edition: the same question on n^2 - 3n + 2 with the same choices; one text has a wiki link on the word prime.'

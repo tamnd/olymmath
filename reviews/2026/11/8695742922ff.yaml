@@ -1,0 +1,7 @@
+id: 8695742922ff
+kind: merge
+records: [P6TV7TK426, HW0K20KR43]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem HW0K20KR43, from AI-MO AoPS and NuminaMath-1.5, and the record of ahsme/1994/p27 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; ahsme/1994/p27 keeps its answer D. The loose problem became a second statement of ahsme/1994/p27."

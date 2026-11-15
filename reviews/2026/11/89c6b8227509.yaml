@@ -1,0 +1,7 @@
+id: 89c6b8227509
+kind: merge
+records: [11BKM02A4N, MEC957H1KC]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem MEC957H1KC, from AI-MO AoPS and NuminaMath-1.5, and the record of amc10/2012a/p14 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; amc10/2012a/p14 keeps its answer B. The loose problem became a second statement of amc10/2012a/p14."

@@ -1,0 +1,7 @@
+id: e8a14cca9082
+kind: merge
+records: [AHKBWWSY03, JDAF5D62XB]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem JDAF5D62XB, from NuminaMath-1.5, and the record of ahsme/1989/p26 state the same problem with the same data and the same question (signal T 1.000). The record had no answer. The loose answer $\\frac{1}{6}$ is the value of choice C, so ahsme/1989/p26 now has the answer C. The loose problem became a second statement of ahsme/1989/p26."

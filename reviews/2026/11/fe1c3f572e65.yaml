@@ -1,0 +1,7 @@
+id: fe1c3f572e65
+kind: merge
+records: [7JTMRGHDF8, TANHTZVP8M]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem TANHTZVP8M, from NuminaMath-1.5, and the record of amc8/2002/p23 state the same problem with the same data and the same question (signal T 1.000). The record had no answer. The loose answer $\\frac{4}{9}$ is the value of choice B, so amc8/2002/p23 now has the answer B. The loose problem became a second statement of amc8/2002/p23."

@@ -1,0 +1,7 @@
+id: ca62c9e7fa53
+kind: merge
+records: [AMRVWTBSFC, 6AKP2AVN0K]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem 6AKP2AVN0K, from NuminaMath-1.5, and the record of amc8/1999/p23 state the same problem with the same data and the same question (signal T 1.000). The record had no answer. The loose answer gives choice C with the value $\\sqrt{13}$, so amc8/1999/p23 now has the answer C. The loose problem became a second statement of amc8/1999/p23."

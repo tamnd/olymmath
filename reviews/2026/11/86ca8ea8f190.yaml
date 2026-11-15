@@ -1,0 +1,7 @@
+id: 86ca8ea8f190
+kind: merge
+records: [4MPZCA76W9, BKQM7NCKJ1]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem BKQM7NCKJ1, from AI-MO AoPS and NuminaMath-1.5, and the record of ahsme/1954/p44 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; ahsme/1954/p44 keeps its answer E. The loose problem became a second statement of ahsme/1954/p44."

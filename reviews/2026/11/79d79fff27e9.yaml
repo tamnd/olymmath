@@ -1,0 +1,7 @@
+id: 79d79fff27e9
+kind: merge
+records: [ET48XVAM3P, C6X6HYDSHA]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem C6X6HYDSHA, from AI-MO AoPS and NuminaMath-1.5, and the record of amc8/1998/p7 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; amc8/1998/p7 keeps its answer D. The loose problem became a second statement of amc8/1998/p7."

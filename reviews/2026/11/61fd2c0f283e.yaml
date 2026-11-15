@@ -1,0 +1,9 @@
+id: 61fd2c0f283e
+kind: pair
+records:
+    - amc10/2021a/p8
+    - amc12/2021a/p5
+decision: same
+by: agent
+date: "2026-11-15"
+note: Agent decision, not a person's review. An AMC 10 and AMC 12 problem of the same edition with the same text word for word (T 1). The import did not write the second appearance because its text is the text of the record (rule D01), so the appearance was added to the record by hand, with the AMC 12 appearance as the primary one.

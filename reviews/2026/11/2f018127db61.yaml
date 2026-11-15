@@ -1,0 +1,7 @@
+id: 2f018127db61
+kind: merge
+records: [SDWEJ9JEFT, MYPBB1Q5VZ]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem MYPBB1Q5VZ, from AI-MO AoPS and NuminaMath-1.5, and the record of ahsme/1964/p21 state the same problem with the same data and the same question (signal T 1.000). Neither has an answer. The loose problem became a second statement of ahsme/1964/p21."

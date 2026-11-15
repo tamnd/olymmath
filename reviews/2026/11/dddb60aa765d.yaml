@@ -1,0 +1,8 @@
+id: dddb60aa765d
+kind: dispute
+records:
+    - ahsme/1965/p1
+decision: reject
+by: agent
+date: "2026-11-15"
+note: Agent decision, not a person's review. The row gives B (1). 2x^2 - 7x + 5 = 0 has the two real roots 1 and 5/2, so the answer is C (2). NuminaMath-1.5 (amc_aime) gives (C) 2 and the other wiki row of the page gives C with 2. The record now has the answer C.

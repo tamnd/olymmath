@@ -1,0 +1,7 @@
+id: 330a67102160
+kind: merge
+records: [CSAN8XXS21, RD14GZG7GK]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem RD14GZG7GK, from AI-MO AoPS and NuminaMath-1.5, and the record of amc10/2018a/p6 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; amc10/2018a/p6 keeps its answer B. The loose problem became a second statement of amc10/2018a/p6."

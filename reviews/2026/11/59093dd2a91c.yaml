@@ -1,0 +1,8 @@
+id: 59093dd2a91c
+kind: dispute
+records:
+    - amc10/2009a/p24
+decision: keep
+by: agent
+date: "2026-11-15"
+note: Agent decision, not a person's review. The row gives 47, which is 4/7 with the fraction lost. 4/7 is choice C, and NuminaMath-1.5 (amc_aime) gives 4/7. The record now has the answer C.

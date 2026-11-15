@@ -1,0 +1,8 @@
+id: cdbf5216677e
+kind: dispute
+records:
+    - amc10/2016b/p20
+decision: keep
+by: agent
+date: "2026-11-15"
+note: Agent decision, not a person's review. The row gives 13, which is sqrt 13 with the root lost. sqrt 13 is choice C, and NuminaMath-1.5 (amc_aime) gives sqrt 13. The record now has the answer C.

@@ -1,0 +1,7 @@
+id: ac27d9a8aa19
+kind: merge
+records: [JYWVRMF35S, TGWR9E6DP4]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem TGWR9E6DP4, from AI-MO AoPS and NuminaMath-1.5, and the record of amc8/2001/p22 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; amc8/2001/p22 keeps its answer E. The loose problem became a second statement of amc8/2001/p22."

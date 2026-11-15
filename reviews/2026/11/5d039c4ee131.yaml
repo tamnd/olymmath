@@ -1,0 +1,7 @@
+id: 5d039c4ee131
+kind: merge
+records: [NCJ8WV8WV5, WSJRCJ2201]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem WSJRCJ2201, from AI-MO AoPS and NuminaMath-1.5, and the record of ahsme/1977/p10 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; ahsme/1977/p10 keeps its answer E. The loose problem became a second statement of ahsme/1977/p10."

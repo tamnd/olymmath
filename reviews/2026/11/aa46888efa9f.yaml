@@ -1,0 +1,7 @@
+id: aa46888efa9f
+kind: merge
+records: [BBTS24Y3AN, XAXC9D65VD]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem XAXC9D65VD, from AI-MO AoPS and NuminaMath-1.5, and the record of ahsme/1997/p7 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; ahsme/1997/p7 keeps its answer D. The loose problem became a second statement of ahsme/1997/p7."

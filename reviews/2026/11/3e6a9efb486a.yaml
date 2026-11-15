@@ -1,0 +1,8 @@
+id: 3e6a9efb486a
+kind: dispute
+records:
+    - amc8/1985/p8
+decision: keep
+by: agent
+date: "2026-11-15"
+note: Agent decision, not a person's review. The row gives A with the value 3, the number of -3a. For a = -2 the set is 6, -8, -12, 4, 1, so the largest is -3a = 6, choice A. NuminaMath-1.5 (amc_aime) gives 6. The record now has the answer A.

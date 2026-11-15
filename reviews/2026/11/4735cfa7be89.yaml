@@ -1,0 +1,7 @@
+id: 4735cfa7be89
+kind: merge
+records: [BR1XGJJN9M, NMASZEF9AC]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem NMASZEF9AC, from NuminaMath-1.5, and the record of amc10/2009a/p10 state the same problem with the same data and the same question (signal T 1.000). The record had no answer. The loose answer $7\\sqrt{3}$ is the value of choice B, so amc10/2009a/p10 now has the answer B. The loose problem became a second statement of amc10/2009a/p10."

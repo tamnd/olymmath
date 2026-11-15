@@ -1,0 +1,7 @@
+id: 6d678d64e6fa
+kind: merge
+records: [VDNV4B22A9, H1MCN2JB0A]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem H1MCN2JB0A, from AI-MO AoPS and NuminaMath-1.5, and the record of ahsme/1955/p17 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; ahsme/1955/p17 keeps its answer C. The loose problem became a second statement of ahsme/1955/p17."

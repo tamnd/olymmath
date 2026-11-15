@@ -1,0 +1,7 @@
+id: 1a31af2d28da
+kind: merge
+records: [ZDS834NPZF, FG8R93EGVJ]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem FG8R93EGVJ, from AI-MO AoPS and NuminaMath-1.5, and the record of amc8/2005/p5 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; amc8/2005/p5 keeps its answer B. The loose problem became a second statement of amc8/2005/p5."

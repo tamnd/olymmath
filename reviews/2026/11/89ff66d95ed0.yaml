@@ -1,0 +1,7 @@
+id: 89ff66d95ed0
+kind: merge
+records: [CBW5XNQZW8, 7V2ZAT8DXE]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem 7V2ZAT8DXE, from AI-MO AoPS and NuminaMath-1.5, and the record of amc10/2002a/p20 state the same problem with the same data and the same question (signal T 1.000). Neither has an answer. The loose problem became a second statement of amc10/2002a/p20."

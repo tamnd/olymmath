@@ -1,0 +1,7 @@
+id: 26c4e0023f27
+kind: merge
+records: [KFV6NVMZE3, SN14P5Z68B]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem SN14P5Z68B, from AI-MO AoPS and NuminaMath-1.5, and the record of ahsme/1989/p16 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; ahsme/1989/p16 keeps its answer B. The loose problem became a second statement of ahsme/1989/p16."

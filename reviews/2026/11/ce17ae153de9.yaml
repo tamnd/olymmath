@@ -1,0 +1,7 @@
+id: ce17ae153de9
+kind: merge
+records: [PBRX9SD0BZ, S6MR1D6XP1]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem S6MR1D6XP1, from NuminaMath-1.5, and the record of amc10/2007b/p19 state the same problem with the same data and the same question (signal T 1.000). The loose answer gives choice C with the value $\\frac{1}{2}$, the answer of amc10/2007b/p19. The loose problem became a second statement of amc10/2007b/p19."

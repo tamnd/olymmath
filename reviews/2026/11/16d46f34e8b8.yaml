@@ -1,0 +1,8 @@
+id: 16d46f34e8b8
+kind: dispute
+records:
+    - amc12/2021-fall-b/p9
+decision: keep
+by: agent
+date: "2026-11-15"
+note: 'Agent decision, not a person''s review. The row gives 12, which is 12 pi with pi lost; the four other wiki rows of the page give B. No NuminaMath row has the problem, so the second check is a computation: angle AOC is 120 degrees and AC = 6, so the circle through A, O and C has radius 6/(2 sin 120) = 2 sqrt 3 and area 12 pi, choice B. The record now has the answer B.'

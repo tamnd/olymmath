@@ -1,0 +1,9 @@
+id: 1ddf4270a42c
+kind: pair
+records:
+    - amc12/2014b/p19
+    - amc10/2014b/p23
+decision: same
+by: agent
+date: "2026-11-15"
+note: 'Agent decision, not a person''s review. AMC 10 and AMC 12 of the same edition: the same sphere in a truncated cone. The answers differ only in form: E of the AMC 12 record is the choice (3+sqrt5)/2 that the AMC 10 record gives as a value.'

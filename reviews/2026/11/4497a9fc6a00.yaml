@@ -1,0 +1,8 @@
+id: 4497a9fc6a00
+kind: dispute
+records:
+    - amc12/2004b/p13
+decision: reject
+by: agent
+date: "2026-11-15"
+note: 'Agent decision, not a person''s review. The row gives 2, which is the value of choice E, but the minus was lost: from a(bx + a) + b = x, ab = 1 and a^2 + b = 0, so a = b = -1 and a + b = -2, choice A, as the record has.'

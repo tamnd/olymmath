@@ -152,3 +152,19 @@
 - competition: za-samo
   reason: no-source
   note: The site and archive of the South African olympiad are not confirmed, so no allowed source gives these positions.
+- competition: ahsme
+  years: ["1950-1951", "1953-1961", "1963-1967", "1971-1978", "1981-1982", "1984-1990", "1992", "1994-1998"]
+  reason: no-source
+  note: The AoPS wiki pages (source hf-aops-wiki-pages) miss many AHSME pages, most of 1953 to 1959, 1963 to 1966 and 1971 to 1972, and no other seed source gives these positions. The MAA papers (source maa-amc) are PDF files that are not imported yet, and the AoPS wiki itself (source aops-wiki) is behind a Cloudflare challenge, which is not circumvented.
+- competition: amc8
+  years: ["1985-1987", "1989-1990", "1993-1994", "1997-2005", "2012", "2014", "2016-2017", "2022-2023", "2025-2026"]
+  reason: no-source
+  note: The AoPS wiki pages (source hf-aops-wiki-pages) have no AMC 8 page after 2024 and miss a few pages of the other years, and no other seed source gives these positions. The MAA papers (source maa-amc) are PDF files that are not imported yet, and the AoPS wiki itself (source aops-wiki) is behind a Cloudflare challenge, which is not circumvented.
+- competition: amc10
+  years: ["2000-2016", "2018-2019", "2023-2026"]
+  reason: no-source
+  note: The AoPS wiki pages (source hf-aops-wiki-pages) have no AMC 10 page after 2023 and miss some pages of the other years, such as 12 pages of 2001 and 9 of 2015 B, and no other seed source gives these positions. The MAA papers (source maa-amc) are PDF files that are not imported yet, and the AoPS wiki itself (source aops-wiki) is behind a Cloudflare challenge, which is not circumvented.
+- competition: amc12
+  years: ["2021", "2025-2026"]
+  reason: no-source
+  note: The AoPS wiki pages (source hf-aops-wiki-pages) miss 28 pages of the four papers of 2021. The seed rows of hf-amc12-full have no problem of 2021, no problem 25 of 2025 A and no paper of 2026. The MAA papers (source maa-amc) are PDF files that are not imported yet, and the AoPS wiki itself (source aops-wiki) is behind a Cloudflare challenge, which is not circumvented.

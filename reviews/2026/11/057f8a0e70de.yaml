@@ -1,0 +1,7 @@
+id: 057f8a0e70de
+kind: merge
+records: [RX6N7V47QA, 9WH4JVVPKQ]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem 9WH4JVVPKQ, from NuminaMath-1.5, and the record of ahsme/1964/p29 state the same problem with the same data and the same question (signal T 1.000). The loose answer 6.25 is not one of the choices as the text of ahsme/1964/p29 gives them (choice E reads 6 1/2). The similar triangles FDR and RFS, with ratio 5/4, give RS = 25/4, so choice E is probably 6 1/4 mistyped; the record keeps no answer until the choices are checked against a paper. The loose problem became a second statement of ahsme/1964/p29."

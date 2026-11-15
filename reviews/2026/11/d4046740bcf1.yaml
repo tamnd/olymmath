@@ -1,0 +1,7 @@
+id: d4046740bcf1
+kind: merge
+records: [4CCYP75C9T, T0G8FHTE1E]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem T0G8FHTE1E, from AI-MO AoPS and NuminaMath-1.5, and the record of amc10/2013a/p25 state the same problem with the same data and the same question (signal T 0.951). The texts differ in spacing and in the number 20 before the word diagonals, which the loose text leaves out. The loose problem had no answer; amc10/2013a/p25 keeps its answer A. The loose problem became a second statement of amc10/2013a/p25."

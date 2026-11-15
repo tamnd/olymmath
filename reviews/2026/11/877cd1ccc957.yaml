@@ -1,0 +1,7 @@
+id: 877cd1ccc957
+kind: merge
+records: [4B61J2FHEE, 873W2Y7M3X]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem 873W2Y7M3X, from AI-MO AoPS and NuminaMath-1.5, and the record of ahsme/1959/p19 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; ahsme/1959/p19 keeps its answer B. The loose problem became a second statement of ahsme/1959/p19."

@@ -1,0 +1,7 @@
+id: ff1b2dd9aba5
+kind: merge
+records: [FYDGXAKN89, RGN2NS9HEF]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem RGN2NS9HEF, from NuminaMath-1.5, and the record of amc10/2009b/p20 state the same problem with the same data and the same question (signal T 1.000). The record had no answer. The loose answer $\\frac{\\sqrt{5}-1}{2}$ is the value of choice B, so amc10/2009b/p20 now has the answer B. The loose problem became a second statement of amc10/2009b/p20."

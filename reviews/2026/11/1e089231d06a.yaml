@@ -1,0 +1,7 @@
+id: 1e089231d06a
+kind: merge
+records: [YQZWHZE8J6, R4TY2V6N1P]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem R4TY2V6N1P, from AI-MO AoPS and NuminaMath-1.5, and the record of ahsme/1994/p4 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; ahsme/1994/p4 keeps its answer A. The loose problem became a second statement of ahsme/1994/p4."

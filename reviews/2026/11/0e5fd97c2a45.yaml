@@ -1,0 +1,8 @@
+id: 0e5fd97c2a45
+kind: dispute
+records:
+    - amc10/2009b/p16
+decision: keep
+by: agent
+date: "2026-11-15"
+note: Agent decision, not a person's review. The row gives 12, which is 1/2 with the fraction lost; the other wiki row of the page gives B with 12. 1/2 is choice B, and NuminaMath-1.5 (amc_aime) gives 1/2. The record now has the answer B.

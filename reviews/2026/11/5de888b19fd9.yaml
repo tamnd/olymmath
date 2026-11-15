@@ -1,0 +1,7 @@
+id: 5de888b19fd9
+kind: merge
+records: [P8685Q96Y1, GS3CRBB4B8]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem GS3CRBB4B8, from AI-MO AoPS and NuminaMath-1.5, and the record of ahsme/1958/p31 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; ahsme/1958/p31 keeps its answer B. The loose problem became a second statement of ahsme/1958/p31."

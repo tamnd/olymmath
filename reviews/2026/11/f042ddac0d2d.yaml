@@ -1,0 +1,7 @@
+id: f042ddac0d2d
+kind: merge
+records: [RJXQMGAKDH, N19BRTPQAM]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem N19BRTPQAM, from AI-MO AoPS and NuminaMath-1.5, and the record of ahsme/1987/p10 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; ahsme/1987/p10 keeps its answer D. The loose problem became a second statement of ahsme/1987/p10."

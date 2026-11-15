@@ -1,0 +1,7 @@
+id: 4e3e0374bc5f
+kind: merge
+records: [P3R472915E, 8JR515PNF1]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem 8JR515PNF1, from AI-MO AoPS and NuminaMath-1.5, and the record of amc8/2010/p12 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; amc8/2010/p12 keeps its answer D. The loose problem became a second statement of amc8/2010/p12."

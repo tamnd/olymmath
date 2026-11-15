@@ -1,0 +1,7 @@
+id: b267402935ef
+kind: merge
+records: [75H5DRP69E, 88BTFKNJAP]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem 88BTFKNJAP, from AI-MO AoPS and NuminaMath-1.5, and the record of amc10/2015b/p15 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; amc10/2015b/p15 keeps its answer B. The loose problem became a second statement of amc10/2015b/p15."

@@ -1,0 +1,7 @@
+id: 234fd201f2f7
+kind: merge
+records: [7SFW6M17P9, FG8Z213FQT]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem FG8Z213FQT, from NuminaMath-1.5, and the record of ahsme/1987/p28 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; ahsme/1987/p28 keeps its answer D. The loose problem became a second statement of ahsme/1987/p28."

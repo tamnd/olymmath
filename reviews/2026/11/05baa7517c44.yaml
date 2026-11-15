@@ -1,0 +1,7 @@
+id: 05baa7517c44
+kind: merge
+records: [NJ1KPHRBQ5, 6Q4REZASXT]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem 6Q4REZASXT, from NuminaMath-1.5, and the record of ahsme/1986/p21 state the same problem with the same data and the same question (signal T 1.000). The loose answer $\\tan\\theta=2\\theta$ is the value of choice B, the answer of ahsme/1986/p21. The loose problem became a second statement of ahsme/1986/p21."

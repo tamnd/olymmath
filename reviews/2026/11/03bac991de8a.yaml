@@ -1,0 +1,7 @@
+id: 03bac991de8a
+kind: merge
+records: [2CZ67MBB40, S78YT3D4PN]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem S78YT3D4PN, from AI-MO AoPS and NuminaMath-1.5, and the record of amc8/2005/p1 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; amc8/2005/p1 keeps its answer B. The loose problem became a second statement of amc8/2005/p1."

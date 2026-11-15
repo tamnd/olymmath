@@ -1,0 +1,7 @@
+id: 88265c70acb0
+kind: merge
+records: [AC4G6EZR6B, TTPB3W8JNA]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem TTPB3W8JNA, from NuminaMath-1.5, and the record of ahsme/1997/p1 state the same problem with the same data and the same question (signal T 1.000). The loose answer $7$ is the value of choice C, the answer of ahsme/1997/p1. The loose problem became a second statement of ahsme/1997/p1."

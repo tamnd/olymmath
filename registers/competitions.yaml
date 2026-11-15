@@ -993,7 +993,7 @@
   official_solutions: true
   languages: [en]
   copyright: Copyright MAA.
-  sources: [maa-amc, aops-wiki, hf-aops-wiki]
+  sources: [maa-amc, aops-wiki, hf-aops-wiki-pages, hf-aops-wiki]
   description: The multiple choice examination that came before the AMC 12. It had 50 problems from 1950 to 1959, 40 from 1960 to 1967, 35 from 1968 to 1973 and 30 from 1974 to 1999.
 
 - code: amc8
@@ -1012,7 +1012,7 @@
   official_solutions: true
   languages: [en]
   copyright: Copyright MAA.
-  sources: [maa-amc, aops-wiki, hf-aops-wiki]
+  sources: [maa-amc, aops-wiki, hf-aops-wiki-pages, hf-aops-wiki]
   description: A multiple choice contest of 25 problems for middle school students. It was called AJHSME until 1998. There was no contest in 2021, because the contest moved from November 2021 to January 2022.
 
 - code: amc10
@@ -1033,7 +1033,7 @@
   official_solutions: true
   languages: [en]
   copyright: Copyright MAA. Older notices allow non-commercial web posting with the notice. The 2015 AMC 10B notice allows paper copies only.
-  sources: [maa-amc, aops-wiki, hf-aops-wiki]
+  sources: [maa-amc, aops-wiki, hf-aops-wiki-pages, hf-aops-wiki]
   description: A multiple choice contest of 25 problems for students in grade 10 and below. It has two papers, A and B, from 2002. In 2021 it also had the two papers of the fall, with the editions 2021-fall-a and 2021-fall-b.
 
 - code: amc12
@@ -1054,7 +1054,7 @@
   official_solutions: true
   languages: [en]
   copyright: Copyright MAA.
-  sources: [maa-amc, aops-wiki, hf-aops-wiki, hf-amc12-full, minif2f-v2]
+  sources: [maa-amc, aops-wiki, hf-aops-wiki-pages, hf-aops-wiki, hf-amc12-full, minif2f-v2]
   description: A multiple choice contest of 25 problems for high school students, with papers A and B from 2002. About 10 to 15 problems of each paper are shared with the AMC 10. In 2021 it also had the two papers of the fall, with the editions 2021-fall-a and 2021-fall-b.
 
 - code: aime

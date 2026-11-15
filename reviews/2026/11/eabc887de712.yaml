@@ -1,0 +1,9 @@
+id: eabc887de712
+kind: merge
+records:
+    - amc12/2020b/p9
+    - amc10/2020b/p10
+decision: accept
+by: agent
+date: "2026-11-15"
+note: 'Agent decision, not a person''s review. amc10/2020b/p10 and amc12/2020b/p9 are one problem of the shared AMC 10 and AMC 12 papers of the edition. The two texts of the record, from hf-amc12-full and from the AMC 10 source, have the same statement and the same five choices, and the answers agree as choice letters. The AMC 10 record had the value 3\pi\sqrt{7}, which is choice C. The texts differ only in figure code, wiki links and TeX form, which is why the text signals are low.'

@@ -1,0 +1,7 @@
+id: 5e3cdf374a2a
+kind: merge
+records: [DFR012T1VN, BSF5BP2QAK]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem BSF5BP2QAK, from AI-MO AoPS and NuminaMath-1.5, and the record of ahsme/1959/p9 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; ahsme/1959/p9 keeps its answer C. The loose problem became a second statement of ahsme/1959/p9."

@@ -1,0 +1,7 @@
+id: fd07b3f42494
+kind: merge
+records: [C1412EG9Y5, FXW2JJF4P4]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem FXW2JJF4P4, from AI-MO AoPS and NuminaMath-1.5, and the record of ahsme/1958/p42 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; ahsme/1958/p42 keeps its answer E. The loose problem became a second statement of ahsme/1958/p42."

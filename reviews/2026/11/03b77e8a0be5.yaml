@@ -1,0 +1,7 @@
+id: 03b77e8a0be5
+kind: merge
+records: [CVT9A2J3R0, 5H8F8NF5SB]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem 5H8F8NF5SB, from AI-MO AoPS and NuminaMath-1.5, and the record of amc10/2011a/p20 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; amc10/2011a/p20 keeps its answer D. The loose problem became a second statement of amc10/2011a/p20."

@@ -1,0 +1,8 @@
+id: bf637fe6aa73
+kind: dispute
+records:
+    - amc10/2017a/p18
+decision: reject
+by: agent
+date: "2026-11-15"
+note: Agent decision, not a person's review. The row gives 59, the digits of 5/9, which is the probability that Amelia wins and not q - p. With p/q = 5/9 the answer is q - p = 4, as the record has.

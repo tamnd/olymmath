@@ -1,0 +1,7 @@
+id: 2114c29c712d
+kind: merge
+records: [9XW1V9J6QX, EA7EBEFT2Y]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem EA7EBEFT2Y, from NuminaMath-1.5, and the record of amc12/2021-fall-b/p21 state the same problem with the same data and the same question (signal T 1.000). The loose answer $0$ is the value of choice A, the answer of amc12/2021-fall-b/p21. The loose problem became a second statement of amc12/2021-fall-b/p21."

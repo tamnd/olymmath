@@ -1,0 +1,7 @@
+id: 8e984562058f
+kind: merge
+records: [5PTS3SFBRS, YV65A9F3NE]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem YV65A9F3NE, from NuminaMath-1.5, and the record of amc10/2005b/p14 state the same problem with the same data and the same question (signal T 1.000). The loose answer $\\frac{\\sqrt{3}}{2}$ is the value of choice C, the answer of amc10/2005b/p14. The loose problem became a second statement of amc10/2005b/p14."

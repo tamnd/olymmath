@@ -1,0 +1,7 @@
+id: 14ae0509fdc9
+kind: merge
+records: [6P3B8SM80K, RJZT10P5N5]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem RJZT10P5N5, from AI-MO AoPS and NuminaMath-1.5, and the record of ahsme/1953/p37 state the same problem with the same data and the same question (signal T 1.000). Neither has an answer. The loose problem became a second statement of ahsme/1953/p37."

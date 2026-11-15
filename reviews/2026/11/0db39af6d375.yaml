@@ -1,0 +1,7 @@
+id: 0db39af6d375
+kind: merge
+records: [2S6Y0A55AC, 23DD06DG8J]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem 23DD06DG8J, from AI-MO AoPS and NuminaMath-1.5, and the record of amc10/2002a/p19 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; amc10/2002a/p19 keeps its answer E. The loose problem became a second statement of amc10/2002a/p19."

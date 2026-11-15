@@ -1,0 +1,7 @@
+id: 81052dc510c8
+kind: merge
+records: [TSZGV1S2JH, X5PSX0J0B4]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem X5PSX0J0B4, from AI-MO AoPS and NuminaMath-1.5, and the record of ahsme/1986/p26 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; ahsme/1986/p26 keeps its answer C. The loose problem became a second statement of ahsme/1986/p26."

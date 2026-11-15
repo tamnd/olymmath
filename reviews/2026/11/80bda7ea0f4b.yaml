@@ -1,0 +1,7 @@
+id: 80bda7ea0f4b
+kind: merge
+records: [KMD7S2EPT8, 4TDCT2W9RE]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem 4TDCT2W9RE, from NuminaMath-1.5, and the record of amc8/2010/p23 state the same problem with the same data and the same question (signal T 1.000). The loose answer gives choice B with the value $\\frac{1}{2}$, the answer of amc8/2010/p23. The loose problem became a second statement of amc8/2010/p23."

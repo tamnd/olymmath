@@ -1,0 +1,7 @@
+id: 836a74aaafd9
+kind: merge
+records: [9RHE4EXFQP, EGW8VDDT5H]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem EGW8VDDT5H, from NuminaMath-1.5, and the record of amc8/2023/p17 state the same problem with the same data and the same question (signal T 1.000). The loose answer gives choice A with the value $1$, the answer of amc8/2023/p17. The loose problem became a second statement of amc8/2023/p17."

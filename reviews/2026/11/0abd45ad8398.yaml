@@ -1,0 +1,8 @@
+id: 0abd45ad8398
+kind: dispute
+records:
+    - amc12/2013a/p18
+decision: reject
+by: agent
+date: "2026-11-15"
+note: Agent decision, not a person's review. The row gives E with 32, which is 3/2 with the fraction lost, and 3/2 is choice B, not E. The big sphere has radius 3, and (3 - r)^2 + 4 = (1 + r)^2 gives r = 3/2. The record keeps B.

@@ -1,0 +1,7 @@
+id: a59ff9c23c28
+kind: merge
+records: [C7FWZJK4VM, ZF0QV5GT5T]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem ZF0QV5GT5T, from NuminaMath-1.5, and the record of ahsme/1982/p18 state the same problem with the same data and the same question (signal T 1.000). The loose answer $\\frac{\\sqrt{6}}{4}$ is the value of choice D, the answer of ahsme/1982/p18. The loose problem became a second statement of ahsme/1982/p18."

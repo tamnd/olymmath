@@ -1,0 +1,9 @@
+id: 9b68856ad6e5
+kind: pair
+records:
+    - amc12/2023a/p21
+    - amc10/2023a/p25
+decision: same
+by: agent
+date: "2026-11-15"
+note: 'Agent decision, not a person''s review. AMC 10 and AMC 12 of the same edition: the same icosahedron distance problem with the same choices. The AMC 12 record gives A (7/22). The AMC 10 record had the value 20, which is no choice and is wrong: the probability is 7/22. The merged record keeps A.'

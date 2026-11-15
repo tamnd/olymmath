@@ -1,0 +1,7 @@
+id: bf183a866d29
+kind: merge
+records: [KTP7KWESTY, HMEQKN3XGP]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem HMEQKN3XGP, from AI-MO AoPS and NuminaMath-1.5, and the record of ahsme/1957/p42 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; ahsme/1957/p42 keeps its answer C. The loose problem became a second statement of ahsme/1957/p42."

@@ -1,0 +1,7 @@
+id: f085ce4b3c59
+kind: merge
+records: [MQ10D4CBY0, F3F7JFMGQY]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem F3F7JFMGQY, from AI-MO AoPS and NuminaMath-1.5, and the record of amc10/2023a/p13 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; amc10/2023a/p13 keeps its answer C. The loose problem became a second statement of amc10/2023a/p13."

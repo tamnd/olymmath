@@ -128,7 +128,7 @@
   wave: 0
   state: planned
   terms: The dataset card gives the MIT licence (https://huggingface.co/datasets/sandropa/aops-problems). The texts come from the AoPS wiki and keep the rights of AoPS and of the competitions, so the dataset licence does not cover them (spec 11.1), and the statements stay Z2 with ai_train no.
-  notes: AMC, AIME and USAMO statements and wiki solutions with page links.
+  notes: Despite the id, the rows are not AoPS wiki pages. They are posts of the Contest Collections of the AoPS community, with the post links, mostly of olympiads, team selection tests and shortlists of many countries, such as the IMO Shortlist, the All-Russian Olympiad and the China TST. Only about 370 rows are USAMO, AMC, AHSME or AIME problems, most of them USAMO. The AoPS wiki pages of these competitions are source hf-aops-wiki-pages.
 
 - id: hf-openmathreasoning
   name: OpenMathReasoning
@@ -276,6 +276,22 @@
   state: planned
   terms: The dataset card states no licence. The problems are MAA texts, so the MAA notice applies.
   notes: All AMC 12 problems from 2000 to 2025 with the answer letters, except the two papers of fall 2021. Each id gives the year, the paper and the problem.
+
+- id: hf-aops-wiki-pages
+  name: AoPS wiki AMC, AIME and USAMO pages
+  kind: dataset
+  origin: D
+  url: https://huggingface.co/datasets/sudhanshu746/artofproblemsolving
+  access: hf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: 'no'
+  size: 8,818 problems
+  wave: 0
+  state: planned
+  terms: The dataset card gives the MIT licence (https://huggingface.co/datasets/sudhanshu746/artofproblemsolving). The texts come from the AoPS wiki and keep the rights of AoPS and of the MAA, so the dataset licence does not cover them (spec 11.1), and the statements stay Z2 with ai_train no. The MAA notice is kept.
+  notes: The problem pages of the AoPS wiki for the AHSME, AJHSME, AMC 8, AMC 10, AMC 12, AIME, USAMO and USAJMO, each with its page link, the wiki solutions, the answer letter and the answer value. The link gives the year, the paper and the number. It has no AMC 10 or AMC 12 page after 2023, no AMC 8 or AIME page after 2024, and it misses many AHSME pages of 1953 to 1959 and of 1963 to 1966. The sets sparsh35/aops and pkuAI4M/AOPS hold subsets of the same rows with the same texts, and kaggle-aimo/amc_filtered holds 1,068 of them with the answer choices removed.
 
 - id: hf-putnam-1995-2025
   name: Putnam 1995 to 2025

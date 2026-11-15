@@ -1,0 +1,7 @@
+id: 1adfb39006ef
+kind: merge
+records: [E1MCFXVZKP, VW087H26YZ]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem VW087H26YZ, from NuminaMath-1.5, and the record of amc8/2004/p21 state the same problem with the same data and the same question (signal T 1.000). The record had no answer. The loose answer $\\frac{2}{3}$ is the value of choice D, so amc8/2004/p21 now has the answer D. The loose problem became a second statement of amc8/2004/p21."

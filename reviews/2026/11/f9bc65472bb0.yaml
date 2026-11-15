@@ -1,0 +1,7 @@
+id: f9bc65472bb0
+kind: merge
+records: [9HT0K24HF8, STBEV4DEVN]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem STBEV4DEVN, from AI-MO AoPS and NuminaMath-1.5, and the record of ahsme/1963/p27 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; ahsme/1963/p27 keeps its answer C. The loose problem became a second statement of ahsme/1963/p27."

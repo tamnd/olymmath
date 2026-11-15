@@ -1,0 +1,8 @@
+id: b788e89f5274
+kind: dispute
+records:
+    - amc12/2022a/p8
+decision: reject
+by: agent
+date: "2026-11-15"
+note: 'Agent decision, not a person''s review. The row gives 10, which is the value of choice D, but the root was lost: the product is 10^(1/3 + 1/9 + ...) = 10^(1/2) = sqrt 10, choice A, as the record has.'

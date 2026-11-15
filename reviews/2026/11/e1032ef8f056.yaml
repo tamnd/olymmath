@@ -1,0 +1,7 @@
+id: e1032ef8f056
+kind: merge
+records: [76BA5N9WY2, MVF8JYSFBV]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem MVF8JYSFBV, from AI-MO AoPS and NuminaMath-1.5, and the record of amc8/2002/p19 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; amc8/2002/p19 keeps its answer D. The loose problem became a second statement of amc8/2002/p19."

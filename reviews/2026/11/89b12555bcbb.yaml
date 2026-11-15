@@ -1,0 +1,7 @@
+id: 89b12555bcbb
+kind: merge
+records: [Q2GS6FPGPG, EJEZX75YQY]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem EJEZX75YQY, from AI-MO AoPS and NuminaMath-1.5, and the record of amc10/2016a/p5 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; amc10/2016a/p5 keeps its answer D. The loose problem became a second statement of amc10/2016a/p5."

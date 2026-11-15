@@ -1,0 +1,7 @@
+id: c7fff2e6c2f0
+kind: merge
+records: [SV1BH6T5HZ, RERVFN4FWJ]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem RERVFN4FWJ, from AI-MO AoPS and NuminaMath-1.5, and the record of amc8/2002/p17 state the same problem with the same data and the same question (signal T 1.000). The loose problem had no answer; amc8/2002/p17 keeps its answer C. The loose problem became a second statement of amc8/2002/p17."

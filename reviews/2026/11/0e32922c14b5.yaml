@@ -1,0 +1,7 @@
+id: 0e32922c14b5
+kind: merge
+records: [KHVJ6B4PWH, Q6D07F3HX2]
+decision: accept
+by: agent
+date: "2026-11-15"
+note: "Agent decision, not a person's review. The loose problem Q6D07F3HX2, from NuminaMath-1.5, and the record of amc8/2000/p15 state the same problem with the same data and the same question (signal T 1.000). The loose answer $15$ is the value of choice C, the answer of amc8/2000/p15. The loose problem became a second statement of amc8/2000/p15."

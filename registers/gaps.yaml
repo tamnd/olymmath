@@ -168,3 +168,16 @@
   years: ["2021", "2025-2026"]
   reason: no-source
   note: The AoPS wiki pages (source hf-aops-wiki-pages) miss 28 pages of the four papers of 2021. The seed rows of hf-amc12-full have no problem of 2021, no problem 25 of 2025 A and no paper of 2026. The MAA papers (source maa-amc) are PDF files that are not imported yet, and the AoPS wiki itself (source aops-wiki) is behind a Cloudflare challenge, which is not circumvented.
+
+# Census of Western, Northern and Central Europe (2026-11-16), the United Kingdom, Ireland, France and the Benelux.
+- competition: lu-mo
+  reason: no-source
+  note: No paper of the Luxembourg olympiad was found on the web in the census of 2026-11-16.
+- competition: ie-prism
+  years: ["2014-2015"]
+  reason: robots
+  note: The paper of 2015 and the sample problems of 2014 are only on Maths Week Ireland pages under /2016 and /2018, which the robots.txt of www.mathsweek.ie disallows (source mathsweek-prism, checked 2026-11-16).
+- competition: ie-prism
+  years: ["2006-2013", "2018-2026"]
+  reason: no-source
+  note: These papers are only on the PRISM site of the University of Galway, which needs a registration (a login), so no allowed source gives them (census of 2026-11-16).

@@ -2069,6 +2069,8 @@
 - code: uk-ukmt
   name: UKMT Challenges, Kangaroos and Olympiads
   group: national
+  level: high-school
+  levels: [junior, high-school]
   country: GB
   organizer: UKMT
   url: https://www.ukmt.org.uk/free-past-papers/
@@ -2077,8 +2079,171 @@
   official_solutions: true
   languages: [en]
   copyright: Copyright UKMT.
-  sources: [ukmt]
-  description: The large multiple choice challenges of the UKMT and their follow-on rounds, such as the Kangaroos and the MOG.
+  sources: [ukmt, ukmt-free]
+  description: The UKMT challenges and olympiads as one umbrella. The census of 2026-11-16 gave each its own code (uk-pmc, uk-jmc, uk-imc, uk-smc, uk-jmo, uk-imoc, uk-mog, uk-tmc and uk-stmc), so this code keeps only the Kangaroos (Junior, Grey, Pink and Senior Kangaroo) and labels that name no single paper.
+
+- code: uk-pmc
+  name: Primary Mathematics Challenge
+  short: PMC
+  group: national
+  level: elementary
+  country: GB
+  organizer: The Mathematical Association
+  url: https://www.primarymathschallenge.org.uk/
+  first_year: 2018
+  # Agent decision, not a person's review: the official about page of the Primary Mathematics Challenge (read on 2026-11-16) gives a November paper of 25 questions (20 multiple choice and 5 with open answers) in 45 minutes, and a February Bonus Round of the same form for the best pupils. The official downloads have the November papers of 2018 to 2022 and the Bonus Rounds of 2018 to 2023. The position of question N of the November paper is nN and of the Bonus Round bN. The challenge is older than 2018, but no paper before 2018 was seen and its format is not known, so the first year counted is 2018.
+  eras:
+    - {from: 2018, per_year: 50, layout: [{paper: november, name: November, positions: [n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11, n12, n13, n14, n15, n16, n17, n18, n19, n20, n21, n22, n23, n24, n25]}, {paper: bonus, name: Bonus Round, positions: [b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24, b25]}]}
+  edition_form: year
+  official_solutions: true
+  languages: [en]
+  copyright: Copyright The Primary Mathematics Challenge (The Mathematical Association).
+  sources: [pmc-ma]
+  description: The challenge of the Mathematical Association for primary pupils (years 5 and 6), a November paper and a February Bonus Round for the best pupils. It is not a UKMT challenge, though the UKMT lists it. The site has the recent papers for download. Each year from 2018 has a November paper and a Bonus Round of 25 questions each.
+
+- code: uk-jmc
+  name: UKMT Junior Mathematical Challenge
+  group: national
+  level: junior
+  country: GB
+  organizer: UKMT
+  url: https://www.ukmt.org.uk/free-past-papers/
+  first_year: 1987
+  # Agent decision, not a person's review: the official page of the Junior Mathematical Challenge (read on 2026-11-16) gives 25 multiple choice questions in 60 minutes, and the free papers of 2004 to 2026 on ukmt.org.uk/free-past-papers/junior-mathematical-challenge-YYYY have 25 questions each. The challenge began in 1987 (Wikipedia, a secondary source); the papers of 1987 to 2003 were not seen, so those years have no layout.
+  eras:
+    - {from: 1987, to: 2003}
+    - {from: 2004, per_year: 25}
+  edition_form: year
+  official_solutions: true
+  languages: [en]
+  copyright: Copyright UKMT.
+  sources: [ukmt-free]
+  description: The multiple choice challenge of the UKMT for years 7 and 8. Its follow-on rounds are the Junior Kangaroo and the Junior Mathematical Olympiad (uk-jmo). Recent papers are free on the UKMT site, and older papers are sold. Each paper from 2004 has 25 questions; the years 1987 to 2003 have no layout.
+
+- code: uk-imc
+  name: UKMT Intermediate Mathematical Challenge
+  group: national
+  level: high-school
+  country: GB
+  organizer: UKMT
+  url: https://www.ukmt.org.uk/free-past-papers/
+  first_year: 1987
+  # Agent decision, not a person's review: the official page of the Intermediate Mathematical Challenge (read on 2026-11-16) gives 25 multiple choice questions in 60 minutes, and the free papers of 2004 to 2026 have 25 questions each. The challenge began in 1987 (Wikipedia, a secondary source); the papers of 1987 to 2003 were not seen, so those years have no layout.
+  eras:
+    - {from: 1987, to: 2003}
+    - {from: 2004, per_year: 25}
+  edition_form: year
+  official_solutions: true
+  languages: [en]
+  copyright: Copyright UKMT.
+  sources: [ukmt-free]
+  description: The multiple choice challenge of the UKMT for years 9 to 11. Its follow-on rounds are the Grey and Pink Kangaroos and the Cayley, Hamilton and Maclaurin olympiads (uk-imoc). Recent papers are free on the UKMT site. Each paper from 2004 has 25 questions; the years 1987 to 2003 have no layout.
+
+- code: uk-smc
+  name: UKMT Senior Mathematical Challenge
+  group: national
+  level: high-school
+  country: GB
+  organizer: UKMT
+  url: https://www.ukmt.org.uk/free-past-papers/
+  first_year: 1961
+  # Agent decision, not a person's review: the official page of the Senior Mathematical Challenge (read on 2026-11-16) gives 25 questions in 90 minutes; the paper of 2026 has 22 multiple choice questions and 3 with answers from 000 to 999, still 25 in all. The free papers of 2005 to 2026 have 25 questions each. The challenge began in 1961 as the National Mathematics Contest (Wikipedia, a secondary source); the papers of 1961 to 2004 were not seen, so those years have no layout.
+  eras:
+    - {from: 1961, to: 2004}
+    - {from: 2005, per_year: 25}
+  edition_form: year
+  official_solutions: true
+  languages: [en]
+  copyright: Copyright UKMT.
+  sources: [ukmt-free]
+  description: The multiple choice challenge of the UKMT for years 12 and 13. Its follow-on rounds are the Senior Kangaroo and BMO1 (uk-bmo1). Recent papers are free on the UKMT site. Each paper from 2005 has 25 questions; the years 1961 to 2004 have no layout.
+
+- code: uk-jmo
+  name: UKMT Junior Mathematical Olympiad
+  group: national
+  level: junior
+  country: GB
+  organizer: UKMT
+  url: https://www.ukmt.org.uk/free-past-papers/
+  first_year: 2015
+  # Agent decision, not a person's review: the free papers of 2015 to 2024 have a Section A of ten short answer questions (A1 to A10) and a Section B of six written problems (B1 to B6), seen on the papers of 2015 and 2024. From 2025 the official page and the paper of 2025 give six problems, numbered 1 to 6. The free papers start in 2015, which is the first year counted here; the paper of 2020 is not on the free page and its format is not known, so 2020 has no layout.
+  eras:
+    - {from: 2015, to: 2019, per_year: 16, layout: [{paper: a, name: Section A, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]}, {paper: b, name: Section B, positions: [b1, b2, b3, b4, b5, b6]}]}
+    - {from: 2020, to: 2020}
+    - {from: 2021, to: 2024, per_year: 16, layout: [{paper: a, name: Section A, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]}, {paper: b, name: Section B, positions: [b1, b2, b3, b4, b5, b6]}]}
+    - {from: 2025, per_year: 6}
+  edition_form: year
+  official_solutions: true
+  languages: [en]
+  copyright: Copyright UKMT.
+  sources: [ukmt-free]
+  description: The olympiad of the UKMT for years 7 and 8, with a short answer section and a section of written solutions. Recent papers are free on the UKMT site. Each paper of 2015 to 2024 has a Section A of ten questions and a Section B of six problems, and from 2025 the paper has six problems; 2020 has no layout.
+
+- code: uk-imoc
+  name: UKMT Intermediate Mathematical Olympiad (Cayley, Hamilton, Maclaurin)
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: GB
+  organizer: UKMT
+  url: https://www.ukmt.org.uk/free-past-papers/
+  first_year: 2015
+  # Agent decision, not a person's review: the official page of the Cayley, Hamilton and Maclaurin olympiads (read on 2026-11-16) gives six problems in two hours for each paper. Cayley is for year 9 and below and Hamilton for year 10 (lower secondary, so junior), and Maclaurin for year 11. The free papers start in 2015, which is the first year counted here. The position of problem N is cN, hN or mN.
+  eras:
+    - {from: 2015, per_year: 18, layout: [{paper: cayley, name: Cayley, positions: [c1, c2, c3, c4, c5, c6], level: junior}, {paper: hamilton, name: Hamilton, positions: [h1, h2, h3, h4, h5, h6], level: junior}, {paper: maclaurin, name: Maclaurin, positions: [m1, m2, m3, m4, m5, m6]}]}
+  edition_form: year
+  official_solutions: true
+  languages: [en]
+  copyright: Copyright UKMT.
+  sources: [ukmt-free]
+  description: The three olympiad papers of the UKMT for years 9 (Cayley), 10 (Hamilton) and 11 (Maclaurin), with written solutions. Recent papers are free on the UKMT site. Each year has three papers (Cayley, Hamilton and Maclaurin) of six problems each.
+
+- code: uk-mog
+  name: UKMT Mathematical Olympiad for Girls
+  group: national
+  level: high-school
+  country: GB
+  organizer: UKMT
+  url: https://www.ukmt.org.uk/free-past-papers/
+  first_year: 2011
+  # Agent decision, not a person's review: the official page of the Mathematical Olympiad for Girls (read on 2026-11-16) gives five problems in two and a half hours, and the free papers of 2011 to 2026 have five problems each (the page for 2014 holds the paper of 2013, and the page for 2016 the paper of 2015).
+  per_year: 5
+  edition_form: year
+  official_solutions: true
+  languages: [en]
+  copyright: Copyright UKMT.
+  sources: [ukmt-free]
+  description: The olympiad of the UKMT for girls, with written solutions. Recent papers are free on the UKMT site. Each paper from 2011 has five problems.
+
+- code: uk-tmc
+  name: UKMT Team Mathematical Challenge
+  group: national
+  level: junior
+  country: GB
+  organizer: UKMT
+  url: https://www.ukmt.org.uk/free-past-papers/
+  # Agent decision, not a person's review: the team challenges have several rounds (a group round, a crossnumber, a relay) whose number of questions was not checked for each year, so no year has a layout.
+  edition_form: year
+  official_solutions: true
+  languages: [en]
+  copyright: Copyright UKMT.
+  sources: [ukmt-free]
+  description: The team competition of the UKMT for years 8 and 9, in several rounds such as a group round, a crossnumber and a relay. Recent materials are free on the UKMT site. The rounds are not laid out, so it counts no positions.
+
+- code: uk-stmc
+  name: UKMT Senior Team Mathematical Challenge
+  group: national
+  level: high-school
+  country: GB
+  organizer: UKMT
+  url: https://www.ukmt.org.uk/free-past-papers/
+  # Agent decision, not a person's review: the team challenges have several rounds (a group round, a crossnumber, a relay) whose number of questions was not checked for each year, so no year has a layout.
+  edition_form: year
+  official_solutions: true
+  languages: [en]
+  copyright: Copyright UKMT.
+  sources: [ukmt-free]
+  description: The team competition of the UKMT for years 12 and 13, in several rounds such as a group round, a crossnumber and a relay. Recent materials are free on the UKMT site. The rounds are not laid out, so it counts no positions.
 
 - code: uk-tst
   name: UK IMO Selection Tests
@@ -2109,6 +2274,24 @@
   copyright: None stated.
   sources: [irmo-official, ucd-irmo]
   description: The national olympiad of Ireland with ten problems in two papers. The compendium of Mark Dukes at UCD holds the papers from 1988 to 2026.
+
+- code: ie-prism
+  name: PRISM Problem Solving for Irish Second level Mathematicians
+  short: PRISM
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: IE
+  organizer: University of Galway
+  first_year: 2006
+  # Agent decision, not a person's review: the papers of 2016 and 2017 have a junior paper and a senior paper of 15 questions each in one hour. The position of question N is jN on the junior paper and sN on the senior paper. The papers of 2006 to 2015 were not seen, so those years have no layout.
+  eras:
+    - {from: 2006, to: 2015}
+    - {from: 2016, per_year: 30, layout: [{paper: junior, name: Junior, positions: [j1, j2, j3, j4, j5, j6, j7, j8, j9, j10, j11, j12, j13, j14, j15], level: junior}, {paper: senior, name: Senior, positions: [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15]}]}
+  edition_form: year
+  languages: [en]
+  sources: [mathsweek-prism]
+  description: A multiple choice contest of the University of Galway for the post-primary schools of the island of Ireland, with a junior and a senior paper of 15 questions in one hour. Its strong solvers are pointed to the Irish olympiad. All past papers are on the PRISM site after a free registration, which is a login and is not used. The Maths Week Ireland page of 2024 holds the papers of 2016 and 2017, and its pages of 2016 and 2018, which robots.txt blocks, hold the paper of 2015 and sample problems of 2014. Each year from 2016 has a junior and a senior paper of 15 questions; the years 2006 to 2015 have no layout.
 
 - code: de-mo
   name: German Mathematical Olympiad
@@ -2185,7 +2368,54 @@
   edition_form: year
   official_solutions: true
   languages: [fr]
-  description: The regional French olympiads. Each académie publishes its own papers.
+  sources: [apmep]
+  description: The regional French olympiads, with national exercises common to all académies and académic exercises. Each académie publishes its own papers, and the APMEP and Éduscol collect them. The shape is not checked, so it counts no positions.
+
+- code: fr-cg
+  name: Concours général des lycées, mathématiques
+  names: {fr: Concours général des lycées, épreuve de mathématiques}
+  group: national
+  level: high-school
+  country: FR
+  organizer: Ministère de l'Éducation nationale
+  url: https://eduscol.education.fr/1463/
+  # Agent decision, not a person's review: the APMEP papers (read on 2026-11-16) show a long problem in parts whose number of exercises changes by year (five in 1990, four in 1995, three in 2025), so no year has a layout.
+  edition_form: year
+  languages: [fr]
+  sources: [eduscol-cg, apmep]
+  description: The national written competition of the French lycées. The mathematics paper is a five hour problem in several parts. Eduscol has the recent papers, and the APMEP has the papers of 1990 to 2001 and 2022 to 2025. The number of exercises changes by year, so it counts no positions.
+
+- code: fr-tfjm
+  name: Tournoi Français des Jeunes Mathématiciennes et Mathématiciens
+  short: TFJM²
+  group: national
+  level: high-school
+  country: FR
+  organizer: Animath
+  url: https://tfjm.org/editions-precedentes/
+  # Agent decision, not a person's review: the number of problems of an edition changes by year, so no year has a layout.
+  edition_form: year
+  languages: [fr]
+  sources: [tfjm]
+  description: A team tournament of research problems for lycée students. Each edition publishes a set of open-ended problems that the teams work on for months and then defend. The site has the problems of the editions from 2012. The number of problems changes by year, so it counts no positions.
+
+- code: fr-coupe-animath
+  name: Coupe Animath
+  group: national
+  level: high-school
+  country: FR
+  organizer: Animath
+  url: https://maths-olympiques.fr/?page_id=69
+  first_year: 2009
+  # Agent decision, not a person's review: the POFM papers (read on 2026-11-16) of the autumn and spring papers of 2022 to 2026 have 15 questions each; the year is the calendar year of the paper. The papers of 2009 to 2021 change in size (eight problems in the autumn of 2011, ten in 2014, 17 in 2019 and the spring of 2020), and were not read for every year, so those years have no layout. The spring of 2022 also had a first tour of 25 questions, which is not counted. The position of question N is aN on the autumn paper and sN on the spring paper.
+  eras:
+    - {from: 2009, to: 2021}
+    - {from: 2022, per_year: 30, layout: [{paper: autumn, name: Autumn, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15]}, {paper: spring, name: Spring, positions: [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15]}]}
+  edition_form: year
+  official_solutions: true
+  languages: [fr]
+  sources: [maths-olympiques]
+  description: The open competition of Animath that leads into the French olympiad training (POFM), with an autumn paper (from 2011) and a spring paper (from 2009). The POFM site has the papers with solutions. Each year from 2022 has an autumn and a spring paper of 15 questions; 2009 to 2021 have no layout.
 
 - code: it-cesenatico
   name: Italian Mathematical Olympiad
@@ -2283,6 +2513,55 @@
   sources: [wiskundeolympiade]
   description: The second round of the Dutch olympiad, held in March.
 
+- code: nl-nwo-r1
+  name: Dutch Mathematical Olympiad First Round
+  group: national
+  level: high-school
+  country: NL
+  url: https://www.wiskundeolympiade.nl/wedstrijdarchief/1e-ronde
+  first_year: 2000
+  # Agent decision, not a person's review: the archive of wiskundeolympiade.nl (read on 2026-11-16) has the first round papers from 2000; the year is the calendar year of the round (January). The papers of 2000 to 2005 have a part A of five multiple choice questions and a part B of four answer questions, and the papers from 2006 a part A of eight and a part B of four. The position of question N is aN in part A and bN in part B.
+  eras:
+    - {from: 2000, to: 2005, per_year: 9, layout: [{paper: a, name: Part A, positions: [a1, a2, a3, a4, a5]}, {paper: b, name: Part B, positions: [b1, b2, b3, b4]}]}
+    - {from: 2006, per_year: 12, layout: [{paper: a, name: Part A, positions: [a1, a2, a3, a4, a5, a6, a7, a8]}, {paper: b, name: Part B, positions: [b1, b2, b3, b4]}]}
+  edition_form: year
+  official_solutions: true
+  languages: [nl, en]
+  sources: [wiskundeolympiade, hf-mathnet]
+  description: The first round of the Dutch olympiad, held in the schools in January, with a multiple choice part A and an answer part B. The archive has the papers from 2000. Each paper has a part A and a part B, laid out by the eras of the archive.
+
+- code: nl-jwo
+  name: Dutch Junior Mathematical Olympiad
+  names: {nl: Junior Wiskunde Olympiade}
+  group: national
+  level: junior
+  country: NL
+  url: https://www.wiskundeolympiade.nl/wedstrijdarchief
+  first_year: 2008
+  # Agent decision, not a person's review: the archive of wiskundeolympiade.nl (read on 2026-11-16) has the papers from 2008; the year is the calendar year (September). The papers of 2010 to 2012 have a part 1 of 15 multiple choice questions and a part 2 of ten answer questions, and the papers from 2013 a part 1 of eight and a part 2 of eight. The papers of 2008 and 2009 were not read, and the archive has no paper for 2020, so those years have no layout. The position of question N is aN in part 1 and bN in part 2.
+  eras:
+    - {from: 2008, to: 2009}
+    - {from: 2010, to: 2012, per_year: 25, layout: [{paper: part1, name: Part 1, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15]}, {paper: part2, name: Part 2, positions: [b1, b2, b3, b4, b5, b6, b7, b8, b9, b10]}]}
+    - {from: 2013, to: 2019, per_year: 16, layout: [{paper: part1, name: Part 1, positions: [a1, a2, a3, a4, a5, a6, a7, a8]}, {paper: part2, name: Part 2, positions: [b1, b2, b3, b4, b5, b6, b7, b8]}]}
+    - {from: 2020, to: 2020}
+    - {from: 2021, per_year: 16, layout: [{paper: part1, name: Part 1, positions: [a1, a2, a3, a4, a5, a6, a7, a8]}, {paper: part2, name: Part 2, positions: [b1, b2, b3, b4, b5, b6, b7, b8]}]}
+  edition_form: year
+  official_solutions: true
+  languages: [nl, en]
+  sources: [wiskundeolympiade, hf-mathnet]
+  description: The junior olympiad of the Netherlands for the lower classes, held in September in one day, with a multiple choice part 1 and an answer part 2. The archive has the papers at /phocadownload/opgaven/jwo/YEAR/. Each paper from 2010 has a part 1 and a part 2, laid out by the eras of the archive; 2008, 2009 and 2020 have no layout.
+
+- code: nl-tst
+  name: Dutch IMO Team Selection Tests
+  group: national
+  level: high-school
+  country: NL
+  # Agent decision, not a person's review: the number of tests changes by year, so no year has a layout.
+  edition_form: year
+  languages: [nl, en]
+  sources: [hf-mathnet, hf-ai-mo-aops]
+  description: The tests of the Dutch training (IMO selection tests in June, the camp tests and other tests) that choose the Dutch IMO team. The BxMO and EGMO test is nl-bxmo-tst. The number of tests changes by year, so it counts no positions.
+
 - code: be-vwo
   name: Flemish Mathematical Olympiad
   short: VWO
@@ -2303,15 +2582,37 @@
   group: national
   level: high-school
   country: BE
+  url: https://omb.sbpm.be/
+  first_year: 1976
+  edition_form: year
   languages: [fr]
-  description: The olympiad of French-speaking Belgium. Its site and archive are not confirmed.
+  sources: [omb-sbpm, hf-ai-mo-aops]
+  description: The olympiad of French-speaking Belgium, run by the SBPMef since 1976, in three categories (Mini, Midi and Maxi) with an elimination round, a semi-final and a final. The shape of each category is not checked, so it counts no positions.
+
+- code: be-jwo
+  name: Flemish Junior Mathematical Olympiad
+  names: {nl: Vlaamse Junior Wiskunde Olympiade}
+  group: national
+  level: junior
+  country: BE
+  url: https://www.vwo.be/
+  first_year: 2019
+  # Agent decision, not a person's review: the archive of vwo.be (read on 2026-11-16) has the papers of 2019 to 2026: a first round of 30 multiple choice questions, a second round of 30, and a final of four problems. The first round paper of 2019 is a scan whose questions were not read, so 2019 has no layout, and the archive has no final for 2020. The position of question N is aN in the first round, bN in the second and pN in the final.
+  eras:
+    - {from: 2019, to: 2019}
+    - {from: 2020, to: 2020, per_year: 60, layout: [{paper: round1, name: Round 1, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18, a19, a20, a21, a22, a23, a24, a25, a26, a27, a28, a29, a30]}, {paper: round2, name: Round 2, positions: [b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24, b25, b26, b27, b28, b29, b30]}]}
+    - {from: 2021, per_year: 64, layout: [{paper: round1, name: Round 1, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18, a19, a20, a21, a22, a23, a24, a25, a26, a27, a28, a29, a30]}, {paper: round2, name: Round 2, positions: [b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24, b25, b26, b27, b28, b29, b30]}, {paper: final, name: Final, positions: [p1, p2, p3, p4]}]}
+  edition_form: year
+  languages: [nl]
+  sources: [vwo, hf-ai-mo-aops, hf-aops-wiki]
+  description: The junior olympiad of Flanders for the first two years of secondary school. The site of Vlaamse Wiskunde Olympiade vzw runs it next to be-vwo. Each year from 2020 has two rounds of 30 questions, and from 2021 a final of four problems; 2019 has no layout.
 
 - code: lu-mo
   name: Luxembourg national mathematics olympiad
   group: national
   level: high-school
   country: LU
-  description: The national olympiad of Luxembourg. No source has been found.
+  description: The national olympiad of Luxembourg. No source was found in the census of 2026-11-16 either; the gap register holds a no-source entry.
 
 - code: ch-smo
   name: Swiss Mathematical Olympiad

@@ -4060,6 +4060,69 @@
   sources: [hms]
   description: The Greek olympiad in the Thales, Euclides and Archimedes rounds.
 
+- code: gr-thales
+  name: Thales Competition
+  names: {el: Διαγωνισμός «Ο Θαλής»}
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: GR
+  organizer: Hellenic Mathematical Society
+  url: https://hms.gr/competitions/
+  first_year: 2006
+  # Agent decision, not a person's review: an edition is the calendar year in which the paper is written, usually in November. The hms.gr papers show five papers, for the grades 8 and 9 (Β΄ and Γ΄ Γυμνασίου) and 10 to 12 (Α΄ to Γ΄ Λυκείου). Each has four problems in 2014 to 2019, and three in 2021 (held on 14 May 2021) and 2022 (held on 11 November 2022). The position of problem N of grade G is pG followed by N. 2006 is the earliest year that parmenides-eme lists, not the founding year. The years 2006 to 2013, 2020 and 2023 on have no era, because their format was not confirmed.
+  eras:
+    - {from: 2014, to: 2019, per_year: 20, layout: [{paper: grade8, name: Grade 8, level: junior, positions: [p81, p82, p83, p84]}, {paper: grade9, name: Grade 9, level: junior, positions: [p91, p92, p93, p94]}, {paper: grade10, name: Grade 10, positions: [p101, p102, p103, p104]}, {paper: grade11, name: Grade 11, positions: [p111, p112, p113, p114]}, {paper: grade12, name: Grade 12, positions: [p121, p122, p123, p124]}]}
+    - {from: 2021, to: 2022, per_year: 15, layout: [{paper: grade8, name: Grade 8, level: junior, positions: [p81, p82, p83]}, {paper: grade9, name: Grade 9, level: junior, positions: [p91, p92, p93]}, {paper: grade10, name: Grade 10, positions: [p101, p102, p103]}, {paper: grade11, name: Grade 11, positions: [p111, p112, p113]}, {paper: grade12, name: Grade 12, positions: [p121, p122, p123]}]}
+  edition_form: year
+  official_solutions: true
+  languages: [el]
+  sources: [hms, parmenides-eme]
+  description: The first round of the Greek competitions, with papers for the gymnasium and lyceum grades. hms.gr gives the papers with solutions of recent years. The shape is confirmed for 2014 to 2019, 2021 and 2022.
+
+- code: gr-euclid
+  name: Euclid Competition (Greece)
+  names: {el: Διαγωνισμός «Ο Ευκλείδης»}
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: GR
+  organizer: Hellenic Mathematical Society
+  url: https://hms.gr/competitions/
+  first_year: 2006
+  # Agent decision, not a person's review: an edition is the calendar year in which the paper is written, in January. The hms.gr papers of 2015 to 2020 show five papers, for the grades 8 and 9 (Β΄ and Γ΄ Γυμνασίου) and 10 to 12 (Α΄ to Γ΄ Λυκείου), with four problems each. The position of problem N of grade G is pG followed by N. 2006 is the earliest year that parmenides-eme lists, not the founding year. The years 2006 to 2014 and 2021 on have no era, because their format was not confirmed.
+  eras:
+    - {from: 2015, to: 2020, per_year: 20, layout: [{paper: grade8, name: Grade 8, level: junior, positions: [p81, p82, p83, p84]}, {paper: grade9, name: Grade 9, level: junior, positions: [p91, p92, p93, p94]}, {paper: grade10, name: Grade 10, positions: [p101, p102, p103, p104]}, {paper: grade11, name: Grade 11, positions: [p111, p112, p113, p114]}, {paper: grade12, name: Grade 12, positions: [p121, p122, p123, p124]}]}
+  edition_form: year
+  official_solutions: true
+  languages: [el]
+  sources: [hms, parmenides-eme]
+  description: The second round of the Greek competitions, with papers for the gymnasium and lyceum grades. hms.gr gives the papers with solutions of recent years. The shape is confirmed for 2015 to 2020.
+
+- code: gr-small-euclid
+  name: Small Euclid Competition
+  names: {el: Διαγωνισμός «Μικρός Ευκλείδης»}
+  group: national
+  level: elementary
+  country: GR
+  organizer: Hellenic Mathematical Society
+  url: https://hms.gr/competitions/
+  edition_form: year
+  languages: [el]
+  sources: [hms]
+  description: The competition of the Hellenic Mathematical Society for the upper primary grades. No shape is given, because the hms.gr competitions page does not link its papers.
+
+- code: gr-tst
+  name: Greek Team Selection Examination
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: GR
+  edition_form: year
+  languages: [el]
+  sources: [hf-mathnet]
+  description: The selection examinations that choose the Greek teams, for the seniors and the juniors. No official archive has been found.
+
 - code: cy-mo
   name: Cyprus Mathematical Olympiad
   group: national
@@ -4067,6 +4130,26 @@
   country: CY
   languages: [el, en]
   description: The national olympiad of Cyprus, linked to the Thales Foundation and the Cyprus Mathematical Society. Its archive is not confirmed.
+
+- code: cy-tst
+  name: Cyprus Team Selection Test
+  group: national
+  level: high-school
+  country: CY
+  edition_form: year
+  languages: [el, en]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: The tests that choose the Cyprus team for the IMO and the Balkan MO. No official archive has been found.
+
+- code: cy-jbmo-tst
+  name: Cyprus JBMO Team Selection Test
+  group: national
+  level: junior
+  country: CY
+  edition_form: year
+  languages: [el, en]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: The tests that choose the Cyprus team for the Junior Balkan MO. No official archive has been found.
 
 - code: mt-mo
   name: Malta national mathematics olympiad
@@ -4767,6 +4850,49 @@
   sources: [dms-rs, imomath, hf-mathnet]
   description: The Serbian competitions from the municipal round to the national olympiad and the team selection test.
 
+- code: rs-tst
+  name: Serbian Team Selection Test
+  group: national
+  level: high-school
+  country: RS
+  edition_form: year
+  languages: [sr]
+  sources: [hf-ai-mo-aops]
+  description: The tests that choose the Serbian teams for the IMO, the Balkan MO and the EGMO, and the additional test after the Serbian MO. No official archive has been found.
+
+- code: rs-jbmo-tst
+  name: Serbian JBMO Team Selection Test
+  group: national
+  level: junior
+  country: RS
+  edition_form: year
+  languages: [sr]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: The tests that choose the Serbian team for the Junior Balkan MO. No official archive has been found.
+
+- code: rs-primary
+  name: Serbian Mathematics Competitions for Primary Schools
+  names: {sr: Такмичења из математике ученика основних школа}
+  group: national
+  level: junior
+  country: RS
+  organizer: Mathematical Society of Serbia
+  url: https://dms.rs/
+  edition_form: year
+  languages: [sr]
+  sources: [dms-rs]
+  description: The municipal, district and state rounds and the Serbian olympiad for primary-school students, run by the DMS. No shape is given, because no paper was checked in this census.
+
+- code: yu-federal
+  name: Yugoslav Federal Mathematics Competition
+  group: national
+  level: high-school
+  country: RS
+  edition_form: year
+  languages: [sr]
+  sources: [hf-ai-mo-aops]
+  description: "The federal competition of Yugoslavia and later of Serbia and Montenegro, before 2006. Agent decision, not a person's review: the country is Serbia, the state that holds the archive of the DMS."
+
 - code: hr-mo
   name: Croatia national mathematics olympiad
   group: national
@@ -4962,6 +5088,46 @@
   sources: [aops-collections, imogeometry-blog]
   description: The national olympiad of Bosnia and Herzegovina. No primary source has been found yet.
 
+- code: ba-tst
+  name: Bosnia and Herzegovina Team Selection Test
+  group: national
+  level: high-school
+  country: BA
+  edition_form: year
+  languages: [bs, hr, sr]
+  sources: [hf-ai-mo-aops]
+  description: The tests that choose the teams of Bosnia and Herzegovina for the IMO and the Balkan MO. No official archive has been found.
+
+- code: ba-jbmo-tst
+  name: Bosnia and Herzegovina JBMO Team Selection Test
+  group: national
+  level: junior
+  country: BA
+  edition_form: year
+  languages: [bs, hr, sr]
+  sources: [hf-ai-mo-aops]
+  description: The tests that choose the team of Bosnia and Herzegovina for the Junior Balkan MO. No official archive has been found.
+
+- code: ba-egmo-tst
+  name: Bosnia and Herzegovina EGMO Team Selection Test
+  group: national
+  level: high-school
+  country: BA
+  edition_form: year
+  languages: [bs, hr, sr]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: The tests that choose the team of Bosnia and Herzegovina for the EGMO. No official archive has been found.
+
+- code: ba-srpska
+  name: Republic of Srpska Regional Olympiad
+  group: national
+  level: high-school
+  country: BA
+  edition_form: year
+  languages: [sr]
+  sources: [hf-ai-mo-aops]
+  description: The regional olympiad of the Republic of Srpska. No official archive has been found.
+
 - code: mk-mo
   name: North Macedonia national mathematics olympiad
   group: national
@@ -4974,6 +5140,71 @@
   languages: [mk]
   sources: [smm, aops-collections, imogeometry-blog, hf-mathnet]
   description: The national olympiad of North Macedonia (Македонска математичка олимпијада, ММО). The Union of Mathematicians of Macedonia (smm) gives the official papers from 2020. The 27th ММО of 2020 had four problems, as its official paper of solutions shows.
+
+- code: mk-regional
+  name: North Macedonia Regional Mathematics Competition
+  names: {mk: Регионален натпревар по математика}
+  group: national
+  level: high-school
+  country: MK
+  url: https://smm.org.mk/
+  edition_form: year
+  languages: [mk]
+  sources: [smm, hf-mathnet]
+  description: The regional round of the competitions of the Union of Mathematicians of Macedonia, for primary schools and for secondary schools. No shape is given, because smm.org.mk shows the syllabus of the rounds, and no paper was found in this census.
+
+- code: mk-primary
+  name: North Macedonia State Mathematics Competition for Primary Schools
+  names: {mk: Републички натпревар по математика за основно образование}
+  group: national
+  level: junior
+  country: MK
+  url: https://smm.org.mk/
+  edition_form: year
+  languages: [mk]
+  sources: [smm, hf-mathnet]
+  description: The state round of the competitions for primary schools in North Macedonia. No shape is given, because smm.org.mk shows the syllabus of the rounds, and no paper was found in this census.
+
+- code: mk-jmo
+  name: North Macedonia Junior Mathematical Olympiad
+  names: {mk: Јуниорска македонска математичка олимпијада}
+  group: national
+  level: junior
+  country: MK
+  edition_form: year
+  languages: [mk]
+  sources: [smm, hf-mathnet]
+  description: The junior olympiad of North Macedonia (ЈММО). No shape is given, because no paper was found on smm.org.mk in this census.
+
+- code: mk-tst
+  name: North Macedonia Team Selection Test
+  group: national
+  level: high-school
+  country: MK
+  edition_form: year
+  languages: [mk]
+  sources: [hf-mathnet, hf-ai-mo-aops]
+  description: The tests that choose the teams of North Macedonia for the IMO and the Balkan MO, and the additional BMO test. No official archive has been found.
+
+- code: mk-jbmo-tst
+  name: North Macedonia JBMO Team Selection Test
+  group: national
+  level: junior
+  country: MK
+  edition_form: year
+  languages: [mk]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: The tests that choose the team of North Macedonia for the Junior Balkan MO. No official archive has been found.
+
+- code: mk-cane
+  name: Aleksandar Blazhevski-Cane Memorial Competition
+  group: national
+  level: high-school
+  country: MK
+  edition_form: year
+  languages: [mk, en]
+  sources: [hf-mathnet, hf-ai-mo-aops, hf-aops-wiki]
+  description: A memorial competition in North Macedonia named after Aleksandar Blazhevski-Cane. No official archive has been found.
 
 - code: me-mo
   name: Montenegro national mathematics olympiad
@@ -4990,6 +5221,46 @@
   country: AL
   sources: [aops-collections, imogeometry-blog]
   description: The national olympiad of Albania. No primary source has been found yet.
+
+- code: al-tst
+  name: Albania Team Selection Test
+  group: national
+  level: high-school
+  country: AL
+  edition_form: year
+  languages: [sq]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: The tests that choose the Albanian teams for the IMO and the Balkan MO. No official archive has been found.
+
+- code: al-jbmo-tst
+  name: Albania JBMO Team Selection Test
+  group: national
+  level: junior
+  country: AL
+  edition_form: year
+  languages: [sq]
+  sources: [hf-ai-mo-aops]
+  description: The test that chooses the Albanian team for the Junior Balkan MO. No official archive has been found.
+
+- code: al-cup
+  name: Albanians Cup in Mathematics
+  group: national
+  level: high-school
+  country: AL
+  edition_form: year
+  languages: [sq, en]
+  sources: [hf-ai-mo-aops]
+  description: A competition for students from Albania, Kosovo and the Albanian schools of other countries. No official archive has been found.
+
+- code: al-xk-mo
+  name: Kosovo and Albania Mathematical Olympiad
+  group: national
+  level: high-school
+  country: AL
+  edition_form: year
+  languages: [sq]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: "A joint olympiad of Albania and Kosovo, with problems of 2022 in the AoPS data. Agent decision, not a person's review: the country is Albania, the first name in the title."
 
 - code: xk-mo
   name: Kosovo national mathematics olympiad
@@ -6318,6 +6589,75 @@
   languages: [tr]
   sources: [tubitak, hf-tubitak]
   description: The first round (Birinci Aşama) of the Turkish olympiad, a multiple-choice paper held in the spring, with 36 questions to 2013 and 32 from 2014. It is the round that chooses the students for the second round (tr-mo). Agent decision, not a person's review, to keep it as its own competition, with its shape taken from the TÜBİTAK papers.
+
+- code: tr-tst
+  name: Turkish IMO Team Selection Test
+  group: national
+  level: high-school
+  country: TR
+  edition_form: year
+  languages: [tr]
+  sources: [hf-mathnet, hf-ai-mo-aops]
+  description: The tests that choose the Turkish team for the IMO. No official archive has been found.
+
+- code: tr-jbmo-tst
+  name: Turkish JBMO Team Selection Test
+  group: national
+  level: junior
+  country: TR
+  edition_form: year
+  languages: [tr]
+  sources: [hf-mathnet]
+  description: The tests that choose the Turkish team for the Junior Balkan MO. No official archive has been found.
+
+- code: tr-egmo-tst
+  name: Turkish EGMO Team Selection Test
+  group: national
+  level: high-school
+  country: TR
+  edition_form: year
+  languages: [tr]
+  sources: [hf-mathnet, hf-ai-mo-aops]
+  description: The tests that choose the Turkish team for the EGMO. No official archive has been found.
+
+- code: tr-jmo
+  name: Turkish Junior Mathematical Olympiad
+  names: {tr: Ulusal Ortaokul Matematik Olimpiyatı}
+  group: national
+  level: junior
+  country: TR
+  organizer: TÜBİTAK
+  url: https://bilimolimpiyatlari.tubitak.gov.tr/
+  first_year: 1996
+  # Agent decision, not a person's review: this row counts the written second round (İkinci Aşama). An edition is the year of the olympiad season. The paper is usually written in November or December, but the 2021 paper was written on 7 January 2022. The TÜBİTAK papers of 2010 to 2015, 2017, 2019, 2021, 2023 and 2025 have four problems on one paper of four and a half hours. The 2010 paper is the 15th olympiad, so the first was in 1996. The TÜBİTAK archive has no second-round paper for 2016, so 2016 has no era. The years 1996 to 2009 have no era, because no primary paper of those years was checked. The first round is a multiple-choice test and is not counted here.
+  eras:
+    - {from: 2010, to: 2015, per_year: 4}
+    - {from: 2017, to: 2025, per_year: 4}
+  edition_form: year
+  languages: [tr]
+  sources: [tubitak, hf-mathnet]
+  description: The national olympiad of Turkey for middle-school students, with a multiple-choice first round and a written second round. TÜBİTAK gives the papers of recent years. The shape of the second round is confirmed for 2010 to 2015 and 2017 to 2025.
+
+- code: tr-revenge
+  name: Turkey Olympic Revenge
+  group: national
+  level: high-school
+  country: TR
+  edition_form: year
+  languages: [tr, en]
+  sources: [hf-ai-mo-aops]
+  description: An informal competition that former Turkish olympians set for the students of the training camp. No official archive has been found.
+
+- code: tr-akdeniz
+  name: Akdeniz University Mathematical Olympiad
+  group: national
+  level: high-school
+  country: TR
+  organizer: Akdeniz University
+  edition_form: year
+  languages: [tr]
+  sources: [hf-ai-mo-aops]
+  description: The olympiad of Akdeniz University in Antalya. No official archive has been found.
 
 - code: il-gillis
   name: Israel National Olympiad

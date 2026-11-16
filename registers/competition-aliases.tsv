@@ -233,7 +233,7 @@ Poland - Second Round	-
 Poland - First Round	-
 Polish MO Finals	pl-om
 German National Olympiad	de-mo
-German National Olympiad 3rd Round	-
+German National Olympiad 3rd Round	de-mo-r3
 Germany_TST	de-tst
 Germany Team Selection Test	de-tst
 Bundeswettbewerb Mathematik Germany	de-bundeswettbewerb
@@ -263,7 +263,7 @@ Dutch Mathematical Olympiad	nl-nwo
 Flanders Math Olympiad	be-vwo
 SMO Finalrunde	ch-smo
 Switzerland - Final Round	ch-smo
-Switzerland Team Selection Test	-
+Switzerland Team Selection Test	ch-tst
 IMO Selektion	-
 IMO - Selektion	-
 IMO-Selektion	-
@@ -594,7 +594,7 @@ AMC 10 Spring	amc10
 AMC 12 Fall	amc12
 AMC 12 Spring	amc12
 USA IMO	-
-Italian Mathematical Olympiad - February Round	-
+Italian Mathematical Olympiad - February Round	it-febbraio
 Selection Examinations for the IMO	-
 Qualifying Round	-
 First Round	-
@@ -613,7 +613,7 @@ Malaysia IMONST 2	my-omk
 Regional Olympiad of Mexico Southeast	-
 Mexico States Finals - geometry	-
 Kyiv City MO Juniors + geometry	-
-Portugal Juniors (OPM) - geometry	pt-opm
+Portugal Juniors (OPM) - geometry	pt-opm-junior
 Baltic Way Shortlist Geometry	-
 putnam (modified boxing)	putnam
 IMO Compendium	-
@@ -739,7 +739,7 @@ Progetto Olimpiadi di Matematica - GARA di SECONDO LIVELLO	it-cesenatico
 Olimpiadi di Matematica - GARA di SECONDO LIVELLO	it-cesenatico
 Olimpiadi della Matematica - Gara di Febbraio	it-cesenatico
 Olimpiadi di Matematica - Febbraio	it-cesenatico
-Italian Mathematical Olympiad - Febbraio Round	it-cesenatico
+Italian Mathematical Olympiad - Febbraio Round	it-febbraio
 Mexico National Olmypiad	mx-omm
 Australia National Olympiad	au-amo
 Australia NMO	au-amo
@@ -776,7 +776,7 @@ Candian MO	ca-cmo
 Leningrad Math Olympiad	ru-spb
 All-Soviet Union Olympiad	ru-allrussian
 LI Всероссийская математическая олимпиада школьников	ru-allrussian
-German National Olympiad(Third Round)	-
+German National Olympiad(Third Round)	de-mo-r3
 Bundeswettbewerb Mathematik - Round 2	de-bundeswettbewerb
 Bundeswettbewerb Mathematik Germany	de-bundeswettbewerb
 Romania TST for IMO	ro-tst
@@ -826,7 +826,7 @@ LVII Olimpiada Matemática Española Concurso Final Nacional	es-ome
 Olimpiadas Matemáticas Españolas	es-ome
 OME 21	es-ome
 FASE LOCAL DE LA OLIMPIADA MATEMÁTICA ESPAÑOLA.	es-ome
-Spanish Mathematical Olympiad - Local Stage	es-ome
+Spanish Mathematical Olympiad - Local Stage	es-ome-local
 OME fase local	es-ome
 A 62-a OLIMPIADĂ DE MATEMATICĂ A REPUBLICII MOLDOVA	md-mo
 A 63-a OLIMPIADĂ DE MATEMATICĂ A REPUBLICII MOLDOVA	md-mo
@@ -839,8 +839,8 @@ OSN_SMA_2002	id-osn
 MMO2025 Round 3	mn-mo
 MMO2025 Round 4	mn-mo
 Mongolia Round 3	mn-mo
-Switzerland Selektion	ch-smo
-Switzerland IMO Selection	ch-smo
+Switzerland Selektion	ch-tst
+Switzerland IMO Selection	ch-tst
 1. Auswahlklausur	de-tst
 1. IMO-Auswahlklausur	de-tst
 Auswahlwettbewerb zur IMO	de-tst
@@ -900,7 +900,13 @@ Malaysia NMO	my-omk
 # Agent decision, not a person's review (2026-11-12): at-oemo is now the final round of the Austrian olympiad, and its earlier rounds have their own codes, as the official papers at oemo.at show. A label with no part, "Federal Competition For Advanced Students", holds the papers of part 1 in 2015 and 2017, as the official papers show. "Austrian MO National Competition" holds both parts of the federal competition in one collection with no numbers, and the booklets of hf-mathnet hold several rounds, so their rows give no position.
 Austrian Junior Regional Competition	at-oemo-beg
 Austrian Junior Regional	at-oemo-beg
-# Census of Western, Northern and Central Europe (2026-11-16), the United Kingdom, Ireland, France and the Benelux. Agent decision, not a person's review: each label below goes to the round or contest that it names, now that the rounds, junior olympiads, selection tests and regional contests of the region have their own codes. A label that names a training set (the French envois), a mix of rounds, or a round name that several countries share ("Second Round") goes to "-". The samples of hf-mathnet decided the plain round names: "School Round", "First Round (take-home)" and "District Round" are Czech and Slovak papers of categories A and B, "TANDA", "Problemas Primera Sesión" and the January date are the Spanish local phase, "Maarttoets" is the Dutch BxMO and EGMO test of March, and "UMI SNS Progetto Olimpiadi di Matematica" mixes the February and Cesenatico papers. The plain labels "Italy", "France" and "Switzerland" are hf-mathnet rows with no competition, which take the name of the country; the samples hold papers of several rounds, so they go to "-".
+# Census of Western, Northern and Central Europe (2026-11-16), the United Kingdom, Ireland, France and the Benelux; Germany, Austria, Switzerland, Italy, Spain and Portugal. Agent decision, not a person's review: each label below goes to the round or contest that it names, now that the rounds, junior olympiads, selection tests and regional contests of the region have their own codes. A label that names a training set (the French envois), a mix of rounds, or a round name that several countries share ("Second Round") goes to "-". The samples of hf-mathnet decided the plain round names: "School Round", "First Round (take-home)" and "District Round" are Czech and Slovak papers of categories A and B, "TANDA", "Problemas Primera Sesión" and the January date are the Spanish local phase, "Maarttoets" is the Dutch BxMO and EGMO test of March, and "UMI SNS Progetto Olimpiadi di Matematica" mixes the February and Cesenatico papers. The plain labels "Italy", "France" and "Switzerland" are hf-mathnet rows with no competition, which take the name of the country; the samples hold papers of several rounds, so they go to "-".
+46th Austrian Mathematical Olympiad National Competition (Final Round, part 2)	at-oemo
+48th Austrian Mathematical Olympiad National Competition (Final Round, part 1)	at-oemo-fed1
+48. Österreichische Mathematik-Olympiade Bundeswettbewerb für Fortgeschrittene, Teil 1	at-oemo-fed1
+48. Österreichische Mathematik-Olympiade Landeswettbewerb für Anfängerinnen und Anfänger	at-oemo-beg
+48th Austrian Mathematical Olympiad Regional Competition (Qualifying Round)	at-oemo-reg
+Regional Competition	at-oemo-reg
 THIRD BENELUX MATHEMATICAL OLYMPIAD	benelux
 Test EGMO	fr-tst
 TEST DU GROUPE A ET DES CANDIDATES À L'ÉPREUVE EGMO	fr-tst
@@ -937,6 +943,24 @@ Envoi 5: Pot Pourri	-
 Envoi de combinatoire	-
 OFM 2013-2014 Envoi 2	-
 Pays-Bas	-
+Germany LWM BW - geometry	de-lwm-bw
+Germany LWMB - geometry	de-lwm-by
+QEDMO 13th or 12th	de-qedmo
+Cesenatico Gara Individuale	it-cesenatico
+XXXVIII Olimpiade Italiana di Matematica, Cesenatico	it-cesenatico
+Italy Febbraio Contest	it-febbraio
+GARA di SECONDO LIVELLO	it-febbraio
+Progetto Olimpiadi di Matematica 2003 GARA di SECONDO LIVELLO BIENNIO	it-febbraio
+Progetto Olimpiadi di Matematica 2003 GARA di SECONDO LIVELLO TRIENNIO	it-febbraio
+UNIONE MATEMATICA ITALIANA Progetto Olimpiadi di Matematica 2004 - GARA di SECONDO LIVELLO BIENNIO	it-febbraio
+UNIONE MATEMATICA ITALIANA Progetto Olimpiadi di Matematica 2004 - GARA di SECONDO LIVELLO TRIENNIO	it-febbraio
+UNIONE MATEMATICA ITALIANA SCUOLA NORMALE SUPERIORE DI PISA GARA di SECONDO LIVELLO	it-febbraio
+UNIONE MATEMATICA ITALIANA SCUOLA NORMALE SUPERIORE DI PISA Progetto Olimpiadi di Matematica	-
+Oliforum Contest I 2008	it-oliforum
+Oliforum Contest II 2009	it-oliforum
+Oliforum Contest III 2012	it-oliforum
+Oliforum Contest IV 2013	it-oliforum
+Oliforum Contest V 2017	it-oliforum
 BxMO Team Selection Test	nl-bxmo-tst
 BxMO Team Selection Test, March 2020	nl-bxmo-tst
 BxMO/EGMO Team Selection Test	nl-bxmo-tst
@@ -966,4 +990,47 @@ Belgium OMB Seniors   geometry	be-omb
 Belgium OMB Seniors - 3D Geo	be-omb
 Belgium OMB Seniors - Combo Geo	be-omb
 Belgium OMB Seniors - Geo Inequalities	be-omb
+Fase Nacional de la XLV Olimpiada Matemática Española	es-ome
+XLVI Olimpiada Matemática Española Fase nacional	es-ome
+XLVII Olimpiada Matemática Española, Fase nacional (Pamplona)	es-ome
+SPANISH MATHEMATICAL OLYMPIAD (FINAL ROUND)	es-ome
+Spanish National Olympiad	es-ome
+Olimpíada Matemática Española	es-ome
+XXXVII Olimpiada Española de Matemáticas	es-ome
+48 aME	es-ome
+LI Olimpiada matemática Española (Concurso Final)	es-ome
+LVI Olimpiada Matemática Española (Concurso Final)	es-ome
+Fase Local	es-ome-local
+FASE LOCAL DE LA XLIV OME	es-ome-local
+TANDA I	es-ome-local
+TANDA II	es-ome-local
+TANDA III	es-ome-local
+Problemas Primera Sesión	es-ome-local
+Viernes 19 de enero de 2001	es-ome-local
+PREPARACIÓN BARCELONA CONTEST	-
+Olimpiada Internacional de Matemáticas	imo
+Olimpiada Iberoamericana de Matemáticas	ibero
+Mediterranean Mathematical Competition	-
+Mediterranean Mathematics OIympiad	-
+Switzerland Selection Solution	ch-tst
+Vorselektionsprüfung	ch-tst
+Vorrunde	ch-smo-r1
+Preliminary Round - Switzerland	ch-smo-r1
+Zweite Runde 2021	ch-smo-r2
+Deuxième tour 2023	ch-smo-r2
+Swiss NMO - geometry	ch-smo
+OME 10	es-ome
+OME 11	es-ome
+OME 12	es-ome
+OME 22	es-ome
+OME 23	es-ome
+OME 24	es-ome
+OME 25	es-ome
+OME 26	es-ome
+OME 27	es-ome
+OME 28	es-ome
+OME 29	es-ome
+OME 30	es-ome
+Italy	-
 France	-
+Switzerland	-

@@ -2432,7 +2432,7 @@
   state: active
   notes: "The page of secondary school competitions links one PDF for each round and year under /wp-content/uploads/. For the ММО the file of 2024 holds the problems only, and the other files hold the problems with solutions and the points. The robots.txt of smm.org.mk disallows only /wp-admin/ (checked on 2026-11-13). The old site old.smm.org.mk serves an empty page, so the papers before 2020 are not on the site."
 
-# Census of Western, Northern and Central Europe (2026-11-16), the United Kingdom, Ireland, France and the Benelux: official and curated archives of the national rounds, junior olympiads and regional contests.
+# Census of Western, Northern and Central Europe (2026-11-16), the United Kingdom, Ireland, France and the Benelux; Germany, Austria, Switzerland, Italy, Spain and Portugal: official and curated archives of the national rounds, junior olympiads and regional contests.
 - id: ukmt-free
   name: UKMT free past papers
   kind: official
@@ -2546,3 +2546,83 @@
   wave: 2
   state: planned
   notes: The robots.txt of omb.sbpm.be (read on 2026-11-16) disallows /uploads/, /images/ and other system paths, with no rule for AI crawlers. Where the papers are hosted was not found, so nothing is fetched until that is known.
+
+- id: olympiade-mathematik
+  name: Aufgabenarchiv der Mathematik-Olympiade (olympiade-mathematik.de)
+  kind: curated
+  origin: H2
+  url: https://www.olympiade-mathematik.de/
+  access: pdf
+  terms: "The archive is kept by Manuela Kugel for the German olympiad. The site says that the solutions from the 35th olympiad on are not to be republished. It gives no open licence. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper. The solutions from the 35th olympiad are Z3 (link only)."
+  zone:
+    statement: Z2
+    solution: Z3
+  ai_train: unknown
+  size: the papers of all four rounds and all grades of the 1st to the 34th olympiads (1961/62 to 1994/95), an estimated 6,000 problems
+  wave: 2
+  state: planned
+  notes: The site has no robots.txt (404 on 2026-11-16), so all paths are allowed. It holds its own PDFs only for the 1st to the 34th olympiads; for the 35th olympiad on (1996 on) it links to mathematik-olympiaden.de, whose robots.txt disallows all paths, so those papers are not fetched (gaps of reason robots for de-mo and de-mo-r1 to de-mo-r4, 1996 to 2026). Each paper is one PDF for one round and one grade.
+
+- id: lwmb
+  name: Landeswettbewerb Mathematik Bayern
+  kind: official
+  origin: H1
+  url: https://www.lwmb.de/archiv
+  access: pdf
+  terms: "No licence stated. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: the problem sheets of the 5th to the 29th competitions and the solutions of the 1st to the 28th (a first round of six problems and a second round of four), an estimated 280 problems
+  wave: 2
+  state: planned
+  notes: The robots.txt of www.lwmb.de has only a sitemap line (read on 2026-11-16), so all paths are allowed.
+
+- id: lwm-bw
+  name: Landeswettbewerb Mathematik Baden-Württemberg
+  kind: official
+  origin: H1
+  url: https://www.landeswettbewerb-mathematik.de/
+  access: pdf
+  terms: "No licence stated. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: the papers from 2006 (two rounds), an estimated 150 problems; older papers only on a CD
+  wave: 2
+  state: planned
+  notes: The site has no robots.txt (404 on 2026-11-16), so all paths are allowed.
+
+- id: mw-hessen
+  name: Mathematik-Wettbewerb des Landes Hessen
+  kind: official
+  origin: H1
+  url: https://www.mathematik-wettbewerb.de/
+  access: pdf
+  terms: "No licence stated. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: not counted
+  wave: 3
+  state: planned
+  notes: The host did not answer on 2026-11-16 (time out), so its robots.txt is not read. Read it before any fetch.
+
+- id: fespm
+  name: FESPM, Olimpiada Matemática Nacional
+  kind: official
+  origin: H1
+  url: https://fespm.es/
+  access: pdf
+  terms: "No licence stated. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: a booklet of the individual papers of 1990 to 2019, an estimated 180 problems
+  wave: 3
+  state: planned
+  notes: The robots.txt of fespm.es (read on 2026-11-16) allows /wp-content/uploads, where the booklets are, with no rule for AI crawlers.

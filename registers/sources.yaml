@@ -1776,6 +1776,115 @@
   wave: 1
   state: planned
 
+- id: bdmo-official
+  name: Bangladesh Math Olympiad Committee
+  kind: official
+  origin: H1
+  url: https://matholympiad.org.bd/
+  access: html
+  terms: No terms page or licence was found on 2026-11-16.
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: 'no'
+  wave: 1
+  state: planned
+  notes: "robots.txt (checked on 2026-11-16): matholympiad.org.bd and www.matholympiad.org.bd use the Cloudflare managed file. The * group says Content-Signal: search=yes,ai-train=no,use=reference and Allow: /, and groups for Amazonbot, Applebot-Extended, Bytespider, CCBot, ClaudeBot, Diffbot, Google-Extended, GPTBot and others say Disallow: /. The om agent matches the * group. The decision for robots.txt files that allow all agents under * but disallow ClaudeBot and other named AI crawlers, and say ai-train=no, is pending with the owner (compare bg-mo and pamo-official). The agent harvests nothing from this source until the owner decides. Kaggle and GitHub sets of the BdMO problems of 2004 to 2024 exist, with no licence checked."
+
+- id: slmo-official
+  name: Sri Lanka Mathematics Olympiad
+  kind: official
+  origin: H1
+  url: https://www.slmathsolympiad.org/
+  access: html
+  terms: No licence was found on 2026-11-16.
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 2
+  state: planned
+  notes: robots.txt (checked on 2026-11-16) has a * group that allows / and disallows /api/, /compete, /admin and /ph_return_. The site runs the SLMO and the Sri Lanka Mathematics Challenge. Its archive is not confirmed.
+
+- id: mathsinitiatives-np
+  name: Mathematics Initiatives in Nepal
+  kind: official
+  origin: H1
+  url: https://www.mathsinitiatives.org.np/
+  access: html
+  terms: No licence was found on 2026-11-16.
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 2
+  state: planned
+  notes: robots.txt (checked on 2026-11-16) has no * group. Its groups for Googlebot, Bingbot, ClaudeBot and other named crawlers allow / and disallow /admin/, /api/ and /login, so no rule applies to the om agent. The site runs the Pre-TST and the TST of Nepal. Its archive is not confirmed.
+
+- id: mtrp
+  name: MTRP at Integration
+  kind: official
+  origin: H1
+  url: https://integrationfest.in/mtrp
+  access: pdf
+  terms: No licence was found.
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: The Junior and Senior papers of 2015 to 2018 and some later years
+  wave: 2
+  state: planned
+  notes: On 2026-11-16 integrationfest.in and www.integrationfest.in gave the Vercel page DEPLOYMENT_NOT_FOUND, also for robots.txt. Earlier search results showed the files /assets/files/mtrp/MTRP_Past_Papers.pdf and MTRP_Senior.pdf. Read again when the site is back.
+
+- id: stems
+  name: STEMS at Tessellate
+  kind: official
+  origin: H1
+  url: https://tessellate.cmi.ac.in/
+  access: pdf
+  terms: No licence was found.
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 2
+  state: planned
+  notes: tessellate.cmi.ac.in answers /robots.txt with its app page, and cdn.tessellate.cmi.ac.in gives 404 (checked on 2026-11-16), so neither has robots rules. Search results show past papers under cdn.tessellate.cmi.ac.in/stems/PastPapers. Only the mathematics categories belong to the corpus.
+
+- id: aam
+  name: Assam Academy of Mathematics
+  kind: official
+  origin: H1
+  url: https://aamonline.org.in/mathematical-competitions/
+  access: pdf
+  terms: No licence was found on 2026-11-16.
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: The papers of 2017 to 2025 in three categories, some with solutions, about 20 PDF files
+  wave: 2
+  state: planned
+  notes: robots.txt (checked on 2026-11-16) is the WordPress default, which disallows /wp-admin/ only. Some papers are in English and Assamese.
+
+- id: weizmann-gillis
+  name: Gillis olympiad past papers
+  kind: official
+  origin: H1
+  url: https://www.weizmann.ac.il/math/gillis/node/11
+  access: pdf
+  crawl_delay: 10
+  terms: The page gives no copyright notice and no licence (read on 2026-11-16), so the statements are Z2 with the paper cited (spec 11.1).
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: 53 PDF links, the papers of 1983 to 1998 (no 1995) and of the Hebrew years 5759 to 5786 (no 5764 and 5765), many with solutions, and the Gillis and Kremer book
+  wave: 1
+  state: planned
+  notes: The papers are in Hebrew. Files from 5759 on are named by Hebrew year, such as Gillis 5777.pdf, and phase 2 must map each Hebrew year to the year of the olympiad. robots.txt of www.weizmann.ac.il (checked on 2026-11-16) has a * group with Crawl-Delay 10 and disallows many paths, none of them under /math/gillis/.
+
 - id: imc-official
   name: IMC official site
   kind: official

@@ -342,7 +342,7 @@
   note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
 - competition: by-iran-friendly
   reason: no-source
-  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems. The AoPS papers of 2022 to 2024 show six problems each, and the other years are not confirmed.
 - competition: ru-pvg
   reason: no-source
   note: No source of the problems was found. The census of 2026-11-16 found no official archive and no dataset rows.
@@ -567,3 +567,23 @@
 - competition: br-obmep
   reason: robots
   note: The site of OBMEP (source obmep) links the papers of 2005 to 2025 as Google Drive files, and robots.txt of drive.usercontent.google.com, which serves the files, disallows all paths (checked 2026-11-16).
+
+# South Asia, the Middle East, Africa and Oceania (census of 2026-11-16). No allowed source gives the problems of these competitions.
+- competition: in-nmtc
+  reason: no-source
+  note: AMTI publishes no papers. The papers online are on coaching sites, which are not allowed sources (census of 2026-11-16).
+- competition: in-limit
+  reason: no-source
+  note: No official or other allowed source of its problems was found (census of 2026-11-16).
+- competition: in-kvjmo
+  reason: no-source
+  note: No official archive was found. The papers online are on school library blogs (census of 2026-11-16).
+- competition: pk-mo
+  reason: no-source
+  note: No official or other allowed source of its problems was found (census of 2026-11-16).
+- competition: il-grossman
+  reason: no-source
+  note: No official or other allowed source of its problems was found (census of 2026-11-16).
+- competition: ir-university
+  reason: no-source
+  note: No official or other allowed source of its problems was found (census of 2026-11-16).

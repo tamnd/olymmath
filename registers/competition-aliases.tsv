@@ -678,6 +678,60 @@ Saudi Arabia BMO TST	-
 Saudi Arabia IMO TST	-
 Saudi Arabia JBMO TST	-
 Saudi Arabia Pre-TST	-
+CMI B.Sc. Entrance Exam	-
+Chennai Mathematical Institute B.Sc. Entrance Exam	-
+ISI Entrance UGB	-
+India ZIO	-
+Iran	-
+Israel Olympic Revenge	il-revenge
+Israel Oral Olympiad	il-oral
+Iran MO (1st Round)	ir-mo-r1
+Iran RMM TST	ir-rmm-tst
+Iranian Combinatorics Olympiad	ir-combinatorics
+iranian_combinatorics_olympiad	ir-combinatorics
+Iranian Our MO	ir-ourmo
+Iran Geometry Olympiad	igo
+Iran Geometry Olympiad (senior)	igo
+Iranian Geometry Olympiad (junior)	igo
+th_igo	igo
+India Iran Friendly Math Competition	india-iran
+Iran-Taiwan Friendly Math Competition	iran-taiwan
+KVS IOQM India	in-prmo-ioqm
+IMO_TSTs_India	in-tst
+India EGMO TST	in-egmo-tst
+NMTC	in-nmtc
+NMTC Junior	in-nmtc
+NMTC Inter	in-nmtc
+INDIA NMTC	in-nmtc
+Mathematics Talent Reward Programme (MTRP)	in-mtrp
+MTRP Senior	in-mtrp
+STEMS Math Cat A	in-stems
+STEMS Math Cat B	in-stems
+STEMS Math Cat C	in-stems
+STEMS 2021-22 Math Cat A-B	in-stems
+STEMS Math Cat A Qualifier Round	in-stems
+India STEMS Category A	in-stems
+India STEMS Category B	in-stems
+India STEMS Category C	in-stems
+STEMS CS Cat A	-
+STEMS CS Cat B	-
+STEMS Phy Cat A	-
+STEMS Phy Cat B	-
+STEMS Phy Cat C	-
+LIMIT Category A	in-limit
+LIMIT Category B	in-limit
+LIMIT Category C	in-limit
+LIMIT Category 1	in-limit
+LIMIT Category 2	in-limit
+Assam Mathematics Olympiad	in-assam
+Assam Mathematical Olympiad	in-assam
+Bangladesh Mathematical Olympiad Final	bd-bdmo
+Pakistan TST	pk-tst
+Nepal TST	np-tst
+NEPALTST	np-tst
+Nepal Mathematics Olympiad (Pre-TST)	np-mo
+Sri Lankan Mathematics Challenge Competition	lk-slmc
+Sri Lanka Mathematics Challenge Competition	lk-slmc
 # East and Southeast Asia (census of 2026-11-16). Agent decision, not a person's review: each line maps a label of the unknown list to the code that the label names. A lower round of a national olympiad goes to the code of that round, not to the final round. A camp, a mock test, a shortlist, a university entrance exam or a set of mixed tests goes to "-". MathNet labels with no contest name in them take the country before the label, so the bare label is not added.
 China Mathematical Competition (Hainan)	cn-league
 China Mathematical Competition (Shaanxi)	cn-league

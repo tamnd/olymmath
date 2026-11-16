@@ -710,11 +710,34 @@
   name: Arab Mathematical Olympiad
   group: international
   level: high-school
+  organizer: ALECSO
   first_year: 2018
   edition_form: year
   languages: [ar, en]
   sources: [imogeometry-blog]
-  description: An olympiad of Arab countries. No official site has been found.
+  description: An olympiad of Arab countries, held every two years with ALECSO. The fourth edition was in Doha in November 2024. No official site or archive of the problems has been found.
+
+- code: eamo
+  name: East African Mathematical Olympiad
+  short: EAMO
+  group: international
+  level: high-school
+  url: https://eamo-olympiad.org/
+  first_year: 2023
+  edition_form: year
+  languages: [en]
+  sources: [eamo-official]
+  description: The olympiad of the countries of East Africa. The first edition was held online in February 2023 with seven countries. Later editions were in Nairobi (2024), Kigali (2025) and Uganda (2026). The site links a past papers page, which gave 404 on 2026-11-16. Its shape is not confirmed.
+
+- code: safest
+  name: South Africa - Estonia Olympiad
+  short: SAFEST
+  group: international
+  level: high-school
+  edition_form: year
+  languages: [en]
+  sources: [aops-collections]
+  description: A friendly olympiad between South Africa and Estonia. AoPS has some of its problems. No official archive has been found.
 
 - code: india-iran
   name: India-Iran Friendly Mathematics Competition
@@ -828,6 +851,15 @@
   languages: [en, fr, ar]
   sources: [pamo-official, imogeometry-blog]
   description: The olympiad of African countries with two papers of three problems. The sources do not agree on the years in which it was not held.
+
+- code: pamo-sl
+  name: Pan-African Mathematics Olympiad Shortlist
+  group: international
+  level: high-school
+  edition_form: year
+  languages: [en, fr]
+  sources: [aops-collections, imogeometry-blog]
+  description: The shortlist from which the jury of PAMO chooses the problems. AoPS has the shortlists of some years from 2017. No official archive has been found.
 
 - code: pagmo
   name: Pan-American Girls' Mathematical Olympiad
@@ -8637,18 +8669,19 @@
   group: national
   level: high-school
   country: SA
+  organizer: Mawhiba
   edition_form: year
   official_solutions: true
   languages: [ar, en]
-  description: The Saudi competition and team selection test. Booklets with solutions are known for some years.
+  description: The Saudi competition and team selection test. Booklets with solutions are known for some years, such as 2013 on the KSU faculty site, and Mawhiba prints the IMO booklets of 2022 and 2024. The booklets mix the Saudi tests for several competitions, so no shape is given.
 
 - code: ae-mo
   name: United Arab Emirates national mathematics olympiad
   group: national
   level: high-school
   country: AE
-  languages: [ar]
-  description: The national olympiad of the United Arab Emirates. No source has been found.
+  languages: [ar, en]
+  description: The national olympiad of the United Arab Emirates. competitions.ae (source uae-competitions) runs school competitions in the UAE, but its link to the national olympiad is not confirmed. No source has been found.
 
 - code: kw-mo
   name: Kuwait national mathematics olympiad
@@ -8691,12 +8724,14 @@
   description: The national olympiad of Jordan. No source has been found.
 
 - code: sy-mo
-  name: Syria national mathematics olympiad
+  name: Syrian Mathematical Olympiad
   group: national
   level: high-school
   country: SY
-  languages: [ar]
-  description: The national olympiad of Syria. No source has been found.
+  url: https://sites.google.com/view/syrian-mathematical-olympiad/home
+  languages: [ar, en]
+  sources: [syria-mo-site]
+  description: The national olympiad of Syria. The site of the Syrian Central Mathematics Committee has training notes and a section of problems from old exams. Its archive is not confirmed.
 
 - code: lb-mo
   name: Lebanon national mathematics olympiad
@@ -8720,7 +8755,7 @@
   level: high-school
   country: PS
   languages: [ar]
-  description: The national olympiad of Palestine. No source has been found.
+  description: The national olympiad of Palestine, whose team first went to the IMO in 2022. No source has been found.
 
 - code: eg-mo
   name: Egypt national mathematics olympiad
@@ -8736,13 +8771,15 @@
   level: high-school
   country: MA
   languages: [ar, fr]
-  description: The national olympiad of Morocco. No source has been found.
+  sources: [empimo]
+  description: The national olympiad of Morocco. The empimo library has the olympiad tests of 1983 to 2016 and the papers of 2019, 2021 and 2022, as files on Google Drive. Its shape is not confirmed.
 
 - code: tn-mo
   name: Tunisia national mathematics olympiad
   group: national
   level: high-school
   country: TN
+  organizer: ATSM
   languages: [ar, fr]
   description: The national olympiad of Tunisia. No source has been found.
 
@@ -8751,32 +8788,58 @@
   group: national
   level: high-school
   country: DZ
+  url: https://start.algerianmo.com/
   languages: [ar, fr]
-  description: The national olympiad of Algeria. No source has been found.
+  description: The national olympiad of Algeria. The site of the Algerian olympiad committee has no archive of problems. No source has been found.
+
+- code: ma-mmc
+  name: Math&Maroc Competition
+  short: MMC
+  group: national
+  level: high-school
+  country: MA
+  organizer: Math&Maroc
+  url: https://mathmaroc.org/
+  edition_form: year
+  languages: [en, fr]
+  description: A Moroccan competition with a two-day olympiad contest, run by the Math&Maroc association. No archive of its problems has been confirmed.
 
 - code: za-samo
   name: South African Mathematics Olympiad
+  short: SAMO
   group: national
   level: high-school
+  levels: [junior, high-school]
   country: ZA
+  organizer: SAMF
+  url: https://www.samf.ac.za/
   edition_form: year
   per_year: 6
   languages: [en]
-  description: The national olympiad of South Africa. Its site and archive are not confirmed.
+  sources: [samf]
+  description: The national olympiad of South Africa, with a Junior division (grades 8 and 9) and a Senior division (grades 10 to 12), each in three rounds. The past papers on the SAMF site need a login, and the SAMF sells books of them.
 
 - code: ng-mo
   name: Nigeria national mathematics olympiad
   group: national
   level: high-school
+  levels: [junior, high-school]
   country: NG
-  description: The national olympiad of Nigeria. No source has been found.
+  languages: [en]
+  sources: [aops-collections]
+  description: The national olympiad of Nigeria, with junior and senior categories in several rounds. AoPS has problems of the senior rounds 2 to 4 of some years. No official archive has been found.
 
 - code: ke-mo
-  name: Kenya national mathematics olympiad
+  name: Kenya Mathematical Olympiad
+  short: KMO
   group: national
   level: high-school
+  levels: [junior, high-school]
   country: KE
-  description: The national olympiad of Kenya. No source has been found.
+  organizer: University of Nairobi
+  edition_form: year
+  languages: [en]
+  description: The national olympiad of Kenya, also called the Kapek Kenya Mathematical Olympiad. It has three rounds. Round 1 has junior and senior categories and was a multiple choice paper in 2017. Copies of some papers are on document sharing sites. No official archive has been found.
 
 - code: gh-mo
   name: Ghana national mathematics olympiad
@@ -8847,6 +8910,16 @@
   level: high-school
   country: ET
   description: The national olympiad of Ethiopia. No source has been found.
+
+- code: bf-mo
+  name: Burkina Faso national mathematics olympiad
+  group: national
+  level: high-school
+  country: BF
+  url: https://cmathburkina.org/
+  languages: [fr]
+  sources: [cmathburkina]
+  description: The national olympiad of Burkina Faso. Its archive is not confirmed.
 
 # Journals with problem sections (01b section 5). They are source kinds, not competitions.
 

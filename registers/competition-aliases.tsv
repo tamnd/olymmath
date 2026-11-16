@@ -125,35 +125,35 @@ ARML	arml
 MATHCOUNTS	mathcounts
 NIMO Problems	nimo
 Online Math Open Problems	omo
-Purple Comet Problems	-
-CCA Math Bonanza	-
+Purple Comet Problems	purple-comet
+CCA Math Bonanza	cca-bonanza
 ASDAN Math Tournament	-
-LMT Fall	-
-LMT Spring	-
-LMT	-
-MOAA	-
+LMT Fall	lmt
+LMT Spring	lmt
+LMT	lmt
+MOAA	moaa
 MIG	-
-USAMTS Problems	-
-ITest	-
-iTest	-
-Math Prize For Girls Problems	-
-MMATHS	-
-BAMO	-
-Bay Area Mathematical Olympiad	-
+USAMTS Problems	usamts
+ITest	itest
+iTest	itest
+Math Prize For Girls Problems	mpfg
+MMATHS	mmaths
+BAMO	bamo
+Bay Area Mathematical Olympiad	bamo
 F = Ma	-
-OMMC	-
+OMMC	ommc
 SDML (High School)	-
 SDML (Middle School)	-
-JHMT	-
-JHMT HS	-
-USMCA	-
-MBMT	-
-Harker Math Invitational	-
-Manhattan Mathematical Olympiad	-
-EMCC	-
-Utah Mathematical Olympiad	-
+JHMT	jhmt
+JHMT HS	jhmt
+USMCA	usmca
+MBMT	mbmt
+Harker Math Invitational	harker
+Manhattan Mathematical Olympiad	manhattan-mo
+EMCC	emcc
+Utah Mathematical Olympiad	utah-mo
 Berkeley Math Circle	-
-Berkeley Math Circle Monthly Contest	-
+Berkeley Math Circle Monthly Contest	bmc-monthly
 MOP Homework	-
 PEN A Problems	-
 PEN H Problems	-
@@ -161,6 +161,156 @@ Today's Calculation Of Integral	-
 Arnold's Trivium	-
 Open Contests	-
 United States	-
+# The Americas census (2026-11-16). Agent decision, not a person's review: see the note on codes with no layout in the international part. The labels with "-" below are mock contests, forum contests, problem sets or other sciences.
+NIMO Summer Contest	nimo-summer
+CMWMC	cmwmc
+GLMT	glmt
+IMTS	imts
+UMD Math Competition Part I	umd-hsmc1
+UMD Math Competition Part II	umd-hsmc2
+Maryland University HSMC part II	umd-hsmc2
+Math Hour Olympiad	math-hour
+BmMT	bmmt
+JHMMC 8	jhmmc
+JHMMC 7 Contest	jhmmc
+SDMO (Middle School)	sdmo-ms
+SDMO (High School)	sdmo-hs
+San Diego Power Contest	sdpc
+Kettering HS MO	kettering
+RMT Algebra Round	rmt
+RMT Calculus Round	rmt
+ASMT	asmt
+Fall CHMMC	chmmc
+Harvest Math Invitational Team Round Problems	harvest
+MBMT Team Rounds	mbmt
+DMM Individual Rounds	dmm
+DMM Team Rounds	dmm
+MMATHS Mathathon Rounds	mmaths
+MOAA Individual Speed General Rounds	moaa
+LMT Team Rounds 2024+	lmt
+OMMC Final Round	ommc
+OMMC POTM	-
+OMMC Samples	-
+BAMO Contests	bamo
+BAMO-12	bamo
+BAMO-8	bamo
+BAMO-8 and BAMO-12	bamo
+Berkeley Math Circle Take-Home Contest	bmc-monthly
+Berkeley Math Circle Take-Home Contest #1	bmc-monthly
+Berkeley Math Circle Take-Home Contest #2	bmc-monthly
+Berkeley Math Circle Take-Home Contest #6	bmc-monthly
+Fall 2021 AMC 10 B	amc10
+2021 AMC 10 B Fall	amc10
+AMC 12-AHSME	amc12
+AMC 12/AHSME	amc12
+AHSME Spring	amc12
+AHSME Fall	amc12
+USA Junior MO	usajmo
+USOJMO	usajmo
+USAMO 2021 Day I	usamo
+United States of America — TST Selection Test	us-tst
+$10^{\text {th }}$ Annual Harvard-MIT Mathematics Tournament	hmmt
+$12^{\text {th }}$ Annual Harvard-MIT Mathematics Tournament	hmmt
+11th Annual Harvard-MIT Mathematics Tournament - Team Round: B Division	hmmt
+HMMT February 2019 February 16, 2019	hmmt
+HMMT February 2019 Team Round	hmmt
+HMMT Spring 2021 Team Round	hmmt
+Harvard-MIT Mathematics Tournament, Team Round A	hmmt
+Harvard-MIT Mathematics Tournament, Team Round B	hmmt
+HMMT November 2021 Team Round	hmnt
+HMNT (HMMO)	hmnt
+HMNT   HMMT November	hmnt
+HMMT 2014 HMIC	hmic
+CMIMC Algebra	cmimc
+CMIMC Algebra & Number Theory	cmimc
+CMIMC Algebra and Number Theory	cmimc
+CMIMC Combinatorics	cmimc
+CMIMC Combinatorics & Computer Science	cmimc
+CMIMC Combinatorics and Computer Science	cmimc
+CMIMC Computer Science	cmimc
+CMIMC CS	cmimc
+CMIMC Individual Finals	cmimc
+CMIMC Number Theory	cmimc
+CMIMC TCS	cmimc
+CMIMC Theoretical Computer Science	cmimc
+PUMaC Algebra A	pumac
+PUMaC Algebra B	pumac
+PUMaC Algebra Individual A	pumac
+PUMaC Algebra Individual B	pumac
+PUMaC Combinatorics A	pumac
+PUMaC Combinatorics B	pumac
+PUMaC Geometry A	pumac
+PUMaC Geometry B	pumac
+PUMaC Individual Finals A	pumac
+PUMaC Individual Finals A, B	pumac
+PUMaC Individual Finals B	pumac
+PUMaC Live Round	pumac
+PUMaC Number Theory A	pumac
+PUMaC Number Theory B	pumac
+PUMaC Team	pumac
+PUMaC Team Round	pumac
+November Putnam	putnam
+February Putnam	putnam
+ELMO Revenge	-
+Revenge ELMO 2023	-
+Revenge EL(S)MO 2024	-
+DIME	-
+CIME I 2018	-
+CIME II 2018	-
+SIME	-
+SJMO	-
+SYMO	-
+SIMO	-
+TASIMO	-
+SGMO	-
+November MEOW	-
+NCMO	-
+NCJMO	-
+MMM	-
+MMM (Michigan Lemma)	-
+PMC	-
+SG Originals	-
+IPhOO	-
+USAPhO	-
+UM Integral Bee 2025 Final Round	-
+CNCM Online Round 1	-
+CNCM Online Round 2	-
+CNCM Online Round 3	-
+CNCM Online Round 4	-
+Geolympiad Spring	-
+Geolympiad Summer	-
+Proofathon Spring Contest	-
+Proofathon Fall Contest	-
+Proofathon Geometry	-
+Proofathon Algebra	-
+Proofathon Algebra 2	-
+Proofathon Calculus	-
+Proofathon Calculus 2	-
+Proofathon Combinatorics	-
+Proofathon Combinatorics 2	-
+Proofathon Functional Equations	-
+Proofathon Game Theory	-
+Proofathon Inequalities	-
+Proofathon Number Theory	-
+Proofathon Number Theory 2	-
+Proofathon Sequences and Series	-
+Proofathon Trigonometry and Complex Numbers	-
+PEN B Problems	-
+PEN C Problems	-
+PEN D Problems	-
+PEN E Problems	-
+PEN F Problems	-
+PEN G Problems	-
+PEN I Problems	-
+PEN J Problems	-
+PEN K Problems	-
+PEN L Problems	-
+PEN M Problems	-
+PEN N Problems	-
+PEN P Problems	-
+PEN Q Problems	-
+PEN R Problems	-
+PEN S Problems	-
 # Canada and Latin America.
 Canada National Olympiad	ca-cmo
 Canada_MO	ca-cmo
@@ -484,7 +634,7 @@ numina:olympiads_ref	-
 numina:cn_k12_olympiads	-
 # More labels of MathNet and AoPS.
 May Olympiad	-
-Berkeley Math Circle Monthly Contest	-
+Berkeley Math Circle Monthly Contest	bmc-monthly
 Berkeley Math Circle: Monthly Contest	-
 Soros Olympiad (Russia)	-
 Kyiv City MO - geometry	-

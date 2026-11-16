@@ -1419,7 +1419,7 @@
   ai_train: unknown
   wave: 1
   state: planned
-  notes: The tournament pages, such as /www/archive/291 for November 2025, link the problems PDF of each round on hmmt-archive.s3.amazonaws.com. The robots.txt of www.hmmt.org allows all paths for other agents and says search=yes, ai-train=no, use=reference. The robots.txt of hmmt-archive.s3.amazonaws.com gives 403, and the fetch client reads a 403 as a block of all paths (checked on 2026-11-06). So om ocr cannot get these papers.
+  notes: "The tournament pages, such as /www/archive/291 for November 2025, link the problems PDF of each round on hmmt-archive.s3.amazonaws.com. The robots.txt of www.hmmt.org allows all paths for other agents and says search=yes, ai-train=no, use=reference. The robots.txt of hmmt-archive.s3.amazonaws.com gives 403, and the fetch client reads a 403 as a block of all paths (checked on 2026-11-06). So om ocr cannot get these papers. The robots.txt of hmmt.org and www.hmmt.org (read on 2026-11-16) also has named groups that disallow all paths for ClaudeBot, anthropic-ai, claude-web, GPTBot, CCBot, Google-Extended, Bytespider, cohere-ai and meta-externalagent. The rule for sites that block named AI crawlers is a decision of the owner that is still pending."
 
 - id: cmimc-official
   name: CMIMC archive
@@ -1433,6 +1433,7 @@
   ai_train: unknown
   wave: 1
   state: planned
+  notes: "The robots.txt of cmimc.com (checked on 2026-11-16) allows all paths. The site also has the page of the CMWMC, https://cmimc.com/competitions/cmwmc."
 
 - id: arml-official
   name: ARML
@@ -1454,13 +1455,197 @@
   origin: H1
   url: https://www.mathcounts.org/resources/past-competitions
   access: pdf
+  terms: "The terms at https://www.mathcounts.org/terms-use (read on 2026-11-16) say \"Any reproduction, retransmission, or republication of all or part of any document found on this site is expressly prohibited, unless ... prior written consent\". So the records are links only (Z3)."
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: unknown
+  wave: 1
+  state: planned
+  notes: "Only the last year is free. The robots.txt of www.mathcounts.org (checked on 2026-11-16) is the Drupal default file and blocks no paper path."
+
+- id: purple-comet
+  name: Purple Comet! Math Meet
+  kind: official
+  origin: H1
+  url: https://purplecomet.org/
+  access: pdf
+  terms: "The site has no page of terms and gives no licence (read on 2026-11-16). The footer says \"All content copyright © 2003-2026 by Jonathan Kane, Titu Andreescu, Bennette Harris, and Sobitha Samaranayake\". Agent decision, not a person's review: Z2, the spec default for competition statements."
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
-  wave: 1
+  size: middle school and high school papers from 2003, with answers and solutions
+  wave: 2
   state: planned
-  notes: Only the last year is free.
+  notes: "The robots.txt of purplecomet.org (checked on 2026-11-16) has no rules that block a path. The resources page links the past papers."
+
+- id: moems
+  name: Math Olympiads for Elementary and Middle Schools (MOEMS)
+  kind: official
+  origin: H1
+  url: https://www.moems.org/
+  access: html
+  terms: "The terms at https://www.moems.org/pages/terms-of-service (read on 2026-11-16) say \"You agree not to reproduce, duplicate, copy ... without express written permission\" and that unauthorized reproduction, publication or distribution is expressly prohibited. So the records are links only (Z3)."
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: unknown
+  wave: 3
+  state: planned
+  notes: "The robots.txt of www.moems.org (checked on 2026-11-16) is the Shopify file. It disallows /admin, the cart and checkout paths and some other shop paths. MOEMS sells the past olympiads in books, so there is no free archive to link."
+
+- id: noetic
+  name: Noetic Learning Math Contest
+  kind: official
+  origin: H1
+  url: https://www.noetic-learning.com/mathcontest/
+  access: pdf
+  terms: "The site has no page of terms that covers the papers (read on 2026-11-16). Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 3
+  state: planned
+  notes: "The robots.txt of www.noetic-learning.com (checked on 2026-11-16) disallows /mathcontest/documents/ and /*.pdf$ for all agents. The past papers are PDF files, so they are not read, and the positions are in gaps.yaml with the reason robots."
+
+- id: mathleague
+  name: Math League
+  kind: official
+  origin: H1
+  url: https://www.mathleague.com/
+  access: html
+  terms: "No page of terms was found (read on 2026-11-16). Math League sells the past contests in books and as files. Agent decision, not a person's review: Z3, because the papers are sold."
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: unknown
+  wave: 3
+  state: planned
+  notes: "The robots.txt of www.mathleague.com and mathleague.com (checked on 2026-11-16) is the Joomla default file. It disallows /administrator/, /cache/, /includes/ and the other Joomla system paths. old.mathleague.com disallows its admin paths and asks for a crawl delay of 10 seconds."
+
+- id: mathkangaroo-usa
+  name: Math Kangaroo USA
+  kind: official
+  origin: H1
+  url: https://mathkangaroo.org/mks/
+  access: pdf
+  terms: "The site has no page of terms for the papers (read on 2026-11-16). The footer says \"Copyright © 2003-2026 Math Kangaroo USA, NFP, Inc. All rights reserved\". Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 2
+  state: planned
+  notes: "The robots.txt of mathkangaroo.org and www.mathkangaroo.org gives 404 (checked on 2026-11-16), so no path is blocked. Math Kangaroo USA shows sample papers for each level. The robots.txt of www.aksf.org gives 404, and the AKSF site gives no copyright text."
+
+- id: usamts
+  name: USA Mathematical Talent Search
+  kind: official
+  origin: H1
+  url: https://www.usamts.org/
+  access: pdf
+  terms: "The site has no page of terms of its own (read on 2026-11-16). The footer says \"© Copyright 2026 Art of Problem Solving Initiative. All rights reserved.\" Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: rounds of about five problems from 1989
+  wave: 2
+  state: planned
+  notes: "The robots.txt of usamts.org and www.usamts.org (checked on 2026-11-16) allows all paths for all agents and names no AI crawler. The archive page links the problems and the solutions of past rounds."
+
+- id: bamo
+  name: Bay Area Mathematical Olympiad
+  kind: official
+  origin: H1
+  url: https://www.bamo.org/
+  access: pdf
+  terms: "The site has no page of terms and no copyright line on the home page (read on 2026-11-16). Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 2
+  state: planned
+  notes: "The robots.txt of www.bamo.org (checked on 2026-11-16) allows all paths. The path /archives/ gave 404, so the path of the archive is not confirmed. hosted.msri.org, which held older BAMO pages, did not answer."
+
+- id: mathprize
+  name: Math Prize for Girls
+  kind: official
+  origin: H1
+  url: https://mathprize.atfoundation.org/
+  access: pdf
+  terms: "The terms at https://mathprize.atfoundation.org/misc/terms (read on 2026-11-16) say \"You shall not duplicate, modify, copy, or post any part of the Site or the Site's content ... without the AT Foundation's prior written permission.\" So the records are links only (Z3)."
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: unknown
+  wave: 2
+  state: planned
+  notes: "The robots.txt of mathprize.atfoundation.org (checked on 2026-11-16) disallows /assets/, /.well-known/, /forms and some data paths only. The old domain mathprizeforgirls.org did not answer."
+
+- id: mathhour-uw
+  name: Math Hour Olympiad (University of Washington)
+  kind: official
+  origin: H1
+  url: https://sites.math.washington.edu/~mathcircle/olympiad/
+  access: pdf
+  terms: "The site has no page of terms (read on 2026-11-16). The footer says \"Copyright © 2009-2025 UW Math Enrichment\". Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 2
+  state: planned
+  notes: "The robots.txt of sites.math.washington.edu (checked on 2026-11-16) disallows /cgi-bin/, /Computing/, /GradRecs/, /Secure/ and /intranet/ only. www.mathhour.org gives 404 for robots.txt."
+
+- id: lhsmath
+  name: Lexington High School math team (LMT archive)
+  kind: official
+  origin: H1
+  url: https://www.lhsmath.org/LMT/Problems_and_Solutions
+  access: pdf
+  terms: "The site has no page of terms and gives no licence (read on 2026-11-16). Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: LMT round papers of 2010 to 2026 and the GLMT of 2025
+  wave: 2
+  state: planned
+  notes: "The archive page links the round papers under /LMT/Archive/, as /LMT/Archive/<year_season>/LMT_Spring_<Round>probs_<year>.pdf. The years are 2010 to 2017 in the spring, then fall and spring from 2018. The rounds include accuracy, guts, speed and team. The robots.txt of www.lhsmath.org (checked on 2026-11-16) disallows /Account/, /Admin/, /res/ and /Download, so the /LMT/Archive/ paths are allowed."
+
+- id: holbrook
+  name: Joe Holbrook Memorial Math Competition
+  kind: official
+  origin: H1
+  url: https://holbrook.bcamathteam.org/
+  access: pdf
+  terms: "The site has no page of terms and gives no licence (read on 2026-11-16). Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: 'no'
+  wave: 3
+  state: planned
+  notes: "The old papers are under /oldcomp/<year>/, one PDF for each grade. The robots.txt of holbrook.bcamathteam.org (read on 2026-11-16) is the Cloudflare managed file. The group for all agents carries \"Content-Signal: search=yes,ai-train=no,use=reference\" and allows all paths. Named groups disallow all paths for ClaudeBot, anthropic-ai, claude-web, GPTBot, CCBot, Google-Extended, Bytespider, cohere-ai and meta-externalagent. The rule for sites that block named AI crawlers is a decision of the owner that is still pending. Nothing is harvested in phase 1."
+
+- id: ommc-official
+  name: Online Monmouth Math Competition
+  kind: official
+  origin: H1
+  url: https://www.ommcofficial.org/
+  access: pdf
+  terms: "The site has no page of terms and gives no licence (read on 2026-11-16). Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 3
+  state: planned
+  notes: "The robots.txt of www.ommcofficial.org (checked on 2026-11-16) allows all paths. The archive of past papers was not confirmed."
 
 - id: irmo-official
   name: Irish Mathematical Olympiad

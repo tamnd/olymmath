@@ -213,3 +213,8 @@
 - competition: si-vega
   reason: link-only
   note: The DMFA terms are taken to allow no publication on other sites (source dmfa-repozitorij), so the project links the papers only.
+
+# The Americas census (2026-11-16): United States contests that robots.txt blocks.
+- competition: noetic
+  reason: robots
+  note: robots.txt of www.noetic-learning.com disallows /mathcontest/documents/ and /*.pdf$ (source noetic, checked 2026-11-16).

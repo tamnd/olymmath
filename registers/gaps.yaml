@@ -31,6 +31,9 @@
 - competition: bg-mo
   reason: robots
   note: robots.txt of math.bas.bg disallows ClaudeBot (source math-bas-bg, checked 2026-11-04).
+- competition: bg-hrabar
+  reason: robots
+  note: robots.txt of math.bas.bg disallows ClaudeBot (source math-bas-ch, checked 2026-11-16). klasirane.com publishes no new papers, at the request of the organizers.
 - competition: ca-cmo
   reason: robots
   note: robots.txt of cms.math.ca disallows /competitions/cmo/problem-sets (source cms, checked 2026-11-11).
@@ -296,5 +299,79 @@
   reason: no-source
   note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops, hf-aops-wiki) give problems, and the shape of the papers is not confirmed.
 - competition: tm-regional
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+
+# Romania and Bulgaria (census of 2026-11-16).
+- competition: ro-jbmo-tst
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-mathnet, hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+- competition: ro-stars
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-mathnet, hf-ai-mo-aops, imogeometry-blog) give problems, and the shape of the papers is not confirmed.
+- competition: ro-imar
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-mathnet, imogeometry-blog) give problems, and the shape of the papers is not confirmed.
+- competition: ro-ongm
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-mathnet) give problems, and the shape of the papers is not confirmed.
+- competition: ro-clock-tower
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-mathnet) give problems, and the shape of the papers is not confirmed.
+- competition: ro-bogdan-stan
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+- competition: ro-ivanescu
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+- competition: ro-moisil
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+- competition: ro-coculescu
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+- competition: ro-mihaileanu
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+- competition: ro-suceava
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+- competition: ro-trident
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+- competition: ro-titeica
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+- competition: ro-ramnicean-hope
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+- competition: ro-topan
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+- competition: ro-paun
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+- competition: ro-unirea
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+- competition: ro-duican
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+- competition: ro-panaitopol
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+- competition: ro-valcovici
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+- competition: ro-science-on
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+- competition: ro-golden-digits
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+- competition: bg-tst
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-mathnet, hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+- competition: bg-ifym
   reason: no-source
   note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.

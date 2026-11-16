@@ -343,18 +343,18 @@ Romanian Mathematical Olympiad	ro-nmo
 ROMANIAN MATHEMATICAL OLYMPIAD	ro-nmo
 NMO	ro-nmo
 Olimpiada Naţională de Matematică	ro-nmo
-# Agent decision, not a person's review: the district round (etapa judeţeană) and the shortlist of the Romanian NMO number their problems from 1 in each grade too, and the register has no code for them, so their rows must not take the positions of ro-nmo.
+# Agent decision, not a person's review: the district round (etapa judeţeană) and the shortlist of the Romanian NMO number their problems from 1 in each grade too, so their rows must not take the positions of ro-nmo. From 2026-11-16 the register has the code ro-county for the district round. The shortlist has no code.
 SHORTLISTED PROBLEMS FOR THE NMO	-
-District Olympiad	-
+District Olympiad	ro-county
 Romania Team Selection Test	ro-tst
 Romania Team Selection Tests	ro-tst
-IMAR Test	-
-Stars of Mathematics	-
+IMAR Test	ro-imar
+Stars of Mathematics	ro-stars
 Danube Mathematical Competition	danube
 Gheorghe Vranceanu	-
 Traian Lălescu	-
 Alexandru Myller	-
-Junior Balkan Team Selection Tests - Romania	-
+Junior Balkan Team Selection Tests - Romania	ro-jbmo-tst
 Junior Balkan Team Selection Tests - Moldova	md-jbmo-tst
 All-Russian Olympiad	ru-allrussian
 # Agent decision, not a person's review: the regional round of the All-Russian Olympiad is not the final round, so its rows must not take the positions of ru-allrussian. From 2026-11-16 the register has the code ru-allrussian-regional for it.
@@ -446,8 +446,8 @@ Hungary-Israel Binational	hungary-israel
 Bulgaria National Olympiad	bg-mo
 Bulgarian Mathematical Competitions	bg-mo
 Bulgaria	bg-mo
-Bulgarian Autumn Math Competition	-
-IFYM, Sozopol	-
+Bulgarian Autumn Math Competition	bg-autumn
+IFYM, Sozopol	bg-ifym
 Serbia National Math Olympiad	rs-smo
 Serbia_MO	rs-smo
 Serbia Team Selection Test	-
@@ -675,7 +675,7 @@ France TST	fr-tst
 Turkey EGMO TST	-
 Croatia TST	hr-tst
 Moldova NMO	md-mo
-Bulgaria TST	-
+Bulgaria TST	bg-tst
 Dutch BxMO/EGMO TST	nl-bxmo-tst
 Greece Team Selection Test	-
 Armenia NMO XI-XII - geometry	am-mo
@@ -751,7 +751,7 @@ First Round	-
 Local Mathematical Competitions	-
 Mongolian National Mathematical Olympiad	mn-mo
 NMO Selection Tests	-
-ROMANIAN MATHEMATICAL OLYMPIAD - DISTRICT ROUND	-
+ROMANIAN MATHEMATICAL OLYMPIAD - DISTRICT ROUND	ro-county
 Ukrainian National Mathematical Olympiad - Fourth Round	ua-umo
 Ukrainian Mathematical Olympiad, Final Round	ua-umo
 Junior Macedonian Mathematical Olympiad	mk-mo
@@ -935,8 +935,8 @@ NMO Selection Tests for BMO and IMO	ro-tst
 Olimpiada Naţională de Matematică Etapa Naţională	ro-nmo
 Olimpiada Naţională de Matematică, Etapa Naţională	ro-nmo
 Olimpiada Națională de Matematică	ro-nmo
-Olimpiada Naţională de Matematică, Etapa Judeţeană şi a Municipiului Bucureşti	-
-Olimpiada Naţională de Matematică Etapa Judeţeană şi a Municipiului Bucureşti	-
+Olimpiada Naţională de Matematică, Etapa Judeţeană şi a Municipiului Bucureşti	ro-county
+Olimpiada Naţională de Matematică Etapa Judeţeană şi a Municipiului Bucureşti	ro-county
 Ukrajina 2008	ua-umo
 62nd Ukrainian National Mathematical Olympiad, Third Round, First Tour	ua-umo
 62nd Ukrainian National Mathematical Olympiad, Third Round, Second Tour	ua-umo
@@ -1353,3 +1353,97 @@ Olimpiada Republicană la Matematică, A doua zi	md-mo
 Olimpiada de Matematică a Republicii Moldova	md-mo
 JBMO TST   Moldova	md-jbmo-tst
 Junior Balkan TSTs   Moldova	md-jbmo-tst
+# Romania and Bulgaria: labels from the unknown list of the coverage report, mapped on 2026-11-16. Agent decision, not a person's review: each line maps a label to the competition that it names. A generic MathNet label maps through its second label, the country and the label. A label that names no round of one competition, or that names a training set, maps to "-".
+69th NMO Selection Tests for JBMO	ro-jbmo-tst
+THE 68th NMO SELECTION TESTS FOR THE JUNIOR BALKAN MATHEMATICAL OLYMPIAD	ro-jbmo-tst
+Primul test de selecţie pentru OBMJ	ro-jbmo-tst
+Al doilea test de selecţie pentru OBMJ	ro-jbmo-tst
+Al doilea test de selectie pentru OBMJ	ro-jbmo-tst
+Al treilea test de selecţie pentru OBMJ	ro-jbmo-tst
+Al treilea test de selecţie pentru OBMJ Bucureşti	ro-jbmo-tst
+Al patrulea test de selecţie pentru OBMJ	ro-jbmo-tst
+Al cincilea test de selecţie pentru OBMJ	ro-jbmo-tst
+Olimpiada Naţională de Matematică Primul baraj pentru Olimpiada Balcanică de Matematică pentru Juniori	ro-jbmo-tst
+SELECTION TESTS FOR THE 2019 JBMO	ro-jbmo-tst
+JBMO TST   Romania	ro-jbmo-tst
+THE 73rd NMO SELECTION TESTS FOR THE JUNIOR BALKAN MATHEMATICAL OLYMPIAD - FIRST SELECTION TEST	ro-jbmo-tst
+THE 73rd NMO SELECTION TESTS FOR THE JUNIOR BALKAN MATHEMATICAL OLYMPIAD - SECOND SELECTION TEST	ro-jbmo-tst
+THE 73rd NMO SELECTION TESTS FOR THE JUNIOR BALKAN MATHEMATICAL OLYMPIAD - THIRD SELECTION TEST	ro-jbmo-tst
+THE 73rd NMO SELECTION TESTS FOR THE JUNIOR BALKAN MATHEMATICAL OLYMPIAD - FOURTH SELECTION TEST	ro-jbmo-tst
+THE 73rd NMO SELECTION TESTS FOR THE BALKAN AND INTERNATIONAL MATHEMATICAL OLYMPIADS - FIRST SELECTION TEST	ro-tst
+THE 73rd NMO SELECTION TESTS FOR THE BALKAN AND INTERNATIONAL MATHEMATICAL OLYMPIADS - SECOND SELECTION TEST	ro-tst
+THE 73rd NMO SELECTION TESTS FOR THE BALKAN AND INTERNATIONAL MATHEMATICAL OLYMPIADS - FOURTH SELECTION TEST	ro-tst
+Olimpiada Nationala de Matematica 2022 baraj 2 de selectie seniori	ro-tst
+BMO TST – Romania	ro-tst
+EGMO TST   Romania	ro-egmo-tst
+Olimpiada de Matematică Etapa Locală	ro-local
+Olimpiada Națională de Matematică - Etapa Locală	ro-local
+OLIMPIADA NATIONALĂ DE MATEMATICĂ ETAPA LOCALĂ	ro-local
+Olimpiada Naţională de Matematică Etapa Judeţeană	ro-county
+Matematika tantárgyverseny Megyei szakasz	ro-county
+Olimpiada Naţională GAZETA MATEMATICĂ	ro-ongm
+Olimpiada Națională GAZETA MATEMATICĂ	ro-ongm
+Olimpiada Naţională GAZETA MATEMATICĂ Etapa a III-a	ro-ongm
+Olimpiada Națională GAZETA MATEMATICĂ Etapa a III-a	ro-ongm
+Olimpiada Naţională GAZETA MATEMATICĂ Barajul 3	ro-ongm
+2015 Ninth STARS OF MATHEMATICS Competition	ro-stars
+Eleventh STARS OF MATHEMATICS Competition	ro-stars
+Eighteenth STARS OF MATHEMATICS Competition	ro-stars
+Stars of Mathematics Competition	ro-stars
+Seventeenth Stars of Mathematics Competition	ro-stars
+THE Sixteenth STARS OF MATHEMATICS Competition	ro-stars
+2010 Fourth STARS OF MATHEMATICS COMPETITION	ro-stars
+THE Tenth STARS OF MATHEMATICS COMPETITION	ro-stars
+Winter Stars of Mathematics	ro-stars
+2010 Eighth IMAR MATHEMATICAL COMPETITION	ro-imar
+2015 Thirteenth IMAR Mathematical Competition	ro-imar
+Fifteenth IMAR Mathematical Competition	ro-imar
+IMAR Mathematical Competition	ro-imar
+Nineteenth IMAR Mathematical Competition	ro-imar
+THE 2014 Twelfth IMAR MATHEMATICAL COMPETITION	ro-imar
+THE Eighteenth IMAR Mathematical Competition	ro-imar
+The Tenth IMAR Mathematical Competition	ro-imar
+Twentieth IMAR Mathematical Competition	ro-imar
+THE Fourteenth IMAR MATHEMATICAL COMPETITION	ro-imar
+Eleventh Romanian Master of Mathematics	rmm
+Seventeenth ROMANIAN MASTER OF MATHEMATICS	rmm
+THE Fifteenth ROMANIAN MASTER OF MATHEMATICS	rmm
+2016 Eighth Romanian Master of Mathematics	rmm
+THE 2015 Seventh ROMANIAN MASTER OF MATHEMATICS	rmm
+THE Tenth ROMANIAN MASTER OF MATHEMATICS	rmm
+Romanian Master of Mathematics Competition Day 1	rmm
+RMC 2020	rmm
+2011 CLOCK-TOWER SCHOOL SENIORS COMPETITION	ro-clock-tower
+2011 CLOCK-TOWER SCHOOL JUNIORS COMPETITION	ro-clock-tower
+Grigore Moisil Urziceni	ro-moisil
+Olimpiada Nationala de Matematica	ro-nmo
+Olimpiada Natională de Matematică	ro-nmo
+Romania Olympiad	-
+Olimpiada de Matematică	-
+TESTUL 1	-
+Fall Mathematical Competition	bg-autumn
+Autumn tournament	bg-autumn
+Spring Mathematical Competition	bg-spring
+Spring Mathematical Tournament	bg-spring
+Winter Mathematical Competition	bg-winter
+Team selection test for 47. IMO	bg-tst
+Selection test for 27. Balkan Mathematical Olympiad	bg-tst
+Team selection test for 23. BMO	bg-tst
+55th IMO Team Selection Test	bg-tst
+First selection test for IMO 2007, Vietnam	bg-tst
+Second selection test for IMO 2007, Vietnam	bg-tst
+Team selection test for 44. IMO	bg-tst
+Team selection test for 50. IMO	bg-tst
+Team selection test for the 54th IMO	bg-tst
+First Team Selection Test for 56th IMO	bg-tst
+Selection test for 51. International Mathematical Olympiad	bg-tst
+Team selection test for 20. BMO	bg-tst
+Bulgaria 6 TST for BMO	bg-tst
+Bulgaria TST for BMO	bg-tst
+58. National mathematical olympiad Final round	bg-mo
+Bulgarian National Olympiad - Final Round	bg-mo
+Bulgaria Bulgarian National Olympiad	bg-mo
+Bulgaria 68. National Mathematical Olympiad	bg-mo
+Bulgaria MO Regional Round	bg-mo-regional
+4 Bulgarian National Olympiad - Regional Round	bg-mo-regional
+IFYM Int. Fest. of Young Mathematicians Sozopol	bg-ifym

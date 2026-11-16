@@ -2186,7 +2186,7 @@
   size: 42 papers of the national round of ro-nmo, grades 7 to 12, for 2013 to 2017, 2019 and 2021
   wave: 1
   state: active
-  notes: The SSMR has a page for each olympiad (ssmr.ro/onm2013 and on) that links the paper of each grade of the national round. The page of 2015 links only the earlier rounds, so the source uses onm2015.ssmr.ro/subiecte, which links the solutions of each grade. They state each problem first. The Hungarian versions (_HU), the county round and the selection tests (juniori, seniori) are not used. The robots.txt of ssmr.ro and of onm2015.ssmr.ro asks for a crawl delay of 10 seconds and disallows only the Drupal system paths, not /files/ (checked on 2026-11-12). om papers ssmr-onm records the papers.
+  notes: The SSMR has a page for each olympiad (ssmr.ro/onm2013 and on) that links the paper of each grade of the national round. The page of 2015 links only the earlier rounds, so the source uses onm2015.ssmr.ro/subiecte, which links the solutions of each grade. They state each problem first. The Hungarian versions (_HU), the county round and the selection tests (juniori, seniori) are not used. The robots.txt of ssmr.ro and of onm2015.ssmr.ro asks for a crawl delay of 10 seconds and disallows only the Drupal system paths, not /files/ (checked on 2026-11-12). om papers ssmr-onm records the papers. On 2026-11-16 ssmr.ro had no DNS entry, so the census could not read the site.
 
 - id: dmfa-massa
   name: Society of Mathematicians, Physicists and Astronomers of Slovenia (DMFA)
@@ -2217,6 +2217,67 @@
   wave: 1
   state: planned
   notes: "robots.txt of math.bas.bg (checked on 2026-11-04) disallows all paths for ClaudeBot, GPTBot and Bytespider, so the agent does not read the papers."
+
+- id: olimpiade-ro
+  name: olimpiade.ro
+  kind: curated
+  origin: H2
+  url: https://www.olimpiade.ro/
+  access: pdf
+  terms: "The footer says Copyright © 2011 (read on 2026-11-16). No licence is stated. The papers are the papers of the Ministry of Education and the SSMR, and the SSMR holds the rights to the problems of its contests (see ssmr-onm). Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: the papers and marking schemes (bareme) of the local, county and national rounds of the Romanian olympiad, grades 5 to 12, and of the selection tests
+  wave: 2
+  state: planned
+  notes: "robots.txt (checked on 2026-11-16) disallows all paths for Yandex and MJ12bot. For User-agent * it disallows a list of system paths such as /admin/, /data/ and /cgi-bin/. It names no AI crawler and has no content signal."
+
+- id: mateinfo-ro
+  name: MateInfo.ro
+  kind: curated
+  origin: H2
+  url: https://www.mateinfo.ro/
+  access: pdf
+  terms: "The footer says © 2026 mateinfo.ro · Toate drepturile rezervate (all rights reserved), read on 2026-11-16. No licence is stated. The olympiad papers on the site are the papers of the organizers. Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 2
+  state: planned
+  notes: "Gives the papers of the local and county rounds of the Romanian olympiad by county and grade, and the papers of many inter-county contests. robots.txt (checked on 2026-11-16) disallows only /wp-admin/."
+
+- id: klasirane
+  name: Klasirane (klasirane.com)
+  kind: curated
+  origin: H2
+  url: https://klasirane.com/
+  access: pdf
+  terms: "No licence and no copyright line found on the home page (read on 2026-11-16). Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: the papers of the municipal, regional and national rounds of the Bulgarian olympiad and of many Bulgarian tournaments, by year and grade
+  wave: 2
+  state: planned
+  notes: "The page of Chernorizets Hrabar says that the site publishes no new papers of it, at the request of the organizers. Respect this request for that tournament. robots.txt (checked on 2026-11-16) gives User-agent * with an empty Disallow line, so all paths are allowed."
+
+- id: math-bas-ch
+  name: Chernorizets Hrabar tournament (math.bas.bg/ch)
+  kind: official
+  origin: H1
+  url: https://www.math.bas.bg/ch/
+  access: pdf
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 2
+  state: planned
+  notes: "The official site of the tournament, on the host of the Institute of Mathematics and Informatics. robots.txt of math.bas.bg (checked on 2026-11-16) disallows all paths for ClaudeBot, GPTBot, Bytespider, Amazonbot and some SEO crawlers. For User-agent * it disallows only the WordPress system paths and some event list paths. The agent does not read the papers. The owner has not decided the rule for sites that block named AI crawlers, so the decision for this source is pending. Until then, gaps.yaml lists bg-hrabar with reason robots, as for bg-mo."
 
 - id: cms-org-cn
   name: Chinese Mathematical Society

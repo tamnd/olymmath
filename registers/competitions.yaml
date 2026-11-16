@@ -4400,6 +4400,266 @@
   sources: [imomath]
   description: The tests that choose the Romanian team for the IMO. No official archive has been found.
 
+- code: ro-county
+  name: Romanian Mathematical Olympiad, county round
+  names: {ro: Olimpiada de Matematică, etapa județeană}
+  group: national
+  level: high-school
+  levels: [elementary, junior, high-school]
+  country: RO
+  url: https://www.olimpiade.ro/
+  first_year: 2001
+  # Agent decision, not a person's review: the county round sets four problems (Problema 1 to 4) on one paper for each of the grades 5 to 12. The mateinfo.ro papers of grade 9 for 2015, 2019 and 2026, of grade 5 for 2013 and 2026 and of grade 12 for 2026 show this, and mateinfo.ro lists the papers of grade 5 for 2013 to 2019 and 2021 to 2026. The position of problem N of grade G is pG followed by N. 2001 is the earliest year in the seed data, not the founding year. The years 2001 to 2012 and 2020 have no era, because no primary paper of those years was checked.
+  eras:
+    - {from: 2013, to: 2019, per_year: 32, layout: [{paper: grade5, name: Grade 5, level: elementary, positions: [p51, p52, p53, p54]}, {paper: grade6, name: Grade 6, level: junior, positions: [p61, p62, p63, p64]}, {paper: grade7, name: Grade 7, level: junior, positions: [p71, p72, p73, p74]}, {paper: grade8, name: Grade 8, level: junior, positions: [p81, p82, p83, p84]}, {paper: grade9, name: Grade 9, level: junior, positions: [p91, p92, p93, p94]}, {paper: grade10, name: Grade 10, positions: [p101, p102, p103, p104]}, {paper: grade11, name: Grade 11, positions: [p111, p112, p113, p114]}, {paper: grade12, name: Grade 12, positions: [p121, p122, p123, p124]}]}
+    - {from: 2021, to: 2026, per_year: 32, layout: [{paper: grade5, name: Grade 5, level: elementary, positions: [p51, p52, p53, p54]}, {paper: grade6, name: Grade 6, level: junior, positions: [p61, p62, p63, p64]}, {paper: grade7, name: Grade 7, level: junior, positions: [p71, p72, p73, p74]}, {paper: grade8, name: Grade 8, level: junior, positions: [p81, p82, p83, p84]}, {paper: grade9, name: Grade 9, level: junior, positions: [p91, p92, p93, p94]}, {paper: grade10, name: Grade 10, positions: [p101, p102, p103, p104]}, {paper: grade11, name: Grade 11, positions: [p111, p112, p113, p114]}, {paper: grade12, name: Grade 12, positions: [p121, p122, p123, p124]}]}
+  edition_form: year
+  official_solutions: true
+  languages: [ro, hu]
+  sources: [olimpiade-ro, mateinfo-ro, hf-mathnet, hf-ai-mo-aops]
+  description: The county round (etapa județeană) of the Romanian olympiad, for the grades 5 to 12, with one paper for each grade. A paper in Hungarian is set for the schools that teach in Hungarian. olimpiade.ro and mateinfo.ro give the papers with marking schemes. The shape is confirmed for 2013 to 2019 and 2021 to 2026.
+
+- code: ro-local
+  name: Romanian Mathematical Olympiad, local round
+  names: {ro: Olimpiada de Matematică, etapa locală}
+  group: national
+  level: high-school
+  levels: [elementary, junior, high-school]
+  country: RO
+  edition_form: year
+  official_solutions: true
+  languages: [ro]
+  sources: [olimpiade-ro, hf-mathnet]
+  description: The local round (etapa locală) of the Romanian olympiad, for the grades 5 to 12. Each county sets its own papers, so a year has many papers. olimpiade.ro gives the papers by county. No shape is given, because each county sets its own papers.
+
+- code: ro-jbmo-tst
+  name: Romanian JBMO Team Selection Test
+  names: {ro: Baraj de selecție pentru OBMJ}
+  group: national
+  level: junior
+  country: RO
+  edition_form: year
+  languages: [ro]
+  sources: [hf-mathnet, hf-ai-mo-aops]
+  description: The tests (baraje) that choose the Romanian team for the Junior Balkan MO, held with the national olympiad. No official archive has been found.
+
+- code: ro-stars
+  name: Stars of Mathematics
+  names: {ro: Stelele Matematicii}
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: RO
+  edition_form: year
+  languages: [ro, en]
+  sources: [hf-mathnet, hf-ai-mo-aops, imogeometry-blog]
+  description: A Romanian competition in Bucharest with a senior paper from 2007 and a junior paper from 2011, and a winter edition from 2021. Foreign teams also take part. No official archive has been found.
+
+- code: ro-imar
+  name: IMAR Mathematical Competition
+  group: national
+  level: high-school
+  country: RO
+  organizer: Simion Stoilow Institute of Mathematics of the Romanian Academy (IMAR)
+  edition_form: year
+  languages: [ro, en]
+  sources: [hf-mathnet, imogeometry-blog]
+  description: A competition of the Institute of Mathematics of the Romanian Academy, held from 2003. No official archive has been found.
+
+- code: ro-ongm
+  name: Gazeta Matematică National Olympiad
+  names: {ro: Olimpiada Națională Gazeta Matematică}
+  group: national
+  level: high-school
+  country: RO
+  organizer: Romanian Mathematical Society (SSMR)
+  edition_form: year
+  languages: [ro]
+  sources: [hf-mathnet]
+  description: The olympiad of the journal Gazeta Matematică, with several rounds and selection tests (baraje). No official archive has been confirmed.
+
+- code: ro-clock-tower
+  name: Clock-Tower School Competition
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: RO
+  edition_form: year
+  languages: [ro, en]
+  sources: [hf-mathnet]
+  description: A competition with a junior and a senior paper, held at Râmnicu Vâlcea. The MathNet data has its 2011 papers.
+
+- code: ro-bogdan-stan
+  name: Bogdan Stan Mathematics Competition
+  group: national
+  level: high-school
+  country: RO
+  edition_form: year
+  languages: [ro]
+  sources: [hf-ai-mo-aops]
+  description: A Romanian inter-county competition named after Bogdan Stan. No official archive has been found.
+
+- code: ro-ivanescu
+  name: Cezar Ivănescu Mathematics Competition
+  group: national
+  level: high-school
+  country: RO
+  edition_form: year
+  languages: [ro]
+  sources: [hf-ai-mo-aops]
+  description: A Romanian competition named after Cezar Ivănescu. No official archive has been found.
+
+- code: ro-moisil
+  name: Grigore Moisil Mathematics Competition (Urziceni)
+  group: national
+  level: high-school
+  country: RO
+  edition_form: year
+  languages: [ro]
+  sources: [hf-ai-mo-aops]
+  description: A Romanian inter-county competition held at Urziceni and named after Grigore Moisil. No official archive has been found.
+
+- code: ro-coculescu
+  name: Nicolae Coculescu Mathematics Competition
+  group: national
+  level: high-school
+  country: RO
+  edition_form: year
+  languages: [ro]
+  sources: [hf-ai-mo-aops]
+  description: A Romanian competition named after Nicolae Coculescu. No official archive has been found.
+
+- code: ro-mihaileanu
+  name: N. N. Mihăileanu Mathematics Competition
+  group: national
+  level: high-school
+  country: RO
+  edition_form: year
+  languages: [ro]
+  sources: [hf-ai-mo-aops]
+  description: A Romanian competition named after N. N. Mihăileanu, with an individual paper. No official archive has been found.
+
+- code: ro-suceava
+  name: Centres of Excellence of Suceava Competition
+  group: national
+  level: high-school
+  country: RO
+  edition_form: year
+  languages: [ro]
+  sources: [hf-ai-mo-aops]
+  description: A competition of the centres of excellence of Suceava county. No official archive has been found.
+
+- code: ro-trident
+  name: Petru Moroșan-Trident Mathematics Competition
+  group: national
+  level: high-school
+  country: RO
+  edition_form: year
+  languages: [ro]
+  sources: [hf-ai-mo-aops]
+  description: A Romanian competition named after Petru Moroșan and the Trident society. No official archive has been found.
+
+- code: ro-titeica
+  name: Gheorghe Țițeica Mathematics Competition
+  group: national
+  level: high-school
+  country: RO
+  edition_form: year
+  languages: [ro]
+  sources: [hf-ai-mo-aops]
+  description: A Romanian competition named after Gheorghe Țițeica. No official archive has been found.
+
+- code: ro-ramnicean-hope
+  name: Râmnicean Hope Mathematics Competition
+  names: {ro: Speranțe Râmnicene}
+  group: national
+  level: high-school
+  country: RO
+  edition_form: year
+  languages: [ro]
+  sources: [hf-ai-mo-aops]
+  description: A Romanian competition held at Râmnicu Vâlcea. No official archive has been found.
+
+- code: ro-topan
+  name: Teodor Topan Mathematics Competition
+  group: national
+  level: high-school
+  country: RO
+  edition_form: year
+  languages: [ro]
+  sources: [hf-ai-mo-aops]
+  description: A Romanian competition named after Teodor Topan. No official archive has been found.
+
+- code: ro-paun
+  name: Nicolae Păun Mathematics Competition
+  group: national
+  level: high-school
+  country: RO
+  edition_form: year
+  languages: [ro]
+  sources: [hf-ai-mo-aops]
+  description: A Romanian competition named after Nicolae Păun. No official archive has been found.
+
+- code: ro-unirea
+  name: Unirea Mathematics Competition
+  group: national
+  level: high-school
+  country: RO
+  edition_form: year
+  languages: [ro]
+  sources: [hf-ai-mo-aops]
+  description: A Romanian competition named Unirea, held at Focșani. No official archive has been found.
+
+- code: ro-duican
+  name: Laurențiu Duican Mathematics Competition
+  group: national
+  level: high-school
+  country: RO
+  edition_form: year
+  languages: [ro]
+  sources: [hf-ai-mo-aops]
+  description: A Romanian competition named after Laurențiu Duican. No official archive has been found.
+
+- code: ro-panaitopol
+  name: Laurențiu Panaitopol Mathematics Competition
+  group: national
+  level: high-school
+  country: RO
+  edition_form: year
+  languages: [ro]
+  sources: [hf-ai-mo-aops]
+  description: A Romanian competition held at Tulcea and named after Laurențiu Panaitopol. No official archive has been found.
+
+- code: ro-valcovici
+  name: Victor Vâlcovici Mathematics Competition
+  group: national
+  level: high-school
+  country: RO
+  edition_form: year
+  languages: [ro]
+  sources: [hf-ai-mo-aops]
+  description: A Romanian competition named after Victor Vâlcovici. No official archive has been found.
+
+- code: ro-science-on
+  name: Science ON Competition
+  group: national
+  level: high-school
+  country: RO
+  edition_form: year
+  languages: [ro, en]
+  sources: [hf-ai-mo-aops]
+  description: A Romanian competition named Science ON. No official archive has been found.
+
+- code: ro-golden-digits
+  name: The Golden Digits Competition
+  group: national
+  level: high-school
+  country: RO
+  edition_form: year
+  languages: [ro, en]
+  sources: [hf-ai-mo-aops]
+  description: A Romanian online competition with problems from 2024 in the AoPS data. No official archive has been found.
+
 - code: bg-mo
   name: Bulgarian Mathematical Olympiad
   group: national
@@ -4411,6 +4671,87 @@
   languages: [bg]
   sources: [math-bas-bg, imomath]
   description: The national olympiad and team selection test of Bulgaria.
+
+- code: bg-mo-regional
+  name: Bulgarian Mathematical Olympiad, regional round
+  names: {bg: Национална олимпиада по математика, областен кръг}
+  group: national
+  level: high-school
+  levels: [elementary, junior, high-school]
+  country: BG
+  edition_form: year
+  official_solutions: true
+  languages: [bg]
+  sources: [klasirane, hf-mathnet, hf-ai-mo-aops]
+  description: The regional round of the Bulgarian olympiad, with papers for the grades 4 to 12. klasirane.com keeps the papers. No shape is given. klasirane.com gives a paper for each of the grades 4 to 12 from 2001, but the format changes between grades (test questions and problems for the lower grades) and between years (six problems for grades 9 and 12 in 2012, four in 2026), and many papers are scans.
+
+- code: bg-mo-municipal
+  name: Bulgarian Mathematical Olympiad, municipal round
+  names: {bg: Национална олимпиада по математика, общински кръг}
+  group: national
+  level: high-school
+  levels: [elementary, junior, high-school]
+  country: BG
+  edition_form: year
+  languages: [bg]
+  sources: [klasirane]
+  description: The municipal round of the Bulgarian olympiad, with papers for the grades 4 to 12. klasirane.com keeps the papers. No shape is given. klasirane.com gives a paper for most of the grades 4 to 12 from 2002, but the format changes between grades and years, and many papers are scans.
+
+- code: bg-tst
+  name: Bulgarian IMO and BMO Team Selection Test
+  group: national
+  level: high-school
+  country: BG
+  edition_form: year
+  languages: [bg]
+  sources: [hf-mathnet, hf-ai-mo-aops]
+  description: The tests that choose the Bulgarian teams for the IMO and the Balkan MO. No official archive has been found outside math.bas.bg.
+
+- code: bg-autumn
+  name: Bulgarian Autumn Mathematical Tournament
+  names: {bg: Есенен математически турнир}
+  group: national
+  level: high-school
+  country: BG
+  edition_form: year
+  languages: [bg]
+  sources: [klasirane, hf-mathnet, hf-ai-mo-aops]
+  description: A national competition of Bulgaria that is held each autumn, with papers for several grades. klasirane.com keeps the papers. No shape is given, because no paper was checked in this census.
+
+- code: bg-hrabar
+  name: Chernorizets Hrabar Mathematics Tournament
+  names: {bg: Математически турнир „Черноризец Храбър“}
+  group: national
+  level: high-school
+  levels: [elementary, junior, high-school]
+  country: BG
+  url: https://www.math.bas.bg/ch/
+  edition_form: year
+  languages: [bg]
+  sources: [math-bas-ch, klasirane]
+  description: A tournament for the grades 2 to 12, held each year on 1 November, with multiple-choice papers for groups of grades. klasirane.com notes that the organizers asked it not to publish the new papers.
+
+- code: bg-salabashev
+  name: Ivan Salabashev Mathematics Competition
+  names: {bg: Състезание „Иван Салабашев“}
+  group: national
+  level: high-school
+  country: BG
+  edition_form: year
+  languages: [bg]
+  sources: [klasirane]
+  description: A Bulgarian competition named after Ivan Salabashev, with papers for several grades. klasirane.com keeps the papers. No shape is given, because no paper was checked in this census.
+
+- code: bg-ifym
+  name: International Festival of Young Mathematicians (Sozopol)
+  short: IFYM
+  group: national
+  level: high-school
+  country: BG
+  edition_form: year
+  languages: [bg, en]
+  sources: [hf-ai-mo-aops]
+  description: A summer festival and competition in Sozopol. No official archive has been found.
 
 - code: rs-smo
   name: Serbian Mathematical Olympiad

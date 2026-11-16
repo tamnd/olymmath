@@ -1569,7 +1569,157 @@
   ai_train: unknown
   wave: 1
   state: planned
-  notes: Also holds the Cono Sur archive.
+  notes: "Also holds the Cono Sur archive. The site also holds the papers of the May Olympiad and of the Ñandú. The robots.txt of www.oma.org.ar gives 404 (checked on 2026-11-16), so no path is blocked. The site has no page of terms and gives no licence."
+
+- id: obmep
+  name: OBMEP (Olimpíada Brasileira de Matemática das Escolas Públicas)
+  kind: official
+  origin: H1
+  url: https://www.obmep.org.br/
+  access: pdf
+  terms: "The site has a privacy notice but no page of terms for the papers, and gives no licence (read on 2026-11-16). Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 2
+  state: planned
+  notes: "The site links the papers and the answer keys of both phases of each year, and the Banco de Questões books. The robots.txt of www.obmep.org.br gives 404 (checked on 2026-11-16), so no path is blocked. The papers of 2005 to 2025 are Google Drive files. The robots.txt of drive.google.com allows the view pages, but they carry no text, and the robots.txt of drive.usercontent.google.com, which serves the files, disallows all paths (checked on 2026-11-16)."
+
+- id: tm2
+  name: Torneio Meninas na Matemática (TM²)
+  kind: official
+  origin: H1
+  url: https://www.tm2.org.br/
+  access: pdf
+  terms: "The site has no page of terms and gives no licence (read on 2026-11-16). Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 3
+  state: planned
+  notes: "The robots.txt of www.tm2.org.br (checked on 2026-11-16) disallows only /wp/wp-admin/."
+
+- id: olimpiadas-uan
+  name: Olimpiadas Colombianas de Matemáticas (Universidad Antonio Nariño)
+  kind: official
+  origin: H1
+  url: https://oc.uan.edu.co/
+  access: pdf
+  terms: "The legal notice at https://oc.uan.edu.co/aviso-legal (read on 2026-11-16) says that the reader \"no podrá copiar, reproducir, transmitir, distribuir o crear obras derivadas ... sin la expresa autorización\". So the records are links only (Z3)."
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: unknown
+  wave: 3
+  state: planned
+  notes: "The robots.txt of oc.uan.edu.co (checked on 2026-11-16) is the Joomla default file. It disallows /administrator/, /cache/, /components/, /images/, /includes/ and the other Joomla system paths."
+
+- id: omec
+  name: Olimpiada Matemática Ecuatoriana (OMEC)
+  kind: official
+  origin: H1
+  url: https://omec-mat.org/
+  access: html
+  terms: "The site did not answer on most tries on 2026-11-16, so no terms were read. Agent decision, not a person's review: Z2, the spec default for competition statements, until the terms are read."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 3
+  state: planned
+  notes: "One read of the robots.txt of omec-mat.org on 2026-11-16 gave one group for all agents with \"Crawl-delay: 120\" and no disallowed path. Later reads from two hosts gave no answer. A harvest must wait 120 seconds between requests."
+
+- id: sedem
+  name: Sociedad Ecuatoriana de Matemática (SEdeM)
+  kind: official
+  origin: H1
+  url: https://sedem.org.ec/olimpiadas-2/
+  access: html
+  terms: "The site has no page of terms and gives no licence (read on 2026-11-16). The footer says \"Copyright © 2026 SEdeM\". Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 3
+  state: planned
+  notes: "The robots.txt of sedem.org.ec and www.sedem.org.ec (checked on 2026-11-16) allows all paths. An archive of papers was not confirmed."
+
+- id: omapa
+  name: OMAPA (Olimpiada Matemática Paraguaya)
+  kind: official
+  origin: H1
+  url: https://www.omapa.org/
+  access: pdf
+  terms: "The site has no page of terms and gives no licence (read on 2026-11-16). The footer says \"Copyright © 2024. All Rights reserved.\" Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 3
+  state: planned
+  notes: "The training pages, such as https://www.omapa.org/entrenamiento/entrenamiento-olimpiada-juvenil-de-matematica/ and https://www.omapa.org/recursosdidacticos-oj/, link past tests of each round and free problem books. The robots.txt of www.omapa.org (checked on 2026-11-16) disallows only /wp-admin/."
+
+- id: acm-ve
+  name: Asociación Venezolana de Competencias Matemáticas (ACM)
+  kind: official
+  origin: H1
+  url: https://www.acm.ciens.ucv.ve/
+  access: pdf
+  terms: "The site www.acm.ciens.ucv.ve did not answer on 2026-11-16, so no terms were read. Agent decision, not a person's review: Z2, the spec default for competition statements, until the terms are read."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 3
+  state: planned
+  notes: "The ACM keeps its files on acmfiles.s3.amazonaws.com, for example the yearly books of problems and solutions of the Olimpiada Juvenil de Matemática (OJM), such as /Libros/OJM2020Libro.pdf, and the final papers of each grade, such as /Año 2023/Pruebas Finales/Final2023-5toGrado.pdf. The books also hold the OMCC, OIM and IMO papers. The robots.txt of acmfiles.s3.amazonaws.com gave 403 AccessDenied on 2026-11-16. Under RFC 9309 a 4xx answer means that no rules apply, but the bucket does not list its files, so only known file names can be read."
+
+- id: minedu-onem
+  name: ONEM (Ministerio de Educación del Perú)
+  kind: official
+  origin: H1
+  url: https://www.minedu.gob.pe/onem/
+  access: pdf
+  terms: "The site has no page of terms for the ONEM papers and gives no licence (read on 2026-11-16). Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 3
+  state: planned
+  notes: "The ONEM page shows the current edition (the XXII ONEM). The robots.txt of www.minedu.gob.pe (checked on 2026-11-16) disallows only two transparency paths. An archive of past papers was not confirmed."
+
+- id: opm
+  name: Olimpiada Panameña de Matemática
+  kind: official
+  origin: H1
+  url: https://opm.org.pa/
+  access: html
+  terms: "The site has no page of terms and gives no licence (read on 2026-11-16). The footer says \"© Olimpiada Panameña de Matemática 2025 | Todos los derechos reservados\". Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 3
+  state: planned
+  notes: "The robots.txt of opm.org.pa (checked on 2026-11-16) is empty, so all paths are allowed. An archive of past papers was not confirmed."
+
+- id: ommeb-cimat
+  name: OMMEB (CIMAT)
+  kind: official
+  origin: H1
+  url: https://olimpiadasbasicas.cimat.mx/
+  access: pdf
+  terms: "The site has no page of terms and gives no licence (read on 2026-11-16). Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 3
+  state: planned
+  notes: "The robots.txt of olimpiadasbasicas.cimat.mx (checked on 2026-11-16) is the Drupal default file. It disallows /core/, /profiles/, /admin/ and the other Drupal system paths."
 
 - id: omcplp-official
   name: OMCPLP official site

@@ -448,3 +448,11 @@
 - competition: pmwc
   reason: no-source
   note: No official archive was found. On 2026-11-16 pmwc.org was a parked domain for sale, and no dataset row has the label.
+
+# The Americas census (2026-11-16): Latin American contests with no allowed source.
+- competition: mx-omm-state
+  reason: no-source
+  note: No archive of the papers of all states was found. Each state committee writes its own papers, and the AoPS rows give geometry selections from several states with no year.
+- competition: br-obmep
+  reason: robots
+  note: The site of OBMEP (source obmep) links the papers of 2005 to 2025 as Google Drive files, and robots.txt of drive.usercontent.google.com, which serves the files, disallows all paths (checked 2026-11-16).

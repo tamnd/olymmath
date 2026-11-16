@@ -1,0 +1,7 @@
+id: 9024e4f81855
+kind: merge
+records: [V7MCHEMXCY, VKP3D66CDM]
+decision: accept
+by: agent
+date: "2026-11-16"
+note: "Agent decision, not a person's review. The two texts state the same problem: sg-smo/2007/p2 and nordic/1992/p2. The AoPS collection of the 2007 Singapore MO Open gives its problem 2 by a link to the 1992 Nordic topic (c6h1523788), which both records cite, so the Singapore paper reused the Nordic problem."

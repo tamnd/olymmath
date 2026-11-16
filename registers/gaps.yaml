@@ -121,6 +121,58 @@
   years: ["2021"]
   reason: no-source
   note: The imojp site has no JJMO papers of 2021 (source imojp).
+# East and Southeast Asia (census of 2026-11-16). The rows below have no allowed source. They have no shape yet, so they count no positions, but the entries keep the reason.
+- competition: cn-league-prelim
+  reason: no-source
+  note: No official archive of the province preliminaries was found on 2026-11-16. Copies are only on news and document sites with no terms.
+- competition: cn-junior-league
+  reason: no-source
+  note: No official archive was found on 2026-11-16. Copies are only on document sites with no terms.
+- competition: cn-hope
+  reason: no-source
+  note: No official archive was found on 2026-11-16. Copies are only on document sites with no terms.
+- competition: cn-yingchun
+  reason: no-source
+  note: No official archive was found on 2026-11-16. Copies are only on tutoring sites with no terms.
+- competition: cn-zoumei
+  reason: no-source
+  note: No official archive was found on 2026-11-16. Copies are only on tutoring sites with no terms.
+- competition: cn-zhonghuan
+  reason: no-source
+  note: No official archive was found on 2026-11-16. Copies are only on tutoring sites with no terms.
+- competition: cn-pmo-primary
+  reason: no-source
+  note: No official archive was found on 2026-11-16. Copies are only on tutoring sites with no terms.
+- competition: cn-beijing-hs
+  reason: no-source
+  note: No official archive was found on 2026-11-16. Copies are only on document sites with no terms.
+- competition: cn-shanghai-hs
+  reason: no-source
+  note: No official archive was found on 2026-11-16. Copies are only on document sites with no terms.
+- competition: cn-northern
+  reason: no-source
+  note: No official archive was found on 2026-11-16. The only copies found are AoPS topics (source aops-collections), and the rule for its robots.txt is pending.
+- competition: cn-hope-star
+  reason: no-source
+  note: No official archive was found on 2026-11-16. The only copies found are AoPS topics (source aops-collections), and the rule for its robots.txt is pending.
+- competition: cn-xmo
+  reason: no-source
+  note: The organizer has no archive online that the census found on 2026-11-16. The only copies found are AoPS topics (source aops-collections), and the rule for its robots.txt is pending.
+- competition: cn-yuanfudao
+  reason: no-source
+  note: The organizer has no archive online that the census found on 2026-11-16. The only copies found are AoPS topics (source aops-collections), and the rule for its robots.txt is pending.
+- competition: cn-centennial
+  reason: no-source
+  note: No official archive was found on 2026-11-16. The only copies found are AoPS topics (source aops-collections), and the rule for its robots.txt is pending.
+- competition: cn-cmc
+  reason: no-source
+  note: No official archive was found on 2026-11-16. The site of the Chinese Mathematical Society (source cms-org-cn) did not answer, and copies are only on document sites with no terms.
+- competition: hk-chkmo
+  reason: no-source
+  note: No official archive was found on 2026-11-16. The only copies found are AoPS topics (source aops-collections), and the rule for its robots.txt is pending.
+- competition: tw-imoc
+  reason: no-source
+  note: No official archive was found on 2026-11-16. The only copies found are AoPS topics (source aops-collections), and the rule for its robots.txt is pending.
 
 # Other nationals.
 - competition: cz-sk-mo

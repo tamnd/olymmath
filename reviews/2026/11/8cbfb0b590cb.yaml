@@ -1,0 +1,8 @@
+id: 8cbfb0b590cb
+kind: placement
+records:
+    - nz-nzmo/2022/p10
+decision: accept
+by: agent
+date: "2026-11-16"
+note: "Agent decision, not a person's review. The text of the loose problem 1ZQVPDZ40R, labeled 2022 New Zealand MO, is problem 2 of the official Round Two paper of nz-nzmo/2022 (page 2): find all triples (a, b, c) of real numbers with a^2 + b^2 + c^2 = 1 and a(2b - 2a - c) >= 1/2. om place found no clear margin, because the text layer of the paper splits the fraction 1/2, so the agent compared the two texts. The record moved from the loose problems to nz-nzmo/2022/p10."

@@ -1779,6 +1779,41 @@
   state: planned
   notes: robots.txt (checked on 2026-11-16) has one * group that disallows /admin/ and /manage/ only. The GMO page shows only the 7th GMO (Muscat, 2019). The GMO was not held in 2018, and the 8th GMO was in Saudi Arabia in 2022.
 
+- id: nzmoc
+  name: NZ Mathematical Olympiad Committee
+  kind: official
+  origin: H1
+  url: https://www.mathsolympiad.org.nz/competitions/nzmo/
+  access: pdf
+  crawl_delay: 20
+  terms: The resources page of the NZMOC (https://www.mathsolympiad.org.nz/resources, read on 2026-11-16) puts NZMOC materials, past NZMO problems and solutions among them, under CC BY 4.0. The content may hold the texts with attribution.
+  licence: CC BY 4.0
+  zone:
+    statement: Z1
+    solution: Z1
+  ai_train: unknown
+  size: The papers and solutions of NZMO rounds one and two from 2019 to 2026, 16 problem PDFs
+  wave: 1
+  state: planned
+  notes: The URL https://www.mathsolympiad.org.nz/competitions/nzmo/files/problems.php?round=R&year=Y gives the problems PDF, and &type=solutions gives the solutions. Round One has eight problems and Round Two five. robots.txt (checked on 2026-11-16) has one * group with Crawl-Delay 20 that disallows /admin and /workshops/problems, so the agent does not read the workshop problems.
+
+- id: unsw-smc
+  name: UNSW School Mathematics Competition
+  kind: official
+  origin: H1
+  url: https://www.unsw.edu.au/science/our-schools/maths/engage-with-us/high-school-students-and-teachers/unsw-school-mathematics-competition
+  access: pdf
+  crawl_delay: 10
+  terms: The papers give no open licence, so the content holds the statements with the name of the organizer and a link to the paper (spec 11.1).
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: The problems of 2009 to 2024, with no 2020, in about 15 PDF files
+  wave: 1
+  state: planned
+  notes: The files are under /content/dam/pdfs/science/math-stats/ on www.unsw.edu.au. Parabola (www.parabola.unsw.edu.au) prints the problems and solutions of 2023 and 2024 in its issues. robots.txt of www.unsw.edu.au (checked on 2026-11-16) has a * group with Crawl-delay 10 that disallows /content/dam/images/fsdd/no-follow/ only. robots.txt of www.parabola.unsw.edu.au has the default Drupal rules.
+
 - id: samf
   name: South African Mathematics Foundation
   kind: official

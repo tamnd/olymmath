@@ -7996,21 +7996,27 @@
 
 - code: au-amc
   name: Australian Mathematics Competition
+  short: AMC
   group: national
+  level: high-school
+  levels: [elementary, junior, high-school]
   country: AU
   organizer: AMT
+  url: https://www.amt.edu.au/
   first_year: 1978
   edition_form: year
   official_solutions: true
   languages: [en]
   copyright: Copyright AMT.
   sources: [amt]
-  description: A large multiple choice competition for Australian school students.
+  description: A large multiple choice competition for Australian school students, with the divisions Middle Primary, Upper Primary, Junior, Intermediate and Senior. The AMT past papers page has no AMC paper. The AMT sells the papers in books.
 
 - code: au-mcyb
   name: Maths Challenge for Young Australians
+  short: MCYA
   group: national
-  level: junior
+  level: high-school
+  levels: [elementary, junior, high-school]
   country: AU
   organizer: AMT
   edition_form: year
@@ -8018,16 +8024,101 @@
   languages: [en]
   copyright: Copyright AMT.
   sources: [amt]
-  description: A problem solving programme of the AMT for younger students.
+  description: A problem solving programme of the AMT for students in years 3 to 10. It has three stages, the Challenge, the Enrichment course and the AMOC Intermediate Contest. The Challenge has the divisions Middle Primary (years 3 and 4), Upper Primary (5 and 6), Junior (7 and 8) and Intermediate (9 and 10). The AMT sells the problems in books, and none is on the AMT site.
+
+- code: au-aimo
+  name: Australian Intermediate Mathematics Olympiad
+  short: AIMO
+  group: national
+  level: high-school
+  country: AU
+  organizer: AMT
+  url: https://www.amt.edu.au/
+  first_year: 1999
+  edition_form: year
+  eras:
+    - {from: 2017, to: 2018, per_year: 10}
+  official_solutions: true
+  languages: [en]
+  copyright: Copyright AMT.
+  sources: [amt]
+  description: An olympiad of the AMT for students up to year 10, with ten problems. The AMT site has the papers of 2017 and 2018 with solutions. An AMT book holds the years 1999 to 2013. The papers of 2017 and 2018 give its shape for those years. The shape of the other years is not confirmed.
+
+- code: au-amoc-senior
+  name: AMOC Senior Contest
+  group: national
+  level: high-school
+  country: AU
+  organizer: AMT
+  edition_form: year
+  languages: [en]
+  copyright: Copyright AMT.
+  description: The Senior Contest of the Australian Mathematical Olympiad Committee, a round of the selection of the Australian team. Its papers are in the AMT books. No paper is on the AMT site.
+
+- code: au-unsw
+  name: UNSW School Mathematics Competition
+  group: national
+  level: high-school
+  country: AU
+  organizer: UNSW
+  url: https://www.unsw.edu.au/science/our-schools/maths/engage-with-us/high-school-students-and-teachers/unsw-school-mathematics-competition
+  first_year: 2009
+  edition_form: year
+  eras:
+    - from: 2012
+      to: 2012
+      per_year: 12
+      layout:
+        - {paper: junior, name: Junior Division, positions: [a1, a2, a3, a4, a5, a6]}
+        - {paper: senior, name: Senior Division, positions: [b1, b2, b3, b4, b5, b6]}
+    - from: 2019
+      to: 2019
+      per_year: 11
+      layout:
+        - {paper: junior, name: Junior Division, positions: [a1, a2, a3, a4, a5, a6]}
+        - {paper: senior, name: Senior Division, positions: [b1, b2, b3, b4, b5]}
+    - from: 2022
+      to: 2022
+      per_year: 12
+      layout:
+        - {paper: junior, name: Junior Division, positions: [a1, a2, a3, a4, a5, a6]}
+        - {paper: senior, name: Senior Division, positions: [b1, b2, b3, b4, b5, b6]}
+  official_solutions: true
+  languages: [en]
+  sources: [unsw-smc]
+  description: The competition of the School of Mathematics and Statistics of UNSW Sydney, with a Junior division up to year 10 and a Senior division for years 11 and 12. The UNSW page links the problems of 2009 to 2024, with no 2020. Parabola prints the problems and solutions of 2023 and 2024. The papers of 2012 and 2022 have six problems in each division, and the paper of 2019 has six Junior and five Senior problems. The shape of the other years is not confirmed.
+
+- code: au-wajo
+  name: WA Junior Mathematics Olympiad
+  group: national
+  level: junior
+  country: AU
+  organizer: UWA
+  edition_form: year
+  languages: [en]
+  description: The olympiad of the University of Western Australia for students in years 7 to 9. No source has been found.
 
 - code: nz-nzmo
   name: New Zealand Mathematical Olympiad
+  short: NZMO
   group: national
   level: high-school
   country: NZ
+  organizer: NZMOC
+  url: https://www.mathsolympiad.org.nz/competitions/nzmo/
+  first_year: 2019
   edition_form: year
+  eras:
+    - from: 2019
+      per_year: 13
+      layout:
+        - {paper: round1, name: Round One, positions: [p1, p2, p3, p4, p5, p6, p7, p8]}
+        - {paper: round2, name: Round Two, positions: [p9, p10, p11, p12, p13]}
+  official_solutions: true
   languages: [en]
-  description: The national olympiad of New Zealand. Its archive is not confirmed.
+  copyright: The NZMOC resources page puts NZMOC materials, past NZMO problems and solutions among them, under CC BY 4.0.
+  sources: [nzmoc]
+  description: The national olympiad of New Zealand. Round One is eight take-home problems, and Round Two is a three-hour exam with five problems. The NZMOC site has the papers and solutions of both rounds from 2019. The first year is the first year of these papers. The layout numbers the Round Two problems after the eight of Round One, as the records of Round One already use p1 to p8.
 
 - code: in-inmo
   name: Indian National Mathematical Olympiad

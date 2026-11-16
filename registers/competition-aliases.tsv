@@ -738,6 +738,7 @@ Saudi Arabia Training Tests	-
 Saudi Arabia booklet	-
 Saudi Arabia BMO + EGMO TST	-
 Selection tests for the Gulf Mathematical Olympiad	-
+Asia Pacific Mathematics Olympiad (APMO)	apmo
 # East and Southeast Asia (census of 2026-11-16). Agent decision, not a person's review: each line maps a label of the unknown list to the code that the label names. A lower round of a national olympiad goes to the code of that round, not to the final round. A camp, a mock test, a shortlist, a university entrance exam or a set of mixed tests goes to "-". MathNet labels with no contest name in them take the country before the label, so the bare label is not added.
 China Mathematical Competition (Hainan)	cn-league
 China Mathematical Competition (Shaanxi)	cn-league
@@ -1019,6 +1020,15 @@ Nigerian MO Round 2	ng-mo
 Nigerian MO Round 3	ng-mo
 Moroccan TST	ma-tst
 SAFEST (South Africa   Estonia) Olympiad	safest
+NZMOC Camp Selection	-
+UNSW School MC Juniors - geometry	au-unsw
+UNSW School MC Seniors - geometry	au-unsw
+UNSW School MC Juniors - Combo Geo	au-unsw
+UNSW School MC Seniors - Combo Geo	au-unsw
+UNSW School MC Juniors - 3D Geo	au-unsw
+UNSW School MC Seniors - 3D Geo	au-unsw
+UNSW School MC Juniors - Geo Inequalities	au-unsw
+UNSW School MC Seniors - Geo Inequalities	au-unsw
 # Labels that do not name one competition.
 OlympiadBench	-
 Team Selection Test	-

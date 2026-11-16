@@ -74,6 +74,32 @@ Gulf	gulf
 Francophone	francophone
 Olympiade Francophone de Mathématiques	francophone
 Olympic Revenge	olympic-revenge
+# The Americas census (2026-11-16). Agent decision, not a person's review: the codes below with no layout number their problems from 1 in each paper, level or round. Give such a code a layout before om import takes the numbered rows of its labels.
+May Olympiad L2 - geometry	may-olympiad
+XIIIª OLIMPÍADA de MAYO	may-olympiad
+Olimpiada de Mayo	may-olympiad
+GQMO	gqmo
+MathLinks Contest	mathlinks-contest
+MathLinks Contest 1st	mathlinks-contest
+MathLinks Contest 2020	mathlinks-contest
+International Olympic Revenge	olympic-revenge
+XXIII Olimpíada Iberoamericana de Matemática	ibero
+XVII Olimpíada Iberoamericana de Matemática	ibero
+XVIII Olimpíada Iberoamericana de Matemática	ibero
+XX Olimpiada Iberoamericana de Matemáticas	ibero
+XXIX Olimpiada Iberoamericana de Matemáticas	ibero
+XXXI Olimpiada Iberoamericana de Matemáticas	ibero
+21º OLIMPIADA IBEROAMERICANA DE MATEMÁTICA	ibero
+XIV Olimpiada Matemática de Países del Cono Sur	cono-sur
+XIX Olimpiada de Matemática de Países del Cono Sur	cono-sur
+15ª Olimpiada Matemática del Cono Sur	cono-sur
+XVII OLIMPIADA MATEMATICA DEL CONO SUR	cono-sur
+Cono Sur Shortlist - geometry	-
+XII Olimpíada Matemática Rioplatense	rioplatense
+XII Olimpiada Matemática Rióplatense	rioplatense
+9a Olimpíada de Matemática da Comunidade dos Países de Língua Portuguesa	lusophon
+LV Olimpiada Internacional de Matemáticas	imo
+LVII Olimpiada Internacional de Matemáticas	imo
 # University competitions.
 Putnam	putnam
 VJIMC	-

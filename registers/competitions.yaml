@@ -102,13 +102,15 @@
 - code: kangaroo
   name: Mathematical Kangaroo
   group: international
+  level: high-school
+  levels: [elementary, junior, high-school]
   organizer: AKSF
   url: https://www.aksf.org/
   first_year: 1991
   edition_form: year
   copyright: Varies by country. Thales Cyprus forbids publication of its English papers.
-  sources: [hf-matharena]
-  description: A multiple choice contest for school students in about six levels. National organizers publish the papers, and only answers are official.
+  sources: [hf-matharena, mathkangaroo-usa]
+  description: A multiple choice contest for school students in about six levels. National organizers publish the papers, and only answers are official. Math Kangaroo USA runs it in the United States for grades 1 to 12, and Canada, Mexico, Brazil, Argentina and other countries of the Americas have their own editions.
 
 - code: tot
   name: Tournament of Towns
@@ -116,6 +118,7 @@
   names: {ru: Турнир городов}
   group: international
   level: high-school
+  levels: [junior, high-school]
   url: https://www.turgor.ru/en/problems/
   first_year: 1980
   edition_form: year-season
@@ -814,6 +817,153 @@
   languages: [es, pt, en]
   sources: [hf-aops-wiki, hf-ai-mo-aops]
   description: An olympiad for girls from the countries of the Americas, first held in 2021. No official archive has been found.
+
+- code: may-olympiad
+  name: May Olympiad
+  names: {es: Olimpiada de Mayo, pt: Olimpíada de Maio}
+  group: international
+  level: junior
+  organizer: OMA
+  url: https://www.oma.org.ar/
+  first_year: 1995
+  edition_form: year
+  # Agent decision, not a person's review: the page https://www.oma.org.ar/contents/paginas/contents/olimpiada_mayo.html (read on 2026-11-16) names the 32nd May Olympiad of 2026, so the first was in 1995. The archive index https://www.oma.org.ar/contents/enunciados/index.json lists papers of 2005 to 2024. The papers of 2005, 2011, 2016, 2020 and 2024 have five problems for each level. The years before 2005 are not in the archive, so they have no shape. The position of problem N of level G is pG followed by N.
+  layout:
+    - {paper: level1, name: Level 1, positions: [p11, p12, p13, p14, p15]}
+    - {paper: level2, name: Level 2, positions: [p21, p22, p23, p24, p25]}
+  per_year: 10
+  eras:
+    - {from: 1995, to: 2004}
+  languages: [es, pt]
+  sources: [oma, hf-mathnet, aops-collections]
+  description: A written contest of the Ibero-American countries that the OMA of Argentina runs. It has two levels, for students under 13 and under 15, and each level writes its own paper of five problems.
+
+- code: gqmo
+  name: Global Quarantine Mathematical Olympiad
+  short: GQMO
+  group: international
+  level: high-school
+  first_year: 2020
+  edition_form: year
+  languages: [en]
+  sources: [aops-collections]
+  description: An online olympiad that volunteers ran during the COVID-19 lockdowns of 2020. It had a beginner paper and an advanced paper. No official archive was found, and gqmo.org did not answer on 2026-11-16.
+
+- code: mathlinks-contest
+  name: MathLinks Contest
+  group: international
+  level: high-school
+  organizer: MathLinks
+  edition_form: year
+  languages: [en]
+  sources: [aops-collections]
+  description: An online olympiad of the MathLinks forum, which later became the AoPS community. The AoPS collections name each contest by its number, as in "MathLinks Contest 3rd", and give no year. No official archive was found.
+
+- code: imas
+  name: International Mathematics Assessments for Schools
+  short: IMAS
+  group: international
+  level: junior
+  levels: [elementary, junior]
+  organizer: Chiu Chang Mathematics Education Foundation
+  url: https://chiuchang.org/imas/
+  edition_form: year
+  languages: [en, zh]
+  sources: [chiuchang]
+  description: A contest in two rounds for primary and lower secondary students. It is run from Taiwan in many countries. It has a middle primary paper (grades 3 and 4), an upper primary paper (grades 5 and 6) and a junior paper (grades 7 and 8). The first round has multiple choice and short answer problems. Each paper numbers its problems from 1, so the register gives no layout yet.
+
+- code: emic
+  name: Elementary Mathematics International Contest
+  short: EMIC
+  group: international
+  level: elementary
+  organizer: The host city of the International Mathematics Competition
+  url: https://chiuchang.org/imc/en/home-en/
+  first_year: 2003
+  gaps: [2020]
+  edition_form: year
+  # Agent decision, not a person's review: the IMC archive https://chiuchang.org/imc/en/home-en/ (read on 2026-11-16) has a page for each year from 1999 to 2019 and from 2021 to 2026. The primary paper first appears in 2003 (TEMIC), and 2020 has no page. The individual and team papers of 2003, 2005, 2014, 2024 and 2026 have 15 and 10 problems. The position of problem N is iN in the individual paper and tN in the team paper.
+  layout:
+    - {paper: individual, name: Individual, positions: [i1, i2, i3, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13, i14, i15]}
+    - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10]}
+  per_year: 25
+  languages: [en]
+  sources: [chiuchang]
+  description: The primary school part of the International Mathematics Competition (IMC), which a different city hosts each year, with an individual paper of 15 problems and a team paper of 10 problems. The IMC in Burgas (2013 and 2018) is also called BIMC.
+
+- code: iwymic
+  name: Invitational World Youth Mathematics Intercity Competition
+  short: IWYMIC
+  group: international
+  level: junior
+  organizer: The host city of the International Mathematics Competition
+  url: https://chiuchang.org/imc/en/home-en/
+  first_year: 1999
+  gaps: [2003, 2020]
+  edition_form: year
+  # Agent decision, not a person's review: the IMC archive https://chiuchang.org/imc/en/home-en/ (read on 2026-11-16) has a page for each year from 1999 to 2019 and from 2021 to 2026. The page of 2003 has only the primary paper, and 2020 has no page. The individual papers of 2005, 2014, 2024 and 2026 have 12 problems in section A and 3 in section B, and the team papers of 2005, 2014 and 2024 have 10 problems. The team paper of 1999 has 5 problems, and the years 1999 to 2004 were not all read, so they have no shape. The position is aN or bN in the individual paper and tN in the team paper.
+  layout:
+    - {paper: section-a, name: Individual Section A, positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12]}
+    - {paper: section-b, name: Individual Section B, positions: [b1, b2, b3]}
+    - {paper: team, name: Team, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10]}
+  per_year: 25
+  eras:
+    - {from: 1999, to: 2004}
+  languages: [en]
+  sources: [chiuchang]
+  description: The junior secondary part of the International Mathematics Competition (IMC). It started in Kaohsiung in 1999. It has an individual paper of 12 short problems and 3 long problems, and a team paper of 10 problems.
+
+- code: pmwc
+  name: Primary Mathematics World Contest
+  short: PMWC
+  group: international
+  level: elementary
+  organizer: Po Leung Kuk
+  first_year: 1997
+  edition_form: year
+  languages: [en]
+  description: A contest for primary school students that Po Leung Kuk of Hong Kong started. Search results say that it has an individual paper of 15 problems and a team paper of 10 problems. No official archive was found. On 2026-11-16 the domain pmwc.org was a parked domain for sale.
+
+- code: seamo
+  name: Southeast Asian Mathematical Olympiad
+  short: SEAMO
+  group: international
+  level: high-school
+  levels: [elementary, junior, high-school]
+  organizer: SEAMO (Terry Chew Institute, Singapore)
+  url: https://www.seamo-official.org/
+  first_year: 2016
+  edition_form: year
+  languages: [en]
+  sources: [seamo-official]
+  description: A multiple choice and short answer contest with one paper for each band of grades, from paper K to paper F. SEAMO X is a later round. Each paper numbers its problems from 1, so the register gives no layout yet.
+
+- code: sasmo
+  name: Singapore and Asian Schools Math Olympiad
+  short: SASMO
+  group: international
+  level: high-school
+  levels: [elementary, junior, high-school]
+  organizer: SIMCC
+  url: https://sasmo.simcc.org/
+  first_year: 2006
+  edition_form: year
+  languages: [en]
+  sources: [simcc]
+  description: A contest with one paper for each grade, from primary school to grade 12. Each paper numbers its problems from 1, so the register gives no layout yet.
+
+- code: wmi
+  name: World Mathematics Invitational
+  short: WMI
+  group: international
+  level: high-school
+  levels: [elementary, junior, high-school]
+  organizer: WMI organizing committee
+  url: https://www.wminv.org/
+  edition_form: year
+  languages: [en]
+  sources: [wmi-official]
+  description: A contest run from Taiwan with one paper for each grade, from primary school to grade 12, and a final in the summer. Each paper numbers its problems from 1, so the register gives no layout yet.
 
 - code: imac
   name: International Mathematical Arhimede Contest

@@ -443,3 +443,8 @@
 - competition: tr-akdeniz
   reason: no-source
   note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+
+# The Americas census (2026-11-16): international contests with no allowed source.
+- competition: pmwc
+  reason: no-source
+  note: No official archive was found. On 2026-11-16 pmwc.org was a parked domain for sale, and no dataset row has the label.

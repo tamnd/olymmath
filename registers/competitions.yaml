@@ -6406,7 +6406,7 @@
     - {from: 2023, to: 2023, per_year: 32, layout: [{paper: grade8, name: Grade 8, positions: [p81, p82, p83, p84, p85, p86, p87, p88]}, {paper: grade9, name: Grade 9, positions: [p91, p92, p93, p94, p95, p96, p97, p98]}, {paper: grade10, name: Grade 10, positions: [p101, p102, p103, p104, p105, p106, p107, p108]}, {paper: grade11, name: Grade 11, positions: [p111, p112, p113, p114, p115, p116, p117, p118]}]}
   edition_form: year
   languages: [uk]
-  sources: [imomath, imogeometry-blog]
+  sources: [imomath, imogeometry-blog, apex-minds]
   description: The national olympiad and team selection test of Ukraine.
 
 - code: ua-umo-regional
@@ -6416,6 +6416,7 @@
   level: high-school
   levels: [junior, high-school]
   country: UA
+  # Agent decision, not a person's review: the papers of apex-minds are those of the booklets of the olympiad, from 2001 to 2006 and the regional olympiads of 2012 and 2013. The position of problem N of grade G is pG followed by N, as ua-umo uses. A year whose papers have two rounds, each numbered from 1, has aG followed by N for the first round and bG followed by N for the second. The stage is written in January and February, so its edition is the last year of the school year. The papers of Kyiv are in ua-kyiv.
   edition_form: year
   official_solutions: true
   languages: [uk]
@@ -6429,6 +6430,7 @@
   level: high-school
   levels: [junior, high-school]
   country: UA
+  # Agent decision, not a person's review: the papers of apex-minds are those of the booklets of the olympiad (the papers of 2000 to 2005 that the booklet of 2001 to 2006 gives, and from 2006 the papers of the Kyiv district olympiad, the second stage in Kyiv). The position of problem N of grade G is pG followed by N, as ua-umo uses. The stage is written in November and December, so its edition is the first year of the school year: the paper of 2001/02 is 2001.
   edition_form: year
   languages: [uk]
   sources: [ippo-kubg, apex-minds]
@@ -6442,6 +6444,7 @@
   levels: [junior, high-school]
   country: UA
   url: https://matholymp.com.ua/archive
+  # Agent decision, not a person's review: the papers of apex-minds are those of the booklets of the Ukrainian olympiad, where the Kyiv city olympiad is the regional stage. The position of problem N of grade G is pG followed by N, as ua-umo uses, and in a year with two rounds, each numbered from 1, aG followed by N for the first round and bG followed by N for the second. A problem numbered as 8.2.1, a second problem in the place of problem 2, has no position. The olympiad is written in January and February, so its edition is the last year of the school year.
   edition_form: year
   official_solutions: true
   languages: [uk]

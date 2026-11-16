@@ -3705,7 +3705,7 @@
   ai_train: unknown
   size: the papers of all four rounds and all grades of the 1st to the 34th olympiads (1961/62 to 1994/95), an estimated 6,000 problems
   wave: 2
-  state: planned
+  state: active
   notes: The site has no robots.txt (404 on 2026-11-16), so all paths are allowed. It holds its own PDFs only for the 1st to the 34th olympiads; for the 35th olympiad on (1996 on) it links to mathematik-olympiaden.de, whose robots.txt disallows all paths, so those papers are not fetched (gaps of reason robots for de-mo and de-mo-r1 to de-mo-r4, 1996 to 2026). Each paper is one PDF for one round and one grade.
 
 - id: lwmb

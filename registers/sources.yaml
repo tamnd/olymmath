@@ -376,7 +376,7 @@
   url: https://huggingface.co/datasets/nvidia/Nemotron-IMO-Bench
   access: hf
   licence: CC BY 4.0
-  terms: The dataset card gives CC BY 4.0 (https://huggingface.co/datasets/nvidia/Nemotron-IMO-Bench, licence text at https://creativecommons.org/licenses/by/4.0/, read on 2026-11-04). The card says that the 200 problems and proofs were written for the benchmark with Titu Andreescu and were not published before, so the licence covers the texts. Zone Z1. The card asks that the problems are not put in training data, so ai_train is no and the HF export leaves the texts out. Agent decision, not a person's review.
+  terms: "The dataset card gives CC BY 4.0 (https://huggingface.co/datasets/nvidia/Nemotron-IMO-Bench, licence text at https://creativecommons.org/licenses/by/4.0/, read on 2026-11-04 and again on 2026-11-16). The card says: \"The problems and reference proofs were created in collaboration with Professor Titu Andreescu, a mathematics educator and olympiad problem author; they were written for this benchmark and have not been published before.\" So the statements are not past olympiad problems, the licence of NVIDIA covers the texts, and the zone stays Z1. The card asks that the problems are not put in training data, so ai_train is no and the HF export leaves the texts out. Agent decision, not a person's review."
   zone:
     statement: Z1
     solution: Z1
@@ -932,7 +932,7 @@
   origin: H1
   url: https://olympiads.mccme.ru/turlom/
   access: html
-  terms: "The status page olympiads.mccme.ru/turlom/info-status.htm (published 2012-12-23) says that the information of the site has a free status and can be used and distributed without limits in all cases where this does not go against the law. It also says that the materials placed before 2012 are archival, and that their status follows the conditions of their publication. The new site of the tournament, турлом.цпм.рф (xn--k1acfgjg.xn--l1afu.xn--p1ai), states no licence; its footer says \"© 2026 Турнир имени М.В.Ломоносова\". Agent decision, not a person's review: Z2, the spec default for competition statements."
+  terms: "The status page https://olympiads.mccme.ru/turlom/info-status.htm (published 2012-12-23, read again on 2026-11-16) covers the pages of turlom.info and of its synonym olympiads.mccme.ru/turlom, the page of the 35th tournament of 30 September 2012, and the pages next to and below them. It says: \"Информация имеет свободный статус и может использоваться и распространяться без ограничений во всех случаях, когда это не противоречит действующему законодательству\" (the information has a free status and may be used and distributed without limits wherever this does not go against the law). It also says: \"по адресам в домене turlom.info доступны материалы, размещённые ранее 2012 года и имеющие в настоящее время архивный характер. Статус таких материалов соответствует обстоятельствам их публикации\" (materials placed before 2012 are archival, and their status follows the circumstances of their publication). So the papers of 2012 and later on the old site (2012, 2013 and 2014) are free, and the older papers are not covered. The new site of the tournament, турлом.цпм.рф (xn--k1acfgjg.xn--l1afu.xn--p1ai), which holds the paper of 2025, states no licence; its footer says \"© 2026 Турнир имени М.В.Ломоносова\" (read on 2026-11-12). Agent decision, not a person's review: the row has one zone for all years, so it stays Z2, the spec default for competition statements, and this note records the split by year. The statements of 2012 to 2014 can go to Z1 when they get a source of their own with this status as its licence."
   zone:
     statement: Z2
     solution: Z2
@@ -1052,7 +1052,7 @@
   origin: H1
   url: https://www.ommenlinea.org/
   access: pdf
-  terms: "No licence stated. The footer says \"Copyright 2017 Olimpiada Mexicana de Matemáticas | Todos los derechos reservados\". The magazine Tzaloa, which the site publishes, says \"Los contenidos e imágenes de Tzaloa pueden ser reproducidos y utilizados, citando apropiadamente y otorgando el crédito correspondiente a la publicación y a la Sociedad Matemática Mexicana\". Agent decision, not a person's review: Z2, the spec default for competition statements, as for tubitak."
+  terms: "No licence stated for the papers of the national contest. The footer of the site says \"Copyright 2017 Olimpiada Mexicana de Matemáticas | Todos los derechos reservados\". The legal notice of the magazine Tzaloa, which the Sociedad Matemática Mexicana publishes, says \"Los contenidos e imágenes de Tzaloa pueden ser reproducidos y utilizados, citando apropiadamente y otorgando el crédito correspondiente a la publicación y a la Sociedad Matemática Mexicana\" (the contents and images of Tzaloa may be reproduced and used with proper citation and credit to the magazine and to the SMM). It was read on 2026-11-16 in https://www.ommenlinea.org/wp-content/uploads/2026/05/Tzaloa2026-1.pdf (year 18, no. 1, May 2026) and https://www.ommenlinea.org/wp-content/uploads/2024/12/TZALOA-24-03.pdf. So the Tzaloa texts may be reused with credit, and the nac papers are not covered. Agent decision, not a person's review: the row has one zone for both, so it stays Z2, the spec default for competition statements, as for tubitak, and this note records the split. The statements taken from Tzaloa (the national contests of 2024 and 2025) can go to Z1 when Tzaloa gets a source of its own with this notice as its licence."
   zone:
     statement: Z2
     solution: Z2
@@ -2394,7 +2394,7 @@
   origin: H1
   url: https://www.vwo.be/vwo/wedstrijdvragen-per-jaargang-en-ronde/
   access: pdf
-  terms: "The page Wedstrijdvragen per jaargang en ronde (read on 2026-11-13) says: All olympiad problem sets are copyrighted by Vlaamse Wiskunde Olympiade vzw. Sharing without changes is allowed for non-commercial purposes and study books, provided that attribution is given to Vlaamse Wiskunde Olympiade vzw."
+  terms: "The page Wedstrijdvragen per jaargang en ronde, https://www.vwo.be/vwo/wedstrijdvragen-per-jaargang-en-ronde/ (read on 2026-11-13 and again on 2026-11-16), says: \"All olympiad problem sets are copyrighted by Vlaamse Wiskunde Olympiade vzw. Sharing without changes is allowed for non-commercial purposes and study books, provided that attribution is given to Vlaamse Wiskunde Olympiade vzw.\" The Dutch note of the same notice says: \"Enkel de overname van de opgaven is toegelaten. [...] Alle opgaven worden door Vlaamse Wiskunde Olympiade vzw ook voorzien van een uitgewerkte modeloplossing. Die oplossingen zijn exclusief voorbehouden voor Vlaamse Wiskunde Olympiade vzw\" (only the problems may be taken over; the worked model solutions are reserved for the VWO alone, in its year report and on usolvit). Agent decision, not a person's review: the statements are Z2, and the solutions stay Z3 because the holder reserves them. The non-commercial terms do not fit the CC BY-SA site licence, so they give no route to Z1."
   zone:
     statement: Z2
     solution: Z3
@@ -2664,7 +2664,7 @@
   ai_train: unknown
   wave: 1
   state: planned
-  notes: "robots.txt of math.bas.bg (checked on 2026-11-04) disallows all paths for ClaudeBot, GPTBot and Bytespider, so the agent does not read the papers."
+  notes: "robots.txt of math.bas.bg (https://math.bas.bg/robots.txt, read on 2026-11-04 and again on 2026-11-16) disallows all paths for ClaudeBot, GPTBot, Bytespider and Amazonbot, and gives Crawl-delay 10 to all agents. The rule for sites that block named AI crawlers is a decision of the owner that is still pending, so the zone stays as it is, the reuse terms of the site were not read, and the agent does not read the papers."
 
 - id: olimpiade-ro
   name: olimpiade.ro
@@ -3478,7 +3478,7 @@
   ai_train: unknown
   wave: 0
   state: planned
-  terms: The repository gives CC BY 4.0 for the benchmark data. Read on 2026-11-04.
+  terms: "The README of https://github.com/google-deepmind/superhuman/tree/main/imobench (read on 2026-11-04 and again on 2026-11-16) says \"Copyright 2025 Google LLC\" and \"All other materials are licensed under the Creative Commons Attribution 4.0 International License (CC-BY)\". The page https://imobench.github.io/ (read on 2026-11-16) says that IMO-GradingBench has 1000 examples, \"each containing a problem statement, a proposed solution, and its human-assigned grade\", from human gradings of Google's internal models on the advanced set of IMO-ProofBench, which it calls \"novel, highly challenging problems\". So the proposed solutions are outputs of Google's models and the grades are Google's. The page does not say who wrote each problem of the advanced set or which ones come from olympiads, and a dataset licence does not cover texts it copied (spec 11.1), so the statements keep Z2 and the proofs stay Z3. No proof from the set goes into solutions/. Agent decision, not a person's review."
   notes: Human grades of model proofs of IMO-level problems, for the calibration of the grading jury (om calibrate -set gradingbench). om calibrate fetch puts the file in the work directory. No proof from it goes into solutions/.
 
 - id: hf-proofbench
@@ -3494,7 +3494,7 @@
   ai_train: unknown
   wave: 0
   state: planned
-  terms: The dataset card gives the MIT licence. Read on 2026-11-04.
+  terms: "The dataset card https://huggingface.co/datasets/wenjiema02/ProofBench (read on 2026-11-04 and again on 2026-11-16) gives the MIT licence. It says that the problems come from the IMO, the USAMO, the APMO, the EGMO, the Putnam and the USA TST of 2022 to 2025, that each row has an \"Official/reference solution\", and that the model solutions were written by OpenAI-o3, Gemini-2.5-pro and DeepSeek-R1-0528. A dataset licence does not cover texts it copied (spec 11.1): the statements and the reference solutions belong to the organizers (the IMO, the MAA for the USAMO, the USA TST and the Putnam, the APMO and the EGMO), so the statements keep Z2 and the solutions Z3. The MIT licence can cover only what the dataset authors made. Agent decision, not a person's review."
   notes: Expert ratings from 0 to 7 of model proofs, with marking schemes, for the calibration of the grading jury (om calibrate -set proofbench). No proof from it goes into solutions/.
 
 - id: stanford-smt
@@ -3641,7 +3641,7 @@
   size: the mathematics papers of the recent sessions
   wave: 2
   state: planned
-  notes: eduscol.education.fr redirects to eduscol.education.gouv.fr. Its robots.txt (read on 2026-11-16) sets Crawl-delay 10 for all agents, disallows the Drupal and search paths for Googlebot and bingbot, and disallows all paths for Bytespider, PetalBot, IbouBot, BLEXBot, DataForSeoBot, scoopit, Sogou, Baiduspider, YandexBot and SemrushBot. It names no AI crawler and has no content signal.
+  notes: "eduscol.education.fr redirects to eduscol.education.gouv.fr. Its robots.txt (read on 2026-11-16) sets Crawl-delay 10 for all agents, disallows the Drupal and search paths for Googlebot and bingbot, and disallows all paths for Bytespider, PetalBot, IbouBot, BLEXBot, DataForSeoBot, scoopit, Sogou, Baiduspider, YandexBot and SemrushBot. It names no AI crawler and has no content signal. On 2026-11-16 the subject page https://eduscol.education.gouv.fr/1463/ and the legal notice https://eduscol.education.gouv.fr/mentions-legales gave 403 to the olymmath fetcher, so whether the site uses the Licence Ouverte was not read, and the zone stays as it is."
 
 - id: apmep
   name: APMEP (Association des Professeurs de Mathématiques de l'Enseignement Public)

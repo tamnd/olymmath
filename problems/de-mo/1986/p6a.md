@@ -22,7 +22,7 @@ statements:
 status:
   statement: captured
 ---
-Eine im dekadischen Positionssystem dargestellte natürliche Zahl sei $Spiegelzahl$ genannt, wenn ihre Ziffern symmetrisch aufgebaut sind, d.h., wenn die erste und die letzte, die zweite und die vorletzte usw. Ziffer übereinstimmt.
+Eine im dekadischen Positionssystem dargestellte natürliche Zahl sei *Spiegelzahl* genannt, wenn ihre Ziffern symmetrisch aufgebaut sind, d.h., wenn die erste und die letzte, die zweite und die vorletzte usw. Ziffer übereinstimmt.
 
 Zum Beispiel sind die Zahlen 358 853, 27 672, 44 444 Spiegelzahlen.
 

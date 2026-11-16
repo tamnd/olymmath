@@ -607,7 +607,7 @@ China Mathematical Competition	cn-league
 China Second Round Olympiad	cn-league
 South East Mathematical Olympiad	cn-smo
 China Southeastern Mathematical Olympiad	cn-smo
-China Northern MO	-
+China Northern MO	cn-northern
 China NSMO	-
 China Western MO	cn-wmo
 China Girls MO	cn-gmo
@@ -651,7 +651,7 @@ Taiwan National Olympiad	tw-tst
 Hong Kong TST	hk-pc
 HKG TST	hk-pc
 IMO HK TST	hk-pc
-CHKMO	-
+CHKMO	hk-chkmo
 Singapore Mathematical Olympiad (SMO)	sg-smo
 Singapore Senior Math Olympiad	sg-smo
 Singapore Junior Math Olympiad	sg-smo
@@ -678,6 +678,156 @@ Saudi Arabia BMO TST	-
 Saudi Arabia IMO TST	-
 Saudi Arabia JBMO TST	-
 Saudi Arabia Pre-TST	-
+# East and Southeast Asia (census of 2026-11-16). Agent decision, not a person's review: each line maps a label of the unknown list to the code that the label names. A lower round of a national olympiad goes to the code of that round, not to the final round. A camp, a mock test, a shortlist, a university entrance exam or a set of mixed tests goes to "-". MathNet labels with no contest name in them take the country before the label, so the bare label is not added.
+China Mathematical Competition (Hainan)	cn-league
+China Mathematical Competition (Shaanxi)	cn-league
+China Mathematical Competition (Jiangxi)	cn-league
+China Second Round A	cn-league
+China Second Round A1	cn-league
+China Second Round A2	cn-league
+China Second Round B	cn-league
+Xueersi Mathematical Olympiad	cn-xmo
+the 15th XMO	cn-xmo
+XMO (China)  1-19 - geometry	cn-xmo
+Yuanfudao Mathematical Olympiad	cn-yuanfudao
+Yunfudao Mathematical Olympiad	cn-yuanfudao
+Centennial Schools Mathematics Competition	cn-centennial
+Northern Hope Star MO	cn-hope-star
+The Chinese Mathematics Competition	cn-cmc
+China MO Mock Test	-
+PKU Autumn Camp 2013-23 - geo	-
+PKU Summer Camp 2015, 2017-23 - geo	-
+Hong Kong Year 2016	hk-pc
+Hong Kong Test 1	hk-pc
+Hong Kong Team Selection Test 1	hk-pc
+Hong Kong Team Selection Test 2	hk-pc
+Pre-IMO 2017 Mock Exam	-
+The 26th Hong Kong (China) Mathematical Olympiad	hk-chkmo
+The Sixteenth Hong Kong (China) Mathematical Olympiad	hk-chkmo
+The Seventeenth Hong Kong (China) Mathematical Olympiad	hk-chkmo
+The Twenty-fifth Hong Kong (China) Mathematical Olympiad	hk-chkmo
+Hong Kong NMO	hk-chkmo
+Hong kong National Olympiad	hk-chkmo
+二〇一一數學奧林匹亞競賽第一階段選訓營	tw-tst
+二〇一一數學奧林匹亞競賽第三階段選訓營	tw-tst
+二〇一一數學奧林匹亞競賽第二階段選訓營	tw-tst
+二〇一七數學奧林匹亞競賽第一階段選訓營	tw-tst
+二〇一七數學奧林匹亞競賽第三階段選訓營	tw-tst
+二〇一七數學奧林匹亞競賽第二階段選訓營	tw-tst
+二〇一三數學奧林匹亞競賽第一階段選訓營	tw-tst
+二〇一三數學奧林匹亞競賽第二階段選訓營	tw-tst
+二〇一九數學奧林匹亞競賽第一階段選訓營	tw-tst
+二〇一九數學奧林匹亞競賽第三階段選訓營	tw-tst
+二〇一九數學奧林匹亞競賽第二階段選訓營，獨立研究（一）	tw-tst
+二〇一二數學奧林匹亞競賽第一階段選訓營	tw-tst
+二〇一二數學奧林匹亞競賽第三階段選訓營	tw-tst
+二〇一二數學奧林匹亞競賽第二階段選訓營	tw-tst
+二〇一五數學奧林匹亞競賽第一階段選訓營	tw-tst
+二〇一五數學奧林匹亞競賽第三階段選訓營	tw-tst
+二〇一八數學奧林匹亞競賽第一階段選訓營	tw-tst
+二〇一八數學奧林匹亞競賽第三階段選訓營	tw-tst
+二〇一六數學奧林匹亞競賽第一階段選訓營	tw-tst
+二〇一六數學奧林匹亞競賽第三階段選訓營	tw-tst
+二〇一六數學奧林匹亞競賽第二階段選訓營	tw-tst
+二〇一四年國際數學奧林匹亞競賽第二階段選訓營	tw-tst
+二〇一四數學奧林匹亞競賽第一階段選訓營	tw-tst
+國際奧林匹亞競賽第三次訓練營	-
+二〇一四年國際數學奧林匹亞競賽第三階段選訓營 獨立研究(一)	tw-tst
+二〇一四年國際數學奧林匹亞競賽第二階段選訓營 模擬競賽(二)	tw-tst
+二〇一四年國際數學奧林匹亞競賽第二階段選訓營 獨立研究(三)	tw-tst
+二〇一四年國際數學奧林匹亞競賽第二階段選訓營 獨立研究(二)	tw-tst
+國際數學奧林匹亞競賽第二階段選訓營 模擬競賽(二)	tw-tst
+國際數學奧林匹亞競賽第二階段選訓營 獨立研究(三)	tw-tst
+二〇一三數學奧林匹亞競賽第三階段選訓營, 獨立研究 (三)	tw-tst
+二〇一三數學奧林匹亞競賽第三階段選訓營, 獨立研究 (二)	tw-tst
+二〇一九數學奧林匹亞競賽第二階段選訓營, 獨立研究 (三)	tw-tst
+二〇一三數學奧林匹亞競賽第三階段選訓營, 模擬競賽(二)	tw-tst
+二〇一三數學奧林匹亞競賽第三階段選訓營, 獨立研究(一)	tw-tst
+二〇一九數學奧林匹亞競賽第二階段選訓營, 獨立研究(二)	tw-tst
+二〇一一數學奧林匹亞競賽第一階段選訓營,模擬競賽(一)	tw-tst
+二〇一一數學奧林匹亞競賽第一階段選訓營,模擬競賽(二)	tw-tst
+二〇一一數學奧林匹亞競賽第一階段選訓營,獨立研究(一)	tw-tst
+二〇一一數學奧林匹亞競賽第一階段選訓營,獨立研究(三)	tw-tst
+二〇一一數學奧林匹亞競賽第一階段選訓營,獨立研究(二)	tw-tst
+二〇一三數學奧林匹亞競賽第三階段選訓營,模擬競賽(一)	tw-tst
+二〇一九數學奧林匹亞競賽第二階段選訓營,模擬競賽(一)	tw-tst
+二〇一九數學奧林匹亞競賽第二階段選訓營,模擬競賽(二)	tw-tst
+二0一三數學奧林匹亞競賽第一階段選訓營	tw-tst
+二0一三數學奧林匹亞競賽第二階段選訓營	tw-tst
+14-2J-M1	tw-tst
+2014 IMO Training Camp Stage 3 Mock Competition (1)	tw-tst
+2014 International Mathematical Olympiad Second Stage Training Camp	tw-tst
+2015 Math Olympiad Second Stage Training Camp	tw-tst
+2018 數學奧林匹亞競賽第二階段選訓營, 模擬競賽(一)	tw-tst
+2018 數學奧林匹亞競賽第二階段選訓營, 模擬競賽(二)	tw-tst
+2018 數學奧林匹亞競賽第二階段選訓營, 獨立研究(一)	tw-tst
+2018 數學奧林匹亞競賽第二階段選訓營, 獨立研究(三)	tw-tst
+2018 數學奧林匹亞競賽第二階段選訓營, 獨立研究(二)	tw-tst
+2020 Taiwan IMO 1J	tw-tst
+2020 Taiwan IMO 2J	tw-tst
+2020 Taiwan IMO 3J	tw-tst
+2021 年台灣數學奧林匹亞考試試題	tw-tmo
+2021 數學奧林匹亞競賽第一階段選訓營	tw-tst
+2021 數學奧林匹亞競賽第三階段選訓營	tw-tst
+2021 數學奧林匹亞競賽第二階段選訓營, 國際競賽實作 (二)	tw-tst
+2021 數學奧林匹亞競賽第二階段選訓營, 獨立研究 (一)	tw-tst
+2021 數學奧林匹亞競賽第二階段選訓營, 國際競賽實作(一)	tw-tst
+2021 數學奧林匹亞競賽第二階段選訓營, 獨立研究(二)	tw-tst
+2022 數學奧林匹亞競賽第一階段培訓營, 國際競賽實作 (二)	-
+2022 數學奧林匹亞競賽第一階段選訓營, 獨立研究 (二)	tw-tst
+2022 數學奧林匹亞競賽第三階段選訓營, 獨立研究 (二)	tw-tst
+2022 數學奧林匹亞競賽第二階段培訓營, 獨立研究 (三)	-
+2022 數學奧林匹亞競賽第二階段培訓營, 獨立研究 (二)	-
+2022 數學奧林匹亞競賽第二階段選訓營, 獨立研究 (二)	tw-tst
+2022 數學奧林匹亞競賽第一階段培訓營, 國際競賽實作(一)	-
+2022 數學奧林匹亞競賽第一階段培訓營, 獨立研究(一)	-
+2022 數學奧林匹亞競賽第一階段培訓營, 獨立研究(三)	-
+2022 數學奧林匹亞競賽第一階段培訓營, 獨立研究(二)	-
+2022 數學奧林匹亞競賽第一階段選訓營, 國際競賽實作(一)	tw-tst
+2022 數學奧林匹亞競賽第一階段選訓營, 國際競賽實作(二)	tw-tst
+2022 數學奧林匹亞競賽第一階段選訓營, 獨立研究(一)	tw-tst
+2022 數學奧林匹亞競賽第三階段選訓營, 國際競賽實作(一)	tw-tst
+2022 數學奧林匹亞競賽第三階段選訓營, 國際競賽實作(二)	tw-tst
+2022 數學奧林匹亞競賽第三階段選訓營, 獨立研究(一)	tw-tst
+2022 數學奧林匹亞競賽第二階段培訓營, 國際競賽實作(一)	-
+2022 數學奧林匹亞競賽第二階段培訓營, 國際競賽實作(二)	-
+2022 數學奧林匹亞競賽第二階段培訓營, 獨立研究(一)	-
+2022 數學奧林匹亞競賽第二階段選訓營, 國際競賽實作(一)	tw-tst
+2022 數學奧林匹亞競賽第二階段選訓營, 獨立研究(一)	tw-tst
+2022 數學奧林匹亞競賽第五階段培訓營, 國際競賽實作(一)	-
+2022 數學奧林匹亞競賽第五階段培訓營, 國際競賽實作(二)	-
+2022 數學奧林匹亞競賽第二階段選訓營,國際競賽實作(二)	tw-tst
+2023 年台灣數學奧林匹亞考試	tw-tmo
+2023 數學奧林匹亞競賽第一階段選訓營	tw-tst
+2023 數學奧林匹亞競賽第三階段選訓營	tw-tst
+2023 數學奧林匹亞競賽第二階段選訓營	tw-tst
+APMO Taiwan Preliminary Round 1	tw-apmo-prelim
+APMO Taiwan Preliminary Round 2	tw-apmo-prelim
+IMO 1J, Independent Study 1	tw-tst
+IMO 1J, Independent Study 2	tw-tst
+IMO 1J, Mock Exam 1	tw-tst
+IMO 1J, Mock Exam 2	tw-tst
+IMO 2J, Independent Study 1	tw-tst
+IMO 2J, Independent Study 2	tw-tst
+IMO 2J, Mock Exam 1	tw-tst
+IMO 2J, Mock Exam 2	tw-tst
+IMO 3J, Independent Study 1	tw-tst
+IMO 3J, Independent Study 2	tw-tst
+IMO 3J, Mock Exam 1	tw-tst
+IMO 3J, Mock Exam 2	tw-tst
+Taiwan APMO Prelim Round 1	tw-apmo-prelim
+Taiwan APMO Prelim, Round 2	tw-apmo-prelim
+Taiwan APMO Preliminary	tw-apmo-prelim
+Taiwan APMO Preliminary First Round	tw-apmo-prelim
+Taiwan APMO Preliminary Test	tw-apmo-prelim
+Taiwan APMO Prelininary	tw-apmo-prelim
+IMOC	tw-imoc
+2021-IMOC qualification	tw-imoc
+IMOC Shortlist	-
+TST Round 1	tw-tst
+TST Round 2	tw-tst
+TST Round 3	tw-tst
+
 # Oceania and Africa.
 NewZealand_MO	nz-nzmo
 NZMO Round One	nz-nzmo

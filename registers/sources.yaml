@@ -2610,6 +2610,87 @@
   state: active
   notes: The site has no robots.txt (404 on 2026-11-02). The papers are in Japanese. Most papers before 2024 are HTML pages of scanned images, and the page of a problem is the number of its image. The JMO papers of 1991 to 2000 and the JJMO papers of 2021 are not on the site. om papers imojp records the papers.
 
+# Agent decision, not a person's review (census of East and Southeast Asia, 2026-11-16): the sources below were found by the census. Nothing was harvested. The terms and the robots.txt files were read on 2026-11-16. Where a site has a copyright line but no terms page, the content may hold the statements with a link (Z2) but not the solutions (Z3). The rule for sites that allow all agents but block named AI crawlers is not decided yet.
+- id: edb-hkmo
+  name: Education Bureau HKMO past papers
+  kind: official
+  origin: H1
+  url: https://www.edb.gov.hk/en/curriculum-development/kla/ma/res/sa/hkmo-index.html
+  access: pdf
+  terms: "The Important Notices of the Education Bureau say that the bureau holds the copyright of the site and that no part may be reproduced, distributed or used for commercial purposes without written permission. So the content only links to the papers."
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: unknown
+  size: One zip file of the HKMO past papers of 1983/84 to 2024/25, heat and final events with answers
+  wave: 2
+  state: planned
+  notes: "The robots.txt (read on 2026-11-16) blocks only the search pages for all agents."
+
+- id: hkhcm
+  name: Hong Kong Hua Luogeng Cup Association past papers
+  kind: official
+  origin: H1
+  url: https://www.hkhcm.org/previous_questions/
+  access: pdf
+  terms: "The site has no terms page. Its footer says Copyright HKHCM All Rights Reserved. So the content may hold the statements with a link, but not the solutions."
+  zone:
+    statement: Z2
+    solution: Z3
+  ai_train: unknown
+  size: A few papers of the Hua Cup finals, primary and secondary
+  wave: 3
+  state: planned
+  notes: "The robots.txt (read on 2026-11-16) blocks only /wp-admin/ and /wp-content/uploads/wpforms/ for all agents. The mainland committee site was not found, and other papers are on third-party sites."
+
+- id: tpmso
+  name: Taiwan TMO working group past papers
+  kind: official
+  origin: H1
+  url: https://tpmso.k12ea.gov.tw/tmo/index.php/problems/
+  access: pdf
+  terms: "The site has no terms page. Its footer says Ⓒ 2022, TMO 工作小組 版權所有 All Rights Reserved. So the content may hold the statements with a link, but not the solutions."
+  zone:
+    statement: Z2
+    solution: Z3
+  ai_train: unknown
+  size: Papers of the APMO preliminary rounds 1 and 2, the TMO and the EGMO preliminary, about 2019 to 2026, many with solutions
+  wave: 2
+  state: planned
+  notes: "The robots.txt (read on 2026-11-16) blocks only the wp-admin paths of each sub-site for all agents. Some PDF links point to tpmso.org/tmo/wp-content/uploads/."
+
+- id: macmo-github
+  name: Complex2-Liu/macmo on GitHub
+  kind: community
+  origin: H3
+  url: https://github.com/Complex2-Liu/macmo
+  access: git
+  terms: "The repository has no licence file (GitHub API, read on 2026-11-16). So the content may hold the statements with a link, but not the solutions."
+  zone:
+    statement: Z2
+    solution: Z3
+  ai_train: unknown
+  size: Problems of the Macau olympiad of many years, in TeX
+  wave: 2
+  state: planned
+  notes: "The last push was on 2024-01-18. The repository says that the contest is the Macau team selection for the IMO."
+
+- id: um-mmo
+  name: University of Macau MMO page
+  kind: official
+  origin: H2
+  url: https://www.cis.um.edu.mo/~fstitl/mmo/mmo.html
+  access: html
+  zone:
+    statement: Z2
+    solution: Z3
+  ai_train: unknown
+  size: Round 1 and round 2 of the 7th Macau olympiad with solutions
+  wave: 3
+  state: planned
+  notes: "An old personal page at the University of Macau with no terms. The host has no robots.txt (404 on 2026-11-16)."
+
+
 - id: aops-collections
   name: AoPS contest collections
   kind: community

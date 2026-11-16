@@ -6706,6 +6706,163 @@
   copyright: Copyright of the publishers.
   description: The olympiad of southeast China with eight problems, first held in 2004. From 2019 it is called the China Southeast Mathematical Summer Camp, with papers for grade 10 and grade 11. No organizer publishes the papers online (checked on 2026-11-03). The texts online are on news and document sites that are not official.
 
+# Agent decision, not a person's review (census of East and Southeast Asia, 2026-11-16): the rows below add the Chinese contests that the census found. A row with no layout or era has no known shape, so it counts no positions.
+- code: cn-league-prelim
+  name: China High School Mathematics League provincial preliminaries
+  names: {zh: 全国高中数学联赛预赛}
+  group: national
+  level: high-school
+  country: CN
+  languages: [zh]
+  description: The preliminary rounds of the Chinese league contest. Each province sets its own paper, so this row is a family of papers, not one paper. No official archive was found. Copies are on news and document sites that are not official. The register has no shape for it, because each province sets its own paper.
+
+- code: cn-junior-league
+  name: China National Junior High School Mathematics League
+  names: {zh: 全国初中数学联赛}
+  group: national
+  level: junior
+  country: CN
+  languages: [zh]
+  description: The national league contest for lower secondary students in China. No official archive was found on 2026-11-16. Copies are on document sites that are not official. The register has no shape for it, because no official paper or rules were found.
+
+- code: cn-hua
+  name: Hua Luogeng Cup Junior Mathematics Invitational
+  short: Hua Cup
+  names: {zh: 华罗庚金杯少年数学邀请赛}
+  group: national
+  level: junior
+  levels: [elementary, junior]
+  country: CN
+  first_year: 1986
+  languages: [zh]
+  sources: [hkhcm]
+  description: The Hua Cup contest for primary and lower secondary students. It began in 1986. The Hong Kong branch (source hkhcm) has some past papers. Other papers are on third-party sites. The register has no shape for it, because its papers differ by grade and no official paper or rules were found.
+
+- code: cn-hope
+  name: Hope Cup National Mathematics Invitational
+  short: Hope Cup
+  names: {zh: 希望杯全国数学邀请赛}
+  group: national
+  level: high-school
+  levels: [elementary, junior, high-school]
+  country: CN
+  languages: [zh]
+  description: The Hope Cup invitational for grades 4 to 11. No official archive was found on 2026-11-16. Copies are on document sites that are not official. The register has no shape for it, because no official paper or rules were found.
+
+- code: cn-yingchun
+  name: Beijing Yingchun Cup Mathematics Competition
+  short: Yingchun Cup
+  names: {zh: 迎春杯数学解题能力展示}
+  group: national
+  level: elementary
+  country: CN
+  languages: [zh]
+  description: The Beijing contest for primary students, now called the mathematics problem solving show. No official archive was found on 2026-11-16. The register has no shape for it, because no official paper or rules were found.
+
+- code: cn-zoumei
+  name: Zoumei Cup Mathematics Competition
+  short: Zoumei Cup
+  names: {zh: 走美杯数学竞赛}
+  group: national
+  level: junior
+  levels: [elementary, junior]
+  country: CN
+  languages: [zh]
+  description: The Zoumei Cup contest for grades 3 to 8. No official archive was found on 2026-11-16. The register has no shape for it, because no official paper or rules were found.
+
+- code: cn-zhonghuan
+  name: Zhonghuan Cup Mathematics Competition
+  short: Zhonghuan Cup
+  names: {zh: 中环杯}
+  group: national
+  level: junior
+  levels: [elementary, junior]
+  country: CN
+  languages: [zh]
+  description: The Shanghai Zhonghuan Cup contest for primary and lower secondary students. No official archive was found on 2026-11-16. The register has no shape for it, because no official paper or rules were found.
+
+- code: cn-pmo-primary
+  name: China Primary School Mathematical Olympiad
+  names: {zh: 小学数学奥林匹克}
+  group: national
+  level: elementary
+  country: CN
+  languages: [zh]
+  description: The mathematical olympiad for primary students in China. No official archive was found on 2026-11-16. The register has no shape for it, because no official paper or rules were found.
+
+- code: cn-beijing-hs
+  name: Beijing High School Mathematics Competition
+  names: {zh: 北京市中学生数学竞赛}
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: CN
+  languages: [zh]
+  description: The city contest of Beijing with papers for lower and upper secondary students. No official archive was found on 2026-11-16. The register has no shape for it, because no official paper or rules were found.
+
+- code: cn-shanghai-hs
+  name: Shanghai High School Mathematics Competition
+  names: {zh: 上海市高中数学竞赛}
+  group: national
+  level: high-school
+  country: CN
+  languages: [zh]
+  description: The city contest of Shanghai for upper secondary students. No official archive was found on 2026-11-16. The register has no shape for it, because no official paper or rules were found.
+
+- code: cn-northern
+  name: China Northern Mathematical Olympiad
+  names: {zh: 中国北方数学奥林匹克邀请赛}
+  group: national
+  level: high-school
+  country: CN
+  languages: [zh]
+  description: The invitational olympiad of northern China. AoPS has its problems in the folder China Regional Mathematical Olympiads. No official archive was found on 2026-11-16. The register has no shape for it, because no official paper or rules were found.
+
+- code: cn-hope-star
+  name: Northern Hope Star Mathematical Olympiad
+  names: {zh: 北方希望之星数学邀请赛}
+  group: national
+  level: high-school
+  country: CN
+  languages: [zh]
+  description: An invitational of northern China. AoPS has 8 problems of it in the folder China Regional Mathematical Olympiads. No official archive was found on 2026-11-16. The register has no shape for it, because no official paper or rules were found.
+
+- code: cn-xmo
+  name: Xueersi Mathematical Olympiad
+  short: XMO
+  group: national
+  level: high-school
+  country: CN
+  languages: [zh]
+  description: An online olympiad of the Xueersi school group. AoPS has about 19 contests of it in the folder China High School Mathematics League Mocks. The organizer has no archive online that the census found. The register has no shape for it, because no official paper or rules were found.
+
+- code: cn-yuanfudao
+  name: Yuanfudao Mathematical Olympiad
+  group: national
+  level: high-school
+  country: CN
+  languages: [zh]
+  description: An olympiad of the Yuanfudao school group. AoPS has it in the folder China High School Mathematics League Mocks, also with the spelling Yunfudao. The organizer has no archive online that the census found. The register has no shape for it, because no official paper or rules were found.
+
+- code: cn-centennial
+  name: Centennial Schools Mathematics Competition
+  group: national
+  level: high-school
+  country: CN
+  languages: [zh]
+  description: A Chinese contest that AoPS has in its own folder, with 6 problems a year from 2023 to 2025. The organizer is not confirmed, and no official archive was found on 2026-11-16. The register has no shape for it, because no official paper or rules were found.
+
+- code: cn-cmc
+  name: Chinese Mathematics Competitions
+  names: {zh: 全国大学生数学竞赛}
+  group: undergraduate
+  level: undergraduate
+  country: CN
+  organizer: Chinese Mathematical Society
+  first_year: 2009
+  languages: [zh]
+  description: The national contest for university students in China, run by the Chinese Mathematical Society from 2009. It has papers for mathematics majors and for other majors. No official archive was found on 2026-11-16. The register has no shape for it, because its papers for majors and other students share numbers and no official paper or rules were found.
+
 - code: jp-jmo
   name: Japan Mathematical Olympiad
   short: JMO
@@ -6780,6 +6937,65 @@
   sources: [evanchen, hf-mathnet]
   description: The national olympiad of Taiwan and its IMO selection tests.
 
+- code: tw-apmo-prelim
+  name: Taiwan APMO Preliminary
+  names: {zh: 亞太數學奧林匹亞競賽初選}
+  group: national
+  level: high-school
+  country: TW
+  organizer: TMO working group
+  url: https://tpmso.k12ea.gov.tw/tmo/index.php/problems/
+  # Agent decision, not a person's review (2026-11-16): the shape comes from the papers on the TMO site (source tpmso), read on 2026-11-16. The site labels each test with the APMO year. The test is older than 2019, but the site starts with 2019, so first_year is 2019. The 2019 test has 7 written problems. The 2020 file has only the first part, 5 short-answer problems, so the 2020 shape is not confirmed and that era has no layout. From 2021 stage 1 has 5 short-answer problems numbered 1 to 5 (s1 to s5) and 2 written problems numbered 一 and 二 (w1 and w2), and stage 2 has 5 problems (p1 to p5).
+  first_year: 2019
+  eras:
+    - {from: 2019, to: 2019, per_year: 7}
+    - {from: 2020, to: 2020}
+    - {from: 2021, per_year: 12, layout: [{paper: stage1, name: Stage 1, positions: [s1, s2, s3, s4, s5, w1, w2]}, {paper: stage2, name: Stage 2, positions: [p1, p2, p3, p4, p5]}]}
+  languages: [zh]
+  sources: [tpmso]
+  description: The Taiwanese test that chooses the students for the APMO. From 2021 it has two stages. The TMO site (source tpmso) has the first stage of 2019 to 2026 and the second stage of 2021 to 2026.
+
+- code: tw-tmo
+  name: Taiwan Mathematical Olympiad Examination
+  names: {zh: 台灣數學奧林匹亞考試}
+  group: national
+  level: high-school
+  country: TW
+  organizer: TMO working group
+  url: https://tpmso.k12ea.gov.tw/tmo/index.php/problems/
+  # Agent decision, not a person's review (2026-11-16): the TMO site (source tpmso) has the papers of 2021 to 2026, and each has 5 problems. The 2026 paper is an image PDF, read from its rendered pages. The contest may be older than 2021, but the site starts there, so first_year is 2021.
+  first_year: 2021
+  per_year: 5
+  languages: [zh]
+  sources: [tpmso]
+  description: The Taiwanese olympiad examination. The TMO site (source tpmso) has the papers of 2021 to 2026.
+
+- code: tw-egmo-prelim
+  name: Taiwan EGMO Preliminary
+  names: {zh: 歐洲女子數學奧林匹亞競賽初選}
+  group: national
+  level: high-school
+  country: TW
+  organizer: TMO working group
+  url: https://tpmso.k12ea.gov.tw/tmo/index.php/problems/
+  # Agent decision, not a person's review (2026-11-16): the shape comes from the papers on the TMO site (source tpmso), labelled with the EGMO year. The first round has 16 short-answer problems in four parts (algebra, combinatorics, geometry, number theory), each numbered 1 to 4, here a1 to a4, c1 to c4, g1 to g4 and n1 to n4. The site has the first round of 2024 to 2027. The second round has 5 problems, and the site has it only for 2026. No second-round paper of 2024 or 2025 was found, so their layout holds only the first round. The test may be older than 2024, but the site starts there.
+  first_year: 2024
+  eras:
+    - {from: 2024, to: 2025, per_year: 16, layout: [{paper: round1, name: First round, positions: [a1, a2, a3, a4, c1, c2, c3, c4, g1, g2, g3, g4, n1, n2, n3, n4]}]}
+    - {from: 2026, per_year: 21, layout: [{paper: round1, name: First round, positions: [a1, a2, a3, a4, c1, c2, c3, c4, g1, g2, g3, g4, n1, n2, n3, n4]}, {paper: round2, name: Second round, positions: [p1, p2, p3, p4, p5]}]}
+  languages: [zh]
+  sources: [tpmso]
+  description: The Taiwanese tests that choose the EGMO team. The TMO site (source tpmso) has the first stage of 2024 to 2027 and the second stage of 2026.
+
+- code: tw-imoc
+  name: IMOC
+  group: national
+  level: high-school
+  country: TW
+  first_year: 2017
+  languages: [zh, en]
+  description: A Taiwanese olympiad that students set, with a qualification round and a shortlist. AoPS has the contests of 2017 to 2024. No official archive was found on 2026-11-16. The register has no shape for it, because no official paper or rules were found.
+
 - code: hk-pc
   name: Hong Kong Preliminary Selection Contest and TST
   group: national
@@ -6791,13 +7007,38 @@
   sources: [hkmo]
   description: The Hong Kong preliminary selection contest and the tests that choose the IMO team.
 
+- code: hk-chkmo
+  name: Hong Kong (China) Mathematical Olympiad
+  short: CHKMO
+  group: national
+  level: high-school
+  country: HK
+  languages: [zh, en]
+  description: The Hong Kong olympiad with four problems a year. AoPS calls it Hong Kong NMO or Hong Kong National Olympiad and has the years from 1998. No official archive was found on 2026-11-16. The register has no shape for it, because no official paper or rules were found.
+
+- code: hk-hkmo
+  name: Hong Kong Mathematics Olympiad
+  short: HKMO
+  names: {zh: 香港數學競賽}
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: HK
+  organizer: Education Bureau and the Education University of Hong Kong
+  url: https://www.edb.gov.hk/en/curriculum-development/kla/ma/res/sa/hkmo-index.html
+  first_year: 1984
+  languages: [zh, en]
+  sources: [edb-hkmo]
+  description: The inter-school contest for secondary students of the Education Bureau. The bureau has one zip file of the past papers of 1983/84 to 2024/25 (source edb-hkmo). Its notices forbid any reproduction, so the content only links to it. The register has no shape for it, because its papers are only in the bureau zip file, which the census did not open.
+
 - code: mo-macau
   name: Macau Mathematical Olympiad
   group: national
   level: high-school
   country: MO
   languages: [zh, pt]
-  description: The national olympiad of Macau. No source has been found.
+  sources: [macmo-github, um-mmo]
+  description: The olympiad of Macau, which also chooses the Macau team for the IMO. The GitHub repository Complex2-Liu/macmo (source macmo-github) has its problems, and an old page of the University of Macau (source um-mmo) has the two rounds of the 7th olympiad. The education bureau DSEDJ also runs an inter-school contest for primary and secondary students, with papers of 2017 to 2022 on its site. The register has no code for that contest.
 
 - code: mn-mo
   name: Mongolian Mathematical Olympiad

@@ -1,0 +1,11 @@
+year: 2013
+papers:
+  - name: Level 1
+    problems: [p11, p12, p13, p14, p15]
+  - name: Level 2
+    problems: [p21, p22, p23, p24, p25]
+official:
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/mayo/2013/Mayo_2013.pdf
+    source: oma

@@ -2432,7 +2432,7 @@
   state: active
   notes: "The page of secondary school competitions links one PDF for each round and year under /wp-content/uploads/. For the ММО the file of 2024 holds the problems only, and the other files hold the problems with solutions and the points. The robots.txt of smm.org.mk disallows only /wp-admin/ (checked on 2026-11-13). The old site old.smm.org.mk serves an empty page, so the papers before 2020 are not on the site."
 
-# Census of Western, Northern and Central Europe (2026-11-16), the United Kingdom, Ireland, France and the Benelux; Germany, Austria, Switzerland, Italy, Spain and Portugal: official and curated archives of the national rounds, junior olympiads and regional contests.
+# Census of Western, Northern and Central Europe (2026-11-16), the United Kingdom, Ireland, France and the Benelux; Germany, Austria, Switzerland, Italy, Spain and Portugal; the Nordic and Baltic countries: official and curated archives of the national rounds, junior olympiads and regional contests.
 - id: ukmt-free
   name: UKMT free past papers
   kind: official
@@ -2626,3 +2626,100 @@
   wave: 3
   state: planned
   notes: The robots.txt of fespm.es (read on 2026-11-16) allows /wp-content/uploads, where the booklets are, with no rule for AI crawlers.
+
+- id: hanche-abel
+  name: Harald Hanche-Olsen's Abel competition collection
+  kind: curated
+  origin: H2
+  url: https://hanche.folk.ntnu.no/abel/
+  access: pdf
+  terms: "No licence stated. The problems are the papers of the Abel competition. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: 440 problems of the first round (2005 to 2026) and 210 problems of the second round (2006 to 2026)
+  wave: 2
+  state: planned
+  notes: The host has no robots.txt (404 on 2026-11-16). The official files are also under matematikksenteret.no/sites/default/files/attachments/Abelkonkurransen/abel-oppgaver/, and the robots.txt of matematikksenteret.no disallows only Drupal paths.
+
+- id: maol-fi
+  name: MAOL (Finnish association of mathematics and science teachers)
+  kind: official
+  origin: H1
+  url: https://www.maol.fi/
+  access: pdf
+  terms: "No licence stated. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: 'no'
+  size: the papers of the comprehensive school competition from 2008 and the upper secondary competition
+  wave: 2
+  state: planned
+  notes: "The robots.txt of www.maol.fi (read on 2026-11-16), under the heading AI training opt-out, disallows all paths for GPTBot, ClaudeBot, anthropic-ai, Google-Extended, CCBot and other named AI crawlers. For User-agent * it disallows only the search and filter paths and /wp-admin/. It has no Content-Signal line. ai_train is no from the opt-out. Decision pending: the owner has not decided whether a site that allows * but blocks named AI crawlers may be fetched by olymmath-bot."
+
+- id: matematiikkakilpailut-fi
+  name: Finnish mathematics competitions (matematiikkakilpailut.fi)
+  kind: official
+  origin: H1
+  url: https://matematiikkakilpailut.fi/
+  access: pdf
+  terms: "No licence stated. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: the papers of the first round and the final of the upper secondary competition over many years
+  wave: 2
+  state: planned
+  notes: The robots.txt of matematiikkakilpailut.fi (read on 2026-11-16) disallows /valmennus/2010/ to /valmennus/2023/, /cdn-cgi/ and /matkalasku/, with no rule for AI crawlers. The papers it links are on Google Drive (1997 to 2019 and 2025).
+
+- id: stae-is
+  name: Icelandic Mathematical Society (stae.is)
+  kind: official
+  origin: H1
+  url: https://stae.is/stak/
+  access: pdf
+  crawl_delay: 10
+  terms: "No licence stated. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: the preliminary and final papers from 1984/85 on the pages stae.is/stak/keppninYYYY
+  wave: 2
+  state: planned
+  notes: The robots.txt of stae.is sets Crawl-delay 10.
+
+- id: teaduskool-ut
+  name: University of Tartu Science School (olympiad archive)
+  kind: official
+  origin: H1
+  url: https://teaduskool.ut.ee/et/matemaatikaolumpiaadi-arhiiv
+  access: pdf
+  terms: No licence read; the site could not be read.
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: the papers of the school, regional and final rounds from 2013/14 and the open contests from about 2004
+  wave: 3
+  state: planned
+  notes: On 2026-11-16 the host answered every request, robots.txt included, with a Cloudflare challenge (403). The challenge is not passed, so nothing is fetched here until the host serves olymmath-bot. The English booklets of olympiaadid-ut cover the final round and parts of the open contests.
+
+- id: nms-lu-lv
+  name: A. Liepa Correspondence Mathematics School (NMS), University of Latvia
+  kind: official
+  origin: H1
+  url: https://nms.lu.lv/arhivs-un-materali/uzdevumu-arhivs/
+  access: pdf
+  terms: "No licence stated. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: the papers of the Latvian olympiad rounds and the open olympiad for grades 5 to 12
+  wave: 2
+  state: planned
+  notes: The robots.txt of nms.lu.lv (read on 2026-11-16) disallows only print and staff paths, with no rule for AI crawlers.

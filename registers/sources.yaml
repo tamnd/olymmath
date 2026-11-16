@@ -676,7 +676,7 @@
   size: about 12.7k articles
   wave: 1
   state: planned
-  notes: Every AMC, AIME and USAMO problem with wiki solutions. MediaWiki API behind a Cloudflare challenge, which is not circumvented. The MAA notice is kept.
+  notes: "Every AMC, AIME and USAMO problem with wiki solutions. MediaWiki API behind a Cloudflare challenge, which is not circumvented. The MAA notice is kept. The robots.txt of artofproblemsolving.com (read on 2026-11-16) is the Cloudflare managed file. The group for all agents carries \"Content-Signal: search=yes,ai-train=no,use=reference\" and allows the contest pages. Named groups disallow all paths for ClaudeBot, anthropic-ai, claude-web, GPTBot, CCBot, Google-Extended, Bytespider, cohere-ai and meta-externalagent. The rule for sites that block named AI crawlers is a decision of the owner that is still pending. The terms page /company/tos gave 403 to a plain client on 2026-11-16."
 
 - id: kedlaya-putnam
   name: Kedlaya Putnam archive
@@ -955,6 +955,66 @@
   wave: 1
   state: active
   notes: "robots.txt (checked on 2026-11-12) disallows only the forum paths, /17* and *_dw/*, and allows /problems/. The page of tournament N is /problems/N/index.php; the fall tour of the year Y is in tournament Y-1978 and the spring tour of Y in tournament Y-1979. Old pages give the papers as text; newer ones link a PDF for each level (os-N-baz-avt.pdf for the base level, os-N-sl-avt.pdf for the hard level, vs for spring), and tournament 30 links the TeX file os30os.tex of its fall hard papers. om fill tot reads the TeX file first, then the PDFs, then the text of the page."
+
+- id: chiuchang
+  name: Chiu Chang Mathematics Education Foundation (IMAS and IMC pages)
+  kind: official
+  origin: H1
+  url: https://chiuchang.org/imas/
+  access: html
+  terms: "The site has no page of terms and gives no licence (read on 2026-11-16). The footer says \"copyright 九章數學出版社、九章數學基金會版權所有\". Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 2
+  state: planned
+  notes: "The foundation runs the IMAS pages and the pages of the International Mathematics Competition (IMC) at https://chiuchang.org/imc/en/home-en/, which hold the EMIC and IWYMIC papers of past years. The robots.txt of chiuchang.org gives 404 (checked on 2026-11-16), so no path is blocked. The papers were not read in phase 1, so the shape of each paper is not confirmed."
+
+- id: wmi-official
+  name: World Mathematics Invitational
+  kind: official
+  origin: H1
+  url: https://www.wminv.org/
+  access: html
+  terms: "The site has no page of terms and gives no licence (read on 2026-11-16). The footer says \"Copyright © World Mathematics Invitational Organizing Committee\". Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 3
+  state: planned
+  notes: "The robots.txt of www.wminv.org gives 404 (checked on 2026-11-16), so no path is blocked. No archive of past papers was found on the public pages."
+
+- id: seamo-official
+  name: SEAMO official site
+  kind: official
+  origin: H1
+  url: https://www.seamo-official.org/
+  access: html
+  terms: "The terms at https://seamo-official.org/page/terms_and_conditions (read on 2026-11-16) forbid copying or printing the content without permission, and forbid any manual or automatic device to gather the site content. So the records are links only (Z3)."
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: unknown
+  wave: 3
+  state: planned
+  notes: "The robots.txt of seamo-official.org gives 404 (checked on 2026-11-16). The terms forbid automatic gathering, so the source is never crawled. The site sells past papers in books."
+
+- id: simcc
+  name: SIMCC (SASMO)
+  kind: official
+  origin: H1
+  url: https://sasmo.simcc.org/
+  access: html
+  terms: "The home page of sasmo.simcc.org gave 403 on 2026-11-16, so its terms could not be read. Agent decision, not a person's review: Z3 until the terms are read, because SIMCC sells the past papers."
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: 'no'
+  wave: 3
+  state: planned
+  notes: "The robots.txt of sasmo.simcc.org and simcc.org (read on 2026-11-16) is the Cloudflare managed file. The group for all agents carries \"Content-Signal: search=yes,ai-train=no,use=reference\" and allows all paths (simcc.org disallows /wp-admin/ and one plugin file). Named groups disallow all paths for ClaudeBot, anthropic-ai, claude-web, GPTBot, CCBot, Google-Extended, Bytespider, cohere-ai and meta-externalagent. The rule for sites that block named AI crawlers is a decision of the owner that is still pending. Nothing is harvested in phase 1."
 
 - id: geometry-ru
   name: geometry.ru Sharygin olympiad
@@ -2413,7 +2473,7 @@
   size: about 80k contest problems, est. 1M+ posts
   wave: 2
   state: planned
-  notes: The full c13 tree and its threads. AJAX JSON behind a Cloudflare challenge, which is not circumvented. The biggest source of human solutions.
+  notes: "The full c13 tree and its threads. AJAX JSON behind a Cloudflare challenge, which is not circumvented. The biggest source of human solutions. The robots.txt of artofproblemsolving.com (read on 2026-11-16) is the Cloudflare managed file. The group for all agents carries \"Content-Signal: search=yes,ai-train=no,use=reference\" and allows the contest pages. Named groups disallow all paths for ClaudeBot, anthropic-ai, claude-web, GPTBot, CCBot, Google-Extended, Bytespider, cohere-ai and meta-externalagent. The rule for sites that block named AI crawlers is a decision of the owner that is still pending. The terms page /company/tos gave 403 to a plain client on 2026-11-16."
 
 - id: imomath
   name: imomath

@@ -341,10 +341,10 @@ PEN S Problems	-
 Canada National Olympiad	ca-cmo
 Canada_MO	ca-cmo
 Canadian Mathematical Olympiad Qualification	ca-cmoqr
-Canadian Open Math Challenge	-
-pascal	-
-fermat	-
-cayley	-
+Canadian Open Math Challenge	ca-comc
+pascal	ca-pascal
+fermat	ca-fermat
+cayley	ca-cayley
 Mexico National Olympiad	mx-omm
 Regional Olympiad of Mexico Center Zone	-
 Brazil National Olympiad	br-obm
@@ -363,6 +363,14 @@ Costa Rica - Final Round	cr-mo
 Cuba MO	cu-mo
 Paraguay Mathematical Olympiad	-
 Puerto Rico Team Selection Test	-
+# The Americas census (2026-11-16), Canada. Agent decision, not a person's review: see the note on codes with no layout in the international part.
+Gauss	ca-gauss
+Canadian Senior Mathematics Contest	ca-csmc
+Canadian Students Math Olympiad	ca-csmo
+Canadian Students MO	ca-csmo
+Alberta HS MC - geometry	ca-ahsmc
+Kanada	ca-cmo
+Sun Life Financial Canadian Mathematical Olympiad	ca-cmo
 # Europe.
 Romania National Olympiad	ro-nmo
 Romanian Mathematical Olympiad	ro-nmo

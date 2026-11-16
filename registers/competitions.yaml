@@ -2721,6 +2721,225 @@
   sources: [cemc]
   description: A contest of ten problems run by the CEMC at the University of Waterloo. The CEMC has the papers of 2016 to 2026 online. Its materials are under CC BY-NC 4.0, so the records are links only.
 
+- code: ca-gauss
+  name: Gauss Mathematics Contests
+  short: Gauss
+  group: national
+  level: junior
+  country: CA
+  organizer: CEMC
+  url: https://cemc.uwaterloo.ca/contests/gauss
+  edition_form: year
+  # Agent decision, not a person's review: the archive https://cemc.uwaterloo.ca/resources/past-contests (read on 2026-11-16) lists the papers of 2016 to 2025, and the papers of 2016 and 2025 were read. No primary page gives the first year, so the row has no first_year, and the years before 2016 have no shape. Each grade paper has 25 multiple choice problems. The position of problem N of grade G is pG followed by N.
+  eras:
+    - {from: 2016, per_year: 50, layout: [{paper: grade7, name: Grade 7, positions: [p71, p72, p73, p74, p75, p76, p77, p78, p79, p710, p711, p712, p713, p714, p715, p716, p717, p718, p719, p720, p721, p722, p723, p724, p725]}, {paper: grade8, name: Grade 8, positions: [p81, p82, p83, p84, p85, p86, p87, p88, p89, p810, p811, p812, p813, p814, p815, p816, p817, p818, p819, p820, p821, p822, p823, p824, p825]}]}
+  official_solutions: true
+  languages: [en, fr]
+  copyright: Copyright CEMC.
+  sources: [cemc]
+  description: A multiple choice contest of the CEMC with one paper of 25 problems for grade 7 and one for grade 8. The CEMC materials are under CC BY-NC 4.0, so the records are links only.
+
+- code: ca-pascal
+  name: Pascal Mathematics Contest
+  short: Pascal
+  group: national
+  level: junior
+  country: CA
+  organizer: CEMC
+  url: https://cemc.uwaterloo.ca/contests/pcf
+  edition_form: year
+  # Agent decision, not a person's review: the archive https://cemc.uwaterloo.ca/resources/past-contests (read on 2026-11-16) lists the papers of 2016 to 2025, and the papers of 2016 and 2025 were read. No primary page gives the first year, so the row has no first_year, and the years before 2016 have no shape. Each paper has 25 multiple choice problems.
+  eras:
+    - {from: 2016, per_year: 25}
+  official_solutions: true
+  languages: [en, fr]
+  copyright: Copyright CEMC.
+  sources: [cemc]
+  description: A multiple choice contest of the CEMC for grade 9 and below. The CEMC materials are under CC BY-NC 4.0, so the records are links only.
+
+- code: ca-cayley
+  name: Cayley Mathematics Contest
+  short: Cayley
+  group: national
+  level: high-school
+  country: CA
+  organizer: CEMC
+  url: https://cemc.uwaterloo.ca/contests/pcf
+  edition_form: year
+  # Agent decision, not a person's review: the archive https://cemc.uwaterloo.ca/resources/past-contests (read on 2026-11-16) lists the papers of 2016 to 2025, and the papers of 2016 and 2025 were read. No primary page gives the first year, so the row has no first_year, and the years before 2016 have no shape. Each paper has 25 multiple choice problems.
+  eras:
+    - {from: 2016, per_year: 25}
+  official_solutions: true
+  languages: [en, fr]
+  copyright: Copyright CEMC.
+  sources: [cemc]
+  description: A multiple choice contest of the CEMC for grade 10 and below. The CEMC materials are under CC BY-NC 4.0, so the records are links only.
+
+- code: ca-fermat
+  name: Fermat Mathematics Contest
+  short: Fermat
+  group: national
+  level: high-school
+  country: CA
+  organizer: CEMC
+  url: https://cemc.uwaterloo.ca/contests/pcf
+  edition_form: year
+  # Agent decision, not a person's review: the archive https://cemc.uwaterloo.ca/resources/past-contests (read on 2026-11-16) lists the papers of 2016 to 2025, and the papers of 2016 and 2025 were read. No primary page gives the first year, so the row has no first_year, and the years before 2016 have no shape. Each paper has 25 multiple choice problems.
+  eras:
+    - {from: 2016, per_year: 25}
+  official_solutions: true
+  languages: [en, fr]
+  copyright: Copyright CEMC.
+  sources: [cemc]
+  description: A multiple choice contest of the CEMC for grade 11 and below. The CEMC materials are under CC BY-NC 4.0, so the records are links only.
+
+- code: ca-fryer
+  name: Fryer Mathematics Contest
+  short: Fryer
+  group: national
+  level: junior
+  country: CA
+  organizer: CEMC
+  url: https://cemc.uwaterloo.ca/contests/fgh
+  edition_form: year
+  # Agent decision, not a person's review: the archive https://cemc.uwaterloo.ca/resources/past-contests (read on 2026-11-16) lists the papers of 2016 to 2025, and the papers of 2016 and 2025 were read. No primary page gives the first year, so the row has no first_year, and the years before 2016 have no shape. Each paper has four problems, and the parts of a problem are not positions.
+  eras:
+    - {from: 2016, per_year: 4}
+  official_solutions: true
+  languages: [en, fr]
+  copyright: Copyright CEMC.
+  sources: [cemc]
+  description: A written contest of the CEMC for grade 9 and below. Its problems have parts, and the full solutions are marked. The CEMC materials are under CC BY-NC 4.0, so the records are links only.
+
+- code: ca-galois
+  name: Galois Mathematics Contest
+  short: Galois
+  group: national
+  level: high-school
+  country: CA
+  organizer: CEMC
+  url: https://cemc.uwaterloo.ca/contests/fgh
+  edition_form: year
+  # Agent decision, not a person's review: the archive https://cemc.uwaterloo.ca/resources/past-contests (read on 2026-11-16) lists the papers of 2016 to 2025, and the papers of 2016 and 2025 were read. No primary page gives the first year, so the row has no first_year, and the years before 2016 have no shape. Each paper has four problems, and the parts of a problem are not positions.
+  eras:
+    - {from: 2016, per_year: 4}
+  official_solutions: true
+  languages: [en, fr]
+  copyright: Copyright CEMC.
+  sources: [cemc]
+  description: A written contest of the CEMC for grade 10 and below. Its problems have parts. The CEMC materials are under CC BY-NC 4.0, so the records are links only.
+
+- code: ca-hypatia
+  name: Hypatia Mathematics Contest
+  short: Hypatia
+  group: national
+  level: high-school
+  country: CA
+  organizer: CEMC
+  url: https://cemc.uwaterloo.ca/contests/fgh
+  edition_form: year
+  # Agent decision, not a person's review: the archive https://cemc.uwaterloo.ca/resources/past-contests (read on 2026-11-16) lists the papers of 2016 to 2025, and the papers of 2016 and 2025 were read. No primary page gives the first year, so the row has no first_year, and the years before 2016 have no shape. Each paper has four problems, and the parts of a problem are not positions.
+  eras:
+    - {from: 2016, per_year: 4}
+  official_solutions: true
+  languages: [en, fr]
+  copyright: Copyright CEMC.
+  sources: [cemc]
+  description: A written contest of the CEMC for grade 11 and below. Its problems have parts. The CEMC materials are under CC BY-NC 4.0, so the records are links only.
+
+- code: ca-cimc
+  name: Canadian Intermediate Mathematics Contest
+  short: CIMC
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: CA
+  organizer: CEMC
+  url: https://cemc.uwaterloo.ca/contests/csmc-cimc
+  edition_form: year
+  # Agent decision, not a person's review: the archive https://cemc.uwaterloo.ca/resources/past-contests (read on 2026-11-16) lists the papers of 2016 to 2025, and the papers of 2016 and 2025 were read. No primary page gives the first year, so the row has no first_year, and the years before 2016 have no shape. Part A has six problems and part B has three. The position of problem N is aN in part A and bN in part B.
+  eras:
+    - {from: 2016, per_year: 9, layout: [{paper: part-a, name: Part A, positions: [a1, a2, a3, a4, a5, a6]}, {paper: part-b, name: Part B, positions: [b1, b2, b3]}]}
+  official_solutions: true
+  languages: [en, fr]
+  copyright: Copyright CEMC.
+  sources: [cemc]
+  description: A contest of the CEMC for grades 9 and 10 with a part A of six short answer problems and a part B of three full solution problems. The CEMC materials are under CC BY-NC 4.0, so the records are links only.
+
+- code: ca-csmc
+  name: Canadian Senior Mathematics Contest
+  short: CSMC
+  group: national
+  level: high-school
+  country: CA
+  organizer: CEMC
+  url: https://cemc.uwaterloo.ca/contests/csmc-cimc
+  edition_form: year
+  # Agent decision, not a person's review: the archive https://cemc.uwaterloo.ca/resources/past-contests (read on 2026-11-16) lists the papers of 2016 to 2025, and the papers of 2016 and 2025 were read. No primary page gives the first year, so the row has no first_year, and the years before 2016 have no shape. Part A has six problems and part B has three. The position of problem N is aN in part A and bN in part B.
+  eras:
+    - {from: 2016, per_year: 9, layout: [{paper: part-a, name: Part A, positions: [a1, a2, a3, a4, a5, a6]}, {paper: part-b, name: Part B, positions: [b1, b2, b3]}]}
+  official_solutions: true
+  languages: [en, fr]
+  copyright: Copyright CEMC.
+  sources: [cemc]
+  description: A contest of the CEMC for grades 11 and 12 with a part A of six short answer problems and a part B of three full solution problems. The CEMC materials are under CC BY-NC 4.0, so the records are links only.
+
+- code: ca-ctmc
+  name: Canadian Team Mathematics Contest
+  short: CTMC
+  group: national
+  level: high-school
+  country: CA
+  organizer: CEMC
+  url: https://cemc.uwaterloo.ca/contests/ctmc
+  edition_form: year
+  official_solutions: true
+  languages: [en, fr]
+  copyright: Copyright CEMC.
+  sources: [cemc]
+  description: A team contest of the CEMC with an individual, a team and a relay part. Each part numbers its problems from 1, so the register gives no layout yet. The CEMC materials are under CC BY-NC 4.0, so the records are links only.
+
+- code: ca-comc
+  name: Canadian Open Mathematics Challenge
+  short: COMC
+  group: national
+  level: high-school
+  country: CA
+  organizer: Canadian Mathematical Society
+  url: https://cms.math.ca/competitions/comc/
+  edition_form: year
+  # Agent decision, not a person's review: the page https://cms.math.ca/competitions/comc/ (read on 2026-11-16) links the years 2011 to 2026. The papers of 2011, 2014, 2017, 2020, 2023 and 2026 have four problems in each of parts A, B and C (A1 to C4). No primary page gives the first year, so the row has no first_year, and the years before 2011 have no shape.
+  eras:
+    - {from: 2011, per_year: 12, layout: [{paper: part-a, name: Part A, positions: [a1, a2, a3, a4]}, {paper: part-b, name: Part B, positions: [b1, b2, b3, b4]}, {paper: part-c, name: Part C, positions: [c1, c2, c3, c4]}]}
+  languages: [en, fr]
+  sources: [cms]
+  description: The open contest of the Canadian Mathematical Society and the first step to the Canadian Mathematical Olympiad. It has parts A, B and C of four problems each. The CMS copyright page allows personal use only, so the records are links only.
+
+- code: ca-ahsmc
+  name: Alberta High School Mathematics Competition
+  short: AHSMC
+  group: national
+  level: high-school
+  country: CA
+  organizer: University of Alberta
+  url: https://www.ualberta.ca/en/mathematical-and-statistical-sciences/
+  first_year: 1957
+  edition_form: year
+  languages: [en]
+  sources: [aops-collections]
+  description: A contest of the province of Alberta in two parts, a multiple choice part I in the fall and a proof part II in the winter. Each part numbers its problems from 1, so the register gives no layout yet. The University of Alberta pages hold the papers, but the server math.ualberta.ca did not answer on 2026-11-16.
+
+- code: ca-csmo
+  name: Canadian Students Math Olympiad
+  short: CSMO
+  group: national
+  level: high-school
+  country: CA
+  edition_form: year
+  languages: [en]
+  sources: [aops-collections]
+  description: An online proof olympiad that students ran in 2011. The AoPS collections hold one edition of four problems. No official archive was found.
+
 - code: mx-omm
   name: Mexican Mathematical Olympiad
   short: OMM

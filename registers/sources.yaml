@@ -813,10 +813,10 @@
     statement: Z3
     solution: Z3
   ai_train: unknown
-  size: 11 papers of the Euclid contest, 2016 to 2026
+  size: 11 papers of the Euclid contest, 2016 to 2026, and the papers of the other CEMC contests
   wave: 1
   state: active
-  notes: "The page https://cemc.uwaterloo.ca/resources/past-contests with contest_category=24 lists the Euclid papers of 2016 to 2026, such as /sites/default/files/documents/2025/2025EuclidContest.pdf. The robots.txt (read on 2026-11-13) has one group for all agents. It disallows /core/, /profiles/, /admin/, /search/ and some other Drupal paths, and allows /sites/. It gives no crawl delay."
+  notes: "The page https://cemc.uwaterloo.ca/resources/past-contests with contest_category=24 lists the Euclid papers of 2016 to 2026, such as /sites/default/files/documents/2025/2025EuclidContest.pdf. The robots.txt (read on 2026-11-13) has one group for all agents. It disallows /core/, /profiles/, /admin/, /search/ and some other Drupal paths, and allows /sites/. It gives no crawl delay. The same page lists the papers of the Gauss, Pascal, Cayley, Fermat, Fryer, Galois, Hypatia, CIMC, CSMC and CTMC contests for the years 2016 to 2026, and the papers of grades 1 to 12 (read on 2026-11-16). The page https://cemc.uwaterloo.ca/copyright gives the same CC BY-NC 4.0 licence."
 
 - id: cms
   name: Canadian Mathematical Society

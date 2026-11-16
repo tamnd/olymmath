@@ -279,10 +279,10 @@ Finnish National High School Mathematics Competition	fi-mo
 Estonia National Olympiad	ee-mo
 Estonian Math Competitions	ee-mo
 Estonija	ee-mo
-Estonia Team Selection Test	-
-Estonia Open Senior - geometry	-
-Estonia Open Junior - geometry	-
-Latvia Baltic Way TST	-
+Estonia Team Selection Test	ee-tst
+Estonia Open Senior - geometry	ee-open
+Estonia Open Junior - geometry	ee-open
+Latvia Baltic Way TST	lv-tst
 Lithuania National Olympiad	lt-mo
 Greece National Olympiad	gr-hms
 Greece Junior Math Olympiad	gr-hms
@@ -900,7 +900,7 @@ Malaysia NMO	my-omk
 # Agent decision, not a person's review (2026-11-12): at-oemo is now the final round of the Austrian olympiad, and its earlier rounds have their own codes, as the official papers at oemo.at show. A label with no part, "Federal Competition For Advanced Students", holds the papers of part 1 in 2015 and 2017, as the official papers show. "Austrian MO National Competition" holds both parts of the federal competition in one collection with no numbers, and the booklets of hf-mathnet hold several rounds, so their rows give no position.
 Austrian Junior Regional Competition	at-oemo-beg
 Austrian Junior Regional	at-oemo-beg
-# Census of Western, Northern and Central Europe (2026-11-16), the United Kingdom, Ireland, France and the Benelux; Germany, Austria, Switzerland, Italy, Spain and Portugal. Agent decision, not a person's review: each label below goes to the round or contest that it names, now that the rounds, junior olympiads, selection tests and regional contests of the region have their own codes. A label that names a training set (the French envois), a mix of rounds, or a round name that several countries share ("Second Round") goes to "-". The samples of hf-mathnet decided the plain round names: "School Round", "First Round (take-home)" and "District Round" are Czech and Slovak papers of categories A and B, "TANDA", "Problemas Primera Sesión" and the January date are the Spanish local phase, "Maarttoets" is the Dutch BxMO and EGMO test of March, and "UMI SNS Progetto Olimpiadi di Matematica" mixes the February and Cesenatico papers. The plain labels "Italy", "France" and "Switzerland" are hf-mathnet rows with no competition, which take the name of the country; the samples hold papers of several rounds, so they go to "-".
+# Census of Western, Northern and Central Europe (2026-11-16), the United Kingdom, Ireland, France and the Benelux; Germany, Austria, Switzerland, Italy, Spain and Portugal; the Nordic and Baltic countries. Agent decision, not a person's review: each label below goes to the round or contest that it names, now that the rounds, junior olympiads, selection tests and regional contests of the region have their own codes. A label that names a training set (the French envois), a mix of rounds, or a round name that several countries share ("Second Round") goes to "-". The samples of hf-mathnet decided the plain round names: "School Round", "First Round (take-home)" and "District Round" are Czech and Slovak papers of categories A and B, "TANDA", "Problemas Primera Sesión" and the January date are the Spanish local phase, "Maarttoets" is the Dutch BxMO and EGMO test of March, and "UMI SNS Progetto Olimpiadi di Matematica" mixes the February and Cesenatico papers. The plain labels "Italy", "France" and "Switzerland" are hf-mathnet rows with no competition, which take the name of the country; the samples hold papers of several rounds, so they go to "-".
 46th Austrian Mathematical Olympiad National Competition (Final Round, part 2)	at-oemo
 48th Austrian Mathematical Olympiad National Competition (Final Round, part 1)	at-oemo-fed1
 48. Österreichische Mathematik-Olympiade Bundeswettbewerb für Fortgeschrittene, Teil 1	at-oemo-fed1
@@ -908,6 +908,12 @@ Austrian Junior Regional	at-oemo-beg
 48th Austrian Mathematical Olympiad Regional Competition (Qualifying Round)	at-oemo-reg
 Regional Competition	at-oemo-reg
 THIRD BENELUX MATHEMATICAL OLYMPIAD	benelux
+IMO Team Selection Contest	ee-tst
+IMO Team Selection Contest I	ee-tst
+IMO Team Selection Contest II	ee-tst
+Selected Problems from Open Contests	ee-open
+Estonia Math Open Senior Contests	ee-open
+Estonia Math Open Junior Contests	ee-open
 Test EGMO	fr-tst
 TEST DU GROUPE A ET DES CANDIDATES À L'ÉPREUVE EGMO	fr-tst
 Olympiades Françaises de Mathématiques - Test de Janvier	fr-tst
@@ -1019,6 +1025,37 @@ Preliminary Round - Switzerland	ch-smo-r1
 Zweite Runde 2021	ch-smo-r2
 Deuxième tour 2023	ch-smo-r2
 Swiss NMO - geometry	ch-smo
+Latvia BW TST	lv-tst
+Latvia TST	lv-tst
+Lithuania Team Selection Test	lt-tst
+Lithuania Juniors - geometry	-
+VU MIF Olympiad - geometry	lt-vumif
+Grand Duchy of Lithuania	lt-gdl
+Nordic Mathematical Contest, NMC 1	nordic
+Nordic Mathematical Contest, NMC 2	nordic
+Nordic Mathematical Contest, NMC 3	nordic
+Nordic Mathematical Contest, NMC 4	nordic
+Nordic Mathematical Contest, NMC 5	nordic
+Nordic Mathematical Contest, NMC 6	nordic
+Nordic Mathematical Contest, NMC 7	nordic
+Nordic Mathematical Contest, NMC 8	nordic
+Nordic Mathematical Contest, NMC 9	nordic
+Nordic Mathematical Contest, NMC 10	nordic
+Nordic Mathematical Contest, NMC 11	nordic
+Nordic Mathematical Contest, NMC 12	nordic
+Nordic Mathematical Contest, NMC 13	nordic
+Nordic Mathematical Contest, NMC 14	nordic
+Nordic Mathematical Contest, NMC 15	nordic
+Nordic Mathematical Contest, NMC 16	nordic
+Nordic Mathematical Contest, NMC 17	nordic
+Nordic Mathematical Contest, NMC 18	nordic
+Nordic Mathematical Contest, NMC 19	nordic
+Nordic Mathematical Contest, NMC 20	nordic
+Nordic Mathematical Contest, NMC 21	nordic
+Nordic Mathematical Contest, NMC 22	nordic
+Nordic Mathematical Contest, NMC 23	nordic
+Nordic Mathematical Contest, NMC 24	nordic
+Nordic Mathematical Contest, NMC 25	nordic
 OME 10	es-ome
 OME 11	es-ome
 OME 12	es-ome

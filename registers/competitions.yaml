@@ -419,6 +419,17 @@
   sources: [olympiaadid-ut, hf-mathnet, hf-numina-olympiads, imomath]
   description: A team contest of the countries around the Baltic Sea, with 20 problems for each team. Solutions exist for all years except 2009, 2019 and 2022.
 
+- code: lt-gdl
+  name: Grand Duchy of Lithuania Mathematical Olympiad
+  group: international
+  level: high-school
+  country: LT
+  # Agent decision, not a person's review: no official archive was found, so no year has a layout.
+  edition_form: year
+  languages: [lt, en]
+  sources: [hf-aops-wiki]
+  description: A team olympiad of the lands of the old Grand Duchy of Lithuania, hosted in Lithuania. No official archive was found, and the shape is not known, so it counts no positions.
+
 - code: baltic-way-sl
   name: Baltic Way Shortlist
   group: international
@@ -3065,6 +3076,24 @@
   sources: [georgmohr, kalva]
   description: The national olympiad of Denmark. Its second round, held in January, has five problems. The year of an edition is the year of the second round.
 
+- code: dk-georgmohr-r1
+  name: Georg Mohr Contest, First Round
+  names: {da: Georg Mohr-Konkurrencen, 1. runde}
+  group: national
+  level: high-school
+  country: DK
+  url: https://www.georgmohr.dk/mc/
+  first_year: 2006
+  # Agent decision, not a person's review: the papers georgmohr.dk/mc/mcYYopg.pdf (read on 2026-11-16) have 20 questions in 2008 to 2026; the year is the competition year, that of the second round (mc26opg.pdf is the first round of November 2025, for 2026). The first round in its present form starts in 2006; the papers of 2006 and 2007 were not readable as text, so those years have no layout. The multiple choice tests of 2000 to 2005 are not counted.
+  eras:
+    - {from: 2006, to: 2007}
+    - {from: 2008, per_year: 20}
+  edition_form: year
+  official_solutions: true
+  languages: [da, en]
+  sources: [georgmohr]
+  description: The first round of the Danish olympiad, held in the schools in November, with answer problems in 90 minutes. The page of the first round has the papers, answer sheets and answers in Danish and English, and a set of multiple choice tests of 2000 to 2005. The terms forbid commercial use, including the training of language models. Each paper from 2008 has 20 questions; 2006 and 2007 have no layout.
+
 - code: no-abel
   name: Abel Competition
   names: {"no": Abelkonkurransen}
@@ -3076,6 +3105,38 @@
   languages: ["no"]
   sources: [abelkonkurransen, kalva]
   description: The national olympiad of Norway. Its final round has four problems, most of them in two parts. Matematikksenteret has the paper of the final for each year from 1993, with an English translation for most years.
+
+- code: no-abel-r1
+  name: Abel Competition, First Round
+  names: {"no": Abelkonkurransen, første runde}
+  group: national
+  level: high-school
+  country: "NO"
+  url: https://www.matematikksenteret.no/konkurranser/abelkonkurransen
+  first_year: 2005
+  # Agent decision, not a person's review: the collection of Harald Hanche-Olsen (hanche.folk.ntnu.no/abel, read on 2026-11-16) has 440 problems of the first round of 2005 to 2026, which is 20 multiple choice problems in each of 22 rounds. The year is the year of the first round as the collection names it. The rounds before 2005 are in the archive of Abelkonkurransen but were not seen, so they are not counted.
+  per_year: 20
+  edition_form: year
+  official_solutions: true
+  languages: ["no", en]
+  sources: [abelkonkurransen, hanche-abel]
+  description: The first round of the Norwegian olympiad, held in the schools in the autumn, with multiple choice problems. The collection of Harald Hanche-Olsen has 440 problems of 2005 to 2026, which is 20 problems in each of 22 rounds. Each first round from 2005 has 20 problems.
+
+- code: no-abel-r2
+  name: Abel Competition, Second Round
+  names: {"no": Abelkonkurransen, andre runde}
+  group: national
+  level: high-school
+  country: "NO"
+  url: https://www.matematikksenteret.no/konkurranser/abelkonkurransen
+  first_year: 2006
+  # Agent decision, not a person's review: the collection of Harald Hanche-Olsen (read on 2026-11-16) has 210 problems of the second round of 2006 to 2026, which is 10 problems in each of 21 rounds. The rounds before 2006 were not seen, so they are not counted.
+  per_year: 10
+  edition_form: year
+  official_solutions: true
+  languages: ["no", en]
+  sources: [abelkonkurransen, hanche-abel]
+  description: The second round of the Norwegian olympiad, held in January, with ten problems with integer answers from 0 to 999 in 100 minutes. The collection of Harald Hanche-Olsen has 210 problems of 2006 to 2026. Each second round from 2006 has ten problems.
 
 - code: se-skolornas
   name: Swedish Mathematical Competition
@@ -3097,6 +3158,19 @@
   sources: [mattetavling, kalva]
   description: The national olympiad of Sweden. Its final has six problems in five hours. Svenska matematikersamfundet has the paper of the final for each year from 2006.
 
+- code: se-skolornas-kval
+  name: Swedish Mathematical Competition, Qualifying Round
+  names: {sv: Skolornas matematiktävling, kvalificeringstävling}
+  group: national
+  level: high-school
+  country: SE
+  url: https://www.mattetavling.se/
+  # Agent decision, not a person's review: the robots.txt of mattetavling.se disallows named AI crawlers, so no paper was fetched and no year has a layout.
+  edition_form: year
+  languages: [sv]
+  sources: [mattetavling]
+  description: The qualifying round of the Swedish olympiad, held in the schools in the autumn. Its papers are on the site of Svenska matematikersamfundet. Its papers were not sampled, so it counts no positions.
+
 - code: fi-mo
   name: Finnish national mathematics olympiad
   group: national
@@ -3104,8 +3178,36 @@
   country: FI
   per_year: 5
   languages: [fi]
-  sources: [kalva]
-  description: The national olympiad of Finland.
+  sources: [kalva, matematiikkakilpailut-fi, maol-fi]
+  description: The national olympiad of Finland, the final of the upper secondary school competition of MAOL. Its first round is fi-mo-r1.
+
+- code: fi-mo-r1
+  name: Finnish Upper Secondary School Mathematics Competition, First Round
+  names: {fi: Lukion matematiikkakilpailu, alkukilpailu}
+  group: national
+  level: high-school
+  country: FI
+  organizer: MAOL
+  url: https://matematiikkakilpailut.fi/MAOL/
+  # Agent decision, not a person's review: the papers are on Google Drive and on maol.fi, whose robots.txt disallows AI crawlers, so no paper was sampled and no year has a layout.
+  edition_form: year
+  languages: [fi, sv]
+  sources: [matematiikkakilpailut-fi, maol-fi]
+  description: The first round of the Finnish upper secondary school competition of MAOL, in a basic and an advanced series. The final of this competition is the national olympiad fi-mo. Its papers were not sampled, so it counts no positions.
+
+- code: fi-peruskoulu
+  name: Finnish Comprehensive School Mathematics Competition
+  names: {fi: Peruskoulun matematiikkakilpailu}
+  group: national
+  level: junior
+  country: FI
+  organizer: MAOL
+  url: https://www.maol.fi/
+  # Agent decision, not a person's review: the papers are on Google Drive and on maol.fi, whose robots.txt disallows AI crawlers, so no paper was sampled and no year has a layout.
+  edition_form: year
+  languages: [fi, sv]
+  sources: [maol-fi]
+  description: The competition of MAOL for grades 7 to 9 of the Finnish comprehensive school, with a first round and a final. MAOL has papers from 2008. Its papers were not sampled, so it counts no positions.
 
 - code: is-mo
   name: Icelandic national mathematics olympiad
@@ -3113,7 +3215,26 @@
   level: high-school
   country: IS
   languages: [is]
-  description: The national olympiad of Iceland. Its archive is not confirmed.
+  sources: [stae-is]
+  description: The final of the Icelandic competition for upper secondary students. The pages stae.is/stak/keppninYYYY have the papers from 1984/85. Its preliminary round is is-mo-pre.
+
+- code: is-mo-pre
+  name: Icelandic Mathematics Competition, Preliminary Round
+  names: {is: Stærðfræðikeppni framhaldsskólanema, forkeppni}
+  group: national
+  level: high-school
+  country: IS
+  url: https://stae.is/stak/
+  first_year: 1984
+  # Agent decision, not a person's review: the pages stae.is/stak/keppninYYYY (read on 2026-11-16) name the round by the calendar year of the autumn round. The papers of 2009 to 2022 come in a lower level (neðra stig) and an upper level (efra stig): the lower papers of 2009, 2012 and 2018 have 22 questions (10, 5, 5 and 2 in four parts), and the upper papers of 2009, 2018 and 2022 have 19 (10, 5 and 4). From 2023 one paper of 19 questions serves both levels (seen for 2023 and 2024). The papers before 2009 were not read, so 1984 to 2008 have no layout. The position of question N is nN on the lower paper and eN on the upper paper.
+  eras:
+    - {from: 1984, to: 2008}
+    - {from: 2009, to: 2022, per_year: 41, layout: [{paper: lower, name: Lower level, positions: [n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11, n12, n13, n14, n15, n16, n17, n18, n19, n20, n21, n22]}, {paper: upper, name: Upper level, positions: [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13, e14, e15, e16, e17, e18, e19]}]}
+    - {from: 2023, per_year: 19}
+  edition_form: year
+  languages: [is]
+  sources: [stae-is]
+  description: The preliminary round of the Icelandic competition for upper secondary students, with a lower and an upper level. The pages stae.is/stak/keppninYYYY have the papers from 1984/85. The papers of 2009 to 2022 have a lower level of 22 questions and an upper level of 19, and from 2023 one paper of 19; 1984 to 2008 have no layout.
 
 - code: ee-mo
   name: Estonian Mathematical Olympiad
@@ -3126,13 +3247,81 @@
   sources: [olympiaadid-ut]
   description: The national olympiad of Estonia. English booklets with solutions are published.
 
+- code: ee-mo-reg
+  name: Estonian Mathematical Olympiad, Regional Round
+  names: {et: Matemaatikaolümpiaadi piirkonnavoor}
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: EE
+  url: https://teaduskool.ut.ee/et/matemaatikaolumpiaadi-arhiiv
+  # Agent decision, not a person's review: teaduskool.ut.ee answered every request with a Cloudflare challenge on 2026-11-16, so no paper was seen and no year has a layout.
+  edition_form: year
+  official_solutions: true
+  languages: [et]
+  sources: [teaduskool-ut, olympiaadid-ut]
+  description: The regional round of the Estonian olympiad, with a paper for each grade. The archive of the UT Science School has the papers from 2013/14. The shape is not checked yet, so it counts no positions.
+
+- code: ee-open
+  name: Estonian Open Mathematics Contest
+  names: {et: Lahtine matemaatikavõistlus}
+  group: national
+  level: high-school
+  country: EE
+  url: https://teaduskool.ut.ee/et/olumpiaadid/lahtised/matemaatika/arhiiv
+  # Agent decision, not a person's review: teaduskool.ut.ee answered every request with a Cloudflare challenge on 2026-11-16, so no paper was seen and no year has a layout.
+  edition_form: year
+  official_solutions: true
+  languages: [et, en]
+  sources: [teaduskool-ut, olympiaadid-ut, hf-mathnet, hf-ai-mo-aops]
+  description: The open contests of the UT Science School, held in the autumn and the winter with a junior and a senior paper. The archive has the papers from about 2004, and the English booklets of the Estonian olympiad select problems from them. The shape is not checked yet, so it counts no positions.
+
+- code: ee-tst
+  name: Estonian IMO Team Selection Contest
+  group: national
+  level: high-school
+  country: EE
+  # Agent decision, not a person's review: teaduskool.ut.ee answered every request with a Cloudflare challenge on 2026-11-16, so no paper was seen and no year has a layout.
+  edition_form: year
+  official_solutions: true
+  languages: [et, en]
+  sources: [olympiaadid-ut, hf-mathnet]
+  description: The selection contest of Estonia for the IMO, in one or two parts. The English booklets of the Estonian olympiad hold it. The shape is not checked yet, so it counts no positions.
+
 - code: lv-mo
   name: Latvian Mathematical Olympiad
   group: national
   level: high-school
   country: LV
   languages: [lv]
-  description: The national olympiad of Latvia. Its archive is not confirmed.
+  sources: [nms-lu-lv]
+  description: The national olympiad of Latvia. The archive of the NMS of the University of Latvia has the papers. The open olympiad is lv-amo and the selection test is lv-tst.
+
+- code: lv-amo
+  name: Latvian Open Mathematical Olympiad
+  names: {lv: Atklātā matemātikas olimpiāde}
+  group: national
+  level: high-school
+  levels: [elementary, junior, high-school]
+  country: LV
+  organizer: University of Latvia, A. Liepa Correspondence Mathematics School (NMS)
+  url: https://nms.lu.lv/arhivs-un-materali/uzdevumu-arhivs/
+  # Agent decision, not a person's review: the NMS archive (read on 2026-11-16) has files for each olympiad from the 1st, a paper for each grade group; 2022 has a spring and an autumn olympiad, so the year of an edition is not settled and no year has a layout.
+  edition_form: year
+  languages: [lv]
+  sources: [nms-lu-lv]
+  description: The open olympiad of the University of Latvia for grades 5 to 12. The NMS archive has the papers. The year of an edition is not settled (2022 had two olympiads), so it counts no positions.
+
+- code: lv-tst
+  name: Latvian Team Selection Test
+  group: national
+  level: high-school
+  country: LV
+  # Agent decision, not a person's review: no official archive was found, so no year has a layout.
+  edition_form: year
+  languages: [lv, en]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: The tests that choose the Latvian teams for the Baltic Way and the IMO. No official archive was found, and the shape is not known, so it counts no positions.
 
 - code: lt-mo
   name: Lithuanian Mathematical Olympiad
@@ -3153,6 +3342,29 @@
   languages: [lt]
   sources: [vu-mif-lmmo]
   description: The national olympiad of Lithuania, held since 1952. Its national round has one paper for grades 9 and 10 and one paper for grades 11 and 12. The VU MIF page has the papers, the solutions and the results from 2003.
+
+- code: lt-tst
+  name: Lithuanian Team Selection Test
+  group: national
+  level: high-school
+  country: LT
+  # Agent decision, not a person's review: no official archive was found, so no year has a layout.
+  edition_form: year
+  languages: [lt, en]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: The tests that choose the Lithuanian team for the IMO. No official archive was found, and the shape is not known, so it counts no positions.
+
+- code: lt-vumif
+  name: VU MIF Mathematics Olympiad
+  group: national
+  level: high-school
+  country: LT
+  organizer: Vilnius University, Faculty of Mathematics and Informatics
+  # Agent decision, not a person's review: no official archive was found, so no year has a layout.
+  edition_form: year
+  languages: [lt]
+  sources: [hf-ai-mo-aops]
+  description: A mathematics olympiad of the Faculty of Mathematics and Informatics of Vilnius University for secondary students. No official archive was confirmed, and the shape is not known, so it counts no positions.
 
 - code: gr-hms
   name: Greek Mathematical Olympiad

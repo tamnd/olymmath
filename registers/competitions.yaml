@@ -526,6 +526,45 @@
   languages: [en]
   description: A team match of four Central European countries. Its first year and its archive are not confirmed.
 
+- code: cps-junior
+  name: Czech-Polish-Slovak Junior Match
+  short: CPSJ
+  group: international
+  level: junior
+  # Agent decision, not a person's review: no official archive was found, so no year has a layout.
+  edition_form: year
+  languages: [en, cs, pl, sk]
+  sources: [hf-ai-mo-aops, aops-collections]
+  description: The junior match of Czechia, Poland and Slovakia (with guest teams), with an individual and a team competition. It was not held in 2020. No official archive was found; the AoPS collections hold the problems. The shape is not checked yet, so it counts no positions.
+
+- code: naboj
+  name: Náboj
+  group: international
+  level: high-school
+  country: SK
+  organizer: Trojsten and partners
+  url: https://math.naboj.org/
+  # Agent decision, not a person's review: the number of problems of a Náboj set changes by year, so no year has a layout.
+  edition_form: year
+  official_solutions: true
+  languages: [en, sk, cs, pl, de, hu]
+  sources: [naboj]
+  description: An international team competition for secondary schools, with about 50 answer problems in 120 minutes, held on one day in many cities. The old archive of naboj.org has the problems and solutions of each year from 2011. The shape is not checked yet, so it counts no positions.
+
+- code: naboj-junior
+  name: Náboj Junior
+  group: international
+  level: junior
+  country: SK
+  organizer: Trojsten and partners
+  url: https://junior.naboj.org/
+  # Agent decision, not a person's review: the number of problems of a Náboj set changes by year, so no year has a layout.
+  edition_form: year
+  official_solutions: true
+  languages: [en, sk, cs, pl, de, hu]
+  sources: [naboj]
+  description: The junior team competition of Náboj for lower secondary schools. The old archive of naboj.org has the solutions of each year. The 2020 competition was cancelled. The shape is not checked yet, so it counts no positions.
+
 - code: kurschak
   name: Kürschák Competition
   names: {hu: Kürschák József Matematikai Tanulóverseny}
@@ -539,6 +578,16 @@
   copyright: The books are copyrighted.
   sources: [komal]
   description: The Hungarian competition of three problems, called the Eötvös competition until 1938. The Hungarian Problem Book series holds the problems with solutions.
+
+- code: hungary-israel
+  name: Hungary-Israel Binational Mathematical Competition
+  group: international
+  level: high-school
+  # Agent decision, not a person's review: no official archive was found, so no year has a layout.
+  edition_form: year
+  languages: [en, hu, he]
+  sources: [hf-omni-math]
+  description: A binational competition of Hungary and Israel, held in the 1990s and 2000s. No official archive was found, and the shape is not known, so it counts no positions.
 
 - code: francophone
   name: Olympiade Francophone de Mathématiques
@@ -3434,6 +3483,43 @@
   sources: [om-sem, archom, imomath, hf-mathnet]
   description: The Polish olympiad in three rounds, first held in 1949/50. The site om.sem.edu.pl has the papers of the 47th to the 77th olympiads. The archive of the Polish Mathematical Society (archom) has the problems of the final round of the 2nd to the 46th olympiads on HTML pages.
 
+- code: pl-om-r1
+  name: Polish Mathematical Olympiad, First Round
+  names: {pl: Olimpiada Matematyczna, zawody I stopnia}
+  group: national
+  level: high-school
+  country: PL
+  url: https://om.sem.edu.pl/problems/
+  first_year: 1950
+  # Agent decision, not a person's review: the year is the end year of the school year, as in pl-om (the 71st olympiad, 2019/20, is 2020). The official page says that until 2025 the first round had three series of four problems, and the papers of the 47th (1996), 60th (2009) and 77th (2026) olympiads have 12 problems. The papers before the 47th olympiad were not checked for each year, so 1950 to 1995 have no layout. From the 78th olympiad (2027) the first round has a test part and an open part whose size is not known yet, so 2027 on has no layout.
+  eras:
+    - {from: 1950, to: 1995}
+    - {from: 1996, to: 2026, per_year: 12}
+    - {from: 2027}
+  edition_form: year
+  official_solutions: true
+  languages: [pl]
+  sources: [om-sem, archom]
+  description: The first round of the Polish olympiad, a home round of several weeks. om.sem.edu.pl has the papers from the 47th olympiad and archom has the problems of earlier olympiads. The first rounds of 1996 to 2026 have 12 problems; the other years have no layout.
+
+- code: pl-om-r2
+  name: Polish Mathematical Olympiad, Second Round
+  names: {pl: Olimpiada Matematyczna, zawody II stopnia}
+  group: national
+  level: high-school
+  country: PL
+  url: https://om.sem.edu.pl/problems/
+  first_year: 1950
+  # Agent decision, not a person's review: the year is the end year of the school year, as in pl-om. The papers of the 47th (1996), 60th (2009), 71st (2020) and 77th (2026) olympiads have two days of three problems, numbered 1 to 6. The papers before the 47th olympiad were not checked for each year, so 1950 to 1995 have no layout.
+  eras:
+    - {from: 1950, to: 1995}
+    - {from: 1996, per_year: 6, layout: [{paper: day1, name: Day 1, positions: [p1, p2, p3]}, {paper: day2, name: Day 2, positions: [p4, p5, p6]}]}
+  edition_form: year
+  official_solutions: true
+  languages: [pl]
+  sources: [om-sem, archom]
+  description: The second round of the Polish olympiad, held over two days in regional centres. om.sem.edu.pl has the papers from the 47th olympiad and archom has the problems of earlier olympiads. The second rounds from 1996 have two days of three problems; 1950 to 1995 have no layout.
+
 - code: pl-omj
   name: Polish Junior Mathematical Olympiad
   short: OMJ
@@ -3442,11 +3528,53 @@
   level: junior
   country: PL
   url: https://omj.edu.pl/zadania
+  first_year: 2006
+  # Agent decision, not a person's review: the year is the end year of the school year (the 1st olympiad, 2005/06, is 2006; the file 3etap22 is the XVII olympiad, 2022). omj.edu.pl (read on 2026-11-16) lists the finals of 2010 to 2026 with none for 2020, when the final was not held; the finals of 2014, 2022 and 2026 have five problems. The finals of 2006 to 2009 are not on that list, so those years have no layout.
+  gaps: [2020]
+  eras:
+    - {from: 2006, to: 2009}
+    - {from: 2010, per_year: 5}
   edition_form: year
   official_solutions: true
   languages: [pl]
   sources: [omj]
-  description: The junior olympiad of Poland.
+  description: The final round of the junior olympiad of Poland (OMG to the 14th edition, OMJ after). The earlier rounds are pl-omj-r1 and pl-omj-r2. omj.edu.pl has the papers of all editions. Each final from 2010 has five problems; the final of 2020 was not held, and 2006 to 2009 have no layout.
+
+- code: pl-omj-r1
+  name: Polish Junior Mathematical Olympiad, First Round
+  names: {pl: Olimpiada Matematyczna Juniorów, zawody I stopnia}
+  group: national
+  level: junior
+  country: PL
+  url: https://omj.edu.pl/zadania
+  first_year: 2006
+  # Agent decision, not a person's review: the year is the end year of the school year (the 1st olympiad, 2005/06, is 2006). The papers of the 1st to 6th olympiads (2006 to 2011) have seven correspondence problems (seen for the 1st, 2nd, 3rd, 4th and 6th). From the 7th olympiad (2012) the first round has a test of 15 questions and a part of seven written problems (seen for 2012, 2015, 2017, 2019, 2025 and 2026). The position of test question N is tN and of written problem N is pN.
+  eras:
+    - {from: 2006, to: 2011, per_year: 7}
+    - {from: 2012, per_year: 22, layout: [{paper: test, name: Test, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15]}, {paper: problems, name: Problems, positions: [p1, p2, p3, p4, p5, p6, p7]}]}
+  edition_form: year
+  official_solutions: true
+  languages: [pl]
+  sources: [omj]
+  description: The first round of the junior olympiad of Poland (OMG to the 14th edition, OMJ after), with a test part and a part of written problems. omj.edu.pl has the papers of all editions with solutions. The first rounds of 2006 to 2011 have seven problems, and from 2012 a test of 15 questions and seven problems.
+
+- code: pl-omj-r2
+  name: Polish Junior Mathematical Olympiad, Second Round
+  names: {pl: Olimpiada Matematyczna Juniorów, zawody II stopnia}
+  group: national
+  level: junior
+  country: PL
+  url: https://omj.edu.pl/zadania
+  first_year: 2006
+  # Agent decision, not a person's review: the year is the end year of the school year. The paper of the 1st olympiad (2006) has four problems and the papers of 2007 to 2026 have five (seen for 2007 to 2011, 2013, 2020, 2025 and 2026).
+  eras:
+    - {from: 2006, to: 2006, per_year: 4}
+    - {from: 2007, per_year: 5}
+  edition_form: year
+  official_solutions: true
+  languages: [pl]
+  sources: [omj]
+  description: The second round of the junior olympiad of Poland. omj.edu.pl has the papers of all editions with solutions. The second round of 2006 has four problems and the later ones five.
 
 - code: cz-sk-mo
   name: Czech-Slovak Mathematical Olympiad
@@ -3462,8 +3590,73 @@
   official_solutions: true
   languages: [cs, sk, en]
   copyright: The DML-CZ terms apply to the yearly reports.
-  sources: [matematickaolympiada]
-  description: The joint olympiad of the Czech Republic and Slovakia in categories A, B, C and Z, first held in 1951/52. English booklets exist for 2007 to 2023.
+  sources: [mo-cz, skmo]
+  description: The joint olympiad of the Czech Republic and Slovakia in categories A, B, C and Z, first held in 1951/52. English booklets exist for 2007 to 2023. The edition holds the final round of category A. The earlier rounds are cz-sk-mo-r1 and cz-sk-mo-r2, and categories Z5 to Z9 are cz-sk-mo-z.
+
+- code: cz-sk-mo-r1
+  name: Czech-Slovak Mathematical Olympiad, First Round
+  names: {cs: Matematická olympiáda, domácí a školní kolo}
+  group: national
+  level: high-school
+  url: https://www.matematickaolympiada.cz/
+  first_year: 1952
+  # Agent decision, not a person's review: the year is the end year of the school year, as in cz-sk-mo (the 74th olympiad, 2024/25, is 2025). The pages matematickaolympiada.cz/mo-pro-ss/rocnik/NN-rocnik (read on 2026-11-16) have the papers from the 43rd olympiad. The home round has six problems in each of categories A, B and C (seen for the 60th, 68th and 74th olympiads), and the school round three (seen for the 52nd, 60th and 74th). The home paper of the 52nd olympiad is not readable as text, so the layout starts with the 60th (2011). The position is haN, hbN and hcN for the home round and saN, sbN and scN for the school round.
+  eras:
+    - {from: 1952, to: 2010}
+    - {from: 2011, per_year: 27, layout: [{paper: home-a, name: Home A, positions: [ha1, ha2, ha3, ha4, ha5, ha6]}, {paper: home-b, name: Home B, positions: [hb1, hb2, hb3, hb4, hb5, hb6]}, {paper: home-c, name: Home C, positions: [hc1, hc2, hc3, hc4, hc5, hc6]}, {paper: school-a, name: School A, positions: [sa1, sa2, sa3]}, {paper: school-b, name: School B, positions: [sb1, sb2, sb3]}, {paper: school-c, name: School C, positions: [sc1, sc2, sc3]}]}
+  edition_form: year
+  official_solutions: true
+  languages: [cs, sk, en]
+  sources: [mo-cz, skmo, hf-mathnet]
+  description: The first round of categories A, B and C of the Czech and Slovak olympiad, a home part and a school part. From 2011 the home round has six problems and the school round three in each of categories A, B and C; the years before have no layout.
+
+- code: cz-sk-mo-r2
+  name: Czech-Slovak Mathematical Olympiad, Regional Round
+  names: {cs: Matematická olympiáda, krajské kolo}
+  group: national
+  level: high-school
+  url: https://www.matematickaolympiada.cz/
+  first_year: 1952
+  # Agent decision, not a person's review: the year is the end year of the school year, as in cz-sk-mo. The regional round has four problems in each of categories A, B and C, seen for the 52nd (2003), 60th (2011) and 74th (2025) olympiads. The papers before the 52nd olympiad were not checked, so 1952 to 2002 have no layout. The position of problem N is aN, bN or cN by category.
+  eras:
+    - {from: 1952, to: 2002}
+    - {from: 2003, per_year: 12, layout: [{paper: a, name: Category A, positions: [a1, a2, a3, a4]}, {paper: b, name: Category B, positions: [b1, b2, b3, b4]}, {paper: c, name: Category C, positions: [c1, c2, c3, c4]}]}
+  edition_form: year
+  official_solutions: true
+  languages: [cs, sk, en]
+  sources: [mo-cz, skmo, hf-mathnet]
+  description: The second (regional) round of categories A, B and C of the Czech and Slovak olympiad. The final round of category A is cz-sk-mo. From 2003 the regional round has four problems in each of categories A, B and C; the years before have no layout.
+
+- code: cz-sk-mo-z
+  name: Czech-Slovak Mathematical Olympiad, Category Z
+  names: {cs: Matematická olympiáda, kategorie Z5 až Z9}
+  group: national
+  level: junior
+  levels: [elementary, junior]
+  url: https://www.matematickaolympiada.cz/
+  first_year: 2019
+  # Agent decision, not a person's review: the year is the end year of the school year. The pages matematickaolympiada.cz/mo-pro-zs/rocnik/NN-rocnik (read on 2026-11-16) start with the 68th olympiad (2019), which is the first year counted. The papers of the 68th, 71st and 74th olympiads have a home round of six problems for each of Z5 to Z9, a district round of three problems for Z5 to Z8 and four for Z9, and a regional round of four problems for Z9. From the 73rd olympiad (2024) Z9 also has a national round of four problems. The position is hGN for the home round, dGN for the district round, r9N for the regional round and n9N for the national round, where G is the grade and N the problem.
+  eras:
+    - {from: 2019, to: 2023, per_year: 50, layout: [{paper: home-z5, name: Home Z5, positions: [h51, h52, h53, h54, h55, h56], level: elementary}, {paper: home-z6, name: Home Z6, positions: [h61, h62, h63, h64, h65, h66], level: junior}, {paper: home-z7, name: Home Z7, positions: [h71, h72, h73, h74, h75, h76], level: junior}, {paper: home-z8, name: Home Z8, positions: [h81, h82, h83, h84, h85, h86], level: junior}, {paper: home-z9, name: Home Z9, positions: [h91, h92, h93, h94, h95, h96], level: junior}, {paper: district-z5, name: District Z5, positions: [d51, d52, d53], level: elementary}, {paper: district-z6, name: District Z6, positions: [d61, d62, d63], level: junior}, {paper: district-z7, name: District Z7, positions: [d71, d72, d73], level: junior}, {paper: district-z8, name: District Z8, positions: [d81, d82, d83], level: junior}, {paper: district-z9, name: District Z9, positions: [d91, d92, d93, d94], level: junior}, {paper: regional-z9, name: Regional Z9, positions: [r91, r92, r93, r94], level: junior}]}
+    - {from: 2024, per_year: 54, layout: [{paper: home-z5, name: Home Z5, positions: [h51, h52, h53, h54, h55, h56], level: elementary}, {paper: home-z6, name: Home Z6, positions: [h61, h62, h63, h64, h65, h66], level: junior}, {paper: home-z7, name: Home Z7, positions: [h71, h72, h73, h74, h75, h76], level: junior}, {paper: home-z8, name: Home Z8, positions: [h81, h82, h83, h84, h85, h86], level: junior}, {paper: home-z9, name: Home Z9, positions: [h91, h92, h93, h94, h95, h96], level: junior}, {paper: district-z5, name: District Z5, positions: [d51, d52, d53], level: elementary}, {paper: district-z6, name: District Z6, positions: [d61, d62, d63], level: junior}, {paper: district-z7, name: District Z7, positions: [d71, d72, d73], level: junior}, {paper: district-z8, name: District Z8, positions: [d81, d82, d83], level: junior}, {paper: district-z9, name: District Z9, positions: [d91, d92, d93, d94], level: junior}, {paper: regional-z9, name: Regional Z9, positions: [r91, r92, r93, r94], level: junior}, {paper: national-z9, name: National Z9, positions: [n91, n92, n93, n94], level: junior}]}
+  edition_form: year
+  official_solutions: true
+  languages: [cs, sk]
+  sources: [mo-cz, skmo]
+  description: Categories Z5 to Z9 of the Czech and Slovak olympiad, for grades 5 to 9, with a home round and a district round, and a regional round for Z9. Each year from 2019 has a home round of six problems for each of Z5 to Z9, a district round, and a regional round for Z9, and from 2024 a national round for Z9.
+
+- code: cz-pythagoriada
+  name: Pythagoriáda
+  group: national
+  level: junior
+  levels: [elementary, junior]
+  country: CZ
+  url: https://www.pythagoriada.cz/
+  # Agent decision, not a person's review: the archive of pythagoriada.cz (read on 2026-11-16) has the school and district papers of 2015 to 2025 with 15 questions for each grade, but the grades changed (5 to 8 in the papers of 2017 and 2019, 6 to 9 in those of 2023/24) and the year of a file is not always clear, so no year has a layout.
+  edition_form: year
+  languages: [cs]
+  sources: [pythagoriada]
+  description: A Czech competition for grades 5 to 8 with a school round and a district round. Its site has an archive of papers. The grades and the year of a file change, so it counts no positions.
 
 - code: hu-oktv
   name: Hungarian National Secondary School Competition
@@ -3482,6 +3675,48 @@
   languages: [hu]
   sources: [oktatas-oktv]
   description: The Hungarian national competition in three categories and three rounds. The papers from 2004/05 are online with marking guides.
+
+- code: hu-arany
+  name: Arany Dániel Mathematics Competition
+  names: {hu: Arany Dániel Matematikai Tanulóverseny}
+  group: national
+  level: high-school
+  country: HU
+  organizer: Bolyai János Matematikai Társulat
+  url: https://www.bolyai.hu/
+  # Agent decision, not a person's review: the categories and rounds were not read for each year, so no year has a layout.
+  edition_form: year
+  official_solutions: true
+  languages: [hu]
+  sources: [bolyai-hu, matek-fazekas]
+  description: The competition of the Bolyai Society for the first years of secondary school, in categories for beginners and advanced students, with three rounds. The society publishes papers with solutions as AD_YYYY_feladatok_megoldasok.pdf, and matek.fazekas.hu has 2011/12 to 2025/26. The shape is not checked yet, so it counts no positions.
+
+- code: hu-durer
+  name: Dürer Mathematics Competition
+  names: {hu: Dürer Verseny}
+  group: national
+  level: high-school
+  levels: [elementary, junior, high-school]
+  country: HU
+  url: https://durerinfo.hu/
+  # Agent decision, not a person's review: the robots.txt of durerinfo.hu sets ai-train=no, so no paper was sampled and no year has a layout.
+  edition_form: year
+  official_solutions: true
+  languages: [hu, en]
+  sources: [durerinfo, hf-ai-mo-aops, hf-aops-wiki]
+  description: A team competition for grades 3 to 12 in several categories, with an online first round and a final. The Dürer site has an archive of the papers. Its robots.txt sets ai-train=no. The shape is not checked yet, so it counts no positions.
+
+- code: hu-zrinyi
+  name: Zrínyi Ilona Mathematics Competition
+  names: {hu: Zrínyi Ilona Matematikaverseny}
+  group: national
+  level: junior
+  levels: [elementary, junior]
+  country: HU
+  # Agent decision, not a person's review: no official archive was found, so no year has a layout.
+  edition_form: year
+  languages: [hu]
+  description: A multiple choice competition for grades 2 to 8 with a county round and a national final. No official archive was found, only teacher sites and the MATEGYE books of 1992 to 2000. The shape is not known, so it counts no positions.
 
 - code: hu-komal
   name: KöMaL Problem Contests
@@ -3564,8 +3799,102 @@
   group: national
   level: high-school
   country: HR
-  sources: [aops-collections, imogeometry-blog]
-  description: The national olympiad of Croatia. No primary source has been found yet.
+  url: https://natjecanja.math.hr/hmo/
+  sources: [natjecanja-math-hr, aops-collections, imogeometry-blog]
+  description: The national olympiad of Croatia (HMO). The site of the Croatian Mathematical Society has its papers. The junior olympiad is hr-jmo, the olympiad for girls hr-girls, the selection tests hr-tst, and the school rounds hr-city, hr-county and hr-state.
+
+- code: hr-jmo
+  name: Croatian Junior Mathematical Olympiad
+  short: HJMO
+  group: national
+  level: junior
+  country: HR
+  url: https://natjecanja.math.hr/hjmo/
+  first_year: 2017
+  # Agent decision, not a person's review: natjecanja.math.hr (read on 2026-11-16) has the papers from the 1st junior olympiad (2017). The papers of 2017, 2018, 2019, 2021 and 2022 have four problems, and those of 2020 and 2023 to 2026 two days of four problems. The position is pN for one paper and aN and bN for the two days.
+  eras:
+    - {from: 2017, to: 2019, per_year: 4}
+    - {from: 2020, to: 2020, per_year: 8, layout: [{paper: day1, name: Day 1, positions: [a1, a2, a3, a4]}, {paper: day2, name: Day 2, positions: [b1, b2, b3, b4]}]}
+    - {from: 2021, to: 2022, per_year: 4}
+    - {from: 2023, per_year: 8, layout: [{paper: day1, name: Day 1, positions: [a1, a2, a3, a4]}, {paper: day2, name: Day 2, positions: [b1, b2, b3, b4]}]}
+  edition_form: year
+  languages: [hr]
+  sources: [natjecanja-math-hr, hf-mathnet, hf-ai-mo-aops]
+  description: The junior olympiad of Croatia, which chooses the team for the JBMO. Each paper has four problems, or two days of four in 2020 and from 2023.
+
+- code: hr-girls
+  name: Croatian Mathematical Olympiad for Girls
+  short: HMOD
+  group: national
+  level: high-school
+  country: HR
+  url: https://natjecanja.math.hr/hmod/
+  first_year: 2020
+  # Agent decision, not a person's review: natjecanja.math.hr (read on 2026-11-16) has the papers from the 1st olympiad for girls (2020). The papers of 2020, 2021 and 2022 have four problems, and those of 2023 to 2026 two days of four problems. The position is pN for one paper and aN and bN for the two days.
+  eras:
+    - {from: 2020, to: 2022, per_year: 4}
+    - {from: 2023, per_year: 8, layout: [{paper: day1, name: Day 1, positions: [a1, a2, a3, a4]}, {paper: day2, name: Day 2, positions: [b1, b2, b3, b4]}]}
+  edition_form: year
+  languages: [hr]
+  sources: [natjecanja-math-hr, hf-ai-mo-aops]
+  description: The olympiad of Croatia for girls, which chooses the team for the EGMO. Each paper has four problems, or two days of four from 2023.
+
+- code: hr-tst
+  name: Croatian Team Selection Test
+  group: national
+  level: high-school
+  country: HR
+  url: https://natjecanja.math.hr/izborna-natjecanja-i-olimpijade/
+  # Agent decision, not a person's review: the selection tests were not read for each year, so no year has a layout.
+  edition_form: year
+  languages: [hr]
+  sources: [natjecanja-math-hr]
+  description: The tests that choose the Croatian IMO team. The shape is not checked yet, so it counts no positions.
+
+- code: hr-state
+  name: Croatian State Mathematics Competition
+  names: {hr: Državno natjecanje iz matematike}
+  group: national
+  level: high-school
+  levels: [elementary, junior, high-school]
+  country: HR
+  url: https://natjecanja.math.hr/arhiva-domacih-natjecanja/
+  # Agent decision, not a person's review: the papers for each grade and variant were not read for each year, so no year has a layout.
+  edition_form: year
+  official_solutions: true
+  languages: [hr]
+  sources: [natjecanja-math-hr]
+  description: The state round of the Croatian school competitions, for grades 4 to 8 of primary school and the four grades of secondary school, with an A variant for gymnasiums and a B variant for other schools. The archive of the Croatian Mathematical Society has the papers. The papers of the grades are not laid out yet, so it counts no positions.
+
+- code: hr-county
+  name: Croatian County Mathematics Competition
+  names: {hr: Županijsko natjecanje iz matematike}
+  group: national
+  level: high-school
+  levels: [elementary, junior, high-school]
+  country: HR
+  url: https://natjecanja.math.hr/arhiva-domacih-natjecanja/
+  # Agent decision, not a person's review: the papers for each grade and variant were not read for each year, so no year has a layout.
+  edition_form: year
+  official_solutions: true
+  languages: [hr]
+  sources: [natjecanja-math-hr]
+  description: The county round of the Croatian school competitions, with a paper for each grade and variant. The papers of the grades are not laid out yet, so it counts no positions.
+
+- code: hr-city
+  name: Croatian School and City Mathematics Competition
+  names: {hr: Školsko/gradsko natjecanje iz matematike}
+  group: national
+  level: high-school
+  levels: [elementary, junior, high-school]
+  country: HR
+  url: https://natjecanja.math.hr/arhiva-domacih-natjecanja/
+  # Agent decision, not a person's review: the papers for each grade and variant were not read for each year, so no year has a layout.
+  edition_form: year
+  official_solutions: true
+  languages: [hr]
+  sources: [natjecanja-math-hr, hf-mathnet]
+  description: The first round (school or city round) of the Croatian school competitions, with a paper for each grade and variant. The papers of the grades are not laid out yet, so it counts no positions.
 
 - code: si-mo
   name: Slovenia national mathematics olympiad
@@ -3583,6 +3912,74 @@
     - {from: 2021, to: 2025, per_year: 24, layout: [{paper: grade1, name: Grade 1, positions: [a11, a12, a13, b11, b12, b13]}, {paper: grade2, name: Grade 2, positions: [a21, a22, a23, b21, b22, b23]}, {paper: grade3, name: Grade 3, positions: [a31, a32, a33, b31, b32, b33]}, {paper: grade4, name: Grade 4, positions: [a41, a42, a43, b41, b42, b43]}]}
   sources: [dmfa-massa, aops-collections, imogeometry-blog, hf-mathnet]
   description: The national olympiad of Slovenia for the four grades of high school. The DMFA links the papers of the national round from 2001 on its archive page, but its terms do not allow publication on other sites, so the records link to the papers.
+
+- code: si-mo-qual
+  name: Slovenia national mathematics olympiad, Qualifying Round
+  names: {sl: Matematično tekmovanje srednješolcev Slovenije, odbirno tekmovanje}
+  group: national
+  level: high-school
+  country: SI
+  organizer: Society of Mathematicians, Physicists and Astronomers of Slovenia (DMFA)
+  url: https://www.dmfa.si/Tekmovanja/MaSSA/ArhivNalog.aspx
+  # Agent decision, not a person's review: the DMFA papers have a paper for each grade, with parts whose size changes (the national round of the technical schools has four problems for each grade in 2015, and a multiple choice part A and a part B in 2024), so no year has a layout.
+  edition_form: year
+  languages: [sl]
+  sources: [dmfa-massa, hf-mathnet]
+  description: The qualifying round (Odbirno) of the Slovenian olympiad, which the DMFA archive has for 2017 to 2025, and the regional round (Področno) of the years before. The DMFA terms do not allow publication on other sites, so it is link-only. The shape is not checked yet, so it counts no positions.
+
+- code: si-tst
+  name: Slovenian Team Selection Test
+  group: national
+  level: high-school
+  country: SI
+  # Agent decision, not a person's review: no official archive was found, so no year has a layout.
+  edition_form: year
+  languages: [sl, en]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: The tests that choose the Slovenian IMO team. No official archive was found, and the shape is not known, so it counts no positions.
+
+- code: si-tech
+  name: Slovenian Competition for Technical and Vocational Schools
+  names: {sl: Tekmovanje v znanju matematike za dijake srednjih tehniških in strokovnih šol, državno tekmovanje}
+  group: national
+  level: high-school
+  country: SI
+  organizer: Society of Mathematicians, Physicists and Astronomers of Slovenia (DMFA)
+  url: https://www.dmfa.si/Tekmovanja/MaSSB/ArhivNalog.aspx
+  # Agent decision, not a person's review: the DMFA papers have a paper for each grade, with parts whose size changes (the national round of the technical schools has four problems for each grade in 2015, and a multiple choice part A and a part B in 2024), so no year has a layout.
+  edition_form: year
+  languages: [sl]
+  sources: [dmfa-massb, hf-mathnet]
+  description: The national round (Državno) of the DMFA competition for the technical and vocational secondary schools, with a paper for each grade. The DMFA terms do not allow publication on other sites, so it is link-only. The shape is not checked yet, so it counts no positions.
+
+- code: si-tech-qual
+  name: Slovenian Competition for Technical and Vocational Schools, Qualifying Round
+  names: {sl: Tekmovanje v znanju matematike za dijake srednjih tehniških in strokovnih šol, odbirno tekmovanje}
+  group: national
+  level: high-school
+  country: SI
+  organizer: Society of Mathematicians, Physicists and Astronomers of Slovenia (DMFA)
+  url: https://www.dmfa.si/Tekmovanja/MaSSB/ArhivNalog.aspx
+  # Agent decision, not a person's review: the DMFA papers have a paper for each grade, with parts whose size changes (the national round of the technical schools has four problems for each grade in 2015, and a multiple choice part A and a part B in 2024), so no year has a layout.
+  edition_form: year
+  languages: [sl]
+  sources: [dmfa-massb, hf-mathnet]
+  description: The qualifying round (Odbirno) of the DMFA competition for the technical and vocational secondary schools. The DMFA terms do not allow publication on other sites, so it is link-only. The shape is not checked yet, so it counts no positions.
+
+- code: si-vega
+  name: Slovenian Primary School Mathematics Competition (Vega)
+  names: {sl: Tekmovanje iz matematike za Vegovo priznanje}
+  group: national
+  level: junior
+  levels: [elementary, junior]
+  country: SI
+  organizer: Society of Mathematicians, Physicists and Astronomers of Slovenia (DMFA)
+  url: https://repozitorij.dmfa.si/naloge
+  # Agent decision, not a person's review: the DMFA papers have a paper for each grade, with parts whose size changes (the national round of the technical schools has four problems for each grade in 2015, and a multiple choice part A and a part B in 2024), so no year has a layout.
+  edition_form: year
+  languages: [sl]
+  sources: [dmfa-repozitorij]
+  description: The DMFA competition for primary school pupils (Vegovo priznanje), with a school round and a national round for each grade. The DMFA repository holds the papers. The DMFA terms are taken as the terms of the MaSSA papers, so it is link-only. The papers of the grades are not laid out yet, so it counts no positions.
 
 - code: ba-mo
   name: Bosnia and Herzegovina national mathematics olympiad

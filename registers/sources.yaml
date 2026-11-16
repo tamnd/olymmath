@@ -2432,7 +2432,7 @@
   state: active
   notes: "The page of secondary school competitions links one PDF for each round and year under /wp-content/uploads/. For the ММО the file of 2024 holds the problems only, and the other files hold the problems with solutions and the points. The robots.txt of smm.org.mk disallows only /wp-admin/ (checked on 2026-11-13). The old site old.smm.org.mk serves an empty page, so the papers before 2020 are not on the site."
 
-# Census of Western, Northern and Central Europe (2026-11-16), the United Kingdom, Ireland, France and the Benelux; Germany, Austria, Switzerland, Italy, Spain and Portugal; the Nordic and Baltic countries: official and curated archives of the national rounds, junior olympiads and regional contests.
+# Census of Western, Northern and Central Europe (2026-11-16), the United Kingdom, Ireland, France and the Benelux; Germany, Austria, Switzerland, Italy, Spain and Portugal; the Nordic and Baltic countries; Poland, Czechia, Slovakia, Hungary, Slovenia and Croatia: official and curated archives of the national rounds, junior olympiads and regional contests.
 - id: ukmt-free
   name: UKMT free past papers
   kind: official
@@ -2723,3 +2723,147 @@
   wave: 2
   state: planned
   notes: The robots.txt of nms.lu.lv (read on 2026-11-16) disallows only print and staff paths, with no rule for AI crawlers.
+
+- id: skmo
+  name: Slovak Mathematical Olympiad (SKMO)
+  kind: official
+  origin: H1
+  url: https://skmo.sk/
+  access: pdf
+  terms: "No licence stated. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: the papers of all categories and rounds of recent years; a full archive of the 75 years of categories A, B and C is at ics.upjs.sk/~krajci/mo/archiv/
+  wave: 2
+  state: planned
+  notes: The site has no robots.txt (404 on 2026-11-16). The papers are at skmo.sk/dokument.php?id=NNN. The archive host ics.upjs.sk did not answer from the census machine, so its robots.txt is not read.
+
+- id: pythagoriada
+  name: Pythagoriáda
+  kind: official
+  origin: H1
+  url: https://www.pythagoriada.cz/
+  access: pdf
+  terms: "No licence stated. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: not counted
+  wave: 3
+  state: planned
+  notes: The robots.txt of www.pythagoriada.cz (read on 2026-11-16) has an empty Disallow line, so all paths are allowed.
+
+- id: naboj
+  name: Náboj
+  kind: official
+  origin: H1
+  url: https://math.naboj.org/
+  access: pdf
+  terms: "No licence stated. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: about 50 problems a year for the senior competition from 2011 and the junior competition, an estimated 1,000 problems
+  wave: 2
+  state: planned
+  notes: math.naboj.org has no robots.txt (the path redirects to a language page, 2026-11-16). The archive is at math.old.naboj.org/archive.php, with files /archive/problems/pdf/math/YYYY_en_sol.pdf, and junior.old.naboj.org has the junior archive. Both old hosts did not answer from the census machine, so their robots.txt is not read.
+
+- id: bolyai-hu
+  name: Bolyai János Matematikai Társulat
+  kind: official
+  origin: H1
+  url: https://www.bolyai.hu/
+  access: pdf
+  terms: "No licence stated. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: the papers of the Arany Dániel competition with solutions (AD_YYYY_feladatok_megoldasok.pdf)
+  wave: 2
+  state: planned
+  notes: The site has no robots.txt (404 on 2026-11-16), so all paths are allowed.
+
+- id: matek-fazekas
+  name: Fazekas Mihály Gimnázium mathematics pages
+  kind: curated
+  origin: H2
+  url: https://matek.fazekas.hu/
+  access: pdf
+  terms: "No licence stated. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: the Arany Dániel papers of 2011/12 to 2025/26 and other Hungarian competitions
+  wave: 2
+  state: planned
+  notes: The robots.txt of matek.fazekas.hu (read on 2026-11-16) disallows only the Joomla system paths, with no rule for AI crawlers.
+
+- id: durerinfo
+  name: Dürer Verseny
+  kind: official
+  origin: H1
+  url: https://durerinfo.hu/
+  access: pdf
+  terms: "No licence stated. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: 'no'
+  size: the papers of the categories of each competition from 2007
+  wave: 3
+  state: planned
+  notes: "The robots.txt of durerinfo.hu (read on 2026-11-16) has, for User-agent *, the line Content-Signal: search=yes,ai-train=no,use=reference and Allow: /. It disallows all paths for Amazonbot, Applebot-Extended, Bytespider, CCBot, ClaudeBot, Diffbot, Google-Extended, GPTBot, omgili, anthropic-ai, Claude-Web, cohere-ai, MistralAI-Training, meta-externalagent, GoogleOther, Baiduspider, PetalBot and Awario. ai_train is no from the content signal. Decision pending: the owner has not decided whether a site that allows * but blocks named AI crawlers and sets ai-train=no may be fetched by olymmath-bot."
+
+- id: dmfa-massb
+  name: DMFA, competition of the technical and vocational schools (MaSSB)
+  kind: official
+  origin: H1
+  url: https://www.dmfa.si/Tekmovanja/MaSSB/ArhivNalog.aspx
+  access: pdf
+  terms: "The terms were not read on these papers. Agent decision, not a person's review: they are taken to be the terms of the MaSSA papers (dmfa-massa), which allow only personal and school use and no publication on other sites, so the content links to the papers and holds no text of them."
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: unknown
+  size: the qualifying and national papers of each year with a paper for each grade
+  wave: 3
+  state: planned
+  notes: The site has no robots.txt (404 on 2026-11-13).
+
+- id: dmfa-repozitorij
+  name: DMFA problem repository
+  kind: official
+  origin: H1
+  url: https://repozitorij.dmfa.si/naloge
+  access: pdf
+  terms: "No terms read on the repository. Agent decision, not a person's review: they are taken to be the terms of the MaSSA papers (dmfa-massa), so the content links to the papers and holds no text of them."
+  zone:
+    statement: Z3
+    solution: Z3
+  ai_train: unknown
+  size: the papers of the DMFA primary school competition (Vega) and other DMFA competitions
+  wave: 3
+  state: planned
+  notes: The robots.txt of repozitorij.dmfa.si (read on 2026-11-16) holds only the Cloudflare content-signal preamble, with no Content-Signal line and no rule, so all paths are allowed.
+
+- id: natjecanja-math-hr
+  name: Croatian Mathematical Society competitions (natjecanja.math.hr)
+  kind: official
+  origin: H1
+  url: https://natjecanja.math.hr/arhiva-domacih-natjecanja/
+  access: pdf
+  terms: "No licence stated. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: the school, county and state papers for each grade and variant, and the HMO, HJMO, HMOD and selection papers
+  wave: 2
+  state: planned
+  notes: The robots.txt of natjecanja.math.hr (read on 2026-11-16) disallows /images/ and the Joomla system paths. The papers are under /wp-content/uploads/, which is allowed. The pages /hmo/, /hjmo/, /hmod/, /hmok/ and /medo/ list the olympiads. azoo.hr allows all paths and old.matematika.hr disallows only system paths.

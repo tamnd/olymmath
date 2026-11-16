@@ -166,7 +166,7 @@
   reason: no-source
   note: The AoPS wiki pages (source hf-aops-wiki-pages) miss 28 pages of the four papers of 2021. The seed rows of hf-amc12-full have no problem of 2021, no problem 25 of 2025 A and no paper of 2026. The MAA papers (source maa-amc) are PDF files that are not imported yet, and the AoPS wiki itself (source aops-wiki) is behind a Cloudflare challenge, which is not circumvented.
 
-# Census of Western, Northern and Central Europe (2026-11-16), the United Kingdom, Ireland, France and the Benelux; Germany, Austria, Switzerland, Italy, Spain and Portugal.
+# Census of Western, Northern and Central Europe (2026-11-16).
 - competition: de-mo
   years: ["1996-2026"]
   reason: robots
@@ -190,6 +190,9 @@
 - competition: lu-mo
   reason: no-source
   note: No paper of the Luxembourg olympiad was found on the web in the census of 2026-11-16.
+- competition: hu-zrinyi
+  reason: no-source
+  note: No official archive of the Zrínyi Ilona competition was found (census of 2026-11-16). Teacher sites hold scattered papers and the MATEGYE books of 1992 to 2000 hold old ones.
 - competition: ie-prism
   years: ["2014-2015"]
   reason: robots
@@ -198,3 +201,15 @@
   years: ["2006-2013", "2018-2026"]
   reason: no-source
   note: These papers are only on the PRISM site of the University of Galway, which needs a registration (a login), so no allowed source gives them (census of 2026-11-16).
+- competition: si-mo-qual
+  reason: link-only
+  note: The DMFA terms allow no publication of the papers on other sites (source dmfa-massa), so the project links them only.
+- competition: si-tech
+  reason: link-only
+  note: The DMFA terms are taken to allow no publication on other sites (source dmfa-massb), so the project links the papers only.
+- competition: si-tech-qual
+  reason: link-only
+  note: The DMFA terms are taken to allow no publication on other sites (source dmfa-massb), so the project links the papers only.
+- competition: si-vega
+  reason: link-only
+  note: The DMFA terms are taken to allow no publication on other sites (source dmfa-repozitorij), so the project links the papers only.

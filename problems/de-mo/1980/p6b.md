@@ -24,7 +24,7 @@ status:
 ---
 In einer Dunkelkammer liegen ungeordnet 20 einzelne Handschuhe von gleicher Größe, und zwar 5 weiße Handschuhe für die rechte Hand 5 weiße Handschuhe für die linke Hand 5 schwarze Handschuhe für die rechte Hand 5 schwarze Handschuhe für die linke Hand Zwei Handschuhe gelten genau dann als ein passendes Paar, wenn sie gleiche Farbe haben und der eine von ihnen für die rechte Hand, der andere für die linke Hand ist.
 
-Unter einem $Zug$ sei die Entnahme eines einzelnen Handschuhs verstanden, ohne daß dabei eine Auswahl nach Farbe und Form möglich ist. Ein Spiel von n Zügen bestehe darin, daß man nacheinander $n$ Züge ausführt, die dabei entnommenen Handschuhe sammelt und erst nach diesen $n$ Zügen feststellt, ob sich unter den $n$ entnommenen Handschuhen (mindestens) ein passendes Paar befindet. Genau dann, wenn dies zutrifft, gelte das Spiel als $erfolgreich$.
+Unter einem $Zug$ sei die Entnahme eines einzelnen Handschuhs verstanden, ohne daß dabei eine Auswahl nach Farbe und Form möglich ist. Ein Spiel von n Zügen bestehe darin, daß man nacheinander $n$ Züge ausführt, die dabei entnommenen Handschuhe sammelt und erst nach diesen $n$ Zügen feststellt, ob sich unter den $n$ entnommenen Handschuhen (mindestens) ein passendes Paar befindet. Genau dann, wenn dies zutrifft, gelte das Spiel als *erfolgreich*.
 
 a) Ermitteln Sie die kleinste natürliche Zahl $n$ mit der Eigenschaft, daß ein Spiel von $n$ Zügen mit Sicherheit erfolgreich ist!
 

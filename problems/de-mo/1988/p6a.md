@@ -22,7 +22,7 @@ statements:
 status:
   statement: captured
 ---
-Alfred und Bernd teilen sich $n$ Äpfel, indem der Reihe nach für jeden einzelnen Apfel durch eine Zufallsentscheidung (z.B. Werfen einer Münze festgelegt wird, wer diesen Apfel erhält. Ein solcher Verteilungsvorgang heiße für Alfred $g$ü$nstig$ genau dann, wenn Alfred nicht nur am Ende sondern während des gesamten Vorganges niemals weniger Äpfel in seinem Besitz hat als Bernd.
+Alfred und Bernd teilen sich $n$ Äpfel, indem der Reihe nach für jeden einzelnen Apfel durch eine Zufallsentscheidung (z.B. Werfen einer Münze festgelegt wird, wer diesen Apfel erhält. Ein solcher Verteilungsvorgang heiße für Alfred *günstig* genau dann, wenn Alfred nicht nur am Ende sondern während des gesamten Vorganges niemals weniger Äpfel in seinem Besitz hat als Bernd.
 
 Als Wahrscheinlichkeit $w(n)$ dafür daß ein Verteilungsvorgang für Alfred günstig ist, bezeichnet man den Quotienten, der sich ergibt, wenn die Anzahl aller für Alfred günstigen Verteilungsvorgänge durch die Anzahl aller überhaupt möglichen Verteilungsvorgänge dividiert wird.
 

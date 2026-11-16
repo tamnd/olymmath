@@ -24,7 +24,7 @@ status:
 ---
 Definition: Eine Menge $M$ von Elementen $u, v, w, \ldots$ heißt genau dann eine Gruppe, bezüglich der algebraischen Operation $A$, wenn die folgenden drei Bedingungen erfüllt sind:
 
-a) Jedem geordneten Paar $[u,v]$ von Elementen aus $M$ ist vermöge der Operation $A$ ein Element $w$ aus $M$ zugeordnet (man schreibt $u \circ v = w)$.
+a) Jedem geordneten Paar $[u,v]$ von Elementen aus $M$ ist vermöge der Operation $A$ ein Element $w$ aus $M$ zugeordnet (man schreibt $u \circ v = w$).
 
 b) Die algebraische Operation $A$ ist assoziativ, d.h., für alle Elemente $u, v, w$ aus $M$ gilt: $(u \circ v) \circ w=$
 

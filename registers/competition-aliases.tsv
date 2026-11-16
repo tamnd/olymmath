@@ -229,8 +229,8 @@ V Soros Olympiad (Russia)	-
 IV Soros Olympiad (Russia)	-
 III Soros Olympiad (Russia)	-
 II Soros Olympiad (Russia)	-
-Poland - Second Round	-
-Poland - First Round	-
+Poland - Second Round	pl-om-r2
+Poland - First Round	pl-om-r1
 Polish MO Finals	pl-om
 German National Olympiad	de-mo
 German National Olympiad 3rd Round	de-mo-r3
@@ -289,10 +289,10 @@ Greece Junior Math Olympiad	gr-hms
 Greece JBMO TST	-
 Czech and Slovak Olympiad III A	cz-sk-mo
 Czech And Slovak Olympiad IIIA	cz-sk-mo
-Czech-Polish-Slovak Junior Match	-
-Durer Math Competition Finals	-
+Czech-Polish-Slovak Junior Match	cps-junior
+Durer Math Competition Finals	hu-durer
 Eotvos Mathematical Competition	kurschak
-Hungary-Israel Binational	-
+Hungary-Israel Binational	hungary-israel
 Bulgaria National Olympiad	bg-mo
 Bulgarian Mathematical Competitions	bg-mo
 Bulgaria	bg-mo
@@ -523,7 +523,7 @@ Bosnia Herzegovina Team Selection Test	-
 Macedonia NMO	mk-mo
 France TST	fr-tst
 Turkey EGMO TST	-
-Croatia TST	-
+Croatia TST	hr-tst
 Moldova NMO	md-mo
 Bulgaria TST	-
 Dutch BxMO/EGMO TST	nl-bxmo-tst
@@ -798,7 +798,7 @@ Ukrajina 2008	ua-umo
 62nd Czech and Slovak Mathematical Olympiad	cz-sk-mo
 65. matematično tekmovanje srednješolcev Slovenije	si-mo
 67. matematično tekmovanje srednješolcev Slovenije, Državno tekmovanje	si-mo
-61. matematično tekmovanje srednješolcev Slovenije, Odbirno tekmovanje	si-mo
+61. matematično tekmovanje srednješolcev Slovenije, Odbirno tekmovanje	si-mo-qual
 Slovenian Mathematical Olympiad	si-mo
 Slovenian Secondary School Mathematical Competition	si-mo
 Slovenia National Math Olympiad 2013 - First Round	si-mo
@@ -900,7 +900,7 @@ Malaysia NMO	my-omk
 # Agent decision, not a person's review (2026-11-12): at-oemo is now the final round of the Austrian olympiad, and its earlier rounds have their own codes, as the official papers at oemo.at show. A label with no part, "Federal Competition For Advanced Students", holds the papers of part 1 in 2015 and 2017, as the official papers show. "Austrian MO National Competition" holds both parts of the federal competition in one collection with no numbers, and the booklets of hf-mathnet hold several rounds, so their rows give no position.
 Austrian Junior Regional Competition	at-oemo-beg
 Austrian Junior Regional	at-oemo-beg
-# Census of Western, Northern and Central Europe (2026-11-16), the United Kingdom, Ireland, France and the Benelux; Germany, Austria, Switzerland, Italy, Spain and Portugal; the Nordic and Baltic countries. Agent decision, not a person's review: each label below goes to the round or contest that it names, now that the rounds, junior olympiads, selection tests and regional contests of the region have their own codes. A label that names a training set (the French envois), a mix of rounds, or a round name that several countries share ("Second Round") goes to "-". The samples of hf-mathnet decided the plain round names: "School Round", "First Round (take-home)" and "District Round" are Czech and Slovak papers of categories A and B, "TANDA", "Problemas Primera Sesión" and the January date are the Spanish local phase, "Maarttoets" is the Dutch BxMO and EGMO test of March, and "UMI SNS Progetto Olimpiadi di Matematica" mixes the February and Cesenatico papers. The plain labels "Italy", "France" and "Switzerland" are hf-mathnet rows with no competition, which take the name of the country; the samples hold papers of several rounds, so they go to "-".
+# Census of Western, Northern and Central Europe (2026-11-16), the United Kingdom, Ireland, France and the Benelux; Germany, Austria, Switzerland, Italy, Spain and Portugal; the Nordic and Baltic countries; Poland, Czechia, Slovakia, Hungary, Slovenia and Croatia. Agent decision, not a person's review: each label below goes to the round or contest that it names, now that the rounds, junior olympiads, selection tests and regional contests of the region have their own codes. A label that names a training set (the French envois), a mix of rounds, or a round name that several countries share ("Second Round") goes to "-". The samples of hf-mathnet decided the plain round names: "School Round", "First Round (take-home)" and "District Round" are Czech and Slovak papers of categories A and B, "TANDA", "Problemas Primera Sesión" and the January date are the Spanish local phase, "Maarttoets" is the Dutch BxMO and EGMO test of March, and "UMI SNS Progetto Olimpiadi di Matematica" mixes the February and Cesenatico papers. The plain labels "Italy", "France" and "Switzerland" are hf-mathnet rows with no competition, which take the name of the country; the samples hold papers of several rounds, so they go to "-".
 46th Austrian Mathematical Olympiad National Competition (Final Round, part 2)	at-oemo
 48th Austrian Mathematical Olympiad National Competition (Final Round, part 1)	at-oemo-fed1
 48. Österreichische Mathematik-Olympiade Bundeswettbewerb für Fortgeschrittene, Teil 1	at-oemo-fed1
@@ -908,12 +908,37 @@ Austrian Junior Regional	at-oemo-beg
 48th Austrian Mathematical Olympiad Regional Competition (Qualifying Round)	at-oemo-reg
 Regional Competition	at-oemo-reg
 THIRD BENELUX MATHEMATICAL OLYMPIAD	benelux
+6-th Czech-Slovak Match	caps
+11-th Czech-Slovak-Polish Match, 2011	caps
+9-th Czech-Slovak-Polish Match	caps
+Cesko-Slovacko-Poljsko	caps
+Final Round of the 73rd Czech and Slovak Mathematical Olympiad (March 17–20, 2024)	cz-sk-mo
+National Round	cz-sk-mo
+Slovakia National MO	cz-sk-mo
+First Round of the 73rd Czech and Slovak Mathematical Olympiad (December 12th, 2023)	cz-sk-mo-r1
+First Round of the 73rd Czech and Slovak Mathematical Olympiad (take-home part)	cz-sk-mo-r1
+First Round (take-home)	cz-sk-mo-r1
+School Round	cz-sk-mo-r1
+Czech and Slovak NMO I A - Combo Geo	cz-sk-mo-r1
+Czech and Slovak NMO I C - 3D geo	cz-sk-mo-r1
+Czech and Slovak NMO I C - plane geometry	cz-sk-mo-r1
+Czech and Slovak NMO I D - 3D geo	cz-sk-mo-r1
+Czech and Slovak NMO I D - plane geometry	cz-sk-mo-r1
+Second Round of the 73rd Czech and Slovak Mathematical Olympiad (January 16th, 2024)	cz-sk-mo-r2
+District Round	cz-sk-mo-r2
+Czech and Slovak NMO II C - 3D geo	cz-sk-mo-r2
+Czech and Slovak NMO II C - plane geometry	cz-sk-mo-r2
+Czech and Slovak NMO II D - geometry	cz-sk-mo-r2
+Second Round	-
 IMO Team Selection Contest	ee-tst
 IMO Team Selection Contest I	ee-tst
 IMO Team Selection Contest II	ee-tst
 Selected Problems from Open Contests	ee-open
 Estonia Math Open Senior Contests	ee-open
 Estonia Math Open Junior Contests	ee-open
+European Girls' Mathematical Olympiad 2012-Day 1 Solutions	egmo
+EGMO 2014, 1ère journée	egmo
+EGMO TST	-
 Test EGMO	fr-tst
 TEST DU GROUPE A ET DES CANDIDATES À L'ÉPREUVE EGMO	fr-tst
 Olympiades Françaises de Mathématiques - Test de Janvier	fr-tst
@@ -967,6 +992,10 @@ Oliforum Contest II 2009	it-oliforum
 Oliforum Contest III 2012	it-oliforum
 Oliforum Contest IV 2013	it-oliforum
 Oliforum Contest V 2017	it-oliforum
+MEMO Individual Competition	memo
+MEMO Mathematical Olympiad	memo
+MEMO Szeged	memo
+MEMO Team Competition	memo
 BxMO Team Selection Test	nl-bxmo-tst
 BxMO Team Selection Test, March 2020	nl-bxmo-tst
 BxMO/EGMO Team Selection Test	nl-bxmo-tst
@@ -1025,6 +1054,30 @@ Preliminary Round - Switzerland	ch-smo-r1
 Zweite Runde 2021	ch-smo-r2
 Deuxième tour 2023	ch-smo-r2
 Swiss NMO - geometry	ch-smo
+Durer Math Competition	hu-durer
+Durer Math Competition (First Round)	hu-durer
+Dürer Math Competition (First Round)	hu-durer
+Durer Math Competition CD 1st Round - geometry	hu-durer
+Durer Math Competition CD Finals - geometry	hu-durer
+KoMaL A 2018/2019	hu-komal
+hungaryisrael_binational	hungary-israel
+Croatia  MO    geometry	hr-mo
+HMO Croatia MO -  geometry	hr-mo
+HJMO Croatia Juniors MO -  geometry	hr-jmo
+HMOD Croatia Girls MO - geometry	hr-girls
+First round – City competition	hr-city
+Slovenia NMO	si-mo
+Slovenia Team Selection Test	si-tst
+Slovenia TSTs	si-tst
+Poland First Round - plane geometry	pl-om-r1
+Poland First Round - 3D Geo	pl-om-r1
+Poland First Round - Combo Geo	pl-om-r1
+Poland Juniors  Round 1 - geometry	pl-omj-r1
+Poland Juniors  Round 2 - geometry	pl-omj-r2
+Poland Juniors Finals - geometry	pl-omj
+Poland Juniors  - Geo Inequalities	pl-omj
+Polish Junior MO Finals	pl-omj
+Polish Junior Math Olympiad Finals	pl-omj
 Latvia BW TST	lv-tst
 Latvia TST	lv-tst
 Lithuania Team Selection Test	lt-tst
@@ -1056,6 +1109,16 @@ Nordic Mathematical Contest, NMC 22	nordic
 Nordic Mathematical Contest, NMC 23	nordic
 Nordic Mathematical Contest, NMC 24	nordic
 Nordic Mathematical Contest, NMC 25	nordic
+10. tekmovanje v znanju matematike za dijake srednjih tehniških in strokovnih šol, Državno tekmovanje	si-tech
+16. tekmovanje v znanju matematike za dijake srednjih tehniških and strokovnih šol Državno tekmovanje	si-tech
+17. tekmovanje dijakov srednjih tehniških in strokovnih šol v znanju matematike	si-tech
+2. matematično tekmovanje dijakov srednjih tehniških and strokovnih šol	si-tech
+2. matematično tekmovanje dijakov srednjih tehniških in strokovnih šol	si-tech
+3. matematično tekmovanje dijakov srednjih tehniških in strokovnih sol	si-tech
+4. državno tekmovanje v znanju matematike za dijake srednjih tehniških in strokovnih šol	si-tech
+Državno tekmovanje v znanju matematike za dijake srednjih tehniških in strokovnih šol	si-tech
+17. tekmovanje v znanju matematike za dijake srednjih tehniških in strokovnih šol, Odbirno tekmovanje	si-tech-qual
+18. tekmovanje v znanju matematike za dijake srednjih tehniških i strokovnih šol, Odbirno tekmovanje	si-tech-qual
 OME 10	es-ome
 OME 11	es-ome
 OME 12	es-ome

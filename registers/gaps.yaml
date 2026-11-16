@@ -173,6 +173,26 @@
 - competition: tw-imoc
   reason: no-source
   note: No official archive was found on 2026-11-16. The only copies found are AoPS topics (source aops-collections), and the rule for its robots.txt is pending.
+- competition: jp-jmo-prelim
+  years: ["2000"]
+  reason: no-source
+  note: The imojp site has the JMO preliminary papers from 2001 only (source imojp).
+- competition: jp-jjmo-prelim
+  years: ["2021"]
+  reason: no-source
+  note: The imojp site has no JJMO papers of 2021 (source imojp).
+- competition: jp-egmo-prelim
+  reason: no-source
+  note: No official archive was found on 2026-11-16. The imojp site (source imojp) has no EGMO paper. The only copies found are AoPS topics (source aops-collections), and the rule for its robots.txt is pending.
+- competition: kr-uscm
+  reason: no-source
+  note: No official archive was found on 2026-11-16. The only copies found are AoPS topics (source aops-collections), and the rule for its robots.txt is pending.
+- competition: kp-mo
+  reason: no-source
+  note: No official source exists online. The only copies found are AoPS topics (source aops-collections), and the rule for its robots.txt is pending.
+- competition: kp-tst
+  reason: no-source
+  note: No official source exists online. The only copies found are AoPS topics (source aops-collections), and the rule for its robots.txt is pending.
 
 # Other nationals.
 - competition: cz-sk-mo

@@ -640,7 +640,7 @@ Indonesia TST	-
 Indonesia MO	id-osn
 Kazakhstan National Olympiad	kz-mo
 Zhautykov City MO geometry	-
-Korea Junior Math Olympiad	-
+Korea Junior Math Olympiad	kr-kjmo
 Korea National Olympiad	kr-kmo
 Korea - Final Round	kr-fkmo
 Korea Winter Program Practice Test	-
@@ -664,7 +664,7 @@ Tenth Philippine Mathematical Olympiad	ph-pmo
 PMO National Stage Oral Phase	ph-pmo
 Mongolian Mathematical Olympiad	mn-mo
 Japan MO Finals	jp-jmo
-Japan MO Preliminary	-
+Japan MO Preliminary	jp-jmo-prelim
 Japan Junior MO	jp-jjmo
 Israel TST	-
 Saudi Arabia Mathematical Competitions	sa-samc
@@ -827,6 +827,41 @@ IMOC Shortlist	-
 TST Round 1	tw-tst
 TST Round 2	tw-tst
 TST Round 3	tw-tst
+The 16th Japanese Mathematical Olympiad - The Final Round	jp-jmo
+Japan 2013 Final Round	jp-jmo
+Japan Mathematical Olympiad Final Round	jp-jmo
+2019 Japanese Mathematical Olympiad, Final Round	jp-jmo
+Japan 2013 Initial Round	jp-jmo-prelim
+Japan Japan 2015	-
+Japan The 4th Japanese Junior Mathematical Olympiad	jp-jjmo
+Japan Japanese Junior Mathematical Olympiad	-
+Japan Junior Math Olympiad Preliminary	jp-jjmo-prelim
+Japan EGMO Preliminary	jp-egmo-prelim
+Japan TST	jp-tst
+Graduate School Of Mathematical Sciences, The Master Cource,  The University Of Tokyo	-
+Graduate School Of Mathematical Sciences, The Master Course, Kyoto University	-
+Hitotsubashi University Entrance Examination	-
+Kyoto University Entry Examination	-
+Tokio University Entry Examination	-
+Tokyo Instutute Of Technology Entrance Examination	-
+Tokyo Institute Of Technology Admission Office Entrance Examination	-
+Waseda University Entrance Examination	-
+Korea USCM	kr-uscm
+South Korea USCM	kr-uscm
+Korea Junior Math Olympiad (First Round)	kr-kjmo-r1
+North Korea Mathematical Olympiad	kp-mo
+North Korea Team Selection Test	kp-tst
+North Korea TST	kp-tst
+Korea Summer Program Practice Test	-
+Korean MO winter camp	-
+Korean Summer Camp	-
+Mongolia Round 2	mn-mo
+Mongolia Team Selection Test	mn-tst
+Mongolia TST	mn-tst
+2015 Mongolian IMO Team Selection Tests	mn-tst
+Mongolia International Mathematical Olympiad 51	mn-tst
+Mongolia International Mathematical Olympiad 51 Selection Test	mn-tst
+ОУМО-53	mn-tst
 
 # Oceania and Africa.
 NewZealand_MO	nz-nzmo
@@ -956,8 +991,9 @@ Thailand MO Shortlist - Geometry	-
 CentroAmerican Shortlist - geometry	centro
 # The Korean set HRM8K.
 KMS	-
-KJMO	-
-KMO	kr-kmo
+# Agent decision, not a person's review (2026-11-16): the HRM8K rows of KMO and KJMO are short-answer problems with no year, so they are from the first rounds. Their labels go to kr-kmo-r1 and kr-kjmo-r1, and the line for KMO wins over the short name of kr-kmo.
+KJMO	kr-kjmo-r1
+KMO	kr-kmo-r1
 high_school_mathematics	-
 college_mathematics	-
 abstract_algebra	-
@@ -1138,12 +1174,12 @@ Australia NMO	au-amo
 South African National Olympiad	za-samo
 South African Mathematics Olympiad Second Round	za-samo
 Japan Junior MO (JJMO) Finals	jp-jjmo
-Japan Junior Mathematical Olympiad First Round	-
+Japan Junior Mathematical Olympiad First Round	jp-jjmo-prelim
 The 35th Japanese Mathematical Olympiad	jp-jmo
-Japan Mathematical Olympiad First Round	-
-Japan Mathematical Olympiad Initial Round	-
-Japan Mathematical Olympiad First Stage	-
-The 16th Japanese Mathematical Olympiad - The First Round	-
+Japan Mathematical Olympiad First Round	jp-jmo-prelim
+Japan Mathematical Olympiad Initial Round	jp-jmo-prelim
+Japan Mathematical Olympiad First Stage	jp-jmo-prelim
+The 16th Japanese Mathematical Olympiad - The First Round	jp-jmo-prelim
 Taiwan Mathematics Olympiad	tw-tst
 Taiwan MO	tw-tst
 Finnish National High School Mathematics Comp	fi-mo

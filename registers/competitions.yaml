@@ -6895,6 +6895,112 @@
   sources: [imojp]
   description: The junior olympiad of Japan. It began in 2003. From 2009 it has a preliminary round of 12 short-answer problems and a final round of five problems. The edition holds the five problems of the final round. The problems of the preliminary round, and the one paper of twelve short-answer problems of the first six olympiads (2003 to 2008), are not part of it.
 
+- code: jp-jmo-prelim
+  name: Japan Mathematical Olympiad Preliminary Round
+  names: {ja: 日本数学オリンピック予選}
+  group: national
+  level: high-school
+  country: JP
+  url: https://www.imojp.org/domestic/jmo_overview.html
+  edition_form: year
+  first_year: 1991
+  # Agent decision, not a person's review: from 2000 (the 10th JMO) the preliminary round has 12 short-answer problems in three hours, as the imojp papers show. The format of 1991 to 1999 is not known, so that era has no layout.
+  eras:
+    - {from: 1991, to: 1999}
+    - {from: 2000, per_year: 12}
+  official_solutions: false
+  languages: [ja]
+  sources: [imojp]
+  description: The preliminary round (yosen) of the Japan Mathematical Olympiad. The final round is jp-jmo.
+
+- code: jp-jjmo-prelim
+  name: Japan Junior Mathematical Olympiad Preliminary Round
+  names: {ja: 日本ジュニア数学オリンピック予選}
+  group: national
+  level: junior
+  country: JP
+  url: https://www.imojp.org/domestic/jjmo_overview.html
+  edition_form: year
+  first_year: 2009
+  per_year: 12
+  official_solutions: false
+  languages: [ja]
+  sources: [imojp]
+  description: The preliminary round of the Japan Junior Mathematical Olympiad, with 12 short-answer problems. The final round is jp-jjmo.
+
+- code: jp-tst
+  name: Japan IMO Team Selection Camp
+  names: {ja: 春の合宿}
+  group: national
+  level: high-school
+  country: JP
+  url: https://www.imojp.org/
+  # Agent decision, not a person's review (2026-11-16): the imojp overview links the camp papers of 2016 to 2019 and 2021 to 2026. Each has 4 days of 3 problems, numbered 1 to 12. The camp is older than 2016, but the earlier papers are not linked, so first_year is 2016. The 2020 paper is not linked, so 2020 has no layout.
+  first_year: 2016
+  eras:
+    - {from: 2016, to: 2019, per_year: 12, layout: [{paper: day1, name: Day 1, positions: [p1, p2, p3]}, {paper: day2, name: Day 2, positions: [p4, p5, p6]}, {paper: day3, name: Day 3, positions: [p7, p8, p9]}, {paper: day4, name: Day 4, positions: [p10, p11, p12]}]}
+    - {from: 2020, to: 2020}
+    - {from: 2021, per_year: 12, layout: [{paper: day1, name: Day 1, positions: [p1, p2, p3]}, {paper: day2, name: Day 2, positions: [p4, p5, p6]}, {paper: day3, name: Day 3, positions: [p7, p8, p9]}, {paper: day4, name: Day 4, positions: [p10, p11, p12]}]}
+  languages: [ja]
+  sources: [imojp]
+  description: The spring camp of the Mathematical Olympiad Foundation of Japan that chooses the IMO team. The imojp overview links the camp problems of most years, but not of 2020. AoPS calls it Japan TST.
+
+- code: jp-egmo-prelim
+  name: EGMO Preliminary in Japan
+  group: national
+  level: high-school
+  country: JP
+  languages: [ja]
+  description: The Japanese test for the EGMO, as AoPS calls it, with about four problems a year from 2015. The organizer is not confirmed, and no official archive was found on 2026-11-16. The register has no shape for it, because no official paper or rules were found.
+
+- code: jp-sansu
+  name: Sansu Olympiad
+  names: {ja: 算数オリンピック}
+  group: national
+  level: elementary
+  country: JP
+  organizer: Sansu Olympiad Committee
+  url: https://www.sansu-olympic.gr.jp/
+  languages: [ja]
+  sources: [sansu-olympic]
+  description: The Japanese arithmetic olympiad for primary students, with a trial round and a final. The committee sells the past papers in books. The 2026 book covers the 25th to the 34th contests. The site has only a few sample problems. The register has no shape for it, because its past papers are only in books on sale.
+
+- code: jp-jsansu
+  name: Junior Sansu Olympiad
+  names: {ja: ジュニア算数オリンピック}
+  group: national
+  level: elementary
+  country: JP
+  organizer: Sansu Olympiad Committee
+  url: https://www.sansu-olympic.gr.jp/
+  languages: [ja]
+  sources: [sansu-olympic]
+  description: The junior arithmetic olympiad for lower primary students. The committee sells the past papers in books. The 2026 book covers the 20th to the 29th contests. The register has no shape for it, because its past papers are only in books on sale.
+
+- code: jp-hironaka
+  name: Hironaka Cup
+  names: {ja: 広中杯}
+  group: national
+  level: junior
+  country: JP
+  organizer: Sansu Olympiad Committee
+  url: https://www.sansu-olympic.gr.jp/
+  languages: [ja]
+  sources: [sansu-olympic]
+  description: The contest of the Sansu Olympiad Committee for lower secondary students. The committee sells the past papers in books. The 2026 book covers the 17th to the 26th contests. The register has no shape for it, because its past papers are only in books on sale.
+
+- code: jp-jhironaka
+  name: Junior Hironaka Cup
+  names: {ja: ジュニア広中杯}
+  group: national
+  level: elementary
+  country: JP
+  organizer: Sansu Olympiad Committee
+  url: https://www.sansu-olympic.gr.jp/
+  languages: [ja]
+  sources: [sansu-olympic]
+  description: The contest of the Sansu Olympiad Committee for upper primary students. The committee sells the past papers in books. The 2026 book covers the 13th to the 22nd contests. The register has no shape for it, because its past papers are only in books on sale.
+
 - code: kr-kmo
   name: Korean Mathematical Olympiad
   short: KMO
@@ -6905,10 +7011,17 @@
   organizer: KMS
   url: https://www.kmo.or.kr/
   edition_form: year
-  per_year: 8
+  # Agent decision, not a person's review (2026-11-16): the second-round rules (요강) of the 23rd to 39th KMO, 2009 to 2025, on kmo.or.kr (source kms) give 8 problems, 4 in the morning and 4 in the afternoon, except in 2020 and 2021, which had 6. The first KMO was in 1987. No rules before 2009 were found. The content has the AoPS papers of 1996, 1997, 2005, 2006 and 2008, each with 8 problems, so 1996 to 2008 take 8 as well. 1987 to 1995 have no layout, and neither has 2026, whose rules were not read.
+  first_year: 1987
+  eras:
+    - {from: 1987, to: 1995}
+    - {from: 1996, to: 2019, per_year: 8}
+    - {from: 2020, to: 2021, per_year: 6}
+    - {from: 2022, to: 2025, per_year: 8}
+    - {from: 2026}
   languages: [ko]
   sources: [kms, hf-hrm8k, hf-mathnet]
-  description: The Korean olympiad of the KMS. The second round of the high-school division has 8 problems in two days. The edition holds these 8 problems. The first round of 20 short-answer problems is not part of it, and the final round is kr-fkmo.
+  description: The Korean olympiad of the KMS. The second round of the high-school division has 8 problems in two sessions, and had 6 in 2020 and 2021. The edition holds these 8 problems. The first round of 20 short-answer problems is not part of it, and the final round is kr-fkmo.
 
 - code: kr-fkmo
   name: Final Korean Mathematical Olympiad
@@ -6923,6 +7036,90 @@
   languages: [ko]
   sources: [kms, hf-mathnet]
   description: The final round of the Korean olympiad. The best students of the second round of kr-kmo take it. It has 6 problems in two days.
+
+- code: kr-kmo-r1
+  name: Korean Mathematical Olympiad First Round
+  names: {ko: 한국수학올림피아드 1차}
+  group: national
+  level: high-school
+  country: KR
+  organizer: KMS
+  url: https://www.kmo.or.kr/
+  # Agent decision, not a person's review (2026-11-16): the shape comes from the KMO rules (요강) of the 23rd to 39th contests, 2009 to 2025, on kmo.or.kr (source kms). The first KMO was in 1987. No rules before 2009 were found, so 1987 to 2008 have no layout. From 2010 to 2015 the high-school division chose students by documents, with no first-round test, so these years are gaps. From 2017 to 2022 the division had two sections, Euler and Gauss, and the rules of 2019 to 2022 say they could get different problems. Two papers with the same numbers need the paper part of the locator (spec 05), so 2017 to 2022 have no layout. The rules give 20 short-answer problems in 2009, 2016 and 2023 to 2025. The 2026 rules were not read, so 2026 has no layout.
+  first_year: 1987
+  gaps: [2010, 2011, 2012, 2013, 2014, 2015]
+  eras:
+    - {from: 1987, to: 2008}
+    - {from: 2009, to: 2016, per_year: 20}
+    - {from: 2017, to: 2022}
+    - {from: 2023, to: 2025, per_year: 20}
+    - {from: 2026}
+  languages: [ko]
+  sources: [kms]
+  description: The first round of the high-school division of the Korean olympiad, with 20 short-answer problems whose answers are integers from 0 to 999. From 2017 to 2022 it had two sections, Euler and Gauss. The second round is kr-kmo.
+
+- code: kr-kjmo
+  name: Korean Junior Mathematical Olympiad
+  short: KJMO
+  names: {ko: 한국수학올림피아드 중등부}
+  group: national
+  level: junior
+  country: KR
+  organizer: KMS
+  url: https://www.kmo.or.kr/
+  # Agent decision, not a person's review (2026-11-16): the shape comes from the second-round rules (요강) of the 23rd to 39th KMO, 2009 to 2025, on kmo.or.kr (source kms). They cover the middle and high-school divisions. They give 8 problems, 4 in the morning and 4 in the afternoon, except in 2020 and 2021, which had 6. The division may be older than 2009, but no earlier rules were found, so first_year is 2009. The 2026 rules were not read, so 2026 has no layout.
+  first_year: 2009
+  eras:
+    - {from: 2009, to: 2019, per_year: 8}
+    - {from: 2020, to: 2021, per_year: 6}
+    - {from: 2022, to: 2025, per_year: 8}
+    - {from: 2026}
+  languages: [ko]
+  sources: [kms]
+  description: The second round of the middle-school division of the Korean olympiad, which AoPS calls the Korea Junior Mathematics Olympiad. The first round is kr-kjmo-r1.
+
+- code: kr-kjmo-r1
+  name: Korean Junior Mathematical Olympiad First Round
+  names: {ko: 한국수학올림피아드 중등부 1차}
+  group: national
+  level: junior
+  country: KR
+  organizer: KMS
+  url: https://www.kmo.or.kr/
+  # Agent decision, not a person's review (2026-11-16): the shape comes from the KMO rules (요강) of the 23rd to 39th contests, 2009 to 2025, on kmo.or.kr (source kms). They give 20 short-answer problems for the middle-school division in every year but 2020, which had 25. The division may be older than 2009, but no earlier rules were found, so first_year is 2009. The 2026 rules were not read, so 2026 has no layout.
+  first_year: 2009
+  eras:
+    - {from: 2009, to: 2019, per_year: 20}
+    - {from: 2020, to: 2020, per_year: 25}
+    - {from: 2021, to: 2025, per_year: 20}
+    - {from: 2026}
+  languages: [ko]
+  sources: [kms]
+  description: The first round of the middle-school division of the Korean olympiad, with short-answer problems.
+
+- code: kr-uscm
+  name: Korea University Students Contest of Mathematics
+  short: USCM
+  group: undergraduate
+  level: undergraduate
+  country: KR
+  organizer: KMS
+  languages: [ko]
+  description: The contest of the KMS for university students. AoPS calls it Korea USCM. No official archive was found on 2026-11-16. The register has no shape for it, because no official paper or rules were found.
+
+- code: kp-mo
+  name: North Korea Mathematical Olympiad
+  group: national
+  level: high-school
+  country: KP
+  description: The national olympiad of North Korea. AoPS has the problems of some years from about 2012. No official source was found. The register has no shape for it, because no official paper or rules were found.
+
+- code: kp-tst
+  name: North Korea Team Selection Test
+  group: national
+  level: high-school
+  country: KP
+  description: The test that chooses the North Korean team for the IMO. AoPS has the problems of some years. No official source was found. The register has no shape for it, because no official paper or rules were found.
 
 - code: tw-tst
   name: Taiwan TST and National Olympiad
@@ -7045,10 +7242,24 @@
   group: national
   level: high-school
   country: MN
+  organizer: Mongolian Mathematical Olympiad Committee
+  url: https://mmo.mn/
+  first_year: 1965
   edition_form: year
   languages: [mn]
-  sources: [imomath, hf-mathnet]
-  description: The national olympiad of Mongolia. The 2007 contest was the 43rd.
+  sources: [mmo-mn, imomath, hf-mathnet]
+  description: The national olympiad of Mongolia. The 2007 contest was the 43rd. It has several rounds and grade groups, so the row has no shape. The selection tests are mn-tst.
+
+- code: mn-tst
+  name: Mongolia Team Selection Test
+  group: national
+  level: high-school
+  country: MN
+  organizer: Mongolian Mathematical Olympiad Committee
+  url: https://mmo.mn/
+  languages: [mn]
+  sources: [mmo-mn]
+  description: The tests that choose the Mongolian teams for the IMO, the APMO and the EGMO. The committee site (source mmo-mn) lists the selection tests next to the olympiad. The register has no shape for it, because the committee site does not give the format of the tests.
 
 - code: vn-vmo
   name: Vietnam Mathematical Olympiad

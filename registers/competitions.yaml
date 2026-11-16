@@ -8115,15 +8115,21 @@
   edition_form: year
   eras:
     - from: 2019
+      to: 2025
       per_year: 13
       layout:
         - {paper: round1, name: Round One, positions: [p1, p2, p3, p4, p5, p6, p7, p8]}
         - {paper: round2, name: Round Two, positions: [p9, p10, p11, p12, p13]}
+    - from: 2026
+      per_year: 14
+      layout:
+        - {paper: round1, name: Round One, positions: [p1, p2, p3, p4, p5, p6, p7, p8, p9]}
+        - {paper: round2, name: Round Two, positions: [p10, p11, p12, p13, p14]}
   official_solutions: true
   languages: [en]
   copyright: The NZMOC resources page puts NZMOC materials, past NZMO problems and solutions among them, under CC BY 4.0.
   sources: [nzmoc]
-  description: The national olympiad of New Zealand. Round One is eight take-home problems, and Round Two is a three-hour exam with five problems. The NZMOC site has the papers and solutions of both rounds from 2019. The first year is the first year of these papers. The layout numbers the Round Two problems after the eight of Round One, as the records of Round One already use p1 to p8.
+  description: The national olympiad of New Zealand. Round One is eight take-home problems, and Round Two is a three-hour exam with five problems. The NZMOC site has the papers and solutions of both rounds from 2019. The first year is the first year of these papers. The layout numbers the Round Two problems after those of Round One, as the records of Round One already use p1 to p8. Round One has nine problems from 2026, as its paper says ("There are 9 problems"), so Round Two takes p10 to p14 from 2026.
 
 - code: in-inmo
   name: Indian National Mathematical Olympiad

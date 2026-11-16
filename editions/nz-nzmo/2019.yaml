@@ -1,1 +1,12 @@
 year: 2019
+official:
+  - lang: English
+    code: en
+    url: https://www.mathsolympiad.org.nz/competitions/nzmo/files/problems.php?round=2&year=2019
+    paper: round2
+    source: nzmoc
+  - lang: English
+    code: en
+    url: https://www.mathsolympiad.org.nz/competitions/nzmo/files/problems.php?round=1&year=2019
+    paper: round1
+    source: nzmoc

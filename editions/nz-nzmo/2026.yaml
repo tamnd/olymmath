@@ -1,0 +1,17 @@
+year: 2026
+papers:
+  - name: Round One
+    problems: [p1, p2, p3, p4, p5, p6, p7, p8]
+  - name: Round Two
+    problems: [p9, p10, p11, p12, p13]
+official:
+  - lang: English
+    code: en
+    url: https://www.mathsolympiad.org.nz/competitions/nzmo/files/problems.php?round=2&year=2026
+    paper: round2
+    source: nzmoc
+  - lang: English
+    code: en
+    url: https://www.mathsolympiad.org.nz/competitions/nzmo/files/problems.php?round=1&year=2026
+    paper: round1
+    source: nzmoc

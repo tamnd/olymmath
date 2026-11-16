@@ -2689,6 +2689,37 @@
   wave: 3
   state: planned
   notes: "An old personal page at the University of Macau with no terms. The host has no robots.txt (404 on 2026-11-16)."
+- id: mmo-mn
+  name: Mongolian Mathematical Olympiad Committee
+  kind: official
+  origin: H1
+  url: https://mmo.mn/
+  access: html
+  terms: "Section 4 of the site terms says that the committee owns the content and allows its use for teaching with attribution."
+  zone:
+    statement: Z2
+    solution: Z3
+  ai_train: unknown
+  size: Pages of the national olympiad and the selection tests of recent years
+  wave: 2
+  state: planned
+  notes: "The host has no robots.txt (404 on 2026-11-16). The papers are in Mongolian. integral.mn also lists olympiads, and its robots.txt allows all paths."
+
+- id: sansu-olympic
+  name: Sansu Olympiad Committee
+  kind: official
+  origin: H1
+  url: https://www.sansu-olympic.gr.jp/past-question/
+  access: html
+  zone:
+    statement: Z2
+    solution: Z3
+  ai_train: unknown
+  size: About 6 sample problems online. The past papers are sold as books.
+  wave: 3
+  state: planned
+  notes: "No terms page was found. The robots.txt (read on 2026-11-16) allows all paths for all agents. 3450.jp/p/final-question/ has more sample problems; its host did not answer on 2026-11-16."
+
 
 
 - id: aops-collections

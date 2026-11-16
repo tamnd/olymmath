@@ -2297,16 +2297,85 @@
   name: German Mathematical Olympiad
   names: {de: Mathematik-Olympiade}
   group: national
+  level: high-school
   country: DE
   organizer: Mathematik-Olympiaden e.V.
   url: https://www.mathematik-olympiaden.de/
-  first_year: 1961
+  first_year: 1962
   edition_form: year
   per_year: 6
   languages: [de]
   copyright: Linking is allowed with the permission of the Verein. Solutions from the 35th MO are not to be republished.
-  sources: [mathematik-olympiaden, imomath]
-  description: The German olympiad in four rounds for grades 3 to 13. It began in the DDR in 1961 and has been all-German since 1990/91. The edition holds the six problems of the final round of the highest grade. The problems of the third round are not part of it.
+  sources: [mathematik-olympiaden, olympiade-mathematik, imomath]
+  description: The German olympiad in four rounds for grades 3 to 13. It began in the DDR in 1961 and has been all-German since 1990/91. The edition holds the six problems of the final round of the highest grade. The other rounds are de-mo-r1, de-mo-r2 and de-mo-r3, and the final papers of the lower grades are de-mo-r4. The official site disallows all paths in robots.txt; the archive olympiade-mathematik.de allows them, but it has the papers of the 1st to the 34th olympiads only (1962 to 1995), and links the later ones to the official site.
+
+- code: de-mo-r1
+  name: German Mathematical Olympiad, Round 1
+  names: {de: Mathematik-Olympiade, 1. Stufe (Schulrunde)}
+  group: national
+  level: high-school
+  levels: [elementary, junior, high-school]
+  country: DE
+  organizer: Mathematik-Olympiaden e.V.
+  url: https://www.olympiade-mathematik.de/
+  first_year: 1962
+  # Agent decision, not a person's review: the year is the year of the final, as in de-mo (the 1st olympiad, 1961/62, is 1962). The papers of the rounds have one paper for each grade, and the number of problems changes by olympiad, grade and round (the samples of the 1st, 15th, 25th and 34th olympiads have papers of four, five or six problems), so the format of a year cannot be given without reading every paper, and no year has a layout.
+  edition_form: year
+  languages: [de]
+  copyright: Solutions from the 35th MO are not to be republished.
+  sources: [olympiade-mathematik]
+  description: The first round (Schulrunde, a home round) of the German olympiad, with one paper for each grade from 3 to 12 or 13. The archive of olympiade-mathematik.de has the papers of all rounds and grades of the 1st to the 34th olympiads (1961/62 to 1994/95); for the later olympiads it links to the official site, whose robots.txt disallows all paths. The number of problems changes by olympiad, grade and round, so it counts no positions.
+
+- code: de-mo-r2
+  name: German Mathematical Olympiad, Round 2
+  names: {de: Mathematik-Olympiade, 2. Stufe (Regionalrunde)}
+  group: national
+  level: high-school
+  levels: [elementary, junior, high-school]
+  country: DE
+  organizer: Mathematik-Olympiaden e.V.
+  url: https://www.olympiade-mathematik.de/
+  first_year: 1962
+  # Agent decision, not a person's review: the year is the year of the final, as in de-mo (the 1st olympiad, 1961/62, is 1962). The papers of the rounds have one paper for each grade, and the number of problems changes by olympiad, grade and round (the samples of the 1st, 15th, 25th and 34th olympiads have papers of four, five or six problems), so the format of a year cannot be given without reading every paper, and no year has a layout.
+  edition_form: year
+  languages: [de]
+  copyright: Solutions from the 35th MO are not to be republished.
+  sources: [olympiade-mathematik]
+  description: The second round (Regionalrunde) of the German olympiad, a written paper for each grade from 3 to 12 or 13. The archive of olympiade-mathematik.de has the papers of the 1st to the 34th olympiads (1961/62 to 1994/95). The number of problems changes by olympiad, grade and round, so it counts no positions.
+
+- code: de-mo-r3
+  name: German Mathematical Olympiad, Round 3
+  names: {de: Mathematik-Olympiade, 3. Stufe (Landesrunde)}
+  group: national
+  level: high-school
+  levels: [elementary, junior, high-school]
+  country: DE
+  organizer: Mathematik-Olympiaden e.V.
+  url: https://www.olympiade-mathematik.de/
+  first_year: 1962
+  # Agent decision, not a person's review: the year is the year of the final, as in de-mo (the 1st olympiad, 1961/62, is 1962). The papers of the rounds have one paper for each grade, and the number of problems changes by olympiad, grade and round (the samples of the 1st, 15th, 25th and 34th olympiads have papers of four, five or six problems), so the format of a year cannot be given without reading every paper, and no year has a layout.
+  edition_form: year
+  languages: [de]
+  copyright: Solutions from the 35th MO are not to be republished.
+  sources: [olympiade-mathematik]
+  description: The third round (Landesrunde) of the German olympiad, held in each state over two days, with a paper for each grade. The archive of olympiade-mathematik.de has the papers of the 1st to the 34th olympiads (1961/62 to 1994/95). The number of problems changes by olympiad, grade and round, so it counts no positions.
+
+- code: de-mo-r4
+  name: German Mathematical Olympiad, Federal Round (lower grades)
+  names: {de: Mathematik-Olympiade, 4. Stufe (Bundesrunde)}
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: DE
+  organizer: Mathematik-Olympiaden e.V.
+  url: https://www.olympiade-mathematik.de/
+  first_year: 1962
+  # Agent decision, not a person's review: the year is the year of the final, as in de-mo (the 1st olympiad, 1961/62, is 1962). The papers of the rounds have one paper for each grade, and the number of problems changes by olympiad, grade and round (the samples of the 1st, 15th, 25th and 34th olympiads have papers of four, five or six problems), so the format of a year cannot be given without reading every paper, and no year has a layout.
+  edition_form: year
+  languages: [de]
+  copyright: Solutions from the 35th MO are not to be republished.
+  sources: [olympiade-mathematik]
+  description: The papers of the fourth round (Bundesrunde) for the grades below the highest grade. The paper of the highest grade is de-mo. The archive of olympiade-mathematik.de has the papers of the 1st to the 34th olympiads (1961/62 to 1994/95). The number of problems changes by olympiad, grade and round, so it counts no positions.
 
 - code: de-bundeswettbewerb
   name: Bundeswettbewerb Mathematik
@@ -2341,6 +2410,64 @@
   languages: [de]
   sources: [aimo-awb]
   description: The tests that choose the German team for the IMO. The organizer publishes two tests of three problems for each year from 2000 to 2022.
+
+- code: de-lwm-by
+  name: Landeswettbewerb Mathematik Bayern
+  short: LWMB
+  names: {de: Landeswettbewerb Mathematik Bayern}
+  group: national
+  level: high-school
+  country: DE
+  url: https://www.lwmb.de/archiv
+  first_year: 1999
+  # Agent decision, not a person's review: the archive of lwmb.de (read on 2026-11-16) has the problem sheets of the 5th to the 29th competitions and the solutions of the 1st to the 28th. The year is the end year of the school year (the 28th competition, 2025/26, is 2026, so the 1st is 1999). The sheets of the 24th (2022) and 28th (2026) first rounds have six problems, of which a pupil sends at most four, the solutions of the 12th (2010) first round have six, and the solutions of the 28th second round have four. The position of problem N of the first round is aN and of the second round bN. The years before 2010 were not checked, so 1999 to 2009 have no layout.
+  eras:
+    - {from: 1999, to: 2009}
+    - {from: 2010, per_year: 10, layout: [{paper: round1, name: Round 1, positions: [a1, a2, a3, a4, a5, a6]}, {paper: round2, name: Round 2, positions: [b1, b2, b3, b4]}]}
+  edition_form: year
+  official_solutions: true
+  languages: [de]
+  sources: [lwmb, hf-ai-mo-aops]
+  description: The state competition of Bavaria in two rounds. The archive of lwmb.de has the problem sheets of the 5th to the 29th competitions and the solutions of the 1st to the 28th. Each year from 2010 has a first round of six problems and a second round of four; 1999 to 2009 have no layout.
+
+- code: de-lwm-bw
+  name: Landeswettbewerb Mathematik Baden-Württemberg
+  short: LWM BW
+  names: {de: Landeswettbewerb Mathematik Baden-Württemberg}
+  group: national
+  level: high-school
+  country: DE
+  url: https://www.landeswettbewerb-mathematik.de/
+  # Agent decision, not a person's review: the problem sheets of the first round of 2025 and 2026 (landeswettbewerb-mathematik.de/pdf/aufgabenYYYY.pdf, read on 2026-11-16) have six problems, but the second round was not checked, so no year has a layout.
+  edition_form: year
+  official_solutions: true
+  languages: [de]
+  sources: [lwm-bw, hf-ai-mo-aops]
+  description: The state competition of Baden-Württemberg in two rounds. Its site has the papers from 2006, and older papers only on a CD. The second round is not checked, so it counts no positions.
+
+- code: de-mw-he
+  name: Mathematik-Wettbewerb des Landes Hessen
+  names: {de: Mathematik-Wettbewerb des Landes Hessen}
+  group: national
+  level: junior
+  country: DE
+  url: https://www.mathematik-wettbewerb.de/
+  # Agent decision, not a person's review: the site did not answer on 2026-11-16, so no paper was seen and no year has a layout.
+  edition_form: year
+  languages: [de]
+  sources: [mw-hessen]
+  description: The state competition of Hesse for grade 8, in three rounds, held since 1968. Its site lists an archive of papers. The shape is not checked yet, so it counts no positions.
+
+- code: de-qedmo
+  name: QEDMO
+  group: national
+  level: high-school
+  country: DE
+  # Agent decision, not a person's review: no official archive was found, so no year has a layout.
+  edition_form: year
+  languages: [de, en]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: An informal olympiad that German olympiad students set for each other, with problems posted on AoPS. No official archive was found. Its editions are numbered (1st, 2nd and later), and the shape is not known, so it counts no positions.
 
 - code: fr-tst
   name: French Olympiad Training and Selection
@@ -2429,7 +2556,95 @@
   official_solutions: true
   languages: [it]
   sources: [olimpiadi-unibo, hf-mathnet]
-  description: The Italian olympiad with its national final in Cesenatico and the Febbraio and Archimede rounds. The site has the finals from 2000 to 2025 with solutions.
+  description: The national final of the Italian olympiad in Cesenatico. The site has the finals from 2000 to 2025 with solutions. The earlier rounds are it-archimede (November) and it-febbraio (February).
+
+- code: it-archimede
+  name: Giochi di Archimede
+  names: {it: Giochi di Archimede}
+  group: national
+  level: high-school
+  country: IT
+  organizer: Unione Matematica Italiana
+  url: https://olimpiadi.dm.unibo.it/le-gare/giochi-di-archimede/
+  first_year: 1996
+  # Agent decision, not a person's review: the archive of the olympiad site (read on 2026-11-16) has the papers of 1996 to 2025, one for the biennio and one for the triennio; the year is the calendar year of the contest (November or December). The papers seen give 20 and 25 problems in 1996, 2000, 2005, 2010 and 2011, 16 and 20 in 2012, 2013, 2014, 2015 and 2019, 12 and 12 in 2020 and 2021, and 16 and 16 in 2022, 2023, 2024 and 2025. The position of problem N is bN on the biennio paper and tN on the triennio paper. The first year counted is 1996, where the archive starts.
+  eras:
+    - {from: 1996, to: 2011, per_year: 45, layout: [{paper: biennio, name: Biennio, positions: [b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20]}, {paper: triennio, name: Triennio, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15, t16, t17, t18, t19, t20, t21, t22, t23, t24, t25]}]}
+    - {from: 2012, to: 2019, per_year: 36, layout: [{paper: biennio, name: Biennio, positions: [b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16]}, {paper: triennio, name: Triennio, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15, t16, t17, t18, t19, t20]}]}
+    - {from: 2020, to: 2021, per_year: 24, layout: [{paper: biennio, name: Biennio, positions: [b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12]}, {paper: triennio, name: Triennio, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12]}]}
+    - {from: 2022, per_year: 32, layout: [{paper: biennio, name: Biennio, positions: [b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16]}, {paper: triennio, name: Triennio, positions: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15, t16]}]}
+  edition_form: year
+  official_solutions: true
+  languages: [it]
+  sources: [olimpiadi-unibo]
+  description: The first round of the Italian olympiad, held in the schools in November, with a paper for the biennio and a paper for the triennio. The olympiad site has the papers from 1996 to 2025 with solutions. Each year has a biennio and a triennio paper, laid out by the eras of the archive.
+
+- code: it-febbraio
+  name: Gara di Febbraio
+  names: {it: Gara di Febbraio (Gara distrettuale)}
+  group: national
+  level: high-school
+  country: IT
+  organizer: Unione Matematica Italiana
+  url: https://olimpiadi.dm.unibo.it/
+  first_year: 1997
+  # Agent decision, not a person's review: the archive of the olympiad site (read on 2026-11-16) has the papers of 1997 to 2026. The papers of 1997 to 2001, 2006 and 2008 to 2026 have 17 problems (multiple choice, numeric answer and proof problems, numbered 1 to 17), and the paper of 2007 has 18. The papers of 2002 to 2005 are scanned images whose format was not read, so those years have no layout. The first year counted is 1997, where the archive starts.
+  eras:
+    - {from: 1997, to: 2001, per_year: 17}
+    - {from: 2002, to: 2005}
+    - {from: 2006, to: 2006, per_year: 17}
+    - {from: 2007, to: 2007, per_year: 18}
+    - {from: 2008, per_year: 17}
+  edition_form: year
+  official_solutions: true
+  languages: [it]
+  sources: [olimpiadi-unibo, hf-mathnet]
+  description: The second round of the Italian olympiad (gara di secondo livello, or gara distrettuale), held in February, with answer problems and proof problems. The olympiad site posts the paper with solutions each year. Some years before 2005 had a paper for the biennio and a paper for the triennio. Each paper has 17 problems (18 in 2007); 2002 to 2005 have no layout.
+
+- code: it-squadre
+  name: Italian Team Competition
+  names: {it: Gara a squadre}
+  group: national
+  level: high-school
+  country: IT
+  organizer: Unione Matematica Italiana
+  url: https://olimpiadi.dm.unibo.it/
+  # Agent decision, not a person's review: the team papers were not checked, so no year has a layout.
+  edition_form: year
+  languages: [it]
+  sources: [olimpiadi-unibo]
+  description: The team competition of the Italian olympiad, with district rounds and a national final in Cesenatico. Its answer-only problems are set for teams. Where the papers are archived is not confirmed, so it counts no positions.
+
+- code: it-classi-prime
+  name: Italian Competition for First-Year Students
+  names: {it: Gara nazionale classi prime}
+  group: national
+  level: junior
+  country: IT
+  organizer: Unione Matematica Italiana
+  url: https://olimpiadi.dm.unibo.it/
+  first_year: 2013
+  # Agent decision, not a person's review: the olympiad site (read on 2026-11-16) has the papers of 2013 to 2020 and 2024 to 2026; the contest was not held in 2021 to 2023. The paper of 2013 has 20 questions and the papers of 2014 to 2020 and 2024 to 2026 have 18. The year is the calendar year of the contest (January or February).
+  gaps: [2021, 2022, 2023]
+  eras:
+    - {from: 2013, to: 2013, per_year: 20}
+    - {from: 2014, per_year: 18}
+  edition_form: year
+  official_solutions: true
+  languages: [it]
+  sources: [olimpiadi-unibo]
+  description: The competition of the Italian olympiad for the first year of upper secondary school (grade 9, so the level is junior). The olympiad site posts the paper with solutions. The paper of 2013 has 20 questions and the later papers 18.
+
+- code: it-oliforum
+  name: Oliforum Contest
+  group: national
+  level: high-school
+  country: IT
+  # Agent decision, not a person's review: no official archive was found, so no year has a layout.
+  edition_form: year
+  languages: [it, en]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: An online olympiad of the Italian forum Oliforum, held in rounds and numbered I to V (2008 to 2017). The problems are posted on AoPS. No official archive was found, and the shape is not known, so it counts no positions.
 
 - code: es-ome
   name: Spanish Mathematical Olympiad
@@ -2462,6 +2677,46 @@
   sources: [rsme-ome, hf-mathnet]
   description: The national olympiad of Spain with six problems. A compendium holds the problems from 1963 to 2004.
 
+- code: es-ome-local
+  name: Spanish Mathematical Olympiad, Local Phase
+  names: {es: Olimpiada Matemática Española, fase local}
+  group: national
+  level: high-school
+  country: ES
+  organizer: RSME
+  url: https://www.rsme.es/olimpiada-matematica-espanola/
+  # Agent decision, not a person's review: the RSME booklets of the local phase collect the papers of many university districts, whose number of problems changes by district and year (more than twelve in 2017, two sessions of four in 2022, two sessions of three in 2023), so no year has a layout.
+  edition_form: year
+  languages: [es]
+  sources: [rsme-ome, hf-mathnet]
+  description: The first phase of the Spanish olympiad, held in January by each university district, with one or two sessions. The RSME page has the problems and solutions of the local phase from 1998/99. The number of problems changes by district and year, so it counts no positions.
+
+- code: es-fespm
+  name: FESPM National Mathematical Olympiad (2º ESO)
+  names: {es: Olimpiada Matemática Nacional de la FESPM}
+  group: national
+  level: junior
+  country: ES
+  organizer: Federación Española de Sociedades de Profesores de Matemáticas (FESPM)
+  url: https://fespm.es/
+  # Agent decision, not a person's review: the FESPM booklet was not read for each year, so no year has a layout.
+  edition_form: year
+  languages: [es]
+  sources: [fespm]
+  description: The national olympiad of the FESPM for the second year of ESO (age 13 to 14), after regional olympiads of the member societies. A FESPM booklet holds the individual papers from 1990 to 2019. The shape is not checked yet, so it counts no positions.
+
+- code: es-bcntech
+  name: BarcelonaTech Mathcontest
+  group: national
+  level: high-school
+  country: ES
+  organizer: Universitat Politècnica de Catalunya
+  # Agent decision, not a person's review: no archive was confirmed, so no year has a layout.
+  edition_form: year
+  languages: [es, ca, en]
+  sources: [hf-mathnet, hf-ai-mo-aops]
+  description: A competition of the Universitat Politècnica de Catalunya for secondary students. No archive was confirmed, and the shape is not known, so it counts no positions.
+
 - code: pt-opm
   name: Portuguese Mathematical Olympiad
   short: OPM
@@ -2479,7 +2734,62 @@
     - {from: 2020, to: 2021, per_year: 4}
   languages: [pt]
   sources: [spm-opm]
-  description: The national olympiad of Portugal. The positions are the problems of the final of category B (10th to 12th grade), three on each of two days. The finals of 2020 and 2021 had one day of four problems.
+  description: The national olympiad of Portugal. The positions are the problems of the final of category B (10th to 12th grade), three on each of two days. The finals of 2020 and 2021 had one day of four problems. The qualifying rounds of category B are pt-opm-elim, and the lower categories are pt-opm-a and pt-opm-junior.
+
+- code: pt-opm-a
+  name: Portuguese Mathematical Olympiad, Category A
+  names: {pt: Olimpíadas Portuguesas de Matemática, categoria A}
+  group: national
+  level: junior
+  country: PT
+  organizer: Sociedade Portuguesa de Matemática
+  url: https://olimpiadas.spm.pt/
+  first_year: 1994
+  # Agent decision, not a person's review: the year is the end year of the school year (the XII OPM, 1993/94, is 1994, where the SPM archive starts). The papers seen (2000, 2005, 2009, 2011, 2014, 2017, 2020, 2021, 2023 and 2026) have four questions in each eliminatória and a final of two days of three problems (numbered 1 to 6); the finals of 2020 and 2021 were one paper of four problems. The position is aN and bN in the eliminatórias and pN in the final.
+  eras:
+    - {from: 1994, to: 2019, per_year: 14, layout: [{paper: round1, name: 1st eliminatória, positions: [a1, a2, a3, a4]}, {paper: round2, name: 2nd eliminatória, positions: [b1, b2, b3, b4]}, {paper: final, name: Final, positions: [p1, p2, p3, p4, p5, p6]}]}
+    - {from: 2020, to: 2021, per_year: 12, layout: [{paper: round1, name: 1st eliminatória, positions: [a1, a2, a3, a4]}, {paper: round2, name: 2nd eliminatória, positions: [b1, b2, b3, b4]}, {paper: final, name: Final, positions: [p1, p2, p3, p4]}]}
+    - {from: 2022, per_year: 14, layout: [{paper: round1, name: 1st eliminatória, positions: [a1, a2, a3, a4]}, {paper: round2, name: 2nd eliminatória, positions: [b1, b2, b3, b4]}, {paper: final, name: Final, positions: [p1, p2, p3, p4, p5, p6]}]}
+  edition_form: year
+  languages: [pt]
+  sources: [spm-opm]
+  description: Category A of the Portuguese olympiad, for the 8th and 9th grades, with a first round, a second round and a final. The SPM archive of papers runs from 1993/94. Each year has two eliminatórias of four questions and a final of six problems (four in 2020 and 2021).
+
+- code: pt-opm-junior
+  name: Portuguese Mathematical Olympiad, Junior Category
+  names: {pt: Olimpíadas Portuguesas de Matemática, categoria Júnior}
+  group: national
+  level: junior
+  country: PT
+  organizer: Sociedade Portuguesa de Matemática
+  url: https://olimpiadas.spm.pt/
+  first_year: 2011
+  # Agent decision, not a person's review: the year is the end year of the school year; the Junior category starts with the XXIX OPM (2010/11, so 2011). The papers seen (2011, 2014, 2017, 2020, 2021, 2023 and 2026) have the same form as category A: four questions in each eliminatória and a final of six problems, four in 2020 and 2021.
+  eras:
+    - {from: 2011, to: 2019, per_year: 14, layout: [{paper: round1, name: 1st eliminatória, positions: [a1, a2, a3, a4]}, {paper: round2, name: 2nd eliminatória, positions: [b1, b2, b3, b4]}, {paper: final, name: Final, positions: [p1, p2, p3, p4, p5, p6]}]}
+    - {from: 2020, to: 2021, per_year: 12, layout: [{paper: round1, name: 1st eliminatória, positions: [a1, a2, a3, a4]}, {paper: round2, name: 2nd eliminatória, positions: [b1, b2, b3, b4]}, {paper: final, name: Final, positions: [p1, p2, p3, p4]}]}
+    - {from: 2022, per_year: 14, layout: [{paper: round1, name: 1st eliminatória, positions: [a1, a2, a3, a4]}, {paper: round2, name: 2nd eliminatória, positions: [b1, b2, b3, b4]}, {paper: final, name: Final, positions: [p1, p2, p3, p4, p5, p6]}]}
+  edition_form: year
+  languages: [pt]
+  sources: [spm-opm, hf-ai-mo-aops]
+  description: The Junior category of the Portuguese olympiad, for the 6th and 7th grades. The SPM archive has its papers. Each year has two eliminatórias of four questions and a final of six problems (four in 2020 and 2021).
+
+- code: pt-opm-elim
+  name: Portuguese Mathematical Olympiad, Qualifying Rounds
+  names: {pt: Olimpíadas Portuguesas de Matemática, eliminatórias}
+  group: national
+  level: high-school
+  country: PT
+  organizer: Sociedade Portuguesa de Matemática
+  url: https://olimpiadas.spm.pt/
+  first_year: 1994
+  # Agent decision, not a person's review: the year is the end year of the school year, as in pt-opm (the XII OPM, 1993/94, is 1994, where the SPM archive starts). The papers seen (2000, 2005, 2009, 2011, 2014, 2017, 2020, 2021, 2023 and 2026) have four questions in each eliminatória; question 1 has multiple choice parts and counts as one position. The position of question N is aN in the first eliminatória and bN in the second.
+  eras:
+    - {from: 1994, per_year: 8, layout: [{paper: round1, name: 1st eliminatória, positions: [a1, a2, a3, a4]}, {paper: round2, name: 2nd eliminatória, positions: [b1, b2, b3, b4]}]}
+  edition_form: year
+  languages: [pt]
+  sources: [spm-opm]
+  description: The first and second qualifying rounds (eliminatórias) of category B of the Portuguese olympiad, for the 10th to 12th grades. The final of category B is pt-opm. Each year has two eliminatórias of four questions.
 
 - code: nl-nwo
   name: Dutch Mathematical Olympiad Final
@@ -2621,12 +2931,65 @@
   level: high-school
   country: CH
   url: https://imosuisse.github.io/
+  first_year: 2004
+  # Agent decision, not a person's review: the exams table of imosuisse.github.io (read on 2026-11-16) has the final papers of 2004 to 2026: ten problems in 2004 to 2018 and eight in 2019 to 2026.
+  eras:
+    - {from: 2004, to: 2018, per_year: 10}
+    - {from: 2019, per_year: 8}
   edition_form: year
   official_solutions: true
   languages: [de, fr, it, en]
   copyright: The licence of the GitHub archive is not checked.
   sources: [imosuisse]
-  description: The Swiss olympiad and IMO selection. The official archive is on GitHub.
+  description: The final round of the Swiss olympiad. The official archive is on GitHub. The earlier rounds are ch-smo-r1 and ch-smo-r2, and the IMO selection is ch-tst. Each final has ten problems (2004 to 2018) or eight (from 2019).
+
+- code: ch-smo-r1
+  name: Swiss Mathematical Olympiad, First Round
+  names: {de: Schweizer Mathematik-Olympiade, Vorrunde, fr: Olympiade suisse de mathématiques, premier tour}
+  group: national
+  level: high-school
+  country: CH
+  url: https://imosuisse.github.io/
+  # Agent decision, not a person's review: the exams table of imosuisse.github.io (read on 2026-11-16) has the second round, the final and the selection, but no first round, so no year has a layout.
+  edition_form: year
+  official_solutions: true
+  languages: [de, fr, it, en]
+  sources: [imosuisse, hf-mathnet]
+  description: The first round (Vorrunde or first round) of the Swiss olympiad. The exams table of the GitHub archive of IMO Suisse has no first round papers. Its papers were not found in the GitHub archive, so it counts no positions.
+
+- code: ch-smo-r2
+  name: Swiss Mathematical Olympiad, Second Round
+  names: {de: Schweizer Mathematik-Olympiade, Zweite Runde, fr: Olympiade suisse de mathématiques, deuxième tour}
+  group: national
+  level: high-school
+  country: CH
+  url: https://imosuisse.github.io/
+  first_year: 2004
+  # Agent decision, not a person's review: the exams table of imosuisse.github.io (read on 2026-11-16) has the second round papers of 2004 to 2026: five problems in 2004 to 2016 and six in 2017 to 2026.
+  eras:
+    - {from: 2004, to: 2016, per_year: 5}
+    - {from: 2017, per_year: 6}
+  edition_form: year
+  official_solutions: true
+  languages: [de, fr, it, en]
+  sources: [imosuisse, hf-mathnet]
+  description: The second round of the Swiss olympiad. The GitHub archive of IMO Suisse has the papers. Each paper has five problems (2004 to 2016) or six (from 2017).
+
+- code: ch-tst
+  name: Swiss IMO Selection
+  names: {de: Selektion, Vorselektionsprüfung}
+  group: national
+  level: high-school
+  country: CH
+  url: https://imosuisse.github.io/
+  first_year: 2004
+  # Agent decision, not a person's review: the exams table of imosuisse.github.io (read on 2026-11-16) has the selection papers of 2004 to 2026 with twelve problems each year.
+  per_year: 12
+  edition_form: year
+  official_solutions: true
+  languages: [de, fr, en]
+  sources: [imosuisse, hf-mathnet]
+  description: The pre-selection test and the selection tests that choose the Swiss team for the IMO. The GitHub archive of IMO Suisse has the selection papers. Each year has twelve selection problems.
 
 - code: at-oemo
   name: Austrian Mathematical Olympiad

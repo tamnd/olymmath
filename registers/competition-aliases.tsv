@@ -436,7 +436,7 @@ Latvia Baltic Way TST	lv-tst
 Lithuania National Olympiad	lt-mo
 Greece National Olympiad	gr-hms
 Greece Junior Math Olympiad	gr-hms
-Greece JBMO TST	-
+Greece JBMO TST	gr-tst
 Czech and Slovak Olympiad III A	cz-sk-mo
 Czech And Slovak Olympiad IIIA	cz-sk-mo
 Czech-Polish-Slovak Junior Match	cps-junior
@@ -450,7 +450,7 @@ Bulgarian Autumn Math Competition	bg-autumn
 IFYM, Sozopol	bg-ifym
 Serbia National Math Olympiad	rs-smo
 Serbia_MO	rs-smo
-Serbia Team Selection Test	-
+Serbia Team Selection Test	rs-tst
 Federal Math Competition of S&M	-
 Yugoslav Team Selection Test	-
 Croatia National Olympiad	hr-mo
@@ -468,8 +468,8 @@ Slovenija	si-mo
 Državno tekmovanje	si-mo
 Bosnia And Herzegovina - Regional Olympiad	ba-mo
 Junior Regional Olympiad - FBH	ba-mo
-Bosnia and Herzegovina Team Selection Test	-
-Bosnia and Herzegovina Junior BMO TST	-
+Bosnia and Herzegovina Team Selection Test	ba-tst
+Bosnia and Herzegovina Junior BMO TST	ba-jbmo-tst
 Macedonian Mathematical Competitions	mk-mo
 Macedonian Mathematical Olympiad	mk-mo
 Macedonia National Olympiad	mk-mo
@@ -525,10 +525,10 @@ Iran MO (2nd Round)	ir-mo-r2
 Iranian Mathematical Olympiad	ir-mo
 Iran TST	ir-tst
 Pre-Preparation Course Examination	-
-Turkey Team Selection Test	-
+Turkey Team Selection Test	tr-tst
 Turkey MO (2nd round)	tr-mo
-Turkey Junior National Olympiad	-
-JBMO TST - Turkey	-
+Turkey Junior National Olympiad	tr-jmo
+JBMO TST - Turkey	tr-jbmo-tst
 Vietnam National Olympiad	vn-vmo
 Vietnamese Mathematical Competitions	vn-vmo
 Vietnam TST	vn-tst
@@ -666,18 +666,18 @@ Thailand TST	-
 Belarusian NMO	by-mo
 Taiwan NMO	tw-tst
 South africa NMO	za-samo
-Greece TST	-
-Turkey Junior NMO	-
-Bosnia Herzegovina TST	-
-Bosnia Herzegovina Team Selection Test	-
+Greece TST	gr-tst
+Turkey Junior NMO	tr-jmo
+Bosnia Herzegovina TST	ba-tst
+Bosnia Herzegovina Team Selection Test	ba-tst
 Macedonia NMO	mk-mo
 France TST	fr-tst
-Turkey EGMO TST	-
+Turkey EGMO TST	tr-egmo-tst
 Croatia TST	hr-tst
 Moldova NMO	md-mo
 Bulgaria TST	bg-tst
 Dutch BxMO/EGMO TST	nl-bxmo-tst
-Greece Team Selection Test	-
+Greece Team Selection Test	gr-tst
 Armenia NMO XI-XII - geometry	am-mo
 # More labels of MathNet and AoPS.
 Mongolian Mathematical Olympiad 46	mn-mo
@@ -1447,3 +1447,82 @@ Bulgaria 68. National Mathematical Olympiad	bg-mo
 Bulgaria MO Regional Round	bg-mo-regional
 4 Bulgarian National Olympiad - Regional Round	bg-mo-regional
 IFYM Int. Fest. of Young Mathematicians Sozopol	bg-ifym
+# Greece, Cyprus, the Western Balkans and Turkey: labels from the unknown list of the coverage report, mapped on 2026-11-16. Agent decision, not a person's review: each line maps a label to the competition that it names. A generic MathNet label maps through its second label, the country and the label. A label that names no round of one competition, or that names a training set, maps to "-".
+North Macedonia Регионален натпревар по математика за основно образование	mk-regional
+North Macedonia Регионален натпревар по математика за средно образование	mk-regional
+North Macedonia Републички натпревар по математика за основно образование	mk-primary
+North Macedonia Team Selection Test for IMO	mk-tst
+North Macedonia Team Selection Test for BMO	mk-tst
+North Macedonia IMO Selection Test	mk-tst
+North Macedonia IMO Team Selection Test	mk-tst
+Macedonian Team Selection Test	mk-tst
+Macedonian Balkan MO TST	mk-tst
+Macedonia Additional BMO TST	mk-tst
+JBMO TST   Macedonia	mk-jbmo-tst
+Macedonia JBMO TST	mk-jbmo-tst
+FYROM JBMO Team Selection Test	mk-jbmo-tst
+Macedonia Junior BMO TST	mk-jbmo-tst
+Macedonian Junior Balkan MO TST	mk-jbmo-tst
+North Macedonia ЈММО 2009 година	mk-jmo
+North Macedonia Fourth Memorial Mathematical Contest	mk-cane
+Memorial "Aleksandar Blazhevski Cane"	mk-cane
+North Macedonia 19-th Macedonian Mathematical Olympiad	mk-mo
+North Macedonia Sixteenth Macedonian Mathematical Olympiad	mk-mo
+North Macedonia XVI Македонска математичка олимпијада	mk-mo
+North Macedonia XVIII-th Macedonian mathematical Olympiad	mk-mo
+Macedonian Nationаl Olympiad	mk-mo
+North Macedonia XV-th Junior Balkan Mathematical Olympiad	jbmo
+North Macedonia XVI-th Junior Balkan Mathematical Olympiad	jbmo
+North Macedonia 29-th Balkan Mathematical Olympiad	balkan
+North Macedonia XXVIII-th Balkan Mathematical Olympiad	balkan
+North Macedonia	-
+Akdeniz University MO	tr-akdeniz
+Turkey Team Selection Test for IMO	tr-tst
+Turkey IMO TEAM SELECTION EXAM	tr-tst
+Turkey Team Selection Examination for the International Mathematical Olympiad	tr-tst
+Turkey TEAM SELECTION EXAMINATION FOR THE 42nd INTERNATIONAL MATH- EMATICAL OLYMPIAD. TURKEY.	tr-tst
+Turkey Team SeIection Test	tr-tst
+Turkey Team Selection Test for JBMO	tr-jbmo-tst
+Turkey Team Selection Test for EGMO	tr-egmo-tst
+EGMO TST Turkey	tr-egmo-tst
+Turkey Junior Turkish Mathematical Olympiad	tr-jmo
+Turkey VIIth NATIONAL MATHEMATICAL OLYMPIAD	tr-mo
+Turkey X. NATIONAL MATHEMATICAL OLYMPIAD	tr-mo
+Turkey XIII. National Mathematical Olympiad	tr-mo
+Turkey National Olympiad First Round	tr-mo-r1
+Turkish National Olympiad First Round	tr-mo-r1
+NMO First Round	tr-mo-r1
+Turkey Olympic Revenge	tr-revenge
+Türkiye Olympic Revenge	tr-revenge
+Greece Hellenic Mathematical Olympiad ARCHIMEDES	gr-hms
+Greece Selection Examination A	gr-tst
+Greece Selection Examination B	gr-tst
+Greece Selection examinations	gr-tst
+Greece Selection Examination for Juniors	gr-tst
+Cyprus TST	cy-tst
+Cyprus IMO TST	cy-tst
+Cyprus JBMO TST	cy-jbmo-tst
+Serbia JBMO TST	rs-jbmo-tst
+Junior Balkan TST	rs-jbmo-tst
+Junior Balkan TSTs Serbia	rs-jbmo-tst
+Junior Balkan Team Selection Tests-Serbia	rs-jbmo-tst
+Serbia Additional Team Selection Test	rs-tst
+Serbia Team Selection Test for the BMO 2025	rs-tst
+Serbia Team Selection Test for the IMO 2025	rs-tst
+Serbia EGMO TST	rs-tst
+Yugoslav National Math Olympiad	yu-federal
+Federal Math Competition of Serbia and Montenegro	yu-federal
+JBMO TST   Bosnia and Herzegovina	ba-jbmo-tst
+Bosnia and Herzegovina EGMO TST	ba-egmo-tst
+Bosnia and Herzegovina IMO TST	ba-tst
+Bosnia and Herzegovina BMO TST	ba-tst
+Regional Olympiad - Republic of Srpska	ba-srpska
+Albania Team Selection Test	al-tst
+Albania BMO TST	al-tst
+Albania JBMO TST	al-jbmo-tst
+Albania NMO	al-mo
+Albania National Olympiad	al-mo
+Albania Round 2	al-mo
+Albanians Cup in Mathematics	al-cup
+Kosovo & Albania MO	al-xk-mo
+Kosovo EGMO Team Selection Test	xk-tst

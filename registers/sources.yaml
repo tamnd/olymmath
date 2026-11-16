@@ -2910,6 +2910,22 @@
   state: active
   notes: "The page of secondary school competitions links one PDF for each round and year under /wp-content/uploads/. For the ММО the file of 2024 holds the problems only, and the other files hold the problems with solutions and the points. The robots.txt of smm.org.mk disallows only /wp-admin/ (checked on 2026-11-13). The old site old.smm.org.mk serves an empty page, so the papers before 2020 are not on the site."
 
+- id: parmenides-eme
+  name: Parmenides51 blog, page of the Greek competitions
+  kind: curated
+  origin: H2
+  url: https://parmenides51.blogspot.com/p/eme.html
+  access: pdf
+  terms: "No licence found (read on 2026-11-16). The page links files on Google Drive that hold the papers and the official solutions of the Hellenic Mathematical Society. Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: one file of the papers and solutions of Thales and Euclid for 2006 to 2019 by grade and of Archimedes for 2009 to 2020, and files for each later year by round, with papers for the gymnasium and the lyceum
+  wave: 2
+  state: planned
+  notes: "A link page, not an archive. The files are on Google Drive, so a harvest reads drive.google.com, not the blog. robots.txt of the blog (checked on 2026-11-16) disallows /search and allows all other paths for User-agent *."
+
 # Census of Western, Northern and Central Europe (2026-11-16), the United Kingdom, Ireland, France and the Benelux; Germany, Austria, Switzerland, Italy, Spain and Portugal; the Nordic and Baltic countries; Poland, Czechia, Slovakia, Hungary, Slovenia and Croatia: official and curated archives of the national rounds, junior olympiads and regional contests.
 - id: ukmt-free
   name: UKMT free past papers

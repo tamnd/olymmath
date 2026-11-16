@@ -1265,6 +1265,238 @@
   state: active
   notes: "The page YEAR/problems.html of each olympiad links the papers of the district round, the city round for grades 6 to 8 and the city round for grades 9 to 11, as LaTeX, PostScript and PDF. For 2008 to 2012 the PDF is in a zip file (91108pdf.zip and so on), so the records link to the problems page of the year. From 2013 the PDF is c_911_YY.pdf. Page 1 of each paper is grade 9, page 2 grade 10 and page 3 grade 11, and each grade numbers its problems 1 to 7. Many problems are in two or three grades. The PDFs of 2008 to 2011 have no usable text layer, so their pages were read as images. The site has no robots.txt (404 on 2026-11-13), so all paths are allowed."
 
+- id: olimpiada-ru
+  name: olimpiada.ru
+  kind: curated
+  origin: H2
+  url: https://olimpiada.ru/
+  access: pdf
+  terms: "The footer says © Олимпиада.ру, 1996—2026 (read on 2026-11-16). No licence and no terms of reuse are stated. The papers are the papers of the organizers. Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: the task pages of many olympiads, for example activity/72 (All-Russian olympiad), 29 (Euler), 223 (Formula of Unity) and 4 (Lomonosov Tournament)
+  wave: 2
+  state: planned
+  notes: "The page /activity/N/tasks of an olympiad lists its papers by year, stage and grade, with links to PDF files. robots.txt (checked on 2026-11-16) gives User-agent * and disallows /activities/*, /activity/*/page*, the search and a few single pages, so the task pages are allowed. It names no AI crawler and has no content signal."
+
+- id: vos-moscow
+  name: All-Russian olympiad in Moscow (vos.olimpiada.ru)
+  kind: official
+  origin: H1
+  url: https://vos.olimpiada.ru/
+  access: pdf
+  terms: "The footer says © Всероссийская олимпиада школьников в Москве 2026 and links a page of legal information (read on 2026-11-16). No licence is stated. Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 2
+  state: planned
+  notes: "The Moscow site of the All-Russian olympiad, run by the Moscow Centre for Pedagogical Excellence. It gives the papers of the school, municipal and regional stages in Moscow. robots.txt gives a 404 page on 2026-11-16, so all paths are allowed."
+
+- id: sirius-olymp
+  name: School stage of the All-Russian olympiad (Sirius)
+  kind: official
+  origin: H1
+  url: https://siriusolymp.ru/
+  access: pdf
+  terms: "The footer says © 2026 Фонд «Талант и успех» (read on 2026-11-16). No licence is stated. Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 2
+  state: planned
+  notes: "The Sirius centre runs the online school stage for most regions from 2020 and gives the papers and the solutions by grade. robots.txt (checked on 2026-11-16) gives User-agent * and disallows some single pages, the participant and organizer pages of 2026 and the informatics pages. It names no AI crawler."
+
+- id: formulo
+  name: Formula of Unity / Third Millennium
+  kind: official
+  origin: H1
+  url: https://www.formulo.org/
+  access: pdf
+  terms: "No licence and no copyright line found on the home page (read on 2026-11-16). Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 2
+  state: planned
+  notes: "The site gives one PDF file of problems and solutions for each round, as wp-content/uploads/2026/01/fdi_tm_25_26_math_q_sol_ru.pdf. robots.txt (checked on 2026-11-16) allows all paths for User-agent *."
+
+- id: kurchatov-official
+  name: Kurchatov Olympiad
+  kind: official
+  origin: H1
+  url: https://olimpiadakurchatov.ru/
+  access: pdf
+  terms: "The footer says © Олимпиада «Курчатов» 2026 (read on 2026-11-16). No licence is stated. Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 2
+  state: planned
+  notes: "robots.txt (checked on 2026-11-16) gives User-agent * and disallows /kurchatov, /header, /error, some single pages and the Tilda form paths. It names no AI crawler. The archive pages of the papers are not yet located."
+
+- id: msu-olymp
+  name: Lomonosov Olympiad (Moscow State University)
+  kind: official
+  origin: H1
+  url: https://olymp.msu.ru/
+  access: pdf
+  terms: "The home page links a legal page (Право) but states no licence (read on 2026-11-16). Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 2
+  state: planned
+  notes: "The home page says the olympiad has been held since 2005. robots.txt (checked on 2026-11-16) gives User-agent * with no Disallow line, so all paths are allowed."
+
+- id: hse-olymp
+  name: Vysshaya Proba (HSE olympiads)
+  kind: official
+  origin: H1
+  url: https://olymp.hse.ru/
+  access: pdf
+  crawl_delay: 3
+  terms: "No licence found (read on 2026-11-16). Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 2
+  state: planned
+  notes: "robots.txt (checked on 2026-11-16) gives User-agent * with Crawl-delay 3 and disallows the diplomas, search, user and ajax paths. It disallows all paths for GPTBot. It does not name ClaudeBot. The owner has not decided the rule for sites that block named AI crawlers, so the decision for this source is pending."
+
+- id: yumsh
+  name: Junior Mathematical School (ЮМШ)
+  kind: official
+  origin: H1
+  url: https://www.yumsh.ru/
+  access: html
+  crawl_delay: 10
+  terms: "No licence found on the home page (read on 2026-11-16). Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 2
+  state: planned
+  notes: "robots.txt (checked on 2026-11-16) gives User-agent * with Crawl-delay 10. The olympiad pages of the archive are not yet located."
+
+- id: matholymp-kyiv
+  name: Mathematical olympiads in Kyiv (matholymp.com.ua)
+  kind: official
+  origin: H1
+  url: https://matholymp.com.ua/archive
+  access: pdf
+  terms: "The footer says © 2010-2026 (read on 2026-11-16). No licence is stated. Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 2
+  state: planned
+  notes: "The archive splits the papers into the international, the All-Ukrainian and the Kyiv cycles and the olympiads for junior grades, with conditions, solutions and criteria of the Kyiv city stage. robots.txt (checked on 2026-11-16) has only the line User-agent *, so all paths are allowed."
+
+- id: matholymp-ua
+  name: Mathematical olympiad movement of Ukraine (matholymp.danmysak.com)
+  kind: curated
+  origin: H2
+  url: https://matholymp.danmysak.com/contests/types/olympiads/all-Ukrainian/
+  access: html
+  terms: "The footer says © 2008—2026 (read on 2026-11-16). No licence is stated. Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 2
+  state: planned
+  notes: "An archive of the final (IV) stage of the Ukrainian olympiad with the problems and solutions of both rounds of many years, as the XLVII olympiad of 2007. robots.txt (checked on 2026-11-16) gives User-agent * with no Disallow line."
+
+- id: ippo-kubg
+  name: Kyiv olympiads (Grinchenko University, IPPO)
+  kind: official
+  origin: H1
+  url: https://olimp.ippo.kubg.edu.ua/archives/category/matem
+  access: pdf
+  terms: "The footer says © 2026 Інститут післядипломної освіти Київського столичного університету імені Бориса Грінченка (read on 2026-11-16). No licence is stated. Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 2
+  state: planned
+  notes: "Gives the papers and answers of the II stage and the III (city) stage of the Ukrainian olympiad in Kyiv. robots.txt (checked on 2026-11-16) disallows only /wp-admin/."
+
+- id: apex-minds
+  name: Apex Minds
+  kind: curated
+  origin: H2
+  url: https://apex-minds.org/
+  access: html
+  terms: "The about page (read on 2026-11-16) calls the site an open archive, free and with no registration, but states no licence, no copyright line and no terms of reuse. Most texts are the problems of the organizers, and the other 10,395 come from other competitions, translated into Ukrainian. Agent decision, not a person's review: Z2 for the Ukrainian originals, the spec default for competition statements. The translations are not reference texts."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: 21,566 problems from 58 competitions of 1970 to 2025, 11,171 of them from Ukrainian competitions, almost all with solutions
+  wave: 2
+  state: planned
+  notes: "The Ukrainian part covers the All-Ukrainian olympiad from the district stage to the training camps, the Kyiv olympiads, the Lyashko and Kyiv math battles, the Kyiv junior olympiad, the Kyiv math carousel and the Kyiv team championship. The site has search filters and no API or download. robots.txt (checked on 2026-11-16) allows / and disallows /api/."
+
+- id: mathsmogilev
+  name: Virtual mathematics room, Mogilev (mathsmogilev.by)
+  kind: curated
+  origin: H2
+  url: https://mathsmogilev.by/1415/
+  access: pdf
+  terms: "No licence and no copyright line found on the page (read on 2026-11-16). Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: the papers of the second, third (regional) and final stages of the Belarus olympiad, with the final stage for 2011 to 2025 and the second stage for 2010 to 2025
+  wave: 2
+  state: planned
+  notes: "robots.txt (checked on 2026-11-16) allows / for User-agent *."
+
+- id: gymn1math
+  name: Resource centre for mathematics, Gymnasium 1 (gymn1math.by)
+  kind: curated
+  origin: H2
+  url: https://gymn1math.by/gotovimsja-k-olimpiadam/zakljuchitelnyj-jetap/
+  access: pdf
+  terms: "The footer says Гимназия №1 г. Барановичи - gymn1math.by © 2021 (read on 2026-11-16). No licence is stated. Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: the final stage of the Belarus olympiad from 1997, with older years than mathsmogilev
+  wave: 2
+  state: planned
+  notes: "robots.txt (checked on 2026-11-16) gives User-agent * with an empty Disallow line, so all paths are allowed."
+
+- id: matol-kz
+  name: matol.kz (Al-Farabi olympiad centre)
+  kind: curated
+  origin: H2
+  url: https://matol.kz/
+  access: html
+  terms: "No licence found (read on 2026-11-16). The site sells books of the papers of the regional and district stages. Agent decision, not a person's review: Z2, the spec default for competition statements."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: one page for each year and grade of the Kazakhstan olympiad stages from 2003, as olympiads/1153 (2025, grade 10)
+  wave: 2
+  state: planned
+  notes: "Sections for the district, regional and final stages, the junior olympiad, the Almaty city olympiad, the Zhautykov olympiad, the Al-Farabi olympiad and the Smagulov olympiad. robots.txt gave 403 Forbidden (nginx) for matol.kz and www.matol.kz on 2026-11-16, while the home page loads. No rule is readable. Check access again before a harvest."
+
 - id: oma
   name: Olimpíada Matemática Argentina
   kind: official

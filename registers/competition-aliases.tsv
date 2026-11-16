@@ -355,10 +355,10 @@ Gheorghe Vranceanu	-
 Traian Lălescu	-
 Alexandru Myller	-
 Junior Balkan Team Selection Tests - Romania	-
-Junior Balkan Team Selection Tests - Moldova	-
+Junior Balkan Team Selection Tests - Moldova	md-jbmo-tst
 All-Russian Olympiad	ru-allrussian
-# Agent decision, not a person's review: the regional round of the All-Russian Olympiad is not the final round, and the register has no code for it, so its rows must not take the positions of ru-allrussian.
-All-Russian Olympiad Regional Round	-
+# Agent decision, not a person's review: the regional round of the All-Russian Olympiad is not the final round, so its rows must not take the positions of ru-allrussian. From 2026-11-16 the register has the code ru-allrussian-regional for it.
+All-Russian Olympiad Regional Round	ru-allrussian-regional
 Russian Mathematical Olympiad	ru-allrussian
 XL Russian mathematical olympiad	ru-allrussian
 XLIII Russian mathematical olympiad	ru-allrussian
@@ -481,7 +481,7 @@ Mathematical Olympiad in Ukraine	ua-umo
 UkraineMO	ua-umo
 Ukraine Team Selection Test	-
 Kyiv Mathematical Festival	-
-Kyiv City MO Round 1	-
+Kyiv City MO Round 1	ua-kyiv
 Yasinsky Geometry Olympiad	-
 The Problems of Ukrainian Authors	-
 Ukrainian TYM Qualifying - geometry	-
@@ -489,7 +489,7 @@ Belarusian National Olympiad	by-mo
 Belarusian Mathematical Olympiad	by-mo
 Belorusija	by-mo
 BelarusMO s	by-mo
-Belarus Team Selection Test	-
+Belarus Team Selection Test	by-tst
 Moldova National Olympiad	md-mo
 THE 47-th MATHEMATIAL OLYMPIAD OF REPUBLIC OF MOLDOVA	md-mo
 Olimpiada Republicană la Matematică	md-mo
@@ -637,7 +637,7 @@ May Olympiad	-
 Berkeley Math Circle Monthly Contest	bmc-monthly
 Berkeley Math Circle: Monthly Contest	-
 Soros Olympiad (Russia)	-
-Kyiv City MO - geometry	-
+Kyiv City MO - geometry	ua-kyiv
 Zhautykov City MO geometry	-
 Cesenatico	it-cesenatico
 Romanian Mathematical Olympiad - Final Round	ro-nmo
@@ -758,11 +758,11 @@ Junior Macedonian Mathematical Olympiad	mk-mo
 Niels Henrik Abels Math Contest (Norwegian Math Olympiad) Round 2	no-abel
 Argentina TST	-
 Grigore Moisil Intercounty	-
-Kyiv City MO Round 2	-
+Kyiv City MO Round 2	ua-kyiv
 Malaysia IMONST 2	my-omk
 Regional Olympiad of Mexico Southeast	-
 Mexico States Finals - geometry	-
-Kyiv City MO Juniors + geometry	-
+Kyiv City MO Juniors + geometry	ua-kyiv
 Portugal Juniors (OPM) - geometry	pt-opm-junior
 Baltic Way Shortlist Geometry	-
 putnam (modified boxing)	putnam
@@ -1284,3 +1284,72 @@ OME 30	es-ome
 Italy	-
 France	-
 Switzerland	-
+# Russia, Ukraine and the other states of the former USSR: labels from the unknown list of the coverage report, mapped on 2026-11-16. Agent decision, not a person's review: each line maps a label to the competition that it names. A generic MathNet label maps through its second label, the country and the label. A label that names no round of one competition, or that names a training set, maps to "-".
+Ukraine Correspondence MO -  geometry	ua-correspondence
+Kyiv City MO Seniors 2003+ geometry	ua-kyiv
+Kyiv City MO Juniors Round2 2010+ geometry	ua-kyiv
+Kyiv City MO Seniors Round2 2010+ geometry	ua-kyiv
+Kyiv City MO	ua-kyiv
+Selection round of Kiev team to UMO	ua-kyiv
+Ukrainian From Tasks to Tasks - geometry	ua-tasks
+Champions Tournament Seniors   geometry	ua-champions
+Ukraine Yasinskyi Geometry Olympiad	ua-yasinskyi
+Ukrainian Geometry Olympiad - April	ua-geometry
+Ukrainian Geometry Olympiad - December	ua-geometry
+Ukrainian Geometry Olympiad	ua-geometry
+Kharkiv City MO Seniors - geometry	ua-kharkiv
+VII Soros Olympiad 2000 - 01	ua-soros
+Problems from Ukrainian Authors	-
+Ukrainian Mathematical Competitions	-
+1st CIS	ru-allrussian
+Junior Tuymaada Olympiad	tuymaada
+Adygea Teachers' Geometry Olympiad	ru-adygea-teachers
+MIPT Undergraduate Contest	ru-student
+MIPT Student Olympiad Autumn	ru-student
+SELECTION TESTS OF THE BELARUSIAN TEAM TO THE IMO	by-tst
+Belarus - Iran Friendly Competition	by-iran-friendly
+BY 2020-2021 tst for Navid	-
+Kazakhstan Juniors - geometry	kz-junior
+Almaty City MO - geometry	kz-almaty
+XI International Zhautykov Olympiad in Sciences	zhautykov
+XV International Zhautykov Olympiad in Mathematics	zhautykov
+Zhautykov Olympiad	zhautykov
+SILK ROAD MATHEMATICS COMPETITION XVII	silk-road
+SILK ROAD MATHEMATICS COMPETITION XX	silk-road
+Al-Khwarizmi IJMO	uz-ijmo
+Azerbaijan TST	az-tst
+Azerbaijan BMO TST	az-tst
+Azerbaijan IZhO TST	az-tst
+Azerbaijan IZHO TST	az-tst
+Azerbaijan EGMO TST	az-tst
+Azerbaijan IMO TST	az-tst
+Azerbaijan IMO TST First Round	az-tst
+Azerbaijan TST First Round.	az-tst
+Azerbaijan Balkan MO TST	az-tst
+Azerbaijan TSTST 2025	az-tst
+Azerbaijan CMO TST	az-tst
+Azerbaijan JBMO TST	az-jtst
+JBMO TST   Azerbaijan	az-jtst
+Azerbaijan Al-Khwarizmi IJMO TST	az-jtst
+Azerbaijan Junior TSTST	az-jtst
+Azerbaijan Junior NMO	az-jmo
+Azerbaijan Junior National Olympiad	az-jmo
+Azerbaijan Junior Mathematical Olympiad	az-jmo
+Lotfi Zadeh Olympiad	az-lotfi-zadeh
+Istek Lyceum Math Olympiad  2016	az-istek
+Georgia Team Selection Test	ge-tst
+Euler Olympiad, Round 1	ge-euler
+Euler Olympiad, Round 2	ge-euler
+Tajikistan Team Selection Test	tj-tst
+Armenian Republican Olympiads	am-mo
+Turkmenistan Regional Math Olympiad	tm-regional
+Kyrgyzstan Regional Olympiad	kg-regional
+Moldova MO 11 12	md-mo
+A 61-a OLIMPIAD DE MATEMATICA A REPUBLICII MOLDOVA	md-mo
+A 61-a OLIMPIADA DE MATEMATICA A REPUBLICII MOLDOVA	md-mo
+61-a OLIMPIADĂ DE MATEMATICĂ A REPUBLICII MOLDOVA	md-mo
+Olimpiada Republicană la Matematică, Ziua a doua	md-mo
+Olimpiada Republicană la Matematică, A doua zi	md-mo
+Olimpiada de Matematică a Republicii Moldova	md-mo
+JBMO TST   Moldova	md-jbmo-tst
+Junior Balkan TSTs   Moldova	md-jbmo-tst

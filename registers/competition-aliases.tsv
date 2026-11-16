@@ -635,8 +635,8 @@ ISI Entrance Examination	-
 ISI B.Stat Entrance Exam	-
 ISI B.Math Entrance Exam	-
 Mathematical Talent Reward Programme	-
-Hanoi Open Mathematics Competitions	-
-Indonesia TST	-
+Hanoi Open Mathematics Competitions	vn-homc
+Indonesia TST	id-tst
 Indonesia MO	id-osn
 Kazakhstan National Olympiad	kz-mo
 Zhautykov City MO geometry	-
@@ -653,15 +653,15 @@ HKG TST	hk-pc
 IMO HK TST	hk-pc
 CHKMO	hk-chkmo
 Singapore Mathematical Olympiad (SMO)	sg-smo
-Singapore Senior Math Olympiad	sg-smo
-Singapore Junior Math Olympiad	sg-smo
+Singapore Senior Math Olympiad	sg-smo-senior
+Singapore Junior Math Olympiad	sg-smo-junior
 Singapore MO Open	sg-smo
-Singapore Team Selection Test	-
-Thailand TSTST	-
+Singapore Team Selection Test	sg-tst
+Thailand TSTST	th-tst
 Philippines Mathematical Olympiad	ph-pmo
 Philippine Mathematical Olympiad	ph-pmo
 Tenth Philippine Mathematical Olympiad	ph-pmo
-PMO National Stage Oral Phase	ph-pmo
+PMO National Stage Oral Phase	ph-pmo-oral
 Mongolian Mathematical Olympiad	mn-mo
 Japan MO Finals	jp-jmo
 Japan MO Preliminary	jp-jmo-prelim
@@ -862,6 +862,84 @@ Mongolia TST	mn-tst
 Mongolia International Mathematical Olympiad 51	mn-tst
 Mongolia International Mathematical Olympiad 51 Selection Test	mn-tst
 ОУМО-53	mn-tst
+VMEO = Vietnam Mathematical E Olympiad	vn-vmeo
+VMEO I 2004	vn-vmeo
+VMEO II 2005	vn-vmeo
+VMEO III 2006	vn-vmeo
+VMEO IV 2015	vn-vmeo
+VMEO III 2006 Shortlist	-
+Pre - Vietnam Mathematical Olympiad	-
+Pre   Vietnam MO	-
+VIASM Math Olympiad Test	-
+VIASM Summer Challenge	-
+Vietnamese Southern Summer School contest	-
+Vietnamese Southern Summer School	-
+Northern Summer Camp Of Mathematics	-
+Mathley 2014-15	-
+Mathley Magazine	-
+Quang Nam Province Math Contest (Grade 11)	-
+The first T3MO	th-t3mo
+T3MO 2017	th-t3mo
+Thailand Online MO	th-tomo
+Mathcenter Contest	th-mathcenter
+Mathcenter Contest + Longlist	-
+Thailand October Camp	-
+Selected Problems from Thailand Training Camp	-
+SGMO	-
+SIMO	-
+SYMO	-
+Malaysia IMONST 1	my-imonst1
+Malaysian IMO Team Selection Test	my-tst
+Malaysian IMO TST	my-tst
+JOM 2013	my-jom
+JOM 2015 Shortlist	-
+JOM Shortlists	-
+Malaysian IMO Training Camp	-
+Malaysian APMO Camp Selection Test	-
+Malaysia IMONST	-
+Indonesia Juniors	id-osn-smp
+Indonesia Regional MO OSP SMA - geometry	id-osp-sma
+Indonesia MO Shortlist	-
+Indonesia MO Shortlist - geometry	-
+OSN_Kabupaten_SMA	id-osk-sma
+OSN_Provinsi_SMA	id-osp-sma
+osn_kabupaten_smp	id-osk-smp
+osn_provinsi_smp	id-osp-smp
+osn_smp	id-osn-smp
+osn_kabupaten_sd	id-osk-sd
+KSM_MA	id-ksm-ma
+OMITS_SMA	id-omits
+OPSILON_SMA	id-opsilon
+OPSILON_SMP	id-opsilon
+FIMNas_SMA	id-fimnas
+FIMNas_SMP	id-fimnas
+NaMO_Junior	id-namo
+NaMO_Umum	id-namo
+SCE_SD	id-sce
+SCE_SMP	id-sce
+SCE_SMA	id-sce
+POSI_SD	id-posi
+POSI_SMP	id-posi
+POSI_SMA	id-posi
+KMSI_SD_12	id-kmsi
+KMSI_SD_34	id-kmsi
+KMSI_SD_56	id-kmsi
+KMSI_SMP	id-kmsi
+FSN_SMP	id-fsn
+LMNas_SMP	id-lmnas
+LMNas_SMA	id-lmnas
+TOS	id-tos
+UMC_SD	id-umc
+UMC_SMP	id-umc
+ITBMo	id-itbmo
+OMVN_SMP	id-omvn
+OMVN_SMA	id-omvn
+Science_EXPO_SUD	id-science-expo
+BMOC	id-bmoc
+SOC	id-soc
+ICEF_SD	id-icef
+Philippine TST	ph-tst
+Myanmar IMO Training	-
 
 # Oceania and Africa.
 NewZealand_MO	nz-nzmo
@@ -921,7 +999,7 @@ Romanian Mathematical Olympiad - Final Round	ro-nmo
 ROMANIAN MATHEMATICAL OLYMPIAD - FINAL ROUND	ro-nmo
 Bulgarian Mathematical Olympiad	bg-mo
 Belarus	by-mo
-Indonesia Regional	-
+Indonesia Regional	id-osp-sma
 Malaysia National Olympiad	my-omk
 # The labels of the AoPS wiki set.
 Romania NMO	ro-nmo
@@ -939,7 +1017,7 @@ Kazakhstan NMO	kz-mo
 German NMO	de-mo
 Israel NMO	il-gillis
 Croatia NMO	hr-mo
-Thailand TST	-
+Thailand TST	th-tst
 Belarusian NMO	by-mo
 Taiwan NMO	tw-tst
 South africa NMO	za-samo
@@ -969,7 +1047,7 @@ Berkeley Math Circle Monthly Contest 8	-
 NMO Shortlisted Problems	-
 Shortlisted problems for the Romanian NMO	-
 IMO Shortlisted Problems	isl
-Philippine Mathematical Olympiad, National Orals	ph-pmo
+Philippine Mathematical Olympiad, National Orals	ph-pmo-oral
 AIME II	aime
 AIME I	aime
 HMMT Spring	hmmt
@@ -1037,7 +1115,7 @@ Niels Henrik Abels Math Contest (Norwegian Math Olympiad) Round 2	no-abel
 Argentina TST	-
 Grigore Moisil Intercounty	-
 Kyiv City MO Round 2	ua-kyiv
-Malaysia IMONST 2	my-omk
+Malaysia IMONST 2	my-imonst2
 Regional Olympiad of Mexico Southeast	mx-regional-southeast
 Mexico States Finals - geometry	-
 Kyiv City MO Juniors + geometry	ua-kyiv
@@ -1238,13 +1316,13 @@ MMO2025 Round 2	mn-mo
 Mongolian Mathematical Olympiad Round 1	mn-mo
 Mongolian Mathematical Olympiad Round 2	mn-mo
 Mongolian Mathematical Olympiad Round 3	mn-mo
-23rd Philippine Mathematical Olympiad Qualifying Stage	ph-pmo
-17th Philippine Mathematical Olympiad Area Stage	ph-pmo
-12th Philippine Mathematical Olympiad - Area Stage	ph-pmo
-21st PMO Area Stage	ph-pmo
-Philippines Area Stage	ph-pmo
-27th Philippine MO Qualifying Stage	ph-pmo
-25th Philippine MO Area Stage	ph-pmo
+23rd Philippine Mathematical Olympiad Qualifying Stage	ph-pmo-qualifying
+17th Philippine Mathematical Olympiad Area Stage	ph-pmo-area
+12th Philippine Mathematical Olympiad - Area Stage	ph-pmo-area
+21st PMO Area Stage	ph-pmo-area
+Philippines Area Stage	ph-pmo-area
+27th Philippine MO Qualifying Stage	ph-pmo-qualifying
+25th Philippine MO Area Stage	ph-pmo-area
 NZMO Round Two	nz-nzmo
 Vietnamese Mathematical Olympiad	vn-vmo
 Vijetnam 2008	vn-vmo

@@ -44,6 +44,9 @@
   years: ["1950"]
   reason: robots
   note: The PTM archive (source archom) keeps the 1950 paper under /sites/, and robots.txt disallows /sites/.
+- competition: ph-mtap
+  reason: robots
+  note: robots.txt of mtap.org.ph disallows all paths for all agents (checked 2026-11-16).
 
 # No allowed source gives the position.
 - competition: pl-om
@@ -193,6 +196,42 @@
 - competition: kp-tst
   reason: no-source
   note: No official source exists online. The only copies found are AoPS topics (source aops-collections), and the rule for its robots.txt is pending.
+- competition: sg-tst
+  reason: no-source
+  note: No official archive was found on 2026-11-16. The only copies found are AoPS topics (source aops-collections), and the rule for its robots.txt is pending.
+- competition: sg-smops
+  reason: no-source
+  note: The site of NUS High School has no past papers (checked on 2026-11-16), and no other allowed source was found.
+- competition: th-tst
+  reason: no-source
+  note: No official archive was found on 2026-11-16. The only copies found are AoPS topics (source aops-collections), and the rule for its robots.txt is pending.
+- competition: th-tomo
+  reason: no-source
+  note: No official archive was found on 2026-11-16. The only copies found are AoPS topics (source aops-collections), and the rule for its robots.txt is pending.
+- competition: th-t3mo
+  reason: no-source
+  note: No official archive was found on 2026-11-16. The only copies found are MathNet rows and AoPS topics.
+- competition: vn-vmeo
+  reason: no-source
+  note: The forum diendantoanhoc.org answered 403 on 2026-11-16. The only copies found are AoPS topics (source aops-collections), and the rule for its robots.txt is pending.
+- competition: id-osn-sd
+  reason: no-source
+  note: No official archive and no copy of the national stage for primary school were found on 2026-11-16.
+- competition: id-osp-sd
+  reason: no-source
+  note: No official archive and no copy of the province stage for primary school were found on 2026-11-16.
+- competition: id-tst
+  reason: no-source
+  note: No official archive was found on 2026-11-16. The only copies found are AoPS topics (source aops-collections), and the rule for its robots.txt is pending.
+- competition: ph-tst
+  reason: no-source
+  note: No official archive was found on 2026-11-16. The only copies found are AoPS topics (source aops-collections), and the rule for its robots.txt is pending.
+- competition: my-tst
+  reason: no-source
+  note: No official archive was found on 2026-11-16. The only copies found are AoPS topics (source aops-collections), and the rule for its robots.txt is pending.
+- competition: my-jom
+  reason: no-source
+  note: The organizer has no archive online that the census found on 2026-11-16. The only copies found are AoPS topics (source aops-collections), and the rule for its robots.txt is pending.
 
 # Other nationals.
 - competition: cz-sk-mo

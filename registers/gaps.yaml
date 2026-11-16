@@ -218,3 +218,83 @@
 - competition: noetic
   reason: robots
   note: robots.txt of www.noetic-learning.com disallows /mathcontest/documents/ and /*.pdf$ (source noetic, checked 2026-11-16).
+
+# Russia, Ukraine and the other states of the former USSR (census of 2026-11-16).
+- competition: uz-ijmo
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+- competition: ge-euler
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+- competition: by-iran-friendly
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+- competition: ru-pvg
+  reason: no-source
+  note: No source of the problems was found. The census of 2026-11-16 found no official archive and no dataset rows.
+- competition: ru-vsesib
+  reason: no-source
+  note: No source of the problems was found. The census of 2026-11-16 found no official archive and no dataset rows.
+- competition: ru-spbu
+  reason: no-source
+  note: No source of the problems was found. The census of 2026-11-16 found no official archive and no dataset rows.
+- competition: ru-oral-67
+  reason: no-source
+  note: No source of the problems was found. The census of 2026-11-16 found no official archive and no dataset rows.
+- competition: ru-adygea-teachers
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+- competition: ua-correspondence
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops, hf-aops-wiki) give problems, and the shape of the papers is not confirmed.
+- competition: ua-geometry
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops, hf-aops-wiki) give problems, and the shape of the papers is not confirmed.
+- competition: ua-yasinskyi
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+- competition: ua-tasks
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+- competition: ua-champions
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops, hf-aops-wiki) give problems, and the shape of the papers is not confirmed.
+- competition: ua-kharkiv
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+- competition: ua-soros
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+- competition: by-tst
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-mathnet) give problems, and the shape of the papers is not confirmed.
+- competition: md-jbmo-tst
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+- competition: ge-tst
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+- competition: az-tst
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops, hf-aops-wiki) give problems, and the shape of the papers is not confirmed.
+- competition: az-jtst
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops, hf-aops-wiki) give problems, and the shape of the papers is not confirmed.
+- competition: az-jmo
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops, hf-aops-wiki) give problems, and the shape of the papers is not confirmed.
+- competition: az-lotfi-zadeh
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops, hf-aops-wiki) give problems, and the shape of the papers is not confirmed.
+- competition: az-istek
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+- competition: kg-regional
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.
+- competition: tj-tst
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops, hf-aops-wiki) give problems, and the shape of the papers is not confirmed.
+- competition: tm-regional
+  reason: no-source
+  note: The census of 2026-11-16 found no official archive. Only dataset rows (hf-ai-mo-aops) give problems, and the shape of the papers is not confirmed.

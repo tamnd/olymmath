@@ -205,6 +205,56 @@
   sources: [izho-official, imomath]
   description: An olympiad in Almaty for teams of specialized schools. Its papers are also on imomath.
 
+- code: ru-formulo
+  name: Formula of Unity / Third Millennium Olympiad
+  names: {ru: Объединённая международная математическая олимпиада «Формула Единства» / «Третье тысячелетие»}
+  group: international
+  level: high-school
+  levels: [elementary, junior, high-school]
+  country: RU
+  organizer: St Petersburg State University and the Euler Foundation
+  url: https://www.formulo.org/
+  first_year: 2014
+  # Agent decision, not a person's review: an edition is the calendar year of the final round, so the school year 2023/24 is the edition 2024. The olimpiada.ru final papers of 2023/24, 2024/25 and 2025/26 have six problems for each of the grades 5 to 11 (grades 5, 7, 9 and 11 were checked). This row counts the final round. The position of problem N of grade G is pG followed by N. 2014 is the earliest edition that olimpiada.ru lists, not the founding year. The years 2014 to 2023 have no era, because their format was not confirmed.
+  eras:
+    - {from: 2024, to: 2026, per_year: 42, layout: [{paper: grade5, name: Grade 5, level: elementary, positions: [p51, p52, p53, p54, p55, p56]}, {paper: grade6, name: Grade 6, level: junior, positions: [p61, p62, p63, p64, p65, p66]}, {paper: grade7, name: Grade 7, level: junior, positions: [p71, p72, p73, p74, p75, p76]}, {paper: grade8, name: Grade 8, level: junior, positions: [p81, p82, p83, p84, p85, p86]}, {paper: grade9, name: Grade 9, level: junior, positions: [p91, p92, p93, p94, p95, p96]}, {paper: grade10, name: Grade 10, positions: [p101, p102, p103, p104, p105, p106]}, {paper: grade11, name: Grade 11, positions: [p111, p112, p113, p114, p115, p116]}]}
+  edition_form: year
+  official_solutions: true
+  languages: [ru, en]
+  sources: [formulo, olimpiada-ru]
+  description: An international olympiad run from St Petersburg, with a qualifying round by correspondence and a written final round, and papers for the grades 5 to 11. formulo.org gives the papers with solutions as PDF files, and olimpiada.ru lists the papers from 2013. The shape of the final round is confirmed for 2024 to 2026.
+
+- code: uz-ijmo
+  name: Al-Khwarizmi International Junior Mathematical Olympiad
+  short: IJMO
+  group: international
+  level: junior
+  country: UZ
+  edition_form: year
+  languages: [en]
+  sources: [hf-ai-mo-aops]
+  description: An international olympiad for junior students held in Uzbekistan and named after al-Khwarizmi. No official archive has been found. The AoPS data has its problems from 2023.
+
+- code: ge-euler
+  name: Euler Olympiad (Georgia)
+  group: international
+  level: high-school
+  country: GE
+  edition_form: year
+  languages: [ka, en]
+  sources: [hf-ai-mo-aops]
+  description: "An olympiad with two or more rounds that the AoPS data names \"Euler Olympiad, Round 1\" and \"Round 2\" from 2023. It is not the Russian Euler olympiad (ru-euler). Agent decision, not a person's review: the country is Georgia from secondary sources only, and the organizer is not confirmed."
+
+- code: by-iran-friendly
+  name: Belarus-Iran Friendly Competition
+  group: international
+  level: high-school
+  country: BY
+  edition_form: year
+  languages: [en]
+  sources: [hf-ai-mo-aops]
+  description: A friendly competition between the teams of Belarus and Iran, with problems from 2022 in the AoPS data. No official archive has been found.
+
 - code: silk-road
   name: Silk Road Mathematical Competition
   group: international
@@ -4717,6 +4767,8 @@
   name: Lomonosov Tournament
   names: {ru: Турнир Ломоносова}
   group: national
+  level: high-school
+  levels: [junior, high-school]
   country: RU
   first_year: 1978
   edition_form: year
@@ -4742,12 +4794,192 @@
   name: Moscow Oral Geometry Olympiad
   names: {ru: Устная олимпиада по геометрии}
   group: national
+  level: high-school
+  levels: [junior, high-school]
   country: RU
   official_solutions: true
   languages: [ru]
   copyright: Copyright MCCME.
   sources: [problems-ru]
   description: An oral geometry olympiad in Moscow. problems.ru holds 185 of its problems.
+
+- code: ru-allrussian-regional
+  name: All-Russian Mathematical Olympiad, regional stage
+  names: {ru: Всероссийская олимпиада школьников по математике, региональный этап}
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: RU
+  url: https://olimpiada.ru/activity/72/tasks
+  first_year: 1993
+  # Agent decision, not a person's review: an edition is the calendar year in which the stage is written, in January or February, so the olimpiada.ru school year Y is the edition Y+1. Each of the grades 9, 10 and 11 has one paper over two days, numbered G.1 to G.8 for 2011 to 2017 (four problems a day) and G.1 to G.10 for 2018 to 2024 (five a day). The olimpiada.ru and olympiads.mccme.ru papers show this: grade 11 for every year, and grades 9 and 10 for 2013, 2017, 2018 and 2023. The position of problem N of grade G is pG followed by N, as in ru-allrussian, so problem 10 of grade 9 is p910. 1993 is the earliest year in the seed data, not the founding year. The years 1993 to 2010 and 2025 on have no era, because no primary paper of those years was checked.
+  eras:
+    - {from: 2011, to: 2017, per_year: 24, layout: [{paper: grade9, name: Grade 9, days: 2, level: junior, positions: [p91, p92, p93, p94, p95, p96, p97, p98]}, {paper: grade10, name: Grade 10, days: 2, positions: [p101, p102, p103, p104, p105, p106, p107, p108]}, {paper: grade11, name: Grade 11, days: 2, positions: [p111, p112, p113, p114, p115, p116, p117, p118]}]}
+    - {from: 2018, to: 2024, per_year: 30, layout: [{paper: grade9, name: Grade 9, days: 2, level: junior, positions: [p91, p92, p93, p94, p95, p96, p97, p98, p99, p910]}, {paper: grade10, name: Grade 10, days: 2, positions: [p101, p102, p103, p104, p105, p106, p107, p108, p109, p1010]}, {paper: grade11, name: Grade 11, days: 2, positions: [p111, p112, p113, p114, p115, p116, p117, p118, p119, p1110]}]}
+  edition_form: year
+  official_solutions: true
+  languages: [ru]
+  sources: [olimpiada-ru, vos-moscow, problems-ru]
+  description: The third stage of the All-Russian olympiad. The central commission sets one paper for each of the grades 9 to 11 for all regions, written over two days. olimpiada.ru and the Moscow site vos.olimpiada.ru give the papers with solutions. The shape is confirmed for 2011 to 2024.
+
+- code: ru-allrussian-municipal
+  name: All-Russian Mathematical Olympiad, municipal stage
+  names: {ru: Всероссийская олимпиада школьников по математике, муниципальный этап}
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: RU
+  url: https://vos.olimpiada.ru/
+  edition_form: year
+  official_solutions: true
+  languages: [ru]
+  sources: [vos-moscow, olimpiada-ru]
+  description: The second stage of the All-Russian olympiad, for the grades 7 to 11. Each region sets its own papers, so a year has many papers. The Moscow papers are on vos.olimpiada.ru. No shape is given, because each region sets its own papers.
+
+- code: ru-allrussian-school
+  name: All-Russian Mathematical Olympiad, school stage
+  names: {ru: Всероссийская олимпиада школьников по математике, школьный этап}
+  group: national
+  level: high-school
+  levels: [elementary, junior, high-school]
+  country: RU
+  url: https://siriusolymp.ru/
+  edition_form: year
+  official_solutions: true
+  languages: [ru]
+  sources: [sirius-olymp, vos-moscow]
+  description: The first stage of the All-Russian olympiad, for the grades 4 to 11. From 2020 most regions write the online papers of the Sirius centre, with several variants for each grade. No shape is given, because the Sirius papers come in several variants for each grade.
+
+- code: ru-kurchatov
+  name: Kurchatov Olympiad in Mathematics
+  names: {ru: Олимпиада «Курчатов» по математике}
+  group: national
+  level: high-school
+  country: RU
+  organizer: Kurchatov Institute
+  url: https://olimpiadakurchatov.ru/
+  edition_form: year
+  languages: [ru]
+  sources: [kurchatov-official]
+  description: An olympiad in mathematics and physics with papers for several grades. The site gives the papers of past years. No shape is given, because no paper was checked in this census.
+
+- code: ru-lomonosov-msu
+  name: Lomonosov Olympiad (Moscow State University)
+  names: {ru: Олимпиада школьников «Ломоносов» по математике}
+  group: national
+  level: high-school
+  country: RU
+  organizer: Lomonosov Moscow State University
+  url: https://olymp.msu.ru/
+  first_year: 2005
+  edition_form: year
+  languages: [ru]
+  sources: [msu-olymp]
+  description: The olympiad of Moscow State University, held from 2005, with a qualifying round and a final round. It is not the Lomonosov Tournament (ru-lomonosov). No shape is given, because the papers come in several variants for each grade and place.
+
+- code: ru-pvg
+  name: Pokori Vorobyovy Gory Olympiad
+  names: {ru: Олимпиада «Покори Воробьёвы горы!»}
+  group: national
+  level: high-school
+  country: RU
+  organizer: Lomonosov Moscow State University
+  edition_form: year
+  languages: [ru]
+  description: An olympiad of Moscow State University with a mathematics section. Its archive is not confirmed.
+
+- code: ru-hse
+  name: Vysshaya Proba Olympiad in Mathematics
+  names: {ru: Олимпиада «Высшая проба» по математике}
+  group: national
+  level: high-school
+  country: RU
+  organizer: Higher School of Economics
+  url: https://olymp.hse.ru/
+  edition_form: year
+  languages: [ru]
+  sources: [hse-olymp]
+  description: The olympiad of the Higher School of Economics, with a mathematics section for several grades. No shape is given, because the decision on its source is pending.
+
+- code: ru-phystech
+  name: Phystech Olympiad in Mathematics
+  names: {ru: Олимпиада «Физтех» по математике}
+  group: national
+  level: high-school
+  country: RU
+  organizer: Moscow Institute of Physics and Technology
+  edition_form: year
+  languages: [ru]
+  sources: [olimpiada-ru]
+  description: The olympiad of MIPT in mathematics for the upper grades. Its archive on the MIPT site is not confirmed.
+
+- code: ru-ommo
+  name: Joint Interuniversity Mathematical Olympiad
+  names: {ru: Объединённая межвузовская математическая олимпиада (ОММО)}
+  group: national
+  level: high-school
+  country: RU
+  edition_form: year
+  languages: [ru]
+  sources: [olimpiada-ru]
+  description: A mathematics olympiad that several Moscow universities run together. Its archive is not confirmed.
+
+- code: ru-vsesib
+  name: All-Siberian Open Olympiad in Mathematics
+  names: {ru: Всесибирская открытая олимпиада школьников по математике}
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: RU
+  organizer: Novosibirsk State University
+  edition_form: year
+  languages: [ru]
+  description: The open olympiad of Novosibirsk State University, with papers for the grades 7 to 11. Its archive is not confirmed.
+
+- code: ru-spbu
+  name: St Petersburg State University Olympiad in Mathematics
+  names: {ru: Олимпиада школьников СПбГУ по математике}
+  group: national
+  level: high-school
+  country: RU
+  organizer: St Petersburg State University
+  edition_form: year
+  languages: [ru]
+  description: The olympiad of St Petersburg State University with a mathematics section. Its archive is not confirmed.
+
+- code: ru-yumsh
+  name: YuMSh Olympiad
+  names: {ru: Олимпиада ЮМШ}
+  group: national
+  level: high-school
+  country: RU
+  organizer: Junior Mathematical School (ЮМШ), St Petersburg
+  url: https://www.yumsh.ru/
+  edition_form: year
+  languages: [ru]
+  sources: [yumsh]
+  description: An olympiad of the Junior Mathematical School of St Petersburg, with papers for several grades. No shape is given, because no paper was checked in this census.
+
+- code: ru-oral-67
+  name: Moscow Oral Olympiad for Grades 6 and 7
+  names: {ru: Устная олимпиада по математике для 6–7 классов}
+  group: national
+  level: junior
+  country: RU
+  organizer: MCCME
+  edition_form: year
+  languages: [ru]
+  description: An oral olympiad in Moscow for the grades 6 and 7. Its archive is not confirmed.
+
+- code: ru-adygea-teachers
+  name: Adygea Teachers' Geometry Olympiad
+  group: national
+  level: open
+  country: RU
+  edition_form: year
+  languages: [ru]
+  sources: [hf-ai-mo-aops]
+  description: A geometry olympiad for teachers in Adygea, with school-level problems. The AoPS data has its problems from 2017. No official archive has been found.
 
 - code: ua-umo
   name: Ukrainian Mathematical Olympiad
@@ -4767,6 +4999,112 @@
   sources: [imomath, imogeometry-blog]
   description: The national olympiad and team selection test of Ukraine.
 
+- code: ua-umo-regional
+  name: Ukrainian Mathematical Olympiad, regional stage
+  names: {uk: Всеукраїнська учнівська олімпіада з математики, III етап}
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: UA
+  edition_form: year
+  official_solutions: true
+  languages: [uk]
+  sources: [ippo-kubg, apex-minds]
+  description: The third stage of the Ukrainian olympiad. Each region (oblast) and the city of Kyiv set their own papers for the grades 6 to 11 or 8 to 11, so a year has many papers. The Kyiv papers are on the site of the Grinchenko university. No shape is given, because each region sets its own papers.
+
+- code: ua-umo-district
+  name: Ukrainian Mathematical Olympiad, district stage
+  names: {uk: Всеукраїнська учнівська олімпіада з математики, II етап}
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: UA
+  edition_form: year
+  languages: [uk]
+  sources: [ippo-kubg, apex-minds]
+  description: The second stage of the Ukrainian olympiad, set by the districts and cities for the grades 6 to 11. No shape is given, because each district sets its own papers.
+
+- code: ua-kyiv
+  name: Kyiv City Mathematical Olympiad
+  names: {uk: Київська міська олімпіада з математики}
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: UA
+  url: https://matholymp.com.ua/archive
+  edition_form: year
+  official_solutions: true
+  languages: [uk]
+  sources: [matholymp-kyiv, ippo-kubg, apex-minds]
+  description: The city olympiad of Kyiv, the third stage of the Ukrainian olympiad in Kyiv, with two rounds and papers for the junior and senior grades, and the selection round of the Kyiv team for the final stage. matholymp.com.ua gives the papers with solutions. No shape is given, because the matholymp.com.ua archive pages of the Kyiv cycle list only the school year 2020/21 and do not show the papers as text.
+
+- code: ua-correspondence
+  name: Ukrainian Correspondence Mathematical Olympiad
+  group: national
+  level: high-school
+  country: UA
+  edition_form: year
+  languages: [uk]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: A Ukrainian olympiad by correspondence that the AoPS data names. Its organizer and archive are not confirmed.
+
+- code: ua-geometry
+  name: Ukrainian Geometry Olympiad
+  group: national
+  level: high-school
+  country: UA
+  edition_form: year-season
+  languages: [uk]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: A Ukrainian geometry olympiad from 2017. In 2020 it had a December and an April round. Its organizer and archive are not confirmed.
+
+- code: ua-yasinskyi
+  name: Yasinskyi Geometry Olympiad
+  group: national
+  level: high-school
+  country: UA
+  edition_form: year
+  languages: [uk]
+  sources: [hf-ai-mo-aops]
+  description: A Ukrainian geometry olympiad named after V. A. Yasinskyi. No official archive has been found.
+
+- code: ua-tasks
+  name: From Tasks to Tasks
+  group: national
+  level: high-school
+  country: UA
+  languages: [uk]
+  sources: [hf-ai-mo-aops]
+  description: A Ukrainian geometry contest that the AoPS data names "Ukrainian From Tasks to Tasks". Its organizer and format are not confirmed.
+
+- code: ua-champions
+  name: Champions Tournament
+  names: {uk: Турнір чемпіонів}
+  group: national
+  level: high-school
+  country: UA
+  languages: [uk]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: A Ukrainian tournament with a senior league. The AoPS data has its geometry problems. Its organizer is not confirmed.
+
+- code: ua-kharkiv
+  name: Kharkiv City Mathematical Olympiad
+  group: national
+  level: high-school
+  country: UA
+  languages: [uk, ru]
+  sources: [hf-ai-mo-aops]
+  description: The city olympiad of Kharkiv. The AoPS data has its senior geometry problems. No official archive has been confirmed.
+
+- code: ua-soros
+  name: Soros Olympiad in Mathematics
+  group: national
+  level: high-school
+  country: UA
+  languages: [uk, ru]
+  sources: [hf-ai-mo-aops]
+  description: "The olympiad of the International Soros Science Education Program in the 1990s. The AoPS data has the problems of the 7th olympiad of 2000-01. Agent decision, not a person's review: the country is Ukraine because the AoPS collection is Ukrainian."
+
 - code: by-mo
   name: Belarus Mathematical Olympiad
   group: national
@@ -4781,6 +5119,32 @@
   sources: [imomath, problems-ru]
   description: The national olympiad of Belarus. problems.ru holds 132 of its problems.
 
+- code: by-mo-regional
+  name: Belarus Mathematical Olympiad, regional stage
+  names: {ru: Республиканская олимпиада по математике, третий этап}
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: BY
+  first_year: 2010
+  # Agent decision, not a person's review: an edition is the calendar year in which the stage is written, in January, so the school year 2023/24 is the edition 2024. The mathsmogilev.by paper of 2024 has eight problems for each of the grades 8 to 11, numbered G.1 to G.8 over two days. The position of problem N of grade G is pG followed by N, as in by-mo. 2010 is the earliest year that mathsmogilev.by lists, not the founding year. The other years have no era, because their papers are on Google Drive, where robots.txt blocks the download path.
+  eras:
+    - {from: 2024, to: 2024, per_year: 32, layout: [{paper: grade8, name: Grade 8, days: 2, level: junior, positions: [p81, p82, p83, p84, p85, p86, p87, p88]}, {paper: grade9, name: Grade 9, days: 2, level: junior, positions: [p91, p92, p93, p94, p95, p96, p97, p98]}, {paper: grade10, name: Grade 10, days: 2, positions: [p101, p102, p103, p104, p105, p106, p107, p108]}, {paper: grade11, name: Grade 11, days: 2, positions: [p111, p112, p113, p114, p115, p116, p117, p118]}]}
+  edition_form: year
+  languages: [ru, be]
+  sources: [mathsmogilev, gymn1math]
+  description: The third (regional) stage of the Belarus olympiad, for the grades 8 to 11. The school site mathsmogilev.by keeps the papers of the second, third and final stages, and gymn1math.by keeps the papers of the final stage. The shape is confirmed for 2024.
+
+- code: by-tst
+  name: Belarus IMO Team Selection Test
+  group: national
+  level: high-school
+  country: BY
+  edition_form: year
+  languages: [ru, be]
+  sources: [hf-mathnet]
+  description: The tests that choose the Belarus team for the IMO. No official archive has been found.
+
 - code: md-mo
   name: Moldova national mathematics olympiad
   group: national
@@ -4792,6 +5156,16 @@
   sources: [aops-collections, imomath]
   description: The national olympiad of Moldova. imomath holds 357 of its problems.
 
+- code: md-jbmo-tst
+  name: Moldova JBMO Team Selection Test
+  group: national
+  level: junior
+  country: MD
+  edition_form: year
+  languages: [ro]
+  sources: [hf-ai-mo-aops]
+  description: The tests that choose the Moldovan team for the Junior Balkan MO. No official archive has been found.
+
 - code: ge-mo
   name: Georgia national mathematics olympiad
   group: national
@@ -4799,6 +5173,16 @@
   country: GE
   sources: [aops-collections]
   description: The national olympiad of Georgia. No primary source has been found yet.
+
+- code: ge-tst
+  name: Georgia Team Selection Test
+  group: national
+  level: high-school
+  country: GE
+  edition_form: year
+  languages: [ka]
+  sources: [hf-ai-mo-aops]
+  description: The tests that choose the Georgian team for the international olympiads. No official archive has been found.
 
 - code: am-mo
   name: Armenia national mathematics olympiad
@@ -4815,6 +5199,56 @@
   country: AZ
   sources: [aops-collections]
   description: The national olympiad of Azerbaijan. No primary source has been found yet.
+
+- code: az-tst
+  name: Azerbaijan Team Selection Tests
+  group: national
+  level: high-school
+  country: AZ
+  edition_form: year
+  languages: [az]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: The tests that choose the teams of Azerbaijan for the IMO, the Balkan MO, the EGMO, the IZhO and other senior olympiads. The AoPS data names each test. No official archive has been found.
+
+- code: az-jtst
+  name: Azerbaijan Junior Team Selection Tests
+  group: national
+  level: junior
+  country: AZ
+  edition_form: year
+  languages: [az]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: The tests that choose the junior teams of Azerbaijan, for the JBMO and the Al-Khwarizmi IJMO. No official archive has been found.
+
+- code: az-jmo
+  name: Azerbaijan Junior Mathematical Olympiad
+  group: national
+  level: junior
+  country: AZ
+  edition_form: year
+  languages: [az]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: The national olympiad of Azerbaijan for junior students. No official archive has been found.
+
+- code: az-lotfi-zadeh
+  name: Lotfi Zadeh Olympiad
+  group: national
+  level: high-school
+  country: AZ
+  edition_form: year
+  languages: [az, en]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: An olympiad in Azerbaijan named after Lotfi Zadeh, with problems from 2021 in the AoPS data. No official archive has been found.
+
+- code: az-istek
+  name: Istek Lyceum Mathematical Olympiad
+  group: national
+  level: high-school
+  country: AZ
+  edition_form: year
+  languages: [az]
+  sources: [hf-ai-mo-aops]
+  description: An olympiad of the Istek lyceum in Baku, with problems of 2016 in the AoPS data.
 
 - code: cn-league
   name: China National High School Mathematics League
@@ -5361,6 +5795,62 @@
   sources: [imomath, imogeometry-blog]
   description: The national olympiad of Kazakhstan.
 
+- code: kz-mo-regional
+  name: Kazakhstan Mathematical Olympiad, regional stage
+  names: {ru: Областная олимпиада школьников по математике}
+  group: national
+  level: high-school
+  country: KZ
+  edition_form: year
+  official_solutions: true
+  languages: [ru, kk]
+  sources: [matol-kz]
+  description: The regional (oblast) stage of the Kazakhstan olympiad. matol.kz gives the papers by year and grade, and sells a book of the papers of 1999 to 2021. No shape is given, because no primary source of the papers was found.
+
+- code: kz-mo-district
+  name: Kazakhstan Mathematical Olympiad, district stage
+  names: {ru: Районная олимпиада школьников по математике}
+  group: national
+  level: high-school
+  country: KZ
+  edition_form: year
+  languages: [ru, kk]
+  sources: [matol-kz]
+  description: The district stage of the Kazakhstan olympiad. matol.kz gives the papers by year and grade, and sells a book of the papers of 2000 to 2023. No shape is given, because no primary source of the papers was found.
+
+- code: kz-junior
+  name: Kazakhstan Junior Mathematical Olympiad
+  names: {ru: Юниорская олимпиада по математике}
+  group: national
+  level: junior
+  country: KZ
+  edition_form: year
+  languages: [ru, kk]
+  sources: [matol-kz, hf-ai-mo-aops]
+  description: The olympiad of Kazakhstan for junior students. matol.kz gives the papers. No shape is given, because no primary source of the papers was found.
+
+- code: kz-almaty
+  name: Almaty City Mathematical Olympiad
+  names: {ru: Олимпиада города Алматы по математике}
+  group: national
+  level: high-school
+  country: KZ
+  edition_form: year
+  languages: [ru, kk]
+  sources: [matol-kz, hf-ai-mo-aops]
+  description: The city olympiad of Almaty. matol.kz gives the papers. No shape is given, because no primary source of the papers was found.
+
+- code: kz-smagulov
+  name: Smagulov Olympiad
+  names: {ru: Олимпиада имени Смагулова}
+  group: national
+  level: junior
+  country: KZ
+  edition_form: year
+  languages: [ru, kk]
+  sources: [matol-kz]
+  description: An olympiad in Kazakhstan for the grades 6 and 7. matol.kz gives the papers and sells a book of them. No shape is given, because no primary source of the papers was found.
+
 - code: uz-mo
   name: Uzbekistan national mathematics olympiad
   group: national
@@ -5377,6 +5867,16 @@
   sources: [aops-collections]
   description: The national olympiad of Kyrgyzstan. No primary source has been found yet.
 
+- code: kg-regional
+  name: Kyrgyzstan Regional Mathematical Olympiad
+  group: national
+  level: high-school
+  country: KG
+  edition_form: year
+  languages: [ky, ru]
+  sources: [hf-ai-mo-aops]
+  description: The regional stage of the Kyrgyz olympiad. No official archive has been found.
+
 - code: tj-mo
   name: Tajikistan national mathematics olympiad
   group: national
@@ -5385,6 +5885,16 @@
   sources: [aops-collections]
   description: The national olympiad of Tajikistan. No primary source has been found yet.
 
+- code: tj-tst
+  name: Tajikistan Team Selection Test
+  group: national
+  level: high-school
+  country: TJ
+  edition_form: year
+  languages: [tg, ru]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: The tests that choose the Tajik team for the international olympiads. No official archive has been found.
+
 - code: tm-mo
   name: Turkmenistan national mathematics olympiad
   group: national
@@ -5392,6 +5902,16 @@
   country: TM
   sources: [aops-collections]
   description: The national olympiad of Turkmenistan. No primary source has been found yet.
+
+- code: tm-regional
+  name: Turkmenistan Regional Mathematical Olympiad
+  group: national
+  level: high-school
+  country: TM
+  edition_form: year
+  languages: [tk, ru]
+  sources: [hf-ai-mo-aops]
+  description: The regional stage of the Turkmen olympiad. No official archive has been found.
 
 - code: ir-mo
   name: Iran Mathematical Olympiad

@@ -1,0 +1,25 @@
+---
+tag: KMV1R5MDKT
+kind: problem
+type: answer
+answer: "1"
+canonical:
+  statement: S1
+  rule: derived
+statements:
+  - id: S1
+    lang: id
+    source: hf-indonesian-olympiad
+    url: https://huggingface.co/datasets/hafidhsoekma/math-olympiad-indonesian-benchmark
+    capture: hf-indonesian-olympiad/data/train-00000-of-00001.parquet#row=444
+    origin: D
+    zone: Z2
+    kind: transcription
+status:
+  statement: captured
+unplaced:
+  - at: id-lmnas/2019
+    source: hf-indonesian-olympiad
+    label: LMNas_SMA_2019
+---
+Diantara bilangan-bilangan 150, 151, 152, 153 dan 154, banyaknya bilangan yang dapat dinyatakan sebagai jumlahan dua bilangan kuadrat sempurna adalah ...

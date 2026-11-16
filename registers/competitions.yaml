@@ -2990,12 +2990,27 @@
   short: OBMEP
   names: {pt: Olimpíada Brasileira de Matemática das Escolas Públicas}
   group: national
+  level: high-school
+  levels: [elementary, junior, high-school]
   country: BR
+  url: https://www.obmep.org.br/
   first_year: 2005
   edition_form: year
+  # Agent decision, not a person's review: the rules of OBMEP 2026 (regulamento, items 4.1.1 and 5.1.1, read on 2026-11-16) give phase 1 with 20 multiple choice questions and phase 2 with 6 questions for each of levels 1, 2 and 3. The papers of 2005 to 2025 are Google Drive files. The robots.txt of drive.google.com allows the view pages, but they carry no text, and the robots.txt of drive.usercontent.google.com, which serves the files, disallows all paths (checked on 2026-11-16). So the years 2005 to 2025 have no shape. OBMEP Mirim is not in the layout. The position of question N of level G is aG followed by N in phase 1 and bG followed by N in phase 2.
+  layout:
+    - {paper: phase1-level1, name: Phase 1 Level 1, level: junior, positions: [a11, a12, a13, a14, a15, a16, a17, a18, a19, a110, a111, a112, a113, a114, a115, a116, a117, a118, a119, a120]}
+    - {paper: phase1-level2, name: Phase 1 Level 2, level: junior, positions: [a21, a22, a23, a24, a25, a26, a27, a28, a29, a210, a211, a212, a213, a214, a215, a216, a217, a218, a219, a220]}
+    - {paper: phase1-level3, name: Phase 1 Level 3, level: high-school, positions: [a31, a32, a33, a34, a35, a36, a37, a38, a39, a310, a311, a312, a313, a314, a315, a316, a317, a318, a319, a320]}
+    - {paper: phase2-level1, name: Phase 2 Level 1, level: junior, positions: [b11, b12, b13, b14, b15, b16]}
+    - {paper: phase2-level2, name: Phase 2 Level 2, level: junior, positions: [b21, b22, b23, b24, b25, b26]}
+    - {paper: phase2-level3, name: Phase 2 Level 3, level: high-school, positions: [b31, b32, b33, b34, b35, b36]}
+  per_year: 78
+  eras:
+    - {from: 2005, to: 2025}
   official_solutions: true
   languages: [pt]
-  description: A very large olympiad for public school students in Brazil. Its archive is not confirmed.
+  sources: [obmep]
+  description: A very large olympiad for public school students in Brazil. Its site links the papers and the answer keys of each phase. Level 1 is for grades 6 and 7, level 2 for grades 8 and 9, level 3 for high school, and OBMEP Mirim for primary school. In phase 1 each level writes 20 multiple choice questions, and in phase 2 each level writes 6 questions.
 
 - code: ar-oma
   name: Argentine Mathematical Olympiad
@@ -3012,22 +3027,28 @@
 
 - code: pe-mo
   name: Peru national mathematics olympiad
+  short: ONEM
+  names: {es: Olimpiada Nacional Escolar de Matemática}
   group: national
   level: high-school
   country: PE
+  organizer: Ministerio de Educación del Perú
+  url: https://www.minedu.gob.pe/onem/
   per_year: 4
   languages: [es]
-  sources: [aops-collections, imogeometry-blog]
-  description: The national olympiad of Peru. No primary source has been found yet.
+  sources: [minedu-onem, aops-collections, imogeometry-blog]
+  description: The national olympiad of Peru. The Ministry of Education runs it (ONEM) in several phases and levels. Its page shows the current edition, but an archive of past papers was not confirmed.
 
 - code: co-mo
   name: Colombia national mathematics olympiad
   group: national
   level: high-school
   country: CO
+  organizer: Universidad Antonio Nariño
+  url: https://oc.uan.edu.co/
   languages: [es]
-  sources: [aops-collections, imogeometry-blog]
-  description: The national olympiad of Colombia. No primary source has been found yet.
+  sources: [olimpiadas-uan, aops-collections, imogeometry-blog]
+  description: The national olympiad of Colombia. The Universidad Antonio Nariño runs it. Its legal notice forbids copying, so the official papers are links only.
 
 - code: cl-mo
   name: Chile national mathematics olympiad
@@ -3040,12 +3061,15 @@
 
 - code: ve-mo
   name: Venezuela national mathematics olympiad
+  short: OJM
+  names: {es: Olimpiada Juvenil de Matemáticas}
   group: national
   level: high-school
   country: VE
+  organizer: Asociación Venezolana de Competencias Matemáticas (ACM)
   languages: [es]
-  sources: [aops-collections, imogeometry-blog]
-  description: The national olympiad of Venezuela. No primary source has been found yet.
+  sources: [acm-ve, aops-collections, imogeometry-blog]
+  description: The national olympiad of Venezuela. The ACM runs it with papers for each grade and publishes a book of problems and solutions each year.
 
 - code: uy-mo
   name: Uruguay national mathematics olympiad
@@ -3073,6 +3097,357 @@
   languages: [es]
   sources: [aops-collections, imogeometry-blog]
   description: The national olympiad of Cuba. No primary source has been found yet.
+
+- code: mx-omm-state
+  name: Mexican state mathematical olympiads
+  names: {es: Olimpiadas estatales de matemáticas}
+  group: national
+  level: high-school
+  country: MX
+  edition_form: year
+  languages: [es]
+  description: The state rounds that choose the teams of each Mexican state for the national OMM. Each state committee writes its own papers, often with a semifinal and a final, so the register keeps them as one family with no layout. The AoPS collections hold geometry selections from several states with no year, and they map to "-". No archive of all states was found.
+
+- code: mx-ommeb
+  name: Mexican Mathematical Olympiad for Basic Education
+  short: OMMEB
+  names: {es: Olimpiada Mexicana de Matemáticas para Educación Básica}
+  group: national
+  level: junior
+  levels: [elementary, junior]
+  country: MX
+  organizer: OMM and CIMAT
+  url: https://olimpiadasbasicas.cimat.mx/
+  first_year: 2017
+  edition_form: year
+  languages: [es]
+  sources: [ommeb-cimat]
+  description: The national olympiad of Mexico for primary and lower secondary students. It has a primary level and two secondary levels, each with individual and team papers. Each paper numbers its problems from 1, so the register gives no layout yet.
+
+- code: mx-femenil
+  name: Mexican Girls' Contest
+  names: {es: Concurso Nacional Femenil de la OMM}
+  group: national
+  level: high-school
+  country: MX
+  organizer: OMM
+  edition_form: year
+  languages: [es]
+  sources: [aops-collections]
+  description: The national contest of the OMM for girls, which also helps to choose the Mexican team for the EGMO. No official archive was found.
+
+- code: mx-regional-center
+  name: Regional Mathematical Olympiad of the Center Zone of Mexico
+  names: {es: Olimpiada Regional de Matemáticas de la Zona Centro}
+  group: national
+  level: high-school
+  country: MX
+  edition_form: year
+  languages: [es]
+  sources: [aops-collections]
+  description: A regional olympiad of the states of central Mexico, written as practice for the national OMM. No official archive was found.
+
+- code: mx-regional-west
+  name: Regional Mathematical Olympiad of Western Mexico
+  names: {es: Olimpiada Regional de Matemáticas del Occidente}
+  group: national
+  level: high-school
+  country: MX
+  edition_form: year
+  languages: [es]
+  sources: [aops-collections]
+  description: A regional olympiad of the states of western Mexico. No official archive was found.
+
+- code: mx-regional-southeast
+  name: Regional Mathematical Olympiad of Southeast Mexico
+  names: {es: Olimpiada Regional de Matemáticas del Sureste}
+  group: national
+  level: high-school
+  country: MX
+  edition_form: year
+  languages: [es]
+  sources: [aops-collections]
+  description: A regional olympiad of the states of southeast Mexico. No official archive was found.
+
+- code: mx-regional-northeast
+  name: Regional Mathematical Olympiad of Northeast Mexico
+  names: {es: Olimpiada Regional de Matemáticas del Noreste}
+  group: national
+  level: high-school
+  country: MX
+  edition_form: year
+  languages: [es]
+  sources: [aops-collections]
+  description: A regional olympiad of the states of northeast Mexico. No official archive was found.
+
+- code: mx-regional-northwest
+  name: Regional Mathematical Olympiad of Northwest Mexico
+  names: {es: Olimpiada Regional de Matemáticas del Noroeste}
+  group: national
+  level: high-school
+  country: MX
+  edition_form: year
+  languages: [es]
+  sources: [aops-collections]
+  description: A regional olympiad of the states of northwest Mexico. No official archive was found.
+
+- code: mx-quarantine
+  name: Mexican Quarantine Mathematical Olympiad
+  group: national
+  level: high-school
+  country: MX
+  first_year: 2020
+  last_year: 2020
+  edition_form: year
+  languages: [es]
+  sources: [aops-collections]
+  description: An online olympiad held in Mexico during the COVID-19 lockdown of 2020.
+
+- code: mx-ommu
+  name: Mexican University Mathematical Olympiad
+  names: {es: Olimpiada Mexicana de Matemáticas Universitaria}
+  group: undergraduate
+  level: undergraduate
+  country: MX
+  edition_form: year
+  languages: [es]
+  sources: [aops-collections]
+  description: The national olympiad of Mexico for university students. No official archive was found.
+
+- code: cr-tst-oim
+  name: Costa Rica Iberoamerican Team Selection Test
+  group: national
+  level: high-school
+  country: CR
+  edition_form: year
+  languages: [es]
+  sources: [hf-ai-mo-aops]
+  description: The test that chooses the Costa Rican team for the Iberoamerican Olympiad (OIM). The AoPS rows of 2024 and 2025 have 12 problems each.
+
+- code: hn-mo
+  name: Honduran Mathematical Olympiad
+  names: {es: Olimpiada Hondureña de Matemáticas}
+  group: national
+  level: high-school
+  country: HN
+  edition_form: year
+  languages: [es]
+  sources: [aops-collections]
+  description: The national olympiad of Honduras. No official archive was found.
+
+- code: sv-correspondence
+  name: El Salvador Correspondence Olympiad
+  group: national
+  level: high-school
+  country: SV
+  edition_form: year
+  languages: [es]
+  sources: [aops-collections]
+  description: A contest by correspondence of El Salvador. The AoPS collections hold one row a year with the whole paper, from 2001 to 2025. No official archive was found.
+
+- code: pa-mo
+  name: Panamanian Mathematical Olympiad
+  names: {es: Olimpiada Panameña de Matemática}
+  group: national
+  level: high-school
+  levels: [elementary, junior, high-school]
+  country: PA
+  organizer: Olimpiada Panameña de Matemática
+  url: https://opm.org.pa/
+  edition_form: year
+  languages: [es]
+  sources: [opm]
+  description: The national olympiad of Panama, with levels from primary school to the end of secondary school. Each level numbers its problems from 1, so the register gives no layout yet.
+
+- code: pr-tst
+  name: Puerto Rico Team Selection Test
+  group: national
+  level: high-school
+  country: PR
+  edition_form: year
+  languages: [es, en]
+  sources: [hf-ai-mo-aops]
+  description: The test that chooses the team of Puerto Rico for the international olympiads.
+
+- code: br-obm-n1
+  name: Brazilian Mathematical Olympiad, level 1
+  names: {pt: Olimpíada Brasileira de Matemática, Nível 1}
+  group: national
+  level: junior
+  country: BR
+  organizer: OBM
+  url: https://www.obm.org.br/
+  edition_form: year
+  official_solutions: true
+  languages: [pt]
+  sources: [obm]
+  description: The level 1 paper of the OBM, for grades 6 and 7. It has its own numbers, so it is not the code br-obm.
+
+- code: br-obm-n2
+  name: Brazilian Mathematical Olympiad, level 2
+  names: {pt: Olimpíada Brasileira de Matemática, Nível 2}
+  group: national
+  level: junior
+  country: BR
+  organizer: OBM
+  url: https://www.obm.org.br/
+  edition_form: year
+  official_solutions: true
+  languages: [pt]
+  sources: [obm, aops-collections]
+  description: The level 2 paper of the OBM, for grades 8 and 9. It has its own numbers, so it is not the code br-obm.
+
+- code: br-tm2
+  name: Girls in Mathematics Tournament
+  short: TM²
+  names: {pt: Torneio Meninas na Matemática}
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: BR
+  url: https://www.tm2.org.br/
+  first_year: 2019
+  edition_form: year
+  # Agent decision, not a person's review: the page https://www.tm2.org.br/provas/ (read on 2026-11-16) links papers of 2019 and 2021 to 2024. The single phase of 2023 and of 2024 has a paper of four problems for level A and one for level B. 2022 had two phases, and the other years were not confirmed, so they have no shape. The position of problem N is aN for level A and bN for level B.
+  eras:
+    - {from: 2023, to: 2024, per_year: 8, layout: [{paper: level-a, name: Level A, positions: [a1, a2, a3, a4]}, {paper: level-b, name: Level B, positions: [b1, b2, b3, b4]}]}
+  languages: [pt]
+  sources: [tm2, aops-collections]
+  description: A national olympiad of Brazil for girls, with a level A and a level B. Each level numbers its problems from 1.
+
+- code: br-rj-mo
+  name: Rio de Janeiro Mathematical Olympiad
+  names: {pt: Olimpíada de Matemática do Estado do Rio de Janeiro}
+  group: national
+  level: high-school
+  country: BR
+  edition_form: year
+  languages: [pt]
+  sources: [aops-collections]
+  description: The state olympiad of Rio de Janeiro. No official archive was found.
+
+- code: ar-nandu
+  name: Ñandú
+  names: {es: Certamen Ñandú}
+  group: national
+  level: junior
+  levels: [elementary, junior]
+  country: AR
+  organizer: OMA
+  url: https://www.oma.org.ar/
+  edition_form: year
+  languages: [es]
+  sources: [oma]
+  description: The olympiad of the OMA for primary school and the first years of secondary school. It has several levels and rounds, and each paper numbers its problems from 1, so the register gives no layout yet.
+
+- code: cl-junior
+  name: Chilean Junior Mathematical Olympiad
+  names: {es: Olimpiada Nacional de Matemática, nivel menor}
+  group: national
+  level: junior
+  country: CL
+  edition_form: year
+  languages: [es]
+  sources: [aops-collections]
+  description: The junior level of the national olympiad of Chile. The AoPS collections hold one row a year with the whole paper up to 2021 and six problems a year from 2022. No official archive was found.
+
+- code: cl-qualifier
+  name: Chilean Mathematical Olympiad, qualifying round
+  names: {es: Olimpiada Nacional de Matemática, clasificatoria}
+  group: national
+  level: high-school
+  country: CL
+  edition_form: year
+  languages: [es]
+  sources: [aops-collections]
+  description: The qualifying round of the national olympiad of Chile for seniors. The AoPS collections hold one row a year with the whole paper. No official archive was found.
+
+- code: cl-qualifier-junior
+  name: Chilean Junior Mathematical Olympiad, qualifying round
+  group: national
+  level: junior
+  country: CL
+  edition_form: year
+  languages: [es]
+  sources: [aops-collections]
+  description: The qualifying round of the national olympiad of Chile for juniors. No official archive was found.
+
+- code: ec-mo
+  name: Ecuadorian Mathematical Olympiad
+  short: OMEC
+  names: {es: Olimpiada Matemática Ecuatoriana}
+  group: national
+  level: high-school
+  country: EC
+  organizer: OMEC
+  url: https://omec-mat.org/
+  edition_form: year
+  languages: [es]
+  sources: [omec, aops-collections]
+  description: The national olympiad of Ecuador. The AoPS rows give 3 to 6 problems a year from 2016. The site omec-mat.org did not answer on most tries on 2026-11-16.
+
+- code: ec-junior
+  name: Ecuadorian Junior Mathematical Olympiad
+  group: national
+  level: junior
+  country: EC
+  organizer: OMEC
+  url: https://omec-mat.org/
+  edition_form: year
+  languages: [es]
+  sources: [omec, aops-collections]
+  description: The junior level of the national olympiad of Ecuador. It has its own numbers, so it is not the code ec-mo.
+
+- code: ec-sedem
+  name: SEdeM Mathematical Olympiad
+  names: {es: Olimpiada de Matemáticas de la Sociedad Ecuatoriana de Matemática}
+  group: national
+  level: high-school
+  country: EC
+  organizer: Sociedad Ecuatoriana de Matemática (SEdeM)
+  url: https://sedem.org.ec/
+  edition_form: year
+  languages: [es]
+  sources: [sedem]
+  description: The olympiad of the Ecuadorian Mathematical Society for school students. The archive of papers was not confirmed.
+
+- code: py-mo
+  name: Paraguayan Mathematical Olympiad
+  short: OMAPA
+  names: {es: Olimpiada Matemática Paraguaya}
+  group: national
+  level: high-school
+  country: PY
+  organizer: OMAPA
+  url: https://www.omapa.org/
+  edition_form: year
+  languages: [es]
+  sources: [omapa, aops-collections]
+  description: The national olympiad of Paraguay that OMAPA runs. OMAPA publishes past tests of each round on its training pages. Each level numbers its problems from 1, so the register gives no layout yet.
+
+- code: py-junior
+  name: Paraguayan Junior Mathematical Olympiad
+  names: {es: Olimpiada Juvenil de Matemática}
+  group: national
+  level: junior
+  levels: [elementary, junior]
+  country: PY
+  organizer: OMAPA
+  url: https://www.omapa.org/entrenamiento/entrenamiento-olimpiada-juvenil-de-matematica/
+  edition_form: year
+  languages: [es]
+  sources: [omapa, aops-collections]
+  description: The junior olympiad of OMAPA for primary and lower secondary students. Each level numbers its problems from 1, so the register gives no layout yet.
+
+- code: co-junior
+  name: Colombian Junior Mathematical Olympiad
+  group: national
+  level: junior
+  country: CO
+  edition_form: year
+  languages: [es]
+  sources: [aops-collections]
+  description: The junior level of the Colombian olympiad. It has its own numbers, so it is not the code co-mo.
 
 - code: uk-bmo1
   name: British Mathematical Olympiad Round 1
@@ -7516,6 +7891,156 @@
   languages: [es]
   sources: [hf-ai-mo-aops]
   description: The test that chooses the Peruvian team for the Iberoamerican Olympiad.
+
+- code: br-tst
+  name: Brazilian IMO Team Selection Test
+  group: national
+  level: high-school
+  country: BR
+  edition_form: year
+  languages: [pt]
+  sources: [hf-ai-mo-aops]
+  description: The tests that choose the Brazilian team for the IMO.
+
+- code: br-conosur-tst
+  name: Brazilian Cono Sur Team Selection Test
+  group: national
+  level: high-school
+  country: BR
+  edition_form: year
+  languages: [pt]
+  sources: [hf-ai-mo-aops]
+  description: The test that chooses the Brazilian team for the Cono Sur Olympiad.
+
+- code: br-egmo-tst
+  name: Brazilian EGMO Team Selection Test
+  group: national
+  level: high-school
+  country: BR
+  edition_form: year
+  languages: [pt]
+  sources: [hf-ai-mo-aops]
+  description: The test that chooses the Brazilian team for the EGMO.
+
+- code: ar-conosur-tst
+  name: Argentine Cono Sur Team Selection Test
+  group: national
+  level: high-school
+  country: AR
+  edition_form: year
+  languages: [es]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: The test that chooses the Argentine team for the Cono Sur Olympiad.
+
+- code: ar-ibero-tst
+  name: Argentine Iberoamerican Team Selection Test
+  group: national
+  level: high-school
+  country: AR
+  edition_form: year
+  languages: [es]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: The test that chooses the Argentine team for the Iberoamerican Olympiad.
+
+- code: cl-tst
+  name: Chilean IMO Team Selection Test
+  group: national
+  level: high-school
+  country: CL
+  edition_form: year
+  languages: [es]
+  sources: [hf-ai-mo-aops]
+  description: The test that chooses the Chilean team for the IMO. In some years one test chose the teams for the IMO and the Cono Sur Olympiad.
+
+- code: cl-ibero-tst
+  name: Chilean Iberoamerican Team Selection Test
+  group: national
+  level: high-school
+  country: CL
+  edition_form: year
+  languages: [es]
+  sources: [hf-ai-mo-aops]
+  description: The test that chooses the Chilean team for the Iberoamerican Olympiad.
+
+- code: pe-tst
+  name: Peruvian IMO Team Selection Test
+  group: national
+  level: high-school
+  country: PE
+  edition_form: year
+  languages: [es]
+  sources: [hf-ai-mo-aops]
+  description: The test that chooses the Peruvian team for the IMO.
+
+- code: pe-egmo-tst
+  name: Peruvian EGMO Team Selection Test
+  group: national
+  level: high-school
+  country: PE
+  edition_form: year
+  languages: [es]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: The test that chooses the Peruvian team for the EGMO.
+
+- code: pe-pagmo-tst
+  name: Peruvian PAGMO Team Selection Test
+  group: national
+  level: high-school
+  country: PE
+  edition_form: year
+  languages: [es]
+  sources: [hf-ai-mo-aops]
+  description: The test that chooses the Peruvian team for the Pan-American Girls' Mathematical Olympiad.
+
+- code: co-tst
+  name: Colombian Team Selection Test
+  group: national
+  level: high-school
+  country: CO
+  edition_form: year
+  languages: [es]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: The test that chooses the Colombian teams for the international olympiads.
+
+- code: bo-tst
+  name: Bolivian IMO Team Selection Test
+  group: national
+  level: high-school
+  country: BO
+  edition_form: year
+  languages: [es]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: The test that chooses the Bolivian team for the IMO.
+
+- code: bo-conosur-tst
+  name: Bolivian Cono Sur Team Selection Test
+  group: national
+  level: high-school
+  country: BO
+  edition_form: year
+  languages: [es]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: The test that chooses the Bolivian team for the Cono Sur Olympiad.
+
+- code: bo-ibero-tst
+  name: Bolivian Iberoamerican Team Selection Test
+  group: national
+  level: high-school
+  country: BO
+  edition_form: year
+  languages: [es]
+  sources: [hf-ai-mo-aops, hf-aops-wiki]
+  description: The test that chooses the Bolivian team for the Iberoamerican Olympiad.
+
+- code: uy-tst
+  name: Uruguayan IMO Team Selection Test
+  group: national
+  level: high-school
+  country: UY
+  edition_form: year
+  languages: [es]
+  sources: [hf-ai-mo-aops]
+  description: The test that chooses the Uruguayan team for the IMO. The AoPS rows of 2024 and 2025 have eight problems each.
 
 - code: nl-bxmo-tst
   name: Dutch BxMO Team Selection Test

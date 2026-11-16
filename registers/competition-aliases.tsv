@@ -346,23 +346,23 @@ pascal	ca-pascal
 fermat	ca-fermat
 cayley	ca-cayley
 Mexico National Olympiad	mx-omm
-Regional Olympiad of Mexico Center Zone	-
+Regional Olympiad of Mexico Center Zone	mx-regional-center
 Brazil National Olympiad	br-obm
 Brazil	br-obm
-Brazilian Mathematical Olympiad, Nível 2	br-obm
-Nível 2	br-obm
+Brazilian Mathematical Olympiad, Nível 2	br-obm-n2
+Nível 2	-
 Nível 3	br-obm
-Brazil Team Selection Test	-
+Brazil Team Selection Test	br-tst
 Argentina National Olympiad	ar-oma
 Argentina National Olympiad Level 2	ar-oma
 Chile National Olympiad	cl-mo
 Peru MO (ONEM)	pe-mo
-Peru IMO TST	-
-Peru Southern Cone TST	-
+Peru IMO TST	pe-tst
+Peru Southern Cone TST	pe-conosur-tst
 Costa Rica - Final Round	cr-mo
 Cuba MO	cu-mo
-Paraguay Mathematical Olympiad	-
-Puerto Rico Team Selection Test	-
+Paraguay Mathematical Olympiad	py-mo
+Puerto Rico Team Selection Test	pr-tst
 # The Americas census (2026-11-16), Canada. Agent decision, not a person's review: see the note on codes with no layout in the international part.
 Gauss	ca-gauss
 Canadian Senior Mathematics Contest	ca-csmc
@@ -371,6 +371,64 @@ Canadian Students MO	ca-csmo
 Alberta HS MC - geometry	ca-ahsmc
 Kanada	ca-cmo
 Sun Life Financial Canadian Mathematical Olympiad	ca-cmo
+# The Americas census (2026-11-16), Latin America. Agent decision, not a person's review: see the note on codes with no layout in the international part. "Nível 2" alone has no year and looks like the OBMEP question bank, so it maps to "-". The mock contests OMMock, OMpD and Olimphíada and the Lista problem sets map to "-".
+Mexico States Semifinals - geometry	-
+OMMock - Mexico National Olympiad Mock Exam	-
+OMMock   Mexico NMO Mock Exam	-
+Mexican Girls' Contest	mx-femenil
+Mexican Girls Contest	mx-femenil
+Mexican Quarantine MO	mx-quarantine
+Mexican Quarantine Mathematical Olympiad	mx-quarantine
+Mexican University Math Olympiad	mx-ommu
+Regional Olympiad of Mexico Northeast	mx-regional-northeast
+Regional Olympiad of Mexico Northwest	mx-regional-northwest
+Costa Rica TST OIM	cr-tst-oim
+Honduras National Mathematical Olympiad	hn-mo
+Honduran MO	hn-mo
+Honduras National Physics Olympiad (OHF)	-
+El Salvador Correspondence	sv-correspondence
+Brazil L2 Finals (OBM) - geometry	br-obm-n2
+Brazil Cono Sur TST	br-conosur-tst
+Brazil EGMO TST	br-egmo-tst
+Brazil EGMO Team Selection Test	br-egmo-tst
+Brazil EGMO TST -wrong source	-
+Girls in Mathematics Tournament	br-tm2
+Rio de Janeiro Mathematical Olympiad	br-rj-mo
+Rio de Janeiro MO	br-rj-mo
+OMpD	-
+Olimphíada	-
+Lista 2	-
+Lista 4	-
+Lista 6	-
+Argentina Cono Sur TST	ar-conosur-tst
+Argentina Iberoamerican TST	ar-ibero-tst
+Argentina National Math Olympiad Level 2	ar-oma
+XX OLIIMPÍADA MATEMÁTICA ARGENTINA	ar-oma
+Chile Junior Math Olympiad	cl-junior
+Chile Junior MO	cl-junior
+Chile Classification NMO Seniors	cl-qualifier
+Chile Classification NMO	cl-qualifier
+Chile Classification NMO Juniors	cl-qualifier-junior
+Chile TST IMO	cl-tst
+Chile TST IMO-Cono	cl-tst
+Chile TST Ibero	cl-ibero-tst
+Peru EGMO TST	pe-egmo-tst
+Peru PAGMO TST	pe-pagmo-tst
+Colombia TST	co-tst
+Colombia Team Selection Test	co-tst
+Colombian Junior Olympiad	co-junior
+Ecuador NMO (OMEC)	ec-mo
+Ecuador NMO  (OMEC)	ec-mo
+Ecuador Juniors	ec-junior
+Paraguayan Mathematical Olympiad	py-mo
+Paraguay Juniors	py-junior
+Bolivia Cono Sur TST	bo-conosur-tst
+Bolivian Cono Sur TST	bo-conosur-tst
+Bolivia Ibero TST	bo-ibero-tst
+Bolivian Ibero TST	bo-ibero-tst
+Bolivia IMO TST	bo-tst
+Bolivian IMO TST	bo-tst
+Uruguay IMO TST	uy-tst
 # Europe.
 Romania National Olympiad	ro-nmo
 Romanian Mathematical Olympiad	ro-nmo
@@ -739,7 +797,7 @@ Girls in Math at Yale	-
 Assara - South Russian Girl's MO	-
 I Soros Olympiad (Rus + Ukr)	-
 MMPC	-
-Regional Olympiad of Mexico West	-
+Regional Olympiad of Mexico West	mx-regional-west
 Saudi Arabia GMO TST	-
 iTest Tournament of Champions	-
 QUALIFYING STAGE	-
@@ -794,7 +852,7 @@ Argentina TST	-
 Grigore Moisil Intercounty	-
 Kyiv City MO Round 2	ua-kyiv
 Malaysia IMONST 2	my-omk
-Regional Olympiad of Mexico Southeast	-
+Regional Olympiad of Mexico Southeast	mx-regional-southeast
 Mexico States Finals - geometry	-
 Kyiv City MO Juniors + geometry	ua-kyiv
 Portugal Juniors (OPM) - geometry	pt-opm-junior

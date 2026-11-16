@@ -2431,3 +2431,118 @@
   wave: 1
   state: active
   notes: "The page of secondary school competitions links one PDF for each round and year under /wp-content/uploads/. For the ММО the file of 2024 holds the problems only, and the other files hold the problems with solutions and the points. The robots.txt of smm.org.mk disallows only /wp-admin/ (checked on 2026-11-13). The old site old.smm.org.mk serves an empty page, so the papers before 2020 are not on the site."
+
+# Census of Western, Northern and Central Europe (2026-11-16), the United Kingdom, Ireland, France and the Benelux: official and curated archives of the national rounds, junior olympiads and regional contests.
+- id: ukmt-free
+  name: UKMT free past papers
+  kind: official
+  origin: H1
+  url: https://www.ukmt.org.uk/free-past-papers/
+  access: pdf
+  terms: "Copyright UKMT. No open licence stated. Older papers are sold by UKMT and are not used. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: the recent free papers (about the last five years) of the JMC, IMC, SMC, the Kangaroos, the JMO, Cayley, Hamilton, Maclaurin, the MOG and the team challenges, an estimated 2,000 problems
+  wave: 2
+  state: planned
+  notes: The robots.txt of www.ukmt.org.uk was read with the census of the UK (no rule blocks the papers). The papers held for sale are not fetched.
+
+- id: pmc-ma
+  name: Primary Mathematics Challenge downloads
+  kind: official
+  origin: H1
+  url: https://www.primarymathschallenge.org.uk/
+  access: pdf
+  terms: "Copyright The Primary Mathematics Challenge (a project of The Mathematical Association). No open licence stated. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: the November papers of 2018 to 2022 and the Bonus Rounds of 2018 to 2023, 25 questions each, an estimated 275 problems
+  wave: 2
+  state: planned
+  notes: The host serves its home page for /robots.txt (read on 2026-11-16), so it has no robots.txt and all paths are allowed.
+
+- id: mathsweek-prism
+  name: Maths Week Ireland (PRISM papers)
+  kind: official
+  origin: H1
+  url: https://www.mathsweek.ie/
+  access: pdf
+  terms: No licence stated. The full PRISM archive at poincare.nuigalway.ie/PRISM needs a free registration, which is a login, so it is not used.
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: the junior and senior PRISM papers of 2016 and 2017 (page /2024/prism/), 4 papers of 15 questions
+  wave: 3
+  state: planned
+  notes: The robots.txt of www.mathsweek.ie (read on 2026-11-16) disallows /2016, /2017, /2018, /2019, /2020, /2021 and /2022. The page /2016/puzzles/prism holds the paper of 2015 and sample problems of 2014, and /2018/prism/ the papers of 2015 to 2017, so the paper of 2015 and the samples of 2014 are a robots gap. The page /2024/prism/ is allowed and holds the papers of 2016 and 2017.
+
+- id: eduscol-cg
+  name: Éduscol, Concours général des lycées
+  kind: official
+  origin: H1
+  url: https://eduscol.education.fr/1463/
+  access: pdf
+  crawl_delay: 10
+  terms: "No licence stated on the subject pages. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: the mathematics papers of the recent sessions
+  wave: 2
+  state: planned
+  notes: eduscol.education.fr redirects to eduscol.education.gouv.fr. Its robots.txt (read on 2026-11-16) sets Crawl-delay 10 for all agents, disallows the Drupal and search paths for Googlebot and bingbot, and disallows all paths for Bytespider, PetalBot, IbouBot, BLEXBot, DataForSeoBot, scoopit, Sogou, Baiduspider, YandexBot and SemrushBot. It names no AI crawler and has no content signal.
+
+- id: apmep
+  name: APMEP (Association des Professeurs de Mathématiques de l'Enseignement Public)
+  kind: curated
+  origin: H2
+  url: https://www.apmep.fr/
+  access: pdf
+  crawl_delay: 1
+  terms: "No licence stated for the papers. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: the papers of the Concours général of 1990 to 2001 and 2022 to 2025, and the papers of the académiques olympiads of many académies
+  wave: 2
+  state: planned
+  notes: The robots.txt of www.apmep.fr (read on 2026-11-16) disallows /ecrire/, /lib/, /prive/, the archive and login paths, and sets Crawl-delay 1.
+
+- id: tfjm
+  name: TFJM² (Animath)
+  kind: official
+  origin: H1
+  url: https://tfjm.org/editions-precedentes/
+  access: pdf
+  terms: "No licence stated. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: the problem sets of the editions from 2012, about 8 to 10 research problems each, an estimated 120 problems
+  wave: 3
+  state: planned
+  notes: The problems are open research questions, not olympiad problems with a single answer. The robots.txt of tfjm.org (read on 2026-11-16) disallows only /wp-admin/, with no rule for AI crawlers.
+
+- id: omb-sbpm
+  name: Olympiade Mathématique Belge (SBPMef)
+  kind: official
+  origin: H1
+  url: https://omb.sbpm.be/
+  access: pdf
+  terms: "No licence stated. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: the Mini, Midi and Maxi papers (elimination, demi-finale and finale) of many years since 1976
+  wave: 2
+  state: planned
+  notes: The robots.txt of omb.sbpm.be (read on 2026-11-16) disallows /uploads/, /images/ and other system paths, with no rule for AI crawlers. Where the papers are hosted was not found, so nothing is fetched until that is known.

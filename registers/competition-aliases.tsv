@@ -252,9 +252,9 @@ French Mathematical Olympiad	fr-tst
 PRÉPARATION OLYMPIQUE FRANÇAISE DE MATHÉMATIQUES	fr-tst
 Préparation Olympique Française de Mathématiques	fr-tst
 Olympiades Françaises de Mathématiques	fr-tst
-Dutch_TST	-
-Dutch IMO TST	-
-Dutch TST	-
+Dutch_TST	nl-tst
+Dutch IMO TST	nl-tst
+Dutch TST	nl-tst
 IMO-selectietoets	-
 IMO-selectietoets II	-
 IMO-selectietoets III	-
@@ -526,7 +526,7 @@ Turkey EGMO TST	-
 Croatia TST	-
 Moldova NMO	md-mo
 Bulgaria TST	-
-Dutch BxMO/EGMO TST	-
+Dutch BxMO/EGMO TST	nl-bxmo-tst
 Greece Team Selection Test	-
 Armenia NMO XI-XII - geometry	am-mo
 # More labels of MathNet and AoPS.
@@ -900,3 +900,70 @@ Malaysia NMO	my-omk
 # Agent decision, not a person's review (2026-11-12): at-oemo is now the final round of the Austrian olympiad, and its earlier rounds have their own codes, as the official papers at oemo.at show. A label with no part, "Federal Competition For Advanced Students", holds the papers of part 1 in 2015 and 2017, as the official papers show. "Austrian MO National Competition" holds both parts of the federal competition in one collection with no numbers, and the booklets of hf-mathnet hold several rounds, so their rows give no position.
 Austrian Junior Regional Competition	at-oemo-beg
 Austrian Junior Regional	at-oemo-beg
+# Census of Western, Northern and Central Europe (2026-11-16), the United Kingdom, Ireland, France and the Benelux. Agent decision, not a person's review: each label below goes to the round or contest that it names, now that the rounds, junior olympiads, selection tests and regional contests of the region have their own codes. A label that names a training set (the French envois), a mix of rounds, or a round name that several countries share ("Second Round") goes to "-". The samples of hf-mathnet decided the plain round names: "School Round", "First Round (take-home)" and "District Round" are Czech and Slovak papers of categories A and B, "TANDA", "Problemas Primera Sesión" and the January date are the Spanish local phase, "Maarttoets" is the Dutch BxMO and EGMO test of March, and "UMI SNS Progetto Olimpiadi di Matematica" mixes the February and Cesenatico papers. The plain labels "Italy", "France" and "Switzerland" are hf-mathnet rows with no competition, which take the name of the country; the samples hold papers of several rounds, so they go to "-".
+THIRD BENELUX MATHEMATICAL OLYMPIAD	benelux
+Test EGMO	fr-tst
+TEST DU GROUPE A ET DES CANDIDATES À L'ÉPREUVE EGMO	fr-tst
+Olympiades Françaises de Mathématiques - Test de Janvier	fr-tst
+Olympiades Françaises de Mathématiques - Test de Février	fr-tst
+Olympiades Françaises de Mathématiques - Test de Sélection	fr-tst
+Olympiades Françaises de Mathématiques - Test du mercredi 9 janvier	fr-tst
+Olympiades Françaises de Mathématiques - Épreuve en temps limité de Janvier	fr-tst
+Préparation Olympique Française de Mathématiques - Test du 14 et du 21 Février 2021	fr-tst
+Préparation Olympique Française de Mathématiques - Test du 15 Mai 2019	fr-tst
+TEST DU 27 FÉVRIER 2019	fr-tst
+France JBMO TST	fr-tst
+JBMO TST of France	fr-tst
+France Pre-TST	fr-tst
+French Olympiad - RMM Team Selection Test	fr-tst
+OCympiades Françaises de Mathématiques	-
+OCympiades Françaises de Mathématiques - Envoi Numéro 4 - Combinatoire	-
+Olympiades Françaises de Mathématiques - Envoi 2 (Algèbre)	-
+OLYMPIADES FRANÇAISES DE MATHÉMATIQUES - ENVOI No. 3	-
+Olympiades Françaises de Mathématiques - Envoi Numéro 1 - Corrigé	-
+OLYMPIADES FRANÇAISES DE MATHÉMATIQUES, ENVOI No. 3	-
+Olympiades Françaises de Mathématiques, Envoi No. 6	-
+Olympiades Françaises de Mathématiques, Envoi Numéro 3	-
+PRÉPARATION OLYMPIQUE FRANÇAISE DE MATHÉMATIQUES - ENVOi 2 : Algèbre	-
+Préparation Olympique Française de Mathématiques - Envoi 3: Arithmétique	-
+Préparation Olympique Française de Mathématiques - ENVOI 4 : POT-POURRI	-
+PRÉPARATION OLYMPIQUE FRANÇAISE DE MATHÉMATIQUES - Envoi 5 : Pot Pourri	-
+Envoi 1	-
+ENVOI 1 : GÉOMÉTRIE Corrigé	-
+Envoi 1: Arithmétique	-
+ENVOI 2	-
+ENVOi 3 : ARITHMÉTIQUE	-
+Envoi 5: Pot Pourri	-
+Envoi de combinatoire	-
+OFM 2013-2014 Envoi 2	-
+Pays-Bas	-
+BxMO Team Selection Test	nl-bxmo-tst
+BxMO Team Selection Test, March 2020	nl-bxmo-tst
+BxMO/EGMO Team Selection Test	nl-bxmo-tst
+Maarttoets	nl-bxmo-tst
+Dutch TST toets 8 juni	nl-tst
+IMO Team Selection Test 1	nl-tst
+IMO Team Selection Test 1, June 2020	nl-tst
+IMO Team Selection Test 2	nl-tst
+IMO Team Selection Test 2, June 2020	nl-tst
+IMO Team Selection Test 3	nl-tst
+IMO Team Selection Test 3, June 2020	nl-tst
+IMO-selectietoets I	nl-tst
+MO-selectietoets	nl-tst
+toets	nl-tst
+Toets 6 juni 2012	nl-tst
+TOETS TRAININGSKAMP	nl-tst
+UITWERKINGEN TOETS TRAININGSKAMP	nl-tst
+Junior Mathematical Olympiad, September 2019	nl-jwo
+Final Round, September 2019	nl-nwo
+First Round, January 2019	nl-nwo-r1
+Second Round, March 2019	nl-nwo-r2
+Belgium Flanders Juniors JWO - geometry	be-jwo
+Flanders Junior Olympiad	be-jwo
+Belgium Flanders Seniors VWO   geometry	be-vwo
+Belgium OMB Juniors - geometry	be-omb
+Belgium OMB Seniors   geometry	be-omb
+Belgium OMB Seniors - 3D Geo	be-omb
+Belgium OMB Seniors - Combo Geo	be-omb
+Belgium OMB Seniors - Geo Inequalities	be-omb
+France	-

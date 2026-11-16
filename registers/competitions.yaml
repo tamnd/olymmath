@@ -7293,6 +7293,60 @@
   languages: [vi]
   description: The test that chooses the Vietnamese team for the IMO. The Ministry of Education and Training sets it and publishes only the results. No official archive of the papers is online (checked on 2026-11-03). The problems are in the book of Le Anh Vinh and Le Phuc Lu (Vietnam Education Publishing House, 2007 to 2024), and blogs and forums retype them.
 
+- code: vn-homc
+  name: Hanoi Open Mathematics Competition
+  short: HOMC
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: VN
+  organizer: Hanoi Mathematical Society
+  first_year: 2004
+  languages: [en, vi]
+  sources: [molympiad]
+  description: The open contest of the Hanoi Mathematical Society, held from 2004, with the Hanoi Department of Education from 2013 and with foreign teams from 2018. It has a junior and a senior paper. No official archive was found on 2026-11-16. Copies are on AoPS and molympiad.net. The register has no shape for it, because its junior and senior papers share numbers and no official paper or rules were found.
+
+- code: vn-olympic-304
+  name: April 30 Traditional Olympiad
+  names: {vi: Kỳ thi Olympic truyền thống 30/4}
+  group: national
+  level: high-school
+  country: VN
+  organizer: Le Hong Phong High School for the Gifted, Ho Chi Minh City
+  languages: [vi]
+  sources: [toanmath, mathvn]
+  description: The olympiad of the gifted high schools of southern and central Vietnam for grades 10 and 11. The 2026 contest was the 30th. No official archive was found. Copies are on toanmath.com and mathvn.com. The register has no shape for it, because its grade 10 and grade 11 papers share numbers and no official paper or rules were found.
+
+- code: vn-vmeo
+  name: Vietnam Mathematical E-Olympiad
+  short: VMEO
+  group: national
+  level: high-school
+  country: VN
+  first_year: 2004
+  languages: [vi, en]
+  description: The online olympiad of the Vietnamese forum diendantoanhoc.org, held in 2004 to 2006 and in 2015. AoPS has the problems. The register has no shape for it, because no official paper or rules were found.
+
+- code: vn-hsg-12
+  name: Vietnam provincial olympiads for grade 12
+  names: {vi: Kỳ thi chọn học sinh giỏi cấp tỉnh lớp 12}
+  group: national
+  level: high-school
+  country: VN
+  languages: [vi]
+  sources: [toanmath, mathvn]
+  description: The provincial contests that choose the best grade 12 students. Each province sets its own paper, so this row is a family of papers, not one paper. The provinces publish few papers. Copies are on toanmath.com and mathvn.com. The register has no shape for it, because each province sets its own paper.
+
+- code: vn-hsg-9
+  name: Vietnam provincial olympiads for grade 9
+  names: {vi: Kỳ thi chọn học sinh giỏi cấp tỉnh lớp 9}
+  group: national
+  level: junior
+  country: VN
+  languages: [vi]
+  sources: [toanmath, mathvn]
+  description: The provincial contests that choose the best grade 9 students. Each province sets its own paper, so this row is a family of papers, not one paper. Copies are on toanmath.com and mathvn.com. The register has no shape for it, because each province sets its own paper.
+
 - code: sg-smo
   name: Singapore Mathematical Olympiad
   short: SMO
@@ -7305,7 +7359,59 @@
   per_year: 5
   languages: [en]
   sources: [sms-smo]
-  description: The Singapore olympiad in junior, senior and open sections, with a second round for the open section. Its archive is not confirmed.
+  description: The Singapore olympiad. The edition holds the second round of the open section, the olympiad paper of five problems. The junior and senior sections and the first round of the open section are sg-smo-junior, sg-smo-senior and sg-smo-open-r1. Its archive is not confirmed.
+
+- code: sg-smo-junior
+  name: Singapore Mathematical Olympiad Junior Section
+  group: national
+  level: junior
+  country: SG
+  organizer: Singapore Mathematical Society
+  url: https://sms.math.nus.edu.sg/
+  languages: [en]
+  sources: [sms-smo]
+  description: The junior section of the Singapore olympiad, a paper of short-answer questions for lower secondary students. AoPS calls it the Singapore Junior Math Olympiad. The round 1 and round 2 formats differ across sources, so the row has no layout.
+
+- code: sg-smo-senior
+  name: Singapore Mathematical Olympiad Senior Section
+  group: national
+  level: high-school
+  country: SG
+  organizer: Singapore Mathematical Society
+  url: https://sms.math.nus.edu.sg/
+  languages: [en]
+  sources: [sms-smo]
+  description: The senior section of the Singapore olympiad, a paper of short-answer questions for upper secondary students. AoPS calls it the Singapore Senior Math Olympiad. The register has no shape for it, because the SMS site did not answer on 2026-11-16, so no official paper was read.
+
+- code: sg-smo-open-r1
+  name: Singapore Mathematical Olympiad Open Section Round 1
+  group: national
+  level: high-school
+  country: SG
+  organizer: Singapore Mathematical Society
+  url: https://sms.math.nus.edu.sg/
+  languages: [en]
+  sources: [sms-smo]
+  description: The first round of the open section of the Singapore olympiad, with short-answer questions. Its second round is sg-smo. The register has no shape for it, because the SMS site did not answer on 2026-11-16, so no official paper was read.
+
+- code: sg-tst
+  name: Singapore Team Selection Test
+  group: national
+  level: high-school
+  country: SG
+  languages: [en]
+  description: The tests of the Singapore IMO committee that choose the IMO team. No official archive was found on 2026-11-16. The register has no shape for it, because no official paper or rules were found.
+
+- code: sg-smops
+  name: Singapore Mathematical Olympiad for Primary Schools
+  short: SMOPS
+  group: national
+  level: elementary
+  country: SG
+  organizer: NUS High School of Mathematics and Science
+  url: https://www.nushigh.edu.sg/
+  languages: [en]
+  description: The olympiad of NUS High School for primary students. No archive of past papers was found on the school site on 2026-11-16. The register has no shape for it, because no official paper or rules were found.
 
 - code: th-tmo
   name: Thailand Mathematical Olympiad
@@ -7326,6 +7432,53 @@
   sources: [hf-mathnet]
   description: The national olympiad of Thailand. MathNet covers the years 2007 to 2017.
 
+- code: th-tst
+  name: Thailand Team Selection Test
+  group: national
+  level: high-school
+  country: TH
+  languages: [th]
+  description: The tests that choose the Thai team for the IMO. AoPS calls them Thailand TST and Thailand TSTST. No official archive was found on 2026-11-16. The register has no shape for it, because no official paper or rules were found.
+
+- code: th-posn
+  name: POSN Mathematics Camp 1 Selection Examination
+  names: {th: การสอบคัดเลือกเข้าค่าย 1 สอวน. คณิตศาสตร์}
+  group: national
+  level: high-school
+  country: TH
+  organizer: POSN Foundation
+  url: https://www.posn.or.th/projects/academic-olympiad/mo/examination/
+  languages: [th]
+  sources: [posn]
+  description: The examination of the POSN foundation that chooses the students of its first mathematics camp. The POSN site (source posn) has the papers of 2565 to 2569 BE (2022 to 2026). The students of the POSN camps take th-tmo. The register has no shape for it, because its downloads need a form with personal details, so the census read no paper.
+
+- code: th-tomo
+  name: Thailand Online Mathematical Olympiad
+  short: TOMO
+  group: national
+  level: high-school
+  country: TH
+  languages: [th, en]
+  description: An online olympiad that Thai students set. AoPS has the contests of 2021 and 2022. No official archive was found on 2026-11-16. The register has no shape for it, because no official paper or rules were found.
+
+- code: th-mathcenter
+  name: Mathcenter Contest
+  group: national
+  level: high-school
+  country: TH
+  url: https://www.mathcenter.net/
+  languages: [th]
+  sources: [mathcenter]
+  description: The contest of the Thai forum mathcenter.net. AoPS has its problems and a longlist. The register has no shape for it, because no official paper or rules were found.
+
+- code: th-t3mo
+  name: T3MO
+  group: national
+  level: high-school
+  country: TH
+  languages: [th, en]
+  description: A Thai olympiad that MathNet calls T3MO, with a first contest and a 2017 contest. The organizer is not confirmed, and no official archive was found on 2026-11-16. The register has no shape for it, because no official paper or rules were found.
+
 - code: ph-pmo
   name: Philippine Mathematical Olympiad
   short: PMO
@@ -7345,6 +7498,57 @@
   sources: [pmo-ph]
   description: The national olympiad of the Philippines. The site has the written national stage of the 10th to the 26th and the 28th olympiads, most with solutions.
 
+# Agent decision, not a person's review (census of East and Southeast Asia, 2026-11-16): the PMO has a qualifying stage, an area stage and a national stage with a written part and an oral phase. Only the written national stage is counted on ph-pmo. The rows below give the other stages their own codes, so their problems do not take the positions of ph-pmo. The papers on pmo.ph have the stages, but their sizes differ across years, so the rows have no layout.
+- code: ph-pmo-qualifying
+  name: Philippine Mathematical Olympiad Qualifying Stage
+  group: national
+  level: high-school
+  country: PH
+  url: https://pmo.ph/
+  languages: [en]
+  sources: [pmo-ph]
+  description: The first stage of the PMO, open to all high school students. The site has the papers of many years with answers. The register has no shape for it, because the robots.txt of pmo.ph blocks ClaudeBot, the owner has not decided that case, and the census did not read its papers.
+
+- code: ph-pmo-area
+  name: Philippine Mathematical Olympiad Area Stage
+  group: national
+  level: high-school
+  country: PH
+  url: https://pmo.ph/
+  languages: [en]
+  sources: [pmo-ph]
+  description: The second stage of the PMO, held in several regions. The site has the papers of many years with answers. The register has no shape for it, because the robots.txt of pmo.ph blocks ClaudeBot, the owner has not decided that case, and the census did not read its papers.
+
+- code: ph-pmo-oral
+  name: Philippine Mathematical Olympiad National Stage Oral Phase
+  group: national
+  level: high-school
+  country: PH
+  url: https://pmo.ph/
+  languages: [en]
+  sources: [pmo-ph]
+  description: The oral phase of the national stage of the PMO, a quiz show with short questions. The site has the questions of some years. The register has no shape for it, because the robots.txt of pmo.ph blocks ClaudeBot, the owner has not decided that case, and the census did not read its papers.
+
+- code: ph-tst
+  name: Philippine Team Selection Test
+  group: national
+  level: high-school
+  country: PH
+  languages: [en]
+  description: The tests that choose the Philippine team for the IMO. AoPS has some of them. No official archive was found on 2026-11-16. The register has no shape for it, because no official paper or rules were found.
+
+- code: ph-mtap
+  name: Metrobank-MTAP-DepEd Math Challenge
+  short: MMC
+  group: national
+  level: high-school
+  levels: [elementary, junior, high-school]
+  country: PH
+  organizer: Mathematics Teachers Association of the Philippines
+  url: https://www.mtap.org.ph/
+  languages: [en]
+  description: A national contest for grades 4 to 11 with school, division, regional and national rounds. The robots.txt of mtap.org.ph blocks all paths, so no source is used. The register has no shape for it, because its site blocks all robots.
+
 - code: my-omk
   name: Malaysian Mathematical Olympiad
   short: OMK
@@ -7356,6 +7560,50 @@
   languages: [ms, en]
   sources: [omk]
   description: The national olympiad of Malaysia.
+
+- code: my-imonst1
+  name: IMO National Selection Test 1
+  short: IMONST 1
+  group: national
+  level: high-school
+  levels: [elementary, junior, high-school]
+  country: MY
+  organizer: IMO Malaysia Committee
+  url: https://imo-malaysia.org/
+  languages: [en, ms]
+  sources: [imo-malaysia]
+  description: The first round of the Malaysian selection, with 20 answer-only problems in parts A to D. It has separate papers for the categories Primary, Beginner, Pioneer, Junior and Senior, so the row has no layout.
+
+- code: my-imonst2
+  name: IMO National Selection Test 2
+  short: IMONST 2
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: MY
+  organizer: IMO Malaysia Committee
+  url: https://imo-malaysia.org/
+  languages: [en, ms]
+  sources: [imo-malaysia]
+  description: The second round of the Malaysian selection, with 6 essay problems for each category. The Beginner and Pioneer papers share 3 of them. The IMO Malaysia site (source imo-malaysia) has past papers. The register has no shape for it, because its categories share problem numbers (spec 05).
+
+- code: my-tst
+  name: Malaysian IMO Team Selection Test
+  group: national
+  level: high-school
+  country: MY
+  organizer: IMO Malaysia Committee
+  languages: [en]
+  description: The tests that choose the Malaysian team for the IMO. AoPS has them. No official archive was found on 2026-11-16. The register has no shape for it, because no official paper or rules were found.
+
+- code: my-jom
+  name: Junior Olympiad of Malaysia
+  short: JOM
+  group: national
+  level: high-school
+  country: MY
+  languages: [en]
+  description: An olympiad that Malaysian students set, with a shortlist. AoPS has the contests of 2013 to 2015, 2023 and 2025. The organizer has no archive online that the census found. The register has no shape for it, because no official paper or rules were found.
 
 - code: id-osn
   name: Indonesian National Science Olympiad
@@ -7371,6 +7619,281 @@
   languages: [id]
   sources: [hf-indonesian-olympiad]
   description: The mathematics section of the Indonesian national science olympiad. No official archive has been found.
+
+# Agent decision, not a person's review (census of East and Southeast Asia, 2026-11-16): the OSN has three stages at three school levels. The rows below give each lower stage and level its own code, so their rows do not take the positions of id-osn, the national stage for SMA. The 2025 guide of Puspresnas gives 20 short-answer problems for OSN-K and 8 short-answer and 4 essay problems for OSN-P, but the older formats differ (OSP had 20 and 5, or 15 and 5 in 2019), so the rows have no layout.
+- code: id-osk-sma
+  name: OSN SMA District Stage
+  short: OSN-K SMA
+  names: {id: Olimpiade Sains Nasional Tingkat Kabupaten/Kota SMA}
+  group: national
+  level: high-school
+  country: ID
+  organizer: Puspresnas
+  url: https://pusatprestasinasional.kemendikdasmen.go.id/
+  languages: [id]
+  sources: [hf-indonesian-olympiad]
+  description: The district stage of the OSN mathematics for senior high school, called OSK before 2020. The dataset hf-indonesian-olympiad has the papers of 2002 to 2009 and 2020 to 2024. No official archive was found. The register has no shape for it, because the dataset rows have no problem numbers and no official paper or rules were found.
+
+- code: id-osp-sma
+  name: OSN SMA Province Stage
+  short: OSN-P SMA
+  names: {id: Olimpiade Sains Nasional Tingkat Provinsi SMA}
+  group: national
+  level: high-school
+  country: ID
+  organizer: Puspresnas
+  url: https://pusatprestasinasional.kemendikdasmen.go.id/
+  languages: [id]
+  sources: [hf-indonesian-olympiad]
+  description: The province stage of the OSN mathematics for senior high school, called OSP before 2020. AoPS calls it Indonesia Regional. The dataset hf-indonesian-olympiad has the papers of 2002 to 2009 and 2020 to 2024. No official archive was found. The register has no shape for it, because the dataset rows have no problem numbers and no official paper or rules were found.
+
+- code: id-osn-smp
+  name: OSN SMP National Stage
+  names: {id: Olimpiade Sains Nasional SMP}
+  group: national
+  level: junior
+  country: ID
+  organizer: Puspresnas
+  url: https://pusatprestasinasional.kemendikdasmen.go.id/
+  languages: [id]
+  sources: [hf-indonesian-olympiad]
+  description: The national stage of the OSN mathematics for junior high school. AoPS calls it Indonesia Juniors. No official archive was found. The register has no shape for it, because no official paper or rules were found.
+
+- code: id-osk-smp
+  name: OSN SMP District Stage
+  short: OSN-K SMP
+  group: national
+  level: junior
+  country: ID
+  organizer: Puspresnas
+  languages: [id]
+  sources: [hf-indonesian-olympiad]
+  description: The district stage of the OSN mathematics for junior high school. The dataset hf-indonesian-olympiad has the papers of 2020 and 2022 to 2024. The register has no shape for it, because the dataset rows have no problem numbers and no official paper or rules were found.
+
+- code: id-osp-smp
+  name: OSN SMP Province Stage
+  short: OSN-P SMP
+  group: national
+  level: junior
+  country: ID
+  organizer: Puspresnas
+  languages: [id]
+  sources: [hf-indonesian-olympiad]
+  description: The province stage of the OSN mathematics for junior high school. The dataset hf-indonesian-olympiad has the papers of 2021 and 2023. The register has no shape for it, because the dataset rows have no problem numbers and no official paper or rules were found.
+
+- code: id-osn-sd
+  name: OSN SD National Stage
+  group: national
+  level: elementary
+  country: ID
+  organizer: Puspresnas
+  languages: [id]
+  description: The national stage of the OSN mathematics for primary school. No source was found. The register has no shape for it, because no source was found.
+
+- code: id-osk-sd
+  name: OSN SD District Stage
+  short: OSN-K SD
+  group: national
+  level: elementary
+  country: ID
+  organizer: Puspresnas
+  languages: [id]
+  sources: [hf-indonesian-olympiad]
+  description: The district stage of the OSN mathematics for primary school. The dataset hf-indonesian-olympiad has the papers of 2023 and 2024. The register has no shape for it, because the dataset rows have no problem numbers and no official paper or rules were found.
+
+- code: id-osp-sd
+  name: OSN SD Province Stage
+  short: OSN-P SD
+  group: national
+  level: elementary
+  country: ID
+  organizer: Puspresnas
+  languages: [id]
+  description: The province stage of the OSN mathematics for primary school. No source was found. The register has no shape for it, because no source was found.
+
+- code: id-tst
+  name: Indonesia Team Selection Test
+  group: national
+  level: high-school
+  country: ID
+  languages: [id, en]
+  description: The tests that choose the Indonesian team for the IMO. AoPS has them. No official archive was found on 2026-11-16. The register has no shape for it, because no official paper or rules were found.
+
+- code: id-ksm-ma
+  name: Madrasah Science Competition, Mathematics for MA
+  short: KSM MA
+  names: {id: Kompetisi Sains Madrasah Matematika MA}
+  group: national
+  level: high-school
+  country: ID
+  organizer: Ministry of Religious Affairs
+  languages: [id]
+  sources: [hf-indonesian-olympiad]
+  description: The science competition of the Islamic schools, mathematics for senior high school. The dataset hf-indonesian-olympiad has the papers of 2018 and 2019. The register has no shape for it, because the dataset has only a few of its papers, with no problem numbers.
+
+# Agent decision, not a person's review (census of East and Southeast Asia, 2026-11-16): the invitationals below are the contests of the dataset hf-indonesian-olympiad. Universities and student groups run most of them. Where the census did not confirm the organizer, the row has none. The level lists come from the SD, SMP and SMA papers of the dataset.
+- code: id-omits
+  name: OMITS
+  group: national
+  level: high-school
+  country: ID
+  languages: [id]
+  sources: [hf-indonesian-olympiad]
+  description: The mathematics olympiad of ITS Surabaya. The dataset has the SMA paper of 2007. The register has no shape for it, because the dataset has only a few of its papers, with no problem numbers.
+
+- code: id-opsilon
+  name: OPSILON
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: ID
+  languages: [id]
+  sources: [hf-indonesian-olympiad]
+  description: An Indonesian mathematics invitational. The dataset has SMA papers of 2018 and 2019 and an SMP paper of 2023. The register has no shape for it, because the dataset has only a few of its papers, with no problem numbers.
+
+- code: id-fimnas
+  name: FIMNas
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: ID
+  languages: [id]
+  sources: [hf-indonesian-olympiad]
+  description: An Indonesian mathematics invitational. The dataset has the SMP and SMA papers of 2009. The register has no shape for it, because the dataset has only a few of its papers, with no problem numbers.
+
+- code: id-namo
+  name: NaMO
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: ID
+  languages: [id]
+  sources: [hf-indonesian-olympiad]
+  description: An Indonesian mathematics invitational with a junior and a general paper. The dataset has one of each. The register has no shape for it, because the dataset has only a few of its papers, with no problem numbers.
+
+- code: id-sce
+  name: SCE
+  group: national
+  level: high-school
+  levels: [elementary, junior, high-school]
+  country: ID
+  languages: [id]
+  sources: [hf-indonesian-olympiad]
+  description: An Indonesian mathematics invitational. The dataset has SD, SMP and SMA papers of 2016 to 2020. The register has no shape for it, because the dataset has only a few of its papers, with no problem numbers.
+
+- code: id-posi
+  name: POSI
+  group: national
+  level: high-school
+  levels: [elementary, junior, high-school]
+  country: ID
+  languages: [id]
+  sources: [hf-indonesian-olympiad]
+  description: An Indonesian mathematics invitational. The dataset has SD, SMP and SMA papers of 2020. The register has no shape for it, because the dataset has only a few of its papers, with no problem numbers.
+
+- code: id-kmsi
+  name: KMSI
+  group: national
+  level: junior
+  levels: [elementary, junior]
+  country: ID
+  languages: [id]
+  sources: [hf-indonesian-olympiad]
+  description: An Indonesian mathematics contest. The dataset has the SD papers for grades 1 and 2, 3 and 4, and 5 and 6, and the SMP paper of 2022. The register has no shape for it, because the dataset has only a few of its papers, with no problem numbers.
+
+- code: id-fsn
+  name: FSN
+  group: national
+  level: junior
+  country: ID
+  languages: [id]
+  sources: [hf-indonesian-olympiad]
+  description: An Indonesian mathematics contest. The dataset has the SMP paper of 2024. The register has no shape for it, because the dataset has only a few of its papers, with no problem numbers.
+
+- code: id-lmnas
+  name: LMNas
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: ID
+  languages: [id]
+  sources: [hf-indonesian-olympiad]
+  description: An Indonesian mathematics contest. The dataset has SMP and SMA papers of 2019, 2021, 2022 and 2024. The register has no shape for it, because the dataset has only a few of its papers, with no problem numbers.
+
+- code: id-tos
+  name: TOS
+  group: national
+  level: high-school
+  country: ID
+  languages: [id]
+  sources: [hf-indonesian-olympiad]
+  description: An Indonesian mathematics contest. The dataset has one paper of 2024, and its level is not confirmed. The register has no shape for it, because the dataset has only a few of its papers, with no problem numbers.
+
+- code: id-umc
+  name: UMC
+  group: national
+  level: junior
+  levels: [elementary, junior]
+  country: ID
+  languages: [id]
+  sources: [hf-indonesian-olympiad]
+  description: An Indonesian mathematics contest. The dataset has an SD paper of 2022 and an SMP paper of 2018. The register has no shape for it, because the dataset has only a few of its papers, with no problem numbers.
+
+- code: id-itbmo
+  name: ITB Mathematical Olympiad
+  short: ITBMO
+  group: national
+  level: high-school
+  country: ID
+  languages: [id]
+  sources: [hf-indonesian-olympiad]
+  description: The mathematics olympiad of ITB. The dataset has the paper of 2022. The register has no shape for it, because the dataset has only a few of its papers, with no problem numbers.
+
+- code: id-omvn
+  name: OMVN
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: ID
+  languages: [id]
+  sources: [hf-indonesian-olympiad]
+  description: An Indonesian mathematics contest. The dataset has an SMP paper of 2013 and SMA papers of 2016 and 2018. The register has no shape for it, because the dataset has only a few of its papers, with no problem numbers.
+
+- code: id-science-expo
+  name: Science EXPO SUD
+  group: national
+  level: high-school
+  country: ID
+  languages: [id]
+  sources: [hf-indonesian-olympiad]
+  description: An Indonesian science contest with a mathematics paper. The dataset has two papers, one of 2018. Its level is not confirmed. The register has no shape for it, because the dataset has only a few of its papers, with no problem numbers.
+
+- code: id-bmoc
+  name: BMOC
+  group: national
+  level: high-school
+  country: ID
+  languages: [id]
+  sources: [hf-indonesian-olympiad]
+  description: An Indonesian mathematics contest. The dataset has the paper of 2020, and its level is not confirmed. The register has no shape for it, because the dataset has only a few of its papers, with no problem numbers.
+
+- code: id-soc
+  name: SOC
+  group: national
+  level: high-school
+  country: ID
+  languages: [id]
+  sources: [hf-indonesian-olympiad]
+  description: An Indonesian contest. The dataset has the mathematics paper of 2022, and its level is not confirmed. The register has no shape for it, because the dataset has only a few of its papers, with no problem numbers.
+
+- code: id-icef
+  name: ICEF
+  group: national
+  level: elementary
+  country: ID
+  languages: [id]
+  sources: [hf-indonesian-olympiad]
+  description: An Indonesian contest for primary students. The dataset has the SD paper of 2019. The register has no shape for it, because the dataset has only a few of its papers, with no problem numbers.
 
 - code: kh-mo
   name: Cambodia national mathematics olympiad

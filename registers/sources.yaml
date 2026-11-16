@@ -932,7 +932,7 @@
   origin: H1
   url: https://olympiads.mccme.ru/turlom/
   access: html
-  terms: "The status page https://olympiads.mccme.ru/turlom/info-status.htm (published 2012-12-23, read again on 2026-11-16) covers the pages of turlom.info and of its synonym olympiads.mccme.ru/turlom, the page of the 35th tournament of 30 September 2012, and the pages next to and below them. It says: \"Информация имеет свободный статус и может использоваться и распространяться без ограничений во всех случаях, когда это не противоречит действующему законодательству\" (the information has a free status and may be used and distributed without limits wherever this does not go against the law). It also says: \"по адресам в домене turlom.info доступны материалы, размещённые ранее 2012 года и имеющие в настоящее время архивный характер. Статус таких материалов соответствует обстоятельствам их публикации\" (materials placed before 2012 are archival, and their status follows the circumstances of their publication). So the papers of 2012 and later on the old site (2012, 2013 and 2014) are free, and the older papers are not covered. The new site of the tournament, турлом.цпм.рф (xn--k1acfgjg.xn--l1afu.xn--p1ai), which holds the paper of 2025, states no licence; its footer says \"© 2026 Турнир имени М.В.Ломоносова\" (read on 2026-11-12). Agent decision, not a person's review: the row has one zone for all years, so it stays Z2, the spec default for competition statements, and this note records the split by year. The statements of 2012 to 2014 can go to Z1 when they get a source of their own with this status as its licence."
+  terms: "The status page https://olympiads.mccme.ru/turlom/info-status.htm (published 2012-12-23, read again on 2026-11-16) covers the pages of turlom.info and of its synonym olympiads.mccme.ru/turlom, the page of the 35th tournament of 30 September 2012, and the pages next to and below them. It says: \"Информация имеет свободный статус и может использоваться и распространяться без ограничений во всех случаях, когда это не противоречит действующему законодательству\" (the information has a free status and may be used and distributed without limits wherever this does not go against the law). It also says: \"по адресам в домене turlom.info доступны материалы, размещённые ранее 2012 года и имеющие в настоящее время архивный характер. Статус таких материалов соответствует обстоятельствам их публикации\" (materials placed before 2012 are archival, and their status follows the circumstances of their publication). So the papers of 2012 and later on the old site (2012, 2013 and 2014) are free, and the older papers are not covered. The new site of the tournament, турлом.цпм.рф (xn--k1acfgjg.xn--l1afu.xn--p1ai), which holds the paper of 2025, states no licence; its footer says \"© 2026 Турнир имени М.В.Ломоносова\" (read on 2026-11-12). Agent decision, not a person's review: the row has one zone for all years, so it stays Z2, the spec default for competition statements, and this note records the split by year. The statements of 2012 to 2014 have the source turlom-2012 (Z1) with this status as its licence (2026-11-16)."
   zone:
     statement: Z2
     solution: Z2
@@ -940,6 +940,23 @@
   wave: 1
   state: active
   notes: The old site olympiads.mccme.ru/turlom has a page or a PDF paper with the problems of mathematics for 1995 to 2003 and 2007 to 2014. Its robots.txt gives 404, so all paths are allowed (checked on 2026-11-12). The paper of 2025 is a PDF on the new site, whose robots.txt allows all paths for all agents (checked on 2026-11-12). The site has no problems of mathematics for 2015 to 2022. turlom.olimpiada.ru now goes to the new site. The download.turlom.info and turlom.tel addresses are behind Cloudflare, so the agent does not read them.
+
+- id: turlom-2012
+  name: Lomonosov Tournament, turlom.info pages of 2012 and later
+  kind: official
+  origin: H1
+  url: https://olympiads.mccme.ru/turlom/
+  access: pdf
+  terms: "The status page https://olympiads.mccme.ru/turlom/info-status.htm (\"Информация о статусе информации, опубликованной на web-страницах (ресурсах), имеющих адреса в домене turlom.info\", published 23.12.2012; read through the olymmath fetch client on 2026-11-16, raw capture 195ae508b580) covers the page http://turlom.info and its synonym http://olympiads.mccme.ru/turlom with the pages next to it, and the page http://turlom.info/2012 (synonym http://olympiads.mccme.ru/turlom/2012) of the 35th tournament of 30 September 2012 with the pages next to and below it. It says, verbatim: \"Материалы для публикации подготовлены и предоставлены сотрудниками оргкомитета Турнира имени М. В. Ломоносова и многочисленными добровольными помощниками. Информация имеет свободный статус и может использоваться и распространяться без ограничений во всех случаях, когда это не противоречит действующему законодательству.\" (The materials were prepared and provided by the staff of the organizing committee of the Lomonosov Tournament and many volunteers. The information has a free status and may be used and distributed without limits in all cases where this does not go against the law in force.) It also says: \"Кроме перечисленного выше, по адресам в домене turlom.info доступны материалы, размещённые ранее 2012 года и имеющие в настоящее время архивный характер. Статус таких материалов соответствует обстоятельствам их публикации.\" (Besides the above, the domain holds materials placed before 2012 that are now archival; their status follows the circumstances of their publication.) So this source covers the papers placed in 2012 and later on the old site, which are those of 2012, 2013 and 2014 (https://olympiads.mccme.ru/turlom/2012/zadanija/tl2012mat.pdf, .../2013/zadanija/tl2013mat.pdf and .../2014/zadanija/tl2014mat.pdf, read on 2026-11-16). The papers before 2012 and the paper of 2025 on the new site stay on the source turlom. The grant asks for no attribution; the records name the tournament and link the paper. It says nothing of model training, so ai_train stays unknown. Agent decision, not a person's review."
+  licence: "Free status: may be used and distributed without limits (turlom.info status page of 23.12.2012, https://olympiads.mccme.ru/turlom/info-status.htm)"
+  zone:
+    statement: Z1
+    solution: Z1
+  ai_train: unknown
+  size: The mathematics papers of 2012, 2013 and 2014, 22 problems
+  wave: 1
+  state: active
+  notes: The old site has a robots.txt that gives 404, so all paths are allowed (checked on 2026-11-12). The covered years are 2012 to 2014; the old site has no later mathematics paper.
 
 - id: turgor
   name: Tournament of Towns
@@ -1052,7 +1069,7 @@
   origin: H1
   url: https://www.ommenlinea.org/
   access: pdf
-  terms: "No licence stated for the papers of the national contest. The footer of the site says \"Copyright 2017 Olimpiada Mexicana de Matemáticas | Todos los derechos reservados\". The legal notice of the magazine Tzaloa, which the Sociedad Matemática Mexicana publishes, says \"Los contenidos e imágenes de Tzaloa pueden ser reproducidos y utilizados, citando apropiadamente y otorgando el crédito correspondiente a la publicación y a la Sociedad Matemática Mexicana\" (the contents and images of Tzaloa may be reproduced and used with proper citation and credit to the magazine and to the SMM). It was read on 2026-11-16 in https://www.ommenlinea.org/wp-content/uploads/2026/05/Tzaloa2026-1.pdf (year 18, no. 1, May 2026) and https://www.ommenlinea.org/wp-content/uploads/2024/12/TZALOA-24-03.pdf. So the Tzaloa texts may be reused with credit, and the nac papers are not covered. Agent decision, not a person's review: the row has one zone for both, so it stays Z2, the spec default for competition statements, as for tubitak, and this note records the split. The statements taken from Tzaloa (the national contests of 2024 and 2025) can go to Z1 when Tzaloa gets a source of its own with this notice as its licence."
+  terms: "No licence stated for the papers of the national contest. The footer of the site says \"Copyright 2017 Olimpiada Mexicana de Matemáticas | Todos los derechos reservados\". The legal notice of the magazine Tzaloa, which the Sociedad Matemática Mexicana publishes, says \"Los contenidos e imágenes de Tzaloa pueden ser reproducidos y utilizados, citando apropiadamente y otorgando el crédito correspondiente a la publicación y a la Sociedad Matemática Mexicana\" (the contents and images of Tzaloa may be reproduced and used with proper citation and credit to the magazine and to the SMM). It was read on 2026-11-16 in https://www.ommenlinea.org/wp-content/uploads/2026/05/Tzaloa2026-1.pdf (year 18, no. 1, May 2026) and https://www.ommenlinea.org/wp-content/uploads/2024/12/TZALOA-24-03.pdf. So the Tzaloa texts may be reused with credit, and the nac papers are not covered. Agent decision, not a person's review: the row has one zone for both, so it stays Z2, the spec default for competition statements, as for tubitak, and this note records the split. The statements taken from Tzaloa (the national contests of 2024 and 2025) cite the source tzaloa (Z1) with this notice as its licence (2026-11-16)."
   zone:
     statement: Z2
     solution: Z2
@@ -3224,14 +3241,18 @@
   name: Tzaloa
   kind: journal
   origin: H1
-  url: https://www.ommenlinea.org/
+  url: https://www.ommenlinea.org/publicaciones/revista-tzaloa-2/
   access: pdf
+  terms: "The legal page (\"Información legal\") of each issue says that Tzaloa, Revista de la Olimpiada Mexicana de Matemáticas, is a quarterly published by the Sociedad Matemática Mexicana, A. C., and says, verbatim: \"Los contenidos e imágenes de Tzaloa pueden ser reproducidos y utilizados, citando apropiadamente y otorgando el crédito correspondiente a la publicación y a la Sociedad Matemática Mexicana.\" (The contents and images of Tzaloa may be reproduced and used, citing properly and giving the corresponding credit to the publication and to the Sociedad Matemática Mexicana.) Read through the olymmath fetch client on 2026-11-16 in Año 16, No. 3, Noviembre de 2024 (https://www.ommenlinea.org/wp-content/uploads/2024/12/TZALOA-24-03.pdf, raw capture 8c281d7b69ff) and Año 18, No. 1, Mayo de 2026 (https://www.ommenlinea.org/wp-content/uploads/2026/05/Tzaloa2026-1.pdf, raw capture 8e3f8cad0ef6). Attribution: each statement from Tzaloa names the magazine, its year and number, and the Sociedad Matemática Mexicana, and links the issue. The notice is checked issue by issue: an issue whose legal page does not carry it is not covered. It says nothing of model training, so ai_train stays unknown. Agent decision, not a person's review."
+  licence: "Reproduction and use allowed with credit to Tzaloa and to the Sociedad Matemática Mexicana (legal notice of each issue)"
   zone:
-    statement: Z2
-    solution: Z2
+    statement: Z1
+    solution: Z1
   ai_train: unknown
+  size: Two issues read so far, which print the problems of the 38th (2024) and 39th (2025) national contests of the OMM, 12 problems
   wave: 2
-  state: planned
+  state: active
+  notes: The issues are PDFs listed at https://www.ommenlinea.org/publicaciones/revista-tzaloa-2/revista-en-linea/. robots.txt of www.ommenlinea.org (checked on 2026-11-04) disallows only /wp-admin/.
 
 - id: eureka
   name: Eureka!

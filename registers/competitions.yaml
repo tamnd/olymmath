@@ -3009,7 +3009,7 @@
     1987: [p1, p2, p3, p4, p5, p6, p7, p8]
     1988: [p1, p2, p3, p4, p5, p6, p7, p8]
   languages: [es]
-  sources: [omm]
+  sources: [omm, tzaloa]
   description: The national olympiad of Mexico with six problems. The Tzaloa magazine also publishes its problems.
 
 - code: br-obm

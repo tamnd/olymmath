@@ -416,3 +416,8 @@ journal-crux/2015/p3960	journal-crux/2014/p3960
 journal-crux/2016/p4085	journal-crux/2015/p4085
 # Agent decision, not a person's review (2026-11-14): the page images show that Crux problem 3282 is in Vol. 33, No. 7 (Nov 2007). Vol. 34, No. 4 only printed a correction of it.
 journal-crux/2008/p3282	journal-crux/2007/p3282
+# Agent decision, not a person's review (2026-11-16): the AoPS contest collections label these problems "Singapore Senior MO 2013 2nd Round p3", "Singapore Junior MO 2016 2nd Round p1", "Singapore Junior MO 2018 2nd Round p3" and "Singapore Junior MO 2019 2nd Round p2", so they are not problems of the open section. The position of problem N of round 2 is r2 followed by N.
+sg-smo/2013/p3	sg-smo-senior/2013/r23
+sg-smo/2016/p1	sg-smo-junior/2016/r21
+sg-smo/2018/p3	sg-smo-junior/2018/r23
+sg-smo/2019/p2	sg-smo-junior/2019/r22

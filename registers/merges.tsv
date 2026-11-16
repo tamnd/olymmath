@@ -962,3 +962,5 @@ amc10/2023b/p2	amc12/2023b/p2	strong	1.000	match	amc10-amc12	-
 amc10/2023b/p4	amc12/2023b/p4	strong	1.000	match	amc10-amc12	-
 amc10/2023b/p10	amc12/2023b/p5	strong	1.000	match	amc10-amc12	-
 amc10/2023b/p12	amc12/2023b/p6	strong	1.000	match	amc10-amc12	-
+sg-smo/2007/p2	nordic/1992/p2	none	0.513	none	text	9024e4f81855	0.326
+sg-smo/2007/p5	apmo/1998/p5	none	0.111	none	text	b21468b1ae32	0.000

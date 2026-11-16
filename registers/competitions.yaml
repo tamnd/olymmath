@@ -7424,6 +7424,7 @@
   url: https://sms.math.nus.edu.sg/
   languages: [en]
   sources: [sms-smo]
+  # Agent decision, not a person's review: the AoPS contest collections give the round and number of each problem, as in "Singapore Junior MO 2016 2nd Round p1". The position of problem N of round k is rk followed by N.
   description: The junior section of the Singapore olympiad, a paper of short-answer questions for lower secondary students. AoPS calls it the Singapore Junior Math Olympiad. The round 1 and round 2 formats differ across sources, so the row has no layout.
 
 - code: sg-smo-senior
@@ -7435,6 +7436,7 @@
   url: https://sms.math.nus.edu.sg/
   languages: [en]
   sources: [sms-smo]
+  # Agent decision, not a person's review: the AoPS contest collections give the round and number of each problem, as in "Singapore Senior MO 2013 2nd Round p3". The position of problem N of round k is rk followed by N.
   description: The senior section of the Singapore olympiad, a paper of short-answer questions for upper secondary students. AoPS calls it the Singapore Senior Math Olympiad. The register has no shape for it, because the SMS site did not answer on 2026-11-16, so no official paper was read.
 
 - code: sg-smo-open-r1

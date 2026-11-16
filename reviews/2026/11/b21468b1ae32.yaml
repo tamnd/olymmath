@@ -1,0 +1,7 @@
+id: b21468b1ae32
+kind: merge
+records: [BD3W1DEQJM, YWXQFQHK42]
+decision: accept
+by: agent
+date: "2026-11-16"
+note: "Agent decision, not a person's review. The two texts state the same problem: sg-smo/2007/p5 and apmo/1998/p5 (the largest integer divisible by all positive integers less than its cube root). The AoPS collection of the 2007 Singapore MO Open gives its problem 5 by a link to the 1998 APMO topic (c6h79683), which the Singapore record cites, so the Singapore paper reused the APMO problem."

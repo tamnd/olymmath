@@ -1836,6 +1836,17 @@
   url: https://www.mathcounts.org/resources/past-competitions
   first_year: 1983
   edition_form: year
+  # Agent decision, not a person's review: the page https://www.mathcounts.org/resources/past-competitions (read on 2026-11-16) links the chapter and state papers of 2026, and the chapter and the state answer keys each have 30 sprint, 8 target and 10 team answers. The countdown round, the school and the national papers are not in the layout. The papers of earlier years are sold, so the years before 2026 have no shape. The position is cs, ct and cm (chapter sprint, target and team) or ss, st and sm (state) followed by N.
+  layout:
+    - {paper: chapter-sprint, name: Chapter Sprint, positions: [cs1, cs2, cs3, cs4, cs5, cs6, cs7, cs8, cs9, cs10, cs11, cs12, cs13, cs14, cs15, cs16, cs17, cs18, cs19, cs20, cs21, cs22, cs23, cs24, cs25, cs26, cs27, cs28, cs29, cs30]}
+    - {paper: chapter-target, name: Chapter Target, positions: [ct1, ct2, ct3, ct4, ct5, ct6, ct7, ct8]}
+    - {paper: chapter-team, name: Chapter Team, positions: [cm1, cm2, cm3, cm4, cm5, cm6, cm7, cm8, cm9, cm10]}
+    - {paper: state-sprint, name: State Sprint, positions: [ss1, ss2, ss3, ss4, ss5, ss6, ss7, ss8, ss9, ss10, ss11, ss12, ss13, ss14, ss15, ss16, ss17, ss18, ss19, ss20, ss21, ss22, ss23, ss24, ss25, ss26, ss27, ss28, ss29, ss30]}
+    - {paper: state-target, name: State Target, positions: [st1, st2, st3, st4, st5, st6, st7, st8]}
+    - {paper: state-team, name: State Team, positions: [sm1, sm2, sm3, sm4, sm5, sm6, sm7, sm8, sm9, sm10]}
+  per_year: 96
+  eras:
+    - {from: 1983, to: 2025}
   languages: [en]
   copyright: Copyright MATHCOUNTS.
   sources: [mathcounts-official]
@@ -1858,6 +1869,577 @@
   country: US
   languages: [en]
   description: An online team contest that no longer runs. Its papers are kept on Evan Chen's Google Drive.
+
+- code: purple-comet
+  name: Purple Comet! Math Meet
+  short: Purple Comet
+  group: usa
+  level: high-school
+  levels: [junior, high-school]
+  country: US
+  organizer: Jonathan Kane, Titu Andreescu, Bennette Harris and Sobitha Samaranayake
+  url: https://purplecomet.org/
+  first_year: 2003
+  edition_form: year
+  # Agent decision, not a person's review: the answer lists at https://purplecomet.org/answerlist/<year>/1 (middle school) and /2 (high school), read on 2026-11-16 for 2005 to 2013, 2017, 2021 and 2026, give 15 and 25 answers for 2005 to 2009 and 20 and 30 answers from 2010. The information page gives 20 problems in 60 minutes and 30 problems in 90 minutes. The answer page of 2003 says that the answers are not available, and the page of 2004 was not read, so those years have no shape. The position of problem N is mN in the middle school paper and hN in the high school paper.
+  layout:
+    - {paper: ms, name: Middle School, level: junior, positions: [m1, m2, m3, m4, m5, m6, m7, m8, m9, m10, m11, m12, m13, m14, m15, m16, m17, m18, m19, m20]}
+    - {paper: hs, name: High School, positions: [h1, h2, h3, h4, h5, h6, h7, h8, h9, h10, h11, h12, h13, h14, h15, h16, h17, h18, h19, h20, h21, h22, h23, h24, h25, h26, h27, h28, h29, h30]}
+  per_year: 50
+  eras:
+    - {from: 2003, to: 2004}
+    - {from: 2005, to: 2009, per_year: 40, layout: [{paper: ms, name: Middle School, level: junior, positions: [m1, m2, m3, m4, m5, m6, m7, m8, m9, m10, m11, m12, m13, m14, m15]}, {paper: hs, name: High School, positions: [h1, h2, h3, h4, h5, h6, h7, h8, h9, h10, h11, h12, h13, h14, h15, h16, h17, h18, h19, h20, h21, h22, h23, h24, h25]}]}
+  languages: [en]
+  copyright: Copyright © 2003-2026 by Jonathan Kane, Titu Andreescu, Bennette Harris, and Sobitha Samaranayake.
+  sources: [purple-comet]
+  description: An online team contest for middle school and high school teams from many countries. The middle school paper and the high school paper each number their problems from 1, so the positions are m1 to mN and h1 to hN.
+
+- code: moems
+  name: Math Olympiads for Elementary and Middle Schools
+  short: MOEMS
+  group: usa
+  level: junior
+  levels: [elementary, junior]
+  country: US
+  organizer: MOEMS
+  url: https://www.moems.org/
+  first_year: 1979
+  edition_form: year
+  # Agent decision, not a person's review: the contest page https://www.moems.org/pages/contests-tournaments (read on 2026-11-16) says that each division writes five olympiads a year, from November to March, and that each olympiad has five questions. The resources page shows the problems of 2025-2026. An edition is the school year, named by the year in which it starts. The papers of earlier years are sold in books, so the years before 2025 have no shape. The position of problem j (a to e) of olympiad k is ekj in division E and mkj in division M.
+  layout:
+    - {paper: e1, name: Division E Olympiad 1, level: elementary, positions: [e1a, e1b, e1c, e1d, e1e]}
+    - {paper: e2, name: Division E Olympiad 2, level: elementary, positions: [e2a, e2b, e2c, e2d, e2e]}
+    - {paper: e3, name: Division E Olympiad 3, level: elementary, positions: [e3a, e3b, e3c, e3d, e3e]}
+    - {paper: e4, name: Division E Olympiad 4, level: elementary, positions: [e4a, e4b, e4c, e4d, e4e]}
+    - {paper: e5, name: Division E Olympiad 5, level: elementary, positions: [e5a, e5b, e5c, e5d, e5e]}
+    - {paper: m1, name: Division M Olympiad 1, level: junior, positions: [m1a, m1b, m1c, m1d, m1e]}
+    - {paper: m2, name: Division M Olympiad 2, level: junior, positions: [m2a, m2b, m2c, m2d, m2e]}
+    - {paper: m3, name: Division M Olympiad 3, level: junior, positions: [m3a, m3b, m3c, m3d, m3e]}
+    - {paper: m4, name: Division M Olympiad 4, level: junior, positions: [m4a, m4b, m4c, m4d, m4e]}
+    - {paper: m5, name: Division M Olympiad 5, level: junior, positions: [m5a, m5b, m5c, m5d, m5e]}
+  per_year: 50
+  eras:
+    - {from: 1979, to: 2024}
+  languages: [en]
+  sources: [moems]
+  description: A school contest of five short olympiads a year, in division E (grades 4 to 6) and division M (grades 6 to 8). Each olympiad of each division has five problems. An edition is the school year, named by the year in which it starts.
+
+- code: noetic
+  name: Noetic Learning Math Contest
+  group: usa
+  level: junior
+  levels: [elementary, junior]
+  country: US
+  organizer: Noetic Learning
+  url: https://www.noetic-learning.com/mathcontest/
+  first_year: 2007
+  edition_form: year-season
+  # Agent decision, not a person's review: the HTML pages of www.noetic-learning.com (read on 2026-11-16) do not give the number of problems, and the papers are PDF files that robots.txt disallows, so no year has a shape.
+  languages: [en]
+  sources: [noetic]
+  description: A contest for grades 2 to 8 held in the fall and in the spring. Each grade has its own paper, and each paper numbers its problems from 1, so the register gives no layout yet.
+
+- code: math-league
+  name: Math League contests
+  group: usa
+  level: high-school
+  levels: [elementary, junior, high-school]
+  country: US
+  organizer: Math League
+  url: https://www.mathleague.com/
+  first_year: 1977
+  edition_form: year
+  # Agent decision, not a person's review: the sample contests at https://www.mathleague.com/index.php/annualcontestinformation/samplecontests (read on 2026-11-16) of 2012-2013 and 2018-2019 have 30 questions for grades 4 and 5, 35 questions for grades 6, 7 and 8, 30 questions for Algebra Course 1, and 6 questions (k-1 to k-6) in high school contest k. The contest information page lists six high school contests for 2025-2026. The years from 2012 use this shape. The samples of 2004-2005 are scanned images and the full contests are sold, so the years before 2012 have no shape. An edition is the school year, named by the year in which it starts. The position of problem N of grade G is pG followed by N, as in other grade papers of the register, of Algebra Course 1 is alN, and of problem k-N of the high school is hk followed by N.
+  layout:
+    - {paper: grade4, name: Grade 4, level: elementary, positions: [p41, p42, p43, p44, p45, p46, p47, p48, p49, p410, p411, p412, p413, p414, p415, p416, p417, p418, p419, p420, p421, p422, p423, p424, p425, p426, p427, p428, p429, p430]}
+    - {paper: grade5, name: Grade 5, level: elementary, positions: [p51, p52, p53, p54, p55, p56, p57, p58, p59, p510, p511, p512, p513, p514, p515, p516, p517, p518, p519, p520, p521, p522, p523, p524, p525, p526, p527, p528, p529, p530]}
+    - {paper: grade6, name: Grade 6, level: junior, positions: [p61, p62, p63, p64, p65, p66, p67, p68, p69, p610, p611, p612, p613, p614, p615, p616, p617, p618, p619, p620, p621, p622, p623, p624, p625, p626, p627, p628, p629, p630, p631, p632, p633, p634, p635]}
+    - {paper: grade7, name: Grade 7, level: junior, positions: [p71, p72, p73, p74, p75, p76, p77, p78, p79, p710, p711, p712, p713, p714, p715, p716, p717, p718, p719, p720, p721, p722, p723, p724, p725, p726, p727, p728, p729, p730, p731, p732, p733, p734, p735]}
+    - {paper: grade8, name: Grade 8, level: junior, positions: [p81, p82, p83, p84, p85, p86, p87, p88, p89, p810, p811, p812, p813, p814, p815, p816, p817, p818, p819, p820, p821, p822, p823, p824, p825, p826, p827, p828, p829, p830, p831, p832, p833, p834, p835]}
+    - {paper: algebra1, name: Algebra Course 1, level: junior, positions: [al1, al2, al3, al4, al5, al6, al7, al8, al9, al10, al11, al12, al13, al14, al15, al16, al17, al18, al19, al20, al21, al22, al23, al24, al25, al26, al27, al28, al29, al30]}
+    - {paper: hs1, name: High School Contest 1, level: high-school, positions: [h11, h12, h13, h14, h15, h16]}
+    - {paper: hs2, name: High School Contest 2, level: high-school, positions: [h21, h22, h23, h24, h25, h26]}
+    - {paper: hs3, name: High School Contest 3, level: high-school, positions: [h31, h32, h33, h34, h35, h36]}
+    - {paper: hs4, name: High School Contest 4, level: high-school, positions: [h41, h42, h43, h44, h45, h46]}
+    - {paper: hs5, name: High School Contest 5, level: high-school, positions: [h51, h52, h53, h54, h55, h56]}
+    - {paper: hs6, name: High School Contest 6, level: high-school, positions: [h61, h62, h63, h64, h65, h66]}
+  per_year: 231
+  eras:
+    - {from: 1977, to: 2011}
+  languages: [en]
+  sources: [mathleague]
+  description: School contests with one paper a year for each of grades 4 to 8 and Algebra Course 1, and six short high school contests a year. An edition is the school year, named by the year in which it starts.
+
+- code: usamts
+  name: USA Mathematical Talent Search
+  short: USAMTS
+  names: {en: United States of America Mathematical Talent Search}
+  group: usa
+  level: high-school
+  country: US
+  organizer: Art of Problem Solving Initiative
+  url: https://www.usamts.org/
+  first_year: 1989
+  edition_form: year
+  # Agent decision, not a person's review: the archive https://www.usamts.org/contest/past-problems (read on 2026-11-16) lists Year 10 (1998-1999) to Year 37 (2025-2026), and Year N starts in the fall of 1988 + N. The round papers of 1998, 2000, 2006, 2009, 2011, 2012, 2018 and 2025 have five problems each. Years 10 to 21 (1998 to 2009) have four rounds, and the years from 2011 have three rounds. Year 22 (2010) shows two rounds and its third paper gives 404, so 2010 has no shape. Years 1 to 9 (1989 to 1997) are not in the archive, so they have no shape. The position of problem N of round k is rk followed by N.
+  layout:
+    - {paper: round1, name: Round 1, positions: [r11, r12, r13, r14, r15]}
+    - {paper: round2, name: Round 2, positions: [r21, r22, r23, r24, r25]}
+    - {paper: round3, name: Round 3, positions: [r31, r32, r33, r34, r35]}
+  per_year: 15
+  eras:
+    - {from: 1989, to: 1997}
+    - {from: 1998, to: 2009, per_year: 20, layout: [{paper: round1, name: Round 1, positions: [r11, r12, r13, r14, r15]}, {paper: round2, name: Round 2, positions: [r21, r22, r23, r24, r25]}, {paper: round3, name: Round 3, positions: [r31, r32, r33, r34, r35]}, {paper: round4, name: Round 4, positions: [r41, r42, r43, r44, r45]}]}
+    - {from: 2010, to: 2010}
+  languages: [en]
+  copyright: © Copyright 2026 Art of Problem Solving Initiative. All rights reserved.
+  sources: [usamts]
+  description: A free proof contest by mail and online. Each round numbers its problems from 1. An edition is the school year, named by the year in which it starts.
+
+- code: imts
+  name: International Mathematical Talent Search
+  short: IMTS
+  group: usa
+  level: high-school
+  country: US
+  edition_form: year
+  languages: [en]
+  sources: [aops-collections]
+  description: A proof contest by mail, a sister contest of the USAMTS, that ran in the 1990s. No official archive was found.
+
+- code: mpfg
+  name: Math Prize for Girls
+  short: MPfG
+  group: usa
+  level: high-school
+  country: US
+  organizer: Advantage Testing Foundation
+  url: https://mathprize.atfoundation.org/
+  first_year: 2009
+  gaps: [2020]
+  edition_form: year
+  # Agent decision, not a person's review: the page https://mathprize.atfoundation.org/resources (read on 2026-11-16) links the problems of 2009 to 2019 and 2021 to 2026, and no paper of 2020. The papers of 2009, 2012, 2016, 2021 and 2026 have 20 problems, and the FAQ page says 20 problems in 2.5 hours.
+  per_year: 20
+  languages: [en]
+  copyright: Copyright © 2026 Advantage Testing Foundation. All rights reserved.
+  sources: [mathprize]
+  description: A contest for girls in high school, with one short answer paper of 20 problems a year. It was not held in 2020. The olympiad paper for the best contestants is the code mpfg-olympiad.
+
+- code: mpfg-olympiad
+  name: Math Prize for Girls Olympiad
+  group: usa
+  level: high-school
+  country: US
+  organizer: Advantage Testing Foundation
+  url: https://mathprize.atfoundation.org/
+  first_year: 2010
+  gaps: [2020, 2021]
+  edition_form: year
+  # Agent decision, not a person's review: the page https://mathprize.atfoundation.org/resources (read on 2026-11-16) links the olympiad papers of 2010 to 2019 and 2022 to 2025. The papers of 2010, 2015 and 2025 have four problems, and the papers of 2015 and 2025 give a time limit of 4 hours. 2026 has no olympiad paper on the page yet, and it is counted as missing.
+  per_year: 4
+  languages: [en]
+  copyright: Copyright © 2026 Advantage Testing Foundation. All rights reserved.
+  sources: [mathprize]
+  description: A proof paper for the best contestants of the Math Prize for Girls. It has its own numbers, so it has its own code.
+
+- code: bamo
+  name: Bay Area Mathematical Olympiad
+  short: BAMO
+  group: usa
+  level: high-school
+  levels: [junior, high-school]
+  country: US
+  url: https://www.bamo.org/
+  first_year: 1999
+  edition_form: year
+  # Agent decision, not a person's review: the archive https://www.bamo.org/archives/problems_and_solutions (read on 2026-11-16) lists 1999 to 2026 but not 2021. The papers of 1999, 2004, 2005 and 2007 have one paper of five problems. The papers of 2008 to 2013 number seven problems together. From 2014 BAMO-8 has problems A to E and BAMO-12 has problems 1 to 5, and the two papers share three problems (stated in the papers of 2016, 2017 and 2018, and the letters seen in 2014). A shared problem has a position in each paper. The position of BAMO-8 problem A to E is m1 to m5, and of BAMO-12 problem N is pN. 2021 is not in the archive, so it has no shape.
+  layout:
+    - {paper: bamo8, name: BAMO-8, level: junior, positions: [m1, m2, m3, m4, m5]}
+    - {paper: bamo12, name: BAMO-12, positions: [p1, p2, p3, p4, p5]}
+  per_year: 10
+  eras:
+    - {from: 1999, to: 2007, per_year: 5}
+    - {from: 2008, to: 2013, per_year: 7}
+    - {from: 2021, to: 2021}
+  languages: [en]
+  sources: [bamo, hf-mathnet, aops-collections]
+  description: A proof olympiad of the San Francisco Bay Area. BAMO-8 is for grade 8 and below, and BAMO-12 is for high school. From 2014 the two papers share problems, and BAMO-8 names its problems with letters.
+
+- code: bmc-monthly
+  name: Berkeley Math Circle Monthly Contest
+  group: usa
+  level: high-school
+  country: US
+  organizer: Berkeley Math Circle
+  url: https://mathcircle.berkeley.edu/
+  edition_form: year
+  languages: [en]
+  sources: [hf-mathnet]
+  description: A take-home proof contest of the Berkeley Math Circle, with several contests a school year. MathNet names the contests "Berkeley Math Circle Take-Home Contest" with a number. Each contest numbers its problems from 1, so the register gives no layout yet.
+
+- code: math-hour
+  name: Math Hour Olympiad
+  group: usa
+  level: high-school
+  levels: [junior, high-school]
+  country: US
+  organizer: UW Math Enrichment, University of Washington
+  url: https://sites.math.washington.edu/~mathcircle/olympiad/
+  first_year: 2010
+  gaps: [2020, 2021]
+  edition_form: year
+  # Agent decision, not a person's review: the archive https://sites.math.washington.edu/~mathcircle/olympiad/archive (read on 2026-11-16) lists 2010 to 2025 and says that 2020 and 2021 were cancelled. The papers of 2012, 2014, 2019, 2023 and 2026 have five main problems and two extra problems (6 and 7) for each level. In 2012 and 2014 the younger level was for grades 5 to 7, with the same positions. The page of 2010 has no paper file and the page of 2011 was not read, so those years have no shape. The position of problem N is mN for grades 6 and 7 and hN for grades 8 to 10.
+  layout:
+    - {paper: grades6-7, name: Grades 6 and 7, level: junior, positions: [m1, m2, m3, m4, m5, m6, m7]}
+    - {paper: grades8-10, name: Grades 8 to 10, level: high-school, positions: [h1, h2, h3, h4, h5, h6, h7]}
+  per_year: 14
+  eras:
+    - {from: 2010, to: 2011}
+  languages: [en]
+  copyright: Copyright © 2009-2025 UW Math Enrichment.
+  sources: [mathhour-uw, aops-collections]
+  description: An oral proof olympiad of the University of Washington, called the Math Hour Olympiad before 2025, in two levels, for grades 6 and 7 (grades 5 to 7 in the early years) and for grades 8 to 10. Each level has five problems and two extra problems.
+
+- code: umd-hsmc1
+  name: University of Maryland High School Mathematics Competition, Part I
+  group: usa
+  level: high-school
+  country: US
+  organizer: University of Maryland
+  edition_form: year
+  languages: [en]
+  sources: [aops-collections]
+  description: The multiple choice part of the University of Maryland contest. Part II has its own numbers, so it is the code umd-hsmc2.
+
+- code: umd-hsmc2
+  name: University of Maryland High School Mathematics Competition, Part II
+  group: usa
+  level: high-school
+  country: US
+  organizer: University of Maryland
+  edition_form: year
+  languages: [en]
+  sources: [aops-collections]
+  description: The proof part of the University of Maryland contest, for the students with the best scores in Part I.
+
+- code: kettering
+  name: Kettering University High School Mathematics Olympiad
+  group: usa
+  level: high-school
+  country: US
+  organizer: Kettering University
+  edition_form: year
+  languages: [en]
+  sources: [aops-collections]
+  description: A proof olympiad of Kettering University in Michigan. The AoPS collections hold one row a year with the whole paper.
+
+- code: utah-mo
+  name: Utah Mathematical Olympiad
+  group: usa
+  level: high-school
+  country: US
+  edition_form: year
+  languages: [en]
+  sources: [aops-collections]
+  description: A state proof olympiad of Utah. No official archive was found.
+
+- code: bmmt
+  name: Berkeley mini Math Tournament
+  short: BmMT
+  group: usa
+  level: junior
+  country: US
+  organizer: Berkeley Math Tournament
+  url: https://berkeley.mt/archives/
+  first_year: 2012
+  edition_form: year
+  # Agent decision, not a person's review: the archive https://berkeley.mt/archives/ (read on 2026-11-16) shows that the set of rounds changes from year to year: individual, team, partner and ciphering rounds in 2012, and individual, team, speed, puzzle and countdown rounds in 2013. So no year has a shape yet.
+  languages: [en]
+  sources: [berkeley-mt, aops-collections]
+  description: The middle school tournament of the Berkeley Math Tournament, with an individual, a team and a relay round. Each round numbers its problems from 1, so the register gives no layout yet.
+
+- code: cmwmc
+  name: Carnegie Mellon Winter Mathematics Competition
+  short: CMWMC
+  group: usa
+  level: junior
+  country: US
+  organizer: CMIMC
+  url: https://cmimc.com/competitions/cmwmc
+  first_year: 2022
+  edition_form: year
+  # Agent decision, not a person's review: the format of each year was not confirmed from a primary paper, so no year has a shape.
+  languages: [en]
+  sources: [cmimc-official, aops-collections]
+  description: A tournament for beginners that the CMIMC team runs at Carnegie Mellon each fall. It was first the Carnegie Mellon Women's Mathematics Competition. It has an individual, a relay and a guts round, and each round numbers its problems from 1, so the register gives no layout yet.
+
+- code: chmmc
+  name: Caltech Harvey Mudd Math Competition
+  short: CHMMC
+  group: usa
+  level: high-school
+  country: US
+  edition_form: year-season
+  languages: [en]
+  sources: [aops-collections]
+  description: A student tournament of Caltech and Harvey Mudd College, with a fall and a winter contest. Each round numbers its problems from 1, so the register gives no layout yet.
+
+- code: dmm
+  name: Duke Math Meet
+  short: DMM
+  group: usa
+  level: high-school
+  country: US
+  organizer: Duke University
+  edition_form: year
+  languages: [en]
+  sources: [aops-collections]
+  description: A student tournament of Duke University with individual and team rounds. Each round numbers its problems from 1, so the register gives no layout yet.
+
+- code: rmt
+  name: Rice Math Tournament
+  short: RMT
+  group: usa
+  level: high-school
+  country: US
+  organizer: Rice University
+  edition_form: year
+  languages: [en]
+  sources: [aops-collections]
+  description: A student tournament of Rice University with subject rounds. Each round numbers its problems from 1, so the register gives no layout yet.
+
+- code: asmt
+  name: A-Star Math Tournament
+  short: ASMT
+  group: usa
+  level: high-school
+  country: US
+  first_year: 2015
+  last_year: 2016
+  edition_form: year
+  languages: [en]
+  sources: [aops-collections]
+  description: A tournament that replaced the Stanford Math Tournament in 2015 and 2016. Each round numbers its problems from 1, so the register gives no layout yet.
+
+- code: lmt
+  name: Lexington Math Tournament
+  short: LMT
+  group: usa
+  level: junior
+  country: US
+  organizer: Lexington High School math team
+  url: https://www.lhsmath.org/LMT/Problems_and_Solutions
+  first_year: 2010
+  edition_form: year-season
+  # Agent decision, not a person's review: the LMT has a spring edition, and from 2018 also a fall edition, with accuracy, guts, speed and team rounds and others. The sizes of the rounds were not confirmed from a sample of papers, so no year has a shape.
+  languages: [en]
+  sources: [lhsmath, aops-collections]
+  description: A middle school tournament of the Lexington High School math team, held in the spring and, from 2018, also in the fall. Each round numbers its problems from 1, so the register gives no layout yet.
+
+- code: glmt
+  name: Girls' Lexington Math Tournament
+  short: GLMT
+  group: usa
+  level: junior
+  country: US
+  organizer: Lexington High School math team
+  url: https://www.lhsmath.org/LMT/Girls_LMT
+  first_year: 2025
+  edition_form: year
+  # Agent decision, not a person's review: the format of each year was not confirmed from a primary paper, so no year has a shape.
+  languages: [en]
+  sources: [lhsmath, aops-collections]
+  description: An online tournament for girls and non-binary students of middle school, with an individual and a team round. Each round numbers its problems from 1, so the register gives no layout yet.
+
+- code: sdmo-hs
+  name: San Diego Math Olympiad, High School
+  short: SDMO
+  group: usa
+  level: high-school
+  country: US
+  edition_form: year
+  languages: [en]
+  sources: [aops-collections]
+  description: The high school paper of the San Diego Math Olympiad. The middle school paper has its own numbers, so it is the code sdmo-ms.
+
+- code: sdmo-ms
+  name: San Diego Math Olympiad, Middle School
+  group: usa
+  level: junior
+  country: US
+  edition_form: year
+  languages: [en]
+  sources: [aops-collections]
+  description: The middle school paper of the San Diego Math Olympiad.
+
+- code: sdpc
+  name: San Diego Power Contest
+  group: usa
+  level: high-school
+  country: US
+  edition_form: year
+  languages: [en]
+  sources: [aops-collections]
+  description: A team proof contest of San Diego. No official archive was found.
+
+- code: harvest
+  name: Harvest Math Invitational
+  group: usa
+  level: high-school
+  country: US
+  first_year: 2020
+  edition_form: year
+  languages: [en]
+  sources: [aops-collections]
+  description: An online contest written by AoPS users. Each round numbers its problems from 1, so the register gives no layout yet.
+
+- code: mbmt
+  name: Montgomery Blair Math Tournament
+  short: MBMT
+  group: usa
+  level: junior
+  country: US
+  edition_form: year
+  languages: [en]
+  sources: [aops-collections]
+  description: A middle school tournament of the Montgomery Blair High School math team. Each round numbers its problems from 1, so the register gives no layout yet.
+
+- code: jhmt
+  name: Johns Hopkins Math Tournament
+  short: JHMT
+  group: usa
+  level: high-school
+  levels: [junior, high-school]
+  country: US
+  organizer: Johns Hopkins University
+  edition_form: year
+  languages: [en]
+  sources: [aops-collections]
+  description: A student tournament of Johns Hopkins University with middle school and high school divisions. Each round numbers its problems from 1, so the register gives no layout yet.
+
+- code: jhmmc
+  name: Joe Holbrook Memorial Math Competition
+  short: JHMMC
+  group: usa
+  level: junior
+  levels: [elementary, junior]
+  country: US
+  organizer: Bergen County Academies math team
+  url: https://holbrook.bcamathteam.org/
+  edition_form: year
+  # Agent decision, not a person's review: the site carries ai-train=no and blocks named AI crawlers, a case that the owner has not decided, so its papers were not read and no year has a shape.
+  languages: [en]
+  sources: [holbrook, aops-collections]
+  description: A contest for grades 4 to 8 with one paper for each grade. Each paper numbers its problems from 1, so the register gives no layout yet.
+
+- code: emcc
+  name: Exeter Math Club Competition
+  short: EMCC
+  group: usa
+  level: junior
+  country: US
+  edition_form: year
+  languages: [en]
+  sources: [aops-collections]
+  description: A middle school tournament of the Exeter math club. Each round numbers its problems from 1, so the register gives no layout yet.
+
+- code: mmaths
+  name: Math Majors of America Tournament for High Schools
+  short: MMATHS
+  group: usa
+  level: high-school
+  country: US
+  edition_form: year
+  languages: [en]
+  sources: [aops-collections]
+  description: A student tournament run from Yale University. Each round numbers its problems from 1, so the register gives no layout yet.
+
+- code: moaa
+  name: Math Open At Andover
+  short: MOAA
+  group: usa
+  level: junior
+  country: US
+  edition_form: year
+  languages: [en]
+  sources: [aops-collections]
+  description: A middle school tournament of Phillips Academy Andover students. Each round numbers its problems from 1, so the register gives no layout yet.
+
+- code: cca-bonanza
+  name: CCA Math Bonanza
+  group: usa
+  level: high-school
+  country: US
+  edition_form: year
+  languages: [en]
+  sources: [aops-collections]
+  description: A tournament of Canyon Crest Academy students. Each round numbers its problems from 1, so the register gives no layout yet.
+
+- code: usmca
+  name: US Math Competition Association
+  short: USMCA
+  group: usa
+  level: high-school
+  country: US
+  first_year: 2019
+  last_year: 2021
+  edition_form: year
+  languages: [en]
+  sources: [aops-collections]
+  description: The championship and the qualifying contests of a group of college-run tournaments. Each paper numbers its problems from 1, so the register gives no layout yet.
+
+- code: harker
+  name: Harker Math Invitational
+  group: usa
+  level: junior
+  country: US
+  edition_form: year
+  languages: [en]
+  sources: [aops-collections]
+  description: A middle school tournament of The Harker School. Each round numbers its problems from 1, so the register gives no layout yet.
+
+- code: manhattan-mo
+  name: Manhattan Mathematical Olympiad
+  group: usa
+  level: high-school
+  country: US
+  edition_form: year
+  languages: [en]
+  sources: [aops-collections]
+  description: A proof olympiad of New York. No official archive was found.
+
+- code: ommc
+  name: Online Monmouth Math Competition
+  short: OMMC
+  group: usa
+  level: high-school
+  country: US
+  url: https://www.ommcofficial.org/
+  edition_form: year
+  # Agent decision, not a person's review: the site www.ommcofficial.org is a script page with no archive in its HTML (read on 2026-11-16), so no year has a shape.
+  languages: [en]
+  sources: [ommc-official, aops-collections]
+  description: An online team contest that students of New Jersey run. It has a main round of 25 short answer problems and a final round of proof problems. The two rounds number their problems from 1, so the register gives no layout yet.
+
+- code: nimo-summer
+  name: NIMO Summer Contest
+  group: usa
+  level: high-school
+  country: US
+  edition_form: year
+  languages: [en]
+  sources: [aops-collections]
+  description: A summer contest of the NIMO team. It has its own numbers, so it is not the code nimo.
+
+- code: itest
+  name: iTest
+  group: usa
+  level: high-school
+  country: US
+  edition_form: year
+  languages: [en]
+  sources: [aops-collections]
+  description: A short answer contest of the 2000s. No official archive was found.
 
 # National olympiads and TSTs (01b section 4, and the Russian rows of section 2.2)
 

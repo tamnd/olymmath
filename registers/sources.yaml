@@ -4029,7 +4029,7 @@
     statement: Z2
     solution: Z2
   ai_train: unknown
-  size: the school, county and state papers for each grade and variant, and the HMO, HJMO, HMOD and selection papers
+  size: the school, county and state papers for each grade and variant, the HMO, HJMO, HMOD and selection papers, and the rounds of the HMOK and MEDO
   wave: 2
-  state: planned
+  state: active
   notes: The robots.txt of natjecanja.math.hr (read on 2026-11-16) disallows /images/ and the Joomla system paths. The papers are under /wp-content/uploads/, which is allowed. The pages /hmo/, /hjmo/, /hmod/, /hmok/ and /medo/ list the olympiads. azoo.hr allows all paths and old.matematika.hr disallows only system paths.

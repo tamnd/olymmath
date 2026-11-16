@@ -5693,12 +5693,22 @@
 
 - code: hr-mo
   name: Croatia national mathematics olympiad
+  short: HMO
+  names: {hr: Hrvatska matematička olimpijada}
   group: national
   level: high-school
   country: HR
+  organizer: Hrvatsko matematičko društvo
   url: https://natjecanja.math.hr/hmo/
+  # Agent decision, not a person's review: natjecanja.math.hr/izborna-natjecanja-i-olimpijade/ (read on 2026-11-16) has the books of the HMO from 2010. The books of 2010 to 2024 have two days of four problems (in 2010 "prvi dio" and "drugi dio", in 2020 "Prvi test" and "Drugi test"), and those of 2025 and 2026 four days of three problems. The final selection tests for the IMO and the MEMO team in the same books are hr-tst. The position is aN and bN for the two days and aN to dN for the four days. No paper before 2010 is on the site.
+  eras:
+    - {from: 2010, to: 2024, per_year: 8, layout: [{paper: day1, name: Day 1, positions: [a1, a2, a3, a4]}, {paper: day2, name: Day 2, positions: [b1, b2, b3, b4]}]}
+    - {from: 2025, per_year: 12, layout: [{paper: day1, name: Day 1, positions: [a1, a2, a3]}, {paper: day2, name: Day 2, positions: [b1, b2, b3]}, {paper: day3, name: Day 3, positions: [c1, c2, c3]}, {paper: day4, name: Day 4, positions: [d1, d2, d3]}]}
+  edition_form: year
+  official_solutions: true
+  languages: [hr]
   sources: [natjecanja-math-hr, aops-collections, imogeometry-blog]
-  description: The national olympiad of Croatia (HMO). The site of the Croatian Mathematical Society has its papers. The junior olympiad is hr-jmo, the olympiad for girls hr-girls, the selection tests hr-tst, and the school rounds hr-city, hr-county and hr-state.
+  description: The national olympiad of Croatia (HMO), which with the selection tests chooses the IMO and MEMO teams. The site of the Croatian Mathematical Society has its books from 2010, with two days of four problems to 2024 and four days of three from 2025. The junior olympiad is hr-jmo, the olympiad for girls hr-girls, the selection tests hr-tst, and the school rounds hr-city, hr-county and hr-state.
 
 - code: hr-jmo
   name: Croatian Junior Mathematical Olympiad
@@ -5741,12 +5751,16 @@
   group: national
   level: high-school
   country: HR
+  organizer: Hrvatsko matematičko društvo
   url: https://natjecanja.math.hr/izborna-natjecanja-i-olimpijade/
-  # Agent decision, not a person's review: the selection tests were not read for each year, so no year has a layout.
+  # Agent decision, not a person's review: the books of the HMO on natjecanja.math.hr (read on 2026-11-16) have the final selection test for the IMO team and the one for the MEMO team, four problems each, in 2010 ("Izbor IMO ekipe", "Izbor MEMO ekipe") and from 2013 to 2024 ("Završni test za izbor IMO ekipe", "Završni test za izbor MEMO ekipe"). The books of 2011 and 2012 have no tests (a no-source gap), and those of 2025 and 2026 have none either, so those years have no layout. The position is iN for the IMO test and mN for the MEMO test.
+  eras:
+    - {from: 2010, to: 2024, per_year: 8, layout: [{paper: imo, name: IMO team test, positions: [i1, i2, i3, i4]}, {paper: memo, name: MEMO team test, positions: [m1, m2, m3, m4]}]}
   edition_form: year
+  official_solutions: true
   languages: [hr]
   sources: [natjecanja-math-hr]
-  description: The tests that choose the Croatian IMO team. The shape is not checked yet, so it counts no positions.
+  description: The final tests that choose the Croatian IMO and MEMO teams, four problems each, printed in the books of the HMO of 2010 and of 2013 to 2024.
 
 - code: hr-state
   name: Croatian State Mathematics Competition
@@ -5755,13 +5769,16 @@
   level: high-school
   levels: [elementary, junior, high-school]
   country: HR
+  organizer: Hrvatsko matematičko društvo
   url: https://natjecanja.math.hr/arhiva-domacih-natjecanja/
-  # Agent decision, not a person's review: the papers for each grade and variant were not read for each year, so no year has a layout.
+  # Agent decision, not a person's review: natjecanja.math.hr/arhiva-domacih-natjecanja/ (read on 2026-11-16) links the state papers from 2016. Each year from 2016 to 2026 has five problems for each of grades 5 to 8 of primary school and for each of grades 1 to 4 of secondary school in the A and the B variant. The position is oGN for primary school and aGN and bGN for the variants, where G is the grade and N the problem. Grade 5 is elementary, grades 6 to 8 junior. The archive links no paper before 2016 (a no-source gap).
+  eras:
+    - {from: 2016, per_year: 60, layout: [{paper: os-5, name: "Grade 5, primary school", positions: [o51, o52, o53, o54, o55], level: elementary}, {paper: os-6, name: "Grade 6, primary school", positions: [o61, o62, o63, o64, o65], level: junior}, {paper: os-7, name: "Grade 7, primary school", positions: [o71, o72, o73, o74, o75], level: junior}, {paper: os-8, name: "Grade 8, primary school", positions: [o81, o82, o83, o84, o85], level: junior}, {paper: a-1, name: "Grade 1, secondary school, A variant", positions: [a11, a12, a13, a14, a15], level: high-school}, {paper: a-2, name: "Grade 2, secondary school, A variant", positions: [a21, a22, a23, a24, a25], level: high-school}, {paper: a-3, name: "Grade 3, secondary school, A variant", positions: [a31, a32, a33, a34, a35], level: high-school}, {paper: a-4, name: "Grade 4, secondary school, A variant", positions: [a41, a42, a43, a44, a45], level: high-school}, {paper: b-1, name: "Grade 1, secondary school, B variant", positions: [b11, b12, b13, b14, b15], level: high-school}, {paper: b-2, name: "Grade 2, secondary school, B variant", positions: [b21, b22, b23, b24, b25], level: high-school}, {paper: b-3, name: "Grade 3, secondary school, B variant", positions: [b31, b32, b33, b34, b35], level: high-school}, {paper: b-4, name: "Grade 4, secondary school, B variant", positions: [b41, b42, b43, b44, b45], level: high-school}]}
   edition_form: year
   official_solutions: true
   languages: [hr]
   sources: [natjecanja-math-hr]
-  description: The state round of the Croatian school competitions, for grades 4 to 8 of primary school and the four grades of secondary school, with an A variant for gymnasiums and a B variant for other schools. The archive of the Croatian Mathematical Society has the papers. The papers of the grades are not laid out yet, so it counts no positions.
+  description: The state round of the Croatian school competitions, for grades 5 to 8 of primary school and the four grades of secondary school, with an A variant for gymnasiums and a B variant for other schools. Each paper has five problems. The archive of the Croatian Mathematical Society has the papers from 2016.
 
 - code: hr-county
   name: Croatian County Mathematics Competition
@@ -5770,13 +5787,17 @@
   level: high-school
   levels: [elementary, junior, high-school]
   country: HR
+  organizer: Hrvatsko matematičko društvo
   url: https://natjecanja.math.hr/arhiva-domacih-natjecanja/
-  # Agent decision, not a person's review: the papers for each grade and variant were not read for each year, so no year has a layout.
+  # Agent decision, not a person's review: natjecanja.math.hr/arhiva-domacih-natjecanja/ (read on 2026-11-16) links the county papers from 2015. Each year has five problems for each of grades 4 to 8 of primary school and for each of grades 1 to 4 of the A variant of secondary school; the B variant has seven problems for each grade from 2015 to 2024 and five from 2025. The position is oGN for primary school and aGN and bGN for the variants, where G is the grade and N the problem. Grades 4 and 5 are elementary, grades 6 to 8 junior. The archive links no paper before 2015 (a no-source gap).
+  eras:
+    - {from: 2015, to: 2024, per_year: 73, layout: [{paper: os-4, name: "Grade 4, primary school", positions: [o41, o42, o43, o44, o45], level: elementary}, {paper: os-5, name: "Grade 5, primary school", positions: [o51, o52, o53, o54, o55], level: elementary}, {paper: os-6, name: "Grade 6, primary school", positions: [o61, o62, o63, o64, o65], level: junior}, {paper: os-7, name: "Grade 7, primary school", positions: [o71, o72, o73, o74, o75], level: junior}, {paper: os-8, name: "Grade 8, primary school", positions: [o81, o82, o83, o84, o85], level: junior}, {paper: a-1, name: "Grade 1, secondary school, A variant", positions: [a11, a12, a13, a14, a15], level: high-school}, {paper: a-2, name: "Grade 2, secondary school, A variant", positions: [a21, a22, a23, a24, a25], level: high-school}, {paper: a-3, name: "Grade 3, secondary school, A variant", positions: [a31, a32, a33, a34, a35], level: high-school}, {paper: a-4, name: "Grade 4, secondary school, A variant", positions: [a41, a42, a43, a44, a45], level: high-school}, {paper: b-1, name: "Grade 1, secondary school, B variant", positions: [b11, b12, b13, b14, b15, b16, b17], level: high-school}, {paper: b-2, name: "Grade 2, secondary school, B variant", positions: [b21, b22, b23, b24, b25, b26, b27], level: high-school}, {paper: b-3, name: "Grade 3, secondary school, B variant", positions: [b31, b32, b33, b34, b35, b36, b37], level: high-school}, {paper: b-4, name: "Grade 4, secondary school, B variant", positions: [b41, b42, b43, b44, b45, b46, b47], level: high-school}]}
+    - {from: 2025, per_year: 65, layout: [{paper: os-4, name: "Grade 4, primary school", positions: [o41, o42, o43, o44, o45], level: elementary}, {paper: os-5, name: "Grade 5, primary school", positions: [o51, o52, o53, o54, o55], level: elementary}, {paper: os-6, name: "Grade 6, primary school", positions: [o61, o62, o63, o64, o65], level: junior}, {paper: os-7, name: "Grade 7, primary school", positions: [o71, o72, o73, o74, o75], level: junior}, {paper: os-8, name: "Grade 8, primary school", positions: [o81, o82, o83, o84, o85], level: junior}, {paper: a-1, name: "Grade 1, secondary school, A variant", positions: [a11, a12, a13, a14, a15], level: high-school}, {paper: a-2, name: "Grade 2, secondary school, A variant", positions: [a21, a22, a23, a24, a25], level: high-school}, {paper: a-3, name: "Grade 3, secondary school, A variant", positions: [a31, a32, a33, a34, a35], level: high-school}, {paper: a-4, name: "Grade 4, secondary school, A variant", positions: [a41, a42, a43, a44, a45], level: high-school}, {paper: b-1, name: "Grade 1, secondary school, B variant", positions: [b11, b12, b13, b14, b15], level: high-school}, {paper: b-2, name: "Grade 2, secondary school, B variant", positions: [b21, b22, b23, b24, b25], level: high-school}, {paper: b-3, name: "Grade 3, secondary school, B variant", positions: [b31, b32, b33, b34, b35], level: high-school}, {paper: b-4, name: "Grade 4, secondary school, B variant", positions: [b41, b42, b43, b44, b45], level: high-school}]}
   edition_form: year
   official_solutions: true
   languages: [hr]
   sources: [natjecanja-math-hr]
-  description: The county round of the Croatian school competitions, with a paper for each grade and variant. The papers of the grades are not laid out yet, so it counts no positions.
+  description: The county round of the Croatian school competitions, with a paper for grades 4 to 8 of primary school and for the A and B variants of each grade of secondary school. The archive of the Croatian Mathematical Society has the papers from 2015.
 
 - code: hr-city
   name: Croatian School and City Mathematics Competition
@@ -5785,13 +5806,78 @@
   level: high-school
   levels: [elementary, junior, high-school]
   country: HR
+  organizer: Hrvatsko matematičko društvo
   url: https://natjecanja.math.hr/arhiva-domacih-natjecanja/
-  # Agent decision, not a person's review: the papers for each grade and variant were not read for each year, so no year has a layout.
+  # Agent decision, not a person's review: natjecanja.math.hr/arhiva-domacih-natjecanja/ (read on 2026-11-16) links the school papers from 2020. Each year from 2020 to 2026 has seven problems for each of grades 4 to 8 of primary school and for each of grades 1 to 4 of secondary school in the A and the B variant. The position is oGN for primary school and aGN and bGN for the variants, where G is the grade and N the problem. Grades 4 and 5 are elementary, grades 6 to 8 junior. The archive links no paper before 2020 (a no-source gap).
+  eras:
+    - {from: 2020, per_year: 91, layout: [{paper: os-4, name: "Grade 4, primary school", positions: [o41, o42, o43, o44, o45, o46, o47], level: elementary}, {paper: os-5, name: "Grade 5, primary school", positions: [o51, o52, o53, o54, o55, o56, o57], level: elementary}, {paper: os-6, name: "Grade 6, primary school", positions: [o61, o62, o63, o64, o65, o66, o67], level: junior}, {paper: os-7, name: "Grade 7, primary school", positions: [o71, o72, o73, o74, o75, o76, o77], level: junior}, {paper: os-8, name: "Grade 8, primary school", positions: [o81, o82, o83, o84, o85, o86, o87], level: junior}, {paper: a-1, name: "Grade 1, secondary school, A variant", positions: [a11, a12, a13, a14, a15, a16, a17], level: high-school}, {paper: a-2, name: "Grade 2, secondary school, A variant", positions: [a21, a22, a23, a24, a25, a26, a27], level: high-school}, {paper: a-3, name: "Grade 3, secondary school, A variant", positions: [a31, a32, a33, a34, a35, a36, a37], level: high-school}, {paper: a-4, name: "Grade 4, secondary school, A variant", positions: [a41, a42, a43, a44, a45, a46, a47], level: high-school}, {paper: b-1, name: "Grade 1, secondary school, B variant", positions: [b11, b12, b13, b14, b15, b16, b17], level: high-school}, {paper: b-2, name: "Grade 2, secondary school, B variant", positions: [b21, b22, b23, b24, b25, b26, b27], level: high-school}, {paper: b-3, name: "Grade 3, secondary school, B variant", positions: [b31, b32, b33, b34, b35, b36, b37], level: high-school}, {paper: b-4, name: "Grade 4, secondary school, B variant", positions: [b41, b42, b43, b44, b45, b46, b47], level: high-school}]}
   edition_form: year
   official_solutions: true
   languages: [hr]
   sources: [natjecanja-math-hr, hf-mathnet]
-  description: The first round (school or city round) of the Croatian school competitions, with a paper for each grade and variant. The papers of the grades are not laid out yet, so it counts no positions.
+  description: The first round (school or city round) of the Croatian school competitions, with a paper for grades 4 to 8 of primary school and for the A and B variants of each grade of secondary school. Each paper has seven problems. The archive of the Croatian Mathematical Society has the papers from 2020.
+
+- code: hr-cadets
+  name: Croatian Mathematical Olympiad for Cadets, Second Round
+  short: HMOK
+  names: {hr: Hrvatska matematička olimpijada za kadete}
+  group: national
+  level: junior
+  levels: [elementary, junior]
+  country: HR
+  organizer: Hrvatsko matematičko društvo
+  url: https://natjecanja.math.hr/hmok/
+  first_year: 2020
+  # Agent decision, not a person's review: natjecanja.math.hr/hmok/ (read on 2026-11-16) says that the HMOK is for grades 4, 5 and 6 of primary school, that the Croatian Mathematical Society organizes it with local partners, and that it has two rounds: an online first round of 10 problems with a three-digit answer, one point each, and a second round at regional centres of 5 problems that a committee marks. From 2023 the groups A, B and C are set by the grade at the first round. The archive has the papers of 2020 to 2026. The second round has five problems for each grade in 2020 to 2022 and for each group from 2023. The position is oGN for grade G in 2020 to 2022 and aN, bN and cN for the groups. Grades 4 and 5 and the groups A and B are elementary, grade 6 and group C junior. The first round is hr-cadets-r1.
+  eras:
+    - {from: 2020, to: 2022, per_year: 15, layout: [{paper: grade-4, name: "Grade 4", positions: [o41, o42, o43, o44, o45], level: elementary}, {paper: grade-5, name: "Grade 5", positions: [o51, o52, o53, o54, o55], level: elementary}, {paper: grade-6, name: "Grade 6", positions: [o61, o62, o63, o64, o65], level: junior}]}
+    - {from: 2023, per_year: 15, layout: [{paper: a, name: "Group A", positions: [a1, a2, a3, a4, a5], level: elementary}, {paper: b, name: "Group B", positions: [b1, b2, b3, b4, b5], level: elementary}, {paper: c, name: "Group C", positions: [c1, c2, c3, c4, c5], level: junior}]}
+  edition_form: year
+  official_solutions: true
+  languages: [hr]
+  sources: [natjecanja-math-hr]
+  description: The second round of the Croatian olympiad for cadets (grades 4 to 6), held at regional centres, with five problems for each grade or group. The site of the Croatian Mathematical Society has the papers from 2020.
+
+- code: hr-cadets-r1
+  name: Croatian Mathematical Olympiad for Cadets, First Round
+  short: HMOK
+  names: {hr: "Hrvatska matematička olimpijada za kadete, prvo kolo"}
+  group: national
+  level: junior
+  levels: [elementary, junior]
+  country: HR
+  organizer: Hrvatsko matematičko društvo
+  url: https://natjecanja.math.hr/hmok/
+  first_year: 2020
+  # Agent decision, not a person's review: natjecanja.math.hr/hmok/ (read on 2026-11-16) says that the HMOK is for grades 4, 5 and 6 of primary school, that the Croatian Mathematical Society organizes it with local partners, and that it has two rounds: an online first round of 10 problems with a three-digit answer, one point each, and a second round at regional centres of 5 problems that a committee marks. From 2023 the groups A, B and C are set by the grade at the first round. The archive has the papers of 2020 to 2026. The first round has ten problems for each grade in 2020 to 2022 and for each group from 2023. The position is oGNN for grade G in 2020 to 2022, as o401 to o410, and aN, bN and cN for the groups. Grades 4 and 5 and the groups A and B are elementary, grade 6 and group C junior. The second round is hr-cadets.
+  eras:
+    - {from: 2020, to: 2022, per_year: 30, layout: [{paper: grade-4, name: "Grade 4", positions: [o401, o402, o403, o404, o405, o406, o407, o408, o409, o410], level: elementary}, {paper: grade-5, name: "Grade 5", positions: [o501, o502, o503, o504, o505, o506, o507, o508, o509, o510], level: elementary}, {paper: grade-6, name: "Grade 6", positions: [o601, o602, o603, o604, o605, o606, o607, o608, o609, o610], level: junior}]}
+    - {from: 2023, per_year: 30, layout: [{paper: a, name: "Group A", positions: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10], level: elementary}, {paper: b, name: "Group B", positions: [b1, b2, b3, b4, b5, b6, b7, b8, b9, b10], level: elementary}, {paper: c, name: "Group C", positions: [c1, c2, c3, c4, c5, c6, c7, c8, c9, c10], level: junior}]}
+  edition_form: year
+  official_solutions: true
+  languages: [hr]
+  sources: [natjecanja-math-hr]
+  description: The online first round of the Croatian olympiad for cadets (grades 4 to 6), with ten problems with a three-digit answer for each grade or group. The site of the Croatian Mathematical Society has the papers from 2020.
+
+- code: hr-medo
+  name: Mathematical Educational Olympiad (MEDO)
+  short: MEDO
+  names: {hr: Matematička edukativna olimpijada}
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: HR
+  organizer: Hrvatsko matematičko društvo
+  url: https://natjecanja.math.hr/medo/
+  first_year: 2024
+  # Agent decision, not a person's review: natjecanja.math.hr/medo/ (read on 2026-11-16) has the papers of the seasons 2024./2025. and 2025./2026., five rounds each. The page is on the site of the Croatian Mathematical Society, which names itself only in the site chrome, so the organizer is taken from the site. The papers have the levels Kadeti (grades 5 and 6 of primary school), Juniori (grades 7 and 8) and Seniori (grades 1 to 4 of secondary school): in 2024/25 Juniori and Seniori with seven problems in each round, and from 2025/26 all three levels with eight problems in each round. The edition is the year in which the season starts. The position is LRN, where L is k, j or s for the level, R the round and N the problem, as the paper labels it (K-3.8 is k38). Kadeti, for grades 5 and 6, is counted junior as one paper serves both grades; Juniori is junior and Seniori high-school. The papers say that the solutions go in through Loomen.
+  eras:
+    - {from: 2024, to: 2024, per_year: 70, layout: [{paper: j-r1, name: "Juniori, round 1", positions: [j11, j12, j13, j14, j15, j16, j17], level: junior}, {paper: j-r2, name: "Juniori, round 2", positions: [j21, j22, j23, j24, j25, j26, j27], level: junior}, {paper: j-r3, name: "Juniori, round 3", positions: [j31, j32, j33, j34, j35, j36, j37], level: junior}, {paper: j-r4, name: "Juniori, round 4", positions: [j41, j42, j43, j44, j45, j46, j47], level: junior}, {paper: j-r5, name: "Juniori, round 5", positions: [j51, j52, j53, j54, j55, j56, j57], level: junior}, {paper: s-r1, name: "Seniori, round 1", positions: [s11, s12, s13, s14, s15, s16, s17], level: high-school}, {paper: s-r2, name: "Seniori, round 2", positions: [s21, s22, s23, s24, s25, s26, s27], level: high-school}, {paper: s-r3, name: "Seniori, round 3", positions: [s31, s32, s33, s34, s35, s36, s37], level: high-school}, {paper: s-r4, name: "Seniori, round 4", positions: [s41, s42, s43, s44, s45, s46, s47], level: high-school}, {paper: s-r5, name: "Seniori, round 5", positions: [s51, s52, s53, s54, s55, s56, s57], level: high-school}]}
+    - {from: 2025, per_year: 120, layout: [{paper: k-r1, name: "Kadeti, round 1", positions: [k11, k12, k13, k14, k15, k16, k17, k18], level: junior}, {paper: k-r2, name: "Kadeti, round 2", positions: [k21, k22, k23, k24, k25, k26, k27, k28], level: junior}, {paper: k-r3, name: "Kadeti, round 3", positions: [k31, k32, k33, k34, k35, k36, k37, k38], level: junior}, {paper: k-r4, name: "Kadeti, round 4", positions: [k41, k42, k43, k44, k45, k46, k47, k48], level: junior}, {paper: k-r5, name: "Kadeti, round 5", positions: [k51, k52, k53, k54, k55, k56, k57, k58], level: junior}, {paper: j-r1, name: "Juniori, round 1", positions: [j11, j12, j13, j14, j15, j16, j17, j18], level: junior}, {paper: j-r2, name: "Juniori, round 2", positions: [j21, j22, j23, j24, j25, j26, j27, j28], level: junior}, {paper: j-r3, name: "Juniori, round 3", positions: [j31, j32, j33, j34, j35, j36, j37, j38], level: junior}, {paper: j-r4, name: "Juniori, round 4", positions: [j41, j42, j43, j44, j45, j46, j47, j48], level: junior}, {paper: j-r5, name: "Juniori, round 5", positions: [j51, j52, j53, j54, j55, j56, j57, j58], level: junior}, {paper: s-r1, name: "Seniori, round 1", positions: [s11, s12, s13, s14, s15, s16, s17, s18], level: high-school}, {paper: s-r2, name: "Seniori, round 2", positions: [s21, s22, s23, s24, s25, s26, s27, s28], level: high-school}, {paper: s-r3, name: "Seniori, round 3", positions: [s31, s32, s33, s34, s35, s36, s37, s38], level: high-school}, {paper: s-r4, name: "Seniori, round 4", positions: [s41, s42, s43, s44, s45, s46, s47, s48], level: high-school}, {paper: s-r5, name: "Seniori, round 5", positions: [s51, s52, s53, s54, s55, s56, s57, s58], level: high-school}]}
+  edition_form: year
+  languages: [hr]
+  sources: [natjecanja-math-hr]
+  description: A Croatian competition in five rounds a season for grades 5 to 8 of primary school and for secondary school, at three levels from 2025/26. The site of the Croatian Mathematical Society has the papers of the seasons 2024/25 and 2025/26.
 
 - code: si-mo
   name: Slovenia national mathematics olympiad

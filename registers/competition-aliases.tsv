@@ -732,6 +732,12 @@ NEPALTST	np-tst
 Nepal Mathematics Olympiad (Pre-TST)	np-mo
 Sri Lankan Mathematics Challenge Competition	lk-slmc
 Sri Lanka Mathematics Challenge Competition	lk-slmc
+Saudi Arabia Pre-TST + Training Tests	-
+Saudi Arabia Pre TST + Training Tests	-
+Saudi Arabia Training Tests	-
+Saudi Arabia booklet	-
+Saudi Arabia BMO + EGMO TST	-
+Selection tests for the Gulf Mathematical Olympiad	-
 # East and Southeast Asia (census of 2026-11-16). Agent decision, not a person's review: each line maps a label of the unknown list to the code that the label names. A lower round of a national olympiad goes to the code of that round, not to the final round. A camp, a mock test, a shortlist, a university entrance exam or a set of mixed tests goes to "-". MathNet labels with no contest name in them take the country before the label, so the bare label is not added.
 China Mathematical Competition (Hainan)	cn-league
 China Mathematical Competition (Shaanxi)	cn-league
@@ -1004,6 +1010,15 @@ South africa National Olympiad	za-samo
 South African Mathematics Olympiad First Round	za-samo
 The South African Mathematical Olympiad Third Round	za-samo
 South-Afrika	za-samo
+Pan-African Shortlist	pamo-sl
+Nigerian Senior MO Round 2	ng-mo
+Nigerian Senior MO Round 3	ng-mo
+Nigerian Senior MO Round 4	ng-mo
+Nigeria Senior MO Round 2	ng-mo
+Nigerian MO Round 2	ng-mo
+Nigerian MO Round 3	ng-mo
+Moroccan TST	ma-tst
+SAFEST (South Africa   Estonia) Olympiad	safest
 # Labels that do not name one competition.
 OlympiadBench	-
 Team Selection Test	-

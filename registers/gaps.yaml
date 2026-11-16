@@ -262,7 +262,7 @@
   note: The only source of fi-mo is kalva, which has no 2025 paper. No official paper of 2025 was found.
 - competition: za-samo
   reason: no-source
-  note: The site and archive of the South African olympiad are not confirmed, so no allowed source gives these positions.
+  note: The past papers on the SAMF site (source samf) need a login, which the agent does not use, and the SAMF sells the other papers in books. No other allowed source gives these positions (checked 2026-11-16).
 - competition: ahsme
   years: ["1950-1951", "1953-1961", "1963-1967", "1971-1978", "1981-1982", "1984-1990", "1992", "1994-1998"]
   reason: no-source
@@ -585,5 +585,80 @@
   reason: no-source
   note: No official or other allowed source of its problems was found (census of 2026-11-16).
 - competition: ir-university
+  reason: no-source
+  note: No official or other allowed source of its problems was found (census of 2026-11-16).
+- competition: sa-samc
+  reason: no-source
+  note: No official archive was found. Single booklets are on the KSU faculty site and on document sharing sites (census of 2026-11-16).
+- competition: ae-mo
+  reason: no-source
+  note: No official or other allowed source of its problems was found (census of 2026-11-16).
+- competition: kw-mo
+  reason: no-source
+  note: No official or other allowed source of its problems was found (census of 2026-11-16).
+- competition: qa-mo
+  reason: no-source
+  note: No official or other allowed source of its problems was found (census of 2026-11-16).
+- competition: bh-mo
+  reason: no-source
+  note: No official or other allowed source of its problems was found (census of 2026-11-16).
+- competition: om-mo
+  reason: no-source
+  note: No official or other allowed source of its problems was found (census of 2026-11-16).
+- competition: jo-mo
+  reason: no-source
+  note: No official or other allowed source of its problems was found (census of 2026-11-16).
+- competition: lb-mo
+  reason: no-source
+  note: No official or other allowed source of its problems was found (census of 2026-11-16).
+- competition: iq-mo
+  reason: no-source
+  note: No official or other allowed source of its problems was found (census of 2026-11-16).
+- competition: ps-mo
+  reason: no-source
+  note: No official or other allowed source of its problems was found (census of 2026-11-16).
+- competition: eg-mo
+  reason: no-source
+  note: No official or other allowed source of its problems was found (census of 2026-11-16).
+- competition: tn-mo
+  reason: no-source
+  note: No official or other allowed source of its problems was found (census of 2026-11-16).
+- competition: dz-mo
+  reason: no-source
+  note: The site of the Algerian olympiad committee has no archive of problems (census of 2026-11-16).
+- competition: ma-mmc
+  reason: no-source
+  note: No official or other allowed source of its problems was found (census of 2026-11-16).
+- competition: ke-mo
+  reason: no-source
+  note: No official archive was found. Copies of some papers are on document sharing sites, which are not allowed sources (census of 2026-11-16).
+- competition: gh-mo
+  reason: no-source
+  note: No official or other allowed source of its problems was found (census of 2026-11-16).
+- competition: rw-mo
+  reason: no-source
+  note: No official or other allowed source of its problems was found (census of 2026-11-16).
+- competition: ug-mo
+  reason: no-source
+  note: No official or other allowed source of its problems was found (census of 2026-11-16).
+- competition: tz-mo
+  reason: no-source
+  note: No official or other allowed source of its problems was found (census of 2026-11-16).
+- competition: zw-mo
+  reason: no-source
+  note: No official or other allowed source of its problems was found (census of 2026-11-16).
+- competition: bw-mo
+  reason: no-source
+  note: No official or other allowed source of its problems was found (census of 2026-11-16).
+- competition: ci-mo
+  reason: no-source
+  note: No official or other allowed source of its problems was found (census of 2026-11-16).
+- competition: sn-mo
+  reason: no-source
+  note: No official or other allowed source of its problems was found (census of 2026-11-16).
+- competition: cm-mo
+  reason: no-source
+  note: No official or other allowed source of its problems was found (census of 2026-11-16).
+- competition: et-mo
   reason: no-source
   note: No official or other allowed source of its problems was found (census of 2026-11-16).

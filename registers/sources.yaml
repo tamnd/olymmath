@@ -1769,12 +1769,106 @@
   origin: H1
   url: https://ds.abegs.org/gmo
   access: html
+  terms: "The page footer says \"جميع الحقوق محفوظة © لمكتب التربية العربي لدول الخليج\" (all rights reserved, Arab Bureau of Education for the Gulf States, read on 2026-11-16) and gives no open licence, so the content holds the statements with the name of the organizer and a link to the paper (spec 11.1)."
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: The papers of 2019 in Arabic and English, with no solutions. Direct links to the papers of 2015 and 2016 also work.
+  wave: 1
+  state: planned
+  notes: robots.txt (checked on 2026-11-16) has one * group that disallows /admin/ and /manage/ only. The GMO page shows only the 7th GMO (Muscat, 2019). The GMO was not held in 2018, and the 8th GMO was in Saudi Arabia in 2022.
+
+- id: samf
+  name: South African Mathematics Foundation
+  kind: official
+  origin: H1
+  url: https://www.samf.ac.za/
+  access: pdf
+  terms: The past papers need a login, and the SAMF sells books of them. The agent does not log in.
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
   wave: 1
   state: planned
+  notes: robots.txt (checked on 2026-11-16) has a * group that disallows /admin, /bin/, /content/files/, shop paths and forum paths. No paper is open to read, so za-samo keeps its no-source gap.
+
+- id: uae-competitions
+  name: competitions.ae
+  kind: official
+  origin: H1
+  url: https://competitions.ae/
+  access: html
+  terms: No terms page or licence was found on 2026-11-16.
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: 'no'
+  wave: 2
+  state: planned
+  notes: "robots.txt (checked on 2026-11-16) is the Cloudflare managed file, the same as pamoofficial.org: the * group says Content-Signal: search=yes,ai-train=no,use=reference and Allow: /, and groups for ClaudeBot, GPTBot, CCBot and other AI crawlers say Disallow: /. www.competitions.ae redirects with 308. The decision for robots.txt files that allow all agents under * but disallow ClaudeBot and other named AI crawlers, and say ai-train=no, is pending with the owner (compare bg-mo and pamo-official). The agent harvests nothing from this source until the owner decides. Its link to the UAE national olympiad is not confirmed."
+
+- id: cmathburkina
+  name: Concours de mathématiques du Burkina Faso
+  kind: official
+  origin: H1
+  url: https://cmathburkina.org/
+  access: html
+  terms: No terms page or licence was found on 2026-11-16.
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: 'no'
+  wave: 2
+  state: planned
+  notes: "robots.txt (checked on 2026-11-16) is the Cloudflare managed file, the same as pamoofficial.org: the * group says Content-Signal: search=yes,ai-train=no,use=reference and Allow: /, and groups for ClaudeBot, GPTBot, CCBot and other AI crawlers say Disallow: /. The decision for robots.txt files that allow all agents under * but disallow ClaudeBot and other named AI crawlers, and say ai-train=no, is pending with the owner (compare bg-mo and pamo-official). The agent harvests nothing from this source until the owner decides. The site has not been read for an archive."
+
+- id: empimo
+  name: empimo library of Moroccan olympiads
+  kind: curated
+  origin: H2
+  url: https://empimo.github.io/library/maroc.html
+  access: pdf
+  terms: The library gives no licence. The files are copies of official papers, so the statements are Z2 with the paper cited.
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  size: The Moroccan olympiad tests of 1983 to 2016, the TST of 2017 and the national papers of 2019, 2021 and 2022
+  wave: 2
+  state: planned
+  notes: The page links files on Google Drive. empimo.github.io has no robots.txt (GitHub Pages gives 404, checked on 2026-11-16). robots.txt of drive.google.com allows /file and disallows /open and other paths, so the agent reads the /file/d/ pages only.
+
+- id: eamo-official
+  name: EAMO official site
+  kind: official
+  origin: H1
+  url: https://eamo-olympiad.org/
+  access: html
+  terms: The footer says "Copyright © 2026 East African Mathematical Olympiad (EAMO)" and gives no licence (read on 2026-11-16).
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 2
+  state: planned
+  notes: robots.txt gives 404 (checked on 2026-11-16), so no rule applies. The home page links /past-papers, which gave 404 on 2026-11-16.
+
+- id: syria-mo-site
+  name: Syrian Mathematical Olympiad site
+  kind: official
+  origin: H1
+  url: https://sites.google.com/view/syrian-mathematical-olympiad/home
+  access: html
+  terms: No licence was found on 2026-11-16.
+  zone:
+    statement: Z2
+    solution: Z2
+  ai_train: unknown
+  wave: 2
+  state: planned
+  notes: robots.txt of sites.google.com (checked on 2026-11-16) disallows /feeds and /*/_/ apart from resource paths, so the pages of the site are allowed. The Syrian Central Mathematics Committee runs the site, with training notes and a section of problems from old exams.
 
 - id: bdmo-official
   name: Bangladesh Math Olympiad Committee

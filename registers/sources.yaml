@@ -3901,10 +3901,10 @@
     statement: Z2
     solution: Z2
   ai_train: unknown
-  size: the papers of all categories and rounds of recent years; a full archive of the 75 years of categories A, B and C is at ics.upjs.sk/~krajci/mo/archiv/
+  size: 461 Slovak papers of the 49th to the 76th olympiad (2000 to 2027), 2,101 problems; a full archive of the 75 years of categories A, B and C is at ics.upjs.sk/~krajci/mo/archiv/
   wave: 2
-  state: planned
-  notes: The site has no robots.txt (404 on 2026-11-16). The papers are at skmo.sk/dokument.php?id=NNN. The archive host ics.upjs.sk did not answer from the census machine, so its robots.txt is not read.
+  state: active
+  notes: "The site has no robots.txt (404 on 2026-11-16). The papers are at skmo.sk/dokument.php?id=NNN. The page dokumenty.php shows the current olympiad, its list of years stops at the 66th, and the later years are linked as dokumenty.php?rocnik=NN. om skmo reads the Slovak paper of each category and round from the 49th olympiad (2000). Agent decision, not a person's review: the papers set in Cambria from the 71st olympiad (2022) lose letters in their text layer (an f before a tall letter, the accents on capitals, the ĺ), so their problems keep the link only, until a vision lane reads them. The robots.txt of ics.upjs.sk (read on 2026-11-16) disallows /wp-admin/ only, but the archive at ics.upjs.sk/~krajci/mo/archiv/ is a search form that answers POST requests only (a GET with the same fields gives the empty form), so it is not harvested; whether to read it is an owner decision."
 
 - id: pythagoriada
   name: Pythagoriáda

@@ -1,0 +1,39 @@
+year: 2008
+papers:
+  - name: Home A
+    problems: [ha1, ha2, ha3, ha4, ha5, ha6]
+  - name: Home B
+    problems: [hb1, hb2, hb3, hb4, hb5, hb6]
+  - name: Home C
+    problems: [hc1, hc2, hc3, hc4, hc5, hc6]
+  - name: School A
+    problems: [sa1, sa2, sa3]
+  - name: School B
+    problems: [sb1, sb2, sb3]
+  - name: School C
+    problems: [sc1, sc2, sc3]
+official:
+  - lang: Slovak
+    code: sk
+    url: https://skmo.sk/dokument.php?id=122
+    source: skmo
+  - lang: Slovak
+    code: sk
+    url: https://skmo.sk/dokument.php?id=125
+    source: skmo
+  - lang: Slovak
+    code: sk
+    url: https://skmo.sk/dokument.php?id=123
+    source: skmo
+  - lang: Slovak
+    code: sk
+    url: https://skmo.sk/dokument.php?id=126
+    source: skmo
+  - lang: Slovak
+    code: sk
+    url: https://skmo.sk/dokument.php?id=124
+    source: skmo
+  - lang: Slovak
+    code: sk
+    url: https://skmo.sk/dokument.php?id=127
+    source: skmo

@@ -5113,15 +5113,15 @@
   level: high-school
   url: https://www.matematickaolympiada.cz/
   first_year: 1952
-  # Agent decision, not a person's review: the year is the end year of the school year, as in cz-sk-mo (the 74th olympiad, 2024/25, is 2025). The pages matematickaolympiada.cz/mo-pro-ss/rocnik/NN-rocnik (read on 2026-11-16) have the papers from the 43rd olympiad. The home round has six problems in each of categories A, B and C (seen for the 60th, 68th and 74th olympiads), and the school round three (seen for the 52nd, 60th and 74th). The home paper of the 52nd olympiad is not readable as text, so the layout starts with the 60th (2011). The position is haN, hbN and hcN for the home round and saN, sbN and scN for the school round.
+  # Agent decision, not a person's review: the year is the end year of the school year, as in cz-sk-mo (the 74th olympiad, 2024/25, is 2025). The pages matematickaolympiada.cz/mo-pro-ss/rocnik/NN-rocnik (read on 2026-11-16) have the papers from the 43rd olympiad. The home round has six problems in each of categories A, B and C (seen for the 60th, 68th and 74th olympiads), and the school round three (seen for the 52nd, 60th and 74th). The Slovak papers at skmo.sk/dokumenty.php?rocnik=NN (read on 2026-11-17) have the same six home and three school problems in each category for every olympiad from the 49th (2000) to the 75th (2026), so the layout starts in 2000. The position is haN, hbN and hcN for the home round and saN, sbN and scN for the school round.
   eras:
-    - {from: 1952, to: 2010}
-    - {from: 2011, per_year: 27, layout: [{paper: home-a, name: Home A, positions: [ha1, ha2, ha3, ha4, ha5, ha6]}, {paper: home-b, name: Home B, positions: [hb1, hb2, hb3, hb4, hb5, hb6]}, {paper: home-c, name: Home C, positions: [hc1, hc2, hc3, hc4, hc5, hc6]}, {paper: school-a, name: School A, positions: [sa1, sa2, sa3]}, {paper: school-b, name: School B, positions: [sb1, sb2, sb3]}, {paper: school-c, name: School C, positions: [sc1, sc2, sc3]}]}
+    - {from: 1952, to: 1999}
+    - {from: 2000, per_year: 27, layout: [{paper: home-a, name: Home A, positions: [ha1, ha2, ha3, ha4, ha5, ha6]}, {paper: home-b, name: Home B, positions: [hb1, hb2, hb3, hb4, hb5, hb6]}, {paper: home-c, name: Home C, positions: [hc1, hc2, hc3, hc4, hc5, hc6]}, {paper: school-a, name: School A, positions: [sa1, sa2, sa3]}, {paper: school-b, name: School B, positions: [sb1, sb2, sb3]}, {paper: school-c, name: School C, positions: [sc1, sc2, sc3]}]}
   edition_form: year
   official_solutions: true
   languages: [cs, sk, en]
   sources: [mo-cz, skmo, hf-mathnet]
-  description: The first round of categories A, B and C of the Czech and Slovak olympiad, a home part and a school part. From 2011 the home round has six problems and the school round three in each of categories A, B and C; the years before have no layout.
+  description: The first round of categories A, B and C of the Czech and Slovak olympiad, a home part and a school part. From 2000 the home round has six problems and the school round three in each of categories A, B and C; the years before have no layout.
 
 - code: cz-sk-mo-r2
   name: Czech-Slovak Mathematical Olympiad, Regional Round
@@ -5130,15 +5130,15 @@
   level: high-school
   url: https://www.matematickaolympiada.cz/
   first_year: 1952
-  # Agent decision, not a person's review: the year is the end year of the school year, as in cz-sk-mo. The regional round has four problems in each of categories A, B and C, seen for the 52nd (2003), 60th (2011) and 74th (2025) olympiads. The papers before the 52nd olympiad were not checked, so 1952 to 2002 have no layout. The position of problem N is aN, bN or cN by category.
+  # Agent decision, not a person's review: the year is the end year of the school year, as in cz-sk-mo. The regional round has four problems in each of categories A, B and C, seen for the 52nd (2003), 60th (2011) and 74th (2025) olympiads. The Slovak papers at skmo.sk/dokumenty.php?rocnik=NN (read on 2026-11-17) have the same four problems per category from the 49th olympiad (2000), except the 69th (2020), which had only one paper; the years before 2000 were not checked and have no layout. The position of problem N is aN, bN or cN by category.
   eras:
-    - {from: 1952, to: 2002}
-    - {from: 2003, per_year: 12, layout: [{paper: a, name: Category A, positions: [a1, a2, a3, a4]}, {paper: b, name: Category B, positions: [b1, b2, b3, b4]}, {paper: c, name: Category C, positions: [c1, c2, c3, c4]}]}
+    - {from: 1952, to: 1999}
+    - {from: 2000, per_year: 12, layout: [{paper: a, name: Category A, positions: [a1, a2, a3, a4]}, {paper: b, name: Category B, positions: [b1, b2, b3, b4]}, {paper: c, name: Category C, positions: [c1, c2, c3, c4]}]}
   edition_form: year
   official_solutions: true
   languages: [cs, sk, en]
   sources: [mo-cz, skmo, hf-mathnet]
-  description: The second (regional) round of categories A, B and C of the Czech and Slovak olympiad. The final round of category A is cz-sk-mo. From 2003 the regional round has four problems in each of categories A, B and C; the years before have no layout.
+  description: The second (regional) round of categories A, B and C of the Czech and Slovak olympiad. The final round of category A is cz-sk-mo. From 2000 the regional round has four problems in each of categories A, B and C; the years before have no layout.
 
 - code: cz-sk-mo-z
   name: Czech-Slovak Mathematical Olympiad, Category Z
@@ -5147,16 +5147,16 @@
   level: junior
   levels: [elementary, junior]
   url: https://www.matematickaolympiada.cz/
-  first_year: 2019
-  # Agent decision, not a person's review: the year is the end year of the school year. The pages matematickaolympiada.cz/mo-pro-zs/rocnik/NN-rocnik (read on 2026-11-16) start with the 68th olympiad (2019), which is the first year counted. The papers of the 68th, 71st and 74th olympiads have a home round of six problems for each of Z5 to Z9, a district round of three problems for Z5 to Z8 and four for Z9, and a regional round of four problems for Z9. From the 73rd olympiad (2024) Z9 also has a national round of four problems. The position is hGN for the home round, dGN for the district round, r9N for the regional round and n9N for the national round, where G is the grade and N the problem.
+  first_year: 2009
+  # Agent decision, not a person's review: the year is the end year of the school year. The pages matematickaolympiada.cz/mo-pro-zs/rocnik/NN-rocnik (read on 2026-11-16) start with the 68th olympiad (2019). The Slovak papers at skmo.sk/dokumenty.php?rocnik=NN (read on 2026-11-17) start with the 58th olympiad (2009), which has the Z5 papers only; from the 59th (2010) they have all of Z5 to Z9 in the layout below, so 2009 is the first year counted. The papers of the 68th, 71st and 74th olympiads have a home round of six problems for each of Z5 to Z9, a district round of three problems for Z5 to Z8 and four for Z9, and a regional round of four problems for Z9. From the 73rd olympiad (2024) Z9 also has a national round of four problems. The position is hGN for the home round, dGN for the district round, r9N for the regional round and n9N for the national round, where G is the grade and N the problem.
   eras:
-    - {from: 2019, to: 2023, per_year: 50, layout: [{paper: home-z5, name: Home Z5, positions: [h51, h52, h53, h54, h55, h56], level: elementary}, {paper: home-z6, name: Home Z6, positions: [h61, h62, h63, h64, h65, h66], level: junior}, {paper: home-z7, name: Home Z7, positions: [h71, h72, h73, h74, h75, h76], level: junior}, {paper: home-z8, name: Home Z8, positions: [h81, h82, h83, h84, h85, h86], level: junior}, {paper: home-z9, name: Home Z9, positions: [h91, h92, h93, h94, h95, h96], level: junior}, {paper: district-z5, name: District Z5, positions: [d51, d52, d53], level: elementary}, {paper: district-z6, name: District Z6, positions: [d61, d62, d63], level: junior}, {paper: district-z7, name: District Z7, positions: [d71, d72, d73], level: junior}, {paper: district-z8, name: District Z8, positions: [d81, d82, d83], level: junior}, {paper: district-z9, name: District Z9, positions: [d91, d92, d93, d94], level: junior}, {paper: regional-z9, name: Regional Z9, positions: [r91, r92, r93, r94], level: junior}]}
+    - {from: 2009, to: 2023, per_year: 50, layout: [{paper: home-z5, name: Home Z5, positions: [h51, h52, h53, h54, h55, h56], level: elementary}, {paper: home-z6, name: Home Z6, positions: [h61, h62, h63, h64, h65, h66], level: junior}, {paper: home-z7, name: Home Z7, positions: [h71, h72, h73, h74, h75, h76], level: junior}, {paper: home-z8, name: Home Z8, positions: [h81, h82, h83, h84, h85, h86], level: junior}, {paper: home-z9, name: Home Z9, positions: [h91, h92, h93, h94, h95, h96], level: junior}, {paper: district-z5, name: District Z5, positions: [d51, d52, d53], level: elementary}, {paper: district-z6, name: District Z6, positions: [d61, d62, d63], level: junior}, {paper: district-z7, name: District Z7, positions: [d71, d72, d73], level: junior}, {paper: district-z8, name: District Z8, positions: [d81, d82, d83], level: junior}, {paper: district-z9, name: District Z9, positions: [d91, d92, d93, d94], level: junior}, {paper: regional-z9, name: Regional Z9, positions: [r91, r92, r93, r94], level: junior}]}
     - {from: 2024, per_year: 54, layout: [{paper: home-z5, name: Home Z5, positions: [h51, h52, h53, h54, h55, h56], level: elementary}, {paper: home-z6, name: Home Z6, positions: [h61, h62, h63, h64, h65, h66], level: junior}, {paper: home-z7, name: Home Z7, positions: [h71, h72, h73, h74, h75, h76], level: junior}, {paper: home-z8, name: Home Z8, positions: [h81, h82, h83, h84, h85, h86], level: junior}, {paper: home-z9, name: Home Z9, positions: [h91, h92, h93, h94, h95, h96], level: junior}, {paper: district-z5, name: District Z5, positions: [d51, d52, d53], level: elementary}, {paper: district-z6, name: District Z6, positions: [d61, d62, d63], level: junior}, {paper: district-z7, name: District Z7, positions: [d71, d72, d73], level: junior}, {paper: district-z8, name: District Z8, positions: [d81, d82, d83], level: junior}, {paper: district-z9, name: District Z9, positions: [d91, d92, d93, d94], level: junior}, {paper: regional-z9, name: Regional Z9, positions: [r91, r92, r93, r94], level: junior}, {paper: national-z9, name: National Z9, positions: [n91, n92, n93, n94], level: junior}]}
   edition_form: year
   official_solutions: true
   languages: [cs, sk]
   sources: [mo-cz, skmo]
-  description: Categories Z5 to Z9 of the Czech and Slovak olympiad, for grades 5 to 9, with a home round and a district round, and a regional round for Z9. Each year from 2019 has a home round of six problems for each of Z5 to Z9, a district round, and a regional round for Z9, and from 2024 a national round for Z9.
+  description: Categories Z5 to Z9 of the Czech and Slovak olympiad, for grades 5 to 9, with a home round and a district round, and a regional round for Z9. Each year from 2010 has a home round of six problems for each of Z5 to Z9, a district round, and a regional round for Z9, and from 2024 a national round for Z9.
 
 - code: cz-pythagoriada
   name: Pythagoriáda

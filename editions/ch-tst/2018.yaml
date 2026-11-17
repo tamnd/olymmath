@@ -1,0 +1,14 @@
+year: 2018
+official:
+  - lang: English
+    code: en
+    url: https://imosuisse.github.io/files/exams/selection-2018-english.pdf
+    source: imosuisse
+  - lang: German
+    code: de
+    url: https://imosuisse.github.io/files/exams/selection-2018-german.pdf
+    source: imosuisse
+  - lang: French
+    code: fr
+    url: https://imosuisse.github.io/files/exams/selection-2018-french.pdf
+    source: imosuisse

@@ -1,0 +1,18 @@
+year: 2024
+official:
+  - lang: English
+    code: en
+    url: https://imosuisse.github.io/files/exams/final-round-2024-english.pdf
+    source: imosuisse
+  - lang: German
+    code: de
+    url: https://imosuisse.github.io/files/exams/final-round-2024-german.pdf
+    source: imosuisse
+  - lang: French
+    code: fr
+    url: https://imosuisse.github.io/files/exams/final-round-2024-french.pdf
+    source: imosuisse
+  - lang: Italian
+    code: it
+    url: https://imosuisse.github.io/files/exams/final-round-2024-italian.pdf
+    source: imosuisse

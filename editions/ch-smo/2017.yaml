@@ -1,0 +1,10 @@
+year: 2017
+official:
+  - lang: German
+    code: de
+    url: https://imosuisse.github.io/files/exams/final-round-2017-german.pdf
+    source: imosuisse
+  - lang: French
+    code: fr
+    url: https://imosuisse.github.io/files/exams/final-round-2017-french.pdf
+    source: imosuisse

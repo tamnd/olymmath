@@ -1,0 +1,10 @@
+year: 2006
+official:
+  - lang: English
+    code: en
+    url: https://imosuisse.github.io/files/exams/final-round-2006-english.pdf
+    source: imosuisse
+  - lang: German
+    code: de
+    url: https://imosuisse.github.io/files/exams/final-round-2006-german.pdf
+    source: imosuisse

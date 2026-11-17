@@ -1,0 +1,18 @@
+year: 2026
+papers:
+  - name: Cayley
+    problems: [c1, c2, c3, c4, c5, c6]
+  - name: Hamilton
+    problems: [h1, h2, h3, h4, h5, h6]
+  - name: Maclaurin
+    problems: [m1, m2, m3, m4, m5, m6]
+official:
+  - lang: English
+    code: en
+    url: https://ukmt.org.uk/wp-content/uploads/2026/03/Cayley_Paper_2026.pdf
+  - lang: English
+    code: en
+    url: https://ukmt.org.uk/wp-content/uploads/2026/03/Hamilton_Paper_2026.pdf
+  - lang: English
+    code: en
+    url: https://ukmt.org.uk/wp-content/uploads/2026/03/Maclaurin_Paper_2026.pdf

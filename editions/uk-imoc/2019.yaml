@@ -1,0 +1,18 @@
+year: 2019
+papers:
+  - name: Cayley
+    problems: [c1, c2, c3, c4, c5, c6]
+  - name: Hamilton
+    problems: [h1, h2, h3, h4, h5, h6]
+  - name: Maclaurin
+    problems: [m1, m2, m3, m4, m5, m6]
+official:
+  - lang: English
+    code: en
+    url: https://ukmt.org.uk/wp-content/uploads/2023/08/cayley-2019-q.pdf
+  - lang: English
+    code: en
+    url: https://ukmt.org.uk/wp-content/uploads/2023/08/hamilton-2019-q.pdf
+  - lang: English
+    code: en
+    url: https://ukmt.org.uk/wp-content/uploads/2023/08/maclaurin-2019-q.pdf

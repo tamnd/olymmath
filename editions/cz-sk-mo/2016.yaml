@@ -4,3 +4,7 @@ official:
     code: cs
     url: https://www.matematickaolympiada.cz/media/3471932/a65iii.pdf
     source: mo-cz
+  - lang: Slovak
+    code: sk
+    url: https://skmo.sk/dokument.php?id=1871
+    source: skmo

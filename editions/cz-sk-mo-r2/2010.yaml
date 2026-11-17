@@ -1,0 +1,21 @@
+year: 2010
+papers:
+  - name: Category A
+    problems: [a1, a2, a3, a4]
+  - name: Category B
+    problems: [b1, b2, b3, b4]
+  - name: Category C
+    problems: [c1, c2, c3, c4]
+official:
+  - lang: Slovak
+    code: sk
+    url: https://skmo.sk/dokument.php?id=8
+    source: skmo
+  - lang: Slovak
+    code: sk
+    url: https://skmo.sk/dokument.php?id=317
+    source: skmo
+  - lang: Slovak
+    code: sk
+    url: https://skmo.sk/dokument.php?id=318
+    source: skmo

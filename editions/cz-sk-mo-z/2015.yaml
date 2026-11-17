@@ -1,0 +1,69 @@
+year: 2015
+papers:
+  - name: Home Z5
+    problems: [h51, h52, h53, h54, h55, h56]
+  - name: Home Z6
+    problems: [h61, h62, h63, h64, h65, h66]
+  - name: Home Z7
+    problems: [h71, h72, h73, h74, h75, h76]
+  - name: Home Z8
+    problems: [h81, h82, h83, h84, h85, h86]
+  - name: Home Z9
+    problems: [h91, h92, h93, h94, h95, h96]
+  - name: District Z5
+    problems: [d51, d52, d53]
+  - name: District Z6
+    problems: [d61, d62, d63]
+  - name: District Z7
+    problems: [d71, d72, d73]
+  - name: District Z8
+    problems: [d81, d82, d83]
+  - name: District Z9
+    problems: [d91, d92, d93, d94]
+  - name: Regional Z9
+    problems: [r91, r92, r93, r94]
+official:
+  - lang: Slovak
+    code: sk
+    url: https://skmo.sk/dokument.php?id=1249
+    source: skmo
+  - lang: Slovak
+    code: sk
+    url: https://skmo.sk/dokument.php?id=1332
+    source: skmo
+  - lang: Slovak
+    code: sk
+    url: https://skmo.sk/dokument.php?id=1363
+    source: skmo
+  - lang: Slovak
+    code: sk
+    url: https://skmo.sk/dokument.php?id=1250
+    source: skmo
+  - lang: Slovak
+    code: sk
+    url: https://skmo.sk/dokument.php?id=1379
+    source: skmo
+  - lang: Slovak
+    code: sk
+    url: https://skmo.sk/dokument.php?id=1251
+    source: skmo
+  - lang: Slovak
+    code: sk
+    url: https://skmo.sk/dokument.php?id=1378
+    source: skmo
+  - lang: Slovak
+    code: sk
+    url: https://skmo.sk/dokument.php?id=1252
+    source: skmo
+  - lang: Slovak
+    code: sk
+    url: https://skmo.sk/dokument.php?id=1377
+    source: skmo
+  - lang: Slovak
+    code: sk
+    url: https://skmo.sk/dokument.php?id=1253
+    source: skmo
+  - lang: Slovak
+    code: sk
+    url: https://skmo.sk/dokument.php?id=1331
+    source: skmo

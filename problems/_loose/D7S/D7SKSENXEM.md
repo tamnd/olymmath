@@ -21,11 +21,22 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: id
+    source: hf-indonesian-olympiad
+    url: https://huggingface.co/datasets/hafidhsoekma/math-olympiad-indonesian-benchmark
+    capture: hf-indonesian-olympiad/data/train-00000-of-00001.parquet#row=1244
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: br-obm
     source: hf-mathnet
     label: Brazil Nível 2
+  - at: id-fimnas/2009
+    source: hf-indonesian-olympiad
+    label: FIMNas_SMA_2009
 ---
 Show that $M=\sqrt[3]{\sqrt{5}+2}-\sqrt[3]{\sqrt{5}-2}$ is an integer.

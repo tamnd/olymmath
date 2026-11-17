@@ -22,12 +22,23 @@ statements:
     origin: D
     zone: Z2
     kind: transcription
+  - id: S3
+    lang: id
+    source: hf-indonesian-olympiad
+    url: https://huggingface.co/datasets/hafidhsoekma/math-olympiad-indonesian-benchmark
+    capture: hf-indonesian-olympiad/data/train-00000-of-00001.parquet#row=623
+    origin: D
+    zone: Z2
+    kind: transcription
 status:
   statement: captured
 unplaced:
   - at: omo/2014
     source: hf-ai-mo-aops
     label: 2014 Online Math Open Problems
+  - at: id-lmnas/2022
+    source: hf-indonesian-olympiad
+    label: LMNas_SMP_2022
 ---
 How many integers $n$ with $10 \le n \le 500$ have the property that the hundreds digit of $17n$ and $17n+17$ are different?
 

@@ -480,6 +480,7 @@
   origin: D
   url: https://huggingface.co/datasets/hafidhsoekma/math-olympiad-indonesian-benchmark
   access: hf
+  terms: The dataset card gives no licence (https://huggingface.co/datasets/hafidhsoekma/math-olympiad-indonesian-benchmark, read on 2026-11-16). The problems keep the copyright of their competitions (OSN, LMNas, POSI, KMSI and others), so the statements stay Z2.
   zone:
     statement: Z2
     solution: Z2

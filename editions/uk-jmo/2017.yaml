@@ -1,0 +1,10 @@
+year: 2017
+papers:
+  - name: Section A
+    problems: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10]
+  - name: Section B
+    problems: [b1, b2, b3, b4, b5, b6]
+official:
+  - lang: English
+    code: en
+    url: https://ukmt.org.uk/wp-content/uploads/2023/08/jmo-2017-q.pdf

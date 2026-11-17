@@ -3614,8 +3614,8 @@
   ai_train: unknown
   size: the recent free papers (about the last five years) of the JMC, IMC, SMC, the Kangaroos, the JMO, Cayley, Hamilton, Maclaurin, the MOG and the team challenges, an estimated 2,000 problems
   wave: 2
-  state: planned
-  notes: The robots.txt of www.ukmt.org.uk was read with the census of the UK (no rule blocks the papers). The papers held for sale are not fetched.
+  state: active
+  notes: The robots.txt of www.ukmt.org.uk was read with the census of the UK (no rule blocks the papers). The papers held for sale are not fetched. om ukmt reads the question paper PDF of each page of the sitemap free-past-papers-sitemap.xml (the JMC, IMC, SMC, JMO, the Cayley, Hamilton and Maclaurin papers and the MOG); the older challenges whose page shows the questions as images, and the papers whose PDF has no usable text, keep no record.
 
 - id: pmc-ma
   name: Primary Mathematics Challenge downloads

@@ -1,0 +1,14 @@
+year: 2016
+official:
+  - lang: English
+    code: en
+    url: https://imosuisse.github.io/files/exams/second-round-2016-english.pdf
+    source: imosuisse
+  - lang: German
+    code: de
+    url: https://imosuisse.github.io/files/exams/second-round-2016-german.pdf
+    source: imosuisse
+  - lang: French
+    code: fr
+    url: https://imosuisse.github.io/files/exams/second-round-2016-french.pdf
+    source: imosuisse

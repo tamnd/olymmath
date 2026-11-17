@@ -1,0 +1,14 @@
+year: 2012
+official:
+  - lang: German
+    code: de
+    url: https://imosuisse.github.io/files/exams/final-round-2012-german.pdf
+    source: imosuisse
+  - lang: French
+    code: fr
+    url: https://imosuisse.github.io/files/exams/final-round-2012-french.pdf
+    source: imosuisse
+  - lang: Italian
+    code: it
+    url: https://imosuisse.github.io/files/exams/final-round-2012-italian.pdf
+    source: imosuisse

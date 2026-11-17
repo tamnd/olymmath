@@ -2427,13 +2427,15 @@
   origin: H1
   url: https://imosuisse.github.io/
   access: git
+  terms: "No licence stated: the GitHub repository imosuisse/imosuisse.github.io has no LICENSE file, and the GitHub API gives it no licence (read on 2026-11-17). Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to its file."
   zone:
     statement: Z2
     solution: Z2
   ai_train: unknown
+  size: 684 problems in English of the second round (2004 to 2026), the final (2003 to 2026) and the IMO selection (1997 to 2026), and 190 exam papers in German, French, Italian and English (2004 to 2026)
   wave: 1
-  state: planned
-  notes: The licence of the GitHub archive is not checked.
+  state: active
+  notes: The robots.txt of imosuisse.github.io allows all agents (read on 2026-11-17). The page /problems/ lists the ids of the problems, as 2015-3-07, and the TeX file of each problem is in the folder _latex of the repository, read through raw.githubusercontent.com. The page /exams/ links the paper of each exam in each of its languages. The MEMO, IMO and French olympiad problems of the archive are not Swiss papers and are not read.
 
 - id: maths-olympiques
   name: Animath and POFM

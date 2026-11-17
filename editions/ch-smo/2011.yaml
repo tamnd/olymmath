@@ -1,1 +1,10 @@
 year: 2011
+official:
+  - lang: German
+    code: de
+    url: https://imosuisse.github.io/files/exams/final-round-2011-german.pdf
+    source: imosuisse
+  - lang: French
+    code: fr
+    url: https://imosuisse.github.io/files/exams/final-round-2011-french.pdf
+    source: imosuisse

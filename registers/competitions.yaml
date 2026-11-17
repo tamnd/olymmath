@@ -4421,15 +4421,16 @@
   level: high-school
   country: CH
   url: https://imosuisse.github.io/
-  first_year: 2004
-  # Agent decision, not a person's review: the exams table of imosuisse.github.io (read on 2026-11-16) has the final papers of 2004 to 2026: ten problems in 2004 to 2018 and eight in 2019 to 2026.
+  first_year: 2003
+  # Agent decision, not a person's review: the exams table of imosuisse.github.io (read on 2026-11-16) has the final papers of 2004 to 2026: ten problems in 2004 to 2018 and eight in 2019 to 2026. The TeX files of the archive (read on 2026-11-17) add five problems of the final of 2003, the only earlier final that the archive has.
   eras:
+    - {from: 2003, to: 2003, per_year: 5}
     - {from: 2004, to: 2018, per_year: 10}
     - {from: 2019, per_year: 8}
   edition_form: year
   official_solutions: true
   languages: [de, fr, it, en]
-  copyright: The licence of the GitHub archive is not checked.
+  copyright: The GitHub archive of IMO Suisse states no licence (read on 2026-11-17).
   sources: [imosuisse]
   description: The final round of the Swiss olympiad. The official archive is on GitHub. The earlier rounds are ch-smo-r1 and ch-smo-r2, and the IMO selection is ch-tst. Each final has ten problems (2004 to 2018) or eight (from 2019).
 
@@ -4455,10 +4456,10 @@
   country: CH
   url: https://imosuisse.github.io/
   first_year: 2004
-  # Agent decision, not a person's review: the exams table of imosuisse.github.io (read on 2026-11-16) has the second round papers of 2004 to 2026: five problems in 2004 to 2016 and six in 2017 to 2026.
+  # Agent decision, not a person's review: the exams table of imosuisse.github.io (read on 2026-11-16) has the second round papers of 2004 to 2026: five problems in 2004 to 2016 and six in 2017 to 2026. From 2017 the papers print the problems by subject as G1, G2 (geometry), K1, K2 (combinatorics) and Z1, Z2 (number theory), so the positions are g1, g2, k1, k2, z1 and z2.
   eras:
     - {from: 2004, to: 2016, per_year: 5}
-    - {from: 2017, per_year: 6}
+    - {from: 2017, per_year: 6, layout: [{paper: geometry, name: Geometry, positions: [g1, g2]}, {paper: combinatorics, name: Combinatorics, positions: [k1, k2]}, {paper: number-theory, name: Number theory, positions: [z1, z2]}]}
   edition_form: year
   official_solutions: true
   languages: [de, fr, it, en]
@@ -4472,14 +4473,19 @@
   level: high-school
   country: CH
   url: https://imosuisse.github.io/
-  first_year: 2004
-  # Agent decision, not a person's review: the exams table of imosuisse.github.io (read on 2026-11-16) has the selection papers of 2004 to 2026 with twelve problems each year.
-  per_year: 12
+  first_year: 1997
+  # Agent decision, not a person's review: the exams table of imosuisse.github.io (read on 2026-11-16) has the selection papers of 2004 to 2026 with twelve problems each year. The TeX files of the archive (read on 2026-11-17) add the selection problems of 1997 to 2003: four of 1997 and ten of each year from 1998. The archive numbers the ten selection problems of 2000 as 1 to 5 and 11 to 15, so the shape of 2000 is not known and it counts no positions.
+  eras:
+    - {from: 1997, to: 1997, per_year: 4}
+    - {from: 1998, to: 1999, per_year: 10}
+    - {from: 2000, to: 2000}
+    - {from: 2001, to: 2003, per_year: 10}
+    - {from: 2004, per_year: 12}
   edition_form: year
   official_solutions: true
   languages: [de, fr, en]
   sources: [imosuisse, hf-mathnet]
-  description: The pre-selection test and the selection tests that choose the Swiss team for the IMO. The GitHub archive of IMO Suisse has the selection papers. Each year has twelve selection problems.
+  description: The pre-selection test and the selection tests that choose the Swiss team for the IMO. The GitHub archive of IMO Suisse has the selection papers. Each year has twelve selection problems from 2004, and the archive has ten for each year from 1998 to 2003 and four for 1997.
 
 - code: at-oemo
   name: Austrian Mathematical Olympiad

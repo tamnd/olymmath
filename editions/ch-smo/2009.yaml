@@ -1,0 +1,10 @@
+year: 2009
+official:
+  - lang: German
+    code: de
+    url: https://imosuisse.github.io/files/exams/final-round-2009-german.pdf
+    source: imosuisse
+  - lang: French
+    code: fr
+    url: https://imosuisse.github.io/files/exams/final-round-2009-french.pdf
+    source: imosuisse

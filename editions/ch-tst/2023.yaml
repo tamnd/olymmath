@@ -1,0 +1,14 @@
+year: 2023
+official:
+  - lang: English
+    code: en
+    url: https://imosuisse.github.io/files/exams/selection-2023-english.pdf
+    source: imosuisse
+  - lang: German
+    code: de
+    url: https://imosuisse.github.io/files/exams/selection-2023-german.pdf
+    source: imosuisse
+  - lang: French
+    code: fr
+    url: https://imosuisse.github.io/files/exams/selection-2023-french.pdf
+    source: imosuisse

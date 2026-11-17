@@ -1,0 +1,10 @@
+year: 2005
+official:
+  - lang: German
+    code: de
+    url: https://imosuisse.github.io/files/exams/second-round-2005-german.pdf
+    source: imosuisse
+  - lang: French
+    code: fr
+    url: https://imosuisse.github.io/files/exams/second-round-2005-french.pdf
+    source: imosuisse

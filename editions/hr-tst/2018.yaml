@@ -1,0 +1,10 @@
+year: 2018
+papers:
+  - name: IMO team test
+    problems: [i1, i2, i3, i4]
+  - name: MEMO team test
+    problems: [m1, m2, m3, m4]
+official:
+  - lang: Croatian
+    code: hr
+    url: https://natjecanja.math.hr/wp-content/uploads/2019/03/HMO2018-rje.pdf

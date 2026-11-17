@@ -1,0 +1,12 @@
+year: 2021
+papers:
+  - name: Grade 4
+    problems: [o401, o402, o403, o404, o405, o406, o407, o408, o409, o410]
+  - name: Grade 5
+    problems: [o501, o502, o503, o504, o505, o506, o507, o508, o509, o510]
+  - name: Grade 6
+    problems: [o601, o602, o603, o604, o605, o606, o607, o608, o609, o610]
+official:
+  - lang: Croatian
+    code: hr
+    url: https://natjecanja.math.hr/wp-content/uploads/2026/08/HMOK-2021-prvo_kolo-zadaci.pdf

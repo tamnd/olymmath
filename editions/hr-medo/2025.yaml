@@ -1,0 +1,48 @@
+year: 2025
+papers:
+  - name: Kadeti, round 1
+    problems: [k11, k12, k13, k14, k15, k16, k17, k18]
+  - name: Kadeti, round 2
+    problems: [k21, k22, k23, k24, k25, k26, k27, k28]
+  - name: Kadeti, round 3
+    problems: [k31, k32, k33, k34, k35, k36, k37, k38]
+  - name: Kadeti, round 4
+    problems: [k41, k42, k43, k44, k45, k46, k47, k48]
+  - name: Kadeti, round 5
+    problems: [k51, k52, k53, k54, k55, k56, k57, k58]
+  - name: Juniori, round 1
+    problems: [j11, j12, j13, j14, j15, j16, j17, j18]
+  - name: Juniori, round 2
+    problems: [j21, j22, j23, j24, j25, j26, j27, j28]
+  - name: Juniori, round 3
+    problems: [j31, j32, j33, j34, j35, j36, j37, j38]
+  - name: Juniori, round 4
+    problems: [j41, j42, j43, j44, j45, j46, j47, j48]
+  - name: Juniori, round 5
+    problems: [j51, j52, j53, j54, j55, j56, j57, j58]
+  - name: Seniori, round 1
+    problems: [s11, s12, s13, s14, s15, s16, s17, s18]
+  - name: Seniori, round 2
+    problems: [s21, s22, s23, s24, s25, s26, s27, s28]
+  - name: Seniori, round 3
+    problems: [s31, s32, s33, s34, s35, s36, s37, s38]
+  - name: Seniori, round 4
+    problems: [s41, s42, s43, s44, s45, s46, s47, s48]
+  - name: Seniori, round 5
+    problems: [s51, s52, s53, s54, s55, s56, s57, s58]
+official:
+  - lang: Croatian
+    code: hr
+    url: https://natjecanja.math.hr/wp-content/uploads/2026/08/MEDO-2025_2026-prvo_kolo-zadaci.pdf
+  - lang: Croatian
+    code: hr
+    url: https://natjecanja.math.hr/wp-content/uploads/2026/08/MEDO-2025_2026-drugo_kolo-zadaci.pdf
+  - lang: Croatian
+    code: hr
+    url: https://natjecanja.math.hr/wp-content/uploads/2026/08/MEDO-2025_2026-trece_kolo-zadaci.pdf
+  - lang: Croatian
+    code: hr
+    url: https://natjecanja.math.hr/wp-content/uploads/2026/08/MEDO-2025_2026-cetvrto_kolo-zadaci.pdf
+  - lang: Croatian
+    code: hr
+    url: https://natjecanja.math.hr/wp-content/uploads/2026/08/MEDO-2025_2026-peto_kolo-zadaci.pdf

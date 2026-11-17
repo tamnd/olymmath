@@ -1,0 +1,10 @@
+year: 2010
+papers:
+  - name: IMO team test
+    problems: [i1, i2, i3, i4]
+  - name: MEMO team test
+    problems: [m1, m2, m3, m4]
+official:
+  - lang: Croatian
+    code: hr
+    url: https://natjecanja.math.hr/wp-content/uploads/2015/02/2010_HMO_rjesenja.pdf

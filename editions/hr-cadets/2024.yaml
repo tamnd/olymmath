@@ -1,0 +1,12 @@
+year: 2024
+papers:
+  - name: Group A
+    problems: [a1, a2, a3, a4, a5]
+  - name: Group B
+    problems: [b1, b2, b3, b4, b5]
+  - name: Group C
+    problems: [c1, c2, c3, c4, c5]
+official:
+  - lang: Croatian
+    code: hr
+    url: https://natjecanja.math.hr/wp-content/uploads/2026/08/HMOK-2024-drugo_kolo-zadaci.pdf

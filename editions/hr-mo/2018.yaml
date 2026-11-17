@@ -1,0 +1,10 @@
+year: 2018
+papers:
+  - name: Day 1
+    problems: [a1, a2, a3, a4]
+  - name: Day 2
+    problems: [b1, b2, b3, b4]
+official:
+  - lang: Croatian
+    code: hr
+    url: https://natjecanja.math.hr/wp-content/uploads/2019/03/HMO2018-rje.pdf

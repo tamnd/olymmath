@@ -62,9 +62,9 @@
   reason: no-source
   note: The archive natjecanja.math.hr/arhiva-domacih-natjecanja/ (read on 2026-11-16) links the papers on allowed paths under /wp-content/uploads/, and it links no state paper before 2016. The range starts in 1992, the first school year after the independence of Croatia; the first year of the competition was not checked.
 - competition: hr-mo
-  years: ["1992-2009"]
+  years: ["1992-2002", "2004-2009"]
   reason: no-source
-  note: natjecanja.math.hr/izborna-natjecanja-i-olimpijade/ (read on 2026-11-16) has the books of the HMO from 2010 only. The range starts in 1992, the first school year after the independence of Croatia; the first year of the competition was not checked.
+  note: natjecanja.math.hr/izborna-natjecanja-i-olimpijade/ (read on 2026-11-16) has the books of the HMO from 2010 only. 2003 is left out because the NuminaMath datasets give one of its problems (hr-mo/2003/p2). The range starts in 1992, the first school year after the independence of Croatia; the first year of the competition was not checked.
 - competition: hr-tst
   years: ["2011-2012"]
   reason: no-source

@@ -1,0 +1,36 @@
+year: 2017
+papers:
+  - name: Grade 5, primary school
+    problems: [o51, o52, o53, o54, o55]
+  - name: Grade 6, primary school
+    problems: [o61, o62, o63, o64, o65]
+  - name: Grade 7, primary school
+    problems: [o71, o72, o73, o74, o75]
+  - name: Grade 8, primary school
+    problems: [o81, o82, o83, o84, o85]
+  - name: Grade 1, secondary school, A variant
+    problems: [a11, a12, a13, a14, a15]
+  - name: Grade 2, secondary school, A variant
+    problems: [a21, a22, a23, a24, a25]
+  - name: Grade 3, secondary school, A variant
+    problems: [a31, a32, a33, a34, a35]
+  - name: Grade 4, secondary school, A variant
+    problems: [a41, a42, a43, a44, a45]
+  - name: Grade 1, secondary school, B variant
+    problems: [b11, b12, b13, b14, b15]
+  - name: Grade 2, secondary school, B variant
+    problems: [b21, b22, b23, b24, b25]
+  - name: Grade 3, secondary school, B variant
+    problems: [b31, b32, b33, b34, b35]
+  - name: Grade 4, secondary school, B variant
+    problems: [b41, b42, b43, b44, b45]
+official:
+  - lang: Croatian
+    code: hr
+    url: https://natjecanja.math.hr/wp-content/uploads/2025/10/Drzavno-2017-Osnovna-skola-Zadaci.pdf
+  - lang: Croatian
+    code: hr
+    url: https://natjecanja.math.hr/wp-content/uploads/2017/04/drzavno_Avar_2017_zad.pdf
+  - lang: Croatian
+    code: hr
+    url: https://natjecanja.math.hr/wp-content/uploads/2017/04/drzavno2017-B_var_zad.pdf

@@ -1,0 +1,12 @@
+year: 2020
+papers:
+  - name: Grade 4
+    problems: [o41, o42, o43, o44, o45]
+  - name: Grade 5
+    problems: [o51, o52, o53, o54, o55]
+  - name: Grade 6
+    problems: [o61, o62, o63, o64, o65]
+official:
+  - lang: Croatian
+    code: hr
+    url: https://natjecanja.math.hr/wp-content/uploads/2026/08/HMOK-2020-drugo_kolo-zadaci.pdf

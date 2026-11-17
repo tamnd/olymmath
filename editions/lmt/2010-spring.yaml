@@ -1,0 +1,31 @@
+year: 2010
+papers:
+  - name: Individual
+    problems: [i1, i2, i3, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13, i14, i15, i16, i17, i18, i19, i20]
+  - name: Theme
+    problems: [th1, th2, th3, th4, th5, th6, th7, th8, th9, th10, th11, th12, th13, th14, th15]
+  - name: Team
+    problems: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15, t16, t17]
+  - name: Guts
+    problems: [g1, g2, g3, g4, g5, g6, g7, g8, g9, g10, g11, g12, g13, g14, g15, g16, g17, g18, g19, g20, g21, g22, g23, g24, g25, g26, g27, g28, g29, g30, g31, g32, g33, g34, g35, g36]
+official:
+  - lang: English
+    code: en
+    url: https://www.lhsmath.org/LMT/Archive/2010/problems/2010%20Individual%20Problems.pdf
+    paper: individual
+    source: lhsmath
+  - lang: English
+    code: en
+    url: https://www.lhsmath.org/LMT/Archive/2010/problems/2010%20Theme%20Problems.pdf
+    paper: theme
+    source: lhsmath
+  - lang: English
+    code: en
+    url: https://www.lhsmath.org/LMT/Archive/2010/problems/2010%20Team%20Problems.pdf
+    paper: team
+    source: lhsmath
+  - lang: English
+    code: en
+    url: https://www.lhsmath.org/LMT/Archive/2010/problems/2010%20Guts%20Problems.pdf
+    paper: guts
+    source: lhsmath

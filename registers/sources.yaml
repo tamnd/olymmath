@@ -3930,7 +3930,7 @@
   kind: official
   origin: H1
   url: https://math.naboj.org/
-  access: pdf
+  access: html
   terms: "No licence stated. Agent decision, not a person's review: the statements are Z2, the spec default for competition statements (spec 11.1), so the content holds the statement of each problem with the name of the organizer and a link to the paper."
   zone:
     statement: Z2
@@ -3938,8 +3938,8 @@
   ai_train: unknown
   size: about 50 problems a year for the senior competition from 2011 and the junior competition, an estimated 1,000 problems
   wave: 2
-  state: planned
-  notes: math.naboj.org has no robots.txt (the path redirects to a language page, 2026-11-16). The archive is at math.old.naboj.org/archive.php, with files /archive/problems/pdf/math/YYYY_en_sol.pdf, and junior.old.naboj.org has the junior archive. Both old hosts did not answer from the census machine, so their robots.txt is not read.
+  state: active
+  notes: "The archives are at https://math.naboj.org/gb/en/archive (Náboj Math, in English, the language of the international set) and https://junior.naboj.org/sk/sk/archive (Náboj Junior, in Slovak, as the junior site has no English pages). Neither host has a robots.txt (math.naboj.org answers the path with an HTML page, junior.naboj.org with 404, checked on 2026-11-18); the old hosts math.old.naboj.org and junior.old.naboj.org do not answer. om naboj reads the HTML pages of problems and solutions, with MathML: Náboj Math 2013 to 2021 and 2023 to 2026, Náboj Junior 2021 to 2025. Náboj Math 2011, 2012 and 2022 and Náboj Junior 2012 to 2019 have only a PDF (/uploads/competitions/<id>/problems-<lang>.pdf); Náboj Math 2005 to 2010 have no problems in the archive, and Náboj Junior 2020 was cancelled."
 
 - id: bolyai-hu
   name: Bolyai János Matematikai Társulat

@@ -1,1 +1,87 @@
 year: 2020
+papers:
+  - name: Intercolegial nivel 1
+    problems: [i11, i12, i13, i14, i15, i16]
+  - name: Intercolegial nivel 2
+    problems: [i21, i22, i23, i24, i25, i26]
+  - name: Intercolegial nivel 3
+    problems: [i31, i32, i33, i34, i35, i36]
+  - name: Zonal nivel 1
+    problems: [z11, z12, z13, z14, z15, z16]
+  - name: Zonal nivel 2
+    problems: [z21, z22, z23, z24, z25, z26]
+  - name: Zonal nivel 3
+    problems: [z31, z32, z33, z34, z35, z36]
+  - name: Regional nivel 1
+    problems: [r11, r12, r13]
+  - name: Regional nivel 2
+    problems: [r21, r22, r23]
+  - name: Regional nivel 3
+    problems: [r31, r32, r33]
+  - name: Nacional nivel 1
+    problems: [n11, n12, n13, n14, n15, n16]
+  - name: Nacional nivel 2
+    problems: [n21, n22, n23, n24, n25, n26]
+  - name: Nacional nivel 3
+    problems: [n31, n32, n33, n34, n35, n36]
+official:
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/oma/2020/Intercolegial2020.pdf
+    paper: i1
+    source: oma
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/oma/2020/Intercolegial2020.pdf
+    paper: i2
+    source: oma
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/oma/2020/Intercolegial2020.pdf
+    paper: i3
+    source: oma
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/oma/2020/Zonal_OMA_2020.pdf
+    paper: z1
+    source: oma
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/oma/2020/Zonal_OMA_2020.pdf
+    paper: z2
+    source: oma
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/oma/2020/Zonal_OMA_2020.pdf
+    paper: z3
+    source: oma
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/oma/2020/Regional_OMA_2020.pdf
+    paper: r1
+    source: oma
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/oma/2020/Regional_OMA_2020.pdf
+    paper: r2
+    source: oma
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/oma/2020/Regional_OMA_2020.pdf
+    paper: r3
+    source: oma
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/oma/2020/Nacional_OMA_2020.pdf
+    paper: n1
+    source: oma
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/oma/2020/Nacional_OMA_2020.pdf
+    paper: n2
+    source: oma
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/oma/2020/Nacional_OMA_2020.pdf
+    paper: n3
+    source: oma

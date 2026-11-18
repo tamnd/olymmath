@@ -1,0 +1,10 @@
+year: 2012
+papers:
+  - name: Day 1
+    problems: [p1, p2, p3]
+  - name: Day 2
+    problems: [p4, p5, p6]
+official:
+  - lang: Polish
+    code: pl
+    url: https://om.sem.edu.pl/static/app_main/problems/om63_2.pdf

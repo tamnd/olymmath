@@ -1573,7 +1573,7 @@
   size: one page for each year and grade of the Kazakhstan olympiad stages from 2003, as olympiads/1153 (2025, grade 10)
   wave: 2
   state: planned
-  notes: "Sections for the district, regional and final stages, the junior olympiad, the Almaty city olympiad, the Zhautykov olympiad, the Al-Farabi olympiad and the Smagulov olympiad. robots.txt gave 403 Forbidden (nginx) for matol.kz and www.matol.kz on 2026-11-16, while the home page loads. No rule is readable. Check access again before a harvest."
+  notes: "Sections for the district, regional and final stages, the junior olympiad, the Almaty city olympiad, the Zhautykov olympiad, the Al-Farabi olympiad and the Smagulov olympiad. robots.txt gave 403 Forbidden (nginx) for matol.kz and www.matol.kz on 2026-11-16, while the home page loads. On 2026-11-18 the om fetch client got 404 Not Found for https://matol.kz/robots.txt, so the site has no robots rules and om reads it as allowing all paths."
 
 - id: oma
   name: Olimpíada Matemática Argentina
@@ -2700,7 +2700,7 @@
   size: the papers and marking schemes (bareme) of the local, county and national rounds of the Romanian olympiad, grades 5 to 12, and of the selection tests
   wave: 2
   state: planned
-  notes: "robots.txt (checked on 2026-11-16) disallows all paths for Yandex and MJ12bot. For User-agent * it disallows a list of system paths such as /admin/, /data/ and /cgi-bin/. It names no AI crawler and has no content signal."
+  notes: "robots.txt (checked on 2026-11-16) disallows all paths for Yandex and MJ12bot. For User-agent * it disallows a list of system paths such as /admin/, /data/ and /cgi-bin/. It names no AI crawler and has no content signal. The pages of the papers say \"Materialele se descarcă doar cu cont (gratuit)\" (read on 2026-11-16): the PDFs download only with an account, a login wall. The project opens no accounts, so the source is not harvested; the Romanian county papers come from mateinfo-ro."
 
 - id: mateinfo-ro
   name: MateInfo.ro

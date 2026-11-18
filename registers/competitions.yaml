@@ -6623,6 +6623,183 @@
   sources: [hf-ai-mo-aops]
   description: "The olympiad of the International Soros Science Education Program in the 1990s. The AoPS data has the problems of the 7th olympiad of 2000-01. Agent decision, not a person's review: the country is Ukraine because the AoPS collection is Ukrainian."
 
+- code: ua-kyiv-selection
+  name: Selection of the Kyiv team for the Ukrainian Mathematical Olympiad
+  names: {uk: Відбір команди міста Києва на IV (заключний) етап Всеукраїнської математичної олімпіади}
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: UA
+  # Agent decision, not a person's review: the papers of apex-minds are those of the booklets of the Kyiv olympiads, from 2007 to 2025 (no 2017 and 2022). The selection has three to five rounds after the city olympiad, some of them additional rounds (додатковий тур), each with four problems for each of the grades 8 to 11, numbered as 8.1 to 8.4. The position of problem N of grade G of round I is aG followed by N, and the rounds II to V take b to e, as ua-kyiv numbers its two rounds with a and b. The selection is written in February and March, so its edition is the last year of the school year. The selection of 2024/25 is named the selection for the All-Ukrainian olympiad of young mathematicians. The 2020 selection for the Kyiv study groups (Відбір на Київські гуртки) is not a selection of the team and has no position.
+  edition_form: year
+  official_solutions: true
+  languages: [uk]
+  sources: [apex-minds]
+  description: The rounds that choose the team of Kyiv for the final stage of the Ukrainian olympiad. No shape is given, because the booklets give a problem set in two grades only once, so the number of problems of each grade cannot be told, and the number of rounds and grades changes from year to year.
+
+- code: ua-zakarpattia-selection
+  name: Selection of the Zakarpattia team for the Ukrainian Mathematical Olympiad
+  names: {uk: Відбір команди Закарпатської області на IV (заключний) етап Всеукраїнської математичної олімпіади}
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: UA
+  # Agent decision, not a person's review: apex-minds has one paper, of 2023/24, with problems numbered by grade as 8.1. The position of problem N of grade G is pG followed by N, as ua-umo uses, and the edition is the last year of the school year.
+  edition_form: year
+  languages: [uk]
+  sources: [apex-minds]
+  description: The selection of the team of the Zakarpattia region for the final stage of the Ukrainian olympiad. No shape is given, because only one paper of 2023/24, with ten problems, was found.
+
+- code: ua-tst
+  name: Ukrainian IMO Team Selection Test
+  names: {uk: Відбір команди України на Міжнародну математичну олімпіаду}
+  group: national
+  level: high-school
+  country: UA
+  # Agent decision, not a person's review: the shape comes from the papers of the booklets on apex-minds. The training camp of 2001 to 2007 gives twelve problems numbered 1 to 12 with no rounds. In 2008 and 2009 the camp has four rounds of three problems, each numbered from 1, so problem N of round I is a followed by N and the rounds II to IV take b to d. From 2010 the selection has four rounds numbered on from 1 to 12. The selection is written in the spring, so its edition is the last year of the school year. 2017 has no paper on the site.
+  eras:
+    - {from: 2001, to: 2007, per_year: 12, layout: [{paper: selection, name: Selection, positions: [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12]}]}
+    - {from: 2008, to: 2009, per_year: 12, layout: [{paper: round1, name: Round I, positions: [a1, a2, a3]}, {paper: round2, name: Round II, positions: [b1, b2, b3]}, {paper: round3, name: Round III, positions: [c1, c2, c3]}, {paper: round4, name: Round IV, positions: [d1, d2, d3]}]}
+    - {from: 2010, to: 2016, per_year: 12, layout: [{paper: round1, name: Round I, positions: [p1, p2, p3]}, {paper: round2, name: Round II, positions: [p4, p5, p6]}, {paper: round3, name: Round III, positions: [p7, p8, p9]}, {paper: round4, name: Round IV, positions: [p10, p11, p12]}]}
+    - {from: 2018, to: 2025, per_year: 12, layout: [{paper: round1, name: Round I, positions: [p1, p2, p3]}, {paper: round2, name: Round II, positions: [p4, p5, p6]}, {paper: round3, name: Round III, positions: [p7, p8, p9]}, {paper: round4, name: Round IV, positions: [p10, p11, p12]}]}
+  edition_form: year
+  official_solutions: true
+  languages: [uk]
+  sources: [apex-minds]
+  description: The training camp and selection tests that choose the team of Ukraine for the IMO, after the final stage of the national olympiad (ua-umo).
+
+- code: ua-intl-selection
+  name: Ukrainian selection for the international competitions
+  names: {uk: Відбір на міжнародні математичні змагання}
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: UA
+  # Agent decision, not a person's review: the papers of apex-minds are those of the booklets, from 2013 to 2025. Each day has four problems, numbered on through the days, as 1 to 16. The position of problem N is pN. In a year whose days have a junior group and an IMO group with problems of the same numbers (2016, 2019, 2020), problem N of the junior group is jN and of the IMO group iN. The additional round of the EGMO selection of 2025, numbered again from 1, is eN. The selection is written in the spring, so its edition is the last year of the school year.
+  edition_form: year
+  official_solutions: true
+  languages: [uk]
+  sources: [apex-minds]
+  description: The selection of the Ukrainian teams for the EGMO, the RMM, the Balkan olympiads and the IMO. No shape is given, because the number of days and groups changes from year to year.
+
+- code: ua-thematic
+  name: Ukrainian thematic olympiads in mathematics
+  names: {uk: Тематичні олімпіади з математики}
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: UA
+  # Agent decision, not a person's review: apex-minds has the olympiads in algebra, number theory, geometry and combinatorics of 2014 to 2021, with problems numbered by grade, as 9.3. The position of problem N of grade G is the letter of the olympiad followed by G and N: a for algebra, n for number theory, g for geometry and c for combinatorics, as a93. A problem whose olympiad the site does not give has no position.
+  edition_form: year
+  official_solutions: true
+  languages: [uk]
+  sources: [apex-minds]
+  description: Four olympiads, each on one field of mathematics, written in the same school year. Their organizer is not confirmed. No shape is given, because the booklets give a problem set in two grades only once.
+
+- code: ua-set-university
+  name: SET University Mathematical Olympiad
+  names: {uk: Олімпіада SET University з математики}
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: UA
+  # Agent decision, not a person's review: apex-minds has the olympiad of 2022, with a first round and a second round (an online Math Zanzibar in memory of Yuliia Zdanovska), each with problems numbered by grade, as I тур · 9.3. The position of problem N of grade G of the first round is aG followed by N and of the second round bG followed by N. The two problems of the first round numbered with no grade have no position.
+  edition_form: year
+  languages: [uk]
+  sources: [apex-minds]
+  description: The olympiad of SET University in Kyiv. No shape is given, because only the papers of 2022 were found.
+
+- code: ua-newyear-zanzibar
+  name: New Year individual Math Zanzibar
+  names: {uk: Новорічний індивідуальний «Математичний занзібар»}
+  group: national
+  level: high-school
+  levels: [elementary, junior, high-school]
+  country: UA
+  # Agent decision, not a person's review: apex-minds has the online contest of 2022/23, with problems numbered by grade, as 4.1. The position of problem N of grade G is pG followed by N. The contest was held at the turn of 2022 and 2023; the site gives the year 2023, which is the edition.
+  edition_form: year
+  languages: [uk]
+  sources: [apex-minds]
+  description: An online individual contest in the form of a Math Zanzibar. No shape is given, because only one paper was found.
+
+- code: ua-kyiv-math-battle
+  name: Kyiv Tournament of Mathematical Battles named after Lesya Rublyova
+  names: {uk: Київський турнір математичних боїв імені Лесі Рубльової}
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: UA
+  edition_form: year
+  official_solutions: true
+  languages: [uk]
+  sources: [apex-minds]
+  description: A team tournament in Kyiv with math battles, a Math Zanzibar, a Math Carousel and an oral team olympiad, from 2007. apex-minds gives no number for its problems, so they have no position, and no shape is given.
+
+- code: ua-lyashko-math-battle
+  name: All-Ukrainian Tournament of Mathematical Battles named after I. I. Lyashko
+  names: {uk: Всеукраїнський турнір математичних боїв імені академіка І. І. Ляшка}
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: UA
+  edition_form: year
+  official_solutions: true
+  languages: [uk]
+  sources: [apex-minds]
+  description: A national team tournament with math battles, a Math Zanzibar, a Math Carousel and oral olympiads, from 2008. apex-minds files the tournaments named after M. Y. Yadrenko with it. The site gives no number for its problems, so they have no position, and no shape is given.
+
+- code: ua-kyiv-carousel
+  name: Kyiv Math Carousel
+  names: {uk: Київська математична карусель}
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: UA
+  edition_form: year
+  official_solutions: true
+  languages: [uk]
+  sources: [apex-minds]
+  description: The Math Carousel of the Kyiv tournaments of 2007 to 2009. apex-minds gives no number for its problems, so they have no position, and no shape is given.
+
+- code: ua-kyiv-junior
+  name: Kyiv olympiads for junior students
+  names: {uk: Київські олімпіади для молодших школярів}
+  group: national
+  level: junior
+  levels: [elementary, junior]
+  country: UA
+  edition_form: year
+  official_solutions: true
+  languages: [uk]
+  sources: [apex-minds]
+  description: Olympiads, Math Zanzibars and Math Carousels in Kyiv for the grades 3 to 7, among them the olympiads of the Taras Shevchenko National University of Kyiv, from 2013. apex-minds gives no number for its problems, so they have no position, and no shape is given.
+
+- code: ua-kyiv-team-championship
+  name: Kyiv Team Mathematics Championship
+  names: {uk: Командний чемпіонат Києва з математики}
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: UA
+  edition_form: year
+  official_solutions: true
+  languages: [uk]
+  sources: [apex-minds]
+  description: A team championship in Kyiv in six rounds, of 2025. apex-minds gives no number for its problems, so they have no position, and no shape is given.
+
+- code: ua-richelieu
+  name: Open Olympiad of the Richelieu Lyceum
+  names: {uk: Відкрита олімпіада Рішельєвського ліцею}
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: UA
+  edition_form: year
+  official_solutions: true
+  languages: [uk]
+  sources: [apex-minds]
+  description: The open olympiad of the Richelieu Lyceum in Odesa, of 2001 to 2006. apex-minds gives no number for its problems, so they have no position, and no shape is given.
+
 - code: by-mo
   name: Belarus Mathematical Olympiad
   group: national
@@ -8587,6 +8764,31 @@
   languages: [ru, kk]
   sources: [matol-kz]
   description: An olympiad in Kazakhstan for the grades 6 and 7. matol.kz gives the papers and sells a book of them. No shape is given, because no primary source of the papers was found.
+
+- code: kz-zhautykov-city
+  name: Zhautykov City Olympiad
+  names: {ru: Городская Жаутыковская олимпиада}
+  group: national
+  level: high-school
+  levels: [junior, high-school]
+  country: KZ
+  # Agent decision, not a person's review: matol.kz gives the olympiads of 2001 to 2026 by number and year, as 26-я олимпиада (2026 год), and the edition is that year.
+  edition_form: year
+  languages: [ru, kk]
+  sources: [matol-kz]
+  description: The city olympiad of Almaty that the Zhautykov school of physics and mathematics holds, the city stage of the Zhautykov olympiads. It is not the International Zhautykov Olympiad (zhautykov). No shape is given, because no primary source of the papers was found.
+
+- code: kz-al-farabi
+  name: Al-Farabi City Olympiad
+  names: {ru: Городская олимпиада «Аль-Фараби»}
+  group: national
+  level: high-school
+  country: KZ
+  # Agent decision, not a person's review: matol.kz gives one school year, 2015-2016, among its city olympiads.
+  edition_form: year
+  languages: [ru, kk]
+  sources: [matol-kz]
+  description: A city olympiad in Kazakhstan named after al-Farabi. matol.kz gives the papers of 2015/16. No shape is given, because no primary source of the papers was found.
 
 - code: uz-mo
   name: Uzbekistan national mathematics olympiad

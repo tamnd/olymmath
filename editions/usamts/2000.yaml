@@ -1,0 +1,31 @@
+year: 2000
+papers:
+  - name: Round 1
+    problems: [r11, r12, r13, r14, r15]
+  - name: Round 2
+    problems: [r21, r22, r23, r24, r25]
+  - name: Round 3
+    problems: [r31, r32, r33, r34, r35]
+  - name: Round 4
+    problems: [r41, r42, r43, r44, r45]
+official:
+  - lang: English
+    code: en
+    url: https://files.usamts.org/Problems_12_1.pdf
+    paper: round1
+    source: usamts
+  - lang: English
+    code: en
+    url: https://files.usamts.org/Problems_12_2.pdf
+    paper: round2
+    source: usamts
+  - lang: English
+    code: en
+    url: https://files.usamts.org/Problems_12_3.pdf
+    paper: round3
+    source: usamts
+  - lang: English
+    code: en
+    url: https://files.usamts.org/Problems_12_4.pdf
+    paper: round4
+    source: usamts

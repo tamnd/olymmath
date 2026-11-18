@@ -1,0 +1,10 @@
+year: 2008
+papers:
+  - name: Round I
+    problems: [a1, a2, a3]
+  - name: Round II
+    problems: [b1, b2, b3]
+  - name: Round III
+    problems: [c1, c2, c3]
+  - name: Round IV
+    problems: [d1, d2, d3]

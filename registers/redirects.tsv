@@ -421,3 +421,16 @@ sg-smo/2013/p3	sg-smo-senior/2013/r23
 sg-smo/2016/p1	sg-smo-junior/2016/r21
 sg-smo/2018/p3	sg-smo-junior/2018/r23
 sg-smo/2019/p2	sg-smo-junior/2019/r22
+# Agent decision, not a person's review (2026-11-18): the 12 AoPS records of the OMA of 2014 and 2020 are problems 1 to 6 of the third level of the Nacional, read from the papers of the OMA archive. They are now at the positions of that paper.
+ar-oma/2014/p1	ar-oma/2014/n31
+ar-oma/2014/p2	ar-oma/2014/n32
+ar-oma/2014/p3	ar-oma/2014/n33
+ar-oma/2014/p4	ar-oma/2014/n34
+ar-oma/2014/p5	ar-oma/2014/n35
+ar-oma/2014/p6	ar-oma/2014/n36
+ar-oma/2020/p1	ar-oma/2020/n31
+ar-oma/2020/p2	ar-oma/2020/n32
+ar-oma/2020/p3	ar-oma/2020/n33
+ar-oma/2020/p4	ar-oma/2020/n34
+ar-oma/2020/p5	ar-oma/2020/n35
+ar-oma/2020/p6	ar-oma/2020/n36

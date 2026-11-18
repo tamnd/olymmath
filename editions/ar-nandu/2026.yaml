@@ -1,0 +1,45 @@
+year: 2026
+papers:
+  - name: Interescolar nivel 1
+    problems: [i11, i12, i13]
+  - name: Interescolar nivel 2
+    problems: [i21, i22, i23]
+  - name: Interescolar nivel 3
+    problems: [i31, i32, i33]
+  - name: Zonal nivel 1
+    problems: [z11, z12, z13]
+  - name: Zonal nivel 2
+    problems: [z21, z22, z23]
+  - name: Zonal nivel 3
+    problems: [z31, z32, z33]
+official:
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/nandu/2026/nandu_intercolegial_2026.pdf
+    paper: i1
+    source: oma
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/nandu/2026/nandu_intercolegial_2026.pdf
+    paper: i2
+    source: oma
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/nandu/2026/nandu_intercolegial_2026.pdf
+    paper: i3
+    source: oma
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/nandu/2026/zonal_n_2026.pdf
+    paper: z1
+    source: oma
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/nandu/2026/zonal_n_2026.pdf
+    paper: z2
+    source: oma
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/nandu/2026/zonal_n_2026.pdf
+    paper: z3
+    source: oma

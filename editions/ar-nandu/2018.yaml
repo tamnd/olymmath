@@ -1,0 +1,87 @@
+year: 2018
+papers:
+  - name: Interescolar nivel 1
+    problems: [i11, i12, i13]
+  - name: Interescolar nivel 2
+    problems: [i21, i22, i23]
+  - name: Interescolar nivel 3
+    problems: [i31, i32, i33]
+  - name: Zonal nivel 1
+    problems: [z11, z12, z13]
+  - name: Zonal nivel 2
+    problems: [z21, z22, z23]
+  - name: Zonal nivel 3
+    problems: [z31, z32, z33]
+  - name: Regional nivel 1
+    problems: [r11, r12, r13]
+  - name: Regional nivel 2
+    problems: [r21, r22, r23]
+  - name: Regional nivel 3
+    problems: [r31, r32, r33]
+  - name: Nacional nivel 1
+    problems: [n11, n12, n13, n14, n15, n16]
+  - name: Nacional nivel 2
+    problems: [n21, n22, n23, n24, n25, n26]
+  - name: Nacional nivel 3
+    problems: [n31, n32, n33, n34, n35, n36]
+official:
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/nandu/2018/inter_n_2018.pdf
+    paper: i1
+    source: oma
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/nandu/2018/inter_n_2018.pdf
+    paper: i2
+    source: oma
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/nandu/2018/inter_n_2018.pdf
+    paper: i3
+    source: oma
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/nandu/2018/zonal_n_2018.pdf
+    paper: z1
+    source: oma
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/nandu/2018/zonal_n_2018.pdf
+    paper: z2
+    source: oma
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/nandu/2018/zonal_n_2018.pdf
+    paper: z3
+    source: oma
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/nandu/2018/nandu_regional_2018.pdf
+    paper: r1
+    source: oma
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/nandu/2018/nandu_regional_2018.pdf
+    paper: r2
+    source: oma
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/nandu/2018/nandu_regional_2018.pdf
+    paper: r3
+    source: oma
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/nandu/2018/nacional_n_2018.pdf
+    paper: n1
+    source: oma
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/nandu/2018/nacional_n_2018.pdf
+    paper: n2
+    source: oma
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/nandu/2018/nacional_n_2018.pdf
+    paper: n3
+    source: oma

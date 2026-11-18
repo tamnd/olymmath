@@ -606,7 +606,7 @@
   official_solutions: true
   languages: [en, sk, cs, pl, de, hu]
   sources: [naboj]
-  description: An international team competition for secondary schools, with about 50 answer problems in 120 minutes, held on one day in many cities. The old archive of naboj.org has the problems and solutions of each year from 2011. The shape is not checked yet, so it counts no positions.
+  description: An international team competition for secondary schools, with about 50 answer problems in 120 minutes, held on one day in many cities. The archive of math.naboj.org has the problems and solutions in HTML for 2013 to 2021 and 2023 to 2026, and as a PDF for 2011, 2012 and 2022. The number of problems changes from year to year, so it counts no positions.
 
 - code: naboj-junior
   name: Náboj Junior
@@ -620,7 +620,7 @@
   official_solutions: true
   languages: [en, sk, cs, pl, de, hu]
   sources: [naboj]
-  description: The junior team competition of Náboj for lower secondary schools. The old archive of naboj.org has the solutions of each year. The 2020 competition was cancelled. The shape is not checked yet, so it counts no positions.
+  description: The junior team competition of Náboj for lower secondary schools. The archive of junior.naboj.org has the problems and solutions in Slovak, in HTML for 2021 to 2025 and as a PDF for 2012 to 2019. The 2020 competition was cancelled. The number of problems changes from year to year, so it counts no positions.
 
 - code: kurschak
   name: Kürschák Competition

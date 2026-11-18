@@ -1,0 +1,17 @@
+year: 2025
+papers:
+  - name: Individual
+    problems: [i1, i2, i3, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13, i14, i15, i16, i17, i18, i19, i20]
+  - name: Team
+    problems: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15]
+official:
+  - lang: English
+    code: en
+    url: https://www.lhsmath.org/LMT/Archive/2025_GLMT/GLMT%202025%20Indiv%20Round.pdf
+    paper: individual
+    source: lhsmath
+  - lang: English
+    code: en
+    url: https://www.lhsmath.org/LMT/Archive/2025_GLMT/GLMT%202025%20Team%20Round.pdf
+    paper: team
+    source: lhsmath

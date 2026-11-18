@@ -2559,10 +2559,10 @@
     statement: Z2
     solution: Z2
   ai_train: unknown
-  size: Papers of the 47th to the 77th olympiad, about 90 PDF files
+  size: Papers of the 47th to the 78th olympiad, about 95 PDF files; the 63 papers of the first and second rounds are about 6.4 MB
   wave: 1
   state: active
-  notes: The papers of the three stages of each olympiad are in Polish. The third stage is the final, with six problems. om papers records them, and the rows of the final are placed with them.
+  notes: The papers of the three stages of each olympiad are in Polish. The third stage is the final, with six problems. om papers records them, and the rows of the final are placed with them. robots.txt gives 404 (checked 2026-11-18). om omsem reads the papers of the first round (pl-om-r1) and the second round (pl-om-r2) of 1996 to 2027 from their text layer; a problem with a root, a stacked fraction, a figure or a glyph the text layer does not keep stays a link. The 1997 papers (48th olympiad) have Type3 bitmap fonts and no text, and the 2016 papers (67th) split the numbers and the ogonek over fonts, so neither gave problems. The papers of round 1 of 1998, 1999, 2001, 2010, 2016, 2017 and 2018 and of round 2 of 1998, 1999, 2015, 2016 and 2017 lose the ą and the ę in their text layer and stay links. The second round of 2000 and 2001 (51st and 52nd) is only in the files of solutions, om51_2r and om52_2r. The second-round papers from 2015 and the first round of 2021 hold two A5 pages side by side. Papers without a usable text layer are in the vision queue.
 
 - id: archom
   name: Archiwum Olimpiady Matematycznej

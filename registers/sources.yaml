@@ -2467,7 +2467,7 @@
   ai_train: unknown
   wave: 1
   state: active
-  notes: "The papers of the final (Gara Nazionale) are listed at https://olimpiadi.dm.unibo.it/le-gare/gara-nazionale/: zip files for 1997 to 2015 and 2018, and PDF files for the other years. Some files hold the solutions with the problems. robots.txt (checked on 2026-11-04) disallows only /wp-admin/, /wp-login.php and /xmlrpc.php."
+  notes: "The papers of the final (Gara Nazionale) are listed at https://olimpiadi.dm.unibo.it/le-gare/gara-nazionale/: zip files for 1997 to 2015 and 2018, and PDF files for the other years. Some files hold the solutions with the problems. robots.txt (checked on 2026-11-18) disallows /wp-admin/ (but allows /wp-admin/admin-ajax.php), /wp-login.php, /xmlrpc.php, /wp-includes/, /?s=, /downloads/, /correzioni-olimpiadi/ and /correzioni-nuovo/, and sets no Crawl-delay; the papers are under /wp-content/uploads/. om unibo reads the archive pages of the Giochi di Archimede, the Gara di febbraio, the Gara Nazionale (Cesenatico) and the Gara delle classi prime, and from each zip file the paper of the problems: the papers of each part of Archimede apart when the zip file has them, and not the answer grids, the letter to the schools, the papers in English, the team and public papers, the semifinals and the other versions. The text comes from the PDF fonts (pdftohtml); no OCR. Not read, as their fonts give no usable text: Cesenatico 1997 to 2003 and 2006 (Type 3 or not embedded fonts lose the formulas, the ligatures and the accents), February 1997 to 2000 (fonts not embedded) and 2002 to 2005 (scans), Archimede 2004 (no text) and 2011 (turned pages)."
 
 - id: amoozz-ir
   name: Zehn-e Ziba olympiad school, papers of the Iranian Mathematical Olympiad

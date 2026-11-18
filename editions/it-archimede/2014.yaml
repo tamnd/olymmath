@@ -1,0 +1,10 @@
+year: 2014
+papers:
+  - name: Biennio
+    problems: [b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16]
+  - name: Triennio
+    problems: [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15, t16, t17, t18, t19, t20]
+official:
+  - lang: Italian
+    code: it
+    url: https://olimpiadi.dm.unibo.it/wp-content/uploads/2014/12/Giochi_Archimede_2014.zip

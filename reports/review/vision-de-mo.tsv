@@ -1,0 +1,6 @@
+# The link-only records that om ocr-fill read with the claude vision lane and left link-only: the position, the problem, the paper, the page, and the reason. A figure the text needs, a paper whose problems did not line up with the content, or a check that failed keeps the link only.
+de-mo/1962/p3	D3PRSFMN7G	https://www.olympiade-mathematik.de/pdf/block_a/01124_a.pdf	2	the checks found figure
+de-mo/1971/p6b	M072B1TTQJ	https://www.olympiade-mathematik.de/pdf/block_a/10124_a.pdf	3	the checks found figure
+de-mo/1985/p2	NJ16DJ9X7J	https://www.olympiade-mathematik.de/pdf/block_a/24124_a.pdf	2	the checks found figure
+de-mo/1990/p2	A7CD1BCE37	https://www.olympiade-mathematik.de/pdf/block_a/29124_a.pdf	2	the checks found figure
+de-mo/1990/p5	CSJMCPFYCM	https://www.olympiade-mathematik.de/pdf/block_a/29124_a.pdf	3	the checks found figure

@@ -815,8 +815,12 @@
   level: high-school
   edition_form: year
   per_year: 6
+  # Agent decision, not a person's review: the paper of 2024 in the archive index https://www.oma.org.ar/contents/enunciados/index.json (read on 2026-11-18) has four levels, A, 1, 2 and 3, each with two days of three problems numbered 1 to 6. The position of problem N of level k is p, then k, then N: pa1 is problem 1 of level A and p36 is problem 6 of level 3. The years before 2024 keep the positions p1 to p6 of their AoPS records, which give no level.
+  eras:
+    - {from: 2024, per_year: 24, layout: [{paper: na, name: Nivel A, positions: [pa1, pa2, pa3, pa4, pa5, pa6]}, {paper: n1, name: Nivel 1, positions: [p11, p12, p13, p14, p15, p16]}, {paper: n2, name: Nivel 2, positions: [p21, p22, p23, p24, p25, p26]}, {paper: n3, name: Nivel 3, positions: [p31, p32, p33, p34, p35, p36]}]}
   languages: [es]
-  description: A contest in three levels for students of the Río de la Plata region. Its archive is not confirmed.
+  sources: [oma, hf-ai-mo-aops, hf-aops-wiki]
+  description: A contest for students of the Río de la Plata region, in four levels (A, 1, 2 and 3) in 2024. The archive of the OMA holds the paper of 2024 only.
 
 - code: lusophon
   name: Lusophon Mathematical Olympiad

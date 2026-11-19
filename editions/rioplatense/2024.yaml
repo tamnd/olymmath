@@ -1,0 +1,15 @@
+year: 2024
+papers:
+  - name: Nivel A
+    problems: [pa1, pa2, pa3, pa4, pa5, pa6]
+  - name: Nivel 1
+    problems: [p11, p12, p13, p14, p15, p16]
+  - name: Nivel 2
+    problems: [p21, p22, p23, p24, p25, p26]
+  - name: Nivel 3
+    problems: [p31, p32, p33, p34, p35, p36]
+official:
+  - lang: Spanish
+    code: es
+    url: https://www.oma.org.ar/contents/enunciados/pdf/rioplatense/2024/RIOPLATENSE_2024.pdf
+    source: oma
